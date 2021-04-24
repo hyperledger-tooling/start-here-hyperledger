@@ -7,3 +7,6 @@ aux_links:
     - "//github.com/arsulegai/start-here-hyperledger"
   "Chat":
     - "https://chat.hyperledger.org"
+
+# List of excludes from being built into the website
+exclude: ["hyperledger-updates"]
