@@ -1,0 +1,9 @@
+# serve the site using this theme
+remote_theme: pmarsceill/just-the-docs
+logo: "hyperledger-logo.png"
+footer_content: "<a href=\"https://github.com/arsulegai/start-here-hyperledger\">Page generated from getting started repo on GitHub</a>"
+aux_links:
+  "GitHub":
+    - "//github.com/arsulegai/start-here-hyperledger"
+  "Chat":
+    - "https://chat.hyperledger.org"
