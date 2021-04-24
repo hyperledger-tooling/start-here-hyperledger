@@ -9,13 +9,11 @@ permalink: /pull-requests/{{.Organization.Github}}/{{.Repository.Name}}
 
 # {{.Repository.Name}}
 
-{{.Repository.About}}
-
 [Goto GitHub]({{.Repository.Link}}){: .btn .btn-blue }
 
 {{range .PRs}}
 <div class="code-example" markdown="1">
-| | {{.Name}} |
+| | {{.Title}} |
 |:-----|:-----------|
 | {{range .Labels}}{{.Name}}{: .label-grey }{{end}} | {{.Body}} |
 [View on GitHub]({{.URL}}){: .btn }

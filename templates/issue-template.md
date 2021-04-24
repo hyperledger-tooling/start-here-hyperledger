@@ -9,8 +9,6 @@ permalink: /issues/{{.Organization.Github}}/{{.Repository.Name}}
 
 # {{.Repository.Name}}
 
-{{.Repository.About}}
-
 [Goto GitHub]({{.Repository.Link}}){: .btn .btn-blue }
 
 {{range .Issues}}

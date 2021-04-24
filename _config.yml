@@ -9,4 +9,4 @@ aux_links:
     - "https://chat.hyperledger.org"
 
 # List of excludes from being built into the website
-exclude: ["hyperledger-updates", "templates", "actions"]
+exclude: ["hyperledger-updates", "templates", "actions", "docker"]

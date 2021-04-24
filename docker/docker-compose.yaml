@@ -1,0 +1,21 @@
+version: "3.6"
+
+networks:
+    test_network:
+        name: test_network
+
+services:
+    pull_request_action:
+        build:
+            context: ../hyperledger-updates
+            dockerfile: Dockerfile
+        container_name: pull_request_action
+        environment:
+            - GITHUB_TOKEN=${GITHUB_TOKEN}
+            - CONFIG_FILE=/actions/pull_prs.yaml
+        volumes:
+            - ../actions:/actions
+            - ../templates:/templates
+            - ../pull-requests:/pull-requests
+        networks:
+            - test_network
