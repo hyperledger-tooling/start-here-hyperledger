@@ -8,7 +8,9 @@ aux_links:
   "Chat":
     - "https://chat.hyperledger.org"
 
-github-backend: "https://github.com/arsulegai/hyperledger-updates"
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link

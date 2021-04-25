@@ -22,7 +22,7 @@ This is a perfect place for you to see the list of available issues which
 require help. Browse through them and get involved with
 [Hyperledger](https://www.hyperledger.org).
 
-# Contributors
+# Site Contributors
 
 Hyperledger has the most amazing open-source community. This site is made
 possible by generous contributions of
@@ -35,15 +35,10 @@ possible by generous contributions of
      alt="{{ contributor.login }}"/></a>
   </li>
 {% endfor %}
+</ul>
+
+# Backend Contributors
 
 The backend part that pulls in active data is made available by generous
 contributions of
-
-{% for contributor in site.github-backend.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img
-     src="{{ contributor.avatar_url }}" width="32" height="32"
-     alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
+[hyperledger-updates contributors](https://github.com/arsulegai/hyperledger-updates/graphs/contributors).
