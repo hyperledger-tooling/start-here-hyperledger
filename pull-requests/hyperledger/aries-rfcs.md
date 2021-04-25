@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                My proposal to deal with the issues that arise with credential attachments such as pdfs and images. 
+                My proposal to deal with the issues that arise with credential attachments such as pdfs and images in combination with verifiable credentials. 
 
 
 ﻿Signed-off-by: Berend Sliedrecht <berend@animo.id>
