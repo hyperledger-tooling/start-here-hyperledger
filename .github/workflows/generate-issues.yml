@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Clone the repository
         uses: "actions/checkout@v2"
+        with:
+          submodules: recursive
       - name: Generate latest issues information
         run: docker-compose -f docker/docker-compose.yaml up --build issue_action
         env:
