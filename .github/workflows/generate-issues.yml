@@ -1,0 +1,27 @@
+name: Generate Issues
+
+on:
+  schedule:
+    - cron: '0 1,7,13,19 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate latest issues information
+        uses: "actions/checkout@v2"
+        run: docker-compose -f docker/docker-compose.yaml issue_action up --build
+        env:
+          GITHUB_TOKEN: "${{ secrets.PAT }}"
+      - name: Create Pull Request with new Issues
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.PAT }}
+          branch-suffix: timestamp
+          title: Update Issues
+          labels: automerge
+          signoff: true
+          delete-branch: true
+          commit-message: Update Issues

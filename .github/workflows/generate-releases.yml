@@ -1,0 +1,27 @@
+name: Generate PRs
+
+on:
+  schedule:
+    - cron: '0 2,8,14,20 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate latest release information
+        uses: "actions/checkout@v2"
+        run: docker-compose -f docker/docker-compose.yaml issue_action up --build
+        env:
+          GITHUB_TOKEN: "${{ secrets.PAT }}"
+      - name: Create Pull Request with new Releases
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.PAT }}
+          branch-suffix: timestamp
+          title: Update Releases
+          labels: automerge
+          signoff: true
+          delete-branch: true
+          commit-message: Update Releases

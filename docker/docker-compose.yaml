@@ -19,3 +19,33 @@ services:
             - ../pull-requests:/pull-requests
         networks:
             - test_network
+
+    issue_action:
+        build:
+            context: ../hyperledger-updates
+            dockerfile: Dockerfile
+        container_name: issue_action
+        environment:
+            - GITHUB_TOKEN=${GITHUB_TOKEN}
+            - CONFIG_FILE=/actions/pull_issues.yaml
+        volumes:
+            - ../actions:/actions
+            - ../templates:/templates
+            - ../issues:/issues
+        networks:
+            - test_network
+
+    release_action:
+        build:
+            context: ../hyperledger-updates
+            dockerfile: Dockerfile
+        container_name: release_action
+        environment:
+            - GITHUB_TOKEN=${GITHUB_TOKEN}
+            - CONFIG_FILE=/actions/pull_releases.yaml
+        volumes:
+            - ../actions:/actions
+            - ../templates:/templates
+            - ../releases:/releases
+        networks:
+            - test_network

@@ -24,10 +24,22 @@ require help. Browse through them and get involved with
 
 # Contributors
 
-The site is made available through generous contributions of
+Hyperledger has the most amazing open-source community. This site is made
+possible by generous contributions of
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
+  <li class="d-inline-block mr-1">
+     <a href="{{ contributor.html_url }}"><img
+     src="{{ contributor.avatar_url }}" width="32" height="32"
+     alt="{{ contributor.login }}"/></a>
+  </li>
+{% endfor %}
+
+The backend part that pulls in active data is made available by generous
+contributions of
+
+{% for contributor in site.github-backend.contributors %}
   <li class="d-inline-block mr-1">
      <a href="{{ contributor.html_url }}"><img
      src="{{ contributor.avatar_url }}" width="32" height="32"
