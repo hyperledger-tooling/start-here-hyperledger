@@ -12,7 +12,7 @@ permalink: /releases/{{.Organization.Github}}/{{.Repository.Name}}
 You can clone this repo on <span class="fs-3">[GitHub]({{.Repository.Link}}){: .btn .mr-4 }</span>
 
 {{range .Releases}}
-<div class="code-example" markdown="1">
+<div>
     <table>
         <tr>
             <td colspan="2">
