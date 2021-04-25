@@ -7,16 +7,14 @@ has_children: false
 permalink: /pull-requests/{{.Organization.Github}}/{{.Repository.Name}}
 ---
 
-# {{.Repository.Name}}
-
-You can clone this repo on <span class="fs-3">[GitHub]({{.Repository.Link}}){: .btn .mr-4 }</span>
+# {{.Repository.Name}} <span class="fs-3 right-align">[GitHub]({{.Repository.Link}}){: .btn .mr-4 }</span>
 
 {{range .PRs}}
-<div class="code-example" markdown="1">
+<div>
     <table>
         <tr>
             <td>
-                PR [#{{.Number}}]({{.URL}})
+                PR <a href="{{.HTMLURL}}" class=".btn">#{{.Number}}</a>
             </td>
             <td>
                 <b>
@@ -26,7 +24,7 @@ You can clone this repo on <span class="fs-3">[GitHub]({{.Repository.Link}}){: .
         </tr>
         <tr>
             <td>
-                {{range .Labels}}{{.Name}}{: .label-grey }{{end}}
+                {{range .Labels}}<span class="chip">{{.Name}}</span>{{end}}
             </td>
             <td>
                 {{.Body}}
