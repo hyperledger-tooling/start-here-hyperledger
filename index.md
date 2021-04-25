@@ -22,10 +22,12 @@ This is a perfect place for you to see the list of available issues which
 require help. Browse through them and get involved with
 [Hyperledger](https://www.hyperledger.org).
 
-# Site Contributors
+# Contributors
 
 Hyperledger has the most amazing open-source community. This site is made
 possible by generous contributions of
+
+## Site Contributors
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
@@ -37,6 +39,7 @@ possible by generous contributions of
 {% endfor %}
 </ul>
 
-# Backend Contributors
+## Backend Contributors
 <ul class="list-style-none">  <li class="d-inline-block mr-1"> <a href="https://github.com/arsulegai"><img src="https://avatars.githubusercontent.com/u/27664223?v=4" width="32" height="32" alt="27664223"></a> </li>  <li class="d-inline-block mr-1"> <a href="https://github.com/arnabkaycee"><img src="https://avatars.githubusercontent.com/u/564453?v=4" width="32" height="32" alt="564453"></a> </li>  <li class="d-inline-block mr-1"> <a href="https://github.com/ysh4"><img src="https://avatars.githubusercontent.com/u/34501331?v=4" width="32" height="32" alt="34501331"></a> </li>  <li class="d-inline-block mr-1"> <a href="https://github.com/deepesh-verma"><img src="https://avatars.githubusercontent.com/u/14335972?v=4" width="32" height="32" alt="14335972"></a> </li>  </ul>
 
+## GitHub Action Contributors

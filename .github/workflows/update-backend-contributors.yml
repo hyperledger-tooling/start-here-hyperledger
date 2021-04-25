@@ -19,7 +19,16 @@ jobs:
         env:
           GITHUB_AUTH_TOKEN: "${{ secrets.PAT }}"
           SOURCE_GITHUB_REPOSITORY: arsulegai/hyperledger-updates
-          CONTRIBUTORS_SECTION_PATTERN: "# Backend Contributors"
+          CONTRIBUTORS_SECTION_PATTERN: "## Backend Contributors"
+          CONTRIBUTORS_SECTION_END_PATTERN: "## GitHub Action Contributors"
+          INPUT_TEMPLATE_FILE: ./templates/contributor-template.md
+          FILE_WITH_PATTERN: ./index.md
+      - name: Get action contributors information
+        uses: "arsulegai/github-contributors-action@main"
+        env:
+          GITHUB_AUTH_TOKEN: "${{ secrets.PAT }}"
+          SOURCE_GITHUB_REPOSITORY: arsulegai/github-contributors-action
+          CONTRIBUTORS_SECTION_PATTERN: "## GitHub Action Contributors"
           INPUT_TEMPLATE_FILE: ./templates/contributor-template.md
           FILE_WITH_PATTERN: ./index.md
       - name: Create Pull Request with new backend contributors
