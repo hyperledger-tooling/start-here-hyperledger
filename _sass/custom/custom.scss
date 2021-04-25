@@ -1,8 +1,13 @@
-.label-grey {
-  color: $grey-dk-300;
-  background-color: $grey-lt-000;
-}
-
 .right-align {
     text-align: right;
 }
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }

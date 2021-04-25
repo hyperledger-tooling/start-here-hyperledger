@@ -26,5 +26,5 @@ jobs:
           title: Update Releases
           labels: automerge
           signoff: true
-          delete-branch: true
+          delete-branch: false
           commit-message: Update Releases

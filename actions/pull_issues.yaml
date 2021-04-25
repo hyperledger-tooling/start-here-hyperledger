@@ -22,7 +22,7 @@ issues:
   should-run: true
   data-file: "generated-data/issue-data.json"
   external-template:
-    input: "/templates/issue-template.yaml"
+    input: "/templates/issue-template.md"
     output: "/issues"
 
 # Config for Pull Requests
