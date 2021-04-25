@@ -38,7 +38,5 @@ possible by generous contributions of
 </ul>
 
 # Backend Contributors
+<ul class="list-style-none">  <li class="d-inline-block mr-1"> <a href="https://github.com/arsulegai"><img src="https://avatars.githubusercontent.com/u/27664223?v=4" width="32" height="32" alt="27664223"></a> </li>  </ul>
 
-The backend part that pulls in active data is made available by generous
-contributions of
-[hyperledger-updates contributors](https://github.com/arsulegai/hyperledger-updates/graphs/contributors).
