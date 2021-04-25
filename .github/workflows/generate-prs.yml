@@ -10,9 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate latest PR information
+      - name: Clone the repository
         uses: "actions/checkout@v2"
-        run: docker-compose -f docker/docker-compose.yaml pull_request_action up --build
+      - name: Generate latest PR information
+        run: docker-compose -f docker/docker-compose.yaml up --build pull_request_action
         env:
           GITHUB_TOKEN: "${{ secrets.PAT }}"
       - name: Create Pull Request with new PRs

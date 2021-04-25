@@ -10,9 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate latest issues information
+      - name: Clone the repository
         uses: "actions/checkout@v2"
-        run: docker-compose -f docker/docker-compose.yaml issue_action up --build
+      - name: Generate latest issues information
+        run: docker-compose -f docker/docker-compose.yaml up --build issue_action
         env:
           GITHUB_TOKEN: "${{ secrets.PAT }}"
       - name: Create Pull Request with new Issues
