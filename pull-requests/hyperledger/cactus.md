@@ -714,30 +714,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/812" class=".btn">#812</a>
-            </td>
-            <td>
-                <b>
-                    feat(core-api): hasTransactionFinality() on connector API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adding function hasTransactionFinality() on connector API, to let ledger query whether the configured consensus has transaction finality at run time.
-Fixes #354 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-18 13:31:27 +0000 UTC
-    </div>
-</div>
-
