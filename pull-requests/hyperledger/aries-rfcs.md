@@ -40,29 +40,3 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/640" class=".btn">#640</a>
-            </td>
-            <td>
-                <b>
-                    fix some typos in 0593
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-18 17:59:06 +0000 UTC
-    </div>
-</div>
-
