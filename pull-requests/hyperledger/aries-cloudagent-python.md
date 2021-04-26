@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1118" class=".btn">#1118</a>
+            </td>
+            <td>
+                <b>
+                    make long strings look like elsewhere in aca-py; cover new routes code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sklump <srklump@hotmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-26 11:36:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1117" class=".btn">#1117</a>
+            </td>
+            <td>
+                <b>
+                    not having a body is OK to send bound offer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix https://github.com/hyperledger/aries-cloudagent-python/issues/1114
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-26 10:54:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1116" class=".btn">#1116</a>
             </td>
             <td>

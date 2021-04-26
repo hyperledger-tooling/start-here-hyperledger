@@ -285,7 +285,7 @@ Signed-off-by: i1i1 <vanyarybin1@live.ru>
 
 ### Description of the Change
 
-Remove lock from WSV and make maps and sets mutable concurrently. It uses [dashmap](https://crates.io/crates/dashmap) crate for that. (It also uses [lockfree](https://crates.io/crates/lockfree) for the queue, stack...)
+Remove lock from WSV and make maps and sets mutable concurrently. It uses [dashmap](https://crates.io/crates/dashmap) crate for that.
 
 ### Benefits
 
@@ -430,54 +430,6 @@ Added RocksDB implementation of Indexer.
     </table>
     <div class="right-align">
         Created At 2021-04-19 12:52:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/981" class=".btn">#981</a>
-            </td>
-            <td>
-                <b>
-                    Remove old code from iroha_config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: i1i1 <vanyarybin1@live.ru>
-
-### Description of the Change
-
-Pr removes setting of config variables inside locks, leaving only getting field and docs.
-
-### Benefits
-
-No unused code in repo
-
-### Possible Drawbacks 
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-19 09:08:18 +0000 UTC
     </div>
 </div>
 
