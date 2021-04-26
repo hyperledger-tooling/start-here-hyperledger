@@ -38,32 +38,3 @@ Signed-off-by: Simon Stone <sstone1@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/440" class=".btn">#440</a>
-            </td>
-            <td>
-                <b>
-                    Fixed information leak
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Replaces PR #434 
-
-Signed-off-by: Kurt Seifried <kurt@seifried.org>
-Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-19 17:37:00 +0000 UTC
-    </div>
-</div>
-

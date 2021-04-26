@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/indy-plenum
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1534" class=".btn">#1534</a>
-            </td>
-            <td>
-                <b>
-                    Remove some pinned dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Anton Denishchenko <anton.denishchenko@evernym.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-19 12:49:33 +0000 UTC
-    </div>
-</div>
-
