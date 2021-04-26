@@ -117,34 +117,3 @@ This assumes that the agents still have auto accept enabled.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/386" class=".btn">#386</a>
-            </td>
-            <td>
-                <b>
-                    Feature/create schema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added code for creating a schema, and for creating credentials definitions for your schemas.
-This is currently hooked in from Settings, but will be refactored later when we have more issuer functionality.
-
-Have started the process of creating fronted services for axios calls, eventually this will be the full BPA api/client.
-
-Still need tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-19 00:14:04 +0000 UTC
-    </div>
-</div>
-
