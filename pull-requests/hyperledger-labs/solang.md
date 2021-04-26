@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    Support implicit accessor functions
+                    Parse and resolve uniswap v2
                 </b>
             </td>
         </tr>

@@ -139,33 +139,3 @@ Resolves #1403
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1405" class=".btn">#1405</a>
-            </td>
-            <td>
-                <b>
-                    [besu] fix ambassador upgrade
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
-
-**Changelog**
-- Latest from develop
-- Updated Besu Add node to support IP Address
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-19 08:46:43 +0000 UTC
-    </div>
-</div>
-
