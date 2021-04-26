@@ -679,38 +679,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/813" class=".btn">#813</a>
-            </td>
-            <td>
-                <b>
-                    feat(tools): add test-npm-registry container image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
-            </td>
-            <td>
-                ## Dependencies
-
-#810 
-
-## Commit to review
-
-This is also tagged on DockerHub as
-petermetz/cactus-test-npm-registry:1.0.0
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-18 21:57:46 +0000 UTC
-    </div>
-</div>
-
