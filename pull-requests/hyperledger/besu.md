@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    Try ignoring changelog
+                    Ignoring changelog modification on CI
                 </b>
             </td>
         </tr>
@@ -34,13 +34,15 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
+During releases we can waste time waiting for the pipeline while we only change the CHANGELOG. This PR will not run the tests if we only modify the CHANGELOG
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -589,70 +591,6 @@ Related to #2125, private tx estimation passes the `privateFor` field eg
     </table>
     <div class="right-align">
         Created At 2021-04-19 23:48:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2159" class=".btn">#2159</a>
-            </td>
-            <td>
-                <b>
-                    Update Reference Tests to 8.0.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-19 18:30:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2158" class=".btn">#2158</a>
-            </td>
-            <td>
-                <b>
-                    Remove Misleading Fast-Sync Logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-Users have been confused by this logging all the time. Probably best we remove those aspects that confuse them.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2156 
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-19 14:34:59 +0000 UTC
     </div>
 </div>
 

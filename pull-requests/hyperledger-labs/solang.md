@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                
+                The uniswap contracts fail to compile to due syntax which solang doesn't accept yet. This patch series adds the required syntax to make the contracts parse, and resolve (apart from `assembly { .. }`). Successful code emitting and testing will happen in a later pr.
             </td>
         </tr>
     </table>
