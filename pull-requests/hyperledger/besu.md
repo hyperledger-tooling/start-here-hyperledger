@@ -758,36 +758,3 @@ Signed-off-by: Abdelhamid Bakhta <abdelhamid.bakhta@consensys.net>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2153" class=".btn">#2153</a>
-            </td>
-            <td>
-                <b>
-                    Update qbft reference test submodule with SPDX header
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Update qbft reference test submodule with SPDX header
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-
-Signed-off-by: Usman Saleem <usman@usmans.info>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-19 02:13:11 +0000 UTC
-    </div>
-</div>
-
