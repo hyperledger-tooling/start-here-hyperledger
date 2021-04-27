@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/399" class=".btn">#399</a>
+            </td>
+            <td>
+                <b>
+                    #385 Feature/connect to personal wallets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backend</span><span class="chip">enhancement</span><span class="chip">frontend</span><span class="chip">help wanted</span>
+            </td>
+            <td>
+                Issue #385.
+
+First feature PR, please let me know if I mis-used anything. 
+
+API method that passes parameters into acapy `create-invitation` endpoint, injecting service_name based on application config. and returns the aca-py response directly `{invitationUrl:"",connectionId:""}`
+
+Frontend method that makes call on click, and uses qrcode.vue component to render QR code on screen.
+
+I'm unsure on the PartnerManager and ConnectionManager relationship, i connected PartnerController directly to ConnectionManager, but this may have been incorrect if you always want it to go through the partnerManager. 
+
+Issues to fix: 
+- [x] `mvn -f backend/pom.xml test spotbugs:check pmd:check` fails
+- [ ] After aca-py successfully responds to `connections/create-invitation` it raises an event to the BPA, and the [aca-py client model](https://github.com/boschresearch/aries-acapy-clients/blob/main/java/src/main/java/org/hyperledger/aries/api/connection/ConnectionRecord.java) for that eventhander is too strict in that 'theirLabel' is a required field but is not always provided. 
+ _this does not stop the invitation from being used and a connection to be established (it overwrites those values later during the actual connection creation)_
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-26 20:37:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/396" class=".btn">#396</a>
             </td>
             <td>
@@ -109,6 +148,8 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 Allow a BPA to issue a credential directly to a partner.
 This is the simplest issuance, and our first step.
 This assumes that the agents still have auto accept enabled.
+
+I don't think this is where all the code will end up, as we will be expanding the issuing capabilities, so I expect major refactoring then. I think we will also need to look at a lot of our existing components that have api calls in them, when perhaps they would be more useful with render only and event hooks for the caller to determine the logic. But we can look at that after we are more feature complete.
             </td>
         </tr>
     </table>

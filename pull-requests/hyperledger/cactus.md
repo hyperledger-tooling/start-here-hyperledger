@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/826" class=".btn">#826</a>
+            </td>
+            <td>
+                <b>
+                    perf(tools): fabric 1.x AIO image pre-fetching #649
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Fabric</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                Fixes #649
+
+In addition to that fix it also fixes a pre-fetching bug in the 2.x
+image which was stopping it from actually using the pre-fetched images
+on the file-system => the directory paths had to be specified
+one by one for each image that we pre-fetched, it did not
+work if you specified a common parent directory where the
+images were stored, so this commit provides a fix for both
+1.4.x and 2.x in the sense that they both should no longer
+hit DockerHub for image downloads at container startup
+time, only build-time as long as the FABRIC_VERSION
+env vars were not altered by the person launching the
+containers (if they were then those different versions
+will still have to be fetched at runtime).
+
+The biggest net positive effect(s) of this commit:
+1. Image boot will be much faster, especially on machines
+where the network is slow.
+2. The risk of getting slapped with DockerHub image pull
+rate limiting goes down significantly.
+
+Also fixes a health check bug where the FABRIC_VERSION build arg
+was not being exposed as an ENV var
+in the container and the parsing of the
+version was failing due to this.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-20 04:21:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/825" class=".btn">#825</a>
             </td>
             <td>
@@ -94,40 +146,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-04-20 02:22:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/824" class=".btn">#824</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-besu): contract deployment with constructor arguments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Besu</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                Previously you couldn't deploy a contract that had constructor arguments
-of it's own because there was no way to pass in these.
-With this improvement this is now possible.
-
-Depends on #810
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-cc: @jordigiam @AzaharaC 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-19 21:55:14 +0000 UTC
     </div>
 </div>
 

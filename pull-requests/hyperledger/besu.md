@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2193" class=".btn">#2193</a>
+            </td>
+            <td>
+                <b>
+                    Address 1559 config assumption
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                address assumption that if 1559 is enabled there is a london fork block config
+fixes #2192
+
+Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-26 23:47:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2185" class=".btn">#2185</a>
             </td>
             <td>
@@ -551,46 +593,6 @@ Run buildDocker in parallel with tests. publishDocker still happens after buildD
     </table>
     <div class="right-align">
         Created At 2021-04-20 03:00:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2160" class=".btn">#2160</a>
-            </td>
-            <td>
-                <b>
-                    ignore privateFor for tx estimation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Related to #2125, private tx estimation passes the `privateFor` field eg 
-```
-{"jsonrpc":"2.0","method":"eth_estimateGas","params":[{"from":"0x6402a0d7d3ed9db2163a234925e2bf82d45c7f99","gas":"0x47b760","value":"0x0","data":"0x608060405234801561001057600080fd5b5060405160208061011b8339810180604052602081101561003057600080fd5b505160005560d8806100436000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806360fe47b11460375780636d4ce63c146053575b600080fd5b605160048036036020811015604b57600080fd5b5035606b565b005b605960a6565b60408051918252519081900360200190f35b60008190556040805182815290517f281b9a35503a0b511f50336e3e6b0d05a64fdadae7255e70f430feb2313c3c689181900360200190a150565b6000549056fea165627a7a7230582044f05a413bc5760ad1822322e6d8df2e38a8d78bb77512b03041026765408a1c0029","nonce":"0x0","privateFor":["FYmUrG0welC/cEm0buZsH9fjGeuETNZvZNeiROpy7XA="]}],"id":8}
-
-```
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-19 23:48:58 +0000 UTC
     </div>
 </div>
 

@@ -91,7 +91,7 @@ Fixes #
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                - Remove docker build from default build path (Full docker build is still done by CI)
+                - Move docker build from default `build` to `all` target
 - Remove build-dep on test and linter to give the developer the freedom to just do the stuff they want (make all, or just make, still performs make build test)
 
 Signed-off-by: Marcus brandenburger <bur@zurich.ibm.com>
@@ -192,35 +192,6 @@ Fixes #555
     </table>
     <div class="right-align">
         Created At 2021-04-21 11:17:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-private-chaincode/pull/569" class=".btn">#569</a>
-            </td>
-            <td>
-                <b>
-                    Remove unused docker build dependencies (cc builder & peer)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR removes the cc_builder and peer from the docker build (but maintains the docker files as they might be useful in the future), thereby speeding up both local and CI build. 
-
-Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-20 00:09:18 +0000 UTC
     </div>
 </div>
 
