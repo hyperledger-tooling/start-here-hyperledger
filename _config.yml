@@ -1,10 +1,10 @@
 # serve the site using this theme
 remote_theme: pmarsceill/just-the-docs
 logo: "hyperledger-logo.png"
-footer_content: "<a href=\"https://github.com/arsulegai/start-here-hyperledger\">Page generated from getting started repo on GitHub</a>"
+footer_content: "<a href=\"https://github.com/hyperledger-tooling/start-here-hyperledger\">Page generated from getting started repo on GitHub</a>"
 aux_links:
   "GitHub":
-    - "//github.com/arsulegai/start-here-hyperledger"
+    - "//github.com/hyperledger-tooling/start-here-hyperledger"
   "Chat":
     - "https://chat.hyperledger.org"
 
@@ -15,7 +15,7 @@ back_to_top_text: "Back to top"
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/arsulegai/start-here-hyperledger" # the github URL for your repo
+gh_edit_repository: "https://github.com/hyperledger-tooling/start-here-hyperledger" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 

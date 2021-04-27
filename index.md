@@ -12,7 +12,7 @@ The website lists latest releases, pull requests and issues across
 [Hyperledger Labs](https://github.com/hyperledger-labs) organization
 repositories. The website is auto served to you from the community
 at Hyperledger. Raise a
-[GitHub issue](https://github.com/arsulegai/start-here-hyperledger) or a
+[GitHub issue](https://github.com/hyperledger-tooling/start-here-hyperledger) or a
 pull request in case you would like to see changes here.
 
 Go to [Hyperledger Updates](https://github.com/arsulegai/hyperledger-updates)
