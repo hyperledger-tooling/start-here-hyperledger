@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2759" class=".btn">#2759</a>
+            </td>
+            <td>
+                <b>
+                    feat: vc wallet EDV storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - if wallet user provides EDV settings during profile creationfor
+storage then wallet will create internal EDV client instance for storing
+wallet contents
+- for now, encryption and MAC key IDs has to be provided by client user
+during profile creation/update
+- closes #2757
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-26 22:46:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2755" class=".btn">#2755</a>
             </td>
             <td>
@@ -332,40 +366,6 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-04-20 03:30:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2742" class=".btn">#2742</a>
-            </td>
-            <td>
-                <b>
-                    feat: collections data model & content mapping
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - added collection data model data mapping to VC wallet
-- all wallet contents can be mapped to an existing collection in wallet
-content store
-- fixed issue in getAll which exposes db key prefix in list of wallet
-contents
-- Closes #2741
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-19 22:10:51 +0000 UTC
     </div>
 </div>
 
