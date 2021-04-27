@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/213" class=".btn">#213</a>
+            </td>
+            <td>
+                <b>
+                    Update dev REST API specification
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Brings the spec up to date with the working spec in the Grid repo
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-27 20:09:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid-docs/pull/212" class=".btn">#212</a>
             </td>
             <td>
