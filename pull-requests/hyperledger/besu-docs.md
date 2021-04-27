@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/693" class=".btn">#693</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/694" class=".btn">#694</a>
             </td>
             <td>
                 <b>
-                    doc ethstats options
+                    clarify privacy precompile info
                 </b>
             </td>
         </tr>
@@ -51,7 +51,9 @@ Make sure that:
 
 <!-- A clear and concise description of what this PR changes in the documentation. -->
 
-Add CLI documentation for enabling EthStats support.
+- reiterate info about including privacy compile when using priv_distributeRawTransaction
+- fix method name in priv_distributeRawTransaction example
+- fix broken link to renamed flexible groups option
 
 ## Issue fixed
 
@@ -65,7 +67,7 @@ If multiple issues are involved, use one line for each issue.
 If you don't want to close the issue, use:
 see #{your issue number} -->
 
-fixes #464 
+fixes #456 
 
 ## Impacted parts <!-- check as many boxes as needed -->
 
@@ -93,7 +95,7 @@ Link format is https://hyperledger-besu--{your PR number}.org.readthedocs.build/
 Where {your PR number} must be replaced by the number of this PR, for instance 123
 -->
 
-see https://hyperledger-besu--693.org.readthedocs.build/en/693/Reference/CLI/CLI-Syntax/#ethstats
+see https://hyperledger-besu--694.org.readthedocs.build/en/694/
 
 ## Screenshots / recording
 
@@ -104,7 +106,7 @@ don't hesitate to link an annotated screenshot or a small demo video. -->
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-24 00:31:13 +0000 UTC
+        Created At 2021-04-27 21:05:26 +0000 UTC
     </div>
 </div>
 
