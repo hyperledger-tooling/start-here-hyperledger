@@ -337,35 +337,3 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2743" class=".btn">#2743</a>
-            </td>
-            <td>
-                <b>
-                    feat: add KeyAgreement to DIDDoc and variable key type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">aip 2.0</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                This change adds a new encryption key into the DID doc in DIDcomm stored as a KeyAgreement verification
-It also includes variable key types for authentication (signing) and encryption keys in the framework and the DIDExchange service
-
-closes #1993, #2682
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-20 03:30:06 +0000 UTC
-    </div>
-</div>
-

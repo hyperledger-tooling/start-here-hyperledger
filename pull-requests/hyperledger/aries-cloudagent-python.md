@@ -308,29 +308,3 @@ Signed-off-by: sklump <srklump@hotmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1100" class=".btn">#1100</a>
-            </td>
-            <td>
-                <b>
-                    Replace ledger with resolver in OOB manager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-20 02:40:51 +0000 UTC
-    </div>
-</div>
-
