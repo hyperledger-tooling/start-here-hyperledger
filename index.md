@@ -15,7 +15,7 @@ at Hyperledger. Raise a
 [GitHub issue](https://github.com/hyperledger-tooling/start-here-hyperledger) or a
 pull request in case you would like to see changes here.
 
-Go to [Hyperledger Updates](https://github.com/arsulegai/hyperledger-updates)
+Go to [Hyperledger Updates](https://github.com/hyperledger-tooling/hyperledger-updates)
 repository to learn how is this populated. Raise a PR to make a change.
 
 This is a perfect place for you to see the list of available issues which
