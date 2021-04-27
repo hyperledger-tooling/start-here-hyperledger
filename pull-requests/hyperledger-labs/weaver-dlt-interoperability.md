@@ -64,29 +64,3 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/41" class=".btn">#41</a>
-            </td>
-            <td>
-                <b>
-                    Updating make protos-local in README and module root in go.mod
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-20 18:27:40 +0000 UTC
-    </div>
-</div>
-
