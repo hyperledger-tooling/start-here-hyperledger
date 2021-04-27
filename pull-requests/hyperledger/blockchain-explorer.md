@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/229" class=".btn">#229</a>
-            </td>
-            <td>
-                <b>
-                    BE-866 Release v1.1.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-20 12:59:57 +0000 UTC
-    </div>
-</div>
-

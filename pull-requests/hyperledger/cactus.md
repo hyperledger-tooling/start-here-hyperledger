@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/875" class=".btn">#875</a>
+            </td>
+            <td>
+                <b>
+                    fix(connector-fabric): export IPluginLedgerConnectorFabricOptions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Exports IPluginLedgerConnectorFabricOptions from the Fabric Connector public API 
+
+cc @petermetz 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-27 12:50:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/873" class=".btn">#873</a>
             </td>
             <td>
