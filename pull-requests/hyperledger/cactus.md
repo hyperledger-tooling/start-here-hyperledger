@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/873" class=".btn">#873</a>
+            </td>
+            <td>
+                <b>
+                    docs(htlc-coordinator): added the flow diagram
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolve #603 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-27 06:52:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/870" class=".btn">#870</a>
             </td>
             <td>
@@ -743,32 +769,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-04-21 06:29:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/827" class=".btn">#827</a>
-            </td>
-            <td>
-                <b>
-                    docs(readthedocs): readthedocs documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolve #221 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-20 10:00:54 +0000 UTC
     </div>
 </div>
 

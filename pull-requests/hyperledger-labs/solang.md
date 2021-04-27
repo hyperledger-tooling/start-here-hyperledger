@@ -62,32 +62,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/409" class=".btn">#409</a>
-            </td>
-            <td>
-                <b>
-                    Implement returning data from external function calls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In order to simplify cross program invocation, we will be storing
-return data alongside contract data.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-20 10:47:56 +0000 UTC
-    </div>
-</div>
-
