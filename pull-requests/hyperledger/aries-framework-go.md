@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2760" class=".btn">#2760</a>
+            </td>
+            <td>
+                <b>
+                    refactor: cleanup JSON-LD contexts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR:
+* simplifies new JSON-LD document loader:
+  - support for `WithContextFS` was removed (in practice it didn't justify itself)
+  - "core" set of embedded contexts was defined (extra contexts can be preloaded using `WithExtraContexts`)
+* replaces the following contexts:
+  - `https://trustbloc.github.io/context/vc/credentials-v1.jsonld` -> `https://w3id.org/security/jws/v1`
+  - `https://trustbloc.github.io/context/vc/examples-v1.jsonld` -> `https://w3id.org/vc-revocation-list-2020/v1` (only in BDD tests - this allows to remove it from the main embedded set)
+
+Closes #2751
+
+Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-27 10:57:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2759" class=".btn">#2759</a>
             </td>
             <td>
