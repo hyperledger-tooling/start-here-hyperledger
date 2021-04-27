@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/80" class=".btn">#80</a>
+            </td>
+            <td>
+                <b>
+                    v2.2.2 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-27 14:09:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/79" class=".btn">#79</a>
             </td>
             <td>
@@ -117,32 +143,6 @@ Co-authored-by: ndr_brt <andrea.bertagnolli@cherrychain.it>
     </table>
     <div class="right-align">
         Created At 2021-04-23 13:59:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/75" class=".btn">#75</a>
-            </td>
-            <td>
-                <b>
-                    Enable/Disable filter blocks events register
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Implemented new feature to enable/disable filter blocks events register.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-20 16:49:55 +0000 UTC
     </div>
 </div>
 

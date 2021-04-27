@@ -66,7 +66,7 @@ Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
                 
             </td>
             <td>
-                - if wallet user provides EDV settings during profile creationfor
+                - if wallet user provides EDV settings during profile creation for
 storage then wallet will create internal EDV client instance for storing
 wallet contents
 - for now, encryption and MAC key IDs has to be provided by client user
@@ -345,34 +345,6 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-04-21 14:35:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2744" class=".btn">#2744</a>
-            </td>
-            <td>
-                <b>
-                    feat: Naive implementation of additional LevelDB storage methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Implemented the LevelDB storage provider's GetOpenStores, GetBulk, and Batch methods. The GetBulk and Batch implementations are basic/naive ones for now. In a future PR they will be improved upon.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-20 16:13:09 +0000 UTC
     </div>
 </div>
 

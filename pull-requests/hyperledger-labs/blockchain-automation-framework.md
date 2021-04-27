@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1423" class=".btn">#1423</a>
+            </td>
+            <td>
+                <b>
+                    Added ambassador-certs molecule test scenario
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angela <angela@ip-10-0-2-16.eu-central-1.compute.internal>
+
+**Changelog**
+- Added ambassador-certs molecule test scenario.
+
+ 
+
+**Reviewed by**
+@sownak
+
+ 
+
+**Linked issue**
+#719 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-27 14:31:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1413" class=".btn">#1413</a>
             </td>
             <td>

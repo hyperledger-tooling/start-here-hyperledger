@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/65" class=".btn">#65</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    Rename `sawtooth_xo` to `xo` in manifest
+                    Add Release Notes for 0.5.1
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
                 
             </td>
             <td>
-                When loading smart contract archives from scar files Transact checks that the name in the manifest matches the scar file
-name. This commit updates the contract name in the manifest for the xo contract to match the scar file name.
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-20 15:46:35 +0000 UTC
+        Created At 2021-04-27 14:18:57 +0000 UTC
     </div>
 </div>
 
