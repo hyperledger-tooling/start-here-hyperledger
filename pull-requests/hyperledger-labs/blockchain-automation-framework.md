@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1427" class=".btn">#1427</a>
+            </td>
+            <td>
+                <b>
+                    [Quorum] added molecule ambassador-certs scenario
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angela Alagbe <angela.alagbe@accenture.com>
+
+**Changelog**
+- Added a molecule ambassador-certs test scenario
+- Updated ambassador-certs nested_main.yaml file
+
+ 
+
+**Reviewed by**
+@sownak 
+ 
+
+**Linked issue**
+#719 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-28 11:05:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1426" class=".btn">#1426</a>
+            </td>
+            <td>
+                <b>
+                    Updated ambassador annotations to v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Update ambassador annotations to v2 for Corda OS and supplychain ref. app services 
+
+ 
+
+**Reviewed by**
+@sownak 
+
+ 
+
+**Linked issue**
+#1288 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-28 08:18:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1425" class=".btn">#1425</a>
             </td>
             <td>
@@ -48,46 +128,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </table>
     <div class="right-align">
         Created At 2021-04-28 05:39:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1423" class=".btn">#1423</a>
-            </td>
-            <td>
-                <b>
-                    Added ambassador-certs molecule test scenario
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angela <angela@ip-10-0-2-16.eu-central-1.compute.internal>
-
-**Changelog**
-- Added ambassador-certs molecule test scenario.
-
- 
-
-**Reviewed by**
-@sownak
-
- 
-
-**Linked issue**
-#719 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-27 14:31:21 +0000 UTC
     </div>
 </div>
 
@@ -177,46 +217,6 @@ Resolves #1403
     </table>
     <div class="right-align">
         Created At 2021-04-23 16:21:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1407" class=".btn">#1407</a>
-            </td>
-            <td>
-                <b>
-                    rewritten Dockerfile to install python 3.6.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Dimbu Afonso <dimbu.k.afonso@accenture.com>
-
-**Changelog**
-- Fixed broken pip version not working with python
-
- 
-
-**Reviewed by**
-@suvajit-sarkar 
-
- 
-
-**Linked issue**
-#1406 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-21 08:55:38 +0000 UTC
     </div>
 </div>
 
