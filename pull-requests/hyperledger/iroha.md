@@ -78,6 +78,8 @@ No timeouts for tests.
                 - SE field in Irohad class
 - Remove rxcpp from TransactionProcessorImpl
 - Use any_range in BlockLoader interface
+- Remove rxcpp from Synchronizer
+- Remove rxcpp from Simulator
             </td>
         </tr>
     </table>

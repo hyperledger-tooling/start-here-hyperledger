@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2197" class=".btn">#2197</a>
+            </td>
+            <td>
+                <b>
+                    fix selection of receive RPC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There are two RPC in Tessera for GET "/transaction/{hash}". This makes sure we are using the right one.
+
+Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
+ 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-28 01:05:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2196" class=".btn">#2196</a>
+            </td>
+            <td>
+                <b>
+                    Removed container test build step.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamRevenant</span>
+            </td>
+            <td>
+                Signed-off-by: Mark Terry <mark.terry@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+Removing the container test build step until the privacy issue is resolved.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-27 21:21:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2193" class=".btn">#2193</a>
             </td>
             <td>
