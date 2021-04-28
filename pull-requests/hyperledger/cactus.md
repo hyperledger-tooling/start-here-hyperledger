@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/880" class=".btn">#880</a>
+            </td>
+            <td>
+                <b>
+                    feat(api-server): publish API server docker image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding a hook to publish this to the Hyperledger DockerHub repo.
+
+
+Resolve #345 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-28 15:47:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/879" class=".btn">#879</a>
             </td>
             <td>
@@ -36,7 +65,7 @@ BREAKING CHANGE: 🧨 We're now using the latest OpenAPI Generator CLI version o
 - Now using Integer as opposed to Number in the OpenAPI config to prevent an error when mapping to BigDecimal
 
 Resolve #763
-#584 
+Resolve #584 
             </td>
         </tr>
     </table>
@@ -744,36 +773,6 @@ Resolve #504
     </table>
     <div class="right-align">
         Created At 2021-04-22 12:54:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/830" class=".btn">#830</a>
-            </td>
-            <td>
-                <b>
-                    docs(contributing): add Reload VSCode Window After Adding Dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                New section to explain that after lerna add, sometimes it might be
-necessary to reload VSCode for it to pick up the Typescript definitions
-of the newly added dependency.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-21 14:19:06 +0000 UTC
     </div>
 </div>
 

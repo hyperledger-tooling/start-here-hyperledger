@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1124" class=".btn">#1124</a>
+            </td>
+            <td>
+                <b>
+                    Fix: stateless record webhooks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should hopefully address #1123.
+
+### Changes
+**fix: stateless records emit events**
+
+Error on the side of caution for BaseRecord.emit_event, using topic
+without state when none is given, and inserting the serialized record as
+the payload if no payload is given.
+
+Events are only not emitted by records when no record topic is set.
+
+**fix: relax admin server record event pattern**
+
+Should now accept stateless record event topics
+
+**fix: add event namespace to base records to allow plugins to override**
+
+**test: record topic parsing for webhook**
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-28 13:08:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1120" class=".btn">#1120</a>
             </td>
             <td>

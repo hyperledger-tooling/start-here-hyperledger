@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/42" class=".btn">#42</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade Node.js Dependency to Latest Version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Modified `package.json` to support Latest Node Js Version.
-2. Removed `package-lock.json` from every node app folder as it used to create conflict when it was created by older version of node.
-3. Tested using Node v15.14.1, fabric-fabric, fabric-corda, corda-fabric interop working on my VM.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-21 18:28:32 +0000 UTC
-    </div>
-</div>
-
