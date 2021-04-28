@@ -182,33 +182,3 @@ Issues to fix:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/389" class=".btn">#389</a>
-            </td>
-            <td>
-                <b>
-                    Feature/issue credential
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Allow a BPA to issue a credential directly to a partner.
-This is the simplest issuance, and our first step.
-This assumes that the agents still have auto accept enabled.
-
-I don't think this is where all the code will end up, as we will be expanding the issuing capabilities, so I expect major refactoring then. I think we will also need to look at a lot of our existing components that have api calls in them, when perhaps they would be more useful with render only and event hooks for the caller to determine the logic. But we can look at that after we are more feature complete.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-20 23:31:14 +0000 UTC
-    </div>
-</div>
-

@@ -218,7 +218,7 @@ Signed-off-by: Hristiyan Ivanov <hristiyan.d.ivanov@gmail.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">Fabric</span><span class="chip">dependent</span><span class="chip">enhancement</span>
+                <span class="chip">Fabric</span><span class="chip">enhancement</span>
             </td>
             <td>
                 ## Dependencies

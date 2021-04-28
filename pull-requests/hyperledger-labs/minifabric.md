@@ -39,29 +39,3 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/195" class=".btn">#195</a>
-            </td>
-            <td>
-                <b>
-                    Roll back Fabric 2.4 support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #190 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-20 23:00:33 +0000 UTC
-    </div>
-</div>
-
