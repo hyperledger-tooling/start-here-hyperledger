@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2569" class=".btn">#2569</a>
+            </td>
+            <td>
+                <b>
+                    fix typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: wuqiaomin <wuqiaomin2@huawei.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-28 06:15:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2568" class=".btn">#2568</a>
             </td>
             <td>
@@ -401,32 +427,6 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-04-22 08:22:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2552" class=".btn">#2552</a>
-            </td>
-            <td>
-                <b>
-                    fix typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sukill <ckdrms622@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-21 03:55:30 +0000 UTC
     </div>
 </div>
 
