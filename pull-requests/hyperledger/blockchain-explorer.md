@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/233" class=".btn">#233</a>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/234" class=".btn">#234</a>
             </td>
             <td>
                 <b>
-                    BE-868-security-vulnerabilities: Fixed jsrsasign vulnerabilities
+                    add typescript compilation on main.sh install
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
                 
             </td>
             <td>
-                Signed-off-by: Jeeva <jsankarapandian@devx.systems>
+                As mentioned on RocketChat, running tsc is mandatory now before one can start the backend with start.sh
+
+I added the tsc step with npm run build in main.sh
+
+Signed-off-by: sigma67 <benedikt.putz@wiwi.uni-regensburg.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-29 07:18:02 +0000 UTC
+        Created At 2021-04-29 15:25:35 +0000 UTC
     </div>
 </div>
 
@@ -59,32 +63,6 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     </table>
     <div class="right-align">
         Created At 2021-04-29 06:08:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/231" class=".btn">#231</a>
-            </td>
-            <td>
-                <b>
-                    Be 865 repolinter codeofconduct
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 16:48:03 +0000 UTC
     </div>
 </div>
 

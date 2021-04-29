@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2206" class=".btn">#2206</a>
+            </td>
+            <td>
+                <b>
+                    Add Gary Schulte as Maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Gary has provided [significant commits](https://github.com/hyperledger/besu/commits?author=garyschulte) that have improved the quality of Besu.
+
+Voting ends 2 weeks from the publication of this PR.
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 14:54:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2205" class=".btn">#2205</a>
             </td>
             <td>

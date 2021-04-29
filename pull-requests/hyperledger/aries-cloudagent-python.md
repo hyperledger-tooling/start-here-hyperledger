@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1125" class=".btn">#1125</a>
+            </td>
+            <td>
+                <b>
+                    DIF Presentation Exchange and present-proof-v2 Updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 16:48:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1124" class=".btn">#1124</a>
             </td>
             <td>
@@ -216,32 +242,6 @@ While an attacker isn’t likely to be able to exploit this from somewhere over 
     </table>
     <div class="right-align">
         Created At 2021-04-22 19:00:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1110" class=".btn">#1110</a>
-            </td>
-            <td>
-                <b>
-                    Issue cred bound counter offer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger/aries-cloudagent-python/issues/1103
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 14:18:40 +0000 UTC
     </div>
 </div>
 
