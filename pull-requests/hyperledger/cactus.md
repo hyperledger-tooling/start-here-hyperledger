@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/cactus
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">API_Server</span>
             </td>
             <td>
                 Adding a hook to publish this to the Hyperledger DockerHub repo.
@@ -53,7 +53,7 @@ Resolve #345
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
                 This change fixes the compilation error kotlin was throwing when building the docker image.

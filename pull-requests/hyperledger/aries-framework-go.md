@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2764" class=".btn">#2764</a>
+            </td>
+            <td>
+                <b>
+                    feat: wallet open options for webkms & EDV
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - added more unlock wallet options to use all aries webkms & EDV
+customization opts.
+- can be used to pass auth & authz based http headers for EDV & web kms
+- closes #2763
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-28 21:44:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2760" class=".btn">#2760</a>
             </td>
             <td>
@@ -264,35 +296,6 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-04-22 11:34:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2748" class=".btn">#2748</a>
-            </td>
-            <td>
-                <b>
-                    feat: Add error messages to providers that don't support query options
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - These new error messages will help ensure that someone won't get unexpected results when using those options in a Query on a storage provider that doesn't support them.
-- The unit tests have been updated to avoid calling the new common storage Query tests that use those unsupported options.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-21 21:44:09 +0000 UTC
     </div>
 </div>
 
