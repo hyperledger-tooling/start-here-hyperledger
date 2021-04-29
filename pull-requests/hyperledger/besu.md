@@ -14,6 +14,105 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2205" class=".btn">#2205</a>
+            </td>
+            <td>
+                <b>
+                    Reset updater in case of invalid block : bonsai trie
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+In bonsai trie when we fail to import a block we remain stuck until we restart Besu. I made sure to reset the updater correctly in case of failure to be able to download the new valid block without needing to restart besu.
+
+It happened on the mainnet we received a bad block that failed and then when we received the right block but the node was not able to synchronize
+
+>{"timestamp":"2021-04-28T18:54:15,026","level":"WARN","thread":"EthScheduler-Workers-3","class":"BlockPropagationManager","message":"Failed to import announced block 12330686 (0xfcf34e5f4e403c24c1b70eb1a46c3bda99d45b10fa3d261f2ebf0d2c20867423).","throwable":""}
+{"timestamp":"2021-04-28T18:54:15,344","level":"INFO","thread":"EthScheduler-Workers-2","class":"AbstractBlockProcessor","message":"Block processing error: transaction invalid 'NONCE_TOO_LOW'. Block 0xfcf34e5f4e403c24c1b70eb1a46c3bda99d45b10fa3d261f2ebf0d2c20867423 Transaction 0xc834252f73a4f0157fc41924080a9bf2782fd1e0f740cdd1b3011a15db51def1","throwable":""}
+{"timestamp":"2021-04-28T18:54:15,353","level":"WARN","thread":"EthScheduler-Workers-2","class":"BlockPropagationManager","message":"Failed to import announced block 12330686 (0xfcf34e5f4e403c24c1b70eb1a46c3bda99d45b10fa3d261f2ebf0d2c20867423).","throwable":""}
+{"timestamp":"2021-04-28T18:54:22,469","level":"INFO","thread":"EthScheduler-Workers-0","class":"AbstractBlockProcessor","message":"Block processing error: transaction invalid 'NONCE_TOO_LOW'. Block 0x61d53ccec97be310432f4c333254c143860fed70249b2cd8c8417b19993a8958 Transaction 0x1cef0c4257a8dbb244b54c3de73a0997fcb611a3afd342590c32baf2f73545ce","throwable":""}
+{"timestamp":"2021-04-28T18:54:22,469","level":"WARN","thread":"EthScheduler-Workers-0","class":"BlockPropagationManager","message":"Failed to import announced block 12330686 (0x61d53ccec97be310432f4c333254c143860fed70249b2cd8c8417b19993a8958).","throwable":""}
+{"timestamp":"2021-04-28T18:54:22,729","level":"INFO","thread":"EthScheduler-Workers-3","class":"AbstractBlockProcessor","message":"Block processing error: transaction invalid 'NONCE_TOO_LOW'. Block 0x61d53ccec97be310432f4c333254c143860fed70249b2cd8c8417b19993a8958 Transaction 0x1cef0c4257a8dbb244b54c3de73a0997fcb611a3afd342590c32baf2f73545ce","throwable":""}
+{"timestamp":"2021-04-28T18:54:22,730","level":"WARN","thread":"EthScheduler-Workers-3","class":"BlockPropagationManager","message":"Failed to import announced block 12330686 (0x61d53ccec97be310432f4c333254c143860fed70249b2cd8c8417b19993a8958).","throwable":""}
+{"timestamp":"2021-04-28T18:54:22,759","level":"INFO","thread":"nioEventLoopGroup-3-10","class":"GetBlockFromPeerTask","message":"Failed to download block 0x61d53ccec97be310432f4c333254c143860fed70249b2cd8c8417b19993a8958 from peer Peer 0x4d305a8a834434b8c8....","throwable":""}
+{"timestamp":"2021-04-28T18:54:22,800","level":"INFO","thread":"EthScheduler-Workers-2","class":"AbstractBlockProcessor","message":"Block processing error: transaction invalid 'NONCE_TOO_LOW'. Block 0x61d53ccec97be310432f4c333254c143860fed70249b2cd8c8417b19993a8958 Transaction 0x1cef0c4257a8dbb244b54c3de73a0997fcb611a3afd342590c32baf2f73545ce","throwable":""}
+{"timestamp":"2021-04-28T18:54:22,800","level":"WARN","thread":"EthScheduler-Workers-2","class":"BlockPropagationManager","message":"Failed to import announced block 12330686 (0x61d53ccec97be310432f4c333254c143860fed70249b2cd8c8417b19993a8958).","throwable":""}
+{"timestamp":"2021-04-28T18:54:23,748","level":"INFO","thread":"nioEventLoopGroup-3-1","class":"BlockPropagationManager","message":"Saving announced block 12330687 (0xbf26da0ba8e3f0caec39774368bbe460daf6de39632d6c71745a988929c62b26) for future import","throwable":""}
+{"timestamp":"2021-04-28T18:54:24,878","level":"INFO","thread":"nioEventLoopGroup-3-8","class":"SyncTargetManager","message":"Found common ancestor with peer Peer 0x97b52d0754bcc1c9c4... at block 12330685","throwable":""}
+{"timestamp":"2021-04-28T18:54:25,164","level":"INFO","thread":"EthScheduler-Services-380 (importBlock)","class":"AbstractBlockProcessor","message":"Block processing error: transaction invalid 'NONCE_TOO_LOW'. Block 0x61d53ccec97be310432f4c333254c143860fed70249b2cd8c8417b19993a8958 Transaction 0x1cef0c4257a8dbb244b54c3de73a0997fcb611a3afd342590c32baf2f73545ce","throwable":""}
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 11:57:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2204" class=".btn">#2204</a>
+            </td>
+            <td>
+                <b>
+                    Fix entropy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+ Use non-blocking randomness for acceptance tests
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 10:27:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2203" class=".btn">#2203</a>
             </td>
             <td>

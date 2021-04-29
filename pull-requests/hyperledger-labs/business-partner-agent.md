@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/403" class=".btn">#403</a>
+            </td>
+            <td>
+                <b>
+                    updated to latest micronaut versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 10:51:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/402" class=".btn">#402</a>
             </td>
             <td>
@@ -139,33 +165,6 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </table>
     <div class="right-align">
         Created At 2021-04-22 13:38:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/391" class=".btn">#391</a>
-            </td>
-            <td>
-                <b>
-                    Feature/helm agent secrets newnew
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                another trial to push these commits ;-)
-+ @Jsyro 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 11:59:38 +0000 UTC
     </div>
 </div>
 
