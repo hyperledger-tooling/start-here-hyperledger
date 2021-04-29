@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2203" class=".btn">#2203</a>
+            </td>
+            <td>
+                <b>
+                    reduce blocks required for permissioning related tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There is no reason to wait for 50 blocks. Reduce the number of blocks so tests run quicker
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 02:26:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2199" class=".btn">#2199</a>
             </td>
             <td>
