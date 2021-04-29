@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/410" class=".btn">#410</a>
-            </td>
-            <td>
-                <b>
-                    Fix solana account heap corruption
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 12:31:51 +0000 UTC
-    </div>
-</div>
-

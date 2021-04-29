@@ -14,7 +14,33 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/881" class=".btn">#881</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/884" class=".btn">#884</a>
+            </td>
+            <td>
+                <b>
+                    refactor(consortium-manual): move logic from endpoint to plugin class
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolve #429 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 15:39:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/883" class=".btn">#883</a>
             </td>
             <td>
                 <b>
@@ -29,14 +55,19 @@ permalink: /pull-requests/hyperledger/cactus
             <td>
                 Signed-off-by: TonyRowntree <33454202+TonyRowntree@users.noreply.github.com>
 
-Currently testing the above via ci
+**Removed**
+- WEB_SERVICE PluginAspect
+
+
+**Added**
+- BUSINESS_LOGIC PluginAspect
 
 Resolve #350 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-29 07:59:27 +0000 UTC
+        Created At 2021-04-29 15:37:20 +0000 UTC
     </div>
 </div>
 
@@ -771,38 +802,6 @@ cc: @RafaelAPB
     </table>
     <div class="right-align">
         Created At 2021-04-23 02:30:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/838" class=".btn">#838</a>
-            </td>
-            <td>
-                <b>
-                    docs: adding devcontainer docker file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: TonyRowntree <33454202+TonyRowntree@users.noreply.github.com>
-
-**Added:**
-
-- Devcontainer docker file
-
-Resolve #504 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 12:54:58 +0000 UTC
     </div>
 </div>
 

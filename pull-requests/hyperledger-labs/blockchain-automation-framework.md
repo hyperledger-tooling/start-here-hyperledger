@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1436" class=".btn">#1436</a>
+            </td>
+            <td>
+                <b>
+                    latest develop to feature merge
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                latest develop to feature merge
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 17:58:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1435" class=".btn">#1435</a>
+            </td>
+            <td>
+                <b>
+                    [corda] fix networkmap frontend for Opensource Corda
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix networkmap frontend
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 17:38:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1434" class=".btn">#1434</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Updated condition for not creating a channel when adding a new peer t…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …o an existing creator org
+
+Signed-off-by: alvaropicazo <alvaro.picazo.haase@accenture.com>
+
+**Changelog**
+- Fix condition when adding a new peer to an existing creator org, for not running the create channel task as it is not wanted in that case. Now it will only be run if the participant.type is a creator AND the org_status is not defined or it is new.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 14:08:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1433" class=".btn">#1433</a>
             </td>
             <td>
@@ -80,44 +163,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </table>
     <div class="right-align">
         Created At 2021-04-29 09:47:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1431" class=".btn">#1431</a>
-            </td>
-            <td>
-                <b>
-                    [fabric]Bug fix for remove peer org
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Kumar, D. bd <d.bd.kumar@accenture.com>
-- Fix remove peer org
-
- 
-
-**Reviewed by**
-@alvaropicazo 
-
- 
-
-**Linked issue**
-#1408 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 09:13:26 +0000 UTC
     </div>
 </div>
 

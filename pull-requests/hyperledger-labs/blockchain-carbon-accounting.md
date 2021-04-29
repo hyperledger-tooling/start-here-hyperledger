@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/153" class=".btn">#153</a>
-            </td>
-            <td>
-                <b>
-                    added opensolarx
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: udosson <r.klemens@yahoo.de>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 15:46:09 +0000 UTC
-    </div>
-</div>
-

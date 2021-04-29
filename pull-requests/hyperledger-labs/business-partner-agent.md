@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/404" class=".btn">#404</a>
+            </td>
+            <td>
+                <b>
+                    upgrade java to version 16
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                if there aren't any objections i would like to push the java version up to 16
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 12:46:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/403" class=".btn">#403</a>
             </td>
             <td>
@@ -139,32 +165,6 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </table>
     <div class="right-align">
         Created At 2021-04-23 13:25:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/392" class=".btn">#392</a>
-            </td>
-            <td>
-                <b>
-                    fix helm docu
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Frank Bernhardt <Frank.Bernhardt@bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 13:38:36 +0000 UTC
     </div>
 </div>
 
