@@ -14,6 +14,117 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1433" class=".btn">#1433</a>
+            </td>
+            <td>
+                <b>
+                    Updated Roadmap
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Update roadmap
+
+ 
+
+**Reviewed by**
+@sownak 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 09:51:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1432" class=".btn">#1432</a>
+            </td>
+            <td>
+                <b>
+                    added default molecule tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Added molecule test for default scenario
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @deepakkumardbd @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#718 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 09:47:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1431" class=".btn">#1431</a>
+            </td>
+            <td>
+                <b>
+                    [fabric]Bug fix for remove peer org
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Kumar, D. bd <d.bd.kumar@accenture.com>
+- Fix remove peer org
+
+ 
+
+**Reviewed by**
+@alvaropicazo 
+
+ 
+
+**Linked issue**
+#1408 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 09:13:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1427" class=".btn">#1427</a>
             </td>
             <td>

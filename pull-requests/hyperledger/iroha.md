@@ -41,18 +41,24 @@ permalink: /pull-requests/hyperledger/iroha
 
 
 ### Description of the Change
-
+Queries for:
+1. Account permission tokens
+2. All roles
+3. Roles of the account
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
 ### Benefits
-
+Now we can query these things :)
 <!-- What benefits will be realized by the code change? -->
 
 ### Possible Drawbacks 
-
+None found
 <!-- What are the possible side-effects or negative impacts of the code change? -->
 <!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Jira Issue
+https://jira.hyperledger.org/browse/IR-1069
 
 ### Usage Examples or Tests *[optional]*
 
@@ -465,100 +471,6 @@ Heim is now of version 0.1.0-rc.1 unfortunately 0.0 version doesn't support aarc
     </table>
     <div class="right-align">
         Created At 2021-04-23 08:06:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/989" class=".btn">#989</a>
-            </td>
-            <td>
-                <b>
-                    Update libssl version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-
-Updating package name because of ubuntu naming.
-
-### Benefits
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks 
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 09:52:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/988" class=".btn">#988</a>
-            </td>
-            <td>
-                <b>
-                    Add push docker images from dev branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: i1i1 <vanyarybin1@live.ru>
-
-### Description of the Change
-
-Add push docker images from dev branch
-
-### Benefits
-
-Faster iterations on test stand.
-
-### Possible Drawbacks 
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 09:19:17 +0000 UTC
     </div>
 </div>
 

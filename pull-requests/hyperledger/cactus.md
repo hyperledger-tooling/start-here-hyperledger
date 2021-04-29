@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/881" class=".btn">#881</a>
+            </td>
+            <td>
+                <b>
+                    refactor(core-api): discontinue web service plugin aspect #350
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: TonyRowntree <33454202+TonyRowntree@users.noreply.github.com>
+
+Currently testing the above via ci
+
+Resolve #350 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 07:59:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/880" class=".btn">#880</a>
             </td>
             <td>
