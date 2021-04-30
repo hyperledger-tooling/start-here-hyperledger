@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/411" class=".btn">#411</a>
-            </td>
-            <td>
-                <b>
-                    Parse and resolve uniswap v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The uniswap contracts fail to compile to due syntax which solang doesn't accept yet. This patch series adds the required syntax to make the contracts parse, and resolve (apart from `assembly { .. }` and `ecrecover()`). Successful code emitting and testing will happen in a later pr.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-23 10:26:10 +0000 UTC
-    </div>
-</div>
-

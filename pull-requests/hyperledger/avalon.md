@@ -14,29 +14,25 @@ permalink: /pull-requests/hyperledger/avalon
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/avalon/pull/766" class=".btn">#766</a>
+                PR <a href="https://github.com/hyperledger/avalon/pull/767" class=".btn">#767</a>
             </td>
             <td>
                 <b>
-                    Update Attestation Report Signing CA Cert link
+                    Fix broken flow for adding requester signature to work orders
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
-                RK_PUB.zip path appears to be invalid now. Getting redirected.
-Updating download link to -
-https://certificates.trustedservices.intel.com/Intel_SGX_Attestation_RootCA.pem
-
-Signed-off-by: Rajeev Ranjan <rajeev2.ranjan@intel.com>
+                Signed-off-by: manju956 <manjunath.a.c@intel.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-22 11:33:28 +0000 UTC
+        Created At 2021-04-30 10:53:03 +0000 UTC
     </div>
 </div>
 

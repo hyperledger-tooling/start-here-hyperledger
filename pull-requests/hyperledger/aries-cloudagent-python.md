@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1129" class=".btn">#1129</a>
+            </td>
+            <td>
+                <b>
+                    fix: do not require indy or bbs to be installed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+
+This should fix the issues with not having the indy and bbs libraries installed. There were a few offenders besides me for the indy library, but they should all be fixed now.
+
+Fixes #1127
+Fixes #1128 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-30 07:48:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1125" class=".btn">#1125</a>
             </td>
             <td>

@@ -53,7 +53,7 @@ Previously, since there was no PulicKeyFetcher, there was no way to separately v
             </td>
             <td>
                 <b>
-                    feat: vc wallet command controller for managin profiles
+                    feat: vc wallet command controller for managing profiles
                 </b>
             </td>
         </tr>
