@@ -38,31 +38,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/449" class=".btn">#449</a>
-            </td>
-            <td>
-                <b>
-                    [FABN-1711] prune deprecated fabric-client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                May will be EOL of 1.4 LTS
-
-Signed-off-by: DavidLiu <david.yx.liu@oracle.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-23 01:54:10 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/236" class=".btn">#236</a>
+            </td>
+            <td>
+                <b>
+                    BE-868 Fixed jsrsasign security vulnerabilities
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jeeva <jsankarapandian@devx.systems>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-30 06:16:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/234" class=".btn">#234</a>
             </td>
             <td>
