@@ -65,31 +65,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/441" class=".btn">#441</a>
-            </td>
-            <td>
-                <b>
-                    Resign as maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I am leaving IBM and will no longer be active in the Hyperledger Fabric community, so I feel it is best that I resign as a maintainer of the samples project.
-
-Signed-off-by: Simon Stone <sstone1@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 18:40:52 +0000 UTC
-    </div>
-</div>
-
