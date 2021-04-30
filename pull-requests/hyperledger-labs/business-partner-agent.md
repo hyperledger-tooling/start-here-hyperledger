@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/406" class=".btn">#406</a>
+            </td>
+            <td>
+                <b>
+                    Feature/367 frontend
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Allow to manually accept connection requests in the frontend
+* Show connection state in partner table
+* Added switch to show/hide invitations
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-30 08:29:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/405" class=".btn">#405</a>
             </td>
             <td>

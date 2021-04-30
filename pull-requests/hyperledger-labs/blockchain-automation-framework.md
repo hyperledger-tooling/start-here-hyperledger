@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1438" class=".btn">#1438</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] ambassadorv2 upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sownak.roy <sownak.roy@accenture.com>
+
+Ambassador V2 changes for corda enterprise
+ 
+
+**Linked issue**
+Resolves #1287 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-30 09:43:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1437" class=".btn">#1437</a>
+            </td>
+            <td>
+                <b>
+                    [ fabric ]bug resolve for removeOrg in DR scenario
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Kumar, D. bd <d.bd.kumar@accenture.com>
+
+- Fix bug removing an org in DR
+
+ 
+
+**Reviewed by**
+@alvaropicazo 
+
+ 
+
+**Linked issue**
+#1408 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-30 08:51:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1436" class=".btn">#1436</a>
             </td>
             <td>
