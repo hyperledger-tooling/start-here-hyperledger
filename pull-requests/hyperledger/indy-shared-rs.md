@@ -1,24 +1,24 @@
 ---
 layout: default
-title: fabric-sdk-java
+title: indy-shared-rs
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/fabric-sdk-java
+permalink: /pull-requests/hyperledger/indy-shared-rs
 ---
 
-# fabric-sdk-java <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/fabric-sdk-java){: .btn .mr-4 }</span>
+# indy-shared-rs <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/indy-shared-rs){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/129" class=".btn">#129</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    [FGJ-99] Fix Javadoc search
+                    Update python wrapper version
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-26 13:59:24 +0000 UTC
+        Created At 2021-04-29 21:05:17 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/128" class=".btn">#128</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/8" class=".btn">#8</a>
             </td>
             <td>
                 <b>
-                    Test proto
+                    indy-utils cleanups: remove unused features
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                
+                Removes the `pack` and `random` support in indy-utils and moves `wql` support to a separate crate. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-26 09:11:56 +0000 UTC
+        Created At 2021-04-29 16:24:06 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1131" class=".btn">#1131</a>
+            </td>
+            <td>
+                <b>
+                    Add check after cred def created in integration test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+Adds small delay plus check that cred def was created (to address random failure of integration tests)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-30 15:43:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1130" class=".btn">#1130</a>
+            </td>
+            <td>
+                <b>
+                    feat: feedback from responder methods about message delivery
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As a result of some discussion in #950, I did a quick investigation of what it would look like to provide some feedback to the responder send methods about message delivery so that from the `forward` message handler, for example, we could determine whether the message was sent directly or not. This doesn't provide a ton of information but I think it provides just enough to know whether a push notification should be sent to a mobile device or not from the forward message handler, as @TimoGlastra described in the comments of that issue.
+
+I think there are a lot of ways to end up at similar functionality though this one ended up being simpler than I anticipated. Interested to hear thoughts.
+
+Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-30 14:27:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1129" class=".btn">#1129</a>
             </td>
             <td>
