@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/655" class=".btn">#655</a>
+            </td>
+            <td>
+                <b>
+                    Add date created field to rest api resources
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds database generated date create timestamp to agent, role, organization, product, location, and schema endpoints.
+
+Example:
+
+```
+GET /agent/021bab739fce4133204c8c0bd939d48e4d32e5b29eb87ed871d2666fcd3f51bb3e
+{
+  "public_key": "021bab739fce4133204c8c0bd939d48e4d32e5b29eb87ed871d2666fcd3f51bb3e",
+  "org_id": "crg",
+  "active": true,
+  "roles": [
+    "admin"
+  ],
+  "metadata": {},
+  "date_created": 1619707637
+}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 21:05:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/653" class=".btn">#653</a>
             </td>
             <td>
@@ -36,84 +78,6 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-04-23 17:02:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/652" class=".btn">#652</a>
-            </td>
-            <td>
-                <b>
-                    Use "just" recipes during CI builds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 20:03:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/651" class=".btn">#651</a>
-            </td>
-            <td>
-                <b>
-                    Add purchase_order to the list of crates in justfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 20:01:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/650" class=".btn">#650</a>
-            </td>
-            <td>
-                <b>
-                    Add cross-cutting db features
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds cross-cutting features to the Grid SDK for the locations, products, and schemas modules. These features control whether the db code for each module gets compiled.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 19:34:39 +0000 UTC
     </div>
 </div>
 

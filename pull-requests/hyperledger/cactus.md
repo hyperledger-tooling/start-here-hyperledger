@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/894" class=".btn">#894</a>
+            </td>
+            <td>
+                <b>
+                    chore(linter): fix warning in isIPluginWebService
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 21:24:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/892" class=".btn">#892</a>
+            </td>
+            <td>
+                <b>
+                    fix(github/workflows): dependent issues job name typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                There was a typo in the first fix I attempted so now fixing the fix here
+(hopefully)
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 21:13:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/884" class=".btn">#884</a>
             </td>
             <td>
@@ -376,6 +431,7 @@ Signed-off-by: Hristiyan Ivanov <hristiyan.d.ivanov@gmail.com>
 
 Depends on #841
 
+
 ## Commit to review
 
 Author: Peter Somogyvari <peter.somogyvari@accenture.com>
@@ -454,12 +510,12 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">Xdai</span><span class="chip">dependent</span><span class="chip">enhancement</span>
+                <span class="chip">Xdai</span><span class="chip">enhancement</span>
             </td>
             <td>
                 ## Dependencies
 
-Depends on #854
+Depends on #854 
 
 ## Commit to review
 

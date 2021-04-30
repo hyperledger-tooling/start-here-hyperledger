@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2771" class=".btn">#2771</a>
+            </td>
+            <td>
+                <b>
+                    feat: vc wallet command controller for managin profiles
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - added create & update profile command controllers
+- Part of #2770
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 23:50:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2769" class=".btn">#2769</a>
+            </td>
+            <td>
+                <b>
+                    feat: apis to create keys in wallet kms
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                -EDV encryption & MAC key IDs cannot be passed as profile settings for
+localkms users since wallet creates local kms internally based on user's
+secret lock service. So wallet has to expose an API to generate EDV keys
+in wallet kms.
+- Closes #2768
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-29 19:11:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2767" class=".btn">#2767</a>
             </td>
             <td>
@@ -176,36 +239,6 @@ Signed-off-by: George Aristy <george.aristy@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-04-26 15:13:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2753" class=".btn">#2753</a>
-            </td>
-            <td>
-                <b>
-                    fix: presexch - CreateVP() matching schema URI algo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">aip 2.0</span><span class="chip">bug</span>
-            </td>
-            <td>
-                CreateVP() was matching the definitions schema.uri against the VC's credentialSchema property instead of the context.
-
-Reference: [this thread](https://github.com/decentralized-identity/presentation-exchange/issues/134#issuecomment-721624167).
-
-Signed-off-by: George Aristy <george.aristy@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-22 19:28:30 +0000 UTC
     </div>
 </div>
 
