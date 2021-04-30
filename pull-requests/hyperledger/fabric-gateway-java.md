@@ -116,33 +116,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/76" class=".btn">#76</a>
-            </td>
-            <td>
-                <b>
-                    FGJ-103 set TransactionEventHandler as root cause of ContractExceptio…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …n when transaction event is invalid (#72)
-
-Signed-off-by: ndr_brt <andrea.bertagnolli@cherrychain.it>
-
-Co-authored-by: ndr_brt <andrea.bertagnolli@cherrychain.it>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-23 13:59:28 +0000 UTC
-    </div>
-</div>
-

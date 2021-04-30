@@ -44,7 +44,7 @@ The necessary information is added to the docker files to allow for the command 
 5. Create a namespace registry for the contract using the namespace "06abbc"
 ```
 scabbard ns create 06abbc \
-    --owner <public_key> \
+    --owners <public_key> \
     --key <path_to_private_key> \
     --url http://0.0.0.0:8080 \
     --service-id <circuit-id>::<scabbard-service-id>
@@ -77,8 +77,7 @@ and then set the environment variable `CARGO_ARGS="-- --features=experimental"` 
 transact command set-state \
   --key /alice.priv
   --target "http://0.0.0.0:8080/scabbard/<circuit-id>/<scabbard-service-id>"
-  --state-entry \
-  06abbcb16ed7d24b3ecbd4164dcdad374e08c0ab7518aa07f9d3683f34c2b3c67a1583:state-value
+  --state-entry 06abbcb16ed7d24b3ecbd4164dcdad374e08c0ab7518aa07f9d3683f34c2b3c67a1583:state-value
 ```
 9. Check the splinterd logs to see if the transaction was successfully submitted
 10. Run a show-state command
@@ -86,8 +85,7 @@ transact command set-state \
 transact command show-state \
   --key /alice.priv
   --target "http://0.0.0.0:8080/scabbard/<circuit-id>/<scabbard-service-id>"
-  --address \
-  06abbcb16ed7d24b3ecbd4164dcdad374e08c0ab7518aa07f9d3683f34c2b3c67a1583
+  --address 06abbcb16ed7d24b3ecbd4164dcdad374e08c0ab7518aa07f9d3683f34c2b3c67a1583
   --text
 ```
 11. Check that the "state-value" is returned

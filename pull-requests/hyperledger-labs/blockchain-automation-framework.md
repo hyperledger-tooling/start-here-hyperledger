@@ -422,29 +422,3 @@ Resolves #1403
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1411" class=".btn">#1411</a>
-            </td>
-            <td>
-                <b>
-                    develop to master merge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Latest develop code
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-23 16:21:32 +0000 UTC
-    </div>
-</div>
-
