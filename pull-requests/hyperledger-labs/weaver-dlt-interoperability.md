@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/43" class=".btn">#43</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    Fix broken link in rfcs
+                    Asset exchange base class for Fabric chaincodes
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                Fixes some broken links in the rfcs.
+                Implemented a set of library functions that can be exercised by any Fabric application chaincode that is managing assets. Via the function API exported by this case class, the application chaincode can trigger asset locks and claims (processed eventually by the Fabric Interop Chaincode) for a cross-network atomic swap. Presently, only the HTLC mechanism is supported for such swaps. 
+
+Also defined common structures (protobufs) relevant to the asset exchange protocol.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-22 06:15:42 +0000 UTC
+        Created At 2021-04-30 20:45:34 +0000 UTC
     </div>
 </div>
 
