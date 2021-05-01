@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2774" class=".btn">#2774</a>
+            </td>
+            <td>
+                <b>
+                    Re: Add public key fetcher for validating the verifiable credential.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Add PublicKeyFetcher for validating the verifiable credential.
+
+**Description:**
+#1316
+
+**Summary:**
+Previously, since there was no PulicKeyFetcher, there was no way to separately validate a Validate Credential, but it can be verified by adding PublicKeyFetcher.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-01 03:27:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2773" class=".btn">#2773</a>
             </td>
             <td>
@@ -36,41 +71,6 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-04-30 21:31:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2772" class=".btn">#2772</a>
-            </td>
-            <td>
-                <b>
-                    Add public key fetcher for validating the verifiable credential.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Add PublicKeyFetcher for validating the verifiable credential.
-
-**Description:**
-#1316 
-
-**Summary:**
-Previously, since there was no PulicKeyFetcher, there was no way to separately validate a Validate Credential, but it can be verified by adding PublicKeyFetcher.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-30 02:43:02 +0000 UTC
     </div>
 </div>
 
