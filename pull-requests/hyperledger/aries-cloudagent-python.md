@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1132" class=".btn">#1132</a>
+            </td>
+            <td>
+                <b>
+                    fix: run_tests script
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+
+Not sure what happened (perhaps related to Ubuntu 18.04 EOL?) but `run_tests` stopped working all of a sudden. This switches image base to `python:3.6.13`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-30 22:50:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1131" class=".btn">#1131</a>
             </td>
             <td>
@@ -248,32 +276,6 @@ The changes are defined in the issue
     </table>
     <div class="right-align">
         Created At 2021-04-24 11:13:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1115" class=".btn">#1115</a>
-            </td>
-            <td>
-                <b>
-                    Add generic JWE envelope handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This decouples the in-memory pack/unpack from the envelope handling code, to allow other encryption methods in future.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-23 23:02:21 +0000 UTC
     </div>
 </div>
 

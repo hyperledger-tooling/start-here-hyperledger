@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/128" class=".btn">#128</a>
+            </td>
+            <td>
+                <b>
+                    Update justfile to build additional feature combinations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There are two features enabled during testing which were not previously
+built in the justfile. One is sawtooth compat and the other is
+redis-related tests. This modification builds both of these to make it
+easier to detect compilation errors which impact those features.
+
+Signed-off-by: Shawn T. Amundson <amundson@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-30 18:44:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/127" class=".btn">#127</a>
             </td>
             <td>

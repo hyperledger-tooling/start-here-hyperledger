@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/407" class=".btn">#407</a>
+            </td>
+            <td>
+                <b>
+                    Feature/proof request auto-response by bpa (Part 1)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backend</span>
+            </td>
+            <td>
+                BPA satisfies the `auto-respond-presentation-request` acapy flag behaviour and constructs the first valid response available and replies immediately. 
+
+Work-in-progress frontend to see pending proof requests, but none will exist in that due to the current auto-responding implementation. 
+
+This a partial PR that includes alot of the meat of the backend work.
+
+TODO:
+- [] handle get pending query params
+- [] cleanup (and maybe rename) ProofManager.presentProof. 
+- [] handle predicates in the proof-request
+- [] Add tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-04-30 23:34:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/406" class=".btn">#406</a>
             </td>
             <td>

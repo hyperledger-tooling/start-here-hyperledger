@@ -295,31 +295,3 @@ Finally, you can contact us on https://mergify.io/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2563" class=".btn">#2563</a>
-            </td>
-            <td>
-                <b>
-                    Updates in main branch for release v2.3.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update docs and script for v2.3.2.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-23 21:49:51 +0000 UTC
-    </div>
-</div>
-

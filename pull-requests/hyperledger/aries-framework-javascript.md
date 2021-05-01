@@ -67,29 +67,3 @@ Was sort of a blocker for some of the work I wanted to do for #187, and it was l
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/251" class=".btn">#251</a>
-            </td>
-            <td>
-                <b>
-                    ACA-Py Mediation Interoperability
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ATB-Leap sponsored development: AFJ mediation interoperability with ACA-Py and Aries RFC. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-23 22:55:01 +0000 UTC
-    </div>
-</div>
-
