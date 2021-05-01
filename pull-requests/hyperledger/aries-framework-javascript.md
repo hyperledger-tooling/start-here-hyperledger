@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/254" class=".btn">#254</a>
+            </td>
+            <td>
+                <b>
+                    feat: add credential info to access attributes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #190
+Fixes #187
+
+Example:
+
+```ts
+// credentialRecord.getCredentialInfo()
+{
+  claims: {
+    name: 'Timo',
+    date_of_birth: '1998-07-29',
+    'country-of-residence': 'The Netherlands',
+    'street name': 'Test street',
+    age: '22',
+  },
+  metadata: {
+    credentialDefinitionId: 'Th7MpTaRZVRYnPiabds81Y:3:CL:17:TAG',
+    schemaId: 'TL1EaPFCZ8Si5aUrqScBDt:2:test-schema-1599055118161:1.0',
+  },
+}
+```
+
+```ts
+// credentialInfo.getFormattedClaims()
+{
+  Age: '22',
+  'Country Of Residence': 'The Netherlands',
+  'Date Of Birth': '1998-07-29',
+  'Street Name': 'Test street',
+  Name: 'Timo',
+}
+```
+
+
+```ts
+const credentialInfo = credentialRecord.getCredentialInfo()
+const claims = credentialInfo.claims
+const formattedClaims = credentialInfo.getFormattedClaims()
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-01 12:31:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/253" class=".btn">#253</a>
             </td>
             <td>
