@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1133" class=".btn">#1133</a>
+            </td>
+            <td>
+                <b>
+                    Add "minimum viable message" base class for use in plugins
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As discussed in #1096, when writing plugins, having the flexibility to implement messages differently than the pattern followed within ACA-Py can be really significant. This PR defines a minimized base message class that is unopinionated and trivial to extend.
+
+This PR also addresses concerns around message serialization in anticipation of changes coming with DIDComm v2 by defining `serialize` and `deserialize` methods that specify the output/input format. At present, the `AgentMessage` class only implements DIDComm v1 message structure.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-01 02:35:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1132" class=".btn">#1132</a>
             </td>
             <td>
