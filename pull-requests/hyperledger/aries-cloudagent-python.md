@@ -277,33 +277,3 @@ Should now accept stateless record event topics
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1116" class=".btn">#1116</a>
-            </td>
-            <td>
-                <b>
-                    Changes in Endorser Protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a PR that contains changes in endorser protocol.
-
-The changes are defined in the issue
-#1040 
-#1028 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-24 11:13:48 +0000 UTC
-    </div>
-</div>
-
