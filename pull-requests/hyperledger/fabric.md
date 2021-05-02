@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2575" class=".btn">#2575</a>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2576" class=".btn">#2576</a>
             </td>
             <td>
                 <b>
-                    Documentation update : Changing command from 'docker ps -a' to just 'docker ps'
+                    removing -a from docker ps command as it lists stopped containers also
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                Since the command 'docker ps -a' is used to display running and stopped containers, since in the documentation its mentioned 'command to list all of Docker containers that are running on your machine', only docker ps is required. The command 'docker ps -a' displays stopped containers as well.
+                Signed-off-by: System Administrator <root@Rahuls-MacBook-Air.local>
+
+Removing -a from 'docker ps' commnand, since it lists stopped containers also
 
 <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
 
@@ -81,7 +83,7 @@ Checklist (DELETE AFTER READING):
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-01 17:28:37 +0000 UTC
+        Created At 2021-05-01 20:17:18 +0000 UTC
     </div>
 </div>
 
