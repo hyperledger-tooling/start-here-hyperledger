@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/414" class=".btn">#414</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/416" class=".btn">#416</a>
             </td>
             <td>
                 <b>
-                    Update whatis.md
+                    [ja_JP] Fix typo in README.md and developapps/transactionhandler.md
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                Update whatis.md
-
-Signed-off-by: EmSad <36872573+mohamadsolouki@users.noreply.github.com>
-
+                i found typos and fixed them.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-24 20:11:54 +0000 UTC
+        Created At 2021-05-02 06:24:39 +0000 UTC
     </div>
 </div>
 
