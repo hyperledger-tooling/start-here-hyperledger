@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/255" class=".btn">#255</a>
+            </td>
+            <td>
+                <b>
+                    feat: add internal http outbound transporter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a first attempt at internalizing the http transport. Only the outbound for now, as it was the easiest. Made two http post implementation so it will work in both RN and Node.JS without having to add another dependency.
+
+You can import it and works out of the box:
+
+```ts
+import { Agent, HttpOutboundTransporter } from 'aries-framework'
+
+const agent = new Agent(config)
+const httpOutboundTransport = new HttpOutboundTransporter(agent)
+agent.setOutboundTransporter(httpOutboundTransport)
+```
+
+I made a start at `supportedSchemes`. It is not checked yet, but this allows us to determine the transport to use for a specific message when we add support for multiple transport. That should be a fairly small addition once this is merged. 
+
+Also added an option to specify the didcomm mime type to use. This differs for AIP1.0/AIP2.0.
+
+What do you think?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-01 21:31:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/254" class=".btn">#254</a>
             </td>
             <td>
