@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/256" class=".btn">#256</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add support for WebSocket transports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is how it works now:
+* A mediator takes endpoint for invitation or DidDoc from `config`.
+* An edge agent takes endpoint for invitation or DidDoc from `inboundConnection` if it has any.
+* The edge agent gets out of band invitation via http request to mediator (http://mediator1.com/invitation). The invitation contains `ws` endpoint because we want to make a connection via WebSocket.
+* The edge agent takes an endpoint for outbound communication from invitation or DidDoc. For a connection with another edge agent, it takes an endpoint from `indbound` connection. Therefore it’s the same `ws` endpoint as it is contained in the mediator invitation.
+
+To integrate ws and http servers together and support multiple transports we would need to enable following:
+* A mediator sends a different endpoint for mediation to edge agent.
+* The edge agent sets the mediation endpoint somewhere else and do not take it from `inbound` connection invitation or DidDoc.
+
+Other notes:
+* I set ws endpoint directly in mediator server by editing `config.endpoint` to value `ws://localhost:${PORT}`
+* I skip the ws tests. To run them it's needed to change the mediator server to `mediator-ws.ts` (or integrate ws and HTTP together as I mentioned)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-02 10:17:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/255" class=".btn">#255</a>
             </td>
             <td>
