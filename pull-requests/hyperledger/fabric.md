@@ -346,29 +346,3 @@ Finally, you can contact us on https://mergify.io/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2564" class=".btn">#2564</a>
-            </td>
-            <td>
-                <b>
-                    fix typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: wuqiaomin <wuqiaomin2@huawei.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-25 02:36:15 +0000 UTC
-    </div>
-</div>
-
