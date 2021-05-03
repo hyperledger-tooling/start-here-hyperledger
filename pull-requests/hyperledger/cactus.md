@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/899" class=".btn">#899</a>
+            </td>
+            <td>
+                <b>
+                    feat: expose besu test ledger web socket API port
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                Provide a method to retrieve the host port of the web socket JSON RPC
+API exposed by the Besu AIO image backing the BesuTestLedger class. This
+is a precursor to us adding support for the websocket transport in one
+way or another (SocketIO != WebSockets in the strict sense of protocol
+compatibility because SocketIO servers cannot be used by vanilla WS
+applications out of the box)
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 16:54:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/898" class=".btn">#898</a>
             </td>
             <td>
@@ -72,19 +105,68 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 ## Dependencies
 
 Depends on #896 
+Depends on #899
 
 ## Commit to review
 
 Author: Peter Somogyvari <peter.somogyvari@accenture.com>
+Author Date: 2021-05-03 09:20:49 -0700
 Committer: Peter Somogyvari <peter.somogyvari@accenture.com>
-Date: 2021-05-01 17:12:11 -0700 
+Committer Date: 2021-05-03 09:39:40 -0700 
 
-feat(api-client,cmd-api-server): add Socket.IO as transport #297
+feat(cmd-api-server): add Socket.IO as transport #297
 
-WORK IN PROGRESS
+Primary changes:
+---------------
+
+1. The API server now has a SocketIO server running on the same port
+as the HTTP REST API.
+
+2. The API server now has an ApiServerApiClient class which is an
+extension of the DefaultApi class that we generate from the OpenAPI
+specifications. The reason why this extension was necessary (something
+that we try to avoid like the plague normally) is because OpenAPI is
+strictly for defining HTTP/REST based APIs and not async/streaming
+ones such as WebSocket/SocketIO based ones and therefore the OpenAPI
+generator does not support these types of transports at all meaning
+that we have to manually write the client code for async endpoints
+which is why the class extension here is not something that we can
+get around.
+
+3. The idea is that all async endpoints would declare their event
+names as constants in the OpenAPI specification so as to make it
+easier at least to some degree to implement solutions on top even
+if we cannot support async endpoints with the OpenAPI code
+generator to the same extend we do for HTTP RESTful endpoints.
+The five default events are Subscribe, Next, Unsubscribe, Error and
+Complete. These are defined in order to match what the client can
+do on the RxJS Observable object returned by the API client object's
+method that invokes the async endpoints.
+The difference between Unsubscribe and complete is subtle, but it definitely
+exists. The unsubscribe event is used by the client to tell the backend
+that it no longer requires updates, regardless of the streaming of data
+having been completed or not.
+The complete event on the other hand is for the backend to signal that
+the streaming of data is in fact completed. The complete event is only
+applicable for endpoints that do have an ending which is not the case
+for some endpoints that are usually time-series related and therefore
+a lot of times just stream endlessly until stopped.
+
+Secondary change(s):
+--------------------
+
+1. Added an async endpoint powered by the just now added SocketIO
+integration that streams the health check response every one second
+which is mainly added to that we can test the functionality but at
+could also be used for monitoring purposes by someone who'd rather
+implement something from scratch than use Prometheus for example.
 
 To-do:
+------
+
 1. Socket provider singleton on client side for connection multiplexing
+
+Fixes #297
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>

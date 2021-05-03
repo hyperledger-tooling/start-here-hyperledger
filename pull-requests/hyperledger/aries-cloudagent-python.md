@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1139" class=".btn">#1139</a>
+            </td>
+            <td>
+                <b>
+                    Adopt problem reports issue cred present proof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                and sync up problem reports to current RFC 35
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 15:24:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1136" class=".btn">#1136</a>
             </td>
             <td>
@@ -303,32 +329,6 @@ Should now accept stateless record event topics
     </table>
     <div class="right-align">
         Created At 2021-04-28 13:08:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1120" class=".btn">#1120</a>
-            </td>
-            <td>
-                <b>
-                    allow for no body
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sklump <srklump@hotmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-26 13:06:44 +0000 UTC
     </div>
 </div>
 
