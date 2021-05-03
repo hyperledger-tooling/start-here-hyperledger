@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2777" class=".btn">#2777</a>
+            </td>
+            <td>
+                <b>
+                    ci: restore bbs interop test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #2752
+
+Signed-off-by: Troy Ronda <troy@troyronda.com>
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 13:35:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2776" class=".btn">#2776</a>
             </td>
             <td>
@@ -336,38 +367,6 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-04-26 22:46:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2755" class=".btn">#2755</a>
-            </td>
-            <td>
-                <b>
-                    fix: presentation-exchange schema.uri matching
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">aip 2.0</span><span class="chip">bug</span>
-            </td>
-            <td>
-                The `schema.uri` in presentation definitions should be the full URI to the type's definition (jsonschema or jsonld), not just the context. [Reference](https://github.com/decentralized-identity/presentation-exchange/issues/134#issuecomment-721624167).
-
-TODO - #2756 
-
-Signed-off-by: George Aristy <george.aristy@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-26 15:13:52 +0000 UTC
     </div>
 </div>
 

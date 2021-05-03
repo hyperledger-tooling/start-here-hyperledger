@@ -227,29 +227,3 @@ Was sort of a blocker for some of the work I wanted to do for #187, and it was l
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/252" class=".btn">#252</a>
-            </td>
-            <td>
-                <b>
-                    Mediation by Mediator Coordination Protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Comes from #249 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-26 16:31:20 +0000 UTC
-    </div>
-</div>
-
