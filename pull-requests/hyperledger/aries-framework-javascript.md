@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/257" class=".btn">#257</a>
+            </td>
+            <td>
+                <b>
+                    feat: add dependency injection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This was considerably easier than I thought it would be.
+
+Just DI for now. No extension API yet.
+
+- Used TSyringe. Very lightweight (1 already used dependency)
+- Used symbols for interface based injectables. Maybe we want to use base classes later on to make it easier, but I wanted to keep most of the current working intact. Just replace it with DI
+- Use `@scoped(Lifecycle.ContainerScoped)` for injection. This is basically a singleton, however only for the current DI container. This means a child container won't share the same instance. Two reasons:
+	- The tests were not happy with a singleton (could have bypassed this however)
+	- This allows to run two agents side by side and don't have problems with the singletons
+- Instead of using `Repository<RecordClass>` we're now using `RecordRepository`. It was very hard to use this pattern. Maybe we can simplify it later on. For now it was easiest to just create a separate repository per record type.
+
+
+Let me know what you think. I think this will make extension a lot easier moving forward.
+
+Fixes #211 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-02 22:44:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/256" class=".btn">#256</a>
             </td>
             <td>
