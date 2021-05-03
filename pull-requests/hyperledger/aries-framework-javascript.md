@@ -80,6 +80,8 @@ To integrate ws and http servers together and support multiple transports we wou
 Other notes:
 * I set ws endpoint directly in mediator server by editing `config.endpoint` to value `ws://localhost:${PORT}`
 * I skip the ws tests. To run them it's needed to change the mediator server to `mediator-ws.ts` (or integrate ws and HTTP together as I mentioned)
+
+Related to #250 
             </td>
         </tr>
     </table>

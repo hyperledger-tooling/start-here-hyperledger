@@ -374,29 +374,3 @@ Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/98" class=".btn">#98</a>
-            </td>
-            <td>
-                <b>
-                    Update api docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-26 11:08:38 +0000 UTC
-    </div>
-</div>
-

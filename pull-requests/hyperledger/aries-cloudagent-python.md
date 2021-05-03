@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1136" class=".btn">#1136</a>
+            </td>
+            <td>
+                <b>
+                    docs: add docs on issuing jsonld credentials
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds documentation on issuing JSON-LD credentials. Present Proof is todo and dependant on PR #1125.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 11:21:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1135" class=".btn">#1135</a>
+            </td>
+            <td>
+                <b>
+                    fix: add missing connection_id to issue v2 schema
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Noticed while writing documentation that the connection_id was missing. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 10:15:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1134" class=".btn">#1134</a>
             </td>
             <td>
@@ -277,32 +329,6 @@ Should now accept stateless record event topics
     </table>
     <div class="right-align">
         Created At 2021-04-26 13:06:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1118" class=".btn">#1118</a>
-            </td>
-            <td>
-                <b>
-                    make long strings look like elsewhere in aca-py; cover new routes code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sklump <srklump@hotmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-26 11:36:26 +0000 UTC
     </div>
 </div>
 

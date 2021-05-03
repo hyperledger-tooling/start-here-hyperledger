@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    Ensure divide or remainder work on all int lengths > 64, not just 128 and 256
+                    Ensure arithmetic is correct for on non-power-of-2 integer types
                 </b>
             </td>
         </tr>
