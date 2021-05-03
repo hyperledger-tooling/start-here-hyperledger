@@ -545,36 +545,3 @@ Signed-off-by: Jagpreet Singh Sasan <jagpreet.singh.sasan@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/864" class=".btn">#864</a>
-            </td>
-            <td>
-                <b>
-                    test(ci): fail ci.sh if git index is not empty
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                the script uses npm ci, which should not cause
-any updates to the lock files, therefor currently
-the git index is checked only at the end of the
-script
-
-Resolves https://github.com/hyperledger/cactus/issues/809
-
-Signed-off-by: Hristiyan Ivanov <hristiyan.d.ivanov@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-26 06:18:27 +0000 UTC
-    </div>
-</div>
-

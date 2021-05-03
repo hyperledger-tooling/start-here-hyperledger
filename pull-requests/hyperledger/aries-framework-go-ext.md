@@ -168,29 +168,3 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/107" class=".btn">#107</a>
-            </td>
-            <td>
-                <b>
-                    feat: Index creation retries and better logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-26 02:29:02 +0000 UTC
-    </div>
-</div>
-
