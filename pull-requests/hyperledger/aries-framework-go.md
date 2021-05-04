@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2778" class=".btn">#2778</a>
+            </td>
+            <td>
+                <b>
+                    feat: wallet command controllers for issue, prove, verify, derive
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Part of #2770
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 21:22:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2777" class=".btn">#2777</a>
             </td>
             <td>
@@ -333,40 +362,6 @@ Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-04-27 10:57:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2759" class=".btn">#2759</a>
-            </td>
-            <td>
-                <b>
-                    feat: vc wallet EDV storage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - if wallet user provides EDV settings during profile creation for
-storage then wallet will create internal EDV client instance for storing
-wallet contents
-- for now, encryption and MAC key IDs has to be provided by client user
-during profile creation/update
-- closes #2757
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-26 22:46:32 +0000 UTC
     </div>
 </div>
 
