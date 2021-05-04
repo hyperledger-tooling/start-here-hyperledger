@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/avalon
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/avalon/pull/767" class=".btn">#767</a>
+                PR <a href="https://github.com/hyperledger/avalon/pull/768" class=".btn">#768</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/avalon
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-30 10:53:03 +0000 UTC
+        Created At 2021-05-04 09:37:20 +0000 UTC
     </div>
 </div>
 
