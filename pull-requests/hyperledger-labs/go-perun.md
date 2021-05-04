@@ -109,32 +109,3 @@ Closes #58
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/55" class=".btn">#55</a>
-            </td>
-            <td>
-                <b>
-                    :bug: [client] Fix NewRandomLedgerChannelProposal
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                An inconsistent LedgerChannelProposal may have been generated because
-the allocation was generated independent of the number of participants.
-
-Signed-off-by: Matthias Geihs <matthias@perun.network>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-27 15:13:53 +0000 UTC
-    </div>
-</div>
-

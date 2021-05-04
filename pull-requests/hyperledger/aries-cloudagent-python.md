@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1145" class=".btn">#1145</a>
+            </td>
+            <td>
+                <b>
+                    Adopt problem report oob and coord mediation protos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Question: what in the OOB protocol ever creates such a problem report?
+
+In any case, this update roughs in compliance with RFC35 problem reports and adopts them into the protocol for such time as operations do create them in OOB, representing move mainly laterally but slightly better.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-04 14:02:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1143" class=".btn">#1143</a>
             </td>
             <td>

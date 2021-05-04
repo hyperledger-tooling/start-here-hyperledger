@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1439" class=".btn">#1439</a>
+            </td>
+            <td>
+                <b>
+                    [shared] changes for ssh only git
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Use only SSH for gitops and well as ansible controller
+- Update molecule tests to run on Kubernetes 1.16 and Vault 1.7.0
+
+**Linked issue**
+resolves #876 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-04 14:56:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1438" class=".btn">#1438</a>
             </td>
             <td>
