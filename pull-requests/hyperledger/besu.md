@@ -14,6 +14,119 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2219" class=".btn">#2219</a>
+            </td>
+            <td>
+                <b>
+                    Test update 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-04 15:06:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2218" class=".btn">#2218</a>
+            </td>
+            <td>
+                <b>
+                    PermissioningService Besu Plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # PermissioningService Besu Plugin
+
+An additional plugin extension point has been added to besu to enable developers to intercept p2p connections and messages.
+
+```java
+public interface PermissioningService extends BesuPluginService {
+  void registerNodePermissioningProvider(NodeConnectionPermissioningProvider provider);
+  void registerNodeMessagePermissioningProvider(NodeMessagePermissioningProvider provider);
+}
+```
+
+## NodeConnectionPermissioningProvider
+This will allow plugin users to hook into node connections and when a node attempts to send messages using the following interface.
+```java
+@FunctionalInterface
+public interface NodeConnectionPermissioningProvider {
+  /**
+   * Can be used to intercept the initial connection to a peer. Note that once a connection is
+   * established it's bi-directional.
+   *
+   * @param sourceEnode the originators enode
+   * @param destinationEnode the enode you are about to send to
+   * @return if you can connect
+   */
+  boolean isConnectionPermitted(final EnodeURL sourceEnode, final EnodeURL destinationEnode);
+}
+```
+
+## NodeMessagePermissioningProvider
+
+If a provider has been registered through the plugin API all messages sent to a peer will use the hook to check if the message can be sent to a peer.
+
+```java
+@FunctionalInterface
+public interface NodeMessagePermissioningProvider {
+  /**
+   * Can be used to intercept messages before they are sent from besu. 
+   *
+   * Note! this method is called on every message send.
+   *
+   * @param destinationEnode the enode you are about to send to
+   * @param code devp2p code for the message
+   * @return if we can send the message to the peer
+   */
+  boolean isMessagePermitted(final EnodeURL destinationEnode, final int code);
+}
+```
+    
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-04 14:04:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2213" class=".btn">#2213</a>
             </td>
             <td>

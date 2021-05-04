@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/913" class=".btn">#913</a>
+            </td>
+            <td>
+                <b>
+                    refactor(core-api): get is replaced with post
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolve #430 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-04 15:43:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/910" class=".btn">#910</a>
             </td>
             <td>
@@ -761,34 +787,6 @@ Resolve #584
     </table>
     <div class="right-align">
         Created At 2021-04-28 07:50:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/875" class=".btn">#875</a>
-            </td>
-            <td>
-                <b>
-                    fix(connector-fabric): export IPluginLedgerConnectorFabricOptions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Exports IPluginLedgerConnectorFabricOptions from the Fabric Connector public API 
-
-cc @petermetz 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-27 12:50:07 +0000 UTC
     </div>
 </div>
 
