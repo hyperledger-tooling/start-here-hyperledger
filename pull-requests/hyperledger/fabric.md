@@ -236,29 +236,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2568" class=".btn">#2568</a>
-            </td>
-            <td>
-                <b>
-                    Corrected function name in comment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sukill <ckdrms622@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-27 06:58:15 +0000 UTC
-    </div>
-</div>
-

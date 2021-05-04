@@ -792,29 +792,3 @@ cc @petermetz
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/873" class=".btn">#873</a>
-            </td>
-            <td>
-                <b>
-                    docs(htlc-coordinator): added the flow diagram
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolve #603 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-27 06:52:09 +0000 UTC
-    </div>
-</div>
-

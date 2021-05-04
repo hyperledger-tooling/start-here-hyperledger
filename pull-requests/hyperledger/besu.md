@@ -59,13 +59,13 @@ Two nodes stopped importing this weekend. This PR is a fix candidate. The nodes 
             </td>
             <td>
                 <b>
-                    Initial commit.
+                    Fix GraphQL AT tests failing in GoQuorum mode.
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamRevenant</span>
             </td>
             <td>
                 Signed-off-by: Mark Terry <mark.terry@consensys.net>

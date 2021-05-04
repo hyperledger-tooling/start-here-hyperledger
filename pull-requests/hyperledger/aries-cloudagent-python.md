@@ -14,6 +14,123 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1143" class=".btn">#1143</a>
+            </td>
+            <td>
+                <b>
+                    Feature/didweb
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Work in progress PR to add the did web capabilities to ACA-PY
+
+* Native did:web resolver
+* Serve did document under `/.well-known/did.json`
+* Create a did document from wallet content (uses public DID and endpoint) + additional keys (e.g.) BBS+ keys can be referenced
+* Connection/DID Exchange based on implicit invitation with public did:web
+
+Multitenancy is currently not supported.
+Needs cleaning and tests.
+I'm not an experienced Python programmer so there might be stupid things I've done. Would be cool if someone could take a look.
+
+Example usage:
+Assumption: ACA-Py has configured a public DID, admin interface with HTTPS (e.g. via ngrok) and a BBS+ did:key 
+```
+POST:  /didweb​/create-from-wallet​/{did}
+
+{
+  "verification_methods": [{
+"did":"did:key:zUC71v7BaQAEpNCN9wVetcqMWtWPygSuQ2t4MJ1H9654Aio3DypS8wCd253CZ29C1CiLSMmC8MrepFYvKrvdMHBatyEoQa5pffr8HMqvRR98Vb7NtEBkpN9Ld73jyeyAqYxg8Fy", "
+verification_relationships": ["assertion_method"]
+}]}
+```
+
+will produce:
+```
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:478eb39f6464.ngrok.io",
+  "verificationMethod": [
+  {
+    "id": "did:web:478eb39f6464.ngrok.io#key-1",
+    "type": "Ed25519VerificationKey2018",
+    "controller": "did:web:478eb39f6464.ngrok.io",
+    "publicKeyBase58": "DAwrZwgMwkTVHUQ8ZYAmuvzwprDmX8vFNXzFioxrWpCA"
+  },
+  {
+     "id": "did:web:478eb39f6464.ngrok.io#key-2",
+     "type": "Bls12381G2Key2020",
+     "controller": "did:web:478eb39f6464.ngrok.io",
+     "publicKeyBase58": 
+"n5ZJWiW1TkL9jzpoig99Db9UjQ8hN4L8UuRTfEcFRqSEpNroSGoUDd5XQ2nwUuAhJ9MK5wzqSMzxNzCWC1qs51i5cEBii2ie1i9XXCWG1dyWXKr9jRyETJdmWUEHFzoodef"
+}
+],
+"authentication": [
+"did:web:478eb39f6464.ngrok.io#key-1"
+],
+"assertionMethod": [
+"did:web:478eb39f6464.ngrok.io#key-1",
+"did:web:478eb39f6464.ngrok.io#key-2"
+],
+"service": [
+{
+"id": "did:web:478eb39f6464.ngrok.io#did-communication",
+"type": "did-communication",
+"serviceEndpoint": "http://host.docker.internal:8000",
+"recipientKeys": [
+"did:web:478eb39f6464.ngrok.io#key-1"
+],
+"routingKeys": [],
+"priority": 0
+}
+]
+}
+```
+
+served under `https:478eb39f6464.ngrok.io/.well-known/did.json`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-04 08:30:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1141" class=".btn">#1141</a>
+            </td>
+            <td>
+                <b>
+                    docs: small updates to jsonld docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Just some small rewording, no substantive changes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-04 06:50:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1140" class=".btn">#1140</a>
             </td>
             <td>
