@@ -101,29 +101,3 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/212" class=".btn">#212</a>
-            </td>
-            <td>
-                <b>
-                    Add release checklist
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Banks <rbanks@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-26 18:52:07 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1140" class=".btn">#1140</a>
+            </td>
+            <td>
+                <b>
+                    fix: add missing connection_id to issue v2 schema
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @sklump, re #1135, I modified the base class which is used for both `credential_exchange_send` and `credential_exchange_create`. My bad. I created a separate schema for `credential_exchange_send` now. 
+
+AFAIK `credential_exchange_send` should take a connection id as input (so does the code also suggest). Otherwise I fail to see the difference between `credential_exchange_create` and `credential_exchange_send`
+
+It is weird because both have the description "Send holder a credential, automating entire flow", while they do different things.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 19:37:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1139" class=".btn">#1139</a>
             </td>
             <td>
@@ -59,32 +89,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </table>
     <div class="right-align">
         Created At 2021-05-03 11:21:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1135" class=".btn">#1135</a>
-            </td>
-            <td>
-                <b>
-                    fix: add missing connection_id to issue v2 schema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Noticed while writing documentation that the connection_id was missing. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-03 10:15:49 +0000 UTC
     </div>
 </div>
 

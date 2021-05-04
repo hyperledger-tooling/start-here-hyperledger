@@ -118,29 +118,3 @@ I'm not sure if I removed too much, but I think this basic variant will be quite
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/643" class=".btn">#643</a>
-            </td>
-            <td>
-                <b>
-                    Add ECDH-ES for Anoncrypt in Envelope v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">AIP 2.0</span>
-            </td>
-            <td>
-                Signed-off-by: Troy Ronda <troy@troyronda.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-26 20:40:36 +0000 UTC
-    </div>
-</div>
-

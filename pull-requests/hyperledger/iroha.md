@@ -182,33 +182,3 @@ No timeouts for tests.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/995" class=".btn">#995</a>
-            </td>
-            <td>
-                <b>
-                    Refactor/remove rxcpp
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - SE field in Irohad class
-- Remove rxcpp from TransactionProcessorImpl
-- Use any_range in BlockLoader interface
-- Remove rxcpp from Synchronizer
-- Remove rxcpp from Simulator
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-26 19:27:32 +0000 UTC
-    </div>
-</div>
-
