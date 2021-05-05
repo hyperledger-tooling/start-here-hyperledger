@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1002" class=".btn">#1002</a>
+            </td>
+            <td>
+                <b>
+                    PR template
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sara <lira.lemur@gmail.com>
+
+### Description of the Change
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+Adding PR template instructions on automatically resolving GH issues. Like here:
+
+Resolves #828
+
+### Benefits
+
+Cool automated issue management
+
+### Possible Drawbacks 
+
+If it actually does not solve the issue?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 13:58:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1001" class=".btn">#1001</a>
             </td>
             <td>
@@ -182,72 +225,6 @@ To avoid future problems with different library implementations which contains o
     </table>
     <div class="right-align">
         Created At 2021-04-30 16:32:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/998" class=".btn">#998</a>
-            </td>
-            <td>
-                <b>
-                    Queries for roles and permissions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Egor Ivkov <e.o.ivkov@gmail.com>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-Queries for:
-1. Account permission tokens
-2. All roles
-3. Roles of the account
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Benefits
-Now we can query these things :)
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks 
-None found
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Jira Issue
-https://jira.hyperledger.org/browse/IR-1069
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-28 16:48:24 +0000 UTC
     </div>
 </div>
 

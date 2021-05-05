@@ -211,29 +211,3 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/402" class=".btn">#402</a>
-            </td>
-            <td>
-                <b>
-                    Replaces Feature/connect to personal wallets #399
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-28 14:46:47 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,178 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1155" class=".btn">#1155</a>
+            </td>
+            <td>
+                <b>
+                    Issue cred v2 schema fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Continuing on Timo Glastra's work: https://github.com/hyperledger/aries-cloudagent-python/pull/1140
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 16:37:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1154" class=".btn">#1154</a>
+            </td>
+            <td>
+                <b>
+                    Fix/type in ld proof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Fix issue described in [Rocket chat ](https://chat.hyperledger.org/channel/aries-cloudagent-python?msg=CDike9uCQciDRohRu)
+* Allow `type` property in proof validation schema
+* Set default proof type if property is not provided
+
+Currently only `Ed25519Signature2018` is allowed anyways...
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 16:24:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1153" class=".btn">#1153</a>
+            </td>
+            <td>
+                <b>
+                    Tone down the endorser validation when setting up connection metadata
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+@esune 
+
+Removes some of the validation when setting up connection meta-data to remove timing dependencies between the author and endorser setup tasks
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 14:32:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1151" class=".btn">#1151</a>
+            </td>
+            <td>
+                <b>
+                    fix: bad service endpoint in test data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+
+A recent update to PyDID brought some bad input data to light.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 13:35:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1150" class=".btn">#1150</a>
+            </td>
+            <td>
+                <b>
+                    docs: update openapi file, enable multitenancy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update the openapi file and enable the multitenancy api in `generate-open-api-script`
+
+Fixes #1034 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 12:56:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1148" class=".btn">#1148</a>
+            </td>
+            <td>
+                <b>
+                    feat: send webhooks for forward messages 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds an option to ACA-Py to send webhook events on received forward messages (`--monitor-forward`, taken from `monitor-ping`).
+
+I extended the `OutboundSendStatus` work from Daniel and added a few more status options. These are then included in the webhook event, so the controller can react to the event. 
+
+If `--monitor-forward` is not enabled, the event is still dispatched in the event bus (just not as webhook), so other parts of the codebase/plugins can hook into this if they want to manage it in ACA-Py instead of the controller
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 12:41:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1145" class=".btn">#1145</a>
             </td>
             <td>
@@ -152,36 +324,6 @@ served under `https:478eb39f6464.ngrok.io/.well-known/did.json`
     </table>
     <div class="right-align">
         Created At 2021-05-04 06:50:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1140" class=".btn">#1140</a>
-            </td>
-            <td>
-                <b>
-                    fix: add missing connection_id to issue v2 schema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                @sklump, re #1135, I modified the base class which is used for both `credential_exchange_send` and `credential_exchange_create`. My bad. I created a separate schema for `credential_exchange_send` now. 
-
-AFAIK `credential_exchange_send` should take a connection id as input (so does the code also suggest). Otherwise I fail to see the difference between `credential_exchange_create` and `credential_exchange_send`
-
-It is weird because both have the description "Send holder a credential, automating entire flow", while they do different things.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-03 19:37:18 +0000 UTC
     </div>
 </div>
 
@@ -435,49 +577,6 @@ Fixes #1128
     </table>
     <div class="right-align">
         Created At 2021-04-29 16:48:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1124" class=".btn">#1124</a>
-            </td>
-            <td>
-                <b>
-                    Fix: stateless record webhooks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should hopefully address #1123.
-
-### Changes
-**fix: stateless records emit events**
-
-Error on the side of caution for BaseRecord.emit_event, using topic
-without state when none is given, and inserting the serialized record as
-the payload if no payload is given.
-
-Events are only not emitted by records when no record topic is set.
-
-**fix: relax admin server record event pattern**
-
-Should now accept stateless record event topics
-
-**fix: add event namespace to base records to allow plugins to override**
-
-**test: record topic parsing for webhook**
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-28 13:08:27 +0000 UTC
     </div>
 </div>
 

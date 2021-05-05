@@ -38,30 +38,3 @@ Also, it fixes a problem with the linter. Namely, some golinter functions work w
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/574" class=".btn">#574</a>
-            </td>
-            <td>
-                <b>
-                    Update CODEOWNERS group
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-28 14:34:19 +0000 UTC
-    </div>
-</div>
-
