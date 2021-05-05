@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2221" class=".btn">#2221</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2224" class=".btn">#2224</a>
             </td>
             <td>
                 <b>
-                    remove GQ ATs step
+                    fix goquorum privacy
                 </b>
             </td>
         </tr>
@@ -27,16 +27,86 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                Seeing if this makes any difference to entropy 
+                fixes #2198
+The bug was that when we have a private transaction in goquorum mode and a contract calls another contract or a contract deploys another contract the sender account from the public world state was used, which caused the nonce to be incremented in the public state. 
 
-## Changelog
+Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-05 00:30:09 +0000 UTC
+        Created At 2021-05-05 01:58:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2223" class=".btn">#2223</a>
+            </td>
+            <td>
+                <b>
+                    Rayonism Branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This pull puts the rayonism branch we used for steklo into a hyperledger branch.  
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 01:46:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2222" class=".btn">#2222</a>
+            </td>
+            <td>
+                <b>
+                    update json-rpc responses for 1559
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+* adds 1559-specific fields to json-rpc responses for BlockResult and TransactionResult
+* removes empty gasPrice from TransactionResult from json-rpc serialization
+* removes gasLimit from 1559 transactions json-rpc serialization
+* fixes retesteth eth_getTransactionCount to use a hex rather than decimal for result
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2215 
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 01:27:13 +0000 UTC
     </div>
 </div>
 
@@ -384,35 +454,6 @@ It happened on the mainnet we received a bad block that failed and then when we 
     </table>
     <div class="right-align">
         Created At 2021-04-28 13:51:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2197" class=".btn">#2197</a>
-            </td>
-            <td>
-                <b>
-                    fix selection of receive RPC
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There are two RPC in Tessera for GET "/transaction/{hash}". This makes sure we are using the right one.
-
-Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
- 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-28 01:05:20 +0000 UTC
     </div>
 </div>
 
