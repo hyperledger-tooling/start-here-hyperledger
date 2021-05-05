@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1444" class=".btn">#1444</a>
+            </td>
+            <td>
+                <b>
+                    Feature/ambassador upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Add
+- Fix
+- Update
+
+ 
+
+**Reviewed by**
+@developer_github_id
+
+ 
+
+**Linked issue**
+#issue_number
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 13:49:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1443" class=".btn">#1443</a>
+            </td>
+            <td>
+                <b>
+                    [shared] Feature/ambassador upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+Merge for Ambassador upgrade
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 13:42:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1442" class=".btn">#1442</a>
+            </td>
+            <td>
+                <b>
+                    [indy] ambassador upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+Latest develop and changes for Indy ambassador V2
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 13:31:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1441" class=".btn">#1441</a>
             </td>
             <td>
