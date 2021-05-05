@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/652" class=".btn">#652</a>
+            </td>
+            <td>
+                <b>
+                    WIP - RFC0510: updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * presentation_definitions -> presentation_definition
+* add `options` object
+* add option for BbsBlsSigantureProof2020
+* add `nonce` option for BbsBlsSignatureProof2020
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-04 20:46:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/651" class=".btn">#651</a>
             </td>
             <td>

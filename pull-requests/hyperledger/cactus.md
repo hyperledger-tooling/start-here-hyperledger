@@ -14,6 +14,120 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/918" class=".btn">#918</a>
+            </td>
+            <td>
+                <b>
+                    refactor(supply-chain-backend): .test.ts suffix for api-surface tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span>
+            </td>
+            <td>
+                A cosmetic change that helps people identify whata re test files and are
+main source files since Visual Studio Code has this feature
+that it highlights .test.ts files with a different icon in its
+file explorer.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 00:09:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/917" class=".btn">#917</a>
+            </td>
+            <td>
+                <b>
+                    refactor(core-api): discontinue the PluginAspect enum #885
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Core_API</span>
+            </td>
+            <td>
+                Also fixed a few typos here and there, linter warnings, etc.
+
+Fixes #885
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+cc: @AzaharaC @kikoncuo @jagpreetsinghsasan @TonyRowntree @travis-payne 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-04 23:57:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/915" class=".btn">#915</a>
+            </td>
+            <td>
+                <b>
+                    test(connector-fabric): fix module requires Go 1.17 #914
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Fabric</span><span class="chip">bug</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                Author: Peter Somogyvari <peter.somogyvari@accenture.com>
+Committer: Peter Somogyvari <peter.somogyvari@accenture.com>
+Date: Tue May 04 2021 14:32:33 GMT-0700 (Pacific Daylight Time)	 
+
+test(connector-fabric): fix module requires Go 1.17 #914
+
+Primary change:
+------------------
+
+Pinned the buggy dependency to yesterday's version
+(the bug was introduced in this morning's build).
+
+This prevents today's version from being used and
+fixes the problem.
+
+Secondary change:
+--------------------
+
+Upgraded the container image that's being used for the test to
+the one that has the fabric images pre-cached.
+This leads to faster test execution and lower probability
+of developers getting hit by the dreaded DockerHub rate limiting issue.
+
+Fixes #914 
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-04 21:34:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/913" class=".btn">#913</a>
             </td>
             <td>
@@ -24,7 +138,7 @@ permalink: /pull-requests/hyperledger/cactus
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Core_API</span>
             </td>
             <td>
                 Resolve #430 
