@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1441" class=".btn">#1441</a>
+            </td>
+            <td>
+                <b>
+                    create namespace for flux deployment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jose <pppazos@gmail.com>
+
+**Changelog**
+- Add namespace for flux  named as flux-<environment>
+- Create flux inside new namespace
+- Delete namespace on reset playbooks for all networks
+
+ 
+
+**Reviewed by**
+
+
+ 
+
+**Linked issue**
+1292
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 12:00:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1439" class=".btn">#1439</a>
             </td>
             <td>
@@ -269,86 +311,6 @@ Signed-off-by: alvaropicazo <alvaro.picazo.haase@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-04-29 09:47:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1427" class=".btn">#1427</a>
-            </td>
-            <td>
-                <b>
-                    [Quorum] added molecule ambassador-certs scenario
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angela Alagbe <angela.alagbe@accenture.com>
-
-**Changelog**
-- Added a molecule ambassador-certs test scenario
-- Updated ambassador-certs nested_main.yaml file
-
- 
-
-**Reviewed by**
-@sownak 
- 
-
-**Linked issue**
-#719 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-28 11:05:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1426" class=".btn">#1426</a>
-            </td>
-            <td>
-                <b>
-                    Updated ambassador annotations to v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Update ambassador annotations to v2 for Corda OS and supplychain ref. app services 
-
- 
-
-**Reviewed by**
-@sownak 
-
- 
-
-**Linked issue**
-#1288 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-28 08:18:01 +0000 UTC
     </div>
 </div>
 

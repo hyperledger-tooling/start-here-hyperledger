@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/56" class=".btn">#56</a>
             </td>
             <td>
                 <b>
-                    FABGW-19: Secure Gateway CommitStatus service
+                    FABGW-20 Specify endorsing organizations
                 </b>
             </td>
         </tr>
@@ -27,19 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                - Include calling identity in CommitStatusRequest
-- SignedCommitStatusRequest wraps a serialized CommitStatusRequest and digital signature
-- CommitStatus service received a SignedCommitStatusRequest instead of CommitStatusRequest
+                Add support in the EndorseRequest message of the gateway proto for specifying which org’s peers to target.
 
-Allows the server to:
-
-- Ensure the request message was created by the expected client identity by verifying the signature
-- Check that the calling identity has read permission for the channel
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-22 13:05:55 +0000 UTC
+        Created At 2021-05-05 10:27:44 +0000 UTC
     </div>
 </div>
 

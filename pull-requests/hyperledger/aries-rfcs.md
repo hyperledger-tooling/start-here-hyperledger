@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/653" class=".btn">#653</a>
+            </td>
+            <td>
+                <b>
+                    small updates to bbs+ rfc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 07:02:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/652" class=".btn">#652</a>
             </td>
             <td>
