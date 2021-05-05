@@ -210,29 +210,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2569" class=".btn">#2569</a>
-            </td>
-            <td>
-                <b>
-                    fix typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: wuqiaomin <wuqiaomin2@huawei.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-28 06:15:25 +0000 UTC
-    </div>
-</div>
-
