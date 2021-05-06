@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1445" class=".btn">#1445</a>
+            </td>
+            <td>
+                <b>
+                    fixed vars errors and storage class creation loop
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Dimbu Afonso <dimbu.k.afonso@accenture.com>
+
+**Changelog**
+- Fixed vars errors and storage class creation loop
+
+ 
+
+**Reviewed by**
+@deepakkumardbd 
+
+ 
+
+**Linked issue**
+#718 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-06 10:52:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1444" class=".btn">#1444</a>
             </td>
             <td>
@@ -334,79 +374,6 @@ Signed-off-by: alvaropicazo <alvaro.picazo.haase@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-04-29 14:08:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1433" class=".btn">#1433</a>
-            </td>
-            <td>
-                <b>
-                    Updated Roadmap
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Update roadmap
-
- 
-
-**Reviewed by**
-@sownak 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 09:51:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1432" class=".btn">#1432</a>
-            </td>
-            <td>
-                <b>
-                    added default molecule tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Added molecule test for default scenario
-
- 
-
-**Reviewed by**
-@suvajit-sarkar @deepakkumardbd @jagpreetsinghsasan 
-
- 
-
-**Linked issue**
-#718 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 09:47:51 +0000 UTC
     </div>
 </div>
 

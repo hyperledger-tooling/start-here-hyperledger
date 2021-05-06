@@ -41,32 +41,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/443" class=".btn">#443</a>
-            </td>
-            <td>
-                <b>
-                    Correct index location
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Correct the location of the index file in the JavaScript queries example
-- The same contract had a utility function that wasn't prefixed with _ therefore appeared in the list of the transactions. 
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 07:18:12 +0000 UTC
-    </div>
-</div>
-

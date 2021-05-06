@@ -155,32 +155,3 @@ https://jira.hyperledger.org/browse/FAB-18457
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2572" class=".btn">#2572</a>
-            </td>
-            <td>
-                <b>
-                    Fix incorrect error message in Gateway submit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As pointed out in previous PR review, the error message was incorrect when the gateway can’t connect to the BroadcastClient. (https://github.com/hyperledger/fabric/pull/2508#discussion_r601777021)
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 10:50:17 +0000 UTC
-    </div>
-</div>
-
