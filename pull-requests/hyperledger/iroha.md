@@ -314,12 +314,17 @@ To avoid future problems with different library implementations which contains o
 
 ### Description of the Change
 
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+Fixes for lockfree WSV
+
+- removes unnecessary Dashmaps and locks in API
+- fixes bug with excessive number of blocks created (rejected transactions were not recorded)
+- Displays full error cause for errors
 
 ### Benefits
 
-<!-- What benefits will be realized by the code change? -->
+Dashmaps in API introduced unnecessary complexity and made no sense from the access parallelization point of view - top level dashmap lock was always present, so inner dashmaps made no sense, as we also pass the whole WSV. Also RwLocks had to be sync there, which is bad for async context.
+
+Now only the top level fields in WSV and World have dashmaps.
 
 ### Possible Drawbacks 
 

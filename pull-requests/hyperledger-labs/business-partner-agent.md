@@ -185,29 +185,3 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/403" class=".btn">#403</a>
-            </td>
-            <td>
-                <b>
-                    updated to latest micronaut versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 10:51:45 +0000 UTC
-    </div>
-</div>
-
