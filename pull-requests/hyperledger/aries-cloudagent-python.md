@@ -554,29 +554,3 @@ Fixes #1128
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1125" class=".btn">#1125</a>
-            </td>
-            <td>
-                <b>
-                    DIF Presentation Exchange and present-proof-v2 Updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 16:48:37 +0000 UTC
-    </div>
-</div>
-
