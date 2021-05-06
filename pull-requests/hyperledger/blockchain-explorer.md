@@ -66,29 +66,3 @@ Signed-off-by: sigma67 <benedikt.putz@wiwi.uni-regensburg.de>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/232" class=".btn">#232</a>
-            </td>
-            <td>
-                <b>
-                    Added new maintainer name
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jeeva <jsankarapandian@devx.systems>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 06:08:05 +0000 UTC
-    </div>
-</div>
-

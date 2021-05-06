@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/678" class=".btn">#678</a>
+            </td>
+            <td>
+                <b>
+                    Improve validation error reporting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The rust-libxml bindings library did not handle validation errors properly. Instead of reporting all of the validation errors for a file, the library would return the correct number of errors but all of the error messages would be the same. This issue seems to be due to the implementation of the StructuredError handler in the rust-libxml bindings library.
+
+This PR removes the bindings library and just implements bindings for the specific libxml2 functions needed for validation.
+
+This PR also moves the validation step to after the XML files have been parsed so that parsing errors can be reported before validation.
+
+Example output:
+
+```
+$ grid product create --owner crgl --file .myfiles/valid_example.xml --file .myfiles/invalid_example.xml 
+Entity: line 10: Schemas validity error : Element 'isTradeItemAnInvoiceUnit': 'ERROR' is not a valid value of the atomic type 'xs:boolean'.
+Entity: line 11: Schemas validity error : Element 'isTradeItemAnOrderableUnit': 'ERROR' is not a valid value of the atomic type 'xs:boolean'.
+Error: File fails to validate (.myfiles/invalid_example.xml)
+```
+
+Implementation was inspired by [FranklinChen/validate-xml-rust](https://github.com/FranklinChen/validate-xml-rust) and [xmllint](https://github.com/GNOME/libxml2/blob/master/xmllint.c)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-06 03:32:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/660" class=".btn">#660</a>
             </td>
             <td>
