@@ -14,6 +14,120 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1003" class=".btn">#1003</a>
+            </td>
+            <td>
+                <b>
+                    826 fix grpc msg size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # The problem iroha freezes inside GRPC
+when waiting response to a big (more than 4MB) message.
+
+# Steps to reproduce
+Send long transactions batch (more than 250)
+
+```
+from iroha import *
+
+
+def public_key_from_private(private_key: str):
+    return IrohaCrypto.derive_public_key(private_key).decode('utf-8')
+
+
+def send_signed_batch_transaction(txs, net):
+    net.send_txs(txs)
+    for tx in txs:
+        print(f'Transaction hash = {calculate_hash_of_transaction(tx)}')
+        for status_name, status_code, error_code in net.tx_status_stream(tx, timeout=20):
+            print(f'\tstatus_name:{status_name}, status_code:{status_code}, error_code:{error_code}')
+
+
+def calculate_hash_of_transaction(transaction_with_payload):
+    h = IrohaCrypto.hash(transaction_with_payload)
+    return binascii.hexlify(h).decode("utf-8")
+
+
+if __name__ == '__main__':
+    IROHA_HOST_ADDR = os.getenv('IROHA_HOST_ADDR', 'localhost')
+    IROHA_PORT = os.getenv('IROHA_PORT', '50051')
+    ADMIN_ACCOUNT_ID = os.getenv('ADMIN_ACCOUNT_ID', 'admin@test')
+    ADMIN_PRIVATE_KEY = os.getenv('ADMIN_PRIVATE_KEY', 'f101537e319568c765b2cc89698325604991dca57b9716b58016b253506cab70')
+
+    iroha = Iroha(ADMIN_ACCOUNT_ID)
+    net = IrohaGrpc(f'{IROHA_HOST_ADDR}:{IROHA_PORT}',max_message_length=400*1024*1024)
+
+    new_user_private_key = '1234567890123456789012345678901234567890123456789012345678901234'
+    new_user_public_key = public_key_from_private(new_user_private_key)
+
+    accounts_to_create = 250
+
+    txs = []
+    for i in range(accounts_to_create):
+        txs.append(
+            iroha.transaction([
+                iroha.command('CreateAccount', account_name=f'1p_account_{i}', domain_id='test', public_key=new_user_public_key)
+            ]))
+
+    iroha.batch(txs, atomic=False)
+
+    for tx in txs:
+        IrohaCrypto.sign_transaction(tx, ADMIN_PRIVATE_KEY)
+
+    send_signed_batch_transaction(txs, net)
+
+```
+After this iroha freezes and python script results with 
+```
+        status = StatusCode.DEADLINE_EXCEEDED
+        details = "Deadline Exceeded"
+        debug_error_string = "{"created":"@1619454477.951686000","description":"Error received from peer ipv6:[::1]:50051","file":"src/core/lib/surface/call.cc","file_line":1068,"grpc_message":"Deadline Exceeded","grpc_status":4}"
+```
+
+
+
+# Result after fix
+
+> Received message larger than max (4207140 vs. 4194304)
+
+```
+> python3 batch_test.py
+Traceback (most recent call last):
+  File "/batch_test.py", line 47, in <module>
+    send_signed_batch_transaction(txs, net)
+  File "/batch_test.py", line 9, in send_signed_batch_transaction
+    net.send_txs(txs)
+  File "/usr/local/lib/python3.9/site-packages/iroha/iroha.py", line 396, in send_txs
+    self._command_service_stub.ListTorii(tx_list, timeout=timeout)
+  File "/usr/local/lib/python3.9/site-packages/grpc/_channel.py", line 923, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/usr/local/lib/python3.9/site-packages/grpc/_channel.py", line 826, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+        status = StatusCode.RESOURCE_EXHAUSTED
+        details = "Received message larger than max (4207140 vs. 4194304)"
+        debug_error_string = "{"created":"@1619454844.395104000","description":"Error received from peer ipv6:[::1]:50051","file":"src/core/lib/surface/call.cc","file_line":1068,"grpc_message":"Received message larger than max (4207140 vs. 4194304)","grpc_status":8}"
+>
+
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-05 19:27:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1002" class=".btn">#1002</a>
             </td>
             <td>

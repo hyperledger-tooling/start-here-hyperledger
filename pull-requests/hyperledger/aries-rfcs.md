@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger/aries-rfcs
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">AIP 2.0</span>
             </td>
             <td>
                 * presentation_definitions -> presentation_definition
@@ -79,7 +79,7 @@ permalink: /pull-requests/hyperledger/aries-rfcs
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">AIP 2.0</span>
             </td>
             <td>
                 As Discussed in last week's WG meeting.
@@ -106,7 +106,7 @@ Signed-off-by: Sam Curren <telegramsam@gmail.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">AIP 2.0</span>
             </td>
             <td>
                 As discussed in our WG meeting last week.
