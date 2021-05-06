@@ -91,10 +91,10 @@ Work-in-progress frontend to see pending proof requests, but none will exist in 
 This a partial PR that includes alot of the meat of the backend work.
 
 TODO:
-- [] handle get pending query params
-- [] cleanup (and maybe rename) ProofManager.presentProof. 
-- [] handle predicates in the proof-request
-- [] Add tests
+- [ ] handle get pending query params
+- [ ] cleanup (and maybe rename) ProofManager.presentProof. 
+- [x] handle predicates in the proof-request
+- [ ] Add tests
             </td>
         </tr>
     </table>
