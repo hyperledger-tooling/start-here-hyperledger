@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1004" class=".btn">#1004</a>
+            </td>
+            <td>
+                <b>
+                    Refactor/remove rxcpp
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - SE field in Irohad class
+- Remove rxcpp from TransactionProcessorImpl
+- Use any_range in BlockLoader interface
+- Remove rxcpp from Synchronizer
+- Remove rxcpp from Simulator
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-06 12:48:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1003" class=".btn">#1003</a>
             </td>
             <td>

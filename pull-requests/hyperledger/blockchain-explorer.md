@@ -36,33 +36,3 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/234" class=".btn">#234</a>
-            </td>
-            <td>
-                <b>
-                    add typescript compilation on main.sh install
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As mentioned on RocketChat, running tsc is mandatory now before one can start the backend with start.sh
-
-I added the tsc step with npm run build in main.sh
-
-Signed-off-by: sigma67 <benedikt.putz@wiwi.uni-regensburg.de>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 15:25:35 +0000 UTC
-    </div>
-</div>
-

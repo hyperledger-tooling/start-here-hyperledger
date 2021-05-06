@@ -159,29 +159,3 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/404" class=".btn">#404</a>
-            </td>
-            <td>
-                <b>
-                    upgrade java to version 16
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                if there aren't any objections i would like to push the java version up to 16
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 12:46:23 +0000 UTC
-    </div>
-</div>
-
