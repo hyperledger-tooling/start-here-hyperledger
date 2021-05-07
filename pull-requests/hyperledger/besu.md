@@ -14,26 +14,31 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2207" class=".btn">#2207</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2213" class=".btn">#2213</a>
             </td>
             <td>
                 <b>
-                    Fix GraphQL AT tests failing in GoQuorum mode.
+                    Ask block when not present
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">TeamRevenant</span>
+                
             </td>
             <td>
-                Signed-off-by: Mark Terry <mark.terry@consensys.net>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
 
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
 
 ## PR description
-Fix for GraphQL AT test failing due to incorrect schema in GoQuorum mode.
+
+Two nodes stopped importing this weekend. This PR is a fix candidate. The nodes were late and some blocks were not stored in the pending blocks cache (because there is a size limit with announced blocks). At the time of importing the missing block, Besu did not find the block and stopped; Here is my theory. So I implemented a mechanism that directly asks the missing blocks to peers in these cases
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
 
 ## Changelog
 
@@ -42,7 +47,7 @@ Fix for GraphQL AT test failing due to incorrect schema in GoQuorum mode.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-30 03:05:32 +0000 UTC
+        Created At 2021-05-03 14:13:55 +0000 UTC
     </div>
 </div>
 
