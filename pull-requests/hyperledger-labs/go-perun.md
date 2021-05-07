@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/71" class=".btn">#71</a>
+            </td>
+            <td>
+                <b>
+                    :sparkles: [channel] Improve Allocation handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                One step towards making it more convenient to work with `Allocation`.
+
+Closes #63 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-07 13:45:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/70" class=".btn">#70</a>
             </td>
             <td>

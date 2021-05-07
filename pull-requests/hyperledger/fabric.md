@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2579" class=".btn">#2579</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Simplify GitHub Action for AZP Triggering"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts commit b1f43299ac7a3325bd686e1d34869b170b1fcc51.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-07 13:09:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2578" class=".btn">#2578</a>
             </td>
             <td>
