@@ -14,6 +14,172 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/913" class=".btn">#913</a>
+            </td>
+            <td>
+                <b>
+                    refactor(core-api): get is replaced with post
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Core_API</span><span class="chip">dependent</span>
+            </td>
+            <td>
+                Resolve #430 
+Depends on #915 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-04 15:43:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/910" class=".btn">#910</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-quorum): support v21.4.1 and Tessera 21.1.1 #901
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Quorum</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                Refactored how tests are named so that we can start having a support
+matrix backed by tests for each permutation needed.
+
+The used Quorum version is encoded in the beginning of the
+test case file name to make them easy to tell apart in logs.
+
+Fixes https://github.com/hyperledger/cactus/issues/901
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 22:58:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/909" class=".btn">#909</a>
+            </td>
+            <td>
+                <b>
+                    feat(test-tooling): quorum AIO upgrade to Quorum v21.4.1 #900
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">Quorum</span><span class="chip">dependencies</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                The image will now have the currently latest & greatest from both
+Quorum and Tessera.
+
+This commit is also tagged in DockerHub as
+hyperledger/cactus-quorum-all-in-one:2021-05-03-quorum-v21.4.1
+
+Two minor updates that were necessary for the upgrade:
+1. The allowing of unlocking while HTTP is enabled is now prohibited by default unless you pass
+in a specific flag when starting Quorum (so we do).
+2. The max code size schema has changed in the genesis file to include
+block size as well so the genesis.json used is updated too.
+
+Fixes https://github.com/hyperledger/cactus/issues/900
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 22:55:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/908" class=".btn">#908</a>
+            </td>
+            <td>
+                <b>
+                    refactor(test-tooling): quorum AIO supervisord to log to stdout
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">Quorum</span>
+            </td>
+            <td>
+                This makes it much easier to debug issues with the AIO container at runtime because
+one does not have to shell into the container, find the log files manually and
+then print them there. Instead the container just forwards the
+output of Tessera and Quorum straight to it's own stdout/stderr.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 22:51:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/907" class=".btn">#907</a>
+            </td>
+            <td>
+                <b>
+                    feat(test-tooling): quorum test ledger omit pull parameter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">Quorum</span><span class="chip">dependencies</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                With this boolean argument of the start() method of the test ledger
+class one can test locally built container images that were no yet
+pushed to a public docker registry.
+To use it: build your docker image locally with a tag of "your-tag", then
+specify this as the tag to be used and also the omitPull argument of the start
+method as true which will result in your local image being used without
+any attempts to pull it (which would fail).
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 22:34:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/906" class=".btn">#906</a>
             </td>
             <td>
