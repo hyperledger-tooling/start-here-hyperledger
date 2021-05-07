@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2782" class=".btn">#2782</a>
+            </td>
+            <td>
+                <b>
+                    feat: wallet controller EDV & webkms customization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Closes #2770
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-06 20:03:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2781" class=".btn">#2781</a>
+            </td>
+            <td>
+                <b>
+                    feat: JS command controller for VC wallet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Part of #2770
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-06 14:17:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2780" class=".btn">#2780</a>
             </td>
             <td>
@@ -254,133 +311,6 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-04-30 21:31:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2771" class=".btn">#2771</a>
-            </td>
-            <td>
-                <b>
-                    feat: vc wallet command controller for managing profiles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - added create & update profile command controllers
-- Part of #2770
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 23:50:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2769" class=".btn">#2769</a>
-            </td>
-            <td>
-                <b>
-                    feat: apis to create keys in wallet kms
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                -EDV encryption & MAC key IDs cannot be passed as profile settings for
-localkms users since wallet creates local kms internally based on user's
-secret lock service. So wallet has to expose an API to generate EDV keys
-in wallet kms.
-- Closes #2768
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 19:11:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2767" class=".btn">#2767</a>
-            </td>
-            <td>
-                <b>
-                    fix: ECDH-1PU key derivation logic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                and add ECDH-1PU test against the draft's test vector
-
-closes #2766
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 18:18:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2764" class=".btn">#2764</a>
-            </td>
-            <td>
-                <b>
-                    feat: wallet open options for webkms & EDV
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - added more unlock wallet options to use all aries webkms & EDV
-customization opts.
-- can be used to pass auth & authz based http headers for EDV & web kms
-- closes #2763
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-28 21:44:27 +0000 UTC
     </div>
 </div>
 

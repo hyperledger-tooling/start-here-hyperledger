@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/avalon
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/avalon/pull/769" class=".btn">#769</a>
+            </td>
+            <td>
+                <b>
+                    Fix fabric proxy build for CentOS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Rajeev Ranjan <rajeev2.ranjan@intel.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-06 12:53:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/avalon/pull/768" class=".btn">#768</a>
             </td>
             <td>
