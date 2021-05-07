@@ -14,6 +14,238 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/906" class=".btn">#906</a>
+            </td>
+            <td>
+                <b>
+                    perf(cmd-api-server): shrink API server bundle with type-only imports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">API_Server</span><span class="chip">Developer_Experience</span><span class="chip">dependencies</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                Great explanation can be found here:
+https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-8.html
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 21:03:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/905" class=".btn">#905</a>
+            </td>
+            <td>
+                <b>
+                    feat: besu WatchBlocksV1Endpoint with SocketIO
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Besu</span><span class="chip">dependencies</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                ## Dependencies
+
+Depends on [feat(cmd-api-server): add Socket.IO as transport #297 #897](#897)
+
+## Commit to review
+
+Author: Peter Somogyvari <peter.somogyvari@accenture.com>
+Author Date: 2021-05-03 09:52:27 -0700
+Committer: Peter Somogyvari <peter.somogyvari@accenture.com>
+Committer Date: 2021-05-03 13:16:52 -0700 
+
+feat: besu WatchBlocksV1Endpoint with SocketIO
+
+Primary change(s):
+-----------------
+
+1. Adds an async endpoint based on
+the new SocketIO integration of the API server. The endpoint streams new
+block headers to the clients as they come in through the subscription
+mechanism of Web3.
+
+2. The besu connector plugin is now capable of
+accepting the WS RPC API host of the backing Besu client/ledger so that
+it can instantiate a WebSocket provider for itself which was a
+prerequisite of being able to use the Web3 subscriptions functionality
+that the async endponit needs to work.
+
+Secondary change(s):
+-------------------
+
+1. Updated the supply chain app example and the besu tests to
+accomodate the change that the besu connector now needs to use
+the web socket RPC API instead of the HTTP one.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 20:30:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/903" class=".btn">#903</a>
+            </td>
+            <td>
+                <b>
+                    refactor(core-api): register web service method to accept socket io srv
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">API_Server</span><span class="chip">Core_API</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                Adds a second parameter after the epxress object. The second parameter
+is a SocketIO server object which plugins will be able to use to
+register their asynchronous/streaming endpoints which do not use
+traditional REST nor necessarily HTTP as the transport (think websocket
+or SocketIO)
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+Related to #297 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 20:14:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/902" class=".btn">#902</a>
+            </td>
+            <td>
+                <b>
+                    feat(core-api): add SocketIoConnectionPathV1 constant to OpenAPI specs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Core_API</span>
+            </td>
+            <td>
+                This defines a constant in the OpenAPI specification so that it can be
+reused everywhere else in the code, including in the generated
+documentation that we intend to create from the OpenAPI specifications
+later on and also other packages in the Typescript code who import the
+core-api package.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+Related to #297
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 20:09:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/899" class=".btn">#899</a>
+            </td>
+            <td>
+                <b>
+                    feat: expose besu test ledger web socket API port
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                Provide a method to retrieve the host port of the web socket JSON RPC
+API exposed by the Besu AIO image backing the BesuTestLedger class. This
+is a precursor to us adding support for the websocket transport in one
+way or another (SocketIO != WebSockets in the strict sense of protocol
+compatibility because SocketIO servers cannot be used by vanilla WS
+applications out of the box)
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-03 16:54:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/898" class=".btn">#898</a>
+            </td>
+            <td>
+                <b>
+                    perf: leverage import type syntax to save on bundle size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Core_API</span><span class="chip">Performance</span><span class="chip">dependent</span>
+            </td>
+            <td>
+                ## Dependencies
+
+Depends on #897 
+
+## Commit to review
+
+Author: Peter Somogyvari <peter.somogyvari@accenture.com>
+Author Date: 2021-05-01 16:49:48 -0700
+Committer: Peter Somogyvari <peter.somogyvari@accenture.com>
+Committer Date: 2021-05-01 17:13:43 -0700 
+
+perf: leverage import type syntax to save on bundle size
+
+We can exclude ExpressJS from the core-api bundles because it is
+designed to only ship interfaces for re-use by other packages.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-02 00:18:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/897" class=".btn">#897</a>
             </td>
             <td>
@@ -184,61 +416,6 @@ cc: @travis-payne @TonyRowntree
     </table>
     <div class="right-align">
         Created At 2021-05-02 00:08:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/894" class=".btn">#894</a>
-            </td>
-            <td>
-                <b>
-                    chore(linter): fix warning in isIPluginWebService
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 21:24:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/892" class=".btn">#892</a>
-            </td>
-            <td>
-                <b>
-                    fix(github/workflows): dependent issues job name typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
-            </td>
-            <td>
-                There was a typo in the first fix I attempted so now fixing the fix here
-(hopefully)
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 21:13:20 +0000 UTC
     </div>
 </div>
 
