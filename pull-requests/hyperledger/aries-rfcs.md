@@ -119,29 +119,3 @@ Signed-off-by: Sam Curren <telegramsam@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/649" class=".btn">#649</a>
-            </td>
-            <td>
-                <b>
-                    0183 revocation notification AIP v2 changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Small changes for AIP v2 as discussed on Aries call, including sync with please-ack decorator and describe meaning of OUTCOME in this context
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 22:22:28 +0000 UTC
-    </div>
-</div>
-

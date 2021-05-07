@@ -131,31 +131,3 @@ TODO:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/405" class=".btn">#405</a>
-            </td>
-            <td>
-                <b>
-                    Fix bug during transform of CredDef and SchemaAPI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Not sure why this was working before some updates in the pom 🤷‍♂️ . Also noticed that I had to add annotation to my enumerated types in models... that was also working previously.
-
-Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-29 19:41:28 +0000 UTC
-    </div>
-</div>
-
