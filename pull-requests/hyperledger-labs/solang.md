@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/412" class=".btn">#412</a>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/413" class=".btn">#413</a>
             </td>
             <td>
                 <b>
-                    Ensure arithmetic is correct for on non-power-of-2 integer types
+                    functions ripemd160(), sha256(), and keccak256() for Solana
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                
+                ripemd160 has its own implementation, and sha256 uses a syscall. The
+keccak256() function relies on sol_keccak256() syscall which is not
+available yet.
+
+See https://github.com/solana-labs/solana/pull/16498
+
+Signed-off-by: Sean Young <sean@mess.org>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-28 19:40:34 +0000 UTC
+        Created At 2021-05-08 10:57:56 +0000 UTC
     </div>
 </div>
 
