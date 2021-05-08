@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2784" class=".btn">#2784</a>
+            </td>
+            <td>
+                <b>
+                    feat: didexchange interop between acapy and afgo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-07 18:46:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2783" class=".btn">#2783</a>
             </td>
             <td>
@@ -311,35 +337,6 @@ Previously, since there was no PulicKeyFetcher, there was no way to separately v
     </table>
     <div class="right-align">
         Created At 2021-05-01 03:27:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2773" class=".btn">#2773</a>
-            </td>
-            <td>
-                <b>
-                    feat: wallet lock/unlock command controller
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Part of #2770
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-30 21:31:19 +0000 UTC
     </div>
 </div>
 
