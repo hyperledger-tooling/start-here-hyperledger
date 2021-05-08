@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                Do not ignore peers, which were received from DS(DiscoveryService), but are not specified in EndpointConfig. A single org can't possibly know about all existing peers in the network, so it's enough to define at least one, which will be entry point to the DS. Added/fixed tests.
+                Do not ignore peers, which were received from dynamic DS(DiscoveryService), but are not specified in EndpointConfig. A single org can't possibly know about all existing peers in the network, so it's enough to define at least one, which will be an entry point to the DS. Added/fixed tests.
 Related issue: https://stackoverflow.com/questions/67044235/fabric-invoke-chaincode-error-failed-to-get-endorsing-peers-no-endorsement-com/67437604#67437604
             </td>
         </tr>

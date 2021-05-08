@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1161" class=".btn">#1161</a>
+            </td>
+            <td>
+                <b>
+                    Richer swagger models
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @ianco - I aligned endorsement protocol transaction records' id_ with the praxis of the rest of the records, among the rest of the noise. I don't see Harsh in the list of available reviewers here?
+
+Anyway, this update turns a lot of {}'s into rich detailed models within the admin API.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-07 20:05:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1160" class=".btn">#1160</a>
             </td>
             <td>
@@ -461,34 +489,6 @@ This PR also addresses concerns around message serialization in anticipation of 
     </table>
     <div class="right-align">
         Created At 2021-05-01 02:35:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1132" class=".btn">#1132</a>
-            </td>
-            <td>
-                <b>
-                    fix: run_tests script
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-
-Not sure what happened (perhaps related to Ubuntu 18.04 EOL?) but `run_tests` stopped working all of a sudden. This switches image base to `python:3.6.13`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-30 22:50:54 +0000 UTC
     </div>
 </div>
 
