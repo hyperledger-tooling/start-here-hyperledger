@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2582" class=".btn">#2582</a>
+            </td>
+            <td>
+                <b>
+                    Correcting a possible typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+
+<!--- Describe your changes in detail, including motivation. -->
+I believe it should be "Now that R3 is able to fully participate in channel C1" instead of "Now that R3 is able to fully participate in channel C2" because the latter one doesn't make sense to me as R3 already had the permission to participate in channel C2 and given the context having C1 makes sense.
+
+P.S: Apologies if perhaps I got something wrong, I just started learning Hyperledger Fabric :)
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-09 10:30:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2581" class=".btn">#2581</a>
             </td>
             <td>
