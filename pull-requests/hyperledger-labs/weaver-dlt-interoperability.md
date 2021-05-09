@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/47" class=".btn">#47</a>
+            </td>
+            <td>
+                <b>
+                    Added SimpleAsset application chaincode, and support for asset exchange in fabric-cli.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Changes:
+1. Added a sample application chaincode: simpleasset, to manage lifecycle of an asset.
+2. Added two commands in fabric-cli to allow calling a demo asset exchange. (`fabric-cli asset exchange-all`, and `fabric-cli asset exchange-step`).
+
+Please review and leave your comments if any changes required.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-09 12:00:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/46" class=".btn">#46</a>
             </td>
             <td>
