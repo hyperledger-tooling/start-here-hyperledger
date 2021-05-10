@@ -409,29 +409,3 @@ served under `https:478eb39f6464.ngrok.io/.well-known/did.json`
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1136" class=".btn">#1136</a>
-            </td>
-            <td>
-                <b>
-                    docs: add docs on issuing jsonld credentials
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds documentation on issuing JSON-LD credentials. Present Proof is todo and dependant on PR #1125.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-03 11:21:20 +0000 UTC
-    </div>
-</div>
-
