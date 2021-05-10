@@ -435,32 +435,3 @@ served under `https:478eb39f6464.ngrok.io/.well-known/did.json`
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1134" class=".btn">#1134</a>
-            </td>
-            <td>
-                <b>
-                    Changes in Endorser Protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a WIP pull request, and it covers the changes in endorser protocol for issues defined in 
-
-1. #1031 
-2. #1029 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-02 18:35:09 +0000 UTC
-    </div>
-</div>
-
