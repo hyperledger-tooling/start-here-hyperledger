@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2786" class=".btn">#2786</a>
+            </td>
+            <td>
+                <b>
+                    docs: Updated encrypted storage documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated the documentation to match the new code structure. Also added examples of other configurations.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-10 03:45:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2785" class=".btn">#2785</a>
             </td>
             <td>
@@ -263,42 +291,6 @@ Signed-off-by: Troy Ronda <troy@troyronda.com>
     </table>
     <div class="right-align">
         Created At 2021-05-03 13:35:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2776" class=".btn">#2776</a>
-            </td>
-            <td>
-                <b>
-                    fix: Bump kilic/bls12-381 for 32-bit arch support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Bump [kilic/bls12-381](https://github.com/kilic/bls12-381) for 32-bit arch support
-
-**Description:**
-Fixes https://github.com/hyperledger/aries-framework-go/issues/2758
-
-**Summary:**
-I've found that the kilic/bls12-381 panics on 32-bit architecture (the Aries local agent on Android 32-bit).
-So, I fixed it: https://github.com/kilic/bls12-381/pull/31.
-I'm opening a PR to use the latest kilic/bls12-381 that contains my fix.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-03 02:01:29 +0000 UTC
     </div>
 </div>
 
