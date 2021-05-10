@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1162" class=".btn">#1162</a>
+            </td>
+            <td>
+                <b>
+                    retain unrecognizable decorators as opaque data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                RFC 11 suggests a looser interpretation than our original.
+Address https://github.com/hyperledger/aries-cloudagent-python/issues/1147
+
+Signed-off-by: sklump <srklump@hotmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-10 15:56:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1161" class=".btn">#1161</a>
             </td>
             <td>
@@ -380,32 +409,6 @@ served under `https:478eb39f6464.ngrok.io/.well-known/did.json`
     </table>
     <div class="right-align">
         Created At 2021-05-04 06:50:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1139" class=".btn">#1139</a>
-            </td>
-            <td>
-                <b>
-                    Adopt problem reports issue cred present proof
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                and sync up problem reports to current RFC 35
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-03 15:24:01 +0000 UTC
     </div>
 </div>
 
