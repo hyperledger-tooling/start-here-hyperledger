@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2787" class=".btn">#2787</a>
+            </td>
+            <td>
+                <b>
+                    fix: Remove old text from encrypted storage documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-10 14:09:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2786" class=".btn">#2786</a>
             </td>
             <td>
@@ -35,32 +61,6 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-05-10 03:45:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2785" class=".btn">#2785</a>
-            </td>
-            <td>
-                <b>
-                    add node.js modules to .gitignore
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-09 11:14:53 +0000 UTC
     </div>
 </div>
 
@@ -260,37 +260,6 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-05-03 21:22:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2777" class=".btn">#2777</a>
-            </td>
-            <td>
-                <b>
-                    ci: restore bbs interop test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #2752
-
-Signed-off-by: Troy Ronda <troy@troyronda.com>
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-03 13:35:20 +0000 UTC
     </div>
 </div>
 

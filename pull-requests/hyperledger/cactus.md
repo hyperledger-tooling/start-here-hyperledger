@@ -543,36 +543,3 @@ Related to #297
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/899" class=".btn">#899</a>
-            </td>
-            <td>
-                <b>
-                    feat: expose besu test ledger web socket API port
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                Provide a method to retrieve the host port of the web socket JSON RPC
-API exposed by the Besu AIO image backing the BesuTestLedger class. This
-is a precursor to us adding support for the websocket transport in one
-way or another (SocketIO != WebSockets in the strict sense of protocol
-compatibility because SocketIO servers cannot be used by vanilla WS
-applications out of the box)
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-03 16:54:39 +0000 UTC
-    </div>
-</div>
-
