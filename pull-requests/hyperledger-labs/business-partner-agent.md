@@ -14,33 +14,27 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/409" class=".btn">#409</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/415" class=".btn">#415</a>
             </td>
             <td>
                 <b>
-                    Credential Management/Issuer
+                    don't overwrite acapy-seed if secret already exists
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">backend</span><span class="chip">frontend</span>
+                
             </td>
             <td>
-                
-Changes to UX to load both Material Design and Font Awesome icons, use constants in pages to load the icons. This will allow different teams to just override the value for the constant and have a different icon set.  Also added in a SASS stage to help with changes in styling for each team.
+                Upgrading the helm deployment re-rolls the acapy seed, which is bad. if a secret already exists, this will preserve it. 
 
-Adding a top level area for managing credentials (issue/revoke). We will need to consider configuration parameters and security roles/groups to enable/disable sections and actions. That is a future task once functionality is implemented.
-
-Have refactored Schema Settings to use the components used in Credential Management / Schema Settings.
-Have refactored Partner/Issue Credentials to use the components in Credential Management / Issue Credential.
-
-
+Signed-off-by: Jason Sy <jasyrotuck@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-03 18:49:35 +0000 UTC
+        Created At 2021-05-10 23:17:40 +0000 UTC
     </div>
 </div>
 
