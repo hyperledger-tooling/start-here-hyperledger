@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/444" class=".btn">#444</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/445" class=".btn">#445</a>
             </td>
             <td>
                 <b>
-                    Disable Go pprof profiling in test network
+                    Correct Javascript Chaincode
                 </b>
             </td>
         </tr>
@@ -27,17 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                Peers and Orderers by default disable Go pprof profiling, however test
-network was enabling pprof in peers by default. As a good practice,
-pprof should be disabled by default and only enabled when needed
-for debug profiling.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+                - In CreateAsset, await was never called on putState causing issues
+especially with tools such as caliper and is not correct practice.
+Unfortunately all the other examples use `return` which works but is
+actually not the idiomatic way of handling promises, so here await is
+chosen rather than return
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-30 11:46:22 +0000 UTC
+        Created At 2021-05-11 08:50:35 +0000 UTC
     </div>
 </div>
 

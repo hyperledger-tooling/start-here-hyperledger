@@ -252,43 +252,6 @@ Also, copy release note text into the release specific /release_notes file.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2581" class=".btn">#2581</a>
-            </td>
-            <td>
-                <b>
-                    Add vendor directories into chaincode code package tar when install golang chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: xuchengli <lixucheng@aliyun.com>
-
-If chaincode dependency have multi-level directory, only META-INF metadata directory will be added into chaincode code package tar, other dependency directories will be skipped. So when instantiate chaincode it will throw error of missing file or directory. By adding vendor directory at the root of chaincode directory will avoid the issue.
-
-Jira issue: https://jira.hyperledger.org/browse/FAB-18467
-
-- Bug fix
-
-Test:
-1. Compile peer binary based on the patch.
-2. Restart peer using the latest peer binary.
-3. Install and instantiate the chaincode with multi-level vendor dependency directories. The test chaincode is: https://github.com/xuchengli/fabric-chaincode/tree/main/src/test-1
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-08 10:51:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2579" class=".btn">#2579</a>
             </td>
             <td>

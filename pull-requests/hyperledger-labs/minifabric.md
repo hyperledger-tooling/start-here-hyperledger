@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/197" class=".btn">#197</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/204" class=".btn">#204</a>
             </td>
             <td>
                 <b>
-                    Minimal 2.4 support
+                    [feature] add couchDB support on k8s
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                Add build targets for most recent releases
-of Fabric
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                close #198 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-23 21:03:14 +0000 UTC
+        Created At 2021-05-11 10:17:00 +0000 UTC
     </div>
 </div>
 
