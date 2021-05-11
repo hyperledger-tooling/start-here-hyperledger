@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2262" class=".btn">#2262</a>
+            </td>
+            <td>
+                <b>
+                    Entropy aargh
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                file:/dev/urandom
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-10 23:49:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2261" class=".btn">#2261</a>
             </td>
             <td>
@@ -192,38 +222,6 @@ fix consensus_newBlock transaction decoding
     </table>
     <div class="right-align">
         Created At 2021-05-10 03:26:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2254" class=".btn">#2254</a>
-            </td>
-            <td>
-                <b>
-                    remove haveged; rename gq ATs executor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Remove haveged install; rename GoQuorum ATs executor to avoid confusion
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 01:42:19 +0000 UTC
     </div>
 </div>
 

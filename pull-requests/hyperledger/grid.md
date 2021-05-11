@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/686" class=".btn">#686</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0-1:  Fix Grid docker builds with Docker Compose 1.28+
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As of version 1.28.0, Docker Compose expects .env files to reside in the same
+directory as the compose files or to have their path specicified with an
+additional argument to the compose command. Duplicating the .env files
+whereever they're needed was deemed to be the least disruptive solution.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-10 22:20:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/685" class=".btn">#685</a>
+            </td>
+            <td>
+                <b>
+                    Fix Grid docker builds with Docker Compose 1.28+
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-10 18:52:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/684" class=".btn">#684</a>
             </td>
             <td>

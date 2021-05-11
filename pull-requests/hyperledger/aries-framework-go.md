@@ -234,32 +234,3 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2778" class=".btn">#2778</a>
-            </td>
-            <td>
-                <b>
-                    feat: wallet command controllers for issue, prove, verify, derive
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Part of #2770
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-03 21:22:51 +0000 UTC
-    </div>
-</div>
-
