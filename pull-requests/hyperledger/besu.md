@@ -36,6 +36,7 @@ Fix error where we get an invalid header timestamp occasionally. This seems to b
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+fixes #2241 
 
 ## Changelog
 
