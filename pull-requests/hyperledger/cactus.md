@@ -220,30 +220,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/913" class=".btn">#913</a>
-            </td>
-            <td>
-                <b>
-                    refactor(core-api): get is replaced with post
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Core_API</span><span class="chip">dependent</span>
-            </td>
-            <td>
-                Resolve #430 
-Depends on #915 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-04 15:43:07 +0000 UTC
-    </div>
-</div>
-

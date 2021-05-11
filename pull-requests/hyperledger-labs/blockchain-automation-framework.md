@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1461" class=".btn">#1461</a>
+            </td>
+            <td>
+                <b>
+                    adding chaincode static tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Dimbu Afonso <dimbu.k.afonso@accenture.com>
+
+**Changelog**
+- Adding chaincode static tests
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar 
+
+ 
+
+**Linked issue**
+#739 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-11 17:55:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1460" class=".btn">#1460</a>
+            </td>
+            <td>
+                <b>
+                    [shared] Use no_ansible_log as variable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Add ansible logs option
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-11 16:53:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1459" class=".btn">#1459</a>
             </td>
             <td>
@@ -777,40 +847,6 @@ Latest develop and changes for Indy ambassador V2
     </table>
     <div class="right-align">
         Created At 2021-05-05 12:00:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1439" class=".btn">#1439</a>
-            </td>
-            <td>
-                <b>
-                    [shared] changes for ssh only git
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
-
-**Changelog**
-- Use only SSH for gitops and well as ansible controller
-- Update molecule tests to run on Kubernetes 1.16 and Vault 1.7.0
-
-**Linked issue**
-resolves #876 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-04 14:56:58 +0000 UTC
     </div>
 </div>
 

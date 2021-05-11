@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/276" class=".btn">#276</a>
-            </td>
-            <td>
-                <b>
-                    Metadata generate updated [FABCN-447]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Kestutis Gudynas <44440041+kemi04@users.noreply.github.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-04 13:37:53 +0000 UTC
-    </div>
-</div>
-
