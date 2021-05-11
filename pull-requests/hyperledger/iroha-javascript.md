@@ -27,7 +27,18 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [hosted-git-info](https://github.com/npm/hosted-git-info) from 2.8.8 to 2.8.9.
+                [//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️ 
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [hosted-git-info](https://github.com/npm/hosted-git-info) from 2.8.8 to 2.8.9.
 <details>
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/npm/hosted-git-info/blob/v2.8.9/CHANGELOG.md">hosted-git-info's changelog</a>.</em></p>
