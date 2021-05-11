@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2265" class=".btn">#2265</a>
+            </td>
+            <td>
+                <b>
+                    Qbft invalid timestamp
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+Fix error where we get an invalid header timestamp occasionally. This seems to be due slight deviation from the block period. It's not likely we can ever get the timing exact as we need determine the delay before scheduling the block expiry event so there can be a very small discrepancy.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-11 03:52:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2264" class=".btn">#2264</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Allowlist comment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                updated comment in test
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-11 02:06:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2262" class=".btn">#2262</a>
             </td>
             <td>
@@ -31,7 +99,7 @@ permalink: /pull-requests/hyperledger/besu
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -434,38 +502,6 @@ Use gasLimit for EIP1559 as defined here https://github.com/ethereum/EIPs/commit
     </table>
     <div class="right-align">
         Created At 2021-05-07 15:14:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2242" class=".btn">#2242</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] condense tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-eth-api-disabled is always the first visible in the "thread blocked" logs
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-07 04:03:56 +0000 UTC
     </div>
 </div>
 
