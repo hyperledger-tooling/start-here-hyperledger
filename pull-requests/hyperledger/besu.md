@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2270" class=".btn">#2270</a>
+            </td>
+            <td>
+                <b>
+                    Update reference tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+Update reference tests to this version https://github.com/ethereum/tests/commit/bb662629b6da3a4ebea3f7cebf02d6c4870c2871
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-11 14:00:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2269" class=".btn">#2269</a>
+            </td>
+            <td>
+                <b>
+                    Split test acceptanceTests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+Even if we set up tests in parallel we just create several docker that are on the same machine and that therefore queries the same source of entropy. I tried to split the test into different steps.
+
+I  tried 5 times and it's fine everytime
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-11 13:26:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2265" class=".btn">#2265</a>
             </td>
             <td>
@@ -1045,80 +1129,6 @@ fixes #2215
     </table>
     <div class="right-align">
         Created At 2021-05-05 01:27:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2218" class=".btn">#2218</a>
-            </td>
-            <td>
-                <b>
-                    PermissioningService Besu Plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # PermissioningService Besu Plugin
-
-An additional plugin extension point has been added to besu to enable developers to intercept p2p connections and messages.
-
-```java
-public interface PermissioningService extends BesuPluginService {
-  void registerNodePermissioningProvider(NodeConnectionPermissioningProvider provider);
-  void registerNodeMessagePermissioningProvider(NodeMessagePermissioningProvider provider);
-}
-```
-
-## NodeConnectionPermissioningProvider
-This will allow plugin users to hook into node connections and when a node attempts to send messages using the following interface.
-```java
-@FunctionalInterface
-public interface NodeConnectionPermissioningProvider {
-  /**
-   * Can be used to intercept the initial connection to a peer. Note that once a connection is
-   * established it's bi-directional.
-   *
-   * @param sourceEnode the originators enode
-   * @param destinationEnode the enode you are about to send to
-   * @return if you can connect
-   */
-  boolean isConnectionPermitted(final EnodeURL sourceEnode, final EnodeURL destinationEnode);
-}
-```
-
-## NodeMessagePermissioningProvider
-
-If a provider has been registered through the plugin API all messages sent to a peer will use the hook to check if the message can be sent to a peer.
-
-```java
-@FunctionalInterface
-public interface NodeMessagePermissioningProvider {
-  /**
-   * Can be used to intercept messages before they are sent from besu. 
-   *
-   * Note! this method is called on every message send.
-   *
-   * @param destinationEnode the enode you are about to send to
-   * @param code devp2p code for the message
-   * @return if we can send the message to the peer
-   */
-  boolean isMessagePermitted(final EnodeURL destinationEnode, final int code);
-}
-```
-    
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-04 14:04:08 +0000 UTC
     </div>
 </div>
 
