@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/215" class=".btn">#215</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/219" class=".btn">#219</a>
             </td>
             <td>
                 <b>
-                    Add Product Sapling to planning
+                    Update docs for product update
                 </b>
             </td>
         </tr>
@@ -27,15 +27,16 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                This adds a brief page about the Product Sapling to the planned features
-section. This includes a couple of the preliminary wireframes.
+                This updates the creating schemas and creating products how-to guides to
+reflect the updates made to Product. This includes information about
+GDSN product definitions and update product definition files.
 
 Signed-off-by: Davey Newhall <newhall@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-30 16:32:44 +0000 UTC
+        Created At 2021-05-11 20:44:31 +0000 UTC
     </div>
 </div>
 
