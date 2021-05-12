@@ -105,30 +105,3 @@ Depends on #915
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/919" class=".btn">#919</a>
-            </td>
-            <td>
-                <b>
-                    JDK replaced by docker openapitool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                Resolve #463 
-Depends on #915
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 09:49:16 +0000 UTC
-    </div>
-</div>
-

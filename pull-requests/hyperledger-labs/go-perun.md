@@ -64,30 +64,3 @@ Closes #63
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/66" class=".btn">#66</a>
-            </td>
-            <td>
-                <b>
-                    Enable logging per default
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Enable default logging with level 'Warning' to increase usability.
-Closes #64
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 08:42:15 +0000 UTC
-    </div>
-</div>
-

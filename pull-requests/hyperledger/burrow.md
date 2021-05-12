@@ -154,7 +154,18 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [grpc](https://github.com/grpc/grpc-node) from 1.22.2 to 1.24.9.
+                [//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️ 
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [grpc](https://github.com/grpc/grpc-node) from 1.22.2 to 1.24.9.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/grpc/grpc-node/releases">grpc's releases</a>.</em></p>
