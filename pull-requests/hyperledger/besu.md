@@ -14,6 +14,124 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2276" class=".btn">#2276</a>
+            </td>
+            <td>
+                <b>
+                    Support qbft encoding of extra data in the operator generate-blockchain subcommand
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jason Frame <jasonwframe@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+Support qbft encoding of extra data in the operator generate-blockchain subcommand
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2049
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 06:14:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2275" class=".btn">#2275</a>
+            </td>
+            <td>
+                <b>
+                    support qbft encoding of extra data in the rlp encode subcommand
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jason Frame <jasonwframe@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+support qbft encoding of extra data in the rlp encode subcommand
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2049 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 03:50:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2274" class=".btn">#2274</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] update deprecated calls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+recursive comparison 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 01:19:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2273" class=".btn">#2273</a>
             </td>
             <td>
@@ -981,106 +1099,6 @@ Prevents EIP1559 blocks from being mined before fork
     </table>
     <div class="right-align">
         Created At 2021-05-05 13:12:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2224" class=".btn">#2224</a>
-            </td>
-            <td>
-                <b>
-                    fix goquorum privacy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #2198
-The bug was that when we have a private transaction in goquorum mode and a contract calls another contract or a contract deploys another contract the sender account from the public world state was used, which caused the nonce to be incremented in the public state. 
-
-Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 01:58:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2223" class=".btn">#2223</a>
-            </td>
-            <td>
-                <b>
-                    Rayonism Branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This pull puts the rayonism branch we used for steklo into a hyperledger branch.  
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 01:46:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2222" class=".btn">#2222</a>
-            </td>
-            <td>
-                <b>
-                    update json-rpc responses for 1559
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-* adds 1559-specific fields to json-rpc responses for BlockResult and TransactionResult
-* removes empty gasPrice from TransactionResult from json-rpc serialization
-* removes gasLimit from 1559 transactions json-rpc serialization
-* fixes retesteth eth_getTransactionCount to use a hex rather than decimal for result
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2215 
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 01:27:13 +0000 UTC
     </div>
 </div>
 

@@ -406,32 +406,3 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2780" class=".btn">#2780</a>
-            </td>
-            <td>
-                <b>
-                    feat: REST binding for vc wallet commands
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Part of #2770
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 01:07:56 +0000 UTC
-    </div>
-</div>
-
