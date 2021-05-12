@@ -14,6 +14,95 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1012" class=".btn">#1012</a>
+            </td>
+            <td>
+                <b>
+                    FlatFile: close file before rename
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrei Lebedev <lebdron@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks 
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 14:10:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1011" class=".btn">#1011</a>
+            </td>
+            <td>
+                <b>
+                    Feature/proposal creation timeout
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Replace round delay with proposal creation timeout
+- Send batches to current and next rounds
+- Decouple Yac and OnDemandOrdering from rxcpp
+- Asynchronous proposal request
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 13:27:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1010" class=".btn">#1010</a>
             </td>
             <td>
@@ -42,6 +131,8 @@ permalink: /pull-requests/hyperledger/iroha
 
 ### Description of the Change
 Spawn blocking CPU intensive tasks in separate threads, where it is impossible yeild control manually to executor, to give other tasks chance to run.
+
+Also adds several corrections in tests, they were initially mistakenly rewritten, so this PR reverts these things.
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
@@ -436,49 +527,6 @@ grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
     </table>
     <div class="right-align">
         Created At 2021-05-05 19:27:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1002" class=".btn">#1002</a>
-            </td>
-            <td>
-                <b>
-                    PR template
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sara <lira.lemur@gmail.com>
-
-### Description of the Change
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-Adding PR template instructions on automatically resolving GH issues. Like here:
-
-Resolves #828
-
-### Benefits
-
-Cool automated issue management
-
-### Possible Drawbacks 
-
-If it actually does not solve the issue?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 13:58:04 +0000 UTC
     </div>
 </div>
 

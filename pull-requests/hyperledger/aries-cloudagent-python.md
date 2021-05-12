@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1168" class=".btn">#1168</a>
+            </td>
+            <td>
+                <b>
+                    Holder reject proof req on bad attr value restriction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Address https://github.com/hyperledger/aries-cloudagent-python/issues/1163 partially: have holder refuse to send hopeless proof request to indy-sdk.
+
+Ultimately the handlers should send problem reports - that's a bigger job and needs its own PR
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 14:55:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1164" class=".btn">#1164</a>
             </td>
             <td>
@@ -118,178 +146,6 @@ Anyway, this update turns a lot of {}'s into rich detailed models within the adm
     </table>
     <div class="right-align">
         Created At 2021-05-07 17:01:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1155" class=".btn">#1155</a>
-            </td>
-            <td>
-                <b>
-                    Issue cred v2 schema fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Continuing on Timo Glastra's work: https://github.com/hyperledger/aries-cloudagent-python/pull/1140
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 16:37:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1154" class=".btn">#1154</a>
-            </td>
-            <td>
-                <b>
-                    Fix/type in ld proof
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Fix issue described in [Rocket chat ](https://chat.hyperledger.org/channel/aries-cloudagent-python?msg=CDike9uCQciDRohRu)
-* Allow `type` property in proof validation schema
-* Set default proof type if property is not provided
-
-Currently only `Ed25519Signature2018` is allowed anyways...
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 16:24:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1153" class=".btn">#1153</a>
-            </td>
-            <td>
-                <b>
-                    Tone down the endorser validation when setting up connection metadata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-@esune 
-
-Removes some of the validation when setting up connection meta-data to remove timing dependencies between the author and endorser setup tasks
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 14:32:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1151" class=".btn">#1151</a>
-            </td>
-            <td>
-                <b>
-                    fix: bad service endpoint in test data
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-
-A recent update to PyDID brought some bad input data to light.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 13:35:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1150" class=".btn">#1150</a>
-            </td>
-            <td>
-                <b>
-                    docs: update openapi file, enable multitenancy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update the openapi file and enable the multitenancy api in `generate-open-api-script`
-
-Fixes #1034 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 12:56:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1148" class=".btn">#1148</a>
-            </td>
-            <td>
-                <b>
-                    feat: send webhooks for forward messages 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds an option to ACA-Py to send webhook events on received forward messages (`--monitor-forward`, taken from `monitor-ping`).
-
-I extended the `OutboundSendStatus` work from Daniel and added a few more status options. These are then included in the webhook event, so the controller can react to the event. 
-
-If `--monitor-forward` is not enabled, the event is still dispatched in the event bus (just not as webhook), so other parts of the codebase/plugins can hook into this if they want to manage it in ACA-Py instead of the controller
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-05 12:41:13 +0000 UTC
     </div>
 </div>
 

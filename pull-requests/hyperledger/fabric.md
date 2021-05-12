@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2587" class=".btn">#2587</a>
+            </td>
+            <td>
+                <b>
+                    Improve error message for invalid consenter cert
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When channel config had an invalid consenter cert, the error message did not indicate which cert was being verified.
+The error message now indicates that a consenter cert is invalid, and which consenter cert is invalid.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 15:54:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2586" class=".btn">#2586</a>
             </td>
             <td>
