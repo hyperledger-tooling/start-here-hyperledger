@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2273" class=".btn">#2273</a>
+            </td>
+            <td>
+                <b>
+                    Ignore SECP256R1 tests for now
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ignore these tests for now as the static reference to the signatureAlgorithm breaks other tests.
+
+See #2267 
+
+Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-11 22:07:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2270" class=".btn">#2270</a>
             </td>
             <td>
@@ -48,49 +82,6 @@ Update reference tests to this version https://github.com/ethereum/tests/commit/
     </table>
     <div class="right-align">
         Created At 2021-05-11 14:00:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2269" class=".btn">#2269</a>
-            </td>
-            <td>
-                <b>
-                    Split test acceptanceTests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-Even if we set up tests in parallel we just create several docker that are on the same machine and that therefore queries the same source of entropy. I tried to split the test into different steps.
-
-I  tried 5 times and it's fine everytime
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-11 13:26:23 +0000 UTC
     </div>
 </div>
 
@@ -741,45 +732,6 @@ Changing the code to have :
     </table>
     <div class="right-align">
         Created At 2021-05-06 10:55:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2236" class=".btn">#2236</a>
-            </td>
-            <td>
-                <b>
-                    change executor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-06 08:34:44 +0000 UTC
     </div>
 </div>
 
