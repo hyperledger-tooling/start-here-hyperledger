@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/18" class=".btn">#18</a>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/23" class=".btn">#23</a>
             </td>
             <td>
                 <b>
-                    First shot on preliminary main README.md
+                    Fix action badge
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/mirbft
                 
             </td>
             <td>
-                The main README.md file is still incomplete and contains TODOs, but it is a step towards a proper one.
-
-Fixes #13 
-
-Signed-off-by: matejpavlovic <matopavlovic@gmail.com>
+                Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-28 15:56:59 +0000 UTC
+        Created At 2021-05-12 09:04:27 +0000 UTC
     </div>
 </div>
 

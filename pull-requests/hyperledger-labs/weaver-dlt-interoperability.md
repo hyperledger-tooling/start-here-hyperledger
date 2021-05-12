@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/47" class=".btn">#47</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/48" class=".btn">#48</a>
             </td>
             <td>
                 <b>
-                    Added SimpleAsset application chaincode, and support for asset exchange in fabric-cli.
+                    Sample Chaincode for Asset lifecycle management for Bond and Fungible Asset.
                 </b>
             </td>
         </tr>
@@ -27,16 +27,13 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                Changes:
-1. Added a sample application chaincode: simpleasset, to manage lifecycle of an asset.
-2. Added two commands in fabric-cli to allow calling a demo asset exchange. (`fabric-cli asset exchange-all`, and `fabric-cli asset exchange-step`).
-
-Please review and leave your comments if any changes required.
+                1. Added chaincode for BondAsset and FungibleAsset with tests.
+2. Fixed the bug in testnet with wrong ca-org port in network2.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-09 12:00:11 +0000 UTC
+        Created At 2021-05-12 07:40:33 +0000 UTC
     </div>
 </div>
 
