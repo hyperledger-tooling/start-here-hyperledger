@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2284" class=".btn">#2284</a>
+            </td>
+            <td>
+                <b>
+                    refactor: expose EnodeUrl to plugins
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Couldn't figure out a nice way of not having EnodeURLImpl.
+
+If we kept it as EnodeURL we could add static imports in for things like `fromURI` but the problem is they are mostly used as method references. So you can either have method references with the class name or lambdas with a static import! 
+
+I think it's the least worse option at the moment.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-13 08:58:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2283" class=".btn">#2283</a>
+            </td>
+            <td>
+                <b>
+                    refactor: EeaSendRawTransaction isolate send raw on/off chain
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Refactor EeaSendRawTransaction so to allow further extension and isolate responsibilities
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-13 07:24:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2282" class=".btn">#2282</a>
             </td>
             <td>
@@ -948,146 +1004,6 @@ Implement eip 3529 (version of the spec https://github.com/ethereum/EIPs/commit/
     </table>
     <div class="right-align">
         Created At 2021-05-06 13:00:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2237" class=".btn">#2237</a>
-            </td>
-            <td>
-                <b>
-                    Add new fork for london, baikal and aleut
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-Changing the code to have :
-- Aleut with only EIP1559 + BASEFEE OP CODE
-- (Baikal + London) with 1559 + BASEFEE + other London EIPs
-- Remove deprecated yolov3
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-06 10:55:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2235" class=".btn">#2235</a>
-            </td>
-            <td>
-                <b>
-                    Refactor permissioning config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Tidy up the way PermissioningConfiguration get propagated between BesuCommand and BesuNode
-
-Duplicate of https://github.com/hyperledger/besu/pull/2155 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-06 08:02:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2232" class=".btn">#2232</a>
-            </td>
-            <td>
-                <b>
-                    Qbft vote encoding to use empty for drop for extradata to match quorum
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-Qbft vote encoding to use empty for drop for extradata to match quorum
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2233
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-06 06:55:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2231" class=".btn">#2231</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] refactor out deprecation in test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Recursive comparison
- 
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-06 06:43:10 +0000 UTC
     </div>
 </div>
 
