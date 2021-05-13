@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/133" class=".btn">#133</a>
+            </td>
+            <td>
+                <b>
+                    Add InternalError
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit adds the InternalError basic error, copied from the splinter, as of commit Cargill/splinter@f0cb463b8d7b7ba1dc1000ba78c8ef4c8d32e183
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-13 17:25:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/132" class=".btn">#132</a>
+            </td>
+            <td>
+                <b>
+                    Allow transaction rates less than 1/sec
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Sometimes a rate of one a second is too high for a specific workload and
+it is currently the slowest rate supported. This commit lets you set a
+rate of less than 1 batch per second.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-13 15:53:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/131" class=".btn">#131</a>
             </td>
             <td>
