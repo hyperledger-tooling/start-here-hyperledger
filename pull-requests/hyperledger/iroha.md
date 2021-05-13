@@ -14,6 +14,56 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1016" class=".btn">#1016</a>
+            </td>
+            <td>
+                <b>
+                    Telemetry futures
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                https://jira.hyperledger.org/browse/IR-1096
+https://jira.hyperledger.org/browse/IR-1097
+
+### Description of the Change
+
+Pr adds telemetry for futures, macro for wrapping them and tools for analyzing data:
+- Number of polls
+- Their time
+
+### Benefits
+
+It will help to see outliers and blocking async functions (which are not desired at all) and opens opportunities for analysis in ci.
+
+### Possible Drawbacks 
+
+Slower runtime and more used memory/
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-13 14:57:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1013" class=".btn">#1013</a>
             </td>
             <td>
@@ -442,36 +492,6 @@ Resolves #845
     </table>
     <div class="right-align">
         Created At 2021-05-06 22:06:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1004" class=".btn">#1004</a>
-            </td>
-            <td>
-                <b>
-                    Refactor/remove rxcpp
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - SE field in Irohad class
-- Remove rxcpp from TransactionProcessorImpl
-- Use any_range in BlockLoader interface
-- Remove rxcpp from Synchronizer
-- Remove rxcpp from Simulator
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-06 12:48:54 +0000 UTC
     </div>
 </div>
 

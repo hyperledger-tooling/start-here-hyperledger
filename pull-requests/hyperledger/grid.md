@@ -229,29 +229,3 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/679" class=".btn">#679</a>
-            </td>
-            <td>
-                <b>
-                    Remove deprecated form components
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This removes deprecated form components for adding, editing, and deleting products. These components will be updated in the near future to match the new grid styles. The Product sapling will be released with read-only features for Grid v0.2. This depends on PR #649
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-06 17:42:48 +0000 UTC
-    </div>
-</div>
-
