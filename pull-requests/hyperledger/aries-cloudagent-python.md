@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1171" class=".btn">#1171</a>
+            </td>
+            <td>
+                <b>
+                    propagate comment in auto for issue-cred v1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger/aries-cloudagent-python/issues/1167
+Signed-off-by: sklump <srklump@hotmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-13 11:13:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1169" class=".btn">#1169</a>
             </td>
             <td>
