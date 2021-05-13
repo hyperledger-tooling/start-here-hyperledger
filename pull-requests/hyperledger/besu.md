@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2282" class=".btn">#2282</a>
+            </td>
+            <td>
+                <b>
+                    Modify Gas estimation logic for GoQuorum mode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If in GoQuorum privacy mode, use a fully filled data field to get max value for gas estimation.
+
+This doesn't make the GQ AT pass. 
+They get 21000 + 64 * 68 (homestead)
+With this we get 21000 + 64 * 16 (latest ie istanbul)
+
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-13 00:55:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2281" class=".btn">#2281</a>
             </td>
             <td>
@@ -1053,38 +1088,6 @@ Recursive comparison
     </table>
     <div class="right-align">
         Created At 2021-05-06 06:43:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2230" class=".btn">#2230</a>
-            </td>
-            <td>
-                <b>
-                    refactored perm ATs to remove dupe
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-While looking at flaky ATs, noticed these two tests were almost the same. 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-06 05:06:08 +0000 UTC
     </div>
 </div>
 
