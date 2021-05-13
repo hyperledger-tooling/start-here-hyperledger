@@ -57,7 +57,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
             <td>
                 
-
 #### Type of change
 
 <!--- What type of change? Pick one option and delete the others. -->
@@ -67,7 +66,7 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
 
 #### Description
 
-- Edited NewSnapshotReader so it now creates and returns a new error if the passed in filename does not exist
+- Edited NewSnapshotReader so it now creates and returns a new error if the passed in filename does not exist and edited the respective tests to reflect these changes
 
 #### Related issues
 

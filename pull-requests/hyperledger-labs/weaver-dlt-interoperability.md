@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/49" class=".btn">#49</a>
+            </td>
+            <td>
+                <b>
+                    Fungible and non-fungible asset functions using contractId
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Implements the below non-fungible asset functions:
+- IsAssetLockedUsingContractId
+- UnLockAssetUsingContractId
+- ClaimAssetUsingContractId
+
+Implements the below fungible asset functions:
+- LockFungibleAsset
+- IsFungibleAssetLocked
+- UnLockFungibleAsset
+- ClaimFungibleAsset
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 20:22:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/48" class=".btn">#48</a>
             </td>
             <td>
