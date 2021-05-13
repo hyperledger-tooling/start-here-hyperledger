@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1169" class=".btn">#1169</a>
+            </td>
+            <td>
+                <b>
+                    Repair marshmallow duplicate schema warning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Address https://github.com/hyperledger/aries-cloudagent-python/issues/1166
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 19:36:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1168" class=".btn">#1168</a>
             </td>
             <td>

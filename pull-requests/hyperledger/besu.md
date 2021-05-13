@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2281" class=".btn">#2281</a>
+            </td>
+            <td>
+                <b>
+                    try to use the hostName property from log4j2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+This adds the ability to default to the `hostName` property, filled by log4j2, before we default to sending localhost.
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 19:20:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2278" class=".btn">#2278</a>
             </td>
             <td>
@@ -1048,40 +1085,6 @@ While looking at flaky ATs, noticed these two tests were almost the same.
     </table>
     <div class="right-align">
         Created At 2021-05-06 05:06:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2228" class=".btn">#2228</a>
-            </td>
-            <td>
-                <b>
-                    entropy - reduce parallelism
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Reduce parallelism to improve thread blockage situation.
-Changing from 8 to 4 increased test time from 13 to 23 min
-Changing to 6 made it ~15 min which is acceptable.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-06 00:18:14 +0000 UTC
     </div>
 </div>
 
