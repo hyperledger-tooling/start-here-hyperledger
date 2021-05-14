@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1176" class=".btn">#1176</a>
+            </td>
+            <td>
+                <b>
+                    Make BaseResolver.supports async and prefer regex matching
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR extends the `BaseResolver.supports` method to be asynchronous and to take a `Profile` to support such use cases as retrieving resolver connections from storage and checking DIDs supported by those resolver connections. Additionally, this PR adds `supported_did_regex` as a value intended to be implemented by subclasses of `BaseResolver` and used in the default `supports` implementation. This changes the previous behavior of matching on the DID method alone to regex matching, granting more flexibility in how resolvers are selected to handle DID resolution.
+
+`supported_methods` remains functional to prevent breaking resolver plugins already in the wild but is marked as deprecated.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-14 03:48:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1175" class=".btn">#1175</a>
             </td>
             <td>
