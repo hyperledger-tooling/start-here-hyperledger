@@ -64,29 +64,3 @@ Closes #63
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/70" class=".btn">#70</a>
-            </td>
-            <td>
-                <b>
-                    Check for nil parts in ValidateParams.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                Closes #69 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-07 10:10:45 +0000 UTC
-    </div>
-</div>
-
