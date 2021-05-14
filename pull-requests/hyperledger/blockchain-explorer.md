@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/236" class=".btn">#236</a>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/237" class=".btn">#237</a>
             </td>
             <td>
                 <b>
-                    BE-868 Fixed jsrsasign security vulnerabilities
+                    Be 870 display direct trans link
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
                 
             </td>
             <td>
-                Signed-off-by: Jeeva <jsankarapandian@devx.systems>
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-30 06:16:13 +0000 UTC
+        Created At 2021-05-14 17:28:56 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1178" class=".btn">#1178</a>
+            </td>
+            <td>
+                <b>
+                    fix: don't load indy resolver if no indy ledger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-14 15:22:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1176" class=".btn">#1176</a>
             </td>
             <td>
@@ -251,34 +277,6 @@ Anyway, this update turns a lot of {}'s into rich detailed models within the adm
     </table>
     <div class="right-align">
         Created At 2021-05-07 20:05:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1160" class=".btn">#1160</a>
-            </td>
-            <td>
-                <b>
-                    allow other service/endpoint types in indy did docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Ability for the native indy resolver to get additional services / endpoint types from an indy ledger.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-07 17:01:07 +0000 UTC
     </div>
 </div>
 
