@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/210" class=".btn">#210</a>
+            </td>
+            <td>
+                <b>
+                    feature: persist fabric-ca data on k8s.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                as the same as docker, let us persist fabric-ca data on k8s.
+
+```
+# on docker ( playbooks/ops/netup/dockerapply.yaml )
+- name: Start all ca nodes
+  command: >-
+    docker run -d --network {{ NETNAME }} --name {{ item.fullname }} --hostname {{ item.fullname }}
+    :
+    -v {{ item.fullname }}:/etc/hyperledger/fabric-ca-server ## <- persisting CA data
+    {{ container_options }}
+    hyperledger/fabric-ca:{{ desiredrelease }}
+ 
+# on k8s (playbooks/ops/netup/k8stemplates/allnodes.j2)
+containers:
+ - name: {{ nodename }}
+   image: hyperledger/fabric-ca:1.4
+      :
+   volumeMounts:
+    - { mountPath: "/etc/hyperledger/fabric-ca/idcerts", name: "cert-key-id" }
+   # !!! no volume mount for CA data (/etc/hyperledger/fabric-ca-server), let's persist it.
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-14 14:01:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minifabric/pull/209" class=".btn">#209</a>
             </td>
             <td>

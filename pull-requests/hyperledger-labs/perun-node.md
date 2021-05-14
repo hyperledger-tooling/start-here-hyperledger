@@ -14,6 +14,99 @@ permalink: /pull-requests/hyperledger-labs/perun-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/180" class=".btn">#180</a>
+            </td>
+            <td>
+                <b>
+                    Fix occasional failure in session.Test_Integ_Role
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Provide a general summary of your changes in the title above
+
+Please read our contribution guidelines and sign the Contributor License
+Agreement (CLA) before submitting the pull request. Also, check if there are no
+other open pull requests targeting the same issue. -->
+
+#### Description
+<!-- Describe your changes in detail. -->
+
+- The test case  Session_Close_NoForce_Error in the mentioned test
+failed occasionally because of mismatch in channel IDs.
+
+- Cause: Bug in assertions in the specified test case. The two slices
+from which data is retrieved are considered to be ordered, while they in
+actual unordered.
+
+- So, test passed when both the slices had elements in the same ordered
+(by chance) and failed at other times.
+
+- Fixed by rewriting the assertions in the test case, considering the
+slices to be unordered.
+
+##### Category
+<!-- Tell us what type of issue does your pull request target.
+You can uncomment one of the following options: -->
+
+Bug Fix
+<!-- Improvement -->
+<!-- Implementation Task -->
+
+##### Relevant issue
+<!-- Provide a link to the related issue. You can use the following keywords
+and the issue number: "fixes", "resolves", "relates to". E.g.: closes #21
+
+We accept only pull requests related to open issues. If you're suggesting a new
+feature, improvement or fixing a bug that is not yet reported, please discuss it in
+an issue before submitting a pull request. -->
+
+Fixes #179
+
+#### Testing
+<!-- Tell us how you have tested the changes. -->
+
+Role integration test will be consistent. Will always pass (if implementation is correct) or always fail.
+
+##### Steps to run the tests
+<!-- Describe a set of steps to run the tests relevant to this change. -->
+
+
+1. Start ganache-cli node in one terminal
+
+```
+ganache-cli -b 1 --account="0x1fedd636dbc7e8d41a0622a2040b86fea8842cef9d4aa4c582aad00465b7acff,100000000000000000000" --account="0xb0309c60b4622d3071fad3e16c2ce4d0b1e7758316c187754f4dd0cfb44ceb33,100000000000000000000"
+``` 
+
+2. Run the role integration test in session package
+```
+cd session
+go test -cover -p 1 -count=1 -tags=integration  -v -run Role 
+```
+
+#### Checklist 
+<!-- Please check if the pull request fulfils these requirements: -->
+
+- [x] Name is added to the NOTICE file, if it is not present already.
+- [x] Changes are rebased onto the target branch.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-14 13:23:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/perun-node/pull/178" class=".btn">#178</a>
             </td>
             <td>

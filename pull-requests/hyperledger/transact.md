@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/134" class=".btn">#134</a>
+            </td>
+            <td>
+                <b>
+                    Remove InternalError::reduce_to_string
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This method is a wrapper around to_string that also logs a message if there is a source.  The logging and to_string call should be left to the caller.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-14 16:01:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/133" class=".btn">#133</a>
             </td>
             <td>
@@ -140,50 +167,6 @@ Received TooManyRequests message from target, attempting to resubmit batch
     </table>
     <div class="right-align">
         Created At 2021-05-11 18:59:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/129" class=".btn">#129</a>
-            </td>
-            <td>
-                <b>
-                    Fix manual implementation of Option::map lint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change fixes a lint introduced in the 1.52.0 release of Rust
-flagging items like
-
-    match Some(0) {
-        Some(x) => Some(x + 1),
-        None => None,
-    };
-
-Use instead:
-
-    Some(0).map(|x| x + 1);
-
-In some cases this requires an `as &(dyn Error + 'static)`
-
-See for
-    https://rust-lang.github.io/rust-clippy/master/index.html#manual_map
-for details
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-07 15:46:08 +0000 UTC
     </div>
 </div>
 
