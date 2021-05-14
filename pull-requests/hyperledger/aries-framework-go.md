@@ -349,31 +349,3 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2782" class=".btn">#2782</a>
-            </td>
-            <td>
-                <b>
-                    feat: wallet controller EDV & webkms customization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Closes #2770
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-06 20:03:04 +0000 UTC
-    </div>
-</div>
-
