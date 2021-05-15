@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1179" class=".btn">#1179</a>
+            </td>
+            <td>
+                <b>
+                    Add `resolve_with_metadata` method to DID resolver
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This metadata includes information on how the DID was resolved, enabling the caller to make decisions about whether it accepts DID Documents resolved remotely or from a particular resolver, etc.
+
+Props to @Luis-GA for doing most of the legwork on this feature.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-15 17:37:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1178" class=".btn">#1178</a>
             </td>
             <td>
