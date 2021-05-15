@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2793" class=".btn">#2793</a>
+            </td>
+            <td>
+                <b>
+                    chore: remove obsoleted acapy interop fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-14 21:07:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2792" class=".btn">#2792</a>
             </td>
             <td>
@@ -317,32 +343,6 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-05-10 03:45:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2784" class=".btn">#2784</a>
-            </td>
-            <td>
-                <b>
-                    feat: didexchange interop between acapy and afgo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-07 18:46:50 +0000 UTC
     </div>
 </div>
 
