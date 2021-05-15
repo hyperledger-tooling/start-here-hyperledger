@@ -252,31 +252,3 @@ Signed-off-by: sklump <srklump@hotmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1161" class=".btn">#1161</a>
-            </td>
-            <td>
-                <b>
-                    Richer swagger models
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                @ianco - I aligned endorsement protocol transaction records' id_ with the praxis of the rest of the records, among the rest of the noise. I don't see Harsh in the list of available reviewers here?
-
-Anyway, this update turns a lot of {}'s into rich detailed models within the admin API.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-07 20:05:51 +0000 UTC
-    </div>
-</div>
-

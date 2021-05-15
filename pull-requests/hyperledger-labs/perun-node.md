@@ -27,8 +27,7 @@ permalink: /pull-requests/hyperledger-labs/perun-node
                 
             </td>
             <td>
-                
-<!-- Provide a general summary of your changes in the title above
+                <!-- Provide a general summary of your changes in the title above
 
 Please read our contribution guidelines and sign the Contributor License
 Agreement (CLA) before submitting the pull request. Also, check if there are no
@@ -37,18 +36,20 @@ other open pull requests targeting the same issue. -->
 #### Description
 <!-- Describe your changes in detail. -->
 
-- The test case  Session_Close_NoForce_Error in the mentioned test
-failed occasionally because of mismatch in channel IDs.
+- The test case  Session_Close_NoForce_Error and
+  OpenCh_Sub_Unsub_ChProposal_Respond_Accept in the mentioned test
+  failed occasionally because of mismatch in channel IDs.
 
-- Cause: Bug in assertions in the specified test case. The two slices
-from which data is retrieved are considered to be ordered, while they in
-actual unordered.
+- Cause: Assumption (made in the tests) that GetChsInfo returns the
+  channels in the order in which they were created is not always true.
+  Because, GetChsInfo previously ranged over a map, in which case the
+  elements are returned in random order during each iteration.
 
-- So, test passed when both the slices had elements in the same ordered
-(by chance) and failed at other times.
+- Fix: Update the implementation of session, so that GetChsInfo returns
+  the channels in the order in which they were created. Add a test case
+  to document this behavior.
 
-- Fixed by rewriting the assertions in the test case, considering the
-slices to be unordered.
+- Now, the assumption made in the test will always hold true (added a test case for this).
 
 ##### Category
 <!-- Tell us what type of issue does your pull request target.
@@ -77,15 +78,21 @@ Role integration test will be consistent. Will always pass (if implementation is
 <!-- Describe a set of steps to run the tests relevant to this change. -->
 
 
-1. Start ganache-cli node in one terminal
+1. Run the newly added test that ensures channels Info returned by `GetChsInfo` is always in the same order - order in which the channels were created.
+
+```
+# In session directory
+go test -run Test_ProposeCh_GetChsInfo/Test_ProposeCh_GetChsInfo
+```
+2. Start ganache-cli node in a different terminal
 
 ```
 ganache-cli -b 1 --account="0x1fedd636dbc7e8d41a0622a2040b86fea8842cef9d4aa4c582aad00465b7acff,100000000000000000000" --account="0xb0309c60b4622d3071fad3e16c2ce4d0b1e7758316c187754f4dd0cfb44ceb33,100000000000000000000"
 ``` 
 
-2. Run the role integration test in session package
+3. Run the role integration test in session package (previously failing test).
 ```
-cd session
+# In session directory
 go test -cover -p 1 -count=1 -tags=integration  -v -run Role 
 ```
 
