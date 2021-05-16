@@ -681,39 +681,3 @@ fix consensus_newBlock transaction decoding
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2252" class=".btn">#2252</a>
-            </td>
-            <td>
-                <b>
-                    Fix discovery packet size
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
-
-## PR description
-Make sure Besu sends NEIGHBORS packets under MTU size.
-
-## Fixed Issue(s)
-#2250 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-08 23:00:06 +0000 UTC
-    </div>
-</div>
-

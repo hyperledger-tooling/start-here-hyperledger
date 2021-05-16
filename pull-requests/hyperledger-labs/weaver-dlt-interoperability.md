@@ -72,29 +72,3 @@ Implements the below fungible asset functions:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/46" class=".btn">#46</a>
-            </td>
-            <td>
-                <b>
-                    Interop-cc chaincode for asset management functions (Lock, Unlock, Claim, IsAssetLocked)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-08 19:11:41 +0000 UTC
-    </div>
-</div>
-
