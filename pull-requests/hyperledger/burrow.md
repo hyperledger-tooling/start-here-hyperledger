@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/burrow
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/burrow/pull/1486" class=".btn">#1486</a>
+            </td>
+            <td>
+                <b>
+                    Get rid of excessively long and generally useless EVM trace from call
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                errors
+
+Signed-off-by: Silas Davis <silas@monax.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-15 21:16:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/burrow/pull/1485" class=".btn">#1485</a>
             </td>
             <td>
