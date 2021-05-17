@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/696" class=".btn">#696</a>
+            </td>
+            <td>
+                <b>
+                    Run cron builds at 1am
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cron builds running at 2am are failing regularly. Moving the build to
+run earlier will either fix the problem or disprove a theory.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-17 16:23:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/692" class=".btn">#692</a>
             </td>
             <td>
@@ -150,116 +179,6 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-05-10 18:52:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/684" class=".btn">#684</a>
-            </td>
-            <td>
-                <b>
-                    Update product man pages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add explaination of `--xml` option for `grid product create` man page
-
-Remove `--owner` option from `grid product update` man page
-
-Signed-off-by: Ryan Banks <rbanks@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 17:27:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/683" class=".btn">#683</a>
-            </td>
-            <td>
-                <b>
-                    Fix Rust 1.52 lints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 16:37:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/682" class=".btn">#682</a>
-            </td>
-            <td>
-                <b>
-                    Fix lint and dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The Batch Processor constructor was merged after this lint was fixed elsewhere in Grid. Also updates saplingjs to get the dependency from the proper branch.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 16:14:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/681" class=".btn">#681</a>
-            </td>
-            <td>
-                <b>
-                    Update Saplingjs dependency to correct branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The default branch was recently changed to main.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 14:40:14 +0000 UTC
     </div>
 </div>
 

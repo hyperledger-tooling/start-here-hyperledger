@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/136" class=".btn">#136</a>
+            </td>
+            <td>
+                <b>
+                    Change wait time between batch submit responsively
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Transact waits the full time between the end of one batch submit and the
+next regardless of how long the submit takes. This can make the target
+submission rate and the actual submission rate be very different.
+This change alters the time between submissions based on how long the
+current submission took and a "best guess" for how long they usually
+take.
+Ideally this will more tightly tie the target and actual submission rate.
+
+Signed-off-by: Caleb Hill <hill@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-17 13:02:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/135" class=".btn">#135</a>
             </td>
             <td>

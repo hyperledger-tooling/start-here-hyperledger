@@ -277,32 +277,3 @@ Ultimately the handlers should send problem reports - that's a bigger job and ne
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1162" class=".btn">#1162</a>
-            </td>
-            <td>
-                <b>
-                    retain unrecognizable decorators as opaque data
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                RFC 11 suggests a looser interpretation than our original.
-Address https://github.com/hyperledger/aries-cloudagent-python/issues/1147
-
-Signed-off-by: sklump <srklump@hotmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 15:56:29 +0000 UTC
-    </div>
-</div>
-

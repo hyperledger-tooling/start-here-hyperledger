@@ -14,63 +14,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/272" class=".btn">#272</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/277" class=".btn">#277</a>
             </td>
             <td>
                 <b>
-                    WIP: Remove unnecessary info from request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-03 15:58:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/271" class=".btn">#271</a>
-            </td>
-            <td>
-                <b>
-                    Avoid cred def rotation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-04-30 10:48:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/270" class=".btn">#270</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.17.3
+                    Update Rust to version 1.52.1
                 </b>
             </td>
         </tr>
@@ -84,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-30 10:39:39 +0000 UTC
+        Created At 2021-05-17 15:26:26 +0000 UTC
     </div>
 </div>
 
@@ -92,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/269" class=".btn">#269</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/276" class=".btn">#276</a>
             </td>
             <td>
                 <b>
-                    Add revokability check
+                    Remove/deprecated internal
                 </b>
             </td>
         </tr>
@@ -105,12 +53,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-28 12:48:25 +0000 UTC
+        Created At 2021-05-17 13:27:38 +0000 UTC
     </div>
 </div>
 
