@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/257" class=".btn">#257</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/276" class=".btn">#276</a>
             </td>
             <td>
                 <b>
-                    feat: add dependency injection
+                    refactor: Re-use ws outbound transport in mediator
                 </b>
             </td>
         </tr>
@@ -27,26 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                This was considerably easier than I thought it would be.
-
-Just DI for now. No extension API yet.
-
-- Used TSyringe. Very lightweight (1 already used dependency)
-- Used symbols for interface based injectables. Maybe we want to use base classes later on to make it easier, but I wanted to keep most of the current working intact. Just replace it with DI
-- Use `@scoped(Lifecycle.ContainerScoped)` for injection. This is basically a singleton, however only for the current DI container. This means a child container won't share the same instance. Two reasons:
-	- The tests were not happy with a singleton (could have bypassed this however)
-	- This allows to run two agents side by side and don't have problems with the singletons
-- Instead of using `Repository<RecordClass>` we're now using `RecordRepository`. It was very hard to use this pattern. Maybe we can simplify it later on. For now it was easiest to just create a separate repository per record type.
-
-
-Let me know what you think. I think this will make extension a lot easier moving forward.
-
-Fixes #211 
+                Small refactor.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-02 22:44:09 +0000 UTC
+        Created At 2021-05-15 16:55:15 +0000 UTC
     </div>
 </div>
 
@@ -54,11 +40,11 @@ Fixes #211
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/256" class=".btn">#256</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/275" class=".btn">#275</a>
             </td>
             <td>
                 <b>
-                    feat: Add support for WebSocket transports
+                    refactor: replace all errors with framework errors
                 </b>
             </td>
         </tr>
@@ -67,26 +53,16 @@ Fixes #211
                 
             </td>
             <td>
-                This is how it works now:
-* A mediator takes endpoint for invitation or DidDoc from `config`.
-* An edge agent takes endpoint for invitation or DidDoc from `inboundConnection` if it has any.
-* The edge agent gets out of band invitation via http request to mediator (http://mediator1.com/invitation). The invitation contains `ws` endpoint because we want to make a connection via WebSocket.
-* The edge agent takes an endpoint for outbound communication from invitation or DidDoc. For a connection with another edge agent, it takes an endpoint from `indbound` connection. Therefore it’s the same `ws` endpoint as it is contained in the mediator invitation.
+                This PR adds a base `AriesFrameworkError` that is now thrown instead of the generic `Error`. It also adds `RecordNotFoundError` and `RecordDuplicateError` that is now used when storing/retrieving records. It could be hard to find out why an indy operation was failing. This gives a lot more context to the framework consumer.
 
-To integrate ws and http servers together and support multiple transports we would need to enable following:
-* A mediator sends a different endpoint for mediation to edge agent.
-* The edge agent sets the mediation endpoint somewhere else and do not take it from `inbound` connection invitation or DidDoc.
+Over time we can add more specific error classes for other parts of the codebase, but I thought this was already a great start.
 
-Other notes:
-* I set ws endpoint directly in mediator server by editing `config.endpoint` to value `ws://localhost:${PORT}`
-* I skip the ws tests. To run them it's needed to change the mediator server to `mediator-ws.ts` (or integrate ws and HTTP together as I mentioned)
-
-Related to #250 
+Fixes #78
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-02 10:17:18 +0000 UTC
+        Created At 2021-05-15 13:18:01 +0000 UTC
     </div>
 </div>
 
@@ -94,11 +70,11 @@ Related to #250
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/255" class=".btn">#255</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/274" class=".btn">#274</a>
             </td>
             <td>
                 <b>
-                    feat: add internal http outbound transporter
+                    refactor: use single event emitter for all events
                 </b>
             </td>
         </tr>
@@ -107,28 +83,12 @@ Related to #250
                 
             </td>
             <td>
-                This is a first attempt at internalizing the http transport. Only the outbound for now, as it was the easiest. Made two http post implementation so it will work in both RN and Node.JS without having to add another dependency.
-
-You can import it and works out of the box:
-
-```ts
-import { Agent, HttpOutboundTransporter } from 'aries-framework'
-
-const agent = new Agent(config)
-const httpOutboundTransport = new HttpOutboundTransporter(agent)
-agent.setOutboundTransporter(httpOutboundTransport)
-```
-
-I made a start at `supportedSchemes`. It is not checked yet, but this allows us to determine the transport to use for a specific message when we add support for multiple transport. That should be a fairly small addition once this is merged. 
-
-Also added an option to specify the didcomm mime type to use. This differs for AIP1.0/AIP2.0.
-
-What do you think?
+                Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-01 21:31:39 +0000 UTC
+        Created At 2021-05-14 23:21:04 +0000 UTC
     </div>
 </div>
 
@@ -136,11 +96,11 @@ What do you think?
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/254" class=".btn">#254</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/273" class=".btn">#273</a>
             </td>
             <td>
                 <b>
-                    feat: add credential info to access attributes
+                    feat: only connect to ledger when needed
                 </b>
             </td>
         </tr>
@@ -149,50 +109,23 @@ What do you think?
                 
             </td>
             <td>
-                Fixes #190
-Fixes #187
+                - only connect to ledger when needed
+- allow to pass `genesisTransactions` so you don't have to deal with storing the genesis yourself
 
-Example:
+Fixes #219 
+Fixes #265 
 
-```ts
-// credentialRecord.getCredentialInfo()
-{
-  claims: {
-    name: 'Timo',
-    date_of_birth: '1998-07-29',
-    'country-of-residence': 'The Netherlands',
-    'street name': 'Test street',
-    age: '22',
-  },
-  metadata: {
-    credentialDefinitionId: 'Th7MpTaRZVRYnPiabds81Y:3:CL:17:TAG',
-    schemaId: 'TL1EaPFCZ8Si5aUrqScBDt:2:test-schema-1599055118161:1.0',
-  },
-}
-```
-
-```ts
-// credentialInfo.getFormattedClaims()
-{
-  Age: '22',
-  'Country Of Residence': 'The Netherlands',
-  'Date Of Birth': '1998-07-29',
-  'Street Name': 'Test street',
-  Name: 'Timo',
-}
-```
+The ledger management can be improved, but I think this is a simple first step. Only open the ledger connection if a ledger call is made
 
 
-```ts
-const credentialInfo = credentialRecord.getCredentialInfo()
-const claims = credentialInfo.claims
-const formattedClaims = credentialInfo.getFormattedClaims()
-```
+---
+
+Tested in both NodeJS and React Native
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-01 12:31:10 +0000 UTC
+        Created At 2021-05-14 21:38:14 +0000 UTC
     </div>
 </div>
 
@@ -200,11 +133,11 @@ const formattedClaims = credentialInfo.getFormattedClaims()
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/253" class=".btn">#253</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/272" class=".btn">#272</a>
             </td>
             <td>
                 <b>
-                    feat: automatic transformation of record classes
+                    Dev/mediation config
                 </b>
             </td>
         </tr>
@@ -213,17 +146,228 @@ const formattedClaims = credentialInfo.getFormattedClaims()
                 
             </td>
             <td>
-                Transform record classes and its sub objects using class transformer.
-
-Fixes #106
-
-
-Was sort of a blocker for some of the work I wanted to do for #187, and it was long overdue this was fixed.
+                @DavidClawson work on configuration for meditation recipient. 
+Introduces an initialize method to the recipient module(src/modules/routing/RecipientModule.ts).
+- initialize is called from agent.init() after wallet, ledger, and transport are set up. 
+- recipient.init() checks for provided configurations to automatically set up mediation at the start.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-29 21:13:33 +0000 UTC
+        Created At 2021-05-14 17:57:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/269" class=".btn">#269</a>
+            </td>
+            <td>
+                <b>
+                    build: make indy-sdk dev dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently when installing AFJ from npm it tries to install indy-sdk. Moving it back to dev dependencies so this isn't the case anymore. This requires a bit more setup as yarn install now requires indy to be installed.
+
+I created a local action setup-libindy that handles this and is reused by all jobs.
+
+related to discussion over here https://github.com/hyperledger/aries-mobile-agent-react-native/issues/41
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-13 08:15:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/267" class=".btn">#267</a>
+            </td>
+            <td>
+                <b>
+                    feat: add internal ws outbound transporter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add internal ws outbound transporter. Same as with HTTP. Next step is multi outbound transport support. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 15:31:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/266" class=".btn">#266</a>
+            </td>
+            <td>
+                <b>
+                    feat: Added attachment extension
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added the extension to the attachment decorator and renamed the attachment property on the issue and verify messages to avoid confliction.
+
+Has been added for the support of linking credentials to attachments.
+
+Signed-off-by: Berend Sliedrecht <berend@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 15:09:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/264" class=".btn">#264</a>
+            </td>
+            <td>
+                <b>
+                    ci: do not run concurrent release jobs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should fix the issues with the release. Github added a `concurrency` key a few weeks ago that allows us to prevent concurrent jobs from running. See the comment in the action file for more context
+
+
+https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idconcurrency
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-12 08:58:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/263" class=".btn">#263</a>
+            </td>
+            <td>
+                <b>
+                    feat: add support for Multibase, Multihash and Hashlinks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Implements Multihash, Multibase and Hashlinks. 
+
+Adds decoding, encoding and validating for multibase, multihash and hashlinks.
+
+Hashlinks have been implemented accoring to [draft-sporny-hashlink-07](https://datatracker.ietf.org/doc/html/draft-sporny-hashlink)
+
+The main reason for this implementation is to add multibase for the upcoming did exchange protocol and hashlink for linking credentials to attachments.
+
+Signed-off-by: Berend Sliedrecht <berend@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-11 13:55:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/262" class=".btn">#262</a>
+            </td>
+            <td>
+                <b>
+                    refactor: extract credential logic from wallet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This became a bigger PR than I anticipated, but I think the changes are quite nice.
+
+- Extract all indy credential logic from wallet to Issuer/Holder/Verifier services. this makes the wallet less indy specific, which will be nice if we add other wallet types in the future
+	- This is mainly done as a refactor for revocation so we don't overload the wallet again with indy specific revocation methods.
+- Update ledger create schema/cred def method signatures to not return array of [id, object] as the object already contains the id. So just return the object for both
+-  Add `FileSystem` interface with implementation for both NodeJS and React Native
+	- We need file access for revocation
+	- This will allow us to add a `genesisUrl` and `genesisTransactions` config to the framework so we can handle the complexity of storing the genesis file for the consumer (will address in a separate PR)
+- Created `indy` module directory, but I don't see the need for an `IndyModule` at the moment. Can we create 'modules' without a module class? (IMO yes, but would like your opinion)
+
+Please let me know what you think. I'd like to test this in RN first, so do not merge yet.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-10 21:15:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/261" class=".btn">#261</a>
+            </td>
+            <td>
+                <b>
+                    ci: do no run release script in forks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently when we push to main in our fork of the repo, the release script will run (and fail). This does a check so it will only run in the hyperledger repo
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-10 10:29:41 +0000 UTC
     </div>
 </div>
 

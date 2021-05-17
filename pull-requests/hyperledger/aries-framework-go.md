@@ -318,31 +318,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2786" class=".btn">#2786</a>
-            </td>
-            <td>
-                <b>
-                    docs: Updated encrypted storage documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updated the documentation to match the new code structure. Also added examples of other configurations.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 03:45:56 +0000 UTC
-    </div>
-</div>
-
