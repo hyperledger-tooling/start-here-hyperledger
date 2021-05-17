@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2795" class=".btn">#2795</a>
+            </td>
+            <td>
+                <b>
+                    feat: RFC0593 - JSONLD credentials for issue-credential V2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">aip 2.0</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                Signed-off-by: George Aristy <george.aristy@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-17 16:50:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2794" class=".btn">#2794</a>
+            </td>
+            <td>
+                <b>
+                    feat: transition to step 3 of RFC 0348
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-17 14:21:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2793" class=".btn">#2793</a>
             </td>
             <td>
@@ -289,32 +343,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-05-11 02:29:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2787" class=".btn">#2787</a>
-            </td>
-            <td>
-                <b>
-                    fix: Remove old text from encrypted storage documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 14:09:47 +0000 UTC
     </div>
 </div>
 

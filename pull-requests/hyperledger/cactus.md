@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/969" class=".btn">#969</a>
+            </td>
+            <td>
+                <b>
+                    feat(Go-Ethereum Validator): add getNonceHex on Go-Ethereum Validator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Related to Issue #970 
+
+Contents:
+- (main) [Validator] add getNonce as execSyncFunction on Go-Ethereum Validator in order to solve #970.
+- (sub) [car-trade] refactor to use the above function instead of web3 function.
+
+Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-17 14:22:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/964" class=".btn">#964</a>
             </td>
             <td>

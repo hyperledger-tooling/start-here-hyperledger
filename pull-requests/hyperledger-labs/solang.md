@@ -94,29 +94,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/415" class=".btn">#415</a>
-            </td>
-            <td>
-                <b>
-                    Implement block.timestamp for Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 16:08:00 +0000 UTC
-    </div>
-</div>
-
