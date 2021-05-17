@@ -85,11 +85,6 @@ I think it's the least worse option at the moment.
             <td>
                 If in GoQuorum privacy mode, use a fully filled data field to get max value for gas estimation.
 
-This doesn't make the GQ AT pass. 
-They get 21000 + 64 * 68 (homestead)
-With this we get 21000 + 64 * 16 (latest ie istanbul)
-
-
 ## Changelog
 
 - [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
@@ -218,7 +213,7 @@ This adds the ability to default to the `hostName` property, filled by log4j2, b
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 Signed-off-by: Jason Frame <jasonwframe@gmail.com>
@@ -259,7 +254,7 @@ fixes #2049
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 Signed-off-by: Jason Frame <jasonwframe@gmail.com>
