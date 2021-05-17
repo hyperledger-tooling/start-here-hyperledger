@@ -345,29 +345,3 @@ Please let me know what you think. I'd like to test this in RN first, so do not 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/261" class=".btn">#261</a>
-            </td>
-            <td>
-                <b>
-                    ci: do no run release script in forks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently when we push to main in our fork of the repo, the release script will run (and fail). This does a check so it will only run in the hyperledger repo
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 10:29:41 +0000 UTC
-    </div>
-</div>
-

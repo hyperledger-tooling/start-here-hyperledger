@@ -121,31 +121,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/950" class=".btn">#950</a>
-            </td>
-            <td>
-                <b>
-                    feat(tools): docker-compose files for indy corresponding to issue #866
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is related to issue #866.
-
-Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 08:39:34 +0000 UTC
-    </div>
-</div>
-
