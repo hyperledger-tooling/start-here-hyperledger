@@ -309,39 +309,3 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/262" class=".btn">#262</a>
-            </td>
-            <td>
-                <b>
-                    refactor: extract credential logic from wallet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This became a bigger PR than I anticipated, but I think the changes are quite nice.
-
-- Extract all indy credential logic from wallet to Issuer/Holder/Verifier services. this makes the wallet less indy specific, which will be nice if we add other wallet types in the future
-	- This is mainly done as a refactor for revocation so we don't overload the wallet again with indy specific revocation methods.
-- Update ledger create schema/cred def method signatures to not return array of [id, object] as the object already contains the id. So just return the object for both
--  Add `FileSystem` interface with implementation for both NodeJS and React Native
-	- We need file access for revocation
-	- This will allow us to add a `genesisUrl` and `genesisTransactions` config to the framework so we can handle the complexity of storing the genesis file for the consumer (will address in a separate PR)
-- Created `indy` module directory, but I don't see the need for an `IndyModule` at the moment. Can we create 'modules' without a module class? (IMO yes, but would like your opinion)
-
-Please let me know what you think. I'd like to test this in RN first, so do not merge yet.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 21:15:35 +0000 UTC
-    </div>
-</div>
-

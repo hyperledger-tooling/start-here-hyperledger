@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
             </td>
             <td>
                 <b>
-                    (WIP) data-provider, storage-service, experimenter, chaincode, protos, ledger-helper
+                    First pass on: data-provider, storage-service, experimenter, chaincode, protos, ledger-helper
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                (WIP)
+                
             </td>
         </tr>
     </table>
