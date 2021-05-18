@@ -114,30 +114,3 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/419" class=".btn">#419</a>
-            </td>
-            <td>
-                <b>
-                    [zh_CN]translate Docs Key Concepts Channel capabilities
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: wuqiaomin <wuqiaomin2@huawei.com>
-relate to issue #299
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-11 11:56:16 +0000 UTC
-    </div>
-</div>
-

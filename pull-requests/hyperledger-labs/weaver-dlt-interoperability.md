@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/54" class=".btn">#54</a>
+            </td>
+            <td>
+                <b>
+                    SimpleAsset Bug Fix and Fabric-cli updated to initialize Asset networks.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. A bug in simpleasset where it was never creating new wallets for users has been fixed.
+2. Added command to add/register users to fabric-network who can be participate in asset exchange: `fabric-cli user add`.
+3. Added command to initialise the bond/token networks: `fabric-cli configure asset add`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-18 10:01:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/53" class=".btn">#53</a>
             </td>
             <td>
