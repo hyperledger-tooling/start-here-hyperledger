@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2597" class=".btn">#2597</a>
+            </td>
+            <td>
+                <b>
+                    FAB-18472 Fix unit test hang when using softhsm 2.6.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Stop the unit tests from hanging when running the pkcs11 unit tests
+with softhsm 2.6.1 on linux
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-18 11:06:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2596" class=".btn">#2596</a>
             </td>
             <td>

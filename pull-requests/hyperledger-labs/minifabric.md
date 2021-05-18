@@ -138,29 +138,3 @@ with this PR, all environment variables are reflected from spec.yaml in correspo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/204" class=".btn">#204</a>
-            </td>
-            <td>
-                <b>
-                    [feature] add couchDB support on k8s
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                close #198 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-11 10:17:00 +0000 UTC
-    </div>
-</div>
-
