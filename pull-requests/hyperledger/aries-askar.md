@@ -38,33 +38,3 @@ permalink: /pull-requests/hyperledger/aries-askar
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/9" class=".btn">#9</a>
-            </td>
-            <td>
-                <b>
-                    0.2-pre.3 updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Switch from serde-json to serde-json-core
-- Add AES key wrapping (A128KW, A256KW)
-- Add some basic fuzz tests
-- Clean up key loading to reduce code paths
-- Misc python wrapper updates
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-11 04:25:52 +0000 UTC
-    </div>
-</div>
-
