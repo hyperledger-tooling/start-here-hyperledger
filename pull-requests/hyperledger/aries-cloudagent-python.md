@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1183" class=".btn">#1183</a>
+            </td>
+            <td>
+                <b>
+                    Align with rfcs for error states in issue cred and present proof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                RFCs 36, 37, 453 state that exchange states go to null on both sides on error; 454 uses "abandoned".
+
+This work sets states accordingly where possible (unless there is no such record or the problem is storage itself), but does not (yet) send problem reports - that's another PR for the near-ish future.
+
+In issue-credential, separate store-credential from send-ack: whether storage succeeds or fails, the protocol owes an ack because acknowledgement is to credential receipt, not storage.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-18 13:52:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1182" class=".btn">#1182</a>
             </td>
             <td>
@@ -277,32 +307,6 @@ Ultimately the handlers should send problem reports - that's a bigger job and ne
     </table>
     <div class="right-align">
         Created At 2021-05-12 14:55:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1164" class=".btn">#1164</a>
-            </td>
-            <td>
-                <b>
-                    Local jsonld for unit tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-11 16:23:51 +0000 UTC
     </div>
 </div>
 
