@@ -494,33 +494,3 @@ fixes #2241
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2262" class=".btn">#2262</a>
-            </td>
-            <td>
-                <b>
-                    Entropy aargh
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                file:/dev/urandom
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-10 23:49:15 +0000 UTC
-    </div>
-</div>
-
