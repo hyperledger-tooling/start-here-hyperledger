@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/278" class=".btn">#278</a>
+            </td>
+            <td>
+                <b>
+                    fix: connection record type was BaseRecord 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-18 16:15:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/276" class=".btn">#276</a>
             </td>
             <td>
@@ -272,40 +298,6 @@ https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#
     </table>
     <div class="right-align">
         Created At 2021-05-12 08:58:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/263" class=".btn">#263</a>
-            </td>
-            <td>
-                <b>
-                    feat: add support for Multibase, Multihash and Hashlinks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Implements Multihash, Multibase and Hashlinks. 
-
-Adds decoding, encoding and validating for multibase, multihash and hashlinks.
-
-Hashlinks have been implemented accoring to [draft-sporny-hashlink-07](https://datatracker.ietf.org/doc/html/draft-sporny-hashlink)
-
-The main reason for this implementation is to add multibase for the upcoming did exchange protocol and hashlink for linking credentials to attachments.
-
-Signed-off-by: Berend Sliedrecht <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-11 13:55:26 +0000 UTC
     </div>
 </div>
 

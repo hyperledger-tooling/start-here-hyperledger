@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/697" class=".btn">#697</a>
+            </td>
+            <td>
+                <b>
+                    Refactor pike protocol payload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                PikePayload protocol object now has a single action object instead of
+multiple payload objects. The Action enum has been updated to hold a
+payload object that corresponds to each enum type.
+
+Signed-off-by: Ryan Banks <rbanks@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-18 16:27:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/696" class=".btn">#696</a>
             </td>
             <td>

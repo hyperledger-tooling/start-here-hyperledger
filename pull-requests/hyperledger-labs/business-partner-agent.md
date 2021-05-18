@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/418" class=".btn">#418</a>
-            </td>
-            <td>
-                <b>
-                    ooops typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jason Sy <jasyrotuck@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-11 17:28:54 +0000 UTC
-    </div>
-</div>
-

@@ -116,29 +116,3 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/114" class=".btn">#114</a>
-            </td>
-            <td>
-                <b>
-                    FABGW-19: Code and API documentation tidy-up
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added TSDoc and Jest linting to Node client build.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-11 16:49:48 +0000 UTC
-    </div>
-</div>
-
