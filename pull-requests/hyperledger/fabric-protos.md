@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/56" class=".btn">#56</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/57" class=".btn">#57</a>
             </td>
             <td>
                 <b>
-                    FABGW-20 Specify endorsing organizations
+                    FABGW-21: Add Gateway ChaincodeEvents service
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                Add support in the EndorseRequest message of the gateway proto for specifying which org’s peers to target.
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+                This service supports chaincode event listening in the client API.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-05 10:27:44 +0000 UTC
+        Created At 2021-05-19 16:43:07 +0000 UTC
     </div>
 </div>
 

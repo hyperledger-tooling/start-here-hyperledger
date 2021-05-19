@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    Eip 1559 tx sorting
+                    Eip 1559 tx sorting refactor
                 </b>
             </td>
         </tr>
@@ -301,72 +301,6 @@ This adds the ability to default to the `hostName` property, filled by log4j2, b
     </table>
     <div class="right-align">
         Created At 2021-05-12 19:20:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2278" class=".btn">#2278</a>
-            </td>
-            <td>
-                <b>
-                    Stabilize eth/65
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It's been stable for a while now, time to clean up the code surrounding it.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-12 14:55:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2277" class=".btn">#2277</a>
-            </td>
-            <td>
-                <b>
-                    Remove EIP1559 flag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-12 14:01:29 +0000 UTC
     </div>
 </div>
 

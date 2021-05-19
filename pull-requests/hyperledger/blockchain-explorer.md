@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/239" class=".btn">#239</a>
+            </td>
+            <td>
+                <b>
+                    BE-855 Add try catch block to handle block in-process exception
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
+
+https://jira.hyperledger.org/browse/BE-855
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-19 14:58:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/238" class=".btn">#238</a>
             </td>
             <td>

@@ -204,31 +204,3 @@ rate of less than 1 batch per second.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/131" class=".btn">#131</a>
-            </td>
-            <td>
-                <b>
-                    Rename transact-command.md to transact-command.1.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is the expected naming scheme.
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-12 13:22:17 +0000 UTC
-    </div>
-</div>
-
