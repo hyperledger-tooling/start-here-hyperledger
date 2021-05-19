@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/279" class=".btn">#279</a>
+            </td>
+            <td>
+                <b>
+                    Tests/connection protocol mediation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                updated connection protocol tests to use a mediator id. Default mediator is not tested, basics come first.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-18 22:34:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/278" class=".btn">#278</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    0.2.0-pre.4 updates
+                    0.2.0-pre.5 updates
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                - Fix encoding for blank entry tags
-- Return struct with ciphertext, nonce, and tag from AEAD encryption methods
-- Python API improvements, extensions to ECDH-ES/ECDH-1PU tests
+                - Split up AES key implementations
+- Avoid locking indefinitely when closing a store if the caller has left session or scan handles open
+- Optimize session/scan access via FFI
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-11 22:37:09 +0000 UTC
+        Created At 2021-05-18 19:22:56 +0000 UTC
     </div>
 </div>
 

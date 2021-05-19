@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2292" class=".btn">#2292</a>
+            </td>
+            <td>
+                <b>
+                    EIP-1559 Transaction Pool Sorting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+## Fixed Issue(s)
+fixes #2286
+
+## Changelog
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-18 22:54:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2289" class=".btn">#2289</a>
             </td>
             <td>
@@ -347,40 +380,6 @@ recursive comparison
     </table>
     <div class="right-align">
         Created At 2021-05-12 01:19:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2273" class=".btn">#2273</a>
-            </td>
-            <td>
-                <b>
-                    Ignore SECP256R1 tests for now
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ignore these tests for now as the static reference to the signatureAlgorithm breaks other tests.
-
-See #2267 
-
-Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-11 22:07:25 +0000 UTC
     </div>
 </div>
 
