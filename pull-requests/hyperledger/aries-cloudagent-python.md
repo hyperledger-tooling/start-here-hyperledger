@@ -282,31 +282,3 @@ Signed-off-by: sklump <srklump@hotmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1168" class=".btn">#1168</a>
-            </td>
-            <td>
-                <b>
-                    Holder reject proof req on bad attr value restriction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Address https://github.com/hyperledger/aries-cloudagent-python/issues/1163 partially: have holder refuse to send hopeless proof request to indy-sdk.
-
-Ultimately the handlers should send problem reports - that's a bigger job and needs its own PR
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-12 14:55:38 +0000 UTC
-    </div>
-</div>
-

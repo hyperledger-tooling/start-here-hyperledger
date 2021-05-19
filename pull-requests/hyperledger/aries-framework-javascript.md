@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/283" class=".btn">#283</a>
+            </td>
+            <td>
+                <b>
+                    fix: convert from buffer now also accepts uint8Array
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also decodes from uint8Array now instead of only a Buffer.
+
+Necessary for anything that is not in NodeJs.
+
+Signed-off-by: blu3beri <berend@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-19 17:17:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/282" class=".btn">#282</a>
+            </td>
+            <td>
+                <b>
+                    fix: test failing because of moved import
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should fix the failing CI.
+
+The CI jobs are now required so it won't be possible to get bad commits into main
+
+
+The problem was because I moved `toBeConnected` with to setup so each test file doesn't have to do it anymore. However this caused (i think?) some cyclic dependencies
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-19 17:11:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/280" class=".btn">#280</a>
             </td>
             <td>
@@ -276,62 +337,6 @@ related to discussion over here https://github.com/hyperledger/aries-mobile-agen
     </table>
     <div class="right-align">
         Created At 2021-05-13 08:15:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/267" class=".btn">#267</a>
-            </td>
-            <td>
-                <b>
-                    feat: add internal ws outbound transporter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                add internal ws outbound transporter. Same as with HTTP. Next step is multi outbound transport support. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-12 15:31:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/266" class=".btn">#266</a>
-            </td>
-            <td>
-                <b>
-                    feat: Added attachment extension
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added the extension to the attachment decorator and renamed the attachment property on the issue and verify messages to avoid confliction.
-
-Has been added for the support of linking credentials to attachments.
-
-Signed-off-by: Berend Sliedrecht <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-12 15:09:12 +0000 UTC
     </div>
 </div>
 
