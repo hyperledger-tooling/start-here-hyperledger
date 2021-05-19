@@ -435,7 +435,7 @@ Checklist (DELETE AFTER READING):
             </td>
             <td>
                 <b>
-                    Add chaincode events
+                    Add chaincode events in commit notification
                 </b>
             </td>
         </tr>

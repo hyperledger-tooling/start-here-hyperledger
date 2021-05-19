@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/424" class=".btn">#424</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Translate “developapps/endorsementpolicies.md”
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                This patch translates "Developing Applications >> Application design elements >> Endorsement policies" into Japanese.
+
+Resolves #223
+
+Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-18 22:48:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/423" class=".btn">#423</a>
             </td>
             <td>
