@@ -14,6 +14,128 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1469" class=".btn">#1469</a>
+            </td>
+            <td>
+                <b>
+                    Added molecule test for crypto-constellation and added ignore-yes for…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                … vault related task since we're not testing vault, also added idempotence tags
+
+Signed-off-by: Dimbu Afonso <dimbu.k.afonso@accenture.com>
+
+**Changelog**
+- Added molecule test for crypto-constellation and added ignore-yes for vault related tasks since we're not testing vault - Moreover, added idempotence tags.
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @sownak 
+
+ 
+
+**Linked issue**
+#723 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-19 09:59:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1468" class=".btn">#1468</a>
+            </td>
+            <td>
+                <b>
+                    Added molecule scenario for crypto-tessera and modified crypto-tessera role
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 to include idempotence-notest
+
+Signed-off-by: Angela Alagbe <angela.alagbe@accenture.com>
+
+**Changelog**
+- Added molecule scenario
+
+- Updated existing crypto-tessera role
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @sownak 
+
+ 
+
+**Linked issue**
+#722 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-19 09:42:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1467" class=".btn">#1467</a>
+            </td>
+            <td>
+                <b>
+                    Update the openshift version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Fix
+The openshift versions before 0.11.0 do not handle
+K8s config from Azure clusters.
+Ref: https://github.com/kubernetes-client/python-base/pull/141/files
+
+**Reviewed by**
+@sownak 
+
+**Linked issue**
+#1466
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-19 09:14:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1465" class=".btn">#1465</a>
             </td>
             <td>

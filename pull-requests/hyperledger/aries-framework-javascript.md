@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/280" class=".btn">#280</a>
+            </td>
+            <td>
+                <b>
+                    refactor: Move a transport protocol-related logic from the framework core
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I did some refactorings to help me add support for multiple transports in the following PR:
+* Add test to `MessageSender`
+* Move up a logic from `EnvelopeService` to `MessageSender`
+* Remove transport-related details from the `TransportService` and from the core of the framework.
+* Rename `transport` to `session` which hopefully express the meaning better.
+
+As a next step I'm considering:
+* Rename transporters to transports
+* Move up more logic from `MessageSender.packMessage` and pass `service` object to `packMessage`
+* Then we could call `packMessage` and `sendMessage` for every available service. Eventually, we could remove the logic from `createOutboundMessage`.
+* Improve validation of `outboundMessage` inside `OutboundTransporter` and error handling
+* Add multiple transports
+
+If you think it doesn't make sense to merge this without full functionality I can continue with adding changes. But I realized that it contains a good amount of changes already and it could be worth merging sooner.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-19 08:49:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/279" class=".btn">#279</a>
             </td>
             <td>
@@ -293,37 +332,6 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
     </table>
     <div class="right-align">
         Created At 2021-05-12 15:09:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/264" class=".btn">#264</a>
-            </td>
-            <td>
-                <b>
-                    ci: do not run concurrent release jobs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should fix the issues with the release. Github added a `concurrency` key a few weeks ago that allows us to prevent concurrent jobs from running. See the comment in the action file for more context
-
-
-https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idconcurrency
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-12 08:58:48 +0000 UTC
     </div>
 </div>
 
