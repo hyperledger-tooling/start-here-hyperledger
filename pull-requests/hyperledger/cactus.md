@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/972" class=".btn">#972</a>
+            </td>
+            <td>
+                <b>
+                    docs(video): video guide added to build.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolve #413 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-19 07:40:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/969" class=".btn">#969</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/55" class=".btn">#55</a>
+            </td>
+            <td>
+                <b>
+                    changes to receive serialized protos in base64 and validation on locker/recipient
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-19 10:40:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/54" class=".btn">#54</a>
             </td>
             <td>
@@ -98,33 +124,6 @@ Implements the below fungible asset functions:
     </table>
     <div class="right-align">
         Created At 2021-05-12 20:22:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/48" class=".btn">#48</a>
-            </td>
-            <td>
-                <b>
-                    Sample Chaincode for Asset lifecycle management for Bond and Fungible Asset.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Added chaincode for BondAsset and FungibleAsset with tests.
-2. Fixed the bug in testnet with wrong ca-org port in network2.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-12 07:40:33 +0000 UTC
     </div>
 </div>
 
