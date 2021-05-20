@@ -32,15 +32,13 @@ permalink: /pull-requests/hyperledger-labs/Scorex
 Explanation: 
 Logic of this whole incoming data deserialization is as follows : 
  1. ByteString is received 
- 2. if length properties don't comply with full message length, keep on reading next ByteString as we have not enough bytes yet
+ 2. if BS length is less than message length, keep on reading next BS as we have not enough bytes yet
  3. otherwise try to deserialize it into a message
 
 The bug is caused by the fact that we are testing for `magic` and grabbing `msgCode` before checking the length, which means it fails (incorrectly) at time when not enough bytes is read to be able to deserialize it into a message.
 
 Fix outcome: 
 No bans happen now and more peers are connected, tested on Ergo.
-
-The test failure is just a timeout, tests pass locally.
             </td>
         </tr>
     </table>

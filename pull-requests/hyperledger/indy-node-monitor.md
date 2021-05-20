@@ -1,24 +1,24 @@
 ---
 layout: default
-title: homebrew-besu
+title: indy-node-monitor
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/homebrew-besu
+permalink: /pull-requests/hyperledger/indy-node-monitor
 ---
 
-# homebrew-besu <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/homebrew-besu){: .btn .mr-4 }</span>
+# indy-node-monitor <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/indy-node-monitor){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    21.1.6
+                    Added Indicio networks to networks.json
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/homebrew-besu
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-19 22:21:18 +0000 UTC
+        Created At 2021-05-19 21:36:17 +0000 UTC
     </div>
 </div>
 
