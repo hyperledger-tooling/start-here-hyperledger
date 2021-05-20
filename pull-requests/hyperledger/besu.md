@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2301" class=".btn">#2301</a>
+            </td>
+            <td>
+                <b>
+                    Prepare for version 21.1.7-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-19 22:00:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2300" class=".btn">#2300</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.1.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-19 21:45:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2298" class=".btn">#2298</a>
+            </td>
+            <td>
+                <b>
+                    Added PKI module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Adding the PKI module with the initial setup code for keystore configuration.
+
+## Changelog
+
+No need to update the changelog at this moment as this code isn't part of core Besu yet.
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-19 20:32:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2296" class=".btn">#2296</a>
             </td>
             <td>
@@ -59,7 +145,7 @@ The basic implementation keeps just a single transaction pool, without other pre
             </td>
             <td>
                 <b>
-                    Ts ats on XL executor
+                    Tessera ATs parallelism 8
                 </b>
             </td>
         </tr>
@@ -133,6 +219,7 @@ See https://github.com/hyperledger/besu/pull/2282
             </td>
             <td>
                 ## PR description
+Add transaction sorting as described [here](https://hackmd.io/@adietrichs/1559-transaction-sorting)
 
 ## Fixed Issue(s)
 fixes #2286
@@ -264,43 +351,6 @@ I think it's the least worse option at the moment.
     </table>
     <div class="right-align">
         Created At 2021-05-13 00:55:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2281" class=".btn">#2281</a>
-            </td>
-            <td>
-                <b>
-                    try to use the hostName property from log4j2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-This adds the ability to default to the `hostName` property, filled by log4j2, before we default to sending localhost.
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-12 19:20:47 +0000 UTC
     </div>
 </div>
 
