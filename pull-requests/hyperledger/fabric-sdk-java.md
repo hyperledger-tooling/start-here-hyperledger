@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/129" class=".btn">#129</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/130" class=".btn">#130</a>
             </td>
             <td>
                 <b>
-                    [FGJ-99] Fix Javadoc search
+                    Update BlockchainInfo.java
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                - 更正注释
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-26 13:59:24 +0000 UTC
+        Created At 2021-05-20 06:20:26 +0000 UTC
     </div>
 </div>
 

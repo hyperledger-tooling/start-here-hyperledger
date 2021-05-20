@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2302" class=".btn">#2302</a>
+            </td>
+            <td>
+                <b>
+                    errata discovered in 21.1.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+A couple quick fixes for bugs I found In scale testing 21.1.6 pending transactions:
+* baseFee = null was not handled correctly in PendingTransactions.updateBaseFee for a fork block
+* the transaction gas budget calculator was 2x'ing the already 2x'd gasLimit at and past fork block
+
+we should probably write some tests that cover these cases, but it is late and the release is already out there...
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 03:26:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2301" class=".btn">#2301</a>
             </td>
             <td>
@@ -134,36 +180,6 @@ The basic implementation keeps just a single transaction pool, without other pre
     </table>
     <div class="right-align">
         Created At 2021-05-19 06:53:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2295" class=".btn">#2295</a>
-            </td>
-            <td>
-                <b>
-                    Tessera ATs parallelism 8
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Run with parallelism 8 on XL executor
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-19 03:48:51 +0000 UTC
     </div>
 </div>
 
@@ -321,36 +337,6 @@ I think it's the least worse option at the moment.
     </table>
     <div class="right-align">
         Created At 2021-05-13 07:24:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2282" class=".btn">#2282</a>
-            </td>
-            <td>
-                <b>
-                    Modify Gas estimation logic for GoQuorum mode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                If in GoQuorum privacy mode, use a fully filled data field to get max value for gas estimation.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-13 00:55:47 +0000 UTC
     </div>
 </div>
 
