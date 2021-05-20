@@ -86,29 +86,3 @@ with this PR, all environment variables are reflected from spec.yaml in correspo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/208" class=".btn">#208</a>
-            </td>
-            <td>
-                <b>
-                    fix fabric-orderer TLS certs for k8s.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                close #207
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-13 15:29:11 +0000 UTC
-    </div>
-</div>
-

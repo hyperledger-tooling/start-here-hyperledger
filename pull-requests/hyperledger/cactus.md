@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/978" class=".btn">#978</a>
+            </td>
+            <td>
+                <b>
+                    fix(carbon-accounting): deleted incorrect plugin aspect
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #977 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 12:34:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/976" class=".btn">#976</a>
             </td>
             <td>
@@ -31,6 +57,7 @@ permalink: /pull-requests/hyperledger/cactus
 
 Depends on #582
 Depends on #580 
+Depends on #978
             </td>
         </tr>
     </table>
@@ -53,10 +80,12 @@ Depends on #580
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependent</span>
             </td>
             <td>
                 Resolve #413 
+
+Depends on #977 
             </td>
         </tr>
     </table>

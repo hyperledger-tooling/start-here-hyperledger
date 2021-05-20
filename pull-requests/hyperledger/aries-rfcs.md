@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/672" class=".btn">#672</a>
+            </td>
+            <td>
+                <b>
+                    add goal code to didx request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">AIP 2.0</span>
+            </td>
+            <td>
+                In response to #671 
+I'm not confident to provide a [Message Catalogue Section](https://github.com/hyperledger/aries-rfcs/blob/master/features/0434-outofband/README.md#goal_code) as of now.
+
+Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 17:50:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/669" class=".btn">#669</a>
+            </td>
+            <td>
+                <b>
+                    Add note [21] on Verify the verifier
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                More recent reference with more detailed elaborations.
+
+Signed-off-by: Oskar van Deventer oskar.vandeventer@tno.nl
+Signed-off-by: Oskar van Deventer <46109652+oskar-van-deventer@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 14:25:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/668" class=".btn">#668</a>
             </td>
             <td>
