@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/286" class=".btn">#286</a>
+            </td>
+            <td>
+                <b>
+                    Test/connections proto mediator id
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                some tests for mediator id being used in connection protocol. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 09:17:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/285" class=".btn">#285</a>
+            </td>
+            <td>
+                <b>
+                    fix: Use make-error-cause that works in RN
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I forked [make-error-cause](https://github.com/blakeembrey/make-error-cause) and replaced Node.js `inspect` dependency with [util-inspect](https://github.com/Automattic/util-inspect). I'm not saying this is the final solution but it should make it work at least for now (I tested it with RN).
+
+The issue describing the problem is #281.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 08:54:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/284" class=".btn">#284</a>
+            </td>
+            <td>
+                <b>
+                    refactor: Rename samples to test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The initial goal with `samples` was to represent API and how to use the framework. However, the content of the folder is more about e2e tests so we can rename it. It doesn't change anything on the fact that it still could (and should) be a good place where the user can see examples of how to use it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 07:36:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/283" class=".btn">#283</a>
             </td>
             <td>
@@ -107,32 +187,6 @@ If you think it doesn't make sense to merge this without full functionality I ca
     </table>
     <div class="right-align">
         Created At 2021-05-19 08:49:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/279" class=".btn">#279</a>
-            </td>
-            <td>
-                <b>
-                    Tests/connection protocol mediation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                updated connection protocol tests to use a mediator id. Default mediator is not tested, basics come first.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-18 22:34:18 +0000 UTC
     </div>
 </div>
 
@@ -307,36 +361,6 @@ Introduces an initialize method to the recipient module(src/modules/routing/Reci
     </table>
     <div class="right-align">
         Created At 2021-05-14 17:57:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/269" class=".btn">#269</a>
-            </td>
-            <td>
-                <b>
-                    build: make indy-sdk dev dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently when installing AFJ from npm it tries to install indy-sdk. Moving it back to dev dependencies so this isn't the case anymore. This requires a bit more setup as yarn install now requires indy to be installed.
-
-I created a local action setup-libindy that handles this and is reused by all jobs.
-
-related to discussion over here https://github.com/hyperledger/aries-mobile-agent-react-native/issues/41
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-13 08:15:51 +0000 UTC
     </div>
 </div>
 

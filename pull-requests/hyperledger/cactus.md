@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/976" class=".btn">#976</a>
+            </td>
+            <td>
+                <b>
+                    feat(htlc-coordinator): new htlc coordinator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                Resolve #953 
+
+Depends on #582
+Depends on #580 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 10:34:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/972" class=".btn">#972</a>
             </td>
             <td>
@@ -65,47 +94,6 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
     </table>
     <div class="right-align">
         Created At 2021-05-17 14:22:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/964" class=".btn">#964</a>
-            </td>
-            <td>
-                <b>
-                    feat(aws-sm): added keychain plugin for aws secret manager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Keychain</span>
-            </td>
-            <td>
-                # Commit to be reviewed
--------------------------------
-feat(aws-sm): added keychain playing for aws secret manager
-
-        Primary Change
-        ---
-        1. Added new package cactus-plugin-keychain-aws-sm under packages/
-        2. Added LocalStack under cactus-test-tooling/src/main/typescript for local aws secret manager deployment and testing
-
-        Refactorings that were also necessary to incorporate 1) and 2)
-        ---
-        3. Updated public-api.ts under packages/cactus-test-tooling/src/main/typescript for exporting the Localstack class, its interface and constants
-
-Resolves #912
-
-Signed-off-by: Jagpreet Singh Sasan <jagpreet.singh.sasan@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-13 11:56:50 +0000 UTC
     </div>
 </div>
 

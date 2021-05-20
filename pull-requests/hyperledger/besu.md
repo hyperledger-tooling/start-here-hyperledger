@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2305" class=".btn">#2305</a>
+            </td>
+            <td>
+                <b>
+                    add log blooms for quorum private transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When private transactions are executed in goquorum compatible mode the receipts of these private transactions are stored in place of the public marker transaction. To make these receipts discoverable by calls that use the bloom filters the blooms filters of the private transactions have to be combined with the blooms of the public transactions in the right places. 
+
+Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 07:27:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2304" class=".btn">#2304</a>
+            </td>
+            <td>
+                <b>
+                    Add Vijay Michalik to maintainers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Vijay has helped the Besu project through contributions to [user questions](https://chat.hyperledger.org/channel/besu?msg=pEvzRqPLYBvDtbX8m), documentation and [managing issues on the project](https://chat.hyperledger.org/channel/besu?msg=sazaeBhiNpY2Nc5Xk).
+
+Voting ends 2 weeks from the publication of this PR.
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 07:18:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2303" class=".btn">#2303</a>
+            </td>
+            <td>
+                <b>
+                    Add Sajida Zouarhi to maintainers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+Sajida has started helping manage Github issues and collaborating with the existing maintainers to help coordinate the development of Besu.
+
+Voting ends 2 weeks from the publication of this PR.
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 07:11:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2302" class=".btn">#2302</a>
             </td>
             <td>
@@ -281,62 +372,6 @@ implemented for london https://eips.ethereum.org/EIPS/eip-3554
     </table>
     <div class="right-align">
         Created At 2021-05-17 17:29:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2284" class=".btn">#2284</a>
-            </td>
-            <td>
-                <b>
-                    refactor: expose EnodeUrl to plugins
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Couldn't figure out a nice way of not having EnodeURLImpl.
-
-If we kept it as EnodeURL we could add static imports in for things like `fromURI` but the problem is they are mostly used as method references. So you can either have method references with the class name or lambdas with a static import! 
-
-I think it's the least worse option at the moment.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-13 08:58:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2283" class=".btn">#2283</a>
-            </td>
-            <td>
-                <b>
-                    refactor: EeaSendRawTransaction isolate send raw on/off chain
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Refactor EeaSendRawTransaction so to allow further extension and isolate responsibilities
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-13 07:24:31 +0000 UTC
     </div>
 </div>
 
