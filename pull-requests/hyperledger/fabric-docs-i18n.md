@@ -118,29 +118,3 @@ Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/420" class=".btn">#420</a>
-            </td>
-            <td>
-                <b>
-                    RU: writing-your-first-application
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                with diagrams in RU
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-13 05:36:24 +0000 UTC
-    </div>
-</div>
-

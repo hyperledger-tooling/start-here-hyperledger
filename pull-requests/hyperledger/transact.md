@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/139" class=".btn">#139</a>
+            </td>
+            <td>
+                <b>
+                    Run just recipes in CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 01:05:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/138" class=".btn">#138</a>
             </td>
             <td>
