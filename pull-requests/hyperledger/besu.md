@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2309" class=".btn">#2309</a>
+            </td>
+            <td>
+                <b>
+                    remove london support line and add download link for 21.1.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 15:29:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2307" class=".btn">#2307</a>
+            </td>
+            <td>
+                <b>
+                    update maintainer rules
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+These changes are expected to clarify the rules to reach maintainer status. Some edits were made on the voting process, template PR description added, simplified language,...
+
+The PR also adds a new maintainer type in addition to code maintainer to enable people who significantly contribute to the Besu project to be able to access some project management features such as issues triage and assignation.
+Some features, expecially when using Zenhub, indeed require a write access on the repository even though the contributor will not make any code changes. But things like assigning a user to an issue requires maintainer role.
+
+See https://github.com/NicolasMassart/besu/blob/maintainer-rules/MAINTAINERS.md for the easier to read rendered doc.
+
+## Approval of this PR
+
+As for the maintainer addition, this PR being a significant change to the process, I require the same rules to be followed:
+
+- 2 weeks voting period
+- at least 3 approvals
+- no veto
+- absolute majority makes it pass immediately.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+We need significant and fully involved non-code contributors to be able to fully help us on the project without the need to contribute code to become a maintainer.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 13:57:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2305" class=".btn">#2305</a>
             </td>
             <td>

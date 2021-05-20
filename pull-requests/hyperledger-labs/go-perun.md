@@ -45,29 +45,3 @@ Signed-off-by: Manoranjith <ponraj.manoranjitha@in.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/74" class=".btn">#74</a>
-            </td>
-            <td>
-                <b>
-                    Simplify funder interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #72 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-13 14:25:58 +0000 UTC
-    </div>
-</div>
-

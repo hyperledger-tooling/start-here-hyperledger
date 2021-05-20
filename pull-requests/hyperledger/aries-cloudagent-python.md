@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1188" class=".btn">#1188</a>
+            </td>
+            <td>
+                <b>
+                    AIP-2 base64url consistency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - In regards to decoding, we handle base64 permissively, passing `urlsafe` as `True`.
+- If `emit_new_didcomm_mime_type` and `emit_new_didcomm_prefix` arguments are set, send everything as base64url [updates `data_base64` accordingly] else leave eveything as it is.
+closes #1108
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 16:22:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1186" class=".btn">#1186</a>
             </td>
             <td>
@@ -284,58 +312,6 @@ Props to @Luis-GA for doing most of the legwork on this feature.
     </table>
     <div class="right-align">
         Created At 2021-05-14 03:48:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1175" class=".btn">#1175</a>
-            </td>
-            <td>
-                <b>
-                    unit tests cover new core/dispatcher code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sklump <srklump@hotmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-13 18:21:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1174" class=".btn">#1174</a>
-            </td>
-            <td>
-                <b>
-                    DID Exchange - Create and send requests against implicit invitations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #1137 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-13 16:51:57 +0000 UTC
     </div>
 </div>
 
