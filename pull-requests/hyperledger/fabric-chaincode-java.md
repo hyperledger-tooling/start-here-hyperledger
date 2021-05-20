@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/176" class=".btn">#176</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/177" class=".btn">#177</a>
             </td>
             <td>
                 <b>
-                    Upgrade gradle to v7
+                    Move to use Maven Wrapper
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Signed-off-by: Kestutis Gudynas <44440041+kemi04@users.noreply.github.com>
+                Including the Maven full tool increases the size a bit but also means that there are additional libraries that can be outdated/have vulnerabilities.
+
+As with Gradle, Maven has a simple wrapper script. Move to use that for any new builds. 
+
+
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-28 15:28:13 +0000 UTC
+        Created At 2021-05-20 10:03:33 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/57" class=".btn">#57</a>
+            </td>
+            <td>
+                <b>
+                    Asset Exchange Command Added in Fabric-Cli
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Asset Exchange Command Added in fabric-cli.
+2. End to end tested, and bug fixes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 08:06:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/56" class=".btn">#56</a>
             </td>
             <td>

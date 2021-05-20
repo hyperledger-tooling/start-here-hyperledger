@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1186" class=".btn">#1186</a>
+            </td>
+            <td>
+                <b>
+                    Tags on connection metadata
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                With this PR, It is possible to add tags to connections. The tags are saved as a metadata key-value on the connections record.
+Once the connections have been tagged, it is possible to group them on tags.
+
+The tags are added on `/connections/create-invitation` & `/connections/receive-invitation` via a query parameter called `tags` in the request.  The input is a string, it is possible to add multiple tags if they are separated by commas. 
+
+The tags could be filtered on `/connections` via a query parameter called `tags` in the request. The input is a string, it is possible to filter by multiple tags if they are separated by commas.
+
+**Examples**:
+
+- Create invitation
+
+> Request
+`curl -X POST "http://localhost:8021/connections/create-invitation?tags=tag1%2Ctag3" -H "accept: application/json" -H "Content-Type: application/json" -d "{ }"`
+
+> Response
+`{
+  "connection_id": "8e1d9605-5843-4844-99d1-96141329e006",
+  "invitation": {
+    "@type": "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/invitation",
+    "@id": "1b62e664-a8d9-4c97-bb7a-2ba3b5329ebb",
+    "recipientKeys": [
+      "Gsc9q2FskuKYH2bAMnd3UkQadEkJ4QFwwA8RUdyGqsTo"
+    ],
+    "label": "faber.agent",
+    "serviceEndpoint": "https://0639b9bd3d2a.ngrok.io"
+  },
+  "invitation_url": "https://0639b9bd3d2a.ngrok.io?c_i=eyJAdHlwZSI6ICJkaWQ6c292OkJ6Q2JzTlloTXJqSGlxWkRUVUFTSGc7c3BlYy9jb25uZWN0aW9ucy8xLjAvaW52aXRhdGlvbiIsICJAaWQiOiAiMWI2MmU2NjQtYThkOS00Yzk3LWJiN2EtMmJhM2I1MzI5ZWJiIiwgInJlY2lwaWVudEtleXMiOiBbIkdzYzlxMkZza3VLWUgyYkFNbmQzVWtRYWRFa0o0UUZ3d0E4UlVkeUdxc1RvIl0sICJsYWJlbCI6ICJmYWJlci5hZ2VudCIsICJzZXJ2aWNlRW5kcG9pbnQiOiAiaHR0cHM6Ly8wNjM5YjliZDNkMmEubmdyb2suaW8ifQ=="
+}`
+
+- Filter connections
+
+> Request
+`curl -X GET "http://localhost:8021/connections?tags=tag1" -H "accept: application/json"`
+
+> Response
+`{
+  "results": [
+    {
+      "updated_at": "2021-05-20 12:06:41.865730Z",
+      "created_at": "2021-05-20 12:06:41.865730Z",
+      "accept": "manual",
+      "rfc23_state": "invitation-sent",
+      "their_role": "invitee",
+      "routing_state": "none",
+      "state": "invitation",
+      "invitation_mode": "once",
+      "connection_id": "8e1d9605-5843-4844-99d1-96141329e006",
+      "invitation_key": "Gsc9q2FskuKYH2bAMnd3UkQadEkJ4QFwwA8RUdyGqsTo",
+      "metadata": {
+        "tags": [
+          "tag1",
+          "tag3"
+        ]
+      }
+    }
+  ]
+}`
+
+Based on @burdettadam idea, https://github.com/sicpa-dlab/aries-cloudagent-python/issues/49.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 12:15:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1185" class=".btn">#1185</a>
             </td>
             <td>
@@ -252,33 +336,6 @@ Props to @Luis-GA for doing most of the legwork on this feature.
     </table>
     <div class="right-align">
         Created At 2021-05-13 16:51:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1171" class=".btn">#1171</a>
-            </td>
-            <td>
-                <b>
-                    propagate comment in auto for issue-cred v1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger/aries-cloudagent-python/issues/1167
-Signed-off-by: sklump <srklump@hotmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-13 11:13:22 +0000 UTC
     </div>
 </div>
 
