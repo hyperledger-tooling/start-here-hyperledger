@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/706" class=".btn">#706</a>
+            </td>
+            <td>
+                <b>
+                    Update copyright for pike modules
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                All of these files were substantially updated in 2021 and the copyright
+header needs to reflect that.
+
+Signed-off-by: Ryan Banks <rbanks@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-21 16:25:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/705" class=".btn">#705</a>
             </td>
             <td>
@@ -206,66 +235,6 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-05-17 16:23:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/692" class=".btn">#692</a>
-            </td>
-            <td>
-                <b>
-                    List and show agents in the CLI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Includes man-pages. List includes formatting human and csv types, along
-with the ability to list roles on their own lines. The Show command
-gives additional information, and requires a public key as the
-identifier. (Agent ID is synonymous with public key.)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-14 17:42:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/690" class=".btn">#690</a>
-            </td>
-            <td>
-                <b>
-                    Add GDSN support for CLI update, tests, and documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR cleans up some loose ends from the GDSN support feature:
-
-- Implement product update in the CLI for multiple files and GDSN files
-- Removing some unused code
-- Adding unit tests to the GDSN module
-- Adding docstrings to the GDSN module
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-14 16:46:53 +0000 UTC
     </div>
 </div>
 

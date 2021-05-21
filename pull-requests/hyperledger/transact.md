@@ -149,30 +149,3 @@ Signed-off-by: Caleb Hill <hill@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/134" class=".btn">#134</a>
-            </td>
-            <td>
-                <b>
-                    Remove InternalError::reduce_to_string
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This method is a wrapper around to_string that also logs a message if there is a source.  The logging and to_string call should be left to the caller.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-14 16:01:19 +0000 UTC
-    </div>
-</div>
-

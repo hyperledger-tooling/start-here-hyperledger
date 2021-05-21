@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1197" class=".btn">#1197</a>
+            </td>
+            <td>
+                <b>
+                    Changed retrieve_tails to delete invalid tails files after fetching
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Remove downloaded tails files with invalid hashes. This fixes #1196
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-21 14:17:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1195" class=".btn">#1195</a>
+            </td>
+            <td>
+                <b>
+                    Mitigate rich schema thirst
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix protocols/problem_report/v1_0/__init__.py internal_error() en passant: hadn't been creating compliant RFC 35 ProblemReport objects, resulting in cascading failure
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-21 13:55:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1193" class=".btn">#1193</a>
             </td>
             <td>
@@ -314,32 +366,6 @@ Props to @Luis-GA for doing most of the legwork on this feature.
     </table>
     <div class="right-align">
         Created At 2021-05-15 17:37:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1178" class=".btn">#1178</a>
-            </td>
-            <td>
-                <b>
-                    fix: don't load indy resolver if no indy ledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-14 15:22:32 +0000 UTC
     </div>
 </div>
 
