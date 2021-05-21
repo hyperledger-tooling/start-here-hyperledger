@@ -38,29 +38,3 @@ Signed-off-by: DavidLiu <david.yx.liu@oracle.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/452" class=".btn">#452</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies to address security vulnerabilities
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-14 16:15:45 +0000 UTC
-    </div>
-</div>
-
