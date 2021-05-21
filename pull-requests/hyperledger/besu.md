@@ -135,10 +135,10 @@ See https://github.com/NicolasMassart/besu/blob/maintainer-rules/MAINTAINERS.md 
 
 As for the maintainer addition, this PR being a significant change to the process, I require the same rules to be followed:
 
-- 2 weeks voting period
-- at least 3 approvals
-- no veto
-- absolute majority makes it pass immediately.
+- [ ] 2 weeks voting period (ends June 3rd 2021)
+- [x] at least 3 approvals
+- [x] no veto
+- [ ] absolute majority makes it pass immediately (currently 11 approvals).
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -209,6 +209,15 @@ Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
 Voting ends 2 weeks from the publication of this PR.
 
 For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+
+## Approval of this PR
+
+As for the maintainer addition, this PR being a significant change to the process, I require the same rules to be followed:
+
+- [ ] 2 weeks voting period (ends June 3rd 2021)
+- [x] at least 3 approvals
+- [x] no veto
+- [ ] absolute majority makes it pass immediately (currently 11 approvals).
             </td>
         </tr>
     </table>
@@ -240,6 +249,13 @@ Sajida has started helping manage Github issues and collaborating with the exist
 Voting ends 2 weeks from the publication of this PR.
 
 For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+
+## Approval of this PR
+
+- [ ] 2 weeks voting period (ends June 3rd 2021)
+- [x] at least 3 approvals
+- [x] no veto
+- [ ] absolute majority makes it pass immediately (currently 11 approvals).
             </td>
         </tr>
     </table>

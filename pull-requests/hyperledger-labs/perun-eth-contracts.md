@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-contracts/pull/6" class=".btn">#6</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-contracts/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    :pencil2: [Ajudicator, AssetHolder] Fix typos
+                    Prepare virtual channels
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-contracts
                 
             </td>
             <td>
-                
+                Closes #9 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-26 20:59:35 +0000 UTC
+        Created At 2021-05-21 09:05:31 +0000 UTC
     </div>
 </div>
 
