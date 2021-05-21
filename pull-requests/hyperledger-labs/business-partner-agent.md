@@ -30,7 +30,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 Add support for OAuth2/OpenID/Keycloak security.
 This does not change the current implementation.
 
-I could not figure out how to have a fully working backend only solution with Keycloak. I did have an EndSessionEndpoint configured that would get initialized, but would not get called. The DefaultOpenIdClient always intercepts and does an authorizationRedirect, so immediately after the logout, it would log in automatically. The only way I have it work is for the browser to tell Keycloak to terminate the session (this happens after the backend removes the JWT tokens etc by calling `/logout`).
+See my comments about the necessary workflow to make this work in Keycloak and Local and VUE.
 
 I did not want to add any additional Keycloak specific libraries to VUE or Java.
 

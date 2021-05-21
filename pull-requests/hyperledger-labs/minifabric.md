@@ -56,33 +56,3 @@ containers:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/209" class=".btn">#209</a>
-            </td>
-            <td>
-                <b>
-                    fix reflecting environment variables in fabric-ca container from spec.yaml on k8s
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes following issue on k8s.
-on k8s, environment variables in spec.yaml are reflected in orderer and peer but not in CA.
-on the other hand, on docker, all environment variables in spec.yaml are reflected in corresponding container.
-
-with this PR, all environment variables are reflected from spec.yaml in corresponding container on k8s, as the same as docker.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-14 03:35:17 +0000 UTC
-    </div>
-</div>
-
