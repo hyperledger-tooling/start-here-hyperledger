@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/704" class=".btn">#704</a>
+            </td>
+            <td>
+                <b>
+                    Fix typos in Pike smart contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change fixes several typos present in the Pike smart contract's
+`handler` module.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 20:14:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/702" class=".btn">#702</a>
+            </td>
+            <td>
+                <b>
+                    Fix  typos and formatting issues in Grid Pike smart contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 19:28:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/700" class=".btn">#700</a>
+            </td>
+            <td>
+                <b>
+                    Have only one DEFAULT_GRID_PROTCOL_VERSOIN const
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ryan Banks <rbanks@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 18:47:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/698" class=".btn">#698</a>
             </td>
             <td>

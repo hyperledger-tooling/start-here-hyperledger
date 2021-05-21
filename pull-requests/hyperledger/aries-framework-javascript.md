@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/289" class=".btn">#289</a>
+            </td>
+            <td>
+                <b>
+                    Task/recipient event emitter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                moved event emitter code to recipient service.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 19:53:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/288" class=".btn">#288</a>
+            </td>
+            <td>
+                <b>
+                    Created default mediator tag & wallet retrieval
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Clawson <david.clawson@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 19:44:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/286" class=".btn">#286</a>
             </td>
             <td>
@@ -44,7 +96,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
             </td>
             <td>
                 <b>
-                    fix: Use make-error-cause that works in RN
+                    fix: Use custom make-error with cause that works in RN
                 </b>
             </td>
         </tr>

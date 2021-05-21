@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/979" class=".btn">#979</a>
+            </td>
+            <td>
+                <b>
+                    fix(ci): re-run CI when base branch (main) is updated
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">Triage_Needed</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                Allegedly, the 'edited' event will get triggerd if the base branch of
+the PR gets pushed commits to it (e..g whenever another PR gets
+merged).
+So we enable running the CI task on that event with this commit.
+
+This is intended to prevent the following scenario from
+happening (which also has happened this week)
+
+1. PR 1 is opened, CI passes
+2. PR 2 is opened, CI passes
+3. PR 2 is merged and it introduces a breaking API change that stops
+PR 1 from compiling.
+4. Right after PR 2 was merged, PR 1 gets merged as well since it has
+the approvals and the CI has passed back when it was opened (based
+on the old state of the main branch)
+5. Now main is corrupted because the CI never ran against the rebased
+version of the branch of PR 1 so it just slips right in with a change that
+doesn't even compile let alone pass the tests.
+
+Source of the allegations regarding the 'edited' event:
+https://github.community/t/rerun-on-base-branch-change/115594/2
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 21:33:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/978" class=".btn">#978</a>
             </td>
             <td>
