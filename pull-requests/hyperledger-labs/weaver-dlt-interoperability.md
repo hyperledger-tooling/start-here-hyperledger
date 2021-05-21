@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/58" class=".btn">#58</a>
+            </td>
+            <td>
+                <b>
+                    Refactoring Logging and Error Returning Code in Fabric Interop CC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Partly fixes https://github.com/hyperledger-labs/weaver-dlt-interoperability/issues/50
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 22:05:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/57" class=".btn">#57</a>
             </td>
             <td>

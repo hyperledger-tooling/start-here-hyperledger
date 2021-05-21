@@ -45,16 +45,16 @@ permalink: /pull-requests/hyperledger/aries-framework-go
             </td>
             <td>
                 <b>
-                    WIP - rfc0593: Go SDK BDD tests
+                    test: RFC0593: Go SDK BDD tests
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">aip 2.0</span><span class="chip">bdd</span>
             </td>
             <td>
-                
+                Signed-off-by: George Aristy <george.aristy@securekey.com>
             </td>
         </tr>
     </table>
