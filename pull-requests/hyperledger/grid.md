@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/705" class=".btn">#705</a>
+            </td>
+            <td>
+                <b>
+                    Move sdk permissions into pike/permissions module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                /sdk/src/permissions.rs was split apart into two separate files,
+"/sdk/pike/permissions/mod.rs" which contains the PermissionChecker
+implementation, and "/sdk/pike/permissions/error.rs" which contains the
+PermissionCheckerError implementation. This means also that the import
+path changed from grid_sdk::permissions to grid_sdk::pike::permissions,
+so the handler files requesting permissions has also updated.
+
+Signed-off-by: Kevin Johnson <kevin_johnson@cargill.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-21 02:30:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/704" class=".btn">#704</a>
             </td>
             <td>
