@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/235" class=".btn">#235</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/236" class=".btn">#236</a>
             </td>
             <td>
                 <b>
-                    fixed missed double quotation
+                     fixed 521 to 512 ecdsa algorithm
                 </b>
             </td>
         </tr>
@@ -27,22 +27,20 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                fixed missed double quotation in the documents
+                #### Type of change
 
-#### Type of change
+<!--- What type of change? Pick one option and delete the others. -->
 - Documentation update
 
 #### Description
-There was 2 missing double quotation in the document and I fixed it
-
-
+fixed 521 to 512 ecdsa algorithm
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-10 11:18:30 +0000 UTC
+        Created At 2021-05-21 07:24:01 +0000 UTC
     </div>
 </div>
 

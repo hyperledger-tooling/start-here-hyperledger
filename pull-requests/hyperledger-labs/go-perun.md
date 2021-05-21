@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/83" class=".btn">#83</a>
+            </td>
+            <td>
+                <b>
+                    Virtual channels
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #82 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-21 09:04:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/80" class=".btn">#80</a>
             </td>
             <td>
