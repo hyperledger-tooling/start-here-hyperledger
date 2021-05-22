@@ -90,7 +90,10 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                Signed-off-by: Sean Young <sean@mess.org>
+                This PR makes the following changes:
+- Many solidity contracts can be compiled into a single BPF file/program
+
+Signed-off-by: Sean Young <sean@mess.org>
             </td>
         </tr>
     </table>
