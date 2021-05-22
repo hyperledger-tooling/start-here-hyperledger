@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/140" class=".btn">#140</a>
+            </td>
+            <td>
+                <b>
+                    Create command workload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR creates a Command family workload that can be run using the `transact workload` CLI command
+
+- Add `command` as a workload type to the transact workload subcommand
+- Update WorkloadAction to handle command workloads
+- Implement `CommandGeneratingIter`, `CommandTransactionWorkload` and `CommandBatchWorkload` which work together to create the command family workload
+
+
+### **Testing:**
+1. Start two splinter nodes with the experimental feature "back-pressure"
+2. Create a circuit between the nodes, ensure that the scabbard version is set to 2 when creating the circuit
+3. Use scabbard CLI to upload the smallbank smart contract contract
+4. Use the transact CLI to start a workload, for example:
+```
+transact workload --targets http://splinterd-beta:8085/scabbard/<circuit-id>/<service-id> \
+--key <private-key-path> \
+--target-rate 5 \
+--update 2 \
+--workload command \
+--seed 10
+-vv
+```
+Observe splinterd logs to see command family transactions being executed
+Note: Because one of the possible commands is `return_invalid` occasionally the logs will show:
+```
+T["StaticExecutionAdapter"] INFO [sawtooth_sabre::wasm_executor::wasm_externals] InvalidTransaction: 'return_invalid' command mock error message
+...
+T["consensus-gsAA"] ERROR [splinter::consensus::two_phase::v2] Error while creating proposal: proposal manager error occurred: scabbard state error: transaction failed: "Wasm contract returned invalid transaction: command, 1.0"
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-21 23:08:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/139" class=".btn">#139</a>
             </td>
             <td>
@@ -120,32 +173,6 @@ Signed-off-by: Caleb Hill <hill@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-05-17 13:02:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/135" class=".btn">#135</a>
-            </td>
-            <td>
-                <b>
-                    Add InvalidStateError
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit adds the InvalidStateError basic error, copied from the splinter library ( Cargill/splinter@f0cb463b8d7b7ba1dc1000ba78c8ef4c8d32e183)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-14 19:14:08 +0000 UTC
     </div>
 </div>
 
