@@ -69,31 +69,3 @@ For uint64 value <= 255, this will even save an allocation since we will more of
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/burrow/pull/1487" class=".btn">#1487</a>
-            </td>
-            <td>
-                <b>
-                    Pull solts into Burrow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In preparation for built-in Solidity codegen
-
-Signed-off-by: Silas Davis <silas@monax.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-16 11:55:59 +0000 UTC
-    </div>
-</div>
-
