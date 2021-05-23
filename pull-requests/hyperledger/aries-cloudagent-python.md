@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1200" class=".btn">#1200</a>
+            </td>
+            <td>
+                <b>
+                    Changes in Endorser Protocol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This pull request consists of the following changes in endorser protocol : 
+
+1.  The author can give the functionality to the endorser where he/she can auto-write the transaction to the ledger after it gets endorsed.
+2. The agent from where the transaction is written to the ledger is separated, it the author writes the transaction, it would go from author's agent and same for endorser.
+3. Always, the record would be stored in author's wallet, irrespective of who (Author/Endorser) actually writes the transaction to the ledger.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-22 19:12:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1199" class=".btn">#1199</a>
             </td>
             <td>
