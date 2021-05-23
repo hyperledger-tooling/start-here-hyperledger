@@ -60,6 +60,9 @@ permalink: /pull-requests/hyperledger/iroha
 
 <!-- Explain what other alternates were considered and why the proposed version was selected -->
 
+
+
+# closes #948
             </td>
         </tr>
     </table>
