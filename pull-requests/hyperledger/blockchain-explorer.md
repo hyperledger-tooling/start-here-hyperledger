@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/240" class=".btn">#240</a>
+            </td>
+            <td>
+                <b>
+                    BE-855 Stop unnecessary sync process triggered by FabricEvent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-23 12:52:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/239" class=".btn">#239</a>
             </td>
             <td>
