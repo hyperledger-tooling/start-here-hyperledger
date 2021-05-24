@@ -37,8 +37,8 @@ permalink: /pull-requests/hyperledger/transact
 ### **Testing:**
 1. Start two splinter nodes with the experimental feature "back-pressure"
 2. Create a circuit between the nodes, ensure that the scabbard version is set to 2 when creating the circuit
-3. Use scabbard CLI to upload the smallbank smart contract contract
-4. Use the transact CLI to start a workload, for example:
+3. Use scabbard CLI to upload the command smart contract
+4. Use the transact CLI to start a command workload, for example:
 ```
 transact workload --targets http://splinterd-beta:8085/scabbard/<circuit-id>/<service-id> \
 --key <private-key-path> \
@@ -139,40 +139,6 @@ T["consensus-gsAA"] ERROR [splinter::consensus::two_phase::v2] Error while creat
     </table>
     <div class="right-align">
         Created At 2021-05-18 19:11:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/136" class=".btn">#136</a>
-            </td>
-            <td>
-                <b>
-                    Change wait time between batch submit responsively
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Transact waits the full time between the end of one batch submit and the
-next regardless of how long the submit takes. This can make the target
-submission rate and the actual submission rate be very different.
-This change alters the time between submissions based on how long the
-current submission took and a "best guess" for how long they usually
-take.
-Ideally this will more tightly tie the target and actual submission rate.
-
-Signed-off-by: Caleb Hill <hill@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-17 13:02:53 +0000 UTC
     </div>
 </div>
 
