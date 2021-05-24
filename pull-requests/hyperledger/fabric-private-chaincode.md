@@ -296,29 +296,3 @@ Fixes #
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/582" class=".btn">#582</a>
-            </td>
-            <td>
-                <b>
-                    First pass on: data-provider, storage-service, experimenter, chaincode, protos, ledger-helper
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-17 07:04:34 +0000 UTC
-    </div>
-</div>
-
