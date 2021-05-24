@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/219" class=".btn">#219</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/221" class=".btn">#221</a>
             </td>
             <td>
                 <b>
-                    Update docs for product update
+                    Add db update best practices
                 </b>
             </td>
         </tr>
@@ -27,16 +27,43 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                This updates the creating schemas and creating products how-to guides to
-reflect the updates made to Product. This includes information about
-GDSN product definitions and update product definition files.
+                This adds a short doc outlining the best practices for updating the Grid
+database. This covers the concepts of migrations, how to generate them,
+check them, and what to avoid.
 
 Signed-off-by: Davey Newhall <newhall@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-11 20:44:31 +0000 UTC
+        Created At 2021-05-24 17:04:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/220" class=".btn">#220</a>
+            </td>
+            <td>
+                <b>
+                    Rework product documentation for GDSN
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds references to the GDSN specific functionality to the Product feature documentation. Also removes references to the application identifier pattern which is no longer the default.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-24 15:36:28 +0000 UTC
     </div>
 </div>
 

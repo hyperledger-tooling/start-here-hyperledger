@@ -209,32 +209,3 @@ Signed-off-by: Ryan Banks <rbanks@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/696" class=".btn">#696</a>
-            </td>
-            <td>
-                <b>
-                    Run cron builds at 1am
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Cron builds running at 2am are failing regularly. Moving the build to
-run earlier will either fix the problem or disprove a theory.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-17 16:23:10 +0000 UTC
-    </div>
-</div>
-
