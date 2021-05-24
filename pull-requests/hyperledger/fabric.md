@@ -345,36 +345,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2592" class=".btn">#2592</a>
-            </td>
-            <td>
-                <b>
-                    Add chaincode events in commit notification
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: manish <manish.sethi@gmail.com>
-
-#### Type of change
-- Improvement 
-
-#### Description
-
-This PR includes chaincode event details in the commit events
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-17 02:17:37 +0000 UTC
-    </div>
-</div>
-
