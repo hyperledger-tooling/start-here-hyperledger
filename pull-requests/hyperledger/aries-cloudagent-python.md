@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1202" class=".btn">#1202</a>
+            </td>
+            <td>
+                <b>
+                    Updates to OOB InvitationMessage & Endpoint example - Consistent with RFC0434
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Pending approval and merge of #1193 
+- resolve #1138 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-24 11:17:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1200" class=".btn">#1200</a>
             </td>
             <td>
@@ -369,32 +396,6 @@ In issue-credential, separate store-credential from send-ack: whether storage su
     </table>
     <div class="right-align">
         Created At 2021-05-18 00:24:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1180" class=".btn">#1180</a>
-            </td>
-            <td>
-                <b>
-                    fix: use injected document loader for pyld calls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-17 08:34:53 +0000 UTC
     </div>
 </div>
 

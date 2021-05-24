@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2318" class=".btn">#2318</a>
+            </td>
+            <td>
+                <b>
+                    Remove EIP1559 Gas budget calculator implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+The specification of the EIP1559 has changed and no longer requires a specific gasBudgetCalculator implementation. This PR clean the code by removing this unnecessary part of code
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-24 11:48:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2317" class=".btn">#2317</a>
             </td>
             <td>
@@ -215,7 +256,7 @@ As for the maintainer addition, this PR being a significant change to the proces
 - [ ] 2 weeks voting period (ends June 3rd 2021)
 - [x] at least 3 approvals
 - [x] no veto
-- [ ] absolute majority makes it pass immediately (currently 11 approvals).
+- [x] absolute majority makes it pass immediately (currently 11 approvals).
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -294,7 +335,7 @@ As for the maintainer addition, this PR being a significant change to the proces
 - [ ] 2 weeks voting period (ends June 3rd 2021)
 - [x] at least 3 approvals
 - [x] no veto
-- [ ] absolute majority makes it pass immediately (currently 11 approvals).
+- [x] absolute majority makes it pass immediately (currently 11 approvals).
             </td>
         </tr>
     </table>
@@ -332,7 +373,7 @@ For more information on this process see the Becoming a Maintainer section in th
 - [ ] 2 weeks voting period (ends June 3rd 2021)
 - [x] at least 3 approvals
 - [x] no veto
-- [ ] absolute majority makes it pass immediately (currently 11 approvals).
+- [x] absolute majority makes it pass immediately (currently 11 approvals).
             </td>
         </tr>
     </table>

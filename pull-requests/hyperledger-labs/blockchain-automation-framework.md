@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1493" class=".btn">#1493</a>
+            </td>
+            <td>
+                <b>
+                    [besu] Updated besu and orion version in samples and docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: alvaropicazo <alvaro.picazo.haase@accenture.com>
+
+Deployed 21.1.1 Besu version using latest Orion version (21.1.0) and also 1.6.0.
+
+**Changelog**
+- Updated orion and besu versions in samples and docs
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar 
+
+ 
+
+**Linked issue**
+#1452 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-24 11:17:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1492" class=".btn">#1492</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] Upgrade CENM version to 1.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Add 1.5 CENM images
+- Fix base directory hard coding in charts
+- Update code to support CENM upgrade
+
+ 
+
+**Reviewed by**
+@pppazos 
+
+ 
+
+**Linked issue**
+#1289 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-24 10:49:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1490" class=".btn">#1490</a>
             </td>
             <td>
