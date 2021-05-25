@@ -370,32 +370,3 @@ In issue-credential, separate store-credential from send-ack: whether storage su
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1182" class=".btn">#1182</a>
-            </td>
-            <td>
-                <b>
-                    DIDX create-request [return ConnRecord]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Work left from #1174 and #1137.
-
-- /didexchange/create-request now return ConnRecord
-- Based upon feedback from @domwoe and  @andrewwhitehead, this will make it more consistent
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-18 00:24:56 +0000 UTC
-    </div>
-</div>
-
