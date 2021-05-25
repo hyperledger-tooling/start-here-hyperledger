@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2320" class=".btn">#2320</a>
+            </td>
+            <td>
+                <b>
+                    non-existent genesis file: clarify error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Add error message and remove reference to GoQuorum options.
+```
+$ besu --genesis-file=xyz.json
+Unable to read genesis file. java.io.FileNotFoundException: /Users/sallymacfarlane/workspace/besu/xyz.json (No such file or directory)
+
+To display full help:
+besu [COMMAND] --help
+$ besu --genesis-file=bob.json
+Unable to read genesis file. com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'bob': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"bob
+"; line: 1, column: 4]
+
+To display full help:
+besu [COMMAND] --help
+$ cat bob.json
+bob
+```
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 01:15:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2319" class=".btn">#2319</a>
             </td>
             <td>
