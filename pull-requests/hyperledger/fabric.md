@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2603" class=".btn">#2603</a>
+            </td>
+            <td>
+                <b>
+                    Fixed JIRA issue FLY2- 64
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I have updated chain.go  Submit and ordered method..
+
+#Fixed FLY2-64
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 09:36:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2601" class=".btn">#2601</a>
             </td>
             <td>
@@ -96,36 +124,6 @@ Signed-off-by: Brett Logan <lindluni@github.com>
     </table>
     <div class="right-align">
         Created At 2021-05-18 13:40:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2597" class=".btn">#2597</a>
-            </td>
-            <td>
-                <b>
-                    FAB-18472 Fix unit test hang when using softhsm 2.6.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Stop the unit tests from hanging when running the pkcs11 unit tests
-with softhsm 2.6.1 on linux
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-18 11:06:03 +0000 UTC
     </div>
 </div>
 
