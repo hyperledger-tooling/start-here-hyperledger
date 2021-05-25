@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/150" class=".btn">#150</a>
+            </td>
+            <td>
+                <b>
+                    Fix: Typo fix in the docstring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sneha Majeti <majetisneha369@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 11:06:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/147" class=".btn">#147</a>
             </td>
             <td>
