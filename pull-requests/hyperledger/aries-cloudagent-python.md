@@ -340,33 +340,3 @@ Based on @burdettadam idea, https://github.com/sicpa-dlab/aries-cloudagent-pytho
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1183" class=".btn">#1183</a>
-            </td>
-            <td>
-                <b>
-                    Align with rfcs for error states in issue cred and present proof
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                RFCs 36, 37, 453 state that exchange states go to null on both sides on error; 454 uses "abandoned".
-
-This work sets states accordingly where possible (unless there is no such record or the problem is storage itself), but does not (yet) send problem reports - that's another PR for the near-ish future.
-
-In issue-credential, separate store-credential from send-ack: whether storage succeeds or fails, the protocol owes an ack because acknowledgement is to credential receipt, not storage.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-18 13:52:56 +0000 UTC
-    </div>
-</div>
-

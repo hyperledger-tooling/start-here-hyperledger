@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/222" class=".btn">#222</a>
+            </td>
+            <td>
+                <b>
+                    Update join_the_discussion.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adjust language up top to note event-driven meetings
+Remove Community Meeting paragraph
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 12:49:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid-docs/pull/221" class=".btn">#221</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/175" class=".btn">#175</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/176" class=".btn">#176</a>
             </td>
             <td>
                 <b>
-                    Discovery selection
+                    add HSM Identity proposal
                 </b>
             </td>
         </tr>
@@ -27,16 +27,22 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                Do not ignore peers, which were received from dynamic DS(DiscoveryService), but are not specified in the EndpointConfig. A single org can't possibly know about all existing peers in the network, so it's enough to define at least one in the EndpointConfig, which will be an entry point to the DS. 
+                Hello, we are trying to use HSM with the GO SDK, our objective is to use it with a wallet, some kind of identityprovider, we are creating this PR to interact with you, so you can guide us further:
 
-Added/fixed tests.
+- Is this the right approach for this project?
+- Using Cryptosuite with PKCS11 interface is not as clear as we wanted it to be.
+- Using identitymanager or using the mspwallet to create a manager is not explained thoroughly
 
-Related issue: https://stackoverflow.com/questions/67044235/fabric-invoke-chaincode-error-failed-to-get-endorsing-peers-no-endorsement-com/67437604#67437604
+We want to do something like this(inspired by the node SDK): https://github.com/hyperledger/fabric-sdk-node/blob/main/fabric-network/src/impl/wallet/hsmx509identity.ts 
+
+We have some of the possible interfaces and some of the functions, but when we think how to link everything with a wallet, we just don't know if the path we are following is correct
+
+Hope you can guide us, thanks a lot!
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-07 17:12:00 +0000 UTC
+        Created At 2021-05-25 14:48:45 +0000 UTC
     </div>
 </div>
 
