@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/709" class=".btn">#709</a>
+            </td>
+            <td>
+                <b>
+                    Use `optional()` method to convert results
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the commit store operations to use the `optional()` method
+to handle Diesel Results. This method handles converting the results
+into Options or the appropriate NotFound errors.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-24 20:23:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/708" class=".btn">#708</a>
+            </td>
+            <td>
+                <b>
+                    Update Commit store errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the commit store error module. This removes the
+CommitEventError error type as it was a duplicate of CommitStoreError.
+This also moves the From implementations of CommitStoreError to the
+error.rs file to be in line with the best practices. Lastly, this
+updates the CommitStore implementations to use the From implementations.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-24 18:50:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/706" class=".btn">#706</a>
             </td>
             <td>
