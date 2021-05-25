@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2604" class=".btn">#2604</a>
+            </td>
+            <td>
+                <b>
+                    FABGW-21: Return block number in CommitStatusResponse
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Refactor Gateway's CommitStatus service in line with updated protobufs, so the returned CommitStatusResponse message includes the block number in which the transaction committed. This required a refactor to the commit finder implementation and a switch from Counterfeiter to Mockery as the mocking framework for that package due to cyclic import limitations with Counterfeiter.
+
+First step towards implementing chaincode event listening. A dummy implementation of that service that returns an error is included.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 17:42:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2603" class=".btn">#2603</a>
             </td>
             <td>
@@ -69,61 +97,6 @@ Maintain order of transactions in the commit notification so the gateway can del
     </table>
     <div class="right-align">
         Created At 2021-05-20 18:21:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2599" class=".btn">#2599</a>
-            </td>
-            <td>
-                <b>
-                    FABGW-18: Fix concurrency issue in commit notifier close
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This code path should only be executed if the ledger notifications stop, which is never expected to happen at runtime. However, it does happen within the unit tests could cause an intermittent test failure.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-18 15:33:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2598" class=".btn">#2598</a>
-            </td>
-            <td>
-                <b>
-                    Bump vmImage to Ubuntu-20.04
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Just keeping up with latest deps
-
-Signed-off-by: Brett Logan <lindluni@github.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-18 13:40:34 +0000 UTC
     </div>
 </div>
 
