@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">approved-lab</span>
             </td>
             <td>
                 [Hyperledger Fabric]('https://www.hyperledger.org/use/fabric') is a permissioned, modular, and extensible open-source DLT platform. Fabric architecture follows a novel `execute-order-validate` paradigm that supports distributed execution of untrusted code in an untrusted environment. Indeed, Fabric-based distributed applications can be written in any general-purpose programming language.  
