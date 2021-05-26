@@ -285,7 +285,7 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
                 
             </td>
             <td>
-                Refactor Gateway's CommitStatus service in line with updated protobufs, so the returned CommitStatusResponse message includes the block number in which the transaction committed. This required a refactor to the commit finder implementation and a switch from Counterfeiter to Mockery as the mocking framework for that package due to cyclic import limitations with Counterfeiter.
+                Refactor Gateway's CommitStatus service in line with updated protobufs, so the returned CommitStatusResponse message includes the block number in which the transaction committed.
 
 First step towards implementing chaincode event listening. A dummy implementation of that service that returns an error is included.
             </td>

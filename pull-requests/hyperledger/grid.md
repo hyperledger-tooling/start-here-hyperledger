@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/716" class=".btn">#716</a>
+            </td>
+            <td>
+                <b>
+                    Fix lint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes a lint errors in the add_commit.rs file. This was just an
+unused import that needed to get cleaned up.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 18:02:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/715" class=".btn">#715</a>
+            </td>
+            <td>
+                <b>
+                    Add "rest-api" feature to guard top-level module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This top-level "rest-api" feature prevents the rest_api module from
+existing unless a REST API feature is enabled.
+
+This is part of a larger effort to cleanup dependencies in the SDK.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 14:37:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/714" class=".btn">#714</a>
+            </td>
+            <td>
+                <b>
+                    Minor dependency cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR contains a set of trivial dependency adjustments for the SDK. This is part of a larger effort to clean up the SDK dependencies.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 14:14:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/713" class=".btn">#713</a>
             </td>
             <td>
@@ -317,7 +401,12 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
                 
             </td>
             <td>
-                
+                Perform signer logic before passing to handlers.  Signer implementation
+follows Splinter's implementation pattern. This also introduces a new
+overload, CYLINDER_PATH, if GRID_DAEMON_KEY is not set, and if --key
+option is not included.  create_cylinder_jwt_auth method is also
+included for future implementation, but for now is decorated with an
+`allow dead_code` attribute.
             </td>
         </tr>
     </table>

@@ -14,27 +14,27 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/320" class=".btn">#320</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/321" class=".btn">#321</a>
             </td>
             <td>
                 <b>
-                    Upgrade WAMR to WAMR-04-15-2021 release
+                    Bump RSA key size
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
-                This latest release implements auxiliary stack overflow/underflow check for WAMR in AOT/JIT/interpreter modes, implements a realloc wrapper in the builtin libc, and fixes several issues when using libpthread.
+                This PR bumps the default RSA key size to 3072 bits as recommended by NIST. Moreover, this PR is motivated by the use of the PDO crypto lib by Fabric Private Chaincode, see corresponding [issue](https://github.com/hyperledger/fabric-private-chaincode/issues/478).
 
-See https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-04-15-2021 for the full release notes.
+Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-01 19:14:54 +0000 UTC
+        Created At 2021-05-26 15:12:39 +0000 UTC
     </div>
 </div>
 

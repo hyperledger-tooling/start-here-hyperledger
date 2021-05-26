@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2324" class=".btn">#2324</a>
+            </td>
+            <td>
+                <b>
+                    Adds unrestricted privacy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Allows users to utilise unrestricted private transactions. This stores the private transaction in the data of the unrestricted privacy precompile address on-chain. The default implementation is unencrypted, further plugin extension points are required to allow the user to encrypt transactions on-chain. 
+
+## mutually exclusive private restriction modes
+
+### Privacy group state
+You can not run a node in mixed `unrestricted`/`restricted` privacy modes. There are potential issues with private state and privacy groups. There is only one private state per group, consequently, you could have a mix of private transaction restriction types in the same group. Whilst it's not a problem per se it could lead to confusion and inconsistent state between nodes.
+
+### Flexible privacy groups
+Onchain privacy groups are not currently possible with unrestricted transactions.
+
+### CLI options
+`--privacy-enabled` and `--privacy-unrestricted-enabled` must be specified to enable this feature. 
+
+## Changelog
+
+- [ ] adds unrestricted privacy 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 13:18:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2322" class=".btn">#2322</a>
             </td>
             <td>
