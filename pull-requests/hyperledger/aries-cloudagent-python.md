@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1204" class=".btn">#1204</a>
+            </td>
+            <td>
+                <b>
+                    Fix: Public Connections Invitation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolve #1203 
+- Went through the following test cases, all invitations should now work as expected.
+![image](https://user-images.githubusercontent.com/9292265/119702684-942f2480-be0a-11eb-9527-cbff0e26f885.png)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 17:11:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1202" class=".btn">#1202</a>
             </td>
             <td>

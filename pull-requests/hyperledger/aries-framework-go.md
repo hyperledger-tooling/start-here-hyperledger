@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2808" class=".btn">#2808</a>
+            </td>
+            <td>
+                <b>
+                    feat: JSON-LD context API bindings for mobile agent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #2805
+
+Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 17:02:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2806" class=".btn">#2806</a>
             </td>
             <td>

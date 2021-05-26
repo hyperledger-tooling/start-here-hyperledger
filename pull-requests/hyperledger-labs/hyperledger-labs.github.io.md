@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/171" class=".btn">#171</a>
+            </td>
+            <td>
+                <b>
+                    Archive fabric-private-chaincode which has transitioned to Fabric
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 14:35:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/170" class=".btn">#170</a>
             </td>
             <td>
@@ -67,7 +94,7 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">approved-lab</span>
             </td>
             <td>
                 [Hyperledger Fabric]('https://www.hyperledger.org/use/fabric') is a permissioned, modular, and extensible open-source DLT platform. Fabric architecture follows a novel `execute-order-validate` paradigm that supports distributed execution of untrusted code in an untrusted environment. Indeed, Fabric-based distributed applications can be written in any general-purpose programming language.  

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/675" class=".btn">#675</a>
+            </td>
+            <td>
+                <b>
+                    Add P Curves to RFC 0593
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Troy Ronda <troy@troyronda.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 18:49:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/674" class=".btn">#674</a>
+            </td>
+            <td>
+                <b>
+                    add P curve to RFC 0510
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Troy Ronda <troy@troyronda.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 18:42:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/673" class=".btn">#673</a>
             </td>
             <td>
@@ -90,33 +142,6 @@ Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
     </table>
     <div class="right-align">
         Created At 2021-05-19 20:54:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/666" class=".btn">#666</a>
-            </td>
-            <td>
-                <b>
-                    Clarify text for did:key encoding - incorrect prefix per #664
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">AIP 2.0</span>
-            </td>
-            <td>
-                Clarify text for did:key encoding - fix incorrect prefix per #664
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-19 16:43:55 +0000 UTC
     </div>
 </div>
 
