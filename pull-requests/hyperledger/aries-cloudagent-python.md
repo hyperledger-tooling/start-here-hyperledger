@@ -27,8 +27,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                - Pending approval and merge of #1193 
-- resolve #1138 
+                - resolve #1138 
             </td>
         </tr>
     </table>

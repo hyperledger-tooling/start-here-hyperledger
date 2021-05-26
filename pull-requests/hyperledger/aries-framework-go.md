@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2804" class=".btn">#2804</a>
+            </td>
+            <td>
+                <b>
+                    feat: API for adding JSON-LD contexts to the underlying storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this PR:
+- implemented API for adding JSON-LD contexts to the underlying storage
+- added new embedded contexts:
+  * https://w3id.org/security/suites/bls12381-2020/v1
+  * https://w3id.org/security/suites/jws-2020/v1
+  * https://w3id.org/security/suites/ed25519-2018/v1
+  * https://w3id.org/security/suites/x25519-2019/v1
+  * https://w3id.org/security/suites/secp256k1-2019/v1
+- removed contexts used for tests from core set:
+  * https://www.w3.org/2018/credentials/examples/v1
+  * https://www.w3.org/ns/odrl.jsonld
+
+Bindings for mobile agent will be handled in the [follow-up ticket](https://github.com/hyperledger/aries-framework-go/issues/2805).
+
+Closes #2730
+
+Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 19:20:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2801" class=".btn">#2801</a>
             </td>
             <td>
@@ -63,32 +106,6 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-05-20 13:25:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2798" class=".btn">#2798</a>
-            </td>
-            <td>
-                <b>
-                    test: RFC0593: Go SDK BDD tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">aip 2.0</span><span class="chip">bdd</span>
-            </td>
-            <td>
-                Signed-off-by: George Aristy <george.aristy@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-18 21:43:17 +0000 UTC
     </div>
 </div>
 
