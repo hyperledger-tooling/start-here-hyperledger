@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/713" class=".btn">#713</a>
+            </td>
+            <td>
+                <b>
+                    Add brief CommitStore module doc comment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds a brief CommitStore module doc comment to the diesel commit
+store mod.rs file. This also adds a doc comment explaining the
+`resolve_fork` db operation.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 21:53:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/712" class=".btn">#712</a>
+            </td>
+            <td>
+                <b>
+                    Add Schema namespace to location txn inputs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This was causing location transactions to fail when the smart contract
+attempted to read the location schema.
+
+Signed-off-by: Darian Plumb <dplumb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 20:51:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/711" class=".btn">#711</a>
+            </td>
+            <td>
+                <b>
+                    Properly wrap lines at 100 characters in grid cli
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 19:43:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/709" class=".btn">#709</a>
             </td>
             <td>

@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2322" class=".btn">#2322</a>
+            </td>
+            <td>
+                <b>
+                    Orion info in changelog
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added Tessera/Orion info to changelog
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 23:25:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2321" class=".btn">#2321</a>
+            </td>
+            <td>
+                <b>
+                    Fix SECP256R1AcceptanceTest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel@io.builders>
+
+## PR description
+
+SECP256R1AcceptanceTest needed to set `SECP256R1` as signature algorithm instance. Because this variable is static and is used in `BesuNode` to [create a key pair](https://github.com/hyperledger/besu/blob/master/acceptance-tests/dsl/src/main/java/org/hyperledger/besu/tests/acceptance/dsl/node/BesuNode.java#L155) it could happen that other tests were using the SECP256R1 signature algorithm by accident becuase of this, depending on the order in which the tests were executed. This caused the acceptance tests to be flaky.
+This PR introduces the possibility to set a pre-generated key pair in `BesuNodeFactory`. This allows to set a SECP256R1 key pair without changing `SignatureAlgorithmFactory.instance`, which avoids that other tests can happen to use SECP256R1 when they expect SECP256K1.
+
+## Fixed Issue(s)
+reintroduces test which was ignored in #2267 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 20:32:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2320" class=".btn">#2320</a>
             </td>
             <td>
@@ -639,74 +707,6 @@ The basic implementation keeps just a single transaction pool, without other pre
     </table>
     <div class="right-align">
         Created At 2021-05-19 06:53:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2294" class=".btn">#2294</a>
-            </td>
-            <td>
-                <b>
-                    GoQuorum ATs: run the estimate gas test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Revert #2282 
-Enabling one more passing GoQuorum AT 
-See https://github.com/hyperledger/besu/pull/2282
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-19 00:54:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2292" class=".btn">#2292</a>
-            </td>
-            <td>
-                <b>
-                    EIP-1559 Transaction Pool Sorting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Add transaction sorting as described [here](https://hackmd.io/@adietrichs/1559-transaction-sorting)
-
-## Fixed Issue(s)
-fixes #2286
-
-## Changelog
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-18 22:54:58 +0000 UTC
     </div>
 </div>
 

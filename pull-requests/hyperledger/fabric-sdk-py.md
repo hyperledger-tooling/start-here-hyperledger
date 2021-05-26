@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/151" class=".btn">#151</a>
+            </td>
+            <td>
+                <b>
+                    Documentation fix to resolve denial of connection to Docker Daemon
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Tried to update Tutorial.ipynb with same change but fails "make check" test cases. 
+Isolated changes to tutorial.md for now. 
+Will use Gerrit & Jira to match contribution specs within CONTRIBUTING.md in the future.
+
+Change-Id: [N/A]
+Signed-off-by: fmendoz7 <francissamuelmendoza7@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 22:45:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/150" class=".btn">#150</a>
             </td>
             <td>
