@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
             </td>
             <td>
                 <b>
-                    Functionally complete workflow (with data on the clear)
+                    Functionally complete workflow
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                This PR contributes major components of the demo, which function as expected -- except data is on the clear, and the worker runs in a non-graphenized python server.
+                This PR contributes major components of the demo, which function as expected -- except that the worker runs in a non-graphenized python server.
 
 Notably, the PR also contributes an end-to-end orchestration of the demo (see `orchestrate.sh` under `irb`), which exercises all the components (locally), up to the diagnosis and report of results.
             </td>

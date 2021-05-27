@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2335" class=".btn">#2335</a>
+            </td>
+            <td>
+                <b>
+                    update referencetests to latest develop branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+update referencetests to latest develop branch
+get 1559 test cases passing
+fix transaction encoding of 2718 typed transactions
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2229 
+fixes #2285 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 01:42:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2334" class=".btn">#2334</a>
             </td>
             <td>
@@ -642,52 +687,6 @@ For more information on this process see the Becoming a Maintainer section in th
     </table>
     <div class="right-align">
         Created At 2021-05-20 07:11:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2302" class=".btn">#2302</a>
-            </td>
-            <td>
-                <b>
-                    errata discovered in 21.1.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-A couple quick fixes for bugs I found In scale testing 21.1.6 pending transactions:
-* baseFee = null was not handled correctly in PendingTransactions.updateBaseFee for a fork block
-* the transaction gas budget calculator was 2x'ing the already 2x'd gasLimit at and past fork block
-
-we should probably write some tests that cover these cases, but it is late and the release is already out there...
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 03:26:42 +0000 UTC
     </div>
 </div>
 
