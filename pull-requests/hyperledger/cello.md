@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/245" class=".btn">#245</a>
+            </td>
+            <td>
+                <b>
+                    [#224 Add networklist page]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add network list page,show all blockchian network in this page.
+
+Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 12:29:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/243" class=".btn">#243</a>
             </td>
             <td>

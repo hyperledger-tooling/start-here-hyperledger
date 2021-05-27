@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/45" class=".btn">#45</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/54" class=".btn">#54</a>
             </td>
             <td>
                 <b>
-                    Upgrade React Native
+                    Aries components
                 </b>
             </td>
         </tr>
@@ -29,11 +29,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-Updated React Native to 0.64.1 and enabled hermes
+Replace this text with a high-level summary of the changes included in this PR.
 
 # Related Issues
 
-https://github.com/hyperledger/indy-sdk/issues/2346
+Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
 
 # Pull Request Checklist
 
@@ -54,7 +54,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-18 18:14:04 +0000 UTC
+        Created At 2021-05-24 23:00:50 +0000 UTC
     </div>
 </div>
 

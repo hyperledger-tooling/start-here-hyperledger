@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/59" class=".btn">#59</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    chore: add documents required by repolint
+                    Use event bus to send notifications to Admin connections
                 </b>
             </td>
         </tr>
@@ -27,38 +27,14 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-15 00:19:54 +0000 UTC
-    </div>
-</div>
+                This PR introduces support for the newly added event bus in ACA-Py to greatly enhance ability to keep admin connections up to date without polling.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/58" class=".btn">#58</a>
-            </td>
-            <td>
-                <b>
-                    Compatibility fixes for ACA-Py 0.6.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates and fixes for using the toolbox plugin against ACA-Py 0.6.0
+Along with these enhancements are improvements to the credentials exchange and presentations exchange features that were not previously possible without an asynchronous notification system. Instead of automatically accepting all credentials and presentation requests, the toolbox plugin now supports sending notifications about newly received credential offers and presentation requests and can wait for input before accepting.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-14 23:50:24 +0000 UTC
+        Created At 2021-05-25 15:25:12 +0000 UTC
     </div>
 </div>
 

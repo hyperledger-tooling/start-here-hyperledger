@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1034" class=".btn">#1034</a>
+            </td>
+            <td>
+                <b>
+                    Change of query api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: i1i1 <vanyarybin1@live.ru>
+
+### Description of the Change
+
+Query will have nice type output. It would allow type safe and nice api for rust clients and would remove boilerplate code.
+
+### Benefits
+
+### Possible Drawbacks 
+
+### Usage Examples or Tests *[optional]*
+
+
+### Alternate Designs *[optional]*
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 12:33:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1033" class=".btn">#1033</a>
             </td>
             <td>
@@ -286,52 +327,6 @@ Checks with GitHub Actions
     </table>
     <div class="right-align">
         Created At 2021-05-21 06:36:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1027" class=".btn">#1027</a>
-            </td>
-            <td>
-                <b>
-                    Reporter fixup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-
-Fix of error reporter. Beforehand we skipped one error and just went to its source (this was unintentional). This pr goes straight to wrapped error's error as source.
-
-### Benefits
-
-All error level printings. No error skipping.
-
-### Possible Drawbacks 
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 09:56:45 +0000 UTC
     </div>
 </div>
 

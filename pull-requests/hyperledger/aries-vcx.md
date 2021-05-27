@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/278" class=".btn">#278</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/281" class=".btn">#281</a>
             </td>
             <td>
                 <b>
-                    Remove/fees setup
+                    Release 0.18.0
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                
+                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-20 08:39:56 +0000 UTC
+        Created At 2021-05-26 19:23:06 +0000 UTC
     </div>
 </div>
 
@@ -40,25 +40,45 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/277" class=".btn">#277</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/280" class=".btn">#280</a>
             </td>
             <td>
                 <b>
-                    Update Rust to version 1.52.1
+                    Changes related to aries test harness backchannel
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">breaking</span><span class="chip">enhancement</span><span class="chip">integration</span>
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                Previously, invitee's states were 
+```
+Null, Invited, Requested, Completed
+```
+whereas inviter's states were
+```
+Null, Invited, Responded, Completed
+```
+This in order to achieve compatibility with [RFC0160](https://github.com/hyperledger/aries-rfcs/tree/master/features/0160-connection-protocol), this PR adds a new state for both inviter and invitee, making the state set
+```
+Null, Invited, Requested, Responded, Completed
+```
+for both.
+
+Moreover, mapping of the states to `VcxStateType` was changed such that the `Null` state (the initial and "errored" state) maps the the zeroth state (`VcxStateNone`) instead of the first state (`VcxStateInitialized`) and the transition progress the mapped `VcxStateType` in unit increments. This is a breaking change.
+
+Finally, to achieve backwards compatibility, an `autohop` flag was added to the state machine, which skips the `Responded` and `Requested` states for invitee and inviter respectively.
+
+Related: https://github.com/hyperledger/aries-agent-test-harness/pull/243
+
+Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-17 15:26:26 +0000 UTC
+        Created At 2021-05-25 20:36:26 +0000 UTC
     </div>
 </div>
 
@@ -66,25 +86,31 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/276" class=".btn">#276</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/279" class=".btn">#279</a>
             </td>
             <td>
                 <b>
-                    Remove/deprecated internal
+                    Refactor connection state machine to expose transition methods
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">refactoring</span>
             </td>
             <td>
-                
+                - Previously in order to invoke transition/action on message, the caller of Connection FSM API had to call step function with `DidExchangeMessages` variant, representing the desired FSM transition. 
+
+- This PR modifies the API such that each transition is represented by a method defined on Connection FSM.
+
+- This has benefits as more complex arguments (for example trait objects, impl) can be passed down into transition, as opposed what could been previously injected into structure arguments within the `DidExchangeMessages` variants.
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-17 13:27:38 +0000 UTC
+        Created At 2021-05-24 14:52:04 +0000 UTC
     </div>
 </div>
 

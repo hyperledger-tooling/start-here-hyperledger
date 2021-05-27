@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    Bump grpc from 1.24.2 to 1.24.9
+                    Bump dns-packet from 1.3.1 to 1.3.4
                 </b>
             </td>
         </tr>
@@ -27,54 +27,23 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [grpc](https://github.com/grpc/grpc-node) from 1.24.2 to 1.24.9.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/grpc/grpc-node/releases">grpc's releases</a>.</em></p>
-<blockquote>
-<h2>Node gRPC v1.24.7</h2>
-<ul>
-<li>Log just serialization and deserialization errors on the server, instead of logging all errors with the code <code>INTERNAL</code> (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1750">#1750</a>)</li>
-<li>Replace the <code>instanceof Function</code> check to make it work properly in certain environments (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1759">#1759</a> contributed by <a href="https://github.com/zereraz"><code>@​zereraz</code></a>)</li>
-</ul>
-<h2>Node gRPC v1.24.6</h2>
-<ul>
-<li>Fix prototype pollution possibility in loadPackageDefinition (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1701">#1701</a>)</li>
-</ul>
-<h2>Node gRPC v1.24.5</h2>
-<ul>
-<li>Add support for Electron 11 and newer versions of Electron 10 (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1684">#1684</a>)</li>
-</ul>
-<h2>Node gRPC v1.24.4</h2>
-<ul>
-<li>Add support for Electron 10 and newer minor versions of Electron 8 and 9 (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1615">#1615</a>)</li>
-<li>Add a note in the README stating the latest supported versions of Node and Electron (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1615">#1615</a>)</li>
-<li>Prevent prototype pollution in <code>loadPackageDefinition</code> (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1606">#1606</a>)</li>
-<li>Add <code>ResponseType</code> to <code>ServerWritableStream</code> type definition for compatibility with <code>@grpc/grpc-js</code> (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1590">#1590</a> contributed by <a href="https://github.com/badsyntax"><code>@​badsyntax</code></a>)</li>
-<li>Add <code>methodTypes</code> enum to type definition (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1496">#1496</a> contributed by <a href="https://github.com/jncr"><code>@​jncr</code></a>)</li>
-</ul>
-<h2>grpc 1.24.3</h2>
-<ul>
-<li>Add support for S390x (originally <a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1230">#1230</a> contributed by <a href="https://github.com/shahidhs-ibm"><code>@​shahidhs-ibm</code></a>)</li>
-<li>Add support for Node 14, and Electron 7, 8, and 9</li>
-<li>Unbundle the dependency on <code>node-pre-gyp</code> (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1371">#1371</a> contributed by <a href="https://github.com/Naktibalda"><code>@​Naktibalda</code></a>)</li>
-</ul>
-<p><strong>Known Issues</strong>:</p>
-<ul>
-<li><a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1407">#1407</a> may cause errors when running on Node 14</li>
-</ul>
-</blockquote>
-</details>
+                Bumps [dns-packet](https://github.com/mafintosh/dns-packet) from 1.3.1 to 1.3.4.
 <details>
 <summary>Commits</summary>
 <ul>
-<li>See full diff in <a href="https://github.com/grpc/grpc-node/commits">compare view</a></li>
+<li><a href="https://github.com/mafintosh/dns-packet/commit/ebdf849da5dc0d96836e87628349776c623c5be7"><code>ebdf849</code></a> 1.3.4</li>
+<li><a href="https://github.com/mafintosh/dns-packet/commit/ac578722f2707310b841b65aae61d6332f8882a1"><code>ac57872</code></a> move all allocUnsafes to allocs for easier maintenance</li>
+<li><a href="https://github.com/mafintosh/dns-packet/commit/c64c9507e51532c9e9a3cbefa146a134ecc025fd"><code>c64c950</code></a> 1.3.3</li>
+<li><a href="https://github.com/mafintosh/dns-packet/commit/0598ba19d18da4568b32415e60a9629061b3c45c"><code>0598ba1</code></a> fix .. in encodingLength</li>
+<li><a href="https://github.com/mafintosh/dns-packet/commit/010aedb33c1ee8c3f558db5249c1d46e2bd7a101"><code>010aedb</code></a> 1.3.2</li>
+<li><a href="https://github.com/mafintosh/dns-packet/commit/0d0d593f8df4e2712c43957a6c62e95047f12b2d"><code>0d0d593</code></a> backport encodingLength fix to v1</li>
+<li>See full diff in <a href="https://github.com/mafintosh/dns-packet/compare/v1.3.1...v1.3.4">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=grpc&package-manager=npm_and_yarn&previous-version=1.24.2&new-version=1.24.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=dns-packet&package-manager=npm_and_yarn&previous-version=1.3.1&new-version=1.3.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -110,7 +79,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-12 00:55:52 +0000 UTC
+        Created At 2021-05-27 10:45:07 +0000 UTC
     </div>
 </div>
 
