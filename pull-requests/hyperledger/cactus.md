@@ -279,10 +279,10 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">Fabric</span><span class="chip">dependent</span>
+                <span class="chip">Fabric</span>
             </td>
             <td>
-                ## Dependencies
+                ## Dependencies 
 
 Depends on #985 
 

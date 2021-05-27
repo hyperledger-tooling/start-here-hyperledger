@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/145" class=".btn">#145</a>
+            </td>
+            <td>
+                <b>
+                    Add examples/sabre_command to justfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is required to catch build, lint, and testing errors in this
+example crate.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 17:03:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/144" class=".btn">#144</a>
+            </td>
+            <td>
+                <b>
+                    Remove env output from 'just build'
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is undesirable output when running the command in the developer workflow.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 16:59:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/143" class=".btn">#143</a>
+            </td>
+            <td>
+                <b>
+                    Update Sha2::Sha512 usage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update to work with the current version of sha2 used in transact.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 16:58:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/142" class=".btn">#142</a>
             </td>
             <td>
@@ -69,37 +149,6 @@ and the workload stops
     </table>
     <div class="right-align">
         Created At 2021-05-26 21:58:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/141" class=".btn">#141</a>
-            </td>
-            <td>
-                <b>
-                    Update semver dep from 0.9 to 0.11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The VersionReq object in 0.11 can parse more complex requirements, like
-specifiying different version ranges. This will improve the robustness
-of the find_scar function, and allow up describe both minor version ranges
-and pre-release version ranges.
-
-Signed-off-by: Ryan Banks <rbanks@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-26 19:43:22 +0000 UTC
     </div>
 </div>
 

@@ -171,29 +171,3 @@ Support for Present Proof is not in this PR. It will come next.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/239" class=".btn">#239</a>
-            </td>
-            <td>
-                <b>
-                    afgo intero and master separated
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 17:54:16 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/246" class=".btn">#246</a>
+            </td>
+            <td>
+                <b>
+                    Create organization and create node at the same time
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When creating an organization, you can select the number of peers and orderers。
+*Create the certificate and configuration file and compress it into a zip file
+
+Signed-off-by: XuHugo <xq-310@163.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 14:53:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/245" class=".btn">#245</a>
             </td>
             <td>
@@ -66,32 +95,6 @@ Signed-off-by: Baohua Yang <yangbaohua@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-05-26 20:32:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/242" class=".btn">#242</a>
-            </td>
-            <td>
-                <b>
-                    Networkcreate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Create an organization and determine the number of nodes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 14:49:55 +0000 UTC
     </div>
 </div>
 

@@ -62,30 +62,3 @@ permalink: /pull-requests/hyperledger/indy-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2390" class=".btn">#2390</a>
-            </td>
-            <td>
-                <b>
-                    Merge changes from RC branch (release version 1.16.0)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This replaces PR https://github.com/hyperledger/indy-sdk/pull/2361
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 14:03:29 +0000 UTC
-    </div>
-</div>
-

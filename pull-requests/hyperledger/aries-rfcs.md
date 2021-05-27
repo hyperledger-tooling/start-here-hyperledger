@@ -142,32 +142,3 @@ Signed-off-by: Oskar van Deventer <oskar.vandeventer@tno.nl>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/672" class=".btn">#672</a>
-            </td>
-            <td>
-                <b>
-                    add goal code to didx request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">AIP 2.0</span>
-            </td>
-            <td>
-                In response to #671 
-I'm not confident to provide a [Message Catalogue Section](https://github.com/hyperledger/aries-rfcs/blob/master/features/0434-outofband/README.md#goal_code) as of now.
-
-Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 17:50:48 +0000 UTC
-    </div>
-</div>
-
