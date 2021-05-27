@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2809" class=".btn">#2809</a>
+            </td>
+            <td>
+                <b>
+                    WIP RFC0593: REST API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 21:14:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2808" class=".btn">#2808</a>
             </td>
             <td>

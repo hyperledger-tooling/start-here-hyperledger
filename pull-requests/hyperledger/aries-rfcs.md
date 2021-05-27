@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/677" class=".btn">#677</a>
+            </td>
+            <td>
+                <b>
+                    cleanup RFC510 updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Troy Ronda <troy@troyronda.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 20:45:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/676" class=".btn">#676</a>
+            </td>
+            <td>
+                <b>
+                    Add note about BbsBlsSignatureProof2020 ldp_vc to RFC 0510
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">AIP 2.0</span>
+            </td>
+            <td>
+                Signed-off-by: Troy Ronda <troy@troyronda.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 19:08:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/675" class=".btn">#675</a>
             </td>
             <td>
@@ -24,7 +76,7 @@ permalink: /pull-requests/hyperledger/aries-rfcs
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">AIP 2.0</span>
             </td>
             <td>
                 Signed-off-by: Troy Ronda <troy@troyronda.com>
@@ -50,7 +102,7 @@ permalink: /pull-requests/hyperledger/aries-rfcs
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">AIP 2.0</span>
             </td>
             <td>
                 Signed-off-by: Troy Ronda <troy@troyronda.com>
@@ -116,32 +168,6 @@ Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
     </table>
     <div class="right-align">
         Created At 2021-05-20 17:50:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/668" class=".btn">#668</a>
-            </td>
-            <td>
-                <b>
-                    Further clarification for #664 about multicodec handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">AIP 2.0</span>
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-19 20:54:21 +0000 UTC
     </div>
 </div>
 
