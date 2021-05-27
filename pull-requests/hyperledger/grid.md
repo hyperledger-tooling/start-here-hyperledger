@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/718" class=".btn">#718</a>
+            </td>
+            <td>
+                <b>
+                    Rename batch submitter to backend client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The trait formerly known as "BatchSubmitter" was really a client to the backend (Sawtooth or Splinter). This gives it distinction from other batch-related functionality within the sdk and daemon.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 21:48:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/717" class=".btn">#717</a>
+            </td>
+            <td>
+                <b>
+                    Add database-* feature guards to the daemon
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds feature guards for the separate database backends to the Grid
+daemon. This allows for conditional compilation of code that pertains to
+database functionality. At least one active backend is required for the
+daemon to work.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 19:59:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/716" class=".btn">#716</a>
             </td>
             <td>
@@ -366,7 +424,7 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
             </td>
             <td>
                 <b>
-                    Have only one DEFAULT_GRID_PROTCOL_VERSOIN const
+                    Have only one DEFAULT_GRID_PROTOCOL_VERSION const
                 </b>
             </td>
         </tr>
@@ -381,37 +439,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-05-20 18:47:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/698" class=".btn">#698</a>
-            </td>
-            <td>
-                <b>
-                    Update signer to match splinter's pattern
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Perform signer logic before passing to handlers.  Signer implementation
-follows Splinter's implementation pattern. This also introduces a new
-overload, CYLINDER_PATH, if GRID_DAEMON_KEY is not set, and if --key
-option is not included.  create_cylinder_jwt_auth method is also
-included for future implementation, but for now is decorated with an
-`allow dead_code` attribute.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-19 19:05:16 +0000 UTC
     </div>
 </div>
 

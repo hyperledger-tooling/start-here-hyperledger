@@ -14,6 +14,99 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/142" class=".btn">#142</a>
+            </td>
+            <td>
+                <b>
+                    TooManyRequests response bug fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes a bug in the recent update to handle `TooManyRequests`. Previously if control-c was pressed while the `slow_rate` method was attempting to resubmit a batch the workload would not stop until `slow_rate` had returned and it would usually result in a panic caused by a divide by zero error.
+
+The following changes are added in this PR to fix this bug:
+- After each time `slow_rate` is called the time and total batches counters used to calculate the effective submission rate are reset
+- The `slow_rate` method is updated to default to 1 second of sleep if the effective rate is calculated to be 0, this avoids any possible divide by zero errors that were possible before
+- A `receiver` argument is added to the `slow_rate` method, the method uses the receiver to check if a shutdown message has been sent each time it loops
+- The `slow_rate` method is updated to return a boolean representing whether or not a shutdown message was sent. If `slow_rate` returns `true` the loop will break and the workload will stop
+
+### **Testing:**
+1. Start two splinter nodes with the experimental feature "back-pressure"
+2. Create a circuit between the nodes, ensure that the scabbard version is set to 2 when creating the circuit
+3. Use scabbard CLI to upload the smallbank smart contract
+4. Use the transact CLI to start a smallbank workload, for example:
+```
+transact workload --targets http://localhost:8085/scabbard/<circuit-id>/<service-id> \
+--key <private-key-path> \
+--target-rate 5 \
+--update 2 \
+--workload smallbank \
+-vv
+```
+5. Control-c immediately after seeing the log message:
+```Received TooManyRequests message from target, attempting to resubmit batch```
+check that the log shows:
+```
+Shutting down worker Smallbank-Workload-0
+Worker received shutdown
+```
+and the workload stops
+6. Run the workload command again
+7. Control-c while batches are being successfully submitted
+check that the same shutdown log message shows:
+```
+Shutting down worker Smallbank-Workload-0
+Worker received shutdown
+```
+and the workload stops
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 21:58:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/141" class=".btn">#141</a>
+            </td>
+            <td>
+                <b>
+                    Update semver dep from 0.9 to 0.11
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The VersionReq object in 0.11 can parse more complex requirements, like
+specifiying different version ranges. This will improve the robustness
+of the find_scar function, and allow up describe both minor version ranges
+and pre-release version ranges.
+
+Signed-off-by: Ryan Banks <rbanks@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 19:43:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/140" class=".btn">#140</a>
             </td>
             <td>
@@ -40,12 +133,12 @@ permalink: /pull-requests/hyperledger/transact
 3. Use scabbard CLI to upload the command smart contract
 4. Use the transact CLI to start a command workload, for example:
 ```
-transact workload --targets http://splinterd-beta:8085/scabbard/<circuit-id>/<service-id> \
+transact workload --targets http://localhost:8085/scabbard/<circuit-id>/<service-id> \
 --key <private-key-path> \
 --target-rate 5 \
 --update 2 \
 --workload command \
---seed 10
+--seed 10 \
 -vv
 ```
 Observe splinterd logs to see command family transactions being executed
@@ -60,32 +153,6 @@ T["consensus-gsAA"] ERROR [splinter::consensus::two_phase::v2] Error while creat
     </table>
     <div class="right-align">
         Created At 2021-05-21 23:08:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/139" class=".btn">#139</a>
-            </td>
-            <td>
-                <b>
-                    Run just recipes in CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 01:05:00 +0000 UTC
     </div>
 </div>
 

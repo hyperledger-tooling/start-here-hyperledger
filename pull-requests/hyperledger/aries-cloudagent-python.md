@@ -342,29 +342,3 @@ Based on @burdettadam idea, https://github.com/sicpa-dlab/aries-cloudagent-pytho
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1185" class=".btn">#1185</a>
-            </td>
-            <td>
-                <b>
-                    Issue cred store cred done
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-19 19:54:46 +0000 UTC
-    </div>
-</div>
-
