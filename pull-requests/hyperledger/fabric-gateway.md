@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/118" class=".btn">#118</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/123" class=".btn">#123</a>
             </td>
             <td>
                 <b>
-                    Make it easier to submit string arguments in Go client
+                    FABGW-20 SDK support for endorsing orgs
                 </b>
             </td>
         </tr>
@@ -27,14 +27,41 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Since strings are more common than bytes as transaction function arguments, make the following naming changes in the Go client API:
-- WithStringArguments(args ...string) -> WithArguments(args ...string)
-- WithArgument(args ...[]byte) -> WithBytesArguments(args ...[]byte)
+                Added ability to specify endorsing orgs to the 3 SDKs.
+Added new scenario test and implementation in the 3 SDKs.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-14 15:04:42 +0000 UTC
+        Created At 2021-05-26 15:04:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/119" class=".btn">#119</a>
+            </td>
+            <td>
+                <b>
+                    Delete launch.json
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                unused configuration
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-21 04:10:34 +0000 UTC
     </div>
 </div>
 

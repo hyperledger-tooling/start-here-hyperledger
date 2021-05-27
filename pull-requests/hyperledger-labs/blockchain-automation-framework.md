@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
             </td>
             <td>
                 <b>
-                    [shared] removing repetition in github actions molecule tests
+                    [shared] changing molecule tests to run specifically for non-caps platform names
                 </b>
             </td>
         </tr>
@@ -28,7 +28,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
             </td>
             <td>
                 **Changelog**
-- Updated molecule github actions by removing repetition
+- Fixed molecule tests to run specifically for non-caps platform names, '[shared],[docs],[indy],[fabric],[corda],[besu],[quorum],[corda-ent]'
 
  
 
@@ -143,7 +143,7 @@ Deployed 21.1.1 Besu version using latest Orion version (21.1.0) and also 1.6.0.
             </td>
             <td>
                 <b>
-                    [corda-ent] Upgrade CENM version to 1.5
+                    [corda-ent] upgrade cenm version to 1.5
                 </b>
             </td>
         </tr>
@@ -157,12 +157,14 @@ Deployed 21.1.1 Besu version using latest Orion version (21.1.0) and also 1.6.0.
 **Changelog**
 - Add 1.5 CENM images
 - Fix base directory hard coding in charts
+- Updated the baseDir path to /opt/cenm
 - Update code to support CENM upgrade
+- Fixed sample network.yaml to showcase multiple notary setup (renamed notary -> notary1, notary2...)
 
- 
 
 **Reviewed by**
 @pppazos 
+@jagpreetsinghsasan 
 
  
 

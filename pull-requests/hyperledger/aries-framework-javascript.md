@@ -14,6 +14,267 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/297" class=".btn">#297</a>
+            </td>
+            <td>
+                <b>
+                    ci: enable verbose logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The release script failed randomly and then started working again. Adding verbose logging so it will be easier to debug the actions going forward
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 08:02:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/296" class=".btn">#296</a>
+            </td>
+            <td>
+                <b>
+                    ci: add codeql action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Github recommended me to add a CodeQL analysis github action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 07:20:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/295" class=".btn">#295</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump browserslist from 4.16.3 to 4.16.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [browserslist](https://github.com/browserslist/browserslist) from 4.16.3 to 4.16.6.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/browserslist/browserslist/blob/main/CHANGELOG.md">browserslist's changelog</a>.</em></p>
+<blockquote>
+<h2>4.16.6</h2>
+<ul>
+<li>Fixed <code>npm-shrinkwrap.json</code> support in <code>--update-db</code> (by Geoff Newman).</li>
+</ul>
+<h2>4.16.5</h2>
+<ul>
+<li>Fixed unsafe RegExp (by Yeting Li).</li>
+</ul>
+<h2>4.16.4</h2>
+<ul>
+<li>Fixed unsafe RegExp.</li>
+<li>Added artifactory support to <code>--update-db</code> (by Ittai Baratz).</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/browserslist/browserslist/commit/6fe3614db05b40f9dc1c63588a83d2ada05bae75"><code>6fe3614</code></a> Release 4.16.6 version</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/33ebac933839847a62ede680273449f6cdca1e18"><code>33ebac9</code></a> Update dependencies</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/2128170f231a6c9f462276006e09f302d811df31"><code>2128170</code></a> Add support for npm-shrinkwrap files alongside package-lock (<a href="https://github-redirect.dependabot.com/browserslist/browserslist/issues/595">#595</a>)</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/7cc2aedd0047d800d44aa0259c02b6db1414105c"><code>7cc2aed</code></a> Release 4.16.5 version</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/27e4afdc68798ca93f8c01c5ea6208b4b361a704"><code>27e4afd</code></a> Update dependencies</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/1013a1847931a209c34a704aebc85a8c091286e7"><code>1013a18</code></a> Fix version RegExp</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/b879a1a304def2563f42cc3d3f5711e760662be3"><code>b879a1a</code></a> Use Node.js 16 on CI</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/bd1e9e01c95cad24be706fb11be7d151cd99ed0a"><code>bd1e9e0</code></a> Fix ReDoS (<a href="https://github-redirect.dependabot.com/browserslist/browserslist/issues/593">#593</a>)</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/209adf9e0051fa39a2b25354cffd493300f34b02"><code>209adf9</code></a> Release 4.16.4 version</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/3e2ae3b52daf7f5203247fd4f583b3bda66ea57d"><code>3e2ae3b</code></a> Fix types</li>
+<li>Additional commits viewable in <a href="https://github.com/browserslist/browserslist/compare/4.16.3...4.16.6">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=browserslist&package-manager=npm_and_yarn&previous-version=4.16.3&new-version=4.16.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-framework-javascript/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 02:22:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/294" class=".btn">#294</a>
+            </td>
+            <td>
+                <b>
+                    feat: support node v12+
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I updated the indy-sdk to support node v12+: https://github.com/hyperledger/indy-sdk/pull/2389
+
+This PR loosens the node engine requirement to support 12+ and also adds a test martrix to test for node 12, 14 and 16.
+
+Prettier had some updates to their defaults I think. that's where the other changes come from
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 15:02:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/293" class=".btn">#293</a>
+            </td>
+            <td>
+                <b>
+                    feat: add isInitialized agent property
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 20:58:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/292" class=".btn">#292</a>
+            </td>
+            <td>
+                <b>
+                    docs: Update React Native docs with known errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I've found a few errors when trying the latest version of AFJ with React Native 0.64 and Hermes JS engine. I would say nothing serious, but it could be good to share it in docs at least.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 08:17:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/291" class=".btn">#291</a>
+            </td>
+            <td>
+                <b>
+                    fix: websocket and fetch fix for browser
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - fix: fetch & websocket browser support
+
+This add support for fetch and websocket in the browser environment. Typings had to be added to prevent errors in the respective outboundtransport
+
+(Not sure if these typings are the correct way)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-21 10:33:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/289" class=".btn">#289</a>
             </td>
             <td>
@@ -59,360 +320,6 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </table>
     <div class="right-align">
         Created At 2021-05-20 19:44:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/286" class=".btn">#286</a>
-            </td>
-            <td>
-                <b>
-                    Test/connections proto mediator id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                some tests for mediator id being used in connection protocol. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 09:17:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/285" class=".btn">#285</a>
-            </td>
-            <td>
-                <b>
-                    fix: Use custom make-error with cause that works in RN
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I forked [make-error-cause](https://github.com/blakeembrey/make-error-cause) and replaced Node.js `inspect` dependency with [util-inspect](https://github.com/Automattic/util-inspect). I'm not saying this is the final solution but it should make it work at least for now (I tested it with RN).
-
-The issue describing the problem is #281.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 08:54:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/284" class=".btn">#284</a>
-            </td>
-            <td>
-                <b>
-                    refactor: Rename samples to test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The initial goal with `samples` was to represent API and how to use the framework. However, the content of the folder is more about e2e tests so we can rename it. It doesn't change anything on the fact that it still could (and should) be a good place where the user can see examples of how to use it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 07:36:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/283" class=".btn">#283</a>
-            </td>
-            <td>
-                <b>
-                    fix: convert from buffer now also accepts uint8Array
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also decodes from uint8Array now instead of only a Buffer.
-
-Necessary for anything that is not in NodeJs.
-
-Signed-off-by: blu3beri <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-19 17:17:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/282" class=".btn">#282</a>
-            </td>
-            <td>
-                <b>
-                    fix: test failing because of moved import
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should fix the failing CI.
-
-The CI jobs are now required so it won't be possible to get bad commits into main
-
-
-The problem was because I moved `toBeConnected` with to setup so each test file doesn't have to do it anymore. However this caused (i think?) some cyclic dependencies
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-19 17:11:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/280" class=".btn">#280</a>
-            </td>
-            <td>
-                <b>
-                    refactor: Move a transport protocol-related logic from the framework core
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I did some refactorings to help me add support for multiple transports in the following PR:
-* Add test to `MessageSender`
-* Move up a logic from `EnvelopeService` to `MessageSender`
-* Remove transport-related details from the `TransportService` and from the core of the framework.
-* Rename `transport` to `session` which hopefully express the meaning better.
-
-As a next step I'm considering:
-* Rename transporters to transports
-* Move up more logic from `MessageSender.packMessage` and pass `service` object to `packMessage`
-* Then we could call `packMessage` and `sendMessage` for every available service. Eventually, we could remove the logic from `createOutboundMessage`.
-* Improve validation of `outboundMessage` inside `OutboundTransporter` and error handling
-* Add multiple transports
-
-If you think it doesn't make sense to merge this without full functionality I can continue with adding changes. But I realized that it contains a good amount of changes already and it could be worth merging sooner.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-19 08:49:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/278" class=".btn">#278</a>
-            </td>
-            <td>
-                <b>
-                    fix: connection record type was BaseRecord 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-18 16:15:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/276" class=".btn">#276</a>
-            </td>
-            <td>
-                <b>
-                    refactor: Re-use ws outbound transport in mediator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Small refactor.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-15 16:55:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/275" class=".btn">#275</a>
-            </td>
-            <td>
-                <b>
-                    refactor: replace all errors with framework errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a base `AriesFrameworkError` that is now thrown instead of the generic `Error`. It also adds `RecordNotFoundError` and `RecordDuplicateError` that is now used when storing/retrieving records. It could be hard to find out why an indy operation was failing. This gives a lot more context to the framework consumer.
-
-Over time we can add more specific error classes for other parts of the codebase, but I thought this was already a great start.
-
-Fixes #78
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-15 13:18:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/274" class=".btn">#274</a>
-            </td>
-            <td>
-                <b>
-                    refactor: use single event emitter for all events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-14 23:21:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/273" class=".btn">#273</a>
-            </td>
-            <td>
-                <b>
-                    feat: only connect to ledger when needed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - only connect to ledger when needed
-- allow to pass `genesisTransactions` so you don't have to deal with storing the genesis yourself
-
-Fixes #219 
-Fixes #265 
-
-The ledger management can be improved, but I think this is a simple first step. Only open the ledger connection if a ledger call is made
-
-
----
-
-Tested in both NodeJS and React Native
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-14 21:38:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/272" class=".btn">#272</a>
-            </td>
-            <td>
-                <b>
-                    Dev/mediation config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                @DavidClawson work on configuration for meditation recipient. 
-Introduces an initialize method to the recipient module(src/modules/routing/RecipientModule.ts).
-- initialize is called from agent.init() after wallet, ledger, and transport are set up. 
-- recipient.init() checks for provided configurations to automatically set up mediation at the start.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-14 17:57:49 +0000 UTC
     </div>
 </div>
 

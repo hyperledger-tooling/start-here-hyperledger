@@ -14,6 +14,377 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/992" class=".btn">#992</a>
+            </td>
+            <td>
+                <b>
+                    feat(draft): can not create burrow docker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: jsjs026 <jasonhack518@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 11:50:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/991" class=".btn">#991</a>
+            </td>
+            <td>
+                <b>
+                    feat(azure-kv): added keychain plugin for azure keyvault
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Commit to be reviewed
+------------------------------
+feat(azure-kv): added keychain plugin for azure keyvault
+
+        Primary Change
+        ---
+        1. Added new package cactus-plugin-keychain-azure-kv under packages/
+        2. Added PluginKeychainAzureKvMock class to mock the functions of SecretClient under packages/cactus-plugin-keychain-azure-kv/src/test/typescript/mock/plugin-keychain-azure-kv-mock.ts
+
+Resolves #971
+
+Signed-off-by: Jagpreet Singh Sasan <jagpreet.singh.sasan@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 09:49:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/990" class=".btn">#990</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump browserslist from 4.16.3 to 4.16.6 in /packages/cactus-cockpit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [browserslist](https://github.com/browserslist/browserslist) from 4.16.3 to 4.16.6.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/browserslist/browserslist/blob/main/CHANGELOG.md">browserslist's changelog</a>.</em></p>
+<blockquote>
+<h2>4.16.6</h2>
+<ul>
+<li>Fixed <code>npm-shrinkwrap.json</code> support in <code>--update-db</code> (by Geoff Newman).</li>
+</ul>
+<h2>4.16.5</h2>
+<ul>
+<li>Fixed unsafe RegExp (by Yeting Li).</li>
+</ul>
+<h2>4.16.4</h2>
+<ul>
+<li>Fixed unsafe RegExp.</li>
+<li>Added artifactory support to <code>--update-db</code> (by Ittai Baratz).</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/browserslist/browserslist/commit/6fe3614db05b40f9dc1c63588a83d2ada05bae75"><code>6fe3614</code></a> Release 4.16.6 version</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/33ebac933839847a62ede680273449f6cdca1e18"><code>33ebac9</code></a> Update dependencies</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/2128170f231a6c9f462276006e09f302d811df31"><code>2128170</code></a> Add support for npm-shrinkwrap files alongside package-lock (<a href="https://github-redirect.dependabot.com/browserslist/browserslist/issues/595">#595</a>)</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/7cc2aedd0047d800d44aa0259c02b6db1414105c"><code>7cc2aed</code></a> Release 4.16.5 version</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/27e4afdc68798ca93f8c01c5ea6208b4b361a704"><code>27e4afd</code></a> Update dependencies</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/1013a1847931a209c34a704aebc85a8c091286e7"><code>1013a18</code></a> Fix version RegExp</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/b879a1a304def2563f42cc3d3f5711e760662be3"><code>b879a1a</code></a> Use Node.js 16 on CI</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/bd1e9e01c95cad24be706fb11be7d151cd99ed0a"><code>bd1e9e0</code></a> Fix ReDoS (<a href="https://github-redirect.dependabot.com/browserslist/browserslist/issues/593">#593</a>)</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/209adf9e0051fa39a2b25354cffd493300f34b02"><code>209adf9</code></a> Release 4.16.4 version</li>
+<li><a href="https://github.com/browserslist/browserslist/commit/3e2ae3b52daf7f5203247fd4f583b3bda66ea57d"><code>3e2ae3b</code></a> Fix types</li>
+<li>Additional commits viewable in <a href="https://github.com/browserslist/browserslist/compare/4.16.3...4.16.6">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=browserslist&package-manager=npm_and_yarn&previous-version=4.16.3&new-version=4.16.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cactus/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 20:13:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/989" class=".btn">#989</a>
+            </td>
+            <td>
+                <b>
+                    Cleanup electricity-trade example docker containers and fix readme. 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 18:01:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/988" class=".btn">#988</a>
+            </td>
+            <td>
+                <b>
+                    test(cmd-api-server): refactor mTLS test to use tape-promise
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 14:31:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/987" class=".btn">#987</a>
+            </td>
+            <td>
+                <b>
+                    fix(cmd-api-server): drop URI type alt name from self signed TLS cert
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">API_Server</span><span class="chip">Security</span><span class="chip">bug</span>
+            </td>
+            <td>
+                The test verifying mTLS support was failing on NodeJS v16
+with the error below which was traced back to the fact that
+the URL constructor fails with "localhost" as an input at the
+verify server identity phase.
+This seems like a bug in NodeJS, but maybe it works as intended.
+
+TypeError [ERR_INVALID_URL]: Invalid URL: localhost
+    at new NodeError (node:internal/errors:363:5)
+    at onParseError (node:internal/url:537:9)
+    at new URL (node:internal/url:613:5)
+    at node:tls:247:21
+    at Array.forEach (<anonymous>)
+    at Object.checkServerIdentity (node:tls:243:5)
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1551:27)
+    at TLSSocket.emit (node:events:365:28)
+    at TLSSocket._finishInit (node:_tls_wrap:952:8)
+    at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:723:12)
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 14:24:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/986" class=".btn">#986</a>
+            </td>
+            <td>
+                <b>
+                    chore(test): add docker daemon diagnostic logging if a Fabric test fails
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Fabric</span><span class="chip">dependent</span>
+            </td>
+            <td>
+                ## Dependencies
+
+Depends on #985 
+
+## Commit to review
+
+Author: Peter Somogyvari <peter.somogyvari@accenture.com>
+Author Date: Tue May 25 2021 19:23:16 GMT-0700 (Pacific Daylight Time)
+Committer: Peter Somogyvari <peter.somogyvari@accenture.com>
+Committer Date: Tue May 25 2021 19:26:13 GMT-0700 (Pacific Daylight Time) 
+
+chore(test): add docker daemon diagnostic logging if a Fabric test fails
+
+This is one of the test cases that still produces an occasional false
+negative and therefore needs to be investigated.
+
+With this change, when test fails, the containers, images, networks,
+volumes and docker daemon information will be dumped to stdout
+so that it may (or may not) shed some light on the root cause.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 02:31:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/985" class=".btn">#985</a>
+            </td>
+            <td>
+                <b>
+                    feat(test-tooling): containers#logDiagnostics() utility method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                This helper is designed to be used by test cases to dump (hopefully)
+useful information about the docker daemon of the CI runner in
+the event of a test failure.
+
+The idea is that we could potentially nail down the source of the the
+flake we have with the Fabric end to end tests where the AIO container
+fails to start due to unavailable ports.
+Using this to dump information in the tests should at least get us
+closer to the solution to stomping that flake at last.
+
+Also fixed spelling errors that were introduced by a previous commit.
+In the future these kind of issues will be made impossible by the
+new PR merge constraint that we had just introduced (see the mailing
+list post at the time of this writing)
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 02:28:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/980" class=".btn">#980</a>
+            </td>
+            <td>
+                <b>
+                    feat(iroha-testnet): iroha-testnet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                An environment to build and run Iroha testnet for Cactus
+
+Signed-off-by: Takeshi Yonezu <tkyonezu@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-22 16:30:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/979" class=".btn">#979</a>
             </td>
             <td>
@@ -55,122 +426,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-05-20 21:33:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/978" class=".btn">#978</a>
-            </td>
-            <td>
-                <b>
-                    fix(carbon-accounting): deleted incorrect plugin aspect
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #977 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 12:34:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/976" class=".btn">#976</a>
-            </td>
-            <td>
-                <b>
-                    feat(htlc-coordinator): new htlc coordinator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                Resolve #953 
-
-Depends on #582
-Depends on #580 
-Depends on #978
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 10:34:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/972" class=".btn">#972</a>
-            </td>
-            <td>
-                <b>
-                    docs(video): video guide added to build.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                Resolve #413 
-
-Depends on #977 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-19 07:40:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/969" class=".btn">#969</a>
-            </td>
-            <td>
-                <b>
-                    feat(Go-Ethereum Validator): add getNonceHex on Go-Ethereum Validator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Related to Issue #970 
-
-Contents:
-- (main) [Validator] add getNonce as execSyncFunction on Go-Ethereum Validator in order to solve #970.
-- (sub) [car-trade] refactor to use the above function instead of web3 function.
-
-Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-17 14:22:50 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,94 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1210" class=".btn">#1210</a>
+            </td>
+            <td>
+                <b>
+                    BUG FIX: set connections metadata
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Due https://github.com/hyperledger/aries-cloudagent-python/pull/1186#issuecomment-849452360 
+
+There was a bug that does not save the metadata into the records once they were set.
+This PR fixes that bug, updating the connections metadata everywhere.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 11:25:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1209" class=".btn">#1209</a>
+            </td>
+            <td>
+                <b>
+                    Fix exposing wallet storage creds in configuration endpoint.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #1208 
+
+Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 09:19:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1207" class=".btn">#1207</a>
+            </td>
+            <td>
+                <b>
+                    Fix message types of problem report 1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Similar fix with https://github.com/hyperledger/aries-cloudagent-python/pull/1190
+Thanks!
+
+@sklump 
+
+Signed-off-by: Ethan Sung <baegjae@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 07:47:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1204" class=".btn">#1204</a>
             </td>
             <td>
@@ -255,90 +343,6 @@ closes #1108
     </table>
     <div class="right-align">
         Created At 2021-05-20 16:22:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1186" class=".btn">#1186</a>
-            </td>
-            <td>
-                <b>
-                    Tags on connection metadata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                With this PR, It is possible to add tags to connections. The tags are saved as a metadata key-value on the connections record.
-Once the connections have been tagged, it is possible to group them on tags.
-
-The tags are added on `/connections/create-invitation` & `/connections/receive-invitation` via a query parameter called `tags` in the request.  The input is a string, it is possible to add multiple tags if they are separated by commas. 
-
-The tags could be filtered on `/connections` via a query parameter called `tags` in the request. The input is a string, it is possible to filter by multiple tags if they are separated by commas.
-
-**Examples**:
-
-- Create invitation
-
-> Request
-`curl -X POST "http://localhost:8021/connections/create-invitation?tags=tag1%2Ctag3" -H "accept: application/json" -H "Content-Type: application/json" -d "{ }"`
-
-> Response
-`{
-  "connection_id": "8e1d9605-5843-4844-99d1-96141329e006",
-  "invitation": {
-    "@type": "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/invitation",
-    "@id": "1b62e664-a8d9-4c97-bb7a-2ba3b5329ebb",
-    "recipientKeys": [
-      "Gsc9q2FskuKYH2bAMnd3UkQadEkJ4QFwwA8RUdyGqsTo"
-    ],
-    "label": "faber.agent",
-    "serviceEndpoint": "https://0639b9bd3d2a.ngrok.io"
-  },
-  "invitation_url": "https://0639b9bd3d2a.ngrok.io?c_i=eyJAdHlwZSI6ICJkaWQ6c292OkJ6Q2JzTlloTXJqSGlxWkRUVUFTSGc7c3BlYy9jb25uZWN0aW9ucy8xLjAvaW52aXRhdGlvbiIsICJAaWQiOiAiMWI2MmU2NjQtYThkOS00Yzk3LWJiN2EtMmJhM2I1MzI5ZWJiIiwgInJlY2lwaWVudEtleXMiOiBbIkdzYzlxMkZza3VLWUgyYkFNbmQzVWtRYWRFa0o0UUZ3d0E4UlVkeUdxc1RvIl0sICJsYWJlbCI6ICJmYWJlci5hZ2VudCIsICJzZXJ2aWNlRW5kcG9pbnQiOiAiaHR0cHM6Ly8wNjM5YjliZDNkMmEubmdyb2suaW8ifQ=="
-}`
-
-- Filter connections
-
-> Request
-`curl -X GET "http://localhost:8021/connections?tags=tag1" -H "accept: application/json"`
-
-> Response
-`{
-  "results": [
-    {
-      "updated_at": "2021-05-20 12:06:41.865730Z",
-      "created_at": "2021-05-20 12:06:41.865730Z",
-      "accept": "manual",
-      "rfc23_state": "invitation-sent",
-      "their_role": "invitee",
-      "routing_state": "none",
-      "state": "invitation",
-      "invitation_mode": "once",
-      "connection_id": "8e1d9605-5843-4844-99d1-96141329e006",
-      "invitation_key": "Gsc9q2FskuKYH2bAMnd3UkQadEkJ4QFwwA8RUdyGqsTo",
-      "metadata": {
-        "tags": [
-          "tag1",
-          "tag3"
-        ]
-      }
-    }
-  ]
-}`
-
-Based on @burdettadam idea, https://github.com/sicpa-dlab/aries-cloudagent-python/issues/49.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 12:15:11 +0000 UTC
     </div>
 </div>
 
