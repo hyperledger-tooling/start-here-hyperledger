@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/719" class=".btn">#719</a>
+            </td>
+            <td>
+                <b>
+                    Remove sqlite and postgres from rest api feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This removes sqlite and postgres from the sdk's rest-api-actix-web-3
+feature, which will make it possible to conditionally use the sqlite or
+postgresql when using the rest api.
+
+This commit makes BatchList pub, because without pub, it would be
+necessary to put a conditional of the underlying implementations being
+enabled; it seems cleaner to simply make it pub since it does not seem
+intentional to prevent creation of BatchList (which itself is pub).
+
+Features are added to griddle for sqlite/postgres to pull in the
+associated sdk features.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 15:01:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/718" class=".btn">#718</a>
             </td>
             <td>
@@ -413,32 +449,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-05-20 19:28:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/700" class=".btn">#700</a>
-            </td>
-            <td>
-                <b>
-                    Have only one DEFAULT_GRID_PROTOCOL_VERSION const
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Banks <rbanks@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 18:47:42 +0000 UTC
     </div>
 </div>
 

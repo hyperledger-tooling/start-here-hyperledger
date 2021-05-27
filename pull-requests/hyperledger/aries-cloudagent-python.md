@@ -14,6 +14,95 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1213" class=".btn">#1213</a>
+            </td>
+            <td>
+                <b>
+                    Support indy 1.16 predicate restrictions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Still to work out:
+* general WQL (+ `"$and"`) for restrictions in proof request requested attributes/predicates
+* not necessarily relying on these being a list: they can be a (WQL statement) dict or a list of (WQL statement) dicts, each (WQL statement) dict possibly being its own compound WQL statement; e.g., this is a valid restriction:
+```
+{
+  "$and": [
+    {
+      "$or": [
+        {
+          "schema_name": "membership"
+        },
+        {
+          "schema_name": "members"
+        }
+      ]
+    },
+    {
+      "$neq": {
+        "schema_version": "0.1"
+      }
+    },
+    {
+      "issuer_did": "abc123"
+    },
+    {
+      "$not": {
+        "$in": {
+          "attr::name::value": [
+            "joe",
+            "dolly",
+            "bill"
+          ]
+        }
+      }
+    }
+  ]
+}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 18:26:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1212" class=".btn">#1212</a>
+            </td>
+            <td>
+                <b>
+                    Finish prob rept adoption into issue cred present proof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 14:43:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1210" class=".btn">#1210</a>
             </td>
             <td>
@@ -64,37 +153,6 @@ Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
     </table>
     <div class="right-align">
         Created At 2021-05-27 09:19:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1207" class=".btn">#1207</a>
-            </td>
-            <td>
-                <b>
-                    Fix message types of problem report 1.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Similar fix with https://github.com/hyperledger/aries-cloudagent-python/pull/1190
-Thanks!
-
-@sklump 
-
-Signed-off-by: Ethan Sung <baegjae@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 07:47:10 +0000 UTC
     </div>
 </div>
 
@@ -315,34 +373,6 @@ I am surprised all the unit tests passed before: is there a testing pattern I sh
     </table>
     <div class="right-align">
         Created At 2021-05-20 20:33:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1188" class=".btn">#1188</a>
-            </td>
-            <td>
-                <b>
-                    AIP-2 base64url consistency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - In regards to decoding, we handle base64 permissively, passing `urlsafe` as `True`.
-- If `emit_new_didcomm_mime_type` and `emit_new_didcomm_prefix` arguments are set, send everything as base64url [updates `data_base64` accordingly] else leave eveything as it is.
-closes #1108
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 16:22:29 +0000 UTC
     </div>
 </div>
 

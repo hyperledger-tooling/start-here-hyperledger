@@ -324,37 +324,3 @@ First step towards implementing chaincode event listening. A dummy implementatio
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2601" class=".btn">#2601</a>
-            </td>
-            <td>
-                <b>
-                    Maintain order of transactions in the commit notification
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: manish <manish.sethi@gmail.com>
-
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Maintain order of transactions in the commit notification so the gateway can deliver the clients the chaincode events in the same and consistent order.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 18:21:07 +0000 UTC
-    </div>
-</div>
-

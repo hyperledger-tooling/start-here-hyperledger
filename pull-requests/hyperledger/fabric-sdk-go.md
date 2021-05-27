@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/177" class=".btn">#177</a>
+            </td>
+            <td>
+                <b>
+                    Fixed a bug in proposal matcher when querying committed chaincodes. P…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes an error in the proposal matcher with an unexpected order of committed chaincodes returned from a peer. The matcher uses `proto.Equal` which fails to compare the values of slices that are in a different order.   
+Two peers return the same list of the chaincodes in a slice instead of a map, that's why the order can't be guaranteed https://github.com/hyperledger/fabric/blob/main/core/chaincode/lifecycle/scc.go#L620.
+
+Signed-off-by: Vladyslav Kopaihorodskyi <vlad.kopaygorodsky@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 15:50:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/176" class=".btn">#176</a>
             </td>
             <td>
