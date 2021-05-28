@@ -240,34 +240,3 @@ Prettier had some updates to their defaults I think. that's where the other chan
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/291" class=".btn">#291</a>
-            </td>
-            <td>
-                <b>
-                    fix: websocket and fetch fix for browser
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - fix: fetch & websocket browser support
-
-This add support for fetch and websocket in the browser environment. Typings had to be added to prevent errors in the respective outboundtransport
-
-(Not sure if these typings are the correct way)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-21 10:33:08 +0000 UTC
-    </div>
-</div>
-

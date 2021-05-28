@@ -320,31 +320,3 @@ Signed-off-by: sklump <srklump@hotmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1193" class=".btn">#1193</a>
-            </td>
-            <td>
-                <b>
-                    Fix: OOB Invitation against Public DIDs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Now able to create and receive OOB invitations against public DIDs.
-- Fixes not being able to load `IndyDIDResolver`.
-- Implement `supported_did_regex` in `KeyDIDResolver` and `IndyDIDResolver`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-21 09:08:55 +0000 UTC
-    </div>
-</div>
-

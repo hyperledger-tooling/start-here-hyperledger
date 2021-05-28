@@ -264,7 +264,7 @@ Remove processing bottlenecks in yac and in ordering gate.
 1. Migration from async-std to tokio
 2. Spawn runtime per peer
 3. Block sync remove clones - improve performance
-4. Block sync corrected
+4. Block sync corrected - was not working if there were view changes
 5. Chain lockfree structure introduced in WSV
 
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->

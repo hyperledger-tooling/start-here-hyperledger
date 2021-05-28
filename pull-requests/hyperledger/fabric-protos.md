@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/57" class=".btn">#57</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/58" class=".btn">#58</a>
             </td>
             <td>
                 <b>
-                    FABGW-21: Add Gateway ChaincodeEvents service
+                    FABGW-20 Protobuf for Evaluate() endorsingOrgs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                This service supports chaincode event listening in the client API.
+                Add ‘endorsing_organizations’ fields to the gateway protobuf definitions for the Evaluate() method and for supporting offline
+signing
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-19 16:43:07 +0000 UTC
+        Created At 2021-05-28 09:14:43 +0000 UTC
     </div>
 </div>
 
