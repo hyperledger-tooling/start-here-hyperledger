@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/83" class=".btn">#83</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/88" class=".btn">#88</a>
             </td>
             <td>
                 <b>
-                    Virtual channels
+                    Create and Use [eth/channel/errors] 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                Closes #82 
+                Closes #87 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-21 09:04:15 +0000 UTC
+        Created At 2021-05-28 08:35:41 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/80" class=".btn">#80</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/86" class=".btn">#86</a>
             </td>
             <td>
                 <b>
-                    :boom: [channel] Update NewFundingTimeoutError to return a value
+                    Expose BoundContracts ABI
                 </b>
             </td>
         </tr>
@@ -53,21 +53,12 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                - Previously, the function returned pointer to an error. Update it to
-  return a value.
-
-- It is idiomatic to return error types as values. The change also
-  ensures this func is consistent with constructors for other error
-  types.
-
-Closes #73.
-
-Signed-off-by: Manoranjith <ponraj.manoranjitha@in.bosch.com>
+                Closes #41 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-16 19:32:00 +0000 UTC
+        Created At 2021-05-27 13:01:55 +0000 UTC
     </div>
 </div>
 

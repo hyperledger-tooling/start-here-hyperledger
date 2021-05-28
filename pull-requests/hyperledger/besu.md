@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2338" class=".btn">#2338</a>
+            </td>
+            <td>
+                <b>
+                    Fix consensus vulnerability regarding excessively large 1559 fee fields
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+https://github.com/ethereum/pm/issues/321#issuecomment-850230251
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-28 18:08:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2335" class=".btn">#2335</a>
             </td>
             <td>
@@ -325,7 +359,7 @@ The PR fixe this issue using the value of the frame and not of the transaction
 
 - Tested directly with the invalid trace `curl --location --request POST 'http://127.0.0.1:8545' --header 'Content-Type: application/json' --data-raw '{"jsonrpc":"2.0","method":"trace_transaction","params":["0xf0248d795b32193b93d40511a3d7364d070a2ce6f45868e2848d1b0fd08dddc6"],"id":415}'`
 
-- Did some selfdetruct tests to be sure there is regresstion
+- Did some selfdetruct tests to be sure there is no regresstion
 
 
 

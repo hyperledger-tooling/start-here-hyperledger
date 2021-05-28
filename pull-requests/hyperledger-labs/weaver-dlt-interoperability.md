@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/59" class=".btn">#59</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/62" class=".btn">#62</a>
             </td>
             <td>
                 <b>
-                    ClaimAssetUsingContractId TestCase fix
+                    Allow interopcc to run in K8s as external service
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                
+                1. Added Dockerfile to build the image for interopcc.
+2. Also moved protos build command in a script, which can be called by makefile as well as Dockerfile.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-21 06:30:43 +0000 UTC
+        Created At 2021-05-27 16:11:29 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +42,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/58" class=".btn">#58</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/61" class=".btn">#61</a>
             </td>
             <td>
                 <b>
-                    Refactoring Logging and Error Returning Code in Fabric Interop CC
+                    app cc wrapper code implementing the interface functions in base class
                 </b>
             </td>
         </tr>
@@ -53,12 +55,12 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                Partly fixes https://github.com/hyperledger-labs/weaver-dlt-interoperability/issues/50
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-20 22:05:09 +0000 UTC
+        Created At 2021-05-26 22:55:19 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +68,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/57" class=".btn">#57</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    Asset Exchange Command Added in Fabric-Cli
+                    wrapper functions for fungible assets and base-class for non-fungible assets 
                 </b>
             </td>
         </tr>
@@ -79,121 +81,19 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                1. Asset Exchange Command Added in fabric-cli.
-2. End to end tested, and bug fixes.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 08:06:05 +0000 UTC
-    </div>
-</div>
+                Changes consist of the following:
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/56" class=".btn">#56</a>
-            </td>
-            <td>
-                <b>
-                    use ECert as the identity for transaction creator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-19 22:50:24 +0000 UTC
-    </div>
-</div>
+- Added non-fungible asset operations using contractId into base-class (i.e., asset_locks.go) and base-class contract (i.e., asset_locks_contract.go)
+- Test cases for the changes of non-fungible asset operations (i.e., changes into asset_locks_test.go)
+- Wrapper functions for the fungible/token assets (i.e., changes into assetmgmt.go)
+- Refactoring of the base class code
+- Minor edits to few other files
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/55" class=".btn">#55</a>
-            </td>
-            <td>
-                <b>
-                    changes to receive serialized protos in base64 and validation on locker/recipient
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-19 10:40:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/54" class=".btn">#54</a>
-            </td>
-            <td>
-                <b>
-                    SimpleAsset Bug Fix and Fabric-cli updated to initialize Asset networks.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. A bug in simpleasset where it was never creating new wallets for users has been fixed.
-2. Added command to add/register users to fabric-network who can be participate in asset exchange: `fabric-cli user add`.
-3. Added command to initialise the bond/token networks: `fabric-cli configure asset add`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-18 10:01:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/53" class=".btn">#53</a>
-            </td>
-            <td>
-                <b>
-                    Minor Changes in SimpleAsset Chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Create function accepts date in string  format to be convenient.
-2. Renamed FaceValue to Value in TokenAsset.
-3. Updated to Go 1.15.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-17 10:35:34 +0000 UTC
+        Created At 2021-05-23 20:55:43 +0000 UTC
     </div>
 </div>
 
