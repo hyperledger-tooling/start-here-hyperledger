@@ -360,39 +360,3 @@ It will help in making client libraries and working with other languages via aut
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1028" class=".btn">#1028</a>
-            </td>
-            <td>
-                <b>
-                    Introduce GitHub Actions Iroha1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-### Description of the Change
-
-## closes #948
-
-### Benefits
-
-Checks with GitHub Actions
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-21 06:36:55 +0000 UTC
-    </div>
-</div>
-

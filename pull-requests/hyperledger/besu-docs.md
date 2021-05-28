@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/718" class=".btn">#718</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+typo
+### For content changes
+
+- [x] Doc content
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-28 04:03:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/717" class=".btn">#717</a>
             </td>
             <td>
