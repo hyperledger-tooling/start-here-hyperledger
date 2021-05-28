@@ -303,9 +303,31 @@ bob
 
 ## PR description
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+Traces could be false by displaying a bad value transferred during a call
+```
+→ CALL from=0xe793...635d to=0x0000...992c value=0 ETC
+        → CALL from=0x0000...992c to=0xe5c6...52cd value=0.01 ETC
+            → SUICIDE from=0xe5c6...52cd to=0x0000...992c value=0 ETC
+        → CALL from=0x0000...992c to=0x937e...c343 value=0.01 ETC
+            → SUICIDE from=0x937e...c343 to=0x0000...992c value=0 ETC
+        → CALL from=0x0000...992c to=0xc1c2...2593 value=0.01 ETC
+            → SUICIDE from=0xc1c2...2593 to=0x0000...992c value=0 ETC
+```
+This traces are invalid because of an invalid value: 
+```
+→ CALL from=0x0000...992c to=0xe5c6...52cd value=0.01 ETC
+→ CALL from=0x0000...992c to=0x937e...c343 value=0.01 ETC
+→ CALL from=0x0000...992c to=0xc1c2...2593 value=0.01 ETC
+```
+The PR fixe this issue using the value of the frame and not of the transaction
+
+## Tests performed
+
+- Tested directly with the invalid trace `curl --location --request POST 'http://127.0.0.1:8545' --header 'Content-Type: application/json' --data-raw '{"jsonrpc":"2.0","method":"trace_transaction","params":["0xf0248d795b32193b93d40511a3d7364d070a2ce6f45868e2848d1b0fd08dddc6"],"id":415}'`
+
+- Did some selfdetruct tests to be sure there is regresstion
+
+
 
 ## Changelog
 

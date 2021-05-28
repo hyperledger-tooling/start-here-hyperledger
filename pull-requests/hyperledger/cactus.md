@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/994" class=".btn">#994</a>
+            </td>
+            <td>
+                <b>
+                    test: container shutdown hook prior to starting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">dependent</span>
+            </td>
+            <td>
+                ## Dependencies
+
+Depends on #993 
+
+## Commit to review
+
+Author: Peter Somogyvari <peter.somogyvari@accenture.com>
+Committer: Peter Somogyvari <peter.somogyvari@accenture.com>
+Date: Fri May 28 2021 00:04:09 GMT-0700 (Pacific Daylight Time) 
+
+test: container shutdown hook prior to starting
+
+Figured out from the additional logs we recently added that
+the reason why the Fabric 1.4.x AIO image fails to start for
+the 1.4.x tests is because a previously ran test (2.x)
+crashes and never stops it's container which then ends up
+hogging the ports which cannot be randomized for the
+Fabric AIO images yet.
+
+So, adding more logging here and also ensuring that the
+test finish hooks that are responsible for shutting down
+the containers are registered prior to calling
+the start method on the test container classes so that
+if the start method hangs the container will still go
+away as it should.
+
+This is what gave me the clue from the CI logs:
+
+    # BEFORE runs tx on a Fabric v2.2.0 ledger
+    Detected current process to be running inside a Github Action. Pruning all docker resources...
+    [2021-05-28T01:23:31.310Z] DEBUG (Containers#pruneDockerResources()): Finished pruning all docker resources. Outcome: {
+      containers: { ContainersDeleted: null, SpaceReclaimed: 0 },
+      images: { ImagesDeleted: null, SpaceReclaimed: 0 },
+      networks: { NetworksDeleted: null },
+      volumes: {
+        VolumesDeleted: [
+          '10afa6c6071a4e362324ec7eaabedbbee088dedc0b0e182880ca4ccc6430b998',
+          [length]: 1
+        ],
+        SpaceReclaimed: 1915254089
+      }
+    }
+    ok 1 Pruning didn't throw OK
+    # runs tx on a Fabric v2.2.0 ledger
+    # test count(1) != plan(null)
+    # failed 1 test
+not ok 62 - packages/cactus-plugin-ledger-connector-fabric/src/test/typescript/integration/fabric-v2-2-x/run-transaction-endpoint-v1.test.ts # time=3600276.779ms
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-28 07:13:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/993" class=".btn">#993</a>
             </td>
             <td>
