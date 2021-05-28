@@ -348,31 +348,3 @@ Signed-off-by: sklump <srklump@hotmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1190" class=".btn">#1190</a>
-            </td>
-            <td>
-                <b>
-                    Fix bug with problem report 2.0 handler and message family
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes a bug caused by inconsistent naming that would result in problem reports not being handled correctly by the receiving agent for `issue-credential-2.0`.
-
-I am surprised all the unit tests passed before: is there a testing pattern I should be looking into to add one, or is this something that will/should be caught by the test harness?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 20:33:36 +0000 UTC
-    </div>
-</div>
-

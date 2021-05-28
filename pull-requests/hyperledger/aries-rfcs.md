@@ -114,31 +114,3 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/673" class=".btn">#673</a>
-            </td>
-            <td>
-                <b>
-                    Add note [21] on Verify the verifier
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                More recent reference with more detailed elaborations.
-
-Signed-off-by: Oskar van Deventer <oskar.vandeventer@tno.nl>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 23:40:27 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/146" class=".btn">#146</a>
+            </td>
+            <td>
+                <b>
+                    Add MerkleRadixLeafReader trait
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This trait provides a generic leaf listing api, that matches the key-value backed implementation's provided method.
+
+Additionally, implements this trait on the existing `kv::MerkleState`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 19:41:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/145" class=".btn">#145</a>
             </td>
             <td>

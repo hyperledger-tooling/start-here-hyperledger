@@ -18,17 +18,16 @@ permalink: /pull-requests/hyperledger/aries-framework-go
             </td>
             <td>
                 <b>
-                    WIP RFC0593: REST API
+                    feat: RFC0593 REST API
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">aip 2.0</span>
             </td>
             <td>
-                
-
+                Signed-off-by: George Aristy <george.aristy@securekey.com>
             </td>
         </tr>
     </table>

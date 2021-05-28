@@ -143,31 +143,3 @@ This does not fix the flaky DIDExchange test in AFGO. I cannot duplicate it loca
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/240" class=".btn">#240</a>
-            </td>
-            <td>
-                <b>
-                    Afgo Backchannel Refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                AFGO backchannel refactored DIDExchange and Issue Credential support.  A new issue credential test is added to the afgo daily runset. 
-
-Support for Present Proof is not in this PR. It will come next. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 20:50:51 +0000 UTC
-    </div>
-</div>
-
