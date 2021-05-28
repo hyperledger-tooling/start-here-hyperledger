@@ -47,7 +47,7 @@ without enabling the associated endpoints.
             </td>
             <td>
                 <b>
-                    Add "backup" as dependency for "rest-api-actix-web-3"
+                    Add "backend" as dependency for "rest-api-actix-web-3"
                 </b>
             </td>
         </tr>
@@ -472,35 +472,6 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-05-24 18:50:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/706" class=".btn">#706</a>
-            </td>
-            <td>
-                <b>
-                    Update copyright for pike modules
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                All of these files were substantially updated in 2021 and the copyright
-header needs to reflect that.
-
-Signed-off-by: Ryan Banks <rbanks@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-21 16:25:47 +0000 UTC
     </div>
 </div>
 

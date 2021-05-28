@@ -139,32 +139,3 @@ Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2801" class=".btn">#2801</a>
-            </td>
-            <td>
-                <b>
-                    fix: BBS+ JWK values of crv and kty
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updated as per https://w3c-ccg.github.io/ldp-bbs2020/#example-4-jwk-encoded-bls12-381-g2-key
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-21 14:14:56 +0000 UTC
-    </div>
-</div>
-

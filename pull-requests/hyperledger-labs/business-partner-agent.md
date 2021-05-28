@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/421" class=".btn">#421</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/435" class=".btn">#435</a>
             </td>
             <td>
                 <b>
-                    Add support for OIDC/Keycloak security.
+                    Refresh partners on new partner event and small fixes
                 </b>
             </td>
         </tr>
@@ -27,26 +27,16 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                Add support for OAuth2/OpenID/Keycloak security.
-This does not change the current implementation.
+                - refresh partners on new partner event.
+- Fix in partnerUtils.
+- Layout of NewMessageIcon
 
-See my comments about the necessary workflow to make this work in Keycloak and Local and VUE.
-
-I did not want to add any additional Keycloak specific libraries to VUE or Java.
-
-Important, this is an additional configuration file (`security-keycloak.yml` that gets loaded AFTER the `application.yml`, so when standing up a container, one must specify the configuration files to load and their order:
-
-```
--Dmicronaut.config.files=classpath:application.yml,classpath:security-keycloak.yml
-```
-
-Not supplying this runs the application as normal (with only the local user authentication).
-
+Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-20 01:30:53 +0000 UTC
+        Created At 2021-05-28 14:22:02 +0000 UTC
     </div>
 </div>
 
@@ -54,11 +44,11 @@ Not supplying this runs the application as normal (with only the local user auth
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/420" class=".btn">#420</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/434" class=".btn">#434</a>
             </td>
             <td>
                 <b>
-                    fixed npe, fixed can not connect to none bpa
+                    Refactor Helm Charts add support for Keycloak and Schemas
                 </b>
             </td>
         </tr>
@@ -67,12 +57,125 @@ Not supplying this runs the application as normal (with only the local user auth
                 
             </td>
             <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+                Refactored the helm charts.
+
+I have moved `bpa.schemas` into it's own file, and that will have to be loaded via `-Dmicronaut.config.files=classpath:application.yml,classpath:schemas.yml`. But this allows us to create a ConfigMap that contains only schema information (as yaml) that can be loaded via helm charts (mounted as a volume). Adding schemas to runtime is controlled with the values file: `schemas.enabled=true`.
+
+`application.yml` and `security-keycloak.yml` can be configured with ENV VARS, so the ConfigMaps for application and keycloak are Name/Value pairs and those ConfigMaps are loaded as env vars.  `security-keycloak.yml` is optional and controlled with the values file: `keycloak.enabled=true`.
+
+TODO:
+[] add https secured public routes
+[] test the schemas config loading
+[] test the docker image configuration works for local development
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-17 15:20:57 +0000 UTC
+        Created At 2021-05-28 02:24:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/430" class=".btn">#430</a>
+            </td>
+            <td>
+                <b>
+                    fix value
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Frank Bernhardt <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 16:21:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/429" class=".btn">#429</a>
+            </td>
+            <td>
+                <b>
+                    fix given seed behaviour
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Frank Bernhardt <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-26 15:46:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/426" class=".btn">#426</a>
+            </td>
+            <td>
+                <b>
+                    Prevent resolved label and did to be overwitten by subsequent events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 15:45:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/425" class=".btn">#425</a>
+            </td>
+            <td>
+                <b>
+                    Feature/release helm chart new
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-25 13:23:08 +0000 UTC
     </div>
 </div>
 

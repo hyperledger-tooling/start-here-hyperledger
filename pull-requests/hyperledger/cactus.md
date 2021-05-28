@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/cactus
         </tr>
         <tr>
             <td>
-                <span class="chip">Developer_Experience</span><span class="chip">dependent</span>
+                <span class="chip">Developer_Experience</span>
             </td>
             <td>
                 ## Dependencies
@@ -102,7 +102,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
             <td>
                 This is a workaround for the warnings that we've been getting
-about the disk of the GHA runners being full.
+about the disk of the GHA runners being full. 
 
 The trick is to delete the Android SDK and .NET from the runner
 because we don't need any of those and it gives us a cozy 30 GB

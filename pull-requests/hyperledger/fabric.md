@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2614" class=".btn">#2614</a>
+            </td>
+            <td>
+                <b>
+                    Add block-number along with validation code for a given TXID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: manish <manish.sethi@gmail.com>
+
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+This allows gateway to pass on additional relevant info to client and for using it for logging that could be helpful in debugging
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-28 17:26:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2613" class=".btn">#2613</a>
             </td>
             <td>
@@ -316,7 +348,7 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
             </td>
             <td>
                 <b>
-                    FABGW-21: Return block number in CommitStatusResponse
+                    FABGW-21: Realtime implementation of ChaincodeEvents service
                 </b>
             </td>
         </tr>
@@ -325,9 +357,7 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
                 
             </td>
             <td>
-                Refactor Gateway's CommitStatus service in line with updated protobufs, so the returned CommitStatusResponse message includes the block number in which the transaction committed.
-
-First step towards implementing chaincode event listening. A dummy implementation of that service that returns an error is included.
+                Initial implementation of Fabric Gateway's ChaincodeEvents service, allowing only listening for realtime chaincode events.
             </td>
         </tr>
     </table>
