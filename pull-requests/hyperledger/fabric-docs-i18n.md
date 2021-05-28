@@ -93,33 +93,3 @@ Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/426" class=".btn">#426</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Translate "videos.rst"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">jaJP-docs-ongoing</span>
-            </td>
-            <td>
-                This patch translates "Tutorials >> Videos" into Japanese.
-
-Resolves #211
-
-Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 22:58:57 +0000 UTC
-    </div>
-</div>
-

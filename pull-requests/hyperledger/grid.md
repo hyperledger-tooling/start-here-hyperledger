@@ -14,6 +14,146 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/726" class=".btn">#726</a>
+            </td>
+            <td>
+                <b>
+                    Add feature guards for each REST API endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds several features which guard the REST API endpoint; this
+will allow the daemon processes to individually pull in the specific
+endpoints supported. It also allows enabling the underlying features
+without enabling the associated endpoints.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 21:05:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/725" class=".btn">#725</a>
+            </td>
+            <td>
+                <b>
+                    Add "backup" as dependency for "rest-api-actix-web-3"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This was an error in the dependency list for rest-api-actix-web-3 and
+isn't intended to be a functional change (other than fixing compilation
+if specifying this feature in isolation).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 21:05:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/724" class=".btn">#724</a>
+            </td>
+            <td>
+                <b>
+                    Remove newline from error in cli/action/product.rs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also wrap ling at 100 characters.
+
+Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 19:56:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/723" class=".btn">#723</a>
+            </td>
+            <td>
+                <b>
+                    Small cleanups for the grid daemon
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 19:34:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/722" class=".btn">#722</a>
+            </td>
+            <td>
+                <b>
+                    Update copyright headers in `splinter` module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the copyright headers of files in the `splinter`
+module to reflect the current year.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 19:34:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/719" class=".btn">#719</a>
             </td>
             <td>
@@ -394,61 +534,6 @@ Signed-off-by: Kevin Johnson <kevin_johnson@cargill.com>
     </table>
     <div class="right-align">
         Created At 2021-05-21 02:30:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/704" class=".btn">#704</a>
-            </td>
-            <td>
-                <b>
-                    Fix typos in Pike smart contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change fixes several typos present in the Pike smart contract's
-`handler` module.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 20:14:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/702" class=".btn">#702</a>
-            </td>
-            <td>
-                <b>
-                    Fix  typos and formatting issues in Grid Pike smart contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-20 19:28:05 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2613" class=".btn">#2613</a>
+            </td>
+            <td>
+                <b>
+                    Update the Building on GitHub instructions to reflect UI changes in readthedocs.org
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+The current instructions reference actions that are no longer available on readthedocs.org. Users cannot “create a project” they can only import one. The new instructions utilize the automatic configuration that occurs when you import a project. Users no longer have to manually set up the webhook, it will be done for them. These new instructions ask the user to verify that everything is set up correctly, and uncheck the “pull request” trigger, as it was not set to be configured in the original instructions.
+
+#### Additional details
+
+Preview of documentation can be found here: https://tlalka-fabric.readthedocs.io/en/latest/docs_guide.html
+
+#### Related issues
+
+NA
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-27 20:14:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2610" class=".btn">#2610</a>
             </td>
             <td>
