@@ -39,29 +39,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/119" class=".btn">#119</a>
-            </td>
-            <td>
-                <b>
-                    Delete launch.json
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                unused configuration
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-21 04:10:34 +0000 UTC
-    </div>
-</div>
-
