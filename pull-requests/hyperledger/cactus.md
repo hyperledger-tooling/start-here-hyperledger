@@ -567,31 +567,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/980" class=".btn">#980</a>
-            </td>
-            <td>
-                <b>
-                    feat(iroha-testnet): iroha-testnet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                An environment to build and run Iroha testnet for Cactus
-
-Signed-off-by: Takeshi Yonezu <tkyonezu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-22 16:30:26 +0000 UTC
-    </div>
-</div>
-
