@@ -93,29 +93,3 @@ Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/428" class=".btn">#428</a>
-            </td>
-            <td>
-                <b>
-                    [pt_BR] translate advice_for_writers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Pedro Matias de Araujo <pedrom.araujo@outlook.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-21 21:18:29 +0000 UTC
-    </div>
-</div>
-

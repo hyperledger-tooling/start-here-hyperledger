@@ -113,33 +113,3 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/241" class=".btn">#241</a>
-            </td>
-            <td>
-                <b>
-                    PR240 recommended fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Updated based on recommendations by @TimoGlastra. 
-
-This does not fix the flaky DIDExchange test in AFGO. I cannot duplicate it locally enough to debug. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-21 21:30:47 +0000 UTC
-    </div>
-</div>
-

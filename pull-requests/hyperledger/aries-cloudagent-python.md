@@ -241,30 +241,3 @@ Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1199" class=".btn">#1199</a>
-            </td>
-            <td>
-                <b>
-                    fix cascading problem report, error state failures
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Sorry about that
-Signed-off-by: sklump <srklump@hotmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-21 21:44:10 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/437" class=".btn">#437</a>
+            </td>
+            <td>
+                <b>
+                    fix helm semantic versioning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                latest version was not correctly semantic versioned
+
+Signed-off-by: Frank Bernhardt <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-28 20:32:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/435" class=".btn">#435</a>
             </td>
             <td>
@@ -54,7 +82,7 @@ Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Infrastructure</span><span class="chip">frontend</span>
             </td>
             <td>
                 Refactored the helm charts.
@@ -63,10 +91,8 @@ I have moved `bpa.schemas` into it's own file, and that will have to be loaded v
 
 `application.yml` and `security-keycloak.yml` can be configured with ENV VARS, so the ConfigMaps for application and keycloak are Name/Value pairs and those ConfigMaps are loaded as env vars.  `security-keycloak.yml` is optional and controlled with the values file: `keycloak.enabled=true`.
 
-TODO:
-[] add https secured public routes
-[] test the schemas config loading
-[] test the docker image configuration works for local development
+Added in new templates for creating Openshift routes. These are optional and must be enabled and ingresses disabled. Was having lots of issues getting secured routes created using the ingress templates, this seemed easier.
+
             </td>
         </tr>
     </table>
