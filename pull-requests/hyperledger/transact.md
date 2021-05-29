@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/149" class=".btn">#149</a>
+            </td>
+            <td>
+                <b>
+                    Add SQL operations for new SQL-backed merkle radix implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a set of operations that will support the SQL-backed merkle radix state implementation.  
+
+A future PR will implement the radix tree over a sqlite db using these operations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-28 21:45:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/148" class=".btn">#148</a>
+            </td>
+            <td>
+                <b>
+                    Remove the clean dependency from just build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To get the old behavior, run "just clean; just build". This change makes
+the clean optional, which is a more desirable developer workflow.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-28 20:08:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/147" class=".btn">#147</a>
+            </td>
+            <td>
+                <b>
+                    Update the semver dependency from 0.11 to 1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This version was recently released and this change was motivated solely to
+track the most recent version.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-28 20:05:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/146" class=".btn">#146</a>
             </td>
             <td>
@@ -177,59 +259,6 @@ and the workload stops
     </table>
     <div class="right-align">
         Created At 2021-05-26 21:58:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/140" class=".btn">#140</a>
-            </td>
-            <td>
-                <b>
-                    Create command workload
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR creates a Command family workload that can be run using the `transact workload` CLI command
-
-- Add `command` as a workload type to the transact workload subcommand
-- Update WorkloadAction to handle command workloads
-- Implement `CommandGeneratingIter`, `CommandTransactionWorkload` and `CommandBatchWorkload` which work together to create the command family workload
-
-
-### **Testing:**
-1. Start two splinter nodes with the experimental feature "back-pressure"
-2. Create a circuit between the nodes, ensure that the scabbard version is set to 2 when creating the circuit
-3. Use scabbard CLI to upload the command smart contract
-4. Use the transact CLI to start a command workload, for example:
-```
-transact workload --targets http://localhost:8085/scabbard/<circuit-id>/<service-id> \
---key <private-key-path> \
---target-rate 5 \
---update 2 \
---workload command \
---seed 10 \
--vv
-```
-Observe splinterd logs to see command family transactions being executed
-Note: Because one of the possible commands is `return_invalid` occasionally the logs will show:
-```
-T["StaticExecutionAdapter"] INFO [sawtooth_sabre::wasm_executor::wasm_externals] InvalidTransaction: 'return_invalid' command mock error message
-...
-T["consensus-gsAA"] ERROR [splinter::consensus::two_phase::v2] Error while creating proposal: proposal manager error occurred: scabbard state error: transaction failed: "Wasm contract returned invalid transaction: command, 1.0"
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-21 23:08:54 +0000 UTC
     </div>
 </div>
 

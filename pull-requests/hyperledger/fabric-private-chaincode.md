@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/592" class=".btn">#592</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/593" class=".btn">#593</a>
             </td>
             <td>
                 <b>
@@ -33,7 +33,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-28 17:18:19 +0000 UTC
+        Created At 2021-05-28 23:18:03 +0000 UTC
     </div>
 </div>
 

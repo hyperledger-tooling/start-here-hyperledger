@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2616" class=".btn">#2616</a>
+            </td>
+            <td>
+                <b>
+                    fix duplicate entry in code snippet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Chris Gabriel <chris_gabriel_98@yahoo.com>
+
+Code snippet had duplicate export.
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+Fix duplicate export entry in code snippet.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-28 22:32:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2615" class=".btn">#2615</a>
+            </td>
+            <td>
+                <b>
+                    Update Building docs to reflect UI changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update the Building on GitHub instructions
+to reflect UI changes in readthedocs.org
+
+Signed-off-by: Asher T. Scott <ashertlalka@gmail.com>
+Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-28 21:16:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2614" class=".btn">#2614</a>
             </td>
             <td>
@@ -39,46 +106,6 @@ This allows gateway to pass on additional relevant info to client and for using 
     </table>
     <div class="right-align">
         Created At 2021-05-28 17:26:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2613" class=".btn">#2613</a>
-            </td>
-            <td>
-                <b>
-                    Update the Building on GitHub instructions to reflect UI changes in readthedocs.org
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-The current instructions reference actions that are no longer available on readthedocs.org. Users cannot “create a project” they can only import one. The new instructions utilize the automatic configuration that occurs when you import a project. Users no longer have to manually set up the webhook, it will be done for them. These new instructions ask the user to verify that everything is set up correctly, and uncheck the “pull request” trigger, as it was not set to be configured in the original instructions.
-
-#### Additional details
-
-Preview of documentation can be found here: https://tlalka-fabric.readthedocs.io/en/latest/docs_guide.html
-
-#### Related issues
-
-NA
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 20:14:25 +0000 UTC
     </div>
 </div>
 

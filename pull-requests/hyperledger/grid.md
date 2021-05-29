@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/728" class=".btn">#728</a>
+            </td>
+            <td>
+                <b>
+                    Remove "pub use" and make all diesel modules pub(crate)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-28 22:03:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/727" class=".btn">#727</a>
+            </td>
+            <td>
+                <b>
+                    Rename a few sdk modules to their singular form
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Renames products, locations, schemas to product, location, schema.
+
+This is not intended to have any functional changes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-28 19:10:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/726" class=".btn">#726</a>
             </td>
             <td>
