@@ -433,36 +433,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/240" class=".btn">#240</a>
-            </td>
-            <td>
-                <b>
-                    BE-855 Stop unnecessary sync process triggered by FabricEvent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
-
-This change includes:
-* Fixed unintended asynchronous function calls
-* Change block synchronization by FabricEvent to start from the current block (Unintentionally multiple block sync processes had been triggered at bootup)
-* Introduced immediate invoked function exression (IIFE) into some initialization steps of SyncPlatform 
-* Add a step for sync up of chaincode table to synchNetworkConfigToDB method (Some transactions included in block data hadn't been counted as transaction for each chaincode until chaincode table is updated by service discovery )
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-23 12:52:32 +0000 UTC
-    </div>
-</div>
-
