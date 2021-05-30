@@ -451,6 +451,13 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
+
+This change includes:
+* Fixed unintended asynchronous function calls
+* Change block synchronization by FabricEvent to start from the current block (Unintentionally multiple block sync processes had been triggered at bootup)
+* Introduced immediate invoked function exression (IIFE) into some initialization steps of SyncPlatform 
+* Add a step for sync up of chaincode table to synchNetworkConfigToDB method (Some transactions included in block data hadn't been counted as transaction for each chaincode until chaincode table is updated by service discovery )
+
             </td>
         </tr>
     </table>
