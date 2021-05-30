@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/440" class=".btn">#440</a>
+            </td>
+            <td>
+                <b>
+                    add json schema for some helm values
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allow to use forms for helm deployments
+
+Signed-off-by: Frank Bernhardt <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-30 06:28:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/439" class=".btn">#439</a>
+            </td>
+            <td>
+                <b>
+                    Merge pull request #1 from hyperledger-labs/master
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                update to origin master
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-30 04:36:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/438" class=".btn">#438</a>
+            </td>
+            <td>
+                <b>
+                    Merge pull request #1 from hyperledger-labs/master
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                update to origin master
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-30 04:31:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/437" class=".btn">#437</a>
             </td>
             <td>
