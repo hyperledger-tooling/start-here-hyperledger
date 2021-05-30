@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/249" class=".btn">#249</a>
+            </td>
+            <td>
+                <b>
+                    [#248 Add create network page]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                You can create a network by this page
+
+Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-30 12:10:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/247" class=".btn">#247</a>
             </td>
             <td>
