@@ -90,36 +90,3 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/60" class=".btn">#60</a>
-            </td>
-            <td>
-                <b>
-                    wrapper functions for fungible assets and base-class for non-fungible assets 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changes consist of the following:
-
-- Added non-fungible asset operations using contractId into base-class (i.e., asset_locks.go) and base-class contract (i.e., asset_locks_contract.go)
-- Test cases for the changes of non-fungible asset operations (i.e., changes into asset_locks_test.go)
-- Wrapper functions for the fungible/token assets (i.e., changes into assetmgmt.go)
-- Refactoring of the base class code
-- Minor edits to few other files
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-23 20:55:43 +0000 UTC
-    </div>
-</div>
-
