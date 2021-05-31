@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/724" class=".btn">#724</a>
+            </td>
+            <td>
+                <b>
+                    Add Prometheus hostname to list of allowed hosts.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Pull request checklist
+
+### Before creating the pull request
+
+Make sure that:
+
+- [x] [all commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [ ] you read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Contributing+to+documentation).
+- [x] you have [tested your changes locally](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewTheDocumentation) before submitting them to the community for review.
+
+## Describe the change
+
+Update the metrics documentation to mention that you must add the metrics hostname to the `--host-allowlist` if Prometheus is not pulling metrics from localhost
+
+## Issue fixed
+
+Fixes #723 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-31 00:21:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/722" class=".btn">#722</a>
             </td>
             <td>

@@ -62,34 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/429" class=".btn">#429</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Translate "developapps/wallet.md"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">jaJP-docs-ongoing</span>
-            </td>
-            <td>
-                This patch translates "Developing Applications >> Application design
-elements >> Wallet" into Japanese.
-
-Resolves #226
-
-Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-24 00:28:37 +0000 UTC
-    </div>
-</div>
-
