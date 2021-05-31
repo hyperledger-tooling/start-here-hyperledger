@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/90" class=".btn">#90</a>
+            </td>
+            <td>
+                <b>
+                    [backend/eth/channel] Fix BlockTimeout test.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Make the `TestBlockTimeout_Wait/normalWait` stable for CI.  
+Example failure: https://github.com/hyperledger-labs/go-perun/runs/2692568029?check_suite_focus=true#step:4:89
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-31 14:34:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/89" class=".btn">#89</a>
             </td>
             <td>
