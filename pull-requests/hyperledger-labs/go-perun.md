@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/89" class=".btn">#89</a>
+            </td>
+            <td>
+                <b>
+                    Use EventSub instead of Filter/Watch.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Draft until #36 is merged. Closes #84 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-31 11:10:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/88" class=".btn">#88</a>
             </td>
             <td>

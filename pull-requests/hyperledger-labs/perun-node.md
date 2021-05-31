@@ -14,6 +14,148 @@ permalink: /pull-requests/hyperledger-labs/perun-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/188" class=".btn">#188</a>
+            </td>
+            <td>
+                <b>
+                    Add periodic redraw in perunnodetui
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Provide a general summary of your changes in the title above
+
+Please read our contribution guidelines and sign the Contributor License
+Agreement (CLA) before submitting the pull request. Also, check if there are no
+other open pull requests targeting the same issue. -->
+
+#### Description
+<!-- Describe your changes in detail. -->
+- Previously, screens of TUI app are refreshed only on mouse event or
+  keyboard event. Now enable periodic redraw for every "n" secs.
+
+- Also, refactor the signature of eventloop function to make it shorter
+  after adding a new argument.
+
+##### Category
+<!-- Tell us what type of issue does your pull request target.
+You can uncomment one of the following options: -->
+
+<!-- Bug Fix -->
+Improvement
+<!-- Implementation Task -->
+
+##### Relevant issue
+<!-- Provide a link to the related issue. You can use the following keywords
+and the issue number: "fixes", "resolves", "relates to". E.g.: closes #21
+
+We accept only pull requests related to open issues. If you're suggesting a new
+feature, improvement or fixing a bug that is not yet reported, please discuss it in
+an issue before submitting a pull request. -->
+
+#### Testing
+<!-- Tell us how you have tested the changes. -->
+
+perunnodetui component does not have unit tests. When running the app, all data should be automatically updated in real time, even the app is not focused. Visibly, the change in time (in the top right corner) can be observed.
+
+##### Steps to run the tests
+<!-- Describe a set of steps to run the tests relevant to this change. -->
+
+1. 
+2. 
+3.  
+
+#### Checklist 
+<!-- Please check if the pull request fulfils these requirements: -->
+
+- [ ] Name is added to the NOTICE file, if it is not present already.
+- [ ] Changes are rebased onto the target branch.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-31 12:30:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/187" class=".btn">#187</a>
+            </td>
+            <td>
+                <b>
+                    Revise the readme for perunnode TUI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Provide a general summary of your changes in the title above
+
+Please read our contribution guidelines and sign the Contributor License
+Agreement (CLA) before submitting the pull request. Also, check if there are no
+other open pull requests targeting the same issue. -->
+
+#### Description
+<!-- Describe your changes in detail. -->
+- Fix a mistake and revise few sentences.
+- 
+##### Category
+<!-- Tell us what type of issue does your pull request target.
+You can uncomment one of the following options: -->
+
+<!-- Bug Fix -->
+Improvement
+<!-- Implementation Task -->
+
+##### Relevant issue
+<!-- Provide a link to the related issue. You can use the following keywords
+and the issue number: "fixes", "resolves", "relates to". E.g.: closes #21
+
+We accept only pull requests related to open issues. If you're suggesting a new
+feature, improvement or fixing a bug that is not yet reported, please discuss it in
+an issue before submitting a pull request. -->
+
+#### Testing
+<!-- Tell us how you have tested the changes. -->
+
+No code changes.
+
+##### Steps to run the tests
+<!-- Describe a set of steps to run the tests relevant to this change. -->
+
+1. 
+2. 
+3.  
+
+#### Checklist 
+<!-- Please check if the pull request fulfils these requirements: -->
+
+- [x] Name is added to the NOTICE file, if it is not present already.
+- [x] Changes are rebased onto the target branch.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-31 12:28:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/perun-node/pull/186" class=".btn">#186</a>
             </td>
             <td>

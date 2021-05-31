@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/420" class=".btn">#420</a>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/423" class=".btn">#423</a>
             </td>
             <td>
                 <b>
-                    Update crate dependencies to latest solana_rbpf and more
+                    Contract instantiate on Solana
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/solang
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-21 10:50:45 +0000 UTC
+        Created At 2021-05-31 11:59:36 +0000 UTC
     </div>
 </div>
 
