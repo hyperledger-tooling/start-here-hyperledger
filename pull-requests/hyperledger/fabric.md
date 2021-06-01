@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2630" class=".btn">#2630</a>
+            </td>
+            <td>
+                <b>
+                    Fix minor code comment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: manish <manish.sethi@gmail.com>
+
+#### Type of change
+- Improvement
+
+#### Additional details
+Address [comment](https://github.com/hyperledger/fabric/pull/2614#discussion_r642961892) in previous PR
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-01 15:46:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2626" class=".btn">#2626</a>
             </td>
             <td>
@@ -577,66 +610,6 @@ N/A
     </table>
     <div class="right-align">
         Created At 2021-05-25 20:35:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2606" class=".btn">#2606</a>
-            </td>
-            <td>
-                <b>
-                    Optionally disable gossip block forwarding
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit adds a new configuration option to the peer which makes peers
-not forward blocks that they pull from the ordering service.
-
-If all peers in an organization explictly set "peer.deliveryclient.blockGossipEnabled" to false, 
-no peer in the organization gossips blocks to any other peer in that organization.
-
-Change-Id: I5d9b278ae72f239129827c044fa78179f6ba87ab
-Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-25 20:11:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2604" class=".btn">#2604</a>
-            </td>
-            <td>
-                <b>
-                    FABGW-21: Realtime implementation of ChaincodeEvents service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Initial implementation of Fabric Gateway's ChaincodeEvents service, allowing only listening for realtime chaincode events.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-25 17:42:43 +0000 UTC
     </div>
 </div>
 

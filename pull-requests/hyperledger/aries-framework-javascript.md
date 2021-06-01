@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/300" class=".btn">#300</a>
+            </td>
+            <td>
+                <b>
+                    Debug mediation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                passing test in e2e tests that establishes a mediation relationship. This includes needed code for mediation server-side as well as client-side. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-01 17:03:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/299" class=".btn">#299</a>
+            </td>
+            <td>
+                <b>
+                    fix: use both thread id and connection id
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Using only the thread id gives errors when issuing or proving to yourself as there are multiple records for a single thread id. This retrieves records by both thread id an connection id. this also removes the requirement to check if the record has the correct connection id.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-01 13:43:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/297" class=".btn">#297</a>
             </td>
             <td>
@@ -211,32 +263,6 @@ Prettier had some updates to their defaults I think. that's where the other chan
     </table>
     <div class="right-align">
         Created At 2021-05-25 20:58:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/292" class=".btn">#292</a>
-            </td>
-            <td>
-                <b>
-                    docs: Update React Native docs with known errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I've found a few errors when trying the latest version of AFJ with React Native 0.64 and Hermes JS engine. I would say nothing serious, but it could be good to share it in docs at least.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-25 08:17:37 +0000 UTC
     </div>
 </div>
 

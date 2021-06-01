@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/284" class=".btn">#284</a>
+            </td>
+            <td>
+                <b>
+                    Rebuild Cargo.lock
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-31 12:47:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/282" class=".btn">#282</a>
             </td>
             <td>
@@ -105,38 +131,6 @@ Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
     </table>
     <div class="right-align">
         Created At 2021-05-25 20:36:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/279" class=".btn">#279</a>
-            </td>
-            <td>
-                <b>
-                    Refactor connection state machine to expose transition methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                - Previously in order to invoke transition/action on message, the caller of Connection FSM API had to call step function with `DidExchangeMessages` variant, representing the desired FSM transition. 
-
-- This PR modifies the API such that each transition is represented by a method defined on Connection FSM.
-
-- This has benefits as more complex arguments (for example trait objects, impl) can be passed down into transition, as opposed what could been previously injected into structure arguments within the `DidExchangeMessages` variants.
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-24 14:52:04 +0000 UTC
     </div>
 </div>
 

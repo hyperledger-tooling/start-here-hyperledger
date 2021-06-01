@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/151" class=".btn">#151</a>
+            </td>
+            <td>
+                <b>
+                    Backport - Update semver dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update sever from 0.9 to 1.0
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-01 15:20:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/149" class=".btn">#149</a>
             </td>
             <td>
@@ -46,7 +72,7 @@ A future PR will implement the radix tree over a sqlite db using these operation
             </td>
             <td>
                 <b>
-                    Remove the clean dependency from just build
+                    Remove the clean dependency from just lint
                 </b>
             </td>
         </tr>

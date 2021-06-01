@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/51" class=".btn">#51</a>
             </td>
             <td>
                 <b>
-                    21.1.6
+                    Update to 21.1.7
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-19 22:21:18 +0000 UTC
+        Created At 2021-06-01 16:24:17 +0000 UTC
     </div>
 </div>
 
