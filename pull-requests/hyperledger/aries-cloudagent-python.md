@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1216" class=".btn">#1216</a>
+            </td>
+            <td>
+                <b>
+                    Add outofband credential-offer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The out of band protocol doesn't support the attachment type credential-offer yet. I added my code in outofband receive_invitation to receive a credential offer and send a credential request. 
+
+The receive_offer and create_request functions worked perfectly , But I am facing a `connection_record not found error` while the issuer agent executes credential_request_handler script. I am including the logs below. 
+
+`  
+
+> File "/home/indy/aries_cloudagent/core/dispatcher.py", line 198, in handle_message
+>     await handler(context, responder)
+>   File "/home/indy/aries_cloudagent/protocols/issue_credential/v1_0/handlers/credential_request_handler.py", line 39, in handle
+>     context.message, context.connection_record.connection_id
+>   File "/home/indy/aries_cloudagent/protocols/issue_credential/v1_0/manager.py", line 470, in receive_request
+>     session, connection_id, message._thread_id
+>   File "/home/indy/aries_cloudagent/protocols/issue_credential/v1_0/models/credential_exchange.py", line 206, in retrieve_by_connection_and_thread
+>     {"connection_id": connection_id} if connection_id else None,
+>   File "/home/indy/aries_cloudagent/messaging/models/base_record.py", line 250, in retrieve_by_tag_filter
+>     cls.__name__, tag_filter, f", {post_filter}" if post_filter else ""
+> aries_cloudagent.storage.error.StorageNotFoundError: V10CredentialExchange record not found for {'thread_id': '56ccbd83-3800-41a8-907c-fcbedeebb706'}, {'connection_id': '737ca643-7f05-470a-8b47-89fafb11a83d'}
+
+`
+
+Is the credential-offer json too large?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-01 12:30:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1213" class=".btn">#1213</a>
             </td>
             <td>
@@ -103,35 +149,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1210" class=".btn">#1210</a>
-            </td>
-            <td>
-                <b>
-                    BUG FIX: set connections metadata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Due https://github.com/hyperledger/aries-cloudagent-python/pull/1186#issuecomment-849452360 
-
-There was a bug that does not save the metadata into the records once they were set.
-This PR fixes that bug, updating the connections metadata everywhere.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 11:25:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1209" class=".btn">#1209</a>
             </td>
             <td>
@@ -182,32 +199,6 @@ Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
     </table>
     <div class="right-align">
         Created At 2021-05-26 17:11:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1202" class=".btn">#1202</a>
-            </td>
-            <td>
-                <b>
-                    Updates to OOB InvitationMessage & Endpoint example - Consistent with RFC0434
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #1138 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-24 11:17:32 +0000 UTC
     </div>
 </div>
 

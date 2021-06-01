@@ -14,6 +14,180 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2347" class=".btn">#2347</a>
+            </td>
+            <td>
+                <b>
+                    update CHANGELOG for 21.1.7 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+update CHANGELOG for 21.1.7 release
+
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-01 16:30:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2346" class=".btn">#2346</a>
+            </td>
+            <td>
+                <b>
+                    Prepare for version 21.1.8-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-01 15:47:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2345" class=".btn">#2345</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.1.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-01 15:28:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2343" class=".btn">#2343</a>
+            </td>
+            <td>
+                <b>
+                    Add calaveras testnet and remove baikal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+Add calaveras testnet and remove baikal for London
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-31 12:17:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2342" class=".btn">#2342</a>
+            </td>
+            <td>
+                <b>
+                    Fix invalid upfrontgascost modification for EIP1559
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+Obviously the last 1559 modification made causes a consensus issue on Baikal while the 4 rules are valid
+- The block http://18.224.51.102:3000/block/14498
+- The modification https://github.com/hyperledger/besu/pull/2338/files#diff-8f3af0f8da1b352c31d41501c14cf92a66947bc3dc2a2f0d617c1691c380c70fR539
+This change decrement the balance of the wallet here https://github.com/hyperledger/besu/blob/3267501c8cd2a1cd116b8b295e5baedab12bd3b5/[…]erledger/besu/ethereum/mainnet/MainnetTransactionProcessor.java while we do not know yet if it is maxFeePerGas that will be used. 
+And we already calculate the valid value needed for upfrontgascost here https://github.com/hyperledger/besu/blob/3267501c8cd2a1cd116b8b295e5baedab12bd3b5/[…]erledger/besu/ethereum/mainnet/MainnetTransactionProcessor.java
+
+This PR also fix somme issues regarding the transaction pool for eip1559 and a tracing issue
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-31 09:55:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2340" class=".btn">#2340</a>
             </td>
             <td>
@@ -340,156 +514,6 @@ reintroduces test which was ignored in #2267
     </table>
     <div class="right-align">
         Created At 2021-05-25 20:32:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2320" class=".btn">#2320</a>
-            </td>
-            <td>
-                <b>
-                    non-existent genesis file: clarify error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Add error message and remove reference to GoQuorum options.
-```
-$ besu --genesis-file=xyz.json
-Unable to read genesis file. java.io.FileNotFoundException: /Users/sallymacfarlane/workspace/besu/xyz.json (No such file or directory)
-
-To display full help:
-besu [COMMAND] --help
-$ besu --genesis-file=bob.json
-Unable to read genesis file. com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'bob': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
- at [Source: (String)"bob
-"; line: 1, column: 4]
-
-To display full help:
-besu [COMMAND] --help
-$ cat bob.json
-bob
-```
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-25 01:15:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2319" class=".btn">#2319</a>
-            </td>
-            <td>
-                <b>
-                    Fix invalid trace_block during self destruct - 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-Traces could be false by displaying a bad value transferred during a call
-```
-→ CALL from=0xe793...635d to=0x0000...992c value=0 ETC
-        → CALL from=0x0000...992c to=0xe5c6...52cd value=0.01 ETC
-            → SUICIDE from=0xe5c6...52cd to=0x0000...992c value=0 ETC
-        → CALL from=0x0000...992c to=0x937e...c343 value=0.01 ETC
-            → SUICIDE from=0x937e...c343 to=0x0000...992c value=0 ETC
-        → CALL from=0x0000...992c to=0xc1c2...2593 value=0.01 ETC
-            → SUICIDE from=0xc1c2...2593 to=0x0000...992c value=0 ETC
-```
-This traces are invalid because of an invalid value: 
-```
-→ CALL from=0x0000...992c to=0xe5c6...52cd value=0.01 ETC
-→ CALL from=0x0000...992c to=0x937e...c343 value=0.01 ETC
-→ CALL from=0x0000...992c to=0xc1c2...2593 value=0.01 ETC
-```
-The PR fixe this issue using the value of the frame and not of the transaction
-
-## Tests performed
-
-- Tested directly with the invalid trace `curl --location --request POST 'http://127.0.0.1:8545' --header 'Content-Type: application/json' --data-raw '{"jsonrpc":"2.0","method":"trace_transaction","params":["0xf0248d795b32193b93d40511a3d7364d070a2ce6f45868e2848d1b0fd08dddc6"],"id":415}'`
-
-- Did some selfdetruct tests to be sure there is no regresstion
-
-
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-24 14:53:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2318" class=".btn">#2318</a>
-            </td>
-            <td>
-                <b>
-                    Remove EIP1559 Gas budget calculator implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-The specification of the EIP1559 has changed and no longer requires a specific gasBudgetCalculator implementation. This PR clean the code by removing this unnecessary part of code
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-24 11:48:10 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2811" class=".btn">#2811</a>
+            </td>
+            <td>
+                <b>
+                    feat: add CBC+HMAC Tink Key
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                This change adds a new Tink AEAD key using CBC+HMAC algorithm as Tink AEAD primitive.
+It also updates the ECDH Tink primitive using the newly created primitive.
+
+closes #2810
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-31 21:41:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2809" class=".btn">#2809</a>
             </td>
             <td>
@@ -93,49 +125,6 @@ Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-05-26 11:56:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2804" class=".btn">#2804</a>
-            </td>
-            <td>
-                <b>
-                    feat: API for adding JSON-LD contexts to the underlying storage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In this PR:
-- implemented API for adding JSON-LD contexts to the underlying storage
-- added new embedded contexts:
-  * https://w3id.org/security/suites/bls12381-2020/v1
-  * https://w3id.org/security/suites/jws-2020/v1
-  * https://w3id.org/security/suites/ed25519-2018/v1
-  * https://w3id.org/security/suites/x25519-2019/v1
-  * https://w3id.org/security/suites/secp256k1-2019/v1
-- removed contexts used for tests from core set:
-  * https://www.w3.org/2018/credentials/examples/v1
-  * https://www.w3.org/ns/odrl.jsonld
-
-Bindings for mobile agent will be handled in the [follow-up ticket](https://github.com/hyperledger/aries-framework-go/issues/2805).
-
-Closes #2730
-
-Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-25 19:20:36 +0000 UTC
     </div>
 </div>
 
