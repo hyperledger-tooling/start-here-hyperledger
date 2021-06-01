@@ -640,31 +640,3 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2603" class=".btn">#2603</a>
-            </td>
-            <td>
-                <b>
-                    Fixed JIRA issue FLY2- 64
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I have updated chain.go  Submit and ordered method..
-
-#Fixed FLY2-64
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-25 09:36:01 +0000 UTC
-    </div>
-</div>
-
