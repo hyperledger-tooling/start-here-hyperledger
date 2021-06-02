@@ -61,29 +61,3 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/243" class=".btn">#243</a>
-            </td>
-            <td>
-                <b>
-                    WIP: aries-vcx backchannel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-25 20:33:38 +0000 UTC
-    </div>
-</div>
-
