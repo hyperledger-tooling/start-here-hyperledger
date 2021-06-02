@@ -14,11 +14,67 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2814" class=".btn">#2814</a>
+            </td>
+            <td>
+                <b>
+                    chore: add IETF CBC+HMAC test vectors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 16:11:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2813" class=".btn">#2813</a>
+            </td>
+            <td>
+                <b>
+                    fix: CreateKeyStore returns an error.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span>
+            </td>
+            <td>
+                Part of https://github.com/trustbloc/vct/issues/41
+
+Signed-off-by: Andrii Soluk <isoluchok@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 15:30:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2812" class=".btn">#2812</a>
             </td>
             <td>
                 <b>
-                    WIP: feat: Add TotalItems method to Iterator interface
+                    feat: Add TotalItems method to Iterator interface
                 </b>
             </td>
         </tr>
@@ -91,35 +147,6 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-05-26 21:14:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2808" class=".btn">#2808</a>
-            </td>
-            <td>
-                <b>
-                    feat: JSON-LD context API bindings for mobile agent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #2805
-
-Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-26 17:02:31 +0000 UTC
     </div>
 </div>
 

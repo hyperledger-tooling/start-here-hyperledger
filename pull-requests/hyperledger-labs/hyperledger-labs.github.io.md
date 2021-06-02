@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/174" class=".btn">#174</a>
+            </td>
+            <td>
+                <b>
+                    fabric-chaincode-OCaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pierre-Yves PIRIOU <pierre-yves.piriou@edf.fr>
+
+Hyperledger Fabric Packages for OCaml Chaincode
+
+We have no sponsor because David Boswell said us that the TSC removes this requirement for creating a new lab.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 14:55:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/173" class=".btn">#173</a>
             </td>
             <td>
@@ -64,33 +94,6 @@ This PR fixes it.
     </table>
     <div class="right-align">
         Created At 2021-05-27 11:12:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/171" class=".btn">#171</a>
-            </td>
-            <td>
-                <b>
-                    Archive fabric-private-chaincode which has transitioned to Fabric
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-26 14:35:22 +0000 UTC
     </div>
 </div>
 

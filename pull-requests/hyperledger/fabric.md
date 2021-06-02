@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2635" class=".btn">#2635</a>
+            </td>
+            <td>
+                <b>
+                    Added RetrieveBlockByNumber into blockledger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Description
+GetBlock is used for retrieving a block in ConfigBlockOrPanic
+which has overhead of Iterator. It is now simplified by exposing
+a BlockStore function RetrieveBlockByNumber.
+
+Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
+
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+- Test update
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 18:58:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2634" class=".btn">#2634</a>
+            </td>
+            <td>
+                <b>
+                    FABGW-20 update to latest protos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update to latest version of fabric-protos-go dependency
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 14:11:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2633" class=".btn">#2633</a>
             </td>
             <td>
