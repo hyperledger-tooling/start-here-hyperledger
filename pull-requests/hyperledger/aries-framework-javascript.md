@@ -210,33 +210,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/294" class=".btn">#294</a>
-            </td>
-            <td>
-                <b>
-                    feat: support node v12+
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I updated the indy-sdk to support node v12+: https://github.com/hyperledger/indy-sdk/pull/2389
-
-This PR loosens the node engine requirement to support 12+ and also adds a test martrix to test for node 12, 14 and 16.
-
-Prettier had some updates to their defaults I think. that's where the other changes come from
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-26 15:02:21 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2363" class=".btn">#2363</a>
+            </td>
+            <td>
+                <b>
+                    [Cleanup] Remove Gas Budget Calculator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+Since there are no separate gas budgets for eip-1559 and non-eip-1559 txs. We can return to the simpler method of just comparing against the gas limit.
+
+This is a non-functional change.
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 15:31:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2361" class=".btn">#2361</a>
             </td>
             <td>
@@ -506,50 +544,6 @@ Ignore (new) spam label since this test doesn't work well for EthSigner/Besu
     </table>
     <div class="right-align">
         Created At 2021-05-26 20:51:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2324" class=".btn">#2324</a>
-            </td>
-            <td>
-                <b>
-                    Adds unrestricted privacy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Allows users to utilise unrestricted private transactions. This stores the private transaction in the data of the unrestricted privacy precompile address on-chain. The default implementation is unencrypted, further plugin extension points are required to allow the user to encrypt transactions on-chain. 
-
-## mutually exclusive private restriction modes
-
-### Privacy group state
-You can not run a node in mixed `unrestricted`/`restricted` privacy modes. There are potential issues with private state and privacy groups. There is only one private state per group, consequently, you could have a mix of private transaction restriction types in the same group. Whilst it's not a problem per se it could lead to confusion and inconsistent state between nodes.
-
-### Flexible privacy groups
-Onchain privacy groups are not currently possible with unrestricted transactions.
-
-### CLI options
-`--privacy-enabled` and `--privacy-unrestricted-enabled` must be specified to enable this feature. 
-
-## Changelog
-
-- [ ] adds unrestricted privacy 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-26 13:18:30 +0000 UTC
     </div>
 </div>
 

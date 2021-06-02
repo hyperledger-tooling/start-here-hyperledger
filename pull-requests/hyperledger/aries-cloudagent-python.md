@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1220" class=".btn">#1220</a>
+            </td>
+            <td>
+                <b>
+                    Feature/didx request with public did
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Introduces an optional flag `use_public_did` in `/didexchange/create-request`
+
+Enabling the flag will create a DIDX request with the public DID of the requester.
+The approach is not ideal since the did doc will still be attached to the request instead of just setting the `did` property as suggested in the [RFC](https://github.com/hyperledger/aries-rfcs/blob/master/features/0023-did-exchange/README.md#request-message-attributes) (but not required :) ).
+
+Setting only the `did` property leads to issues because of inconsistencies in ACA-Py's DID Doc class and the DID Doc class returned by the resolver. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 13:28:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1218" class=".btn">#1218</a>
             </td>
             <td>
@@ -30,7 +61,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 Add native [did:web](https://w3c-ccg.github.io/did-method-web/) resolver. Carved out and touched up from #1143 
 
 - Uses DID and DID Doc validation from pyDID
-- Does not support encoding of ports in DIDs yet (e.g. `did:web:localhost%3A8443 -> https://localhost:443/.well-known.did.json` yet, because pyDID does not allow '%' char in DID (See: https://github.com/dbluhm/pydid/issues/34)
+- Does not support encoding of ports in DIDs yet (e.g. `did:web:localhost%3A8443 -> https://localhost:443/.well-known/did.json` yet, because pyDID does not allow '%' char in DID (See: https://github.com/dbluhm/pydid/issues/34)
             </td>
         </tr>
     </table>
@@ -197,35 +228,6 @@ Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
     </table>
     <div class="right-align">
         Created At 2021-05-27 09:19:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1204" class=".btn">#1204</a>
-            </td>
-            <td>
-                <b>
-                    Fix: Public Connections Invitation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #1203 
-- Went through the following test cases, all invitations should now work as expected.
-![image](https://user-images.githubusercontent.com/9292265/119702684-942f2480-be0a-11eb-9527-cbff0e26f885.png)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-26 17:11:00 +0000 UTC
     </div>
 </div>
 
