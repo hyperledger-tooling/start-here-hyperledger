@@ -246,31 +246,3 @@ Fixes #
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/589" class=".btn">#589</a>
-            </td>
-            <td>
-                <b>
-                    Functionally complete workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR contributes major components of the demo, which function as expected -- except that the worker runs in a non-graphenized python server.
-
-Notably, the PR also contributes an end-to-end orchestration of the demo (see `orchestrate.sh` under `irb`), which exercises all the components (locally), up to the diagnosis and report of results.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-26 06:43:10 +0000 UTC
-    </div>
-</div>
-
