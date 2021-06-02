@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2632" class=".btn">#2632</a>
+            </td>
+            <td>
+                <b>
+                    Pass go tags to tools container (bp #2136) 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+
+#### Description
+
+Backport to version 1.4 to fix trouble: when running GO_TAGS=pkcs11 make docker, the fabric-tools docker image doesn't include a PKCS11 provider.
+
+#### Related issues
+
+https://lists.hyperledger.org/g/fabric/topic/error_using_hsm_in_fabric/78302231?p=
+https://github.com/hyperledger/fabric/pull/2136
+[FAB-18457](https://jira.hyperledger.org/browse/FAB-18457)
+https://github.com/hyperledger/fabric/pull/2573
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 01:47:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2631" class=".btn">#2631</a>
+            </td>
+            <td>
+                <b>
+                    [FAB-17900] Fixes numeric env variable override bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Bug fix
+
+#### Description
+
+Backport fix for version 1.4 for error: when setting ORDERER_GENERAL_BCCSP_PKCS11_SECURITY orderer variable, the orderer fails saying that the security value is a string and not an int.
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+[FAB-17900](https://jira.hyperledger.org/browse/FAB-17900)
+[FAB-18457](https://jira.hyperledger.org/browse/FAB-18457)
+https://github.com/hyperledger/fabric/pull/2573
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 01:25:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2630" class=".btn">#2630</a>
             </td>
             <td>
@@ -567,49 +648,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2021-05-26 02:36:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2607" class=".btn">#2607</a>
-            </td>
-            <td>
-                <b>
-                    Updated setting up environment documentation to reflect "brew cask" no longer being a valid command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-Replaced "brew cask install --appdir=“/Applications” docker" with "brew install --cask docker"
-
-Cask is no longer a brew command. When you want to install a Cask, you just do brew install or brew install --cask instead of brew cask install.
-
-#### Additional details
-
-N/A
-
-#### Related issues
-
-N/A
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-25 20:35:15 +0000 UTC
     </div>
 </div>
 

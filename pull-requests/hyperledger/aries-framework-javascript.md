@@ -240,29 +240,3 @@ Prettier had some updates to their defaults I think. that's where the other chan
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/293" class=".btn">#293</a>
-            </td>
-            <td>
-                <b>
-                    feat: add isInitialized agent property
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-25 20:58:31 +0000 UTC
-    </div>
-</div>
-
