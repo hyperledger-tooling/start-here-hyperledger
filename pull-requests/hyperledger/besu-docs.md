@@ -14,6 +14,98 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/725" class=".btn">#725</a>
+            </td>
+            <td>
+                <b>
+                    adding a link for the quickstart walkthrough
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Pull request checklist
+
+Use the following list to make sure your PR fits the Besu doc quality standard.
+
+### Before creating the pull request
+
+Make sure that:
+
+- [x] [all commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [x] you read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Contributing+to+documentation).
+- [ ] you have [tested your changes locally](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewTheDocumentation) before submitting them to the community for review.
+
+### After creating your pull request and tests finished
+
+Make sure that:
+
+- [ ] you fixed all the issues raised by the tests, if any.
+- [ ] you verified the rendering of your changes on [ReadTheDocs.org PR preview](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewwithReadTheDocs)
+  and updated the testing link (see [Testing](#testing)).
+
+## Describe the change
+
+Adding a link for the quickstart walkthrough
+
+## Issue fixed
+
+<!-- Except for minor changes (typos, commas) it's required to have a Github issue linked to your
+pull request.
+
+Use the following to make Github close the issue automatically when merging the PR:
+fixes #{your issue number}
+If multiple issues are involved, use one line for each issue.
+
+If you don't want to close the issue, use:
+see #{your issue number} -->
+
+## Impacted parts <!-- check as many boxes as needed -->
+
+### For content changes
+
+- [x] Doc content
+- [ ] Doc pages organisation
+
+### For tools changes
+
+- [ ] CircleCI workflow
+- [ ] Build and QA tools (lint, vale,…)
+- [ ] MkDocs templates
+- [ ] MkDocs configuration
+- [ ] Python dependencies
+- [ ] Node dependencies and JavaScript
+- [ ] ReadTheDocs configuration
+- [ ] GitHub integration
+
+## Testing
+
+<!-- Steps to follow to review and test your changes.
+Add links to preview the pages changes here.
+Link format is https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/
+Where {your PR number} must be replaced by the number of this PR, for instance 123
+-->
+
+## Screenshots / recording
+
+<!-- If it helps understanding your change,
+don't hesitate to link an annotated screenshot or a small demo video. -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 03:46:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/724" class=".btn">#724</a>
             </td>
             <td>
@@ -181,8 +273,8 @@ Make sure that:
 
 Make sure that:
 
-- [ ] you fixed all the issues raised by the tests, if any.
-- [ ] you verified the rendering of your changes on [ReadTheDocs.org PR preview](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewwithReadTheDocs)
+- [x] you fixed all the issues raised by the tests, if any.
+- [x] you verified the rendering of your changes on [ReadTheDocs.org PR preview](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewwithReadTheDocs)
   and updated the testing link (see [Testing](#testing)).
 
 ## Describe the change
@@ -190,6 +282,8 @@ Make sure that:
 <!-- A clear and concise description of what this PR changes in the documentation. -->
 
 Add separate "Add Validators" page to make it easier to find out how to add validators/signers to an existing network. The content is taken from the respective configure consensus protocols pages, edited.
+
+Also add a tutorial in the Private Networks section for adding and removing IBFT 2.0 validators.
 
 ## Issue fixed
 

@@ -46,8 +46,6 @@ The receive_offer and create_request functions worked perfectly , But I am facin
 > aries_cloudagent.storage.error.StorageNotFoundError: V10CredentialExchange record not found for {'thread_id': '56ccbd83-3800-41a8-907c-fcbedeebb706'}, {'connection_id': '737ca643-7f05-470a-8b47-89fafb11a83d'}
 
 `
-
-Is the credential-offer json too large?
             </td>
         </tr>
     </table>
