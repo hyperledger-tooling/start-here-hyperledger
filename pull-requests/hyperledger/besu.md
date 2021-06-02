@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2361" class=".btn">#2361</a>
+            </td>
+            <td>
+                <b>
+                    ci/cd: Require Quorum Acceptance Tests to pass
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ricardo Silva <ricardo.silva@consensys.net>
+
+### Summary
+
+As the work is done for the privacy interop, we remove now the ignore of the results so if it fails, it breaks the build.
+
+## Changes
+
+* Removed `|| true` to make the job fail if the tests fail.
+* Make the publish of docker images depend on the Quorum AT.
+* Add the `nosupport` tag as privacy polishing to be done later.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 10:32:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2360" class=".btn">#2360</a>
             </td>
             <td>

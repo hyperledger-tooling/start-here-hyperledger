@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/173" class=".btn">#173</a>
+            </td>
+            <td>
+                <b>
+                    Fabric Operations Console
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Hyperledger Fabric Operations Console code used in IBM's IBM Blockchain Platform Offering.
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 11:51:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/172" class=".btn">#172</a>
             </td>
             <td>

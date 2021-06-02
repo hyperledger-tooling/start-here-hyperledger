@@ -123,34 +123,3 @@ Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2806" class=".btn">#2806</a>
-            </td>
-            <td>
-                <b>
-                    test: BDD tests for context API js bindings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * added BDD tests for js context API bindings
-* removed `jsonld` section from URL path for adding context
-* switched to `json.RawMessage` for `Content` field in `ContextDocument` type
-
-Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-26 11:56:29 +0000 UTC
-    </div>
-</div>
-

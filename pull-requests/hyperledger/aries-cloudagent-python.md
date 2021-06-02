@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1218" class=".btn">#1218</a>
+            </td>
+            <td>
+                <b>
+                    Feature/native did web resolver
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add native [did:web](https://w3c-ccg.github.io/did-method-web/) resolver. Carved out and touched up from #1143 
+
+- Uses DID and DID Doc validation from pyDID
+- Does not support encoding of ports in DIDs yet (e.g. `did:web:localhost%3A8443 -> https://localhost:443/.well-known.did.json` yet, because pyDID does not allow '%' char in DID (See: https://github.com/dbluhm/pydid/issues/34)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 09:34:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1216" class=".btn">#1216</a>
             </td>
             <td>
