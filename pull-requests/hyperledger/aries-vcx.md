@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/285" class=".btn">#285</a>
+            </td>
+            <td>
+                <b>
+                    Require storage_credentials and storage_config wallet parameters to be Strings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previous refactoring has allowed `storage_credentials` and `storage_config` to be passed as Object - that would however end up in error on lower indy layers. This is PR is tightening the validation, so if `storage_credentials`, `storage_config` are not strings, it will throw early, on aries-vcx layer.
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-02 10:06:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/284" class=".btn">#284</a>
             </td>
             <td>

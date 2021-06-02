@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-proposals
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-proposals/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-proposals/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    Add IoT adoption description
+                    Update API Spec to use ERC20 token as currencies
                 </b>
             </td>
         </tr>
@@ -27,16 +27,22 @@ permalink: /pull-requests/hyperledger-labs/perun-proposals
                 
             </td>
             <td>
-                Initial overview of adopting Perun state-channel implementation to IoT
-context, including overview and impact to current available
-implementation.
+                 - An API is added to register new currencies. Because there are many
+  ERC20 tokens, user should be able to register new ones.
+    
+ - Contract address are returned as map in node configuration. Since new
+   currencies can be dynamically added, the list of asset holder
+   contracts registered with the node will also be updated dynamically (one
+   asset holder contract for each ERC20 token).
+    
+ - Add a payment data format and use it in the send payments API.
 
-Signed-off-by: Daniel Kunz <daniel.kunz@de.bosch.com>
+Relates to hyperledger-labs/perun-node#192.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-25 09:15:47 +0000 UTC
+        Created At 2021-06-02 12:02:08 +0000 UTC
     </div>
 </div>
 
