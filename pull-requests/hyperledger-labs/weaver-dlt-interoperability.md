@@ -90,29 +90,3 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/61" class=".btn">#61</a>
-            </td>
-            <td>
-                <b>
-                    app cc wrapper code implementing the interface functions in base class
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-26 22:55:19 +0000 UTC
-    </div>
-</div>
-

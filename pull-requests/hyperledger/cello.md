@@ -218,34 +218,3 @@ Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/243" class=".btn">#243</a>
-            </td>
-            <td>
-                <b>
-                    Retire maintainer Tong Li
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Tong has been inactive for more than 3 months, and he will focus on
-other project, without time to continue the contribution.
-
-Thanks for his past contributions.
-
-Signed-off-by: Baohua Yang <yangbaohua@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-26 20:32:35 +0000 UTC
-    </div>
-</div>
-
