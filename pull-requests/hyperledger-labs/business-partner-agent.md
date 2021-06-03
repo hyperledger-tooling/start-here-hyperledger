@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/452" class=".btn">#452</a>
+            </td>
+            <td>
+                <b>
+                    Pr 407 manual proof request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                amended PR 407
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 13:17:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/451" class=".btn">#451</a>
             </td>
             <td>

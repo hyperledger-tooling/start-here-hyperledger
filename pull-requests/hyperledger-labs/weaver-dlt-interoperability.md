@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/65" class=".btn">#65</a>
+            </td>
+            <td>
+                <b>
+                    Code Refactoring and Automate deployment of SimpleAsset
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Refactored `interface/asset-mgmt` and `simpleasset` to keep unit tests in different package, so that deployment doesn't require mocks to be copied.
+2. Automated copying of `asset-mgmt` into `simpleasset` during network deployment.
+3. Added a clean target in `interoperation-node-sdk`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 18:35:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/64" class=".btn">#64</a>
             </td>
             <td>
@@ -59,34 +87,6 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </table>
     <div class="right-align">
         Created At 2021-05-29 09:17:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/62" class=".btn">#62</a>
-            </td>
-            <td>
-                <b>
-                    Allow interopcc to run in K8s as external service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Added Dockerfile to build the image for interopcc.
-2. Also moved protos build command in a script, which can be called by makefile as well as Dockerfile.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 16:11:29 +0000 UTC
     </div>
 </div>
 
