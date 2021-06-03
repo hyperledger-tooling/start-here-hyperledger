@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/24" class=".btn">#24</a>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    Make Node orchestrate processing Actions / Events
+                    README fix
                 </b>
             </td>
         </tr>
@@ -27,19 +27,38 @@ permalink: /pull-requests/hyperledger-labs/mirbft
                 
             </td>
             <td>
-                This is the first step towards cleaning up the top-level structure.
-The Node now mostly deals with modules and orchestrates the flow of
-Actions and events between them.
-
-The interface for submitting client request is simplified and becomes
-a single method `SubmitRequest` of the Node.
-
-Signed-off-by: Matej Pavlovic <mpa@zurich.ibm.com>
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-20 21:02:53 +0000 UTC
+        Created At 2021-06-03 16:11:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/28" class=".btn">#28</a>
+            </td>
+            <td>
+                <b>
+                    Fixed deployment issues.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Chrysoula Stathakopoulou <tat@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 16:01:28 +0000 UTC
     </div>
 </div>
 

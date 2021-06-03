@@ -89,29 +89,3 @@ Example failure: https://github.com/hyperledger-labs/go-perun/runs/2692568029?ch
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/86" class=".btn">#86</a>
-            </td>
-            <td>
-                <b>
-                    Expose BoundContracts ABI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #41 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 13:01:55 +0000 UTC
-    </div>
-</div>
-

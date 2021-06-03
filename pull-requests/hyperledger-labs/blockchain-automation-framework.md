@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1497" class=".btn">#1497</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1501" class=".btn">#1501</a>
             </td>
             <td>
                 <b>
-                    [shared] changing molecule tests to run specifically for non-caps platform names
+                    [corda-ent] certificates for ambassador
                 </b>
             </td>
         </tr>
@@ -28,23 +28,25 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
             </td>
             <td>
                 **Changelog**
-- Fixed molecule tests to run specifically for non-caps platform names, '[shared],[docs],[indy],[fabric],[corda],[besu],[quorum],[corda-ent]'
+- in cenm (idman, network, notaries) trust tls root ca in cenm organization
+- in nodes (include idman and network crts in corda truststore)
+- k8s tls secrets created in the org namespace
 
- 
 
 **Reviewed by**
+@sownak 
 @suvajit-sarkar 
 
  
 
 **Linked issue**
-#issue_number
+#996 #1462 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-26 08:46:15 +0000 UTC
+        Created At 2021-06-03 13:37:12 +0000 UTC
     </div>
 </div>
 
