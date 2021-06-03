@@ -57,6 +57,8 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
             <td>
                 Signed-off-by: Kestutis Gudynas <kestutis.gudynas@ibm.com>
+
+Java Chaincode GRPC server commit back ported to _release-2.2_ branch
             </td>
         </tr>
     </table>

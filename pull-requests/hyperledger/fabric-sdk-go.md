@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/179" class=".btn">#179</a>
+            </td>
+            <td>
+                <b>
+                    bump go version check to allow go 1.16
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Version 1.16 has been released last February and is the current latest
+stable release.
+
+If there is a reason for not supporting the last stable release of go, feel free to close this PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 10:14:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/178" class=".btn">#178</a>
             </td>
             <td>
