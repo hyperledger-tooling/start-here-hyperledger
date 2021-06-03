@@ -203,31 +203,3 @@ The receive_offer and create_request functions worked perfectly , But I am facin
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1209" class=".btn">#1209</a>
-            </td>
-            <td>
-                <b>
-                    Fix exposing wallet storage creds in configuration endpoint.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves #1208 
-
-Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 09:19:50 +0000 UTC
-    </div>
-</div>
-

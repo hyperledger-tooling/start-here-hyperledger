@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1008" class=".btn">#1008</a>
+            </td>
+            <td>
+                <b>
+                    Fixed cleanup.sh script according to the requirements, squashed to a single commit.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Konstantin Rybalko <konstantin.rybalko@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 12:25:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1007" class=".btn">#1007</a>
             </td>
             <td>
@@ -345,43 +371,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-05-27 21:06:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/991" class=".btn">#991</a>
-            </td>
-            <td>
-                <b>
-                    feat(azure-kv): added keychain plugin for azure keyvault
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Commit to be reviewed
-------------------------------
-feat(azure-kv): added keychain plugin for azure keyvault
-
-        Primary Change
-        ---
-        1. Added new package cactus-plugin-keychain-azure-kv under packages/
-        2. Added PluginKeychainAzureKvMock class to mock the functions of SecretClient under packages/cactus-plugin-keychain-azure-kv/src/test/typescript/mock/plugin-keychain-azure-kv-mock.ts
-
-Resolves #971
-
-Signed-off-by: Jagpreet Singh Sasan <jagpreet.singh.sasan@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 09:49:44 +0000 UTC
     </div>
 </div>
 

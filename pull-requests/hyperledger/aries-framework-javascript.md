@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/304" class=".btn">#304</a>
+            </td>
+            <td>
+                <b>
+                    feat: Pack and send message based on DidDoc services
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Related to #268 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 10:46:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/303" class=".btn">#303</a>
+            </td>
+            <td>
+                <b>
+                    docs: complete documentation overhaul
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This would allow for an easier introduction to this framework. We felt that the previous docs contained too much unstructured information and this should fix that.
+
+The docs folder is also setup for gitbooks, which will allow for an even better "getting-started-experience"
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 10:13:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/302" class=".btn">#302</a>
             </td>
             <td>
@@ -87,32 +142,6 @@ There is some progress on e2e tests using mediation modules, attempting to suppo
     </table>
     <div class="right-align">
         Created At 2021-06-01 13:43:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/297" class=".btn">#297</a>
-            </td>
-            <td>
-                <b>
-                    ci: enable verbose logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The release script failed randomly and then started working again. Adding verbose logging so it will be easier to debug the actions going forward
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 08:02:32 +0000 UTC
     </div>
 </div>
 
