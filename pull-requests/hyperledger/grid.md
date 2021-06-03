@@ -240,30 +240,3 @@ associated sdk features.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/718" class=".btn">#718</a>
-            </td>
-            <td>
-                <b>
-                    Rename batch submitter to backend client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The trait formerly known as "BatchSubmitter" was really a client to the backend (Sawtooth or Splinter). This gives it distinction from other batch-related functionality within the sdk and daemon.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-26 21:48:30 +0000 UTC
-    </div>
-</div>
-
