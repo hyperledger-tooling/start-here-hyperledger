@@ -39,31 +39,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/178" class=".btn">#178</a>
-            </td>
-            <td>
-                <b>
-                    [FABCJ-214] merged to release-2.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Kestutis Gudynas <kestutis.gudynas@ibm.com>
-
-Java Chaincode GRPC server commit back ported to _release-2.2_ branch
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 13:15:33 +0000 UTC
-    </div>
-</div>
-

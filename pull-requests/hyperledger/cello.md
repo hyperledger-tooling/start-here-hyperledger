@@ -161,32 +161,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/246" class=".btn">#246</a>
-            </td>
-            <td>
-                <b>
-                    Create organization and create node at the same time
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When creating an organization, you can select the number of peers and orderers。
-*Create the certificate and configuration file and compress it into a zip file
-
-Signed-off-by: XuHugo <xq-310@163.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 14:53:57 +0000 UTC
-    </div>
-</div>
-

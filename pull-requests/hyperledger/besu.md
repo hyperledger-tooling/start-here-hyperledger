@@ -57,7 +57,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    add effectiveGasPrice to Transaction and TransasctionReceiptResult
+                    add effectiveGasPrice to TransasctionReceipt 
                 </b>
             </td>
         </tr>

@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/732" class=".btn">#732</a>
+            </td>
+            <td>
+                <b>
+                    Move `clear_database` fns to new `testing` module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This moves the `clear_database` functions for clearing the postgres and
+sqlite databases to a new testing module. These are guarded behind new
+features `test-postgres` and `test-sqlite` respectively. This does not
+change any functionality.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 21:14:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/729" class=".btn">#729</a>
+            </td>
+            <td>
+                <b>
+                    Update help with env var defaults
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `Key` option help information updated to include GRID_DAEMON_PATH and
+CYLINDER_PATH defaults. `service_id` option help was updated to include
+GRID_SERVICE_ID environment variable. `url` option help was updated to
+include GRID_SERVICE_ENDPOINT default.
+
+Signed-off-by: Kevin Johnson <kevin_johnson@cargill.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 13:23:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/728" class=".btn">#728</a>
             </td>
             <td>
@@ -61,182 +123,6 @@ This is not intended to have any functional changes.
     </table>
     <div class="right-align">
         Created At 2021-05-28 19:10:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/726" class=".btn">#726</a>
-            </td>
-            <td>
-                <b>
-                    Add feature guards for each REST API endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds several features which guard the REST API endpoint; this
-will allow the daemon processes to individually pull in the specific
-endpoints supported. It also allows enabling the underlying features
-without enabling the associated endpoints.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 21:05:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/725" class=".btn">#725</a>
-            </td>
-            <td>
-                <b>
-                    Add "backend" as dependency for "rest-api-actix-web-3"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This was an error in the dependency list for rest-api-actix-web-3 and
-isn't intended to be a functional change (other than fixing compilation
-if specifying this feature in isolation).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 21:05:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/724" class=".btn">#724</a>
-            </td>
-            <td>
-                <b>
-                    Remove newline from error in cli/action/product.rs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also wrap ling at 100 characters.
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 19:56:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/723" class=".btn">#723</a>
-            </td>
-            <td>
-                <b>
-                    Small cleanups for the grid daemon
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 19:34:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/722" class=".btn">#722</a>
-            </td>
-            <td>
-                <b>
-                    Update copyright headers in `splinter` module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change updates the copyright headers of files in the `splinter`
-module to reflect the current year.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 19:34:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/719" class=".btn">#719</a>
-            </td>
-            <td>
-                <b>
-                    Remove sqlite and postgres from rest api feature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This removes sqlite and postgres from the sdk's rest-api-actix-web-3
-feature, which will make it possible to conditionally use the sqlite or
-postgresql when using the rest api.
-
-This commit makes BatchList pub, because without pub, it would be
-necessary to put a conditional of the underlying implementations being
-enabled; it seems cleaner to simply make it pub since it does not seem
-intentional to prevent creation of BatchList (which itself is pub).
-
-Features are added to griddle for sqlite/postgres to pull in the
-associated sdk features.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 15:01:53 +0000 UTC
     </div>
 </div>
 
