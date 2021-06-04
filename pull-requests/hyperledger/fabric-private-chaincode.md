@@ -219,30 +219,3 @@ Fixes #
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/590" class=".btn">#590</a>
-            </td>
-            <td>
-                <b>
-                    dockerize worker for orchestrate test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-28 02:10:36 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/445" class=".btn">#445</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/446" class=".btn">#446</a>
             </td>
             <td>
                 <b>
-                    Correct Javascript Chaincode
+                    [FAB-18460] Broken link in Developing Applications Application
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                - In CreateAsset, await was never called on putState causing issues
-especially with tools such as caliper and is not correct practice.
-Unfortunately all the other examples use `return` which works but is
-actually not the idiomatic way of handling promises, so here await is
-chosen rather than return
+                Add organization connection profiles that were deleted by mistake during a merge: [Update Commercial Paper to v2.0 Lifecycle](https://github.com/hyperledger/fabric-samples/commit/b89ee34ff745b76922f00049df07629baaf3fe5d).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-11 08:50:35 +0000 UTC
+        Created At 2021-06-04 06:34:59 +0000 UTC
     </div>
 </div>
 
