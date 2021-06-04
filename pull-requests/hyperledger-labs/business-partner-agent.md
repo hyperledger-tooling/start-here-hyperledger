@@ -352,33 +352,3 @@ Signed-off-by: Frank Bernhardt <Frank.Bernhardt@bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/435" class=".btn">#435</a>
-            </td>
-            <td>
-                <b>
-                    Refresh partners on new partner event and small fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - refresh partners on new partner event.
-- Fix in partnerUtils.
-- Layout of NewMessageIcon
-
-Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-28 14:22:02 +0000 UTC
-    </div>
-</div>
-

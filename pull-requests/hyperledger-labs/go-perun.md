@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/94" class=".btn">#94</a>
+            </td>
+            <td>
+                <b>
+                    Merge EventSub.{ReadAll|ReadFuture} into Read
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #93 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-04 14:38:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/90" class=".btn">#90</a>
             </td>
             <td>

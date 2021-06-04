@@ -14,6 +14,107 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2642" class=".btn">#2642</a>
+            </td>
+            <td>
+                <b>
+                    FABGW-20 Implement TargetOrgs for Evaluate()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Implement the TargetOrganizations grpc option for the Evaluate() method.
+- Rewrite logic of Evaluate() to prefer querying the local org
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-04 16:12:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2641" class=".btn">#2641</a>
+            </td>
+            <td>
+                <b>
+                    Update create_channel_test_net.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                added missing "export " at adjusting fabric config path
+
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+- Bug fix (in Documentation): 
+  - added missing "export " in cli code
+  - added single quotes for jq cli command to prevent the json path from been interpreted somehow by the shell
+
+#### Description
+
+<!--- Describe your changes in detail, including motivation. -->
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-04 16:10:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2636" class=".btn">#2636</a>
             </td>
             <td>
@@ -114,35 +215,6 @@ Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-06-02 18:58:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2634" class=".btn">#2634</a>
-            </td>
-            <td>
-                <b>
-                    FABGW-20 update to latest protos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update to latest version of fabric-protos-go dependency
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 14:11:20 +0000 UTC
     </div>
 </div>
 
@@ -607,38 +679,6 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </table>
     <div class="right-align">
         Created At 2021-05-28 21:16:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2614" class=".btn">#2614</a>
-            </td>
-            <td>
-                <b>
-                    Add block-number along with validation code for a given TXID
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: manish <manish.sethi@gmail.com>
-
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-This allows gateway to pass on additional relevant info to client and for using it for logging that could be helpful in debugging
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-28 17:26:13 +0000 UTC
     </div>
 </div>
 
