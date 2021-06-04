@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/155" class=".btn">#155</a>
+            </td>
+            <td>
+                <b>
+                    Human readable rates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a follow up on using floats for rate specifications. Makes it a little less mathy and a little more human
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 16:29:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/154" class=".btn">#154</a>
+            </td>
+            <td>
+                <b>
+                    Fix 0-3 merge builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The authorized builders check is triggered erroneously and fails
+because merge builds do not have a CHANGE_AUTHOR.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 15:15:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/153" class=".btn">#153</a>
             </td>
             <td>
@@ -173,114 +228,6 @@ track the most recent version.
     </table>
     <div class="right-align">
         Created At 2021-05-28 20:05:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/146" class=".btn">#146</a>
-            </td>
-            <td>
-                <b>
-                    Add MerkleRadixLeafReader trait
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This trait provides a generic leaf listing api, that matches the key-value backed implementation's provided method.
-
-Additionally, implements this trait on the existing `kv::MerkleState`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 19:41:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/145" class=".btn">#145</a>
-            </td>
-            <td>
-                <b>
-                    Add examples/sabre_command to justfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is required to catch build, lint, and testing errors in this
-example crate.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 17:03:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/144" class=".btn">#144</a>
-            </td>
-            <td>
-                <b>
-                    Remove env output from 'just build'
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is undesirable output when running the command in the developer workflow.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 16:59:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/143" class=".btn">#143</a>
-            </td>
-            <td>
-                <b>
-                    Update Sha2::Sha512 usage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update to work with the current version of sha2 used in transact.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 16:58:08 +0000 UTC
     </div>
 </div>
 

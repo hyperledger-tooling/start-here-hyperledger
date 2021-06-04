@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/180" class=".btn">#180</a>
+            </td>
+            <td>
+                <b>
+                    update go-kit to v0.10.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release 0.9.0 introduced breaking changes in the metrics module:
+statsd SendLoop is now context-aware.
+Version 0.10.0 has been release in February 2020, see [its changelog](https://github.com/go-kit/kit/releases/tag/v0.10.0).
+Previous used version was 0.8.0 which dates back from 2018.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 12:59:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/179" class=".btn">#179</a>
             </td>
             <td>
@@ -62,35 +91,6 @@ If there is a reason for not supporting the last stable release of go, feel free
     </table>
     <div class="right-align">
         Created At 2021-06-01 09:03:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/177" class=".btn">#177</a>
-            </td>
-            <td>
-                <b>
-                    Fixed a bug in proposal matcher when querying committed chaincodes. P…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes an error in the proposal matcher with an unexpected order of committed chaincodes returned from a peer. The matcher uses `proto.Equal` which fails to compare the values of slices that are in a different order.   
-Two peers return the same list of the chaincodes in a slice instead of a map, that's why the order can't be guaranteed https://github.com/hyperledger/fabric/blob/main/core/chaincode/lifecycle/scc.go#L620.
-
-Signed-off-by: Vladyslav Kopaihorodskyi <vlad.kopaygorodsky@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-27 15:50:55 +0000 UTC
     </div>
 </div>
 

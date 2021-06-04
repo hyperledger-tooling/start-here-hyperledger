@@ -133,7 +133,7 @@ Use the following list to make sure your PR fits the Besu doc quality standard.
 
 Make sure that:
 
-- [ ] [all commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [x] [all commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
 - [ ] you read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Contributing+to+documentation).
 - [ ] you have [tested your changes locally](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewTheDocumentation) before submitting them to the community for review.
 
@@ -165,7 +165,7 @@ see #{your issue number} -->
 
 ### For content changes
 
-- [ ] Doc content
+- [x] Doc content
 - [ ] Doc pages organisation
 
 ### For tools changes

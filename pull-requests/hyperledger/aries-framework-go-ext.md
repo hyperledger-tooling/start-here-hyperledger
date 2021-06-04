@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/126" class=".btn">#126</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/127" class=".btn">#127</a>
             </td>
             <td>
                 <b>
-                    chore: update to latest vct and orb
+                    chore: update active maintainer list
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                Signed-off-by: Troy Ronda <troy.ronda@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-27 15:24:20 +0000 UTC
+        Created At 2021-06-03 13:41:36 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,114 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2826" class=".btn">#2826</a>
+            </td>
+            <td>
+                <b>
+                    chore: Update EDV storage provider dependencies, remove replace
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Updated EDV storage provider dependencies, allowing additional unit tests to be run now, increasing code coverage
+- Removed replace statement that was accidentally left in
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 21:07:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2825" class=".btn">#2825</a>
+            </td>
+            <td>
+                <b>
+                    feat: Update storage commit versions, add TotalItems implementations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 20:34:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2824" class=".btn">#2824</a>
+            </td>
+            <td>
+                <b>
+                    test: Add tests for Iterator TotalItems method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 16:12:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2823" class=".btn">#2823</a>
+            </td>
+            <td>
+                <b>
+                    chore: update active maintainer list
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Troy Ronda <troy@troyronda.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-03 13:38:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2822" class=".btn">#2822</a>
             </td>
             <td>
