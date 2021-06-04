@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/447" class=".btn">#447</a>
+            </td>
+            <td>
+                <b>
+                    Support docker.sock in rootless mode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Docker version 20.10 support rootless mode. That features
+changes a mount path of docker.sock.
+This PR loads a mount path from DOCKER_HOST environment,
+and if not set, a mount path will be /var/run/docker.sock
+
+FAB-18481
+
+Signed-off-by: Nao Nishijima <nao.nishijima.xt@hitachi.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-04 09:36:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/446" class=".btn">#446</a>
             </td>
             <td>
