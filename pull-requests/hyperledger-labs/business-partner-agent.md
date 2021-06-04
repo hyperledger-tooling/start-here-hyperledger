@@ -356,36 +356,3 @@ Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/434" class=".btn">#434</a>
-            </td>
-            <td>
-                <b>
-                    Refactor Helm Charts add support for Keycloak and Schemas
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Infrastructure</span><span class="chip">frontend</span>
-            </td>
-            <td>
-                Refactored the helm charts.
-
-I have moved `bpa.schemas` into it's own file, and that will have to be loaded via `-Dmicronaut.config.files=classpath:application.yml,classpath:schemas.yml`. But this allows us to create a ConfigMap that contains only schema information (as yaml) that can be loaded via helm charts (mounted as a volume). Adding schemas to runtime is controlled with the values file: `schemas.enabled=true`.
-
-`application.yml` and `security-keycloak.yml` can be configured with ENV VARS, so the ConfigMaps for application and keycloak are Name/Value pairs and those ConfigMaps are loaded as env vars.  `security-keycloak.yml` is optional and controlled with the values file: `keycloak.enabled=true`.
-
-Added in new templates for creating Openshift routes. These are optional and must be enabled and ingresses disabled. Was having lots of issues getting secured routes created using the ingress templates, this seemed easier.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-28 02:24:56 +0000 UTC
-    </div>
-</div>
-
