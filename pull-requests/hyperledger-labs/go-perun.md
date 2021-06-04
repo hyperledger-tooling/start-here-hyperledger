@@ -63,29 +63,3 @@ Example failure: https://github.com/hyperledger-labs/go-perun/runs/2692568029?ch
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/88" class=".btn">#88</a>
-            </td>
-            <td>
-                <b>
-                    Create and Use [eth/channel/errors] 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #87 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-28 08:35:41 +0000 UTC
-    </div>
-</div>
-

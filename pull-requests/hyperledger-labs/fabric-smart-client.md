@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/14" class=".btn">#14</a>
+            </td>
+            <td>
+                <b>
+                    Integration Test Infrastructure: Pluggable platforms #3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR brins in:
+- cleanup of the integration test infrastructure
+- pluggability of the platforms
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-04 11:26:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/10" class=".btn">#10</a>
             </td>
             <td>

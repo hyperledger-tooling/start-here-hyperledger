@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/150" class=".btn">#150</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/152" class=".btn">#152</a>
             </td>
             <td>
                 <b>
-                    Fix: Typo fix in the docstring
+                    added option to raise error if chaincode invocation fails
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
                 
             </td>
             <td>
-                Signed-off-by: Sneha Majeti <majetisneha369@gmail.com>
+                Signed-off-by: nkalichynskyi <ext-nazarii.kalichynskyi@here.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-25 11:06:46 +0000 UTC
+        Created At 2021-06-04 12:18:55 +0000 UTC
     </div>
 </div>
 

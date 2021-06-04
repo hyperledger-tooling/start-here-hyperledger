@@ -91,29 +91,3 @@ Signed-off-by: David Liu <david.yx.liu@oracle.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/433" class=".btn">#433</a>
-            </td>
-            <td>
-                <b>
-                    RU_deploy_chaincode_md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-28 09:27:15 +0000 UTC
-    </div>
-</div>
-
