@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1224" class=".btn">#1224</a>
+            </td>
+            <td>
+                <b>
+                    Integration test for endorsement with credential issue and revocation…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                … w.i.p.
+
+Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-05 15:55:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1223" class=".btn">#1223</a>
+            </td>
+            <td>
+                <b>
+                    run_demo fails if ../logs folder doesn't exist
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Steps to reproduce:
+1. Clone repo
+2. `cd demo`
+3. `run_demo faber`
+
+Expected:
+- to start the demo connection flow
+
+Actual:
+- fails with:
+
+```
+./run_demo faber                                             
+Preparing agent image...
+sha256:5c8d0c8453ec05bcd7ff2e234267e09e113ac041707cb4f21a22f613f832727c
+Trying to detect ngrok service endpoint
+jq not found
+192.168.65.3
+docker: Error response from daemon: Mounts denied: 
+The path ..../aries-cloudagent-python/demo/../logs
+is not shared from OS X and is not known to Docker.
+You can configure shared paths from Docker -> Preferences... -> File Sharing.
+See https://docs.docker.com/docker-for-mac/osxfs/#namespaces for more info.
+.
+ERRO[0000] error waiting for container: context canceled 
+```
+
+The proposed fix assumes that `logs` are only required when `--timing` in enabled.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-05 13:05:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1220" class=".btn">#1220</a>
             </td>
             <td>

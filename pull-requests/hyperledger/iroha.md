@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1050" class=".btn">#1050</a>
+            </td>
+            <td>
+                <b>
+                    Iroha2 dev
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Merge iroha2-dev into iroha2 (iroha v2 main branch currently).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-05 13:34:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1049" class=".btn">#1049</a>
             </td>
             <td>
