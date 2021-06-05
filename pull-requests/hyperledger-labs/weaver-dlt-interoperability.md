@@ -64,29 +64,3 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/63" class=".btn">#63</a>
-            </td>
-            <td>
-                <b>
-                    Check asset ownership in ReadAsset of bondasset app cc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-29 09:17:03 +0000 UTC
-    </div>
-</div>
-
