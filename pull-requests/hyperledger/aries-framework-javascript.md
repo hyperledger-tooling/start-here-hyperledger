@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/307" class=".btn">#307</a>
+            </td>
+            <td>
+                <b>
+                    mediation clean up
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                this PR contains code merged from main with fixes to demonstrate mediation with WebSocket transports.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-04 20:45:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/304" class=".btn">#304</a>
             </td>
             <td>

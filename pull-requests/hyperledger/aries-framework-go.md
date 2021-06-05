@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2828" class=".btn">#2828</a>
+            </td>
+            <td>
+                <b>
+                    feat: support published sov DIDs as returned by uniresolver
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-04 15:11:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2827" class=".btn">#2827</a>
+            </td>
+            <td>
+                <b>
+                    chore: udpate CBC+HMAC padding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactor</span>
+            </td>
+            <td>
+                and replaced redundant aead factory with the original Tink one.
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-04 14:18:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2826" class=".btn">#2826</a>
             </td>
             <td>
@@ -326,7 +381,7 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
                 Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>

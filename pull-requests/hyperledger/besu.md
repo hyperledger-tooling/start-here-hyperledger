@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2377" class=".btn">#2377</a>
+            </td>
+            <td>
+                <b>
+                    Hook up an empty plugin for future unrestricted privacy encryption
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Placeholder for `UnrestrictedPayloadEncryptionProvider` to be able to add future methods.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-04 14:00:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2376" class=".btn">#2376</a>
             </td>
             <td>
@@ -112,7 +138,7 @@ Fixes #2299
 ## PR description
 * change transaction pool behavior to not reject transactions based on chain head's baseFee
 * add short form of Wei for maxFeePerGas and maxPriorityFeePerGas
-* address edge case of allowable maximum delta gasLimit per block
+* ~~address edge case of allowable maximum delta gasLimit per block~~
 * update reference tests module to latest
 
 This pr gets besu passing all of the London blockchain tests using the retesteth engine.  There will be a follow up pr to address issues the few remaining GeneralStateTests failures for Berlin and London
@@ -674,40 +700,6 @@ minor tweak to the baseFee config parameter for retesteth command since  that rp
     </table>
     <div class="right-align">
         Created At 2021-05-29 04:06:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2338" class=".btn">#2338</a>
-            </td>
-            <td>
-                <b>
-                    Fix consensus vulnerability regarding excessively large 1559 fee fields
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-https://github.com/ethereum/pm/issues/321#issuecomment-850230251
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-28 18:08:09 +0000 UTC
     </div>
 </div>
 

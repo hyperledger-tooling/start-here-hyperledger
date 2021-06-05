@@ -324,31 +324,3 @@ Signed-off-by: Frank Bernhardt <Frank.Bernhardt@bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/437" class=".btn">#437</a>
-            </td>
-            <td>
-                <b>
-                    fix helm semantic versioning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                latest version was not correctly semantic versioned
-
-Signed-off-by: Frank Bernhardt <Frank.Bernhardt@bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-28 20:32:23 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/223" class=".btn">#223</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/227" class=".btn">#227</a>
             </td>
             <td>
                 <b>
-                    Add delegation example diagrams
+                    Update roadmap
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                - Adds a link to the delegation example from the feature page for more high-level info
-- Replaces the condensed example with the full example from the RFC
-- Adds diagrams for each step of the example
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-25 21:22:47 +0000 UTC
+        Created At 2021-06-04 19:51:09 +0000 UTC
     </div>
 </div>
 
