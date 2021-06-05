@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2643" class=".btn">#2643</a>
+            </td>
+            <td>
+                <b>
+                    FAB-18482 Unable to specify peer's chaincode.externalBuilders as an env variable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+
+As the HLF doc says, it's possible to override each config param via env variables, however, it isn't true for chaincode.externalBuilders 
+
+#### Related issues
+
+https://jira.hyperledger.org/browse/FAB-18482
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-04 23:56:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2642" class=".btn">#2642</a>
             </td>
             <td>
@@ -612,73 +655,6 @@ Finally, you can contact us on https://mergify.io/
     </table>
     <div class="right-align">
         Created At 2021-05-29 02:35:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2616" class=".btn">#2616</a>
-            </td>
-            <td>
-                <b>
-                    fix duplicate entry in code snippet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Chris Gabriel <chris_gabriel_98@yahoo.com>
-
-Code snippet had duplicate export.
-
-#### Type of change
-
-- Documentation update
-
-#### Description
-
-Fix duplicate export entry in code snippet.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-28 22:32:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2615" class=".btn">#2615</a>
-            </td>
-            <td>
-                <b>
-                    Update Building docs to reflect UI changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update the Building on GitHub instructions
-to reflect UI changes in readthedocs.org
-
-Signed-off-by: Asher T. Scott <ashertlalka@gmail.com>
-Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-28 21:16:11 +0000 UTC
     </div>
 </div>
 

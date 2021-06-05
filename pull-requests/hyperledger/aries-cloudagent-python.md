@@ -61,7 +61,7 @@ Setting only the `did` property leads to issues because of inconsistencies in AC
                 Add native [did:web](https://w3c-ccg.github.io/did-method-web/) resolver. Carved out and touched up from #1143 
 
 - Uses DID and DID Doc validation from pyDID
-- Does not support encoding of ports in DIDs yet (e.g. `did:web:localhost%3A8443 -> https://localhost:443/.well-known/did.json` yet, because pyDID does not allow '%' char in DID (See: https://github.com/dbluhm/pydid/issues/34)
+- ~Does not support encoding of ports in DIDs yet (e.g. `did:web:localhost%3A8443 -> https://localhost:443/.well-known/did.json` yet, because pyDID does not allow '%' char in DID (See: https://github.com/dbluhm/pydid/issues/34)~
             </td>
         </tr>
     </table>
