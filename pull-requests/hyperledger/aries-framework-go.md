@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2830" class=".btn">#2830</a>
+            </td>
+            <td>
+                <b>
+                    fix: 'null' contexts in document resolution responses
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixed for DID key & peer
+
+- Closes #2829
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-06 18:12:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2828" class=".btn">#2828</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/248" class=".btn">#248</a>
+            </td>
+            <td>
+                <b>
+                    BE-872 Release v1.1.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-06 14:50:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/247" class=".btn">#247</a>
             </td>
             <td>
