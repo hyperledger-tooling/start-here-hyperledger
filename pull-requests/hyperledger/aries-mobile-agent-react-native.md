@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/54" class=".btn">#54</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/55" class=".btn">#55</a>
             </td>
             <td>
                 <b>
-                    Aries components
+                    build: setup for usage in other projects
                 </b>
             </td>
         </tr>
@@ -27,34 +27,14 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
                 
             </td>
             <td>
-                # Summary of Changes
+                This sets everything for the aries components up to be usable as a package (using yarn pack for now).
 
-Replace this text with a high-level summary of the changes included in this PR.
-
-# Related Issues
-
-Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
-
-# Pull Request Checklist
-
-This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-
-If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
-- [x] Run prettier: `npm run style-format`
-- [x] Updated **documentation** for changed code and new or modified features.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-_PR template adapted from the Python attrs project._
-
+I named it `@aries-framework/redux-store` for now. We can change it later.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-24 23:00:50 +0000 UTC
+        Created At 2021-06-05 20:29:22 +0000 UTC
     </div>
 </div>
 

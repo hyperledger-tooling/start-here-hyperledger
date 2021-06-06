@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/15" class=".btn">#15</a>
+            </td>
+            <td>
+                <b>
+                    Close GRPC connections from peer & orderer clients
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                TODO: improve by providing grpc connection pool
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-05 20:31:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/14" class=".btn">#14</a>
             </td>
             <td>
