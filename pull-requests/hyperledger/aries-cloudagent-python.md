@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1226" class=".btn">#1226</a>
+            </td>
+            <td>
+                <b>
+                    Plugin configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements a new argument for specifying a yaml file for loading arbitrary plugin configuration.
+Closes #1121
+
+Credit to @Luis-GA 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-06 01:31:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1225" class=".btn">#1225</a>
             </td>
             <td>
