@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/448" class=".btn">#448</a>
+            </td>
+            <td>
+                <b>
+                    change docker-compose version from 2 to 2.4  on folder addOrg3/docker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Following the instructions to set an organization 3, the docker-compose file (test-network/addOrg3/docker/docker-compose-org3.yaml) was invalid because it didn't accept additional properties in the network declaration (test_network) with docker-compose version 2. I was able to solve the problem by setting the version to 2.4.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-05 23:24:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/447" class=".btn">#447</a>
             </td>
             <td>

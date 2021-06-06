@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1225" class=".btn">#1225</a>
+            </td>
+            <td>
+                <b>
+                    Update to PyDID 0.3.x
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR updates ACA-Py to use the soon-to-be-released PyDID 0.3.x. These updates aim to address the following issues through the updated PyDID features:
+- Reliance on unmaintained `voluptuous` library. PyDID now uses `pydantic`.
+- Ugly validation errors. These errors should now be significantly easier to understand due to being more succinct and descriptive.
+- Extensibility. Subclassing and extending PyDID objects to tighten or loosen validation on DID Documents is far simpler.
+
+In addition to these benefits granted by the updated PyDID version, this PR also slightly modifies the DID Resolver interface to simply return a dictionary on `resolve`. Thanks to the rapid development of the DID spec, there is a wide variety of DID Documents with varying levels of conformance to the DID spec in the wild. By separating the resolution and deserialization steps, we elect to give the caller the responsibility of determining how strict or otherwise the document parsing should be or whether the document is even parsed at all.
+
+For `dereference`, a "least common denominator" approach is taken. The document parsing is attempted with strict rules but, if validation fails, it will fall back to a simplified `NonconformantDocument`. By following this approach, we can take advantage of retrieving parsed `VerificationMethod`s or `Service`s when the document is spec-conforming while still being able to retrieve values by ID from non-spec-conforming documents.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-05 19:42:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1224" class=".btn">#1224</a>
             </td>
             <td>
