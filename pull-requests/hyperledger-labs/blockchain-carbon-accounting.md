@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/168" class=".btn">#168</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/169" class=".btn">#169</a>
             </td>
             <td>
                 <b>
-                    Utility-emissions-channel build fix #98
+                    Fixes bugs to get utility-emissions-channel up and running #98
                 </b>
             </td>
         </tr>
@@ -27,16 +27,17 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
                 
             </td>
             <td>
-                This pull request is to fix the build issues occurring to get the Utility-emissions-channel up and running + documentation update.
+                Signed-off-by: Pihu1998 <pranamika.pihu1998@gmail.com>
 
-**Recent Commit**:
-- Removed null values in data array obtained from XLSX file parsing.
-- Fixed build error due to invalid config file naming: changed `config.ts.example` to `config.ts`.
+This PR is to fix all the bugs occurring  to get the utility-emissions-channel up and running.
+
+**1st Commit:**
+- Fixes the Null values in data array obtained from parsing XLSX files.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-06 12:40:53 +0000 UTC
+        Created At 2021-06-06 13:40:57 +0000 UTC
     </div>
 </div>
 
