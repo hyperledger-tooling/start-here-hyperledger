@@ -14,6 +14,109 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2381" class=".btn">#2381</a>
+            </td>
+            <td>
+                <b>
+                    CI: use med executor for more steps
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Use medium executor where xl not needed.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-07 02:20:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2380" class=".btn">#2380</a>
+            </td>
+            <td>
+                <b>
+                    eth_getCode: add support for GoQuorum private tx
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Attempt to retrieve from GoQuorum private state first, otherwise get from public state as before.
+
+I have tested this by:
+Node1 deploys a contract, private for Node4. Nodes 1 and 4 can get the code; Nodes 2 and 3 do not. getCode for public tx works as before (all nodes get the right value). Attempting to getCode for non-existent address gives 0x.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-07 01:57:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2379" class=".btn">#2379</a>
+            </td>
+            <td>
+                <b>
+                    QBFT to use fixed IBFT mixhash value for headers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+Use the fixed IBFT mixedHash value in QBFT as this is what is being done in Quorum.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-07 01:20:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2377" class=".btn">#2377</a>
             </td>
             <td>
@@ -622,40 +725,6 @@ This PR also fix somme issues regarding the transaction pool for eip1559 and a t
     </table>
     <div class="right-align">
         Created At 2021-05-31 09:55:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2340" class=".btn">#2340</a>
-            </td>
-            <td>
-                <b>
-                    CMS creation/validation logic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Added two main classes to handle CMS: `CmsCreator` and `CmsValidator`.
-
-## Changelog
-
-No changelog updated required at the moment.
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-31 03:55:47 +0000 UTC
     </div>
 </div>
 
