@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/18" class=".btn">#18</a>
+            </td>
+            <td>
+                <b>
+                    add SECURITY.md and CODE_OF_CONDUCT.md #17
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-07 13:50:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/16" class=".btn">#16</a>
+            </td>
+            <td>
+                <b>
+                    NWO: remove generic platform #12
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR brings the following:
+- it removes the generic platform
+- FSC nodes can have their own independent identities
+- The integration test infrastructure has been update
+- Integration tests have been modified to keep in mind the difference between a Fabric identity and an FSC identity
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-07 13:39:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/15" class=".btn">#15</a>
             </td>
             <td>

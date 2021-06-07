@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/7" class=".btn">#7</a>
-            </td>
-            <td>
-                <b>
-                    Add keycloak and openshift route support.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See [business-partner-agent PR 434](https://github.com/hyperledger-labs/business-partner-agent/pull/434)
-
-Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-31 17:36:40 +0000 UTC
-    </div>
-</div>
-
