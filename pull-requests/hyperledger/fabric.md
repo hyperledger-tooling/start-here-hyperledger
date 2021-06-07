@@ -517,38 +517,3 @@ Finally, you can contact us on https://mergify.io/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2624" class=".btn">#2624</a>
-            </td>
-            <td>
-                <b>
-                    [FAB-18479] Log error if orderer can't forward SubmitRequest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                [FAB-18479] Log error if orderer can't forward SubmitRequest to Raft leader
-
-If order cannot forward client transaction SubmitRequest to Raft leader,
-it only logged it in a debug message. And since the error does
-not get returned to the client either, it is difficult to identify
-and troubleshoot.
-
-This commit changes the message to an error in the orderer log.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-30 19:32:02 +0000 UTC
-    </div>
-</div>
-
