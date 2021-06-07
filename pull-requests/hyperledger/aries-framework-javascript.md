@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/310" class=".btn">#310</a>
+            </td>
+            <td>
+                <b>
+                    chore: add repository url to package.json
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This will add a url on the npm site and allow to use relative links in the readme. (they are now broken on npm)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-07 10:13:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/307" class=".btn">#307</a>
             </td>
             <td>

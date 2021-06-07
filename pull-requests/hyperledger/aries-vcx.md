@@ -64,29 +64,3 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/284" class=".btn">#284</a>
-            </td>
-            <td>
-                <b>
-                    Rebuild Cargo.lock
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-31 12:47:46 +0000 UTC
-    </div>
-</div>
-

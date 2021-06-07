@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/96" class=".btn">#96</a>
+            </td>
+            <td>
+                <b>
+                    Log message type.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Log the message type instead of a binary blob.
+
+Closes #95 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-07 10:17:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/94" class=".btn">#94</a>
             </td>
             <td>
@@ -60,32 +88,6 @@ Example failure: https://github.com/hyperledger-labs/go-perun/runs/2692568029?ch
     </table>
     <div class="right-align">
         Created At 2021-05-31 14:34:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/89" class=".btn">#89</a>
-            </td>
-            <td>
-                <b>
-                    Use EventSub instead of Filter/Watch.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Draft until #36 is merged. Closes #84 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-31 11:10:11 +0000 UTC
     </div>
 </div>
 
