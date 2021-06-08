@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/463" class=".btn">#463</a>
+            </td>
+            <td>
+                <b>
+                    Release process / versioning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I started to write down some little docu how we could do releases.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-08 12:45:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/462" class=".btn">#462</a>
             </td>
             <td>

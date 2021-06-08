@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/21" class=".btn">#21</a>
+            </td>
+            <td>
+                <b>
+                    First drop of changes to support the fabric token SDK
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - NWO:
+  - add support for sdks to FSC node
+  - remove support for external builders
+  - aliasing for FSC clients
+- Additional loggings
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-08 15:21:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/18" class=".btn">#18</a>
             </td>
             <td>
