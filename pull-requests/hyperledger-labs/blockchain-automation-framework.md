@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1516" class=".btn">#1516</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] implemented new test for create/crypto/raft rol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+- Add new test for create/crypto/raft rol
+- Fixed task using molecule-idempotence-notest tag to be able to run the implemented test
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar
+@alvaropicazo
+
+ 
+
+**Linked issue**
+#720 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-08 10:55:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1515" class=".btn">#1515</a>
+            </td>
+            <td>
+                <b>
+                    [shared] update AWS cli to v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Update aws cli to v2
+
+ 
+
+**Reviewed by**
+@sownak 
+ 
+
+**Linked issue**
+#1514
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-08 10:27:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1505" class=".btn">#1505</a>
             </td>
             <td>
