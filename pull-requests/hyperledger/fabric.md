@@ -516,6 +516,8 @@ Finally, you can contact us on https://mergify.io/
 
 As the HLF doc says, it's possible to override each config param via env variables, however, it isn't true for chaincode.externalBuilders 
 
+Also, added a small expectation to a test for `chaincode.system` configuration
+
 #### Related issues
 
 https://jira.hyperledger.org/browse/FAB-18482
@@ -850,39 +852,6 @@ https://github.com/hyperledger/fabric/pull/2573
     </table>
     <div class="right-align">
         Created At 2021-06-02 01:25:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2630" class=".btn">#2630</a>
-            </td>
-            <td>
-                <b>
-                    Fix minor code comment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: manish <manish.sethi@gmail.com>
-
-#### Type of change
-- Improvement
-
-#### Additional details
-Address [comment](https://github.com/hyperledger/fabric/pull/2614#discussion_r642961892) in previous PR
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-01 15:46:42 +0000 UTC
     </div>
 </div>
 
