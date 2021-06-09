@@ -815,39 +815,3 @@ Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2633" class=".btn">#2633</a>
-            </td>
-            <td>
-                <b>
-                    Clarify Verify behaviour in PKCS11 Impl
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-- Test update
-
-#### Description
-
-the pkcs11 verify implementation will never receive a pkcs11 key to be used to verify a signature, this change clarifies that in the code and adds tests for the verify implementation
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 09:38:10 +0000 UTC
-    </div>
-</div>
-

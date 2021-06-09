@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    First drop of changes to support the fabric token SDK
+                    Support for the fabric token SDK #20
                 </b>
             </td>
         </tr>
@@ -32,6 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
   - remove support for external builders
   - aliasing for FSC clients
 - Additional loggings
+- optimised endpoint resolution
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
