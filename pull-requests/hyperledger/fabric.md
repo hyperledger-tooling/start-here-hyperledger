@@ -14,6 +14,83 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2658" class=".btn">#2658</a>
+            </td>
+            <td>
+                <b>
+                    Update ordererplan.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Modify link "create-channel_participation.html" to "create_channel_participation.html"
+
+Signed-off-by: Corey Lin <514971757@qq.com>
+
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+- New feature
+- Improvement (improvement to code, performance, etc)
+- Test update
+- Documentation update
+
+#### Description
+
+<!--- Describe your changes in detail, including motivation. -->
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 02:51:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2657" class=".btn">#2657</a>
             </td>
             <td>
@@ -771,87 +848,6 @@ the pkcs11 verify implementation will never receive a pkcs11 key to be used to v
     </table>
     <div class="right-align">
         Created At 2021-06-02 09:38:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2632" class=".btn">#2632</a>
-            </td>
-            <td>
-                <b>
-                    Pass go tags to tools container (bp #2136) 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Bug fix
-
-#### Description
-
-Backport to version 1.4 to fix trouble: when running GO_TAGS=pkcs11 make docker, the fabric-tools docker image doesn't include a PKCS11 provider.
-
-#### Related issues
-
-https://lists.hyperledger.org/g/fabric/topic/error_using_hsm_in_fabric/78302231?p=
-https://github.com/hyperledger/fabric/pull/2136
-[FAB-18457](https://jira.hyperledger.org/browse/FAB-18457)
-https://github.com/hyperledger/fabric/pull/2573
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 01:47:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2631" class=".btn">#2631</a>
-            </td>
-            <td>
-                <b>
-                    [FAB-17900] Fixes numeric env variable override bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Bug fix
-
-#### Description
-
-Backport fix for version 1.4 for error: when setting ORDERER_GENERAL_BCCSP_PKCS11_SECURITY orderer variable, the orderer fails saying that the security value is a string and not an int.
-
-#### Additional details
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-
-[FAB-17900](https://jira.hyperledger.org/browse/FAB-17900)
-[FAB-18457](https://jira.hyperledger.org/browse/FAB-18457)
-https://github.com/hyperledger/fabric/pull/2573
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 01:25:00 +0000 UTC
     </div>
 </div>
 
