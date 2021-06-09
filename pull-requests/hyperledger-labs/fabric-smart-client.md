@@ -211,29 +211,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/6" class=".btn">#6</a>
-            </td>
-            <td>
-                <b>
-                    Fix typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 17:51:32 +0000 UTC
-    </div>
-</div>
-
