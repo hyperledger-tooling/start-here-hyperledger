@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/467" class=".btn">#467</a>
+            </td>
+            <td>
+                <b>
+                    Feature/aca py resolver
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I started to change things to use aca-py resolver capabilities. The dava-py did:web call is still missing. Also we need to discuss how to handle the ledger prefix because it is now only did:sov, which might break things.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 09:20:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/466" class=".btn">#466</a>
+            </td>
+            <td>
+                <b>
+                    Improving Quick Setup in docker-compose README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added diversion for purely local test + default credentials
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 07:38:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/465" class=".btn">#465</a>
+            </td>
+            <td>
+                <b>
+                    Update README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 06:39:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/464" class=".btn">#464</a>
             </td>
             <td>
@@ -267,32 +345,6 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     </table>
     <div class="right-align">
         Created At 2021-06-02 12:35:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/446" class=".btn">#446</a>
-            </td>
-            <td>
-                <b>
-                    Fix deployment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 12:22:52 +0000 UTC
     </div>
 </div>
 
