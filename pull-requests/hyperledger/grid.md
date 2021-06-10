@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/735" class=".btn">#735</a>
+            </td>
+            <td>
+                <b>
+                    Update help with env var defaults
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `Key` option help information updated to include GRID_DAEMON_KEY and
+CYLINDER_PATH defaults. `service_id` option help was updated to include
+GRID_SERVICE_ID environment variable. URL option help was updated to
+include GRID_SERVICE_ENDPOINT default.
+
+Signed-off-by: Kevin Johnson <kevin_johnson@cargill.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-04 12:44:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/733" class=".btn">#733</a>
             </td>
             <td>

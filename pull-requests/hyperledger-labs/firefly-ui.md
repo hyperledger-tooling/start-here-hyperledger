@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/33" class=".btn">#33</a>
+            </td>
+            <td>
+                <b>
+                    add message & data counts to dashboard
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                No longer rely on sequence numbers for total counts across namespaces.
+For now (a hack) while a count API is being developed, just set a high limit on dashboard queries and add a time filter.
+
+<img width="1679" alt="Screen Shot 2021-06-10 at 12 03 03 PM" src="https://user-images.githubusercontent.com/10987380/121573456-4bbf5b80-c9f3-11eb-90bb-34eef1bf31bd.png">
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-10 17:54:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/30" class=".btn">#30</a>
             </td>
             <td>

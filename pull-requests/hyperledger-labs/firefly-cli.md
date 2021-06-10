@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/28" class=".btn">#28</a>
+            </td>
+            <td>
+                <b>
+                    Use "docker compose" and capture exit code 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                On my machine `docker-compose` now fails with:
+`Docker Compose is now in the Docker CLI, try 'docker compose up'`
+
+In order to work this out, I found it easiest to implement #27 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-10 16:23:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/23" class=".btn">#23</a>
             </td>
             <td>
@@ -122,35 +151,6 @@ Other notable improvements include:
     </table>
     <div class="right-align">
         Created At 2021-06-03 21:38:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/17" class=".btn">#17</a>
-            </td>
-            <td>
-                <b>
-                    Postgres improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Move data inside containers (don't mount volumes in the data directory anymore)
-- Update `reset` command to wipe containers (keeping config only)
-- Fix bugs with `reset` command
-- Add `-f` flag to `reset` command to force the operation
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-03 18:02:48 +0000 UTC
     </div>
 </div>
 

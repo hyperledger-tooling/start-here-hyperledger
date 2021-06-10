@@ -14,11 +14,49 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2665" class=".btn">#2665</a>
+            </td>
+            <td>
+                <b>
+                    Update private_data_tutorial.rst
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+fabric-samples branch:release-2.2 does not exist anymore.
+This break the document link
+
+
+#### Related issues
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-10 14:27:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2664" class=".btn">#2664</a>
             </td>
             <td>
                 <b>
-                    TBC: should PeersOfChannel return members without endpoints?
+                    Update discovery PeersOfChannel
                 </b>
             </td>
         </tr>
@@ -925,78 +963,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2021-06-04 16:10:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2636" class=".btn">#2636</a>
-            </td>
-            <td>
-                <b>
-                    Update secured_private_asset_transfer_tutorial.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed typo
-
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix in documentation 
-
-#### Description
-
-<!--- Describe your changes in detail, including motivation. -->
-Org1 was mentioned twice instead of Org1 and Org2
-
-#### Additional details
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-03 14:25:58 +0000 UTC
     </div>
 </div>
 

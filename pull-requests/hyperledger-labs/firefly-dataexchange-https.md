@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/20" class=".btn">#20</a>
+            </td>
+            <td>
+                <b>
+                    Reload TLS context on adding new cert
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-10 17:06:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/19" class=".btn">#19</a>
             </td>
             <td>
