@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1517" class=".btn">#1517</a>
+            </td>
+            <td>
+                <b>
+                    [shared] only TLS 1.2+ allowed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: pppazos <hgartti@gmail.com>
+
+**Changelog**
+- Add default TLSContext for ambassador
+- Add min_tls_version: v1.2 in all Ambassador TLSContext objects
+- Remove ELBSecurityPolicy-TLS-1-2-2017-01 annotation
+
+ 
+
+**Reviewed by**
+@sownak @suvajit-sarkar 
+
+ 
+
+**Linked issue**
+#1500 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-10 06:27:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1516" class=".btn">#1516</a>
             </td>
             <td>
