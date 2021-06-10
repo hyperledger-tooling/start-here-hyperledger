@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/60" class=".btn">#60</a>
+            </td>
+            <td>
+                <b>
+                    Config API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a new `/config` endpoint which can be used for dynamically adding or modifying config at runtime via a REST API. Any change in configuration will result in a restart of all services and plugins (not the process itself though).
+
+Due to how powerful (dangerous) the new configuration endpoints are, they have been moved to a separate “admin” HTTP listener which will listen on a separate port, if enabled at all. By default, it is disabled. To enable the admin endpoints, add the following lines to your firefly.core config:
+
+```yaml
+admin:
+  enabled: true
+  address: 0.0.0.0
+  port: 5001
+```
+
+To set a configuration key make a `PUT` request to `/admin/api/v1/config/{key}` with a JSON request body.
+
+
+For example, if you want to set the HTTP URL for ethconnct, you would make a `PUT` request to `/admin/api/v1/config/blockchain.ethereum.ethconnect` with a request body of:
+
+```json
+{
+  "url": "http://some_url"
+}
+```
+
+The payload will be merged with any existing config. This means that it is not possible to _remove_ configuration keys that are present in the config file, via the REST API.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-10 01:08:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/59" class=".btn">#59</a>
             </td>
             <td>
