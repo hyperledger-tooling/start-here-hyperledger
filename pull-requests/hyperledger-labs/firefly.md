@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/62" class=".btn">#62</a>
+            </td>
+            <td>
+                <b>
+                    Add status API endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `GET` `/api/v1/status` returns a structure containing:
+
+- Org information - name, identity, whether it's registered, and if so what the ID is
+- Node information - name, whether it's registered, and if so what the ID is
+- Defaults - just the default namespace for now
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-10 15:42:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/61" class=".btn">#61</a>
+            </td>
+            <td>
+                <b>
+                    Rename the go package name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-10 13:54:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/60" class=".btn">#60</a>
             </td>
             <td>
