@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger-labs/firefly-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-samples/pull/7" class=".btn">#7</a>
+            </td>
+            <td>
+                <b>
+                    More UI cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 20:17:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-samples/pull/6" class=".btn">#6</a>
+            </td>
+            <td>
+                <b>
+                    Make UI prettier
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <img width="1595" alt="Screen Shot 2021-06-09 at 3 49 47 PM" src="https://user-images.githubusercontent.com/1993829/121419780-54a02680-c93a-11eb-8f29-f8c1d7e00023.png">
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 19:49:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-samples/pull/5" class=".btn">#5</a>
+            </td>
+            <td>
+                <b>
+                    Add member toggle to UI sample
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 19:05:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-samples/pull/3" class=".btn">#3</a>
             </td>
             <td>

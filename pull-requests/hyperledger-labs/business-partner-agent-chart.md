@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/10" class=".btn">#10</a>
+            </td>
+            <td>
+                <b>
+                    Not all envFrom configurations were loading properly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Ran in Openshift, and it wasn't loading the BPA application config map env. vars if Keycloak ConfigMap was loading. Had to tweak the helper to not include the second `envFrom` property. Just put all configmaps under a single `envFrom` property.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 22:25:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/9" class=".btn">#9</a>
             </td>
             <td>
