@@ -14,6 +14,200 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2663" class=".btn">#2663</a>
+            </td>
+            <td>
+                <b>
+                    Typo fix in peer deployment guide in main (backport #2660)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #2660 done by [Mergify](https://mergify.io).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.io/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.io/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.io/
+</details>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 22:29:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2662" class=".btn">#2662</a>
+            </td>
+            <td>
+                <b>
+                    Fix jq commands in create channel tutorial
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nikhil Gupta <ngupta@symbridge.com>
+
+#### Type of change
+
+- Bug fix
+- Documentation update
+
+#### Description
+
+Cherry pick jq command fixes that were made in release-2.3 to the 2.2 branch
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 21:28:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2661" class=".btn">#2661</a>
+            </td>
+            <td>
+                <b>
+                    Link fixes in create channel tutorial
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nikhil Gupta <ngupta@symbridge.com>
+
+#### Type of change
+
+- Bug fix
+- Documentation update
+
+#### Description
+
+Cherry pick link fixes made in the 2.3 branch to main
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 20:57:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2660" class=".btn">#2660</a>
+            </td>
+            <td>
+                <b>
+                    Typo fix in peer deployment guide in main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nikhil Gupta <ngupta@symbridge.com>
+
+#### Type of change
+
+- Bug fix
+- Documentation update
+
+#### Description
+
+Cherry pick typo fix that was made in the 2.3 branch to main branch.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 20:21:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2659" class=".btn">#2659</a>
+            </td>
+            <td>
+                <b>
+                    Fix link in orderer deployment guide in main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-merge</span>
+            </td>
+            <td>
+                Signed-off-by: Nikhil Gupta <ngupta@symbridge.com>
+
+#### Type of change
+
+- Bug fix
+- Documentation update
+
+#### Description
+
+Cherry picking a link fix that was put into the 2.3 branch into main
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 20:08:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2658" class=".btn">#2658</a>
             </td>
             <td>
@@ -777,41 +971,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2021-06-03 14:25:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2635" class=".btn">#2635</a>
-            </td>
-            <td>
-                <b>
-                    Added RetrieveBlockByNumber into blockledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Description
-GetBlock is used for retrieving a block in ConfigBlockOrPanic
-which has overhead of Iterator. It is now simplified by exposing
-a BlockStore function RetrieveBlockByNumber.
-
-Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
-
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-- Test update
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 18:58:59 +0000 UTC
     </div>
 </div>
 

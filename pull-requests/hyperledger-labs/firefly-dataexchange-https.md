@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/19" class=".btn">#19</a>
+            </td>
+            <td>
+                <b>
+                    Add GitHub action to build and deploy Docker images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 23:20:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/17" class=".btn">#17</a>
             </td>
             <td>
@@ -416,58 +442,6 @@ So copying in @nguyer for a review.
     </table>
     <div class="right-align">
         Created At 2021-06-05 00:18:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/2" class=".btn">#2</a>
-            </td>
-            <td>
-                <b>
-                    Update swagger and readme
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 18:49:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/1" class=".btn">#1</a>
-            </td>
-            <td>
-                <b>
-                    Add optional request ID
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                To allow clients to correlate messages and blob transfer confirmations
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 18:45:37 +0000 UTC
     </div>
 </div>
 

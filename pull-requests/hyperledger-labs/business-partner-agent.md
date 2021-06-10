@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/468" class=".btn">#468</a>
+            </td>
+            <td>
+                <b>
+                    Fix Issue 456 where dialogs retain values.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
+
+Dialogs were keeping values after use, need to reset the fields to empty.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 22:39:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/467" class=".btn">#467</a>
             </td>
             <td>

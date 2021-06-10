@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/30" class=".btn">#30</a>
+            </td>
+            <td>
+                <b>
+                    move to react 16.14.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - fixes builds on node 16.x due to nivo issue
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 21:20:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/27" class=".btn">#27</a>
             </td>
             <td>

@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    Update docker image paths to hyperledger repos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To make sure you always have the latest images you can run these commands:
+
+```
+docker pull ghcr.io/hyperledger-labs/firefly:latest
+docker pull ghcr.io/hyperledger-labs/firefly-ethconnect:latest
+docker pull ghcr.io/hyperledger-labs/firefly-dataexchange-https:latest
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 23:36:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    Rename package and ethconnect headers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-09 19:51:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/21" class=".btn">#21</a>
             </td>
             <td>
