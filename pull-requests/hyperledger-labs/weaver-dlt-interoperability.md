@@ -65,31 +65,3 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/65" class=".btn">#65</a>
-            </td>
-            <td>
-                <b>
-                    Code Refactoring and Automate deployment of SimpleAsset
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Refactored `interface/asset-mgmt` and `simpleasset` to keep unit tests in different package, so that deployment doesn't require mocks to be copied.
-2. Automated copying of `asset-mgmt` into `simpleasset` during network deployment.
-3. Added a clean target in `interoperation-node-sdk`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-03 18:35:29 +0000 UTC
-    </div>
-</div>
-
