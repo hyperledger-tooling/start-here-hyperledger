@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1522" class=".btn">#1522</a>
+            </td>
+            <td>
+                <b>
+                    [shared] merge from master
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+fix security issues
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-11 13:35:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1521" class=".btn">#1521</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] upgrade versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+Fix security alerts
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-11 13:10:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1520" class=".btn">#1520</a>
             </td>
             <td>

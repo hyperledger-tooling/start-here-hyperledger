@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/69" class=".btn">#69</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/71" class=".btn">#71</a>
             </td>
             <td>
                 <b>
-                    Update README.md
+                    Add namespace to ops
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-11 12:54:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/70" class=".btn">#70</a>
+            </td>
+            <td>
+                <b>
+                    Readme updates
                 </b>
             </td>
         </tr>
@@ -32,7 +58,7 @@ permalink: /pull-requests/hyperledger-labs/firefly
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-11 05:41:56 +0000 UTC
+        Created At 2021-06-11 12:42:17 +0000 UTC
     </div>
 </div>
 
