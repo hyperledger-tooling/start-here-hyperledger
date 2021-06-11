@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/69" class=".btn">#69</a>
+            </td>
+            <td>
+                <b>
+                    Update README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-11 05:41:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/67" class=".btn">#67</a>
+            </td>
+            <td>
+                <b>
+                    Add private test to e2e
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Used created timestamp on message query, to allow re-running the test with `go test -v` without rebuilding the env
+- Added a common test setup structure
+- Added a private messaging test
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-11 03:12:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/66" class=".btn">#66</a>
+            </td>
+            <td>
+                <b>
+                    Add namespace to operation filter factory
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ` "error": "FF10148: Unknown filter 'namespace'"` when querying operations on API
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-11 02:00:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/65" class=".btn">#65</a>
             </td>
             <td>
