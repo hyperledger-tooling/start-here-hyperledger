@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/174" class=".btn">#174</a>
+            </td>
+            <td>
+                <b>
+                    Fix to build errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pihu1998 <pranamika.pihu1998@gmail.com>
+
+The commits are in regard to a fix for the build errors in the utility-emissions-channel
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-11 08:16:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/173" class=".btn">#173</a>
             </td>
             <td>

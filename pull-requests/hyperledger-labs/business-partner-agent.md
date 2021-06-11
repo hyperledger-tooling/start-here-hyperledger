@@ -194,29 +194,3 @@ Dialogs were keeping values after use, need to reset the fields to empty.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/455" class=".btn">#455</a>
-            </td>
-            <td>
-                <b>
-                    missing filter on the partners issued credential list
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixed issue that all partners have the same list of issued credentials
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-04 10:05:57 +0000 UTC
-    </div>
-</div>
-

@@ -65,7 +65,11 @@ This break the document link
                 
             </td>
             <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                Update PeersOfChannel behaviour to match Peers function,
+i.e. include endpoint in self memeber, only the peers that
+have an external endpoint, and sanitizes the envelopes
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
