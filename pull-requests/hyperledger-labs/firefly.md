@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/65" class=".btn">#65</a>
+            </td>
+            <td>
+                <b>
+                    Updates to private messaging from e2e testing with CLI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves a few nits in the end-to-end flow:
+- Ensuring the group creation event is created, and included in the same namespace as the first message on that group
+- Making a batch rewind wake up the event poller immediately, to assemble the message
+- Generate a `group_confirmed` event only (no separate `message_confirmed`) when a group arrives
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-10 22:55:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/64" class=".btn">#64</a>
+            </td>
+            <td>
+                <b>
+                    fix proposal link
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nick Gaski <nick.gaski@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-10 21:24:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/63" class=".btn">#63</a>
+            </td>
+            <td>
+                <b>
+                    Fix E2E test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This gets the E2E test running again with the latest API. Can (should) be run manually before commits with `./test/e2e/run.sh`. Eventually will get it added to a GitHub action as well.
+
+It's not as clean or as thorough as it could be, but it's a start. Feedback/future suggestions welcome.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-10 21:02:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/62" class=".btn">#62</a>
             </td>
             <td>

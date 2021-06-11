@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/736" class=".btn">#736</a>
+            </td>
+            <td>
+                <b>
+                    Update man pages for agent commands
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Kevin Johnson <kevin_johnson@cargill.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-04 14:44:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/735" class=".btn">#735</a>
             </td>
             <td>
@@ -71,37 +97,6 @@ Signed-off-by: Kevin Johnson <kevin_johnson@cargill.com>
     </table>
     <div class="right-align">
         Created At 2021-06-04 12:38:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/732" class=".btn">#732</a>
-            </td>
-            <td>
-                <b>
-                    Move `clear_database` fns to new `testing` module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This moves the `clear_database` functions for clearing the postgres and
-sqlite databases to a new testing module. These are guarded behind new
-features `test-postgres` and `test-sqlite` respectively. This does not
-change any functionality.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-03 21:14:34 +0000 UTC
     </div>
 </div>
 
