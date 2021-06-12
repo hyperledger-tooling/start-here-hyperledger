@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/181" class=".btn">#181</a>
+            </td>
+            <td>
+                <b>
+                    Update utilities emissions docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #98.
+
+Add info to provide context for setting up `utility-emissions-channel`, especially for the instructions up top for [Running the Fabric network and Express API](https://github.com/hyperledger-labs/blockchain-carbon-accounting/tree/main/utility-emissions-channel#running-the-fabric-network-and-express-api). This is in order to help the user to set the Ethereum configuration settings properly. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-11 23:43:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/179" class=".btn">#179</a>
+            </td>
+            <td>
+                <b>
+                    Fix utility-emissions-channel readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-11 22:06:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/174" class=".btn">#174</a>
             </td>
             <td>
