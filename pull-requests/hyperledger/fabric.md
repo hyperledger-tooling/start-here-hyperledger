@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/fabric
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-merge</span>
             </td>
             <td>
                 
