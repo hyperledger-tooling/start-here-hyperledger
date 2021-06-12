@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2670" class=".btn">#2670</a>
+            </td>
+            <td>
+                <b>
+                    [FAB-18487] Update broken link in 2.2 branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Bug fix
+- Documentation update
+
+#### Description
+
+Fix broken links in the Fabric 2.2 branch
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-11 20:06:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2668" class=".btn">#2668</a>
             </td>
             <td>
@@ -24,7 +58,7 @@ permalink: /pull-requests/hyperledger/fabric
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-merge</span>
             </td>
             <td>
                 This is an automatic backport of pull request #2667 done by [Mergify](https://mergify.io).
@@ -973,51 +1007,6 @@ Finally, you can contact us on https://mergify.io/
     </table>
     <div class="right-align">
         Created At 2021-06-07 09:29:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2643" class=".btn">#2643</a>
-            </td>
-            <td>
-                <b>
-                    FAB-18482 Unable to specify peer's chaincode.externalBuilders as an env variable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-
-As the HLF doc says, it's possible to override each config param via env variables, however, it isn't true for chaincode.externalBuilders 
-
-Also, added a small expectation to a test for `chaincode.system` configuration
-
-#### Related issues
-
-https://jira.hyperledger.org/browse/FAB-18482
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-04 23:56:17 +0000 UTC
     </div>
 </div>
 
