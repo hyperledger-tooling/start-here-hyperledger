@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1057" class=".btn">#1057</a>
+            </td>
+            <td>
+                <b>
+                    Fix small typo in whitepaper.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+Fixed a typo in whitepaper.
+
+### Benefits
+
+More clear text.
+
+### Possible Drawbacks 
+
+None.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-07 17:42:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1055" class=".btn">#1055</a>
             </td>
             <td>
