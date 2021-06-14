@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1525" class=".btn">#1525</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Implented test for create/tessera rol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+- Add new test for create/tessera rol
+- Fixed task using molecule-idempotence-notest tag or changed_when: false to be able to run the implemented test
+ 
+
+**Reviewed by**
+@suvajit-sarkar
+@alvaropicazo
+
+ 
+**Linked issue**
+#724 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 13:47:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1522" class=".btn">#1522</a>
             </td>
             <td>

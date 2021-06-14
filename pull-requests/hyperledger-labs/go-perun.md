@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/106" class=".btn">#106</a>
+            </td>
+            <td>
+                <b>
+                    Add Reorg to SimulatedBackend
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Introduces a `Reorg` function. Example can be found in #105.  
+Im not quite sure here with the testing, if it is too complicated, we could leave it for later.  
+  
+It sadly uses a replace in the `go.mod`, lets see if it works in the CI.
+
+Closes #105 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 14:59:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/104" class=".btn">#104</a>
+            </td>
+            <td>
+                <b>
+                    Add Auto-mining to SimulatedBackend
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Introduces two functions: `StartMining(interval)` and `StopMining`.  
+Can be used to simulate a ticking blockchain.  
+
+Closes #103 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 13:28:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/101" class=".btn">#101</a>
             </td>
             <td>

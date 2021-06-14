@@ -105,7 +105,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                
+                https://hackmd.io/2m16i56sTtmYi9tVuklVVw?view
             </td>
         </tr>
     </table>
