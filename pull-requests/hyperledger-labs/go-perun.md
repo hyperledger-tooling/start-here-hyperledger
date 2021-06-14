@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/96" class=".btn">#96</a>
-            </td>
-            <td>
-                <b>
-                    Log message type.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Log the message type instead of a binary blob.
-
-Closes #95 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-07 10:17:18 +0000 UTC
-    </div>
-</div>
-
