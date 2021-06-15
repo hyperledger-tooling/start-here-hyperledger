@@ -418,29 +418,3 @@ Dialogs were keeping values after use, need to reset the fields to empty.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/462" class=".btn">#462</a>
-            </td>
-            <td>
-                <b>
-                    Feature/health check3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-08 06:16:58 +0000 UTC
-    </div>
-</div>
-
