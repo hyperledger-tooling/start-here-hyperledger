@@ -14,6 +14,152 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/481" class=".btn">#481</a>
+            </td>
+            <td>
+                <b>
+                    fix startup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 23:46:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/480" class=".btn">#480</a>
+            </td>
+            <td>
+                <b>
+                    Feature/proof request rejection problem report
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">frontend</span>
+            </td>
+            <td>
+                ThreadId wasn't being saved properly by the initiator, the event handler by the VERIFIER wasn't working. 
+If there is a problemReport, show the user an icon with the message as a tooltip.
+
+Also added debug port for second BPA in local-network docker-compose.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 22:53:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/479" class=".btn">#479</a>
+            </td>
+            <td>
+                <b>
+                    fix .env
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 22:25:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/478" class=".btn">#478</a>
+            </td>
+            <td>
+                <b>
+                    add startup tasks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 22:18:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/477" class=".btn">#477</a>
+            </td>
+            <td>
+                <b>
+                    Customized UX
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Use configuration values to update the look and feel of the application.
+
+Add in BC Gov branding (could be used by others), adjusts the UX to have a business logo on Top Right Hand side, can override the Title. Change the layout of the navigation (put logout at bottom, put Settings at bottom, hide About). Can override the favicon.
+
+Colors are configurable and will set the vuetify light theme.
+
+Will have a related PR for the helm charts to load ux like we do schemas for each deployment
+
+### BCGov Branded  (loaded to Openshift via Helm charts)
+![Screen Shot 2021-06-14 at 2 14 28 PM](https://user-images.githubusercontent.com/39388115/121961004-b2a68280-cd1b-11eb-8622-a5e83396a9d5.png)
+
+### Default branding (loaded to Openshift via Helm charts)
+![Screen Shot 2021-06-14 at 2 14 41 PM](https://user-images.githubusercontent.com/39388115/121961115-d964b900-cd1b-11eb-821d-1933a5943600.png)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 21:22:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/475" class=".btn">#475</a>
             </td>
             <td>

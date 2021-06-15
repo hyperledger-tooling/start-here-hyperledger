@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/107" class=".btn">#107</a>
+            </td>
+            <td>
+                <b>
+                    Remove hardcoded genesis alloc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I know that this has low prio but it was annoying me :laughing:  
+
+Remove the hard coded genesis allocation addresses with a call to `DeceloperGenesisBlock`.
+
+Closes #54 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 18:48:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/106" class=".btn">#106</a>
             </td>
             <td>

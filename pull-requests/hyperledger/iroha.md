@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1057" class=".btn">#1057</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1060" class=".btn">#1060</a>
             </td>
             <td>
                 <b>
-                    Fix small typo in whitepaper.
+                    Fixes Docker publish and iroha2-dev push CI
                 </b>
             </td>
         </tr>
@@ -27,43 +27,9 @@ permalink: /pull-requests/hyperledger/iroha
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                ### Description of the Change
+                Signed-off-by: Egor Ivkov <e.o.ivkov@gmail.com>
 
-Fixed a typo in whitepaper.
-
-### Benefits
-
-More clear text.
-
-### Possible Drawbacks 
-
-None.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-07 17:42:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1055" class=".btn">#1055</a>
-            </td>
-            <td>
-                <b>
-                    Allows mod.rs usage for better file structure
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- You will not see HTML commented line in Pull Request body -->
 <!-- Optional sections may be omitted. Just remove them or write None -->
 
 <!-- ### Requirements -->
@@ -75,12 +41,16 @@ None.
 
 
 ### Description of the Change
-Allows mod.rs usage for better file structure
+Fixes Docker publish and iroha2-dev push CI
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
 ### Benefits
-Better file structure as there will be no name duplication in one folder (e.g `bar.rs` along with `/bar`).
+- Docker images will be published on iroha2-dev push
+- iroha2-dev CI will not be failing
+- Moves coverage and bench into PR CI
+- Fixes add label action
+
 <!-- What benefits will be realized by the code change? -->
 
 ### Possible Drawbacks 
@@ -100,7 +70,7 @@ Better file structure as there will be no name duplication in one folder (e.g `b
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-07 15:47:35 +0000 UTC
+        Created At 2021-06-08 13:03:09 +0000 UTC
     </div>
 </div>
 
