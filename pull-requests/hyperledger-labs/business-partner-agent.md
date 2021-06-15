@@ -14,6 +14,136 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/487" class=".btn">#487</a>
+            </td>
+            <td>
+                <b>
+                    fix echo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-15 10:32:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/486" class=".btn">#486</a>
+            </td>
+            <td>
+                <b>
+                    fix explanation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-15 10:22:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/485" class=".btn">#485</a>
+            </td>
+            <td>
+                <b>
+                    add terminal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-15 10:10:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/484" class=".btn">#484</a>
+            </td>
+            <td>
+                <b>
+                    wait a little for DB
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-15 09:26:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/483" class=".btn">#483</a>
+            </td>
+            <td>
+                <b>
+                    fix gitpod did reg
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-15 09:01:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/481" class=".btn">#481</a>
             </td>
             <td>

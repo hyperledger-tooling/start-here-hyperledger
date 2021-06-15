@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1061" class=".btn">#1061</a>
+            </td>
+            <td>
+                <b>
+                    Changed text entities to links in docs.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+Right now structs, enums and etc. are mentioned by simply putting them in ``.
+I changed them to actual links instead, so that documentation will be easier to browse.
+
+### Benefits
+
+Documentation is easier to browse.
+
+### Possible Drawbacks 
+
+None.
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-08 14:53:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1060" class=".btn">#1060</a>
             </td>
             <td>
