@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/76" class=".btn">#76</a>
+            </td>
+            <td>
+                <b>
+                    Add pending and rejected fields to messages, and use for clear sort order
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Fixes this error seen after groups were added:
+  `"error": "FF10121: Database resultset read error from table 'messages': sql: Scan error on column index 8, name \"group_hash\": encoding/hex: invalid byte: U+0020 ' '"`
+  - The problem here was `.Set("group",` code incorrectly using a non-nil string for `nil` values
+  - This was because all hashes were using `StringField` in the `QueryFactory` implementations
+  - Created a `Bytes32Field` as a partner to `UUIDField` and swapped them all over
+- Fixes #72 "Sort messages by confirmed, not the created sequence"
+  - This was a little harder than I expected.
+  - The absolute order will always be the `/events` sequence (because clocks can jitter in exceptional circumstances), but it is very strange if the order of the messages in the `/messages` collection (and hence the UI) does not match the order you were delivered them
+  - To get an order that makes sense I had to add two fields to messages:
+    - `pending` - this starts `true`, and goes to false once the message is `confirmed`
+    - `rejected` - is set to `true` if a message is confirmed, but with a failure (partners a `message_rejected` event)
+  - This was necessary so that I could have a sort order of:
+    - `pending,confirmed,created` (all descending) - meaning pending messages are always listed first in created order, then confirmed messages in order - including failed confirmed messages
+  - I renamed `message_invalid` to `message_rejected` for consistency
+  - There's some faff as PSQL and QL differ on a couple of fundamentals
+    - QL does not support sorting `bool` columns - so I went for a `smallint` approach for the `pending` column
+    - QL does not support per-column sorting - so I went for a consistent sort order
+  - I also made it so you can specify a `-` prefix on individual column sorts on the API
+- Small tweak to the `e2e` test to use the `-n` option on `ff start` proposed in https://github.com/hyperledger-labs/firefly-cli/pull/37
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-15 04:54:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/71" class=".btn">#71</a>
             </td>
             <td>
