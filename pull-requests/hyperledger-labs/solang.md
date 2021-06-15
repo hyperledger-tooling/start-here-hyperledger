@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/424" class=".btn">#424</a>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/425" class=".btn">#425</a>
             </td>
             <td>
                 <b>
-                    Various small fixes
+                    Instantiate contract on-chain using program derived address via seed
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/solang
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-04 09:07:38 +0000 UTC
+        Created At 2021-06-15 16:31:00 +0000 UTC
     </div>
 </div>
 
