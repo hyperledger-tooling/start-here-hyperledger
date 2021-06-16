@@ -500,29 +500,3 @@ Dialogs were keeping values after use, need to reset the fields to empty.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/464" class=".btn">#464</a>
-            </td>
-            <td>
-                <b>
-                    Update README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Frank Bernhardt <Frank.Bernhardt@bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-09 05:56:27 +0000 UTC
-    </div>
-</div>
-
