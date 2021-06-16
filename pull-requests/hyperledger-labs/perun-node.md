@@ -14,6 +14,95 @@ permalink: /pull-requests/hyperledger-labs/perun-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/203" class=".btn">#203</a>
+            </td>
+            <td>
+                <b>
+                    Improve API Error impl & document errors in API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Provide a general summary of your changes in the title above
+
+Please read our contribution guidelines and sign the Contributor License
+Agreement (CLA) before submitting the pull request. Also, check if there are no
+other open pull requests targeting the same issue. -->
+
+#### Description
+<!-- Describe your changes in detail. -->
+- The implementation is improved to
+  - Store the underlying error, so that error stack can be retreived.
+  - Implement formatter interface, so that error stack is retreived from
+    the underlying error and printed when using the "%+v" verb in printf
+    style funcs.
+  - For most errors (except for failed pre-condition), generate error
+    messages within the error constructors. So that redundant definition
+    of error messags is removed.
+
+- Add tests for all error constructors, perun pkg has 100% coverage now.
+
+- Move error assertions functions to perun-node/peruntest, as most of
+  them are used in perun_test both session_test packages.
+
+- Document the named errors returned by each of the API.
+
+- Also, use upper case 'O' in timedOut in all the places.
+
+
+
+##### Category
+<!-- Tell us what type of issue does your pull request target.
+You can uncomment one of the following options: -->
+
+<!-- Bug Fix -->
+<!-- Improvement -->
+Implementation Task
+
+##### Relevant issue
+<!-- Provide a link to the related issue. You can use the following keywords
+and the issue number: "fixes", "resolves", "relates to". E.g.: closes #21
+
+We accept only pull requests related to open issues. If you're suggesting a new
+feature, improvement or fixing a bug that is not yet reported, please discuss it in
+an issue before submitting a pull request. -->
+
+Resolves #132.
+
+#### Testing
+<!-- Tell us how you have tested the changes. -->
+
+Tests have been added in perun package for error constructors. This package now has 100% coverage.
+
+##### Steps to run the tests
+<!-- Describe a set of steps to run the tests relevant to this change. -->
+
+1. 
+2. 
+3.  
+
+#### Checklist 
+<!-- Please check if the pull request fulfils these requirements: -->
+
+- [x] Name is added to the NOTICE file, if it is not present already.
+- [x] Changes are rebased onto the target branch.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-15 20:34:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/perun-node/pull/202" class=".btn">#202</a>
             </td>
             <td>

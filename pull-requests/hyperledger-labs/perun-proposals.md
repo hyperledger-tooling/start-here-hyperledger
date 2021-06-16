@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-proposals
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-proposals/pull/9" class=".btn">#9</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-proposals/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    Update API Spec to use ERC20 token as currencies
+                    In the API spec, fix the errors returned
                 </b>
             </td>
         </tr>
@@ -27,22 +27,20 @@ permalink: /pull-requests/hyperledger-labs/perun-proposals
                 
             </td>
             <td>
-                 - An API is added to register new currencies. Because there are many
-  ERC20 tokens, user should be able to register new ones.
-    
- - Contract address are returned as map in node configuration. Since new
-   currencies can be dynamically added, the list of asset holder
-   contracts registered with the node will also be updated dynamically (one
-   asset holder contract for each ERC20 token).
-    
- - Add a payment data format and use it in the send payments API.
+                - The errors returned by the APIs was not up to date the implementation.
+  So fix them.
 
-Relates to hyperledger-labs/perun-node#192.
+- Also add a context on when the each error will be returned and revised
+  API descriptions.
+
+Relates to perun-node/issues/132.
+
+Signed-off-by: Manoranjith <ponraj.manoranjitha@in.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-02 12:02:08 +0000 UTC
+        Created At 2021-06-15 20:34:52 +0000 UTC
     </div>
 </div>
 
