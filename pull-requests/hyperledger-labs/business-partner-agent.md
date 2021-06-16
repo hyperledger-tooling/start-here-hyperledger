@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/496" class=".btn">#496</a>
+            </td>
+            <td>
+                <b>
+                    Tags
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Will implement #491 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-16 15:48:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/494" class=".btn">#494</a>
+            </td>
+            <td>
+                <b>
+                    remove leftovers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix link to issues
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-16 13:16:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/493" class=".btn">#493</a>
             </td>
             <td>
