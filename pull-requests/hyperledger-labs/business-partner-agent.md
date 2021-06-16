@@ -266,11 +266,15 @@ Also added debug port for second BPA in local-network docker-compose.
             <td>
                 Use configuration values to update the look and feel of the application.
 
-Add in BC Gov branding (could be used by others), adjusts the UX to have a business logo on Top Right Hand side, can override the Title. Change the layout of the navigation (put logout at bottom, put Settings at bottom, hide About). Can override the favicon.
+Add in BC Gov branding (could be used by others), adjusts the UX to have a business logo on Top Right Hand side, can override the style of Title (add the BPA Name before page/screen title). Change the layout of the navigation (put logout at bottom, put Settings at bottom, hide About). Can override the favicon.
 
 Colors are configurable and will set the vuetify light theme.
 
-Will have a related PR for the helm charts to load ux like we do schemas for each deployment
+Will have a [related PR](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/15) for the helm charts to load ux like we do schemas for each deployment.
+
+I have removed any changes to text via configuration. We had discussed that custom text changes should be handled when we do internationalization.
+
+Also, note that the `main.js` the configuration is loaded synchronously before loading `App.vue`, we need the configuration data to be fully loaded first.
 
 ### BCGov Branded  (loaded to Openshift via Helm charts)
 ![Screen Shot 2021-06-14 at 2 14 28 PM](https://user-images.githubusercontent.com/39388115/121961004-b2a68280-cd1b-11eb-8622-a5e83396a9d5.png)

@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/80" class=".btn">#80</a>
+            </td>
+            <td>
+                <b>
+                    Enhance blob upload support, to include metadata
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Blobs now can have both a `blob` attachment and `value` JSON
+- On upload user can add some extra form parameters - must be before the upload file itself:
+  - `metadata` - can be a string or a JSON object
+  - `autometa` - if `true` then the `filename`,`size` and `mimetype` are added to JSON metadata
+     - Can be combined with `metadata` if the metadata is JSON
+  - `datatype.name` - if the metadata needs to be validated per a datatype
+  - `datatype.version` - if the metadata needs to be validated per a datatype
+  - `validator` - to customize the validator (only `json` is supported today)
+- The `hash` of the `data` object created, will be one of:
+  - The `value` hash - if just a JSON value
+  - The `blob` hash reference - if just a BLOB value
+  - A hash of the two HEX hashes concatenated together (no spaces or separators)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-15 21:54:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/78" class=".btn">#78</a>
             </td>
             <td>
@@ -156,6 +193,8 @@ In a PR chain with https://github.com/hyperledger-labs/firefly/pull/76
                 - Used created timestamp on message query, to allow re-running the test with `go test -v` without rebuilding the env
 - Added a common test setup structure
 - Added a private messaging test
+- Added a `make e2e-rebuild` that just re-runs the e2e test
+- Updated the `apiserver` to have a mockable interface, consistent with all other components
             </td>
         </tr>
     </table>
@@ -532,49 +571,6 @@ It also re-enables our normal PR checks after the repo was transferred.
     </table>
     <div class="right-align">
         Created At 2021-06-09 19:10:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/49" class=".btn">#49</a>
-            </td>
-            <td>
-                <b>
-                    Add private send API route
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Example `POST` to `/api/v1/namespaces/{ns}/send/message`
-
-```json
-{
-  "data": [{
-      "value": "hello world"
-  }],
-  "group": {
-    "members": [
-      {"identity": "org_0"},
-      {"identity": "org_1"}
-    ],
-    "name": "mygroup1"
-  }
-}
-```
-
-There are a few bug fixes in the PR from testing end to end, particularly around ensuring the groupid propagates through the layers where it needs to.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-08 21:37:51 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Bump merge-deep from 3.0.2 to 3.0.3
+                    Bump postcss from 7.0.24 to 7.0.36
                 </b>
             </td>
         </tr>
@@ -27,23 +27,151 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [merge-deep](https://github.com/jonschlinkert/merge-deep) from 3.0.2 to 3.0.3.
+                Bumps [postcss](https://github.com/postcss/postcss) from 7.0.24 to 7.0.36.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/postcss/postcss/releases">postcss's releases</a>.</em></p>
+<blockquote>
+<h2>7.0.36</h2>
+<ul>
+<li>Backport ReDoS vulnerabilities from PostCSS 8.</li>
+</ul>
+<h2>7.0.35</h2>
+<ul>
+<li>Add <a href="https://github.com/postcss/postcss/wiki/PostCSS-8-for-end-users">migration guide link</a> to PostCSS 8 error text.</li>
+</ul>
+<h2>7.0.34</h2>
+<ul>
+<li>Fix compatibility with <code>postcss-scss</code> 2.</li>
+</ul>
+<h2>7.0.33</h2>
+<ul>
+<li>Add error message for PostCSS 8 plugins.</li>
+</ul>
+<h2>7.0.32</h2>
+<ul>
+<li>Fix error message (by <a href="https://github.com/admosity"><code>@​admosity</code></a>).</li>
+</ul>
+<h2>7.0.31</h2>
+<ul>
+<li>Use only the latest source map annotation (by <a href="https://github.com/emzoumpo"><code>@​emzoumpo</code></a>).</li>
+</ul>
+<h2>7.0.30</h2>
+<ul>
+<li>Fix TypeScript definition (by <a href="https://github.com/nex3"><code>@​nex3</code></a>)</li>
+</ul>
+<h2>7.0.29</h2>
+<ul>
+<li>Update <code>Processor#version</code>.</li>
+</ul>
+<h2>7.0.28</h2>
+<ul>
+<li>Fix TypeScript definition (by <a href="https://github.com/nex3"><code>@​nex3</code></a>).</li>
+</ul>
+<h2>7.0.27</h2>
+<ul>
+<li>Fix TypeScript definition (by <a href="https://github.com/nex3"><code>@​nex3</code></a>).</li>
+</ul>
+<h2>7.0.26</h2>
+<ul>
+<li>Fix TypeScript definition (by <a href="https://github.com/nex3"><code>@​nex3</code></a>)</li>
+</ul>
+<h2>7.0.25</h2>
+<ul>
+<li>Fix absolute path support for Windows (by <a href="https://github.com/tomrav"><code>@​tomrav</code></a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/postcss/postcss/blob/main/CHANGELOG.md">postcss's changelog</a>.</em></p>
+<blockquote>
+<h2>7.0.36</h2>
+<ul>
+<li>Backport ReDoS vulnerabilities from PostCSS 8.</li>
+</ul>
+<h2>7.0.35</h2>
+<ul>
+<li>Add migration guide link to PostCSS 8 error text.</li>
+</ul>
+<h2>7.0.34</h2>
+<ul>
+<li>Fix compatibility with <code>postcss-scss</code> 2.</li>
+</ul>
+<h2>7.0.33</h2>
+<ul>
+<li>Add error message for PostCSS 8 plugins.</li>
+</ul>
+<h2>7.0.36</h2>
+<ul>
+<li>Backport ReDoS vulnerabilities from PostCSS 8.</li>
+</ul>
+<h2>7.0.35</h2>
+<ul>
+<li>Add migration guide link to PostCSS 8 error text.</li>
+</ul>
+<h2>7.0.34</h2>
+<ul>
+<li>Fix compatibility with <code>postcss-scss</code> 2.</li>
+</ul>
+<h2>7.0.33</h2>
+<ul>
+<li>Add error message for PostCSS 8 plugins.</li>
+</ul>
+<h2>7.0.32</h2>
+<ul>
+<li>Fix error message (by <a href="https://github.com/admosity"><code>@​admosity</code></a>).</li>
+</ul>
+<h2>7.0.31</h2>
+<ul>
+<li>Use only the latest source map annotation (by Emmanouil Zoumpoulakis).</li>
+</ul>
+<h2>7.0.30</h2>
+<ul>
+<li>Fix TypeScript definition (by Natalie Weizenbaum).</li>
+</ul>
+<h2>7.0.29</h2>
+<ul>
+<li>Update <code>Processor#version</code>.</li>
+</ul>
+<h2>7.0.28</h2>
+<ul>
+<li>Fix TypeScript definition (by Natalie Weizenbaum).</li>
+</ul>
+<h2>7.0.27</h2>
+<ul>
+<li>Fix TypeScript definition (by Natalie Weizenbaum).</li>
+</ul>
+<h2>7.0.26</h2>
+<ul>
+<li>Fix TypeScript definition (by Natalie Weizenbaum).</li>
+</ul>
+<h2>7.0.25</h2>
+<ul>
+<li>Fix absolute path support for Windows (by Tom Raviv).</li>
+</ul>
+</blockquote>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/jonschlinkert/merge-deep/commit/628ff47c9d824ccf21adf9a2b7cc6b74632e11a1"><code>628ff47</code></a> 3.0.3</li>
-<li><a href="https://github.com/jonschlinkert/merge-deep/commit/cfbe20ccdb00255b711de57e37ed8ce9f109ef3f"><code>cfbe20c</code></a> run verb to generate README documentation</li>
-<li><a href="https://github.com/jonschlinkert/merge-deep/commit/e370968581413a2e5ffdbbf7c2f5094e0e0b3861"><code>e370968</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/jonschlinkert/merge-deep/issues/17">#17</a> from jonschlinkert/key-properties</li>
-<li><a href="https://github.com/jonschlinkert/merge-deep/commit/393e2cbaeacf54e77a307c3620a00f0ac057b8d5"><code>393e2cb</code></a> adding a test to ensure using merge-deep for inheritance still works</li>
-<li><a href="https://github.com/jonschlinkert/merge-deep/commit/c39b16134a6a9704be2e661b49b92e8561f10d90"><code>c39b161</code></a> add test to ensure constructor is not cloned</li>
-<li><a href="https://github.com/jonschlinkert/merge-deep/commit/11e5dd56de8a6aed0b1ed022089dbce6968d82a5"><code>11e5dd5</code></a> add isValidKey function to ensure only valid keys are merged</li>
-<li>See full diff in <a href="https://github.com/jonschlinkert/merge-deep/compare/3.0.2...3.0.3">compare view</a></li>
+<li><a href="https://github.com/postcss/postcss/commit/67e3d7b3402c5d3d036ab7c1e781f86910d6ca72"><code>67e3d7b</code></a> Release 7.0.36 version</li>
+<li><a href="https://github.com/postcss/postcss/commit/54cbf3c4847eb0fb1501b9d2337465439e849734"><code>54cbf3c</code></a> Backport ReDoS vulnerabilities from PostCSS 8</li>
+<li><a href="https://github.com/postcss/postcss/commit/12832f3d203474bd273bd06bd3b2407567bfe09e"><code>12832f3</code></a> Release 7.0.35 version</li>
+<li><a href="https://github.com/postcss/postcss/commit/4455ef6baf84ceea87cb662131f95d798063896c"><code>4455ef6</code></a> Use OpenCollective in funding</li>
+<li><a href="https://github.com/postcss/postcss/commit/e867c794b5d646839350dd4b76f3cc81423413e6"><code>e867c79</code></a> Add migration guide to PostCSS 8 error</li>
+<li><a href="https://github.com/postcss/postcss/commit/32a22a98bc4de9c7a2489041ceae24eedc62144f"><code>32a22a9</code></a> Release 7.0.34 version</li>
+<li><a href="https://github.com/postcss/postcss/commit/22939829688574b9acdbd29106ca2ec9470b2b17"><code>2293982</code></a> Lock build targets</li>
+<li><a href="https://github.com/postcss/postcss/commit/2c3a111a940b373a60fae196e63931b3b6e9d8ca"><code>2c3a111</code></a> Release 7.0.33 version</li>
+<li><a href="https://github.com/postcss/postcss/commit/4105f21b48d75847e822e89746633792c478922b"><code>4105f21</code></a> Use yaspeller instead of yaspeller-ci</li>
+<li><a href="https://github.com/postcss/postcss/commit/c8d02a0da503f9fa5d96a854a2c9244710c18c72"><code>c8d02a0</code></a> Revert yaspeller-ci removal</li>
+<li>Additional commits viewable in <a href="https://github.com/postcss/postcss/compare/7.0.24...7.0.36">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=merge-deep&package-manager=npm_and_yarn&previous-version=3.0.2&new-version=3.0.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=postcss&package-manager=npm_and_yarn&previous-version=7.0.24&new-version=7.0.36)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -79,7 +207,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-07 23:04:25 +0000 UTC
+        Created At 2021-06-15 22:21:41 +0000 UTC
     </div>
 </div>
 
