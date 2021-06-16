@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/493" class=".btn">#493</a>
+            </td>
+            <td>
+                <b>
+                    fix link to issues
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-16 09:42:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/492" class=".btn">#492</a>
+            </td>
+            <td>
+                <b>
+                    Adding GLN as another Identifier along side the LEI, DUNS, etc. IDs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sebastian Schmittner <sebastian.schmittner@eecc.de>
+
+I have tested this change by building and running a container using https://github.com/hyperledger-labs/business-partner-agent/blob/master/scripts/docker-compose.dev.yml build. The new GLN appears in the public profile just as the other IDs. Generic handling of the id types in the backend makes this change almost trivial. :+1:
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-16 09:12:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/487" class=".btn">#487</a>
             </td>
             <td>
@@ -419,84 +473,6 @@ Dialogs were keeping values after use, need to reset the fields to empty.
     </table>
     <div class="right-align">
         Created At 2021-06-09 22:39:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/467" class=".btn">#467</a>
-            </td>
-            <td>
-                <b>
-                    Feature/aca py resolver
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I started to change things to use aca-py resolver capabilities. The dava-py did:web call is still missing. Also we need to discuss how to handle the ledger prefix because it is now only did:sov, which might break things.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-09 09:20:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/466" class=".btn">#466</a>
-            </td>
-            <td>
-                <b>
-                    Improving Quick Setup in docker-compose README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added diversion for purely local test + default credentials
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-09 07:38:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/465" class=".btn">#465</a>
-            </td>
-            <td>
-                <b>
-                    Update README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-09 06:39:48 +0000 UTC
     </div>
 </div>
 
