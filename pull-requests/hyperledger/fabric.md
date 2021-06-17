@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2690" class=".btn">#2690</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Handle missing endpoints from discovery
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-17 11:23:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2689" class=".btn">#2689</a>
+            </td>
+            <td>
+                <b>
+                    Clarify orderers seeing the transaction data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+Having the answer start with a `No` is misleading. Beginners
+who generally rely on FAQ section to understand the fundamentals
+thought that orderers do not receive any information about a
+transaction.
+
+With the explanation on what is available with orderers clarifies
+the intent served in this FAQ. i.e. Orderers do get the
+transaction but at their goodwill they will not open the
+transaction, as they do not have a need to open them.
+
+#### Additional details
+
+NA, documentation update
+
+#### Related issues
+
+None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-17 09:04:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2688" class=".btn">#2688</a>
             </td>
             <td>
@@ -805,36 +879,6 @@ This break the document link
     </table>
     <div class="right-align">
         Created At 2021-06-10 14:27:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2664" class=".btn">#2664</a>
-            </td>
-            <td>
-                <b>
-                    Update discovery PeersOfChannel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update PeersOfChannel behaviour to match Peers function,
-i.e. include endpoint in self memeber, only the peers that
-have an external endpoint, and sanitizes the envelopes
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-10 11:37:29 +0000 UTC
     </div>
 </div>
 
