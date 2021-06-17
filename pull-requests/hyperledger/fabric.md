@@ -14,11 +14,109 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2693" class=".btn">#2693</a>
+            </td>
+            <td>
+                <b>
+                    Retire Brett Logan as maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                It's time, those who are active with the project should maintain it, which is no longer me unfortunately, I wish everyone the best in the future and thank you for everything everyone has done for me.
+
+I've removed my access to all Hyperledger resources.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-17 14:28:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2692" class=".btn">#2692</a>
+            </td>
+            <td>
+                <b>
+                    Cherry pick deploy CC fixes into release-2.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-merge</span><span class="chip">docs</span>
+            </td>
+            <td>
+                Signed-off-by: Nikhil Gupta <ngupta@symbridge.com>
+
+#### Type of change
+
+- Bug fix
+- Documentation update
+
+#### Description
+
+Cherry pick updates that were made to the deploy CC tutorial in the release-2.2 branch
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-17 12:46:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2691" class=".btn">#2691</a>
+            </td>
+            <td>
+                <b>
+                    Cherry pick deploy CC fixes to main branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-merge</span><span class="chip">docs</span>
+            </td>
+            <td>
+                Signed-off-by: Nikhil Gupta <ngupta@symbridge.com>
+
+#### Type of change
+
+- Bug fix
+- Documentation update
+
+#### Description
+
+Cherry pick fixes made to the deploy CC topic to the main branch
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-17 12:36:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2690" class=".btn">#2690</a>
             </td>
             <td>
                 <b>
-                    [WIP] Handle missing endpoints from discovery
+                    Handle missing endpoints from discovery
                 </b>
             </td>
         </tr>
@@ -50,7 +148,7 @@ permalink: /pull-requests/hyperledger/fabric
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">docs</span>
             </td>
             <td>
                 #### Type of change
@@ -841,44 +939,6 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-06-11 13:02:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2665" class=".btn">#2665</a>
-            </td>
-            <td>
-                <b>
-                    Update private_data_tutorial.rst
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-fabric-samples branch:release-2.2 does not exist anymore.
-This break the document link
-
-
-#### Related issues
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-10 14:27:10 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1532" class=".btn">#1532</a>
+            </td>
+            <td>
+                <b>
+                    [indy] fix docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Update versions for software in docs
+- Fix empty cacert file
+- Update default ambassador ports
+
+ 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-17 16:27:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1531" class=".btn">#1531</a>
             </td>
             <td>
@@ -214,7 +247,7 @@ Signed-off-by: Angela Alagbe <angela.alagbe@accenture.com>
             </td>
             <td>
                 <b>
-                    [quorum] Implented test for create/tessera rol
+                    [quorum] Implemented test for create/tessera rol
                 </b>
             </td>
         </tr>

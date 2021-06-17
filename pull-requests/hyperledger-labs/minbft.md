@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/206" class=".btn">#206</a>
+                PR <a href="https://github.com/hyperledger-labs/minbft/pull/207" class=".btn">#207</a>
             </td>
             <td>
                 <b>
-                    Update CODEOWNER
+                    Support obtaining and resetting the message log
                 </b>
             </td>
         </tr>
@@ -27,15 +27,17 @@ permalink: /pull-requests/hyperledger-labs/minbft
                 
             </td>
             <td>
-                I've changed GitHub account name, so let's sync .github/CODEOWNER.
+                <!-- NOTE: Please check the contribution guideline before submitting -->
 
-Resolves: #205 
+<!-- describe the purpose of the pull request, as well as its benefits
+     and possible concerns related to the proposed changes -->
+This pull request extends the message log functionality required to generate `ViewChange` messages.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-17 01:41:36 +0000 UTC
+        Created At 2021-06-17 17:47:55 +0000 UTC
     </div>
 </div>
 
