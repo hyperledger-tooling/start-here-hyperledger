@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/499" class=".btn">#499</a>
+            </td>
+            <td>
+                <b>
+                    Gitpod fully configured
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-18 15:12:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/498" class=".btn">#498</a>
             </td>
             <td>
@@ -97,6 +123,17 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
             </td>
             <td>
                 Will implement #491 
+
+Todo
+- [ ] Fix Join
+- [ ] Update tags of partners. UI is ready. Backend needs some more work.
+- [ ] Init tags by config file similar to schemas
+- [ ] Sensible error message if user wants to delete a tag that has been assigned to a partner
+- [ ] Add tags to partner list
+
+Maybe in another Issue/PR
+- [ ] Update name of tags in UI
+- [ ] Provide a hard delete that will delete  the tag from all partners as well
             </td>
         </tr>
     </table>
@@ -540,32 +577,6 @@ Also, note that the `main.js` the configuration is loaded synchronously before l
     </table>
     <div class="right-align">
         Created At 2021-06-14 06:29:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/470" class=".btn">#470</a>
-            </td>
-            <td>
-                <b>
-                    Feature/simple rules
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://hackmd.io/2m16i56sTtmYi9tVuklVVw?view
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-11 15:28:15 +0000 UTC
     </div>
 </div>
 

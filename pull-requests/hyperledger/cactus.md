@@ -14,6 +14,132 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1037" class=".btn">#1037</a>
+            </td>
+            <td>
+                <b>
+                    test: add logLevel parameter to Fabric AIO ctor calls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">SPIKE</span>
+            </td>
+            <td>
+                This is another step taken to win the epic battle that we have been
+waging against a particularly nasty test flake that is plaguing the
+Fabric tests that use the AIO ledger.
+
+This will make the test output much more verbose, but there's no other
+way around to making sure that we can narrow down the root cause of the
+flake to a specific issue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-15 02:55:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1033" class=".btn">#1033</a>
+            </td>
+            <td>
+                <b>
+                    feat(test-tooling): go-ipfs test container
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                New utility class that can manage the life-cycle of a go-ipfs container.
+It uses the official go-ipfs container image under the hood not a
+custom one like the AIO images.
+
+The purpose of this is to help authoring test cases in the future
+related to IPFS of which a good example will be the IPFS
+object-store plugin's implementation.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 20:10:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1032" class=".btn">#1032</a>
+            </td>
+            <td>
+                <b>
+                    feat(core-api): add plugin object store interface definition
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Core_API</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                This will be implemented by object store plugins so as to
+have guarantee that at runtime the plugins can be used the
+way the caller expects them to.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 20:06:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1031" class=".btn">#1031</a>
+            </td>
+            <td>
+                <b>
+                    docs(contributing.md): explicit recommendation for avoiding global dependencies #585
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span>
+            </td>
+            <td>
+                docs(contributing.md): explicit recommendation for avoiding global dependencies #585
+
+Signed-off-by: Zachary Villanueva <Zachary.Villanueva@ibm.com>
+
+Fixes #585 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 19:08:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1030" class=".btn">#1030</a>
             </td>
             <td>
@@ -115,60 +241,6 @@ Signed-off-by: Takeshi Yonezu <tkyonezu@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-06-11 18:33:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1021" class=".btn">#1021</a>
-            </td>
-            <td>
-                <b>
-                    style(linter): shipment-detail page linter fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                I hope it works! For some reason I can't seem to find the reviewer section of this page (bad news); I don't think this will hurt too much if I post it as a draft and also ping you @petermetz 
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-11 16:56:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1020" class=".btn">#1020</a>
-            </td>
-            <td>
-                <b>
-                    style(test-tooling): linter fix  i test ledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jeffrey Ushry <jeffrey.ushry@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-11 14:55:13 +0000 UTC
     </div>
 </div>
 
