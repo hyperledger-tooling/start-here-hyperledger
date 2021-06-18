@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/minbft
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
                 <!-- NOTE: Please check the contribution guideline before submitting -->
