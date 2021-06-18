@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1030" class=".btn">#1030</a>
+            </td>
+            <td>
+                <b>
+                    style(corda): linter fix deploy contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
+
+pinged @petermetz because I don't have review section 😢 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-14 14:09:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1024" class=".btn">#1024</a>
             </td>
             <td>
