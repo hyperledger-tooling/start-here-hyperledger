@@ -186,6 +186,7 @@ Todo
 Maybe in another Issue/PR
 - [ ] Update name of tags in UI
 - [ ] Provide a hard delete that will delete  the tag from all partners as well
+- [ ]  Add a tag to an invitation
             </td>
         </tr>
     </table>
