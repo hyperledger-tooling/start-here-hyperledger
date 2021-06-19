@@ -764,37 +764,3 @@ Finally, you can contact us on https://mergify.io/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2670" class=".btn">#2670</a>
-            </td>
-            <td>
-                <b>
-                    [FAB-18487] Update broken link in 2.2 branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-merge</span>
-            </td>
-            <td>
-                
-#### Type of change
-
-- Bug fix
-- Documentation update
-
-#### Description
-
-Fix broken links in the Fabric 2.2 branch
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-11 20:06:34 +0000 UTC
-    </div>
-</div>
-
