@@ -223,31 +223,3 @@ pinged @petermetz because I don't have review section 😢
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1024" class=".btn">#1024</a>
-            </td>
-            <td>
-                <b>
-                    feat(iroha-testnet): Add REJECT check for transactions to setup-iroha-wallet.sh script in iroha-testnet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                feat(iroha-testnet): Add REJECT check for transactions to setup-iroha-wallet.sh script in iroha-testnet
-
-Signed-off-by: Takeshi Yonezu <tkyonezu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-12 14:26:49 +0000 UTC
-    </div>
-</div>
-
