@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1226" class=".btn">#1226</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1252" class=".btn">#1252</a>
             </td>
             <td>
                 <b>
-                    Plugin configuration
+                    fix: check for expanded types in context checker
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                This PR implements a new argument for specifying a yaml file for loading arbitrary plugin configuration.
-Closes #1121
+                The checker method that checks for properties without a context was giving incorrect results for the vaccination context. This PR also checks if compaction expands a property as described in https://github.com/w3c-ccg/vaccination-vocab/issues/22
 
-Credit to @Luis-GA 
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-06 01:31:59 +0000 UTC
+        Created At 2021-06-20 14:37:20 +0000 UTC
     </div>
 </div>
 
@@ -43,11 +42,11 @@ Credit to @Luis-GA
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1225" class=".btn">#1225</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1250" class=".btn">#1250</a>
             </td>
             <td>
                 <b>
-                    Update to PyDID 0.3.x
+                    DIF PE - VCHolder backend-specific tag_query building
                 </b>
             </td>
         </tr>
@@ -56,19 +55,13 @@ Credit to @Luis-GA
                 
             </td>
             <td>
-                This PR updates ACA-Py to use the soon-to-be-released PyDID 0.3.x. These updates aim to address the following issues through the updated PyDID features:
-- Reliance on unmaintained `voluptuous` library. PyDID now uses `pydantic`.
-- Ugly validation errors. These errors should now be significantly easier to understand due to being more succinct and descriptive.
-- Extensibility. Subclassing and extending PyDID objects to tighten or loosen validation on DID Documents is far simpler.
-
-In addition to these benefits granted by the updated PyDID version, this PR also slightly modifies the DID Resolver interface to simply return a dictionary on `resolve`. Thanks to the rapid development of the DID spec, there is a wide variety of DID Documents with varying levels of conformance to the DID spec in the wild. By separating the resolution and deserialization steps, we elect to give the caller the responsibility of determining how strict or otherwise the document parsing should be or whether the document is even parsed at all.
-
-For `dereference`, a "least common denominator" approach is taken. The document parsing is attempted with strict rules but, if validation fails, it will fall back to a simplified `NonconformantDocument`. By following this approach, we can take advantage of retrieving parsed `VerificationMethod`s or `Service`s when the document is spec-conforming while still being able to retrieve values by ID from non-spec-conforming documents.
+                - Addresses the following from #1247, @andrewwhitehead will this meet the requirement? 
+> As discussed, I think this tag filtering belongs in VCHolder so that it can be specialized for the specific backends, but it's fine to merge this as-is and I can revisit it later with the shared-components work. Most important is that it works for now.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-05 19:42:44 +0000 UTC
+        Created At 2021-06-19 21:03:45 +0000 UTC
     </div>
 </div>
 
@@ -76,11 +69,11 @@ For `dereference`, a "least common denominator" approach is taken. The document 
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1224" class=".btn">#1224</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1249" class=".btn">#1249</a>
             </td>
             <td>
                 <b>
-                    Integration test for endorsement with credential issue and revocation…
+                    Update get/set_did_public to use a storage record pointer
                 </b>
             </td>
         </tr>
@@ -89,14 +82,16 @@ For `dereference`, a "least common denominator" approach is taken. The document 
                 
             </td>
             <td>
-                … w.i.p.
+                This should be much faster when there are many DIDs stored in the wallet.
 
-Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+The 'public' DID metadata property is now generally ignored except when auto-upgrading an existing wallet. The `get_posted_dids` method is updated to NOT filter the public DID, as it did previously.
+
+Includes a couple fixes for warnings when running tests.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-05 15:55:09 +0000 UTC
+        Created At 2021-06-17 03:45:38 +0000 UTC
     </div>
 </div>
 
@@ -104,11 +99,11 @@ Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1223" class=".btn">#1223</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1248" class=".btn">#1248</a>
             </td>
             <td>
                 <b>
-                    run_demo fails if ../logs folder doesn't exist
+                    fix: delete metadata on connection deletion
                 </b>
             </td>
         </tr>
@@ -117,39 +112,12 @@ Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
                 
             </td>
             <td>
-                Steps to reproduce:
-1. Clone repo
-2. `cd demo`
-3. `run_demo faber`
-
-Expected:
-- to start the demo connection flow
-
-Actual:
-- fails with:
-
-```
-./run_demo faber                                             
-Preparing agent image...
-sha256:5c8d0c8453ec05bcd7ff2e234267e09e113ac041707cb4f21a22f613f832727c
-Trying to detect ngrok service endpoint
-jq not found
-192.168.65.3
-docker: Error response from daemon: Mounts denied: 
-The path ..../aries-cloudagent-python/demo/../logs
-is not shared from OS X and is not known to Docker.
-You can configure shared paths from Docker -> Preferences... -> File Sharing.
-See https://docs.docker.com/docker-for-mac/osxfs/#namespaces for more info.
-.
-ERRO[0000] error waiting for container: context canceled 
-```
-
-The proposed fix assumes that `logs` are only required when `--timing` in enabled.
+                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-05 13:05:51 +0000 UTC
+        Created At 2021-06-17 02:46:34 +0000 UTC
     </div>
 </div>
 
@@ -157,11 +125,11 @@ The proposed fix assumes that `logs` are only required when `--timing` in enable
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1220" class=".btn">#1220</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1247" class=".btn">#1247</a>
             </td>
             <td>
                 <b>
-                    Feature/didx request with public did
+                    DIF PE Updates and present_proof_v1_0 OOB Attachment Fix
                 </b>
             </td>
         </tr>
@@ -170,17 +138,15 @@ The proposed fix assumes that `logs` are only required when `--timing` in enable
                 
             </td>
             <td>
-                Introduces an optional flag `use_public_did` in `/didexchange/create-request`
-
-Enabling the flag will create a DIDX request with the public DID of the requester.
-The approach is not ideal since the did doc will still be attached to the request instead of just setting the `did` property as suggested in the [RFC](https://github.com/hyperledger/aries-rfcs/blob/master/features/0023-did-exchange/README.md#request-message-attributes) (but not required :) ).
-
-Setting only the `did` property leads to issues because of inconsistencies in ACA-Py's DID Doc class and the DID Doc class returned by the resolver. 
+                - resolve #1244 
+- resolve #1242 
+- resolve #1240 
+- present_proof_v1 and OOB attachment fix
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-02 13:28:56 +0000 UTC
+        Created At 2021-06-16 03:07:56 +0000 UTC
     </div>
 </div>
 
@@ -188,11 +154,11 @@ Setting only the `did` property leads to issues because of inconsistencies in AC
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1218" class=".btn">#1218</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1246" class=".btn">#1246</a>
             </td>
             <td>
                 <b>
-                    Feature/native did web resolver
+                    Add endorser protocol support for revocation functionality 
                 </b>
             </td>
         </tr>
@@ -201,59 +167,20 @@ Setting only the `did` property leads to issues because of inconsistencies in AC
                 
             </td>
             <td>
-                Add native [did:web](https://w3c-ccg.github.io/did-method-web/) resolver. Carved out and touched up from #1143 
+                Adds endorser protocol support for revocation functionality such as:
+- publishing a revocation registry definition to the ledger
+- publishing a revocation entry to the ledger
+It is based on #1230, so that PR should likely be merged first.c.c: @ianco 
 
-- Uses DID and DID Doc validation from pyDID
-- ~Does not support encoding of ports in DIDs yet (e.g. `did:web:localhost%3A8443 -> https://localhost:443/.well-known/did.json` yet, because pyDID does not allow '%' char in DID (See: https://github.com/dbluhm/pydid/issues/34)~
+Currently, if endorsing is requested the agent will NOT handle the generation and rotation of the revocation registry for the user. Improvements to the usability are necessary, see #1238 for reference.
+
+A set of BDD tests validating the end-to-end flow has been added.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-02 09:34:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1216" class=".btn">#1216</a>
-            </td>
-            <td>
-                <b>
-                    Add outofband credential-offer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The out of band protocol doesn't support the attachment type credential-offer yet. I added my code in outofband receive_invitation to receive a credential offer and send a credential request. 
-
-The receive_offer and create_request functions worked perfectly , But I am facing a `connection_record not found error` while the issuer agent executes credential_request_handler script. I am including the logs below. 
-
-`  
-
-> File "/home/indy/aries_cloudagent/core/dispatcher.py", line 198, in handle_message
->     await handler(context, responder)
->   File "/home/indy/aries_cloudagent/protocols/issue_credential/v1_0/handlers/credential_request_handler.py", line 39, in handle
->     context.message, context.connection_record.connection_id
->   File "/home/indy/aries_cloudagent/protocols/issue_credential/v1_0/manager.py", line 470, in receive_request
->     session, connection_id, message._thread_id
->   File "/home/indy/aries_cloudagent/protocols/issue_credential/v1_0/models/credential_exchange.py", line 206, in retrieve_by_connection_and_thread
->     {"connection_id": connection_id} if connection_id else None,
->   File "/home/indy/aries_cloudagent/messaging/models/base_record.py", line 250, in retrieve_by_tag_filter
->     cls.__name__, tag_filter, f", {post_filter}" if post_filter else ""
-> aries_cloudagent.storage.error.StorageNotFoundError: V10CredentialExchange record not found for {'thread_id': '56ccbd83-3800-41a8-907c-fcbedeebb706'}, {'connection_id': '737ca643-7f05-470a-8b47-89fafb11a83d'}
-
-`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-01 12:30:09 +0000 UTC
+        Created At 2021-06-15 00:28:04 +0000 UTC
     </div>
 </div>
 

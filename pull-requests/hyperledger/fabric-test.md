@@ -14,146 +14,25 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/319" class=".btn">#319</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/322" class=".btn">#322</a>
             </td>
             <td>
                 <b>
-                    Bump @grpc/grpc-js from 1.1.7 to 1.3.1 in /tools/chaincode-integration
+                    Retire Brett Logan as maintainer
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                
             </td>
             <td>
-                Bumps [@grpc/grpc-js](https://github.com/grpc/grpc-node) from 1.1.7 to 1.3.1.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/grpc/grpc-node/releases"><code>@​grpc/grpc-js</code>'s releases</a>.</em></p>
-<blockquote>
-<h2><code>@​grpc/grpc-js</code> 1.3.1</h2>
-<ul>
-<li>Change a couple of <code>isFunction</code> checks to work in more contexts (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1761">#1761</a> contributed by <a href="https://github.com/zereraz"><code>@​zereraz</code></a>)</li>
-<li>Eliminate some log spam in <code>subchannel</code> trace logs (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1770">#1770</a>)</li>
-<li>Fix the check for outputting the &quot;read ECONNRESET&quot; error as <code>UNAVAILABLE</code> (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1780">#1780</a>)</li>
-<li>Make the <code>GRPC_VERBOSITY</code> environment variable accept lower-case values (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1781">#1781</a>)</li>
-</ul>
-<h2><code>@​grpc/grpc-js</code> 1.3.0</h2>
-<ul>
-<li>Add support for <code>ipv4</code> and <code>ipv6</code> address schemes (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1752">#1752</a>)</li>
-<li>Remove <code>google-auth-library</code> dependency (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1703">#1703</a>)</li>
-<li>Add <code>grpc-node.max_session_memory</code> channel argument to configure maximum memory used per HTTP/2 session (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1666">#1666</a> contributed by dwrip)</li>
-<li>Remove runtime Node version compatibility check (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1739">#1739</a>)</li>
-<li>Experimental API changes: Add <code>ConfigSelector</code> type and add <code>configSelector</code> argument to <code>ResolverListener#onSuccessfulResolution</code> (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1681">#1681</a>)</li>
-</ul>
-<h2><code>@​grpc/grpc-js-xds</code> 1.3.0</h2>
-<ul>
-<li>Add <a href="https://github.com/grpc/proposal/blob/master/A28-xds-traffic-splitting-and-routing.md">xDS Traffic Splitting and Routing</a> feature (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1687">#1687</a>, <a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1704">#1704</a>, <a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1724">#1724</a>)</li>
-</ul>
-<h2><code>@​grpc/grpc-js</code> 1.2.11</h2>
-<ul>
-<li>Fix a crash when using the library on Electron (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1709">#1709</a>)</li>
-<li>Make <code>waitForReady</code> finish immediately if the client has been closed (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1714">#1714</a>)</li>
-</ul>
-<h2><code>@​grpc/grpc-js</code> 1.2.10</h2>
-<ul>
-<li>Fixed an internal bug that caused trailer filters to be called twice for most calls (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1707">#1707</a>)</li>
-</ul>
-<h2><code>@​grpc/grpc-js</code> 1.2.9</h2>
-<ul>
-<li>Speculative fix for ECONNRESET errors (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1705">#1705</a>)</li>
-</ul>
-<h2><code>@​grpc/grpc-js</code> 1.2.8</h2>
-<ul>
-<li>Don't propagate non-numeric errors from auth plugins (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1690">#1690</a>)</li>
-</ul>
-<h2><code>@​grpc/grpc-js</code> 1.2.7</h2>
-<ul>
-<li>Fix an issue holding the Node process open after the channel was closed in some cases (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1688">#1688</a>)</li>
-<li>Improve error reporting when a stream fails to start (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1689">#1689</a>)</li>
-</ul>
-<h2><code>@​grpc/grpc-js</code> 1.2.6</h2>
-<ul>
-<li>Loosen the dependency on <code>@types/node</code> to avoid conflicts with other packages' dependencies on the same types package (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1683">#1683</a>)</li>
-</ul>
-<h2><code>@​grpc/grpc-js</code> 1.2.5</h2>
-<ul>
-<li>Fix a bug that caused some errors thrown in client response handling code to be incorrectly reported as response message parsing errors. (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1672">#1672</a>)</li>
-</ul>
-<h2><code>@​grpc/grpc-js</code> 1.2.4</h2>
-<ul>
-<li>In the round robin load balancer, update name resolution when receiving a GOAWAY or similar disconnection (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1665">#1665</a>)</li>
-</ul>
-<h2><code>@​grpc/grpc-js-xds</code> 1.2.4</h2>
-<ul>
-<li>Fix a crash when sending stats after reestablishing an LRS stream that has been dropped (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1710">#1710</a>)</li>
-</ul>
-<h2><code>@​grpc/grpc-js</code> 1.2.3</h2>
-<h2><code>@​grpc/grpc-js</code> 1.2.1</h2>
-<ul>
-<li>Fix handling of propagated and explicitly set deadlines when both are set (<a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1633">#1633</a>)</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/grpc/grpc-node/commit/126961a7da23c0fd80496f506573890848292446"><code>126961a</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1780">#1780</a> from murgatroid99/grpc-js_econnreset_error_parsing</li>
-<li><a href="https://github.com/grpc/grpc-node/commit/21b5ba8d21141bb1910e2518963c0acc473b61ae"><code>21b5ba8</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1770">#1770</a> from murgatroid99/grpc-js_connectivity_improvements</li>
-<li><a href="https://github.com/grpc/grpc-node/commit/502becb9d2d1830317b04b1e6d406a48063f1b22"><code>502becb</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1781">#1781</a> from murgatroid99/grpc-js_verbosity_case_insensitive</li>
-<li><a href="https://github.com/grpc/grpc-node/commit/f009cd7b9fdbca41106078e2559669a24794390f"><code>f009cd7</code></a> grpc-js: Look for ECONNRESET errors by code instead of errno</li>
-<li><a href="https://github.com/grpc/grpc-node/commit/cc0c8deea39ae3e9d744527104100a7ac39dc578"><code>cc0c8de</code></a> grpc-js: Make GRPC_VERBOSITY accept lower-case values</li>
-<li><a href="https://github.com/grpc/grpc-node/commit/9253b7f1043770f6a2fa465d996f4a41668d4e0a"><code>9253b7f</code></a> grpc-js: Don't transition out of idle when discarding subchannels</li>
-<li><a href="https://github.com/grpc/grpc-node/commit/d82b1a38033fea93e27fbd5107f47da968caf4c3"><code>d82b1a3</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1761">#1761</a> from zereraz/master</li>
-<li><a href="https://github.com/grpc/grpc-node/commit/923b44bb1c22bf4c4a7605eebb3f70a8df65ef98"><code>923b44b</code></a> grpc-js: Add type predicate to fix errors for isFunction</li>
-<li><a href="https://github.com/grpc/grpc-node/commit/d35fa3ab373783d5d044616ee893701ea309a43d"><code>d35fa3a</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/grpc/grpc-node/issues/1749">#1749</a> from murgatroid99/grpc-js_v1.3.0_bump</li>
-<li><a href="https://github.com/grpc/grpc-node/commit/7a8cd5a4bde13cde54b41847607fa6c83a4c906d"><code>7a8cd5a</code></a> grpc-js: Use helper isFunction</li>
-<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-node/compare/@grpc/grpc-js@1.1.7...@grpc/grpc-js@1.3.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@grpc/grpc-js&package-manager=npm_and_yarn&previous-version=1.1.7&new-version=1.3.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-test/network/alerts).
-
-</details>
+                Signed-off-by: Brett Logan <lindluni@github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-12 00:53:08 +0000 UTC
+        Created At 2021-06-17 18:31:54 +0000 UTC
     </div>
 </div>
 

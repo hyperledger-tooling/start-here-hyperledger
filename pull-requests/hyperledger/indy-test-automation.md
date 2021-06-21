@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/103" class=".btn">#103</a>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/106" class=".btn">#106</a>
             </td>
             <td>
                 <b>
-                    Correct dockerfiles to run the tests successfully again.  split prepa…
+                    Manually include environment variables into node docker build.
                 </b>
             </td>
         </tr>
@@ -27,16 +27,40 @@ permalink: /pull-requests/hyperledger/indy-test-automation
                 
             </td>
             <td>
-                …re script to allow better caching.
-
-Signed-off-by: Devin Smith <devinleighsmith@gmail.com>
-
-
+                Signed-off-by: Devin Smith <devinleighsmith@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-26 17:40:13 +0000 UTC
+        Created At 2021-06-16 15:45:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/105" class=".btn">#105</a>
+            </td>
+            <td>
+                <b>
+                    Update CODEOWNERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Use Hyperledger groups
+
+Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-15 15:42:04 +0000 UTC
     </div>
 </div>
 
