@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/248" class=".btn">#248</a>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/250" class=".btn">#250</a>
             </td>
             <td>
                 <b>
-                    BE-872 Release v1.1.6
+                    Bugfix: disable enableAuthentication auth auto login using wrong network key issue
                 </b>
             </td>
         </tr>
@@ -27,73 +27,17 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
                 
             </td>
             <td>
-                Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-06 14:50:15 +0000 UTC
-    </div>
-</div>
+                ## This PR:
+- resolves `enableAuthentication:false` setup using wrong network key preventing auto login issue.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/247" class=".btn">#247</a>
-            </td>
-            <td>
-                <b>
-                    BE-871 Introduce dropdown to put together icons
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
-
-In small screen size, the icon layout in the header gets broken. To resolve this issue, changed icon layout in the header to reduce icons which are always displaying. 
-
-### Current version
-![image](https://user-images.githubusercontent.com/799608/120918804-3e535a00-c6f1-11eb-8ee9-9728c69c89c4.png)
-
-### New version
-![image](https://user-images.githubusercontent.com/799608/120918800-38f60f80-c6f1-11eb-8581-2f059ab3e9f6.png)
+## Screenshot:
+![image](https://user-images.githubusercontent.com/10151054/122209322-fa253e00-ced6-11eb-87a6-1755f9b3e9b1.png)
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-06 09:05:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/246" class=".btn">#246</a>
-            </td>
-            <td>
-                <b>
-                    Update fabric-sdk-node to v2.2.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-31 15:20:34 +0000 UTC
+        Created At 2021-06-16 11:16:54 +0000 UTC
     </div>
 </div>
 

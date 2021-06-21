@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2381" class=".btn">#2381</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2452" class=".btn">#2452</a>
             </td>
             <td>
                 <b>
-                    CI: use med executor for more steps
+                    Fix vulnerabilities from openjdk-11 base image
                 </b>
             </td>
         </tr>
@@ -27,18 +27,29 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+                This PR aims to fix the Issue [2451](https://github.com/hyperledger/besu/issues/2451) reported about base image vulnerabilities.
 
-Use medium executor where xl not needed.
+Now scan report does not show any high vulnerabilities:
+```
+docker scan -f docker/openjdk-11/Dockerfile docker.io/hyperledger/besu:21.7.0-RC1-SNAPSHOT-openjdk-11 --severity high
 
-## Changelog
+Testing docker.io/hyperledger/besu:21.7.0-RC1-SNAPSHOT-openjdk-11...
 
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+Organization:      juan.dominguez
+Package manager:   deb
+Target file:       docker/openjdk-11/Dockerfile
+Project name:      docker-image|docker.io/hyperledger/besu
+Docker image:      docker.io/hyperledger/besu:21.7.0-RC1-SNAPSHOT-openjdk-11
+Base image:        adoptopenjdk/openjdk11:x86_64-ubuntu-jre-11.0.11_9
+Licenses:          enabled
+
+✓ Tested 132 dependencies for known issues, no vulnerable paths found.
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-07 02:20:57 +0000 UTC
+        Created At 2021-06-18 16:29:30 +0000 UTC
     </div>
 </div>
 
@@ -46,123 +57,24 @@ Use medium executor where xl not needed.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2380" class=".btn">#2380</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2449" class=".btn">#2449</a>
             </td>
             <td>
                 <b>
-                    eth_getCode: add support for GoQuorum private tx
+                    Qbft duplicate prepares in roundchange
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 
-            </td>
-            <td>
-                Attempt to retrieve from GoQuorum private state first, otherwise get from public state as before.
-
-I have tested this by:
-Node1 deploys a contract, private for Node4. Nodes 1 and 4 can get the code; Nodes 2 and 3 do not. getCode for public tx works as before (all nodes get the right value). Attempting to getCode for non-existent address gives 0x.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-07 01:57:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2379" class=".btn">#2379</a>
-            </td>
-            <td>
-                <b>
-                    QBFT to use fixed IBFT mixhash value for headers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
 
 ## PR description
-Use the fixed IBFT mixedHash value in QBFT as this is what is being done in Quorum.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-07 01:20:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2377" class=".btn">#2377</a>
-            </td>
-            <td>
-                <b>
-                    Hook up an empty plugin for future unrestricted privacy encryption
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Placeholder for `UnrestrictedPayloadEncryptionProvider` to be able to add future methods.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-04 14:00:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2376" class=".btn">#2376</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade to Apache Tuweni 2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-This is a test PR against Apache Tuweni's latest release candidate version 2.
+Fix duplicate prepares being included the roundchange message which is invalid.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -175,7 +87,7 @@ This is a test PR against Apache Tuweni's latest release candidate version 2.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-04 06:14:23 +0000 UTC
+        Created At 2021-06-18 06:48:55 +0000 UTC
     </div>
 </div>
 
@@ -183,11 +95,11 @@ This is a test PR against Apache Tuweni's latest release candidate version 2.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2375" class=".btn">#2375</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2448" class=".btn">#2448</a>
             </td>
             <td>
                 <b>
-                    Fix flaky OpenTelemetry acceptance test
+                    dialing down logging of invalid HELO to debug
                 </b>
             </td>
         </tr>
@@ -196,17 +108,18 @@ This is a test PR against Apache Tuweni's latest release candidate version 2.
                 
             </td>
             <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+                Signed-off-by: Justin Florentine <justin.florentine@consensys.net>
 
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
 
 ## PR description
-Fixes a flaky acceptance test checking OpenTelemetry traces are reported.
+[Previous assumption](https://github.com/hyperledger/besu/pull/2406#discussion_r649821858) was a mistake, I didn't realize those canaries I checked were not running at DEBUG. Invalid HELOs happen often enough, without any impact, that the log level should remain at debug.
 
 ## Fixed Issue(s)
-Fixes #2299
-
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2004 
 ## Changelog
 
 - [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
@@ -214,7 +127,7 @@ Fixes #2299
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-04 05:26:11 +0000 UTC
+        Created At 2021-06-17 14:34:35 +0000 UTC
     </div>
 </div>
 
@@ -222,11 +135,37 @@ Fixes #2299
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2374" class=".btn">#2374</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2447" class=".btn">#2447</a>
             </td>
             <td>
                 <b>
-                    1559 blockchain reftests
+                    update changelog
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-16 15:43:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2445" class=".btn">#2445</a>
+            </td>
+            <td>
+                <b>
+                    Update eth call post 1559
                 </b>
             </td>
         </tr>
@@ -239,18 +178,25 @@ Fixes #2299
 <!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
 
 ## PR description
-* change transaction pool behavior to not reject transactions based on chain head's baseFee
-* add short form of Wei for maxFeePerGas and maxPriorityFeePerGas
-* ~~address edge case of allowable maximum delta gasLimit per block~~
-* update reference tests module to latest
 
-This pr gets besu passing all of the London blockchain tests using the retesteth engine.  There will be a follow up pr to address issues the few remaining GeneralStateTests failures for Berlin and London
+Update eth_call to work correctly after the london fork 
+
+Update integration tests to be able to test JSON RPC methods after the london fork
+
+**Explained behavior :**
+
+- Before EIP1559
+     - If gasPrice is not present. 0 is used and balance account is not checked
+     - If gasPrice is present. this gasPrice value is used and balance account is checked
+
+- After EIP1559
+     - If gasPrice is not present. 0 is used and balance account is not checked (baseFee forced to 0)
+     - if gasPrice is present, this value is used for the max and priority fee and the balance is checked (the current baseFee is used)
+     - if max and/or priority fee are present, they are interpreted as specified and the balance is checked  (the current baseFee is used)
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
-
-fixes #2350 for London Blockchain tests
 
 ## Changelog
 
@@ -259,7 +205,7 @@ fixes #2350 for London Blockchain tests
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-04 02:48:04 +0000 UTC
+        Created At 2021-06-16 14:29:44 +0000 UTC
     </div>
 </div>
 
@@ -267,11 +213,11 @@ fixes #2350 for London Blockchain tests
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2372" class=".btn">#2372</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2444" class=".btn">#2444</a>
             </td>
             <td>
                 <b>
-                    test fix fastsync bonsai
+                    Fix version for release 21.7.0 branch
                 </b>
             </td>
         </tr>
@@ -298,7 +244,7 @@ fixes #2350 for London Blockchain tests
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-03 10:35:03 +0000 UTC
+        Created At 2021-06-16 13:52:38 +0000 UTC
     </div>
 </div>
 
@@ -306,11 +252,63 @@ fixes #2350 for London Blockchain tests
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2368" class=".btn">#2368</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2440" class=".btn">#2440</a>
             </td>
             <td>
                 <b>
-                    add effectiveGasPrice to TransasctionReceipt 
+                    Prepare for version 21.7.0-RC2-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-15 17:27:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2438" class=".btn">#2438</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.7.0-RC1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-15 16:50:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2434" class=".btn">#2434</a>
+            </td>
+            <td>
+                <b>
+                    ensure test_importRawBlock appends to chain head
                 </b>
             </td>
         </tr>
@@ -325,14 +323,13 @@ fixes #2350 for London Blockchain tests
 <!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
 
 ## PR description
-Implementation of json-rpc spec change from https://github.com/ethereum/eth1.0-specs/pull/206
+Ensures `test_importRawBlock` appends the block to the chain even if the block already exists in storage.  This behavior is limited to the test endpoint, rather than pushing it down into the block importer.
 
-DO NOT MERGE until the json-rpc spec PR is merged
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
-fixes #2364 
+#2409 
 
 ## Changelog
 
@@ -341,7 +338,7 @@ fixes #2364
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-03 05:25:41 +0000 UTC
+        Created At 2021-06-15 06:16:03 +0000 UTC
     </div>
 </div>
 
@@ -349,152 +346,11 @@ fixes #2364
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2366" class=".btn">#2366</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2433" class=".btn">#2433</a>
             </td>
             <td>
                 <b>
-                    Fixes for 1559 retesteth behaviors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-quick pr to unblock retesteth testing, remove aleut and calaveras from retesteth chain genesis.  
-
-Aleut config was an artifact from when we did not have London configs.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 22:48:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2365" class=".btn">#2365</a>
-            </td>
-            <td>
-                <b>
-                    eth66
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 20:56:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2363" class=".btn">#2363</a>
-            </td>
-            <td>
-                <b>
-                    [Cleanup] Remove Gas Budget Calculator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-Since there are no separate gas budgets for eip-1559 and non-eip-1559 txs. We can return to the simpler method of just comparing against the gas limit.
-
-This is a non-functional change.
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 15:31:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2361" class=".btn">#2361</a>
-            </td>
-            <td>
-                <b>
-                    ci/cd: Require Quorum Acceptance Tests to pass
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ricardo Silva <ricardo.silva@consensys.net>
-
-### Summary
-
-As the work is done for the privacy interop, we remove now the ignore of the results so if it fails, it breaks the build.
-
-## Changes
-
-* Removed `|| true` to make the job fail if the tests fail.
-* Make the publish of docker images depend on the Quorum AT.
-* Add the `nosupport` tag as privacy polishing to be done later.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-02 10:32:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2360" class=".btn">#2360</a>
-            </td>
-            <td>
-                <b>
-                    pending tx logging
+                    Include custom errorprone checks as external dependency
                 </b>
             </td>
         </tr>
@@ -504,44 +360,11 @@ As the work is done for the privacy interop, we remove now the ignore of the res
             </td>
             <td>
                 ## PR description
-Add trace logging for pending transactions behavior.
+Include custom errorprone checks as external dependency. Custom errorprone checks has been refactored to its own repo https://github.com/Consensys/errorprone-checks. 
 
-fixes #2353 
+This change will allow to use custom errorprone checks in other projects as well.
 
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-01 21:16:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2359" class=".btn">#2359</a>
-            </td>
-            <td>
-                <b>
-                    Remove Separation of EIP-1559 and pre-EIP-1559 Gas Tracking
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-The segregated tracking was used in an older version of the spec but not anymore.
+Signed-off-by: Usman Saleem <usman@usmans.info>
 
 ## Changelog
 
@@ -550,7 +373,7 @@ The segregated tracking was used in an older version of the spec but not anymore
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-01 20:33:42 +0000 UTC
+        Created At 2021-06-15 02:01:23 +0000 UTC
     </div>
 </div>
 
@@ -558,11 +381,11 @@ The segregated tracking was used in an older version of the spec but not anymore
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2347" class=".btn">#2347</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2432" class=".btn">#2432</a>
             </td>
             <td>
                 <b>
-                    update CHANGELOG for 21.1.7 release
+                    eth_feeHistory
                 </b>
             </td>
         </tr>
@@ -571,76 +394,21 @@ The segregated tracking was used in an older version of the spec but not anymore
                 
             </td>
             <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+                The spec for this implementation is listed in the issue below.
 
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-update CHANGELOG for 21.1.7 release
-
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2430 
 
 ## Changelog
 
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-01 16:30:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2346" class=".btn">#2346</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for version 21.1.8-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-01 15:47:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2345" class=".btn">#2345</a>
-            </td>
-            <td>
-                <b>
-                    Release 21.1.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-01 15:28:57 +0000 UTC
+        Created At 2021-06-14 22:37:13 +0000 UTC
     </div>
 </div>
 

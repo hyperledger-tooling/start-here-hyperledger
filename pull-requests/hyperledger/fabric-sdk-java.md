@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/133" class=".btn">#133</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/138" class=".btn">#138</a>
             </td>
             <td>
                 <b>
-                    Update BlockchainInfo.java
+                    FABJ-553: Include OWASP vulnerability scan in main build (release-2.2)
                 </b>
             </td>
         </tr>
@@ -27,15 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                - 更正注释
-
-Co-Authored-By: haoxing49 <24587382+haoxing49@users.noreply.github.com>
-Signed-off-by: haoxing49 <1317876297@qq.com>
+                Fail build on high severity vulnerabilities. Ignores scopes that are not propagated to dependent projects:
+- provided
+- test
+- system
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-25 12:25:10 +0000 UTC
+        Created At 2021-06-17 16:38:58 +0000 UTC
     </div>
 </div>
 
@@ -43,11 +43,11 @@ Signed-off-by: haoxing49 <1317876297@qq.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/132" class=".btn">#132</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/137" class=".btn">#137</a>
             </td>
             <td>
                 <b>
-                    Update BlockchainInfo.java
+                    FABJ-553: Include OWASP vulnerability scan in main build
                 </b>
             </td>
         </tr>
@@ -56,15 +56,15 @@ Signed-off-by: haoxing49 <1317876297@qq.com>
                 
             </td>
             <td>
-                - 更正注释
-
-Co-Authored-By: haoxing49 <24587382+haoxing49@users.noreply.github.com>
-Signed-off-by: haoxing49 <1317876297@qq.com>
+                Fail build on high severity vulnerabilities. Ignores scopes that are not propagated to dependent projects:
+- provided
+- test
+- system
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-25 10:46:51 +0000 UTC
+        Created At 2021-06-17 16:32:50 +0000 UTC
     </div>
 </div>
 

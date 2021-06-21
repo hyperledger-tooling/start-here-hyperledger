@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2397" class=".btn">#2397</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2400" class=".btn">#2400</a>
             </td>
             <td>
                 <b>
-                    Update postgres check for existing database/schema
+                    support setting ZMQ socks proxy
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+                implementation for issue [#2399](https://github.com/hyperledger/indy-sdk/issues/2399)
 
-If wallet db already exists, checks for metadata before deciding that "wallet already exists".
-
+Signed-off-by: Vitalij Reicherdt <vitalij.reicherdt@commerzbank.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-01 20:45:09 +0000 UTC
+        Created At 2021-06-16 12:16:03 +0000 UTC
     </div>
 </div>
 
