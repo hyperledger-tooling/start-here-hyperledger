@@ -116,31 +116,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/259" class=".btn">#259</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-258]Modify the request address of the UI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Change the address header from /api to /api/v1
-
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-14 12:15:34 +0000 UTC
-    </div>
-</div>
-

@@ -46,7 +46,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 <b>
-                    DIF PE - VCHolder backend-specific tag_query building
+                    DIF PE - VCHolder backend-specific tag_query building and handle no given_id credentials
                 </b>
             </td>
         </tr>
@@ -57,6 +57,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             <td>
                 - Addresses the following from #1247, @andrewwhitehead will this meet the requirement? 
 > As discussed, I think this tag filtering belongs in VCHolder so that it can be specialized for the specific backends, but it's fine to merge this as-is and I can revisit it later with the shared-components work. Most important is that it works for now.
+- resolve #1253 [work in progress]
             </td>
         </tr>
     </table>

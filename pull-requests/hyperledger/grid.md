@@ -264,32 +264,3 @@ Signed-off-by: Darian Plumb <dplumb@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/761" class=".btn">#761</a>
-            </td>
-            <td>
-                <b>
-                    Add missing feature guard
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds a `database-postgres` feature guard to the database event
-handler implementations in the daemon's db handler that was missing.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-14 14:56:09 +0000 UTC
-    </div>
-</div>
-
