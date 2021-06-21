@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/466" class=".btn">#466</a>
+            </td>
+            <td>
+                <b>
+                    [FABN-1710] Fix HSM Persistence issues (#464)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Merged Pull request #450 into main
+* Extend HSM tests
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+Co-authored-by: Angel Kafazov <akafazov@cst-bg.net>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-21 14:22:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/465" class=".btn">#465</a>
             </td>
             <td>
