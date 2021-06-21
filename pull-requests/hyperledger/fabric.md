@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2699" class=".btn">#2699</a>
+            </td>
+            <td>
+                <b>
+                    [FAB-18485]Fabric orderer - add config option for client keepalives
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                added config option for orderer client keepalives.  Defaults defined as per the
+existing hard coded values. 
+
+Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-21 10:09:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2698" class=".btn">#2698</a>
+            </td>
+            <td>
+                <b>
+                    Address PR comments in Gateway integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-21 09:29:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2697" class=".btn">#2697</a>
             </td>
             <td>
