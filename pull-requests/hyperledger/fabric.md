@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2697" class=".btn">#2697</a>
+            </td>
+            <td>
+                <b>
+                    Fix two typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Eyers <dme@cs.otago.ac.nz>
+
+Fixed two minor typographical errors in the documentation.
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+Fixed two minor typographical errors in the documentation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-21 04:19:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2695" class=".btn">#2695</a>
+            </td>
+            <td>
+                <b>
+                    fix typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: wuqiaomin <wuqiaomin2@huawei.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-21 02:53:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2693" class=".btn">#2693</a>
             </td>
             <td>
