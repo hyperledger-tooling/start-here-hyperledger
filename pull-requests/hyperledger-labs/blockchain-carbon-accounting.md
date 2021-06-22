@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/197" class=".btn">#197</a>
+            </td>
+            <td>
+                <b>
+                    add fabricNetwork.sh ; stop and restart fabric network for dev
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                For development start fabric network only once. then use 
+`./.scripts/fabricNetwork.sh stop`  : to stop the fabric network
+`./scripts/fabricNetwork.sh resume` : to restart fabric network from previous run.
+
+Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-22 05:46:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/196" class=".btn">#196</a>
             </td>
             <td>

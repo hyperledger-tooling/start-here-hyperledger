@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1080" class=".btn">#1080</a>
+            </td>
+            <td>
+                <b>
+                    docs(examples): fix supply chain image build errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span>
+            </td>
+            <td>
+                Fixes #1063
+
+cc: @sichen1234 @Zzocker 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-22 06:15:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1079" class=".btn">#1079</a>
             </td>
             <td>
@@ -797,67 +825,6 @@ resolves #358
     </table>
     <div class="right-align">
         Created At 2021-06-15 13:33:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1038" class=".btn">#1038</a>
-            </td>
-            <td>
-                <b>
-                    docs(examples): fix typos and backend build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fixed Typos with logLevel
-- Fixed fabric chaincode deployment error
-
-Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 04:45:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1037" class=".btn">#1037</a>
-            </td>
-            <td>
-                <b>
-                    test: add logLevel parameter to Fabric AIO ctor calls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span><span class="chip">SPIKE</span>
-            </td>
-            <td>
-                This is another step taken to win the epic battle that we have been
-waging against a particularly nasty test flake that is plaguing the
-Fabric tests that use the AIO ledger.
-
-This will make the test output much more verbose, but there's no other
-way around to making sure that we can narrow down the root cause of the
-flake to a specific issue.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 02:55:56 +0000 UTC
     </div>
 </div>
 
