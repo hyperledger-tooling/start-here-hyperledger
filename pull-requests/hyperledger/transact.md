@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/transact
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/161" class=".btn">#161</a>
-            </td>
-            <td>
-                <b>
-                    Just ci recipe
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-14 20:21:31 +0000 UTC
-    </div>
-</div>
-

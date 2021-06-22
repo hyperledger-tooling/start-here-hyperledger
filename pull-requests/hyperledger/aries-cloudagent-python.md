@@ -57,7 +57,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             <td>
                 - Addresses the following from #1247, @andrewwhitehead will this meet the requirement? 
 > As discussed, I think this tag filtering belongs in VCHolder so that it can be specialized for the specific backends, but it's fine to merge this as-is and I can revisit it later with the shared-components work. Most important is that it works for now.
-- resolve #1253 [work in progress]
+- resolve #1253
             </td>
         </tr>
     </table>
@@ -148,40 +148,6 @@ Includes a couple fixes for warnings when running tests.
     </table>
     <div class="right-align">
         Created At 2021-06-16 03:07:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1246" class=".btn">#1246</a>
-            </td>
-            <td>
-                <b>
-                    Add endorser protocol support for revocation functionality 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds endorser protocol support for revocation functionality such as:
-- publishing a revocation registry definition to the ledger
-- publishing a revocation entry to the ledger
-It is based on #1230, so that PR should likely be merged first.c.c: @ianco 
-
-Currently, if endorsing is requested the agent will NOT handle the generation and rotation of the revocation registry for the user. Improvements to the usability are necessary, see #1238 for reference.
-
-A set of BDD tests validating the end-to-end flow has been added.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 00:28:04 +0000 UTC
     </div>
 </div>
 

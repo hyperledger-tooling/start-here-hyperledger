@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    Use "docker compose" and capture exit code 
+                    Improve ganache healthcheck and shorten timeouts
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
                 
             </td>
             <td>
-                On my machine `docker-compose` now fails with:
-`Docker Compose is now in the Docker CLI, try 'docker compose up'`
-
-In order to work this out, I found it easiest to implement #27 
+                This PR adds an extra step to the ganache healthcheck, using `grep` to make sure that we actually get an HTTP upgrade response for the websocket. The previous code just assumed that if it didn't exit immediately that it was successful, which is not always a safe assumption. This also allows us to shorten the timeouts a bit, which should shave a few seconds off the stack startup time.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-10 16:23:38 +0000 UTC
+        Created At 2021-06-16 13:40:44 +0000 UTC
     </div>
 </div>
 
@@ -43,11 +40,11 @@ In order to work this out, I found it easiest to implement #27
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/23" class=".btn">#23</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    Update docker image paths to hyperledger repos
+                    Add healthcheck for ganache
                 </b>
             </td>
         </tr>
@@ -56,18 +53,12 @@ In order to work this out, I found it easiest to implement #27
                 
             </td>
             <td>
-                To make sure you always have the latest images you can run these commands:
-
-```
-docker pull ghcr.io/hyperledger-labs/firefly:latest
-docker pull ghcr.io/hyperledger-labs/firefly-ethconnect:latest
-docker pull ghcr.io/hyperledger-labs/firefly-dataexchange-https:latest
-```
+                This should ensure the correct startup order for dependencies, should fix https://github.com/hyperledger-labs/firefly-cli/issues/35
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-09 23:36:00 +0000 UTC
+        Created At 2021-06-15 19:09:34 +0000 UTC
     </div>
 </div>
 
@@ -75,11 +66,11 @@ docker pull ghcr.io/hyperledger-labs/firefly-dataexchange-https:latest
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/22" class=".btn">#22</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    Rename package and ethconnect headers
+                    Suggested improvements for local dev
                 </b>
             </td>
         </tr>
@@ -88,69 +79,20 @@ docker pull ghcr.io/hyperledger-labs/firefly-dataexchange-https:latest
                 
             </td>
             <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+                - Exposes ports for all services, to aid running of firefly outside of compose
+  - Fixes IPFS which was exposing port `5000` rather than `5001`
+  - Avoids port `6000` which Chrome does not like querying (for when `/webui` is enabled for IPFS)
+  - Allows commandline options `-p` and `-s` to configure the base ports
+     - FireFly base port - default 5000 with increment of 1 for each member (5000,5001,5002 etc.)
+     - Service base port - default 5100 with increment of 100 for each member (5100, 5200, 5300 etc.)
+- Allows `docker pull` to be disabled during `ff start`, for developers with locally built images
+  - `ff start -n mystack`
+  - Will update the e2e test to use this
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-09 19:51:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/21" class=".btn">#21</a>
-            </td>
-            <td>
-                <b>
-                    Data exchange integration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds support for https://github.com/hyperledger-labs/firefly-dataexchange-https.
-
-Other notable improvements include:
-
-- More error propagation throughout
-- The `reset` and `remove` commands automatically perform `stop` first so you don't have to. This prevents stacks from getting into weird states where their data has been deleted but the containers themselves haven't been.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-09 18:11:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/19" class=".btn">#19</a>
-            </td>
-            <td>
-                <b>
-                    Add "org" to generated stack config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-03 21:38:57 +0000 UTC
+        Created At 2021-06-15 02:41:17 +0000 UTC
     </div>
 </div>
 

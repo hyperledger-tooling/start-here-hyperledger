@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/107" class=".btn">#107</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/117" class=".btn">#117</a>
             </td>
             <td>
                 <b>
-                    Remove hardcoded genesis alloc
+                    Integrate Resistant Event Subs
                 </b>
             </td>
         </tr>
@@ -27,16 +27,17 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                I know that this has low prio but it was annoying me :laughing:  
+                Uses resistant event confirmation on *go-perun* in all locations.  
+Currently i am having trouble with the `AdjudicatorSub`, which seems to make some end-to-end tests fail.  
+Funder and Adjudicator tests themselves seem to work.
 
-Remove the hard coded genesis allocation addresses with a call to `DeceloperGenesisBlock`.
-
-Closes #54 
+Closes #85 
+Draft until #40 and #97 are closed.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-14 18:48:07 +0000 UTC
+        Created At 2021-06-18 15:50:53 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +45,11 @@ Closes #54
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/106" class=".btn">#106</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/116" class=".btn">#116</a>
             </td>
             <td>
                 <b>
-                    Add Reorg to SimulatedBackend
+                    Resistant event subs
                 </b>
             </td>
         </tr>
@@ -57,17 +58,17 @@ Closes #54
                 
             </td>
             <td>
-                Introduces a `Reorg` function. Example can be found in #105.  
-Im not quite sure here with the testing, if it is too complicated, we could leave it for later.  
-  
-It sadly uses a replace in the `go.mod`, lets see if it works in the CI.
+                Adds the `ResistantEventSub` type.  
+Also introduced a convenience function `Subscribe(ctx context.Context, cr ethereum.ChainReader, contract *bind.BoundContract, eFact EventFactory, startBlockOffset, confirmations uint64) (*ResistantEventSub, error)` which makes it easier to create a resistant sub.  
+I am not happy with the arguments of `Subscribe` yet, since it are so many.
 
-Closes #105 
+Closes #40 
+Draft until #105 is closed
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-14 14:59:41 +0000 UTC
+        Created At 2021-06-18 15:44:40 +0000 UTC
     </div>
 </div>
 
@@ -75,11 +76,11 @@ Closes #105
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/104" class=".btn">#104</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/114" class=".btn">#114</a>
             </td>
             <td>
                 <b>
-                    Add Auto-mining to SimulatedBackend
+                    Prepare 82 virtual channels
                 </b>
             </td>
         </tr>
@@ -88,15 +89,71 @@ Closes #105
                 
             </td>
             <td>
-                Introduces two functions: `StartMining(interval)` and `StopMining`.  
-Can be used to simulate a ticking blockchain.  
-
-Closes #103 
+                Splitting some commits from #83 .
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-14 13:28:46 +0000 UTC
+        Created At 2021-06-18 12:42:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/112" class=".btn">#112</a>
+            </td>
+            <td>
+                <b>
+                    :sparkles: [pkg/test] Add context to ConcurrentT.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ConcurrentT can now be constructed with an optional context which will cause all stages and waiting operations to fail on expiry.
+I diverged from the issue's initial plan, because introducing custom contexts would have made the ConcurrentT object harder to use correctly. Now, there is only one context per ConcurrentT, and not one per wait call. The only adaption needed to use the new feature is to swap out the ConcurrentT's constructor in tests.
+
+Closes #110.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-16 23:45:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/111" class=".btn">#111</a>
+            </td>
+            <td>
+                <b>
+                    :boom: [backend/eth/channel] Remove validation of adj in validateAssettHolder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Contract code at adjudicator address is not validated because, the
+  it is passed by the caller, hence it is the responsibility of the
+  caller to provide a valid address.
+
+Resolves #109.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-16 12:44:17 +0000 UTC
     </div>
 </div>
 
