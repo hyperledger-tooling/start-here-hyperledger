@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/677" class=".btn">#677</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/682" class=".btn">#682</a>
             </td>
             <td>
                 <b>
-                    cleanup RFC510 updates
+                    Updated broken link
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Signed-off-by: Troy Ronda <troy@troyronda.com>
+                The link no longer worked as the target document was moved.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-26 20:45:23 +0000 UTC
+        Created At 2021-06-22 07:50:28 +0000 UTC
     </div>
 </div>
 
