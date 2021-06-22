@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/17" class=".btn">#17</a>
             </td>
             <td>
                 <b>
-                    refactor
+                    liveness and readyness now
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                Signed-off-by: Frank Bernhardt <Frank.Bernhardt@bosch.com>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-10 15:10:20 +0000 UTC
+        Created At 2021-06-21 12:51:19 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/10" class=".btn">#10</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/16" class=".btn">#16</a>
             </td>
             <td>
                 <b>
-                    Not all envFrom configurations were loading properly
+                    Feature/ux config update
                 </b>
             </td>
         </tr>
@@ -53,38 +53,21 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                Ran in Openshift, and it wasn't loading the BPA application config map env. vars if Keycloak ConfigMap was loading. Had to tweak the helper to not include the second `envFrom` property. Just put all configmaps under a single `envFrom` property.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-09 22:25:19 +0000 UTC
-    </div>
-</div>
+                Changes were made to the actual configuration expected by the BPA code.
+This updates deal with that (basically remove some properties from the configuration).
+The Chart appVersion matches with the build that supports these configuration changes.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/9" class=".btn">#9</a>
-            </td>
-            <td>
-                <b>
-                    fix chart test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Frank Bernhardt <Frank.Bernhardt@bosch.com>
+I also simplified the ux configuration as @frank-bee previously suggested. It makes it easier to understand when it is all in one place. So there are 3 preset options: `bcgov`, `custom`, `default`.
+
+`default` does nothing, no configmaps, no volumes/mounts, lets the application run with the default ux.
+`custom` is used when defining the configuration in your own `values.yaml`
+`bcgov` loads the configuration as defined in `bpa_configmap_ux.yaml`
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-07 11:33:10 +0000 UTC
+        Created At 2021-06-16 19:49:28 +0000 UTC
     </div>
 </div>
 

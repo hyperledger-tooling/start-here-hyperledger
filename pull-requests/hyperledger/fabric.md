@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2701" class=".btn">#2701</a>
+            </td>
+            <td>
+                <b>
+                    Mandate TLS 1.2 or higher in fabhttp package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit ensures that the HTTP server that is spawned by the fabhttp package
+only accepts TLS handshakes from clients that attempt to use TLS 1.2 or higher.
+
+Change-Id: Ia25482d9c96f68506724a58258451311b3d63208
+Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-21 20:06:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2699" class=".btn">#2699</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/21" class=".btn">#21</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/43" class=".btn">#43</a>
             </td>
             <td>
                 <b>
-                    Support for the fabric token SDK #20
+                    [WIP] Call view from rest
                 </b>
             </td>
         </tr>
@@ -27,19 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                - NWO:
-  - add support for sdks to FSC node
-  - remove support for external builders
-  - aliasing for FSC clients
-- Additional loggings
-- optimised endpoint resolution
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-08 15:21:31 +0000 UTC
+        Created At 2021-06-21 16:04:49 +0000 UTC
     </div>
 </div>
 
@@ -47,11 +40,65 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/18" class=".btn">#18</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/42" class=".btn">#42</a>
             </td>
             <td>
                 <b>
-                    add SECURITY.md and CODE_OF_CONDUCT.md #17
+                    Basic REST handler implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-21 15:18:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/41" class=".btn">#41</a>
+            </td>
+            <td>
+                <b>
+                    additional documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                + comments to the interfaces and structs of the view sdk
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-21 14:35:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/38" class=".btn">#38</a>
+            </td>
+            <td>
+                <b>
+                    Refactor Platform Folder Structure #35
                 </b>
             </td>
         </tr>
@@ -65,7 +112,7 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-07 13:50:22 +0000 UTC
+        Created At 2021-06-17 15:31:46 +0000 UTC
     </div>
 </div>
 
@@ -73,11 +120,11 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/16" class=".btn">#16</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    NWO: remove generic platform #12
+                    Update docu
                 </b>
             </td>
         </tr>
@@ -86,16 +133,15 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
                 
             </td>
             <td>
-                This PR brings the following:
-- it removes the generic platform
-- FSC nodes can have their own independent identities
-- The integration test infrastructure has been update
-- Integration tests have been modified to keep in mind the difference between a Fabric identity and an FSC identity
+                - Fix some consistency issues
+- An attempt to describe the API layers.
+
+Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-07 13:39:45 +0000 UTC
+        Created At 2021-06-17 10:22:24 +0000 UTC
     </div>
 </div>
 
@@ -103,11 +149,11 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/15" class=".btn">#15</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/36" class=".btn">#36</a>
             </td>
             <td>
                 <b>
-                    Close GRPC connections from peer & orderer clients
+                    ViewSDK: DB Driver Pluggability #30
                 </b>
             </td>
         </tr>
@@ -116,12 +162,12 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
                 
             </td>
             <td>
-                TODO: improve by providing grpc connection pool
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-05 20:31:58 +0000 UTC
+        Created At 2021-06-17 10:15:00 +0000 UTC
     </div>
 </div>
 
@@ -129,11 +175,11 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/14" class=".btn">#14</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    Integration Test Infrastructure: Pluggable platforms #3
+                    adding link to github discussion
                 </b>
             </td>
         </tr>
@@ -142,46 +188,12 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
                 
             </td>
             <td>
-                This PR brins in:
-- cleanup of the integration test infrastructure
-- pluggability of the platforms
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-04 11:26:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/10" class=".btn">#10</a>
-            </td>
-            <td>
-                <b>
-                    Continuous Integration Enablement #1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR brings:
-- path fix for git CI failure
-- updating .gitignore
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-04 03:51:20 +0000 UTC
+        Created At 2021-06-16 15:50:18 +0000 UTC
     </div>
 </div>
 

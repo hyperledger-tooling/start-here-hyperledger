@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1079" class=".btn">#1079</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-besu): add getPastLogs web service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                Fixes #1067 
+Depends on #1042
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-21 20:42:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1077" class=".btn">#1077</a>
             </td>
             <td>
@@ -535,7 +564,7 @@ And I would try to read the source code, understand how to call plugins in API s
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 Resolve #1034 
@@ -829,100 +858,6 @@ flake to a specific issue.
     </table>
     <div class="right-align">
         Created At 2021-06-15 02:55:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1033" class=".btn">#1033</a>
-            </td>
-            <td>
-                <b>
-                    feat(test-tooling): go-ipfs test container
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                New utility class that can manage the life-cycle of a go-ipfs container.
-It uses the official go-ipfs container image under the hood not a
-custom one like the AIO images.
-
-The purpose of this is to help authoring test cases in the future
-related to IPFS of which a good example will be the IPFS
-object-store plugin's implementation.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-14 20:10:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1032" class=".btn">#1032</a>
-            </td>
-            <td>
-                <b>
-                    feat(core-api): add plugin object store interface definition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Core_API</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                This will be implemented by object store plugins so as to
-have guarantee that at runtime the plugins can be used the
-way the caller expects them to.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-14 20:06:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1031" class=".btn">#1031</a>
-            </td>
-            <td>
-                <b>
-                    docs(contributing.md): explicit recommendation for avoiding global dependencies #585
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                docs(contributing.md): explicit recommendation for avoiding global dependencies #585
-
-Signed-off-by: Zachary Villanueva <Zachary.Villanueva@ibm.com>
-
-Fixes #585 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-14 19:08:00 +0000 UTC
     </div>
 </div>
 
