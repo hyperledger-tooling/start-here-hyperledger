@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Automated deployment
+                    Automated experiment running
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/mirbft
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-14 07:16:14 +0000 UTC
+        Created At 2021-06-22 15:00:32 +0000 UTC
     </div>
 </div>
 

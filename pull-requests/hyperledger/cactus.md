@@ -798,33 +798,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1041" class=".btn">#1041</a>
-            </td>
-            <td>
-                <b>
-                    feat(core-api): discontinue dedicated HTTP listeners for web service plugins
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: TonyRowntree <33454202+TonyRowntree@users.noreply.github.com>
-
-Draft PR will amend when changed
-
-resolves #358 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 13:33:22 +0000 UTC
-    </div>
-</div>
-
