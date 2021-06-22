@@ -62,37 +62,3 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/37" class=".btn">#37</a>
-            </td>
-            <td>
-                <b>
-                    Suggested improvements for local dev
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Exposes ports for all services, to aid running of firefly outside of compose
-  - Fixes IPFS which was exposing port `5000` rather than `5001`
-  - Avoids port `6000` which Chrome does not like querying (for when `/webui` is enabled for IPFS)
-  - Allows commandline options `-p` and `-s` to configure the base ports
-     - FireFly base port - default 5000 with increment of 1 for each member (5000,5001,5002 etc.)
-     - Service base port - default 5100 with increment of 100 for each member (5100, 5200, 5300 etc.)
-- Allows `docker pull` to be disabled during `ff start`, for developers with locally built images
-  - `ff start -n mystack`
-  - Will update the e2e test to use this
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 02:41:17 +0000 UTC
-    </div>
-</div>
-

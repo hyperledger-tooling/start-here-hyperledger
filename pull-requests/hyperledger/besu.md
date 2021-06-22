@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2459" class=".btn">#2459</a>
+            </td>
+            <td>
+                <b>
+                    Fix bft messages having duplicate prepares in roundChange message (#2…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+In IBFT2 and QBFT the round change message could be created with duplicate prepares being included in the round change message. These messages are rejected as being invalid by Besu.
+
+This fixes the equality and hashCode on the message so that we don't add duplicate messages.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-22 05:04:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2457" class=".btn">#2457</a>
             </td>
             <td>
@@ -421,83 +461,6 @@ Update integration tests to be able to test JSON RPC methods after the london fo
     </table>
     <div class="right-align">
         Created At 2021-06-15 16:50:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2434" class=".btn">#2434</a>
-            </td>
-            <td>
-                <b>
-                    ensure test_importRawBlock appends to chain head
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-Ensures `test_importRawBlock` appends the block to the chain even if the block already exists in storage.  This behavior is limited to the test endpoint, rather than pushing it down into the block importer.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#2409 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 06:16:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2433" class=".btn">#2433</a>
-            </td>
-            <td>
-                <b>
-                    Include custom errorprone checks as external dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Include custom errorprone checks as external dependency. Custom errorprone checks has been refactored to its own repo https://github.com/Consensys/errorprone-checks. 
-
-This change will allow to use custom errorprone checks in other projects as well.
-
-Signed-off-by: Usman Saleem <usman@usmans.info>
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 02:01:23 +0000 UTC
     </div>
 </div>
 
