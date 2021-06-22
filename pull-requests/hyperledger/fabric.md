@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2704" class=".btn">#2704</a>
+            </td>
+            <td>
+                <b>
+                    Retire Will Lahti as maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                It's been wonderful contributing alongside all of you since 2016. I've moved on from fabric for the time-being so it's time for me to retire as a maintainer. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-22 16:03:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2703" class=".btn">#2703</a>
             </td>
             <td>
@@ -475,35 +502,6 @@ Finally, you can contact us on https://mergify.io/
     </table>
     <div class="right-align">
         Created At 2021-06-15 20:11:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2685" class=".btn">#2685</a>
-            </td>
-            <td>
-                <b>
-                    Clarify "identity expired" error messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Peer and Orderer have several "identity expired" error messages.
-Clarify error messages to indicate which identity has expired.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 15:09:24 +0000 UTC
     </div>
 </div>
 

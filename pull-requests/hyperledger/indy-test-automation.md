@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/105" class=".btn">#105</a>
-            </td>
-            <td>
-                <b>
-                    Update CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Use Hyperledger groups
-
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 15:42:04 +0000 UTC
-    </div>
-</div>
-

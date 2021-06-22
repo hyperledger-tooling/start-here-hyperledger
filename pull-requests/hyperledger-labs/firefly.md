@@ -315,33 +315,3 @@ Fixes #75
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/78" class=".btn">#78</a>
-            </td>
-            <td>
-                <b>
-                    Get all config on admin, and support flat config records
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - `/admin/api/v1/config` moved to `/admin/api/v1/config/records`
-- `GET` `/admin/api/v1/config` added to download full merged config
-- Fixed an error restarting when you set a non-object value in `/admin/api/v1/config/records`
-
-In a PR chain with https://github.com/hyperledger-labs/firefly/pull/76
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 16:01:25 +0000 UTC
-    </div>
-</div>
-

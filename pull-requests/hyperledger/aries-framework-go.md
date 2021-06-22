@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2842" class=".btn">#2842</a>
+            </td>
+            <td>
+                <b>
+                    feat: JSON-LD Context API - WIP
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-22 16:43:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2841" class=".btn">#2841</a>
             </td>
             <td>
@@ -31,8 +59,8 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 - using AES-CBC+HMAC-SHA content encryption
 - make content encryption execute before key wrapping
 - pass encrytpion tag to key wrapping
-- make epk, apu, apk and alg recipient headers common in ProtectHeaders
-- ensures JWE/kw compatibility with ecdh-1pu draft4 example B test vector
+- make epk, apu, apv and alg recipient headers common in ProtectHeaders
+- ensures JWE/KW compatibility with ecdh-1pu draft4 example B test vector
 
 closes #2816
 
