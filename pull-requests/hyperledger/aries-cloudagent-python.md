@@ -123,32 +123,3 @@ Includes a couple fixes for warnings when running tests.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1247" class=".btn">#1247</a>
-            </td>
-            <td>
-                <b>
-                    DIF PE Updates and present_proof_v1_0 OOB Attachment Fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #1244 
-- resolve #1242 
-- resolve #1240 
-- present_proof_v1 and OOB attachment fix
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 03:07:56 +0000 UTC
-    </div>
-</div>
-
