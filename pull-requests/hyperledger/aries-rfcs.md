@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/684" class=".btn">#684</a>
+            </td>
+            <td>
+                <b>
+                    refactor: update ECDH-1PU info in RFC-334 and RFC-587
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 16:59:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/683" class=".btn">#683</a>
             </td>
             <td>

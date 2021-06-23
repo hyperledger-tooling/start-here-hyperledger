@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/44" class=".btn">#44</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/48" class=".btn">#48</a>
             </td>
             <td>
                 <b>
-                    Improve ganache healthcheck and shorten timeouts
+                    Update README.md
                 </b>
             </td>
         </tr>
@@ -27,12 +27,49 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
                 
             </td>
             <td>
-                This PR adds an extra step to the ganache healthcheck, using `grep` to make sure that we actually get an HTTP upgrade response for the websocket. The previous code just assumed that if it didn't exit immediately that it was successful, which is not always a safe assumption. This also allows us to shorten the timeouts a bit, which should shave a few seconds off the stack startup time.
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-16 13:40:44 +0000 UTC
+        Created At 2021-06-23 18:09:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/47" class=".btn">#47</a>
+            </td>
+            <td>
+                <b>
+                    Fix numerous startup issues with the CLI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Move data to named volumes for all containers
+* Use admin API for setting FireFly Core config
+* Fixes permission issues on Linux
+* Fixes path issues on Windows
+* Fixes timing issues on startup
+
+Fixes the following open issues:
+https://github.com/hyperledger-labs/firefly-cli/issues/46
+https://github.com/hyperledger-labs/firefly-cli/issues/45
+https://github.com/hyperledger-labs/firefly-cli/issues/40
+https://github.com/hyperledger-labs/firefly-cli/issues/36
+https://github.com/hyperledger-labs/firefly-cli/issues/34
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 17:11:22 +0000 UTC
     </div>
 </div>
 

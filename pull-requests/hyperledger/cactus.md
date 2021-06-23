@@ -14,6 +14,121 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1087" class=".btn">#1087</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-besu): getTransaction method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jeffrey Ushry <jeffrey.ushry@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 18:09:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1086" class=".btn">#1086</a>
+            </td>
+            <td>
+                <b>
+                    style(data-fetcher): multiple linter fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
+
+@petermetz ping for review, all the warnings looked the same so they are in the same PR! 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 16:59:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1085" class=".btn">#1085</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-besu): add getBalance web service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1066
+
+@petermetz Mr.Tyler helped me with the test cases! 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 15:36:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1084" class=".btn">#1084</a>
+            </td>
+            <td>
+                <b>
+                    feat(test-tooling): faio features and improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds several improvements:
+1) destroys faio volume when tests end
+2) allows to recover a test ledger (setContainer)
+3) allows to add organizations
+
+Replaces PR #949 cc @petermetz 
+
+Signed-off-by: Rafael Belchior <rafael.belchior@tecnico.ulisboa.pt>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 14:29:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1081" class=".btn">#1081</a>
             </td>
             <td>
@@ -713,34 +828,6 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-06-16 20:30:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1049" class=".btn">#1049</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-besu): add get balance method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-
-@petermetz just pinging you because I don't have a reviewer section 😢 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 14:52:42 +0000 UTC
     </div>
 </div>
 
