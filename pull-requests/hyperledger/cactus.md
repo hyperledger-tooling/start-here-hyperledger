@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1081" class=".btn">#1081</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-xdai): add interval to pollForTxReceipt
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #1078 
+Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-22 18:39:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1080" class=".btn">#1080</a>
             </td>
             <td>
@@ -769,32 +796,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-06-16 07:17:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1042" class=".btn">#1042</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-besu): add get past logs method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Hana Awad <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 20:15:50 +0000 UTC
     </div>
 </div>
 

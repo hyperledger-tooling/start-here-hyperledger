@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    Add github actions for PRs and Releases
+                    improve timeline appearance on smaller resolutions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/firefly-ui
                 
             </td>
             <td>
-                PR build is tested. I don't think I can test the tag release extensions without it being in the build
+                Also set maxWidth on views for better appearance on higher resolutions
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-15 16:47:53 +0000 UTC
+        Created At 2021-06-22 20:43:04 +0000 UTC
     </div>
 </div>
 
