@@ -184,33 +184,3 @@ Closes #110.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/111" class=".btn">#111</a>
-            </td>
-            <td>
-                <b>
-                    :boom: [backend/eth/channel] Remove validation of adj in validateAssettHolder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Contract code at adjudicator address is not validated because, the
-  it is passed by the caller, hence it is the responsibility of the
-  caller to provide a valid address.
-
-Resolves #109.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 12:44:17 +0000 UTC
-    </div>
-</div>
-

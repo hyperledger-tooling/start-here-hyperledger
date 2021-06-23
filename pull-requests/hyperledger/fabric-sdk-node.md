@@ -311,29 +311,3 @@ Transaction state can be serialized using Transaction.serialize(), and later rec
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/457" class=".btn">#457</a>
-            </td>
-            <td>
-                <b>
-                    FABN-1714: Allow transactions to be serialized
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Transaction state can be serialized using Transaction.serialize(), and later reconstructed using Contract.deserializeTransaction(). This allows a transaction to be persisted and for the same transaction (including nonce and transaction ID) to be submitted again following a client application restart.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 14:50:48 +0000 UTC
-    </div>
-</div>
-

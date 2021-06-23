@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/509" class=".btn">#509</a>
+            </td>
+            <td>
+                <b>
+                    2agents
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #505
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/509"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 15:52:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/506" class=".btn">#506</a>
             </td>
             <td>
@@ -260,70 +290,6 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </table>
     <div class="right-align">
         Created At 2021-06-17 00:04:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/496" class=".btn">#496</a>
-            </td>
-            <td>
-                <b>
-                    Tags
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Will implement #491 
-
-Todo
-- [ ] Fix Join
-- [ ] Update tags of partners. UI is ready. Backend needs some more work.
-- [ ] Init tags by config file similar to schemas
-- [ ] Sensible error message if user wants to delete a tag that has been assigned to a partner
-- [x] Add tags to partner list
-
-Maybe in another Issue/PR
-- [ ] Update name of tags in UI
-- [ ] Provide a hard delete that will delete  the tag from all partners as well
-- [ ]  Add a tag to an invitation
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 15:48:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/494" class=".btn">#494</a>
-            </td>
-            <td>
-                <b>
-                    remove leftovers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix link to issues
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 13:16:34 +0000 UTC
     </div>
 </div>
 

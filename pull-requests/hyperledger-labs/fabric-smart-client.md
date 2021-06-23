@@ -201,29 +201,3 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/34" class=".btn">#34</a>
-            </td>
-            <td>
-                <b>
-                    adding link to github discussion
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 15:50:18 +0000 UTC
-    </div>
-</div>
-

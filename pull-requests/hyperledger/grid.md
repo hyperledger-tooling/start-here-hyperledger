@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/777" class=".btn">#777</a>
+            </td>
+            <td>
+                <b>
+                    Fix Pike SDK comment typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 17:24:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/776" class=".btn">#776</a>
             </td>
             <td>
@@ -287,32 +313,6 @@ Signed-off-by: Darian Plumb <dplumb@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-06-17 18:31:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/765" class=".btn">#765</a>
-            </td>
-            <td>
-                <b>
-                    Daemon feature cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This makes changes necessary to remove "experimental" dependency between the daemon and the sdk.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 18:13:41 +0000 UTC
     </div>
 </div>
 

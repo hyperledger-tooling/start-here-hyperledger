@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1259" class=".btn">#1259</a>
+            </td>
+            <td>
+                <b>
+                    fix: credentials must specify additional types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                While writing test for AATH I noticed in the vc-data-model section on [types](https://www.w3.org/TR/vc-data-model/#types), the following excerpt:
+
+> All credentials, presentations, and encapsulated objects MUST specify, or be associated with, additional more narrow types (like UniversityDegreeCredential, for example) so software systems can process this additional information.
+
+This is also tested in the vc-test-suite: https://github.com/w3c/vc-test-suite/blob/gh-pages/test/vc-data-model-1.0/10-basic.js#L95-L99
+
+This PR adds this restriction to the validation of VCs in ACA-Py
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 16:15:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1252" class=".btn">#1252</a>
             </td>
             <td>
