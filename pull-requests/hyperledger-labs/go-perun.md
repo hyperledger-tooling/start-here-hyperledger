@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/120" class=".btn">#120</a>
+            </td>
+            <td>
+                <b>
+                    Fix testHashState
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Test the HashState function instead of CalcID, which is already being tested in testCalcID.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 11:22:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/119" class=".btn">#119</a>
             </td>
             <td>

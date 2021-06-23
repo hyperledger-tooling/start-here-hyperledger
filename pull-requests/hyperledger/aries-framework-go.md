@@ -60,7 +60,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 - make content encryption execute before key wrapping
 - pass encrytpion tag to key wrapping
 - make epk, apu, apv and alg recipient headers common in ProtectHeaders
-- ensures JWE/KW compatibility with ecdh-1pu draft4 example B test vector
+- ensures JWE/KW compatibility with ecdh-1pu draft4 example B test vector for both content encryption and full JWE decryption
 
 closes #2816
 

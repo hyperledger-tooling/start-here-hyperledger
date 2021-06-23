@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/469" class=".btn">#469</a>
+            </td>
+            <td>
+                <b>
+                    FABN-1716: Fix hang on application exit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A change in v1.2.x and later versions of @grpc/grpc-js seems to be preventing client applications from exiting due to interval timers on the event queue created by @grpc/grpc-js/src/subchannel.ts. Reverting back to @grpc/grpc-js v1.1.8 seems to resolve the issue.
+
+Additionally, connection timeout Promises during sends to orderers in Committer.js were not being closed correctly. This did not cause a breakage since the promise they rejected was already resolved if the connection was successful, but could leave timers running unnecessarily in the event queue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 11:50:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/468" class=".btn">#468</a>
+            </td>
+            <td>
+                <b>
+                    [FABN-1554] Add label support for HSM
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add the option to specify label instead of slot
+If both are provided then slot will be ignored
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 11:01:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/467" class=".btn">#467</a>
+            </td>
+            <td>
+                <b>
+                    Revert to snapshot publishing following v2.2.7 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 10:41:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/466" class=".btn">#466</a>
             </td>
             <td>

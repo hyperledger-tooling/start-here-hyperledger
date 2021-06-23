@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-ca
             </td>
             <td>
                 <b>
-                    Reenroll expired
+                    [FABC-931] Re-enroll with expired certs 
                 </b>
             </td>
         </tr>
