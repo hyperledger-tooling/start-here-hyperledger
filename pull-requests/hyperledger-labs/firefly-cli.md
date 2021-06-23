@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/41" class=".btn">#41</a>
-            </td>
-            <td>
-                <b>
-                    Add healthcheck for ganache
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should ensure the correct startup order for dependencies, should fix https://github.com/hyperledger-labs/firefly-cli/issues/35
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 19:09:34 +0000 UTC
-    </div>
-</div>
-

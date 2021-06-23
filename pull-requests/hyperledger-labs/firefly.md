@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/94" class=".btn">#94</a>
+            </td>
+            <td>
+                <b>
+                    Fix pending unpinned sends
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently if you send an unpinned message, it is correctly marked `pending: false` (with a confirmed timestamp) on the receiving node(s), but the sending node leaves it forever in a `pending` state on the sender.
+This means in the UI, all the requests are shown _before_ the replies 🙃 
+
+The problem was the unpinned send code was setting `pending` and `confirmed` _before_ sealing the message, which then reset those back to default.
+
+![image](https://user-images.githubusercontent.com/6660217/122996051-6345ff00-d378-11eb-91b2-19bd3d7c2e37.png)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-22 20:41:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/92" class=".btn">#92</a>
             </td>
             <td>
@@ -250,68 +281,6 @@ Fixes #79
     </table>
     <div class="right-align">
         Created At 2021-06-16 21:34:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/80" class=".btn">#80</a>
-            </td>
-            <td>
-                <b>
-                    Enhance blob upload support, to include metadata, and complete blob transfers (broadcast/private)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Build now takes releases of UI, rather than building during the docker build
-  - See https://github.com/hyperledger-labs/firefly-ui/pull/37
-- Blobs now can have both a `blob` attachment and `value` JSON
-  - `data.blob.hash` - the sha256 of the blob - must be there
-  - `data.blob.public` - the public payload ref to download the blob - only if it's been published at some point
-- On upload user can add some extra form parameters - must be before the upload file itself:
-  - `metadata` - can be a string or a JSON object
-  - `autometa` - if `true` then the `filename`,`size` and `mimetype` are added to JSON metadata
-     - Can be combined with `metadata` if the metadata is JSON
-  - `datatype.name` - if the metadata needs to be validated per a datatype
-  - `datatype.version` - if the metadata needs to be validated per a datatype
-  - `validator` - to customize the validator (only `json` is supported today)
-- The `hash` of the `data` object created, will be one of:
-  - The `value` hash - if just a JSON value
-  - The `blob` hash reference - if just a BLOB value
-  - A hash of the two HEX hashes concatenated together (no spaces or separators)
-- `GET` `/api/v1/namespaces/:ns/data/:dataid/blob` to download blob
-   - Some refactoring on the apiserver to support non-JSON `ReadCloser` results
-- Broadcast blob transfers worked through
-  - When sent in a broadcast message, the `data` will become pinned
-  - The `data` has a `blob.public` reference added to it before being included in the batch
-  - If it's sent multiple times, to multiple parties, the upload to public only happens once
-- Public payload references move to a `string` (rather than `*Bytes32`)
-  - **This updates the contract Solidity** - so this has a migration impact for CLI created envs
-  - We were previously using a Bytes32 reference, derived from the IPFS ID. This was problematic
-    - It was really confusing on the plugin interface, and for users
-    - It would have got more confusing with the public reference on data
-    - It requires the public storage plugin to be able to translate IDs into 32byte strings
-       - This happens to be true for the majority of IPFS configurations today, but is not universal or extensible
-- Private blob transfers worked through
-  - Sends are initiated prior to the batch payload itself
-  - Happen asynchronously, and have their own `operation` entry
-- E2E tests included
-  - Private blob transfer
-  - Broadcast blob transfer
-     
-Fixes #75
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-15 21:54:00 +0000 UTC
     </div>
 </div>
 
