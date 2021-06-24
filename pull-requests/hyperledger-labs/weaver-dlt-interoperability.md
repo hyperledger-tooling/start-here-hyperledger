@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/89" class=".btn">#89</a>
+            </td>
+            <td>
+                <b>
+                    chaincode changes to support ECDLP lock
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR addresses the below:
+- Reorganize the interop-cc, base-class and base-class-contract pertaining to locking mechanism
+- Add the code to support ECDLP lock along with HashLock
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 17:29:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/87" class=".btn">#87</a>
             </td>
             <td>
@@ -113,37 +141,6 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </table>
     <div class="right-align">
         Created At 2021-06-18 10:15:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/76" class=".btn">#76</a>
-            </td>
-            <td>
-                <b>
-                    Restructure samples, corda and fabric-cli directories
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Created two subdirectories: `samples/corda` and `samples/fabric`, and moved respective sample applications to correct folders.
-2. Moved `fabric-cli` from deep inside `tests/network-setups` to `samples/fabric` folder.
-3. Updated Getting Started Page, to point to new paths.
-4. Replacing `<PATH-TO-NETWORK-SETUPS>` to `<PATH-TO-WEAVER>/tests`.
-
-All 4 data-transfer flows and asset-exchange have been tested.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 12:56:26 +0000 UTC
     </div>
 </div>
 

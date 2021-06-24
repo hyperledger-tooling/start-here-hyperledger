@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1091" class=".btn">#1091</a>
+            </td>
+            <td>
+                <b>
+                    style(linter): multiple linter fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
+
+@petermetz ping for review, this is a large group of linter warning fixes. If it was better to break them apart for next time please let me know! ⭐ 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 16:48:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1090" class=".btn">#1090</a>
+            </td>
+            <td>
+                <b>
+                    feat: work in progress
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Tommesha Wiggins <tommesha.wiggins@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 15:34:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1089" class=".btn">#1089</a>
             </td>
             <td>
@@ -645,95 +699,6 @@ linter fix within file besu-test-ledger for stop, destroy, and pullContainerImag
     </table>
     <div class="right-align">
         Created At 2021-06-17 18:31:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1059" class=".btn">#1059</a>
-            </td>
-            <td>
-                <b>
-                    test: refactor api-surface.ts batch #3 #1045
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1045
-
-Signed-off-by: Tommesha Wiggins <tommesha.wiggins@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 15:46:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1058" class=".btn">#1058</a>
-            </td>
-            <td>
-                <b>
-                    Renamed and refactored test files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes hyperledger#1046
-
-Signed-off-by: Jeffrey Ushry II <jeffrey.ushry@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 14:48:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1057" class=".btn">#1057</a>
-            </td>
-            <td>
-                <b>
-                    feat(core-api): plugin async initializer method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: TonyRowntree <33454202+TonyRowntree@users.noreply.github.com>
-
-**Added** 
-
-- onPluginInit(): Promise<unknown> to the core-api interface.
-- no-op onPluginInit method to all plugins main class.
-
-resolves #1035 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 12:38:54 +0000 UTC
     </div>
 </div>
 
