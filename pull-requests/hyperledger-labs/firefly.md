@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/98" class=".btn">#98</a>
+            </td>
+            <td>
+                <b>
+                    Add publicURL config to admin and http config, and file based logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Public URL
+    - Adds config option for cases where the listener address (such as `0.0.0.0`) is not the same as the URL that should be used externally for FireFly.
+    - This affects the Swagger UI, which needs to perform an call from the browser to download the Swagger YAML.
+- File logging
+    - Uses lumberjack writer
+    - Adds following config options:
+    - `log.filename` - filename to log to
+    - `log.maxAge` - maximum age before rotating
+    - `log.maxSize` - maximum size
+    - `log.maxBackups` - maximum number of files to keep
+    - `log.compress` - whether to compress the backups
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 01:55:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/97" class=".btn">#97</a>
+            </td>
+            <td>
+                <b>
+                    Add workflow for E2E test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 00:50:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/96" class=".btn">#96</a>
             </td>
             <td>
@@ -33,32 +95,6 @@ permalink: /pull-requests/hyperledger-labs/firefly
     </table>
     <div class="right-align">
         Created At 2021-06-23 21:42:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/95" class=".btn">#95</a>
-            </td>
-            <td>
-                <b>
-                    Add workflow for E2E test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 19:22:35 +0000 UTC
     </div>
 </div>
 
