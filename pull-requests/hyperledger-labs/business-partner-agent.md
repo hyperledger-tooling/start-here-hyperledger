@@ -52,13 +52,13 @@ Will need to add environment variables into the charts to set the `VUE_APP_I18N_
             </td>
             <td>
                 <b>
-                    2agents
+                    Launch 2 agents in the gitpod setup
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
                 fixes #505
