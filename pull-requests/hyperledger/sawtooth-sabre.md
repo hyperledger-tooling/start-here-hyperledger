@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/144" class=".btn">#144</a>
-            </td>
-            <td>
-                <b>
-                    0-7 Backport of wasmi dependency version update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update the version of the wasmi library from 0.4 to 0.9 to minimize
-memory footprint.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 20:57:57 +0000 UTC
-    </div>
-</div>
-

@@ -155,32 +155,3 @@ Draft until #105 is closed
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/112" class=".btn">#112</a>
-            </td>
-            <td>
-                <b>
-                    :sparkles: [pkg/test] Add context to ConcurrentT.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ConcurrentT can now be constructed with an optional context which will cause all stages and waiting operations to fail on expiry.
-I diverged from the issue's initial plan, because introducing custom contexts would have made the ConcurrentT object harder to use correctly. Now, there is only one context per ConcurrentT, and not one per wait call. The only adaption needed to use the new feature is to swap out the ConcurrentT's constructor in tests.
-
-Closes #110.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 23:45:04 +0000 UTC
-    </div>
-</div>
-

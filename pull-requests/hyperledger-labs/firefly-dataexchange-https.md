@@ -39,29 +39,3 @@ Note in PR chain with #25
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/23" class=".btn">#23</a>
-            </td>
-            <td>
-                <b>
-                    Add metadata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 20:13:56 +0000 UTC
-    </div>
-</div>
-

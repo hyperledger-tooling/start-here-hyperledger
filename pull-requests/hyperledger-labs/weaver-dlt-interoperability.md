@@ -147,29 +147,3 @@ All 4 data-transfer flows and asset-exchange have been tested.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/74" class=".btn">#74</a>
-            </td>
-            <td>
-                <b>
-                    code to query simple CorDapp using linearId
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 21:51:45 +0000 UTC
-    </div>
-</div>
-

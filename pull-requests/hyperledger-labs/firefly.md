@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/96" class=".btn">#96</a>
+            </td>
+            <td>
+                <b>
+                    Fix ordering of message checks in TestE2EWebhookExchangeNoTx
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #94 fixed the order of the request and reply, but the e2e test was depending on the incorrect order (noting natural sort order is newest first)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 21:42:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/95" class=".btn">#95</a>
+            </td>
+            <td>
+                <b>
+                    Add workflow for E2E test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 19:22:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/94" class=".btn">#94</a>
             </td>
             <td>
@@ -179,32 +231,6 @@ In PR chain with #80
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/87" class=".btn">#87</a>
-            </td>
-            <td>
-                <b>
-                    Add workflow for E2E test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 18:56:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/86" class=".btn">#86</a>
             </td>
             <td>
@@ -250,37 +276,6 @@ In PR chain with #80
     </table>
     <div class="right-align">
         Created At 2021-06-17 18:23:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/82" class=".btn">#82</a>
-            </td>
-            <td>
-                <b>
-                    Do not auto-reset, and add preinit mode requiring at least one config record
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Add a `POST` `/admin/config/reset` to initiate the reset separately from adding config records
-- Add an `admin.preinit` option such that if there are no config records, a server will only start the admin server and not attempt to initialize. This means it will wait for the first config+reset to be `PUT` to it before attempting to start
-- Added fix to https://github.com/hyperledger-labs/firefly/issues/79
-  - In addressing this, I made some progress on the refactor discussed in https://github.com/hyperledger-labs/firefly/pull/51#issuecomment-857957200
-
-Fixes #79
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 21:34:55 +0000 UTC
     </div>
 </div>
 

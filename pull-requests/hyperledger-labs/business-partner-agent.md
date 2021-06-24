@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/510" class=".btn">#510</a>
+            </td>
+            <td>
+                <b>
+                    Add basic internationalization/locale support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
+
+Adding in basic internationalization via [VUE I18n library](https://kazupon.github.io/vue-i18n/).
+This is **not** for dynamic loading of different resources, this is for determining the text/resources at deployment time.
+
+I've only done the `App.vue` page and have 2 "locales": `en` and `bcgov`. This demonstrates having multiple versions of English, so we are not constrained by using actual locales.
+
+Will need to add environment variables into the charts to set the `VUE_APP_I18N_LOCALE` and `VUE_APP_I18N_FALLBACK_LOCALE` variables for the frontend (default is "en").
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 21:33:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/509" class=".btn">#509</a>
             </td>
             <td>
@@ -247,49 +281,6 @@ Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
     </table>
     <div class="right-align">
         Created At 2021-06-18 08:57:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/497" class=".btn">#497</a>
-            </td>
-            <td>
-                <b>
-                    Standardize secondary buttons (text, outlined),
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">frontend</span>
-            </td>
-            <td>
-                Try for only one Primary per section/form.
-
-For BC Gov our [secondary buttons](https://developer.gov.bc.ca/Design-System/Secondary-Button) are supposed to be outlined and text. So if there are no objections, I'd like to put this in place. It is much easier to set on the VUE components themselves than to attempt via SASS overrides or CSS.
-
-We may want to set a specific secondary color for our default theme. The default color is `#424242` which may be too dark?
-For our BC theme, we are setting secondary = primary. This shouldn't be a problem until we use secondary for another purpose.
-
-Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-### Default Look and Feel
-![Screen Shot 2021-06-16 at 4 53 08 PM](https://user-images.githubusercontent.com/39388115/122310354-056f6e00-cec5-11eb-8ebc-9fe879e00bf6.png)
-
-
-### BC Gov Look and Feel
-![Screen Shot 2021-06-16 at 4 52 00 PM](https://user-images.githubusercontent.com/39388115/122310118-7a8e7380-cec4-11eb-8114-aa5cbe8b582b.png)
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 00:04:24 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2473" class=".btn">#2473</a>
+            </td>
+            <td>
+                <b>
+                    p2p tls support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add option to use rlpx comms wrapped inside a tls connection. when a TLSConfiguration is provided the NettyTLSConnectionInitializer will be used instead of the default NettyConnectionInitializer
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 21:21:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2470" class=".btn">#2470</a>
             </td>
             <td>
