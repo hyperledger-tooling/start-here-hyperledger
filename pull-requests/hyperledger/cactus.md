@@ -14,11 +14,67 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1089" class=".btn">#1089</a>
+            </td>
+            <td>
+                <b>
+                    style(supply-chain-frontend): multiple linter fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
+
+@petermetz ping for review
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 20:08:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1088" class=".btn">#1088</a>
+            </td>
+            <td>
+                <b>
+                    style(i-eth-contract-deployment): linter fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
+
+@petermetz ping for review! 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-23 19:46:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1087" class=".btn">#1087</a>
             </td>
             <td>
                 <b>
-                    feat(connector-besu): getTransaction method
+                    feat(connector-besu): add getTransaction web service
                 </b>
             </td>
         </tr>
@@ -772,62 +828,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-06-17 05:21:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1051" class=".btn">#1051</a>
-            </td>
-            <td>
-                <b>
-                    test: api-surface test refactored in various packages. Batch 2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1044
-
-Signed-off-by: Hana Awad <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 20:32:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1050" class=".btn">#1050</a>
-            </td>
-            <td>
-                <b>
-                    test: api-surface test refactored invarious package. Batch 1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1043
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 20:30:49 +0000 UTC
     </div>
 </div>
 

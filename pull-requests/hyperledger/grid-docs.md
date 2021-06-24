@@ -124,33 +124,3 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/231" class=".btn">#231</a>
-            </td>
-            <td>
-                <b>
-                    Update `grid organization update` example
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This updates the `grid organization update` example command with the
-correct flags and replaces the location value with a GLN rather than a
-street address.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 20:15:27 +0000 UTC
-    </div>
-</div>
-

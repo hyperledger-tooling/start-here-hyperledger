@@ -36,32 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/451" class=".btn">#451</a>
-            </td>
-            <td>
-                <b>
-                    Add process.exit(0) to sample applications
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add process.exit(0) so that sample javascript and typescript
-applications exit with success upon completion instead of hanging.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 20:23:45 +0000 UTC
-    </div>
-</div>
-

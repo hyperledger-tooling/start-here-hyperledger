@@ -453,29 +453,3 @@ Commit to resolve issue #189
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/185" class=".btn">#185</a>
-            </td>
-            <td>
-                <b>
-                    fix incorrect couchdb database name
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Si Chen <sichen@opensourcetrategies.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-16 18:48:32 +0000 UTC
-    </div>
-</div>
-
