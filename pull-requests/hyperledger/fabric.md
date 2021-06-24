@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2710" class=".btn">#2710</a>
+            </td>
+            <td>
+                <b>
+                    Add explanation of `--ctor` JSON string
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+<!--- Describe your changes in detail, including motivation. -->
+
+Neither the documentation nor the source code of peer mention the exact format of `--ctor` JSON string. Beginners are likely to frown at that.
+
+By looking at the source and asking questions online, I think I figured out the format of  `--ctor` JSON string. 
+In this PR, I add the format explanation on the docs of the peer command.
+
+I am also a newbie. Please check if the explanation is correct and revise. 
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 07:47:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2709" class=".btn">#2709</a>
             </td>
             <td>
@@ -616,88 +674,6 @@ Cherry pick fixes made to the deploy CC topic to the main branch
     </table>
     <div class="right-align">
         Created At 2021-06-17 12:36:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2690" class=".btn">#2690</a>
-            </td>
-            <td>
-                <b>
-                    Handle missing endpoints from discovery
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                For some reason the discovery PeersOfChannel function does not
-return an endpoint for the local peer, which the gateway was
-relying on
-
-Rather than updating PeersOfChannel to return the endpoint when
-there is one, to match the Peers function, this change updates
-how the gateway identifies the local peer
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 11:23:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2689" class=".btn">#2689</a>
-            </td>
-            <td>
-                <b>
-                    Clarify orderers seeing the transaction data
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">docs</span>
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-Having the answer start with a `No` is misleading. Beginners
-who generally rely on FAQ section to understand the fundamentals
-thought that orderers do not receive any information about a
-transaction.
-
-With the explanation on what is available with orderers clarifies
-the intent served in this FAQ. i.e. Orderers do get the
-transaction but at their goodwill they will not open the
-transaction, as they do not have a need to open them.
-
-#### Additional details
-
-NA, documentation update
-
-#### Related issues
-
-None
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 09:04:39 +0000 UTC
     </div>
 </div>
 

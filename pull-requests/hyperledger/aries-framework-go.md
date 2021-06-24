@@ -76,7 +76,7 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
             </td>
             <td>
                 <b>
-                    feat: JSON-LD Context API - WIP
+                    feat: JSON-LD Context API
                 </b>
             </td>
         </tr>
