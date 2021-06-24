@@ -802,32 +802,3 @@ And I would try to read the source code, understand how to call plugins in API s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1054" class=".btn">#1054</a>
-            </td>
-            <td>
-                <b>
-                    feat(test-tooling): add besu multi-party test ledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Besu</span>
-            </td>
-            <td>
-                This one appears to only use around 6 GB RAM so there is a
-possibility that it will actually work on the GHA CI runner too.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 05:21:57 +0000 UTC
-    </div>
-</div>
-
