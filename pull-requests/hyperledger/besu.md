@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2477" class=".btn">#2477</a>
+            </td>
+            <td>
+                <b>
+                    Deduplicate Effective Gas Price Method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ratan Rai Sur <ratan.r.sur@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2476 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 18:03:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2475" class=".btn">#2475</a>
+            </td>
+            <td>
+                <b>
+                    Update CHANGELOG.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: makt <zem39111@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 12:47:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2473" class=".btn">#2473</a>
             </td>
             <td>
@@ -465,7 +544,7 @@ Package manager:   deb
 Target file:       docker/openjdk-11/Dockerfile
 Project name:      docker-image|docker.io/hyperledger/besu
 Docker image:      docker.io/hyperledger/besu:21.7.0-RC1-SNAPSHOT-openjdk-11
-Base image:        adoptopenjdk/openjdk11:x86_64-ubuntu-jre-11.0.11_9
+Base image:        adoptopenjdk/openjdk11:jre-11.0.11_9
 Licenses:          enabled
 
 ✓ Tested 132 dependencies for known issues, no vulnerable paths found.
@@ -515,46 +594,6 @@ This fixes the equality and hashCode on the message so that we don't add duplica
     </table>
     <div class="right-align">
         Created At 2021-06-18 06:48:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2448" class=".btn">#2448</a>
-            </td>
-            <td>
-                <b>
-                    dialing down logging of invalid HELO to debug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin.florentine@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-[Previous assumption](https://github.com/hyperledger/besu/pull/2406#discussion_r649821858) was a mistake, I didn't realize those canaries I checked were not running at DEBUG. Invalid HELOs happen often enough, without any impact, that the log level should remain at debug.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2004 
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 14:34:35 +0000 UTC
     </div>
 </div>
 

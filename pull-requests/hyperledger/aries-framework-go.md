@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2847" class=".btn">#2847</a>
+            </td>
+            <td>
+                <b>
+                    did:key updates for JsonWebKey2020
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                All the changes applies to the did:key method.
+
+Updated the serialization of the EC keys (P-256, P-384, P-521) to use the compressed format as specified in the multicodec specs.
+When creating a did:key with JsonWebKey2020 the caller must pass in a json web key.
+When reading a did:key with JsonWebKey2020 then return a did doc with a json web key
+When reading a did:key enforce that the did method is "key"
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 14:32:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2846" class=".btn">#2846</a>
             </td>
             <td>

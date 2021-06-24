@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                A change in v1.2.x and later versions of @grpc/grpc-js seems to be preventing client applications from exiting due to interval timers on the event queue created by @grpc/grpc-js/src/subchannel.ts. Reverting back to @grpc/grpc-js v1.1.8 seems to resolve the issue.
+                A change in v1.2.0 and later versions of @grpc/grpc-js is preventing client applications from exiting due to interval timers on the event queue created by @grpc/grpc-js/src/subchannel.ts. This appears to be linked to behaviour when the `grpc.keepalive_permit_without_calls` setting is enabled, which it is by default in the fabric-common configuration. This change disables that setting by default until a fix to @grpc/grpc-js is released.
 
 Additionally, connection timeout Promises during sends to orderers in Committer.js were not being closed correctly. This did not cause a breakage since the promise they rejected was already resolved if the connection was successful, but could leave timers running unnecessarily in the event queue.
             </td>
@@ -176,84 +176,6 @@ This PR also addresses FABN-1713 because unnecessary code was introduced into th
     </table>
     <div class="right-align">
         Created At 2021-06-18 08:02:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/462" class=".btn">#462</a>
-            </td>
-            <td>
-                <b>
-                    Release v2.2.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 14:48:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/461" class=".btn">#461</a>
-            </td>
-            <td>
-                <b>
-                    FABN-1714: Fix JSDoc generation of Transaction class (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 14:05:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/460" class=".btn">#460</a>
-            </td>
-            <td>
-                <b>
-                    FABN-1714: Fix JSDoc generation of Transaction class
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 14:03:38 +0000 UTC
     </div>
 </div>
 

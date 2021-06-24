@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1265" class=".btn">#1265</a>
+            </td>
+            <td>
+                <b>
+                    OOB- 0160 connection reuse fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Should fix `HandshakeReuse validation failed` error when trying to reuse 0160 connection [public_did]
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 16:43:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1259" class=".btn">#1259</a>
             </td>
             <td>
