@@ -118,29 +118,3 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/81" class=".btn">#81</a>
-            </td>
-            <td>
-                <b>
-                    fabric-cli link fix in docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sannish <sannish1@in.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 10:15:15 +0000 UTC
-    </div>
-</div>
-

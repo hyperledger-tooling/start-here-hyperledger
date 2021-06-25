@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/57" class=".btn">#57</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/59" class=".btn">#59</a>
             </td>
             <td>
                 <b>
-                    Iroha2 dev
+                    Query API & Event API
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                
+                - Implemented Query API
+- Implemented Events API
+- Fixed sending transactions - specifying timestamp and TTL 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-07 09:09:50 +0000 UTC
+        Created At 2021-06-25 12:12:37 +0000 UTC
     </div>
 </div>
 

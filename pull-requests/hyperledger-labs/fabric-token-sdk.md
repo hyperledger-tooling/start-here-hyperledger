@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/35" class=".btn">#35</a>
+            </td>
+            <td>
+                <b>
+                    tokengen: add ability to generate artifacts #34
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - added a new command to tokengen to generate artifacts (copied from the smart client)
+- fix to Makefile
+- added sampleconfig folder with topologies
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 08:16:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/31" class=".btn">#31</a>
             </td>
             <td>
@@ -205,32 +235,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-06-18 13:16:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/19" class=".btn">#19</a>
-            </td>
-            <td>
-                <b>
-                    Refactor Platform Folder Structure #16
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 07:21:59 +0000 UTC
     </div>
 </div>
 
