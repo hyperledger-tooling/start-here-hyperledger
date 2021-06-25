@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/cactus
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Developer_Experience</span>
             </td>
             <td>
                 Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
@@ -79,7 +79,7 @@ Signed-off-by: Tommesha Wiggins <tommesha.wiggins@accenture.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Developer_Experience</span>
             </td>
             <td>
                 Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
