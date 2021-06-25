@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/780" class=".btn">#780</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize product-gdsn
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 18:52:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/779" class=".btn">#779</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize postgres features
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This stabilizes the postgres database features by moving the "postgres"
+sdk feature to stable and any remaining associated "database-postgres"
+features in other parts of Grid to stable.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 18:20:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/778" class=".btn">#778</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize sqlite features
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This stabilizes the "sqlite" sdk feature by moving it into stable. This
+also moves its associated "database-sqlite" feature in other parts of
+Grid into stable.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-24 18:20:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/777" class=".btn">#777</a>
             </td>
             <td>
@@ -202,117 +288,6 @@ Signed-off-by: Kevin Johnson <kevin_johnson@cargill.com>
     </table>
     <div class="right-align">
         Created At 2021-06-18 14:59:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/769" class=".btn">#769</a>
-            </td>
-            <td>
-                <b>
-                    Fix Pike update ops for Sawtooth
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes the update_* operations for the Pike module to properly set
-the `end_commit_num` for the record being updated. Previously, the
-`end_commit_num` was not being updated because the diesel query builder
-was not properly checking for the `service_id` or lack thereof.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 21:52:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/768" class=".btn">#768</a>
-            </td>
-            <td>
-                <b>
-                    Update release notes to include bug fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Darian Plumb <dplumb@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 21:07:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/767" class=".btn">#767</a>
-            </td>
-            <td>
-                <b>
-                    Fix 1.53.0 lints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 20:03:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/766" class=".btn">#766</a>
-            </td>
-            <td>
-                <b>
-                    Update header copyright
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This file was updated in 2021 but the header was not updated
-
-Signed-off-by: Darian Plumb <dplumb@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 18:31:31 +0000 UTC
     </div>
 </div>
 

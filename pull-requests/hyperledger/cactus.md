@@ -46,7 +46,7 @@ permalink: /pull-requests/hyperledger/cactus
             </td>
             <td>
                 <b>
-                    feat: work in progress
+                    feat(connector-besu): add getBlock web service #1065
                 </b>
             </td>
         </tr>
@@ -55,7 +55,8 @@ permalink: /pull-requests/hyperledger/cactus
                 
             </td>
             <td>
-                Signed-off-by: Tommesha Wiggins <tommesha.wiggins@accenture.com>
+                fixes #1065
+Signed-off-by: Tommesha Wiggins <tommesha.wiggins@accenture.com>
             </td>
         </tr>
     </table>
@@ -645,60 +646,6 @@ linter fix within file besu-test-ledger for stop, destroy, and pullContainerImag
     </table>
     <div class="right-align">
         Created At 2021-06-18 16:03:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1061" class=".btn">#1061</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-besu): getTransaction method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jeffrey Ushry <jeffrey.ushry@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 21:00:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1060" class=".btn">#1060</a>
-            </td>
-            <td>
-                <b>
-                    style(linter): get classname linter fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-
-@petermetz ping for review ! 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 18:31:26 +0000 UTC
     </div>
 </div>
 

@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/145" class=".btn">#145</a>
-            </td>
-            <td>
-                <b>
-                    Add justfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds a justfile and associated features--similar to the justfile used in grid.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 22:32:52 +0000 UTC
-    </div>
-</div>
-

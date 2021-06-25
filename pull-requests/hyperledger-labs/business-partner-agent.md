@@ -54,7 +54,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">frontend</span>
             </td>
             <td>
                 Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
