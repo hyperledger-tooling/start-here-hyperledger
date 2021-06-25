@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1267" class=".btn">#1267</a>
+            </td>
+            <td>
+                <b>
+                    Add support for shared components
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add `indy-vdr` ledger client
+- Add `indy-credx` credential handling
+- Add `aries-askar` storage backend
+
+The `performance`, `alice`, and `faber` demo agents should all support the `--wallet-type askar` argument for testing with the new backend components, as does the agent itself when run with `aca-py`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 03:17:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1266" class=".btn">#1266</a>
             </td>
             <td>

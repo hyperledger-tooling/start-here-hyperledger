@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/7" class=".btn">#7</a>
             </td>
             <td>
                 <b>
-                    Make Cash state of Corda transferable between different Corda networks via ICS-20
+                    Add the documentation for Corda-IBC
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
                 
             </td>
             <td>
-                This is incomplete/experimental implementation yet.
-Especially at the moment, Cash states are locked to a _TRUSTED_ user (called "Bank"), while they are supposed to be locked to a smart contract in the ICS-20 spec.
-In the future work, this gap will be filled using the encumbrance feature of Corda.
-
-Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
+                This PR adds the documentation, which is written in reST and can be built by Sphinx.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-07 02:09:12 +0000 UTC
+        Created At 2021-06-25 05:31:31 +0000 UTC
     </div>
 </div>
 

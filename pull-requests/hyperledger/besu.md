@@ -14,11 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2478" class=".btn">#2478</a>
+            </td>
+            <td>
+                <b>
+                    remove unnecessary CLI flag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                remove the goquorum-compatibility-enabled CLI flag
+Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 02:39:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2477" class=".btn">#2477</a>
             </td>
             <td>
                 <b>
-                    Deduplicate Effective Gas Price Method
+                    Fix NoSuchElementException in Transaction Receipt Logic
                 </b>
             </td>
         </tr>
