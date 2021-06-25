@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2480" class=".btn">#2480</a>
+            </td>
+            <td>
+                <b>
+                    don't retreive full blocks just to get gasUsed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ratan Rai Sur <ratan.r.sur@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+#2465 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 15:21:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2478" class=".btn">#2478</a>
             </td>
             <td>
@@ -537,49 +575,6 @@ Add privacy cluster acceptance tests for qbft in addition to ibft2 for completen
     </table>
     <div class="right-align">
         Created At 2021-06-21 05:42:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2452" class=".btn">#2452</a>
-            </td>
-            <td>
-                <b>
-                    Fix vulnerabilities from openjdk-11 base image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR aims to fix the Issue [2451](https://github.com/hyperledger/besu/issues/2451) reported about base image vulnerabilities.
-
-Now scan report does not show any high vulnerabilities:
-```
-docker scan -f docker/openjdk-11/Dockerfile docker.io/hyperledger/besu:21.7.0-RC1-SNAPSHOT-openjdk-11 --severity high
-
-Testing docker.io/hyperledger/besu:21.7.0-RC1-SNAPSHOT-openjdk-11...
-
-Organization:      juan.dominguez
-Package manager:   deb
-Target file:       docker/openjdk-11/Dockerfile
-Project name:      docker-image|docker.io/hyperledger/besu
-Docker image:      docker.io/hyperledger/besu:21.7.0-RC1-SNAPSHOT-openjdk-11
-Base image:        adoptopenjdk/openjdk11:jre-11.0.11_9
-Licenses:          enabled
-
-✓ Tested 132 dependencies for known issues, no vulnerable paths found.
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 16:29:30 +0000 UTC
     </div>
 </div>
 

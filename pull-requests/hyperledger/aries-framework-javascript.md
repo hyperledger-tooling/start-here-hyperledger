@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/310" class=".btn">#310</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/332" class=".btn">#332</a>
             </td>
             <td>
                 <b>
-                    chore: add repository url to package.json
+                    mediation 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                This will add a url on the npm site and allow to use relative links in the readme. (they are now broken on npm)
+                this pr contains the needed code for mediation protocol.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-07 10:13:55 +0000 UTC
+        Created At 2021-06-24 18:07:55 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/307" class=".btn">#307</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/331" class=".btn">#331</a>
             </td>
             <td>
                 <b>
-                    mediation clean up
+                    feat: allow for lazy wallet initialization
                 </b>
             </td>
         </tr>
@@ -53,147 +53,15 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                this PR contains code merged from main with fixes to demonstrate mediation with WebSocket transports.
+                - remove agent `closeAndDeleteWallet` as it was only used for tests. They now inject the wallet to close and delete
+- make `walletConfig` and `walletCredentials` optional in `InitConfig`
+- user can now manually initiale the wallet
+- If agent is initialized and wallet is not yet initialized and no `walletConfig` and `walletCredentials` are available an error will be thrown
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-04 20:45:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/304" class=".btn">#304</a>
-            </td>
-            <td>
-                <b>
-                    feat: Pack and send message based on DidDoc services
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Related to #268 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-03 10:46:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/303" class=".btn">#303</a>
-            </td>
-            <td>
-                <b>
-                    docs: complete documentation overhaul
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This would allow for an easier introduction to this framework. We felt that the previous docs contained too much unstructured information and this should fix that.
-
-The docs folder is also setup for gitbooks, which will allow for an even better "getting-started-experience"
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-03 10:13:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/302" class=".btn">#302</a>
-            </td>
-            <td>
-                <b>
-                    Mediation: fix autoAcceptMediationRequests flag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added a missing behaviour from last merge regarding mediation request handling (do not automatically grant mediation if autoAcceptMediationRequests flag is set).
-
-There is some progress on e2e tests using mediation modules, attempting to support different transports (today only http).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-03 06:06:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/300" class=".btn">#300</a>
-            </td>
-            <td>
-                <b>
-                    Debug mediation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                passing test in e2e tests that establishes a mediation relationship. This includes needed code for mediation server-side as well as client-side. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-01 17:03:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/299" class=".btn">#299</a>
-            </td>
-            <td>
-                <b>
-                    fix: use both thread id and connection id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Using only the thread id gives errors when issuing or proving to yourself as there are multiple records for a single thread id. This retrieves records by both thread id an connection id. this also removes the requirement to check if the record has the correct connection id.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-01 13:43:31 +0000 UTC
+        Created At 2021-06-24 16:32:26 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/473" class=".btn">#473</a>
+            </td>
+            <td>
+                <b>
+                    Revert to snapshot publishing following release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 13:14:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/472" class=".btn">#472</a>
             </td>
             <td>
@@ -205,32 +231,6 @@ Co-authored-by: Angel Kafazov <akafazov@cst-bg.net>
     </table>
     <div class="right-align">
         Created At 2021-06-21 14:22:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/465" class=".btn">#465</a>
-            </td>
-            <td>
-                <b>
-                    FABN-1715: Always check all files for license headers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previously the list of files to check was obtained by diffing the last git commit, which produced an empty list in PR builds within Azure Pipelines and allowed PR builds to pass with missing license header.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 13:06:11 +0000 UTC
     </div>
 </div>
 

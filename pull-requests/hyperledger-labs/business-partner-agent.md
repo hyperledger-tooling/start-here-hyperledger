@@ -124,7 +124,7 @@ This is **not** for dynamic loading of different resources, this is for determin
 
 I've only done the `App.vue` page and have 2 "locales": `en` and `bcgov`. This demonstrates having multiple versions of English, so we are not constrained by using actual locales.
 
-Will need to add environment variables into the charts to set the `VUE_APP_I18N_LOCALE` and `VUE_APP_I18N_FALLBACK_LOCALE` variables for the frontend (default is "en").
+Will need to add runtime config into the charts to set the `i18n locale` and `fallbackLocale` for the frontend (default is "en").
 
             </td>
         </tr>
@@ -319,32 +319,6 @@ Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
     </table>
     <div class="right-align">
         Created At 2021-06-18 18:58:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/499" class=".btn">#499</a>
-            </td>
-            <td>
-                <b>
-                    Gitpod fully configured
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 15:12:45 +0000 UTC
     </div>
 </div>
 
