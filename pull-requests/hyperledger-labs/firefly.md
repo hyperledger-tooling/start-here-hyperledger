@@ -289,29 +289,3 @@ In PR chain with #80
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/85" class=".btn">#85</a>
-            </td>
-            <td>
-                <b>
-                    Call Reset() before reading config on startup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should fix default values not getting applied at startup.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 18:23:02 +0000 UTC
-    </div>
-</div>
-

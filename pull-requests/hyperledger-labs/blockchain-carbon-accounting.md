@@ -420,36 +420,3 @@ Commit to resolve issue #189
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/191" class=".btn">#191</a>
-            </td>
-            <td>
-                <b>
-                    resolving issue 175 and 176
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Made application to use cactus connectors for interacting with ledgers (fabric and Ethereum)
-- changed folder structure
-- fixed record Audited Emission tokens endpoint
-- removed S3 dependence for storing user's private key and certificates
-- Used cactus in-memory keychain (for now)
-
-#175 
-#176 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 20:12:33 +0000 UTC
-    </div>
-</div>
-

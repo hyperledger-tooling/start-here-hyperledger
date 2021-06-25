@@ -121,32 +121,3 @@ This was requested by sownak [in this comment](https://github.com/hyperledger-la
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1533" class=".btn">#1533</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] fixed molecule test errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Fixed quorum crypto-ibft molecule test errors
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 19:54:34 +0000 UTC
-    </div>
-</div>
-

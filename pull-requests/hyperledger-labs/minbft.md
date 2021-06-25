@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/207" class=".btn">#207</a>
+                PR <a href="https://github.com/hyperledger-labs/minbft/pull/208" class=".btn">#208</a>
             </td>
             <td>
                 <b>
-                    Support obtaining and resetting the message log
+                    ReqViewChange message handling
                 </b>
             </td>
         </tr>
@@ -31,13 +31,16 @@ permalink: /pull-requests/hyperledger-labs/minbft
 
 <!-- describe the purpose of the pull request, as well as its benefits
      and possible concerns related to the proposed changes -->
-This pull request extends the message log functionality required to generate `ViewChange` messages.
+This pull request fully implements handling of ReqViewChange message type.
+
+<!-- and reference any issues resolved by the pull request, e.g. #123 -->
+Resolves: #177 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-17 17:47:55 +0000 UTC
+        Created At 2021-06-24 21:14:02 +0000 UTC
     </div>
 </div>
 
