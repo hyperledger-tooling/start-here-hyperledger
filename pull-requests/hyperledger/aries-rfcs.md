@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-rfcs
             </td>
             <td>
                 <b>
-                    first draft of v2
+                    Pickup Protocol v2
                 </b>
             </td>
         </tr>

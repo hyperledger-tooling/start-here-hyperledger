@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/125" class=".btn">#125</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/133" class=".btn">#133</a>
             </td>
             <td>
                 <b>
-                    Allow access to block number on commit
+                    Improve typescript definitions in scenario steps
                 </b>
             </td>
         </tr>
@@ -27,38 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-03 10:08:13 +0000 UTC
-    </div>
-</div>
+                In the node scenario test driver, the currentGateway could, in theory, be undefined.  The Gateway identity should always be defined.
+The typescript code has been changed to assert these are behaving as expected.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/124" class=".btn">#124</a>
-            </td>
-            <td>
-                <b>
-                    Simplify creation of MockGatewayClient
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Go v1.14+ with Mockgen v1.5.0+ no longer requires test code to explicitly call Finish() on the mock controller to assert expectations on the mock.
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-02 15:11:28 +0000 UTC
+        Created At 2021-06-23 09:08:16 +0000 UTC
     </div>
 </div>
 

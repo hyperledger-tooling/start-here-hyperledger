@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/124" class=".btn">#124</a>
+            </td>
+            <td>
+                <b>
+                    Add functions to register new assets in ethereum funder implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - As these methods provide convenience for the user (to register assets after funder is initialized) and are not required by the framework itself for the process of funding, they are not added to the `Funder` interface.
+
+- Use the `RegisterAsset` method in place of `WithDepositor`, as the newly added method provides the same functionality without making a copy of the funder.
+
+- Also, fixed a bug in `funder_test.go`. See the last before commit for details. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 15:44:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/123" class=".btn">#123</a>
             </td>
             <td>
@@ -96,94 +126,6 @@ In particular, this PR includes the following:
     </table>
     <div class="right-align">
         Created At 2021-06-22 15:46:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/117" class=".btn">#117</a>
-            </td>
-            <td>
-                <b>
-                    Integrate Resistant Event Subs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Uses resistant event confirmation on *go-perun* in all locations.  
-Currently i am having trouble with the `AdjudicatorSub`, which seems to make some end-to-end tests fail.  
-Funder and Adjudicator tests themselves seem to work.
-
-Closes #85 
-Draft until #40 and #97 are closed.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 15:50:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/116" class=".btn">#116</a>
-            </td>
-            <td>
-                <b>
-                    Resistant event subs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds the `ResistantEventSub` type.  
-Also introduced a convenience function `Subscribe(ctx context.Context, cr ethereum.ChainReader, contract *bind.BoundContract, eFact EventFactory, startBlockOffset, confirmations uint64) (*ResistantEventSub, error)` which makes it easier to create a resistant sub.  
-I am not happy with the arguments of `Subscribe` yet, since it are so many.
-
-Closes #40 
-Draft until #105 is closed
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 15:44:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/114" class=".btn">#114</a>
-            </td>
-            <td>
-                <b>
-                    Prepare 82 virtual channels
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Splitting some commits from #83 .
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 12:42:44 +0000 UTC
     </div>
 </div>
 

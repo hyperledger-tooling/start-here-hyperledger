@@ -263,29 +263,3 @@ In PR chain with #80
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/86" class=".btn">#86</a>
-            </td>
-            <td>
-                <b>
-                    Fix QL migration for batches
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes an inconsistent DB constraint between the QL schema and the PostgreSQL schema, which is causing errors when using QL.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 16:46:45 +0000 UTC
-    </div>
-</div>
-

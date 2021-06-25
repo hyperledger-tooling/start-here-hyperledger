@@ -90,29 +90,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/260" class=".btn">#260</a>
-            </td>
-            <td>
-                <b>
-                    Channel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                update configtx.yaml and create channel.tx
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 15:51:04 +0000 UTC
-    </div>
-</div>
-

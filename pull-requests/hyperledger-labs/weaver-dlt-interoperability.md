@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
             </td>
             <td>
                 <b>
-                    chaincode changes to support ECDLP lock
+                    interop-cc chaincode changes pertaining to locking mechanism reorganization
                 </b>
             </td>
         </tr>

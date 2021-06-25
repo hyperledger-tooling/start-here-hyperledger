@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/782" class=".btn">#782</a>
+            </td>
+            <td>
+                <b>
+                    Fix Bytea diesel type
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes an issue with the `Bytea` type in diesel. This was previously
+an alias to the `Binary` type but no longer exists in diesel for sqlite.
+This does still exist for postgres but this was causing lint issues when
+running without the postgres feature. Functionality should not change.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 14:31:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/780" class=".btn">#780</a>
             </td>
             <td>
@@ -201,93 +232,6 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-06-18 19:01:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/772" class=".btn">#772</a>
-            </td>
-            <td>
-                <b>
-                    Update location ops
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes a bug in the operation to update a location in the Grid DB. This bug was causing the `end_commit_num` to not be updated. This also removes the unused `update_location` operation. Updates to locations are handled by the `add_location` operation. This is in line with the other Grid DB modules.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 17:42:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/771" class=".btn">#771</a>
-            </td>
-            <td>
-                <b>
-                    Add --skip flag to keygen CLI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                subsequent runs of docker compose up in the example projects would fail
-due to keys created in previous runs. Adding a --skip flag allows us to
-reuse previously-created keys. Also updated docker-compose in example
-projects
-
-Signed-off-by: Kevin Johnson <kevin_johnson@cargill.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 15:54:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/770" class=".btn">#770</a>
-            </td>
-            <td>
-                <b>
-                    Fix CLI signing path for --key
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                current_user_search_path() would look in root/.cylinder/keys, whereas we
-have documentation that leads us to root/.grid/keys. This change aligns
-code to the documentation.
-
-Signed-off-by: Kevin Johnson <kevin_johnson@cargill.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 14:59:25 +0000 UTC
     </div>
 </div>
 
