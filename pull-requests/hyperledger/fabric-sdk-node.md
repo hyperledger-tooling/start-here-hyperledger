@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/472" class=".btn">#472</a>
+            </td>
+            <td>
+                <b>
+                    Release v2.2.8
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 10:48:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/471" class=".btn">#471</a>
+            </td>
+            <td>
+                <b>
+                    FABN-1716: Fix hang on application exit (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry-pick of commit f59f91ce209f13b6bf03ad03135993728de7543f from main branch.
+
+A change in v1.2.0 and later versions of @grpc/grpc-js is preventing client applications from exiting due to interval timers on the event queue created by @grpc/grpc-js/src/subchannel.ts. This appears to be linked to behaviour when the `grpc.keepalive_permit_without_calls` setting is enabled, which it is by default in the fabric-common configuration. This change disables that setting by default until a fix to @grpc/grpc-js is released.
+
+Additionally, connection timeout Promises during sends to orderers in Committer.js were not being closed correctly. This did not cause a breakage since the promise they rejected was already resolved if the connection was successful, but could leave timers running unnecessarily in the event queue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 09:55:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/470" class=".btn">#470</a>
+            </td>
+            <td>
+                <b>
+                    [FABN-1554] Add label support for HSM (#468)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add the option to specify label instead of slot
+If both are provided then slot will be ignored
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 07:19:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/469" class=".btn">#469</a>
             </td>
             <td>
@@ -146,36 +231,6 @@ Co-authored-by: Angel Kafazov <akafazov@cst-bg.net>
     </table>
     <div class="right-align">
         Created At 2021-06-18 13:06:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/464" class=".btn">#464</a>
-            </td>
-            <td>
-                <b>
-                    [FABN-1710] Fix HSM Persistence issues
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The original contributed PR #450 built on top of the current implementation to try to address this problem, however a fix applied by #392 actually incorrectly tried to persist the object handle into the wallet and this was changed to allow it to store the SKI and unfortunately the contributed PR built on top of this.
-
-This PR removes a lot of what #392 did because the node-sdk HSM support is limited to a subset of HSMs currently where it's possible to identify an object handle by the Fabric SKI of the public key (ie so it's possible to set this after an object has been created in the HSM, which excludes AWS HSM for example). This doesn't need to be persisted into the wallet because it can easily be calculated from the persisted certificate.
-
-This PR also addresses FABN-1713 because unnecessary code was introduced into the User implementation by #392 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 08:02:00 +0000 UTC
     </div>
 </div>
 

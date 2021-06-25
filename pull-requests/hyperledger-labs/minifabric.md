@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/220" class=".btn">#220</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/225" class=".btn">#225</a>
             </td>
             <td>
                 <b>
-                    Added TOC Category for easier searching/navigation
+                    bumps dependent lib versions, to involve latest kubernetes.core and cloud.common
                 </b>
             </td>
         </tr>
@@ -27,42 +27,25 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                When the TOC grows in number, it will be very difficult to navigate or search relevant issues, hence I have added a category to make it more structured and organized.
+                fixes #224
+related to #221
 
-Thanks @litong01 for suggestion the TOC and @ryjones for implementing the TOC.
+```
+new versions:
+- ansible:              2.9.x
+- openshift:            latest(0.12.1)  from 0.11.2
+- community.kubernetes: latest(2.0.0)
+- kubernets.core:       latest(2.1.1)
+- cloud.common:         latest(2.0.3)
+```
 
-Signed-off-by: Alex Ramil Aguel <>
+with above versions, ansible k8s operation is achieved by redirecting as below:
+openshift => community.kubernetes => kubernetes.core => cloud.common
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-27 01:38:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/218" class=".btn">#218</a>
-            </td>
-            <td>
-                <b>
-                    Add TOC to Known Issues
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-26 20:39:03 +0000 UTC
+        Created At 2021-06-25 07:53:02 +0000 UTC
     </div>
 </div>
 

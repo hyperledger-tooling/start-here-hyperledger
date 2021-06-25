@@ -95,8 +95,7 @@ fixes #2476
                 
             </td>
             <td>
-                Signed-off-by: makt <zem39111@gmail.com>
-
+                
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
 
@@ -316,8 +315,7 @@ fixes #2430
                 
             </td>
             <td>
-                Signed-off-by: makt <zem39111@gmail.com>
-
+                
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
 
@@ -582,46 +580,6 @@ Licenses:          enabled
     </table>
     <div class="right-align">
         Created At 2021-06-18 16:29:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2449" class=".btn">#2449</a>
-            </td>
-            <td>
-                <b>
-                    Bft messages have duplicate prepares in roundChange message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-In IBFT2 and QBFT the round change message could be created with duplicate prepares being included in the round change message. These messages are rejected as being invalid by Besu.
-
-This fixes the equality and hashCode on the message so that we don't add duplicate messages.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 06:48:55 +0000 UTC
     </div>
 </div>
 
