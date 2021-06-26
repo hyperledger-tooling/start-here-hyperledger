@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/180" class=".btn">#180</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/181" class=".btn">#181</a>
             </td>
             <td>
                 <b>
-                    update go-kit to v0.10.0
+                    Better error message for missing mspid connection
                 </b>
             </td>
         </tr>
@@ -27,70 +27,28 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                Release 0.9.0 introduced breaking changes in the metrics module:
-statsd SendLoop is now context-aware.
-Version 0.10.0 has been release in February 2020, see [its changelog](https://github.com/go-kit/kit/releases/tag/v0.10.0).
-Previous used version was 0.8.0 which dates back from 2018.
+                When mspid is missing in connection yaml , the sdk gives a slightly misleading error message - "No client organization defined in the config" (which implies client.org is not been defined in connection.yaml) . We can give a better  error message to imply that mspid is missing - No mspid defined in the config for Org1
+
+-------------------example wrong config-----------
+name: voterNet-investorOrg
+version: 1.0.0
+client:
+  organization: investorOrg
+  connection:
+    timeout:
+      peer:
+        endorser: '300'
+organizations:
+  investorOrg:    (mspid missing)
+    peers:
+    - peer0.investorOrg.voternet.com
+    certificateAuthorities:
+    - ca.investorOrg.voternet.com
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-03 12:59:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/179" class=".btn">#179</a>
-            </td>
-            <td>
-                <b>
-                    bump go version check to allow go 1.16
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Version 1.16 has been released last February and is the current latest
-stable release.
-
-If there is a reason for not supporting the last stable release of go, feel free to close this PR.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-03 10:14:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/178" class=".btn">#178</a>
-            </td>
-            <td>
-                <b>
-                    fix findSource in javapackager/packager.go
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-01 09:03:03 +0000 UTC
+        Created At 2021-06-26 12:30:26 +0000 UTC
     </div>
 </div>
 

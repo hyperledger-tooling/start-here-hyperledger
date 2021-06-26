@@ -181,7 +181,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Besu</span><span class="chip">enhancement</span>
             </td>
             <td>
                 fixes #1065
@@ -318,7 +318,7 @@ Signed-off-by: Tommesha Wiggins <tommesha.wiggins@accenture.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Besu</span><span class="chip">enhancement</span>
             </td>
             <td>
                 Fixes #1066
