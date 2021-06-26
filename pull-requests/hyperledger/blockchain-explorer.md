@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/250" class=".btn">#250</a>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/252" class=".btn">#252</a>
             </td>
             <td>
                 <b>
-                    Bugfix: disable enableAuthentication auth auto login using wrong network key issue
+                    BE-857 Change invoking function of lifecycle scc to get CC info
                 </b>
             </td>
         </tr>
@@ -27,17 +27,16 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
                 
             </td>
             <td>
-                ## This PR:
-- resolves `enableAuthentication:false` setup using wrong network key preventing auto login issue.
+                This change allows non-admin client credential to bring up Explorer instance. And also updated fabric-network package to v2.2.7
 
-## Screenshot:
-![image](https://user-images.githubusercontent.com/10151054/122209322-fa253e00-ced6-11eb-87a6-1755f9b3e9b1.png)
+Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
 
+https://jira.hyperledger.org/browse/BE-857
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-16 11:16:54 +0000 UTC
+        Created At 2021-06-26 12:26:02 +0000 UTC
     </div>
 </div>
 
