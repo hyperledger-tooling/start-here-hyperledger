@@ -1,3 +1,5 @@
 # IDE files
 .idea
 .env
+_site
+.jekyll-cache
