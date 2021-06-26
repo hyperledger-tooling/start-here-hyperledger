@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/475" class=".btn">#475</a>
+            </td>
+            <td>
+                <b>
+                    FABN-1716: Update @grpc/grpc-js version (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @grpc/grpc-js v1.3.4 fixes application hang on exit issue in gRPC, so allows the `grpc.keepalive_permit_without_calls` setting to be re-enabled by default.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-26 11:18:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/474" class=".btn">#474</a>
+            </td>
+            <td>
+                <b>
+                    FABN-1716: Update @grpc/grpc-js version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @grpc/grpc-js v1.3.4 fixes application hang on exit issue in gRPC, so allows the `grpc.keepalive_permit_without_calls` setting to be re-enabled by default.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-26 11:18:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/473" class=".btn">#473</a>
             </td>
             <td>
