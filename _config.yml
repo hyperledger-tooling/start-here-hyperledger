@@ -21,3 +21,5 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 
 # List of excludes from being built into the website
 exclude: ["hyperledger-updates", "templates", "actions", "docker"]
+plugins:
+  - jekyll-remote-theme
