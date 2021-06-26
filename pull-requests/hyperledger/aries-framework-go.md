@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 
 It also includes the following changes:
 * fixes CBC+HMAC keys extracted from the ECDH cek. The keys were inversed.
-* moved recipients' kids list from AAD to APU protectedHeader
+* moved recipients' kids list from AAD to APV (recipients) protectedHeader
 * use originalProtectedHeaders if populated instead of protectedHeader when building authData. To avoid marshal/unmarshal calls from changing the json order.
 * ECDH-1PU messages with multi-recipients can now read the sender kid (skid) from APU if skid wass empty since it's an optional header.
 

@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2714" class=".btn">#2714</a>
+            </td>
+            <td>
+                <b>
+                    Fix a typo in CouchDB tutorial
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
+
+Fix an incorrect index document name within a sentence, which was found while translating into other language. 
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+Fix an incorrect index document name `ownerIndexDoc` within a sentence to `indexOwnerDoc` which is the name used in chaincode index configuration in this tutorial. 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-26 02:03:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2713" class=".btn">#2713</a>
             </td>
             <td>
