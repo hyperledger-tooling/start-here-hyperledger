@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/49" class=".btn">#49</a>
+            </td>
+            <td>
+                <b>
+                    HTTPS server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 22:14:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/48" class=".btn">#48</a>
             </td>
             <td>
@@ -101,7 +127,7 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
             <td>
                 <b>
-                    [WIP] Call view from rest
+                    Call view from REST
                 </b>
             </td>
         </tr>

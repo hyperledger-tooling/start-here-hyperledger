@@ -234,32 +234,3 @@ In PR chain with #80
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/88" class=".btn">#88</a>
-            </td>
-            <td>
-                <b>
-                    Add config options for ethconnect prefix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds configuration options for the `ethconnect` plugin:
-
-- `shortPrefix`: used in query parameters in requests to `ethconnect`
-- `longPrefix`: used in x-headers in requests to `ethconnect` if headers are used in the future
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 21:16:08 +0000 UTC
-    </div>
-</div>
-

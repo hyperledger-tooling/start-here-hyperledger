@@ -14,6 +14,135 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1095" class=".btn">#1095</a>
+            </td>
+            <td>
+                <b>
+                    test(test-tooling): containers#pruneDockerResources prints disk usage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                Also adds a timeout and a log level parameter to the containers#exec
+utility function to improve the developer experience while
+troubleshooting test failures related to containers.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 21:48:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1094" class=".btn">#1094</a>
+            </td>
+            <td>
+                <b>
+                    test: call pruneDockerAllIfGithubAction in test.onFinish handler
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                This may or may not make a difference with the flaky tests (the theory
+is that it does).
+
+Why? I noticed that one of the random test failures we have happens
+when the test container's stop+destroy calls in the finish handler are
+not being awaited for by the test runner internally before starting a
+new test case in the same test file.
+This lead to situations where a race appeared to cause crashes because
+the pruning began before the container could gracefully shut itself
+down.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 21:32:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1093" class=".btn">#1093</a>
+            </td>
+            <td>
+                <b>
+                    test: migrate AIO images to the GitHub Container Registry
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                This will help solve the rate limiting problems we've been having
+with DockerHub lately.
+
+Still have to figure out automatic builds as part of the CI, but for
+now at least we have the most heavily used images (manually)
+uploaded to GHCR so that the tests can use it.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 21:24:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1092" class=".btn">#1092</a>
+            </td>
+            <td>
+                <b>
+                    ci(tools): ci.sh prints disk usage between test runs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                This will be useful to detect cases of tests failing only because the
+disk was full and not because the tests themselves had a bug in them.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 21:07:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1091" class=".btn">#1091</a>
             </td>
             <td>
@@ -250,7 +379,7 @@ Signed-off-by: Rafael Belchior <rafael.belchior@tecnico.ulisboa.pt>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Xdai</span><span class="chip">bug</span><span class="chip">enhancement</span>
             </td>
             <td>
                 #1078 
@@ -478,62 +607,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-06-20 23:12:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1072" class=".btn">#1072</a>
-            </td>
-            <td>
-                <b>
-                    style(logger): fixing linter warnings; specifying different types for…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                … methods
-
-Signed-off-by: Hana Awad <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 20:45:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1071" class=".btn">#1071</a>
-            </td>
-            <td>
-                <b>
-                    style(logger): fixing linter warnings; specifying different types for…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                … methods
-
-Signed-off-by: Hana Awad <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 20:42:28 +0000 UTC
     </div>
 </div>
 

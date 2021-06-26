@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2851" class=".btn">#2851</a>
+            </td>
+            <td>
+                <b>
+                    feat: enable ecdh-1pu draft4 JWE decryption test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">aip 2.0</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                This change enables the commented out test for full compatibility with ECDH-1PU draft4 Appendix B example.
+
+It also includes the following changes:
+* fixes CBC+HMAC keys extracted from the ECDH cek. The keys were inversed.
+* moved recipients' kids list from AAD to APU protectedHeader
+* use originalProtectedHeaders if populated instead of protectedHeader when building authData. To avoid marshal/unmarshal calls from changing the json order.
+* ECDH-1PU messages with multi-recipients can now read the sender kid (skid) from APU if skid wass empty since it's an optional header.
+
+closes #2850
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-26 00:40:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2849" class=".btn">#2849</a>
+            </td>
+            <td>
+                <b>
+                    fix: wallet - incorrect crypto for EDV with WebKMS profiles
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Part of #2433
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 21:03:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2848" class=".btn">#2848</a>
             </td>
             <td>

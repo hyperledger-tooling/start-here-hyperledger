@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2713" class=".btn">#2713</a>
+            </td>
+            <td>
+                <b>
+                    Updated enrollUser function in write_first_app tutorial
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+Updated the function called to register a user in Write First App tutorial. Function being called in the docs was `registerUser` but in the code base the function is called `registerAndEnrollUser`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 23:04:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2712" class=".btn">#2712</a>
+            </td>
+            <td>
+                <b>
+                    Use protoc-gen-go 1.3.3 for generating fabric protos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A previous commit [#2113](https://github.com/hyperledger/fabric/pull/2113/files#diff-11f03b0f97705b85807a720c4608013062002af3604f046a09a2571b0ae02554L9) upgraded the protobuf in tools while the protobuf in fabric dependencies is still 1.3.3. This upgrade was caused by swagger inclusion.
+
+In the current form, `make protos` causes to use upgraded version of protoc-gen-go. This, in turn, requires to upgrade the protobuf lib in the fabric dependancies -- which we could not until we resolve some issues. See [FAB-18363](https://jira.hyperledger.org/browse/FAB-18363).
+
+Signed-off-by: manish <manish.sethi@gmail.com>
+
+#### Type of change
+- Bug fix
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 18:22:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2711" class=".btn">#2711</a>
             </td>
             <td>
