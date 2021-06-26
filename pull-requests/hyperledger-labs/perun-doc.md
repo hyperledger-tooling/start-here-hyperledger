@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/60" class=".btn">#60</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/61" class=".btn">#61</a>
             </td>
             <td>
                 <b>
-                    Update go-perun intro page, add architecture
+                    Go-Perun: Improve text and structure
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
                 
             </td>
             <td>
-                Signed-off-by: Matthias Geihs <matthias@perun.network>
+                - index.rst
+  - Remove source code copyright info, because it is clear from the README at GitHub and does not fit here.
+  - Combine disclaimer, funding, and contact
+  - Reduce tutorial depth by moving intro to main page
+- Developer Tutorial: Revise text
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-04 12:09:58 +0000 UTC
+        Created At 2021-06-25 19:51:59 +0000 UTC
     </div>
 </div>
 

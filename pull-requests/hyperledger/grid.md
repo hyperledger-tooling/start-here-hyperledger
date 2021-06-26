@@ -205,33 +205,3 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/773" class=".btn">#773</a>
-            </td>
-            <td>
-                <b>
-                    Fix typo in schema contract error msg
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes a typo in an error message in the schema smart contract
-caused by attempting to update a smart contract with a duplicate
-property.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-18 19:01:43 +0000 UTC
-    </div>
-</div>
-
