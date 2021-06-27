@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/253" class=".btn">#253</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: timeout error crashing explorer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## This PR:
+- resolves `discoveryError` not resetting `waitingResp` flag, causing a `Have already been sending a request` loop.
+```
+[WARN] FabricGateway - Failed to send discovery request for channel Error: DiscoveryService has failed to return results
+    at DiscoveryService.send (.../blockchain-explorer/node_modules/fabric-common/lib/DiscoveryService.js:370:10)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+...
+[INFO] FabricGateway - Have already been sending a request
+[INFO] FabricGateway - Have already been sending a request
+[INFO] FabricGateway - Have already been sending a request
+[INFO] FabricGateway - Have already been sending a request
+[INFO] FabricGateway - Have already been sending a request
+```
+- resolves `queryChainInfo` timeout error killing explorer.
+```
+[ERROR] Sync - <<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+[ERROR] Sync - FabricError: Query failed. Errors: ["Error: REQUEST TIMEOUT"]
+    at SingleQueryHandler.evaluate (.../blockchain-explorer/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:47:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Transaction.evaluate (.../blockchain-explorer/node_modules/fabric-network/lib/transaction.js:276:25)
+[INFO] Sync - <<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+[DEBUG] FabricEvent - disconnectEventHubs()
+[DEBUG] FabricEvent - disconnectChannelEventHub(defaultchannel)
+``` 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-27 07:08:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/252" class=".btn">#252</a>
             </td>
             <td>
