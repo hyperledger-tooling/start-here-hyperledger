@@ -124,31 +124,3 @@ This PR adds this restriction to the validation of VCs in ACA-Py
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1252" class=".btn">#1252</a>
-            </td>
-            <td>
-                <b>
-                    fix: check for expanded types in context checker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The checker method that checks for properties without a context was giving incorrect results for the vaccination context. This PR also checks if compaction expands a property as described in https://github.com/w3c-ccg/vaccination-vocab/issues/22
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-20 14:37:20 +0000 UTC
-    </div>
-</div>
-

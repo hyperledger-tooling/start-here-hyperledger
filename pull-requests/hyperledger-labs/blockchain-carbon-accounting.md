@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/208" class=".btn">#208</a>
+            </td>
+            <td>
+                <b>
+                    Adding test for correct year records
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pihu1998 <pranamika.pihu1998@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-27 16:14:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/207" class=".btn">#207</a>
             </td>
             <td>
@@ -469,34 +495,6 @@ Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-06-21 14:20:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/192" class=".btn">#192</a>
-            </td>
-            <td>
-                <b>
-                    Loading new egrid database records
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Pihu1998 <pranamika.pihu1998@gmail.com>
-
-Commit to resolve issue #189
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-20 18:02:01 +0000 UTC
     </div>
 </div>
 
