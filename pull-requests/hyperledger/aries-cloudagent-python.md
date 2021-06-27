@@ -152,32 +152,3 @@ This PR adds this restriction to the validation of VCs in ACA-Py
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1250" class=".btn">#1250</a>
-            </td>
-            <td>
-                <b>
-                    DIF PE - VCHolder backend-specific tag_query building and handle no given_id credentials
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Addresses the following from #1247, @andrewwhitehead will this meet the requirement? 
-> As discussed, I think this tag filtering belongs in VCHolder so that it can be specialized for the specific backends, but it's fine to merge this as-is and I can revisit it later with the shared-components work. Most important is that it works for now.
-- resolve #1253
-- Verification mechanism to check if the received presentation matches against the `constraints` in `presentation_definition`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-19 21:03:45 +0000 UTC
-    </div>
-</div>
-
