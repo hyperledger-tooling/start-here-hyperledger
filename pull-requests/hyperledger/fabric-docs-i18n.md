@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/488" class=".btn">#488</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Fix a typo in "developapps/wallet.md"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This patch fixes a typo in "developapps/wallet.md"
+
+Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 06:12:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/486" class=".btn">#486</a>
             </td>
             <td>
@@ -124,13 +152,13 @@ Resolve #203
             </td>
             <td>
                 <b>
-                    Update glossary.rst; Translate Leader, Log entry and Ordering Service into Chinese
+                    【zh_CN】Update glossary.rst; Translate Leader, Log entry and Ordering Service into Chinese
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">zhCN-docs-ongoing</span>
             </td>
             <td>
                 
