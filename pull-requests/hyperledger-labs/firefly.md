@@ -42,6 +42,7 @@ Core updates:
   - Simply delivers events to other components in the core
   - Cannot be disabled
   - Used with ephemeral events by the sync/async bridge
+  - API prevents creation of durable subs externally on the transport
 - Added `syncasync.Bridge` component
   - Included on periodic table as `[Sa]`
   - Only responsibility currently managing in-flight events
@@ -56,7 +57,7 @@ Other enhancements:
 - Fix to events where we could cross-emit on connections from the wrong transport
   - Resulted in `FF10190` `MsgMismatchedTransport` errors
   - Made significantly more likely by adding in the system events listener
-- Added `Request-Timeout` header to allow the client to customize the server-side timeout
+- Adds `Request-Timeout` header to allow the client to customize the server-side timeout
   - No point the server waiting longer than the client is going to wait
   - Used header name from this old draft as basis: https://tools.ietf.org/id/draft-thomson-hybi-http-timeout-00.html
   - This is in addition to the config-based request timeout (default=2mins) we already have
@@ -201,64 +202,6 @@ The problem was the unpinned send code was setting `pending` and `confirmed` _be
     </table>
     <div class="right-align">
         Created At 2021-06-22 20:41:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/92" class=".btn">#92</a>
-            </td>
-            <td>
-                <b>
-                    Wait to reset parent context after HTTP request context finishes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes HTTP requests sometimes failing when resetting FireFly after a config change.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-21 13:56:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/91" class=".btn">#91</a>
-            </td>
-            <td>
-                <b>
-                    Unpinned message transfer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Adds a transport wrapper to DX messages, to allow different payloads with efficient deserialization
-- Allows an individual unpinned message and data array to be sent, as well as pinned batches
-- Adds the group to the private send, so it can be created on the far side
-  - The sending side (only) still does a groupinit pinned to the chain, but it's completely async to the private exchanges
-- Requires the transaction type of that message to be `none` and the sender to be valid
-- Immediately confirms the message and triggers the event
-- E2E test included
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-21 13:05:03 +0000 UTC
     </div>
 </div>
 

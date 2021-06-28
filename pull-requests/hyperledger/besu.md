@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    2209
+                    Implement eth_getBlockByNumber while downloading state.
                 </b>
             </td>
         </tr>
