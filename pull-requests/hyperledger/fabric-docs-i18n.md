@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/492" class=".btn">#492</a>
+            </td>
+            <td>
+                <b>
+                    [pt_BR] Translated releases.rst
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">ptBR-docs-ongoing</span>
+            </td>
+            <td>
+                Signed-off-by: Renato Teixeira <renato@renatoteixeira.com>
+
+Closes #490 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 17:29:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/489" class=".btn">#489</a>
+            </td>
+            <td>
+                <b>
+                    [pt_BR] Translated status.rst
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">ptBR-docs-ongoing</span>
+            </td>
+            <td>
+                Signed-off-by: Renato Teixeira <renato@renatoteixeira.com>
+
+Issue #487 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 16:53:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/488" class=".btn">#488</a>
             </td>
             <td>
@@ -271,32 +327,6 @@ Resolve #203
     </table>
     <div class="right-align">
         Created At 2021-06-23 16:51:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/475" class=".btn">#475</a>
-            </td>
-            <td>
-                <b>
-                    RU: fixing commercial paper tutorial
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-21 14:42:34 +0000 UTC
     </div>
 </div>
 

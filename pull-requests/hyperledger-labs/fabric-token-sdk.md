@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/37" class=".btn">#37</a>
+            </td>
+            <td>
+                <b>
+                    nwo: token chaincode generation fix param string #36
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 14:44:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/35" class=".btn">#35</a>
             </td>
             <td>
@@ -125,32 +151,6 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-06-24 09:50:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/26" class=".btn">#26</a>
-            </td>
-            <td>
-                <b>
-                    additional documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-21 13:15:58 +0000 UTC
     </div>
 </div>
 

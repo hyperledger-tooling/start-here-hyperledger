@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/214" class=".btn">#214</a>
+            </td>
+            <td>
+                <b>
+                    Fix for "Failed to Submit Transaction" and correct info response
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pihu1998 pranamika.pihu1998@gmail.com
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 16:18:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/211" class=".btn">#211</a>
             </td>
             <td>
@@ -499,32 +525,6 @@ Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-06-21 18:20:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/193" class=".btn">#193</a>
-            </td>
-            <td>
-                <b>
-                    Moving automated tests to run outside of api container
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Commit to resolve issue #186 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-21 14:20:51 +0000 UTC
     </div>
 </div>
 
