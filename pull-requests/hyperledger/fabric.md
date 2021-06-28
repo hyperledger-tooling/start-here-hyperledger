@@ -14,6 +14,112 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2716" class=".btn">#2716</a>
+            </td>
+            <td>
+                <b>
+                    [Doc-Update] + What is a commercial paper section
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Inserted "What is the commercial paper" section. It gives better background for a reader from a non-financial background and makes it easier to understand the project from the start.
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+While going through the Developing applications section in Fabric docs, I was not able to fully concentrate concentrate on the technical aspect of things because I kept wondering what the term "commercial paper" meant. I had to google it. 
+Adding this new section in the documentation would provide for a better integrated experience for the reader.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 08:37:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2715" class=".btn">#2715</a>
+            </td>
+            <td>
+                <b>
+                    Fixed grammatical errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+
+<!--- Describe your changes in detail, including motivation. -->
+Fixed basic grammatical errors in the documentation.
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 08:16:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2714" class=".btn">#2714</a>
             </td>
             <td>
@@ -589,65 +695,6 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-06-21 20:06:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2699" class=".btn">#2699</a>
-            </td>
-            <td>
-                <b>
-                    [FAB-18485]Fabric orderer - add config option for client keepalives
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                added config option for orderer client keepalives.  Defaults defined as per the
-existing hard coded values. 
-
-Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-21 10:09:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2698" class=".btn">#2698</a>
-            </td>
-            <td>
-                <b>
-                    Address PR comments in Gateway integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-21 09:29:08 +0000 UTC
     </div>
 </div>
 

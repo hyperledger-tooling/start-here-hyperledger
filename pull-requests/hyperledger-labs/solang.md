@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/425" class=".btn">#425</a>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/427" class=".btn">#427</a>
             </td>
             <td>
                 <b>
-                    Instantiate contract on-chain using program derived address via seed
+                    Ensure that mappings in structs are handled correctly
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                
+                Substrate storage does not understand solidity mappings, so drop them
+from the abi file.
+
+Signed-off-by: Sean Young <sean@mess.org>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-15 16:31:00 +0000 UTC
+        Created At 2021-06-28 09:24:48 +0000 UTC
     </div>
 </div>
 
