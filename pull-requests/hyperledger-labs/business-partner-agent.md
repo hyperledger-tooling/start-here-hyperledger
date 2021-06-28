@@ -244,29 +244,3 @@ Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/502" class=".btn">#502</a>
-            </td>
-            <td>
-                <b>
-                    do not use relative paths
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-20 19:23:22 +0000 UTC
-    </div>
-</div>
-
