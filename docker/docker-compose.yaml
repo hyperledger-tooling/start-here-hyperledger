@@ -13,10 +13,14 @@ services:
         environment:
             - GITHUB_TOKEN=${GITHUB_TOKEN}
             - CONFIG_FILE=/actions/pull_prs.yaml
+            - PR_TEMPLATE_FILE=/assets/html/template/pr-template.html
+            - RELEASE_TEMPLATE_FILE=/assets/html/template/release-template.html
+            - ISSUE_TEMPLATE_FILE=/assets/html/template/issue-template.html
         volumes:
             - ../actions:/actions
             - ../templates:/templates
             - ../pull-requests:/pull-requests
+            - ../hyperledger-updates/assets:/assets
         networks:
             - test_network
 
@@ -28,10 +32,14 @@ services:
         environment:
             - GITHUB_TOKEN=${GITHUB_TOKEN}
             - CONFIG_FILE=/actions/pull_issues.yaml
+            - PR_TEMPLATE_FILE=/assets/html/template/pr-template.html
+            - RELEASE_TEMPLATE_FILE=/assets/html/template/release-template.html
+            - ISSUE_TEMPLATE_FILE=/assets/html/template/issue-template.html
         volumes:
             - ../actions:/actions
             - ../templates:/templates
             - ../issues:/issues
+            - ../hyperledger-updates/assets:/assets
         networks:
             - test_network
 
@@ -43,9 +51,13 @@ services:
         environment:
             - GITHUB_TOKEN=${GITHUB_TOKEN}
             - CONFIG_FILE=/actions/pull_releases.yaml
+            - PR_TEMPLATE_FILE=/assets/html/template/pr-template.html
+            - RELEASE_TEMPLATE_FILE=/assets/html/template/release-template.html
+            - ISSUE_TEMPLATE_FILE=/assets/html/template/issue-template.html
         volumes:
             - ../actions:/actions
             - ../templates:/templates
             - ../releases:/releases
+            - ../hyperledger-updates/assets:/assets
         networks:
             - test_network

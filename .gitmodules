@@ -1,4 +1,4 @@
 [submodule "hyperledger-updates"]
 	path = hyperledger-updates
-	url = https://github.com/hyperledger-tooling/hyperledger-updates
+	url = https://github.com/hyperledger-tooling/hyperledger-updates.git
 	branch = main
