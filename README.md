@@ -19,3 +19,19 @@ then run the following command
 ```
 git submodule update --remote
 ```
+
+## Development
+
+Run the following command, to host the site locally on your development
+environment. Note that this requires `docker` and `docker-compose` tools.
+
+```shell
+docker-compose -f docker/docker-compose-test.yaml up --build
+```
+
+## Contributions
+
+Each commit must include `Signed-off-by:`
+in the commit message (run `git commit -s` to auto-sign).
+This sign off means you agree the commit satisfies the
+[Developer Certificate of Origin(DCO)](https://developercertificate.org/).

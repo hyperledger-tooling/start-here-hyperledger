@@ -3,11 +3,12 @@ version: "3.5"
 services:
   jekyll:
     build:
-      context: ./
+      context: ..
+      dockerfile: Dockerfile
     ports:
       - 4000:4000
     volumes:
-      - .:/usr/src/app
+      - ..:/usr/src/app
     stdin_open: true
     tty: true
     command: bundle exec jekyll serve -H 0.0.0.0 -t
