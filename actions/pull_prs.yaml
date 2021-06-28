@@ -24,15 +24,17 @@ issues:
   external-template:
     input: ""
     output: ""
+    summary: ""
 
 # Config for Pull Requests
 pull-requests:
-  summary-filename: "html/generated/pr-summary.html"
+  summary-filename: "/assets/html/generated/pr-summary.html"
   should-run: true
-  data-file: "generated-data/pr-data.json"
+  data-file: "/assets/generated-data/pr-data.json"
   external-template:
     input: "/templates/pr-template.md"
     output: "/pull-requests"
+    summary: "/templates/recent-prs.md"
 
 # Config for Releases
 releases:
@@ -42,3 +44,4 @@ releases:
   external-template:
     input: ""
     output: ""
+    summary: ""

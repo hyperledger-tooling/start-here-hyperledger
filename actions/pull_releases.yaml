@@ -24,6 +24,7 @@ issues:
   external-template:
     input: ""
     output: ""
+    summary: ""
 
 # Config for Pull Requests
 pull-requests:
@@ -33,12 +34,14 @@ pull-requests:
   external-template:
     input: ""
     output: ""
+    summary: ""
 
 # Config for Releases
 releases:
-  summary-filename: "html/generated/release-summary.html"
+  summary-filename: "/assets/html/generated/release-summary.html"
   should-run: true
-  data-file: "generated-data/release-data.json"
+  data-file: "/assets/generated-data/release-data.json"
   external-template:
     input: "/templates/release-template.md"
     output: "/releases"
+    summary: "/templates/recent-releases.md"
