@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/333" class=".btn">#333</a>
+            </td>
+            <td>
+                <b>
+                    chore: export injection symbols
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-25 19:55:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/332" class=".btn">#332</a>
             </td>
             <td>
