@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1540" class=".btn">#1540</a>
+            </td>
+            <td>
+                <b>
+                    [besu] add tessera support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Add tessera 21.1.1 support in Besu
+- Fix documentation regarding Besu
+  
+
+**Linked issue**
+Resolves #1510 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 09:35:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1539" class=".btn">#1539</a>
             </td>
             <td>

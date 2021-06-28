@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/9" class=".btn">#9</a>
+            </td>
+            <td>
+                <b>
+                    Publish docs built by Sphinx using Github Pages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                close #7 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 09:28:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/7" class=".btn">#7</a>
             </td>
             <td>

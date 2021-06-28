@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1099" class=".btn">#1099</a>
+            </td>
+            <td>
+                <b>
+                    feat(validator): Indy validator and indy-testnet files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added new code that talks to indy pool. It submits request to indy it received and sends response back.
+The python code will be updated in the future so that users can simply pip install them and run (although it is incomplete at the moment). The directory structure reflects this intention.
+
+Also included are updated version of indy-testnet files. The code described above needs this environment to properly run.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 11:35:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1095" class=".btn">#1095</a>
             </td>
             <td>
@@ -446,32 +477,6 @@ Depends on #1042
     </table>
     <div class="right-align">
         Created At 2021-06-21 20:42:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1077" class=".btn">#1077</a>
-            </td>
-            <td>
-                <b>
-                    fix(xdai-connector) invokeContract for eth-method with sender's role …
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - web3.eth.estimateGas : works considering called solidity method do not throw an exception. So, for method having `modifier` with access control on `msg.sender` calling estimateGas without `from` field throws error.to make it work ,`transactionConfig.from = web3SigningCredential.ethAccount ` before calling `estimateGas`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-21 10:27:03 +0000 UTC
     </div>
 </div>
 

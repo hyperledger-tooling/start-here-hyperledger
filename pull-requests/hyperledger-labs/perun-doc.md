@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
   - Remove source code copyright info, because it is clear from the README at GitHub and does not fit here.
   - Combine disclaimer, funding, and contact
   - Reduce tutorial depth by moving intro to main page
-- Developer Tutorial: Revise text
+- Developer Tutorial: Revise text.
             </td>
         </tr>
     </table>
