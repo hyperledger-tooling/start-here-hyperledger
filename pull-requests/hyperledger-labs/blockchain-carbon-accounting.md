@@ -502,29 +502,3 @@ Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/194" class=".btn">#194</a>
-            </td>
-            <td>
-                <b>
-                    updated README and added support for ropsten
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-21 18:20:49 +0000 UTC
-    </div>
-</div>
-
