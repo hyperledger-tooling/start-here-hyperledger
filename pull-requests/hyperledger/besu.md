@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2482" class=".btn">#2482</a>
+            </td>
+            <td>
+                <b>
+                    no trace for method calls in private tx simulator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Addresses memory issues with certain contracts in priv_call
+See https://github.com/hyperledger/besu/issues/2387
+
+This NO_TRACING implementation is used by eth_call so it makes sense for this to be used by priv_call - and this explains the difference in memory usage between public and private states.
+
+ContainerTests all pass locally.
+Customer provided tests in public and private execution also successful with this change. 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 04:01:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2481" class=".btn">#2481</a>
             </td>
             <td>
@@ -453,46 +491,6 @@ fixes #2004
     </table>
     <div class="right-align">
         Created At 2021-06-22 13:02:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2459" class=".btn">#2459</a>
-            </td>
-            <td>
-                <b>
-                    Fix bft messages having duplicate prepares in roundChange message (#2…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-In IBFT2 and QBFT the round change message could be created with duplicate prepares being included in the round change message. These messages are rejected as being invalid by Besu.
-
-This fixes the equality and hashCode on the message so that we don't add duplicate messages.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-22 05:04:22 +0000 UTC
     </div>
 </div>
 
