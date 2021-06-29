@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/335" class=".btn">#335</a>
+            </td>
+            <td>
+                <b>
+                    feature/0211-route-coordination
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This pull request provides support for [rfc 0211](https://github.com/hyperledger/aries-rfcs/tree/master/features/0211-route-coordination) mediation coordination. The implementation was inspired from [aca-py](https://github.com/hyperledger/aries-cloudagent-python) mediator and tested with. 
+Flow is intended to follow after a connection has been established, request -> grant -> keylistUpdate. A lot of support code was added for mediation with new methods exposed on the agent. Some of the noteworthy changes include:
+- Agent Config:
+  - removed `mediatorUrl`, `establishInbound`, `getRoutingKeys` 
+  - added `myPort`, `mediatorConnectionsInvite`, `autoAcceptMediationRequests`, `defaultMediatorId `
+, `clearDefaultMediator`
+  - the configurations are used in mediation modules and services to initialize state
+- route module:
+ - removed provision and consumer modules/services
+ - added mediation and recipient modules
+- transport:
+ - added WebSocket POC for inbound transport with the mediator
+ 
+Signed-off-by: Adam Burdett <burdettadam@gmail.com>
+Co-authored-by: David Clawson <david.clawson@gmail.com>
+Co-authored-by: Ariel Gentile <gentilester@gmail.com>
+Co-authored-by: Daniel Bluhm <dbluhm@pm.me>
+Co-authored-by: Patrick Kenyon <treek.kenyon@gmail.com>
+Co-authored-by: James Ebert <jamesebert.k@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 21:28:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/334" class=".btn">#334</a>
             </td>
             <td>
@@ -59,32 +103,6 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </table>
     <div class="right-align">
         Created At 2021-06-25 19:55:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/332" class=".btn">#332</a>
-            </td>
-            <td>
-                <b>
-                    mediation 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                this pr contains the needed code for mediation protocol.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 18:07:55 +0000 UTC
     </div>
 </div>
 

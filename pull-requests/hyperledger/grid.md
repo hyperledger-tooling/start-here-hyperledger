@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/784" class=".btn">#784</a>
+            </td>
+            <td>
+                <b>
+                    Remove rest api Endpoint from config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This changes the `endpoint` value in the GridConfig to a string.
+Previously, this was an `Endpoint` value using the `Endpoint` type from
+the `actix_web_3` module in the sdk. Now the conversion is done in the
+`run_splinter` and `run_sawtooth` functions and is guarded behind the
+`rest-api` feature.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 19:27:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/782" class=".btn">#782</a>
             </td>
             <td>
@@ -176,32 +208,6 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-06-22 21:29:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/775" class=".btn">#775</a>
-            </td>
-            <td>
-                <b>
-                    Add explanation to gdsn 3.1 grid schemas
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Darian Plumb <dplumb@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-21 20:49:08 +0000 UTC
     </div>
 </div>
 

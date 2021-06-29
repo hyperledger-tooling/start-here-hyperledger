@@ -451,32 +451,3 @@ cc: @sichen1234 @Zzocker
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1079" class=".btn">#1079</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-besu): add getPastLogs web service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                Fixes #1067 
-Depends on #1042
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-21 20:42:23 +0000 UTC
-    </div>
-</div>
-
