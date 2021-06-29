@@ -879,30 +879,3 @@ Finally, you can contact us on https://mergify.io/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2704" class=".btn">#2704</a>
-            </td>
-            <td>
-                <b>
-                    Retire Will Lahti as maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It's been wonderful contributing alongside all of you since 2016. I've moved on from fabric for the time-being so it's time for me to retire as a maintainer. 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-22 16:03:39 +0000 UTC
-    </div>
-</div>
-

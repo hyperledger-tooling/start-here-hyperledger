@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
                 
             </td>
             <td>
-                close #7 
+                close #8 
             </td>
         </tr>
     </table>

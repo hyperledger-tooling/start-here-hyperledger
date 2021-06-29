@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1102" class=".btn">#1102</a>
+            </td>
+            <td>
+                <b>
+                    feat(besu): wip record locator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolve #365 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 14:32:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1101" class=".btn">#1101</a>
             </td>
             <td>

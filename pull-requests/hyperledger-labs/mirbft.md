@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/32" class=".btn">#32</a>
-            </td>
-            <td>
-                <b>
-                    Automated experiment running
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-22 15:00:32 +0000 UTC
-    </div>
-</div>
-
