@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/95" class=".btn">#95</a>
+            </td>
+            <td>
+                <b>
+                    Return Signatures along with payload from corda-interop-app
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Now `GetExternalStateByLinearId` returns a JSON String, with proof consisting of list of signatures along with payload.
+2. Modified client app, to read the new return object from `GetExternalStateByLinearId`.
+
+This feature addition was a requirement from Marcopolo demo.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 10:03:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/89" class=".btn">#89</a>
             </td>
             <td>
@@ -35,32 +64,6 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </table>
     <div class="right-align">
         Created At 2021-06-24 17:29:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/87" class=".btn">#87</a>
-            </td>
-            <td>
-                <b>
-                    returning the correct number of args
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Krishnasuri Narayanam <knaraya3@in.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-22 11:49:13 +0000 UTC
     </div>
 </div>
 

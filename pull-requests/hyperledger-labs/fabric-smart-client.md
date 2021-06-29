@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/59" class=".btn">#59</a>
+            </td>
+            <td>
+                <b>
+                    Support for multiple Fabric Networks #9
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - [x ] fabric-sdk: refactor FNS methods
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 07:49:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/58" class=".btn">#58</a>
             </td>
             <td>
