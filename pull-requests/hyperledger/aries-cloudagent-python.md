@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1275" class=".btn">#1275</a>
+            </td>
+            <td>
+                <b>
+                    Update bdd tests to support askar; fix ledger method signatures
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Ledger methods are updated to provide endorser support for revocation updates
+
+bdd updates are to allow tests to be run using askar wallet
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 21:18:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1274" class=".btn">#1274</a>
+            </td>
+            <td>
+                <b>
+                    Add `wait_for_event` method on event bus
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We've found this to be generally useful in some of our coding efforts and after a brief discussion with @esune noting that it would be of use in some of his ongoing work, we figured it would be good to pop this out of our ongoing work so it can be used elsewhere.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 20:01:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1273" class=".btn">#1273</a>
+            </td>
+            <td>
+                <b>
+                    Fix manual event handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+Fixes the OpenAPI example
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-28 20:00:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1272" class=".btn">#1272</a>
             </td>
             <td>

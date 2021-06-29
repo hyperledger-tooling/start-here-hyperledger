@@ -14,33 +14,33 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/323" class=".btn">#323</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/324" class=".btn">#324</a>
             </td>
             <td>
                 <b>
-                    Make elliptic curve parameterizable
+                    Take advantage of c++ standard library data structures
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                This allows to define the elliptic curve used by the PDO crypto via the
--DPDO_USE_ECDSA_CURVE flag during compile time. When not defined, the
-default curve is secp256k1 as used in BTC. This commit is motivated by
-the use of the PDO crypto with Fabric Private Chaincode. In Fabric,
-however, the default ellipctic curve is secp256r1 (aka prime256v1). This
-compile flag allows to change the curve when used with FPC to be
-complient with Fabric.
+                Finally ready to drop the Wawaka StringArray class and replace it with the c++ standard library datastructures std::string and std::vector.
 
-Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
+Two items of note for this PR: 
+
+First, the exchange contract family is completely removed. This is because the effort to move to std library will be significant. Exchange will be housed in a repository of its own. 
+
+Second, the build target was changed from wasm to wasm-wasi to accommodate std::string which requires EOF 
+from stdlib. There is some danger that developers will attempt to invoke other operations from stdlib without
+wasi support... but that is not different from any other missing function.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-14 13:45:20 +0000 UTC
+        Created At 2021-06-28 22:34:45 +0000 UTC
     </div>
 </div>
 
