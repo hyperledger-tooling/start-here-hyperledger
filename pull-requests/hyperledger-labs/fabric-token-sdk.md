@@ -74,7 +74,7 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
             <td>
                 <b>
-                    [WIP] Owner encodes a type
+                    Owner encodes a type #39
                 </b>
             </td>
         </tr>

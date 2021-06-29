@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/230" class=".btn">#230</a>
+            </td>
+            <td>
+                <b>
+                    fix a bug in abnormal case on k8s environment.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                related to #229,
+
+I met a bug in abnormal case, and fixed it.
+
+In normal case , operator does followings before minifab operation.
+A) copy kubeconfig to vars/kubeconfig/config
+B) install ingress
+
+abnormal case: operator runs minifab without 'B'
+
+in the above case, current playbook/netdown/k8s-clean-allservices.yaml raises an error.
+this PR makes 'minifab cleanup' works without error in the above case.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 10:53:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minifabric/pull/229" class=".btn">#229</a>
             </td>
             <td>

@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1541" class=".btn">#1541</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] quorum and tessera version upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Update version for quorum and tessera
+- Tessera version 21.4.0 and Quorum 21.4.2
+ 
+
+**Linked issue**
+#1451 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 06:44:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1540" class=".btn">#1540</a>
             </td>
             <td>
@@ -42,34 +77,6 @@ Resolves #1510
     </table>
     <div class="right-align">
         Created At 2021-06-28 09:35:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1539" class=".btn">#1539</a>
-            </td>
-            <td>
-                <b>
-                    docs: add angelaalagbe as a contributor for doc, content
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add @angelaalagbe as a contributor for doc, content.
-
-This was requested by sownak [in this comment](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1535#issuecomment-865861288)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-22 10:23:24 +0000 UTC
     </div>
 </div>
 

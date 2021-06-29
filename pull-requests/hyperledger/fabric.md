@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2724" class=".btn">#2724</a>
+            </td>
+            <td>
+                <b>
+                    [FAB-18508] ledger utility always outputs txNum
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+
+#### Description
+
+This patch fixes a bug reported in FAB-18508, and makes the ledger troubleshooting utility output always the record "txNum".
+
+#### Additional details
+
+The bug occurred when the target transaction is the first transaction of a block (txNum == 0). This patch removes the `omitempty` attributes from all the members of a record.
+
+Note that this patch also changes the output when a key is missing in either snapshot. Instead of an empty object ({}) for the missing snapshot, the entire key (either "snapshotrecord1" or "snapshotrecord2") will be omitted.
+(Refer to the changes in the test code)
+
+#### Related issues
+
+https://jira.hyperledger.org/projects/FAB/issues/FAB-18508
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 08:26:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2723" class=".btn">#2723</a>
+            </td>
+            <td>
+                <b>
+                    [Docs] Added "What is a commercial paper" section.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Inserted "What is the commercial paper" section. It gives better background for a reader from a non-financial background and makes it easier to understand the project from the start.
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+While going through the Developing applications section in Fabric docs, I was not able to fully concentrate concentrate on the technical aspect of things because I kept wondering what the term "commercial paper" meant. I had to google it. 
+Adding this new section in the documentation would provide for a better integrated experience for the reader.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 07:34:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2722" class=".btn">#2722</a>
             </td>
             <td>
@@ -257,42 +335,6 @@ Finally, you can contact us on https://mergify.io/
     </table>
     <div class="right-align">
         Created At 2021-06-28 19:10:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2716" class=".btn">#2716</a>
-            </td>
-            <td>
-                <b>
-                    [Doc-Update] + What is a commercial paper section
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Inserted "What is the commercial paper" section. It gives better background for a reader from a non-financial background and makes it easier to understand the project from the start.
-
-#### Type of change
-
-- Documentation update
-
-#### Description
-
-While going through the Developing applications section in Fabric docs, I was not able to fully concentrate concentrate on the technical aspect of things because I kept wondering what the term "commercial paper" meant. I had to google it. 
-Adding this new section in the documentation would provide for a better integrated experience for the reader.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-28 08:37:20 +0000 UTC
     </div>
 </div>
 

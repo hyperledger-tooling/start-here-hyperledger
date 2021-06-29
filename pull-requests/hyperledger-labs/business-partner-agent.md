@@ -164,29 +164,3 @@ Will need to add runtime config into the charts to set the `i18n locale` and `fa
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/506" class=".btn">#506</a>
-            </td>
-            <td>
-                <b>
-                    clean install required
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-22 06:35:34 +0000 UTC
-    </div>
-</div>
-
