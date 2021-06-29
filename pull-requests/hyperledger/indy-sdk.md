@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2402" class=".btn">#2402</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2405" class=".btn">#2405</a>
             </td>
             <td>
                 <b>
-                    Update Rusqlite to version 0.25.3
+                    Update version of libc
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                The current version of `rusqlite` (0.20.0) is transitively dependent on `linked-hash-map v0.5.3`, which contains a bug ([fixed](https://github.com/contain-rs/linked-hash-map/pull/106) in version `0.5.4`). This bug causes runtime panics due to uninitialized reference on wallet access since rust `1.48.0`. See [here](https://github.com/mehcode/config-rs/issues/158), [here](https://github.com/hyperledger/aries-vcx/pull/126), and [here](https://github.com/hyperledger/indy-sdk/pull/2311).
-
-This PR updates version of rusqlite which fixes the bug (replicating the changes in #2311 with green DCO), as the latest version of rusqlite removes dependency on `linked-hash-map`.
-
-Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-22 14:32:50 +0000 UTC
+        Created At 2021-06-29 14:19:32 +0000 UTC
     </div>
 </div>
 

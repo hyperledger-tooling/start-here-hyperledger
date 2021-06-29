@@ -98,34 +98,3 @@ In particular, this PR includes the following:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/119" class=".btn">#119</a>
-            </td>
-            <td>
-                <b>
-                    Prep82 update bindings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Split some more commits from #83 .
-
-In particular, this PR includes the following:
-- Update contract bindings
-- Adopt channel data types
-- registerRecursive
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-22 15:46:47 +0000 UTC
-    </div>
-</div>
-

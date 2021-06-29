@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/336" class=".btn">#336</a>
+            </td>
+            <td>
+                <b>
+                    feat: negotiation and auto accept credentials
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This allows for negotiation between the holder and the issuer via the `negotiateOffer` and `negotiateProposal` functions on `agent.credentials`. 
+
+It also allows for auto accept of credentials. the `autoAcceptCredentials` can be set on the `agent` itself or on a specific `credentialRecord` where the `credentialRecord` has priority.
+
+The `autoAcceptCredential` has three states: `always`, `contentApproved` and `never` where `never` is the default.
+
+`always`: This means that any credential, no matter from who is automatically accepted (even if the attributes or `credentialDefinitionId` changed).
+`contentApproved`: This means that when a credential is received it has to be accepted once and the attributes and `credentialDefinitionId` did not change. If something did change it will not automate the flow.
+`never`: This simply means that no credentials are automatically accepted.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 14:34:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/335" class=".btn">#335</a>
             </td>
             <td>

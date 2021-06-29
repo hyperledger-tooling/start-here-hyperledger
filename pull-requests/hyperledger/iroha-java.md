@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha-java
             </td>
             <td>
                 <b>
-                    Added basic codegeneration feature/IR-996
+                    Added initial codegeneration feature/IR-996 (NOT FINISHED YET)
                 </b>
             </td>
         </tr>

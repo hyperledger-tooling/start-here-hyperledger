@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/452" class=".btn">#452</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/454" class=".btn">#454</a>
             </td>
             <td>
                 <b>
-                    Update asset_transfer_ledger_chaincode.js
+                    expose operations endpoint
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                fabric 2.x use **txId ** in res.value
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-21 09:47:57 +0000 UTC
+        Created At 2021-06-29 17:59:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/453" class=".btn">#453</a>
+            </td>
+            <td>
+                <b>
+                    expose operations endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 17:50:37 +0000 UTC
     </div>
 </div>
 

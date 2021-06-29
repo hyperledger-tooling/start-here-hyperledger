@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1278" class=".btn">#1278</a>
+            </td>
+            <td>
+                <b>
+                    Fix black formatting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 14:18:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1276" class=".btn">#1276</a>
+            </td>
+            <td>
+                <b>
+                    DIF PE - giving Holder more control on how to specify presentation_request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
+
+- resolve #1262 
+[includes detail about the approach and discussion around the use cases]
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 08:00:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1275" class=".btn">#1275</a>
             </td>
             <td>
@@ -62,35 +117,6 @@ bdd updates are to allow tests to be run using askar wallet
     </table>
     <div class="right-align">
         Created At 2021-06-28 20:01:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1273" class=".btn">#1273</a>
-            </td>
-            <td>
-                <b>
-                    Fix manual event handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Fixes the OpenAPI example
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-28 20:00:07 +0000 UTC
     </div>
 </div>
 

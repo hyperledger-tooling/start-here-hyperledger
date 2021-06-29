@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/214" class=".btn">#214</a>
-            </td>
-            <td>
-                <b>
-                    Fix for "Failed to Submit Transaction" and correct info response
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Pihu1998 pranamika.pihu1998@gmail.com
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-28 16:18:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/211" class=".btn">#211</a>
             </td>
             <td>
