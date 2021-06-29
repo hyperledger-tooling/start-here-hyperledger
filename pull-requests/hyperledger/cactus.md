@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1101" class=".btn">#1101</a>
+            </td>
+            <td>
+                <b>
+                    fix(typo): fix typo of issue1053
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: jsjs026 <jasonhack518@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 03:19:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1099" class=".btn">#1099</a>
             </td>
             <td>
@@ -420,34 +446,6 @@ Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-06-22 18:39:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1080" class=".btn">#1080</a>
-            </td>
-            <td>
-                <b>
-                    docs(examples): fix supply chain image build errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Fixes #1063
-
-cc: @sichen1234 @Zzocker 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-22 06:15:09 +0000 UTC
     </div>
 </div>
 

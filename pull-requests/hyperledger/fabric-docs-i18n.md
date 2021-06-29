@@ -288,32 +288,6 @@ Resolve #203
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/481" class=".btn">#481</a>
-            </td>
-            <td>
-                <b>
-                    【zh_CN】Update glossary.rst; Translate Leader, Log entry and Ordering Service into Chinese
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">zhCN-docs-ongoing</span>
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 07:11:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/480" class=".btn">#480</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/avalon
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/avalon/pull/769" class=".btn">#769</a>
+                PR <a href="https://github.com/hyperledger/avalon/pull/772" class=".btn">#772</a>
             </td>
             <td>
                 <b>
-                    Fix fabric proxy build for CentOS
+                    Minor rectification in crypto tests
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/avalon
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-06 12:53:55 +0000 UTC
+        Created At 2021-06-29 03:11:44 +0000 UTC
     </div>
 </div>
 
