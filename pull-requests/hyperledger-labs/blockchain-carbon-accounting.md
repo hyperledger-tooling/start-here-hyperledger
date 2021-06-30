@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/217" class=".btn">#217</a>
+            </td>
+            <td>
+                <b>
+                    add enroll user api to utility appliction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - added `/registerEnroll/user` endpoint to utility api
+- making `mentorship-cactus-integration` branch up to date with main branch
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 14:53:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/216" class=".btn">#216</a>
             </td>
             <td>
@@ -420,32 +447,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-06-23 17:51:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/198" class=".btn">#198</a>
-            </td>
-            <td>
-                <b>
-                    puting mentorship-cactus-integration branch up to date with main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 15:01:17 +0000 UTC
     </div>
 </div>
 

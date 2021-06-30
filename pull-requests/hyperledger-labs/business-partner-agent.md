@@ -134,33 +134,3 @@ Will need to add runtime config into the charts to set the `i18n locale` and `fa
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/509" class=".btn">#509</a>
-            </td>
-            <td>
-                <b>
-                    Launch 2 agents in the gitpod setup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                fixes #505
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/509"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 15:52:40 +0000 UTC
-    </div>
-</div>
-
