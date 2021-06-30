@@ -122,31 +122,3 @@ permalink: /releases/hyperledger/aries-framework-javascript
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    Release 0.0.45-unstable.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    0.0.45-unstable.0
-                </span>
-            </td>
-            <td>
-                * feat: use computed tags for records (#313) (4e9a48b)
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.45-unstable.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-06-23 16:05:30 +0000 UTC
-    </span>
-</div>
-
