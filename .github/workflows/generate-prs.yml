@@ -15,7 +15,11 @@ jobs:
         with:
           submodules: recursive
       - name: Generate latest PR information
-        run: docker-compose -f docker/docker-compose.yaml up --build pull_request_action
+        run: |
+          # Run the docker-compose command
+          docker-compose -f docker/docker-compose.yaml up --build pull_request_action
+          exit ${?}
+        shell: bash
         env:
           GITHUB_TOKEN: "${{ secrets.PAT }}"
       - name: Create Pull Request with new PRs
