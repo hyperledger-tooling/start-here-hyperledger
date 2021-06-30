@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1103" class=".btn">#1103</a>
+            </td>
+            <td>
+                <b>
+                    feat(ipfs): ipfs-keychain implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                **Added**
+
+- ipfs-keychain test case
+- ipfs remove functionality
+
+depends on #1007, #1032
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 18:30:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1102" class=".btn">#1102</a>
             </td>
             <td>
@@ -445,33 +476,6 @@ Signed-off-by: Rafael Belchior <rafael.belchior@tecnico.ulisboa.pt>
     </table>
     <div class="right-align">
         Created At 2021-06-23 14:29:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1081" class=".btn">#1081</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-xdai): add interval to pollForTxReceipt
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Xdai</span><span class="chip">bug</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                #1078 
-Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-22 18:39:48 +0000 UTC
     </div>
 </div>
 
