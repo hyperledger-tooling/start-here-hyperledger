@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1278" class=".btn">#1278</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1281" class=".btn">#1281</a>
             </td>
             <td>
                 <b>
-                    Fix black formatting
+                    OOB explicit invitations - Workaround for missing invitation_msg_id in webhook payload
                 </b>
             </td>
         </tr>
@@ -27,12 +27,39 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+                - To fix explicit invitations AATH tests
+- Awaiting approval from @nodlesh 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-29 14:18:58 +0000 UTC
+        Created At 2021-06-29 23:59:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1280" class=".btn">#1280</a>
+            </td>
+            <td>
+                <b>
+                    DIDExchange Error Fix - /didexchange/create-request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 20:26:57 +0000 UTC
     </div>
 </div>
 

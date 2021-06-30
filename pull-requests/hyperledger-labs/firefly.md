@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/104" class=".btn">#104</a>
+            </td>
+            <td>
+                <b>
+                    Add README link for firefly-samples
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 22:00:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/103" class=".btn">#103</a>
             </td>
             <td>
@@ -224,37 +250,6 @@ Other enhancements:
     </table>
     <div class="right-align">
         Created At 2021-06-23 21:42:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/94" class=".btn">#94</a>
-            </td>
-            <td>
-                <b>
-                    Fix pending unpinned sends
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently if you send an unpinned message, it is correctly marked `pending: false` (with a confirmed timestamp) on the receiving node(s), but the sending node leaves it forever in a `pending` state on the sender.
-This means in the UI, all the requests are shown _before_ the replies 🙃 
-
-The problem was the unpinned send code was setting `pending` and `confirmed` _before_ sealing the message, which then reset those back to default.
-
-![image](https://user-images.githubusercontent.com/6660217/122996051-6345ff00-d378-11eb-91b2-19bd3d7c2e37.png)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-22 20:41:22 +0000 UTC
     </div>
 </div>
 
