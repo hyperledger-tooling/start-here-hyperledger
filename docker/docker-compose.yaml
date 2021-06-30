@@ -20,6 +20,7 @@ services:
             - ../actions:/actions
             - ../templates:/templates
             - ../pull-requests:/pull-requests
+            - ../trending:/trending
             - ../hyperledger-updates/assets:/assets
         networks:
             - test_network
@@ -39,6 +40,7 @@ services:
             - ../actions:/actions
             - ../templates:/templates
             - ../issues:/issues
+            - ../trending:/trending
             - ../hyperledger-updates/assets:/assets
         networks:
             - test_network
@@ -58,6 +60,7 @@ services:
             - ../actions:/actions
             - ../templates:/templates
             - ../releases:/releases
+            - ../trending:/trending
             - ../hyperledger-updates/assets:/assets
         networks:
             - test_network
