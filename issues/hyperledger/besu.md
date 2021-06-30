@@ -14,6 +14,44 @@ permalink: /issues/hyperledger/besu
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/besu/issues/2308" class=".btn">2308</a>
+            </td>
+            <td>
+                <b>
+                    Separate Listening and Discovery Ports in Node Configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span>
+            </td>
+            <td>
+                ### Description
+According to the documentation on [P2P Port](https://besu.hyperledger.org/en/stable/Reference/CLI/CLI-Syntax/#p2p-port) configuration, the `--p2p-port` options/`BESU_P2P_PORT` environment variable/`p2p-port` configuration file option can be used to configure the listening port for the node, which is used for both the TCP listening port and the UDP discovery port.
+
+Strangely enough, there are sections in the documentation that describe a valid [Enode URL](https://besu.hyperledger.org/en/stable/Concepts/Node-Keys/#enode-url) that allows setting a different discovery port using a `discport` query parameter.
+
+This brings the question of if those Enode URLs are supported, how can one configure a dedicated port for discovery, which has a different number than the listening port.
+
+### Acceptance Criteria
+Allow configuring the listening port and discovery port of the node separatly,
+
+### Additional Information
+It might seem like a small issue, but in scenarios that require exposing both ports, it creates limitations such as the cloud services that can be used to run nodes (at the time of opening this issue, both Azure ACI and AWS ECS do not support opening the same port number for both TCP and UDP at the same time).
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-05-20 14:08:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/besu/issues/2190" class=".btn">2190</a>
             </td>
             <td>
