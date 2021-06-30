@@ -15,37 +15,34 @@ permalink: /releases/hyperledger/fabric-sdk-node
         <tr>
             <td colspan="2">
                 <b>
-                    v1.4.18
+                    v2.2.8
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.4.18
+                    v2.2.8
                 </span>
             </td>
             <td>
-                This is a maintenance release with bug fixes.
+                This v2.2.8 version is the latest of the v2.2 long-term support (LTS) release of the fabric-node-sdk packages that support Fabric 2.x, and supersedes previous v2.x releases. Please see the Fabric LTS release strategy document for more information on LTS releases:
 
-* Update elliptic dependency [(#442)](https://github.com/hyperledger/fabric-sdk-node/commit/7b359125) 
+https://github.com/hyperledger/fabric-rfcs/blob/main/text/0005-lts-release-strategy.md
 
-* [[FABN-1705](https://jira.hyperledger.org/browse/FABN-1705)] Allow multiple calls to Channel.sendTransaction. [(#441)](https://github.com/hyperledger/fabric-sdk-node/commit/e81661a5)
+This release updates dependencies and addresses an issue that could prevent client applications from stopping cleanly.
 
-* [[FABN-1701](https://jira.hyperledger.org/browse/FABN-1701)] Align Fabric-Network discovery default options with code  [(#433)](https://github.com/hyperledger/fabric-sdk-node/commit/74a89c6f)
+Changes in this release:
 
-* [[FABN-1700](https://jira.hyperledger.org/browse/FABN-1700)] Fix HSMWalletMixin TypeDef  [(#428)](https://github.com/hyperledger/fabric-sdk-node/commit/d2eabde8) 
-
-* [[FABN-1591](https://jira.hyperledger.org/browse/FABN-1591)] Typo fix in release notes [(#423)](https://github.com/hyperledger/fabric-sdk-node/commit/08a2bd2d)
-
+- When using a Hardware Security Module, the label associated with the slot containing the client identity's credentials can be specified instead of the slot index. This provides a more robust mechanism for specifying the correct HSM slot.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v1.4.18" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.8" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-04-21 16:26:51 +0000 UTC
+        Created At 2021-06-29 09:10:55 +0000 UTC
     </span>
 </div>
 
