@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/129" class=".btn">#129</a>
+            </td>
+            <td>
+                <b>
+                    :bug: [client] Defer release version 1 cache
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #128 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 07:39:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/127" class=".btn">#127</a>
             </td>
             <td>
@@ -132,32 +158,6 @@ In particular, this PR includes the following:
     </table>
     <div class="right-align">
         Created At 2021-06-24 14:16:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/120" class=".btn">#120</a>
-            </td>
-            <td>
-                <b>
-                    Fix testHashState
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Test the HashState function instead of CalcID, which is already being tested in testCalcID.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 11:22:41 +0000 UTC
     </div>
 </div>
 
