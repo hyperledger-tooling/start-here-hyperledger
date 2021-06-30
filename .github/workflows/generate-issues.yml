@@ -15,7 +15,11 @@ jobs:
         with:
           submodules: recursive
       - name: Generate latest issues information
-        run: docker-compose -f docker/docker-compose.yaml up --build issue_action
+        run: |
+          # Run the docker-compose command
+          docker-compose -f docker/docker-compose.yaml up --build issue_action
+          exit ${?}
+        shell: bash
         env:
           GITHUB_TOKEN: "${{ secrets.PAT }}"
       - name: Create Pull Request with new Issues
