@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-fabric-ibc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/35" class=".btn">#35</a>
+            </td>
+            <td>
+                <b>
+                    Change the module name to github.com/hyperledger-labs/yui-fabric-ibc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 07:32:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/34" class=".btn">#34</a>
             </td>
             <td>
