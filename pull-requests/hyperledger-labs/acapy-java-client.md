@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/5" class=".btn">#5</a>
+            </td>
+            <td>
+                <b>
+                    Add method to load all schemas
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Hi! I propose a new method to load all schemas from the ledger. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 13:32:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/4" class=".btn">#4</a>
             </td>
             <td>
