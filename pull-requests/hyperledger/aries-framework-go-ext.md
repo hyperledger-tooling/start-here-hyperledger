@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/134" class=".btn">#134</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/135" class=".btn">#135</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-22 08:26:55 +0000 UTC
+        Created At 2021-06-30 06:11:08 +0000 UTC
     </div>
 </div>
 

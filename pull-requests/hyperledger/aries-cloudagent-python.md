@@ -28,7 +28,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 - To fix explicit invitations AATH tests
-- Awaiting approval from @nodlesh 
+- Got approval from @nodlesh, ready to be merged 
             </td>
         </tr>
     </table>
