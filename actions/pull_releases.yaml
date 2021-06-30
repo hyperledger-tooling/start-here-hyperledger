@@ -25,6 +25,7 @@ issues:
     input: ""
     output: ""
     summary: ""
+    sum-generated: ""
 
 # Config for Pull Requests
 pull-requests:
@@ -35,6 +36,7 @@ pull-requests:
     input: ""
     output: ""
     summary: ""
+    sum-generated: ""
 
 # Config for Releases
 releases:
@@ -45,3 +47,4 @@ releases:
     input: "/templates/release-template.md"
     output: "/releases"
     summary: "/templates/recent-releases.md"
+    sum-generated: "/trending/recent-releases.md"
