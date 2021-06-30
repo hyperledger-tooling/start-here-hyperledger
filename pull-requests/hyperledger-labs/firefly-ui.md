@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/42" class=".btn">#42</a>
+            </td>
+            <td>
+                <b>
+                    Bug in request URL
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Omit extra slash, resource already contains slash
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 16:58:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/41" class=".btn">#41</a>
             </td>
             <td>
