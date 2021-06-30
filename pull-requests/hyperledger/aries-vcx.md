@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/313" class=".btn">#313</a>
+            </td>
+            <td>
+                <b>
+                    Update version of libc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 17:01:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/312" class=".btn">#312</a>
+            </td>
+            <td>
+                <b>
+                    Remove unncesessary deps from agency client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 10:37:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/310" class=".btn">#310</a>
+            </td>
+            <td>
+                <b>
+                    Try to fix occasionally failing integration test.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">ci</span><span class="chip">hotfix</span><span class="chip">tests</span>
+            </td>
+            <td>
+                The test `test_create_credential_works_twice` occasionally fails in CI - never run into this issue locally. The CI failure of this test is such that the second of creating the same credential definition passes, while it's expected to fail. I think the reason is  that probably on the second attempt, the created credential definition is not yet fully propagated through the pool, and so it appears like the credential definition doesn't exist yet. 
+This PR add timeout into the test between first and second attempt to create the same cred. definition.
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-29 08:10:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/309" class=".btn">#309</a>
             </td>
             <td>
@@ -24,10 +105,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">ci</span>
             </td>
             <td>
-                
+                - Add CI jobs to locally overwrite version in crate.toml files for `libvcx` and `agency_client` crates and subsequently publish them on crates.io
+- If CI is running for release, crates are published only if tests pass
+- If CI is running non-release, crates are published as soon as possible
             </td>
         </tr>
     </table>
@@ -118,34 +201,6 @@ Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
     </table>
     <div class="right-align">
         Created At 2021-06-23 12:06:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/305" class=".btn">#305</a>
-            </td>
-            <td>
-                <b>
-                    Fix bug in encoding new attributes format
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">hotfix</span>
-            </td>
-            <td>
-                Adding new credential data format in #291 introduced a bug - an `"attr_name"` was encoded instead of `attr_name`. This change fixes the issue and covers the case with a unit test.
-
-Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-22 15:25:22 +0000 UTC
     </div>
 </div>
 
