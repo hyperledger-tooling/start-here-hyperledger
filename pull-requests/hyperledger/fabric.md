@@ -1091,31 +1091,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2707" class=".btn">#2707</a>
-            </td>
-            <td>
-                <b>
-                    WIP: prepare for etcd version bump.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jay Guo <guojiannan1101@gmail.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 16:15:43 +0000 UTC
-    </div>
-</div>
-
