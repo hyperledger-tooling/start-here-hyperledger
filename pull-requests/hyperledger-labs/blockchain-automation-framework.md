@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1544" class=".btn">#1544</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] Add new notary org
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Add support in corda-enterprise to add new notary
+- Fix certificate issues for API and Web
+- Update certificate namespaces for OS Corda
+
+ **Linked issue**
+Resolves #1414 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-01 12:11:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1542" class=".btn">#1542</a>
             </td>
             <td>

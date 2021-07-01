@@ -1,13 +1,13 @@
 
-[24](https://github.com/hyperledger-labs/yui-relayer/pull/24) Update IBC version to v1.0.0-beta1
+[1544](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1544) [corda-ent] Add new notary org
 
-[14](https://github.com/hyperledger-labs/yui-corda-ibc/pull/14) Change the Go module path from "github.com/datachainlab/corda-ibc/go" to "github.com/hyperledger-labs/yui-corda-ibc/go"
+[520](https://github.com/hyperledger-labs/business-partner-agent/pull/520) Fix/null schema attributes
 
-[219](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/219) add prototype of open carbon offsets directory
+[27](https://github.com/hyperledger-labs/yui-relayer/pull/27) Fix the Go module paths from datachainlab/xxx to hyperledger-labs/yui-xxx
 
-[218](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/218) fix: made automaticRetireDate as optional parmas
+[519](https://github.com/hyperledger-labs/business-partner-agent/pull/519) Update milestones.yml
 
-[33](https://github.com/hyperledger-labs/byzantine-config/pull/33) Bump socket.io-parser from 3.3.0 to 3.3.2
+[25](https://github.com/hyperledger-labs/yui-relayer/pull/25) Use cosmos/cosmos-sdk instead of the fork
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
