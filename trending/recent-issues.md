@@ -1,5 +1,5 @@
 
-[153](https://github.com/hyperledger/fabric-sdk-py/issues/153) Update fabric-gateway module to fabric-rfcs
+[153](https://github.com/hyperledger/fabric-sdk-py/issues/153) Update to adopt fabric-gateway model
 
 [2395](https://github.com/hyperledger/indy-sdk/issues/2395) Remove blocking manual check for "indy-sys is available on crates.io"
 
