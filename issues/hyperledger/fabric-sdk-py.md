@@ -18,7 +18,7 @@ permalink: /issues/hyperledger/fabric-sdk-py
             </td>
             <td>
                 <b>
-                    Update fabric-gateway module to fabric-rfcs
+                    Update to adopt fabric-gateway model
                 </b>
             </td>
         </tr>
@@ -28,6 +28,7 @@ permalink: /issues/hyperledger/fabric-sdk-py
             </td>
             <td>
                 [Fabric-rfcs](https://hyperledger.github.io/fabric-rfcs/text/0000-fabric-gateway.html) describes the Fabric Gateway Feature and we can build based on [the source code](https://github.com/hyperledger/fabric-gateway)
+It will be officially supported in HLF v2.4.
             </td>
         </tr>
     </table>
