@@ -92,29 +92,3 @@ Resolves https://github.com/hyperledger-labs/firefly-cli/issues/54
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/51" class=".btn">#51</a>
-            </td>
-            <td>
-                <b>
-                    Add public URL to FireFly config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes the swagger UI not working correctly on Windows, or anywhere where the external HTTP URL differs from the IP address that the HTTP server is listening on.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 13:35:56 +0000 UTC
-    </div>
-</div>
-

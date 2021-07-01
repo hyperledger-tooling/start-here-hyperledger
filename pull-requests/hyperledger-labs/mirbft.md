@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    Refactor top-level structure - first pass
+                    Automated peer to peer connectivity - no synchronization timeout needed.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/mirbft
                 
             </td>
             <td>
-                
+                Signed-off-by: Chrysoula Stathakopoulou <tat@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-24 10:08:34 +0000 UTC
+        Created At 2021-07-01 12:36:20 +0000 UTC
     </div>
 </div>
 

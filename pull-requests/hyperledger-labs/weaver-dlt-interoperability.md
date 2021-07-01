@@ -39,31 +39,3 @@ This feature addition was a requirement from Marcopolo demo.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/89" class=".btn">#89</a>
-            </td>
-            <td>
-                <b>
-                    interop-cc chaincode changes pertaining to locking mechanism reorganization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR addresses the below:
-- Reorganize the interop-cc, base-class and base-class-contract pertaining to locking mechanism
-- Add the code to support ECDLP lock along with HashLock
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 17:29:39 +0000 UTC
-    </div>
-</div>
-

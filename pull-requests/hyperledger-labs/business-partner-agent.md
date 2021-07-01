@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                
+                A schema config is linked to a credential definition and/or a trusted issuer. We had a startup job that deleted the default (read only) schemas on each startup regardless of any linked objects. As there were no db constraints child objects were referencing none existing objects resulting in joins without a result. I removed the read only attributes and added constraints. Schemas are only added if they do not exist already, and it is not possible to delete a schema if it is still referenced somewhere.
+
 
 <a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/520"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
@@ -157,36 +158,6 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     </table>
     <div class="right-align">
         Created At 2021-06-25 08:24:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/511" class=".btn">#511</a>
-            </td>
-            <td>
-                <b>
-                    Fix/dockercompose
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/511"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 14:51:48 +0000 UTC
     </div>
 </div>
 

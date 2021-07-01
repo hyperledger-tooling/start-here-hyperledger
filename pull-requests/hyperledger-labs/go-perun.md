@@ -129,35 +129,3 @@ Signed-off-by: Matthias Geihs <matthias@perun.network>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/123" class=".btn">#123</a>
-            </td>
-            <td>
-                <b>
-                    Core82 open and close
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Split some more commits from #83 .
-
-In particular, this PR includes the following:
-
-- Open virtual channels
-- Close virtual channels
-- Test virtual channels happy case
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 14:16:23 +0000 UTC
-    </div>
-</div>
-
