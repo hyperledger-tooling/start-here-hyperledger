@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/110" class=".btn">#110</a>
+            </td>
+            <td>
+                <b>
+                    Fix CSS on swagger docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previously the CSS for the Swagger UI was being overriden by the Jekyll theme. This made code blocks look like this:
+<img width="497" src="https://user-images.githubusercontent.com/2530008/124167879-632db980-da72-11eb-9e80-40262ea194e2.png">
+
+These changes fix the CSS so the Swagger theme is preserved and they now look like this:
+<img width="497" alt="Screen Shot 2021-07-01 at 1 43 28 PM" src="https://user-images.githubusercontent.com/2530008/124167979-88bac300-da72-11eb-9234-3301c3706190.png">
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-01 17:45:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/107" class=".btn">#107</a>
+            </td>
+            <td>
+                <b>
+                    Swagger generation and docs integration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds semi-automatic swagger generation. The reason that it is semi-automatic, and not fully automated, is that modifying the API contract should be a conscious decision, so it should not happen without the developer specifically intending to do so.
+
+To update the `swagger.yaml` file in the repo, just run
+```
+make swagger
+```
+
+If source code changes which will affect the API spec in any way (including descriptions, examples, etc) are made without also intentionally updating the swagger file, a unit test will fail, asking if you forgot to run `make swagger`.
+
+Additionally, the swagger UI has now been integrated into the docs pages hosted on GitHub pages. This page loads the auto generated `swagger.yaml` file generated as described above.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-01 13:08:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/104" class=".btn">#104</a>
             </td>
             <td>
