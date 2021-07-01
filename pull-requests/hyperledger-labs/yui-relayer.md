@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/24" class=".btn">#24</a>
+            </td>
+            <td>
+                <b>
+                    Update IBC version to v1.0.0-beta1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #23 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-01 05:12:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/22" class=".btn">#22</a>
             </td>
             <td>

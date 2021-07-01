@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-fabric-ibc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/34" class=".btn">#34</a>
-            </td>
-            <td>
-                <b>
-                    Update ibc-go version to v1.0.0-beta1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 05:20:21 +0000 UTC
-    </div>
-</div>
-

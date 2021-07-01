@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/106" class=".btn">#106</a>
-            </td>
-            <td>
-                <b>
-                    Docs update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ... work in progress at the moment, but raising to allow review as I go along.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 22:23:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/104" class=".btn">#104</a>
             </td>
             <td>
@@ -188,68 +162,6 @@ Other enhancements:
     </table>
     <div class="right-align">
         Created At 2021-06-28 02:02:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/98" class=".btn">#98</a>
-            </td>
-            <td>
-                <b>
-                    Add publicURL config to admin and http config, and file based logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Public URL
-    - Adds config option for cases where the listener address (such as `0.0.0.0`) is not the same as the URL that should be used externally for FireFly.
-    - This affects the Swagger UI, which needs to perform an call from the browser to download the Swagger YAML.
-- File logging
-    - Uses lumberjack writer
-    - Adds following config options:
-    - `log.filename` - filename to log to
-    - `log.maxAge` - maximum age before rotating
-    - `log.maxSize` - maximum size
-    - `log.maxBackups` - maximum number of files to keep
-    - `log.compress` - whether to compress the backups
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 01:55:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/97" class=".btn">#97</a>
-            </td>
-            <td>
-                <b>
-                    Add workflow for E2E test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 00:50:56 +0000 UTC
     </div>
 </div>
 
