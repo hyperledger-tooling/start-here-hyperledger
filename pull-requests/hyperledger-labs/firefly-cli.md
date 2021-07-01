@@ -118,29 +118,3 @@ Resolves https://github.com/hyperledger-labs/firefly-cli/issues/54
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/49" class=".btn">#49</a>
-            </td>
-            <td>
-                <b>
-                    Use 127.0.0.1 instead of localhost
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 19:10:14 +0000 UTC
-    </div>
-</div>
-

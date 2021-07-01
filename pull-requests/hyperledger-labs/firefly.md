@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/106" class=".btn">#106</a>
+            </td>
+            <td>
+                <b>
+                    Docs update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ... work in progress at the moment, but raising to allow review as I go along.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 22:23:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/104" class=".btn">#104</a>
             </td>
             <td>
@@ -224,32 +250,6 @@ Other enhancements:
     </table>
     <div class="right-align">
         Created At 2021-06-24 00:50:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/96" class=".btn">#96</a>
-            </td>
-            <td>
-                <b>
-                    Fix ordering of message checks in TestE2EWebhookExchangeNoTx
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #94 fixed the order of the request and reply, but the e2e test was depending on the incorrect order (noting natural sort order is newest first)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 21:42:33 +0000 UTC
     </div>
 </div>
 
