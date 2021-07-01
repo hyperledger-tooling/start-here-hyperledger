@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/211" class=".btn">#211</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/212" class=".btn">#212</a>
             </td>
             <td>
                 <b>
-                    Impl contract registry & use it in node init
+                    194 add deploy register api
                 </b>
             </td>
         </tr>
@@ -36,21 +36,8 @@ other open pull requests targeting the same issue. -->
 #### Description
 <!-- Describe your changes in detail. -->
 
-- Contract registry is implemented to keep track of adjudicator and
-  asset ETH and asset ERC20 contracts.
-
-- This is initialized by the node and it is passed onto each of the
-  sessions with a read-only access.
-
-- In upcoming changes, APIs will be added in node to add new ERC20 asset
-  contracts to the contract registry.
-
-Also,
-
-- Update SetupContracts test helper function to setup ERC20 assets and
-  return a contract registry instead of contract addresses.
-
-- Update the reference templates for node & session config.
+Add APIs for deploying asset ERC20 contracts and for registering currencies.
+Made some refactors to enable better testing of these functionalities.
 
 ##### Category
 <!-- Tell us what type of issue does your pull request target.
@@ -58,7 +45,7 @@ You can uncomment one of the following options: -->
 
 <!-- Bug Fix -->
 <!-- Improvement -->
-Implementation Task
+Implementation Task 
 
 ##### Relevant issue
 <!-- Provide a link to the related issue. You can use the following keywords
@@ -66,15 +53,14 @@ and the issue number: "fixes", "resolves", "relates to". E.g.: closes #21
 
 We accept only pull requests related to open issues. If you're suggesting a new
 feature, improvement or fixing a bug that is not yet reported, please discuss it in
-an issue before submitting a pull request. -->
+an issue before submitting a pull request.
 
-Resolves #193.
+Resolves #194.
 
 #### Testing
 <!-- Tell us how you have tested the changes. -->
 
-Tests have been updated to cover the new functionality. 
-
+Tests have been added for the newly added APIs.
 ##### Steps to run the tests
 <!-- Describe a set of steps to run the tests relevant to this change. -->
 
@@ -92,7 +78,7 @@ Tests have been updated to cover the new functionality.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-22 07:00:18 +0000 UTC
+        Created At 2021-07-01 06:29:56 +0000 UTC
     </div>
 </div>
 
