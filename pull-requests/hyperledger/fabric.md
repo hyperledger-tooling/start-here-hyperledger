@@ -226,39 +226,6 @@ Finally, you can contact us on https://mergify.io/
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2727" class=".btn">#2727</a>
-            </td>
-            <td>
-                <b>
-                    fix invalid memory panic when release db in high concurrency of chaincode query
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: wuqiaomin <wuqiaomin2@huawei.com>
-
-Type of change
-- Bug fix
-
-Description
-In the condition of high concurrency of chaincode query, peer will crash after TXSimulator finish SimulateProposal, because queryExecutor's dbItr release db again and the function AddInt32 in Release will panic.
-Hence, inspect whether db is nil before dbIter release db. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 09:38:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2726" class=".btn">#2726</a>
             </td>
             <td>
