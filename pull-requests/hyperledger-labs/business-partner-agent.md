@@ -100,37 +100,3 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/510" class=".btn">#510</a>
-            </td>
-            <td>
-                <b>
-                    Add basic internationalization/locale support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">frontend</span>
-            </td>
-            <td>
-                Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-Adding in basic internationalization via [VUE I18n library](https://kazupon.github.io/vue-i18n/).
-This is **not** for dynamic loading of different resources, this is for determining the text/resources at deployment time.
-
-I've only done the `App.vue` page and have 2 "locales": `en` and `bcgov`. This demonstrates having multiple versions of English, so we are not constrained by using actual locales.
-
-Will need to add runtime config into the charts to set the `i18n locale` and `fallbackLocale` for the frontend (default is "en").
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 21:33:26 +0000 UTC
-    </div>
-</div>
-
