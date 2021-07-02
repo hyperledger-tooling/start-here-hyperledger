@@ -55,7 +55,10 @@ Next steps in my mind on the docs are:
   - Options around events
   - Details of how different hashes in the system are generated
 
-There are some improvements to images (using SVGs and adding a zoom), and a small tweak to the Swagger generation (it was showing URL with `/api/v1/api/v1` duplicated).
+Additoinal:
+- Some improvements to images (using SVGs and adding a click through to full-screen)
+- Small tweak to the Swagger generation (it was showing URL with `/api/v1/api/v1` duplicated).
+- Correct `batchID` to `batch` on the API for messages - fyi @shorsher 
             </td>
         </tr>
     </table>

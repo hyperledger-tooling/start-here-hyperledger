@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/5" class=".btn">#5</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/7" class=".btn">#7</a>
             </td>
             <td>
                 <b>
-                    Add method to load all schemas
+                    Extend present proof request builder with lombok.singular
                 </b>
             </td>
         </tr>
@@ -27,12 +27,42 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                Hi! I propose a new method to load all schemas from the ledger. 
+                @lombok.Singular is needed to map ProofTemplates to PresentProofRequest efficiently.
+
+The major change is, that the fields PresentProofRequest#requestedPredicates and PresentProofRequest#requestedAttributes now have a java.util.HashMap instead of a java.util.LinkedHashMap when PresentProofRequestBuilder is used.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-30 13:32:43 +0000 UTC
+        Created At 2021-07-02 11:16:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/6" class=".btn">#6</a>
+            </td>
+            <td>
+                <b>
+                    Add a method to get all schemas from Aries Cloudagent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is the second approach to propose a method to get all Schema Ids from the Aries Cloudagent. Corrections include a filter as suggested and a simple unit test.
+
+Signed-off-by: Stefan Hauffe <stefan.hauffe@mgm-tp.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-02 06:55:59 +0000 UTC
     </div>
 </div>
 

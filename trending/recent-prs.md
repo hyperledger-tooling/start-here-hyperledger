@@ -1,13 +1,13 @@
 
-[213](https://github.com/hyperledger-labs/perun-node/pull/213) Add erc20 support
+[7](https://github.com/hyperledger-labs/acapy-java-client/pull/7) Extend present proof request builder with lombok.singular
 
-[113](https://github.com/hyperledger-labs/firefly/pull/113) Docs update
+[1554](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1554) [docs] updated links and matrix
 
-[127](https://github.com/hyperledger-labs/firefly-ethconnect/pull/127) Added support for LevelDB based receipts store
+[1553](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1553) [shared] update kubectl to 1.19.8
 
-[224](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/224) Refactoring tests to use a Random UserId each time
+[225](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/225) Fix for RES_proxies_EEA data loader
 
-[110](https://github.com/hyperledger-labs/firefly/pull/110) Fix CSS on swagger docs
+[1552](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1552) [docs] updated roadmap and compatibility table
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
