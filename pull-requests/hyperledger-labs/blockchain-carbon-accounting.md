@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/227" class=".btn">#227</a>
+            </td>
+            <td>
+                <b>
+                    fix(typescript_app): take input in body for record audited emissions records 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-02 14:45:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/226" class=".btn">#226</a>
+            </td>
+            <td>
+                <b>
+                    Refactoring tests to use a Random UserId each time
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pihu1998 <pranamika.pihu1998@gmail.com>
+
+This PR is to replace "TestUser" used as a userId each time for testing.
+I replaced it with a random userId generation each time the test script is run.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-02 13:13:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/225" class=".btn">#225</a>
             </td>
             <td>
@@ -33,32 +88,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     </table>
     <div class="right-align">
         Created At 2021-07-02 09:16:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/224" class=".btn">#224</a>
-            </td>
-            <td>
-                <b>
-                    Refactoring tests to use a Random UserId each time
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Pihu1998 pranamika.pihu1998@gmail.com
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 21:57:35 +0000 UTC
     </div>
 </div>
 
@@ -355,32 +384,6 @@ Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-06-25 20:13:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/203" class=".btn">#203</a>
-            </td>
-            <td>
-                <b>
-                    fix(typescript_app): fixed web3 version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 14:05:28 +0000 UTC
     </div>
 </div>
 
