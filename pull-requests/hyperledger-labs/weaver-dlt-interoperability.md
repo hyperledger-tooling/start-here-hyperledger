@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
             </td>
             <td>
                 <b>
-                    Return Signatures along with payload from corda-interop-app
+                    Return Signatures along with payload from corda-interop-app and modified corda-client
                 </b>
             </td>
         </tr>
@@ -29,8 +29,9 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
             <td>
                 1. Now `GetExternalStateByLinearId` returns a JSON String, with proof consisting of list of signatures along with payload.
 2. Modified client app, to read the new return object from `GetExternalStateByLinearId`.
+3. Improved corda client app, to use env variables instead of hard coded values.
 
-This feature addition was a requirement from Marcopolo demo.
+(1) was a requirement from Marcopolo demo.
             </td>
         </tr>
     </table>
