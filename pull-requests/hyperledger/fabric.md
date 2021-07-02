@@ -842,32 +842,3 @@ Signed-off-by: manish <manish.sethi@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2711" class=".btn">#2711</a>
-            </td>
-            <td>
-                <b>
-                    docker network net_test -> fabric_test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Documentation update
-docker network name is `fabric_test` not `net_test` in release-2.3
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 02:25:48 +0000 UTC
-    </div>
-</div>
-

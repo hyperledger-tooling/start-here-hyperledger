@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/113" class=".btn">#113</a>
+            </td>
+            <td>
+                <b>
+                    Docs update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                An attempt at a set of docs that are sufficient for getting started:
+- Key concepts - high level information and diagrams:
+  - Multi-party systems
+  - FireFly problem statement
+  - The FireFly node
+  - Blockchain protocols
+  - Deterministic compute
+  - Private data exchange
+  - Broadcast / shared data
+  - Multi-party process flow
+- Getting Started - JSON snippets and step by step instructions:
+  - Install the FireFly CLI
+  - Start your environment
+  - Run a sample
+  - Privately send data
+  - Broadcast data
+  - Explore messages
+  - Listen for events
+  - Define a datatype
+
+A bunch more to do, and there are some intentional teasers there with WIP pointing at big bits that are under development (like Tokens, and custom on-chain transactions).
+
+Next steps in my mind on the docs are:
+- Add the Request/Reply messaging & Webhooks info from #81 
+- Start to fill out the `Reference` section - particularly for:
+  - Options around events
+  - Details of how different hashes in the system are generated
+
+There are some improvements to images (using SVGs and adding a zoom), and a small tweak to the Swagger generation (it was showing URL with `/api/v1/api/v1` duplicated).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-02 05:04:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/110" class=".btn">#110</a>
             </td>
             <td>

@@ -64,29 +64,3 @@ Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/7" class=".btn">#7</a>
-            </td>
-            <td>
-                <b>
-                    Add the documentation for Corda-IBC
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds the documentation, which is written in reST and can be built by Sphinx.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 05:31:31 +0000 UTC
-    </div>
-</div>
-
