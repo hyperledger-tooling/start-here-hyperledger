@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/135" class=".btn">#135</a>
+            </td>
+            <td>
+                <b>
+                    Fix tx nonce mismatch error: approach 3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix is attempted using approach 1 suggested in #62.
+
+Polling until a new nonce is received, ensures, a transaction opts is created only after the previous transaction has reached the blockchain node.
+
+As a results, tests for `NewTransactor` fail. In these tests, new transactor instances are created without sending the previous ones to blockchain node, causing the `PendingNonceAt` to return the same value and eventually timeout. This test is updated to use different random accounts for each `NewTransactor` call.
+
+Resolves #62.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-02 13:28:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/134" class=".btn">#134</a>
+            </td>
+            <td>
+                <b>
+                    Fix tx nonce mismatch error: approach 1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix is attempted using approach 1 suggested in #62. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-02 13:14:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/129" class=".btn">#129</a>
             </td>
             <td>
@@ -96,36 +154,6 @@ Signed-off-by: Matthias Geihs <matthias@perun.network>
     </table>
     <div class="right-align">
         Created At 2021-06-29 18:26:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/124" class=".btn">#124</a>
-            </td>
-            <td>
-                <b>
-                    Add functions to register new assets in ethereum funder implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - As these methods provide convenience for the user (to register assets after funder is initialized) and are not required by the framework itself for the process of funding, they are not added to the `Funder` interface.
-
-- Use the `RegisterAsset` method in place of `WithDepositor`, as the newly added method provides the same functionality without making a copy of the funder.
-
-- Also, fixed a bug in `funder_test.go`. See the last before commit for details. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 15:44:26 +0000 UTC
     </div>
 </div>
 
