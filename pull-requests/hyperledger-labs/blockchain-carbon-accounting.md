@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/229" class=".btn">#229</a>
+            </td>
+            <td>
+                <b>
+                    feat(typescript_app): added saving of emisions records in S3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #228 
+Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-03 10:10:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/227" class=".btn">#227</a>
             </td>
             <td>
