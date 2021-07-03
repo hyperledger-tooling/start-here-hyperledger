@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/429" class=".btn">#429</a>
+            </td>
+            <td>
+                <b>
+                    Unused variable detection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This pull request implements unused variable detection for the slang compiler.
+It generates warnings for unused state variables, global constants and contract storage.
+As a bonus, I implemented the detection of events that have never been emitted.
+
+WIP: I still have to write tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-02 21:33:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/428" class=".btn">#428</a>
             </td>
             <td>

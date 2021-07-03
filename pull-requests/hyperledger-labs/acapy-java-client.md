@@ -92,29 +92,3 @@ Signed-off-by: Stefan Hauffe <stefan.hauffe@mgm-tp.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/2" class=".btn">#2</a>
-            </td>
-            <td>
-                <b>
-                    Feature/0.7.0 pre.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 13:03:51 +0000 UTC
-    </div>
-</div>
-

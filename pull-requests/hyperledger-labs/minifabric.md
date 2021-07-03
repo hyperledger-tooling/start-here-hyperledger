@@ -108,31 +108,3 @@ I felt that minifab processing goes faster...
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/226" class=".btn">#226</a>
-            </td>
-            <td>
-                <b>
-                    apply the same patch to DockerfileHub for docker image publishing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                followup #225
-
-I noticed that #225 is missing in the latest image in dockerhub.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 23:29:06 +0000 UTC
-    </div>
-</div>
-
