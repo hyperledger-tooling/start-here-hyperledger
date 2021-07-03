@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/230" class=".btn">#230</a>
+            </td>
+            <td>
+                <b>
+                    Testing if partyId is encrypted
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pihu1998 <pranamika.pihu1998@gmail.com>
+
+This PR is testing if partyId is encrypted in API response:
+1. partyId should not be equal to it's raw format.
+2. If not in raw format, partyId should be equal to it's hash.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-03 18:05:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/229" class=".btn">#229</a>
             </td>
             <td>

@@ -42,7 +42,7 @@ Includes a GHA workflow that uses [chart-testing](https://github.com/helm/chart-
   - [ ] Init containers for ensuring each plugin interface is up i.e. Postgres, ethconnect, dx, IPFS
 - Docs
   - [ ] README.md
-  - [ ] templates/NOTES.txt
+  - [x] templates/NOTES.txt
   - [ ] Comments in values.yaml
             </td>
         </tr>
