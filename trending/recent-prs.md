@@ -1,7 +1,7 @@
 
-[230](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/230) Testing if partyId is encrypted
+[231](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/231) Test if emissions calculated for 2019 and 2018 for same energy amount is different
 
-[64](https://github.com/hyperledger-labs/fabric-smart-client/pull/64) committer: match the results of the transaction #63
+[230](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/230) Testing if partyId is encrypted
 
 [229](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/229) feat(typescript_app): added saving of emisions records in S3
 
