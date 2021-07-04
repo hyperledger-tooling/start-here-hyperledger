@@ -15,6 +15,34 @@ permalink: /releases/hyperledger/aries-framework-javascript
         <tr>
             <td colspan="2">
                 <b>
+                    Release 0.0.50-unstable.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    0.0.50-unstable.0
+                </span>
+            </td>
+            <td>
+                * refactor: use inline message types (#361) (3fe67b1)
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.50-unstable.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-07-04 10:17:04 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Release 0.0.49-unstable.0
                 </b>
             </td>
