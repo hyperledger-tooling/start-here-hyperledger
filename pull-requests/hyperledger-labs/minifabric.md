@@ -80,31 +80,3 @@ fix #221
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/228" class=".btn">#228</a>
-            </td>
-            <td>
-                <b>
-                    bump ansible to latest(4.1.0) from 2.9.x
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                related #224, I succeeded to bump from 2.9.x to latest 4.x.
-
-I felt that minifab processing goes faster...
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-27 11:04:49 +0000 UTC
-    </div>
-</div>
-
