@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/66" class=".btn">#66</a>
+            </td>
+            <td>
+                <b>
+                    compatibility requirements with the fabric token sdk #65
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - [x] nwo: platform access
+- [x] fabric-sdk: accessory methods to access network related structs
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-04 05:04:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/64" class=".btn">#64</a>
             </td>
             <td>
