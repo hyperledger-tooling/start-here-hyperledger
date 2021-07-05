@@ -348,30 +348,3 @@ bdd updates are to allow tests to be run using askar wallet
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1272" class=".btn">#1272</a>
-            </td>
-            <td>
-                <b>
-                    Connection protocol used in ConnRecord
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Now able to tell if a ConnRecord was created using `0160`, `0023` and `0023 with didcomm v2 envelope` [in future]
-- Should fix AATH connection tests, as `connection_protocol` can be used instead of relying on `missing invitation_msg_id` which is no longer the case as to support connection_reuse [`RFC 0434`]
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-28 18:00:13 +0000 UTC
-    </div>
-</div>
-

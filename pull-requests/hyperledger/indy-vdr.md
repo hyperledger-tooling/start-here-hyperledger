@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/58" class=".btn">#58</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    Update indy-utils and related dependencies
+                    Add multi signature setter method to FFI, python wrapper
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                Also switches from `lazy_static` to `once_cell`.
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-29 21:47:29 +0000 UTC
+        Created At 2021-07-05 17:40:13 +0000 UTC
     </div>
 </div>
 

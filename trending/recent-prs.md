@@ -1,13 +1,13 @@
 
-[2739](https://github.com/hyperledger/fabric/pull/2739) Update docs to clarify that an implicit collection can not have an index
+[60](https://github.com/hyperledger/indy-vdr/pull/60) Add multi signature setter method to FFI, python wrapper
 
-[1126](https://github.com/hyperledger/iroha/pull/1126) Peer tests
+[105](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/105) Data Transfer Protocol Augmentations
 
-[521](https://github.com/hyperledger-labs/business-partner-agent/pull/521) add configuration for a tails server
+[522](https://github.com/hyperledger-labs/business-partner-agent/pull/522) Fix misnamed property in resource file.
 
-[20](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/20) allow tails server configuration
+[51](https://github.com/hyperledger-labs/fabric-token-sdk/pull/51) update fabric smart client dependency to: #43
 
-[29](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/29) GenerateIdentifier support
+[50](https://github.com/hyperledger-labs/fabric-token-sdk/pull/50) dlog: membership proof returns errors
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

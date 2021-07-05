@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2499" class=".btn">#2499</a>
+            </td>
+            <td>
+                <b>
+                    fix ropsten consensus issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+Fix a consensus issue detected on ropsten. There was a check of elasticity that seems to be related to old version of the specification. This made a double check of the elasticity in the code. I only kept the version that corresponds to the latest version of the spec.
+>
+		if INITIAL_FORK_BLOCK_NUMBER == block.number:
+			expected_base_fee_per_gas = INITIAL_BASE_FEE
+		elif parent_gas_used == parent_gas_target:
+			expected_base_fee_per_gas = parent_base_fee_per_gas
+		elif parent_gas_used > parent_gas_target:
+			gas_used_delta = parent_gas_used - parent_gas_target
+			base_fee_per_gas_delta = max(parent_base_fee_per_gas * gas_used_delta // parent_gas_target // BASE_FEE_MAX_CHANGE_DENOMINATOR, 1)
+			expected_base_fee_per_gas = parent_base_fee_per_gas + base_fee_per_gas_delta
+		else:
+			gas_used_delta = parent_gas_target - parent_gas_used
+			base_fee_per_gas_delta = parent_base_fee_per_gas * gas_used_delta // parent_gas_target // BASE_FEE_MAX_CHANGE_DENOMINATOR
+			expected_base_fee_per_gas = max(parent_base_fee_per_gas - base_fee_per_gas_delta, 0)
+		assert expected_base_fee_per_gas == block.base_fee_per_gas, 'invalid block: base fee not correct'
+
+
+I also detected a code that seems invalid in the generation of expectedBaseFee (max missing)
+> expected_base_fee_per_gas = max(parent_base_fee_per_gas - base_fee_per_gas_delta, 0)
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-05 12:26:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2497" class=".btn">#2497</a>
             </td>
             <td>
