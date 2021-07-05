@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/69" class=".btn">#69</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/74" class=".btn">#74</a>
             </td>
             <td>
                 <b>
-                    Add possibility of checking transaction status by hash
+                    Iroha2 python initial commit
                 </b>
             </td>
         </tr>
@@ -27,14 +27,38 @@ permalink: /pull-requests/hyperledger/iroha-python
                 
             </td>
             <td>
-                I noticed that sometimes statuses are not receiving in timeout, if it happen it is really hard to find out what was reason of the transaction if it is not committed - is it still pending, or it was rejected.
-So I've decided that it would be really useful if iroha-python has functionality as `iroha-cli` to check status of transaction.
-The functionality is really important for me, because I'm integrating external payment system to transfer tokens to iroha from online-bank-transfer, so I must know if transaction in iroha was COMMITTED, REJECTED, or PENDING to provide proper reaction.
+                Signed-off-by: i1i1 <vanyarybin1@live.ru>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-23 16:08:16 +0000 UTC
+        Created At 2021-07-02 12:12:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/73" class=".btn">#73</a>
+            </td>
+            <td>
+                <b>
+                    Add ordering sequence to params in query
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Makes possible to add ordering sequence to Query. Fixes #72
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 17:51:32 +0000 UTC
     </div>
 </div>
 

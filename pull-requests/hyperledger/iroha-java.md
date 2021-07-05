@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/78" class=".btn">#78</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/79" class=".btn">#79</a>
             </td>
             <td>
                 <b>
-                    Added initial codegeneration feature/IR-996 (NOT FINISHED YET)
+                    Further iroha2-java codegen improvements
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-28 08:06:36 +0000 UTC
+        Created At 2021-07-01 07:55:45 +0000 UTC
     </div>
 </div>
 

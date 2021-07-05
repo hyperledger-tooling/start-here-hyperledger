@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/278" class=".btn">#278</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/279" class=".btn">#279</a>
             </td>
             <td>
                 <b>
-                    Prepare 2.2.2 release
+                    Correct Typescript export
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Signed-off-by: Kestutis Gudynas <kestutis.gudynas@ibm.com>
+                Logger in the Context type definition should be Logging
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-28 09:12:15 +0000 UTC
+        Created At 2021-06-30 12:55:19 +0000 UTC
     </div>
 </div>
 

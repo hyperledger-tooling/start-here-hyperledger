@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/182" class=".btn">#182</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/187" class=".btn">#187</a>
             </td>
             <td>
                 <b>
-                    2.2.2 release
+                    NettyGrpcServer -- support mutual TLS (release-2.2 port)
                 </b>
             </td>
         </tr>
@@ -27,64 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Signed-off-by: Kestutis Gudynas <kestutis.gudynas@ibm.com>
+                This PR adds functionality to optionally authenticate clients of the Java chaincode gRPC server
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-07 10:37:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/181" class=".btn">#181</a>
-            </td>
-            <td>
-                <b>
-                    Tls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-07 09:55:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/180" class=".btn">#180</a>
-            </td>
-            <td>
-                <b>
-                    Fix link in SECURITY.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-07 07:55:26 +0000 UTC
+        Created At 2021-06-30 08:18:03 +0000 UTC
     </div>
 </div>
 

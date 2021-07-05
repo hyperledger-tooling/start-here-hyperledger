@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/133" class=".btn">#133</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/137" class=".btn">#137</a>
             </td>
             <td>
                 <b>
-                    Improve typescript definitions in scenario steps
+                    FABGW-21: Real-time chaincode event listening in Go API
                 </b>
             </td>
         </tr>
@@ -27,15 +27,43 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                In the node scenario test driver, the currentGateway could, in theory, be undefined.  The Gateway identity should always be defined.
-The typescript code has been changed to assert these are behaving as expected.
+                Implementation with unit test coverage of implicit signing path.
 
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+Off-line signing test coverage and scenario tests for a later PR.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-23 09:08:16 +0000 UTC
+        Created At 2021-07-02 17:39:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/136" class=".btn">#136</a>
+            </td>
+            <td>
+                <b>
+                    Refactor Go scenario tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Split units of functionality into different files for clarity.
+- Better abstraction of Gateway connection and transaction invocation.
+- Correctly initialise and clean up state before and after scenarios, including closing gRPC connections.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 11:38:08 +0000 UTC
     </div>
 </div>
 

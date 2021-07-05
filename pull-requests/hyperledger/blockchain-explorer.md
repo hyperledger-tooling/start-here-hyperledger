@@ -14,11 +14,92 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/253" class=".btn">#253</a>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/257" class=".btn">#257</a>
             </td>
             <td>
                 <b>
-                    Bugfix: timeout error crashing explorer
+                    docs: add code snippet for admin cert modification
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: ankitm123 <ankitmohapatra123@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-04 12:52:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/256" class=".btn">#256</a>
+            </td>
+            <td>
+                <b>
+                    BE-879 Release v1.1.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-04 11:23:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/255" class=".btn">#255</a>
+            </td>
+            <td>
+                <b>
+                    BE-876 Stop unnecessary discovery request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Explorer was making multiple `sendDiscoveryRequest` calls, 1 per block,
+which retrieves the same information.
+
+Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-03 16:48:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/254" class=".btn">#254</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: trailing ampersand sign that is preventing container from restarting
                 </b>
             </td>
         </tr>
@@ -28,64 +109,14 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
             </td>
             <td>
                 ## This PR:
-- resolves `discoveryError` not resetting `waitingResp` flag, causing a `Have already been sending a request` loop.
-```
-[WARN] FabricGateway - Failed to send discovery request for channel Error: DiscoveryService has failed to return results
-    at DiscoveryService.send (.../blockchain-explorer/node_modules/fabric-common/lib/DiscoveryService.js:370:10)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-...
-[INFO] FabricGateway - Have already been sending a request
-[INFO] FabricGateway - Have already been sending a request
-[INFO] FabricGateway - Have already been sending a request
-[INFO] FabricGateway - Have already been sending a request
-[INFO] FabricGateway - Have already been sending a request
-```
-- resolves `queryChainInfo` timeout error killing explorer.
-```
-[ERROR] Sync - <<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
-[ERROR] Sync - FabricError: Query failed. Errors: ["Error: REQUEST TIMEOUT"]
-    at SingleQueryHandler.evaluate (.../blockchain-explorer/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:47:23)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at async Transaction.evaluate (.../blockchain-explorer/node_modules/fabric-network/lib/transaction.js:276:25)
-[INFO] Sync - <<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
-[DEBUG] FabricEvent - disconnectEventHubs()
-[DEBUG] FabricEvent - disconnectChannelEventHub(defaultchannel)
-``` 
+- removes trailing ampersand sign in start script which prevents docker container from restarting.
+
+### Note: this has been reflected with @nekia, more [info](https://chat.hyperledger.org/channel/hyperledger-explorer?msg=Hf6nkhLoNfFazXbNW) here.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-27 07:08:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/252" class=".btn">#252</a>
-            </td>
-            <td>
-                <b>
-                    BE-857 Change invoking function of lifecycle scc to get CC info
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change allows non-admin client credential to bring up Explorer instance. And also updated fabric-network package to v2.2.7
-
-Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
-
-https://jira.hyperledger.org/browse/BE-857
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-26 12:26:02 +0000 UTC
+        Created At 2021-07-01 00:48:55 +0000 UTC
     </div>
 </div>
 

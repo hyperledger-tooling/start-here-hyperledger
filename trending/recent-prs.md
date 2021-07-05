@@ -1,13 +1,13 @@
 
-[1555](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1555) [ Besu ][ Quorum ] Vault validation function improvement
+[2739](https://github.com/hyperledger/fabric/pull/2739) Update docs to clarify that an implicit collection can not have an index
 
-[44](https://github.com/hyperledger-labs/fabric-token-sdk/pull/44) update fabric smart client dependency to: #43
+[1126](https://github.com/hyperledger/iroha/pull/1126) Peer tests
 
-[66](https://github.com/hyperledger-labs/fabric-smart-client/pull/66) compatibility requirements with the fabric token sdk #65
+[521](https://github.com/hyperledger-labs/business-partner-agent/pull/521) add configuration for a tails server
 
-[231](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/231) Test if emissions calculated for 2019 and 2018 for same energy amount is different
+[20](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/20) allow tails server configuration
 
-[230](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/230) Testing if partyId is encrypted
+[29](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/29) GenerateIdentifier support
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

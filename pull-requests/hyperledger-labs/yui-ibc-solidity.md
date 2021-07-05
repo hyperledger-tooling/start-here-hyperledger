@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/23" class=".btn">#23</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    Remove unnecessary dependencies
+                    GenerateIdentifier support
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+                fixes #28 
+
+- [x] Client
+- [x] Connection
+- [x] Channel
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-06 04:36:09 +0000 UTC
+        Created At 2021-07-05 06:30:22 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,159 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1109" class=".btn">#1109</a>
+            </td>
+            <td>
+                <b>
+                    feat(keychain-vault): add the missing endpoint classes #676
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Keychain</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                1. Adds the has/delete endpoints (which were missing completely)
+2. Adds the get/set endpoints which were partially already implemented.
+3. Moves the express dependency to be a dev dependency since we only
+use the types (e.g. only needed at compile time, not at runtime)
+4. Adds specific test cases to the API client verifying the
+get/set/has/delete endpoints
+5. Renames the getKeychainEntry and setKeychainEntry operationIDs
+to have a V1 suffix.
+
+Fixes #676
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+cc: @Zzocker @sichen1234
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-03 20:08:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1107" class=".btn">#1107</a>
+            </td>
+            <td>
+                <b>
+                    ci(containerization): build all container images via the CI suite #942
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span><span class="chip">dependent</span>
+            </td>
+            <td>
+                This will get us closer to the desired state of affairs where any
+source code change that breaks the build can be detected prior
+to the pull request getting merged.
+
+Before this, the issue was that DockerHub would not integrate
+properly with the GitHub PR Checks mechanism and so we were
+unable to have the checks executed properly.
+
+Fixes hyperledger#942
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+Depends on #1105
+Depends on #1106
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-02 03:20:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1106" class=".btn">#1106</a>
+            </td>
+            <td>
+                <b>
+                    fix(connector-corda): kotlin compilation error due to missing method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Corda</span><span class="chip">bug</span>
+            </td>
+            <td>
+                When we added the prometheus monitoring endpoint to the
+OpenAPI spec, the kotlin implementation was not updated
+and this has lead to the container image build process failing
+which was not noticed because currently the GHA CI does not
+build the container images and therefore you can get away
+with introducing issues to the container image build.
+(this is soon to be rectified)
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-02 02:56:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1105" class=".btn">#1105</a>
+            </td>
+            <td>
+                <b>
+                    docs(examples): migrate containers to ubuntu-20.04 Docker-in-Docker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">bug</span><span class="chip">dependencies</span><span class="chip">documentation</span>
+            </td>
+            <td>
+                This restores the supply chain example app into a working state.
+
+Also migrated the carbon accounting example app onto the new base
+image, but that one isn't fully functional just yet (but at least the
+contanier build isn't broken anymore which is already signfiicant
+progress.)
+
+The image built from this revision of the source code has been
+tagged on the container registry as:
+ghcr.io/hyperledger/cactus-example-supply-chain-app:2021-07-01--fix-1063-v2
+
+Fixes #1063
+
+(this is the second try to fix that issue, the previous one failed)
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-02 02:17:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1103" class=".btn">#1103</a>
             </td>
             <td>
@@ -49,7 +202,7 @@ depends on #1007, #1032
             </td>
             <td>
                 <b>
-                    feat(besu): wip record locator
+                    feat(besu): record locator
                 </b>
             </td>
         </tr>
@@ -90,392 +243,6 @@ depends on #1007, #1032
     </table>
     <div class="right-align">
         Created At 2021-06-29 03:19:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1099" class=".btn">#1099</a>
-            </td>
-            <td>
-                <b>
-                    feat(validator): Indy validator and indy-testnet files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added new code that talks to indy pool. It submits request to indy it received and sends response back.
-The python code will be updated in the future so that users can simply pip install them and run (although it is incomplete at the moment). The directory structure reflects this intention.
-
-Also included are updated version of indy-testnet files. The code described above needs this environment to properly run.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-28 11:35:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1095" class=".btn">#1095</a>
-            </td>
-            <td>
-                <b>
-                    test(test-tooling): containers#pruneDockerResources prints disk usage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Also adds a timeout and a log level parameter to the containers#exec
-utility function to improve the developer experience while
-troubleshooting test failures related to containers.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 21:48:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1094" class=".btn">#1094</a>
-            </td>
-            <td>
-                <b>
-                    test: call pruneDockerAllIfGithubAction in test.onFinish handler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                This may or may not make a difference with the flaky tests (the theory
-is that it does).
-
-Why? I noticed that one of the random test failures we have happens
-when the test container's stop+destroy calls in the finish handler are
-not being awaited for by the test runner internally before starting a
-new test case in the same test file.
-This lead to situations where a race appeared to cause crashes because
-the pruning began before the container could gracefully shut itself
-down.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 21:32:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1093" class=".btn">#1093</a>
-            </td>
-            <td>
-                <b>
-                    test: migrate AIO images to the GitHub Container Registry
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                This will help solve the rate limiting problems we've been having
-with DockerHub lately.
-
-Still have to figure out automatic builds as part of the CI, but for
-now at least we have the most heavily used images (manually)
-uploaded to GHCR so that the tests can use it.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 21:24:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1092" class=".btn">#1092</a>
-            </td>
-            <td>
-                <b>
-                    ci(tools): ci.sh prints disk usage between test runs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                This will be useful to detect cases of tests failing only because the
-disk was full and not because the tests themselves had a bug in them.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 21:07:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1091" class=".btn">#1091</a>
-            </td>
-            <td>
-                <b>
-                    style(linter): multiple linter fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-
-@petermetz ping for review, this is a large group of linter warning fixes. If it was better to break them apart for next time please let me know! ⭐ 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 16:48:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1090" class=".btn">#1090</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-besu): add getBlock web service #1065
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Besu</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                fixes #1065
-Signed-off-by: Tommesha Wiggins <tommesha.wiggins@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 15:34:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1089" class=".btn">#1089</a>
-            </td>
-            <td>
-                <b>
-                    style(supply-chain-frontend): multiple linter fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-
-@petermetz ping for review
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 20:08:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1088" class=".btn">#1088</a>
-            </td>
-            <td>
-                <b>
-                    style(i-eth-contract-deployment): linter fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-
-@petermetz ping for review! 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 19:46:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1087" class=".btn">#1087</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-besu): add getTransaction web service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jeffrey Ushry <jeffrey.ushry@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 18:09:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1086" class=".btn">#1086</a>
-            </td>
-            <td>
-                <b>
-                    style(data-fetcher): multiple linter fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-
-@petermetz ping for review, all the warnings looked the same so they are in the same PR! 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 16:59:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1085" class=".btn">#1085</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-besu): add getBalance web service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Besu</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                Fixes #1066
-
-@petermetz Mr.Tyler helped me with the test cases! 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 15:36:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1084" class=".btn">#1084</a>
-            </td>
-            <td>
-                <b>
-                    feat(test-tooling): faio features and improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds several improvements:
-1) destroys faio volume when tests end
-2) allows to recover a test ledger (setContainer)
-3) allows to add organizations
-
-Replaces PR #949 cc @petermetz 
-
-Signed-off-by: Rafael Belchior <rafael.belchior@tecnico.ulisboa.pt>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 14:29:08 +0000 UTC
     </div>
 </div>
 

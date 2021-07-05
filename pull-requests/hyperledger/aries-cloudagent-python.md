@@ -14,6 +14,200 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1289" class=".btn">#1289</a>
+            </td>
+            <td>
+                <b>
+                    Changing acme initialization to be like Alice and Faber ones
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ana Maria Franco Cuesta <afrancoc2000@gmail.com>
+Fixing the issue [here](https://github.com/hyperledger/aries-cloudagent-python/issues/1288)
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-04 17:19:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1287" class=".btn">#1287</a>
+            </td>
+            <td>
+                <b>
+                    Fix handling of empty accum_from in revocation state
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also adds support for endorser_did/write_ledger params
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-03 01:23:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1286" class=".btn">#1286</a>
+            </td>
+            <td>
+                <b>
+                    Add outbound message transport events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR introduces events relating to outbound messages. These changes are looking forward to more separation between the core ACA-Py message processing and generation components and message delivery mechanisms, which is fraught with nuance and largely dictated by use case. In such a state where there is a separation between message generation and delivery, we propose that these events (and/or similar events) act as the primary interface between the two. For now, however, these events are simply emitted and do not replace any of the previous functionality with one significant exception: considering how `OutboundSendStatus` was returned up the call stack from `outbound_message_router` and beyond, an `OutboundStatusEvent` seemed preferable. This change is mostly self-contained except for the recent `forward` message handler additions made to help with emitting push notifications to clients of mediators.
+
+@TimoGlastra we were hoping to get your opinion on this change. As implemented, do you think the new `OutboundStatusEvent` would provide enough context to a push notifier or do we want to continue with a specific forward message event encapsulating the send status of the forwarded message?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-01 20:41:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1285" class=".btn">#1285</a>
+            </td>
+            <td>
+                <b>
+                    Format cred_rev_id as a string
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes several AATH tests by formatting the `cred_rev_id` of a credential info structure as a string, not a number (Askar/Credx backend).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-01 03:28:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1284" class=".btn">#1284</a>
+            </td>
+            <td>
+                <b>
+                    PR#1276 Rework - Moved sorting of VCRecords into VCHolder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Following discussion with Andrew, decided to move the sorting logic into `./storage/vc_holder` for all 3 backends. 
+- If there is a `dateutil` exception triggered when sorting then return the `records` list as it is
+- Reverted changes made to `./present_proof/v2_0/formats/dif/handler.py`, `./present_proof/v2_0/routes.py` and corresponding tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 23:59:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1283" class=".btn">#1283</a>
+            </td>
+            <td>
+                <b>
+                    Remove indy-sdk dependency in IndyDidResolver
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The `BaseLedger` interface ((it should really be called `IndyLedger`) is sufficient and allows indy-vdr to substitute.
+
+This PR also changes the requirement checks in the demo agents to allow running without indy-sdk.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 20:20:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1282" class=".btn">#1282</a>
+            </td>
+            <td>
+                <b>
+                    Revert create schema and cred_def json response (remove 'sent')
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+Makes the json response consistent with the previous aca-py release
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 14:15:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1281" class=".btn">#1281</a>
             </td>
             <td>
@@ -80,10 +274,17 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
-
-- resolve #1262 
+                - resolve #1262 
 [includes detail about the approach and discussion around the use cases]
+- Maybe `./demo/AliceWantsAJsonCredential.md` needs to be updated
+1. With no `auto` settings on. if multiple credentials are applicable to a `presentation_request` then it is required for `holder` to specify the credential `record_id`.
+
+```
+"record_ids": {
+     "citizenship_input_1": [ "1496316f972e40cf9b46b35971182337" ]
+}
+```
+2. With `auto` settings on, if X credentials are applicable to a `presentation_request` and only Y credentials should be returned based upon `submission_requirements`, then first Y credentials sorted by `issuanceDate` [in reverse] are returned.
             </td>
         </tr>
     </table>
@@ -171,120 +372,6 @@ bdd updates are to allow tests to be run using askar wallet
     </table>
     <div class="right-align">
         Created At 2021-06-28 18:00:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1267" class=".btn">#1267</a>
-            </td>
-            <td>
-                <b>
-                    Add support for shared components
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Add `indy-vdr` ledger client
-- Add `indy-credx` credential handling
-- Add `aries-askar` storage backend
-
-The `performance`, `alice`, and `faber` demo agents should all support the `--wallet-type askar` argument for testing with the new backend components, as does the agent itself when run with `aca-py`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 03:17:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1266" class=".btn">#1266</a>
-            </td>
-            <td>
-                <b>
-                    Fix performance demo, clean up some warnings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 20:53:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1265" class=".btn">#1265</a>
-            </td>
-            <td>
-                <b>
-                    OOB- 0160 connection reuse fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Should fix `HandshakeReuse validation failed` error when trying to reuse 0160 connection [public_did]
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 16:43:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1259" class=".btn">#1259</a>
-            </td>
-            <td>
-                <b>
-                    fix: credentials must specify additional types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                While writing test for AATH I noticed in the vc-data-model section on [types](https://www.w3.org/TR/vc-data-model/#types), the following excerpt:
-
-> All credentials, presentations, and encapsulated objects MUST specify, or be associated with, additional more narrow types (like UniversityDegreeCredential, for example) so software systems can process this additional information.
-
-This is also tested in the vc-test-suite: https://github.com/w3c/vc-test-suite/blob/gh-pages/test/vc-data-model-1.0/10-basic.js#L95-L99
-
-This PR adds this restriction to the validation of VCs in ACA-Py
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-23 16:15:01 +0000 UTC
     </div>
 </div>
 
