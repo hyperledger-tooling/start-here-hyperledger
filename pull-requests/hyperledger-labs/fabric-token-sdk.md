@@ -14,6 +14,117 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/51" class=".btn">#51</a>
+            </td>
+            <td>
+                <b>
+                    update fabric smart client dependency to: #43
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - [x] afca9dc42e20244e957d6b01cd2e79868bedaa01
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-05 16:40:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/50" class=".btn">#50</a>
+            </td>
+            <td>
+                <b>
+                    dlog: membership proof returns errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-05 16:36:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/49" class=".btn">#49</a>
+            </td>
+            <td>
+                <b>
+                    export verification methods of fabtoken.Validator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-05 15:48:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/46" class=".btn">#46</a>
+            </td>
+            <td>
+                <b>
+                    Export Transaction fields
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To allow a consumer of the token SDK to implement new types of transaction of its own, we should consider exporting the fields of the Transaction so that the consumer can just call the fabtoken NewTransaction function and then just reference the fields if there is an need for it.
+
+
+Issue: [47](https://github.com/hyperledger-labs/fabric-token-sdk/issues/47).
+
+Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-05 12:43:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/44" class=".btn">#44</a>
             </td>
             <td>
@@ -64,32 +175,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-07-02 07:25:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/37" class=".btn">#37</a>
-            </td>
-            <td>
-                <b>
-                    nwo: token chaincode generation fix param string #36
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-28 14:44:57 +0000 UTC
     </div>
 </div>
 

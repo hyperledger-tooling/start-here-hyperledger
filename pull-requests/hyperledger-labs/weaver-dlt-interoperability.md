@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/105" class=".btn">#105</a>
+            </td>
+            <td>
+                <b>
+                    Data Transfer Protocol Augmentations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Augmented the `WriteExternalState` API spec in the Fabric Interop CC to verify an array of views rather than just a single view.
+Accordingly, augmented the `interopFlow` function in the Fabric Interop Node SDK.
+Tweaked access control logic in the Fabric Interop CC to check MSP IDs instead of certificates for organizations (CAs).
+Updated Fabric CLI to use the updated Fabric Interop Node SDK API.
+Tested Fabric-Fabric and Fabric-Corda data transfer flows using the testnet.
+Updated documentation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-05 17:37:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/104" class=".btn">#104</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/364" class=".btn">#364</a>
+            </td>
+            <td>
+                <b>
+                    fix: Remove apostrophe from connection request message type
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jakub Koci <jakub.koci@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-05 14:26:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/362" class=".btn">#362</a>
             </td>
             <td>
@@ -324,32 +350,6 @@ Co-authored-by: James Ebert <jamesebert.k@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-06-28 21:28:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/334" class=".btn">#334</a>
-            </td>
-            <td>
-                <b>
-                    chore: export wallet interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-28 15:35:47 +0000 UTC
     </div>
 </div>
 
