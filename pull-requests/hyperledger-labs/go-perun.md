@@ -14,38 +14,6 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/135" class=".btn">#135</a>
-            </td>
-            <td>
-                <b>
-                    Fix tx nonce mismatch error: approach 3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix is attempted using approach 1 suggested in #62.
-
-Polling until a new nonce is received, ensures, a transaction opts is created only after the previous transaction has reached the blockchain node.
-
-As a results, tests for `NewTransactor` fail. In these tests, new transactor instances are created without sending the previous ones to blockchain node, causing the `PendingNonceAt` to return the same value and eventually timeout. This test is updated to use different random accounts for each `NewTransactor` call.
-
-Resolves #62.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-02 13:28:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/134" class=".btn">#134</a>
             </td>
             <td>

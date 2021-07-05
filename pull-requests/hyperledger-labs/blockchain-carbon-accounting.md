@@ -365,33 +365,3 @@ Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/211" class=".btn">#211</a>
-            </td>
-            <td>
-                <b>
-                    Integrating automated-test to Github pipeline
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Pihu1998 pranamika.pihu1998@gmail.com
-
-Created .YAML file in /.github/workflows/ directory.
-
-Please suggest changes. Thanks!
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-28 07:57:21 +0000 UTC
-    </div>
-</div>
-

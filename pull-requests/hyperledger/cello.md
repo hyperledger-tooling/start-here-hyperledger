@@ -14,11 +14,97 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/261" class=".btn">#261</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/266" class=".btn">#266</a>
             </td>
             <td>
                 <b>
-                    Bump lodash from 4.17.19 to 4.17.21 in /build_image/dockerhub/v0.9.0/user-dashboard
+                    The user logs in through the front page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                *The user logins through the front page，and get token.
+
+Signed-off-by: XuHugo <xq-310@163.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-03 13:48:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/265" class=".btn">#265</a>
+            </td>
+            <td>
+                <b>
+                    fix #264: fix swagger api doc loading error.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                failed to load swagger api definition, fixed it by removing undefined fields and serailizers.
+
+Close #264
+
+Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-01 19:35:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/263" class=".btn">#263</a>
+            </td>
+            <td>
+                <b>
+                    Debug the registration part of the front end
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                You can register an organization to the backend through the front page；
+
+Signed-off-by: XuHugo <xq-310@163.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-01 09:55:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/262" class=".btn">#262</a>
+            </td>
+            <td>
+                <b>
+                    Bump socket.io-parser from 3.3.0 to 3.3.2 in /build_image/dockerhub/v0.9.0/user-dashboard
                 </b>
             </td>
         </tr>
@@ -27,30 +113,54 @@ permalink: /pull-requests/hyperledger/cello
                 <span class="chip">Dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [lodash](https://github.com/lodash/lodash) from 4.17.19 to 4.17.21.
+                Bumps [socket.io-parser](https://github.com/socketio/socket.io-parser) from 3.3.0 to 3.3.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/socketio/socket.io-parser/releases">socket.io-parser's releases</a>.</em></p>
+<blockquote>
+<h2>3.3.2</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>prevent DoS (OOM) via massive packets (<a href="https://github-redirect.dependabot.com/Automattic/socket.io-parser/issues/95">#95</a>) (<a href="https://github.com/Automattic/socket.io-parser/commit/89197a05c43b18cc4569fd178d56e7bb8f403865">89197a0</a>)</li>
+</ul>
+<h4>Links</h4>
+<ul>
+<li>Diff: <a href="https://github.com/Automattic/socket.io-parser/compare/3.3.1...3.3.2">https://github.com/Automattic/socket.io-parser/compare/3.3.1...3.3.2</a></li>
+</ul>
+<h2>3.3.1</h2>
+<h4>Links</h4>
+<ul>
+<li>Diff: <a href="https://github.com/socketio/socket.io-parser/compare/3.3.0...3.3.1">https://github.com/socketio/socket.io-parser/compare/3.3.0...3.3.1</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/socketio/socket.io-parser/blob/3.3.2/CHANGELOG.md">socket.io-parser's changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/Automattic/socket.io-parser/compare/3.3.1...3.3.2">3.3.2</a> (2021-01-09)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>prevent DoS (OOM) via massive packets (<a href="https://github-redirect.dependabot.com/Automattic/socket.io-parser/issues/95">#95</a>) (<a href="https://github.com/Automattic/socket.io-parser/commit/89197a05c43b18cc4569fd178d56e7bb8f403865">89197a0</a>)</li>
+</ul>
+<h2><a href="https://github.com/socketio/socket.io-parser/compare/3.3.0...3.3.1">3.3.1</a> (2020-09-30)</h2>
+</blockquote>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/lodash/lodash/commit/f299b52f39486275a9e6483b60a410e06520c538"><code>f299b52</code></a> Bump to v4.17.21</li>
-<li><a href="https://github.com/lodash/lodash/commit/c4847ebe7d14540bb28a8b932a9ce1b9ecbfee1a"><code>c4847eb</code></a> Improve performance of <code>toNumber</code>, <code>trim</code> and <code>trimEnd</code> on large input strings</li>
-<li><a href="https://github.com/lodash/lodash/commit/3469357cff396a26c363f8c1b5a91dde28ba4b1c"><code>3469357</code></a> Prevent command injection through <code>_.template</code>'s <code>variable</code> option</li>
-<li><a href="https://github.com/lodash/lodash/commit/ded9bc66583ed0b4e3b7dc906206d40757b4a90a"><code>ded9bc6</code></a> Bump to v4.17.20.</li>
-<li><a href="https://github.com/lodash/lodash/commit/63150ef7645ac07961b63a86490f419f356429aa"><code>63150ef</code></a> Documentation fixes.</li>
-<li><a href="https://github.com/lodash/lodash/commit/00f0f62a979d2f5fa0287c06eae70cf9a62d8794"><code>00f0f62</code></a> test.js: Remove trailing comma.</li>
-<li><a href="https://github.com/lodash/lodash/commit/846e434c7a5b5692c55ebf5715ed677b70a32389"><code>846e434</code></a> Temporarily use a custom fork of <code>lodash-cli</code>.</li>
-<li><a href="https://github.com/lodash/lodash/commit/5d046f39cbd27f573914768e3b36eeefcc4f1229"><code>5d046f3</code></a> Re-enable Travis tests on <code>4.17</code> branch.</li>
-<li><a href="https://github.com/lodash/lodash/commit/aa816b36d402a1ad9385142ce7188f17dae514fd"><code>aa816b3</code></a> Remove <code>/npm-package</code>.</li>
-<li>See full diff in <a href="https://github.com/lodash/lodash/compare/4.17.19...4.17.21">compare view</a></li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/3b0a3925fd9f765228e5d06e4a0cc90d81a60d0e"><code>3b0a392</code></a> chore(release): 3.3.2</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/89197a05c43b18cc4569fd178d56e7bb8f403865"><code>89197a0</code></a> fix: prevent DoS (OOM) via massive packets (<a href="https://github-redirect.dependabot.com/socketio/socket.io-parser/issues/95">#95</a>)</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/25ca624b0d9eddc54a0dbaecc535cdf400722169"><code>25ca624</code></a> chore(release): 3.3.1</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/b51b39b78d85841a5659778917f240d407fdbce1"><code>b51b39b</code></a> test: use Node.js 10 for the browser tests</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/4184e465344c7ebd1d586e35a53bfad1ab5cfcea"><code>4184e46</code></a> chore: bump component-emitter dependency</li>
+<li>See full diff in <a href="https://github.com/socketio/socket.io-parser/compare/3.3.0...3.3.2">compare view</a></li>
 </ul>
-</details>
-<details>
-<summary>Maintainer changes</summary>
-<p>This version was pushed to npm by <a href="https://www.npmjs.com/~bnjmnt4n">bnjmnt4n</a>, a new releaser for lodash since your current version.</p>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=lodash&package-manager=npm_and_yarn&previous-version=4.17.19&new-version=4.17.21)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=socket.io-parser&package-manager=npm_and_yarn&previous-version=3.3.0&new-version=3.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -86,7 +196,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-18 18:37:55 +0000 UTC
+        Created At 2021-06-30 18:42:01 +0000 UTC
     </div>
 </div>
 

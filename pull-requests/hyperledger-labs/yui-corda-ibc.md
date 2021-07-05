@@ -38,29 +38,3 @@ Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/9" class=".btn">#9</a>
-            </td>
-            <td>
-                <b>
-                    Publish docs built by Sphinx using Github Pages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                close #8 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-28 09:28:38 +0000 UTC
-    </div>
-</div>
-

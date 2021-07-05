@@ -14,6 +14,245 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/362" class=".btn">#362</a>
+            </td>
+            <td>
+                <b>
+                    feat: Use session to send outbound message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR contains the following changes:
+* A session object is saved only if there is a `return_route` param in an inbound message. 
+* An outbound message is sent via session object, and the dispatcher doesn't return the message to the caller. It works for both HTTP and WebSocket.
+* The session object also contains the inbound message. The reason for this is that we can decide if we want to use the session to send a message later in MessageSender. We don't try to send a message via session if there is no `return_route` set for a given session.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-04 15:27:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/361" class=".btn">#361</a>
+            </td>
+            <td>
+                <b>
+                    refactor: use inline message types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #200 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-03 22:56:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/360" class=".btn">#360</a>
+            </td>
+            <td>
+                <b>
+                    refactor: only use ready connection for inbound
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR became a bit bigger than anticipated, but one change led to another and so on. However I do think this PR packs some nice improvements.
+
+### validation on incoming messages
+
+Fixes #68
+
+Although used a lot, we weren't putting the validation decorators to good use yet (`@IsString`, etc...). I've enabled them and made updates where needed to make them valid. Already found some bugs. I think once we update the AFJ backchannel for AATH we'll probably find some more interop issues with ACA-Py.
+
+### Only attach connection to inbound message context if sender and receiver match and connection is ready
+
+Fixes #76
+
+We were attaching the connection before it was ready and didn't do all necessary checks to make sure we're actually in the context of this connection. The connection is now only attached if the connection is ready to be used and fully matches with the incoming recipient and sender key.
+
+### Break out indy wallet
+
+Fixes #330
+
+It didn't make a lot of sense to me that the indy wallet was handling indy storage and ledger stuff. I think it belongs more in the ledger and storage services. This is also more in line with where we're headed with the shared components libraries
+
+- Rename `LedgerService` to `IndyLedgerService`. It's very indy focussed now.
+- move storage related methods to `IndyStorageService`
+- move ledger related methods to `IndyLedgerService`
+
+### Better indy message handling
+
+Sometimes you would get very cryptic errors such as `CommonInvalidParam` without a stack trace or anything that would help you get a sense of what's erroring out. I've wrapped all indy calls with a try catch and added a new `IndySdkError`. This will take the indy error as input, but with very nice stack tracing so you know exactly where things went wrong, without losing information from the indy error
+
+---
+
+Also fixed a bug where the mediator would terminate on unhandled promise
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-03 22:30:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/359" class=".btn">#359</a>
+            </td>
+            <td>
+                <b>
+                    feat: support connection-less issuance and verification
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds connection-less issuance and verification.
+
+- `Agent.credentials.createOutOfBandOffer` - to create credential offer not bound to connection
+- `Agent.proofs.createOutOfBandRequest` - to create presentation request not bound to connection
+- Add `~service` decorator
+
+Required more changes than initially thought because I had to remove the required `connection` parameter everywhere.
+
+Fixes #347 
+Fixes #346
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-03 15:15:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/342" class=".btn">#342</a>
+            </td>
+            <td>
+                <b>
+                    fix: add error message to log
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds error message to error log.
+
+@jakubkoci this is what you get when you don't include the error message specifically. I think we need to fix this in rn-indy-sdk. I'll try to look at it in the near future. For now this fix helps
+
+![image](https://user-images.githubusercontent.com/23165168/124268369-b3bc1a00-db39-11eb-8c28-d34f69ae6387.png)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-02 11:31:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/340" class=".btn">#340</a>
+            </td>
+            <td>
+                <b>
+                    build: docker containers are compatible with m1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds support for Apple silicon M1. Just specifies the platforms for which the containers were build and with Rosetta it should be possible to start the test ledger and mediators now.
+
+Signed-off-by: Berend Sliedrecht <berend@animo.id>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 10:23:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/339" class=".btn">#339</a>
+            </td>
+            <td>
+                <b>
+                    feat: add inbound message queue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #259
+Fixes #337
+Fixes hyperledger/aries-mobile-agent-react-native#59
+
+Adds inbound message queue with serial processing. The `agent.receiveMessage` does not yet use this queue as receiving messages directly on the agent seems separate and I think it won't interfere with the internal processing of messages. 
+
+We can add it later, but we'd need to make the queue a bit more complex to be able to await `receiveMessage`. For now it should fix the race conditions as encountered by @MosCD3 and @pabloromeu
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-06-30 08:34:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/336" class=".btn">#336</a>
             </td>
             <td>
@@ -111,61 +350,6 @@ Co-authored-by: James Ebert <jamesebert.k@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-06-28 15:35:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/333" class=".btn">#333</a>
-            </td>
-            <td>
-                <b>
-                    chore: export injection symbols
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-25 19:55:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/331" class=".btn">#331</a>
-            </td>
-            <td>
-                <b>
-                    feat: allow for lazy wallet initialization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - remove agent `closeAndDeleteWallet` as it was only used for tests. They now inject the wallet to close and delete
-- make `walletConfig` and `walletCredentials` optional in `InitConfig`
-- user can now manually initiale the wallet
-- If agent is initialized and wallet is not yet initialized and no `walletConfig` and `walletCredentials` are available an error will be thrown
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-24 16:32:26 +0000 UTC
     </div>
 </div>
 
