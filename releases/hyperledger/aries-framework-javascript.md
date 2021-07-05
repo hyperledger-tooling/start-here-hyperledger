@@ -15,6 +15,34 @@ permalink: /releases/hyperledger/aries-framework-javascript
         <tr>
             <td colspan="2">
                 <b>
+                    Release 0.0.51-unstable.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    0.0.51-unstable.0
+                </span>
+            </td>
+            <td>
+                * fix: Remove apostrophe from connection request message type (#364) (ee81d01)
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.51-unstable.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-07-05 15:21:35 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Release 0.0.50-unstable.0
                 </b>
             </td>
