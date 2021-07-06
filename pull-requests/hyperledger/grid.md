@@ -229,35 +229,3 @@ To test: run `docker-compose -f examples/splinter/docker-compose.yaml up` and en
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/784" class=".btn">#784</a>
-            </td>
-            <td>
-                <b>
-                    Remove rest api Endpoint from config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This changes the `endpoint` value in the GridConfig to a string.
-Previously, this was an `Endpoint` value using the `Endpoint` type from
-the `actix_web_3` module in the sdk. Now the conversion is done in the
-`run_splinter` and `run_sawtooth` functions and is guarded behind the
-`rest-api` feature.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-28 19:27:03 +0000 UTC
-    </div>
-</div>
-

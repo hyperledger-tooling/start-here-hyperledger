@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/523" class=".btn">#523</a>
+            </td>
+            <td>
+                <b>
+                    Centralize Notifications/Tasks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
+
+Centralize notifications for events/activities, and have a task list (activities that require user response).
+
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/523"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 00:13:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/522" class=".btn">#522</a>
             </td>
             <td>

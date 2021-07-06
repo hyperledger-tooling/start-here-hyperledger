@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/74" class=".btn">#74</a>
-            </td>
-            <td>
-                <b>
-                    fix: add assign_thread_from function to ReceiveInvitationHandler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Char <char@indicio.tech>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-28 22:18:03 +0000 UTC
-    </div>
-</div>
-
