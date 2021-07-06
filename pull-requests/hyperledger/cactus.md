@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1110" class=".btn">#1110</a>
+            </td>
+            <td>
+                <b>
+                    remove magic strings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1104
+
+Signed-off-by: Hana Awad <awadhana0825@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 17:32:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1109" class=".btn">#1109</a>
             </td>
             <td>
@@ -191,32 +219,6 @@ depends on #1007, #1032
     </table>
     <div class="right-align">
         Created At 2021-06-29 18:30:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1102" class=".btn">#1102</a>
-            </td>
-            <td>
-                <b>
-                    feat(besu): record locator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolve #365 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 14:32:14 +0000 UTC
     </div>
 </div>
 

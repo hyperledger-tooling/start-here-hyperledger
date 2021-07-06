@@ -203,29 +203,3 @@ To test: run `docker-compose -f examples/splinter/docker-compose.yaml up` and en
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/789" class=".btn">#789</a>
-            </td>
-            <td>
-                <b>
-                    Add files for publishing grid-sdk to crates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 14:34:23 +0000 UTC
-    </div>
-</div>
-
