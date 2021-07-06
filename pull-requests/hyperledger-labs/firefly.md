@@ -227,30 +227,3 @@ Additionally, the swagger UI has now been integrated into the docs pages hosted 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/102" class=".btn">#102</a>
-            </td>
-            <td>
-                <b>
-                    Local docs build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Add a build that you can run on your laptop with: `bundle exec jekyll serve`
-- Add a link to the docs from the readme
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-28 21:20:32 +0000 UTC
-    </div>
-</div>
-
