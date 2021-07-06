@@ -1,13 +1,13 @@
 
-[459](https://github.com/hyperledger/fabric-samples/pull/459) chore: minor simplification of configtx yaml
+[2504](https://github.com/hyperledger/besu/pull/2504) added london block
 
-[1294](https://github.com/hyperledger/aries-cloudagent-python/pull/1294) DIF PE - is_holder property implementation - compliant with DIF spec
+[43](https://github.com/hyperledger-labs/firefly-ui/pull/43) fix message count on dashboard
 
-[458](https://github.com/hyperledger/fabric-samples/pull/458) New HSM Typescript Sample
+[1298](https://github.com/hyperledger/aries-cloudagent-python/pull/1298) check if did is already qualified
 
-[55](https://github.com/hyperledger-labs/fabric-token-sdk/pull/55) add a getter for validation parameters + export unmarshalling method
+[1110](https://github.com/hyperledger/cactus/pull/1110) remove magic strings
 
-[71](https://github.com/hyperledger-labs/fabric-smart-client/pull/71) Split CI
+[57](https://github.com/hyperledger-labs/fabric-token-sdk/pull/57) Refactor VerifyTransfers
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

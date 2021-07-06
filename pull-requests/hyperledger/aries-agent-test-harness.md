@@ -267,29 +267,3 @@ Fixes to support the new connection_protocol field. This will fix all failing te
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/269" class=".btn">#269</a>
-            </td>
-            <td>
-                <b>
-                    Add dockers to docker network to fix ngrok issues for mobile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 16:43:08 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/527" class=".btn">#527</a>
+            </td>
+            <td>
+                <b>
+                    Fix did doc web
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger-labs/business-partner-agent/issues/445
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/527"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 13:03:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/524" class=".btn">#524</a>
             </td>
             <td>
@@ -61,7 +91,7 @@ map all restrictions to their credential that satisfies it.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backend</span><span class="chip">enhancement</span><span class="chip">frontend</span>
             </td>
             <td>
                 Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>

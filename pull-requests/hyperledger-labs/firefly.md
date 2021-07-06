@@ -201,29 +201,3 @@ Additionally, the swagger UI has now been integrated into the docs pages hosted 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/103" class=".btn">#103</a>
-            </td>
-            <td>
-                <b>
-                    update ui to release v0.1.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 15:33:33 +0000 UTC
-    </div>
-</div>
-

@@ -66,29 +66,3 @@ Signed-off-by: Stefan Hauffe <stefan.hauffe@mgm-tp.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/4" class=".btn">#4</a>
-            </td>
-            <td>
-                <b>
-                    https://github.com/hyperledger-labs/acapy-java-client/issues/3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 15:54:48 +0000 UTC
-    </div>
-</div>
-

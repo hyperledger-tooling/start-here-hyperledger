@@ -38,6 +38,7 @@ permalink: /pull-requests/hyperledger/iroha
 ### Description of the Change
 
 Added tests for new network.
+Fixes https://github.com/hyperledger/iroha/issues/1130
 
 ### Benefits
 
@@ -433,33 +434,6 @@ Individual commits pass build and tests, so squash is not required
     </table>
     <div class="right-align">
         Created At 2021-06-30 06:29:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1109" class=".btn">#1109</a>
-            </td>
-            <td>
-                <b>
-                    [PSQL] optimize flush() for reindexBlocks() to branch main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                Signed-off-by: kuvaldini <ivan@kuvaldini.pro>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 18:02:34 +0000 UTC
     </div>
 </div>
 
