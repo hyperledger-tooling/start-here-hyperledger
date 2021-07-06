@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/366" class=".btn">#366</a>
+            </td>
+            <td>
+                <b>
+                    Add missing documentation steps for setting up AFJ for RN
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Missing adding the file system package which will yield in exception when running the code in the documentation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 02:03:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/364" class=".btn">#364</a>
             </td>
             <td>

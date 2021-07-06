@@ -220,29 +220,3 @@ depends on #1007, #1032
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1101" class=".btn">#1101</a>
-            </td>
-            <td>
-                <b>
-                    fix(typo): fix typo of issue1053
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: jsjs026 <jasonhack518@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 03:19:23 +0000 UTC
-    </div>
-</div>
-
