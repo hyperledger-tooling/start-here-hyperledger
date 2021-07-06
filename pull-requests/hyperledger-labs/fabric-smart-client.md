@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/71" class=".btn">#71</a>
+            </td>
+            <td>
+                <b>
+                    Split CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 09:43:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/68" class=".btn">#68</a>
             </td>
             <td>
@@ -147,32 +173,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-06-30 07:08:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/59" class=".btn">#59</a>
-            </td>
-            <td>
-                <b>
-                    Support for multiple Fabric Networks #9
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - [x ] fabric-sdk: refactor FNS methods
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 07:49:03 +0000 UTC
     </div>
 </div>
 

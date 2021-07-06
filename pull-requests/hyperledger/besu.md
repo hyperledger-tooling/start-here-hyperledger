@@ -88,9 +88,6 @@ Fix a consensus issue detected on ropsten. There was a check of elasticity that 
 		assert expected_base_fee_per_gas == block.base_fee_per_gas, 'invalid block: base fee not correct'
 
 
-I also detected a code that seems invalid in the generation of expectedBaseFee (max missing)
-> expected_base_fee_per_gas = max(parent_base_fee_per_gas - base_fee_per_gas_delta, 0)
-
 ## Changelog
 
 - [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).

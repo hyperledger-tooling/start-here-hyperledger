@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/143" class=".btn">#143</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/146" class=".btn">#146</a>
             </td>
             <td>
                 <b>
-                    Fix cannot remove mychannel.tx
+                    Fix flags for the latest stable ethereum
                 </b>
             </td>
         </tr>
@@ -27,30 +27,16 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                If you run the following command (forgot to run `generate.sh` first):
+                From go-ethereum 1.10, command flags have been changed.
+Therefore sample in networks/ethereum/1node-clique can't work.
+This PR fixes the issue.
 
-```bash
-npm init -y
-npm install --only=prod @hyperledger/caliper-cli@0.4.0
-npx caliper bind --caliper-bind-sut fabric:1.4
-npx caliper launch manager --caliper-workspace . --caliper-benchconfig benchmarks/scenario/simple/config.yaml --caliper-networkconfig networks/fabric/v1/v1.4.1/2org1peergoleveldb/fabric-go.yaml
-```
-
-You will get an **empty folder** `mychannel.tx` in `networks/fabric/config_solo/`.
-
-After this happens, run `generate.sh` and you will get the following error:
-
-```bash
-rm: cannot remove './mychannel.tx': Is a directory
-[common.tools.configtxgen] main -> FATA 011 Error on outputChannelCreateTx: Error writing channel create tx: open mychannel.tx: is a directory
-```
-
-This problem can be fixed by replacing `rm -f` in `generate.sh` with `rm -rf`.
+Signed-off-by: Nao Nishijima <nao.nishijima.xt@hitachi.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-21 13:37:50 +0000 UTC
+        Created At 2021-07-06 08:47:03 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1294" class=".btn">#1294</a>
+            </td>
+            <td>
+                <b>
+                    DIF PE - is_holder property implementation - compliant with DIF spec
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolve #1261
+- I think this meets the following attributes from the DIF spec but does not use the `is_holder` property to decide whether the `VP` should be signed or not. But in case, this is needed then this can be done with minimal changes/extension.
+1. `Verify that the Holder or Subject of the Claim still controls the identifier [DID].` [Link](https://identity.foundation/presentation-exchange/#proof-of-identifier-control)
+2. `Holder of  Claim is the same as the Subject of the attribute.` [Link](https://identity.foundation/presentation-exchange/#note-2) 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 11:21:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1293" class=".btn">#1293</a>
             </td>
             <td>
@@ -285,42 +314,6 @@ Makes the json response consistent with the previous aca-py release
     </table>
     <div class="right-align">
         Created At 2021-06-29 20:26:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1276" class=".btn">#1276</a>
-            </td>
-            <td>
-                <b>
-                    DIF PE - giving Holder more control on how to specify presentation_request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #1262 
-[includes detail about the approach and discussion around the use cases]
-- Maybe `./demo/AliceWantsAJsonCredential.md` needs to be updated
-1. With no `auto` settings on. if multiple credentials are applicable to a `presentation_request` then it is required for `holder` to specify the credential `record_id`.
-
-```
-"record_ids": {
-     "citizenship_input_1": [ "1496316f972e40cf9b46b35971182337" ]
-}
-```
-2. With `auto` settings on, if X credentials are applicable to a `presentation_request` and only Y credentials should be returned based upon `submission_requirements`, then first Y credentials sorted by `issuanceDate` [in reverse] are returned.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 08:00:55 +0000 UTC
     </div>
 </div>
 

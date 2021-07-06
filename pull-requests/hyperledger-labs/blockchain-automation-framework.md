@@ -14,6 +14,93 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1561" class=".btn">#1561</a>
+            </td>
+            <td>
+                <b>
+                    [besu] Vault validation function improvement for tessera and besu nodes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+- Add improved validation function for vault response in besu: node_tessera and node_besu. 
+
+**Tested Scenarios**
+Besu tessera/besu vault sealed
+<img width="668" alt="NetworkBesu-DeletePod-VaultSealed-memberError-tessera" src="https://user-images.githubusercontent.com/83813093/124573525-e9b71200-de49-11eb-924e-d4911ace2d17.png">
+
+Besu tessera/besu vault port changed
+<img width="716" alt="NetworkBesu-DeletePod-VaultPortChanged-memberError-tessera" src="https://user-images.githubusercontent.com/83813093/124573657-0ce1c180-de4a-11eb-8601-2ac8979e0368.png">
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar
+@alvaropicazo
+
+ 
+
+**Linked issue**
+#1364 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 09:06:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1560" class=".btn">#1560</a>
+            </td>
+            <td>
+                <b>
+                    [shared] updates for k8s 1.19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Remove unused png files
+- Update Ingress and rolebinding as per Kubernetes 1.19
+- Update Flux version to 1.23.0
+- Update HAProxy version to 0.12.5
+- Update Ambassador to 1.13.9 
+- Update helm to v3.6.2
+ 
+
+**Linked issue**
+Resolves #1538 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 09:00:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1555" class=".btn">#1555</a>
             </td>
             <td>
@@ -228,41 +315,6 @@ Resolves #1414
     </table>
     <div class="right-align">
         Created At 2021-06-30 14:32:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1541" class=".btn">#1541</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] quorum and tessera version upgrade
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Update version for quorum and tessera
-- Tessera version 21.4.0 and Quorum 21.4.2
- 
-
-**Linked issue**
-#1451 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 06:44:52 +0000 UTC
     </div>
 </div>
 
