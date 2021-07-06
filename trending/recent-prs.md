@@ -1,13 +1,13 @@
 
-[2856](https://github.com/hyperledger/aries-framework-go/pull/2856) feat: support packer selection based on destination MediaType
+[459](https://github.com/hyperledger/fabric-samples/pull/459) chore: minor simplification of configtx yaml
 
-[1293](https://github.com/hyperledger/aries-cloudagent-python/pull/1293) Add indy-vdr test coverage
+[1294](https://github.com/hyperledger/aries-cloudagent-python/pull/1294) DIF PE - is_holder property implementation - compliant with DIF spec
 
-[524](https://github.com/hyperledger-labs/business-partner-agent/pull/524) Feature/proof request details
+[458](https://github.com/hyperledger/fabric-samples/pull/458) New HSM Typescript Sample
 
-[366](https://github.com/hyperledger/aries-framework-javascript/pull/366) Add missing documentation steps for setting up AFJ for RN
+[55](https://github.com/hyperledger-labs/fabric-token-sdk/pull/55) add a getter for validation parameters + export unmarshalling method
 
-[2501](https://github.com/hyperledger/besu/pull/2501) SECP256R1 BC now using non-deterministic variant
+[71](https://github.com/hyperledger-labs/fabric-smart-client/pull/71) Split CI
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

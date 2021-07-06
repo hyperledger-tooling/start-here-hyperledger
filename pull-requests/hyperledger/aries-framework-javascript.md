@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/367" class=".btn">#367</a>
+            </td>
+            <td>
+                <b>
+                    feat: auto accept proofs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds automatically accepting of proof requests. This functions the same as #336 to stay as consistent as possible, yet they work completely seperate to eachother.
+
+It allows for an agent- and recordwide configuration where the record configuration has priority.
+
+Three states are allowed to be set:
+- `always`: accept any proof request/proposal no matter what the content might be.
+- `contentApproved`: accept any proof request/proposal as long as none of the content changes and it has to be accepted manually at least once.
+- `never` (DEFAULT) Does not automate anything and will just behave the same as before these changes.
+
+Note: I am not sure whether we want to mention this as a feature in the README, so if there is any problem with this I will remove it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 08:32:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/366" class=".btn">#366</a>
             </td>
             <td>
