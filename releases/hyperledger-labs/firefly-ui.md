@@ -15,6 +15,34 @@ permalink: /releases/hyperledger-labs/firefly-ui
         <tr>
             <td colspan="2">
                 <b>
+                    v0.1.4_4dd3009
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.1.4
+                </span>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger-labs/firefly-ui/releases/tag/v0.1.4" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-07-06 18:08:39 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.1.3_d7435d1
                 </b>
             </td>
@@ -35,34 +63,6 @@ permalink: /releases/hyperledger-labs/firefly-ui
     </a>
     <span class="right-align">
         Created At 2021-07-01 18:38:10 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.1.2_a1c8039
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.1.2
-                </span>
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/firefly-ui/releases/tag/v0.1.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-06-29 15:23:29 +0000 UTC
     </span>
 </div>
 
