@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1293" class=".btn">#1293</a>
+            </td>
+            <td>
+                <b>
+                    Add indy-vdr test coverage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Basic unit test coverage
+- Split out unit tests for `Role` class
+- Move `taa_digest` implementation to base class
+- Update indy-vdr version
+- Implement `txn_endorse` for IndyVdrLedger
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 03:40:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1289" class=".btn">#1289</a>
             </td>
             <td>

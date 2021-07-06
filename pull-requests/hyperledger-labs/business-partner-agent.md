@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/524" class=".btn">#524</a>
+            </td>
+            <td>
+                <b>
+                    Feature/proof request details
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Proof Request response table now goes to a new details page on row click, the user can see all attributes and restrictions, if the restriction is a schema_id, provide a button to the credential that satisfies that schema, if no schema is there, provide a message on click. 
+
+Button click when there is no cred is not emitting an error toast as expected.... 
+
+Future improvements: 
+Disable button/don't show button if restriction cannot be satisfied
+Show the exact values the user will provide when accepting the request
+map all restrictions to their credential that satisfies it. 
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/524"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 03:09:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/523" class=".btn">#523</a>
             </td>
             <td>
