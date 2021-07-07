@@ -101,31 +101,3 @@ Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/455" class=".btn">#455</a>
-            </td>
-            <td>
-                <b>
-                    New HSM Typescript Sample
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a new sample in typescript to show how to use an HSM within a client node application
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 09:56:24 +0000 UTC
-    </div>
-</div>
-
