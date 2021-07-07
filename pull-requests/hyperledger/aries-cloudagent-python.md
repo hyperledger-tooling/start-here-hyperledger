@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1300" class=".btn">#1300</a>
+            </td>
+            <td>
+                <b>
+                    Accept short DIDs for their_public_did parameter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Follow-up to https://github.com/hyperledger/aries-cloudagent-python/pull/1296
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 16:27:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1298" class=".btn">#1298</a>
             </td>
             <td>
@@ -316,35 +342,6 @@ This PR also changes the requirement checks in the demo agents to allow running 
     </table>
     <div class="right-align">
         Created At 2021-06-30 20:20:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1282" class=".btn">#1282</a>
-            </td>
-            <td>
-                <b>
-                    Revert create schema and cred_def json response (remove 'sent')
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Makes the json response consistent with the previous aca-py release
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 14:15:54 +0000 UTC
     </div>
 </div>
 

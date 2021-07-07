@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/368" class=".btn">#368</a>
+            </td>
+            <td>
+                <b>
+                    refactor: inject transport service in transports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @jakubkoci as per your comment in #322 here's how you can achieve it using dependency injection
+
+I think we should use injection for the transports in general instead of manually passing the agent in. But for now I think this is a fine solution.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 18:18:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/367" class=".btn">#367</a>
             </td>
             <td>

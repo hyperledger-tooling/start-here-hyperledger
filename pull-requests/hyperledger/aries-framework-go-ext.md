@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/137" class=".btn">#137</a>
-            </td>
-            <td>
-                <b>
-                    fix: Race condition in MySQL storage provider
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes a race condition in the MySQL storage provider that causes tags to be lost when storing data in parallel.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 15:39:00 +0000 UTC
-    </div>
-</div>
-

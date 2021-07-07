@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/16" class=".btn">#16</a>
+            </td>
+            <td>
+                <b>
+                    Use ibc-go instead of cosmos-sdk/x/ibc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                close #15 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 15:02:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/14" class=".btn">#14</a>
             </td>
             <td>

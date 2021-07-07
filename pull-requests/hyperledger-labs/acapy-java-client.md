@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/8" class=".btn">#8</a>
+            </td>
+            <td>
+                <b>
+                    extend presentproofrequest-restrictions-for-generic-restrictions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added support for generic restrictions in PresentProofRequest. Added addAttributeValueRestriction for convenience to the ProofRestrictionsBuilder.
+
+Signed-off-by: Lars Wegner <lars.wegner2@de.bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 15:34:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/7" class=".btn">#7</a>
             </td>
             <td>
