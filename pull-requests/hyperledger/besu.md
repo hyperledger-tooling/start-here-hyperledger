@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2505" class=".btn">#2505</a>
+            </td>
+            <td>
+                <b>
+                    Prioritize with nonce distance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+Prevent multiple transactions from the same address from evicting others which are waiting in a full transaction pool. When we have to evict a transaction from a full pool, we now also consider how far it is from the lowest nonce from the same address already in the pool. We are also increasing the size of the pending transaction pool, so it should support the new 10MB maximum message size previously introduced by pr [#2485](https://github.com/hyperledger/besu/pull/2485) .
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+Default value for `--tx-pool-max-size`  is now 32K.
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 20:24:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2504" class=".btn">#2504</a>
             </td>
             <td>
@@ -408,72 +447,6 @@ Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
     </table>
     <div class="right-align">
         Created At 2021-06-30 11:48:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2487" class=".btn">#2487</a>
-            </td>
-            <td>
-                <b>
-                    QBFT release changelog entry
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jason Frame <jasonwframe@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-QBFT release changelog entry
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 23:30:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2486" class=".btn">#2486</a>
-            </td>
-            <td>
-                <b>
-                    Add Early Return
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 22:07:53 +0000 UTC
     </div>
 </div>
 

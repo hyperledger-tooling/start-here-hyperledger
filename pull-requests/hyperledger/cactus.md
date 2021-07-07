@@ -191,34 +191,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1103" class=".btn">#1103</a>
-            </td>
-            <td>
-                <b>
-                    feat(ipfs): ipfs-keychain implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                **Added**
-
-- ipfs-keychain test case
-- ipfs remove functionality
-
-depends on #1007, #1032
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 18:30:01 +0000 UTC
-    </div>
-</div>
-
