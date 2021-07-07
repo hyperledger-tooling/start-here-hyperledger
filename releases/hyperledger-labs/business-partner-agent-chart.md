@@ -15,6 +15,34 @@ permalink: /releases/hyperledger-labs/business-partner-agent-chart
         <tr>
             <td colspan="2">
                 <b>
+                    bpa-0.7.0-alpha04
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    bpa-0.7.0-alpha04
+                </span>
+            </td>
+            <td>
+                The Business Partner Agent allows to manage and exchange master data between organizations.
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.7.0-alpha04" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-07-07 09:21:26 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     bpa-0.7.0-alpha03
                 </b>
             </td>
@@ -63,34 +91,6 @@ permalink: /releases/hyperledger-labs/business-partner-agent-chart
     </a>
     <span class="right-align">
         Created At 2021-07-05 07:02:50 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    bpa-0.7.0-alpha01
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    bpa-0.7.0-alpha01
-                </span>
-            </td>
-            <td>
-                The Business Partner Agent allows to manage and exchange master data between organizations.
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.7.0-alpha01" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-06-30 13:52:09 +0000 UTC
     </span>
 </div>
 
