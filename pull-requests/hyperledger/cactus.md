@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1111" class=".btn">#1111</a>
+            </td>
+            <td>
+                <b>
+                    build(typescript): use project references compiler feature #312
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                WORK IN PROGRESS
+
+Fixes #312
+Fixes #973
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 01:43:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1110" class=".btn">#1110</a>
             </td>
             <td>

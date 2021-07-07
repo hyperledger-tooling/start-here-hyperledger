@@ -34,6 +34,8 @@ While we could have it so that DX has init containers to copy over an initial co
 It felt easier to do some of the work now, and make `peers` a separate, writeable JSON file and have the two pieces of data get merged at load time. Additionally, if the `peers/data.json` does not exist it just sets the peers list to empty to avoid additional bootstrapping (though the subdirectory does have to be made...).
 
 I'm wondering if `config.json`, `key.pem`, `cert.pem`, and `ca.pem` shouldn't be in an entirely separate separate folder i.e. /config so that the two directories can be have different permissions i.e. readable vs writeable. Looking for feedback there as opposed to having peers/data.json be a subfolder.
+
+Also includes a bug related to reading CAs from EBS-backed PVCs, see https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/28#issuecomment-875219742
             </td>
         </tr>
     </table>

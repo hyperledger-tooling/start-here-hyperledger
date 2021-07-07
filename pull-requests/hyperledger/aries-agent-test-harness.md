@@ -239,31 +239,3 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/270" class=".btn">#270</a>
-            </td>
-            <td>
-                <b>
-                    fixes for new connection_protocol field in messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Fixes to support the new connection_protocol field. This will fix all failing tests across AIP20 and AIP10, except for one JSON_LD test, which I believe is expected to fail.  This PR has to be merged with #1281 in aries-cloudagent-python to work.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 01:12:02 +0000 UTC
-    </div>
-</div>
-

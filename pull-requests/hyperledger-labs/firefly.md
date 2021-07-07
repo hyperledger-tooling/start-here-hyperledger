@@ -61,8 +61,9 @@ Includes a GHA workflow that uses [chart-testing](https://github.com/helm/chart-
 
 # TODOs
 - [x] Get integration test passing
+- [ ] Liveness / readiness probes
+- [ ] Log level options
 - Follow-up Issues
-  - [ ] Liveness / readiness probes
   - [ ] Proper chart packaging and releases via GH Pages
   - [ ] Open-ended question for docs / automation around blockchain initialization and contracts
   - [ ] Init containers for ensuring each plugin interface is up i.e. Postgres, ethconnect, dx, IPFS

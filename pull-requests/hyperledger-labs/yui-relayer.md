@@ -90,29 +90,3 @@ Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/22" class=".btn">#22</a>
-            </td>
-            <td>
-                <b>
-                    Import the tendermint relay implementation in cosmos/relayer into ours
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes #17 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 05:32:52 +0000 UTC
-    </div>
-</div>
-
