@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2507" class=".btn">#2507</a>
+            </td>
+            <td>
+                <b>
+                    Goquorum privacy interop changelog
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+Adds GoQuorum privacy to changelog and moves QBFT and privacy to early access features
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 09:18:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2505" class=".btn">#2505</a>
             </td>
             <td>
@@ -418,35 +457,6 @@ Updates the GraphQL schema + adapter to handle GoQuorum transaction fields
     </table>
     <div class="right-align">
         Created At 2021-06-30 12:53:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2489" class=".btn">#2489</a>
-            </td>
-            <td>
-                <b>
-                    Refactor: make it easier to locate private on-chain re-hydrate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Make it easier to find where the re-hydrate happens when adding a new user to a group
-
-Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 11:48:51 +0000 UTC
     </div>
 </div>
 

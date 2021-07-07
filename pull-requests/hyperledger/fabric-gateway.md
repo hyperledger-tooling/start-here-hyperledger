@@ -38,32 +38,3 @@ Off-line signing test coverage and scenario tests for a later PR.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/136" class=".btn">#136</a>
-            </td>
-            <td>
-                <b>
-                    Refactor Go scenario tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Split units of functionality into different files for clarity.
-- Better abstraction of Gateway connection and transaction invocation.
-- Correctly initialise and clean up state before and after scenarios, including closing gRPC connections.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 11:38:08 +0000 UTC
-    </div>
-</div>
-

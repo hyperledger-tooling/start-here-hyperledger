@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/129" class=".btn">#129</a>
-            </td>
-            <td>
-                <b>
-                    :bug: [client] Defer release version 1 cache
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #128 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 07:39:02 +0000 UTC
-    </div>
-</div>
-
