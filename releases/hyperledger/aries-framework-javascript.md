@@ -15,6 +15,62 @@ permalink: /releases/hyperledger/aries-framework-javascript
         <tr>
             <td colspan="2">
                 <b>
+                    Release 0.0.53-unstable.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    0.0.53-unstable.0
+                </span>
+            </td>
+            <td>
+                * feat: Use session to send outbound message (#362) (7366ca7)
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.53-unstable.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-07-07 15:11:10 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    Release 0.0.52-unstable.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    0.0.52-unstable.0
+                </span>
+            </td>
+            <td>
+                * feat: allow for lazy wallet initialization (#331) (46918a1)
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.52-unstable.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-07-07 14:00:51 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Release 0.0.51-unstable.0
                 </b>
             </td>
@@ -63,62 +119,6 @@ permalink: /releases/hyperledger/aries-framework-javascript
     </a>
     <span class="right-align">
         Created At 2021-07-04 10:17:04 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    Release 0.0.49-unstable.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    0.0.49-unstable.0
-                </span>
-            </td>
-            <td>
-                * feat: add inbound message queue (#339) (93893b7)
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.49-unstable.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-06-30 15:48:22 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    Release 0.0.48-unstable.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    0.0.48-unstable.0
-                </span>
-            </td>
-            <td>
-                * chore: export injection symbols (#333) (e1a4adf)
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.48-unstable.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-06-30 14:03:35 +0000 UTC
     </span>
 </div>
 
