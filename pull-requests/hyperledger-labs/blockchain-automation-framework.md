@@ -292,29 +292,3 @@ Resolves #1414
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1542" class=".btn">#1542</a>
-            </td>
-            <td>
-                <b>
-                    [chore] Release merge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                PR to merge develop into master for the current release
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 14:32:57 +0000 UTC
-    </div>
-</div>
-

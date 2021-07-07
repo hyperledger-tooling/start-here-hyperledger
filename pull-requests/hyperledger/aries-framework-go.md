@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2859" class=".btn">#2859</a>
+            </td>
+            <td>
+                <b>
+                    chore: refactor CreateDestination interop behaviour behind flag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 15:06:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2857" class=".btn">#2857</a>
             </td>
             <td>
@@ -60,6 +86,7 @@ It also updates the default authcrypt packing sender key type to be AES256CBCHS5
 closes #1112 (packer is selected based on mediaTypeProfile)
 closes #272 (key type is managed by the kms)
 closes #749 (diffrent keys are supported by the packers, except LegacyPacker that supports ED25519 keys only)
+closes #2858 (SendToDID now can be used without a DID connection, as it was before)
 
 Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
 
@@ -68,34 +95,6 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-07-06 04:24:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2854" class=".btn">#2854</a>
-            </td>
-            <td>
-                <b>
-                    fix: Race condition in IndexedDB and LevelDB storage providers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes a race condition in the IndexedDB and LevelDB storage providers that causes tags to be lost when storing data in parallel.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 14:53:46 +0000 UTC
     </div>
 </div>
 

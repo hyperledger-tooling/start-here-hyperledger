@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/iroha-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/73" class=".btn">#73</a>
-            </td>
-            <td>
-                <b>
-                    Add ordering sequence to params in query
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Makes possible to add ordering sequence to Query. Fixes #72
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 17:51:32 +0000 UTC
-    </div>
-</div>
-

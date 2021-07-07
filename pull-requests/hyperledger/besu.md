@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2510" class=".btn">#2510</a>
+            </td>
+            <td>
+                <b>
+                    build gradle: Update tags for Quorum Acceptance Tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ricardo Silva <ricardo.silva@consensys.net>
+
+## PR description
+
+Update tags used for Quorum Acceptance Tests to support new tests added on https://github.com/ConsenSys/quorum-acceptance-tests/pull/117.
+
+## Fixed Issue(s)
+
+matches changes on https://github.com/ConsenSys/quorum-acceptance-tests/pull/117
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 15:13:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2509" class=".btn">#2509</a>
+            </td>
+            <td>
+                <b>
+                    Privacy plugin genesis
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 14:10:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2507" class=".btn">#2507</a>
             </td>
             <td>
@@ -422,41 +493,6 @@ This ticket fixes a consistency issue between the blockchain storage part and th
     </table>
     <div class="right-align">
         Created At 2021-07-01 00:05:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2490" class=".btn">#2490</a>
-            </td>
-            <td>
-                <b>
-                    GraphQL schema + adapter updates to handle GoQuorum transaction fields
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-Updates the GraphQL schema + adapter to handle GoQuorum transaction fields
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 12:53:14 +0000 UTC
     </div>
 </div>
 

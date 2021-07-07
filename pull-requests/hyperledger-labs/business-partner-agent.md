@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/536" class=".btn">#536</a>
+            </td>
+            <td>
+                <b>
+                    Check if tails is configured
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/536"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 16:20:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/535" class=".btn">#535</a>
+            </td>
+            <td>
+                <b>
+                    Switching to did exchange protocoll for all connections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Depends on the very latest changes from the aca-py main branch so we can not merge yet.
+
+Switched all connection related actions to the did exchange endpoints which allows us to send our public did together with the connection request.
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/535"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 14:48:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/534" class=".btn">#534</a>
             </td>
             <td>
