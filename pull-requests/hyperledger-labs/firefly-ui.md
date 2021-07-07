@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/firefly-ui
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/41" class=".btn">#41</a>
-            </td>
-            <td>
-                <b>
-                    update url building to handle creds in url
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 19:22:30 +0000 UTC
-    </div>
-</div>
-

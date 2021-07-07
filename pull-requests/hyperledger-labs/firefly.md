@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/118" class=".btn">#118</a>
+            </td>
+            <td>
+                <b>
+                    update explorer to v0.1.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-06 18:56:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/114" class=".btn">#114</a>
             </td>
             <td>
@@ -172,32 +198,6 @@ Additionally, the swagger UI has now been integrated into the docs pages hosted 
     </table>
     <div class="right-align">
         Created At 2021-07-01 13:08:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/104" class=".btn">#104</a>
-            </td>
-            <td>
-                <b>
-                    Add README link for firefly-samples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-29 22:00:20 +0000 UTC
     </div>
 </div>
 

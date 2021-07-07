@@ -1,13 +1,13 @@
 
-[2504](https://github.com/hyperledger/besu/pull/2504) added london block
+[430](https://github.com/hyperledger-labs/solang/pull/430) Fix broken codegen cases
 
-[43](https://github.com/hyperledger-labs/firefly-ui/pull/43) fix message count on dashboard
+[2505](https://github.com/hyperledger/besu/pull/2505) Prioritize with nonce distance
 
-[1298](https://github.com/hyperledger/aries-cloudagent-python/pull/1298) check if did is already qualified
+[2741](https://github.com/hyperledger/fabric/pull/2741) Update docs to clarify that an implicit collection can not have an index (backport #2739)
 
-[1110](https://github.com/hyperledger/cactus/pull/1110) remove magic strings
+[2740](https://github.com/hyperledger/fabric/pull/2740) Update docs to clarify that an implicit collection can not have an index (backport #2739)
 
-[57](https://github.com/hyperledger-labs/fabric-token-sdk/pull/57) Refactor VerifyTransfers
+[502](https://github.com/hyperledger/fabric-docs-i18n/pull/502) [pt_BR] translate prerequisites
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

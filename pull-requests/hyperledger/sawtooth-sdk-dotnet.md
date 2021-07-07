@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-dotnet
                 
             </td>
             <td>
-                Prepend the truncated zero bytes to both haves of the ECDSA signature.
+                Prepend the truncated zero bytes to both halves of the ECDSA signature.
 
 Previously, the R and S values of the signatures would be concatenated
 as-is. This would result in malformed signatures if any of the generated
