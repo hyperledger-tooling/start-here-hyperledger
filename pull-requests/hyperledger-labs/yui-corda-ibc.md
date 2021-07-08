@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/14" class=".btn">#14</a>
-            </td>
-            <td>
-                <b>
-                    Change the Go module path from "github.com/datachainlab/corda-ibc/go" to "github.com/hyperledger-labs/yui-corda-ibc/go"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                close #13 
-
-Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 03:53:12 +0000 UTC
-    </div>
-</div>
-

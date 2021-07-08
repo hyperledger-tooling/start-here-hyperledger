@@ -91,32 +91,3 @@ Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/254" class=".btn">#254</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix: trailing ampersand sign that is preventing container from restarting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## This PR:
-- removes trailing ampersand sign in start script which prevents docker container from restarting.
-
-### Note: this has been reflected with @nekia, more [info](https://chat.hyperledger.org/channel/hyperledger-explorer?msg=Hf6nkhLoNfFazXbNW) here.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 00:48:55 +0000 UTC
-    </div>
-</div>
-

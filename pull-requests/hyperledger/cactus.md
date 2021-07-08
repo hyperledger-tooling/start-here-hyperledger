@@ -150,7 +150,7 @@ cc: @Zzocker @sichen1234
         </tr>
         <tr>
             <td>
-                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span><span class="chip">dependent</span>
+                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
             </td>
             <td>
                 This will get us closer to the desired state of affairs where any
