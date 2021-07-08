@@ -76,7 +76,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">aip 2.0</span><span class="chip">enhancement</span>
             </td>
             <td>
                 This change sets the media type priority based on the destination according to Aries RFCs 19, 44 and 587.

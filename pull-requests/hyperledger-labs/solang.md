@@ -53,11 +53,14 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                This pull request implements unused variable detection for the slang compiler.
+                This pull request implements unused variable detection for the Solang compiler.
 It generates warnings for unused state variables, global constants and contract storage.
 As a bonus, I implemented the detection of events that have never been emitted.
 
 This PR also implements tests for the new code.
+
+This is the first milestone for the Linux Foundation mentorship on the Solang compiler.
+For more information, please refer to the [project plan](https://wiki.hyperledger.org/display/INTERN/Project+plan+-+Solang+compiler+passes+2021).
             </td>
         </tr>
     </table>

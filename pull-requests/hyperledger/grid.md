@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/800" class=".btn">#800</a>
+            </td>
+            <td>
+                <b>
+                    Rename pike to grid_pike
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The rest of the grid contracts are prefixed with grid_, this change updates
+pike to match.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 21:14:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/799" class=".btn">#799</a>
+            </td>
+            <td>
+                <b>
+                    Add accessor methods to Pike `Agent`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR makes a few changes in order to allow the fields of the `Agent` Pike struct to be private, rather than public. Store objects should have private fields and accessor methods, hence the change. Also, this PR adds a new `builder` module within the Pike store which currently holds an `AgentBuilder` used to construct agents. This PR also implements the use of the `AgentBuilder`. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 19:49:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/798" class=".btn">#798</a>
+            </td>
+            <td>
+                <b>
+                    Fix just ci recipe
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 19:08:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/797" class=".btn">#797</a>
             </td>
             <td>
@@ -111,43 +192,6 @@ permalink: /pull-requests/hyperledger/grid
     </table>
     <div class="right-align">
         Created At 2021-07-01 18:01:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/793" class=".btn">#793</a>
-            </td>
-            <td>
-                <b>
-                    Fix rest API URL handling in `run` methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change creates an `Endpoint` object from the `GridConfig`'s
-`endpoint` immediately as it is passed into the daemon's `run` methods
-for Splinter and Sawtooth backends. This allows for the backend rest
-API URL to be correctly formatted as it is returned by the
-config object with a `splinter:` or `sawtooth:` prefix to allow the
-daemon to start correctly. This fixes the issue where the `splinter:`
-and `sawtooth:` prefixes are being passed in with the URL, returning
-an error as this creates an invalid URL scheme.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-
-To test: run `docker-compose -f examples/splinter/docker-compose.yaml up` and ensure that the logs start as normal 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 19:16:07 +0000 UTC
     </div>
 </div>
 
