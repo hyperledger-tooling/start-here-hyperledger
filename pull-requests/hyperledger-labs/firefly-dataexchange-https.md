@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/30" class=".btn">#30</a>
+            </td>
+            <td>
+                <b>
+                    Peers subdirectory
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 15:12:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/28" class=".btn">#28</a>
             </td>
             <td>

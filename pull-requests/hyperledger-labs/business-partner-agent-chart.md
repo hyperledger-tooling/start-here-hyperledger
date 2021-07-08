@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    use aca-py 0.7.0rc0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Philipp Etschel <philipp@etschel.net>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 12:48:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/21" class=".btn">#21</a>
             </td>
             <td>

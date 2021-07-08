@@ -14,6 +14,136 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2523" class=".btn">#2523</a>
+            </td>
+            <td>
+                <b>
+                    move blocks and add mainnet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 17:54:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2522" class=".btn">#2522</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.7.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 17:30:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2521" class=".btn">#2521</a>
+            </td>
+            <td>
+                <b>
+                    Add snapshot
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 17:05:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2520" class=".btn">#2520</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.7.0 cherry-picks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 16:35:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2517" class=".btn">#2517</a>
+            </td>
+            <td>
+                <b>
+                    switch to hex integers for eth_feeHistory
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/ethereum/eth1.0-specs/blob/master/json-rpc/spec.json#L200
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 13:56:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2514" class=".btn">#2514</a>
             </td>
             <td>
@@ -507,71 +637,6 @@ Fixes #1975
     </table>
     <div class="right-align">
         Created At 2021-07-02 11:56:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2493" class=".btn">#2493</a>
-            </td>
-            <td>
-                <b>
-                    refcator response constructor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a non-functional change that sets me up to better support eth66.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 17:07:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2492" class=".btn">#2492</a>
-            </td>
-            <td>
-                <b>
-                    Fix bonsai storage inconsistency issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-This ticket fixes a consistency issue between the blockchain storage part and the worldstate storage .
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 12:46:10 +0000 UTC
     </div>
 </div>
 

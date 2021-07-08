@@ -73,29 +73,3 @@ This fixes #17
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/34" class=".btn">#34</a>
-            </td>
-            <td>
-                <b>
-                    Automated peer to peer connectivity - no synchronization timeout needed.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Chrysoula Stathakopoulou <tat@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 12:36:20 +0000 UTC
-    </div>
-</div>
-
