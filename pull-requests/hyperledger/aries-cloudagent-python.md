@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1302" class=".btn">#1302</a>
+            </td>
+            <td>
+                <b>
+                    Fix warnings due to action API updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 18:53:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1301" class=".btn">#1301</a>
+            </td>
+            <td>
+                <b>
+                    fix: failure to verify jsonld on non-conformant doc but vaild vmethod
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Minor fix for jsonld verify route.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 18:22:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1300" class=".btn">#1300</a>
             </td>
             <td>
@@ -286,62 +338,6 @@ Fixing the issue [here](https://github.com/hyperledger/aries-cloudagent-python/i
     </table>
     <div class="right-align">
         Created At 2021-07-01 03:28:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1284" class=".btn">#1284</a>
-            </td>
-            <td>
-                <b>
-                    PR#1276 Rework - Moved sorting of VCRecords into VCHolder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Following discussion with Andrew, decided to move the sorting logic into `./storage/vc_holder` for all 3 backends. 
-- If there is a `dateutil` exception triggered when sorting then return the `records` list as it is
-- Reverted changes made to `./present_proof/v2_0/formats/dif/handler.py`, `./present_proof/v2_0/routes.py` and corresponding tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 23:59:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1283" class=".btn">#1283</a>
-            </td>
-            <td>
-                <b>
-                    Remove indy-sdk dependency in IndyDidResolver
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The `BaseLedger` interface ((it should really be called `IndyLedger`) is sufficient and allows indy-vdr to substitute.
-
-This PR also changes the requirement checks in the demo agents to allow running without indy-sdk.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 20:20:54 +0000 UTC
     </div>
 </div>
 

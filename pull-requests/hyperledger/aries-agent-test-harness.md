@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/280" class=".btn">#280</a>
+            </td>
+            <td>
+                <b>
+                    Auto response state handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed the acapy backchannel removing the auto_accept on OOB calls so it defaults to the configuration. This only matters if acapy is started with the auto respond and auto accept options. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 20:05:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/279" class=".btn">#279</a>
             </td>
             <td>
@@ -198,44 +224,6 @@ It also fixes a failure when running `manage stop` on my system by adjusting the
     </table>
     <div class="right-align">
         Created At 2021-07-01 02:33:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/271" class=".btn">#271</a>
-            </td>
-            <td>
-                <b>
-                    feat: integrate orb did method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds `orb`, a new service, which runs a small orb network and a
-universal resolver orb driver instance.
-
-Integrates the service with the afgo backchannel, by having the service
-create an orb did and save the value in a data folder for the afgo backchannel
-to load.
-
-Adds a general way to load files into agent containers:
-A directory named <agent-name>.data (eg, afg-master.data), if present within the
-backchannel's folder, will be mounted as a volume within the given agent,
-to the path `/data-mount`.
-
-Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 21:42:33 +0000 UTC
     </div>
 </div>
 

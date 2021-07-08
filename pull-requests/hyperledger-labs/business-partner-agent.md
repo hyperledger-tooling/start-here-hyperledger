@@ -309,6 +309,11 @@ Disable button/don't show button if restriction cannot be satisfied
 Show the exact values the user will provide when accepting the request
 map all restrictions to their credential that satisfies it. 
 
+
+![image](https://user-images.githubusercontent.com/5376854/124823705-5d2e5180-df26-11eb-8c5c-51d14bb452d9.png)
+![image](https://user-images.githubusercontent.com/5376854/124823750-67e8e680-df26-11eb-932b-e4ab6b92bea8.png)
+
+
 <a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/524"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
 

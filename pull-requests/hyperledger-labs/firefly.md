@@ -62,7 +62,7 @@ Includes a GHA workflow that uses [chart-testing](https://github.com/helm/chart-
 # TODOs
 - [x] Get integration test passing
 - [ ] Liveness / readiness probes
-- [ ] Log level options
+- [x] Log level options
 - Follow-up Issues
   - [ ] Proper chart packaging and releases via GH Pages
   - [ ] Open-ended question for docs / automation around blockchain initialization and contracts

@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2513" class=".btn">#2513</a>
+            </td>
+            <td>
+                <b>
+                    QBFT release changelog entry (#2487)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+
+Signed-off-by: Jason Frame <jasonwframe@gmail.com>
+Co-authored-by: Usman Saleem <usman@usmans.info>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 00:13:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2512" class=".btn">#2512</a>
+            </td>
+            <td>
+                <b>
+                    2496 ping pong encoding error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+Correct malformed ENR sequence fields in PING and PONG messages. These were encoded as byte arrays, and now are encoded as long scalar values instead.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2496 
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-07 18:38:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2510" class=".btn">#2510</a>
             </td>
             <td>
@@ -465,34 +536,6 @@ This ticket fixes a consistency issue between the blockchain storage part and th
     </table>
     <div class="right-align">
         Created At 2021-07-01 12:46:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2491" class=".btn">#2491</a>
-            </td>
-            <td>
-                <b>
-                    enable quorum ATs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 00:05:42 +0000 UTC
     </div>
 </div>
 
