@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/31" class=".btn">#31</a>
+            </td>
+            <td>
+                <b>
+                    Add `service start` command that starts a relay service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+
+fixes #29 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 02:55:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/30" class=".btn">#30</a>
             </td>
             <td>
@@ -87,32 +115,6 @@ Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
     </table>
     <div class="right-align">
         Created At 2021-07-01 07:14:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/24" class=".btn">#24</a>
-            </td>
-            <td>
-                <b>
-                    Update IBC version to v1.0.0-beta1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #23 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 05:12:16 +0000 UTC
     </div>
 </div>
 

@@ -199,31 +199,3 @@ Closes #268
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/273" class=".btn">#273</a>
-            </td>
-            <td>
-                <b>
-                    Back-channels cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR applies Black formatting to the back channel implementations, fixes a bunch of Python warnings and removes unused imports. It also removes the checks for the indy-sdk Python library which were inherited from the demo agents, but aren't necessary here (if it's needed but not installed, then the tests will fail anyway).
-
-It also fixes a failure when running `manage stop` on my system by adjusting the check for `docker_result`, and aborts `manage build` if a docker build fails.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 02:33:17 +0000 UTC
-    </div>
-</div>
-

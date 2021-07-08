@@ -315,29 +315,3 @@ Fixing the issue [here](https://github.com/hyperledger/aries-cloudagent-python/i
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1285" class=".btn">#1285</a>
-            </td>
-            <td>
-                <b>
-                    Format cred_rev_id as a string
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes several AATH tests by formatting the `cred_rev_id` of a credential info structure as a string, not a number (Askar/Credx backend).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 03:28:02 +0000 UTC
-    </div>
-</div>
-
