@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/281" class=".btn">#281</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/282" class=".btn">#282</a>
             </td>
             <td>
                 <b>
-                    Update logging
+                    Disable the server side tests
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                Don't like taking tests out, but the problem is something related to the pipeline and the peer reading an empty file.
+This runs without issue locally, and in other circumstances.
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-06 13:23:01 +0000 UTC
+        Created At 2021-07-08 10:40:07 +0000 UTC
     </div>
 </div>
 
