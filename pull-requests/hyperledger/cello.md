@@ -68,31 +68,3 @@ Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/263" class=".btn">#263</a>
-            </td>
-            <td>
-                <b>
-                    Debug the registration part of the front end
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                You can register an organization to the backend through the front page；
-
-Signed-off-by: XuHugo <xq-310@163.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 09:55:30 +0000 UTC
-    </div>
-</div>
-

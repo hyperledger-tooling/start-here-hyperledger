@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/33" class=".btn">#33</a>
+            </td>
+            <td>
+                <b>
+                    Use yui-fabric-ibc v0.2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 08:53:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/31" class=".btn">#31</a>
             </td>
             <td>
@@ -61,60 +87,6 @@ fixes #29
     </table>
     <div class="right-align">
         Created At 2021-07-07 16:41:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/27" class=".btn">#27</a>
-            </td>
-            <td>
-                <b>
-                    Fix the Go module paths from datachainlab/xxx to hyperledger-labs/yui-xxx
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix #28 
-
-Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 09:49:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/25" class=".btn">#25</a>
-            </td>
-            <td>
-                <b>
-                    Use cosmos/cosmos-sdk instead of the fork
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 07:14:51 +0000 UTC
     </div>
 </div>
 

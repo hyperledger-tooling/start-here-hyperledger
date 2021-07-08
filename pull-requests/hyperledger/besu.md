@@ -160,7 +160,7 @@ matches changes on https://github.com/ConsenSys/quorum-acceptance-tests/pull/117
             </td>
             <td>
                 <b>
-                    Privacy plugin genesis
+                    Allow users to provide a private genesis file
                 </b>
             </td>
         </tr>
@@ -169,18 +169,17 @@ matches changes on https://github.com/ConsenSys/quorum-acceptance-tests/pull/117
                 
             </td>
             <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+                Add an option to allow the provision of a private genesis file.
 
-## PR description
+`--Xprivacy-genesis-file`
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+The file will follow the same format as `--genesis-file` but with most options being unavailable or not applicable. Currently only `alloc` is useful.
 
-## Changelog
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0FsaWNlXSAtLT58ZWVhX3NlbmRSYXdUcmFuc2FjdGlvbnwgQntyZXNvbHZlTGFzdFN0YXRlUm9vdH1cbiAgICBCIC0tPnxlbXB0eXwgRFthcHBseVByaXZhdGVHZW5lc2lzXVxuICAgIEIgLS0-fGhhc1N0YXRlfCBQW3JldHVybiBzdGF0ZV1cbiAgICBEIC0tPiBFe09uQ2hhaW5Qcml2YWN5fVxuICAgIEUgLS0-IHx5ZXN8IEZbYXBwbHlNYW5hZ2VtZW50Q29udHJhY3RzXVxuICAgIEUgLS0-IHxub3wgR1tyZXR1cm4gc3RhdGVdXG4gICAgRiAtLT4gSFtyZXR1cm4gc3RhdGVdIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/edit##eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0FsaWNlXSAtLT58ZWVhX3NlbmRSYXdUcmFuc2FjdGlvbnwgQntyZXNvbHZlTGFzdFN0YXRlUm9vdH1cbiAgICBCIC0tPnxlbXB0eXwgRFthcHBseVByaXZhdGVHZW5lc2lzXVxuICAgIEIgLS0-fGhhc1N0YXR8IFBbcmV0dXJuIHN0YXRlXVxuICAgIEQgLS0-IEV7T25DaGFpblByaXZhY3l9XG4gICAgRSAtLT4gfHllc3wgRlthcHBseU1hbmFnZW1lbnRDb250cmFjdHNdXG4gICAgRSAtLT4gfG5vfCBHW3JldHVybiBzdGF0ZV1cbiAgICBGIC0tPiBIW3JldHVybiBzdGF0ZV0iLCJtZXJtYWlkIjoie1xuICBcInRoZW1lXCI6IFwiZGVmYXVsdFwiXG59IiwidXBkYXRlRWRpdG9yIjpmYWxzZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOmZhbHNlfQ)
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+
+### Problems 
+There is no way to prevent nodes from having a different private genesis file. Currently, there is no private consensus to prevent this from happening. As such, there is the possibility for nodes to have inconsistent states. 
             </td>
         </tr>
     </table>
