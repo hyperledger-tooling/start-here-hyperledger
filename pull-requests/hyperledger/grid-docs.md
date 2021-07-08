@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/235" class=".btn">#235</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/237" class=".btn">#237</a>
             </td>
             <td>
                 <b>
-                    Update addressing reference for Pike v2
+                    Add guide for upgrading smart contracts
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                Updates the Pike prefix and adds the role object prefix
-
-Signed-off-by: Darian Plumb <dplumb@bitwise.io>
+                This adds guides for upgrading a smart contract to a new version. This
+splits the procedure into two docs, one for developers and one for
+administrators
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-22 20:17:35 +0000 UTC
+        Created At 2021-07-08 16:51:36 +0000 UTC
     </div>
 </div>
 
