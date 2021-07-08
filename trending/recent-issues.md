@@ -5,9 +5,9 @@
 
 [2308](https://github.com/hyperledger/besu/issues/2308) Separate Listening and Discovery Ports in Node Configuration
 
-[17](https://github.com/hyperledger-labs/mirbft/issues/17) License file
-
 [2190](https://github.com/hyperledger/besu/issues/2190) Unit tests fail if system language is not English
+
+[54](https://github.com/hyperledger-labs/go-perun/issues/54) eth/channel/test: Replace custom genesis code in `SimulatedBackend` constructor with `core.DeveloperGenesisBlock`
 
 
 [See more >>>](https://start-here.hyperledger.org/issues)
