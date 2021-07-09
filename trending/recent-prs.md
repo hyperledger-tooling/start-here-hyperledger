@@ -1,13 +1,13 @@
 
-[2523](https://github.com/hyperledger/besu/pull/2523) move blocks and add mainnet
+[24](https://github.com/hyperledger-labs/fabric-operations-console/pull/24) fix decompress issues
 
-[2522](https://github.com/hyperledger/besu/pull/2522) Release 21.7.0
+[23](https://github.com/hyperledger-labs/fabric-operations-console/pull/23) Update config.yaml with signed commit
 
-[2521](https://github.com/hyperledger/besu/pull/2521) Add snapshot
+[22](https://github.com/hyperledger-labs/fabric-operations-console/pull/22) doc updates from Joan
 
-[237](https://github.com/hyperledger/grid-docs/pull/237) Add guide for upgrading smart contracts
+[803](https://github.com/hyperledger/grid/pull/803) Pschwarz reconnect event processors
 
-[2520](https://github.com/hyperledger/besu/pull/2520) Release 21.7.0 cherry-picks
+[2864](https://github.com/hyperledger/aries-framework-go/pull/2864) fix: resolve local did key references when handling request via implicit invitation
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/24" class=".btn">#24</a>
             </td>
             <td>
                 <b>
-                    Update navigation structure and image path
+                    fix decompress issues
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-09 00:23:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    Update config.yaml with signed commit
                 </b>
             </td>
         </tr>
@@ -32,7 +58,85 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-08 16:24:05 +0000 UTC
+        Created At 2021-07-08 23:53:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    doc updates from Joan
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 22:14:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/21" class=".btn">#21</a>
+            </td>
+            <td>
+                <b>
+                    remove saas related files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 20:40:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/20" class=".btn">#20</a>
+            </td>
+            <td>
+                <b>
+                    sync with athena 21-07-08
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 19:56:33 +0000 UTC
     </div>
 </div>
 
