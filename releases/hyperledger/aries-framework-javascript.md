@@ -15,6 +15,34 @@ permalink: /releases/hyperledger/aries-framework-javascript
         <tr>
             <td colspan="2">
                 <b>
+                    Release 0.0.56-unstable.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    0.0.56-unstable.0
+                </span>
+            </td>
+            <td>
+                * fix: add error message to log (#342) (a79e4f4)
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.56-unstable.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-07-09 07:34:36 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Release 0.0.55-unstable.0
                 </b>
             </td>
