@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/238" class=".btn">#238</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/239" class=".btn">#239</a>
             </td>
             <td>
                 <b>
-                    [FABC-931] Re-enroll with expired certs 
+                    Add native target description in Makefile
                 </b>
             </td>
         </tr>
@@ -28,24 +28,15 @@ permalink: /pull-requests/hyperledger/fabric-ca
             </td>
             <td>
                 #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
 - Documentation update
 
 #### Description
-
-Resolves to https://jira.hyperledger.org/browse/FABC-931.
-New config option to allow for certificate expiry to be ignored in the case of a re-enroll of an id. But only in the re-enroll case.
-
-
-
+This PR adds native target description.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-22 14:07:54 +0000 UTC
+        Created At 2021-07-09 08:03:20 +0000 UTC
     </div>
 </div>
 
