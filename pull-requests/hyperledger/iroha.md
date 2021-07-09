@@ -206,9 +206,7 @@ Examples are added under example/burrow_integration
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                
-
-Signed-off-by: Egor Ivkov <e.o.ivkov@gmail.com>
+                Signed-off-by: Egor Ivkov <e.o.ivkov@gmail.com>
 
 <!-- You will not see HTML commented line in Pull Request body -->
 <!-- Optional sections may be omitted. Just remove them or write None -->
@@ -224,12 +222,13 @@ Closes #1123
 ### Description of the Change
 - Store proofs
 - Use these proofs in BlockCreated to be up to date
-- Refactor view change handling logic
+- Refactor view change handling logic (now it is universal)
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
 ### Benefits
 
+If several peers join the network late they will not only get blocks, but also view changes on top of these blocks. This will help them with syncing.
 <!-- What benefits will be realized by the code change? -->
 
 ### Possible Drawbacks 
