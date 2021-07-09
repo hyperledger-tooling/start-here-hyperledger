@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1304" class=".btn">#1304</a>
+            </td>
+            <td>
+                <b>
+                    Update version to 0.7.0-rc1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 19:52:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1303" class=".btn">#1303</a>
             </td>
             <td>
@@ -311,34 +337,6 @@ Fixing the issue [here](https://github.com/hyperledger/aries-cloudagent-python/i
     </table>
     <div class="right-align">
         Created At 2021-07-03 01:23:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1286" class=".btn">#1286</a>
-            </td>
-            <td>
-                <b>
-                    Add outbound message transport events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR introduces events relating to outbound messages. These changes are looking forward to more separation between the core ACA-Py message processing and generation components and message delivery mechanisms, which is fraught with nuance and largely dictated by use case. In such a state where there is a separation between message generation and delivery, we propose that these events (and/or similar events) act as the primary interface between the two. For now, however, these events are simply emitted and do not replace any of the previous functionality with one significant exception: considering how `OutboundSendStatus` was returned up the call stack from `outbound_message_router` and beyond, an `OutboundStatusEvent` seemed preferable. This change is mostly self-contained except for the recent `forward` message handler additions made to help with emitting push notifications to clients of mediators.
-
-@TimoGlastra we were hoping to get your opinion on this change. As implemented, do you think the new `OutboundStatusEvent` would provide enough context to a push notifier or do we want to continue with a specific forward message event encapsulating the send status of the forwarded message?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 20:41:50 +0000 UTC
     </div>
 </div>
 

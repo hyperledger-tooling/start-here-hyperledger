@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2864" class=".btn">#2864</a>
+            </td>
+            <td>
+                <b>
+                    fix: resolve local did key references when handling request via implicit invitation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 21:40:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2863" class=".btn">#2863</a>
+            </td>
+            <td>
+                <b>
+                    chore: Update storage module versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 21:07:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2862" class=".btn">#2862</a>
+            </td>
+            <td>
+                <b>
+                    wip: fixes for implicit invitation interop with acapy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                N.B.:
+- The first commit here is an implementation of legacy anoncrypt, since it looked (at first) like it was needed - I'll take another look.
+- resolving key references is something we should push up to another layer, I implemented it in didexchange behind the interop flag for expediency only.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-08 19:06:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2861" class=".btn">#2861</a>
             </td>
             <td>

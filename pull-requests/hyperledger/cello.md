@@ -38,33 +38,3 @@ Signed-off-by: XuHugo <xq-310@163.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/265" class=".btn">#265</a>
-            </td>
-            <td>
-                <b>
-                    fix #264: fix swagger api doc loading error.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                failed to load swagger api definition, fixed it by removing undefined fields and serailizers.
-
-Close #264
-
-Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-01 19:35:30 +0000 UTC
-    </div>
-</div>
-

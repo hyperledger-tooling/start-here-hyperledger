@@ -374,6 +374,11 @@ map all restrictions to their credential that satisfies it.
 
 Centralize notifications for events/activities, and have a task list (activities that require user response).
 
+Have added in Tasks (user response required) for Connection Invitation (`auto-accept-requests: false`) and Presentation Exchange/Proof Request (`auto-respond-presentation-request: false`).
+
+Have added in Activity Log for the same events. The Activity Log will have the tasks and also their completed state. Role is included in the Activity Log.
+
+Note that this does not change the existing notifications in the application. And the data is not pushed, the frontend queries for it. Also, it uses the existing tables to get the data. Future related work would be: include Credential Offers/Acceptance, possibly store the tasks/events in a new table, replace existing notifications with tasks/activities and push to frontend.
 
 <a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/523"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
