@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2405" class=".btn">#2405</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2409" class=".btn">#2409</a>
             </td>
             <td>
                 <b>
-                    Update version of libc
+                    Backtick added to change directory command
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+                Closing backtick omitted meaning command not highlighted by markdown.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-29 14:19:32 +0000 UTC
+        Created At 2021-07-09 13:08:45 +0000 UTC
     </div>
 </div>
 

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
             </td>
             <td>
                 <b>
-                    WIP for interested readers - DO NOT MERGE
+                    WIP for interested readers
                 </b>
             </td>
         </tr>
