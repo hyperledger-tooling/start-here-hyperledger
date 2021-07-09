@@ -67,37 +67,3 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/457" class=".btn">#457</a>
-            </td>
-            <td>
-                <b>
-                    Fix off_chain_data to put data to off-chain database
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The off_chain_data sample fails to put data to the off-chain
-database. The application does not read fetched blocks because
-it uses the old interface of `addBlockListener()` to handle
-block events.
-
-This PR fixes the application to use the latest block listener
-and build the off-chain database.
-
-Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-02 05:55:27 +0000 UTC
-    </div>
-</div>
-

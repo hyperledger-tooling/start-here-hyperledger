@@ -1,13 +1,13 @@
 
+[238](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/238) Revert "Rename config.ts.example to config.ts"
+
+[237](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/237) Rename config.ts.example to config.ts
+
+[2526](https://github.com/hyperledger/besu/pull/2526) Enabled the 'get-quorum-payload' GQ ATs.
+
+[25](https://github.com/hyperledger-labs/fabric-operations-console/pull/25) New upload of doc files
+
 [24](https://github.com/hyperledger-labs/fabric-operations-console/pull/24) fix decompress issues
-
-[23](https://github.com/hyperledger-labs/fabric-operations-console/pull/23) Update config.yaml with signed commit
-
-[22](https://github.com/hyperledger-labs/fabric-operations-console/pull/22) doc updates from Joan
-
-[803](https://github.com/hyperledger/grid/pull/803) Pschwarz reconnect event processors
-
-[2864](https://github.com/hyperledger/aries-framework-go/pull/2864) fix: resolve local did key references when handling request via implicit invitation
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
