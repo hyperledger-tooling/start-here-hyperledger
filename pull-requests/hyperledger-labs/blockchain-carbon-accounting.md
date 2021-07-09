@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/238" class=".btn">#238</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Rename config.ts.example to config.ts"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Reverts hyperledger-labs/blockchain-carbon-accounting#237
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-09 04:26:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/237" class=".btn">#237</a>
+            </td>
+            <td>
+                <b>
+                    Rename config.ts.example to config.ts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-09 04:25:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/234" class=".btn">#234</a>
             </td>
             <td>
