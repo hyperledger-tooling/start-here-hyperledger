@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/689" class=".btn">#689</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/691" class=".btn">#691</a>
             </td>
             <td>
                 <b>
-                    New minor version of Present Proof that supports asking for and responding with multiple presentations for the same presentation request
+                    Update some AIP RFC links to later commits to capture clarifications and RFC status changes
                 </b>
             </td>
         </tr>
@@ -27,40 +27,12 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Addresses #681
-
+                Added a changelog to AIP 2.0 to document the reasons for the link updates (changing the commit).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-30 02:59:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/688" class=".btn">#688</a>
-            </td>
-            <td>
-                <b>
-                    Update Index after AIP 2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-30 01:42:43 +0000 UTC
+        Created At 2021-07-09 08:54:17 +0000 UTC
     </div>
 </div>
 
