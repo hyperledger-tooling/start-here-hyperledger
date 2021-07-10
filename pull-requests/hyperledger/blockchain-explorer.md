@@ -62,32 +62,3 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/255" class=".btn">#255</a>
-            </td>
-            <td>
-                <b>
-                    BE-876 Stop unnecessary discovery request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Explorer was making multiple `sendDiscoveryRequest` calls, 1 per block,
-which retrieves the same information.
-
-Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-03 16:48:09 +0000 UTC
-    </div>
-</div>
-
