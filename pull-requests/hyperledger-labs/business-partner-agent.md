@@ -412,7 +412,11 @@ Have added in Tasks (user response required) for Connection Invitation (`auto-ac
 
 Have added in Activity Log for the same events. The Activity Log will have the tasks and also their completed state. Role is included in the Activity Log.
 
-Note that this does not change the existing notifications in the application. And the data is not pushed, the frontend queries for it. Also, it uses the existing tables to get the data. Future related work would be: include Credential Offers/Acceptance, possibly store the tasks/events in a new table, replace existing notifications with tasks/activities and push to frontend.
+Note that this does not change the existing notifications in the application. 
+
+I've added a new notification into the frontend that is for the Notifications screen. These notification indicators are pushed.
+
+However, the Task and Activity Log table data is not pushed, it is queried by the frontend. Note that it uses the existing tables to get the data. Future related work would be: include Credential Offers/Acceptance, possibly store the tasks/events in a new table, replace existing notifications with tasks/activities and push to frontend.
 
 <a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/523"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 

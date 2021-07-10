@@ -653,34 +653,6 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2865" class=".btn">#2865</a>
-            </td>
-            <td>
-                <b>
-                    chore: remove test lock files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Troy Ronda <troy@troyronda.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 14:08:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2864" class=".btn">#2864</a>
             </td>
             <td>
@@ -726,34 +698,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2021-07-08 21:07:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2862" class=".btn">#2862</a>
-            </td>
-            <td>
-                <b>
-                    wip: fixes for implicit invitation interop with acapy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                N.B.:
-- The first commit here is an implementation of legacy anoncrypt, since it looked (at first) like it was needed - I'll take another look.
-- resolving key references is something we should push up to another layer, I implemented it in didexchange behind the interop flag for expediency only.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-08 19:06:39 +0000 UTC
     </div>
 </div>
 

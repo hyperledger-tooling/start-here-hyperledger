@@ -222,29 +222,3 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/797" class=".btn">#797</a>
-            </td>
-            <td>
-                <b>
-                    Fix various small issues in Pike CLI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-02 20:41:36 +0000 UTC
-    </div>
-</div>
-
