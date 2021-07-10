@@ -14,6 +14,210 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/258" class=".btn">#258</a>
+            </td>
+            <td>
+                <b>
+                    This PR contains the GHA pipeline to run on each PR or commit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pihu1998 pranamika.pihu1998@gmail.com
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-10 11:45:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/257" class=".btn">#257</a>
+            </td>
+            <td>
+                <b>
+                    PR to ensure if GHA pipeline is working correctly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pihu1998 pranamika.pihu1998@gmail.com
+
+This PR accomplishes the below Step 1 and Step 2:
+
+1. Set up GitHub Actions pipeline
+2. Start with one simple test to prove the testing workflow
+
+I have created a sample test file consisting a mocha test in the directory /utility-emissions-channel/typescript_app/test and have used that to run the test inside the workflow.
+
+This setup is done to ensure that your workflow is set up correctly.
+
+Please share your views: @udosson @sichen1234 @knagware9 
+
+Thanks!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-10 11:19:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/256" class=".btn">#256</a>
+            </td>
+            <td>
+                <b>
+                    Create sample.yml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pihu1998 pranamika.pihu1998@gmail.com
+
+This PR accomplishes Step 1 and Step 2:
+1. Set up GitHub Actions pipeline
+2. Start with one simple test to prove the testing workflow
+
+I have created a sample test file consisting a mocha test in the directory `/utility-emissions-channel/typescript_app/test` and have used that to run the test inside the workflow.
+
+This setup is done to ensure that your workflow is set up correctly.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-10 10:58:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/255" class=".btn">#255</a>
+            </td>
+            <td>
+                <b>
+                    Update sample.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-10 10:52:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/254" class=".btn">#254</a>
+            </td>
+            <td>
+                <b>
+                    Update test.js
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-10 10:50:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/253" class=".btn">#253</a>
+            </td>
+            <td>
+                <b>
+                    Update test.js
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-10 10:38:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/252" class=".btn">#252</a>
+            </td>
+            <td>
+                <b>
+                    Update sample.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-10 10:35:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/251" class=".btn">#251</a>
             </td>
             <td>
@@ -248,32 +452,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/242" class=".btn">#242</a>
-            </td>
-            <td>
-                <b>
-                    Create sample.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 11:21:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/241" class=".btn">#241</a>
             </td>
             <td>
@@ -460,33 +638,6 @@ This PR is testing if partyId is encrypted in API response:
     </table>
     <div class="right-align">
         Created At 2021-07-03 18:05:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/229" class=".btn">#229</a>
-            </td>
-            <td>
-                <b>
-                    feat(typescript_app): added saving of emisions records in S3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #228 
-Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-03 10:10:58 +0000 UTC
     </div>
 </div>
 
