@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2747" class=".btn">#2747</a>
+            </td>
+            <td>
+                <b>
+                    fixed peer sample config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+peer sample config file description fixed 
+
+- Documentation update
+
+#### Description
+
+peer sample config file description fixed 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-10 08:24:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2746" class=".btn">#2746</a>
             </td>
             <td>
