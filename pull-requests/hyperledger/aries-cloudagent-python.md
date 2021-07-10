@@ -373,29 +373,3 @@ Fixing the issue [here](https://github.com/hyperledger/aries-cloudagent-python/i
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1287" class=".btn">#1287</a>
-            </td>
-            <td>
-                <b>
-                    Fix handling of empty accum_from in revocation state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also adds support for endorser_did/write_ledger params
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-03 01:23:11 +0000 UTC
-    </div>
-</div>
-
