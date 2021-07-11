@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/266" class=".btn">#266</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/267" class=".btn">#267</a>
             </td>
             <td>
                 <b>
-                    The user logs in through the front page
+                    Users use the front page to log in to cello
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                *The user logins through the front page，and get token.
+                Users can login, view agent, node, and other organizational resources；
 
 Signed-off-by: XuHugo <xq-310@163.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-03 13:48:13 +0000 UTC
+        Created At 2021-07-11 10:25:29 +0000 UTC
     </div>
 </div>
 
