@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2748" class=".btn">#2748</a>
+            </td>
+            <td>
+                <b>
+                    Replicate block metadata with block while OSN catching up
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+
+While OSN catches up replicating block from the up-to-date replica the consenters' metadata information omitted, i.e.
+
+```
+c.support.WriteBlock(block, nil)
+```
+
+where `nil` substitutes for block's metadata.
+
+In this commit, the consenters' metadata extracted from the replicated block and being written with the block.
+
+Signed-off-by: Artem Barger <artem@bargr.net>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-10 23:58:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2747" class=".btn">#2747</a>
             </td>
             <td>
