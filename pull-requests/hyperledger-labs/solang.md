@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/433" class=".btn">#433</a>
+            </td>
+            <td>
+                <b>
+                    Fix for using static string as mapping subscript
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-11 17:18:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/432" class=".btn">#432</a>
             </td>
             <td>

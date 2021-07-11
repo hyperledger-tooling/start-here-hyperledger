@@ -344,32 +344,3 @@ Only question is if we should still allow unqualified DIDs.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1289" class=".btn">#1289</a>
-            </td>
-            <td>
-                <b>
-                    Changing acme initialization to be like Alice and Faber ones
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ana Maria Franco Cuesta <afrancoc2000@gmail.com>
-Fixing the issue [here](https://github.com/hyperledger/aries-cloudagent-python/issues/1288)
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-04 17:19:04 +0000 UTC
-    </div>
-</div>
-
