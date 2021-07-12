@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/187" class=".btn">#187</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/188" class=".btn">#188</a>
             </td>
             <td>
                 <b>
-                    NettyGrpcServer -- support mutual TLS (release-2.2 port)
+                    Integration tests extended
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                This PR adds functionality to optionally authenticate clients of the Java chaincode gRPC server
+                Signed-off-by: Kestutis Gudynas <kestutis.gudynas@ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-30 08:18:03 +0000 UTC
+        Created At 2021-07-12 12:59:44 +0000 UTC
     </div>
 </div>
 

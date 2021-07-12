@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/perun-proposals
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/perun-proposals/pull/14" class=".btn">#14</a>
+            </td>
+            <td>
+                <b>
+                    Restructure proposal 003-IoT-Adoption
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Restructure the IoT-Adoption proposal according to the template provided
+and comment out sections that have not been covered by the proposal.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-12 14:19:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/perun-proposals/pull/13" class=".btn">#13</a>
             </td>
             <td>

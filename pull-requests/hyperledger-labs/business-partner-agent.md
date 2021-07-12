@@ -459,33 +459,3 @@ However, the Task and Activity Log table data is not pushed, it is queried by th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/522" class=".btn">#522</a>
-            </td>
-            <td>
-                <b>
-                    Fix misnamed property in resource file.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/522"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-05 16:53:59 +0000 UTC
-    </div>
-</div>
-

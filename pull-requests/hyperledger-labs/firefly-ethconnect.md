@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/127" class=".btn">#127</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/129" class=".btn">#129</a>
             </td>
             <td>
                 <b>
-                    Added support for LevelDB based receipts store
+                    Add git action for build
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/firefly-ethconnect
                 
             </td>
             <td>
-                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
+                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-01 23:00:38 +0000 UTC
+        Created At 2021-07-12 14:38:19 +0000 UTC
     </div>
 </div>
 
