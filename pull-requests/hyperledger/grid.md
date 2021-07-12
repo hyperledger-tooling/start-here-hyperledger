@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/806" class=".btn">#806</a>
+            </td>
+            <td>
+                <b>
+                    Add contracts volume to scabbard-cli containers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds the `contracts-shared` volume to the scabbard-cli containers
+for the grid on splinter example. This is necessary for the smart
+contract upgrade process to work.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-12 17:36:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/805" class=".btn">#805</a>
+            </td>
+            <td>
+                <b>
+                    Remove public fields from Pike Organization, Alternate ID, and metadata
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes public fields from the remaining Pike store structs, including Organization, AlternateId, and OrganizationMetadata. The public fields are replaced by public accessor methods. Creating these objects has been replaced by each struct's builder, which are implemented in the PikeStore's builder module. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-12 15:03:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/804" class=".btn">#804</a>
             </td>
             <td>
