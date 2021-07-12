@@ -1,13 +1,13 @@
 
+[75](https://github.com/hyperledger/iroha-python/pull/75) General improvements and ws support
+
+[540](https://github.com/hyperledger-labs/business-partner-agent/pull/540) aca-py rc1
+
+[2877](https://github.com/hyperledger/aries-framework-go/pull/2877) chore(deps-dev): bump copy-webpack-plugin from 5.1.2 to 6.4.1 in /cmd/aries-js-worker
+
+[2876](https://github.com/hyperledger/aries-framework-go/pull/2876) chore(deps): bump actions/setup-node from 1.4.4 to 2.2.0
+
 [177](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/177) Update documents on labs sponsor requirement
-
-[176](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/176) Hyperledger Fabric Operator for Kubernetes
-
-[433](https://github.com/hyperledger-labs/solang/pull/433) Fix for using static string as mapping subscript
-
-[267](https://github.com/hyperledger/cello/pull/267) Users use the front page to log in to cello
-
-[2748](https://github.com/hyperledger/fabric/pull/2748) Replicate block metadata with block while OSN catching up
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

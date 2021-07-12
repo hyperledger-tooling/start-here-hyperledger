@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/74" class=".btn">#74</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/75" class=".btn">#75</a>
             </td>
             <td>
                 <b>
-                    Iroha2 python initial commit
+                    General improvements and ws support
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/iroha-python
                 
             </td>
             <td>
-                Signed-off-by: i1i1 <vanyarybin1@live.ru>
+                Closes https://github.com/hyperledger/iroha/issues/1137.
+
+Signed-off-by: i1i1 <vanyarybin1@live.ru>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-02 12:12:05 +0000 UTC
+        Created At 2021-07-12 09:08:20 +0000 UTC
     </div>
 </div>
 
