@@ -14,6 +14,295 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2877" class=".btn">#2877</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): bump copy-webpack-plugin from 5.1.2 to 6.4.1 in /cmd/aries-js-worker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [copy-webpack-plugin](https://github.com/webpack-contrib/copy-webpack-plugin) from 5.1.2 to 6.4.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack-contrib/copy-webpack-plugin/releases">copy-webpack-plugin's releases</a>.</em></p>
+<blockquote>
+<h2>v6.4.1</h2>
+<h3><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.4.0...v6.4.1">6.4.1</a> (2020-12-16)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>compatibility with webpack 4 file system (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/570">#570</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/720026ad0c526e003ab7270f1712fd712d4fdfad">720026a</a>)</li>
+</ul>
+<h2>v6.4.0</h2>
+<h2><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.3.2...v6.4.0">6.4.0</a> (2020-12-07)</h2>
+<h3>Features</h3>
+<ul>
+<li>added the <code>info</code> option (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/db53937016b7dbf494bc728f00242cd26541f6a3">db53937</a>)</li>
+<li>added type <code>Function</code> for the <code>to</code> option (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/563">#563</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/9bc541694c0d0975c59586cedfea4a51d11f5278">9bc5416</a>)</li>
+</ul>
+<h2>v6.3.2</h2>
+<h3><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.3.1...v6.3.2">6.3.2</a> (2020-11-19)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>watching directories (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/558">#558</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/7b58fd9a89e9b29578b30cb3119453e78e036ec2">7b58fd9</a>)</li>
+</ul>
+<h2>v6.3.1</h2>
+<h3><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.3.0...v6.3.1">6.3.1</a> (2020-11-13)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>watching (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/555">#555</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/b9969230321df68ed235ed1861729837f234750e">b996923</a>)</li>
+</ul>
+<h2>v6.3.0</h2>
+<h2><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.2.1...v6.3.0">6.3.0</a> (2020-11-03)</h2>
+<h3>Features</h3>
+<ul>
+<li>added the <code>sourceFilename</code> info (original source filename) to assets info (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/542">#542</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/db2e3bfae9322592c3a9af1e45d25df165b6b4e0">db2e3bf</a>)</li>
+<li>persistent cache between compilations (webpack@5 only) (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/541">#541</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/c8924512a34391ce92715a2b61fc4b0b91a9e10f">c892451</a>)</li>
+</ul>
+<h2>v6.2.1</h2>
+<h3><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.2.0...v6.2.1">6.2.1</a> (2020-10-09)</h3>
+<h3>Chore</h3>
+<ul>
+<li>update <code>schema-utils</code></li>
+</ul>
+<h2>v6.2.0</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/webpack-contrib/copy-webpack-plugin/blob/v6.4.1/CHANGELOG.md">copy-webpack-plugin's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.4.0...v6.4.1">6.4.1</a> (2020-12-16)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>compatibility with webpack 4 file system (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/570">#570</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/720026ad0c526e003ab7270f1712fd712d4fdfad">720026a</a>)</li>
+</ul>
+<h2><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.3.2...v6.4.0">6.4.0</a> (2020-12-07)</h2>
+<h3>Features</h3>
+<ul>
+<li>added the <code>info</code> option (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/db53937016b7dbf494bc728f00242cd26541f6a3">db53937</a>)</li>
+<li>added type <code>Function</code> for the <code>to</code> option (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/563">#563</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/9bc541694c0d0975c59586cedfea4a51d11f5278">9bc5416</a>)</li>
+</ul>
+<h3><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.3.1...v6.3.2">6.3.2</a> (2020-11-19)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>watching directories (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/558">#558</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/7b58fd9a89e9b29578b30cb3119453e78e036ec2">7b58fd9</a>)</li>
+</ul>
+<h3><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.3.0...v6.3.1">6.3.1</a> (2020-11-13)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>watching (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/555">#555</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/b9969230321df68ed235ed1861729837f234750e">b996923</a>)</li>
+</ul>
+<h2><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.2.1...v6.3.0">6.3.0</a> (2020-11-03)</h2>
+<h3>Features</h3>
+<ul>
+<li>added the <code>sourceFilename</code> info (original source filename) to assets info (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/542">#542</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/db2e3bfae9322592c3a9af1e45d25df165b6b4e0">db2e3bf</a>)</li>
+<li>persistent cache between compilations (webpack@5 only) (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/541">#541</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/c8924512a34391ce92715a2b61fc4b0b91a9e10f">c892451</a>)</li>
+</ul>
+<h3><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.2.0...v6.2.1">6.2.1</a> (2020-10-09)</h3>
+<h3>Chore</h3>
+<ul>
+<li>update <code>schema-utils</code></li>
+</ul>
+<h2><a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v6.1.1...v6.2.0">6.2.0</a> (2020-10-02)</h2>
+<h3>Features</h3>
+<ul>
+<li>use webpack input filesystem (only webpack@5) (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/531">#531</a>) (<a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/6f2f455b9411ac69ef6aa3b953474f1d7fa23808">6f2f455</a>)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/1eceb4bbf906996cb932a532a708c2af50134426"><code>1eceb4b</code></a> chore(release): 6.4.1</li>
+<li><a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/720026ad0c526e003ab7270f1712fd712d4fdfad"><code>720026a</code></a> fix: compatibility with webpack 4 file system (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/570">#570</a>)</li>
+<li><a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/6c11e21a5460052233dccaad54421daccb3366f3"><code>6c11e21</code></a> chore(release): 6.4.0</li>
+<li><a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/db53937016b7dbf494bc728f00242cd26541f6a3"><code>db53937</code></a> feat: added the <code>info</code> option</li>
+<li><a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/9bc541694c0d0975c59586cedfea4a51d11f5278"><code>9bc5416</code></a> feat: added type <code>Function</code> for the <code>to</code> option (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/563">#563</a>)</li>
+<li><a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/71676457b5257ada0440aca4aea70ba1fceeaac0"><code>7167645</code></a> chore(release): 6.3.2</li>
+<li><a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/7b58fd9a89e9b29578b30cb3119453e78e036ec2"><code>7b58fd9</code></a> fix: watching directories (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/558">#558</a>)</li>
+<li><a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/521572190800ece87756a4a6cf17f43753092408"><code>5215721</code></a> chore(release): 6.3.1</li>
+<li><a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/c92b5ee1671f05b75b74fdb22072dede2cc2fcc3"><code>c92b5ee</code></a> style: default prettier options (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/556">#556</a>)</li>
+<li><a href="https://github.com/webpack-contrib/copy-webpack-plugin/commit/b9969230321df68ed235ed1861729837f234750e"><code>b996923</code></a> fix: watching (<a href="https://github-redirect.dependabot.com/webpack-contrib/copy-webpack-plugin/issues/555">#555</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack-contrib/copy-webpack-plugin/compare/v5.1.2...v6.4.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=copy-webpack-plugin&package-manager=npm_and_yarn&previous-version=5.1.2&new-version=6.4.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-12 08:17:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2876" class=".btn">#2876</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump actions/setup-node from 1.4.4 to 2.2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">github_actions</span>
+            </td>
+            <td>
+                Bumps [actions/setup-node](https://github.com/actions/setup-node) from 1.4.4 to 2.2.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/actions/setup-node/releases">actions/setup-node's releases</a>.</em></p>
+<blockquote>
+<h2>Support caching dependencies and LTS aliases</h2>
+<p>This release brings two major features:</p>
+<ul>
+<li>[Support LTS aliases <a href="https://github-redirect.dependabot.com/actions/setup-node/issues/270">#270</a>](<a href="https://github-redirect.dependabot.com/actions/setup-node/pull/270">actions/setup-node#270</a>)</li>
+<li>[Implementation of node's caching <a href="https://github-redirect.dependabot.com/actions/setup-node/issues/272">#272</a>](<a href="https://github-redirect.dependabot.com/actions/setup-node/pull/272">actions/setup-node#272</a>)</li>
+</ul>
+<h3>Supported version syntax</h3>
+<p>The <code>node-version</code> input supports the following syntax:</p>
+<p>major versions: <code>12</code>, <code>14</code>, <code>16</code><br />
+more specific versions: <code>10.15</code>, <code>14.2.0</code>, <code>16.3.0</code><br />
+nvm LTS syntax: <code>lts/erbium</code>, <code>lts/fermium</code>, <code>lts/*</code></p>
+<h3>Caching dependencies</h3>
+<p>The action has a built-in functionality for caching and restoring npm/yarn dependencies. Supported package managers are <code>npm</code>, <code>yarn</code>. The <code>cache</code> input is optional, and caching is turned off by default.</p>
+<p><strong>Caching npm dependencies:</strong></p>
+<pre lang="yaml"><code>steps:
+- uses: actions/checkout@v2
+- uses: actions/setup-node@v2
+  with:
+    node-version: '14'
+    cache: 'npm'
+- run: npm install
+- run: npm test
+</code></pre>
+<p><strong>Caching yarn dependencies:</strong></p>
+<pre lang="yaml"><code>steps:
+- uses: actions/checkout@v2
+- uses: actions/setup-node@v2
+  with:
+    node-version: '14'
+    cache: 'yarn'
+- run: yarn install
+- run: yarn test
+</code></pre>
+<p>Yarn caching handles both yarn versions: 1 or 2.</p>
+<blockquote>
+<p>At the moment, only <code>lock</code> files in the project root are supported.</p>
+</blockquote>
+<h2>v2.1.5 Release</h2>
+<p>Improve error and warning line number handling (problem matcher regex)</p>
+<h2>v2.1.4</h2>
+<p>The first stable release of actions/setup-node V2</p>
+<h2>v2.1.3 (beta)</h2>
+<ul>
+<li>Add support for specifying architecture of Node.JS</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/actions/setup-node/commit/38d90ce44d5275ad62cc48384b3d8a58c500bb5f"><code>38d90ce</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/actions/setup-node/issues/277">#277</a> from actions/malob/update-readme</li>
+<li><a href="https://github.com/actions/setup-node/commit/e1e1d4c85364e81d35f092df54e57f47c51f8ad9"><code>e1e1d4c</code></a> Update README.md</li>
+<li><a href="https://github.com/actions/setup-node/commit/40f85c8c9749fde9bb1f49ac6f38d0acc30cb80a"><code>40f85c8</code></a> update readme</li>
+<li><a href="https://github.com/actions/setup-node/commit/e215578cb0305f14eb5d11939e0f4610ae5bf7e6"><code>e215578</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/actions/setup-node/issues/272">#272</a> from akv-platform/add-caching-for-node-dependencies</li>
+<li><a href="https://github.com/actions/setup-node/commit/9af89732f052e88905c85ff7ab78062ae0c3c536"><code>9af8973</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/actions/setup-node/issues/274">#274</a> from actions/v-mazhuk/automate-releasing-new-versions</li>
+<li><a href="https://github.com/actions/setup-node/commit/cfe70f9fe8ca345bad2e02a88695dd317e6172c0"><code>cfe70f9</code></a> update dependencies</li>
+<li><a href="https://github.com/actions/setup-node/commit/b259ba49fed412baf54f73304eba7f06fdfde3ae"><code>b259ba4</code></a> rebuild project</li>
+<li><a href="https://github.com/actions/setup-node/commit/55e10498cf770f182fe51eb7f48df9a0a1f7ab0c"><code>55e1049</code></a> Merge branch 'main' into add-caching-for-node-dependencies</li>
+<li><a href="https://github.com/actions/setup-node/commit/bcb4cecf9b616a784bae71216cc4707c46b9573f"><code>bcb4cec</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/actions/setup-node/issues/270">#270</a> from gordey4doronin/gordey/support-lts-syntax</li>
+<li><a href="https://github.com/actions/setup-node/commit/72922790cb23732db6a33f911db23457504c50ea"><code>7292279</code></a> fix for documentation</li>
+<li>Additional commits viewable in <a href="https://github.com/actions/setup-node/compare/v1.4.4...v2.2.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/setup-node&package-manager=github_actions&previous-version=1.4.4&new-version=2.2.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-12 08:16:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2875" class=".btn">#2875</a>
             </td>
             <td>
