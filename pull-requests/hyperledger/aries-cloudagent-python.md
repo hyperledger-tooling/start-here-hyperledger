@@ -41,38 +41,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1305" class=".btn">#1305</a>
-            </td>
-            <td>
-                <b>
-                    Correct public did checking method in public invitation connection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previously, `posted` metadata was used to check a public did.
-However, multiple dids could have `posted` metadata, even though these dids are not a public did.
-This PR uses the `get_public_did()` method to get and check a public did.
-
-Also, This PR resolves https://github.com/hyperledger/aries-cloudagent-python/issues/1256
-
-Thanks!
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 06:49:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1304" class=".btn">#1304</a>
             </td>
             <td>
