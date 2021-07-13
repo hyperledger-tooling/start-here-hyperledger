@@ -1068,39 +1068,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2856" class=".btn">#2856</a>
-            </td>
-            <td>
-                <b>
-                    feat: support packer selection based on destination MediaType
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">aip 2.0</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                This change sets the media type priority based on the destination according to Aries RFCs 19, 44 and 587.
-It sets the JWE message's CTY header based on the received media type.
-It also updates the default authcrypt packing sender key type to be AES256CBCHS512.
-
-closes #1112 (packer is selected based on mediaTypeProfile)
-closes #272 (key type is managed by the kms)
-closes #749 (diffrent keys are supported by the packers, except LegacyPacker that supports ED25519 keys only)
-closes #2858 (SendToDID now can be used without a DID connection, as it was before)
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-06 04:24:12 +0000 UTC
-    </div>
-</div>
-
