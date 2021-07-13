@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/230" class=".btn">#230</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/234" class=".btn">#234</a>
             </td>
             <td>
                 <b>
-                    fix a bug in abnormal case on k8s environment.
+                    new feature for k8s, deploying pod(container) to the specific node
                 </b>
             </td>
         </tr>
@@ -27,23 +27,34 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                related to #229,
+                current minifabric cannot control pod and node binding.
+as the result, the peer and it's backend couchdb may be deployed on different worker node,
+same situation occurs between peer's CA and peer.
+That is not good from point of view of performance or isolation.
 
-I met a bug in abnormal case, and fixed it.
+This feature involves nodeAffinity with preferredDuringSchedulingIgnoredDuringExecution.
+refer https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/
 
-In normal case , operator does followings before minifab operation.
-A) copy kubeconfig to vars/kubeconfig/config
-B) install ingress
+in short,
+ - It makes k8s deploy each pod to the specific node according to node labels.
+ - k8s deploys a pod in default manner, in following cases:
+      - if corresponding label is not assigned in any nodes.
+      - if destination node reached to the max-pods-per-node limitation
 
-abnormal case: operator runs minifab without 'B'
+three types of label are involved:
+ * type A (strongest; dock.hlf-fqdn/*) : fully control one pod by one pod
+ * type B (2nd; dock.hlf-type/*) : type by type (peer, orderer, ca, couchdb)
+ * type C (3rd; dock.hlf-dn/*)    : domain by domain (org0.example.com, org1.example.com)
 
-in the above case, current playbook/netdown/k8s-clean-allservices.yaml raises an error.
-this PR makes 'minifab cleanup' works without error in the above case.
+This feature provides you a way to control pod and node binding, by your assigning labels to nodes.
+if you omit assigning labels, k8s deploys pods according to the default manner, as before.
+
+check docs/DeployOntoK8S.md for detail.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-29 10:53:37 +0000 UTC
+        Created At 2021-07-13 10:55:17 +0000 UTC
     </div>
 </div>
 

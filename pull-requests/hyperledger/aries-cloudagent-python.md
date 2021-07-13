@@ -252,32 +252,3 @@ Only question is if we should still allow unqualified DIDs.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1294" class=".btn">#1294</a>
-            </td>
-            <td>
-                <b>
-                    DIF PE - is_holder property implementation - compliant with DIF spec
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #1261
-- I think this meets the following attributes from the DIF spec ~~but does not use the `is_holder` property to decide whether the `VP` should be signed or not. But in case, this is needed then this can be done with minimal changes/extension~~.
-1. `Verify that the Holder or Subject of the Claim still controls the identifier [DID].` [Link](https://identity.foundation/presentation-exchange/#proof-of-identifier-control)
-2. `Holder of  Claim is the same as the Subject of the attribute.` [Link](https://identity.foundation/presentation-exchange/#note-2) 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-06 11:21:00 +0000 UTC
-    </div>
-</div>
-

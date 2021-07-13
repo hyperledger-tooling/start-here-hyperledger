@@ -91,29 +91,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/280" class=".btn">#280</a>
-            </td>
-            <td>
-                <b>
-                    Private data tests added
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Kestutis Gudynas <kestutis.gudynas@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-06 09:13:42 +0000 UTC
-    </div>
-</div>
-
