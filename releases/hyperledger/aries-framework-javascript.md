@@ -15,6 +15,62 @@ permalink: /releases/hyperledger/aries-framework-javascript
         <tr>
             <td colspan="2">
                 <b>
+                    Release 0.0.62-unstable.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    0.0.62-unstable.0
+                </span>
+            </td>
+            <td>
+                * renamed RecipientService to MediationRecipientService (#375) (d35ede5)
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.62-unstable.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-07-13 19:16:58 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    Release 0.0.61-unstable.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    0.0.61-unstable.0
+                </span>
+            </td>
+            <td>
+                * feat: add support for RFC 0211 mediator coordination (2465d4d)
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.61-unstable.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-07-13 16:59:05 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Release 0.0.60-unstable.0
                 </b>
             </td>
