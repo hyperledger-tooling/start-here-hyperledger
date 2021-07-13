@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/542" class=".btn">#542</a>
+            </td>
+            <td>
+                <b>
+                    Feature/proof request details styling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Didn't push all my local commits. this cleans up the FE a bit more. 
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/542"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 14:59:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/541" class=".btn">#541</a>
             </td>
             <td>
@@ -377,36 +407,6 @@ Work in progress, obviously, but opening a PR for visibility.
     </table>
     <div class="right-align">
         Created At 2021-07-07 09:41:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/527" class=".btn">#527</a>
-            </td>
-            <td>
-                <b>
-                    Fix did doc web
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger-labs/business-partner-agent/issues/445
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/527"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-06 13:03:41 +0000 UTC
     </div>
 </div>
 

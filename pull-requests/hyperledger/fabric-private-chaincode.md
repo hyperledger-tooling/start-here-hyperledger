@@ -48,7 +48,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
   list existing bug, feature and/or work-item which this PR addresses.
   You might also consider creating an issue first for the PR.
 -->
-Fixes #605 
+Solves step one in issue 605. 
 
 **Special notes for your reviewer**:
 
