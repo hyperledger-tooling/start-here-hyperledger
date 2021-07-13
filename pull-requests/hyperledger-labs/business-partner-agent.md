@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/541" class=".btn">#541</a>
+            </td>
+            <td>
+                <b>
+                    Add Endorser support to BPA agents
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add support for the aca-py endorser protocols.
+
+First step - configure each BPA as an Endorser or Author (or neither/both), and allow users to flag partners as an Endorser (for Authors) or Author (for Endorsers) (uses connection "tags").
+
+Work in progress, obviously, but opening a PR for visibility.
+
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/541"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-12 21:35:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/540" class=".btn">#540</a>
             </td>
             <td>
@@ -414,48 +449,6 @@ map all restrictions to their credential that satisfies it.
     </table>
     <div class="right-align">
         Created At 2021-07-06 03:09:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/523" class=".btn">#523</a>
-            </td>
-            <td>
-                <b>
-                    Centralize Notifications/Tasks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backend</span><span class="chip">enhancement</span><span class="chip">frontend</span>
-            </td>
-            <td>
-                Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-Centralize notifications for events/activities, and have a task list (activities that require user response).
-
-Have added in Tasks (user response required) for Connection Invitation (`auto-accept-requests: false`) and Presentation Exchange/Proof Request (`auto-respond-presentation-request: false`).
-
-Have added in Activity Log for the same events. The Activity Log will have the tasks and also their completed state. Role is included in the Activity Log.
-
-Note that this does not change the existing notifications in the application. 
-
-I've added a new notification into the frontend that is for the Notifications screen. These notification indicators are pushed.
-
-However, the Task and Activity Log table data is not pushed, it is queried by the frontend. Note that it uses the existing tables to get the data. Future related work would be: include Credential Offers/Acceptance, possibly store the tasks/events in a new table, replace existing notifications with tasks/activities and push to frontend.
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/523"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-06 00:13:46 +0000 UTC
     </div>
 </div>
 
