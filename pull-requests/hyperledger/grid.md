@@ -14,6 +14,145 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/821" class=".btn">#821</a>
+            </td>
+            <td>
+                <b>
+                    Properly wrap pike man pages at 80 characters
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 18:01:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/820" class=".btn">#820</a>
+            </td>
+            <td>
+                <b>
+                    Use builder pattern for Batch store
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the Batches store to use the builder pattern established in
+other stores. This updates the structs with builders and accessor
+methods to help stabilize the feature.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 16:50:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/819" class=".btn">#819</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize commit-store-service-commits
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change stabilizes the feature "commit-store-service-commits" by removing the feature. The method it guards will now be part of the complete store API for commits, as a result.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 16:39:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/818" class=".btn">#818</a>
+            </td>
+            <td>
+                <b>
+                    Pre-stabilization fixes for "commit-store-service-commits" feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 14:45:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/817" class=".btn">#817</a>
+            </td>
+            <td>
+                <b>
+                    Add doc comments for the batch store methods
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds some brief doc comments to the Batch store methods. These
+comments give a brief description of the operation and the arguments for
+that function.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 13:48:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/807" class=".btn">#807</a>
             </td>
             <td>

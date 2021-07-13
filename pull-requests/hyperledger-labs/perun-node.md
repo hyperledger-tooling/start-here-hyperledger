@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/perun-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/222" class=".btn">#222</a>
+            </td>
+            <td>
+                <b>
+                    WIP: fix repolinter issues
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                repolinter currently reports four issues:
+- missing CODE_OF_CONDUCT
+- missing CHANGELOG
+- missing Maintainers
+- missing SECURITY
+
+This PR is to fix this.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 17:09:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/perun-node/pull/221" class=".btn">#221</a>
             </td>
             <td>
