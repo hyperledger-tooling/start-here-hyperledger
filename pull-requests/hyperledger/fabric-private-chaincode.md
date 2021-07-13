@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/606" class=".btn">#606</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/607" class=".btn">#607</a>
             </td>
             <td>
                 <b>
-                    Support any chaincode name in installFPC.sh
+                    Improve test-network sample to accept any chaincode
                 </b>
             </td>
         </tr>
@@ -27,28 +27,44 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                Signed-off-by: ikegawa-koshi <koshi.ikegawa.mf@hitachi.com>
+                <!--  Thanks for sending a pull request!  Here are some tips for you:
+
+1. If this is your first time, please read our code of conduct and contributor guidelines: 
+     https://github.com/hyperledger/fabric-private-chaincode/blob/main/CONTRIBUTING.md
+     https://github.com/hyperledger/fabric-private-chaincode/blob/main/CODE_OF_CONDUCT.md
+   In particular pay attention to the git workflows
+      https://docs.google.com/document/d/1sR7YV3pSYN3NEFiW-2fUqtpsJeJrpC0EWUVtEm0Blcg/edit#heading=h.kwcug3pkefak
+2. Fill out below sections.
+3. Label the PR with the label of any component this PR touches.
+4. ALso don't forget to sign your comments before submitting. 
+   Github will complain if there is no DCO but it's easier if we don't have to hunt you down to fix that :-)
+
+-->
 
 **What this PR does / why we need it**:
-When executing installFPC.sh, read the CC_ID from the environment variable to install a different chaincode than the echo.
-If CC_ID is undefined, "echo" will be defined.
 
 **Which issue(s) this PR fixes**:
-N/A
+<!--
+  list existing bug, feature and/or work-item which this PR addresses.
+  You might also consider creating an issue first for the PR.
+-->
+Fixes #605 
 
 **Special notes for your reviewer**:
-No
 
 **Does this PR introduce a user-facing changes and/or breaks backward compatability?**:
-No
-
+<!--
+  If no, you can delete this section
+  If yes, describe what changes and/or what breaks ..
+-->
+It changes the Test-Network sample readme
 ```
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-06 09:21:55 +0000 UTC
+        Created At 2021-07-12 23:55:44 +0000 UTC
     </div>
 </div>
 

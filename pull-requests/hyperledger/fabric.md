@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2750" class=".btn">#2750</a>
+            </td>
+            <td>
+                <b>
+                    Ouput Directory For Divergent Results
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+- Several changes were made to the ledger utility tool in preparation for future updates, most notably: output files are now created in a new directory, compare tool no longer overwrites existing files and will throw an error instead, and improved usability and consistency for the outputDir flag
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-12 21:48:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2749" class=".btn">#2749</a>
             </td>
             <td>
