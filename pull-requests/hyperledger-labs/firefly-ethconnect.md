@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-ethconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/131" class=".btn">#131</a>
+            </td>
+            <td>
+                <b>
+                    Fix catchup for restored subscriptions, and add log
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #130 missed the configuration of block catchup for restored subscriptions
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 02:59:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/130" class=".btn">#130</a>
             </td>
             <td>
