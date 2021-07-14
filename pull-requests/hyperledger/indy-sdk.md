@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2410" class=".btn">#2410</a>
+            </td>
+            <td>
+                <b>
+                    fix dockerfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off by @kingworm timo@redwit.io
+
+This pr fixes problem when following docs/getting-started
+
+I've added to install apt python3-dev, and upgraded pip version after install setuptools package.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 08:46:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-sdk/pull/2409" class=".btn">#2409</a>
             </td>
             <td>

@@ -585,7 +585,7 @@ matches changes on https://github.com/ConsenSys/quorum-acceptance-tests/pull/117
             </td>
             <td>
                 <b>
-                    Allow users to provide a private genesis file
+                    [Privacy] Allow users to provide a private genesis file
                 </b>
             </td>
         </tr>
@@ -610,45 +610,6 @@ There is no way to prevent nodes from having a different private genesis file. C
     </table>
     <div class="right-align">
         Created At 2021-07-07 14:10:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2507" class=".btn">#2507</a>
-            </td>
-            <td>
-                <b>
-                    Goquorum privacy interop changelog
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-Adds GoQuorum privacy to changelog and moves QBFT and privacy to early access features
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 09:18:54 +0000 UTC
     </div>
 </div>
 
