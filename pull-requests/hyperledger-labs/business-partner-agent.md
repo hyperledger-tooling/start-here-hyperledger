@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/545" class=".btn">#545</a>
+            </td>
+            <td>
+                <b>
+                    fix json layout
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                see https://www.datadoghq.com/blog/java-logging-guide/
+
+Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/545"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 15:13:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/544" class=".btn">#544</a>
+            </td>
+            <td>
+                <b>
+                    Update log4j2-prod.xml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                use compact="true", datadog requires that
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/544"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 13:14:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/543" class=".btn">#543</a>
             </td>
             <td>
@@ -198,66 +260,6 @@ Work in progress, obviously, but opening a PR for visibility.
     </table>
     <div class="right-align">
         Created At 2021-07-08 15:36:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/536" class=".btn">#536</a>
-            </td>
-            <td>
-                <b>
-                    Check if tails is configured
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/536"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 16:20:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/535" class=".btn">#535</a>
-            </td>
-            <td>
-                <b>
-                    Use did exchange protocol for all connections
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Switched all connection related methods to did exchange. Like this it is possible to send the agents public did with the connection request. The opposite BPA now resolves the public profile if it finds a public did in the connection event. To use this functionality I also upgraded aca-py to 0.7-rc1. Also I fixed the partner naming strategy that the following order is used: alias, legal name, label. The alias is the value set by the user. The legal name is resolved from the public profile, the label is the label set by aca-py.
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/535"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 14:48:59 +0000 UTC
     </div>
 </div>
 

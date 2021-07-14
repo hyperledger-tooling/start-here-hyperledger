@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    Clarify GetHistoryForKey results ordering
+                    Propagate error in case of failure to load keypair
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
                 
             </td>
             <td>
-                Clarify that GetHistoryForKey() sorts results from latest to oldest,
-as mentioned in the v2.0.0 release notes.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+                Signed-off-by: S m, Aruna <aruna.mohan@walmart.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-03 16:08:27 +0000 UTC
+        Created At 2021-07-14 18:15:05 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2542" class=".btn">#2542</a>
+            </td>
+            <td>
+                <b>
+                    Prepare for version 21.7.2-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 17:40:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2541" class=".btn">#2541</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.7.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 17:09:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2539" class=".btn">#2539</a>
             </td>
             <td>
@@ -540,76 +592,6 @@ fixes #2496
     </table>
     <div class="right-align">
         Created At 2021-07-07 18:38:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2510" class=".btn">#2510</a>
-            </td>
-            <td>
-                <b>
-                    build gradle: Update tags for Quorum Acceptance Tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ricardo Silva <ricardo.silva@consensys.net>
-
-## PR description
-
-Update tags used for Quorum Acceptance Tests to support new tests added on https://github.com/ConsenSys/quorum-acceptance-tests/pull/117.
-
-## Fixed Issue(s)
-
-matches changes on https://github.com/ConsenSys/quorum-acceptance-tests/pull/117
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 15:13:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2509" class=".btn">#2509</a>
-            </td>
-            <td>
-                <b>
-                    [Privacy] Allow users to provide a private genesis file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add an option to allow the provision of a private genesis file.
-
-`--Xprivacy-genesis-file`
-
-The file will follow the same format as `--genesis-file` but with most options being unavailable or not applicable. Currently only `alloc` is useful.
-
-[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0FsaWNlXSAtLT58ZWVhX3NlbmRSYXdUcmFuc2FjdGlvbnwgQntyZXNvbHZlTGFzdFN0YXRlUm9vdH1cbiAgICBCIC0tPnxlbXB0eXwgRFthcHBseVByaXZhdGVHZW5lc2lzXVxuICAgIEIgLS0-fGhhc1N0YXRlfCBQW3JldHVybiBzdGF0ZV1cbiAgICBEIC0tPiBFe09uQ2hhaW5Qcml2YWN5fVxuICAgIEUgLS0-IHx5ZXN8IEZbYXBwbHlNYW5hZ2VtZW50Q29udHJhY3RzXVxuICAgIEUgLS0-IHxub3wgR1tyZXR1cm4gc3RhdGVdXG4gICAgRiAtLT4gSFtyZXR1cm4gc3RhdGVdIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/edit##eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0FsaWNlXSAtLT58ZWVhX3NlbmRSYXdUcmFuc2FjdGlvbnwgQntyZXNvbHZlTGFzdFN0YXRlUm9vdH1cbiAgICBCIC0tPnxlbXB0eXwgRFthcHBseVByaXZhdGVHZW5lc2lzXVxuICAgIEIgLS0-fGhhc1N0YXR8IFBbcmV0dXJuIHN0YXRlXVxuICAgIEQgLS0-IEV7T25DaGFpblByaXZhY3l9XG4gICAgRSAtLT4gfHllc3wgRlthcHBseU1hbmFnZW1lbnRDb250cmFjdHNdXG4gICAgRSAtLT4gfG5vfCBHW3JldHVybiBzdGF0ZV1cbiAgICBGIC0tPiBIW3JldHVybiBzdGF0ZV0iLCJtZXJtYWlkIjoie1xuICBcInRoZW1lXCI6IFwiZGVmYXVsdFwiXG59IiwidXBkYXRlRWRpdG9yIjpmYWxzZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOmZhbHNlfQ)
-
-
-### Problems 
-There is no way to prevent nodes from having a different private genesis file. Currently, there is no private consensus to prevent this from happening. As such, there is the possibility for nodes to have inconsistent states. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 14:10:38 +0000 UTC
     </div>
 </div>
 

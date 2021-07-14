@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2878" class=".btn">#2878</a>
+            </td>
+            <td>
+                <b>
+                    feat: Document loader for agent-mobile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - added document loader as an option for agent mobile
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 15:50:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2877" class=".btn">#2877</a>
             </td>
             <td>
@@ -371,7 +400,18 @@ You can trigger Dependabot actions by commenting on this PR:
                 <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [github.com/VictoriaMetrics/fastcache](https://github.com/VictoriaMetrics/fastcache) from 1.5.7 to 1.6.0.
+                [//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️ 
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [github.com/VictoriaMetrics/fastcache](https://github.com/VictoriaMetrics/fastcache) from 1.5.7 to 1.6.0.
 <details>
 <summary>Commits</summary>
 <ul>
@@ -1013,32 +1053,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2021-07-08 07:20:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2859" class=".btn">#2859</a>
-            </td>
-            <td>
-                <b>
-                    chore: refactor CreateDestination interop behaviour behind flag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 15:06:29 +0000 UTC
     </div>
 </div>
 
