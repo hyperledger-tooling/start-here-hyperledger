@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/823" class=".btn">#823</a>
+            </td>
+            <td>
+                <b>
+                    Change location family name and version to constants in CLI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 20:21:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/822" class=".btn">#822</a>
+            </td>
+            <td>
+                <b>
+                    Small Pike CLI fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A few small fixes for stabilization
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 19:24:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/821" class=".btn">#821</a>
             </td>
             <td>
