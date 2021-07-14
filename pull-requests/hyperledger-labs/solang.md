@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/435" class=".btn">#435</a>
+            </td>
+            <td>
+                <b>
+                    Do not warning about unused public storage variable or shadowed event declarations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @LucasSte please review if you have the time
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 15:49:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/434" class=".btn">#434</a>
             </td>
             <td>

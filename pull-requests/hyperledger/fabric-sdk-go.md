@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/181" class=".btn">#181</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/182" class=".btn">#182</a>
             </td>
             <td>
                 <b>
-                    Better error message for missing mspid connection
+                    Settable ConfigBackend
                 </b>
             </td>
         </tr>
@@ -27,28 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                When mspid is missing in connection yaml , the sdk gives a slightly misleading error message - "No client organization defined in the config" (which implies client.org is not been defined in connection.yaml) . We can give a better  error message to imply that mspid is missing - No mspid defined in the config for Org1
-
--------------------example wrong config-----------
-name: voterNet-investorOrg
-version: 1.0.0
-client:
-  organization: investorOrg
-  connection:
-    timeout:
-      peer:
-        endorser: '300'
-organizations:
-  investorOrg:    (mspid missing)
-    peers:
-    - peer0.investorOrg.voternet.com
-    certificateAuthorities:
-    - ca.investorOrg.voternet.com
+                Add Set method for ConfigBackend interface for the ability to edit cached connection profile data dynamically.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-26 12:30:26 +0000 UTC
+        Created At 2021-07-14 17:06:36 +0000 UTC
     </div>
 </div>
 

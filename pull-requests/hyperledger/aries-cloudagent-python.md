@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1316" class=".btn">#1316</a>
+            </td>
+            <td>
+                <b>
+                    OOB Protocol - CredentialOffer Attachment Support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Extends work done by @DaevMithran in #1216 
+- Adds a `create-offer` endpoint in `issue-credential-v1` and `issue-credential-v2` to create an offer independent of connection.
+- Support both `issue-credential-v1` and `issue-credential-v2` credential offer
+- Test coverage
+- Current status: final testing
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 15:54:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1314" class=".btn">#1314</a>
             </td>
             <td>
@@ -167,32 +197,6 @@ Also avoids a potential failure when two agent processes try to perform the publ
     </table>
     <div class="right-align">
         Created At 2021-07-07 18:22:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1300" class=".btn">#1300</a>
-            </td>
-            <td>
-                <b>
-                    Accept short DIDs for their_public_did parameter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Follow-up to https://github.com/hyperledger/aries-cloudagent-python/pull/1296
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 16:27:50 +0000 UTC
     </div>
 </div>
 

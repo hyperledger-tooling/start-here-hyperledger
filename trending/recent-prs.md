@@ -1,13 +1,13 @@
 
-[543](https://github.com/hyperledger-labs/business-partner-agent/pull/543) Allow prod config
+[30](https://github.com/hyperledger/fabric-chaincode-go/pull/30) Propagate error in case of failure to load keypair
 
-[692](https://github.com/hyperledger/aries-rfcs/pull/692) DRAFT: Minor version update to Issue Credential V2 to enable issuing multiple VCs
+[825](https://github.com/hyperledger/grid/pull/825) Move Grid features to default in CLI and gridd
 
-[2410](https://github.com/hyperledger/indy-sdk/pull/2410) fix dockerfile
+[2542](https://github.com/hyperledger/besu/pull/2542) Prepare for version 21.7.2-SNAPSHOT
 
-[1157](https://github.com/hyperledger/iroha/pull/1157) [GHA][CI][HOTFIX] -DCMAKE_BUILD_TYPE
+[2541](https://github.com/hyperledger/besu/pull/2541) Release 21.7.1
 
-[2539](https://github.com/hyperledger/besu/pull/2539) Qbft transaction based voting
+[182](https://github.com/hyperledger/fabric-sdk-go/pull/182) Settable ConfigBackend
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
