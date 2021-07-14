@@ -91,29 +91,3 @@ These cases were not covered in the [original PR](https://github.com/hyperledger
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/430" class=".btn">#430</a>
-            </td>
-            <td>
-                <b>
-                    Fix broken codegen cases
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Test found by @Lucasste
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 00:38:58 +0000 UTC
-    </div>
-</div>
-

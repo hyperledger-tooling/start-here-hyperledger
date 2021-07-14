@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/180" class=".btn">#180</a>
+                PR <a href="https://github.com/hyperledger/ursa/pull/184" class=".btn">#184</a>
             </td>
             <td>
                 <b>
-                    Run libursa tests on Ubuntu 20.04
+                    fix type typo
                 </b>
             </td>
         </tr>
@@ -27,26 +27,12 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                This PR adds `libursa`-specific jobs to GH Actions (namely building `libursa` and running its tests).
-
-One thing I'm not sure about is the workaround for getting `libursa` to build on its own -- currently, running `cargo build` in the `libursa` directory on the `main` branch will yield this error:
-```
-error: current package believes it's in a workspace when it's not:
-current:   ursa/libursa/Cargo.toml
-workspace: ursa/Cargo.toml
-
-this may be fixable by adding `libursa` to the `workspace.members` array of the manifest located at: ursa/Cargo.toml
-Alternatively, to keep it out of the workspace, add the package to the `workspace.exclude` array, or add an empty `[workspace]` table to the package's manifest.
-```
-I heeded the second suggestion and excluded `libzmix` and `libursa` from the workspace, but I'm not sure if this is the correct course of action. Feel free to request/make changes!
-
-As for the changes to `libursa/src/kex/secp256k1.rs`, the compatibility test was never updated after `libsecp256k1` was replaced with `k256` in #171, so this PR also fixes that.
-
+                Signed-off-by: Abdulhamit Kumru <abdulhamit.kumru-b@tubitak.gov.tr>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-14 04:00:58 +0000 UTC
+        Created At 2021-07-13 20:50:24 +0000 UTC
     </div>
 </div>
 

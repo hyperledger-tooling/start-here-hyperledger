@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2537" class=".btn">#2537</a>
+            </td>
+            <td>
+                <b>
+                    Add Justin Florentine as a maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Justin has made significant [commits](https://github.com/hyperledger/besu/commits?author=jflo) improving the quality and features of besu, this PR adds him as a maintainer.
+
+Voting ends 2 weeks from the publication of this PR or once a majority of the maintainers [vote](https://github.com/hyperledger/besu/blob/master/MAINTAINERS.md#maintainers-approval-process).  
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 22:02:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2536" class=".btn">#2536</a>
             </td>
             <td>
@@ -549,45 +579,6 @@ Adds GoQuorum privacy to changelog and moves QBFT and privacy to early access fe
     </table>
     <div class="right-align">
         Created At 2021-07-07 09:18:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2505" class=".btn">#2505</a>
-            </td>
-            <td>
-                <b>
-                    Prioritize with nonce distance
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-Prevent multiple transactions from the same address from evicting others which are waiting in a full transaction pool. When we have to evict a transaction from a full pool, we now also consider how far it is from the lowest nonce from the same address already in the pool. We are also increasing the size of the pending transaction pool, so it should support the new 10MB maximum message size previously introduced by pr [#2485](https://github.com/hyperledger/besu/pull/2485) .
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-Default value for `--tx-pool-max-size`  is now 32K.
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-06 20:24:50 +0000 UTC
     </div>
 </div>
 

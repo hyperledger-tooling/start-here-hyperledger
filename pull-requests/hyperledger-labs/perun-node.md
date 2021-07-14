@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger-labs/perun-node
                 
             </td>
             <td>
-                repolinter currently reports four issues:
+                [repolinter](https://github.com/todogroup/repolinter) currently reports four issues:
 - missing CODE_OF_CONDUCT
 - missing CHANGELOG
 - missing Maintainers
 - missing SECURITY
 
-This PR is to fix this.
+To reproduce: `repolinter --rulesetUrl https://raw.githubusercontent.com/hyperledger-labs/hyperledger-community-management-tools/master/repo_structure/repolint.json`
 
+This PR is to fix this.
             </td>
         </tr>
     </table>
