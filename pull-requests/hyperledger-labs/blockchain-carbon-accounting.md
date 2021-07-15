@@ -585,29 +585,3 @@ This PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/233" class=".btn">#233</a>
-            </td>
-            <td>
-                <b>
-                    Static-code-analyzer built using Gruntjs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Pihu1998 <pranamika.pihu1998@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 19:26:59 +0000 UTC
-    </div>
-</div>
-

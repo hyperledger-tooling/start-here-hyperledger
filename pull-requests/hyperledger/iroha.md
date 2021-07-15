@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1161" class=".btn">#1161</a>
+            </td>
+            <td>
+                <b>
+                    Integration of Iroha P2P.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+Started integration of P2P. Closes #1134.
+
+### Benefits
+
+New network stack for Iroha2.
+
+### Possible Drawbacks 
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 19:49:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1160" class=".btn">#1160</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
-[30](https://github.com/hyperledger/fabric-chaincode-go/pull/30) Propagate error in case of failure to load keypair
+[11](https://github.com/hyperledger-labs/blockchain-verifier/pull/11) Add integration test
 
-[825](https://github.com/hyperledger/grid/pull/825) Move Grid features to default in CLI and gridd
+[1318](https://github.com/hyperledger/aries-cloudagent-python/pull/1318) Typo in acme example + added sentence forclarity
 
-[2542](https://github.com/hyperledger/besu/pull/2542) Prepare for version 21.7.2-SNAPSHOT
+[1317](https://github.com/hyperledger/aries-cloudagent-python/pull/1317) Update version to 0.7.0, update to Askar 0.2 release
 
-[2541](https://github.com/hyperledger/besu/pull/2541) Release 21.7.1
+[2881](https://github.com/hyperledger/aries-framework-go/pull/2881) chore(deps-dev): bump webpack-cli from 3.3.10 to 4.7.2 in /cmd/aries-js-worker
 
-[182](https://github.com/hyperledger/fabric-sdk-go/pull/182) Settable ConfigBackend
+[2756](https://github.com/hyperledger/fabric/pull/2756) Update test network tutorial for new profile
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

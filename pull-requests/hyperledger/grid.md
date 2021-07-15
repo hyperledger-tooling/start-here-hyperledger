@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/826" class=".btn">#826</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Merge pull request #820 from Cargill/dnewh-batches-accessors"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts commit 01ca80c250bf94aab817d9ea11ca26e7a9c192aa, reversing
+changes made to f24bb577d23bae563ff1c7daf2f3222d20e078d4.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 19:49:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/825" class=".btn">#825</a>
             </td>
             <td>
@@ -465,87 +492,6 @@ It is guarded behind the experimental feature `"commit-store-service-commits"`.
     </table>
     <div class="right-align">
         Created At 2021-07-08 15:41:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/800" class=".btn">#800</a>
-            </td>
-            <td>
-                <b>
-                    Rename pike to grid_pike
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The rest of the grid contracts are prefixed with grid_, this change updates
-pike to match.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 21:14:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/799" class=".btn">#799</a>
-            </td>
-            <td>
-                <b>
-                    Add accessor methods to Pike `Agent`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR makes a few changes in order to allow the fields of the `Agent` Pike struct to be private, rather than public. Store objects should have private fields and accessor methods, hence the change. Also, this PR adds a new `builder` module within the Pike store which currently holds an `AgentBuilder` used to construct agents. This PR also implements the use of the `AgentBuilder`. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 19:49:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/798" class=".btn">#798</a>
-            </td>
-            <td>
-                <b>
-                    Fix just ci recipe
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 19:08:32 +0000 UTC
     </div>
 </div>
 
