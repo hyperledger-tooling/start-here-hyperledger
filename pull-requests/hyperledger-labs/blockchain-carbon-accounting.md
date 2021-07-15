@@ -552,36 +552,3 @@ This setup is done to ensure that your workflow is set up correctly.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/234" class=".btn">#234</a>
-            </td>
-            <td>
-                <b>
-                    Test if emissions calculated for 2019 and 2018 for same energy amount is different 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Pihu1998 <pranamika.pihu1998@gmail.com>
-
-This PR:
-
-1. Stores emissions calculated for 2019 for an energy amount.
-2. Stores emissions calculated for 2018 for same energy amount.
-3. Should check if both are unequal.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-08 07:16:44 +0000 UTC
-    </div>
-</div>
-

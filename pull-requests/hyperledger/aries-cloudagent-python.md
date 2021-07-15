@@ -81,9 +81,10 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             <td>
                 - Extends work done by @DaevMithran in #1216 
 - Adds a `create-offer` endpoint in `issue-credential-v1` and `issue-credential-v2` to create an offer independent of connection.
-- Support both `issue-credential-v1` and `issue-credential-v2` credential offer
+- Support both `issue-credential-v1` and `issue-credential-v2` credential offer workflow 
+[Faber] with auto flags, offer_sent -> request_received -> credential_issued
+[Alice] with auto flags, offer_received -> request_sent -> credential_received
 - Test coverage
-- Current status: final testing
             </td>
         </tr>
     </table>
@@ -170,33 +171,6 @@ Also avoids a potential failure when two agent processes try to perform the publ
     </table>
     <div class="right-align">
         Created At 2021-07-08 19:52:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1303" class=".btn">#1303</a>
-            </td>
-            <td>
-                <b>
-                    DIF PE Integration Test Update - required before PR#1294 merge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - This PR is connected to #1294. Keeping this separate for the review process. Once this merged and PR#1294 is updated, I expect all checks to pass.
-- Following discussion with @andrewwhitehead, now using `is_holder` to decide whether `VP` should be signed or not. The `VP` cannot be verified unless `is_holder` property is specified in the `presentation_definition` which is causing the tests to fail.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-08 10:18:57 +0000 UTC
     </div>
 </div>
 
