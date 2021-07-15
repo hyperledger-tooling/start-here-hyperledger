@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/550" class=".btn">#550</a>
+            </td>
+            <td>
+                <b>
+                    Issue: 548 Optional Trustping
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/550"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-15 17:36:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/549" class=".btn">#549</a>
             </td>
             <td>
@@ -239,7 +269,7 @@ Work in progress, obviously, but opening a PR for visibility.
             </td>
             <td>
                 <b>
-                    WIP for interested readers
+                    Add proof templates for proof request creation
                 </b>
             </td>
         </tr>
@@ -262,36 +292,6 @@ Work in progress, obviously, but opening a PR for visibility.
     </table>
     <div class="right-align">
         Created At 2021-07-09 07:29:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/538" class=".btn">#538</a>
-            </td>
-            <td>
-                <b>
-                    fix endorser related methods after aca-py0.7.0rc0 changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/538"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-08 15:36:51 +0000 UTC
     </div>
 </div>
 

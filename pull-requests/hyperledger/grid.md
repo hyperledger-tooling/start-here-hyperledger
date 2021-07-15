@@ -464,34 +464,3 @@ Signed-off-by: Darian Plumb <dplumb@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/801" class=".btn">#801</a>
-            </td>
-            <td>
-                <b>
-                    Add get_current_service_commits
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds a method to the `CommitStore` to provide the current commits for all services.
-
-It also adds the implementation for the `DieselCommitStore`, supplying the query via an operation trait.  The operation implementation itself requires using a raw SQL query, as the query cannot be generated using the diesel DSL (as of diesel 1.4.x releases).
-
-It is guarded behind the experimental feature `"commit-store-service-commits"`.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-08 15:41:43 +0000 UTC
-    </div>
-</div>
-
