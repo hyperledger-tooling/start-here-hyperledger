@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/235" class=".btn">#235</a>
+            </td>
+            <td>
+                <b>
+                    improving on-premise k8s uses.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * supporting local-path-provisioner, for persistent storage.
+  local-path-provisioner seems not support 'subPath' for volumeMounts.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-15 05:53:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minifabric/pull/234" class=".btn">#234</a>
             </td>
             <td>
