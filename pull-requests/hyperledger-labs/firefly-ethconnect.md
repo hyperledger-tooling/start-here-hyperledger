@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-ethconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/132" class=".btn">#132</a>
+            </td>
+            <td>
+                <b>
+                    Add CODEOWNERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-15 14:39:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/131" class=".btn">#131</a>
             </td>
             <td>
