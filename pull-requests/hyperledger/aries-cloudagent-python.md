@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1318" class=".btn">#1318</a>
+            </td>
+            <td>
+                <b>
+                    Typo in acme example + added sentence forclarity
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixing typo (line was accidentally commented out), and explaining where to copy paste a code snippet (unclear from the instructions)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 23:54:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1317" class=".btn">#1317</a>
+            </td>
+            <td>
+                <b>
+                    Update version to 0.7.0, update to Askar 0.2 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 23:26:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1316" class=".btn">#1316</a>
             </td>
             <td>
@@ -145,58 +197,6 @@ Also avoids a potential failure when two agent processes try to perform the publ
     </table>
     <div class="right-align">
         Created At 2021-07-08 10:18:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1302" class=".btn">#1302</a>
-            </td>
-            <td>
-                <b>
-                    Fix warnings due to action API updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 18:53:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1301" class=".btn">#1301</a>
-            </td>
-            <td>
-                <b>
-                    fix: failure to verify jsonld on non-conformant doc but vaild vmethod
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Minor fix for jsonld verify route.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 18:22:59 +0000 UTC
     </div>
 </div>
 

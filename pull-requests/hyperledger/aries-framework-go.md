@@ -14,6 +14,360 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2881" class=".btn">#2881</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): bump webpack-cli from 3.3.10 to 4.7.2 in /cmd/aries-js-worker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [webpack-cli](https://github.com/webpack/webpack-cli) from 3.3.10 to 4.7.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack-cli/releases">webpack-cli's releases</a>.</em></p>
+<blockquote>
+<h2>v4.7.2</h2>
+<h2><a href="https://github.com/webpack/webpack-cli/compare/webpack-cli@4.7.1...webpack-cli@4.7.2">4.7.2</a> (2021-06-07)</h2>
+<p><strong>Note:</strong> Version bump only for package webpack-cli</p>
+<h2>v4.7.1</h2>
+<h2><a href="https://github.com/webpack/webpack-cli/compare/webpack-cli@4.7.0...webpack-cli@4.7.1">4.7.1</a> (2021-06-07)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>not found module after ask installation (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2761">#2761</a>) (<a href="https://github.com/webpack/webpack-cli/commit/557ad05ae8168255b57698bdd2d98cbc7b53812d">557ad05</a>)</li>
+<li>prettier config (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2719">#2719</a>) (<a href="https://github.com/webpack/webpack-cli/commit/181295fb1b1973c201c221813562219d85b845ae">181295f</a>)</li>
+</ul>
+<h2>v4.7.0</h2>
+<h1><a href="https://github.com/webpack/webpack-cli/compare/webpack-cli@4.6.0...webpack-cli@4.7.0">4.7.0</a> (2021-05-06)</h1>
+<h3>Bug Fixes</h3>
+<ul>
+<li>parsing of empty <code>--env</code> flags (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2643">#2643</a>) (<a href="https://github.com/webpack/webpack-cli/commit/bc12f1a2a833f09a0585050a0f5dd854da188f1d">bc12f1a</a>)</li>
+<li>update usage info (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2594">#2594</a>) (<a href="https://github.com/webpack/webpack-cli/commit/9d07d67faf147cbaf0dddb95038403963e5f2afb">9d07d67</a>)</li>
+</ul>
+<h3>Features</h3>
+<ul>
+<li>add <code>create</code> and <code>new</code> alias for <code>init</code> (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2616">#2616</a>) (<a href="https://github.com/webpack/webpack-cli/commit/5a9789db237b7696adfdc9826b0dda749fedfa9a">5a9789d</a>)</li>
+<li>add <code>server</code> alias for <code>serve</code> command (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2631">#2631</a>) (<a href="https://github.com/webpack/webpack-cli/commit/c9ee947618c06447bc1f949e4d401e63f737f38d">c9ee947</a>)</li>
+<li>add flag to force start finish log (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2566">#2566</a>) (<a href="https://github.com/webpack/webpack-cli/commit/281aad3ee4961f1643453eb1a926e88e0b7f019c">281aad3</a>)</li>
+<li>added <code>--no-devtool</code> to webpack v4(<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2603">#2603</a>) (<a href="https://github.com/webpack/webpack-cli/commit/7c6f390a1d64d562065ffc31d8b23d833813ee9d">7c6f390</a>)</li>
+<li>added support arguments description (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2659">#2659</a>) (<a href="https://github.com/webpack/webpack-cli/commit/4dfd166f757ce94130bf9b7580f2dbe2868b8f4f">4dfd166</a>)</li>
+</ul>
+<h2>v4.6.0</h2>
+<h1><a href="https://github.com/webpack/webpack-cli/compare/webpack-cli@4.5.0...webpack-cli@4.6.0">4.6.0</a> (2021-03-27)</h1>
+<h3>Bug Fixes</h3>
+<ul>
+<li><code>negative</code> options (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2555">#2555</a>) (<a href="https://github.com/webpack/webpack-cli/commit/f26ebc105e140992639864fa01950454abd716ac">f26ebc1</a>)</li>
+<li>improve error message for help (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2482">#2482</a>) (<a href="https://github.com/webpack/webpack-cli/commit/99ae2a3b9f7ad8c1807839357360a1b4607865b1">99ae2a3</a>)</li>
+<li>show <code>--node-env</code> in minimum help output (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2411">#2411</a>) (<a href="https://github.com/webpack/webpack-cli/commit/f5fc3023121f4d952a166879a46b2653c20b6349">f5fc302</a>)</li>
+</ul>
+<h3>Features</h3>
+<ul>
+<li>added <code>WEBPACK_PACKAGE</code> env var to use custom <code>webpack</code> package (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2556">#2556</a>) (<a href="https://github.com/webpack/webpack-cli/commit/3d1e4855c55a6601d8a89dcb50d9d842009e3cda">3d1e485</a>)</li>
+<li>added <code>WEBPACK_CLI_SKIP_IMPORT_LOCAL</code> env var to skip local import (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2546">#2546</a>) (<a href="https://github.com/webpack/webpack-cli/commit/e13082221c2da01d8b8215ebc936474bf3ca1582">e130822</a>)</li>
+<li>allow string value for the <code>--hot</code> option (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2444">#2444</a>) (<a href="https://github.com/webpack/webpack-cli/commit/8656e78d788bc8a504258d4dcc609767f63d60c4">8656e78</a>)</li>
+<li>display used config path when logging level=log (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2431">#2431</a>) (<a href="https://github.com/webpack/webpack-cli/commit/f8406e1c5253849fad741eb45f1ece23a7c603f4">f8406e1</a>)</li>
+</ul>
+<h2>v4.5.0</h2>
+<h1><a href="https://github.com/webpack/webpack-cli/compare/webpack-cli@4.4.0...webpack-cli@4.5.0">4.5.0</a> (2021-02-02)</h1>
+<h3>Notes</h3>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack-cli/blob/master/CHANGELOG.md">webpack-cli's changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/webpack/webpack-cli/compare/webpack-cli@4.7.1...webpack-cli@4.7.2">4.7.2</a> (2021-06-07)</h2>
+<p><strong>Note:</strong> Version bump only for package webpack-cli (due <code>@webpack-cli/serve</code>)</p>
+<h2><a href="https://github.com/webpack/webpack-cli/compare/webpack-cli@4.7.0...webpack-cli@4.7.1">4.7.1</a> (2021-06-07)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>not found module after ask installation (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2761">#2761</a>) (<a href="https://github.com/webpack/webpack-cli/commit/557ad05ae8168255b57698bdd2d98cbc7b53812d">557ad05</a>)</li>
+<li>prettier config (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2719">#2719</a>) (<a href="https://github.com/webpack/webpack-cli/commit/181295fb1b1973c201c221813562219d85b845ae">181295f</a>)</li>
+</ul>
+<h1><a href="https://github.com/webpack/webpack-cli/compare/webpack-cli@4.6.0...webpack-cli@4.7.0">4.7.0</a> (2021-05-06)</h1>
+<h3>Bug Fixes</h3>
+<ul>
+<li>parsing of empty <code>--env</code> flags (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2643">#2643</a>) (<a href="https://github.com/webpack/webpack-cli/commit/bc12f1a2a833f09a0585050a0f5dd854da188f1d">bc12f1a</a>)</li>
+<li>update usage info (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2594">#2594</a>) (<a href="https://github.com/webpack/webpack-cli/commit/9d07d67faf147cbaf0dddb95038403963e5f2afb">9d07d67</a>)</li>
+</ul>
+<h3>Features</h3>
+<ul>
+<li>add <code>create</code> and <code>new</code> alias for <code>init</code> (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2616">#2616</a>) (<a href="https://github.com/webpack/webpack-cli/commit/5a9789db237b7696adfdc9826b0dda749fedfa9a">5a9789d</a>)</li>
+<li>add <code>server</code> alias for <code>serve</code> command (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2631">#2631</a>) (<a href="https://github.com/webpack/webpack-cli/commit/c9ee947618c06447bc1f949e4d401e63f737f38d">c9ee947</a>)</li>
+<li>add flag to force start finish log (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2566">#2566</a>) (<a href="https://github.com/webpack/webpack-cli/commit/281aad3ee4961f1643453eb1a926e88e0b7f019c">281aad3</a>)</li>
+<li>added <code>--no-devtool</code> to webpack v4(<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2603">#2603</a>) (<a href="https://github.com/webpack/webpack-cli/commit/7c6f390a1d64d562065ffc31d8b23d833813ee9d">7c6f390</a>)</li>
+<li>added support arguments description (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2659">#2659</a>) (<a href="https://github.com/webpack/webpack-cli/commit/4dfd166f757ce94130bf9b7580f2dbe2868b8f4f">4dfd166</a>)</li>
+</ul>
+<h1><a href="https://github.com/webpack/webpack-cli/compare/webpack-cli@4.5.0...webpack-cli@4.6.0">4.6.0</a> (2021-03-27)</h1>
+<h3>Bug Fixes</h3>
+<ul>
+<li><code>negative</code> options (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2555">#2555</a>) (<a href="https://github.com/webpack/webpack-cli/commit/f26ebc105e140992639864fa01950454abd716ac">f26ebc1</a>)</li>
+<li>improve error message for help (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2482">#2482</a>) (<a href="https://github.com/webpack/webpack-cli/commit/99ae2a3b9f7ad8c1807839357360a1b4607865b1">99ae2a3</a>)</li>
+<li>show <code>--node-env</code> in minimum help output (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2411">#2411</a>) (<a href="https://github.com/webpack/webpack-cli/commit/f5fc3023121f4d952a166879a46b2653c20b6349">f5fc302</a>)</li>
+</ul>
+<h3>Features</h3>
+<ul>
+<li>added <code>WEBPACK_PACKAGE</code> env var to use custom <code>webpack</code> package (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2556">#2556</a>) (<a href="https://github.com/webpack/webpack-cli/commit/3d1e4855c55a6601d8a89dcb50d9d842009e3cda">3d1e485</a>)</li>
+<li>added <code>WEBPACK_CLI_SKIP_IMPORT_LOCAL</code> env var to skip local import (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2546">#2546</a>) (<a href="https://github.com/webpack/webpack-cli/commit/e13082221c2da01d8b8215ebc936474bf3ca1582">e130822</a>)</li>
+<li>allow string value for the <code>--hot</code> option (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2444">#2444</a>) (<a href="https://github.com/webpack/webpack-cli/commit/8656e78d788bc8a504258d4dcc609767f63d60c4">8656e78</a>)</li>
+<li>display used config path when logging level=log (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2431">#2431</a>) (<a href="https://github.com/webpack/webpack-cli/commit/f8406e1c5253849fad741eb45f1ece23a7c603f4">f8406e1</a>)</li>
+</ul>
+<h1><a href="https://github.com/webpack/webpack-cli/compare/webpack-cli@4.4.0...webpack-cli@4.5.0">4.5.0</a> (2021-02-02)</h1>
+<h3>Notes</h3>
+<ul>
+<li>now you can use <code>webpack.config.mjs</code> and <code>webpack.config.js</code> with <code>{ &quot;type&quot;: &quot;module&quot; }</code> in <code>package.json</code></li>
+<li>you can avoid using the <code>cross-env</code> package:</li>
+</ul>
+<p>Before:</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/webpack/webpack-cli/commit/68ef0563afd105652dc0fd0b2391a0a766cd24fe"><code>68ef056</code></a> chore(release): publish new version</li>
+<li><a href="https://github.com/webpack/webpack-cli/commit/2d7ab3549c429193b4ed5fbc6174153c847e0330"><code>2d7ab35</code></a> fix: broken serve with new CLI API (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2770">#2770</a>)</li>
+<li><a href="https://github.com/webpack/webpack-cli/commit/060268b770c9623e457afc849e3933364914951d"><code>060268b</code></a> docs: update CHANGELOG</li>
+<li><a href="https://github.com/webpack/webpack-cli/commit/2be9b9254009598e021b830091fba8832dfdb57b"><code>2be9b92</code></a> chore(release): publish new version</li>
+<li><a href="https://github.com/webpack/webpack-cli/commit/598008a0a3e90ea8dd8c415a3c08700b750774b5"><code>598008a</code></a> chore(deps-dev): bump ts-jest from 27.0.2 to 27.0.3 (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2764">#2764</a>)</li>
+<li><a href="https://github.com/webpack/webpack-cli/commit/625b4fd88ab38f3381c3fbd2df3ae2d813fe784f"><code>625b4fd</code></a> chore(deps-dev): bump prettier from 2.3.0 to 2.3.1 (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2765">#2765</a>)</li>
+<li><a href="https://github.com/webpack/webpack-cli/commit/bb7c9d3c9b0dca11242e2febcd41805c063e1317"><code>bb7c9d3</code></a> feat: new CLI options API for serve (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2754">#2754</a>)</li>
+<li><a href="https://github.com/webpack/webpack-cli/commit/557ad05ae8168255b57698bdd2d98cbc7b53812d"><code>557ad05</code></a> fix: not found module after ask installation (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2761">#2761</a>)</li>
+<li><a href="https://github.com/webpack/webpack-cli/commit/c8fef37c06874d62479e65145f764cd72dc3a82e"><code>c8fef37</code></a> chore(deps-dev): bump <code>@​typescript-eslint/parser</code></li>
+<li><a href="https://github.com/webpack/webpack-cli/commit/368778d128474dad7a0a341985ee31e35d10a697"><code>368778d</code></a> fix: add node 16 to CI (<a href="https://github-redirect.dependabot.com/webpack/webpack-cli/issues/2760">#2760</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack-cli/compare/v3.3.10...webpack-cli@4.7.2">compare view</a></li>
+</ul>
+</details>
+<details>
+<summary>Maintainer changes</summary>
+<p>This version was pushed to npm by <a href="https://www.npmjs.com/~evilebottnawi">evilebottnawi</a>, a new releaser for webpack-cli since your current version.</p>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack-cli&package-manager=npm_and_yarn&previous-version=3.3.10&new-version=4.7.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 22:13:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2880" class=".btn">#2880</a>
+            </td>
+            <td>
+                <b>
+                    chore: disable dependabot PRs on gomod
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - the other gomod in the repo need to be updated in sync.
+
+Signed-off-by: Troy Ronda <troy@troyronda.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 20:37:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2879" class=".btn">#2879</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): bump file-loader from 5.0.2 to 6.2.0 in /cmd/aries-js-worker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [file-loader](https://github.com/webpack-contrib/file-loader) from 5.0.2 to 6.2.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack-contrib/file-loader/releases">file-loader's releases</a>.</em></p>
+<blockquote>
+<h2>v6.2.0</h2>
+<h2><a href="https://github.com/webpack-contrib/file-loader/compare/v6.1.1...v6.2.0">6.2.0</a> (2020-10-27)</h2>
+<h3>Features</h3>
+<ul>
+<li>added the <code>sourceFilename</code> property to asset info with original filename (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/393">#393</a>) (<a href="https://github.com/webpack-contrib/file-loader/commit/654e0d641ec067089f6a2d12e30ec3520f00d808">654e0d6</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>immutable flag when the <code>name</code> option have hash in query string (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/392">#392</a>) (<a href="https://github.com/webpack-contrib/file-loader/commit/381d8bda3f2494487bfe840386e365b97b6025fe">381d8bd</a>)</li>
+</ul>
+<h2>v6.1.1</h2>
+<h3><a href="https://github.com/webpack-contrib/file-loader/compare/v6.1.0...v6.1.1">6.1.1</a> (2020-10-09)</h3>
+<h3>Chore</h3>
+<ul>
+<li>update <code>schema-utils</code></li>
+</ul>
+<h2>v6.1.0</h2>
+<h2><a href="https://github.com/webpack-contrib/file-loader/compare/v6.0.0...v6.1.0">6.1.0</a> (2020-08-31)</h2>
+<h3>Features</h3>
+<ul>
+<li>pass immutable flag to asset info (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/383">#383</a>) (<a href="https://github.com/webpack-contrib/file-loader/commit/40fcde81681d4f8ee19d2ee3845fd34e24459195">40fcde8</a>)</li>
+</ul>
+<h2>v6.0.0</h2>
+<h2><a href="https://github.com/webpack-contrib/file-loader/compare/v5.1.0...v6.0.0">6.0.0</a> (2020-03-17)</h2>
+<h3>⚠ BREAKING CHANGES</h3>
+<ul>
+<li>use <code>md4</code> by default for hashing (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/369">#369</a>) (<a href="https://github.com/webpack-contrib/file-loader/commit/ad3902284d28adeddf667212a39faa4c6bfb2964">ad39022</a>)</li>
+</ul>
+<h2>v5.1.0</h2>
+<h2><a href="https://github.com/webpack-contrib/file-loader/compare/v5.0.2...v5.1.0">5.1.0</a> (2020-02-19)</h2>
+<h3>Features</h3>
+<ul>
+<li>support the <code>query</code> template for the <code>name</code> option (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/366">#366</a>) (<a href="https://github.com/webpack-contrib/file-loader/commit/cd8698b1d9fd560d85e912acca9a1e24f00e18f8">cd8698b</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/webpack-contrib/file-loader/blob/master/CHANGELOG.md">file-loader's changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/webpack-contrib/file-loader/compare/v6.1.1...v6.2.0">6.2.0</a> (2020-10-27)</h2>
+<h3>Features</h3>
+<ul>
+<li>added the <code>sourceFilename</code> property to asset info with original filename (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/393">#393</a>) (<a href="https://github.com/webpack-contrib/file-loader/commit/654e0d641ec067089f6a2d12e30ec3520f00d808">654e0d6</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>immutable flag when the <code>name</code> option have hash in query string (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/392">#392</a>) (<a href="https://github.com/webpack-contrib/file-loader/commit/381d8bda3f2494487bfe840386e365b97b6025fe">381d8bd</a>)</li>
+</ul>
+<h3><a href="https://github.com/webpack-contrib/file-loader/compare/v6.1.0...v6.1.1">6.1.1</a> (2020-10-09)</h3>
+<h3>Chore</h3>
+<ul>
+<li>update <code>schema-utils</code></li>
+</ul>
+<h2><a href="https://github.com/webpack-contrib/file-loader/compare/v6.0.0...v6.1.0">6.1.0</a> (2020-08-31)</h2>
+<h3>Features</h3>
+<ul>
+<li>pass immutable flag to asset info (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/383">#383</a>) (<a href="https://github.com/webpack-contrib/file-loader/commit/40fcde81681d4f8ee19d2ee3845fd34e24459195">40fcde8</a>)</li>
+</ul>
+<h2><a href="https://github.com/webpack-contrib/file-loader/compare/v5.1.0...v6.0.0">6.0.0</a> (2020-03-17)</h2>
+<h3>⚠ BREAKING CHANGES</h3>
+<ul>
+<li>use <code>md4</code> by default for hashing (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/369">#369</a>) (<a href="https://github.com/webpack-contrib/file-loader/commit/ad3902284d28adeddf667212a39faa4c6bfb2964">ad39022</a>)</li>
+</ul>
+<h2><a href="https://github.com/webpack-contrib/file-loader/compare/v5.0.2...v5.1.0">5.1.0</a> (2020-02-19)</h2>
+<h3>Features</h3>
+<ul>
+<li>support the <code>query</code> template for the <code>name</code> option (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/366">#366</a>) (<a href="https://github.com/webpack-contrib/file-loader/commit/cd8698b1d9fd560d85e912acca9a1e24f00e18f8">cd8698b</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/webpack-contrib/file-loader/commit/c423008dce1b16e1253b89b792f03774ffeb47de"><code>c423008</code></a> chore(release): 6.2.0</li>
+<li><a href="https://github.com/webpack-contrib/file-loader/commit/654e0d641ec067089f6a2d12e30ec3520f00d808"><code>654e0d6</code></a> feat: added the <code>sourceFilename</code> property to asset info with original filenam...</li>
+<li><a href="https://github.com/webpack-contrib/file-loader/commit/381d8bda3f2494487bfe840386e365b97b6025fe"><code>381d8bd</code></a> fix: immutable flag when the <code>name</code> option have hash in query string (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/392">#392</a>)</li>
+<li><a href="https://github.com/webpack-contrib/file-loader/commit/14ed4c9b47f2e580f5b04b71f742cafe9e554565"><code>14ed4c9</code></a> ci: updated webpack versions (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/389">#389</a>)</li>
+<li><a href="https://github.com/webpack-contrib/file-loader/commit/6fadfbe9fe43ca86095c836a3c521dfbbac408aa"><code>6fadfbe</code></a> chore(release): 6.1.1</li>
+<li><a href="https://github.com/webpack-contrib/file-loader/commit/60508cf17c2689a8c96d8f56ffc6bbc0ed82d553"><code>60508cf</code></a> chore(deps): update</li>
+<li><a href="https://github.com/webpack-contrib/file-loader/commit/25e2668f75ae3e8f78adeb99297caa258b2479f3"><code>25e2668</code></a> chore(release): 6.1.0</li>
+<li><a href="https://github.com/webpack-contrib/file-loader/commit/6e22f6e78fe17eea052a20a0b417640035e919b3"><code>6e22f6e</code></a> test: fix</li>
+<li><a href="https://github.com/webpack-contrib/file-loader/commit/40fcde81681d4f8ee19d2ee3845fd34e24459195"><code>40fcde8</code></a> feat: pass immutable flag to asset info (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/383">#383</a>)</li>
+<li><a href="https://github.com/webpack-contrib/file-loader/commit/718aef5f992d325945b1d13b675ac8c6d187a3bb"><code>718aef5</code></a> chore(deps): update (<a href="https://github-redirect.dependabot.com/webpack-contrib/file-loader/issues/375">#375</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack-contrib/file-loader/compare/v5.0.2...v6.2.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=file-loader&package-manager=npm_and_yarn&previous-version=5.0.2&new-version=6.2.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 18:21:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2878" class=".btn">#2878</a>
             </td>
             <td>
@@ -380,85 +734,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2021-07-09 16:03:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2873" class=".btn">#2873</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump github.com/VictoriaMetrics/fastcache from 1.5.7 to 1.6.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">go</span>
-            </td>
-            <td>
-                [//]: # (dependabot-start)
-⚠️  **Dependabot is rebasing this PR** ⚠️ 
-
-Rebasing might not happen immediately, so don't worry if this takes some time.
-
-Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
-
----
-
-[//]: # (dependabot-end)
-
-Bumps [github.com/VictoriaMetrics/fastcache](https://github.com/VictoriaMetrics/fastcache) from 1.5.7 to 1.6.0.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/VictoriaMetrics/fastcache/commit/5ffb40c1da4c7e2b8483e73629e66f4f1f94bff2"><code>5ffb40c</code></a> vendor: run <code>go mod vendor</code> after 3fbe8ccb42ecf703ea89800235ab7bbe3d0cb345</li>
-<li><a href="https://github.com/VictoriaMetrics/fastcache/commit/3fbe8ccb42ecf703ea89800235ab7bbe3d0cb345"><code>3fbe8cc</code></a> Substitute syscall by x/sys, support more platforms (e.g. Solaris). (<a href="https://github-redirect.dependabot.com/VictoriaMetrics/fastcache/issues/48">#48</a>)</li>
-<li><a href="https://github.com/VictoriaMetrics/fastcache/commit/f25ad798ea2c00be6a00c06f3346c93684643e71"><code>f25ad79</code></a> go.mod: update dependencies with <code>go get -u ./...</code></li>
-<li><a href="https://github.com/VictoriaMetrics/fastcache/commit/ca090d1419556e06a5a46a3f6ca379346db4a96c"><code>ca090d1</code></a> Fix surprising / unexpected behavior with <code>GetBig</code> when testing for cache mis...</li>
-<li><a href="https://github.com/VictoriaMetrics/fastcache/commit/92c7cea401b3a172c83b297465fa7c84abe299f9"><code>92c7cea</code></a> Creating test files in tmp folder structure. (<a href="https://github-redirect.dependabot.com/VictoriaMetrics/fastcache/issues/45">#45</a>)</li>
-<li><a href="https://github.com/VictoriaMetrics/fastcache/commit/8835719dc76cc26f97026e3aa726742e7d2f1053"><code>8835719</code></a> bump version of codecov-action to v1.0.6</li>
-<li>See full diff in <a href="https://github.com/VictoriaMetrics/fastcache/compare/v1.5.7...v1.6.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/VictoriaMetrics/fastcache&package-manager=go_modules&previous-version=1.5.7&new-version=1.6.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 15:58:15 +0000 UTC
     </div>
 </div>
 

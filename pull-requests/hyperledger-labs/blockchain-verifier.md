@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/9" class=".btn">#9</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/11" class=".btn">#11</a>
             </td>
             <td>
                 <b>
-                    fabric-query2: Supports multiple ledgers
+                    Add integration test
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                This patch enables the fabric-query2 plugin to have multiple block
-sources, i.e. peers, so that it can perform comparison of hash values
-among them.
-
-Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
+                This PR introduces basic integration tests based on Hyperledger Fabric network created with the "test-network" script and "fabcar" chaincode in the fabric-samples repository.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-01 06:07:45 +0000 UTC
+        Created At 2021-07-14 23:58:22 +0000 UTC
     </div>
 </div>
 
