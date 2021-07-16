@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/75" class=".btn">#75</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/77" class=".btn">#77</a>
             </td>
             <td>
                 <b>
-                    Test/int/connections
+                    Test/int/schemas
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-01 18:42:50 +0000 UTC
+        Created At 2021-07-16 17:08:30 +0000 UTC
     </div>
 </div>
 

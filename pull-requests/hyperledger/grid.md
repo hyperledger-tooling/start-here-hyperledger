@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/829" class=".btn">#829</a>
+            </td>
+            <td>
+                <b>
+                    Fix agent-role update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes an issue with updating a role that belongs to an agent. The
+pike_agent_role_assoc table was not updating correctly when roles that
+already belonged to an agent were updated.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-16 17:21:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/828" class=".btn">#828</a>
             </td>
             <td>

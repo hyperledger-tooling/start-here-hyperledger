@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1571" class=".btn">#1571</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Update to vault v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Updated commands for vault v2 version in every role where it was used.
+- Updated charts with the correct paths required for v2 version. 
+
+ 
+
+**Reviewed by**
+@jagpreetsinghsasan 
+@sownak 
+
+ 
+
+**Linked issue**
+#1317 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-16 12:44:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1570" class=".btn">#1570</a>
             </td>
             <td>
