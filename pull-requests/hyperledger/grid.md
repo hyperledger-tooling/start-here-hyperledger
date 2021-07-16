@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/828" class=".btn">#828</a>
+            </td>
+            <td>
+                <b>
+                    Update Sawtooth dockerfile for grid_pike
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the `pike-contract-builder` for the Sawtooth example
+Docker-compose file to account for the name change from `pike` to
+`grid-pike`.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-15 20:39:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/827" class=".btn">#827</a>
+            </td>
+            <td>
+                <b>
+                    Remove un-imported memory module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change removes the `memory` module from the SchemaStore. This
+module was previously meant to be removed, but the only item removed was
+the corresponding import statement in the SchemaStore's mod.rs file.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-15 19:04:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/826" class=".btn">#826</a>
             </td>
             <td>
@@ -387,80 +447,6 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-07-09 12:13:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/803" class=".btn">#803</a>
-            </td>
-            <td>
-                <b>
-                    Reconnect scabbard event processors on restart
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                To Test:
-
-Start up a network using
-
-```
-$ docker-compose -f examples/splinter/docker-compose.yaml up --build
-```
-
-Follow the guide for [creating circuits](https://grid.hyperledger.org/docs/0.2/creating_splinter_circuits.html).
-
-`ctrl+c`  the compose run, followed by 
-
-```
-$ docker-compose -f examples/splinter/docker-compose.yaml up
-```
-
-Attempt to create a role (via the [pike guid](https://grid.hyperledger.org/docs/0.2/using_pike.html))
-
-Before this PR, this would not receive state delta events.  After, the state delta events should still be applied.
-
-~Depends on #801~ 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-08 21:45:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/802" class=".btn">#802</a>
-            </td>
-            <td>
-                <b>
-                    Update default schema owner
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This matches the name of the schema owner in the docs
-
-Signed-off-by: Darian Plumb <dplumb@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-08 21:11:30 +0000 UTC
     </div>
 </div>
 

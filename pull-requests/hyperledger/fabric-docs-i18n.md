@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/502" class=".btn">#502</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/511" class=".btn">#511</a>
             </td>
             <td>
                 <b>
-                    [pt_BR] translate prerequisites
+                    RU upgrade
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.org>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-06 18:57:18 +0000 UTC
+        Created At 2021-07-15 13:06:24 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/500" class=".btn">#500</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/510" class=".btn">#510</a>
             </td>
             <td>
                 <b>
-                    [pt_BR] translate install.rst
+                    RU chaincode for developers
                 </b>
             </td>
         </tr>
@@ -53,14 +53,118 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                Signed-off-by: Pedro Matias de Araujo <pedrom.araujo@outlook.com>
-
-Closes #445 
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.org>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-02 14:07:00 +0000 UTC
+        Created At 2021-07-14 16:44:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/509" class=".btn">#509</a>
+            </td>
+            <td>
+                <b>
+                    Add README.md to Vietnamese docs folder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: tonybka <tonybka@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 16:13:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/505" class=".btn">#505</a>
+            </td>
+            <td>
+                <b>
+                    RU install
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 09:03:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/504" class=".btn">#504</a>
+            </td>
+            <td>
+                <b>
+                    [pt_BR] Docs » Architecture Reference » Service Discovery
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #466
+
+Signed-off-by: Carlos Eduardo Matos Ellery <carlos.ellery@serpro.gov.br>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 00:27:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/503" class=".btn">#503</a>
+            </td>
+            <td>
+                <b>
+                    RU whatsnew
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-12 12:42:08 +0000 UTC
     </div>
 </div>
 

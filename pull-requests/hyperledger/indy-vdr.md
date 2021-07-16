@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/60" class=".btn">#60</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/61" class=".btn">#61</a>
             </td>
             <td>
                 <b>
-                    Add multi signature setter method to FFI, python wrapper
+                    Update lib version to 0.3.1
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/indy-vdr
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-05 17:40:13 +0000 UTC
+        Created At 2021-07-09 17:56:44 +0000 UTC
     </div>
 </div>
 

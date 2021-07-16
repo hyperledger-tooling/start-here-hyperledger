@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    0.2.0-pre.5 updates
+                    0.2.0 updates
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                - Split up AES key implementations
-- Avoid locking indefinitely when closing a store if the caller has left session or scan handles open
-- Optimize session/scan access via FFI
+                Add KeyMaterial trait, updates to KeyGen trait
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-18 19:22:56 +0000 UTC
+        Created At 2021-07-14 02:31:59 +0000 UTC
     </div>
 </div>
 

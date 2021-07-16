@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/138" class=".btn">#138</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    fix: ipns config
+                    fix: Fixes bdd tests
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                Signed-off-by: Andrii Soluk <isoluchok@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-30 21:16:47 +0000 UTC
+        Created At 2021-07-14 10:53:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/139" class=".btn">#139</a>
+            </td>
+            <td>
+                <b>
+                    chore: Updates vct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrii Soluk <isoluchok@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 09:39:17 +0000 UTC
     </div>
 </div>
 

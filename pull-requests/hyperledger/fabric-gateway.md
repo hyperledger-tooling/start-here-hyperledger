@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/137" class=".btn">#137</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    FABGW-21: Real-time chaincode event listening in Go API
+                    FABGW-21: Chaincode event listening Java implementation
                 </b>
             </td>
         </tr>
@@ -27,14 +27,66 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Implementation with unit test coverage of implicit signing path.
-
-Off-line signing test coverage and scenario tests for a later PR.
+                Unit test coverage. Scenario tests will come later.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-02 17:39:40 +0000 UTC
+        Created At 2021-07-15 11:33:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/139" class=".btn">#139</a>
+            </td>
+            <td>
+                <b>
+                    Fix TypeScript error in Node scenario tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Error introduced by a dependency update. More explicitly declaring a Promise generic type to avoid issues.
+
+Also explicitly depend on a version of @types/node to avoid transient dependencies on potentially breaking newer versions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 13:24:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/138" class=".btn">#138</a>
+            </td>
+            <td>
+                <b>
+                    Add HSM Signing Support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 12:04:40 +0000 UTC
     </div>
 </div>
 
