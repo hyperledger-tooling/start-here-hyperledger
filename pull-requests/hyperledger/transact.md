@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/165" class=".btn">#165</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/166" class=".btn">#166</a>
             </td>
             <td>
                 <b>
-                    Support multiple trees with a single backend
+                    Pschwarz sql merkle postgres operations
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                This PR updates the SqlMerkleState to support the use of multiple trees in a single backend.  This is accomplished by introducing a `merkle_radix_tree` table and added a `tree_id` reference to the existing tables.  `SqlMerkleState` structs must now be constructed via a builder.
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-29 02:25:39 +0000 UTC
+        Created At 2021-07-16 17:15:22 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1545" class=".btn">#1545</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1547" class=".btn">#1547</a>
             </td>
             <td>
                 <b>
-                    Publishing artifacts ubuntu 20.04
+                    Python packaging and uploading to PyPI
                 </b>
             </td>
         </tr>
@@ -27,22 +27,17 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                This PR contains the CD part of the GHA pipeline for the Ubuntu 20.04 upgrade (Issue #1537).
+                This PR contains the building and publishing of the Python package of Plenum to PyPI.
+A successful test tun of the PR can be found in this [GHA run](https://github.com/udosson/indy-plenum/actions/runs/1037939572). For testing purposes, the indy-plenum package was published to [TestPyPi](https://test.pypi.org/simple/). The indy-plenum package of the test can be installed via `python3 -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple indy-plenum==1.13.0.dev133`.
 
-- Copied the CD part (Merge #1541) from the master branch and adjusted it to run in the 20.04 workflow
-- rearranged dependencies in alphabetical order
-- extended the `Dockerfile.ubuntu-2004` with `fpm` and `zstd`
-- created build-scripts for ubuntu 20.04 based on the build-scripts for Ubuntu 16.04
-- Creates artifacts of all 3rd-party dependencies from `install_requires` with pinned versions according to the versions used in `Dockerfile.ubuntu-2004` that are necessary to pass the tests
-- removed `build_rocksdb_deb` because rocksdb v.5.17.2 package is available as [ubuntu package](https://packages.ubuntu.com/source/focal/rocksdb)
+@ryjones could you create a secret called `PYPI_API_TOKEN` according to[ PyPI docs](https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/#saving-credentials-on-github), please? This is needed to publish the package to PyPI. Thanks!
 
-All tests pass but Sliced Module Tests (plenum, 3). [GHA of the PR ](https://github.com/udosson/indy-plenum/runs/3018170304?check_suite_focus=true). 
-A lean-up of the commit history will be done once we're ready to merge.
+Signed-off-by: udosson <r.klemens@yahoo.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-08 13:13:28 +0000 UTC
+        Created At 2021-07-16 15:35:10 +0000 UTC
     </div>
 </div>
 

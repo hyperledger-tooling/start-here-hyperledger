@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/cactus
         </tr>
         <tr>
             <td>
-                <span class="chip">dependent</span>
+                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span><span class="chip">dependent</span>
             </td>
             <td>
                 ## Dependencies
@@ -39,10 +39,17 @@ Committer: Peter Somogyvari <peter.somogyvari@accenture.com>
 Committer Date: Thu Jul 15 2021 22:12:29 GMT-0700 (Pacific Daylight Time) 
 
 build: migrate to Yarn v1 from npm v7
-
+    
 Why?
 It was reported by other maintainers that yarn behaves much
 better in corporate proxy/firewalled environments.
+
+Future plans: Once Berry (Yarn v2) is stable, we should take
+a look at migrating onto that one. I did give it a try this
+time to see if their release candidate happened to be stable
+enough but it was not unfortunately (there were dependency
+resolution issues that lead the Yarn v2 not installing
+certain runtime dependencies at all so v1 it is for now)
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
@@ -372,33 +379,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-07-11 01:42:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1118" class=".btn">#1118</a>
-            </td>
-            <td>
-                <b>
-                    Docs : added a badge to open cactus with vscode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1116 
-Signed-off-by: shoeb <shoebsd31@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 15:21:08 +0000 UTC
     </div>
 </div>
 
