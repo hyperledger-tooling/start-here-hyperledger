@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/59" class=".btn">#59</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/68" class=".btn">#68</a>
             </td>
             <td>
                 <b>
-                    Resurrect go.yml and direct it to merge only
+                    various improvements #67
                 </b>
             </td>
         </tr>
@@ -27,170 +27,20 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-08 08:50:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/58" class=".btn">#58</a>
-            </td>
-            <td>
-                <b>
-                    extend issue action #45
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Hagar Meir <hagar.meir@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-07 12:43:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/57" class=".btn">#57</a>
-            </td>
-            <td>
-                <b>
-                    Refactor VerifyTransfers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-06 15:20:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/55" class=".btn">#55</a>
-            </td>
-            <td>
-                <b>
-                    add a getter for validation parameters + export unmarshalling method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-06 09:57:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/54" class=".btn">#54</a>
-            </td>
-            <td>
-                <b>
-                    Split CI jobs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-06 09:22:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/52" class=".btn">#52</a>
-            </td>
-            <td>
-                <b>
-                    token/driver api: introduce custom options for Transfer and Issue #42
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Hagar Meir <hagar.meir@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-06 08:43:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/51" class=".btn">#51</a>
-            </td>
-            <td>
-                <b>
-                    update fabric smart client dependency to: #43
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - [x] afca9dc42e20244e957d6b01cd2e79868bedaa01
+                - [x] NWO token topology: use Fabric topology's name when adding a new TMS.
+- [x] Introduce TMS Identifier
+- [x] Vault/Query: multi network support
+- [x] TCC/Auditor: multi network support
+- [x] Vault/Processor: multi network support and extendable token issued recognition
+- [x] TTX and TTXCC:  multi network support
+- [x] Core/TMS: multi network support
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-05 16:40:59 +0000 UTC
+        Created At 2021-07-16 03:53:23 +0000 UTC
     </div>
 </div>
 
@@ -198,11 +48,11 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    dlog: membership proof returns errors
+                    ability to choose wallets and recipient by tms #65
                 </b>
             </td>
         </tr>
@@ -211,12 +61,12 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
                 
             </td>
             <td>
-                
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-05 16:36:34 +0000 UTC
+        Created At 2021-07-13 15:39:21 +0000 UTC
     </div>
 </div>
 
@@ -224,11 +74,11 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/49" class=".btn">#49</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/64" class=".btn">#64</a>
             </td>
             <td>
                 <b>
-                    export verification methods of fabtoken.Validator
+                    various improvements #63
                 </b>
             </td>
         </tr>
@@ -237,71 +87,17 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
                 
             </td>
             <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-05 15:48:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/46" class=".btn">#46</a>
-            </td>
-            <td>
-                <b>
-                    Export Transaction fields
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                To allow a consumer of the token SDK to implement new types of transaction of its own, we should consider exporting the fields of the Transaction so that the consumer can just call the fabtoken NewTransaction function and then just reference the fields if there is an need for it.
-
-
-Issue: [47](https://github.com/hyperledger-labs/fabric-token-sdk/issues/47).
-
-Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-05 12:43:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/44" class=".btn">#44</a>
-            </td>
-            <td>
-                <b>
-                    update fabric smart client dependency to: #43
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - [x] c7da5dbada7764a88f10beadd4debfe6bf13d34b
+                - [x] export fabtoken driver service and its fields to make it extendable
+- [x] move to the latest version of the smart client
+- [x] SigService: add support for signer registration
+- [x] Vault Processor: configurable token ownership checker support
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-04 05:13:56 +0000 UTC
+        Created At 2021-07-13 05:54:29 +0000 UTC
     </div>
 </div>
 
@@ -309,11 +105,11 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/41" class=".btn">#41</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/61" class=".btn">#61</a>
             </td>
             <td>
                 <b>
-                    fabtoken: cleanup and completion #40
+                    commit IssueAction
                 </b>
             </td>
         </tr>
@@ -322,15 +118,12 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
                 
             </td>
             <td>
-                - [x] introduce deserializer of owner, issuer, and auditor identity
-- [x] token and public parameters loader
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-02 07:25:32 +0000 UTC
+        Created At 2021-07-12 12:32:38 +0000 UTC
     </div>
 </div>
 

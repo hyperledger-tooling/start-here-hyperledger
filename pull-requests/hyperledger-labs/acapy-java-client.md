@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    extend presentproofrequest-restrictions-for-generic-restrictions
+                    Fix parameter for SetEndorserRoleFilter api
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                Added support for generic restrictions in PresentProofRequest. Added addAttributeValueRestriction for convenience to the ProofRestrictionsBuilder.
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
 
-Signed-off-by: Lars Wegner <lars.wegner2@de.bosch.com>
+Fixes the call to aca-py  `/transactions/<conn_id>/set-endorser-role?transaction_my_job=TRANSACTION_AUTHOR`
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-07 15:34:31 +0000 UTC
+        Created At 2021-07-15 23:26:21 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +43,11 @@ Signed-off-by: Lars Wegner <lars.wegner2@de.bosch.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/7" class=".btn">#7</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    Extend present proof request builder with lombok.singular
+                    PresentProofRequest supports predicate value.
                 </b>
             </td>
         </tr>
@@ -55,42 +56,12 @@ Signed-off-by: Lars Wegner <lars.wegner2@de.bosch.com>
                 
             </td>
             <td>
-                @lombok.Singular is needed to map ProofTemplates to PresentProofRequest efficiently.
-
-The major change is, that the fields PresentProofRequest#requestedPredicates and PresentProofRequest#requestedAttributes now have a java.util.HashMap instead of a java.util.LinkedHashMap when PresentProofRequestBuilder is used.
+                Signed-off-by: Lars Wegner <lars.wegner2@de.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-02 11:16:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/6" class=".btn">#6</a>
-            </td>
-            <td>
-                <b>
-                    Add a method to get all schemas from Aries Cloudagent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is the second approach to propose a method to get all Schema Ids from the Aries Cloudagent. Corrections include a filter as suggested and a simple unit test.
-
-Signed-off-by: Stefan Hauffe <stefan.hauffe@mgm-tp.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-02 06:55:59 +0000 UTC
+        Created At 2021-07-14 12:39:38 +0000 UTC
     </div>
 </div>
 

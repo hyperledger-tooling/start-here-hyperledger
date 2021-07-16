@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/33" class=".btn">#33</a>
             </td>
             <td>
                 <b>
-                    Peers subdirectory
+                    File key regex case insensitive
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
                 
             </td>
             <td>
-                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-08 15:12:39 +0000 UTC
+        Created At 2021-07-15 19:54:01 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Decoupling Peers from config.json
+                    Add CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -53,20 +53,12 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
                 
             </td>
             <td>
-                While working on https://github.com/hyperledger-labs/firefly/pull/114, I understood `config.json` needs to be writeable solely for the sake of the `peers`. To me this indicated a difference between config (provided at start time and only changeable on restart) vs data (dynamic during runtime, does not require restart). Talking w/ @gabriel-indik confirmed this was a result of how DX has evolved over time.
-
-While we could have it so that DX has init containers to copy over an initial config provided from a `Secret` to a writeable location, we get into challenges around detecting if config like `apiKey` or `p2p.endpoint` changes and having to reconcile the K8s/cloud provided config w/ the live, writeable config.
-
-It felt easier to do some of the work now, and make `peers` a separate, writeable JSON file and have the two pieces of data get merged at load time. Additionally, if the `peers/data.json` does not exist it just sets the peers list to empty to avoid additional bootstrapping (though the subdirectory does have to be made...).
-
-I'm wondering if `config.json`, `key.pem`, `cert.pem`, and `ca.pem` shouldn't be in an entirely separate separate folder i.e. /config so that the two directories can be have different permissions i.e. readable vs writeable. Looking for feedback there as opposed to having peers/data.json be a subfolder.
-
-Also includes a bug related to reading CAs from EBS-backed PVCs, see https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/28#issuecomment-875219742
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-02 15:58:20 +0000 UTC
+        Created At 2021-07-15 14:37:07 +0000 UTC
     </div>
 </div>
 
@@ -74,11 +66,11 @@ Also includes a bug related to reading CAs from EBS-backed PVCs, see https://git
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/27" class=".btn">#27</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Graceful Shutdown for Cloud-Native Environments
+                    Bug Fix and Other Enhancements to CA Support for mTLS
                 </b>
             </td>
         </tr>
@@ -87,54 +79,44 @@ Also includes a bug related to reading CAs from EBS-backed PVCs, see https://git
                 
             </td>
             <td>
-                While running DX on K8s as part of https://github.com/hyperledger-labs/firefly/pull/114 I noticed pods would take the entire grace period before properly shutting down. Handling `INT` and `QUIT` will make it so we properly shut down when K8s terminates a pod (rather than using a CLI tool like `dumb-init`):
+                ## Fixes
 
-Output from testing:
+Originally p2p APIs were using `req.client.getPeerCertificate().issuer` to determine the ID of the DX which sent the request. This worked for self-signed certificates because the `issuer == subject`, however for CA-signed certs provisioned w/ cert-manger, or internal Kaleido certs signed with a environment's CA, the `issuer != subject` and it was causing issues with private messaging E2E tests in those environments. `subject` should be used because DX uses it to derive its own peer ID that it advertises on `GET /id`.
 
-First terminal where I ran DX
-```shell
-❯ npm start
+For example, w/ a cert-manager cert signed by a CA (the CA happened to not have an O or OU) the DX would get the following error when trying to hit another org's DX:
 
-> firefly-dataexchange@1.0.0 start
-> node build/index.js
-
-2021-07-02T15:22:32.819Z [INFO ]: FireFly Data Exchange running on http://0.0.0.0:3000 (API) and https://0.0.0.0:3001 (P2P) - log level "info" app.ts
-2021-07-02T15:22:52.525Z [INFO ]: FireFly Data Exchange is gracefully shutting down app.ts
-❯ npm start
-
-> firefly-dataexchange@1.0.0 start
-> node build/index.js
-
-2021-07-02T15:22:59.358Z [INFO ]: FireFly Data Exchange running on http://0.0.0.0:3000 (API) and https://0.0.0.0:3001 (P2P) - log level "info" app.ts
-2021-07-02T15:23:10.018Z [INFO ]: FireFly Data Exchange is gracefully shutting down app.ts
-❯ npm start
-
-> firefly-dataexchange@1.0.0 start
-> node build/index.js
-
-2021-07-02T15:23:17.321Z [INFO ]: FireFly Data Exchange running on http://0.0.0.0:3000 (API) and https://0.0.0.0:3001 (P2P) - log level "info" app.ts
-2021-07-02T15:23:35.168Z [INFO ]: FireFly Data Exchange is gracefully shutting down app.ts
+```
+2021-07-14T16:54:18.679Z [ERROR]: post https://a-firefly-host/api/v1/messages attempt 0 [500] { error: 'Invalid peer' } utils.ts
 ```
 
-And terminal where I killed DX:
+By casting the socket of the req to the `TLSSocket` it allows Typescript to then retrieve the `subject` from the peer's certificate which is what should be used to derive the DX's ID from the O and OU.
+
+## Additions
+
+With cert-manager certificates, the `cert.pem` does not include the CA which signed it. If the CA is self-signed, this needs to be advertised in `GET /id` so peers can include the CA in their `HttpsAgent` and when they persist the certs in the `peer-certs` directory.
+
+This adds support to _optionally_ (if the file exists) read a `ca.pem` file from the `DATA_DIRECTORY` (same directory as `key.pem` and `cert.pem`) and prepend it the `cert.pem` storing it in a new var `certBundle`. `certBundle` is then returned on `GET /id` so peers will receive both the cert and the provided CA. The `cert` var is left to only contain the `cert.pem` because including the CA seemed to break the server startup when used in the `TLSContext`.
+
+While self-signed CAs were already supported by putting a `ca.pem` in the `peer-certs` directory before startup (as what was is currently documented in the README) this _allows peers to have certs signed by separate CAs_ w/o every peer needing to be aware of them on startup. It also allows new DX peers to join the network with renewed CA certs.
+
+## Original Issue
+
+These changes arose from issues we found w/ FF DX deployments using self-signed CAs where the NodeJS HTTPS agent couldn't trust the cert from a peer bc the CA wasn't included in the chain (in a lot of ways this was just a config issue):
+
 ```
-❯ ps aux | grep node
-hfuss            16607   0.0  0.3  4767956  55500 s002  S+   11:22AM   0:00.61 node build/index.js
-❯ kill -s QUIT 16607
-❯ ps aux | grep node
-hfuss            16612   0.0  0.3  4730180  57820 s002  S+   11:22AM   0:00.51 node build/index.js
-❯ kill -s QUIT 16612
-❯ ps aux | grep node
-hfuss            16616   0.1  0.3  4785220  57936 s002  S+   11:23AM   0:00.57 node build/index.js
-❯ kill -s TERM 16616
+2021-07-14T15:23:19.854Z [ERROR]: post https://a-firefly-host/api/v1/messages attempt 2 [undefined] Error: unable to verify the first certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1514:34)
+    at TLSSocket.emit (events.js:375:28)
+    at TLSSocket._finishInit (_tls_wrap.js:936:8)
+    at TLSWrap.ssl.onhandshakedone
 ```
 
-Will defer to @gabriel-indik @peterbroadhurst if any additional shutdown logic should be added to `stop` i.e. wait for all in-flight HTTP requests to finish, writing to disk operations, etc.
+However, in Kubernetes environments where `peer-certs` is backed by a PVC, the `ca.pem` cannot be included into the directory before startup without init/bootstrap scripts (for example see the [Helm chart PR in firefly](https://github.com/hyperledger-labs/firefly/pull/114/files#diff-abf2c3ec729c16f0ff294d8b85ac9fa0c5a747bc602839b95fd4040466f829b5R68-R84)). Upon adding the `ca.pem` / `certBundle` feature the bug above around the `subject` of the peer certificate was then discovered and needed to be fixed.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-02 15:29:49 +0000 UTC
+        Created At 2021-07-14 17:06:49 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1263" class=".btn">#1263</a>
+            </td>
+            <td>
+                <b>
+                    Implementation of peer counts, closes #1165.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+We need to have the possibility to get a count of alive peers.
+
+### Benefits
+
+We would not block on checking every peer for its state.
+
+### Possible Drawbacks 
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-16 07:57:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1163" class=".btn">#1163</a>
             </td>
             <td>
@@ -440,34 +486,6 @@ Clients will not need to have both JSON and SCALE serialization implementations 
     </table>
     <div class="right-align">
         Created At 2021-07-12 21:15:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1135" class=".btn">#1135</a>
-            </td>
-            <td>
-                <b>
-                    [CI][GHActions] Cherry-pick from support/1.2.x to main - MERGE/rebase not squash to save both commits
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">1.2.x</span><span class="chip">1.x</span><span class="chip">build</span>
-            </td>
-            <td>
-                - [CI][GHActions] Introduce GitHub Actions Iroha1 to main (#1028)
-- [GHActions][Hotfix] Better matrix generating - fix red cross (#1039)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 11:14:27 +0000 UTC
     </div>
 </div>
 

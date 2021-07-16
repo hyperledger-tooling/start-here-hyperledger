@@ -121,30 +121,3 @@ Also avoids a potential failure when two agent processes try to perform the publ
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1306" class=".btn">#1306</a>
-            </td>
-            <td>
-                <b>
-                    Tweaks to AcmeWorkshop Docs -- instruction to use external ledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 10:08:52 +0000 UTC
-    </div>
-</div>
-

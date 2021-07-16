@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/43" class=".btn">#43</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    fix message count on dashboard
+                    Add CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/firefly-ui
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-06 17:54:28 +0000 UTC
+        Created At 2021-07-15 15:29:37 +0000 UTC
     </div>
 </div>
 

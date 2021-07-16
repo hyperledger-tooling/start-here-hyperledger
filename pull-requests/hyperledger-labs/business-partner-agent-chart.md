@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/22" class=".btn">#22</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/26" class=".btn">#26</a>
             </td>
             <td>
                 <b>
-                    use aca-py 0.7.0rc0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Philipp Etschel <philipp@etschel.net>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-08 12:48:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/21" class=".btn">#21</a>
-            </td>
-            <td>
-                <b>
-                    fix tails server for test net
+                    release 0.7.0
                 </b>
             </td>
         </tr>
@@ -58,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-07 09:09:51 +0000 UTC
+        Created At 2021-07-15 13:49:59 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +40,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/20" class=".btn">#20</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/25" class=".btn">#25</a>
             </td>
             <td>
                 <b>
-                    allow tails server configuration
+                    fix logging one more time
                 </b>
             </td>
         </tr>
@@ -84,7 +58,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-05 08:58:32 +0000 UTC
+        Created At 2021-07-14 15:45:56 +0000 UTC
     </div>
 </div>
 
@@ -92,11 +66,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/24" class=".btn">#24</a>
             </td>
             <td>
                 <b>
-                    remove uniresolver url and did prefix from bpa
+                    fix logging
                 </b>
             </td>
         </tr>
@@ -105,14 +79,38 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                Leftover work from the aca-py 0.7 migration. I did not want to change the chart for this, but micronaut has a special behavior that translates environment variables to system properties. So settings an environment variable like BPA_DID_PREFIX gets translated to/or behaves the same as -Dbpa.did.prefix Therefore I had to remove the uniresolver and prefix settings. Both are needed again in the future, but on the aca-py level. As the details are still somewhat in the working it is better to remove both properties anyway.
-
-Signed-off-by: Philipp Etschel <philipp@etschel.net>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-02 12:49:56 +0000 UTC
+        Created At 2021-07-14 13:25:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    configure Logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 12:27:22 +0000 UTC
     </div>
 </div>
 

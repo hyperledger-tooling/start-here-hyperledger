@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/7" class=".btn">#7</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/28" class=".btn">#28</a>
             </td>
             <td>
                 <b>
-                    update docs
+                    Use the --production flag on 'npm audit'
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+                npm audit was broken as the 'default' working-directory and the run steps working-directory were in conflict. The existing 'npm audit' didn't actually run but was hidden by the 'continue-on-error' property. This change fixes the working directory and replaces the use of modifying the package.json file with the npm audit '--production' flag to prevent scanning the devDependencies.
+
+Signed-off-by: Brett Logan <lindluni@github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-07 19:25:42 +0000 UTC
+        Created At 2021-07-13 05:04:25 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +42,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/6" class=".btn">#6</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/27" class=".btn">#27</a>
             </td>
             <td>
                 <b>
-                    fix image build
+                    fix git link in docs
                 </b>
             </td>
         </tr>
@@ -58,7 +60,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-07 18:37:21 +0000 UTC
+        Created At 2021-07-09 14:56:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/26" class=".btn">#26</a>
+            </td>
+            <td>
+                <b>
+                    remote template.json line in default settings file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes error:
+```
+08:57:09 - error: [db startup] unable to read json file. cannot add to database. ../json_docs/template.json message=Cannot find module '../json_docs/template.json'
+```
+
+Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-09 13:00:45 +0000 UTC
     </div>
 </div>
 

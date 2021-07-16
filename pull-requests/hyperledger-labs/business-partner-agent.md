@@ -295,37 +295,3 @@ Work in progress, obviously, but opening a PR for visibility.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/539" class=".btn">#539</a>
-            </td>
-            <td>
-                <b>
-                    Add proof templates for proof request creation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Open points:
-- currently there is one RequestedAttributes per Attribute, should be grouped.
-- relation between a put PresentProofRequest and the used ProofTemplate has to be persisted.
-- further tests.
-
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/539"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 07:29:57 +0000 UTC
-    </div>
-</div>
-
