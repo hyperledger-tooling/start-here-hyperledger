@@ -371,7 +371,7 @@ Checklist (DELETE AFTER READING):
             </td>
             <td>
                 <b>
-                    Replicate block metadata with block while OSN catching up
+                    [FAB-18521] Replicate block metadata with block while OSN catching up
                 </b>
             </td>
         </tr>

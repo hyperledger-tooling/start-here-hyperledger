@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1113" class=".btn">#1113</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1139" class=".btn">#1139</a>
             </td>
             <td>
                 <b>
-                    refactor: deprecate cactus-cockpit package
+                    chore(release): publish v0.6.0
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/cactus
                 
             </td>
             <td>
-                Fixes #1112
-
-Signed-off-by: Jeffrey Ushry <jeffrey.ushry@accenture.com>
+                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-07 14:38:09 +0000 UTC
+        Created At 2021-07-15 23:00:27 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +40,42 @@ Signed-off-by: Jeffrey Ushry <jeffrey.ushry@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1111" class=".btn">#1111</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1136" class=".btn">#1136</a>
             </td>
             <td>
                 <b>
-                    build(typescript): use project references compiler feature #312
+                    docs(examples): supply chain- eliminate endpoint constant classes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                
+Fixes #1120
+
+Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
+
+@petermetz ping for review :) 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 19:52:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1135" class=".btn">#1135</a>
+            </td>
+            <td>
+                <b>
+                    refactor(core-api): keychain plugin get/set generic type parameters
                 </b>
             </td>
         </tr>
@@ -55,17 +84,93 @@ Signed-off-by: Jeffrey Ushry <jeffrey.ushry@accenture.com>
                 
             </td>
             <td>
-                WORK IN PROGRESS
+                refactor(core-api): keychain plugin get/set generics #1135 
 
-Fixes #312
-Fixes #973
+Fixes #1135 
+Signed-off-by: Tommesha Wiggins <tommesha.wiggins@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 18:18:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1134" class=".btn">#1134</a>
+            </td>
+            <td>
+                <b>
+                    fix(cmd-api-server): OpenAPI spec validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add missing validation from plugin REST endpoints
+
+fixes #847
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-14 15:52:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1133" class=".btn">#1133</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-fabric): endorsing peers request arg #1122
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Fabric</span><span class="chip">dependent</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                Makes it possible to set the endorsing peers on a transaction
+when submitted through the Fabric connector.
+
+For example these values can be passed in to the new parameter
+and it will set the endorsers up accordingly prior to submitting
+the transaction to the ledger:
+- org1.example.com
+- Org1MSP
+- org2.example.com
+- Org2MSP
+
+(You only need either the org domain or the msp ID, no need
+to specify both of them for it to work).
+
+For a working example, see this test case:
+packages/cactus-plugin-ledger-connector-fabric/src/test/typescript/integration/fabric-v2-2-x/run-transaction-endpoint-v1.test.ts
+
+Depends on #1123
+Depends on #1130
+
+Fixes #1122
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-07 01:43:29 +0000 UTC
+        Created At 2021-07-14 06:15:12 +0000 UTC
     </div>
 </div>
 
@@ -73,66 +178,37 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1110" class=".btn">#1110</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1132" class=".btn">#1132</a>
             </td>
             <td>
                 <b>
-                    remove magic strings
+                    feat(connector-fabric): identity json signing credentials #1130
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Fabric</span><span class="chip">dependent</span><span class="chip">enhancement</span>
             </td>
             <td>
-                Fixes #1104
+                Introduces a new, optional (for now) parameter on the run tx
+endpoint's request object called gatewayOptions which is capable
+of including everything that one needs to instantiate a gateway
+object of the underlying Fabric Node SDK.
 
-Signed-off-by: Hana Awad <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-06 17:32:45 +0000 UTC
-    </div>
-</div>
+This change makes it possible to not need the keychain plugin
+at all when someone does not need/want it.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1109" class=".btn">#1109</a>
-            </td>
-            <td>
-                <b>
-                    feat(keychain-vault): add the missing endpoint classes #676
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Keychain</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                1. Adds the has/delete endpoints (which were missing completely)
-2. Adds the get/set endpoints which were partially already implemented.
-3. Moves the express dependency to be a dev dependency since we only
-use the types (e.g. only needed at compile time, not at runtime)
-4. Adds specific test cases to the API client verifying the
-get/set/has/delete endpoints
-5. Renames the getKeychainEntry and setKeychainEntry operationIDs
-to have a V1 suffix.
+Fixes #1130
 
-Fixes #676
+Depends on #1124
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-cc: @Zzocker @sichen1234
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-03 20:08:56 +0000 UTC
+        Created At 2021-07-14 04:56:31 +0000 UTC
     </div>
 </div>
 
@@ -140,11 +216,96 @@ cc: @Zzocker @sichen1234
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1107" class=".btn">#1107</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1128" class=".btn">#1128</a>
             </td>
             <td>
                 <b>
-                    ci(containerization): build all container images via the CI suite #942
+                    docs(whitepaper): add suggested reference
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span>
+            </td>
+            <td>
+                Adds a suggested reference for people that want to cite our whitepaper
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 17:16:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1127" class=".btn">#1127</a>
+            </td>
+            <td>
+                <b>
+                    fix: fixing branch name for code cov badge
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">documentation</span>
+            </td>
+            <td>
+                Signed-off-by: Travis Payne <travis.payne@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-13 09:06:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1124" class=".btn">#1124</a>
+            </td>
+            <td>
+                <b>
+                    refactor(connector-fabric): upgrade to Fabric 2.x Node SDK #1123
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Fabric</span><span class="chip">Security</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                The Cactus packages were relying on 1.4.x Fabric SDK dependencies
+prior to this change (even when communicating with 2.x Fabric ledgers)
+which is something that we needed to fix by upgrading the dependency
+versions.
+
+Fixes #1123
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-12 23:23:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1121" class=".btn">#1121</a>
+            </td>
+            <td>
+                <b>
+                    ci(github): add commit lint action to PRs
                 </b>
             </td>
         </tr>
@@ -153,25 +314,21 @@ cc: @Zzocker @sichen1234
                 <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
             </td>
             <td>
-                This will get us closer to the desired state of affairs where any
-source code change that breaks the build can be detected prior
-to the pull request getting merged.
+                This is supposed to check every single commit in a PR
+for having the correct message format.
 
-Before this, the issue was that DockerHub would not integrate
-properly with the GitHub PR Checks mechanism and so we were
-unable to have the checks executed properly.
-
-Fixes hyperledger#942
+Previously the semantic PR action was only checking
+the PR title or the first commit message, so you could
+get in invalid commit messages by adding multiple
+commits post-approval which the semantic PR action
+would not check properly.
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-Depends on #1105
-Depends on #1106
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-02 03:20:43 +0000 UTC
+        Created At 2021-07-11 01:42:49 +0000 UTC
     </div>
 </div>
 
@@ -179,74 +336,26 @@ Depends on #1106
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1106" class=".btn">#1106</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1118" class=".btn">#1118</a>
             </td>
             <td>
                 <b>
-                    fix(connector-corda): kotlin compilation error due to missing method
+                    Docs : added a badge to open cactus with vscode
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">Corda</span><span class="chip">bug</span>
+                
             </td>
             <td>
-                When we added the prometheus monitoring endpoint to the
-OpenAPI spec, the kotlin implementation was not updated
-and this has lead to the container image build process failing
-which was not noticed because currently the GHA CI does not
-build the container images and therefore you can get away
-with introducing issues to the container image build.
-(this is soon to be rectified)
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+                Fixes #1116 
+Signed-off-by: shoeb <shoebsd31@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-02 02:56:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1105" class=".btn">#1105</a>
-            </td>
-            <td>
-                <b>
-                    docs(examples): migrate containers to ubuntu-20.04 Docker-in-Docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span><span class="chip">bug</span><span class="chip">dependencies</span><span class="chip">documentation</span>
-            </td>
-            <td>
-                This restores the supply chain example app into a working state.
-
-Also migrated the carbon accounting example app onto the new base
-image, but that one isn't fully functional just yet (but at least the
-contanier build isn't broken anymore which is already signfiicant
-progress.)
-
-The image built from this revision of the source code has been
-tagged on the container registry as:
-ghcr.io/hyperledger/cactus-example-supply-chain-app:2021-07-01--fix-1063-v2
-
-Fixes #1063
-
-(this is the second try to fix that issue, the previous one failed)
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-02 02:17:09 +0000 UTC
+        Created At 2021-07-09 15:21:08 +0000 UTC
     </div>
 </div>
 

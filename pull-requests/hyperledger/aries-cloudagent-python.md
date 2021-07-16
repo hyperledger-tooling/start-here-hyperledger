@@ -148,29 +148,3 @@ Also avoids a potential failure when two agent processes try to perform the publ
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1304" class=".btn">#1304</a>
-            </td>
-            <td>
-                <b>
-                    Update version to 0.7.0-rc1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-08 19:52:31 +0000 UTC
-    </div>
-</div>
-

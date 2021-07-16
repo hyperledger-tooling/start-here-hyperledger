@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/238" class=".btn">#238</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/240" class=".btn">#240</a>
             </td>
             <td>
                 <b>
-                    Fix description of schema
+                    Update Creating Products section
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                Signed-off-by: Darian Plumb <dplumb@bitwise.io>
+                This PR contains a couple small changes to the Creating Products section of the docs. This fixes a small issue with the example product XML file and adds a missing comma.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-08 21:16:34 +0000 UTC
+        Created At 2021-07-15 21:20:13 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/58" class=".btn">#58</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/59" class=".btn">#59</a>
             </td>
             <td>
                 <b>
-                    FABGW-20 Protobuf for Evaluate() endorsingOrgs
+                    FABGW-25 Extend proto to include derived interest
                 </b>
             </td>
         </tr>
@@ -27,15 +27,17 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                Add ‘endorsing_organizations’ fields to the gateway protobuf definitions for the Evaluate() method and for supporting offline
-signing
+                Add protobuf support for returning the derived chaincode interest structure from Tx simulation (process proposal).
+
+Add the set of SBE signature policies to the discovery ChaincodeCall proto message
+Add the ChaincodeInterest structure to the ProposalResponse message
 
 Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-28 09:14:43 +0000 UTC
+        Created At 2021-07-15 15:50:51 +0000 UTC
     </div>
 </div>
 

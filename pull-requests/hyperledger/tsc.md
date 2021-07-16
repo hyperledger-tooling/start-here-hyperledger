@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/tsc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/tsc/pull/10" class=".btn">#10</a>
+                PR <a href="https://github.com/hyperledger/tsc/pull/11" class=".btn">#11</a>
             </td>
             <td>
                 <b>
-                    Add Common Repository Structure
+                    Refactor folder structure, introduce developer debug option
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/tsc
                 
             </td>
             <td>
-                Add a narrative about the common repository structure
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-01 16:19:35 +0000 UTC
+        Created At 2021-07-14 13:49:56 +0000 UTC
     </div>
 </div>
 
