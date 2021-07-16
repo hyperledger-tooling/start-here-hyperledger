@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/36" class=".btn">#36</a>
             </td>
             <td>
                 <b>
-                    Use yui-fabric-ibc v0.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-08 08:53:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/31" class=".btn">#31</a>
-            </td>
-            <td>
-                <b>
-                    Add `service start` command that starts a relay service
+                    Introduce Module Architecture
                 </b>
             </td>
         </tr>
@@ -55,12 +29,12 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
             <td>
                 Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
 
-fixes #29 
+fixes https://github.com/hyperledger-labs/yui-relayer/issues/18
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-08 02:55:20 +0000 UTC
+        Created At 2021-07-15 05:02:04 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +42,11 @@ fixes #29
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/35" class=".btn">#35</a>
             </td>
             <td>
                 <b>
-                    Fix chains/corda to support the newer version of yui-corda-ibc/go
+                    Separate proving functions from Chain
                 </b>
             </td>
         </tr>
@@ -81,12 +55,12 @@ fixes #29
                 
             </td>
             <td>
-                
+                resolves #34 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-07 16:41:10 +0000 UTC
+        Created At 2021-07-14 12:04:40 +0000 UTC
     </div>
 </div>
 

@@ -325,35 +325,3 @@ For 1559 transactions returned on the rpc, we need to fill the gasPrice field as
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2527" class=".btn">#2527</a>
-            </td>
-            <td>
-                <b>
-                    Fix tags for Quorum Acceptance Tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-Fixed conditions to tags for Quorum Acceptance Tests. Now it runs all tests as expected and new one.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 10:29:48 +0000 UTC
-    </div>
-</div>
-

@@ -14,63 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/72" class=".btn">#72</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    Resurrect go.yml and direct it to merge only
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-08 08:57:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/71" class=".btn">#71</a>
-            </td>
-            <td>
-                <b>
-                    Split CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-06 09:43:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/68" class=".btn">#68</a>
-            </td>
-            <td>
-                <b>
-                    committer: fetch each transaction singularly if the block is too big #67
+                    fabric/core/generic driver: transaction's network not set properly #79
                 </b>
             </td>
         </tr>
@@ -84,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-05 16:03:36 +0000 UTC
+        Created At 2021-07-16 06:48:38 +0000 UTC
     </div>
 </div>
 
@@ -92,11 +40,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/66" class=".btn">#66</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/78" class=".btn">#78</a>
             </td>
             <td>
                 <b>
-                    compatibility requirements with the fabric token sdk #65
+                    bug fix #76 #77
                 </b>
             </td>
         </tr>
@@ -105,15 +53,15 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                - [x] nwo: platform access
-- [x] fabric-sdk: accessory methods to access network related structs
+                - [x] network/channel support for IsTxFinal #77
+- [x] nwo: fabric platform's Name() does not return the topology name #76
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-04 05:04:24 +0000 UTC
+        Created At 2021-07-16 03:45:30 +0000 UTC
     </div>
 </div>
 
@@ -121,11 +69,11 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/64" class=".btn">#64</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/74" class=".btn">#74</a>
             </td>
             <td>
                 <b>
-                    committer: match the results of the transaction #63
+                    nwo: make RegisterResponder use import aliasing #73
                 </b>
             </td>
         </tr>
@@ -134,14 +82,12 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
                 
             </td>
             <td>
-                 with that in the vault before committing 
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-03 14:14:53 +0000 UTC
+        Created At 2021-07-13 05:48:37 +0000 UTC
     </div>
 </div>
 

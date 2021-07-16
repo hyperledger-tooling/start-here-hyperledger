@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/57" class=".btn">#57</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/62" class=".btn">#62</a>
             </td>
             <td>
                 <b>
-                    Adjust port allocation so sample works again
+                    Add CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -32,7 +32,65 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-28 13:08:53 +0000 UTC
+        Created At 2021-07-15 15:24:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/61" class=".btn">#61</a>
+            </td>
+            <td>
+                <b>
+                    Fix default database selection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A small bug was recently introduced that sets the database selection to an empty string. This sets the default to `sqlite3` which was the intended behavior in the previous PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-12 20:05:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/60" class=".btn">#60</a>
+            </td>
+            <td>
+                <b>
+                    Select between database implementations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds the ability to select between the different database implementations available in FireFly. This is part of the `init` command. Example
+
+```
+ff init my_stack --database=sqlite3
+```
+
+Available options are: `[postgresql sqlite3 sqlitego]`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-09 20:16:36 +0000 UTC
     </div>
 </div>
 

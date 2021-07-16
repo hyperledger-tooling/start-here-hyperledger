@@ -37,29 +37,3 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/691" class=".btn">#691</a>
-            </td>
-            <td>
-                <b>
-                    Update some AIP RFC links to later commits to capture clarifications and RFC status changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added a changelog to AIP 2.0 to document the reasons for the link updates (changing the commit).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 08:54:17 +0000 UTC
-    </div>
-</div>
-

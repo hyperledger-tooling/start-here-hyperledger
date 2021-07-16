@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-cordaconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cordaconnect/pull/5" class=".btn">#5</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cordaconnect/pull/6" class=".btn">#6</a>
             </td>
             <td>
                 <b>
-                    Add support for eventstream, REST layer, fix cordapp and readme update
+                    Add CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger-labs/firefly-cordaconnect
                 
             </td>
             <td>
-                This PR includes
-- [x] spring boot application `connector`
-   - [x] eventstream management REST APIS for corda, similar to ethconnect
-   - [x] WebSockets support to listen on corda events
-   - [x] REST API to interact with firefly cordapp (`/broadcastBatch`) 
-   - [x] Swagger support for REST endpoints 
-- [x] Fixes to firefly cordapp (adds missing logic inside firefly-flows cordapp)
-- [x] Updates to readme
-
-Signed-off-by: amit panghal <amit.panghal@kaleido.io>
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-24 21:23:58 +0000 UTC
+        Created At 2021-07-15 15:27:59 +0000 UTC
     </div>
 </div>
 
