@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1141" class=".btn">#1141</a>
+            </td>
+            <td>
+                <b>
+                    build: migrate to Yarn v1 from npm v7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                ## Dependencies
+
+Depends on #1111 
+
+## Commit to review
+
+Author: Peter Somogyvari <peter.somogyvari@accenture.com>
+Author Date: Thu Jul 15 2021 22:10:04 GMT-0700 (Pacific Daylight Time)
+Committer: Peter Somogyvari <peter.somogyvari@accenture.com>
+Committer Date: Thu Jul 15 2021 22:12:29 GMT-0700 (Pacific Daylight Time) 
+
+build: migrate to Yarn v1 from npm v7
+
+Why?
+It was reported by other maintainers that yarn behaves much
+better in corporate proxy/firewalled environments.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-16 05:18:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1139" class=".btn">#1139</a>
             </td>
             <td>
