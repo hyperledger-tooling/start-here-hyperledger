@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [SE] fixed thread poll tasks balancer
+                    [SE] fixed thread pool tasks balancer
                 </b>
             </td>
         </tr>
