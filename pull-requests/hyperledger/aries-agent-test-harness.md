@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/296" class=".btn">#296</a>
+            </td>
+            <td>
+                <b>
+                    fix: wait for uniresolver to be ready before running tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-16 20:10:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/295" class=".btn">#295</a>
             </td>
             <td>
@@ -239,62 +265,6 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-07-10 03:52:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/285" class=".btn">#285</a>
-            </td>
-            <td>
-                <b>
-                    removed the acapy full runset since we are getting same-as-yesterday …
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …results from interop reports
-
-Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 21:00:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/284" class=".btn">#284</a>
-            </td>
-            <td>
-                <b>
-                    removal of all role reversal tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-This PR removes any role reversal tests. This creates a strict adherence to the role assignments to the names used in the agents. IE. Acme is an issuer, Bob is a Holder, etc. Tests will no longer swap these roles, like Acme as a Holder or Bob as an Issuer. When assigning an agent in the run command to Acme `-a`, you can be sure that the agent will play the issuer role in all tests. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 20:53:47 +0000 UTC
     </div>
 </div>
 

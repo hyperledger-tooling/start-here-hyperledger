@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    GenerateIdentifier support
+                    Improve the portability of Mock client spec
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                fixes #28 
-
-- [x] Client
-- [x] Connection
-- [x] Channel
+                This change is also intended to be used for the purpose of checking the compatibility of two different IBC implementations. (e.g. between ibc-solidity and ibc-go)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-05 06:30:22 +0000 UTC
+        Created At 2021-07-16 22:44:21 +0000 UTC
     </div>
 </div>
 

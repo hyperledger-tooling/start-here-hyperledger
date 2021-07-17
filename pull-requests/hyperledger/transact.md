@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/transact
             </td>
             <td>
                 <b>
-                    Pschwarz sql merkle postgres operations
+                    Merkle-Radix SQL operations for postgres DB's
                 </b>
             </td>
         </tr>
