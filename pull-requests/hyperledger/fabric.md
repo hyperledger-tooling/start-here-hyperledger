@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2761" class=".btn">#2761</a>
+            </td>
+            <td>
+                <b>
+                    [FAB-18521] Fixing flaky IT, send remove tx to another node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                PR #2748, introduced new IT to ensure the fix. However, there is some flakiness manifested with this IT, caused by sending the remove consenter transaction to the "to be removed" node. Removing the consenter is a config transaction where codes after sending it ensure a new block with the config update successfully committed, which is the root cause for the flakiness. Once OSN is removed from the channel, it no longer can server deliver requests for clients trying to fetch from it.
+
+This commit, fixes it by sending remove OSN config updated transaction
+to a different node instead.
+
+Signed-off-by: Artem Barger <artem@bargr.net>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-16 23:18:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2760" class=".btn">#2760</a>
+            </td>
+            <td>
+                <b>
+                    Output File Exists Error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+
+- Improvement (improvement to code, performance, etc)
+- Test update
+
+#### Description
+
+- Compare tool no longer overwrites existing files and will throw an error instead. Compare function now takes in the output directory instead of the output file as an argument.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-16 23:15:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2759" class=".btn">#2759</a>
             </td>
             <td>
@@ -313,40 +382,6 @@ Finally, you can contact us on https://mergify.io/
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2750" class=".btn">#2750</a>
-            </td>
-            <td>
-                <b>
-                    Ouput Directory For Divergent Results
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-- Several changes were made to the ledger utility tool in preparation for future updates, most notably: output files are now created in a new directory, compare tool no longer overwrites existing files and will throw an error instead, and improved usability and consistency for the outputDir flag
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-12 21:48:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2749" class=".btn">#2749</a>
             </td>
             <td>
@@ -468,76 +503,6 @@ peer sample config file description fixed
     </table>
     <div class="right-align">
         Created At 2021-07-10 08:24:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2746" class=".btn">#2746</a>
-            </td>
-            <td>
-                <b>
-                    Renamed Ledger Binary To Ledgerutil
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-- Renamed the recently merged ledger binary to ledgerutil to avoid confusion with packages that contain actual ledger code 
-
-<!--- Describe your changes in detail, including motivation. -->
-
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 23:09:54 +0000 UTC
     </div>
 </div>
 

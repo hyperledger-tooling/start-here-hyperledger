@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1145" class=".btn">#1145</a>
+            </td>
+            <td>
+                <b>
+                    style: fix openAPI spec linter warning endpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1126
+
+Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
+_________________________________
+Error message shown below: 
+
+
+> @hyperledger/cactus-plugin-consortium-manual@0.5.0 tsc
+> tsc --project ./tsconfig.json
+
+lerna ERR! npm run tsc exited 2 in '@hyperledger/cactus-api-client'
+lerna ERR! npm run tsc stdout:
+
+> @hyperledger/cactus-api-client@0.5.0 tsc
+> tsc --project ./tsconfig.json
+
+../cactus-plugin-consortium-manual/dist/types/main/typescript/consortium/get-consortium-jws-endpoint-v1.d.ts(5,17): error TS2307: Cannot find module '../../json/openapi.json' or its corresponding type declarations.
+../cactus-plugin-consortium-manual/dist/types/main/typescript/consortium/get-node-jws-endpoint-v1.d.ts(5,17): error TS2307: Cannot find module '../../json/openapi.json' or its corresponding type declarations.
+lerna ERR! npm run tsc exited 2 in '@hyperledger/cactus-api-client'
+lerna WARN complete Waiting for 4 child processes to exit. CTRL-C to exit immediately.
+ERROR: "tsc" exited with 2.
+ERROR: "build:dev:backend" exited with 1.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-16 20:30:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1141" class=".btn">#1141</a>
             </td>
             <td>

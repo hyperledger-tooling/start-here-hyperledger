@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/390" class=".btn">#390</a>
+            </td>
+            <td>
+                <b>
+                    feat(core): add discover features protocol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add discover features protocol.
+
+Currently working on aries-toolbox integration where this is required for.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-16 22:06:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/388" class=".btn">#388</a>
             </td>
             <td>

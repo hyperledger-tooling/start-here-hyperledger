@@ -62,35 +62,3 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/60" class=".btn">#60</a>
-            </td>
-            <td>
-                <b>
-                    Select between database implementations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds the ability to select between the different database implementations available in FireFly. This is part of the `init` command. Example
-
-```
-ff init my_stack --database=sqlite3
-```
-
-Available options are: `[postgresql sqlite3 sqlitego]`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-09 20:16:36 +0000 UTC
-    </div>
-</div>
-

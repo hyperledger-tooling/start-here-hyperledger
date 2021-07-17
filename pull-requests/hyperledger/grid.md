@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/831" class=".btn">#831</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT: Fix agent-role update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport to 0.2
+
+This fixes an issue with updating a role that belongs to an agent. The
+pike_agent_role_assoc table was not updating correctly when roles that
+already belonged to an agent were updated.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-16 20:25:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/830" class=".btn">#830</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT: Update Sawtooth dockerfile for grid_pike
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                backport to 0.2
+
+This updates the `pike-contract-builder` for the Sawtooth example
+Docker-compose file to account for the name change from `pike` to
+`grid-pike`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-16 20:22:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/829" class=".btn">#829</a>
             </td>
             <td>
