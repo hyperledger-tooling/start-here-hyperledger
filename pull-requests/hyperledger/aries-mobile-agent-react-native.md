@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/63" class=".btn">#63</a>
-            </td>
-            <td>
-                <b>
-                    chore: update aries-framework
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                update `@aries-framework/redux-store` to use `@aries-framework/core`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 21:18:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/62" class=".btn">#62</a>
             </td>
             <td>
