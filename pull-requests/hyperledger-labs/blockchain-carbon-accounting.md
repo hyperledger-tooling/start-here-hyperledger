@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/261" class=".btn">#261</a>
+            </td>
+            <td>
+                <b>
+                    cactus integration v1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Uses Cactus connectors for interacting with blockchain network (ethereum , fabric)
+- uses vault for storing private and certificates
+- 
+Resolve #228 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-17 17:55:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/260" class=".btn">#260</a>
             </td>
             <td>
