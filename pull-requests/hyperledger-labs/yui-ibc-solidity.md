@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/36" class=".btn">#36</a>
+            </td>
+            <td>
+                <b>
+                    Fix the module path
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+
+fixed #35 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-18 03:31:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/34" class=".btn">#34</a>
             </td>
             <td>
