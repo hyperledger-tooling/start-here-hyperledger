@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/512" class=".btn">#512</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Translate "chaincode5ade.rst"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                This patch translates "Tutorials >> Chaincode for Developers" into Japanese.
+
+Resolves #210
+
+Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-17 23:01:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/511" class=".btn">#511</a>
             </td>
             <td>
