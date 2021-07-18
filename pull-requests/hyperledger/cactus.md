@@ -394,38 +394,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1121" class=".btn">#1121</a>
-            </td>
-            <td>
-                <b>
-                    ci(github): add commit lint action to PRs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
-            </td>
-            <td>
-                This is supposed to check every single commit in a PR
-for having the correct message format.
-
-Previously the semantic PR action was only checking
-the PR title or the first commit message, so you could
-get in invalid commit messages by adding multiple
-commits post-approval which the semantic PR action
-would not check properly.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-11 01:42:49 +0000 UTC
-    </div>
-</div>
-

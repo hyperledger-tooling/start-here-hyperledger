@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    protos and protos-go updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change-set does the following:
+- It updates the go_package to specify the full path
+- It updates the proto package to remove the dots
+- It modify the proto go build process to split the compilation in multiple calls to protoc, one for each folder
+This way, the protos that can be compiled the same version of protoc used for Fabric
+- Update the go module for the protos-go
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-18 05:08:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/112" class=".btn">#112</a>
             </td>
             <td>
