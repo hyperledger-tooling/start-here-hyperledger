@@ -176,29 +176,3 @@ Signed-off-by: Timo Glastra <timo@animo.id>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/372" class=".btn">#372</a>
-            </td>
-            <td>
-                <b>
-                    style: Enable check for camelcase
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It has been turned off because of the JSON-LD naming convention. Now, we use decorators to transform camelCase JS properties to the correct naming convention.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-11 08:59:47 +0000 UTC
-    </div>
-</div>
-
