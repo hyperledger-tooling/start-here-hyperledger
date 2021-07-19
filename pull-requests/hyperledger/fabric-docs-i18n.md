@@ -198,29 +198,3 @@ Signed-off-by: Carlos Eduardo Matos Ellery <carlos.ellery@serpro.gov.br>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/503" class=".btn">#503</a>
-            </td>
-            <td>
-                <b>
-                    RU whatsnew
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-12 12:42:08 +0000 UTC
-    </div>
-</div>
-

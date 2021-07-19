@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1577" class=".btn">#1577</a>
+            </td>
+            <td>
+                <b>
+                    [docs] change Fulcrum to Blockchain Automation Framework
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
+
+**Changelog**
+- Fix typo
+
+ 
+
+**Reviewed by**
+@tkuhrt
+ 
+
+**Linked issue**
+N/A
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-19 15:27:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1571" class=".btn">#1571</a>
             </td>
             <td>
@@ -31,7 +70,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
 - Updated commands for vault v2 version in every role where it was used.
 - Updated charts with the correct paths required for v2 version. 
 
- 
+ - Merged develop code into vault v2 branch.
 
 **Reviewed by**
 @jagpreetsinghsasan 
