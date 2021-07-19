@@ -122,31 +122,3 @@ permalink: /releases/hyperledger/aries-framework-javascript
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    Release 0.0.59-unstable.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    0.0.59-unstable.0
-                </span>
-            </td>
-            <td>
-                * fix: remove dependency on global types (#327) (fb28935)
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.59-unstable.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-07-12 07:24:17 +0000 UTC
-    </span>
-</div>
-
