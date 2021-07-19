@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/298" class=".btn">#298</a>
+            </td>
+            <td>
+                <b>
+                    chore: update afj backchannel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates AFJ backchannel to latest release on NPM. Haven't updated yet to use the main branch but that should be a minor addition now.
+
+Let's hope this also resolves #282 (works for me locally)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-19 16:09:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/297" class=".btn">#297</a>
             </td>
             <td>
@@ -198,47 +226,6 @@ The other small tweak I've included is just a RHEL based system compatibility th
     </table>
     <div class="right-align">
         Created At 2021-07-13 21:08:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/288" class=".btn">#288</a>
-            </td>
-            <td>
-                <b>
-                    feat: integrate orb did method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds `orb`, a new service, which runs a small orb network and a
-universal resolver orb driver instance.
-
-Integrates the service with the afgo backchannel, by having the service
-create an orb did and save the value in a data folder for the afgo backchannel
-to load.
-
-Remember to start orb with `./manage service start orb` for tests where afgo
-needs a public did.
-
-Adds a general way to load files into agent containers:
-A directory named <agent-name>.data (eg, afg-master.data), if present within the
-backchannel's folder, will be mounted as a volume within the given agent,
-to the path `/data-mount`.
-
-Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-12 15:02:25 +0000 UTC
     </div>
 </div>
 

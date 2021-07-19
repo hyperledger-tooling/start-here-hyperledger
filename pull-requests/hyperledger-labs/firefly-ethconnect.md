@@ -102,29 +102,3 @@ There are some unrelated lint fixes in this PR too that were picked up by my com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/129" class=".btn">#129</a>
-            </td>
-            <td>
-                <b>
-                    Add git action for build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-12 14:38:19 +0000 UTC
-    </div>
-</div>
-

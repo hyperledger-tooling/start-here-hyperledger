@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/burrow
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/burrow/pull/1503" class=".btn">#1503</a>
+                PR <a href="https://github.com/hyperledger/burrow/pull/1504" class=".btn">#1504</a>
             </td>
             <td>
                 <b>
-                    Include changes for 0.34.1 (facepalm)
+                    Fix contractName spelling and provide contract name on contract object
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/burrow
                 
             </td>
             <td>
-                Signed-off-by: Silas Davis <silas@monax.io>
+                for reflection purposes
+
+Signed-off-by: Silas Davis <silas@monax.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-09 12:55:04 +0000 UTC
+        Created At 2021-07-19 12:50:28 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2547" class=".btn">#2547</a>
+            </td>
+            <td>
+                <b>
+                    Privacy plugin pmt signer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Allow plugin users to sign privacy marker transactions
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-19 12:37:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2545" class=".btn">#2545</a>
             </td>
             <td>

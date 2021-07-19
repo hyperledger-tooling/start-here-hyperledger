@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    Parse immutable keyword
+                    Support immutable keyword
                 </b>
             </td>
         </tr>
