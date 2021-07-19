@@ -94,31 +94,3 @@ permalink: /releases/hyperledger/aries-framework-javascript
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    Release 0.0.60-unstable.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    0.0.60-unstable.0
-                </span>
-            </td>
-            <td>
-                * docs: fix incorrect init method (#374) (1fc71be)
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.60-unstable.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-07-12 11:24:58 +0000 UTC
-    </span>
-</div>
-
