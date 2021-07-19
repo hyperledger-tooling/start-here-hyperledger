@@ -242,32 +242,3 @@ This PR proposes making the default 0, optimizing for latency by default (before
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/126" class=".btn">#126</a>
-            </td>
-            <td>
-                <b>
-                    Database events across all objects
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #109 
-
-- Doesn't include docs - need to do reference docs for WebSockets to cover the new `&changeevents=.*` option
-- Updates e2e test with change events - turned on for all tests, so they're chatty, but hopefully that makes it easier to debug if they fail too
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-12 04:53:14 +0000 UTC
-    </div>
-</div>
-

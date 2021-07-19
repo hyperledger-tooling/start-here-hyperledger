@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
             </td>
             <td>
                 <b>
-                    [fabric] Update to vault v2
+                    [fabric] update to vault v2
                 </b>
             </td>
         </tr>
