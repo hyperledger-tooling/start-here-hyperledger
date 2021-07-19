@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/37" class=".btn">#37</a>
+            </td>
+            <td>
+                <b>
+                    Add Ethereum support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                resolves #32 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-19 06:44:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/36" class=".btn">#36</a>
             </td>
             <td>
