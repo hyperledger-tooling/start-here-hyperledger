@@ -1,13 +1,13 @@
 
+[262](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/262) Merge changes published to brioux fork
+
+[19](https://github.com/hyperledger-labs/yui-corda-ibc/pull/19) Switch to ibc-go
+
+[37](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/37) Fix to use a valid client identifier for IBC
+
 [440](https://github.com/hyperledger-labs/solang/pull/440) Array codegen fix
 
 [114](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/114) protos and protos-go updates
-
-[36](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/36) Fix the module path
-
-[137](https://github.com/hyperledger-labs/firefly/pull/137) Add PUT for subscriptions and fix delete to clean up offset
-
-[136](https://github.com/hyperledger-labs/firefly/pull/136) Allow multiple durable subscriptions to be started on a single websocket
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
