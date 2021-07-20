@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2549" class=".btn">#2549</a>
+            </td>
+            <td>
+                <b>
+                    Switch to dynamic version calculation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 14:15:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2547" class=".btn">#2547</a>
             </td>
             <td>
@@ -279,77 +318,6 @@ For more information on this process see the Becoming a Maintainer section in th
     </table>
     <div class="right-align">
         Created At 2021-07-13 22:02:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2536" class=".btn">#2536</a>
-            </td>
-            <td>
-                <b>
-                    p2p tls support (command line options and acceptance tests)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is the final part of the changes to support p2p over tls. this has command line options to support p2p over tls enablement and acceptance tests to cover them as well.
-The keystores are generated using scripts from https://github.com/perusworld/besu-isolated-networks/blob/p2p-over-ssl/scripts/gen-at-keys.sh
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 17:00:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2535" class=".btn">#2535</a>
-            </td>
-            <td>
-                <b>
-                    update RPC methods : fill gasPrice for post london 1559 transaction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-For 1559 transactions returned on the rpc, we need to fill the gasPrice field as follows:
-- effectivePriorityFeePerGas
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 14:26:59 +0000 UTC
     </div>
 </div>
 

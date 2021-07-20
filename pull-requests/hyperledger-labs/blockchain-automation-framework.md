@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1580" class=".btn">#1580</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Separete quorum node and tessera deployment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+- Add quorum node
+- Update tessera node
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar
+@alvaropicazo
+
+ 
+
+**Linked issue**
+#1556 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 13:35:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1579" class=".btn">#1579</a>
             </td>
             <td>

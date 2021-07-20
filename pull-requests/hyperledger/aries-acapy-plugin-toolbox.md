@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/79" class=".btn">#79</a>
+            </td>
+            <td>
+                <b>
+                    Credential Definition Integration Tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Tests demonstrated working and approved by Indicio contributors.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 14:40:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/78" class=".btn">#78</a>
             </td>
             <td>
