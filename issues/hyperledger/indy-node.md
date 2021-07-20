@@ -14,33 +14,27 @@ permalink: /issues/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/indy-node/issues/1644" class=".btn">1644</a>
+                Issue <a href="https://github.com/hyperledger/indy-node/issues/1682" class=".btn">1682</a>
             </td>
             <td>
                 <b>
-                    Replace dependency on Indy-SDK with Indy-VDR
+                    Remove pip imports in favor of importlib_metadata
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">good first issue</span><span class="chip">help wanted</span>
+                <span class="chip">good first issue</span>
             </td>
             <td>
-                [Indy-VDR](https://github.com/hyperledger/indy-vdr) is receiving more development than [Indy-SDK](https://github.com/hyperledger/indy-sdk), so we should replace calls to libindy with calls to indy-vdr.
+                See https://github.com/hyperledger/indy-plenum/pull/1548 for details.
 
-Steps:
-* Update unit tests.
-* Update integration tests.
-* Update package dependencies.
-
-Notes:
-* [Related issue in indy-plenum](https://github.com/hyperledger/indy-plenum/issues/1507)
+Make the same changes to indy-node to remove the dependency on pip.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-01-29 22:50:58 +0000 UTC
+        Created At 2021-07-20 12:54:54 +0000 UTC
     </div>
 </div>
 
