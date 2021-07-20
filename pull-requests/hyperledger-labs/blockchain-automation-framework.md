@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1579" class=".btn">#1579</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] moved tessera crypto creation to k8s job
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Fix molecule test
+- Moved crypto creation to k8s job
+
+ 
+
+**Reviewed by**
+@jagpreetsinghsasan  @mgCepeda 
+
+ 
+
+**Linked issue**
+#1557 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 07:58:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1578" class=".btn">#1578</a>
             </td>
             <td>

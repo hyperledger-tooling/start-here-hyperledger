@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/444" class=".btn">#444</a>
+            </td>
+            <td>
+                <b>
+                    Generate wasm and contract file for Substrate and other fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #443 
+
+I think @athei asked for this feature too
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 09:09:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/442" class=".btn">#442</a>
+            </td>
+            <td>
+                <b>
+                    Improve warnings generated for incorrect function mutability
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 07:29:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/441" class=".btn">#441</a>
             </td>
             <td>

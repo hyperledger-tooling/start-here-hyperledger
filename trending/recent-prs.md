@@ -1,13 +1,13 @@
 
-[1578](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1578) Bump urijs from 1.19.6 to 1.19.7 in /examples/supplychain-app/fabric/chaincode_rest_server/rest-server
+[397](https://github.com/hyperledger/aries-framework-javascript/pull/397) fix: proof configurable on proofRecord
 
-[39](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/39) mockclient: use protobuf-any type
+[2767](https://github.com/hyperledger/fabric/pull/2767) FABGW-25 Build ChaincodeInterest in TX simulator
 
-[753](https://github.com/hyperledger/besu-docs/pull/753) clearing up the page on private transactions so its easy to follow with the quickstart
+[1275](https://github.com/hyperledger/iroha/pull/1275) Schedule stop actors
 
-[64](https://github.com/hyperledger-labs/firefly-cli/pull/64) Set _busy_timeout=5000 by default
+[444](https://github.com/hyperledger-labs/solang/pull/444) Generate wasm and contract file for Substrate and other fixes
 
-[12](https://github.com/hyperledger-labs/blockchain-verifier/pull/12) New option to exclude checkers
+[514](https://github.com/hyperledger/fabric-docs-i18n/pull/514) [zh_CN] translate the rest of docs/locale/zh_CN/source/commands/peernode.md
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
