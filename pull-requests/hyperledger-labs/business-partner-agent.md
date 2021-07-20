@@ -230,38 +230,3 @@ Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/541" class=".btn">#541</a>
-            </td>
-            <td>
-                <b>
-                    Add Endorser support to BPA agents
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add support for the aca-py endorser protocols.
-
-First step - configure each BPA as an Endorser or Author (or neither/both), and allow users to flag partners as an Endorser (for Authors) or Author (for Endorsers) (uses connection "tags").
-
-Work in progress, obviously, but opening a PR for visibility.
-
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/541"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-12 21:35:44 +0000 UTC
-    </div>
-</div>
-

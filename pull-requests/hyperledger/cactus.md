@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1147" class=".btn">#1147</a>
+            </td>
+            <td>
+                <b>
+                    test: ensure .test.ts ending for test code files #1137
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #1137
+
+Signed-off-by: Tommesha Wiggins <tommesha.wiggins@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-19 20:42:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1145" class=".btn">#1145</a>
             </td>
             <td>
@@ -358,39 +386,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-07-13 09:06:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1124" class=".btn">#1124</a>
-            </td>
-            <td>
-                <b>
-                    refactor(connector-fabric): upgrade to Fabric 2.x Node SDK #1123
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Fabric</span><span class="chip">Security</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                The Cactus packages were relying on 1.4.x Fabric SDK dependencies
-prior to this change (even when communicating with 2.x Fabric ledgers)
-which is something that we needed to fix by upgrading the dependency
-versions.
-
-Fixes #1123
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-12 23:23:47 +0000 UTC
     </div>
 </div>
 
