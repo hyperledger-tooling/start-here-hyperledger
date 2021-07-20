@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/299" class=".btn">#299</a>
+            </td>
+            <td>
+                <b>
+                    Mobile wait states
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add a delay to wait for mobile to make a connection request before responding
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 18:14:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/298" class=".btn">#298</a>
             </td>
             <td>

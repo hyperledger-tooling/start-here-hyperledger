@@ -14,6 +14,94 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2769" class=".btn">#2769</a>
+            </td>
+            <td>
+                <b>
+                    [FAB-11334] Adds a function to purge a ledger's transient storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- New feature
+
+#### Description
+
+This introduces a transientstore.Delete(ledgerID) routine to assist with the bookkeeping while unjoining a peer from a channel.  Before removing the transient storage, the store is marked as UNDER_DELETION in a system leveldb, providing an opportunity to recover from a failed deletion at the next peer initialization.
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+#### Additional details
+
+*This is a DRAFT PR - NOT READY FOR MERGE*
+
+Discussion points for review: 
+- The original design was to store the set of ledgers/transient storage under deletion as a proto message structure in the system leveldb.  In this implementation the storage array under deletion is written as a json array in the leveldb.  I am open to moving this over to a proto message.
+- This PR needs some additional test cases. 
+- There may be some lingering issues with db handles, providers, leveldb helpers, etc. getting closed correctly.  When reviewing this PR, please note the handling of open/close for the providers and comment on the approach in this change.
+- `StoreProvider` is an interface covering a subset of the functions received by the `storeProvider`.  The routines to track the deletion status are received by the `storeProvider`, but could also be scoped to the package and accept the provider argument as a function parameter.   There are a couple of golang _Type Assertions_ in the test routines, which is OK but it feels like this module can / should be refactored (not in this PR) to clean up the overall API design. 
+
+#### Related issues
+
+- [FAB-11334](https://jira.hyperledger.org/browse/FAB-11334)
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 16:49:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2768" class=".btn">#2768</a>
+            </td>
+            <td>
+                <b>
+                    [FAB-18527] Discovery supports DisregardNamespacePolicy hint from client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit adds support for a boolean flag in the chaincode call: DisregardNamespacePolicy
+Its role is to hint to discovery that the client wishes to ask about endorsement policies
+of either state based endorsement policies of given keys, or of collection endorsement policies
+that exist for given collection names.
+
+In case no state based endorsement policies are given in the bespoken chaincode call,
+and also no collection level endorsement policies of the given collection names are found,
+specifying the DisregardNamespacePolicy hint for that chaincode call will result in an error,
+as there is no endorsement policy to compute on.
+
+Change-Id: I299afd40063a0cf1cee34d6034eaa02fe6fc6707
+Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 12:37:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2767" class=".btn">#2767</a>
             </td>
             <td>
@@ -407,112 +495,6 @@ at startup.
     </table>
     <div class="right-align">
         Created At 2021-07-14 18:49:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2752" class=".btn">#2752</a>
-            </td>
-            <td>
-                <b>
-                    FAB-18482 Unable to specify peer's chaincode.externalBuilders as an env variable (backport #2643)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #2643 done by [Mergify](https://mergify.io).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.io/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.io/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.io/
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 18:12:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2751" class=".btn">#2751</a>
-            </td>
-            <td>
-                <b>
-                    FAB-18482 Unable to specify peer's chaincode.externalBuilders as an env variable (backport #2643)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #2643 done by [Mergify](https://mergify.io).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.io/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.io/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.io/
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 18:12:20 +0000 UTC
     </div>
 </div>
 

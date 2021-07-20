@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    Use the --production flag on 'npm audit'
+                    fix logger enablement
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                npm audit was broken as the 'default' working-directory and the run steps working-directory were in conflict. The existing 'npm audit' didn't actually run but was hidden by the 'continue-on-error' property. This change fixes the working directory and replaces the use of modifying the package.json file with the npm audit '--production' flag to prevent scanning the devDependencies.
-
-Signed-off-by: Brett Logan <lindluni@github.com>
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-13 05:04:25 +0000 UTC
+        Created At 2021-07-20 14:24:05 +0000 UTC
     </div>
 </div>
 

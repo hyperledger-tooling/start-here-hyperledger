@@ -200,33 +200,3 @@ Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/542" class=".btn">#542</a>
-            </td>
-            <td>
-                <b>
-                    Feature/proof request details styling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Didn't push all my local commits. this cleans up the FE a bit more. 
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/542"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 14:59:41 +0000 UTC
-    </div>
-</div>
-

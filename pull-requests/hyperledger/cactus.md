@@ -337,29 +337,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1128" class=".btn">#1128</a>
-            </td>
-            <td>
-                <b>
-                    docs(whitepaper): add suggested reference
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Adds a suggested reference for people that want to cite our whitepaper
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 17:16:45 +0000 UTC
-    </div>
-</div>
-
