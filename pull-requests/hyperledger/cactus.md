@@ -363,29 +363,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1127" class=".btn">#1127</a>
-            </td>
-            <td>
-                <b>
-                    fix: fixing branch name for code cov badge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span><span class="chip">documentation</span>
-            </td>
-            <td>
-                Signed-off-by: Travis Payne <travis.payne@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 09:06:18 +0000 UTC
-    </div>
-</div>
-

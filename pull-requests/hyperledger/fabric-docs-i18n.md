@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/514" class=".btn">#514</a>
+            </td>
+            <td>
+                <b>
+                    [zh_CN] translate the rest of docs/locale/zh_CN/source/commands/peernode.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: wuqiaomin <wuqiaomin2@huawei.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 08:38:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/513" class=".btn">#513</a>
             </td>
             <td>
@@ -141,32 +167,6 @@ Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-07-14 16:13:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/505" class=".btn">#505</a>
-            </td>
-            <td>
-                <b>
-                    RU install
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 09:03:39 +0000 UTC
     </div>
 </div>
 

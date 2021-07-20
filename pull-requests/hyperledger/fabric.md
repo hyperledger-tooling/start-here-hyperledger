@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2767" class=".btn">#2767</a>
+            </td>
+            <td>
+                <b>
+                    FABGW-25 Build ChaincodeInterest in TX simulator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                During transaction simulation, capture extra information to build a ChaincodeInterest structure specific to the chaincode invocation as follows:
+- Which private data collections are read from.
+- The SBE policies associated with any states that a written to.
+
+Following simulations, the ChaincodeInterest structure is built and returned in the ProposalResponse message.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 11:07:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2764" class=".btn">#2764</a>
             </td>
             <td>

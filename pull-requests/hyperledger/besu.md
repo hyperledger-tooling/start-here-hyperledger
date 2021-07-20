@@ -190,13 +190,13 @@ post release CHANGELOG update
             </td>
             <td>
                 <b>
-                    Spike Qbft transaction based voting
+                    [Spike] QBFT transaction-based voting
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span><span class="chip">enhancement</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
