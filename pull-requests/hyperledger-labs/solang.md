@@ -192,32 +192,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/434" class=".btn">#434</a>
-            </td>
-            <td>
-                <b>
-                    Add detection of variables in builtin calls and function calls with gas and value
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds the detection of used variables in builtin calls (like transfer and send) and function calls with gas and value.
-These cases were not covered in the [original PR](https://github.com/hyperledger-labs/solang/pull/429) that implements unused variable detection, thus Solang are detecting variables used in such cases as unused.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-12 21:45:34 +0000 UTC
-    </div>
-</div>
-

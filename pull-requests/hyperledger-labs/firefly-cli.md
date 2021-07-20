@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/61" class=".btn">#61</a>
-            </td>
-            <td>
-                <b>
-                    Fix default database selection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A small bug was recently introduced that sets the database selection to an empty string. This sets the default to `sqlite3` which was the intended behavior in the previous PR.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-12 20:05:28 +0000 UTC
-    </div>
-</div>
-

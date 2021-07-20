@@ -587,30 +587,3 @@ Clients will not need to have both JSON and SCALE serialization implementations 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1148" class=".btn">#1148</a>
-            </td>
-            <td>
-                <b>
-                    CMAKE_INTERPROCEDURAL_OPTIMIZATION return to normal after metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: kuvaldini <ivan@kuvaldini.pro>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-12 21:15:15 +0000 UTC
-    </div>
-</div>
-

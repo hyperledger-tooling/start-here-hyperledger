@@ -1,13 +1,13 @@
 
-[139](https://github.com/hyperledger-labs/firefly/pull/139) Fix sequencing of submgr/webhooks and fix loop detection
+[1147](https://github.com/hyperledger/cactus/pull/1147) test: ensure .test.ts ending for test code files #1137
 
-[12](https://github.com/hyperledger-labs/firefly-fabconnect/pull/12) Foundation implementation and framework (missing submanager, idmanager and tests)
+[78](https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/78) fix: presentation as holder failure on cred retrieval
 
-[63](https://github.com/hyperledger-labs/firefly-cli/pull/63) Do not remove images on ff reset/remove
+[834](https://github.com/hyperledger/grid/pull/834) Reqwest Client SDK Move wip - do not merge
 
-[1273](https://github.com/hyperledger/iroha/pull/1273) Recursive check for query permissions inside of instructions
+[1325](https://github.com/hyperledger/aries-cloudagent-python/pull/1325) fix: error on deserializing conn record with protocol
 
-[298](https://github.com/hyperledger/aries-agent-test-harness/pull/298) chore: update afj backchannel
+[833](https://github.com/hyperledger/grid/pull/833) Remove namespaces from XML parsing
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

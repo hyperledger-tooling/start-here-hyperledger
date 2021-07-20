@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
             </td>
             <td>
                 <b>
-                    [ja_JP] Translate "chaincode5ade.rst"
+                    [ja_JP] Translate "chaincode4ade.rst"
                 </b>
             </td>
         </tr>
@@ -167,34 +167,6 @@ Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-07-13 09:03:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/504" class=".btn">#504</a>
-            </td>
-            <td>
-                <b>
-                    [pt_BR] Docs » Architecture Reference » Service Discovery
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #466
-
-Signed-off-by: Carlos Eduardo Matos Ellery <carlos.ellery@serpro.gov.br>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 00:27:03 +0000 UTC
     </div>
 </div>
 
