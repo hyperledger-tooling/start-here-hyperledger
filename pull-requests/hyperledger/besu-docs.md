@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/746" class=".btn">#746</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/753" class=".btn">#753</a>
             </td>
             <td>
                 <b>
-                    Create Use-GoQuorum-compatible-privacy.md
+                    clearing up the page on private transactions so its easy to follow with the quickstart
                 </b>
             </td>
         </tr>
@@ -27,9 +27,7 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                Adding an MVP page for the  GoQuorum compatibility mode to address #709
-
-## Pull request checklist
+                ## Pull request checklist
 
 Use the following list to make sure your PR fits the Besu doc quality standard.
 
@@ -51,7 +49,8 @@ Make sure that:
 
 ## Describe the change
 
-<!-- A clear and concise description of what this PR changes in the documentation. -->
+- Clearing up the example page on private transactions so its easier to follow with the quickstart
+- Added some info to the quickstart page so it highlights what's available.
 
 ## Issue fixed
 
@@ -69,7 +68,7 @@ see #{your issue number} -->
 
 ### For content changes
 
-- [ ] Doc content
+- [x] Doc content
 - [ ] Doc pages organisation
 
 ### For tools changes
@@ -100,7 +99,7 @@ don't hesitate to link an annotated screenshot or a small demo video. -->
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-05 13:37:00 +0000 UTC
+        Created At 2021-07-20 01:57:28 +0000 UTC
     </div>
 </div>
 

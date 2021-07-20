@@ -91,29 +91,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/74" class=".btn">#74</a>
-            </td>
-            <td>
-                <b>
-                    nwo: make RegisterResponder use import aliasing #73
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 05:48:37 +0000 UTC
-    </div>
-</div>
-

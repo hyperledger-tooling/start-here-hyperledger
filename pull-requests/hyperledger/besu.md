@@ -190,7 +190,7 @@ post release CHANGELOG update
             </td>
             <td>
                 <b>
-                    Qbft transaction based voting
+                    Spike Qbft transaction based voting
                 </b>
             </td>
         </tr>
@@ -203,7 +203,7 @@ post release CHANGELOG update
 <!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
 
 ## PR description
-Qbft transaction based voting
+Spike for Qbft transaction based voting. This won't be merged as, it will be broken up into smaller PRs.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
