@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/41" class=".btn">#41</a>
+            </td>
+            <td>
+                <b>
+                    Emit the event `WriteAcknowledgement` in RecvPacket
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 05:51:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    mockclient: use protobuf-any type
+                    Use protobuf-any type
                 </b>
             </td>
         </tr>

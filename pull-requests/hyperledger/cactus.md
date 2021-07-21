@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1155" class=".btn">#1155</a>
+            </td>
+            <td>
+                <b>
+                    feat(example): add README on examples/discounted-cartrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 01:45:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1153" class=".btn">#1153</a>
             </td>
             <td>
@@ -195,7 +221,7 @@ ERROR: "build:dev:backend" exited with 1.
         </tr>
         <tr>
             <td>
-                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span><span class="chip">dependent</span>
+                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
             </td>
             <td>
                 ## Dependencies
@@ -344,92 +370,6 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-07-14 15:52:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1133" class=".btn">#1133</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-fabric): endorsing peers request arg #1122
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Fabric</span><span class="chip">dependent</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                Makes it possible to set the endorsing peers on a transaction
-when submitted through the Fabric connector.
-
-For example these values can be passed in to the new parameter
-and it will set the endorsers up accordingly prior to submitting
-the transaction to the ledger:
-- org1.example.com
-- Org1MSP
-- org2.example.com
-- Org2MSP
-
-(You only need either the org domain or the msp ID, no need
-to specify both of them for it to work).
-
-For a working example, see this test case:
-packages/cactus-plugin-ledger-connector-fabric/src/test/typescript/integration/fabric-v2-2-x/run-transaction-endpoint-v1.test.ts
-
-Depends on #1123
-Depends on #1130
-
-Fixes #1122
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 06:15:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1132" class=".btn">#1132</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-fabric): identity json signing credentials #1130
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Fabric</span><span class="chip">dependent</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                Introduces a new, optional (for now) parameter on the run tx
-endpoint's request object called gatewayOptions which is capable
-of including everything that one needs to instantiate a gateway
-object of the underlying Fabric Node SDK.
-
-This change makes it possible to not need the keychain plugin
-at all when someone does not need/want it.
-
-Fixes #1130
-
-Depends on #1124
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 04:56:31 +0000 UTC
     </div>
 </div>
 
