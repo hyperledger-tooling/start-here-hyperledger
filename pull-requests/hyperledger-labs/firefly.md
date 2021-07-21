@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/141" class=".btn">#141</a>
+            </td>
+            <td>
+                <b>
+                    Set max connections to 1 for SQLite and allow config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Per https://github.com/hyperledger-labs/firefly-cli/pull/64 we've seen issues with SQLite returning:
+```
+FF10116: Database insert failed: database is locked
+```
+
+We're setting a default `_busy_timeout` in the CLI now, but it still seems the concurrency inherent in FireFly means it's easy to drive SQLite to a point it returns errors.
+So the other approach is to limit the concurrent connections - and with 1 as the default that should not stress SQLite. Clearly that has a performance impact, but SQLite is primarily for lighter weight Dev scenarios where reliability matters more than performance.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 14:35:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/140" class=".btn">#140</a>
             </td>
             <td>

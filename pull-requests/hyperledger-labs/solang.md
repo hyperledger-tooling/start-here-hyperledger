@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/446" class=".btn">#446</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that enherited functions are also added to the abi file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 14:50:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/445" class=".btn">#445</a>
             </td>
             <td>
@@ -243,32 +269,6 @@ I think @athei asked for this feature too
     </table>
     <div class="right-align">
         Created At 2021-07-14 20:35:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/435" class=".btn">#435</a>
-            </td>
-            <td>
-                <b>
-                    Do not warning about unused public storage variable or shadowed event declarations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                @LucasSte please review if you have the time
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 15:49:50 +0000 UTC
     </div>
 </div>
 

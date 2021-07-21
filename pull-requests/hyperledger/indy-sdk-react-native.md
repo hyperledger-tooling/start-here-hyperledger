@@ -152,29 +152,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/2" class=".btn">#2</a>
-            </td>
-            <td>
-                <b>
-                    Update repo settings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jakub Koci <jakub.koci@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 15:20:09 +0000 UTC
-    </div>
-</div>
-

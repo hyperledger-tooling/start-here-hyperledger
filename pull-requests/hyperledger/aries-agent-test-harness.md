@@ -204,29 +204,3 @@ The other small tweak I've included is just a RHEL based system compatibility th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/291" class=".btn">#291</a>
-            </td>
-            <td>
-                <b>
-                    fix: acapy uniresolver plugin renamed, orb wrapper script made more robust
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 16:17:27 +0000 UTC
-    </div>
-</div>
-
