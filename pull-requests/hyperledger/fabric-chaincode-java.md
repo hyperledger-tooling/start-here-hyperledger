@@ -14,7 +14,33 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/188" class=".btn">#188</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/190" class=".btn">#190</a>
+            </td>
+            <td>
+                <b>
+                    Release 2.3.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Kestutis Gudynas <kestutis.gudynas@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 10:26:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/189" class=".btn">#189</a>
             </td>
             <td>
                 <b>
@@ -32,7 +58,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-12 12:59:44 +0000 UTC
+        Created At 2021-07-21 10:03:01 +0000 UTC
     </div>
 </div>
 

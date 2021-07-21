@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/152" class=".btn">#152</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/155" class=".btn">#155</a>
             </td>
             <td>
                 <b>
-                    added option to raise error if chaincode invocation fails
+                    prune deprecated peer event port 7053
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
                 
             </td>
             <td>
-                Signed-off-by: nkalichynskyi <ext-nazarii.kalichynskyi@here.com>
+                code hygience
+Signed-off-by: DavidLiu <david.yx.liu@oracle.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-04 12:18:55 +0000 UTC
+        Created At 2021-07-21 07:12:22 +0000 UTC
     </div>
 </div>
 
