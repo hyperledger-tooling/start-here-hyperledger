@@ -72,29 +72,3 @@ Closes #145
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/142" class=".btn">#142</a>
-            </td>
-            <td>
-                <b>
-                    fixup warning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 12:42:12 +0000 UTC
-    </div>
-</div>
-

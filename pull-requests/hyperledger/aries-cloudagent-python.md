@@ -119,34 +119,3 @@ Fixes #1323
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1316" class=".btn">#1316</a>
-            </td>
-            <td>
-                <b>
-                    OOB Protocol - CredentialOffer Attachment Support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Extends work done by @DaevMithran in #1216 
-- Adds a `create-offer` endpoint in `issue-credential-v1` and `issue-credential-v2` to create an offer independent of connection.
-- Support both `issue-credential-v1` and `issue-credential-v2` credential offer workflow 
-[Faber] with auto flags, offer_sent -> request_received -> credential_issued
-[Alice] with auto flags, offer_received -> request_sent -> credential_received
-- Test coverage
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 15:54:22 +0000 UTC
-    </div>
-</div>
-

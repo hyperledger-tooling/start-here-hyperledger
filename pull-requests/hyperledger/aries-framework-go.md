@@ -875,32 +875,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2878" class=".btn">#2878</a>
-            </td>
-            <td>
-                <b>
-                    feat: Document loader for agent-mobile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - added document loader as an option for agent mobile
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 15:50:59 +0000 UTC
-    </div>
-</div>
-

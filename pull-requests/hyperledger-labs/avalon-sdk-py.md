@@ -1,24 +1,24 @@
 ---
 layout: default
-title: firefly-dataexchange-https
+title: avalon-sdk-py
 parent: Hyperledger Labs
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
+permalink: /pull-requests/hyperledger-labs/avalon-sdk-py
 ---
 
-# firefly-dataexchange-https <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/firefly-dataexchange-https){: .btn .mr-4 }</span>
+# avalon-sdk-py <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/avalon-sdk-py){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger-labs/avalon-sdk-py/pull/20" class=".btn">#20</a>
             </td>
             <td>
                 <b>
-                    File key regex case insensitive
+                    Avalon direct work order receipt Changes
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-15 19:54:01 +0000 UTC
+        Created At 2021-07-21 12:45:32 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/32" class=".btn">#32</a>
+                PR <a href="https://github.com/hyperledger-labs/avalon-sdk-py/pull/19" class=".btn">#19</a>
             </td>
             <td>
                 <b>
-                    Add CODEOWNERS
+                    Avalon direct work order Changes
                 </b>
             </td>
         </tr>
@@ -58,7 +58,7 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-15 14:37:07 +0000 UTC
+        Created At 2021-07-21 12:32:20 +0000 UTC
     </div>
 </div>
 

@@ -39,29 +39,3 @@ Fixes the call to aca-py  `/transactions/<conn_id>/set-endorser-role?transaction
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/9" class=".btn">#9</a>
-            </td>
-            <td>
-                <b>
-                    PresentProofRequest supports predicate value.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Lars Wegner <lars.wegner2@de.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 12:39:38 +0000 UTC
-    </div>
-</div>
-

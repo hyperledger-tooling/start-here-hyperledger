@@ -55,7 +55,8 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
             <td>
                 - Uses Cactus connectors for interacting with blockchain network (ethereum , fabric)
 - uses vault for storing private and certificates
-- 
+- End-to-End test : doesn't require restarting of network 
+
 Resolve #228 
             </td>
         </tr>

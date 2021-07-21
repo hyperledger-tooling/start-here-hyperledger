@@ -98,7 +98,7 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
             </td>
             <td>
                 <b>
-                    Feat 967 complete request handler and endpoints
+                    feat(keychain-aws-sm): complete request handler and endpoints
                 </b>
             </td>
         </tr>
@@ -365,65 +365,6 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-07-14 19:52:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1135" class=".btn">#1135</a>
-            </td>
-            <td>
-                <b>
-                    refactor(core-api): keychain plugin get/set generic type parameters
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                refactor(core-api): keychain plugin get/set generics #1135 
-
-Fixes #1135 
-Signed-off-by: Tommesha Wiggins <tommesha.wiggins@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 18:18:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1134" class=".btn">#1134</a>
-            </td>
-            <td>
-                <b>
-                    fix(cmd-api-server): OpenAPI spec validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                add missing validation from plugin REST endpoints
-
-fixes #847
-
-Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 15:52:33 +0000 UTC
     </div>
 </div>
 
