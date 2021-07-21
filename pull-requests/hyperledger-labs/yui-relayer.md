@@ -64,29 +64,3 @@ fixes https://github.com/hyperledger-labs/yui-relayer/issues/18
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/35" class=".btn">#35</a>
-            </td>
-            <td>
-                <b>
-                    Separate proving functions from Chain
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                resolves #34 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 12:04:40 +0000 UTC
-    </div>
-</div>
-

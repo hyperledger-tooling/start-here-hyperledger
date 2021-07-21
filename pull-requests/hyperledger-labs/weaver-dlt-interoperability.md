@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/117" class=".btn">#117</a>
+            </td>
+            <td>
+                <b>
+                    Clean Up following use of modules, fix Asset-Mgmt module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Deleted `protos-go` and `protos-js` directories.
+2. Deleted scripts in various places which is used to copy protos and build manually, (since this is being done in common folder, use that if you want to build locally).
+3. Deleted commented codes from various makefiles and scripts.
+4. Use interopcc `v1.2.1` in testnet.
+5. Added mocks folder to `asset-mgmt`, as otherwise using it as go module used to throw error that mocks not found.
+6. Simpleasset modified to import `asset-mgmt` as module, currently it imports from my fork, but will later (in a separate PR) modify it to point to hyperledger-labs, since right now I can't generate `go.sum` entry.
+
+Tested all 6 Interop calls, and local unit tests, and end to end asset-exchange after these changes, and it works fine for me.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 07:09:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/116" class=".btn">#116</a>
             </td>
             <td>

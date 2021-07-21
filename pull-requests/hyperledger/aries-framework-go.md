@@ -14,6 +14,106 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2887" class=".btn">#2887</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump actions/setup-node from 2.2.0 to 2.3.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">github_actions</span>
+            </td>
+            <td>
+                Bumps [actions/setup-node](https://github.com/actions/setup-node) from 2.2.0 to 2.3.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/actions/setup-node/releases">actions/setup-node's releases</a>.</em></p>
+<blockquote>
+<h2>Support caching pnpm dependencies</h2>
+<p>This release introduces dependency caching support for the <code>pnpm</code> package manager (<a href="https://github-redirect.dependabot.com/actions/setup-node/issues/278">#278</a>).</p>
+<p><strong>Caching pnpm dependencies:</strong></p>
+<pre lang="yaml"><code># This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+<p>steps:</p>
+<ul>
+<li>uses: actions/checkout@v2</li>
+<li>uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
+with:
+version: 6.10.0</li>
+<li>uses: actions/setup-node@v2
+with:
+node-version: '14'
+cache: 'pnpm'</li>
+<li>run: pnpm install</li>
+<li>run: pnpm test
+</code></pre></li>
+</ul>
+<p><strong>NOTE</strong>: pnpm caching support requires pnpm version &gt;= 6.10.0</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/actions/setup-node/commit/aa759c6c94d3800c55b8601f21ba4b2371704cb7"><code>aa759c6</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/actions/setup-node/issues/278">#278</a> from jacobwgillespie/cache-pnpm</li>
+<li><a href="https://github.com/actions/setup-node/commit/0ae03de2b799ae88b378c51b87476d242b3d8ef0"><code>0ae03de</code></a> Reorder to npm, yarn, pnpm</li>
+<li><a href="https://github.com/actions/setup-node/commit/4bc87b8e10a7f0f76173ad410d874a0b1f984af0"><code>4bc87b8</code></a> Bump e2e tests to 6.10.0</li>
+<li><a href="https://github.com/actions/setup-node/commit/b96348a4e97e0510304e475e5cec7a7a05518c5d"><code>b96348a</code></a> Remove unused imports</li>
+<li><a href="https://github.com/actions/setup-node/commit/3af302a4f220de9ff48cd21cc1ab8e9c54382600"><code>3af302a</code></a> Switch to pnpm store path command</li>
+<li><a href="https://github.com/actions/setup-node/commit/f452812b440ff2d1b0ee9d300a037464407004e5"><code>f452812</code></a> Unmock fs.existsSync after tests</li>
+<li><a href="https://github.com/actions/setup-node/commit/e93556ca6645851a427f77742aeb1b22a95b4700"><code>e93556c</code></a> Mock fs.existsSync in tests</li>
+<li><a href="https://github.com/actions/setup-node/commit/0453e516eb2a16fb262fa8f9db51405c7089b869"><code>0453e51</code></a> Regenerate compiled files</li>
+<li><a href="https://github.com/actions/setup-node/commit/399982b36805ac9d772a419dc9f95fb5a8eb5c55"><code>399982b</code></a> Move existence check to cache-save</li>
+<li><a href="https://github.com/actions/setup-node/commit/d278e78bddf957771f319214444100b4032fb7aa"><code>d278e78</code></a> Add logic to check that cache folder exists</li>
+<li>Additional commits viewable in <a href="https://github.com/actions/setup-node/compare/v2.2.0...v2.3.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/setup-node&package-manager=github_actions&previous-version=2.2.0&new-version=2.3.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 08:18:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2886" class=".btn">#2886</a>
             </td>
             <td>

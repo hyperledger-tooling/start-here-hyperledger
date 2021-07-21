@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/61" class=".btn">#61</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/63" class=".btn">#63</a>
             </td>
             <td>
                 <b>
-                    Go-Perun: Improve text and structure
+                    Add description of perun protocols
                 </b>
             </td>
         </tr>
@@ -27,16 +27,15 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
                 
             </td>
             <td>
-                - index.rst
-  - Remove source code copyright info, because it is clear from the README at GitHub and does not fit here.
-  - Combine disclaimer, funding, and contact
-  - Reduce tutorial depth by moving intro to main page
-- Developer Tutorial: Revise text.
+                - Description of funding protocols and withdrawal protocols are yet to
+  be added.
+
+Relates to #62.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-25 19:51:59 +0000 UTC
+        Created At 2021-07-21 10:20:06 +0000 UTC
     </div>
 </div>
 
