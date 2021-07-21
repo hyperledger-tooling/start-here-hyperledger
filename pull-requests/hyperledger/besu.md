@@ -291,33 +291,3 @@ Update to Tessera 21.7.0 in container tests setup
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2537" class=".btn">#2537</a>
-            </td>
-            <td>
-                <b>
-                    Add Justin Florentine as a maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Justin has made significant [commits](https://github.com/hyperledger/besu/commits?author=jflo) improving the quality and features of besu, this PR adds him as a maintainer.
-
-Voting ends 2 weeks from the publication of this PR or once a majority of the maintainers [vote](https://github.com/hyperledger/besu/blob/master/MAINTAINERS.md#maintainers-approval-process).  
-
-For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 22:02:25 +0000 UTC
-    </div>
-</div>
-

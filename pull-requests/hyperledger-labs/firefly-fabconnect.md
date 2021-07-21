@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-fabconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/13" class=".btn">#13</a>
+            </td>
+            <td>
+                <b>
+                    Added Makefile, linter and fixed linting errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 18:31:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/12" class=".btn">#12</a>
             </td>
             <td>
@@ -101,84 +127,6 @@ Components that are still missing and to be implemented in a followup PR:
     </table>
     <div class="right-align">
         Created At 2021-07-15 15:23:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/6" class=".btn">#6</a>
-            </td>
-            <td>
-                <b>
-                    Updated README links to new diagrams
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 20:14:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/5" class=".btn">#5</a>
-            </td>
-            <td>
-                <b>
-                    Updated README with links to the new diagrams
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 20:11:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/3" class=".btn">#3</a>
-            </td>
-            <td>
-                <b>
-                    Added architecture diagrams for objects and flows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 20:03:16 +0000 UTC
     </div>
 </div>
 

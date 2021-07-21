@@ -150,31 +150,3 @@ Fixes #1323
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1314" class=".btn">#1314</a>
-            </td>
-            <td>
-                <b>
-                    Set DID posture to posted when assigned as the public DID
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1307
-
-Also avoids a potential failure when two agent processes try to perform the public DID upgrade process simultaneously.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 23:17:48 +0000 UTC
-    </div>
-</div>
-
