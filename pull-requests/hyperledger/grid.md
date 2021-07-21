@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/835" class=".btn">#835</a>
+            </td>
+            <td>
+                <b>
+                    Update CLAP definitions to align with man pages.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Work done involved verifying that the CLAP definitions align with man
+pages. The CLAP definitions were already aligned, but the `--key` option
+required updating throughout all of main.rs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 18:24:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/834" class=".btn">#834</a>
             </td>
             <td>
@@ -322,58 +350,6 @@ changes made to f24bb577d23bae563ff1c7daf2f3222d20e078d4.
     </table>
     <div class="right-align">
         Created At 2021-07-14 17:01:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/823" class=".btn">#823</a>
-            </td>
-            <td>
-                <b>
-                    Change location family name and version to constants in CLI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 20:21:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/822" class=".btn">#822</a>
-            </td>
-            <td>
-                <b>
-                    Small Pike CLI fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A few small fixes for stabilization
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 19:24:05 +0000 UTC
     </div>
 </div>
 

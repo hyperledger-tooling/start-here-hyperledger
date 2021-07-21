@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                
+                This PR adds an implementation of state that applies a Merkle-Radix tree using a PostgresSQL database as its back-end. 
+
+Continued development on the experimental feature described in [RFC 10](https://github.com/hyperledger/transact-rfcs/pull/10)
             </td>
         </tr>
     </table>

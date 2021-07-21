@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/146" class=".btn">#146</a>
+            </td>
+            <td>
+                <b>
+                    :rotating_light: [golangci] Revise configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Enable default linters
+- Remove `fast: false`, because it is the default value.
+- Remove golint because deprecated.
+  Owner suggests to use staticcheck or go vet.
+  We already use staticcheck.
+- Remove interfacer because deprecated
+  Owner mentions that tool is error prone.
+- Remove scopelint because deprecated, add exportloopref
+  Owner suggests to use looppointer or exportloopref instead.
+
+Closes #145 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 21:37:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/144" class=".btn">#144</a>
+            </td>
+            <td>
+                <b>
+                    143 settle implicit register
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #143 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 20:59:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/142" class=".btn">#142</a>
             </td>
             <td>

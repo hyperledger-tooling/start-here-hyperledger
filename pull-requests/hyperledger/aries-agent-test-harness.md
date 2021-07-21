@@ -230,29 +230,3 @@ The other small tweak I've included is just a RHEL based system compatibility th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/289" class=".btn">#289</a>
-            </td>
-            <td>
-                <b>
-                    chore: small bash script fix for platform compatibility
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 21:08:15 +0000 UTC
-    </div>
-</div>
-

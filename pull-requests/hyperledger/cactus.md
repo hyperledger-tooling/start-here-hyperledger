@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1153" class=".btn">#1153</a>
+            </td>
+            <td>
+                <b>
+                    Feat 967 complete request handler and endpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 20:07:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1152" class=".btn">#1152</a>
+            </td>
+            <td>
+                <b>
+                    docs(examples): increase supply chain image boot responsiveness #780
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">documentation</span>
+            </td>
+            <td>
+                Added logging to all 3 of the test ledger classes that are being used
+which are taking up most of the boot time.
+Now users can see the setup process as it chugs along step by step and
+in general be much more confident while waiting that things are indeed
+happening instead of the container just being in a zombie state.
+
+Also added an additional point in the README.md file claryfying that
+one needs to have a working installation of docker on their machine.
+Decided to not go into any more detail than that because the (linked)
+docker for desktop documentation is the best/most robust resrouces
+available there is and it would be hard to compete with it if we were
+to produce our own installation instructions.
+
+Fixes #780
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 19:56:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1151" class=".btn">#1151</a>
+            </td>
+            <td>
+                <b>
+                    fix(connector-corda): fix build broken by operationId rename
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Corda</span><span class="chip">documentation</span>
+            </td>
+            <td>
+                Also: Update the readmes of other packages where the old name of
+the operation/endpoint was still being used as well.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-20 18:47:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1147" class=".btn">#1147</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
-[299](https://github.com/hyperledger/aries-agent-test-harness/pull/299) Mobile wait states
+[13](https://github.com/hyperledger/indy-sdk-react-native/pull/13) Bump react-native from 0.59.10 to 0.62.3
 
-[167](https://github.com/hyperledger/transact/pull/167) SQL merkle state with postgres backend
+[146](https://github.com/hyperledger-labs/go-perun/pull/146) :rotating_light: [golangci] Revise configuration
 
-[143](https://github.com/hyperledger/fabric-gateway/pull/143) FABGW-21: Chaincode event listening in Node client
+[398](https://github.com/hyperledger/aries-framework-javascript/pull/398) feat(core): ledger module registerPublicDid implementation
 
-[2769](https://github.com/hyperledger/fabric/pull/2769) [FAB-11334] Adds a function to purge a ledger's transient storage
+[144](https://github.com/hyperledger-labs/go-perun/pull/144) 143 settle implicit register
 
-[1550](https://github.com/hyperledger/indy-plenum/pull/1550) Ubuntu 20.04: remove pip imports in favor if importlib_metadata
+[1153](https://github.com/hyperledger/cactus/pull/1153) Feat 967 complete request handler and endpoints
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
