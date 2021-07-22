@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/59" class=".btn">#59</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/63" class=".btn">#63</a>
             </td>
             <td>
                 <b>
-                    Query API & Event API
+                    extending TxPaginationMeta
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                - Implemented Query API
-- Implemented Events API
-- Fixed sending transactions - specifying timestamp and TTL 
+                This is an attempt to add possibility of using extended TxPaginaitonMeta
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-25 12:12:37 +0000 UTC
+        Created At 2021-07-22 06:39:34 +0000 UTC
     </div>
 </div>
 

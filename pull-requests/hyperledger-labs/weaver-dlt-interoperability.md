@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
 3. Deleted commented codes from various makefiles and scripts.
 4. Use interopcc `v1.2.1` in testnet.
 5. Added mocks folder to `asset-mgmt`, as otherwise using it as go module used to throw error that mocks not found.
-6. Simpleasset modified to import `asset-mgmt` as module, currently it imports from my fork, but will later (in a separate PR) modify it to point to hyperledger-labs, since right now I can't generate `go.sum` entry.
+6. Simpleasset modified to import `asset-mgmt` as module. To test it, manually copy folder `core/network/fabric-interop-cc/interfaces/asset-mgmt` from my fork to your path: `$GOPATH/pkg/mod/github.com/hyperledger-labs/weaver-dlt-interoperability/core/network/fabric-interop-cc/interfaces/asset-mgmt@v1.2.1`.
 
 Tested all 6 Interop calls, and local unit tests, and end to end asset-exchange after these changes, and it works fine for me.
             </td>
