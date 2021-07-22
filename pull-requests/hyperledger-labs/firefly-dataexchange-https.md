@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/32" class=".btn">#32</a>
-            </td>
-            <td>
-                <b>
-                    Add CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 14:37:07 +0000 UTC
-    </div>
-</div>
-

@@ -41,34 +41,3 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/59" class=".btn">#59</a>
-            </td>
-            <td>
-                <b>
-                    FABGW-25 Extend proto to include derived interest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add protobuf support for returning the derived chaincode interest structure from Tx simulation (process proposal).
-
-Add the set of SBE signature policies to the discovery ChaincodeCall proto message
-Add the ChaincodeInterest structure to the ProposalResponse message
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 15:50:51 +0000 UTC
-    </div>
-</div>
-

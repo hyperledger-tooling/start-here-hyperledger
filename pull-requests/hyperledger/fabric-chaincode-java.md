@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/193" class=".btn">#193</a>
+            </td>
+            <td>
+                <b>
+                    Update the build.gradle for publishing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The updated versions of gradle appear to require a slightly different
+way of publishing.
+
+Based on a local empirical test, these changes appear to be sound
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 12:30:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/192" class=".btn">#192</a>
             </td>
             <td>

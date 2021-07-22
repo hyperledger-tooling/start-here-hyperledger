@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/79" class=".btn">#79</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    Further iroha2-java codegen improvements
+                    55 - Upgrade to bouncycastle lib
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                
+                #55 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-01 07:55:45 +0000 UTC
+        Created At 2021-07-22 14:27:47 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1160" class=".btn">#1160</a>
+            </td>
+            <td>
+                <b>
+                    feat(besu): support for private transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #952 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 13:47:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1157" class=".btn">#1157</a>
             </td>
             <td>

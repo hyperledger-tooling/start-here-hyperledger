@@ -98,29 +98,3 @@ Lots more interesting information here: https://github.com/mattn/go-sqlite3/issu
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/62" class=".btn">#62</a>
-            </td>
-            <td>
-                <b>
-                    Add CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 15:24:50 +0000 UTC
-    </div>
-</div>
-
