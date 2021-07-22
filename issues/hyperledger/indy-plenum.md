@@ -14,33 +14,31 @@ permalink: /issues/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/indy-plenum/issues/1507" class=".btn">1507</a>
+                Issue <a href="https://github.com/hyperledger/indy-plenum/issues/1551" class=".btn">1551</a>
             </td>
             <td>
                 <b>
-                    Replace dependency on Indy SDK with Indy VDR
+                    Ubuntu 20.04: Upgrade RocksDB
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">good first issue</span><span class="chip">help wanted</span>
+                <span class="chip">Ubuntu 20.04</span><span class="chip">help wanted</span><span class="chip">upgrade</span>
             </td>
             <td>
-                [Indy-VDR](https://github.com/hyperledger/indy-vdr) is receiving more development than [Indy-SDK](https://github.com/hyperledger/indy-sdk), so we should replace calls to libindy with calls to indy-vdr.
+                For the Ubuntu 20.04 version of Plenum, upgrade to RocksDB 5.17, which is the version supported on Ubuntu 20.04; https://packages.ubuntu.com/search?searchon=sourcenames&keywords=rocksdb
 
-Steps:
-* Update unit tests.
-* Update integration tests.
-* Update package dependencies.
-
-Notes:
-* [Related issue in Indy Node](https://github.com/hyperledger/indy-node/issues/1644).
+Background:
+- Plenum is currently dependent on RocksDB 5.8.8.
+- When RocksDB 5.17 is used without any code changes several tests hang due to issues encountered by the code under test with the updated version of RocksDB.  See https://github.com/hyperledger/indy-plenum/issues/1546 for additional details.
+- Therefore updates to the code are required to support RocksDB 5.17
+- As an interim solution the RocksDB 5.8.8 package built by the `Build 3rd Party Dependencies` job (of the GHA Workflow) will be used.  Refer to https://github.com/hyperledger/indy-plenum/issues/1546#issuecomment-883585912 for details.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-01-29 22:55:12 +0000 UTC
+        Created At 2021-07-22 14:39:19 +0000 UTC
     </div>
 </div>
 
