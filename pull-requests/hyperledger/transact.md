@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/168" class=".btn">#168</a>
+            </td>
+            <td>
+                <b>
+                    Fix struct and module doc for Sqlite backend
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change fixes the rust doc for the Sqlite backend as well as the migrations module.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 21:39:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/167" class=".btn">#167</a>
             </td>
             <td>

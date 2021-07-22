@@ -122,8 +122,10 @@ Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
             </td>
             <td>
                 Send message to partner, partner gets event and surfaces to Vuex store.
+This illustrates the basic messaging between multiple agents. Each room is for a single partner and your partner.  Messages are not persisted, only stored in VUEX.
 
-Early stages, need to get to know the component better, adjust styles, add MY messages to the chat messages list...
+This is slightly temporary, as we are going to refine the socket events and messages and notifications. Improvements on this component should include indicating which partner/room has a new message to read. Perhaps we can change this to only show the single partner when we navigate to the business partner detail screen? Another improvement is to keep the list of rooms (partners) in sync with the known partners; currently it will add a partner/room if you are the receiver of a connection.  This should be improved along with the changes to notifications/tasks/activities etc.
+
 
 Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
 
