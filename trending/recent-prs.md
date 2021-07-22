@@ -1,13 +1,13 @@
 
-[1288](https://github.com/hyperledger/iroha/pull/1288) A script to request tags of docker repository from DockerHub using curl and jq
+[2776](https://github.com/hyperledger/fabric/pull/2776) Update private data docs - remove SDK reference (backport #2770)
 
-[2772](https://github.com/hyperledger/fabric/pull/2772) Additional documentation for implicit private data collections
+[844](https://github.com/hyperledger/grid/pull/844) Update release notes
 
-[16](https://github.com/hyperledger-labs/perun-eth-contracts/pull/16) :bug: [Adjudicator] Emit concluded only once
+[1289](https://github.com/hyperledger/iroha/pull/1289) OOB Query Permission Checks
 
-[14](https://github.com/hyperledger-labs/perun-eth-contracts/pull/14) :zap: [Adjudicator] Conclude after progressing into final
+[843](https://github.com/hyperledger/grid/pull/843) Update CLI Format syntax in Man Pages
 
-[2771](https://github.com/hyperledger/fabric/pull/2771) FABGW-25 Test for system chaincode
+[144](https://github.com/hyperledger/aries-framework-go-ext/pull/144) chore(deps): bump go.mongodb.org/mongo-driver from 1.4.2 to 1.5.1 in /component/storage/mongodb
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

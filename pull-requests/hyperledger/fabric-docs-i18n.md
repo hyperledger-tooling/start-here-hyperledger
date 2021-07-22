@@ -144,29 +144,3 @@ Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/511" class=".btn">#511</a>
-            </td>
-            <td>
-                <b>
-                    RU upgrade
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 13:06:24 +0000 UTC
-    </div>
-</div>
-

@@ -92,29 +92,3 @@ Resolve #228
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/259" class=".btn">#259</a>
-            </td>
-            <td>
-                <b>
-                    updates to voluntary carbon offsets directory
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 16:35:37 +0000 UTC
-    </div>
-</div>
-

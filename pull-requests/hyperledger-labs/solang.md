@@ -220,29 +220,3 @@ I think @athei asked for this feature too
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/437" class=".btn">#437</a>
-            </td>
-            <td>
-                <b>
-                    Check used variables in Load expression and length call
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements the used variable detection for the `Load` expression and marks arrays as assigned when there is a `length` call. The latter is necessary to prevent array being removed from the intermediary representation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 17:47:35 +0000 UTC
-    </div>
-</div>
-
