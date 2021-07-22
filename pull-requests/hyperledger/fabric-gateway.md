@@ -67,29 +67,3 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/140" class=".btn">#140</a>
-            </td>
-            <td>
-                <b>
-                    FABGW-21: Chaincode event listening Java implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Unit test coverage. Scenario tests will come later.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 11:33:55 +0000 UTC
-    </div>
-</div>
-

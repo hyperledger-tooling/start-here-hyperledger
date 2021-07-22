@@ -170,35 +170,3 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/549" class=".btn">#549</a>
-            </td>
-            <td>
-                <b>
-                    fixed aca-py config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                only checking for is present is not enough as it ignores if a value is true or false. added a getUnwrapped() method to the wrapper and fixed the class.
-
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/549"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 09:42:00 +0000 UTC
-    </div>
-</div>
-

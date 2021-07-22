@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-contracts/pull/10" class=".btn">#10</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-contracts/pull/16" class=".btn">#16</a>
             </td>
             <td>
                 <b>
-                    Prepare virtual channels
+                    :bug: [Adjudicator] Emit concluded only once
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-contracts
                 
             </td>
             <td>
-                Closes #9 
+                Closes #15 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-21 09:05:31 +0000 UTC
+        Created At 2021-07-22 11:08:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-contracts/pull/14" class=".btn">#14</a>
+            </td>
+            <td>
+                <b>
+                    :zap: [Adjudicator] Conclude after progressing into final
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #13 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 09:46:07 +0000 UTC
     </div>
 </div>
 

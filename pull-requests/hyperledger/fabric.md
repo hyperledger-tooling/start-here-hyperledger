@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2772" class=".btn">#2772</a>
+            </td>
+            <td>
+                <b>
+                    Additional documentation for implicit private data collections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add additional documentation for implicit private data collections.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 11:32:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2771" class=".btn">#2771</a>
+            </td>
+            <td>
+                <b>
+                    FABGW-25 Test for system chaincode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit addresses the closing comments in PR #2767:
+
+- Skip systems chaincode in this block as well
+- Add a test that asserts that the system chaincodes are indeed skipped
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 08:59:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2770" class=".btn">#2770</a>
             </td>
             <td>
