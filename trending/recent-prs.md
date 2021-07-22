@@ -1,13 +1,13 @@
 
+[2570](https://github.com/hyperledger/besu/pull/2570) Bft validator provider
+
+[301](https://github.com/hyperledger/aries-agent-test-harness/pull/301) Changes by create-pull-request action
+
+[2889](https://github.com/hyperledger/aries-framework-go/pull/2889) docs: vcwallet docs
+
+[92](https://github.com/hyperledger-labs/fabric-smart-client/pull/92) nwo: set default fabric network per FSC node #91
+
 [403](https://github.com/hyperledger/aries-framework-javascript/pull/403) priority sorted transports
-
-[2770](https://github.com/hyperledger/fabric/pull/2770) Update private data docs - remove SDK reference
-
-[2888](https://github.com/hyperledger/aries-framework-go/pull/2888) feat: use only did:key in didcomm
-
-[300](https://github.com/hyperledger/aries-agent-test-harness/pull/300) fix: afj and dotnet interop issues
-
-[1285](https://github.com/hyperledger/iroha/pull/1285) [GHA] test build
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

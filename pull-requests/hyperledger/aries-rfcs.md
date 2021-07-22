@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-rfcs
             </td>
             <td>
                 <b>
-                    06930 - Cross-Platform Credential Representation
+                    RFC-06930 - Cross-Platform Credential Representation
                 </b>
             </td>
         </tr>
