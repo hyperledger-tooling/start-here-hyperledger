@@ -14,26 +14,30 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/692" class=".btn">#692</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/694" class=".btn">#694</a>
             </td>
             <td>
                 <b>
-                    DRAFT: Minor version update to Issue Credential V2 to enable issuing multiple VCs
+                    06930 - Cross-Platform Credential Representation
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">WIP</span>
+                
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+                Aries Agent developers currently build end user products without a standard method of rendering credentials.
+This RFC proposes how the Aries community can reuse available open technologies to build such a rendering method.
 
+Key results include:
+- Feasibility of cross platform rendering.
+- Enable branding of credentials.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-14 09:58:03 +0000 UTC
+        Created At 2021-07-21 19:01:26 +0000 UTC
     </div>
 </div>
 

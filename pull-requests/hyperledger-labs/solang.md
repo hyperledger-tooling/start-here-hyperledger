@@ -246,29 +246,3 @@ I think @athei asked for this feature too
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/436" class=".btn">#436</a>
-            </td>
-            <td>
-                <b>
-                    Check used variables in delete statement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR detects used variables in a `delete` statement. This is a fix for the[ Unused variable detection PR](https://github.com/hyperledger-labs/solang/pull/429).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 20:35:03 +0000 UTC
-    </div>
-</div>
-

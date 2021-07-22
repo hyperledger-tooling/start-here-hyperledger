@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/403" class=".btn">#403</a>
+            </td>
+            <td>
+                <b>
+                    priority sorted transports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Adam Burdett <burdettadam@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 00:38:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/402" class=".btn">#402</a>
+            </td>
+            <td>
+                <b>
+                    fix(core): do not use did-communication service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Do not include the `did-communication` service in the did doc for now. This break interop with AF.NET. We should solve this in the future by only using `IndyAgent` for connection protocol and did-communication for did exchange protocol
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 21:15:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/398" class=".btn">#398</a>
             </td>
             <td>

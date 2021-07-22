@@ -14,6 +14,125 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/839" class=".btn">#839</a>
+            </td>
+            <td>
+                <b>
+                    Add experimental support for Cylinder JWTs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds support for using Cylinder JWTs as an Auth header in requests
+to submit batches. This new functionality is guarded behind the
+experimental `cylinder-jwt-support` feature. This creates the Signer in
+the the `run_splinter` function which is then passed through to the
+REST API when that is set up.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 20:53:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/838" class=".btn">#838</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT: Add loading indicator for Table
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This load can take a few seconds since we are brute force searching for
+Org names. This should be optimized eventually.
+
+Signed-off-by: Darian Plumb <dplumb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 20:28:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/837" class=".btn">#837</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT: Remove namespaces from XML parsing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The namespace numbers are not guaranteed for these XML documents, so we
+can't have that namespace prefix hardcoded in the parsing functionality.
+`fast-xml-parser` has an option to ignore these namespace prefixes. We
+do lose the namespace prefixes in the downloaded XML from the table due
+to this.
+
+Signed-off-by: Darian Plumb <dplumb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 20:27:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/836" class=".btn">#836</a>
+            </td>
+            <td>
+                <b>
+                    Add release notes for Grid 0.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add release notes for the Grid 0.2 release 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-21 19:56:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/835" class=".btn">#835</a>
             </td>
             <td>
@@ -271,33 +390,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-07-15 19:04:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/826" class=".btn">#826</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Merge pull request #820 from Cargill/dnewh-batches-accessors"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This reverts commit 01ca80c250bf94aab817d9ea11ca26e7a9c192aa, reversing
-changes made to f24bb577d23bae563ff1c7daf2f3222d20e078d4.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 19:49:01 +0000 UTC
     </div>
 </div>
 

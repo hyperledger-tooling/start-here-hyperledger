@@ -337,34 +337,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1136" class=".btn">#1136</a>
-            </td>
-            <td>
-                <b>
-                    docs(examples): supply chain- eliminate endpoint constant classes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                
-Fixes #1120
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-
-@petermetz ping for review :) 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-14 19:52:58 +0000 UTC
-    </div>
-</div>
-

@@ -1,13 +1,13 @@
 
-[1283](https://github.com/hyperledger/iroha/pull/1283) [Metrics] txs cache #1279
+[403](https://github.com/hyperledger/aries-framework-javascript/pull/403) priority sorted transports
 
-[1282](https://github.com/hyperledger/iroha/pull/1282) GHA test
+[2770](https://github.com/hyperledger/fabric/pull/2770) Update private data docs - remove SDK reference
 
-[1281](https://github.com/hyperledger/iroha/pull/1281) Cmake interprocedural optimization
+[2888](https://github.com/hyperledger/aries-framework-go/pull/2888) feat: use only did:key in didcomm
 
-[192](https://github.com/hyperledger/fabric-chaincode-java/pull/192) Bump logback-classic from 1.0.13 to 1.2.0 in /fabric-chaincode-integration-test/src/contracts/bare-maven
+[300](https://github.com/hyperledger/aries-agent-test-harness/pull/300) fix: afj and dotnet interop issues
 
-[446](https://github.com/hyperledger-labs/solang/pull/446) Ensure that enherited functions are also added to the abi file
+[1285](https://github.com/hyperledger/iroha/pull/1285) [GHA] test build
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
