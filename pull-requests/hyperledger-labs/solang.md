@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/447" class=".btn">#447</a>
+            </td>
+            <td>
+                <b>
+                    Solana bundled contract fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 09:33:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/446" class=".btn">#446</a>
             </td>
             <td>
@@ -191,32 +217,6 @@ I think @athei asked for this feature too
     </table>
     <div class="right-align">
         Created At 2021-07-17 09:21:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/438" class=".btn">#438</a>
-            </td>
-            <td>
-                <b>
-                    Load array subscript index from contract storage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 11:08:23 +0000 UTC
     </div>
 </div>
 

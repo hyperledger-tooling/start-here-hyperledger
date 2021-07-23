@@ -143,29 +143,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/80" class=".btn">#80</a>
-            </td>
-            <td>
-                <b>
-                    fabric/core/generic driver: transaction's network not set properly #79
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 06:48:38 +0000 UTC
-    </div>
-</div>
-

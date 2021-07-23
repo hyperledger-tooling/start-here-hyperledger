@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/burrow
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/burrow/pull/1505" class=".btn">#1505</a>
+            </td>
+            <td>
+                <b>
+                    Make `deploy` take an object argument with options and library addresses
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                for easier generic deployment code and reflection by downstream users
+
+Signed-off-by: Silas Davis <silas@monax.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 12:06:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/burrow/pull/1504" class=".btn">#1504</a>
             </td>
             <td>
