@@ -91,37 +91,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/68" class=".btn">#68</a>
-            </td>
-            <td>
-                <b>
-                    various improvements #67
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - [x] NWO token topology: use Fabric topology's name when adding a new TMS.
-- [x] Introduce TMS Identifier
-- [x] Vault/Query: multi network support
-- [x] TCC/Auditor: multi network support
-- [x] Vault/Processor: multi network support and extendable token issued recognition
-- [x] TTX and TTXCC:  multi network support
-- [x] Core/TMS: multi network support
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 03:53:23 +0000 UTC
-    </div>
-</div>
-

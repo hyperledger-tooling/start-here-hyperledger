@@ -169,32 +169,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/78" class=".btn">#78</a>
-            </td>
-            <td>
-                <b>
-                    bug fix #76 #77
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - [x] network/channel support for IsTxFinal #77
-- [x] nwo: fabric platform's Name() does not return the topology name #76
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 03:45:30 +0000 UTC
-    </div>
-</div>
-
