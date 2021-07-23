@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/38" class=".btn">#38</a>
             </td>
             <td>
                 <b>
-                    Research fix
+                    I20 top level structure
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/mirbft
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-09 08:00:40 +0000 UTC
+        Created At 2021-07-23 17:53:59 +0000 UTC
     </div>
 </div>
 

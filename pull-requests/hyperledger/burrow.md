@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/burrow
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/burrow/pull/1506" class=".btn">#1506</a>
+            </td>
+            <td>
+                <b>
+                    add docs for 0.34.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Silas Davis <silas@monax.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 13:54:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/burrow/pull/1505" class=".btn">#1505</a>
             </td>
             <td>

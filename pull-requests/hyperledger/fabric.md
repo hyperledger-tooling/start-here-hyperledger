@@ -679,31 +679,3 @@ Signed-off-by: Artem Barger <artem@bargr.net>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2759" class=".btn">#2759</a>
-            </td>
-            <td>
-                <b>
-                    Update CHANGELOG.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update CHANGELOG.md to indicate that the changelog is now maintained in GitHub.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 18:17:10 +0000 UTC
-    </div>
-</div>
-

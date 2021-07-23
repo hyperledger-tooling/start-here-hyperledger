@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/28" class=".btn">#28</a>
+            </td>
+            <td>
+                <b>
+                    bcovrin-test ledger option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                see https://github.com/hyperledger-labs/business-partner-agent/issues/377
+
+added bcovrin-test as another ledger option
+
+Signed-off-by: Philipp Etschel <philipp@etschel.net>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 13:28:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/27" class=".btn">#27</a>
             </td>
             <td>
