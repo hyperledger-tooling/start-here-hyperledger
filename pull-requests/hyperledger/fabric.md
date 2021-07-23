@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2779" class=".btn">#2779</a>
+            </td>
+            <td>
+                <b>
+                    Hardening raft catchup IT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 23:42:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2778" class=".btn">#2778</a>
+            </td>
+            <td>
+                <b>
+                    Merge and enhance coding guidelines across github and wiki
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR enhances and merges the additional coding guidelines present in the [wiki page](https://wiki.hyperledger.org/display/fabric/Coding+Guidelines) into the coding guidelines page maintained in the docs at github.
+
+Signed-off-by: manish <manish.sethi@gmail.com>
+
+#### Type of change
+- Documentation update
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 22:43:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2776" class=".btn">#2776</a>
             </td>
             <td>
