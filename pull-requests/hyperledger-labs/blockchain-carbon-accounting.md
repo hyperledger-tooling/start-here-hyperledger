@@ -133,29 +133,3 @@ Resolve #228
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/260" class=".btn">#260</a>
-            </td>
-            <td>
-                <b>
-                    app: update cactus dependencies and support vault
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #228
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 11:36:43 +0000 UTC
-    </div>
-</div>
-
