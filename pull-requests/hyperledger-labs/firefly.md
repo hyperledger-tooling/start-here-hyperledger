@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/143" class=".btn">#143</a>
+            </td>
+            <td>
+                <b>
+                    Repeated groupinit messages: Make sure we sort the group members, before existence check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes a case where we saw repeated `groupinit` messages being sent every time an unpinned message exchange was being performed in a request/reply scenario between two parties in the network.
+
+The problem was the "_does the group already exist?_" check was being done using DB query with a hash calculated on an _unsorted_ list of members. Whereas the creation was correctly using `group.Seal()` which sorts the list of members before hashing. So we would repeat the creation over and over.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 14:39:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/142" class=".btn">#142</a>
             </td>
             <td>

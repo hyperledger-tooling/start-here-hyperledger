@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/560" class=".btn">#560</a>
+            </td>
+            <td>
+                <b>
+                    Webhook Security
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/560"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 15:26:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/559" class=".btn">#559</a>
             </td>
             <td>

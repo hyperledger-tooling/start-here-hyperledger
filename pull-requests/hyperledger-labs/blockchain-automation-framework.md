@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1582" class=".btn">#1582</a>
+            </td>
+            <td>
+                <b>
+                    Create settings.yml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This will set the default branch to main.
+
+Signed-off-by: Ry Jones <ry@linux.com>
+
+**Changelog**
+- Update
+This will change the default branch to main.
+ 
+
+**Reviewed by**
+@developer_github_id
+
+
+**Linked issue**
+#issue_number
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 18:02:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1580" class=".btn">#1580</a>
             </td>
             <td>
@@ -228,46 +269,6 @@ N/A
     </table>
     <div class="right-align">
         Created At 2021-07-19 15:27:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1571" class=".btn">#1571</a>
-            </td>
-            <td>
-                <b>
-                    [fabric] update to vault v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Updated commands for vault v2 version in every role where it was used.
-- Updated charts with the correct paths required for v2 version. 
-
- - Merged develop code into vault v2 branch.
-
-**Reviewed by**
-@jagpreetsinghsasan 
-@sownak 
-
- 
-
-**Linked issue**
-#1317 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 12:44:24 +0000 UTC
     </div>
 </div>
 
