@@ -55,7 +55,7 @@ Inspecting the `pins` database table, we could see a list of un-dispatched pins 
 
 The batch was **not** stored in the `batches` table, but looking in the `transactions` table where `ref` is the batch, we could see that the blockchain transaction had a `payloadRef` to IPFS that could be resolved.
 
-From this we could work out that the problem is the batches were rejected **without being stored**, surmising this is because the authors were not known, because they were from a previous chain where the organizations got defined in a different order to the current FireFly environment.
+From this we could work out that the problem is the batches were rejected **without being stored** ~surmising this is because the authors were not known, because they were from a previous chain where the organizations got defined in a different order to the current FireFly environment.~ - after further code inspection we do not verify the organization exists at this point. Rather just that the author identity can be resolved. However, the fact the batch is missing, but the pin is there was conclusive in the investigation.
 
 The problem here is that we knew at the point we inserted the pin, it could never be resolved!!! ... so we shouldn't have inserted the pin at all. We should only have un-dispatched pins for cases where we are _waiting_ for data.
             </td>
