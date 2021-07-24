@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                
+                Includes scenario tests for all languages.
             </td>
         </tr>
     </table>
