@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2387" class=".btn">#2387</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2389" class=".btn">#2389</a>
             </td>
             <td>
                 <b>
-                    Backport 1-2: Pin sphinx to 4.0 to fix build issues
+                    Backport 1-3: Rename args for consistency and respect min peers value
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-core
                 
             </td>
             <td>
-                The following error was being returned when using the latest
-version of sphinx:
-
-<openapi>:1:Problem in http domain: field is supposed to use role 'obj',
-but that role is not in the domain.
-
-This is caused by an incompatibility with the current version of
-sphinxcontrib-httpdomain. The issues does not exist in sphinx 0.4.
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                Signed-off-by: Will Ryan <will.ryan@gluwa.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-16 17:35:17 +0000 UTC
+        Created At 2021-07-23 20:46:44 +0000 UTC
     </div>
 </div>
 
@@ -49,11 +40,11 @@ Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2386" class=".btn">#2386</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2388" class=".btn">#2388</a>
             </td>
             <td>
                 <b>
-                    Backport 1-3: Pin sphinx to 4.0 to fix build issues
+                    Backport 1-2: Rename args for consistency and respect min peers value
                 </b>
             </td>
         </tr>
@@ -62,56 +53,12 @@ Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
                 
             </td>
             <td>
-                The following error was being returned when using the latest
-version of sphinx:
-
-1:Problem in http domain: field is supposed to use role 'obj',
-but that role is not in the domain.
-
-This is caused by an incompatibility with the current version of
-sphinxcontrib-httpdomain. The issues does not exist in sphinx 0.4.
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                Signed-off-by: Will Ryan <will.ryan@gluwa.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-16 17:31:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2385" class=".btn">#2385</a>
-            </td>
-            <td>
-                <b>
-                    Pin sphinx to 4.0 to fix build issues
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The following error was being returned when using the latest
-version of sphinx:
-
-<openapi>:1:Problem in http domain: field is supposed to use role 'obj',
-but that role is not in the domain.
-
-This is caused by an incompatibility with the current version of
-sphinxcontrib-httpdomain. The issues does not exist in sphinx 0.4.
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 15:43:16 +0000 UTC
+        Created At 2021-07-23 20:45:18 +0000 UTC
     </div>
 </div>
 

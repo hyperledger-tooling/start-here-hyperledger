@@ -14,6 +14,140 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/408" class=".btn">#408</a>
+            </td>
+            <td>
+                <b>
+                    docs: mention monorepo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This mainly adds to the README that this is currenly a monorepo. It shows all the packages and their respective versioning. Since we use the same versionig strategy for every package, it might be a bit redundant. Open for suggestions, but IMO this is a relatively nice way to do it.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 11:06:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/407" class=".btn">#407</a>
+            </td>
+            <td>
+                <b>
+                    fix(redux-store): credential and proof selector by id
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The current `ById` selectors in the proof and credential selector were probably copied from the `connectionSelector`. Two function names did not change.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 10:13:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/406" class=".btn">#406</a>
+            </td>
+            <td>
+                <b>
+                    test: longer timeout for issue credential helper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Because we use auto-accept in issue credential helper it can take a while to have the whole credential flow finished. Both parties need to interact with the ledger and sign/verify the credential
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 09:51:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/405" class=".btn">#405</a>
+            </td>
+            <td>
+                <b>
+                    test: fix test flakyness
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                this should hopefully fix the randomly failing tests. There were some weird promise calls causing timeouts...
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 23:04:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/404" class=".btn">#404</a>
+            </td>
+            <td>
+                <b>
+                    chore: update to indy-sdk-react-native
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+
+Use indy-sdk-react-native instead of rn-indy-sdk. Best to wait until https://github.com/hyperledger/indy-sdk-react-native/pull/14 is merged
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 22:23:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/403" class=".btn">#403</a>
             </td>
             <td>
@@ -216,120 +350,6 @@ Sometimes you would get very cryptic errors such as `CommonInvalidParam` without
     </table>
     <div class="right-align">
         Created At 2021-07-19 09:21:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/390" class=".btn">#390</a>
-            </td>
-            <td>
-                <b>
-                    feat(core): add discover features protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add discover features protocol.
-
-Currently working on aries-toolbox integration where this is required for.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 22:06:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/388" class=".btn">#388</a>
-            </td>
-            <td>
-                <b>
-                    feat(redux-store): move from mobile agent repo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Moves the `@aries-framework/redux-store` package from the mobile agent to here for easier management.
-
-This is just the state as it was in the mobile agent repo. @jakubkoci You'll probably have opinions on this, and I'm interested to hear it. 
-
-I'd like to merge first so we can use the package without manually packing every time, and then discuss maybe at the AFJ WG call.
-
-Fixes hyperledger/aries-mobile-agent-react-native#64
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 09:28:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/387" class=".btn">#387</a>
-            </td>
-            <td>
-                <b>
-                    ci: fetch all commits for correct versioning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Placed it in the wrong job.. Need it in the release
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 09:22:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/386" class=".btn">#386</a>
-            </td>
-            <td>
-                <b>
-                    fix: monorepo release issues
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Some issues that I encountered using the new packages in our projects.
-
-Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 08:46:40 +0000 UTC
     </div>
 </div>
 

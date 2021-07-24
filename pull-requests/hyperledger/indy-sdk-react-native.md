@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/14" class=".btn">#14</a>
+            </td>
+            <td>
+                <b>
+                    chore: update rn-indy-sdk references
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 22:21:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/13" class=".btn">#13</a>
             </td>
             <td>
@@ -121,34 +147,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-07-20 23:01:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/3" class=".btn">#3</a>
-            </td>
-            <td>
-                <b>
-                    ci: add automatic release pipeline
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds workflow dispatch to release new version.
-
-@ryjones can you add the NPM_TOKEN to this repo so it can publish to NPM?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 20:29:09 +0000 UTC
     </div>
 </div>
 

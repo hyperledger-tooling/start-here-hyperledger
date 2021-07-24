@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/607" class=".btn">#607</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/609" class=".btn">#609</a>
             </td>
             <td>
                 <b>
-                    Improve test-network sample to accept any chaincode
+                    Fix build fail and blockchain explorer changes
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                <!--  Thanks for sending a pull request!  Here are some tips for you:
+                Signed-off-by: Maria Munaro <mmunaro@hotmail.com>
+
+<!--  Thanks for sending a pull request!  Here are some tips for you:
 
 1. If this is your first time, please read our code of conduct and contributor guidelines: 
      https://github.com/hyperledger/fabric-private-chaincode/blob/main/CONTRIBUTING.md
@@ -42,13 +44,13 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
 -->
 
 **What this PR does / why we need it**:
-
+This PR fixes Readme so that user can build test network and also script that sets up the test-network for fpc and blockchain explorer
 **Which issue(s) this PR fixes**:
 <!--
   list existing bug, feature and/or work-item which this PR addresses.
   You might also consider creating an issue first for the PR.
 -->
-Solves step one in issue 605. 
+Fixes #603 
 
 **Special notes for your reviewer**:
 
@@ -57,14 +59,14 @@ Solves step one in issue 605.
   If no, you can delete this section
   If yes, describe what changes and/or what breaks ..
 -->
-It changes the Test-Network sample readme
+It adds an additional command that the user must execute in the readme.
 ```
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-12 23:55:44 +0000 UTC
+        Created At 2021-07-23 16:25:27 +0000 UTC
     </div>
 </div>
 

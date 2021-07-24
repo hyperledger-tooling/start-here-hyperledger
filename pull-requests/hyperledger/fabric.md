@@ -413,14 +413,6 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
 
 #### Additional details
 
-*This is a DRAFT PR - NOT READY FOR MERGE*
-
-Discussion points for review: 
-- The original design was to store the set of ledgers/transient storage under deletion as a proto message structure in the system leveldb.  In this implementation the storage array under deletion is written as a json array in the leveldb.  I am open to moving this over to a proto message.
-- This PR needs some additional test cases. 
-- There may be some lingering issues with db handles, providers, leveldb helpers, etc. getting closed correctly.  When reviewing this PR, please note the handling of open/close for the providers and comment on the approach in this change.
-- `StoreProvider` is an interface covering a subset of the functions received by the `storeProvider`.  The routines to track the deletion status are received by the `storeProvider`, but could also be scoped to the package and accept the provider argument as a function parameter.   There are a couple of golang _Type Assertions_ in the test routines, which is OK but it feels like this module can / should be refactored (not in this PR) to clean up the overall API design. 
-
 #### Related issues
 
 - [FAB-11334](https://jira.hyperledger.org/browse/FAB-11334)
@@ -607,75 +599,6 @@ Signed-off-by: Artem Barger <artem@bargr.net>
     </table>
     <div class="right-align">
         Created At 2021-07-17 22:01:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2761" class=".btn">#2761</a>
-            </td>
-            <td>
-                <b>
-                    [FAB-18521] Fixing flaky IT, send remove tx to another node
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                PR #2748, introduced new IT to ensure the fix. However, there is some flakiness manifested with this IT, caused by sending the remove consenter transaction to the "to be removed" node. Removing the consenter is a config transaction where codes after sending it ensure a new block with the config update successfully committed, which is the root cause for the flakiness. Once OSN is removed from the channel, it no longer can server deliver requests for clients trying to fetch from it.
-
-This commit, fixes it by sending remove OSN config updated transaction
-to a different node instead.
-
-Signed-off-by: Artem Barger <artem@bargr.net>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 23:18:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2760" class=".btn">#2760</a>
-            </td>
-            <td>
-                <b>
-                    Output File Exists Error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-
-- Improvement (improvement to code, performance, etc)
-- Test update
-
-#### Description
-
-- Compare tool no longer overwrites existing files and will throw an error instead. Compare function now takes in the output directory instead of the output file as an argument.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 23:15:49 +0000 UTC
     </div>
 </div>
 

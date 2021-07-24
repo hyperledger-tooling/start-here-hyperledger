@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1331" class=".btn">#1331</a>
+            </td>
+            <td>
+                <b>
+                    Initial DIDComm v2 envelope support via Askar backend
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also cleans up and relocates the (incomplete) in-memory ECDH-1PU support.
+
+This does not make the DIDComm v2 envelope format(s) available for communication yet, it only establishes some of the basic functionality.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 20:10:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1325" class=".btn">#1325</a>
             </td>
             <td>
@@ -36,34 +65,6 @@ marshmallow.exceptions.ValidationError: {'connection_protocol': ['Must be one of
     </table>
     <div class="right-align">
         Created At 2021-07-19 20:01:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1324" class=".btn">#1324</a>
-            </td>
-            <td>
-                <b>
-                    Handle unpadded protected header in PackWireFormat::get_recipient_keys
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I believe this only affects connection establishment when using an Askar wallet together with multi-tenant wallets.
-
-Fixes #1323 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 19:19:51 +0000 UTC
     </div>
 </div>
 

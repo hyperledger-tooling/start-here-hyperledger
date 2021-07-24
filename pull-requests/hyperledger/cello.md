@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/267" class=".btn">#267</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/272" class=".btn">#272</a>
             </td>
             <td>
                 <b>
-                    Users use the front page to log in to cello
+                    Channel create endpoint
                 </b>
             </td>
         </tr>
@@ -27,14 +27,67 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Users can login, view agent, node, and other organizational resources；
+                Implemented channel create endpoint, but did not integrate with
+configtxgen yet.
 
-Signed-off-by: XuHugo <xq-310@163.com>
+Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-11 10:25:29 +0000 UTC
+        Created At 2021-07-23 20:28:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/271" class=".btn">#271</a>
+            </td>
+            <td>
+                <b>
+                    Use the front page to delete the agent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Use the front page to delete the agent;
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 16:23:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/270" class=".btn">#270</a>
+            </td>
+            <td>
+                <b>
+                    Channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Using page to create agent
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 01:34:14 +0000 UTC
     </div>
 </div>
 
