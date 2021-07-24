@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1292" class=".btn">#1292</a>
-            </td>
-            <td>
-                <b>
-                    [GHA] test pr
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-24 10:35:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1291" class=".btn">#1291</a>
             </td>
             <td>
@@ -77,7 +51,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    PR from fork
+                    PR from fork to main
                 </b>
             </td>
         </tr>
@@ -315,7 +289,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    Feature/os cache size limit + metrics
+                    Feature: ordering service cache size limit + metrics
                 </b>
             </td>
         </tr>
@@ -528,34 +502,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-07-21 21:31:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1283" class=".btn">#1283</a>
-            </td>
-            <td>
-                <b>
-                    [Metrics] txs cache #1279
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                DEPENDS ON #1084
-
-Closes #1279 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-21 17:47:20 +0000 UTC
     </div>
 </div>
 
