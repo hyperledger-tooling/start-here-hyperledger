@@ -14,6 +14,115 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1167" class=".btn">#1167</a>
+            </td>
+            <td>
+                <b>
+                    feat(corda): support release 4.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolve #888 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 13:52:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1166" class=".btn">#1166</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): fix sync-npm-deps-to-tsc-projects tool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                1. The ./tools/sync-npm-deps-to-tsc-projects.ts script
+had a missing part in it which would fill the root
+tsconfig.json file with the references to the packages
+of the monorepo.
+
+2. Point 1 could not be achieved without removing the
+cactus-cockpit package from the dependencies of
+cmd-api-server because the script mentioned above fails
+if there are dependencies declared which do not exist
+on the file-system anymore (which is exactly what
+happened when we deprecated the cockpit package and then
+forgot to remove it from the list of dependencies.
+
+3. All the tsconfig.json files are updated by the sync
+script (from point 1.)
+
+4. Adds skip lib check true to the ipfs package's tsconfig
+file so that the issue with uint8array dependency's own typings
+don't break the build. For reference, the errors look like this:
+
+- Error: node_modules/uint8arrays/dist/to-string.d.ts(20,24): error TS2307:
+  Cannot find module './util/bases' or its corresponding type declarations.
+
+- Error: node_modules/uint8arrays/dist/to-string.d.ts(21,34): error TS2307:
+  Cannot find module './util/bases' or its corresponding type declarations.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 02:03:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1165" class=".btn">#1165</a>
+            </td>
+            <td>
+                <b>
+                    build: use yarn 1.19.0 instead of 1.22.10
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                Needed to downgrade because of a bug in 1.22.10 where it was
+unable to install dependencies into workspaces individually.
+
+See details here: https://github.com/yarnpkg/yarn/issues/8405
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 01:05:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1160" class=".btn">#1160</a>
             </td>
             <td>
@@ -237,129 +346,6 @@ Signed-off-by: Tommesha Wiggins <tommesha.wiggins@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-07-19 20:42:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1145" class=".btn">#1145</a>
-            </td>
-            <td>
-                <b>
-                    style: fix openAPI spec linter warning endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1126
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-_________________________________
-Error message shown below: 
-
-
-> @hyperledger/cactus-plugin-consortium-manual@0.5.0 tsc
-> tsc --project ./tsconfig.json
-
-lerna ERR! npm run tsc exited 2 in '@hyperledger/cactus-api-client'
-lerna ERR! npm run tsc stdout:
-
-> @hyperledger/cactus-api-client@0.5.0 tsc
-> tsc --project ./tsconfig.json
-
-../cactus-plugin-consortium-manual/dist/types/main/typescript/consortium/get-consortium-jws-endpoint-v1.d.ts(5,17): error TS2307: Cannot find module '../../json/openapi.json' or its corresponding type declarations.
-../cactus-plugin-consortium-manual/dist/types/main/typescript/consortium/get-node-jws-endpoint-v1.d.ts(5,17): error TS2307: Cannot find module '../../json/openapi.json' or its corresponding type declarations.
-lerna ERR! npm run tsc exited 2 in '@hyperledger/cactus-api-client'
-lerna WARN complete Waiting for 4 child processes to exit. CTRL-C to exit immediately.
-ERROR: "tsc" exited with 2.
-ERROR: "build:dev:backend" exited with 1.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 20:30:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1141" class=".btn">#1141</a>
-            </td>
-            <td>
-                <b>
-                    build: migrate to Yarn v1 from npm v7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
-            </td>
-            <td>
-                ## Dependencies
-
-Depends on #1111 
-
-## Commit to review
-
-Author: Peter Somogyvari <peter.somogyvari@accenture.com>
-Author Date: Thu Jul 15 2021 22:10:04 GMT-0700 (Pacific Daylight Time)
-Committer: Peter Somogyvari <peter.somogyvari@accenture.com>
-Committer Date: Thu Jul 15 2021 22:12:29 GMT-0700 (Pacific Daylight Time) 
-
-build: migrate to Yarn v1 from npm v7
-    
-Why?
-It was reported by other maintainers that yarn behaves much
-better in corporate proxy/firewalled environments.
-
-Future plans: Once Berry (Yarn v2) is stable, we should take
-a look at migrating onto that one. I did give it a try this
-time to see if their release candidate happened to be stable
-enough but it was not unfortunately (there were dependency
-resolution issues that lead the Yarn v2 not installing
-certain runtime dependencies at all so v1 it is for now)
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 05:18:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1139" class=".btn">#1139</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): publish v0.6.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 23:00:27 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/65" class=".btn">#65</a>
+            </td>
+            <td>
+                <b>
+                    Migration to `@scale-codec/*` & e2e-tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Removed polkadot legacy SCALE implementation, use `@scale-codec` instead. Also added e2e tests.
+
+Closes #60, #61 and #62.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 08:20:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-javascript/pull/63" class=".btn">#63</a>
             </td>
             <td>

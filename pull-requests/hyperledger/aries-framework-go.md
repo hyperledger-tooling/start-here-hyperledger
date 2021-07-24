@@ -14,6 +14,140 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2892" class=".btn">#2892</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): bump webpack from 4.46.0 to 5.46.0 in /cmd/aries-js-worker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.46.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
+<blockquote>
+<h2>v5.46.0</h2>
+<h1>Features</h1>
+<ul>
+<li>status handlers in HMR api can now return Promises to delay the HMR process</li>
+<li>reasons in stats can now be grouped and collapsed
+<ul>
+<li>add <code>stats.reasonsSpace</code> and <code>stats.groupReasonsByOrigin</code></li>
+</ul>
+</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>fix a crash in asset modules when updating persistent cached modules from unsafe cached modules</li>
+</ul>
+<h1>Performance</h1>
+<ul>
+<li>detailed preset limits all spaces to 1000 by default</li>
+<li>upgrade webpack-sources for a performance bugfix</li>
+</ul>
+<h2>v5.45.1</h2>
+<h1>Bugfixes</h1>
+<ul>
+<li>temporary revert import assertions because parser changes break the word <code>assert</code> in other places</li>
+<li><code>import(/* webpackPrefetch: true */ ...)</code> no longer breaks library output</li>
+<li>DataURL tries to avoid re-encoding</li>
+<li>fix problems with DataURL encoding in some cases</li>
+</ul>
+<h2>v5.45.0</h2>
+<h1>Features</h1>
+<ul>
+<li>add support to import assertions</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>SourceMaps will now also be added to <code>.cjs</code> output files</li>
+<li>fix non-system externals in a system library</li>
+</ul>
+<h1>Performance</h1>
+<ul>
+<li>avoid copying timestamps from the watcher to the compiler</li>
+</ul>
+<h1>Contributing</h1>
+<ul>
+<li>update to jest 27</li>
+</ul>
+<h2>v5.44.0</h2>
+<h1>Features</h1>
+<ul>
+<li>add support for <code>output.module</code> + <code>optimization.runtimeChunk</code></li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>fix inline externals with dash in type</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/webpack/webpack/commit/a32b0fd041260f3303b9329c9a65cc4afe102390"><code>a32b0fd</code></a> 5.46.0</li>
+<li><a href="https://github.com/webpack/webpack/commit/e83587cfef25db91dc5b86be5b729288fd1bafdd"><code>e83587c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13837">#13837</a> from webpack/bugfix/13827</li>
+<li><a href="https://github.com/webpack/webpack/commit/e293d2b222a8673a29c5ac4b390176dce56ac921"><code>e293d2b</code></a> add missing lint step in azure</li>
+<li><a href="https://github.com/webpack/webpack/commit/d8c37d7cdd31c925a4b0d7fb9bea794e8bd4d93a"><code>d8c37d7</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13836">#13836</a> from webpack/dependabot/npm_and_yarn/eslint-plugin-...</li>
+<li><a href="https://github.com/webpack/webpack/commit/c23e8ce5c7c381e330ad70dbb999024e0d89bee0"><code>c23e8ce</code></a> fix problems with compiling twice</li>
+<li><a href="https://github.com/webpack/webpack/commit/cdc9efefbeb8b7071abdd38498f16478f5012796"><code>cdc9efe</code></a> avoid copying source types and sizes cache from unsafe cache to cached module</li>
+<li><a href="https://github.com/webpack/webpack/commit/df5031bd356fcba8fcc0f55ebe7714ed3f9e2415"><code>df5031b</code></a> chore(deps-dev): bump eslint-plugin-jest from 24.3.6 to 24.4.0</li>
+<li><a href="https://github.com/webpack/webpack/commit/1a134d955f050465899adea0b74560936caa5860"><code>1a134d9</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13826">#13826</a> from webpack/dependabot/npm_and_yarn/schema-utils-3...</li>
+<li><a href="https://github.com/webpack/webpack/commit/937957fc545fae96a15ce0ea3fb9b7910de41f7e"><code>937957f</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13828">#13828</a> from webpack/perf/many-replacements</li>
+<li><a href="https://github.com/webpack/webpack/commit/d3f8e16810581791de6bd3e2ccc944541779b4a2"><code>d3f8e16</code></a> update webpack-sources for performance problem in hashing</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.46.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.46.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 08:19:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2891" class=".btn">#2891</a>
             </td>
             <td>
@@ -90,10 +224,14 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
                 This change removes Base58 key encoding and only uses did:key for both sender and recipient keys.
 It also includes vdr peer did creation with all KeyAgreement keys, not only the first key.
 It moves jwk out of the jose package to be a separate package called jwk along with common jwk code in jwksupport subpackage to avoid circular dependency.
-This change also changes webkms log traces level to Debug.
+This change also updates webkms log traces level to Debug.
+Finally this change adds all keyAgreement VMs in the DID doc into the DIDComm service bloc (instead of only the first key).
 
 closes #1604
 closes #1207
+closes #1659  
+closes #1847
+
 
 Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
 
@@ -329,162 +467,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2021-07-20 08:12:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2885" class=".btn">#2885</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps-dev): bump webpack from 4.46.0 to 5.45.1 in /cmd/aries-js-worker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.45.1.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
-<blockquote>
-<h2>v5.45.1</h2>
-<h1>Bugfixes</h1>
-<ul>
-<li>temporary revert import assertions because parser changes break the word <code>assert</code> in other places</li>
-<li><code>import(/* webpackPrefetch: true */ ...)</code> no longer breaks library output</li>
-<li>DataURL tries to avoid re-encoding</li>
-<li>fix problems with DataURL encoding in some cases</li>
-</ul>
-<h2>v5.45.0</h2>
-<h1>Features</h1>
-<ul>
-<li>add support to import assertions</li>
-</ul>
-<h1>Bugfixes</h1>
-<ul>
-<li>SourceMaps will now also be added to <code>.cjs</code> output files</li>
-<li>fix non-system externals in a system library</li>
-</ul>
-<h1>Performance</h1>
-<ul>
-<li>avoid copying timestamps from the watcher to the compiler</li>
-</ul>
-<h1>Contributing</h1>
-<ul>
-<li>update to jest 27</li>
-</ul>
-<h2>v5.44.0</h2>
-<h1>Features</h1>
-<ul>
-<li>add support for <code>output.module</code> + <code>optimization.runtimeChunk</code></li>
-</ul>
-<h1>Bugfixes</h1>
-<ul>
-<li>fix inline externals with dash in type</li>
-</ul>
-<h2>v5.43.0</h2>
-<h1>Features</h1>
-<ul>
-<li>support <code>runtime: false</code> in entry description to disable runtime chunk</li>
-<li>support <code>runtime</code> option in ModuleFederationPlugin and ContainerPlugin</li>
-</ul>
-<h1>Bugfixes</h1>
-<ul>
-<li>fix <code>&quot;module&quot;</code> externals when concatenated</li>
-</ul>
-<h1>Performance</h1>
-<ul>
-<li>serialize JSON data as buffer and parse on demand for performance and to avoid performance warning</li>
-</ul>
-<h2>v5.42.1</h2>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/webpack/webpack/commit/7102df3bb52a33529ff5db4fdf34484d2a359a49"><code>7102df3</code></a> 5.45.1</li>
-<li><a href="https://github.com/webpack/webpack/commit/e15752ce9f61ff38fa1e3a6ce245cacc2fa5560b"><code>e15752c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13431">#13431</a> from Shinyaigeek/fix/overwritten_webpack__exports_o...</li>
-<li><a href="https://github.com/webpack/webpack/commit/396757192460e9a4e7d9e8c4c558fb1389bc1932"><code>3967571</code></a> Merge branch 'main' into fix/overwritten_webpack__exports_onChunksLoaded</li>
-<li><a href="https://github.com/webpack/webpack/commit/e5570ab5230e98e1030d696e84465b5f533fdae9"><code>e5570ab</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13807">#13807</a> from webpack/issue-1342-from-css-loader</li>
-<li><a href="https://github.com/webpack/webpack/commit/61946b7c46584821e6947ea35e00adbc2a02a8d2"><code>61946b7</code></a> Revert &quot;Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/12278">#12278</a> from xtuc/sven/import-assertions&quot;</li>
-<li><a href="https://github.com/webpack/webpack/commit/daa40670fc3d15952eb572c5561fe027736b762f"><code>daa4067</code></a> keep original encoding when transforming data url to data url</li>
-<li><a href="https://github.com/webpack/webpack/commit/c469adc2651437d9c115a41389ff7e3794416733"><code>c469adc</code></a> fix handling of onChunksLoaded with prefetching</li>
-<li><a href="https://github.com/webpack/webpack/commit/3b65860614a10b7ac1209e0a947d4693c84537f2"><code>3b65860</code></a> Chore: add test case for issue 12993</li>
-<li><a href="https://github.com/webpack/webpack/commit/1d8f9fd4d0783bfd790333881c7cd69e2180fa17"><code>1d8f9fd</code></a> Fix: overwritten <strong>webpack_exports</strong> on onChunksLoaded</li>
-<li><a href="https://github.com/webpack/webpack/commit/db52c58a4fb037ece22be6365f56c11bc78fb426"><code>db52c58</code></a> 5.45.0</li>
-<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.45.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.45.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-19 08:15:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2884" class=".btn">#2884</a>
-            </td>
-            <td>
-                <b>
-                    fix: Checks API error (webkms)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrii Soluk <isoluchok@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 13:56:54 +0000 UTC
     </div>
 </div>
 

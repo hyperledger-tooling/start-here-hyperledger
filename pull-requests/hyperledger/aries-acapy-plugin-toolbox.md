@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/77" class=".btn">#77</a>
-            </td>
-            <td>
-                <b>
-                    Test/int/schemas
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 17:08:30 +0000 UTC
-    </div>
-</div>
-

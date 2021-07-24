@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/indy-plenum
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1548" class=".btn">#1548</a>
-            </td>
-            <td>
-                <b>
-                    Remove pip imports in favor of importlib_metadata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This uses the backported `importlib_metadata` module to scan for installed packages instead of importing pip, which should remove the dependency on pip < 10. As of Python 3.9 it is equivalent to using `importlib.metadata`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 21:45:08 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,116 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2575" class=".btn">#2575</a>
+            </td>
+            <td>
+                <b>
+                    2496 ping pong encoding error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+There are clients that send PING messages without a from field. The devp2p spec doesn't indicate that these are optional, but we will try to handle them as if they were.
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes #2496 
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 20:04:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2574" class=".btn">#2574</a>
+            </td>
+            <td>
+                <b>
+                    Qbft to use validator contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+Qbft to use validator contract
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 04:55:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2573" class=".btn">#2573</a>
+            </td>
+            <td>
+                <b>
+                    Added abstract BftBesuControllerBuilder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Introduced an abstract `BftBesuControllerBuilder` with supplier methods that enable concrete implementations to provide the desired concrete `ExtraDataCodec` and `BftBlockInterface`.
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 23:01:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2570" class=".btn">#2570</a>
             </td>
             <td>
@@ -31,7 +141,9 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
 
 ## PR description
-Bft validator provider
+QBFT uses the same validator management logic that IBFT2 and IBFT use and allows for a lot of code reuse. This will make it possible for bft based consensus mechanism to use it's own specific mechanism to manage validators i.e. determining what the validators are and the mechanism to add and remove them.
+
+This is needed so that QBFT can move using transaction based validator management using smart contracts.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -144,57 +256,6 @@ Allow plugin users to sign privacy marker transactions
     </table>
     <div class="right-align">
         Created At 2021-07-19 12:37:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2545" class=".btn">#2545</a>
-            </td>
-            <td>
-                <b>
-                    Tx replacement rules
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-refactor of transaction replacement rules:
-* split into gasPrice and 1559FeeMarket rules
-* consider maxFeePerGas as well as maxPriorityFeePerGas in the transaction bump logic for 1559 fee market
-
-1559 fee market logic is effectively:
-* replace when BOTH:
-  * new effective price  > prior effective price plus percent bump 
-  * new effective priority fee is >= prior effective priority fee
-* OR, replace when BOTH:
-  * new effective price == prior effective price 
-  * new effective priority fee > prior effective priority fee plus percent bump
-* ELSE, don't replace
-
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-fixes #2529
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 22:43:40 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/846" class=".btn">#846</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0-2: Add bash completion for newly stabilized subcommands
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-23 15:59:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/845" class=".btn">#845</a>
+            </td>
+            <td>
+                <b>
+                    Add bash completion for newly stabilized subcommands
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-22 18:59:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/844" class=".btn">#844</a>
             </td>
             <td>
@@ -385,156 +437,6 @@ Signed-off-by: Darian Plumb <dplumb@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-07-19 19:53:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/831" class=".btn">#831</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT: Fix agent-role update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport to 0.2
-
-This fixes an issue with updating a role that belongs to an agent. The
-pike_agent_role_assoc table was not updating correctly when roles that
-already belonged to an agent were updated.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 20:25:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/830" class=".btn">#830</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT: Update Sawtooth dockerfile for grid_pike
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                backport to 0.2
-
-This updates the `pike-contract-builder` for the Sawtooth example
-Docker-compose file to account for the name change from `pike` to
-`grid-pike`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 20:22:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/829" class=".btn">#829</a>
-            </td>
-            <td>
-                <b>
-                    Fix agent-role update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes an issue with updating a role that belongs to an agent. The
-pike_agent_role_assoc table was not updating correctly when roles that
-already belonged to an agent were updated.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-16 17:21:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/828" class=".btn">#828</a>
-            </td>
-            <td>
-                <b>
-                    Update Sawtooth dockerfile for grid_pike
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This updates the `pike-contract-builder` for the Sawtooth example
-Docker-compose file to account for the name change from `pike` to
-`grid-pike`.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 20:39:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/827" class=".btn">#827</a>
-            </td>
-            <td>
-                <b>
-                    Remove un-imported memory module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change removes the `memory` module from the SchemaStore. This
-module was previously meant to be removed, but the only item removed was
-the corresponding import statement in the SchemaStore's mod.rs file.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 19:04:24 +0000 UTC
     </div>
 </div>
 

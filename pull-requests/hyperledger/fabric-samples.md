@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/460" class=".btn">#460</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/461" class=".btn">#461</a>
             </td>
             <td>
                 <b>
-                    Update CreateAsset txn in basic js and ts sample
+                    Update asset-transfer-basic go chaincode dependencies (release-2.2)
                 </b>
             </td>
         </tr>
@@ -27,16 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                The Golang and Java sample chaincode returned an error when trying to create an asset which already exists
+                Update asset-transfer-basic go chaincode dependencies to latest
+commits from release-2.2 dependency branches.
 
-JavaScript and TypeScript samples should now do the same
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-16 14:56:57 +0000 UTC
+        Created At 2021-07-22 21:44:17 +0000 UTC
     </div>
 </div>
 
