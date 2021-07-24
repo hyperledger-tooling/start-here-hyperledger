@@ -36,32 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/70" class=".btn">#70</a>
-            </td>
-            <td>
-                <b>
-                    minor fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - ttxcc's token request's token service is set properly
-- removed debug.Stack from log
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-17 16:20:09 +0000 UTC
-    </div>
-</div>
-
