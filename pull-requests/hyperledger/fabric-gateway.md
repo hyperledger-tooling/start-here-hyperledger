@@ -28,6 +28,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
             </td>
             <td>
                 Includes scenario tests for all languages.
+No off-line signing tests for Node yet.
             </td>
         </tr>
     </table>
