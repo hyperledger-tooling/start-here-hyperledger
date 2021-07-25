@@ -122,31 +122,3 @@ fixed #35
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/34" class=".btn">#34</a>
-            </td>
-            <td>
-                <b>
-                    Fix to verify a clientstate in connection handshake
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
-
-related to #33 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-18 00:21:00 +0000 UTC
-    </div>
-</div>
-

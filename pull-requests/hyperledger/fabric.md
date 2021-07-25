@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2783" class=".btn">#2783</a>
+            </td>
+            <td>
+                <b>
+                    Update to latest major version of Go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Brett Logan <lindluni@github.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-24 23:40:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2780" class=".btn">#2780</a>
             </td>
             <td>
@@ -494,111 +521,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-07-20 11:07:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2764" class=".btn">#2764</a>
-            </td>
-            <td>
-                <b>
-                     [FAB-18527] Discovery supports state based endorsement queries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit adds support for state based endorsement queries to the discovery service.
-    
-When state based endorsement policies are passed in the chaincode call,
-discovery now combines them and then requires their combinations to be satisfied as well
-as the chaincode endorsement policies.
-    
-Support for chaincode calls with *only* state based endorsement is future work and not implemented
-yet because of lack of a way to express this intent in the protobuf definition.
-    
-Change-Id: I005a6abca77061cd531888cdff544691b25d09ec
-Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-17 23:05:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2763" class=".btn">#2763</a>
-            </td>
-            <td>
-                <b>
-                    [FABGW-25] Move chaincode interest to proposal response proto
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit picks up the changes in pull request https://github.com/hyperledger/fabric-protos/pull/59 which entail:
-
-- Moving chaincode interest to proposal response
-- Adding a policy for state based endorsement in the chaincode call in preperation for FABGW-25
-
-Change-Id: Ia0a0d57964daad9c773135d2e6c1d3a96e4df079
-Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-17 23:04:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2762" class=".btn">#2762</a>
-            </td>
-            <td>
-                <b>
-                    [FAB-18521] Replicate block metadata with block while OSN catching up
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                While OSN catches up replicating block from the up-to-date replica, the metadata information omitted, i.e.
-
-``
-c.support.WriteBlock(block, nil)
-``
-
-Where `nil` substitutes for block's metadata. In this commit, the consenters metadata extracted from the replicated
-block and is written with the block.
-
-Signed-off-by: Artem Barger <artem@bargr.net>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-17 22:01:54 +0000 UTC
     </div>
 </div>
 
