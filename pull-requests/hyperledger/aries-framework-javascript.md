@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/410" class=".btn">#410</a>
+            </td>
+            <td>
+                <b>
+                    build: fix start scripts for mediators
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                the start scripts used in the docker-compose setup do not match with the actual name of the start scripts that are defined in the package.json
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-26 07:58:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/408" class=".btn">#408</a>
             </td>
             <td>
@@ -298,58 +324,6 @@ Sometimes you would get very cryptic errors such as `CommonInvalidParam` without
     </table>
     <div class="right-align">
         Created At 2021-07-20 07:59:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/393" class=".btn">#393</a>
-            </td>
-            <td>
-                <b>
-                    fix(core): requested predicates transform type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Type: Bug</span>
-            </td>
-            <td>
-                Incorrect `@Type` transform was added to requested predicates, overriding `@RecordTransformer`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-19 09:59:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/392" class=".btn">#392</a>
-            </td>
-            <td>
-                <b>
-                    feat(node): add http and ws inbound transport
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Moves http and ws inbound transports to the node package. I know there's still work to be done on the transports, but this makes it 1000x easier to set up an agent. They're in the node package, so not strictly tied to core
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-19 09:21:46 +0000 UTC
     </div>
 </div>
 

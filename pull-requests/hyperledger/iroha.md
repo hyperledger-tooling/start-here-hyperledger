@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1294" class=".btn">#1294</a>
+            </td>
+            <td>
+                <b>
+                    [wsv_checker]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - [RDB] integration
+- build tests
+- build tests
+- build tests
+- fixup!
+- Cache overload check
+- Amount last dot character fixup
+- amount test
+- transfer asset test
+- formatting
+- not ready tests
+- tests built
+- tests built
+- merge result fix
+- builded
+- fixup
+- fixup
+- tests fixup
+- tests
+- build
+- formatting
+- fixup
+- clang10 fixup
+- [SE] fixup
+- [SE] thread pool tasks counter
+- [SE] thread pool busy fixup
+- merge fixup
+- [RDB] tests fixes
+- [RDB] maybe fix
+- test fixes
+- test fixes
+- maybe fix
+- maybe fix
+- formatting
+- [Test] error code check off
+- [wsv_checker]
+- [wsv_checker] some static_assert-s to rocksdb_common
+- [wsv_checker] works with rocksdb through the only one iteration pass
+- [wsv_checker] works with postgres, can check_equals()
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-26 10:37:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1291" class=".btn">#1291</a>
             </td>
             <td>

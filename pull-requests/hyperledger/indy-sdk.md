@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2410" class=".btn">#2410</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2413" class=".btn">#2413</a>
             </td>
             <td>
                 <b>
-                    fix dockerfile
+                    Update version of libc
                 </b>
             </td>
         </tr>
@@ -27,17 +27,12 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                Signed-off by @kingworm timo@redwit.io
-
-This pr fixes problem when following docs/getting-started
-
-I've added to install apt python3-dev, and upgraded pip version after install setuptools package.
-
+                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-14 08:46:37 +0000 UTC
+        Created At 2021-07-26 09:19:59 +0000 UTC
     </div>
 </div>
 
