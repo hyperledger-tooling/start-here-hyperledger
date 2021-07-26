@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Antitrust Policy Notice
-nav_order: 5
+nav_order: 6
 ---
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
