@@ -1,3 +1,16 @@
 # SPDX-License-Identifier: Apache-2.0
 
 *	@hyperledger-tooling/start-here-hyperledger-maintainers
+# Skip code reviews on auto-generated files
+issues/hyperledger/*
+issues/hyperledger-labs/*
+issues/hyperledger/hyperledger.md @hyperledger-tooling/start-here-hyperledger-maintainers
+issues/hyperledger-labs/hyperledger-labs @hyperledger-tooling/start-here-hyperledger-maintainers
+pull-requests/hyperledger/*
+pull-requests/hyperledger-labs/*
+pull-requests/hyperledger/hyperledger.md @hyperledger-tooling/start-here-hyperledger-maintainers
+pull-requests/hyperledger-labs/hyperledger-labs.md @hyperledger-tooling/start-here-hyperledger-maintainers
+releases/hyperledger/*
+releases/hyperledger-labs/*
+releases/hyperledger/hyperledger.md @hyperledger-tooling/start-here-hyperledger-maintainers
+releases/hyperledger-labs/hyperledger-labs.md @hyperledger-tooling/start-here-hyperledger-maintainers
