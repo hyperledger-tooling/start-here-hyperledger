@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1168" class=".btn">#1168</a>
+            </td>
+            <td>
+                <b>
+                    feat(besu): Support for private transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Support for besu private transactions is now enabled, this is done by adding privateFor and privateFrom fields in the HTTP request.
+
+fixes #952 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-26 11:48:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1167" class=".btn">#1167</a>
             </td>
             <td>
@@ -116,32 +144,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-07-23 01:05:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1160" class=".btn">#1160</a>
-            </td>
-            <td>
-                <b>
-                    feat(besu): support for private transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #952 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-22 13:47:26 +0000 UTC
     </div>
 </div>
 

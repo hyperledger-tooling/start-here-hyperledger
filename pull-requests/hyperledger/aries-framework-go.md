@@ -14,6 +14,114 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2893" class=".btn">#2893</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump codecov/codecov-action from 2.0.1 to 2.0.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">github_actions</span>
+            </td>
+            <td>
+                Bumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 2.0.1 to 2.0.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/codecov/codecov-action/releases">codecov/codecov-action's releases</a>.</em></p>
+<blockquote>
+<h2>v2.0.2</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Underlying uploader fixes issues with tokens not being sent properly for users seeing
+<code>Error!: Error: Error uploading to https://codecov.io: Error: Error uploading to Codecov: Error: Not Found</code></li>
+<li><a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/432">#432</a> fix: use import to destructure package.json</li>
+<li><a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/434">#434</a> fix: openpgp and asn1.js</li>
+<li><a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/440">#440</a> 2.0.2 token fixes</li>
+</ul>
+<h3>Dependencies</h3>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/420">#420</a> Bump eslint from 7.30.0 to 7.31.0</li>
+<li><a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/433">#433</a> build(deps-dev): bump <code>@​types/node</code> from 16.3.3 to 16.4.0</li>
+<li><a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/425">#425</a> build(deps-dev): bump <code>@​typescript-eslint/eslint-plugin</code> from 4.28.3 to 4.28.4</li>
+<li><a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/426">#426</a> build(deps-dev): bump <code>@​typescript-eslint/parser</code> from 4.28.3 to 4.28.4</li>
+<li><a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/438">#438</a> Set up Dependabot for github-actions dependencies</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/codecov/codecov-action/blob/master/CHANGELOG.md">codecov/codecov-action's changelog</a>.</em></p>
+<blockquote>
+<h2>2.0.2</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Underlying uploader fixes issues with tokens not being sent properly for users seeing
+<code>Error!: Error: Error uploading to https://codecov.io: Error: Error uploading to Codecov: Error: Not Found</code></li>
+<li><a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/440">#440</a> fix: Validation ordering</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/codecov/codecov-action/commit/51d810878be5422784e86451c0e7c14e5860ec47"><code>51d8108</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/440">#440</a> from codecov/2.0.2-token-fixes</li>
+<li><a href="https://github.com/codecov/codecov-action/commit/88c796db184decd9587ce608896441b1c96fb3d9"><code>88c796d</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/438">#438</a> from mmorel-35/chore/dependabot</li>
+<li><a href="https://github.com/codecov/codecov-action/commit/0bbb08247af9376cc8aa170281fce5b5e48bfde4"><code>0bbb082</code></a> fix: Update validation</li>
+<li><a href="https://github.com/codecov/codecov-action/commit/53f686aaf8540352482d0bea7b92248ef1e2cb0a"><code>53f686a</code></a> fix: Update validation</li>
+<li><a href="https://github.com/codecov/codecov-action/commit/6ab08a75e2ef9b04e5402468f88c8f08039017c0"><code>6ab08a7</code></a> Bump to 2.0.2</li>
+<li><a href="https://github.com/codecov/codecov-action/commit/f2242e1815c6a47d64639e34b6aad38aef3fc4e1"><code>f2242e1</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/425">#425</a> from codecov/dependabot/npm_and_yarn/typescript-eslin...</li>
+<li><a href="https://github.com/codecov/codecov-action/commit/fc2878a5309ea34776e2a8fb3853258d64710d6d"><code>fc2878a</code></a> build(deps-dev): bump <code>@​typescript-eslint/eslint-plugin</code></li>
+<li><a href="https://github.com/codecov/codecov-action/commit/e00e953908be2880a844c7917679fe2adc0f6c83"><code>e00e953</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/426">#426</a> from codecov/dependabot/npm_and_yarn/typescript-eslin...</li>
+<li><a href="https://github.com/codecov/codecov-action/commit/8dcb1d2117f92afad705f41f41974505a1ed3fd8"><code>8dcb1d2</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/433">#433</a> from codecov/dependabot/npm_and_yarn/types/node-16.4.0</li>
+<li><a href="https://github.com/codecov/codecov-action/commit/c5857ba40cc009e8157219891e3a99dbc86718ba"><code>c5857ba</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/codecov/codecov-action/issues/434">#434</a> from RA80533/fix/openpgp</li>
+<li>Additional commits viewable in <a href="https://github.com/codecov/codecov-action/compare/v2.0.1...v2.0.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=codecov/codecov-action&package-manager=github_actions&previous-version=2.0.1&new-version=2.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-26 08:17:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2892" class=".btn">#2892</a>
             </td>
             <td>

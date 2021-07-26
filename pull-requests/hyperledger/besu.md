@@ -223,6 +223,27 @@ This is needed so that QBFT can move using transaction based validator managemen
 
 Allow a plugin to sign private marker transactions. When registering the `PrivacyPluginService` setting the `PrivateMarkerTransactionFactory` is optional and will fall back to either fixed or random if not specified.
 
+The interface has changed to 
+
+```
+public interface PrivateMarkerTransactionFactory {
+
+  Bytes create(
+      final String privateMarkerTransactionPayload,
+      final PrivateTransaction privateTransaction,
+      final Address precompileAddress,
+      final String privacyUserId);
+
+  Address getSender(PrivateTransaction privateTransaction, String privacyUserId);
+}
+
+```
+
+The factory is responsible for nonce calculation, RLP encoding and signing. Nothing else should need to be done before submitting to the transaction pool.
+
+The `getSender` method is used to help facilitate a stripped locking strategy for nonce calculation. When the create method is called you can be assured that it will not be called again for that address until it has finished submitting it to the transaction pool. 
+
+`EthQueryService` has been implemented and made available to plugins to help facilitate nonce fetching. The `getTransactionCount` will fetch the number of transactions sent by an address, both pooled and mined transactions are included (same behaviour as `eth_getTransactionCount`). 
             </td>
         </tr>
     </table>
@@ -267,34 +288,6 @@ Allow a plugin to sign private marker transactions. When registering the `Privac
     </table>
     <div class="right-align">
         Created At 2021-07-20 14:15:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2547" class=".btn">#2547</a>
-            </td>
-            <td>
-                <b>
-                    Privacy plugin pmt signer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Allow plugin users to sign privacy marker transactions
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-19 12:37:59 +0000 UTC
     </div>
 </div>
 

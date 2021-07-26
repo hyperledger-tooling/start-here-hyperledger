@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2784" class=".btn">#2784</a>
+            </td>
+            <td>
+                <b>
+                    FAB-18067 Discovery support Implicit Collections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Implemented the fix as suggested by Yacov in his Jira comment.
+
+Verified the fix works against the asset-transfer-secured-agreement sample which uses implicit collections.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-26 12:21:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2783" class=".btn">#2783</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/138" class=".btn">#138</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/139" class=".btn">#139</a>
             </td>
             <td>
                 <b>
-                    FABJ-553: Include OWASP vulnerability scan in main build (release-2.2)
+                    Update Endpoint.java
                 </b>
             </td>
         </tr>
@@ -27,44 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                Fail build on high severity vulnerabilities. Ignores scopes that are not propagated to dependent projects:
-- provided
-- test
-- system
+                modfiy Endpoint.java that can read config attribute grpcOptions: grpc.NettyChannelBuilderOption.maxInboundMessageSize
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-17 16:38:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/137" class=".btn">#137</a>
-            </td>
-            <td>
-                <b>
-                    FABJ-553: Include OWASP vulnerability scan in main build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fail build on high severity vulnerabilities. Ignores scopes that are not propagated to dependent projects:
-- provided
-- test
-- system
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-17 16:32:50 +0000 UTC
+        Created At 2021-07-26 09:43:02 +0000 UTC
     </div>
 </div>
 

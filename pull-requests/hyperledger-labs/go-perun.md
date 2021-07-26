@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/151" class=".btn">#151</a>
+            </td>
+            <td>
+                <b>
+                    Update geth to 1.10.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #149
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-26 11:34:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/150" class=".btn">#150</a>
             </td>
             <td>
