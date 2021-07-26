@@ -72,29 +72,3 @@ Lots more interesting information here: https://github.com/mattn/go-sqlite3/issu
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/63" class=".btn">#63</a>
-            </td>
-            <td>
-                <b>
-                    Do not remove images on ff reset/remove
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-19 17:00:28 +0000 UTC
-    </div>
-</div>
-

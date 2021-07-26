@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/239" class=".btn">#239</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/240" class=".btn">#240</a>
             </td>
             <td>
                 <b>
-                    Add native target description in Makefile
+                    Add release notes for Fabric CA v1.5.1
                 </b>
             </td>
         </tr>
@@ -27,16 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                #### Type of change
-- Documentation update
+                Add release notes for Fabric CA v1.5.1
 
-#### Description
-This PR adds native target description.
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-09 08:03:20 +0000 UTC
+        Created At 2021-07-26 15:21:24 +0000 UTC
     </div>
 </div>
 

@@ -230,31 +230,3 @@ afj-dotnet and acapy-dotnet-javascript fully passing now
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/298" class=".btn">#298</a>
-            </td>
-            <td>
-                <b>
-                    chore: update afj backchannel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates AFJ backchannel to latest release on NPM. Haven't updated yet to use the main branch but that should be a minor addition now.
-
-Let's hope this also resolves #282 (works for me locally)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-19 16:09:59 +0000 UTC
-    </div>
-</div>
-

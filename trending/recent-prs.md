@@ -1,13 +1,13 @@
 
-[2784](https://github.com/hyperledger/fabric/pull/2784) FAB-18067 Discovery support Implicit Collections
+[243](https://github.com/hyperledger/grid-docs/pull/243) Add upgrading guide for 0.2.1
 
-[1168](https://github.com/hyperledger/cactus/pull/1168) feat(besu): Support for private transactions
+[519](https://github.com/hyperledger/fabric-docs-i18n/pull/519) RU cryptogen
 
-[151](https://github.com/hyperledger-labs/go-perun/pull/151) Update geth to 1.10.6
+[146](https://github.com/hyperledger/fabric-gateway/pull/146) HSM Scenario tests for node
 
-[1294](https://github.com/hyperledger/iroha/pull/1294) [wsv_checker]
+[1169](https://github.com/hyperledger/cactus/pull/1169) Draft pull request for Iroha connector plugin
 
-[139](https://github.com/hyperledger/fabric-sdk-java/pull/139) Update Endpoint.java
+[465](https://github.com/hyperledger/fabric-samples/pull/465) changed all 'complileOnly' to 'implementation' on all fabric-samples for the fabric dependency
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

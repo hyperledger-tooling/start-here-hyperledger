@@ -64,31 +64,3 @@ Signed-off-by: Silas Davis <silas@monax.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/burrow/pull/1504" class=".btn">#1504</a>
-            </td>
-            <td>
-                <b>
-                    Fix contractName spelling and provide contract name on contract object
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                for reflection purposes
-
-Signed-off-by: Silas Davis <silas@monax.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-19 12:50:28 +0000 UTC
-    </div>
-</div>
-

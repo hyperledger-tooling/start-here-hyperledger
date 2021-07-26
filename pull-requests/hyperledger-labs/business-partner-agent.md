@@ -62,7 +62,9 @@ Using a view to query tasks/activities to eliminate redundant data and possible 
                 
             </td>
             <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+                With version 0.5.6 or 0.6 added the possibility to add a secret to the webhook flag. With this feature it is possible to also enable security on the webhook endpoint in the backend.  
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
 
 <a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/560"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
