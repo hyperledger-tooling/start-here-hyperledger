@@ -9,6 +9,12 @@ services:
       - 4000:4000
     volumes:
       - ..:/usr/src/app
+    env_file:
+      - .env
     stdin_open: true
     tty: true
-    command: bundle exec jekyll serve -H 0.0.0.0 -t
+    command: |
+      bash -c "
+        rm -f Gemfile.lock;
+        bundle exec jekyll serve -H 0.0.0.0 -t
+      "
