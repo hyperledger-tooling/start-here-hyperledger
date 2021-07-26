@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/561" class=".btn">#561</a>
+            </td>
+            <td>
+                <b>
+                    Activity/Task - query from view
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add new events and listeners separate from Aries Events.
+Will use new event listeners to notify frontend via sockets (will create new message structure for frontend notifications if needed).
+
+Using a view to query tasks/activities to eliminate redundant data and possible sync issues if data is stored redundantly. Current issue with this approach is the every changing status of a completed connection (shifting into ping responses etc), so lots of states that would represent that a connection was accepted.
+
+
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/561"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-26 04:45:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/560" class=".btn">#560</a>
             </td>
             <td>
