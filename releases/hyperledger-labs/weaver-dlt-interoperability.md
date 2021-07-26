@@ -15,7 +15,7 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.1 - Go Weaver Protos - July 20 2021
+                    v1.2.1 - Go Weaver Protos - July 26 2021
                 </b>
             </td>
         </tr>
@@ -38,7 +38,7 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-07-20 15:26:04 +0000 UTC
+        Created At 2021-07-26 08:40:38 +0000 UTC
     </span>
 </div>
 
@@ -47,7 +47,7 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.1 - Go Fabric Asset Management Interface - July 20 2021
+                    v1.2.1 - Go Fabric Asset Management Interface - July 26 2021
                 </b>
             </td>
         </tr>
@@ -70,7 +70,7 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-07-22 10:52:53 +0000 UTC
+        Created At 2021-07-26 08:40:38 +0000 UTC
     </span>
 </div>
 
