@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    fix logger enablement
+                    added setting to disable all deployer related apis
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-20 14:24:05 +0000 UTC
+        Created At 2021-07-27 13:42:49 +0000 UTC
     </div>
 </div>
 

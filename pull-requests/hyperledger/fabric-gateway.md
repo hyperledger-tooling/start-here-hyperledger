@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/148" class=".btn">#148</a>
+            </td>
+            <td>
+                <b>
+                    remove dependency on bccsp code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-27 14:15:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/147" class=".btn">#147</a>
             </td>
             <td>
@@ -87,32 +113,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-07-26 09:38:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/143" class=".btn">#143</a>
-            </td>
-            <td>
-                <b>
-                    FABGW-21: Chaincode event listening in Node client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Includes scenario tests for all languages.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-20 17:59:14 +0000 UTC
     </div>
 </div>
 

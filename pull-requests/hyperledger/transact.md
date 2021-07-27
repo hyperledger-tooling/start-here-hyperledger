@@ -73,31 +73,3 @@ Signed-off-by: Caleb Hill <hill@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/167" class=".btn">#167</a>
-            </td>
-            <td>
-                <b>
-                    SQL merkle state with postgres backend
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds an implementation of state that applies a Merkle-Radix tree using a PostgresSQL database as its back-end. 
-
-Continued development on the experimental feature described in [RFC 10](https://github.com/hyperledger/transact-rfcs/pull/10)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-20 18:12:01 +0000 UTC
-    </div>
-</div>
-
