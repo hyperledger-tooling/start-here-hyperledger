@@ -140,29 +140,3 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/514" class=".btn">#514</a>
-            </td>
-            <td>
-                <b>
-                    [zh_CN] translate the rest of docs/locale/zh_CN/source/commands/peernode.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: wuqiaomin <wuqiaomin2@huawei.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-20 08:38:47 +0000 UTC
-    </div>
-</div>
-

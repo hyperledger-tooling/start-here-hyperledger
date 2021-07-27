@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha-python
             </td>
             <td>
                 <b>
-                    extending TxPaginationMeta in queries
+                    Extending TxPaginationMeta in queries
                 </b>
             </td>
         </tr>

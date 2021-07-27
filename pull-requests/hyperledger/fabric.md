@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2793" class=".btn">#2793</a>
+            </td>
+            <td>
+                <b>
+                    [FAB-11334] Adds a viper Cmd to unjoin a peer from a channel (#2769) - DO NOT REVIEW
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 THIS IS A DRAFT PR - DO NOT REVIEW
+
+This change adds a Viper cobra.Command to unjoin the peer from a specified channel.
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+#### Type of change
+
+- New feature
+
+#### Description
+
+This PR introduces a `node unjoin` cobra.Cmd to the peer binary.  When enjoining a channel, the peer must be shut down, and the command will scrub all channel artifacts from the kvledger and transient storage.   If a crash occurs during the removal of the ledger, the residual artifacts will be scrubbed at the next launch of the peer. 
+
+#### Additional details
+
+PR #2769 
+PR #2754 
+PR #2732 
+
+#### Related issues
+
+[FAB-16035](https://jira.hyperledger.org/browse/FAB-16035)
+[FAB-4481](https://jira.hyperledger.org/browse/FAB-4481)
+[FAB-17787](https://jira.hyperledger.org/browse/FAB-17787)
+[FAB-17801](https://jira.hyperledger.org/browse/FAB-17801)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-27 11:56:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2784" class=".btn">#2784</a>
             </td>
             <td>
@@ -24,7 +76,7 @@ permalink: /pull-requests/hyperledger/fabric
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
                 Implemented the fix as suggested by Yacov in his Jira comment.
@@ -520,39 +572,6 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-07-20 12:37:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2767" class=".btn">#2767</a>
-            </td>
-            <td>
-                <b>
-                    FABGW-25 Build ChaincodeInterest in TX simulator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                During transaction simulation, capture extra information to build a ChaincodeInterest structure specific to the chaincode invocation as follows:
-- Which private data collections are read from.
-- The SBE policies associated with any states that a written to.
-
-Following simulations, the ChaincodeInterest structure is built and returned in the ProposalResponse message.
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-20 11:07:09 +0000 UTC
     </div>
 </div>
 
