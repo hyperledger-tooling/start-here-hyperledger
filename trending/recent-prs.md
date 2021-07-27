@@ -1,13 +1,13 @@
 
-[756](https://github.com/hyperledger/besu-docs/pull/756) Alternative EC documentation
+[2583](https://github.com/hyperledger/besu/pull/2583) Add stratum metrics
 
-[1334](https://github.com/hyperledger/aries-cloudagent-python/pull/1334) Updated IndyCredPrecisSchema - pres_referents renamed to presentation_referents
+[477](https://github.com/hyperledger/fabric-sdk-node/pull/477) FABN-1722: export BlockDecoder for typescript definition
 
-[2578](https://github.com/hyperledger/besu/pull/2578) Updated CHANGELOG
+[2582](https://github.com/hyperledger/besu/pull/2582) simplify --min-gas-price dependency check
 
-[451](https://github.com/hyperledger-labs/solang/pull/451) Reduce the stack frame on the Solana bundle
+[2581](https://github.com/hyperledger/besu/pull/2581) Add ability to expose getWork/submitWork JSON-RPC methods over the stratum port
 
-[1170](https://github.com/hyperledger/cactus/pull/1170) Core api
+[2580](https://github.com/hyperledger/besu/pull/2580) Created PkiQbftExtraData
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
