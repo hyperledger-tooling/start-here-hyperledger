@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2578" class=".btn">#2578</a>
+            </td>
+            <td>
+                <b>
+                    Updated CHANGELOG
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Updating CHANGELOG with missing features.
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-26 21:34:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2577" class=".btn">#2577</a>
             </td>
             <td>
@@ -270,23 +302,20 @@ The interface has changed to
 
 ```
 public interface PrivateMarkerTransactionFactory {
+  Address getSender(PrivateTransaction privateTransaction, String privacyUserId);
 
   Bytes create(
-      final String privateMarkerTransactionPayload,
-      final PrivateTransaction privateTransaction,
-      final Address precompileAddress,
-      final String privacyUserId);
-
-  Address getSender(PrivateTransaction privateTransaction, String privacyUserId);
+      UnsignedPrivateMarkerTransaction unsignedPrivateMarkerTransaction,
+      PrivateTransaction privateTransaction,
+      String privacyUserId);
 }
 
 ```
 
-The factory is responsible for nonce calculation, RLP encoding and signing. Nothing else should need to be done before submitting to the transaction pool.
+The factory is responsible for RLP encoding and signing. It should have all the information it needs to make a decision about how to sign the marker transaction. Nothing else should be required before submitting to the transaction pool.
 
 The `getSender` method is used to help facilitate a stripped locking strategy for nonce calculation. When the create method is called you can be assured that it will not be called again for that address until it has finished submitting it to the transaction pool. 
 
-`EthQueryService` has been implemented and made available to plugins to help facilitate nonce fetching. The `getTransactionCount` will fetch the number of transactions sent by an address, both pooled and mined transactions are included (same behaviour as `eth_getTransactionCount`). 
             </td>
         </tr>
     </table>
