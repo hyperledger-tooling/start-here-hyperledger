@@ -14,6 +14,36 @@ permalink: /issues/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/indy-plenum/issues/1552" class=".btn">1552</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade and unpin remaining dependencies 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Ubuntu 20.04</span><span class="chip">help wanted</span><span class="chip">upgrade</span>
+            </td>
+            <td>
+                An overview of all installed, referenced, and required PyPI packages can be found here: [Hyperledger Indy-Plenum | Dependency management Ubuntu 20](https://docs.google.com/document/d/1445VZL3qHBmuVbzm-K9O7te_63zKKlyv6mrEwiJcL3Y/edit?usp=sharing)
+
+As discussed here, Issue https://github.com/hyperledger/indy-plenum/issues/1544, there are still several dependencies that need to be upgraded following the initial Ubuntu 20.04 release.
+
+Where possible the dependencies should be upgraded individually to reduce the scope of the work, and a separate issue linking back to this one should be created to track the work.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-27 15:15:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/indy-plenum/issues/1551" class=".btn">1551</a>
             </td>
             <td>
