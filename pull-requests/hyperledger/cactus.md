@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1170" class=".btn">#1170</a>
+            </td>
+            <td>
+                <b>
+                    Core api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes issues
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-26 21:13:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1169" class=".btn">#1169</a>
             </td>
             <td>
@@ -346,34 +372,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-07-20 18:47:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1147" class=".btn">#1147</a>
-            </td>
-            <td>
-                <b>
-                    test: ensure .test.ts ending for test code files #1137
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #1137
-
-Signed-off-by: Tommesha Wiggins <tommesha.wiggins@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-19 20:42:43 +0000 UTC
     </div>
 </div>
 

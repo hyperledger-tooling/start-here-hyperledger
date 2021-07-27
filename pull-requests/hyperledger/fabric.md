@@ -456,7 +456,7 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
                 #### Type of change
@@ -475,6 +475,7 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
 
 - [FAB-11334](https://jira.hyperledger.org/browse/FAB-11334)
 
+Resolves #2786 
 
             </td>
         </tr>

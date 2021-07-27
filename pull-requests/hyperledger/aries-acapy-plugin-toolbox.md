@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/78" class=".btn">#78</a>
-            </td>
-            <td>
-                <b>
-                    fix: presentation as holder failure on cred retrieval
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-19 20:41:13 +0000 UTC
-    </div>
-</div>
-

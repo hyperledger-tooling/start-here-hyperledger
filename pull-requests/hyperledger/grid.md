@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/847" class=".btn">#847</a>
+            </td>
+            <td>
+                <b>
+                    Add REST API specification for Purchase Order
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Darian Plumb <dplumb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-26 19:25:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/846" class=".btn">#846</a>
             </td>
             <td>
@@ -351,92 +377,6 @@ required updating throughout all of main.rs
     </table>
     <div class="right-align">
         Created At 2021-07-20 18:24:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/834" class=".btn">#834</a>
-            </td>
-            <td>
-                <b>
-                    Reqwest Client SDK Move wip - do not merge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-19 20:13:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/833" class=".btn">#833</a>
-            </td>
-            <td>
-                <b>
-                    Remove namespaces from XML parsing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The namespace numbers are not guaranteed for these XML documents, so we
-can't have that namespace prefix hardcoded in the parsing functionality.
-`fast-xml-parser` has an option to ignore these namespace prefixes. We
-do lose the namespace prefixes in the downloaded XML from the table due
-to this.
-
-Signed-off-by: Darian Plumb <dplumb@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-19 19:57:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/832" class=".btn">#832</a>
-            </td>
-            <td>
-                <b>
-                    Add Product table loading indicator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a loading indicator on the products table. This load can take a few seconds since we are brute force searching for Org names. This should be optimized eventually, but either way we should add an indicator when we are loading data.
-
-Signed-off-by: Darian Plumb <dplumb@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-19 19:53:16 +0000 UTC
     </div>
 </div>
 
