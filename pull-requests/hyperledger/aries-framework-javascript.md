@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/411" class=".btn">#411</a>
+            </td>
+            <td>
+                <b>
+                    Fix bug/mediator restarts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-27 07:15:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/410" class=".btn">#410</a>
             </td>
             <td>
@@ -249,81 +275,6 @@ Signed-off-by: Ariel Gentile <gentilester@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-07-20 21:00:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/397" class=".btn">#397</a>
-            </td>
-            <td>
-                <b>
-                    fix: proof configurable on proofRecord
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Berend Sliedrecht <berend@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-20 11:50:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/396" class=".btn">#396</a>
-            </td>
-            <td>
-                <b>
-                    feat: break out indy wallet, better indy handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Extracts part of the code in #360. 
-
-Main reasons for this are:
-- remove dependency on indy-sdk where it is not strictly required (mainly wallet interface is less indy-specific now)
-- make indy stuff more indy specific
-- other points below
-
-I want to make a browser compatible wallet (already have a working one locally) so we can use the agent in the browser
-
-### Break out indy wallet
-
-Fixes #330
-
-It didn't make a lot of sense to me that the indy wallet was handling indy storage and ledger stuff. I think it belongs more in the ledger and storage services. This is also more in line with where we're headed with the shared components libraries
-
-- Rename `LedgerService` to `IndyLedgerService`. It's very indy focussed now.
-- move storage related methods to `IndyStorageService`
-- move ledger related methods to `IndyLedgerService`
-
-### Better indy message handling
-
-Sometimes you would get very cryptic errors such as `CommonInvalidParam` without a stack trace or anything that would help you get a sense of what's erroring out. I've wrapped all indy calls with a try catch and added a new `IndySdkError`. This will take the indy error as input, but with very nice stack tracing so you know exactly where things went wrong, without losing information from the indy error
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-20 07:59:48 +0000 UTC
     </div>
 </div>
 
