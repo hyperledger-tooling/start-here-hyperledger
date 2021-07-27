@@ -1,13 +1,13 @@
 
-[2793](https://github.com/hyperledger/fabric/pull/2793) [FAB-11334] Adds a viper Cmd to unjoin a peer from a channel (#2769) - DO NOT REVIEW
+[225](https://github.com/hyperledger/aries-toolbox/pull/225) proper regex for version check
 
-[119](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/119) new app to demonstrate use of assetexchange cc package
+[2584](https://github.com/hyperledger/besu/pull/2584) Add unstable CLI option for max ommers depth
 
-[94](https://github.com/hyperledger-labs/fabric-smart-client/pull/94) Update dependencies
+[1587](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1587) [quorum] fix deployment issues
 
-[147](https://github.com/hyperledger/fabric-gateway/pull/147) node hsm sample
+[1586](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1586) [docs] latest from main branch
 
-[411](https://github.com/hyperledger/aries-framework-javascript/pull/411) Fix bug/mediator restarts
+[148](https://github.com/hyperledger/fabric-gateway/pull/148) remove dependency on bccsp code
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

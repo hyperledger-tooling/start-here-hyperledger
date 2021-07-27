@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 <b>
-                    [FAB-11334] Adds a viper Cmd to unjoin a peer from a channel (#2769) - DO NOT REVIEW
+                    [FAB-11334] Adds a viper Cmd to unjoin a peer from a channel
                 </b>
             </td>
         </tr>
@@ -27,9 +27,7 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                 THIS IS A DRAFT PR - DO NOT REVIEW
-
-This change adds a Viper cobra.Command to unjoin the peer from a specified channel.
+                This change adds a Viper cobra.Command to unjoin the peer from a specified channel.
 
 Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
 
@@ -491,87 +489,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-07-21 23:09:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2769" class=".btn">#2769</a>
-            </td>
-            <td>
-                <b>
-                    [FAB-11334] Adds a function to purge a ledger's transient storage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                #### Type of change
-
-- New feature
-
-#### Description
-
-This introduces a transientstore.Delete(ledgerID) routine to assist with the bookkeeping while unjoining a peer from a channel.  Before removing the transient storage, the store is marked as UNDER_DELETION in a system leveldb, providing an opportunity to recover from a failed deletion at the next peer initialization.
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-
-#### Additional details
-
-#### Related issues
-
-- [FAB-11334](https://jira.hyperledger.org/browse/FAB-11334)
-
-Resolves #2786 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-20 16:49:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2768" class=".btn">#2768</a>
-            </td>
-            <td>
-                <b>
-                    [FAB-18527] Discovery supports DisregardNamespacePolicy hint from client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit adds support for a boolean flag in the chaincode call: DisregardNamespacePolicy
-Its role is to hint to discovery that the client wishes to ask about endorsement policies
-of either state based endorsement policies of given keys, or of collection endorsement policies
-that exist for given collection names.
-
-In case no state based endorsement policies are given in the bespoken chaincode call,
-and also no collection level endorsement policies of the given collection names are found,
-specifying the DisregardNamespacePolicy hint for that chaincode call will result in an error,
-as there is no endorsement policy to compute on.
-
-Change-Id: I299afd40063a0cf1cee34d6034eaa02fe6fc6707
-Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-20 12:37:35 +0000 UTC
     </div>
 </div>
 
