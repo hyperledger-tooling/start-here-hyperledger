@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/39" class=".btn">#39</a>
-            </td>
-            <td>
-                <b>
-                    Use protobuf-any type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-20 04:35:26 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/476" class=".btn">#476</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/477" class=".btn">#477</a>
             </td>
             <td>
                 <b>
-                    Add renovate.json
+                    FABN-1722: export BlockDecoder for typescript definition
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                
+                Signed-off-by: jsjs026 <jasonhack518@gmail.com>
+
+I refer to https://hyperledger.github.io/fabric-sdk-node/release-2.2/BlockDecoder.html
+I am not sure I did it right, there are some questions/discussions.
+
+1. For parameters end with suffix proto, I used type object here
+2. Do I need to do additional things besides modifying the index.d.ts file?
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-03 03:04:47 +0000 UTC
+        Created At 2021-07-27 05:30:15 +0000 UTC
     </div>
 </div>
 
