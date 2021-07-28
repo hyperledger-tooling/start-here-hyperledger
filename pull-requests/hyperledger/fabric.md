@@ -14,6 +14,114 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2796" class=".btn">#2796</a>
+            </td>
+            <td>
+                <b>
+                    Update doc for default chaincode instantiation policy (release-1.4)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update doc to indicate that default chaincode instantiation policy
+is any channel admin.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-27 20:24:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2795" class=".btn">#2795</a>
+            </td>
+            <td>
+                <b>
+                    [FAB-18530] fix: add validation for chaincode name when packaging chaincode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: ankitm123 <ankitmohapatra123@gmail.com>
+
+
+#### Type of change
+- Bug fix
+
+#### Description
+I am able to package and install chaincode with names which are not valid,
+```
+peer lifecycle chaincode package cc_1.0.0.tar.gz --path ../../fabric-chaincode-poc --lang golang --label cc_1.0.0_1.0
++ res=0
+Chaincode is packaged
+Installing chaincode on peer0.org1...
+Using organization 1
+peer lifecycle chaincode install cc_1.0.0.tar.gz
++ res=0
+2021-07-27 12:16:13.991 EDT [cli.lifecycle.chaincode] submitInstallProposal -> INFO 001 Installed remotely: response:<status:200 payload:"\nMcc_1.0.0_1.0:5e0f5e9f4e8bc50706a74ac24ba855bcf267c469d1931812b9f5a80381d4f035\022\014cc_1.0.0_1.0" > 
+2021-07-27 12:16:13.991 EDT [cli.lifecycle.chaincode] submitInstallProposal -> INFO 002 Chaincode code package identifier: cc_1.0.0_1.0:5e0f5e9f4e8bc50706a74ac24ba855bcf267c469d1931812b9f5a80381d4f035
+Chaincode is installed on peer0.org2
+```
+but then it fails during approval (with the message mentioned in the issue):
+```
+peer lifecycle chaincode queryinstalled
+ Installed chaincodes on peer:
+ Package ID: cc_1.0.0_1.0:5e0f5e9f4e8bc50706a74ac24ba855bcf267c469d1931812b9f5a80381d4f035, Label: cc_1.0.0_1.0
+ Package ID: basic_1.0:ba90d276e408433a088e0c18919b4bb912d9df8952863169dca1a42dd23e2c09, Label: basic_1.0
+```
+I think chaincode name should be validated as early as `peer lifecycle chaincode package`.
+
+This PR adds a `--name` flag to the package subcommand, and validates that the provided name is valid.
+
+
+#### Additional details
+
+After this change:
+```
+➜  test-network git:(main) peer lifecycle chaincode package cc_1.1.tar.gz --path ../../fabric-chaincode-poc --lang golang --label cc_1.1.0  
+Error: chaincode name must be specified
+
+➜  test-network git:(main) peer lifecycle chaincode package cc_1.tar.gz --path ../../fabric-chaincode-poc --lang golang --label cc_1.1.0 --name cc_1.0.0
+Error: invalid chaincode name 'cc_1.0.0'. Names can only consist of alphanumerics, '_', and '-' and can only begin with alphanumerics
+
+➜  test-network git:(main) peer lifecycle chaincode package cc_1.1.tar.gz --path ../../fabric-chaincode-poc --lang golang --label cc_1.1.0 --name cc
+```
+
+#### Related issues
+https://jira.hyperledger.org/browse/FAB-18530
+https://jira.hyperledger.org/browse/FAB-18409
+
+#### Release Note
+
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-27 20:14:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2793" class=".btn">#2793</a>
             </td>
             <td>

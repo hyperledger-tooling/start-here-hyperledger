@@ -14,33 +14,31 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/324" class=".btn">#324</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/326" class=".btn">#326</a>
             </td>
             <td>
                 <b>
-                    Take advantage of c++ standard library data structures
+                    (WIP) Add policy-based verification of additional quote statuses
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
-                Finally ready to drop the Wawaka StringArray class and replace it with the c++ standard library datastructures std::string and std::vector.
+                This PR contributes:
+* an improved parsing of the json blob in the quote/report
+* an extension to the report verification process to include additional SGX quote statuses
+* a generalization of the policy-based verification procedure whereby users can specify whether to accept/reject specific quote statuses (among the `*_NEEDED` ones)
+* tests related to the added/improved functionality
 
-Two items of note for this PR: 
-
-First, the exchange contract family is completely removed. This is because the effort to move to std library will be significant. Exchange will be housed in a repository of its own. 
-
-Second, the build target was changed from wasm to wasm-wasi to accommodate std::string which requires EOF 
-from stdlib. There is some danger that developers will attempt to invoke other operations from stdlib without
-wasi support... but that is not different from any other missing function.
+Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-28 22:34:45 +0000 UTC
+        Created At 2021-07-27 23:00:27 +0000 UTC
     </div>
 </div>
 
