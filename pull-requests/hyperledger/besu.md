@@ -481,7 +481,7 @@ Introduced an abstract `BftBesuControllerBuilder` with supplier methods that ena
 ## PR description
 QBFT uses the same validator management logic that IBFT2 and IBFT use and allows for a lot of code reuse. This will make it possible for bft based consensus mechanism to use it's own specific mechanism to manage validators i.e. determining what the validators are and the mechanism to add and remove them.
 
-This is needed so that QBFT can move using transaction based validator management using smart contracts.
+This is needed so that QBFT can move to using transaction based validator management using smart contracts.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

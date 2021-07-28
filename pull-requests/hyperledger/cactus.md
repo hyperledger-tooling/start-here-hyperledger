@@ -14,11 +14,39 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1174" class=".btn">#1174</a>
+            </td>
+            <td>
+                <b>
+                    feat(examples/discounted_cartrade): add preferredcustomer-jugdement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
+
+resolves #1148 (update by Peter)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-28 02:52:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1173" class=".btn">#1173</a>
             </td>
             <td>
                 <b>
-                    refactor(core-api): fixes syntax issues
+                    refactor(core-api): keychain plugin get/set generics
                 </b>
             </td>
         </tr>
@@ -250,32 +278,6 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-07-21 08:12:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1155" class=".btn">#1155</a>
-            </td>
-            <td>
-                <b>
-                    feat(example): add README on examples/discounted-cartrade
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-21 01:45:40 +0000 UTC
     </div>
 </div>
 
