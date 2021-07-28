@@ -14,6 +14,140 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2896" class=".btn">#2896</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): bump webpack from 4.46.0 to 5.47.0 in /cmd/aries-js-worker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.47.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
+<blockquote>
+<h2>v5.47.0</h2>
+<h1>Performance</h1>
+<ul>
+<li>improve source-map performance</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>avoid unnecessary <code>&quot;use strict&quot;</code>s in module mode</li>
+</ul>
+<h2>v5.46.0</h2>
+<h1>Features</h1>
+<ul>
+<li>status handlers in HMR api can now return Promises to delay the HMR process</li>
+<li>reasons in stats can now be grouped and collapsed
+<ul>
+<li>add <code>stats.reasonsSpace</code> and <code>stats.groupReasonsByOrigin</code></li>
+</ul>
+</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>fix a crash in asset modules when updating persistent cached modules from unsafe cached modules</li>
+</ul>
+<h1>Performance</h1>
+<ul>
+<li>detailed preset limits all spaces to 1000 by default</li>
+<li>upgrade webpack-sources for a performance bugfix</li>
+</ul>
+<h2>v5.45.1</h2>
+<h1>Bugfixes</h1>
+<ul>
+<li>temporary revert import assertions because parser changes break the word <code>assert</code> in other places</li>
+<li><code>import(/* webpackPrefetch: true */ ...)</code> no longer breaks library output</li>
+<li>DataURL tries to avoid re-encoding</li>
+<li>fix problems with DataURL encoding in some cases</li>
+</ul>
+<h2>v5.45.0</h2>
+<h1>Features</h1>
+<ul>
+<li>add support to import assertions</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>SourceMaps will now also be added to <code>.cjs</code> output files</li>
+<li>fix non-system externals in a system library</li>
+</ul>
+<h1>Performance</h1>
+<ul>
+<li>avoid copying timestamps from the watcher to the compiler</li>
+</ul>
+<h1>Contributing</h1>
+<ul>
+<li>update to jest 27</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/webpack/webpack/commit/efeb1287e52870036cc01b22476852205e99c31a"><code>efeb128</code></a> 5.47.0</li>
+<li><a href="https://github.com/webpack/webpack/commit/61ad5ff509a7f9ce5be703e386e4d4da6216f008"><code>61ad5ff</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13873">#13873</a> from webpack/perf/webpack-sources-3</li>
+<li><a href="https://github.com/webpack/webpack/commit/c3a0145b49e62fbda7fe1372b87b0cef517a6c7f"><code>c3a0145</code></a> update to webpack-sources version 3</li>
+<li><a href="https://github.com/webpack/webpack/commit/beb42c64f696584ef570d8f57df448ddd0ac7238"><code>beb42c6</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13858">#13858</a> from Janpot/genrator-publicPath-override</li>
+<li><a href="https://github.com/webpack/webpack/commit/d9c09ee7f20f174588f1877da65dc57ec1e2ac5a"><code>d9c09ee</code></a> Fix generator publicPath behavior when empty string</li>
+<li><a href="https://github.com/webpack/webpack/commit/bdf20c2a6f531022a91960d5f3facf324577d1ec"><code>bdf20c2</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13840">#13840</a> from snitin315/patch-1</li>
+<li><a href="https://github.com/webpack/webpack/commit/5f8adb0110f824c433c2619b072cdd467875434a"><code>5f8adb0</code></a> keep the eslint cache and yarn install</li>
+<li><a href="https://github.com/webpack/webpack/commit/1f4e8a293dee182bcc09fb179c321ab83d1b3320"><code>1f4e8a2</code></a> ci: use <code>cache: 'yarn'</code></li>
+<li><a href="https://github.com/webpack/webpack/commit/60d8968cd48cf1677df5f50ed878c6a912e9d692"><code>60d8968</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13842">#13842</a> from webpack/bugfix/use-strict</li>
+<li><a href="https://github.com/webpack/webpack/commit/0bd1e789d48f9b3e3ca38d6c48db7c7be5380bcd"><code>0bd1e78</code></a> generate &quot;use strict&quot; only when really needed</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.47.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.47.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-28 08:19:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2894" class=".btn">#2894</a>
             </td>
             <td>
@@ -150,140 +284,6 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2892" class=".btn">#2892</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps-dev): bump webpack from 4.46.0 to 5.46.0 in /cmd/aries-js-worker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.46.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
-<blockquote>
-<h2>v5.46.0</h2>
-<h1>Features</h1>
-<ul>
-<li>status handlers in HMR api can now return Promises to delay the HMR process</li>
-<li>reasons in stats can now be grouped and collapsed
-<ul>
-<li>add <code>stats.reasonsSpace</code> and <code>stats.groupReasonsByOrigin</code></li>
-</ul>
-</li>
-</ul>
-<h1>Bugfixes</h1>
-<ul>
-<li>fix a crash in asset modules when updating persistent cached modules from unsafe cached modules</li>
-</ul>
-<h1>Performance</h1>
-<ul>
-<li>detailed preset limits all spaces to 1000 by default</li>
-<li>upgrade webpack-sources for a performance bugfix</li>
-</ul>
-<h2>v5.45.1</h2>
-<h1>Bugfixes</h1>
-<ul>
-<li>temporary revert import assertions because parser changes break the word <code>assert</code> in other places</li>
-<li><code>import(/* webpackPrefetch: true */ ...)</code> no longer breaks library output</li>
-<li>DataURL tries to avoid re-encoding</li>
-<li>fix problems with DataURL encoding in some cases</li>
-</ul>
-<h2>v5.45.0</h2>
-<h1>Features</h1>
-<ul>
-<li>add support to import assertions</li>
-</ul>
-<h1>Bugfixes</h1>
-<ul>
-<li>SourceMaps will now also be added to <code>.cjs</code> output files</li>
-<li>fix non-system externals in a system library</li>
-</ul>
-<h1>Performance</h1>
-<ul>
-<li>avoid copying timestamps from the watcher to the compiler</li>
-</ul>
-<h1>Contributing</h1>
-<ul>
-<li>update to jest 27</li>
-</ul>
-<h2>v5.44.0</h2>
-<h1>Features</h1>
-<ul>
-<li>add support for <code>output.module</code> + <code>optimization.runtimeChunk</code></li>
-</ul>
-<h1>Bugfixes</h1>
-<ul>
-<li>fix inline externals with dash in type</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/webpack/webpack/commit/a32b0fd041260f3303b9329c9a65cc4afe102390"><code>a32b0fd</code></a> 5.46.0</li>
-<li><a href="https://github.com/webpack/webpack/commit/e83587cfef25db91dc5b86be5b729288fd1bafdd"><code>e83587c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13837">#13837</a> from webpack/bugfix/13827</li>
-<li><a href="https://github.com/webpack/webpack/commit/e293d2b222a8673a29c5ac4b390176dce56ac921"><code>e293d2b</code></a> add missing lint step in azure</li>
-<li><a href="https://github.com/webpack/webpack/commit/d8c37d7cdd31c925a4b0d7fb9bea794e8bd4d93a"><code>d8c37d7</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13836">#13836</a> from webpack/dependabot/npm_and_yarn/eslint-plugin-...</li>
-<li><a href="https://github.com/webpack/webpack/commit/c23e8ce5c7c381e330ad70dbb999024e0d89bee0"><code>c23e8ce</code></a> fix problems with compiling twice</li>
-<li><a href="https://github.com/webpack/webpack/commit/cdc9efefbeb8b7071abdd38498f16478f5012796"><code>cdc9efe</code></a> avoid copying source types and sizes cache from unsafe cache to cached module</li>
-<li><a href="https://github.com/webpack/webpack/commit/df5031bd356fcba8fcc0f55ebe7714ed3f9e2415"><code>df5031b</code></a> chore(deps-dev): bump eslint-plugin-jest from 24.3.6 to 24.4.0</li>
-<li><a href="https://github.com/webpack/webpack/commit/1a134d955f050465899adea0b74560936caa5860"><code>1a134d9</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13826">#13826</a> from webpack/dependabot/npm_and_yarn/schema-utils-3...</li>
-<li><a href="https://github.com/webpack/webpack/commit/937957fc545fae96a15ce0ea3fb9b7910de41f7e"><code>937957f</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13828">#13828</a> from webpack/perf/many-replacements</li>
-<li><a href="https://github.com/webpack/webpack/commit/d3f8e16810581791de6bd3e2ccc944541779b4a2"><code>d3f8e16</code></a> update webpack-sources for performance problem in hashing</li>
-<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.46.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.46.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 08:19:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2891" class=".btn">#2891</a>
             </td>
             <td>
@@ -377,106 +377,6 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-07-21 22:02:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2887" class=".btn">#2887</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump actions/setup-node from 2.2.0 to 2.3.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">github_actions</span>
-            </td>
-            <td>
-                Bumps [actions/setup-node](https://github.com/actions/setup-node) from 2.2.0 to 2.3.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/actions/setup-node/releases">actions/setup-node's releases</a>.</em></p>
-<blockquote>
-<h2>Support caching pnpm dependencies</h2>
-<p>This release introduces dependency caching support for the <code>pnpm</code> package manager (<a href="https://github-redirect.dependabot.com/actions/setup-node/issues/278">#278</a>).</p>
-<p><strong>Caching pnpm dependencies:</strong></p>
-<pre lang="yaml"><code># This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-<p>steps:</p>
-<ul>
-<li>uses: actions/checkout@v2</li>
-<li>uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
-with:
-version: 6.10.0</li>
-<li>uses: actions/setup-node@v2
-with:
-node-version: '14'
-cache: 'pnpm'</li>
-<li>run: pnpm install</li>
-<li>run: pnpm test
-</code></pre></li>
-</ul>
-<p><strong>NOTE</strong>: pnpm caching support requires pnpm version &gt;= 6.10.0</p>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/actions/setup-node/commit/aa759c6c94d3800c55b8601f21ba4b2371704cb7"><code>aa759c6</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/actions/setup-node/issues/278">#278</a> from jacobwgillespie/cache-pnpm</li>
-<li><a href="https://github.com/actions/setup-node/commit/0ae03de2b799ae88b378c51b87476d242b3d8ef0"><code>0ae03de</code></a> Reorder to npm, yarn, pnpm</li>
-<li><a href="https://github.com/actions/setup-node/commit/4bc87b8e10a7f0f76173ad410d874a0b1f984af0"><code>4bc87b8</code></a> Bump e2e tests to 6.10.0</li>
-<li><a href="https://github.com/actions/setup-node/commit/b96348a4e97e0510304e475e5cec7a7a05518c5d"><code>b96348a</code></a> Remove unused imports</li>
-<li><a href="https://github.com/actions/setup-node/commit/3af302a4f220de9ff48cd21cc1ab8e9c54382600"><code>3af302a</code></a> Switch to pnpm store path command</li>
-<li><a href="https://github.com/actions/setup-node/commit/f452812b440ff2d1b0ee9d300a037464407004e5"><code>f452812</code></a> Unmock fs.existsSync after tests</li>
-<li><a href="https://github.com/actions/setup-node/commit/e93556ca6645851a427f77742aeb1b22a95b4700"><code>e93556c</code></a> Mock fs.existsSync in tests</li>
-<li><a href="https://github.com/actions/setup-node/commit/0453e516eb2a16fb262fa8f9db51405c7089b869"><code>0453e51</code></a> Regenerate compiled files</li>
-<li><a href="https://github.com/actions/setup-node/commit/399982b36805ac9d772a419dc9f95fb5a8eb5c55"><code>399982b</code></a> Move existence check to cache-save</li>
-<li><a href="https://github.com/actions/setup-node/commit/d278e78bddf957771f319214444100b4032fb7aa"><code>d278e78</code></a> Add logic to check that cache folder exists</li>
-<li>Additional commits viewable in <a href="https://github.com/actions/setup-node/compare/v2.2.0...v2.3.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/setup-node&package-manager=github_actions&previous-version=2.2.0&new-version=2.3.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-21 08:18:54 +0000 UTC
     </div>
 </div>
 

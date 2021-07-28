@@ -166,29 +166,3 @@ This PR is part of the Linux Foundation mentorship for the Solang compiler. For 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/445" class=".btn">#445</a>
-            </td>
-            <td>
-                <b>
-                    Ensure create contract works on Solana v1.7.3 and later
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-21 09:47:59 +0000 UTC
-    </div>
-</div>
-

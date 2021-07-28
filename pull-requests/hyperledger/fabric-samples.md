@@ -121,6 +121,136 @@ Although Mint / Burn are not required, they are necessary to change the supply o
   - ClientAccountID: This function is special for Fabric because we do not have wallet addresses in Fabric and users need to know their account ID to transfer tokens.
   - ClientAccountBalance: A shorthand for BalanceOf function.
 
+### Example commands
+
+```bash
+#!/usr/bin/env bash
+
+set -x #echo on
+
+cd fabric-samples/test-network
+
+echo "Clean up any existing network"
+./network.sh down
+
+echo "Start test network"
+./network.sh up createChannel -ca
+
+echo "Deploy ERC1155 chaincode. The path must point to the root folder of the chaincode"
+./network.sh deployCC -ccn erc1155 -ccp ../token-erc-1155/chaincode-go/ -ccl go
+
+echo "Set Fabric config path"
+export FABRIC_CFG_PATH=${PWD}/../config/
+
+echo "Add Fabric CLI utilities to path"
+export PATH=${PWD}/../bin:$PATH
+
+
+echo "As Org1 Certificate Authority"
+export FABRIC_CA_CLIENT_HOME=${PWD}/organizations/peerOrganizations/org1.example.com/
+
+echo "Create and register Person1 to Org1"
+echo "Register a new indentity"
+fabric-ca-client register --caname ca-org1 --id.name person1 --id.secret person1pw --id.type client --tls.certfiles "${PWD}/organizations/fabric-ca/org1/tls-cert.pem"
+
+echo "Generate the identity certificates and MSP folder"
+fabric-ca-client enroll -u https://person1:person1pw@localhost:7054 --caname ca-org1 -M "${PWD}/organizations/peerOrganizations/org1.example.com/users/person1@org1.example.com/msp" --tls.certfiles "${PWD}/organizations/fabric-ca/org1/tls-cert.pem"
+
+echo "Copy the Node OU configuration file into the identity MSP folder"
+cp "${PWD}/organizations/peerOrganizations/org1.example.com/msp/config.yaml" "${PWD}/organizations/peerOrganizations/org1.example.com/users/person1@org1.example.com/msp/config.yaml"
+
+echo "As Org2 Certificate Authority"
+export FABRIC_CA_CLIENT_HOME=${PWD}/organizations/peerOrganizations/org2.example.com/
+
+echo "Create and register Person2 to Org2"
+fabric-ca-client register --caname ca-org2 --id.name person2 --id.secret person2pw --id.type client --tls.certfiles "${PWD}/organizations/fabric-ca/org2/tls-cert.pem"
+fabric-ca-client enroll -u https://person2:person2pw@localhost:8054 --caname ca-org2 -M "${PWD}/organizations/peerOrganizations/org2.example.com/users/person2@org2.example.com/msp" --tls.certfiles "${PWD}/organizations/fabric-ca/org2/tls-cert.pem"
+cp "${PWD}/organizations/peerOrganizations/org2.example.com/msp/config.yaml" "${PWD}/organizations/peerOrganizations/org2.example.com/users/person2@org2.example.com/msp/config.yaml"
+
+echo "Create and register Person3 to Org2"
+fabric-ca-client register --caname ca-org2 --id.name person3 --id.secret person3pw --id.type client --tls.certfiles "${PWD}/organizations/fabric-ca/org2/tls-cert.pem"
+fabric-ca-client enroll -u https://person3:person3pw@localhost:8054 --caname ca-org2 -M "${PWD}/organizations/peerOrganizations/org2.example.com/users/person3@org2.example.com/msp" --tls.certfiles "${PWD}/organizations/fabric-ca/org2/tls-cert.pem"
+cp "${PWD}/organizations/peerOrganizations/org2.example.com/msp/config.yaml" "${PWD}/organizations/peerOrganizations/org2.example.com/users/person3@org2.example.com/msp/config.yaml"
+
+echo "Create and register Person4 to Org2"
+fabric-ca-client register --caname ca-org2 --id.name person4 --id.secret person4pw --id.type client --tls.certfiles "${PWD}/organizations/fabric-ca/org2/tls-cert.pem"
+fabric-ca-client enroll -u https://person4:person4pw@localhost:8054 --caname ca-org2 -M "${PWD}/organizations/peerOrganizations/org2.example.com/users/person4@org2.example.com/msp" --tls.certfiles "${PWD}/organizations/fabric-ca/org2/tls-cert.pem"
+cp "${PWD}/organizations/peerOrganizations/org2.example.com/msp/config.yaml" "${PWD}/organizations/peerOrganizations/org2.example.com/users/person4@org2.example.com/msp/config.yaml"
+
+echo "Create and register Person5 to Org2"
+fabric-ca-client register --caname ca-org2 --id.name person5 --id.secret person5pw --id.type client --tls.certfiles "${PWD}/organizations/fabric-ca/org2/tls-cert.pem"
+fabric-ca-client enroll -u https://person5:person5pw@localhost:8054 --caname ca-org2 -M "${PWD}/organizations/peerOrganizations/org2.example.com/users/person5@org2.example.com/msp" --tls.certfiles "${PWD}/organizations/fabric-ca/org2/tls-cert.pem"
+cp "${PWD}/organizations/peerOrganizations/org2.example.com/msp/config.yaml" "${PWD}/organizations/peerOrganizations/org2.example.com/users/person5@org2.example.com/msp/config.yaml"
+
+
+echo "As Person1 from Org1"
+export CORE_PEER_TLS_ENABLED=true
+export CORE_PEER_LOCALMSPID="Org1MSP"
+export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example.com/users/person1@org1.example.com/msp
+export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+export CORE_PEER_ADDRESS=localhost:7051
+export TARGET_TLS_OPTIONS=(-o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile "${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem" --peerAddresses localhost:7051 --tlsRootCertFiles "${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt" --peerAddresses localhost:9051 --tlsRootCertFiles "${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt")
+
+echo "Client Account ID for Person1"
+peer chaincode query -C mychannel -n erc1155 -c '{"function":"ClientAccountID","Args":[]}'
+
+# Client Account ID is a base64-encoded concatenation of the issuer and subject from the client identity's enrolment certificate.
+# You can decode it with the following command:
+# echo "eDUwOTo6Q049cGVyc29uMSxPVT1jbGllbnQsTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcxLmV4YW1wbGUuY29tLE89b3JnMS5leGFtcGxlLmNvbSxMPUR1cmhhbSxTVD1Ob3J0aCBDYXJvbGluYSxDPVVT" | base64 --decode
+echo "Client Account IDs"
+export P1="eDUwOTo6Q049cGVyc29uMSxPVT1jbGllbnQsTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcxLmV4YW1wbGUuY29tLE89b3JnMS5leGFtcGxlLmNvbSxMPUR1cmhhbSxTVD1Ob3J0aCBDYXJvbGluYSxDPVVT"
+export P2="eDUwOTo6Q049cGVyc29uMixPVT1jbGllbnQsTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcyLmV4YW1wbGUuY29tLE89b3JnMi5leGFtcGxlLmNvbSxMPUh1cnNsZXksU1Q9SGFtcHNoaXJlLEM9VUs="
+export P3="eDUwOTo6Q049cGVyc29uMyxPVT1jbGllbnQsTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcyLmV4YW1wbGUuY29tLE89b3JnMi5leGFtcGxlLmNvbSxMPUh1cnNsZXksU1Q9SGFtcHNoaXJlLEM9VUs="
+export P4="eDUwOTo6Q049cGVyc29uNCxPVT1jbGllbnQsTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcyLmV4YW1wbGUuY29tLE89b3JnMi5leGFtcGxlLmNvbSxMPUh1cnNsZXksU1Q9SGFtcHNoaXJlLEM9VUs="
+export P5="eDUwOTo6Q049cGVyc29uNSxPVT1jbGllbnQsTz1IeXBlcmxlZGdlcixTVD1Ob3J0aCBDYXJvbGluYSxDPVVTOjpDTj1jYS5vcmcyLmV4YW1wbGUuY29tLE89b3JnMi5leGFtcGxlLmNvbSxMPUh1cnNsZXksU1Q9SGFtcHNoaXJlLEM9VUs="
+
+echo "Person P1 from the organization 1 calls the MintBatch function in order to create 100 token1s, 200 token2s, 300 token3s, 150 token4s, 100 token5s, 100 token6s."
+peer chaincode invoke "${TARGET_TLS_OPTIONS[@]}" -C mychannel -n erc1155 -c "{\"function\":\"MintBatch\",\"Args\":[\"$P1\",\"[1,2,3,4,5,6]\",\"[100,200,300,150,100,100]\"]}" --waitForEvent
+
+echo "Query the tokens of Person1"
+peer chaincode query -C mychannel -n erc1155 -c "{\"function\":\"BalanceOfBatch\",\"Args\":[\"[\\\"$P1\\\",\\\"$P1\\\",\\\"$P1\\\",\\\"$P1\\\",\\\"$P1\\\",\\\"$P1\\\"]\",\"[1,2,3,4,5,6]\"]}"
+
+echo "Person P1 calls TransferFrom in order to send Person P2 six token3s."
+peer chaincode invoke "${TARGET_TLS_OPTIONS[@]}" -C mychannel -n erc1155 -c "{\"function\":\"TransferFrom\",\"Args\":[\"$P1\",\"$P2\",\"3\",\"6\"]}" --waitForEvent
+
+echo "New Balance of Person1 for token3"
+peer chaincode query -C mychannel -n erc1155 -c "{\"function\":\"BalanceOf\",\"Args\":[\"$P1\",\"3\"]}"
+
+echo "As Person2 from Organization 2"
+export FABRIC_CFG_PATH=$PWD/../config/
+export CORE_PEER_TLS_ENABLED=true
+export CORE_PEER_LOCALMSPID="Org2MSP"
+export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org2.example.com/users/person2@org2.example.com/msp
+export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+export CORE_PEER_ADDRESS=localhost:9051
+
+echo "New Balance of Person2 for token3"
+peer chaincode query -C mychannel -n erc1155 -c "{\"function\":\"BalanceOf\",\"Args\":[\"$P2\",\"3\"]}"
+
+echo "As Person1 from Org1"
+export CORE_PEER_TLS_ENABLED=true
+export CORE_PEER_LOCALMSPID="Org1MSP"
+export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example.com/users/person1@org1.example.com/msp
+export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+export CORE_PEER_ADDRESS=localhost:7051
+export TARGET_TLS_OPTIONS=(-o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile "${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem" --peerAddresses localhost:7051 --tlsRootCertFiles "${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt" --peerAddresses localhost:9051 --tlsRootCertFiles "${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt")
+
+
+echo "Person P1 calls BatchTransferFrom in order to send Person P2 six token3s, three token4s, and one token2s."
+peer chaincode invoke "${TARGET_TLS_OPTIONS[@]}" -C mychannel -n erc1155 -c "{\"function\":\"BatchTransferFrom\",\"Args\":[\"$P1\",\"$P2\",\"[3,4,2]\",\"[6,3,1]\"]}" --waitForEvent
+
+echo "Person P1 calls BatchTransferFromMultiReceipent in order to send:"
+echo "- six token5s to person P3,"
+echo "- six token3s  to person P4,"
+echo "- three token4s to person P2," 
+echo "- two token2s to person P5 and"
+echo "- three token6s to person P2." 
+peer chaincode invoke "${TARGET_TLS_OPTIONS[@]}" -C mychannel -n erc1155 -c "{\"function\":\"BatchTransferFromMultiRecipient\",\"Args\":[\"$P1\",\"[\\\"$P3\\\",\\\"$P4\\\",\\\"$P2\\\",\\\"$P5\\\",\\\"$P2\\\"]\",\"[5,3,4,2,6]\",\"[6,6,3,2,3]\"]}" --waitForEvent
+
+echo "Shut down network"
+./network.sh down
+```
+
 Signed-off-by: Baran Kılıç <baran.kilic@boun.edu.tr>
             </td>
         </tr>
