@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1175" class=".btn">#1175</a>
+            </td>
+            <td>
+                <b>
+                    docs: fix naming - use API Client isntead of SDK
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1138
+
+Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
+
+_______________________________________
+this is not done, I just wanted to push it so I can ask for what I should write for documentations. 
+I'm not sure if I know enough to write the documentation !! 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-28 17:29:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1174" class=".btn">#1174</a>
             </td>
             <td>

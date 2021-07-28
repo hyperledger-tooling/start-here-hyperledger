@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/453" class=".btn">#453</a>
+            </td>
+            <td>
+                <b>
+                    Default stack size is too small on Windows (1MB)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-28 14:35:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/451" class=".btn">#451</a>
             </td>
             <td>
@@ -137,32 +163,6 @@ This PR is part of the Linux Foundation mentorship for the Solang compiler. For 
     </table>
     <div class="right-align">
         Created At 2021-07-23 09:33:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/446" class=".btn">#446</a>
-            </td>
-            <td>
-                <b>
-                    Ensure that enherited functions are also added to the abi file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-21 14:50:36 +0000 UTC
     </div>
 </div>
 

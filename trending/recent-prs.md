@@ -1,13 +1,13 @@
 
-[2896](https://github.com/hyperledger/aries-framework-go/pull/2896) chore(deps-dev): bump webpack from 4.46.0 to 5.47.0 in /cmd/aries-js-worker
+[80](https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/80) Add "echo agent" to integration tests
 
-[308](https://github.com/hyperledger/aries-agent-test-harness/pull/308) aries issue-credential-v2 / present-proof-v2 json-ld cred support
+[413](https://github.com/hyperledger/aries-framework-javascript/pull/413) fix(redux-store): add reducers to initializeStore
 
-[1174](https://github.com/hyperledger/cactus/pull/1174) feat(examples/discounted_cartrade): add preferredcustomer-jugdement
+[1175](https://github.com/hyperledger/cactus/pull/1175) docs: fix naming - use API Client isntead of SDK
 
-[2586](https://github.com/hyperledger/besu/pull/2586) Feature/1559 cleanup remove experimentaleip
+[149](https://github.com/hyperledger/fabric-gateway/pull/149) Gateway extended samples
 
-[610](https://github.com/hyperledger/fabric-private-chaincode/pull/610) (WIP) Update attestation verification with additional quote statuses
+[66](https://github.com/hyperledger-labs/firefly-cli/pull/66) Do not deploy Payment contract
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
