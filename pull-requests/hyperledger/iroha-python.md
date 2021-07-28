@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/iroha-python
                 
             </td>
             <td>
-                This is an attempt to using extended TxPaginationMeta in iroha-python library. 
+                Using extended TxPaginationMeta in iroha-python library. 
             </td>
         </tr>
     </table>

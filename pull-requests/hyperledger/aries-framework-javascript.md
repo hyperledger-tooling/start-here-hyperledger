@@ -248,33 +248,3 @@ Use indy-sdk-react-native instead of rn-indy-sdk. Best to wait until https://git
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/398" class=".btn">#398</a>
-            </td>
-            <td>
-                <b>
-                    feat(core): ledger module registerPublicDid implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add missing implementation for registerPublicDid in ledger module.
-
-Apart from ledger source files, there were some updates in ledger setup scripts in order to properly run the tests, as it is needed to have some permissions to write public DIDs.
-
-Signed-off-by: Ariel Gentile <gentilester@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-20 21:00:24 +0000 UTC
-    </div>
-</div>
-

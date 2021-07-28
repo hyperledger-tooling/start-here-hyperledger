@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2586" class=".btn">#2586</a>
+            </td>
+            <td>
+                <b>
+                    Feature/1559 cleanup remove experimentaleip
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+Remove ExperimentalEIPs
+rename and move CLI option for initial baseFee
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-28 00:49:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2584" class=".btn">#2584</a>
             </td>
             <td>
@@ -326,6 +364,10 @@ Fixes #2572
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
 There are clients that send PING messages without a from field. The devp2p spec doesn't indicate that these are optional, but we will try to handle them as if they were.
+
+The encoding for ENRseq also was implemented incorrectly, and has been changed from a byte array to a 64bit scalar.
+
+Both of these changes have been implemented to be backwards compatible with existing clients.
 
 ## PR description
 

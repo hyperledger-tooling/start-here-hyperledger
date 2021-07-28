@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/885" class=".btn">#885</a>
+            </td>
+            <td>
+                <b>
+                    Keygen updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-27 20:18:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/847" class=".btn">#847</a>
             </td>
             <td>
@@ -349,34 +375,6 @@ Signed-off-by: Darian Plumb <dplumb@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-07-21 19:56:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/835" class=".btn">#835</a>
-            </td>
-            <td>
-                <b>
-                    Update CLAP definitions to align with man pages.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Work done involved verifying that the CLAP definitions align with man
-pages. The CLAP definitions were already aligned, but the `--key` option
-required updating throughout all of main.rs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-20 18:24:07 +0000 UTC
     </div>
 </div>
 
