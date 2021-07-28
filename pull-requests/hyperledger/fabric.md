@@ -78,10 +78,9 @@ Chaincode is installed on peer0.org2
 ```
 but then it fails during approval (with the message mentioned in the issue):
 ```
-peer lifecycle chaincode queryinstalled
- Installed chaincodes on peer:
- Package ID: cc_1.0.0_1.0:5e0f5e9f4e8bc50706a74ac24ba855bcf267c469d1931812b9f5a80381d4f035, Label: cc_1.0.0_1.0
- Package ID: basic_1.0:ba90d276e408433a088e0c18919b4bb912d9df8952863169dca1a42dd23e2c09, Label: basic_1.0
++ peer lifecycle chaincode approveformyorg -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile /home/ankitm123/work/fabric-samples/test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem --channelID mychannel --name cc_1.2.3 --version 1.0 --package-id cc_1.2.3_1.0:81221a01ec04a1e2502d5b2746d0a047619878fca818b9894c6a15f366254e42 --sequence 1
++ res=1
+Error: proposal failed with status: 500 - failed to invoke backing implementation of 'ApproveChaincodeDefinitionForMyOrg': error validating chaincode definition: invalid chaincode name 'cc_1.2.3'. Names can only consist of alphanumerics, '_', and '-' and can only begin with alphanumerics
 ```
 I think chaincode name should be validated as early as `peer lifecycle chaincode package`.
 
