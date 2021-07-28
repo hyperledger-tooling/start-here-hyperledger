@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/146" class=".btn">#146</a>
+            </td>
+            <td>
+                <b>
+                    Misc cleanup surrounding Solidity contracts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Couple of standalone cleanup items identified while working #124. Might as well put them in while the larger development effort is still ongoing.
+
+Depends on https://github.com/hyperledger-labs/firefly-cli/pull/66
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-28 15:59:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/145" class=".btn">#145</a>
             </td>
             <td>
@@ -145,38 +173,6 @@ The problem here is that we knew at the point we inserted the pin, it could neve
     </table>
     <div class="right-align">
         Created At 2021-07-22 22:18:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/141" class=".btn">#141</a>
-            </td>
-            <td>
-                <b>
-                    Set max connections to 1 for SQLite and allow config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Per https://github.com/hyperledger-labs/firefly-cli/pull/64 we've seen issues with SQLite returning:
-```
-FF10116: Database insert failed: database is locked
-```
-
-We're setting a default `_busy_timeout` in the CLI now, but it still seems the concurrency inherent in FireFly means it's easy to drive SQLite to a point it returns errors.
-So the other approach is to limit the concurrent connections - and with 1 as the default that should not stress SQLite. Clearly that has a performance impact, but SQLite is primarily for lighter weight Dev scenarios where reliability matters more than performance.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-21 14:35:41 +0000 UTC
     </div>
 </div>
 
