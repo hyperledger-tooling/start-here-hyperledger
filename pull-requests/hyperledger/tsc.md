@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/tsc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/tsc/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger/tsc/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    Refactor folder structure, introduce developer debug option
+                    Developer debug option in container mode
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/tsc
                 
             </td>
             <td>
-                
+                Signed-off-by: S m, Aruna <arun.s.m.cse@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-14 13:49:56 +0000 UTC
+        Created At 2021-07-28 19:16:47 +0000 UTC
     </div>
 </div>
 

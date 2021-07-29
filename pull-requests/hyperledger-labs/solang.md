@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    Default stack size is too small on Windows (1MB)
+                    Split sema expression into smaller function to reduce stack usage
                 </b>
             </td>
         </tr>

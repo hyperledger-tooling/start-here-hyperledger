@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Propagate error in case of failure to load keypair
+                    Implementation of DelPrivateData function in mockstub.go
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
                 
             </td>
             <td>
-                Signed-off-by: S m, Aruna <aruna.mohan@walmart.com>
+                It helps with implementing and running unit tests.
+
+https://jira.hyperledger.org/browse/FABCG-21
+
+Signed-off-by: msedzins <msedzins@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-14 18:15:05 +0000 UTC
+        Created At 2021-07-28 18:29:43 +0000 UTC
     </div>
 </div>
 

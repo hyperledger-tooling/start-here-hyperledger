@@ -599,33 +599,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2770" class=".btn">#2770</a>
-            </td>
-            <td>
-                <b>
-                    Update private data docs - remove SDK reference
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Remove reference to SDK since SDK is no longer used to deploy chaincode.
-Also remove reference to legacy lifecycle (legacy lifecycle
-remains fully documented in release-1.4 docs and in the main branch CLI reference doc).
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-21 23:09:14 +0000 UTC
-    </div>
-</div>
-

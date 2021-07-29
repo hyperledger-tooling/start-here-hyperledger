@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/68" class=".btn">#68</a>
+            </td>
+            <td>
+                <b>
+                    Add helper script for mapping ports out of a FireFly stack
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I don't know if this is the right place to put this, or if it's even something that needs to be committed. But I created it, and it's helping me do local development on FireFly, so I wanted to share.
+
+My current local development steps are:
+1. Create a stack using FireFly CLI (init with `-d postgres` and start with `-n`)
+2. Run this script and output the config for firefly_core_0 to a new file
+3. Stop the firefly_core_0 container
+4. Run my own instance of FireFly with `go run main.go -f <generated-config-file>`
+
+---
+
+This script can be used to take a FireFly config file and replace
+internal docker-compose ports with the mapped ports on localhost,
+generating a new config file that can be exported.
+
+It's most useful if you want to replace a container in a stack
+with your own FireFly instance (often necessary during testing and
+development on FireFly itself).
+
+Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-28 21:37:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/67" class=".btn">#67</a>
+            </td>
+            <td>
+                <b>
+                    Replace ganache with geth
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes `ganache-cli` and replaces it with a proper `geth` node. Ganache has some interesting (not quite correct behavior) that was causing https://github.com/hyperledger-labs/firefly/issues/115 on local CLI environments, due to ethconnect not being able to tell the difference between an empty event list, or a non existent list. This fixes that strange behavior, and is even closer to what running FireFly would be like in a real production environment, with no additional containers.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-28 19:01:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/66" class=".btn">#66</a>
             </td>
             <td>
@@ -34,36 +104,6 @@ when available.
     </table>
     <div class="right-align">
         Created At 2021-07-28 16:14:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/65" class=".btn">#65</a>
-            </td>
-            <td>
-                <b>
-                    Check HTTP status code for contract deploy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This also revealed that it's not necessary to separately call
-RegisterContract if DeployContract was already called on the node with
-registeredName (it returns 409 since the contract was already registered).
-
-Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-21 20:58:11 +0000 UTC
     </div>
 </div>
 
