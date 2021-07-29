@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/40" class=".btn">#40</a>
             </td>
             <td>
                 <b>
-                    Add Ethereum support
+                    Add Mock client support and E2E test for tendermint and ethereum
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                resolves #32 
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-19 06:44:52 +0000 UTC
+        Created At 2021-07-29 09:18:08 +0000 UTC
     </div>
 </div>
 

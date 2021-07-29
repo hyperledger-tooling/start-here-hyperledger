@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/73" class=".btn">#73</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/74" class=".btn">#74</a>
             </td>
             <td>
                 <b>
-                    Check if issue metadata entry is already occupied 
+                    Update dependencies
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                Signed-off-by: KAO <kao@zurich.ibm.com>
+                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-21 10:05:19 +0000 UTC
+        Created At 2021-07-29 12:19:19 +0000 UTC
     </div>
 </div>
 

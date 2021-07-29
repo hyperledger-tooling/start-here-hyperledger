@@ -38,29 +38,3 @@ Closes #60, #61 and #62.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/63" class=".btn">#63</a>
-            </td>
-            <td>
-                <b>
-                    extending TxPaginationMeta
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an attempt to add possibility of using extended TxPaginaitonMeta
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-22 06:39:34 +0000 UTC
-    </div>
-</div>
-

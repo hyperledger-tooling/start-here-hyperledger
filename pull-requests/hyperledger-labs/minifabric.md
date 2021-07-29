@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/241" class=".btn">#241</a>
+            </td>
+            <td>
+                <b>
+                    proxy support to setup fabric onto cloud managed k8s from hehind proxy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                this commit achieved A and B2 described in issue #240.
+
+fix #240
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-29 10:11:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minifabric/pull/239" class=".btn">#239</a>
             </td>
             <td>

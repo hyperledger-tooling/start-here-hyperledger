@@ -1,13 +1,13 @@
 
-[309](https://github.com/hyperledger/aries-agent-test-harness/pull/309) Changes by create-pull-request action
+[74](https://github.com/hyperledger-labs/fabric-token-sdk/pull/74) Update dependencies
 
-[2593](https://github.com/hyperledger/besu/pull/2593) Update Spotless and google-java-format
+[2595](https://github.com/hyperledger/besu/pull/2595) Updated transaction validation to check onchain permissions at the transaction pool level
 
-[76](https://github.com/hyperledger/sawtooth-lib/pull/76) Add LMDB `ReceiptStore` implementation
+[1298](https://github.com/hyperledger/iroha/pull/1298) 1.3 release
 
-[2592](https://github.com/hyperledger/besu/pull/2592) BFT validator RPCs to use validator provider
+[454](https://github.com/hyperledger-labs/solang/pull/454) Cleanup sema/codegen separation
 
-[520](https://github.com/hyperledger/fabric-docs-i18n/pull/520) [ja_JP] Translate "create_channel/channel_policies.md"
+[241](https://github.com/hyperledger-labs/minifabric/pull/241) proxy support to setup fabric onto cloud managed k8s from hehind proxy
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
