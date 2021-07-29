@@ -14,6 +14,94 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/153" class=".btn">#153</a>
+            </td>
+            <td>
+                <b>
+                    Update repository ID in Java pom.xml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                maven-artifactory didn’t fix the 401 problem so reverting to maven-artifactory which
+was the ID for the last successful publish.
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-29 17:05:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/152" class=".btn">#152</a>
+            </td>
+            <td>
+                <b>
+                    Sample should pull node SDK from NPM
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-29 15:38:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/151" class=".btn">#151</a>
+            </td>
+            <td>
+                <b>
+                    Update repository ID in Java pom.xml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Java publish is broken due to a 401 error
+
+Attempting to fix by changing the id to match the maven service connection ID…
+
+“You should set the repositories in your project's pom.xml to have the same <id> as the name specified in the task for Maven to be able to correctly authenticate the task.”
+
+https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/package/maven-authenticate?view=azure-devops
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-29 15:16:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/150" class=".btn">#150</a>
             </td>
             <td>

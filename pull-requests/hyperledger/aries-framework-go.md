@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2897" class=".btn">#2897</a>
+            </td>
+            <td>
+                <b>
+                    fix: avoid a data race in eventprops.All()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Populates a fresh, local map instead of editing a map that's shared
+across threads.
+
+Fixes #2417
+
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-29 14:17:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2896" class=".btn">#2896</a>
             </td>
             <td>
@@ -277,35 +308,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2021-07-26 08:17:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2891" class=".btn">#2891</a>
-            </td>
-            <td>
-                <b>
-                    docs: remove image binary
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Part of #2433
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-22 14:24:28 +0000 UTC
     </div>
 </div>
 

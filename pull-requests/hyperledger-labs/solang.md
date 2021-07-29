@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    Cleanup sema/codegen separation
+                    Cleanup sema/codegen separation, improve mutability/visibility checks on override
                 </b>
             </td>
         </tr>
