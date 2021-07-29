@@ -1,13 +1,13 @@
 
-[74](https://github.com/hyperledger-labs/fabric-token-sdk/pull/74) Update dependencies
+[274](https://github.com/hyperledger/cello/pull/274) Start cello using docker compose
 
-[2595](https://github.com/hyperledger/besu/pull/2595) Updated transaction validation to check onchain permissions at the transaction pool level
+[153](https://github.com/hyperledger/fabric-gateway/pull/153) Update repository ID in Java pom.xml
 
-[1298](https://github.com/hyperledger/iroha/pull/1298) 1.3 release
+[2596](https://github.com/hyperledger/besu/pull/2596) Gradle 7.1.1 and Dependency Version Upgrades
 
-[454](https://github.com/hyperledger-labs/solang/pull/454) Cleanup sema/codegen separation
+[152](https://github.com/hyperledger/fabric-gateway/pull/152) Sample should pull node SDK from NPM
 
-[241](https://github.com/hyperledger-labs/minifabric/pull/241) proxy support to setup fabric onto cloud managed k8s from hehind proxy
+[151](https://github.com/hyperledger/fabric-gateway/pull/151) Update repository ID in Java pom.xml
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/148" class=".btn">#148</a>
-            </td>
-            <td>
-                <b>
-                    :bug: [backend/eth] conclude after progression into final
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #147 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-22 13:28:23 +0000 UTC
-    </div>
-</div>
-
