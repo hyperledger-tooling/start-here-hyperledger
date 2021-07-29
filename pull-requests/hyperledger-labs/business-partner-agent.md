@@ -30,9 +30,9 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 Add new events and listeners separate from Aries Events.
 Will use new event listeners to notify frontend via sockets (will create new message structure for frontend notifications if needed).
 
-Using a view to query tasks/activities to eliminate redundant data and possible sync issues if data is stored redundantly. Current issue with this approach is the every changing status of a completed connection (shifting into ping responses etc), so lots of states that would represent that a connection was accepted.
+After talking with the team, we are now persisting the activities/tasks. It is populated through events fired from managers. Currently tracking - connection events and presentation exchange events.
 
-
+Will use the same event listener to fire messages to the frontend which can be used to show badges to users that something new has happened. Show the badges in the most suitable location.
 
 <a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/561"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
