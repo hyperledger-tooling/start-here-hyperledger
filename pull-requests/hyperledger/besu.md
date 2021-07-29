@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2593" class=".btn">#2593</a>
+            </td>
+            <td>
+                <b>
+                    Update Spotless and google-java-format
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+Update spotless to 5.14.2 and java-google-format to 1.10.0.
+Both of these are needed to support Java 16 and Gradle 7.x.
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-29 02:48:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2592" class=".btn">#2592</a>
             </td>
             <td>
@@ -24,7 +60,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -529,46 +565,6 @@ Introduced an abstract `BftBesuControllerBuilder` with supplier methods that ena
     </table>
     <div class="right-align">
         Created At 2021-07-22 23:01:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2570" class=".btn">#2570</a>
-            </td>
-            <td>
-                <b>
-                    Bft validator provider
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-QBFT uses the same validator management logic that IBFT2 and IBFT use and allows for a lot of code reuse. This will make it possible for bft based consensus mechanism to use it's own specific mechanism to manage validators i.e. determining what the validators are and the mechanism to add and remove them.
-
-This is needed so that QBFT can move to using transaction based validator management using smart contracts.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-22 04:50:14 +0000 UTC
     </div>
 </div>
 

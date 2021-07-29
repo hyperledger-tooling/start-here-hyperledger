@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/309" class=".btn">#309</a>
+            </td>
+            <td>
+                <b>
+                    Changes by create-pull-request action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-29 03:52:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/308" class=".btn">#308</a>
             </td>
             <td>
@@ -167,32 +193,6 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-07-23 03:52:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/301" class=".btn">#301</a>
-            </td>
-            <td>
-                <b>
-                    Changes by create-pull-request action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-22 03:52:16 +0000 UTC
     </div>
 </div>
 
