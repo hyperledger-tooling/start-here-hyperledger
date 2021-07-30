@@ -36,32 +36,3 @@ permalink: /pull-requests/hyperledger/aries-askar
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/14" class=".btn">#14</a>
-            </td>
-            <td>
-                <b>
-                    ECDH-1PU minor fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                FFI: Avoid a trapped panic when a null pointer is passed as a key algorithm name
-
-Python wrapper: Add a `cc_tag` parameter to `Ecdh1PU.receiver_unwrap_key`, extend unit test
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 01:06:31 +0000 UTC
-    </div>
-</div>
-
