@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/456" class=".btn">#456</a>
+            </td>
+            <td>
+                <b>
+                    Improve ast printer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-30 17:26:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/455" class=".btn">#455</a>
             </td>
             <td>
@@ -121,74 +147,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2021-07-26 21:15:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/449" class=".btn">#449</a>
-            </td>
-            <td>
-                <b>
-                    Make sure build works with latest solana_rbpf 0.2.14
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 18:10:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/448" class=".btn">#448</a>
-            </td>
-            <td>
-                <b>
-                    Unused variable elimination
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements unused variable elimination for the Solang compiler and improves the unused variable detection.
-
-For unused variable detection, this PR improves the following cases:
-
-- Variables inside `format()`
-- Functions assigned to local variables
-- Storage load
-- Usage of methods `address` and `selector`
-
-For the unused variable elimination, the PR allows Solang to remove from the intermediate representation the following cases:
-
-- Variables that have never been read nor assigned.
-- Variables that have been assigned but never read.
-- Assignments of unused variables, including destructures.
-- Assignments of unused variables inside expressions (`a = b + (c = 1)`)
-
-This PR is part of the Linux Foundation mentorship for the Solang compiler. For more information, please refer to the [project plan](https://wiki.hyperledger.org/display/INTERN/Project+plan+-+Solang+compiler+passes+2021).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 14:33:13 +0000 UTC
     </div>
 </div>
 

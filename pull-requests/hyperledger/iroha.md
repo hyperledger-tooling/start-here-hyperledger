@@ -230,36 +230,3 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1291" class=".btn">#1291</a>
-            </td>
-            <td>
-                <b>
-                    [GHA] chat-opt from main to support/1.2.x [DO NOT SQUASH]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - [GHA] chat-ops to main
-- [GHA] better chat-ops
-- [GHA] Separate workflows by inkoking events
-- [GHA][Docker] fix clang in iroha-builder
-- [GHA] on pull request get /build spec from commit message
-- [GHA] Use Dockerhub organization 'iroha1' for forks
-- [GHA] clean-up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 13:35:51 +0000 UTC
-    </div>
-</div>
-

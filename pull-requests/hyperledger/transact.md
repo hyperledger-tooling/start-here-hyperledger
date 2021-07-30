@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/169" class=".btn">#169</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/170" class=".btn">#170</a>
             </td>
             <td>
                 <b>
-                    Replace checked_sub with saturating_sub
+                    Fix lint introduced by Rust 1.54 release
                 </b>
             </td>
         </tr>
@@ -27,22 +27,12 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                When I originally wrote this I wanted to use saturating_sub because it
-mapped nicely to the requirements but it was one version of Rust off.
-
-Its now stable.
-
-The code removed was copied from the saturating_sub pull request to the
-std library so for now there is no real change at all. Going forward relying
-on the std lib implementations is preferable to just using unpatched
-code snippets copied from pull requests.
-
-Signed-off-by: Caleb Hill <hill@bitwise.io>
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-23 13:42:25 +0000 UTC
+        Created At 2021-07-30 16:17:59 +0000 UTC
     </div>
 </div>
 

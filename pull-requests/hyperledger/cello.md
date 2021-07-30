@@ -500,29 +500,3 @@ Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/271" class=".btn">#271</a>
-            </td>
-            <td>
-                <b>
-                    Use the front page to delete the agent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use the front page to delete the agent;
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 16:23:11 +0000 UTC
-    </div>
-</div>
-

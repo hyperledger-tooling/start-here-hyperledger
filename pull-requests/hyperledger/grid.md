@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/886" class=".btn">#886</a>
+            </td>
+            <td>
+                <b>
+                    Fix 1.54.0 lint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR includes several commits to fix new clippy lint errors from the Rust 1.54.0 release. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-30 17:33:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/885" class=".btn">#885</a>
             </td>
             <td>
@@ -59,32 +85,6 @@ permalink: /pull-requests/hyperledger/grid
     </table>
     <div class="right-align">
         Created At 2021-07-26 19:25:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/846" class=".btn">#846</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT 0-2: Add bash completion for newly stabilized subcommands
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 15:59:27 +0000 UTC
     </div>
 </div>
 
