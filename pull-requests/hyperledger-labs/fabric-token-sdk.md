@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    Update dependencies
+                    Update dependencies and upgrade to Go 1.16
                 </b>
             </td>
         </tr>

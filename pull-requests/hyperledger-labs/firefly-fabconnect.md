@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/firefly-fabconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    README.md and .gitignore small improvement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                README.md - Added Makefile tag with a list of initial commands
+.gitignore - OS specific, Goland .idea folder
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-29 21:17:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/20" class=".btn">#20</a>
             </td>
             <td>
@@ -79,34 +106,6 @@ $ curl -H "Content-Type: application/json" -d '{"headers":{"type":"SendTransacti
     </table>
     <div class="right-align">
         Created At 2021-07-27 21:15:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/14" class=".btn">#14</a>
-            </td>
-            <td>
-                <b>
-                    Config handling, Tests and Mocks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - use viper to handle hierarchical config settings with config file, env variables and command line flags
-- unit tests for `cmd`, `internal/rest`
-- added mocks generation
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-22 23:31:05 +0000 UTC
     </div>
 </div>
 

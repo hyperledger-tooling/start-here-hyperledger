@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/154" class=".btn">#154</a>
+            </td>
+            <td>
+                <b>
+                    Java event example
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-29 19:38:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/153" class=".btn">#153</a>
             </td>
             <td>

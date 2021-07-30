@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2600" class=".btn">#2600</a>
+            </td>
+            <td>
+                <b>
+                    Add CHANGELOG entries for recent mining work
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+
+## PR description
+Add changelog entries for recent mining work
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-29 22:07:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2596" class=".btn">#2596</a>
             </td>
             <td>
@@ -650,38 +683,6 @@ Qbft to use validator contract
     </table>
     <div class="right-align">
         Created At 2021-07-23 04:55:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2573" class=".btn">#2573</a>
-            </td>
-            <td>
-                <b>
-                    Added abstract BftBesuControllerBuilder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Introduced an abstract `BftBesuControllerBuilder` with supplier methods that enable concrete implementations to provide the desired concrete `ExtraDataCodec` and `BftBlockInterface`.
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-22 23:01:51 +0000 UTC
     </div>
 </div>
 

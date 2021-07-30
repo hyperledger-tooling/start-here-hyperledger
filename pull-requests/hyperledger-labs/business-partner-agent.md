@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
             </td>
             <td>
                 <b>
-                    Activity/Task - query from view
+                    Activity/Task - persistence and events from backend to frontend notifications.
                 </b>
             </td>
         </tr>
@@ -32,7 +32,11 @@ Will use new event listeners to notify frontend via sockets (will create new mes
 
 After talking with the team, we are now persisting the activities/tasks. It is populated through events fired from managers. Currently tracking - connection events and presentation exchange events.
 
-Will use the same event listener to fire messages to the frontend which can be used to show badges to users that something new has happened. Show the badges in the most suitable location.
+Hooked the backend notification events to the frontend, and set the indicator badges to read these new stores. Added the `new-message-icon` onto Partner presentations to see which one was recently updated.
+
+We will have to pay attention to which events we want to populate which badge/icon, some events may not make sense, but we can deal with that in a future PR.
+
+Messages will be refactored in a future PR, as we will add persistence, which will change the event/notification model and how the `chat-window` is populated.
 
 <a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/561"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
