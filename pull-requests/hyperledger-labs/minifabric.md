@@ -91,29 +91,3 @@ o couchdb:latest ( last update: days ago )
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/237" class=".btn">#237</a>
-            </td>
-            <td>
-                <b>
-                    Post docker image to docker hub on push
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: litong01 <litong01@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-22 19:46:23 +0000 UTC
-    </div>
-</div>
-

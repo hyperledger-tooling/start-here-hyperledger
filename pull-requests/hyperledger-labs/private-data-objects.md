@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
             </td>
             <td>
                 <b>
-                    (WIP) Add policy-based verification of additional quote statuses
+                    Add policy-based verification of additional quote statuses
                 </b>
             </td>
         </tr>

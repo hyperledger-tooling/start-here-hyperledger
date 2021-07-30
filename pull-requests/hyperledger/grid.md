@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/grid
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/845" class=".btn">#845</a>
-            </td>
-            <td>
-                <b>
-                    Add bash completion for newly stabilized subcommands
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-22 18:59:26 +0000 UTC
-    </div>
-</div>
-
