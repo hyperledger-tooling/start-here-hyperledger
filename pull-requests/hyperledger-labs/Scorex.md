@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/Scorex
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/Scorex/pull/396" class=".btn">#396</a>
+                PR <a href="https://github.com/hyperledger-labs/Scorex/pull/397" class=".btn">#397</a>
             </td>
             <td>
                 <b>
-                    fixing PeerConnectionHandler
+                    handle db errors at higher level
                 </b>
             </td>
         </tr>
@@ -27,23 +27,18 @@ permalink: /pull-requests/hyperledger-labs/Scorex
                 
             </td>
             <td>
-                Problem: false positive peer bans, ie. peers are getting banned even though they communicate properly.
+                @kushti This is the most important part to review. `reportModifierIsValid` and `reportModifierIsInvalid` now return `Try` so this is the "higher level" place where we propagated the DB errors to. I did not publish any event as this is neither `semantically` nor `syntactically` failed modification, it just cannot be persisted. 
 
-Explanation: 
-Logic of this whole incoming data deserialization is as follows : 
- 1. ByteString is received 
- 2. if BS length is less than message length, keep on reading next BS as we have not enough bytes yet
- 3. otherwise try to deserialize it into a message
-
-The bug is caused by the fact that we are testing for `magic` and grabbing `msgCode` before checking the length, which means it fails (incorrectly) at time when not enough bytes is read to be able to deserialize it into a message.
-
-Fix outcome: 
-No bans happen now and more peers are connected, tested on Ergo.
+It differs as now DB errors leads to returning : 
+```
+                UpdateInformation(history, updateInfo.state, Some(modToApply), None, updateInfo.suffix)
+```
+which would lead to another `updateState` call which IDK if it is correct or not.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-15 14:33:48 +0000 UTC
+        Created At 2021-07-30 08:07:11 +0000 UTC
     </div>
 </div>
 

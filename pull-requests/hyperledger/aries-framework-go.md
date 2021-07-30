@@ -14,42 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2897" class=".btn">#2897</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2899" class=".btn">#2899</a>
             </td>
             <td>
                 <b>
-                    fix: avoid a data race in eventprops.All()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Populates a fresh, local map instead of editing a map that's shared
-across threads.
-
-Fixes #2417
-
-Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-29 14:17:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2896" class=".btn">#2896</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps-dev): bump webpack from 4.46.0 to 5.47.0 in /cmd/aries-js-worker
+                    chore(deps-dev): bump webpack from 4.46.0 to 5.47.1 in /cmd/aries-js-worker
                 </b>
             </td>
         </tr>
@@ -58,11 +27,16 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.47.0.
+                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.47.1.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
 <blockquote>
+<h2>v5.47.1</h2>
+<h1>Bugfixes</h1>
+<ul>
+<li>upgrade webpack-sources for a bunch of bugfixes regarding source maps and missing chars in output</li>
+</ul>
 <h2>v5.47.0</h2>
 <h1>Performance</h1>
 <ul>
@@ -110,13 +84,6 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
 <li>fix non-system externals in a system library</li>
 </ul>
 <h1>Performance</h1>
-<ul>
-<li>avoid copying timestamps from the watcher to the compiler</li>
-</ul>
-<h1>Contributing</h1>
-<ul>
-<li>update to jest 27</li>
-</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -124,6 +91,9 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/webpack/webpack/commit/3f353b6ae29ae6d96e0ab86e7233b4c785f99c60"><code>3f353b6</code></a> 5.47.1</li>
+<li><a href="https://github.com/webpack/webpack/commit/6b6f4fead714a9c301c30417b49c58aba153aae6"><code>6b6f4fe</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13888">#13888</a> from webpack/bugfix/webpack-sources</li>
+<li><a href="https://github.com/webpack/webpack/commit/5fc7008c3e2ade90dc7561a51eceb484ae305453"><code>5fc7008</code></a> update webpack-sources to 3.1.1</li>
 <li><a href="https://github.com/webpack/webpack/commit/efeb1287e52870036cc01b22476852205e99c31a"><code>efeb128</code></a> 5.47.0</li>
 <li><a href="https://github.com/webpack/webpack/commit/61ad5ff509a7f9ce5be703e386e4d4da6216f008"><code>61ad5ff</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13873">#13873</a> from webpack/perf/webpack-sources-3</li>
 <li><a href="https://github.com/webpack/webpack/commit/c3a0145b49e62fbda7fe1372b87b0cef517a6c7f"><code>c3a0145</code></a> update to webpack-sources version 3</li>
@@ -131,16 +101,13 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
 <li><a href="https://github.com/webpack/webpack/commit/d9c09ee7f20f174588f1877da65dc57ec1e2ac5a"><code>d9c09ee</code></a> Fix generator publicPath behavior when empty string</li>
 <li><a href="https://github.com/webpack/webpack/commit/bdf20c2a6f531022a91960d5f3facf324577d1ec"><code>bdf20c2</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13840">#13840</a> from snitin315/patch-1</li>
 <li><a href="https://github.com/webpack/webpack/commit/5f8adb0110f824c433c2619b072cdd467875434a"><code>5f8adb0</code></a> keep the eslint cache and yarn install</li>
-<li><a href="https://github.com/webpack/webpack/commit/1f4e8a293dee182bcc09fb179c321ab83d1b3320"><code>1f4e8a2</code></a> ci: use <code>cache: 'yarn'</code></li>
-<li><a href="https://github.com/webpack/webpack/commit/60d8968cd48cf1677df5f50ed878c6a912e9d692"><code>60d8968</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13842">#13842</a> from webpack/bugfix/use-strict</li>
-<li><a href="https://github.com/webpack/webpack/commit/0bd1e789d48f9b3e3ca38d6c48db7c7be5380bcd"><code>0bd1e78</code></a> generate &quot;use strict&quot; only when really needed</li>
-<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.47.0">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.47.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.47.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.47.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -171,7 +138,38 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-28 08:19:53 +0000 UTC
+        Created At 2021-07-30 08:18:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2897" class=".btn">#2897</a>
+            </td>
+            <td>
+                <b>
+                    fix: avoid a data race in eventprops.All()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Populates a fresh, local map instead of editing a map that's shared
+across threads.
+
+Fixes #2417
+
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-29 14:17:38 +0000 UTC
     </div>
 </div>
 

@@ -81,37 +81,3 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/559" class=".btn">#559</a>
-            </td>
-            <td>
-                <b>
-                    Set partner name in backend
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See: https://github.com/hyperledger-labs/business-partner-agent/issues/546
-
-UI probably needs more cleaning up. 
-
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/559"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 10:47:10 +0000 UTC
-    </div>
-</div>
-

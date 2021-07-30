@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/242" class=".btn">#242</a>
+            </td>
+            <td>
+                <b>
+                    proxy support to setup fabric onto cloud managed k8s from hehind proxy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                this PR achieved A and B21 and C described in issue #240.
+fix #240
+revenge of #241
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-30 07:15:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minifabric/pull/239" class=".btn">#239</a>
             </td>
             <td>
@@ -34,32 +62,6 @@ o couchdb:latest ( last update: days ago )
     </table>
     <div class="right-align">
         Created At 2021-07-26 01:38:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/238" class=".btn">#238</a>
-            </td>
-            <td>
-                <b>
-                    fix generated file store path: x playbook/... o vars/...
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                generated file is stored to playbook/opts/certgen/...  should be vars/keyfiles/...
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 11:36:09 +0000 UTC
     </div>
 </div>
 
