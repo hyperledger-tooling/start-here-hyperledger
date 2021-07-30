@@ -177,37 +177,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2780" class=".btn">#2780</a>
-            </td>
-            <td>
-                <b>
-                    FAB 18365 IT flake evictionsuspector failed to read eviction 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Description
-In failing case, the OSN being removed has committed the config change but failed to receive apply_config msg to halt the chain. This state is defined to be handled as part of the eviction suspicion logic. But it failed when evictionsuspector failed to check from lastconfig block if chain is up-to-date. 
-
-Fix: Updated the order of statements which looks at the latest config block and block height validation.
-
-#### Type of change
-- Bug fix
-
-Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 11:02:47 +0000 UTC
-    </div>
-</div>
-
