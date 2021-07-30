@@ -247,29 +247,3 @@ fixes #952
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1167" class=".btn">#1167</a>
-            </td>
-            <td>
-                <b>
-                    feat(corda): support release 4.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolve #888 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 13:52:44 +0000 UTC
-    </div>
-</div>
-
