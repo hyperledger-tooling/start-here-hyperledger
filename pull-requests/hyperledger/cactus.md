@@ -14,6 +14,103 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1179" class=".btn">#1179</a>
+            </td>
+            <td>
+                <b>
+                    ci(tools): validate bundle names packages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                This script is now part of the ci.sh script which
+ensures that there is no human error when defining
+the webpack bundle names in the package.json files
+for each package in the project.
+
+The idea is to reduce the manual review burden on the
+maintainers who can also miss these type of issues.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-30 05:06:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1178" class=".btn">#1178</a>
+            </td>
+            <td>
+                <b>
+                    build(tools): script to check OAS extensions #489
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                Ensures that openapi.json files "x-hyperledger-cactus"
+extensions do not contain common mistakes in them due to
+typos or just forgetting to specify certain mandatory
+properties.
+
+Fixes #489
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-30 04:02:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1177" class=".btn">#1177</a>
+            </td>
+            <td>
+                <b>
+                    docs(contributing.md): do not duplicate pull requests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">documentation</span>
+            </td>
+            <td>
+                It's been a common problem with people erasing review history
+by opening new pull requests so now it's in the CONTRIBUTING.md
+specifically being called out as something that's undesired.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-30 01:11:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1175" class=".btn">#1175</a>
             </td>
             <td>
@@ -173,89 +270,6 @@ fixes #952
     </table>
     <div class="right-align">
         Created At 2021-07-23 13:52:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1166" class=".btn">#1166</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): fix sync-npm-deps-to-tsc-projects tool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
-            </td>
-            <td>
-                1. The ./tools/sync-npm-deps-to-tsc-projects.ts script
-had a missing part in it which would fill the root
-tsconfig.json file with the references to the packages
-of the monorepo.
-
-2. Point 1 could not be achieved without removing the
-cactus-cockpit package from the dependencies of
-cmd-api-server because the script mentioned above fails
-if there are dependencies declared which do not exist
-on the file-system anymore (which is exactly what
-happened when we deprecated the cockpit package and then
-forgot to remove it from the list of dependencies.
-
-3. All the tsconfig.json files are updated by the sync
-script (from point 1.)
-
-4. Adds skip lib check true to the ipfs package's tsconfig
-file so that the issue with uint8array dependency's own typings
-don't break the build. For reference, the errors look like this:
-
-- Error: node_modules/uint8arrays/dist/to-string.d.ts(20,24): error TS2307:
-  Cannot find module './util/bases' or its corresponding type declarations.
-
-- Error: node_modules/uint8arrays/dist/to-string.d.ts(21,34): error TS2307:
-  Cannot find module './util/bases' or its corresponding type declarations.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 02:03:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1165" class=".btn">#1165</a>
-            </td>
-            <td>
-                <b>
-                    build: use yarn 1.19.0 instead of 1.22.10
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">dependencies</span>
-            </td>
-            <td>
-                Needed to downgrade because of a bug in 1.22.10 where it was
-unable to install dependencies into workspaces individually.
-
-See details here: https://github.com/yarnpkg/yarn/issues/8405
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 01:05:26 +0000 UTC
     </div>
 </div>
 

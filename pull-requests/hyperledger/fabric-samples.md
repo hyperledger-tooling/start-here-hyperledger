@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/466" class=".btn">#466</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-30 03:50:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/465" class=".btn">#465</a>
             </td>
             <td>
