@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/41" class=".btn">#41</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    Emit the event `WriteAcknowledgement` in RecvPacket
+                    Fix the order of the fields in connection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">IBC</span>
+            </td>
+            <td>
+                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-31 09:45:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/43" class=".btn">#43</a>
+            </td>
+            <td>
+                <b>
+                    Use int32 type instead of int64 as enum
                 </b>
             </td>
         </tr>
@@ -27,12 +53,16 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+                The version of the generator we used is https://github.com/datachainlab/solidity-protobuf/commit/da30d37593cb7ccd50234ebea8f0cc27e2aef400
+
+ref. https://developers.google.com/protocol-buffers/docs/proto3#enum
+
+Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-21 05:51:46 +0000 UTC
+        Created At 2021-07-31 09:40:10 +0000 UTC
     </div>
 </div>
 
