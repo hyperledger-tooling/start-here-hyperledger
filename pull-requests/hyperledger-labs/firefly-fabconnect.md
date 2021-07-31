@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-fabconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/25" class=".btn">#25</a>
+            </td>
+            <td>
+                <b>
+                    README.md and .gitignore small improvement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jan Rock <jan.rock@me.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-30 21:20:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/24" class=".btn">#24</a>
             </td>
             <td>
@@ -119,33 +145,6 @@ $ curl -H "Content-Type: application/json" -d '{"headers":{"type":"SendTransacti
     </table>
     <div class="right-align">
         Created At 2021-07-30 13:06:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/23" class=".btn">#23</a>
-            </td>
-            <td>
-                <b>
-                    README.md and .gitignore small improvement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                README.md - Added Makefile tag with a list of initial commands
-.gitignore - OS specific, Goland .idea folder
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-29 21:17:26 +0000 UTC
     </div>
 </div>
 

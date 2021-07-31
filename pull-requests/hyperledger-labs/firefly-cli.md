@@ -50,50 +50,6 @@ Resolves https://github.com/hyperledger-labs/firefly-cli/issues/2
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/68" class=".btn">#68</a>
-            </td>
-            <td>
-                <b>
-                    Add helper script for mapping ports out of a FireFly stack
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I don't know if this is the right place to put this, or if it's even something that needs to be committed. But I created it, and it's helping me do local development on FireFly, so I wanted to share.
-
-My current local development steps are:
-1. Create a stack using FireFly CLI (init with `-d postgres` and start with `-n`)
-2. Run this script and output the config for firefly_core_0 to a new file
-3. Stop the firefly_core_0 container
-4. Run my own instance of FireFly with `go run main.go -f <generated-config-file>`
-
----
-
-This script can be used to take a FireFly config file and replace
-internal docker-compose ports with the mapped ports on localhost,
-generating a new config file that can be exported.
-
-It's most useful if you want to replace a container in a stack
-with your own FireFly instance (often necessary during testing and
-development on FireFly itself).
-
-Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-28 21:37:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/67" class=".btn">#67</a>
             </td>
             <td>

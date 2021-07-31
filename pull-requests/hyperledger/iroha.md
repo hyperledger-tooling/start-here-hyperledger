@@ -14,6 +14,177 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1302" class=".btn">#1302</a>
+            </td>
+            <td>
+                <b>
+                    v1.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Batch db requests (#791)
+- fixup! no clone (#796)
+- Yac: do not consider next round as Future (#742)
+- add wsv restore mode - sync blockstore (#812)
+- Feature/Improves stability in networks with faulty nodes (#809)
+- fix/Block request timeout. (#840)
+- [DOPS-1289] Rename master branch (#804)
+- Feature/subscription engine (#813)
+- Subscription engine singleton (#849)
+- Add prometheus metrics sample (#841)
+- clang fix (#909)
+- 881 no --drop-state flag for first run (#900)
+- Infrastructure: increase Windows CI disk size
+- vcpkg: add pkg-config patch
+- Infrastructure: use main branch where required
+- build fix
+- OnDemandOrderingServiceImpl: remove boost::adaptors::filter usage
+- SE features update
+- Fix postgres_options_test
+- Clang-format
+- [SE] do not allow stack-created subscriber
+- AmetsuchiTest: add condition for prepared block tests
+- [SE] sync/async dispatcher
+- added schedulers bind/unbind additional schedulers to dispatcher
+- [RDB] rocksdb init
+- Initialize default log manager to report config-file issues.
+- fixed links
+- configuration information+small fixes+change in m2r extension
+- PR template
+- reinterpret_pointer_cast moved to iroha ns
+- [GRPC] Deny messages longer than 4MB
+- irohad flags + link fixes
+- Irohad: add subscription engine field
+- TransactionProcessor: decouple from rxcpp
+- BlockLoader: replace observable with any_range
+- Synchronizer: decouple from rxcpp
+- Fix fuzzing build
+- Simulator: decouple from rxcpp
+- BlockLoader: replace range with BlockReader
+- Review fixes, rename methods
+- Add missing deduction guide, apply clang-format-7
+- Implement make_weak, replace monostate with dedicated struct
+- Add missing include
+- FlatFile: close file before rename
+- [RDB] wsv commands and queries
+- Docs: Contributing Guide Fix (#873)
+- Create repolinter.yml
+- fixing python example (#895)
+- Missing docs from master (#892)
+- fixed doc build (#902)
+- Infrastructure: increase Windows CI disk size
+- vcpkg: add pkg-config patch
+- Replace round delay with proposal creation timeout
+- Ordering: send batches to current and next rounds
+- YacGateImpl: decouple from rxcpp
+- Yac: decouple from rxcpp
+- Ordering: decouple from rxcpp, async proposal request
+- Fix build, add proposal check
+- Review fixes
+- Build fixes
+- Yac: format namespace usage
+- Fix consensus sunny day test
+- [RDB] block indexer
+- [RDB] command executor
+- [Docs] Option pg_config is deprecated #1037
+- Metrics all in one (#943)
+- fix precision
+- [RDB] read precision in SubstractAssetQuantity
+- Synchronizer: fix assert failure
+- [RDB] specific query executor
+- Remove rxcpp from ametsuchi, torii, pending txs storage; make gRPC params optional
+- [CI][GHActions] Introduce GitHub Actions Iroha1 (#1028)
+- Docs: Block Path Config Description (#1080)
+- [GHActions][Hotfix] Better matrix generating - fix red cross (#1039)
+- [GHA] gha-branches and -DCMAKE_BUILD_TYPE from matrix (#1157)
+- [SE] fixed thread poll tasks balancer
+- Remove storage from peer orderer
+- Add commands to burrow integration (#1152)
+- [RDB] integration
+- [client-api] extending TxPaginationMeta in GetAccountTransactions, GetAccountAssetsTransactions (#1092)
+- Add scripts/fix-dco.sh
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-30 18:56:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1301" class=".btn">#1301</a>
+            </td>
+            <td>
+                <b>
+                    Fix DCO
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-30 18:31:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1300" class=".btn">#1300</a>
             </td>
             <td>

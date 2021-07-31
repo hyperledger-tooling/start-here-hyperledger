@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/146" class=".btn">#146</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/147" class=".btn">#147</a>
             </td>
             <td>
                 <b>
-                    Add release notes for 0.7.2
+                    Clippy fixes for 1.54 Rust
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
                 
             </td>
             <td>
-                Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+                
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-22 16:55:40 +0000 UTC
+        Created At 2021-07-30 21:26:51 +0000 UTC
     </div>
 </div>
 

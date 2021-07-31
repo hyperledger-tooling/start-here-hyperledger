@@ -64,31 +64,3 @@ Depends on https://github.com/hyperledger-labs/firefly-cli/pull/66
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/144" class=".btn">#144</a>
-            </td>
-            <td>
-                <b>
-                    Add MAINTAINERS.md, CONTRIBUTING.md and other required files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a proposed process for adding new maintainers, as well as a short guide on making contributions. I've also included several other required files to get us up to spec with: https://github.com/hyperledger-labs/hyperledger-community-management-tools/tree/main/repo_structure
-
-Still missing is a CHANGELOG.md. I'm looking into ways to automate this. This PR will remain in draft state until existing maintainers have had time to discuss and agree on the process for adding new maintainers.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-23 19:25:27 +0000 UTC
-    </div>
-</div>
-
