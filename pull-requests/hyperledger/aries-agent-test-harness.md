@@ -144,29 +144,3 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/303" class=".btn">#303</a>
-            </td>
-            <td>
-                <b>
-                    Changes by create-pull-request action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-24 03:52:14 +0000 UTC
-    </div>
-</div>
-
