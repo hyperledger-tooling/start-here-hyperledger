@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    v1.3
+                    v1.3: support/1.2.x with fixed DCO to main
                 </b>
             </td>
         </tr>
