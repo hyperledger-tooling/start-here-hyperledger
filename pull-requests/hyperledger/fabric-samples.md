@@ -286,30 +286,3 @@ Signed-off-by: Baran Kılıç <baran.kilic@boun.edu.tr>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/462" class=".btn">#462</a>
-            </td>
-            <td>
-                <b>
-                    Genesis Block error, fixed.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Genesis Block error due  to  missing profile in configtx.yaml file.
-When you run the present program, it creates a genesis block which doesn't  look right, plus I couldn't find where the genesis block was being created in the present network.sh file in test-network folder. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-25 12:52:13 +0000 UTC
-    </div>
-</div>
-
