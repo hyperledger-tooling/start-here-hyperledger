@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/283" class=".btn">#283</a>
+            </td>
+            <td>
+                <b>
+                    fix #279: fix relationship between channel and organization.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added a manytomanyfield in channel and updated channel creation
+and query endpoints.
+
+Close #279
+
+Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-31 22:43:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/282" class=".btn">#282</a>
             </td>
             <td>

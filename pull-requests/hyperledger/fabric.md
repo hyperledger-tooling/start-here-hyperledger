@@ -150,30 +150,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2783" class=".btn">#2783</a>
-            </td>
-            <td>
-                <b>
-                    Update to latest major version of Go
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Brett Logan <lindluni@github.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-24 23:40:25 +0000 UTC
-    </div>
-</div>
-

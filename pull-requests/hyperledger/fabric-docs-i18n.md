@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/525" class=".btn">#525</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Translate "create_channel_config.md"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                This patch translates "Tutorials >> Creating a channel >> Using configtx.yaml" into Japanese.
+
+Resolves #206
+
+Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-31 22:17:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/524" class=".btn">#524</a>
             </td>
             <td>
