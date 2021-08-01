@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/414" class=".btn">#414</a>
+            </td>
+            <td>
+                <b>
+                    Documentation - Adding overview 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I found this very useful to remove the confusion many developers face when first trying the framework and thinking everything works like normal API call.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-01 04:05:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/413" class=".btn">#413</a>
             </td>
             <td>
