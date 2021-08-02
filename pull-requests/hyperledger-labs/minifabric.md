@@ -38,30 +38,3 @@ revenge of #241
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/239" class=".btn">#239</a>
-            </td>
-            <td>
-                <b>
-                    bumps couchdb to active version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                x hyperledger/fabric-couchdb:latest (last update: 8 month ago)
-o couchdb:latest ( last update: days ago )
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-26 01:38:15 +0000 UTC
-    </div>
-</div>
-
