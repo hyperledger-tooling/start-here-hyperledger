@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/410" class=".btn">#410</a>
-            </td>
-            <td>
-                <b>
-                    build: fix start scripts for mediators
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                the start scripts used in the docker-compose setup do not match with the actual name of the start scripts that are defined in the package.json
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-26 07:58:27 +0000 UTC
-    </div>
-</div>
-

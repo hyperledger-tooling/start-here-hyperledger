@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/155" class=".btn">#155</a>
+            </td>
+            <td>
+                <b>
+                    Publish nightly builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit reverts changes to debug Java publish problems
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-02 10:16:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/154" class=".btn">#154</a>
             </td>
             <td>
@@ -255,34 +283,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-07-26 16:04:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/145" class=".btn">#145</a>
-            </td>
-            <td>
-                <b>
-                    FABGW-25 Scenario tests for collections & SBE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added extra scenarios to the privatedata and sbe feature files to test the new endorser selection logic in the gateway
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-26 09:38:04 +0000 UTC
     </div>
 </div>
 
