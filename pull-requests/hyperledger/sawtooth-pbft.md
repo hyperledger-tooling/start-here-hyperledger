@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-pbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-pbft/pull/179" class=".btn">#179</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-pbft/pull/180" class=".btn">#180</a>
             </td>
             <td>
                 <b>
-                    Fix lint introduced with Rust 1.53.0 release
+                    Fix needless_borrow lint
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/sawtooth-pbft
                 
             </td>
             <td>
-                
+                This change fixes a lint introduced with the Rust 1.54.0 release. The lint warns of borrowing an already borrowed value.
+
+See https://rust-lang.github.io/rust-clippy/master/index.html#needless_borrow for more detail.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-21 15:44:55 +0000 UTC
+        Created At 2021-08-02 14:53:56 +0000 UTC
     </div>
 </div>
 
