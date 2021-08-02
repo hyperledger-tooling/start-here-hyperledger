@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/324" class=".btn">#324</a>
+            </td>
+            <td>
+                <b>
+                    hotfix: included vcx_v2_messages_download method in LibVcx API and in…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Hotfix
+
+* included vcx_v2_messages_download method in java wrapper
+
+New Methods
+
+* In LibVcx.API, it was included/exposed vcx_v2_messages_download
+* In UtilsApi, it was included vcxV2GetMessages method to retrieve messages from agent in a more secure way (better than vcxGetMessages)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-01 19:30:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/323" class=".btn">#323</a>
             </td>
             <td>
