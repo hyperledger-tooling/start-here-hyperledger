@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/527" class=".btn">#527</a>
+            </td>
+            <td>
+                <b>
+                    RU commands reference
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-02 06:46:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/526" class=".btn">#526</a>
+            </td>
+            <td>
+                <b>
+                    RU create channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-02 06:41:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/525" class=".btn">#525</a>
             </td>
             <td>

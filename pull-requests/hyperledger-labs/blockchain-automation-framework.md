@@ -128,38 +128,3 @@ Fixed deployment issues with network validation
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1583" class=".btn">#1583</a>
-            </td>
-            <td>
-                <b>
-                    [shared] removed need to have network.yaml in build folder for validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Add quorum and besu in the validation network.type enum
-- Fix need to have network.yaml in build folder for validation 
-
- 
-
-**Reviewed by**
-@jagpreetsinghsasan 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-26 06:33:54 +0000 UTC
-    </div>
-</div>
-

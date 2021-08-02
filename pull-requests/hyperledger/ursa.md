@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/184" class=".btn">#184</a>
+                PR <a href="https://github.com/hyperledger/ursa/pull/186" class=".btn">#186</a>
             </td>
             <td>
                 <b>
-                    fix type typo
+                    Updated versions for k256 and p256 crates
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                Signed-off-by: Abdulhamit Kumru <abdulhamit.kumru-b@tubitak.gov.tr>
+                Updated versions for k256 and p256 crates in order to resolve dependency versions conflics with `ssi` crate
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-13 20:50:24 +0000 UTC
+        Created At 2021-08-02 12:00:21 +0000 UTC
     </div>
 </div>
 
