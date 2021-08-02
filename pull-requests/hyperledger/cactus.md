@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1182" class=".btn">#1182</a>
+            </td>
+            <td>
+                <b>
+                    fix(examples/discounted_cartrade): update the cert and private key at…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                … default.json to activate trade process in discouted-cartrade
+
+This PR resolves Issue #1181
+
+Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-02 15:11:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1179" class=".btn">#1179</a>
             </td>
             <td>
@@ -190,32 +220,6 @@ resolves #1148 (update by Peter)
     </table>
     <div class="right-align">
         Created At 2021-07-27 20:15:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1169" class=".btn">#1169</a>
-            </td>
-            <td>
-                <b>
-                    Draft pull request for Iroha connector plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-26 15:56:16 +0000 UTC
     </div>
 </div>
 

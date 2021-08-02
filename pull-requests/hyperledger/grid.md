@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/889" class=".btn">#889</a>
+            </td>
+            <td>
+                <b>
+                    Backport: Fix lint for Rust 1.54.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a backport of PR #886 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-02 14:10:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/888" class=".btn">#888</a>
             </td>
             <td>
