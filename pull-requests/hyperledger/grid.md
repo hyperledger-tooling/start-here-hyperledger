@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/892" class=".btn">#892</a>
+            </td>
+            <td>
+                <b>
+                    Fix 1.54.0 lint for Grid 0.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This includes several commits to address lint warnings that were introduced in Rust 1.54.0.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-03 17:16:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/891" class=".btn">#891</a>
+            </td>
+            <td>
+                <b>
+                    Add Cylinder JWT support to app auth handler
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR makes various updates to support the authorization requirements in Splinter 0.5. This updates the Splinter dep, and various others in support of this update, to 0.5 within the Grid daemon. Authorization, in the form of Cylinder JWTs, has been added to all requests sent to the Splinter backend. This also updates the Signer used by the app auth handler to a Cylinder signer, allowing the JWT to be formed from this signer and added to rest requests. 
+
+This functionality is behind the experimental `cylinder-jwt-support` feature. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-03 14:09:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/889" class=".btn">#889</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2413" class=".btn">#2413</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2416" class=".btn">#2416</a>
             </td>
             <td>
                 <b>
-                    Update version of libc
+                    Remove libvcx in favor of forks
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+                `libvcx` maintenance support was dropped long time ago in indysdk repo. 
+
+Maintained alternative forks are:
+- Hyperledger [Aries VCX](https://github.com/hyperledger/aries-vcx)
+- Evernym [EV-VCX](https://gitlab.com/evernym/mobile/ev-vcx)
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-26 09:19:59 +0000 UTC
+        Created At 2021-08-03 14:33:17 +0000 UTC
     </div>
 </div>
 

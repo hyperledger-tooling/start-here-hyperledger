@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2608" class=".btn">#2608</a>
+            </td>
+            <td>
+                <b>
+                    Update Repo for `main` branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Switch from `master` to `main` for the default branch
+* Update CircleCI configuration
+* Update Gradle snapshot detection
+* Update issue templates
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-03 18:12:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2605" class=".btn">#2605</a>
             </td>
             <td>
@@ -411,45 +455,6 @@ rename and move CLI option for initial baseFee
     </table>
     <div class="right-align">
         Created At 2021-07-28 00:49:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2584" class=".btn">#2584</a>
-            </td>
-            <td>
-                <b>
-                    Add unstable CLI option for max ommers depth
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-Add an unstable CLI parameter to specify the max ommers depth, with a default value of 8.
-
-## Fixed Issue(s)
-Relates to issue #2572 and PR #2576
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 17:02:38 +0000 UTC
     </div>
 </div>
 
