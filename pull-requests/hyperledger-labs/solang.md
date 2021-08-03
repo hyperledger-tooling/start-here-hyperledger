@@ -166,39 +166,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/451" class=".btn">#451</a>
-            </td>
-            <td>
-                <b>
-                    Reduce the stack frame on the Solana bundle and modifier fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Turns out, the llvm does not take lifetime into consideration when
-creating stack frames. All the stack space created with alloca is just
-bundled into a single mega stack frame. Unfortunately, this is limited
-to 4096 bytes and if the stack frame is larger, then you will get access
-violation errors.
-
-The solang_dispatch() function contained the dispatch for every function
-in every contract. The dispatch includes the abi decoding; so, split
-this into per-contract dispatch.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-26 21:15:52 +0000 UTC
-    </div>
-</div>
-

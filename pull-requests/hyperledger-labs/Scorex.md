@@ -33,7 +33,7 @@ It differs as now DB errors leads to returning :
 ```
                 UpdateInformation(history, updateInfo.state, Some(modToApply), None, updateInfo.suffix)
 ```
-which would lead to another `updateState` call which IDK if it is correct or not.
+which would lead to another `updateState` call which is probably wrong, it is just to demonstrate that we are handling that effect now.
             </td>
         </tr>
     </table>

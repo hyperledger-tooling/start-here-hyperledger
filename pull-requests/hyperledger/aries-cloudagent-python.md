@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1334" class=".btn">#1334</a>
-            </td>
-            <td>
-                <b>
-                    Updated IndyCredPrecisSchema - pres_referents renamed to presentation_referents
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #1327 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-26 21:47:35 +0000 UTC
-    </div>
-</div>
-

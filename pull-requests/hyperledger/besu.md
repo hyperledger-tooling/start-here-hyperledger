@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2603" class=".btn">#2603</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix/besu 2598 basefee present before fork block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
+
+## PR description
+
+add header checks to ensure baseFee is not present prior to london fork block.  
+
+This fixes the failing BerlinToLondon blockchain transition reference test: http://retesteth.ethdevops.io/results/log//2021-08-02-1627881396-besu.txt
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2598
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-02 18:48:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2602" class=".btn">#2602</a>
             </td>
             <td>
@@ -155,46 +197,6 @@ Fixes #1466.
     </table>
     <div class="right-align">
         Created At 2021-07-29 12:04:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2594" class=".btn">#2594</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix/2546 retesteth clock
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes #2546 
-expose a protected method to set/update the clock in TimestampBoundedByFutureParameter in order to support the mutable RetestethClock
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-29 06:56:21 +0000 UTC
     </div>
 </div>
 
@@ -525,38 +527,6 @@ Fixes #2065
     </table>
     <div class="right-align">
         Created At 2021-07-27 03:02:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2578" class=".btn">#2578</a>
-            </td>
-            <td>
-                <b>
-                    Updated CHANGELOG
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Updating CHANGELOG with missing features.
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-26 21:34:28 +0000 UTC
     </div>
 </div>
 

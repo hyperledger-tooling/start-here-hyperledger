@@ -155,29 +155,3 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/847" class=".btn">#847</a>
-            </td>
-            <td>
-                <b>
-                    Add REST API specification for Purchase Order
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Darian Plumb <dplumb@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-26 19:25:25 +0000 UTC
-    </div>
-</div>
-
