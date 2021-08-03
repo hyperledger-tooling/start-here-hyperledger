@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/285" class=".btn">#285</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/286" class=".btn">#286</a>
             </td>
             <td>
                 <b>
-                    Test pipelines
+                     updated documentation for getStateByPartialCompositeKey
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Signed-off-by: Kestutis Gudynas <kestutis.gudynas@ibm.com>
+                updated documentation for getStateByPartialCompositeKey, getStateByartialCompositeKeyWithPagination and getPrivateDataByPartialCompositeKey.
+Specified that we cant do a full key query: https://jira.hyperledger.org/browse/FABCN-376
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-19 11:10:16 +0000 UTC
+        Created At 2021-08-03 08:50:19 +0000 UTC
     </div>
 </div>
 

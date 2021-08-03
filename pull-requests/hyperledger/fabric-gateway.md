@@ -234,29 +234,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/147" class=".btn">#147</a>
-            </td>
-            <td>
-                <b>
-                    node hsm sample
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 09:08:47 +0000 UTC
-    </div>
-</div>
-

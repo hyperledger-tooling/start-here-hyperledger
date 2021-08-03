@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/328" class=".btn">#328</a>
+            </td>
+            <td>
+                <b>
+                    Ci/fix test execution
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-03 09:47:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/327" class=".btn">#327</a>
             </td>
             <td>
@@ -76,7 +102,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">wrappers</span>
             </td>
             <td>
                 Hotfix
