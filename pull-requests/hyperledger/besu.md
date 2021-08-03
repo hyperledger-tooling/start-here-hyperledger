@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2605" class=".btn">#2605</a>
+            </td>
+            <td>
+                <b>
+                    removed deprecated privacy-precompiled-address CLI option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamRevenant</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Removed long-deprecated privacy-precompiled-address CLI option
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-03 05:45:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2604" class=".btn">#2604</a>
+            </td>
+            <td>
+                <b>
+                    PKI QbftContext and QbftBesuControllerBuilder update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+- Created `PKIQbftContext` that is used with Besu on PKI-QBFT mode.
+- `QbftBesuControllerBuilder` uses the presence of the PKI keystore to decide if it should instantiate the PKI-specific classes 'PkiQbftExtraDataCodec' and 'PkiQbftContext'
+- The wiring of the PKI keystore will be done in a follow-up PR. At the moment it will always be empty.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-03 02:42:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2603" class=".btn">#2603</a>
             </td>
             <td>
@@ -384,149 +450,6 @@ Relates to issue #2572 and PR #2576
     </table>
     <div class="right-align">
         Created At 2021-07-27 17:02:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2583" class=".btn">#2583</a>
-            </td>
-            <td>
-                <b>
-                    Add stratum metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-Adds a few metrics to record the stratum port activity.
-
-## Fixed Issue(s)
-Fixes #2325
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 06:15:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2582" class=".btn">#2582</a>
-            </td>
-            <td>
-                <b>
-                    simplify --min-gas-price dependency check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-See #2579 
-For goQuorum mode, min-gas-price must be zero and this is checked separately so I think this warning is adequate. 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 04:11:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2581" class=".btn">#2581</a>
-            </td>
-            <td>
-                <b>
-                    Add ability to expose getWork/submitWork JSON-RPC methods over the stratum port
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-Adds the JSON-RPC methods getWork/submitWork to the stratum port, so miners can communicate with Besu over the stratum port. This allows to keep the JSON-RPC port closed to miner traffic.
-
-## Fixed Issue(s)
-Fixes #2065
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 03:19:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2580" class=".btn">#2580</a>
-            </td>
-            <td>
-                <b>
-                    Created PkiQbftExtraData
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-- Created `PkiQbftExtraData` and `PkiQbftExtraDataCodec`
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 03:02:45 +0000 UTC
     </div>
 </div>
 

@@ -27,9 +27,8 @@ permalink: /pull-requests/hyperledger/cactus
                 
             </td>
             <td>
-                … default.json to activate trade process in discouted-cartrade
-
-This PR resolves Issue #1181
+                This PR resolves part of Issue #1181
+In this PR, I update the cert and private key at default.json to activate trade process in discouted-cartrade.
 
 Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
             </td>
@@ -151,7 +150,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 Fixes #1138
@@ -211,7 +210,7 @@ resolves #1148 (update by Peter)
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Core_API</span><span class="chip">Keychain</span>
             </td>
             <td>
                 fixes #478
