@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1595" class=".btn">#1595</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Update to vault v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: kaverikhaneja <kaveri.khaneja@accenture.com>
+
+**Changelog**
+
+- Update vault commands to v2
+- Update any file paths, as per needed
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar 
+@sownak 
+
+ 
+
+**Linked issue**
+#1549 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-03 12:41:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1594" class=".btn">#1594</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Schema validation for fabric  network.yaml 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jose Pazos <pppazos@gmail.com>
+
+**Changelog**
+- Update network-schema.json with HL Fabric rules
+- Update fabric operation guide with json-schema instructions and missing fields description
+- Update fabric sample network templates with meta directive $schema
+
+ 
+
+**Reviewed by**
+@pppazos
+
+ 
+
+**Linked issue**
+#1589 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-03 12:31:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1588" class=".btn">#1588</a>
             </td>
             <td>
@@ -33,98 +118,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </table>
     <div class="right-align">
         Created At 2021-07-28 13:26:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1587" class=".btn">#1587</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] fix deployment issues
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
-
-Fixed deployment issues with network validation
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 16:27:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1586" class=".btn">#1586</a>
-            </td>
-            <td>
-                <b>
-                    [docs] latest from main branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Latest merge from main branch
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 15:19:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1585" class=".btn">#1585</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] update sample yamls for quourm, changed variable name for q2t port
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Add clientport variable under transaction_manager field
-- Fix clientport hardcoded in tessera service.yaml
-- Update tessera and quorum release file template
-
- 
-
-**Reviewed by**
-@sownak 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 13:30:26 +0000 UTC
     </div>
 </div>
 
