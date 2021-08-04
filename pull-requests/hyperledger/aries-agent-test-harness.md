@@ -219,31 +219,3 @@ Closes #265
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/308" class=".btn">#308</a>
-            </td>
-            <td>
-                <b>
-                    aries issue-credential-v2 / present-proof-v2 json-ld cred support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Citizenship credentials aren't enabled in this PR, as they require a small feature in afgo, but all the changes needed in AATH to get them working are included here.
-
-Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-28 06:12:17 +0000 UTC
-    </div>
-</div>
-

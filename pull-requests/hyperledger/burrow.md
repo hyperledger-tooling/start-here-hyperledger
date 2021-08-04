@@ -14,25 +14,153 @@ permalink: /pull-requests/hyperledger/burrow
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/burrow/pull/1506" class=".btn">#1506</a>
+                PR <a href="https://github.com/hyperledger/burrow/pull/1508" class=".btn">#1508</a>
             </td>
             <td>
                 <b>
-                    add docs for 0.34.4
+                    Bump tar from 6.1.0 to 6.1.5 in /docs/example/basic-app
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
-                Signed-off-by: Silas Davis <silas@monax.io>
+                Bumps [tar](https://github.com/npm/node-tar) from 6.1.0 to 6.1.5.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/npm/node-tar/commit/bd4691c90478f41b2649a97048199e34927dc046"><code>bd4691c</code></a> 6.1.5</li>
+<li><a href="https://github.com/npm/node-tar/commit/d694c4f810d864badf223efa35d24a000d780179"><code>d694c4f</code></a> ci: test on node 16</li>
+<li><a href="https://github.com/npm/node-tar/commit/84acbd31288541100910a528e437f901f8012214"><code>84acbd3</code></a> fix(unpack): fix hang on large file on open() fail</li>
+<li><a href="https://github.com/npm/node-tar/commit/97c46fcee7e4e7849ea3432086c4537fb6197025"><code>97c46fc</code></a> fix(unpack): always resume parsing after an entry error</li>
+<li><a href="https://github.com/npm/node-tar/commit/488ab8c01de69379406d937419fa3e5550e651c0"><code>488ab8c</code></a> chore: WriteEntry cleaner write() handling</li>
+<li><a href="https://github.com/npm/node-tar/commit/be89aafd95296e9721e124b77eee7c745e1c1e97"><code>be89aaf</code></a> WriteEntry backpressure</li>
+<li><a href="https://github.com/npm/node-tar/commit/ba73f5eea55f9cf65048b4d9578462ec8f80bc5e"><code>ba73f5e</code></a> chore: track fs state on WriteEntry class, not in arguments</li>
+<li><a href="https://github.com/npm/node-tar/commit/bf693837b3dcfeb76878b212310302dc5dc3d3dc"><code>bf69383</code></a> 6.1.4</li>
+<li><a href="https://github.com/npm/node-tar/commit/06cbde5935aa7643f578f874de84a7da2a74fe3a"><code>06cbde5</code></a> Avoid an unlikely but theoretically possible redos</li>
+<li><a href="https://github.com/npm/node-tar/commit/0b78386c53b00dce422742e19de94f2a4d9389f3"><code>0b78386</code></a> 6.1.3</li>
+<li>Additional commits viewable in <a href="https://github.com/npm/node-tar/compare/v6.1.0...v6.1.5">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tar&package-manager=npm_and_yarn&previous-version=6.1.0&new-version=6.1.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/burrow/network/alerts).
+
+</details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-23 13:54:23 +0000 UTC
+        Created At 2021-08-04 03:42:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/burrow/pull/1507" class=".btn">#1507</a>
+            </td>
+            <td>
+                <b>
+                    Bump tar from 6.1.0 to 6.1.5 in /docs/example/basic-app-website
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [tar](https://github.com/npm/node-tar) from 6.1.0 to 6.1.5.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/npm/node-tar/commit/bd4691c90478f41b2649a97048199e34927dc046"><code>bd4691c</code></a> 6.1.5</li>
+<li><a href="https://github.com/npm/node-tar/commit/d694c4f810d864badf223efa35d24a000d780179"><code>d694c4f</code></a> ci: test on node 16</li>
+<li><a href="https://github.com/npm/node-tar/commit/84acbd31288541100910a528e437f901f8012214"><code>84acbd3</code></a> fix(unpack): fix hang on large file on open() fail</li>
+<li><a href="https://github.com/npm/node-tar/commit/97c46fcee7e4e7849ea3432086c4537fb6197025"><code>97c46fc</code></a> fix(unpack): always resume parsing after an entry error</li>
+<li><a href="https://github.com/npm/node-tar/commit/488ab8c01de69379406d937419fa3e5550e651c0"><code>488ab8c</code></a> chore: WriteEntry cleaner write() handling</li>
+<li><a href="https://github.com/npm/node-tar/commit/be89aafd95296e9721e124b77eee7c745e1c1e97"><code>be89aaf</code></a> WriteEntry backpressure</li>
+<li><a href="https://github.com/npm/node-tar/commit/ba73f5eea55f9cf65048b4d9578462ec8f80bc5e"><code>ba73f5e</code></a> chore: track fs state on WriteEntry class, not in arguments</li>
+<li><a href="https://github.com/npm/node-tar/commit/bf693837b3dcfeb76878b212310302dc5dc3d3dc"><code>bf69383</code></a> 6.1.4</li>
+<li><a href="https://github.com/npm/node-tar/commit/06cbde5935aa7643f578f874de84a7da2a74fe3a"><code>06cbde5</code></a> Avoid an unlikely but theoretically possible redos</li>
+<li><a href="https://github.com/npm/node-tar/commit/0b78386c53b00dce422742e19de94f2a4d9389f3"><code>0b78386</code></a> 6.1.3</li>
+<li>Additional commits viewable in <a href="https://github.com/npm/node-tar/compare/v6.1.0...v6.1.5">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tar&package-manager=npm_and_yarn&previous-version=6.1.0&new-version=6.1.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/burrow/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-04 03:42:23 +0000 UTC
     </div>
 </div>
 

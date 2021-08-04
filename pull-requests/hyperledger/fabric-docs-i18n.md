@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/537" class=".btn">#537</a>
+            </td>
+            <td>
+                <b>
+                    RU peer chaincode command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-04 06:07:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/531" class=".btn">#531</a>
             </td>
             <td>
@@ -50,7 +76,7 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">jaJP-docs-ongoing</span>
             </td>
             <td>
                 This PR updates the untranslated and translated documents to those in the commit `9a6b35104e88dc2df08db7c7b0ba3d0f61127a85` in the `release-2.2` branch of the [`fabric`](https://github.com/hyperledger/fabric) repository.
