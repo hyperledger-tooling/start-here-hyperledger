@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                
+                - Tests in `aries_vcx` were not being executed in CI 
+- Some tests in `aries_vcx` did not compile,  needed small tweak
+- Modification in `aries_vcx` did not trigger `libvcx` image rebuild
             </td>
         </tr>
     </table>
@@ -79,7 +81,9 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                 Test integration between `aries_vcx` and underlying `libindy` + `pgsql` plugin
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>

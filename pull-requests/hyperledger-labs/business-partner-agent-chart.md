@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    webhook security
+                    pre-release
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                Depends on https://github.com/hyperledger-labs/business-partner-agent/pull/560 being merged
+                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-26 14:27:42 +0000 UTC
+        Created At 2021-08-04 09:19:45 +0000 UTC
     </div>
 </div>
 
