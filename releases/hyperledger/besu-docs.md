@@ -15,32 +15,31 @@ permalink: /releases/hyperledger/besu-docs
         <tr>
             <td colspan="2">
                 <b>
-                    21.7.1
+                    21.7.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    21.7.1
+                    21.7.2
                 </span>
             </td>
             <td>
-                ### Additions and Improvements
+                ## Bug Fixes
 
 This release contains improvements and bugfixes for optimum compatibility with other London client versions.
 
-- `priv_call` now uses NO_TRACING OperationTracer implementation which improves memory usage [\#2482](https://github.com/hyperledger/besu/pull/2482)
-- Ping and Pong messages now support ENR encoding as scalars or bytes [\#2512](https://github.com/hyperledger/besu/pull/2512)
+- hotfix for private transaction identification for mainnet transactions [#2609](https://github.com/hyperledger/besu/pull/2609)
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu-docs/releases/tag/21.7.1" class=".btn">
+    <a href="https://github.com/hyperledger/besu-docs/releases/tag/21.7.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-07-09 19:17:33 +0000 UTC
+        Created At 2021-08-03 18:47:28 +0000 UTC
     </span>
 </div>
 
