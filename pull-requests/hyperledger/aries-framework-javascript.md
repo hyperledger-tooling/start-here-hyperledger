@@ -133,7 +133,7 @@ Signed-off-by: seajensen <seajensen@gmail.com>
             </td>
             <td>
                 <b>
-                    Documentation - Adding overview 
+                    docs: add overview
                 </b>
             </td>
         </tr>
@@ -148,32 +148,6 @@ Signed-off-by: seajensen <seajensen@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-08-01 04:05:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/413" class=".btn">#413</a>
-            </td>
-            <td>
-                <b>
-                    fix(redux-store): add reducers to initializeStore
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim Stekelenburg <karim@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-28 17:52:46 +0000 UTC
     </div>
 </div>
 

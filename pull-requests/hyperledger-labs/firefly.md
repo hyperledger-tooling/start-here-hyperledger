@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger-labs/firefly
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/146" class=".btn">#146</a>
-            </td>
-            <td>
-                <b>
-                    Misc cleanup surrounding Solidity contracts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Couple of standalone cleanup items identified while working #124. Might as well put them in while the larger development effort is still ongoing.
-
-Depends on https://github.com/hyperledger-labs/firefly-cli/pull/66
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-28 15:59:46 +0000 UTC
-    </div>
-</div>
-

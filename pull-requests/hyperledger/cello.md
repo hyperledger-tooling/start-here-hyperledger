@@ -642,34 +642,3 @@ Signed-off-by: XuHugo <xq-310@163.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/273" class=".btn">#273</a>
-            </td>
-            <td>
-                <b>
-                    Modify the agent through the front page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Modify the agent through the front page，
-*At present, only the name can be modified; Other parameters of the agent should not be modified.
-There may be changes in the future.
-*Reserve the authority of the operator role. Later, the operator will probably be deleted because it does not need to exist in baas.
-
-Signed-off-by: XuHugo <xq-310@163.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-28 16:12:55 +0000 UTC
-    </div>
-</div>
-

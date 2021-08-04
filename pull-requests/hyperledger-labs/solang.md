@@ -140,29 +140,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/453" class=".btn">#453</a>
-            </td>
-            <td>
-                <b>
-                    Split sema expression into smaller function to reduce stack usage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-28 14:35:47 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/479" class=".btn">#479</a>
+            </td>
+            <td>
+                <b>
+                    FABN-1724: add support async signing of message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `ICryptoSuite` interface of `fabric-common` support only synchronous `sign()` method. Which sound correct for `Default X509 Identity` and `HSM X509 Identity` provider. But to support other kind of identity providers (like Vault Transit Engine/PKCS#11 Proxy) which require network `I/O` to get the message signed, will require `sign()` function to be an asynchronous.
+
+Main change in this PR
+
+*From*
+```js
+export interface ICryptoSuite {
+     // ....
+     sign(key: ICryptoKey, digest: Buffer): Buffer ;
+}
+```
+*To*
+```js
+export interface ICryptoSuite {
+     // ....
+     sign(key: ICryptoKey, digest: Buffer): Buffer | Promise<Buffer>;
+}
+```
+[FABN-1724](https://jira.hyperledger.org/browse/FABN-1724?filter=-2)
+
+Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-04 14:34:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/478" class=".btn">#478</a>
             </td>
             <td>
