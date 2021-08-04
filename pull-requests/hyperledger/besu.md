@@ -14,6 +14,94 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2614" class=".btn">#2614</a>
+            </td>
+            <td>
+                <b>
+                    Less Spotless Gradle Warnings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Spotless and Gradle 7.x does not play nicely with using a fileTree as a
+target and should be using plain strings. This should get rid of the
+`Execution optimizations have been disabled`... warnings.
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-04 04:33:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2612" class=".btn">#2612</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.7.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                reprise
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-04 01:58:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2611" class=".btn">#2611</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.7.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-04 01:52:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2609" class=".btn">#2609</a>
             </td>
             <td>
@@ -451,44 +539,6 @@ All new rules are fairly benign and easy to fix.
     </table>
     <div class="right-align">
         Created At 2021-07-28 22:27:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2586" class=".btn">#2586</a>
-            </td>
-            <td>
-                <b>
-                    Feature/1559 cleanup remove experimentaleip
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-Remove ExperimentalEIPs
-rename and move CLI option for initial baseFee
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-28 00:49:42 +0000 UTC
     </div>
 </div>
 

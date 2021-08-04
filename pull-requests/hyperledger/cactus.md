@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1184" class=".btn">#1184</a>
+            </td>
+            <td>
+                <b>
+                    build: yarnrc --ignore-engines true
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                Specifies the --ignore-engines true parameter to be the default for
+every yarn command contributors run within the project. This makes it
+sligthly more convenient to work with yarn since now you can just say
+"yarn install" instead of having to go with the much longer "yarn
+install --ignore-engines". 
+
+Of course in an ideal world we would not need
+the --ignore-engines parameter but the Fabric Node SDK (and some other
+dependencies probably) do not declare NodeJS v16 as a supported engine
+(despite our tests succeeding on these) so we just do not have a choice
+with this if we want to support NodeJS 16 (which we very much
+do)
+
+Also removes --ignore-engines parameter from the yarn install
+command that the configure script runs so that the CI also verifies this
+to be working fine.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-04 05:10:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1183" class=".btn">#1183</a>
             </td>
             <td>
@@ -188,34 +231,6 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-07-28 17:29:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1174" class=".btn">#1174</a>
-            </td>
-            <td>
-                <b>
-                    feat(examples/discounted_cartrade): add preferredcustomer-jugdement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
-
-resolves #1148 (update by Peter)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-28 02:52:35 +0000 UTC
     </div>
 </div>
 
