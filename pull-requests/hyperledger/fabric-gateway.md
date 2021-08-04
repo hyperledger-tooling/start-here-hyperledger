@@ -178,33 +178,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/149" class=".btn">#149</a>
-            </td>
-            <td>
-                <b>
-                    Gateway extended samples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Extended the gateway client samples with examples of new features for the Beta release, including:
-- automatic endorser selection for private data collections and SBE state changes
-- processing chaincode events
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-28 16:59:15 +0000 UTC
-    </div>
-</div>
-

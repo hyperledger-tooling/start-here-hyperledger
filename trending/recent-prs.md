@@ -1,13 +1,13 @@
 
-[46](https://github.com/hyperledger-labs/yui-relayer/pull/46) Add Docker image of Ganache node for testing
+[1599](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1599) Bump tar from 4.4.13 to 4.4.15 in /examples/supplychain-app/besu/smartContracts
 
-[2616](https://github.com/hyperledger/besu/pull/2616) Update web3j in acceptance tests to ~4.8.6
+[1598](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1598) Bump axios from 0.18.0 to 0.21.1 in /examples/supplychain-app/fabric/express_nodeJs
 
-[2417](https://github.com/hyperledger/indy-sdk/pull/2417) Bump tar from 4.4.10 to 4.4.15 in /samples/nodejs
+[479](https://github.com/hyperledger/fabric-sdk-node/pull/479) FABN-1724: add support async signing of message
 
-[287](https://github.com/hyperledger/fabric-chaincode-node/pull/287) Fix a dead link in docs
+[1597](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1597) Bump tar from 4.4.13 to 4.4.15 in /examples/supplychain-app/fabric/chaincode_rest_server/rest-server
 
-[30](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/30) pre-release
+[1313](https://github.com/hyperledger/iroha/pull/1313) [GHA] cmake -DTESTING=ON explicitly
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
