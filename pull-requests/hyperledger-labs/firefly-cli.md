@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/73" class=".btn">#73</a>
+            </td>
+            <td>
+                <b>
+                    add goreleaser workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Uses `goreleaser` to create new binary releases of `firefly-cli`. As a part of the release, a new homebrew tap will be created
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-03 18:34:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/72" class=".btn">#72</a>
             </td>
             <td>

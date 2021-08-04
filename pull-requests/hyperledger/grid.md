@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/893" class=".btn">#893</a>
+            </td>
+            <td>
+                <b>
+                    Add EventProcessors collection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds an EventProcessors collection, which ensures that only a single event processor on a given circuit/service connection is only created once.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-03 22:01:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/892" class=".btn">#892</a>
             </td>
             <td>
@@ -180,32 +207,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-07-30 17:33:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/885" class=".btn">#885</a>
-            </td>
-            <td>
-                <b>
-                    Keygen updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 20:18:41 +0000 UTC
     </div>
 </div>
 
