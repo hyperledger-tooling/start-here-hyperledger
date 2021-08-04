@@ -90,29 +90,3 @@ Depends on https://github.com/hyperledger-labs/firefly-cli/pull/66
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/145" class=".btn">#145</a>
-            </td>
-            <td>
-                <b>
-                    Fix E2E tests with more than 3 members
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The E2E tests expect members to be listed in the same order as they appear in the `stack.json` file. This change queries the API, asking it to sort the members in the expected order.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 18:42:55 +0000 UTC
-    </div>
-</div>
-

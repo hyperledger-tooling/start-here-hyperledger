@@ -40,32 +40,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2796" class=".btn">#2796</a>
-            </td>
-            <td>
-                <b>
-                    Update doc for default chaincode instantiation policy (release-1.4)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update doc to indicate that default chaincode instantiation policy
-is any channel admin.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 20:24:57 +0000 UTC
-    </div>
-</div>
-

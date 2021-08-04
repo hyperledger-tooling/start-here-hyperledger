@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/132" class=".btn">#132</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/135" class=".btn">#135</a>
             </td>
             <td>
                 <b>
-                    Add CODEOWNERS
+                    Avoid panic on concurrent stream update
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/firefly-ethconnect
                 
             </td>
             <td>
-                
+                Fixes #134
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-15 14:39:31 +0000 UTC
+        Created At 2021-08-03 20:38:08 +0000 UTC
     </div>
 </div>
 

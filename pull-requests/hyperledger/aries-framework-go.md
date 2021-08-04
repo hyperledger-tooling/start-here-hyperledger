@@ -256,31 +256,3 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2894" class=".btn">#2894</a>
-            </td>
-            <td>
-                <b>
-                    fix: presexch shouldn't use only the final schema match when checking for schema match
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also include context needed for test harness tests.
-
-Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-27 21:54:30 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/53" class=".btn">#53</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/54" class=".btn">#54</a>
             </td>
             <td>
                 <b>
-                    Release 21.7.1
+                    CI Changes for `main` branch migration
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                Updaet homebrewo to 21.7.1
+                Update links to main branch for doc links.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-27 02:20:41 +0000 UTC
+        Created At 2021-08-03 18:50:13 +0000 UTC
     </div>
 </div>
 

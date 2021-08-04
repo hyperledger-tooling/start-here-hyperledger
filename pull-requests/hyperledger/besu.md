@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2609" class=".btn">#2609</a>
+            </td>
+            <td>
+                <b>
+                    Fix bug with value transfer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamRevenant</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Clarify isGoQuorumPrivateTransaction method. v value is set directly for GoQuorum private transactions, and they don't have a chainId. All other tx derive their v value from the chainId.
+
+fixes #2606 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-03 23:17:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2608" class=".btn">#2608</a>
             </td>
             <td>
