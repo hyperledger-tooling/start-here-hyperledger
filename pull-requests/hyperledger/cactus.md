@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1186" class=".btn">#1186</a>
+            </td>
+            <td>
+                <b>
+                    chore(release): publish v0.7.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-04 21:30:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1185" class=".btn">#1185</a>
+            </td>
+            <td>
+                <b>
+                    build(package.json): add reset script that git cleans prior to configure
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                Why though?
+This is designed to eliminate possible build issues that arise because of leftover code files
+somehow lurking around the project directory structure that are being ignored by git and
+therefore lulling a contributor to thinking that since VSCode shows no index/staged changes
+the project is in a clean slate and the build should pass all the same.
+The reset script in essence is a softer version of going all out, deleting your entire
+project directory and cloning it from scratch which is a lot more effort than just running
+the reset script added here that has a good chance of fixing the same problems as the hard
+resetting if re-clone would fix.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-04 19:02:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1184" class=".btn">#1184</a>
             </td>
             <td>
