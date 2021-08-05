@@ -505,39 +505,3 @@ Fixes #1466.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2593" class=".btn">#2593</a>
-            </td>
-            <td>
-                <b>
-                    Update Spotless and google-java-format
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
-
-Update spotless to 5.14.2 and java-google-format to 1.10.0.
-Both of these are needed to support Java 16 and Gradle 7.x.
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-29 02:48:53 +0000 UTC
-    </div>
-</div>
-
