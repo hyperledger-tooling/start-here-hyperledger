@@ -14,6 +14,112 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2910" class=".btn">#2910</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump actions/setup-node from 2.3.0 to 2.3.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">github_actions</span>
+            </td>
+            <td>
+                Bumps [actions/setup-node](https://github.com/actions/setup-node) from 2.3.0 to 2.3.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/actions/setup-node/releases">actions/setup-node's releases</a>.</em></p>
+<blockquote>
+<h2>Revert temporary fix</h2>
+<p>We had to disable pre-cached Node.js usage in the previous version due to the broken image cache. Now cache is fixed, so we can safely enable its usage again.
+Thank you for understanding.</p>
+<h2>Temporary maintenance fix.</h2>
+<p>Temporarily disabled usage of pre-cached Node.js.</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/actions/setup-node/commit/4d0182af5ead0b7bf53e87e49aa959476f5501d3"><code>4d0182a</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/actions/setup-node/issues/310">#310</a> from actions/revert-308-v-alsvir/disable-cache-usage-...</li>
+<li><a href="https://github.com/actions/setup-node/commit/896ee80599ea831592cc8484629043410040b226"><code>896ee80</code></a> Restore YARN flag</li>
+<li><a href="https://github.com/actions/setup-node/commit/d21ecc7c5be116ff576d1e1dd67cf7eefbb22ed3"><code>d21ecc7</code></a> Revert &quot;Temporarily disabled cache usage for v2&quot;</li>
+<li><a href="https://github.com/actions/setup-node/commit/d6e3b5539ed7e5ccd26c3459e26c7c817f4e9068"><code>d6e3b55</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/actions/setup-node/issues/308">#308</a> from actions/v-alsvir/disable-cache-usage-temp-v2</li>
+<li><a href="https://github.com/actions/setup-node/commit/db716f881ae727ff1c231028cc3926681f7d2e7b"><code>db716f8</code></a> Add yarn env variable</li>
+<li><a href="https://github.com/actions/setup-node/commit/c24389f79e91ba615d93590929027ff3d63575ae"><code>c24389f</code></a> Staging unstaged</li>
+<li><a href="https://github.com/actions/setup-node/commit/004fb83876b9004324d616562b9d39f637f9aabc"><code>004fb83</code></a> Temporarily disabled cache usage</li>
+<li>See full diff in <a href="https://github.com/actions/setup-node/compare/v2.3.0...v2.3.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/setup-node&package-manager=github_actions&previous-version=2.3.0&new-version=2.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-05 08:12:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2909" class=".btn">#2909</a>
+            </td>
+            <td>
+                <b>
+                    fix: Fixes DIDs resolution when inbound message received.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrii Soluk <isoluchok@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-05 06:38:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2908" class=".btn">#2908</a>
             </td>
             <td>
@@ -79,80 +185,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-08-04 19:37:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2906" class=".btn">#2906</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump actions/setup-node from 2.3.0 to 2.3.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">github_actions</span>
-            </td>
-            <td>
-                Bumps [actions/setup-node](https://github.com/actions/setup-node) from 2.3.0 to 2.3.1.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/actions/setup-node/releases">actions/setup-node's releases</a>.</em></p>
-<blockquote>
-<h2>Temporary maintenance fix.</h2>
-<p>Temporarily disabled usage of pre-cached Node.js.</p>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/actions/setup-node/commit/d6e3b5539ed7e5ccd26c3459e26c7c817f4e9068"><code>d6e3b55</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/actions/setup-node/issues/308">#308</a> from actions/v-alsvir/disable-cache-usage-temp-v2</li>
-<li><a href="https://github.com/actions/setup-node/commit/db716f881ae727ff1c231028cc3926681f7d2e7b"><code>db716f8</code></a> Add yarn env variable</li>
-<li><a href="https://github.com/actions/setup-node/commit/c24389f79e91ba615d93590929027ff3d63575ae"><code>c24389f</code></a> Staging unstaged</li>
-<li><a href="https://github.com/actions/setup-node/commit/004fb83876b9004324d616562b9d39f637f9aabc"><code>004fb83</code></a> Temporarily disabled cache usage</li>
-<li>See full diff in <a href="https://github.com/actions/setup-node/compare/v2.3.0...v2.3.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/setup-node&package-manager=github_actions&previous-version=2.3.0&new-version=2.3.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-04 08:14:34 +0000 UTC
     </div>
 </div>
 

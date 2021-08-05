@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/74" class=".btn">#74</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/75" class=".btn">#75</a>
             </td>
             <td>
                 <b>
-                    Update dependencies and upgrade to Go 1.16
+                    Explicitly import etcdraft
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-29 12:19:19 +0000 UTC
+        Created At 2021-08-05 12:01:10 +0000 UTC
     </div>
 </div>
 

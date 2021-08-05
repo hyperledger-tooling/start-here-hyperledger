@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1602" class=".btn">#1602</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] support for vaultv2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+
+- Fix typo in create ambassador cert role
+
+
+ 
+
+**Reviewed by**
+@sownak @suvajit-sarkar 
+
+ 
+
+**Linked issue**
+#1549 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-05 11:49:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1601" class=".btn">#1601</a>
             </td>
             <td>
