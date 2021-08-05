@@ -428,39 +428,3 @@ Add changelog entries for recent mining work
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2596" class=".btn">#2596</a>
-            </td>
-            <td>
-                <b>
-                    Gradle 7.1.1 and Dependency Version Upgrades
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/master/CONTRIBUTING.md -->
-
-## PR description
- 
-Upgrade gradle to 7.1.1.
-Upgrade most dependencies to current versions
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-29 15:54:51 +0000 UTC
-    </div>
-</div>
-

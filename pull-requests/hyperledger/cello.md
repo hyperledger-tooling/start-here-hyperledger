@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/285" class=".btn">#285</a>
+            </td>
+            <td>
+                <b>
+                    Return value format
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                *Return data in the format of {data, MSG, status}
+*Add exception handling
+
+Signed-off-by: XuHugo <xq-310@163.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-05 16:51:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/284" class=".btn">#284</a>
             </td>
             <td>
@@ -680,37 +709,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-07-29 18:40:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/274" class=".btn">#274</a>
-            </td>
-            <td>
-                <b>
-                    Start cello using docker compose
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Start cello using docker compose
-*In the cello directory, use the commands make start and make stop to control the switches.
-*Two containers, Cello Postgres and Cello API engine, will be started；
-*After the front end is started, you can directly access back end。
-
-Signed-off-by: XuHugo <xq-310@163.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-29 17:17:32 +0000 UTC
     </div>
 </div>
 

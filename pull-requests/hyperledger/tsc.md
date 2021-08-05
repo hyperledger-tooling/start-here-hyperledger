@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/tsc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/tsc/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger/tsc/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    Developer debug option in container mode
+                    Add project incubation entry considerations
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/tsc
                 
             </td>
             <td>
-                Signed-off-by: S m, Aruna <arun.s.m.cse@gmail.com>
+                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-28 19:16:47 +0000 UTC
+        Created At 2021-08-05 15:49:25 +0000 UTC
     </div>
 </div>
 

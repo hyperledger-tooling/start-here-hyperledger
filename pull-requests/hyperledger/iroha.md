@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1318" class=".btn">#1318</a>
+            </td>
+            <td>
+                <b>
+                    docs(readme): fix broken links: build status, build guide, etc.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+### Description of the Change
+
+The README.md file has a few broken links likely due to the default branch rename so I changed the links to contain `main` in it instead.
+
+### Benefits
+
+For example the build status from Jenkins should start showing green after this (right now it says it's failing because of some old build from March.
+
+### Possible Drawbacks
+
+None that I'm aware of.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-05 16:58:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1316" class=".btn">#1316</a>
+            </td>
+            <td>
+                <b>
+                    Migrate to warp
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+Remove iroha_http_server in favor of warp. Closes #1229 #1317
+
+### Benefits
+
+Performance and compliance to http 1.1 and 2.0
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-05 14:27:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1313" class=".btn">#1313</a>
             </td>
             <td>

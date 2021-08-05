@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger/cactus
         </tr>
         <tr>
             <td>
-                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
             </td>
             <td>
                 Why though?
@@ -86,7 +86,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
             </td>
             <td>
                 Specifies the --ignore-engines true parameter to be the default for
@@ -184,7 +184,7 @@ Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
             </td>
             <td>
                 This script is now part of the ci.sh script which
@@ -218,7 +218,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">Developer_Experience</span><span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
             </td>
             <td>
                 Ensures that openapi.json files "x-hyperledger-cactus"
@@ -251,7 +251,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">Developer_Experience</span><span class="chip">documentation</span>
+                <span class="chip">documentation</span><span class="chip">Developer_Experience</span>
             </td>
             <td>
                 It's been a common problem with people erasing review history
