@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
         </tr>
         <tr>
             <td>
-                <span class="chip">Test</span><span class="chip">bug</span>
+                <span class="chip">bug</span><span class="chip">Test</span>
             </td>
             <td>
                 This is a follow up on #604 and fixes the path to the go-based

@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                <nil>
+                https://github.ibm.com/IBM-Blockchain/OpTools/issues/4787
             </td>
         </tr>
     </table>

@@ -14,11 +14,39 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/75" class=".btn">#75</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/78" class=".btn">#78</a>
             </td>
             <td>
                 <b>
-                    Explicitly import etcdraft
+                    Revert "Collapse Raw owner"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts commit 9cae65af7fbb6d84f2da53e7acf1050ce8f9beee.
+
+Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-05 13:08:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/76" class=".btn">#76</a>
+            </td>
+            <td>
+                <b>
+                    Collapse Raw owner (71)
                 </b>
             </td>
         </tr>
@@ -32,7 +60,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-05 12:01:10 +0000 UTC
+        Created At 2021-08-05 12:34:32 +0000 UTC
     </div>
 </div>
 

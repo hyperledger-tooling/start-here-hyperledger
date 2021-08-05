@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/419" class=".btn">#419</a>
+            </td>
+            <td>
+                <b>
+                    Fix/mediator transports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR has code that corrects issues related to mediation.
+Corrections
+- multiple restarts with the same mediation invitation 
+- second sorting of connection transport services based on inbound services
+- multiple outbound transport support
+  - add transport is now register transport, which allows using multiple types of transport.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-05 14:31:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/417" class=".btn">#417</a>
             </td>
             <td>

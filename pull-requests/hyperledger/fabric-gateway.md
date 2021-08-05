@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/156" class=".btn">#156</a>
+            </td>
+            <td>
+                <b>
+                    Example of reading ids from JSON files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Two main types of JSON file that contain ids. Example of reading those and then prcoessing them for use with the gateway
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-05 15:57:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/155" class=".btn">#155</a>
             </td>
             <td>
@@ -61,94 +89,6 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-07-29 19:38:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/153" class=".btn">#153</a>
-            </td>
-            <td>
-                <b>
-                    Update repository ID in Java pom.xml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                maven-artifactory didn’t fix the 401 problem so reverting to maven-artifactory which
-was the ID for the last successful publish.
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-29 17:05:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/152" class=".btn">#152</a>
-            </td>
-            <td>
-                <b>
-                    Sample should pull node SDK from NPM
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-29 15:38:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/151" class=".btn">#151</a>
-            </td>
-            <td>
-                <b>
-                    Update repository ID in Java pom.xml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Java publish is broken due to a 401 error
-
-Attempting to fix by changing the id to match the maven service connection ID…
-
-“You should set the repositories in your project's pom.xml to have the same <id> as the name specified in the task for Maven to be able to correctly authenticate the task.”
-
-https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/package/maven-authenticate?view=azure-devops
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-29 15:16:33 +0000 UTC
     </div>
 </div>
 
