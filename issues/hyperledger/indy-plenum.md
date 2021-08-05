@@ -24,7 +24,7 @@ permalink: /issues/hyperledger/indy-plenum
         </tr>
         <tr>
             <td>
-                <span class="chip">Ubuntu 20.04</span><span class="chip">enhancement</span><span class="chip">help wanted</span>
+                <span class="chip">enhancement</span><span class="chip">help wanted</span><span class="chip">Ubuntu 20.04</span>
             </td>
             <td>
                 The following is a list of what the existing Jenkins Pipelines do that the GitHub Actions Workflows don't (yet).
@@ -67,7 +67,7 @@ When developing the enhancements a separate issue should be created to track the
         </tr>
         <tr>
             <td>
-                <span class="chip">Ubuntu 20.04</span><span class="chip">help wanted</span><span class="chip">upgrade</span>
+                <span class="chip">help wanted</span><span class="chip">Ubuntu 20.04</span><span class="chip">upgrade</span>
             </td>
             <td>
                 An overview of all installed, referenced, and required PyPI packages can be found here: [Hyperledger Indy-Plenum | Dependency management Ubuntu 20](https://docs.google.com/document/d/1445VZL3qHBmuVbzm-K9O7te_63zKKlyv6mrEwiJcL3Y/edit?usp=sharing)
@@ -97,7 +97,7 @@ Where possible the dependencies should be upgraded individually to reduce the sc
         </tr>
         <tr>
             <td>
-                <span class="chip">Ubuntu 20.04</span><span class="chip">help wanted</span><span class="chip">upgrade</span>
+                <span class="chip">help wanted</span><span class="chip">Ubuntu 20.04</span><span class="chip">upgrade</span>
             </td>
             <td>
                 For the Ubuntu 20.04 version of Plenum, upgrade to RocksDB 5.17, which is the version supported on Ubuntu 20.04; https://packages.ubuntu.com/search?searchon=sourcenames&keywords=rocksdb
