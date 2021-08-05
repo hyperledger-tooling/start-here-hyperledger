@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1558" class=".btn">#1558</a>
+            </td>
+            <td>
+                <b>
+                    set publishPackages as executable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `publishPackage` needs to be set as executable.
+This PR just changes the mode of ` .github/actions/publish-deb/publishPackages` to 755.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-05 10:59:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-plenum/pull/1557" class=".btn">#1557</a>
             </td>
             <td>

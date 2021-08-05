@@ -1,13 +1,13 @@
 
-[315](https://github.com/hyperledger/aries-agent-test-harness/pull/315) chore: update to work with latest afgo (removes a bug workaround)
+[75](https://github.com/hyperledger-labs/fabric-token-sdk/pull/75) Explicitly import etcdraft
 
-[1510](https://github.com/hyperledger/burrow/pull/1510) Bump tar from 4.4.13 to 4.4.15 in /vent/test/eth
+[1602](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1602) [quorum] support for vaultv2
 
-[76](https://github.com/hyperledger-labs/firefly-cli/pull/76) adding binary builds via goreleaser
+[1511](https://github.com/hyperledger/burrow/pull/1511) Bump tar from 6.1.0 to 6.1.6 in /docs/example/basic-app-website
 
-[33](https://github.com/hyperledger-labs/fabric-operations-console/pull/33) remove deployer related apis in swagger
+[1558](https://github.com/hyperledger/indy-plenum/pull/1558) set publishPackages as executable
 
-[32](https://github.com/hyperledger-labs/fabric-operations-console/pull/32) auto fabric upgrade
+[96](https://github.com/hyperledger-labs/fabric-smart-client/pull/96) F 61
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
