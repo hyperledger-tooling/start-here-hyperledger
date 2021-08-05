@@ -37,33 +37,3 @@ Specified that we can't do a full key query: https://jira.hyperledger.org/browse
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/31" class=".btn">#31</a>
-            </td>
-            <td>
-                <b>
-                    Implementation of DelPrivateData function in mockstub.go
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It helps with implementing and running unit tests.
-
-https://jira.hyperledger.org/browse/FABCG-21
-
-Signed-off-by: msedzins <msedzins@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-28 18:29:43 +0000 UTC
-    </div>
-</div>
-

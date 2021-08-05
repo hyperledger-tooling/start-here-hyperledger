@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1550" class=".btn">#1550</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1557" class=".btn">#1557</a>
             </td>
             <td>
                 <b>
-                    Ubuntu 20.04: remove pip imports in favor if importlib_metadata
+                    Support publishing off a development branch
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                This PR solves issue #1549. The PR just applies the adjustments made by @andrewwhitehead in this [commit](https://github.com/hyperledger/indy-plenum/pull/1548/commits/4cd59f88cddf9c13f1f73e2b1bf91cd48504d29a) to the `ubuntu-20.04-upgrade` feature branch. Thanks to @andrewwhitehead for his contribution.
+                - For example, support publishing off the `ubuntu-20.04-upgrade` branch.
+- Determine the `distribution` based on the version of Ubuntu being used for the build.
+
+Signed-off-by: Wade Barnes <wade@neoterictech.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-20 16:23:59 +0000 UTC
+        Created At 2021-08-04 21:34:44 +0000 UTC
     </div>
 </div>
 

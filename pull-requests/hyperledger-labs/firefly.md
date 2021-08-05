@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/150" class=".btn">#150</a>
+            </td>
+            <td>
+                <b>
+                    Add count return infrastructure to database layer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #13 
+
+... work in progress
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-04 21:52:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/148" class=".btn">#148</a>
             </td>
             <td>

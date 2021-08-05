@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/73" class=".btn">#73</a>
-            </td>
-            <td>
-                <b>
-                    add goreleaser workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Uses `goreleaser` to create new binary releases of `firefly-cli`. As a part of the release, a new homebrew tap will be created
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 18:34:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/72" class=".btn">#72</a>
             </td>
             <td>
@@ -127,32 +101,6 @@ Resolves https://github.com/hyperledger-labs/firefly-cli/issues/2
     </table>
     <div class="right-align">
         Created At 2021-07-30 14:05:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/67" class=".btn">#67</a>
-            </td>
-            <td>
-                <b>
-                    Replace ganache with geth
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR removes `ganache-cli` and replaces it with a proper `geth` node. Ganache has some interesting (not quite correct behavior) that was causing https://github.com/hyperledger-labs/firefly/issues/115 on local CLI environments, due to ethconnect not being able to tell the difference between an empty event list, or a non existent list. This fixes that strange behavior, and is even closer to what running FireFly would be like in a real production environment, with no additional containers.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-28 19:01:07 +0000 UTC
     </div>
 </div>
 
