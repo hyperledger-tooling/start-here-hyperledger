@@ -41,29 +41,3 @@ Signed-off-by: Vitalij Reicherdt <vitalij.reicherdt@commerzbank.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1339" class=".btn">#1339</a>
-            </td>
-            <td>
-                <b>
-                    Closes#1329 Initial cut of OpenAPI Code Generation guidelines
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: john court <jcourt@anonyome.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-30 04:54:41 +0000 UTC
-    </div>
-</div>
-

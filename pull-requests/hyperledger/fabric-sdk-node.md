@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/480" class=".btn">#480</a>
+            </td>
+            <td>
+                <b>
+                    [bug-fix] eventhub status value is now interpreted as http code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                instead of string like "NOT_FOUND", we see the actual value is 404
+Signed-off-by: DavidLiu <david.yx.liu@oracle.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 03:38:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/479" class=".btn">#479</a>
             </td>
             <td>
