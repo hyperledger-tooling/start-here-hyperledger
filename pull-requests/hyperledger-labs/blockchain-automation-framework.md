@@ -14,6 +14,168 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1607" class=".btn">#1607</a>
+            </td>
+            <td>
+                <b>
+                    Added Run Schema migration command before node and notary startup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 11:41:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1606" class=".btn">#1606</a>
+            </td>
+            <td>
+                <b>
+                    [besu] Besu schema update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Update instructions in besu doc and minor regex update
+
+ 
+
+**Reviewed by**
+@pppazos
+
+ 
+
+**Linked issue**
+#1591 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 10:10:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1605" class=".btn">#1605</a>
+            </td>
+            <td>
+                <b>
+                    Main to develop rebase
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- rebase from main branch
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 08:45:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1604" class=".btn">#1604</a>
+            </td>
+            <td>
+                <b>
+                    remove unnecessary files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- remove image files that are not needed
+
+ 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 08:42:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1603" class=".btn">#1603</a>
+            </td>
+            <td>
+                <b>
+                    [besu] add schema definition for besu
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jose Pazos <pppazos@gmail.com>
+
+**Changelog**
+- Update network-schema.json to include besu network validation
+
+ 
+
+**Reviewed by**
+@pppazos 
+
+ 
+
+**Linked issue**
+#1591 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 07:13:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1602" class=".btn">#1602</a>
             </td>
             <td>

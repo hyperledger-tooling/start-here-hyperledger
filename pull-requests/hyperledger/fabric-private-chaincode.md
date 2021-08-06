@@ -49,7 +49,7 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
             </td>
             <td>
                 <b>
-                    WIP: New docker flow including image publishing
+                    New docker flow including pulling images
                 </b>
             </td>
         </tr>
@@ -58,7 +58,9 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
                 
             </td>
             <td>
-                This PR introduces automated FPC docker image publishing as discussed in #611.
+                This PR introduces changes the docker flow as discussed in #611.
+
+FPC docker images can now be pulled from github registry or built manually.
 
 Closes #611 
 
