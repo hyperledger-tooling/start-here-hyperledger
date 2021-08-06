@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/566" class=".btn">#566</a>
+            </td>
+            <td>
+                <b>
+                    Add credential revocation/revocation status
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Added the possibility to revoke issued credentials in the credential management section and in the partner details.
+- Display revocation status of credentials in the verified credentials section within my wallet
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 12:24:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/565" class=".btn">#565</a>
             </td>
             <td>
