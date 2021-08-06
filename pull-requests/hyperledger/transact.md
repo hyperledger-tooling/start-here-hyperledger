@@ -63,29 +63,3 @@ permalink: /pull-requests/hyperledger/transact
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/170" class=".btn">#170</a>
-            </td>
-            <td>
-                <b>
-                    Fix lint introduced by Rust 1.54 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-30 16:17:59 +0000 UTC
-    </div>
-</div>
-

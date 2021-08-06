@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/896" class=".btn">#896</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0.2: Avoid duplicate events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #894
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 14:16:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/895" class=".btn">#895</a>
             </td>
             <td>
@@ -208,32 +234,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-07-30 21:26:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/886" class=".btn">#886</a>
-            </td>
-            <td>
-                <b>
-                    Fix 1.54.0 lint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR includes several commits to fix new clippy lint errors from the Rust 1.54.0 release. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-30 17:33:28 +0000 UTC
     </div>
 </div>
 

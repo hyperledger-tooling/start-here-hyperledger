@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/456" class=".btn">#456</a>
-            </td>
-            <td>
-                <b>
-                    Improve ast printer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-30 17:26:51 +0000 UTC
-    </div>
-</div>
-

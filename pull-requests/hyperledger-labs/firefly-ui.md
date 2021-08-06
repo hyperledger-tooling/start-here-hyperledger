@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/46" class=".btn">#46</a>
+            </td>
+            <td>
+                <b>
+                    update codeowners, add security and code of conduct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 14:39:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/45" class=".btn">#45</a>
             </td>
             <td>

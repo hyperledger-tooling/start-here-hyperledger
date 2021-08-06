@@ -126,29 +126,3 @@ New Methods
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/323" class=".btn">#323</a>
-            </td>
-            <td>
-                <b>
-                    Run basic builds using vdr-tools
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-30 15:27:21 +0000 UTC
-    </div>
-</div>
-

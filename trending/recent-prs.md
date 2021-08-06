@@ -1,13 +1,13 @@
 
-[1607](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1607) Added Run Schema migration command before node and notary startup
+[151](https://github.com/hyperledger-labs/firefly/pull/151) bump ui to v0.2.0
 
-[764](https://github.com/hyperledger/besu-docs/pull/764) Add docs for high level privacy plugin overview
+[46](https://github.com/hyperledger-labs/firefly-ui/pull/46) update codeowners, add security and code of conduct
 
-[1606](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1606) [besu] Besu schema update
+[2](https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/2) Initial code
 
-[260](https://github.com/hyperledger/blockchain-explorer/pull/260) BE-880 Fix incorrect multi-process logging
+[896](https://github.com/hyperledger/grid/pull/896) BACKPORT 0.2: Avoid duplicate events
 
-[2618](https://github.com/hyperledger/besu/pull/2618) Permissioning - improve java docs
+[31](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/31) New version 0.8.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

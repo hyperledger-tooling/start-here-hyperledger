@@ -29,6 +29,9 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
             <td>
                 Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
 
+Because of accessing a single log file from multiple processes, logging had not been working correctly.
+
+https://jira.hyperledger.org/browse/BE-880
             </td>
         </tr>
     </table>
