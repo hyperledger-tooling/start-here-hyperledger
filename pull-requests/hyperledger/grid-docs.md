@@ -37,29 +37,3 @@ permalink: /pull-requests/hyperledger/grid-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/250" class=".btn">#250</a>
-            </td>
-            <td>
-                <b>
-                    Add documentation for 0.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-29 20:01:08 +0000 UTC
-    </div>
-</div>
-

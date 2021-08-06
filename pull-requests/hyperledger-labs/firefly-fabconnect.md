@@ -103,39 +103,12 @@ Connected (press CTRL+C to quit)
 
 # Remaining Work
 The following work items are still needed to complete the event stream feature:
-- webhooks support (#31)
 - event payload unmarshaling (#32)
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2021-08-04 02:35:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/25" class=".btn">#25</a>
-            </td>
-            <td>
-                <b>
-                    README.md and .gitignore small improvement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jan Rock <jan.rock@me.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-30 21:20:53 +0000 UTC
     </div>
 </div>
 

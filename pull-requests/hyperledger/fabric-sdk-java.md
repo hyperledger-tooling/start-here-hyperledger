@@ -106,29 +106,3 @@ Additionally, you can set the following in your Dependabot [dashboard](https://a
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/140" class=".btn">#140</a>
-            </td>
-            <td>
-                <b>
-                    FABJ-480 fix maxInboundMessageSize yaml reading
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add some reflection code to accept maxInboundMessageSize (and any other params) from both code and yaml sources
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-30 00:46:41 +0000 UTC
-    </div>
-</div>
-
