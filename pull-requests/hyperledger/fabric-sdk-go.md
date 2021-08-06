@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/183" class=".btn">#183</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/184" class=".btn">#184</a>
             </td>
             <td>
                 <b>
-                    feat(gateway): add WithBlockNum option
+                    Added support for fromBlock when generating eventservice cache keys
                 </b>
             </td>
         </tr>
@@ -27,24 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                ## Rationale
-
-I have a use case where each organization has an application that listens to chaincode events through the gateway and react accordingly.
-All events should be processed, even when starting the application after the other organizations.
-
-## Proposed changes
-
-Currently the gateway only supports listening to *new* events, not existing ones, although the event client has such capability.
-This PR introduces a new gateway option to let the user specify from which block to start listening to events.
-
-## Design choices
-
-`FromBlockSet` is a flag since `0` would be a valid block number, we need to determine if the user has explicitly set a starting block number.
+                The current cache key only takes into account the channel ID, which means if I have a different `fromBlock` number with a subsequent `RegisterBlockEvent()` call, it would not take effect because the previous event service will be returned from the cache lookup.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-29 09:58:58 +0000 UTC
+        Created At 2021-08-05 22:40:42 +0000 UTC
     </div>
 </div>
 

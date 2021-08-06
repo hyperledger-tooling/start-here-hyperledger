@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/firefly
             </td>
             <td>
                 <b>
-                    Add count return infrastructure to database layer
+                    Add optional counts to all filtered collection queries
                 </b>
             </td>
         </tr>

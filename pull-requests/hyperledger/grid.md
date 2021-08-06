@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/895" class=".btn">#895</a>
+            </td>
+            <td>
+                <b>
+                    Add API docs to protocol module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds rustdoc comments to the protocol code for each smart contract.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-05 18:52:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/894" class=".btn">#894</a>
             </td>
             <td>
