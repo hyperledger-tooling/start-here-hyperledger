@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1187" class=".btn">#1187</a>
+            </td>
+            <td>
+                <b>
+                    fix(example): send http request to discounted-cartrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This resolve Issue #1181 
+I create req_discounted_cartrade.py in example/discounted-cartrade.
+This sends http request to discounted-cartrade after resistors indy data.
+
+Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 06:46:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1186" class=".btn">#1186</a>
             </td>
             <td>
