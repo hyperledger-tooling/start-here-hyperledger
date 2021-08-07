@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2916" class=".btn">#2916</a>
+            </td>
+            <td>
+                <b>
+                    test: Updates and improvements to storage test suite
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Added new tests to ensure correct behaviour for the Store.Batch and Store.Close methods per the recently updated interface documentation.
+- Added close calls for all of the stores that get created in the tests. This is important for storage implementations that maintain connections to databases. By closing these stores after each test, those implementations should be able to safely call TestAll without exhausting the connection limit and causing test failures.
+- Updated storage implementations (as needed) to pass the new tests.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 21:17:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2915" class=".btn">#2915</a>
+            </td>
+            <td>
+                <b>
+                    docs: Update storage interface documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated documentation to specify what happens in certain cases:
+
+Batch: If the operations slice is empty or nil, an error is returned.
+Close: It can be called repeatedly on the same store multiple times without causing an error.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 20:44:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2914" class=".btn">#2914</a>
+            </td>
+            <td>
+                <b>
+                    switch remote kms logs from info to debug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">chore</span>
+            </td>
+            <td>
+                closes #2913
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 20:19:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2911" class=".btn">#2911</a>
             </td>
             <td>

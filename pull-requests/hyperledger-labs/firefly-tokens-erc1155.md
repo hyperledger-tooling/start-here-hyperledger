@@ -32,18 +32,19 @@ permalink: /pull-requests/hyperledger-labs/firefly-tokens-erc1155
 The API is very flat and non REST-ful at the moment, so it's very open to input. The FireFly tokens API itself was proposed on [a recent community call](https://wiki.hyperledger.org/display/labs/2021-06-30+FireFly+Community+Call), but the API for this micro-service will have a much smaller service area and notably very few GETs (because very little is queryable from Solidity and the goal is for this service to be stateless). However, we would like this API to become standard across all token implementations on all chains (as much as possible), so it's worth a close look.
 
 Current proposed APIs:
-* `POST /tokens/pool` - Create a new token pool (inputs: type, namespace, name, client_id)
-* `POST /tokens/mint` - Mint new tokens (inputs: pool_id, to, amount)
+* `POST /pool` - Create a new token pool (inputs: type, namespace, name, client_id)
+* `POST /mint` - Mint new tokens (inputs: pool_id, to, amount)
+* `POST /transfer` - Transfer tokens (inputs: pool_id, token_index, from, to, amount)
+* `GET /balance` - Get token balance (inputs: pool_id, token_index, account)
 
-All APIs are async and return 202 immediately, and results are reported by a websocket event of the form `{event: string, data: any}`, with the following event types:
+All POST APIs are async and return 202 immediately, and results are reported by a websocket event of the form `{event: string, data: any}`, with the following event types:
 * `token-pool` - Token pool created (outputs: pool_id, type, namespace, name, client_id)
-* `token-mint` - Tokens minted (outputs: pool_id, token_id, to, amount)
+* `token-mint` - Tokens minted (outputs: pool_id, token_index, to, amount)
+* `token-transfer` - Tokens transferred (outputs: pool_id, token_index, from, to, amount)
 
 The TypeScript code is tightly coupled to the Solidity contract in terms of how data is packed and unpacked. For the purposes of this first pass, [this reference contract](https://github.com/hyperledger-labs/firefly/pull/124/commits/7989ce583960fb040d68c855de8959a34f3685cb) is assumed, which is in turn based on a fungible/non-fungible [example from Enjin](https://github.com/enjin/erc-1155/blob/master/contracts/ERC1155MixedFungibleMintable.sol). The actual contract will be finalized for review in a future PR.
 
 At a high level, the 256-bit token ID from the contract is used to pack the token type, pool ID, and (for non-fungible only) token index. The string URI from the contract is used to pack the FireFly data such as namespace, name, and UUID.
-
-There will eventually be additional APIs for burn, transfer, operator approvals, etc - but wanted to refine these first 2 calls before getting too deep.
             </td>
         </tr>
     </table>
