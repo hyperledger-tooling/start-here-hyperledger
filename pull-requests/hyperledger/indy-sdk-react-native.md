@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/14" class=".btn">#14</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    chore: update rn-indy-sdk references
+                    Android Revocation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,20 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
                 
             </td>
             <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
+                Added functions in android to support recipient revocation.
+
+1. buildGetRevocRegDefRequest
+2. parseGetRevocRegDefResponse
+3. buildGetRevocRegDeltaRequest
+4. parseGetRevocRegDeltaResponse
+5. createRevocationState
+
+Signed-off-by: Patrick Kenyon <treek.kenyon@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-22 22:21:46 +0000 UTC
+        Created At 2021-08-07 01:21:16 +0000 UTC
     </div>
 </div>
 

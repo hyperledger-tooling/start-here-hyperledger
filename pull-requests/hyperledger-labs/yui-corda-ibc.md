@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/20" class=".btn">#20</a>
             </td>
             <td>
                 <b>
-                    Switch to ibc-go
+                    Fixes several points to pass the E2E test implemented in yui-relayer
                 </b>
             </td>
         </tr>
@@ -27,16 +27,16 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
                 
             </td>
             <td>
-                close #17 
+                close #12 
 
-- Remove the Git submodule `external/cosmos-sdk`
-- Use `ibc-go/proto` instead of `cosmos-sdk/proto` to auto-generate Kotlin/Rust codes
-- Fix the Handler logic of `connOpenInit` and so on based on the implementation of `ibc-go` rather than the ICS spec
+and 
+
+fix several points to pass the E2E test implemented in https://github.com/hyperledger-labs/yui-relayer/tree/main/tests.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-19 03:27:59 +0000 UTC
+        Created At 2021-08-07 01:17:38 +0000 UTC
     </div>
 </div>
 
