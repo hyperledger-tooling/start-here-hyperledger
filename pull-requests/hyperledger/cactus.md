@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1188" class=".btn">#1188</a>
+            </td>
+            <td>
+                <b>
+                    feat(keychain-google-sm): complete request handler and endpoints #1097
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1097 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 19:52:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1187" class=".btn">#1187</a>
             </td>
             <td>

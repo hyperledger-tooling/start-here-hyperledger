@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/897" class=".btn">#897</a>
+            </td>
+            <td>
+                <b>
+                    Refactor SDE transaction handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR updates the SDE to properly run database operations in a transaction. To facilitate this, two new `StoreFactory` traits were introduced, `TransactionalStoreFactory` and `InContextStoreFactory`, that expose this functionality in the daemon. These traits allow for the creation of a `StoreFactory` that can be used to initialize a transaction, get various Grid stores, and then run DB operations all within a transaction on a single Connection. Previously, there was no guarantee that operations were run within the same transaction as each operation got a Connection from a ConnectionPool individually.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-06 19:43:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/896" class=".btn">#896</a>
             </td>
             <td>
@@ -167,73 +193,6 @@ This functionality is behind the experimental `cylinder-jwt-support` feature.
     </table>
     <div class="right-align">
         Created At 2021-08-02 14:10:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/888" class=".btn">#888</a>
-            </td>
-            <td>
-                <b>
-                    Remove unused docker compose files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change removes unused docker compose files used to set up Grid with
-Sawtooth and Splinter backends.
-
-These docker compose files have been replaced by compose files in
-specific `examples` modules.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-30 21:33:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/887" class=".btn">#887</a>
-            </td>
-            <td>
-                <b>
-                    Remove admin-keygen from CLI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change removes the `admin` module from the CLI actions and deletes
-the corresponding admin-keygen feature. This feature was not used by the
-CLI and the `admin-keygen` command has been replaced by the `keygen`
-command and its related options.
-
-This change also removes a call to the removed command from the Splinter
-example's docker compose file, as this command is already replaced by
-the `keygen --system` command.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-30 21:26:19 +0000 UTC
     </div>
 </div>
 
