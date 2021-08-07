@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/42" class=".btn">#42</a>
-            </td>
-            <td>
-                <b>
-                    Change `SyncHeadersI` to also return the queryable height
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-31 03:22:18 +0000 UTC
-    </div>
-</div>
-
