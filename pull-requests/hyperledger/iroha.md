@@ -253,7 +253,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    Feature/rdb get account txs opt
+                    Feature/RDB get account txs opt, FIX TESTS
                 </b>
             </td>
         </tr>
