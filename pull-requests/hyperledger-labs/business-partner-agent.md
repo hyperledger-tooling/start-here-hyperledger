@@ -27,7 +27,15 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                <nil>
+                Persist the Aries Basic Messages between partners.
+Update the load and fetch mechanism for using the stored messages.
+Show indicators beside each partner in the chat that has unread messages.
+
+Begin the transition to using an EventHandler workflow to coordinate all the necessary work between Managers. 
+This is the simplest case as there is only a single event and no use of states or roles for that event, but illustrates coordination of each manager doing their work in sequence.
+
+
+
             </td>
         </tr>
     </table>
