@@ -179,7 +179,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
             <td>
                 <b>
-                    Draft pull request for Iroha all in one docker image
+                    feat(iroha): add Iroha AIO image and Iroha test ledger
                 </b>
             </td>
         </tr>

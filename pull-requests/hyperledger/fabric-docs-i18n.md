@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/540" class=".btn">#540</a>
+            </td>
+            <td>
+                <b>
+                    RU endorsement policies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-07 19:00:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/539" class=".btn">#539</a>
             </td>
             <td>
@@ -249,36 +275,6 @@ Note that the following files are not updated yet and will be updated in the upc
     </table>
     <div class="right-align">
         Created At 2021-08-02 06:41:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/525" class=".btn">#525</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Translate "create_channel_config.md"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">jaJP-docs-ongoing</span>
-            </td>
-            <td>
-                This patch translates "Tutorials >> Creating a channel >> Using configtx.yaml" into Japanese.
-
-Resolves #206
-
-Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-31 22:17:59 +0000 UTC
     </div>
 </div>
 
