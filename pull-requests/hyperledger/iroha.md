@@ -710,35 +710,3 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1303" class=".btn">#1303</a>
-            </td>
-            <td>
-                <b>
-                    [infrastructure] Add scripts/fix-dco.sh
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ```
-## Use it as parameter to git-filter-branch
-## Read the docs git help filter-branch before using it.
-## Example:
-##   git filter-branch --msg-filter $PWD/scripts/fix-dco.sh -f -- HEAD~69..HEAD
-```
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-01 07:27:14 +0000 UTC
-    </div>
-</div>
-
