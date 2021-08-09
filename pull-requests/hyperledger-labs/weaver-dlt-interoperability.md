@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/121" class=".btn">#121</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/124" class=".btn">#124</a>
             </td>
             <td>
                 <b>
-                    Update Expired fabric crypto materials.
+                    Downgrade fabric-protos-go version in weaver-protos-go
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                
+                Signed-off-by: sandeep.nishad1 <sandeep.nishad1@ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-30 06:16:56 +0000 UTC
+        Created At 2021-08-09 09:03:14 +0000 UTC
     </div>
 </div>
 

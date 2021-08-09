@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha-javascript
             </td>
             <td>
                 <b>
-                    Refactored crypto & client
+                    Refactored crypto & client; publishment
                 </b>
             </td>
         </tr>
