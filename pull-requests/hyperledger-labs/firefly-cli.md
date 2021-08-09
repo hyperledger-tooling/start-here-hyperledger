@@ -66,35 +66,3 @@ closes https://github.com/hyperledger-labs/firefly-cli/issues/58
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/71" class=".btn">#71</a>
-            </td>
-            <td>
-                <b>
-                    Automatically rollback failed first time setup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Add --no-rollback -b flag to change new rollback default behavior
-* Add 60 second timeout on member registration
-* Clean up logging on stack startup
-
-Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-
-closes #70 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-02 15:06:30 +0000 UTC
-    </div>
-</div>
-
