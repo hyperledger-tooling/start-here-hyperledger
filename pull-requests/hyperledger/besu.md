@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2619" class=".btn">#2619</a>
+            </td>
+            <td>
+                <b>
+                    PKI Block Creation cli configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+- added all CLI options for PKI Block Creation as a Mixin
+- created `PkiBlockCreationConfigurationProvider` that will be used to inject the PkiOptions into QBFT-related objects
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-08 20:28:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2618" class=".btn">#2618</a>
             </td>
             <td>
