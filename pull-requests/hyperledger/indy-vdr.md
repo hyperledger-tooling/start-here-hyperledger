@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/indy-vdr
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/63" class=".btn">#63</a>
-            </td>
-            <td>
-                <b>
-                    Support setting ZMQ socks proxy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                implementation for issue #62 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-02 13:05:51 +0000 UTC
-    </div>
-</div>
-

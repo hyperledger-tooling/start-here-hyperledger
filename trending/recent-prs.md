@@ -1,13 +1,13 @@
 
-[85](https://github.com/hyperledger/iroha-java/pull/85) Added maven plugin
+[1326](https://github.com/hyperledger/iroha/pull/1326) Add commands and queries to burrow integration
 
-[84](https://github.com/hyperledger/iroha-java/pull/84) Refactor
+[898](https://github.com/hyperledger/grid/pull/898) Add 0.2.2 release notes
 
-[124](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/124) Downgrade fabric-protos-go version in weaver-protos-go
+[1325](https://github.com/hyperledger/iroha/pull/1325) Unsubscribe from broker on actor stop
 
-[460](https://github.com/hyperledger-labs/solang/pull/460) Improve <address>.call() testing
+[252](https://github.com/hyperledger/grid-docs/pull/252) Add Purchase Order smart contract specification
 
-[1190](https://github.com/hyperledger/cactus/pull/1190) feat(cmd-api-server): support grpc web services #1189
+[2816](https://github.com/hyperledger/fabric/pull/2816) Fix small doc errors
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

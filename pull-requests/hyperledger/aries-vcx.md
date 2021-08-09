@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/331" class=".btn">#331</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Download messages via a connection handle as u32
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">wrappers</span>
+            </td>
+            <td>
+                The Java wrapper currently stores handles as `int` datatypes, which are converted back to `u32` when calling Rust FFI. However, the signature of `vcx_v2_messages_download` takes a list of handles as string. When passed the handles represented as `int`s through the Java API, the function fails. To enable safe message downloads from Java wrappers, this PR exposes a function which takes a single connection handle instead of a string.
+
+Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-09 14:41:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/328" class=".btn">#328</a>
             </td>
             <td>
@@ -35,60 +63,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2021-08-03 09:47:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/327" class=".btn">#327</a>
-            </td>
-            <td>
-                <b>
-                    update roadmap and main readme
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-02 16:31:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/326" class=".btn">#326</a>
-            </td>
-            <td>
-                <b>
-                    Add pgsql integration test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 Test integration between `aries_vcx` and underlying `libindy` + `pgsql` plugin
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-02 15:39:38 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1191" class=".btn">#1191</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-quorum): remove hard dependency on keychain
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                feat(quorum): remove hard dependency on keychain
+
+Removed hard dependency on keychain for Quorum plugin.
+
+Updated old test cases and added new test cases.
+
+resolves #1161 
+
+Signed-off-by: TonyRowntree <33454202+TonyRowntree@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-09 12:48:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1190" class=".btn">#1190</a>
             </td>
             <td>
@@ -222,35 +256,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-08-03 21:02:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1182" class=".btn">#1182</a>
-            </td>
-            <td>
-                <b>
-                    fix(examples/discounted_cartrade): update the cert and private key at…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR resolves part of Issue #1181
-In this PR, I update the cert and private key at default.json to activate trade process in discouted-cartrade.
-
-Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-02 15:11:02 +0000 UTC
     </div>
 </div>
 

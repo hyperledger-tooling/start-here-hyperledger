@@ -63,6 +63,23 @@ This is the simplest case as there is only a single event and no use of states o
             <td>
                 - Added the possibility to revoke issued credentials in the credential management section and in the partner details.
 - Display revocation status of credentials in the verified credentials section within my wallet
+
+Wallet Credential Revocation status
+
+<img width="1534" alt="Screen Shot 2021-08-09 at 17 07 44" src="https://user-images.githubusercontent.com/13498217/128729137-f263047c-7dbe-4def-8bd1-a76025408293.png">
+
+Partner Details Revocation Status
+
+<img width="1534" alt="Screen Shot 2021-08-09 at 16 25 34" src="https://user-images.githubusercontent.com/13498217/128722663-c1d1ce98-dce7-4f18-b8c4-73a82468f146.png">
+
+Issue Credential - Revocation Status
+
+<img width="1605" alt="Screen Shot 2021-08-09 at 16 25 17" src="https://user-images.githubusercontent.com/13498217/128722676-5ce26849-417f-48a4-88fd-8b53a30d29d0.png">
+
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/566"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
             </td>
         </tr>
     </table>

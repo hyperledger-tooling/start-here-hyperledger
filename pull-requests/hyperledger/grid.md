@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/898" class=".btn">#898</a>
+            </td>
+            <td>
+                <b>
+                    Add 0.2.2 release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Darian Plumb <dplumb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-09 17:31:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/897" class=".btn">#897</a>
             </td>
             <td>
@@ -167,32 +193,6 @@ This functionality is behind the experimental `cylinder-jwt-support` feature.
     </table>
     <div class="right-align">
         Created At 2021-08-03 14:09:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/889" class=".btn">#889</a>
-            </td>
-            <td>
-                <b>
-                    Backport: Fix lint for Rust 1.54.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a backport of PR #886 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-02 14:10:22 +0000 UTC
     </div>
 </div>
 

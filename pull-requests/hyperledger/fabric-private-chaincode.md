@@ -41,34 +41,3 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/612" class=".btn">#612</a>
-            </td>
-            <td>
-                <b>
-                    New docker flow including pulling images
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR introduces changes the docker flow as discussed in #611.
-
-FPC docker images can now be pulled from github registry or built manually.
-
-Closes #611 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-02 17:17:07 +0000 UTC
-    </div>
-</div>
-
