@@ -15,32 +15,27 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.2 - Go Fabric Interop Chaincode - Aug 2 2021
+                    v1.2.3-alpha.1 Go Weaver Protos - Aug 9 2021
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    core/network/fabric-interop-cc/contracts/interop/v1.2.2
+                    common/protos-go/v1.2.3-alpha.1
                 </span>
             </td>
             <td>
-                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/core/network/fabric-interop-cc/contracts/interop`
-- Release: v1.2.2
-- Changelog:
-  * Separated and Released `assetexchange` [go module](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core%2Fnetwork%2Ffabric-interop-cc%2Flibs%2Fassetexchange%2Fv1.2.2).
-  * `interopcc` imports the `assetexchange` go module to do asset exchange.
-- Readme [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/main/core/network/fabric-interop-cc/README.md).
-- Source: [Interop Chaincode](https://github.com/hyperledger-labs/weaver-dlt-interoperability/tree/main/core/network/fabric-interop-cc/contracts/interop)
+                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/common/protos-go`
+- Alpha Release: v1.2.3-alpha.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.2.2" class=".btn">
+    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/v1.2.3-alpha.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-08-02 07:18:18 +0000 UTC
+        Created At 2021-08-09 10:04:30 +0000 UTC
     </span>
 </div>
 
