@@ -1,13 +1,13 @@
 
-[145](https://github.com/hyperledger/aries-framework-go-ext/pull/145) chore: Update storage implementations to pass new common tests
+[85](https://github.com/hyperledger/iroha-java/pull/85) Added maven plugin
 
-[2919](https://github.com/hyperledger/aries-framework-go/pull/2919) chore: Update storage implementations to pass new common tests
+[84](https://github.com/hyperledger/iroha-java/pull/84) Refactor
 
-[152](https://github.com/hyperledger-labs/firefly/pull/152) Provide a blocking mode for async msgs, and add more intuitive POST routes returning types not messages
+[124](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/124) Downgrade fabric-protos-go version in weaver-protos-go
 
-[2619](https://github.com/hyperledger/besu/pull/2619) PKI Block Creation cli configuration
+[460](https://github.com/hyperledger-labs/solang/pull/460) Improve <address>.call() testing
 
-[289](https://github.com/hyperledger/cello/pull/289) [Issue #288]Modify the color of components
+[1190](https://github.com/hyperledger/cactus/pull/1190) feat(cmd-api-server): support grpc web services #1189
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

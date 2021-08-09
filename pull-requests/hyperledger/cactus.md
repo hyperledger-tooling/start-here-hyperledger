@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1190" class=".btn">#1190</a>
+            </td>
+            <td>
+                <b>
+                    feat(cmd-api-server): support grpc web services #1189
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span><span class="chip">API_Server</span>
+            </td>
+            <td>
+                # WORK IN PROGRESS
+
+Fixes #1189
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-09 06:38:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1188" class=".btn">#1188</a>
             </td>
             <td>

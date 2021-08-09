@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/458" class=".btn">#458</a>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/460" class=".btn">#460</a>
             </td>
             <td>
                 <b>
-                    Rework offset/line column calculation
+                    Improve <address>.call() testing
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-01 17:58:33 +0000 UTC
+        Created At 2021-08-09 08:14:27 +0000 UTC
     </div>
 </div>
 
