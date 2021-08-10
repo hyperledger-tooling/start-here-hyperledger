@@ -40,29 +40,3 @@ closes https://github.com/hyperledger-labs/firefly-cli/issues/58
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/72" class=".btn">#72</a>
-            </td>
-            <td>
-                <b>
-                    Ensure ethereum accounts unlocked before proceeding
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should fix timing issues running the CLI in GitHub actions or other slower environments
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-02 21:30:06 +0000 UTC
-    </div>
-</div>
-

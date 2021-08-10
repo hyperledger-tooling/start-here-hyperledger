@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/326" class=".btn">#326</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/327" class=".btn">#327</a>
             </td>
             <td>
                 <b>
-                    Add policy-based verification of additional quote statuses
+                    Fix master/main references and clean up documentation
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 
             </td>
             <td>
-                This PR contributes:
-* an improved parsing of the json blob in the quote/report
-* an extension to the report verification process to include additional SGX quote statuses
-* a generalization of the policy-based verification procedure whereby users can specify whether to accept/reject specific quote statuses (among the `*_NEEDED` ones)
-* tests related to the added/improved functionality
-
-Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-27 23:00:27 +0000 UTC
+        Created At 2021-08-10 00:27:21 +0000 UTC
     </div>
 </div>
 

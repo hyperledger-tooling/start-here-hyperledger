@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1193" class=".btn">#1193</a>
+            </td>
+            <td>
+                <b>
+                    refactor: remap ts typings from types to lib
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This was necessary because if we import JSON files and
+then re-use their schema as types, then the d.ts files
+will need to have access to said JSON file which does
+not happen if the typings and the actual .js code are
+in separate directories because then the relative paths
+are not working as they should.
+
+Moving the lib and the types together means that now
+the d.ts files can import with the same relative paths
+that the orignial source code (.ts files) can as well.
+
+Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-09 21:03:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1191" class=".btn">#1191</a>
             </td>
             <td>
@@ -250,7 +288,10 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 
             </td>
             <td>
-                
+                1. Provides port randomization
+2. Possibility to launch from within test cases, no need for docker-compose
+3. Can be linked to postgres container via the default host network interface instead of being forced to deal with docker networks and all the statefulness they bring into the picture
+4. Contains a workaround to the FILE -> ENV configuration precedence of Iroha (opened an issue about this - PR is dropping soon but in the meantime we needed it to work anyway so that's why the entrypoint script has the jq trickery in there to update the configuration file based on what's in the environment variables for postgres credentials)
             </td>
         </tr>
     </table>
