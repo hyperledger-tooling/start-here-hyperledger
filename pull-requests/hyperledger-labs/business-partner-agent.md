@@ -31,9 +31,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
 Update the load and fetch mechanism for using the stored messages.
 Show indicators beside each partner in the chat that has unread messages.
 
-Begin the transition to using an EventHandler workflow to coordinate all the necessary work between Managers. 
-This is the simplest case as there is only a single event and no use of states or roles for that event, but illustrates coordination of each manager doing their work in sequence.
-
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/567"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
 
             </td>
