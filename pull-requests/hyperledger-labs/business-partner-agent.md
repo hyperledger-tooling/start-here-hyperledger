@@ -64,7 +64,7 @@ Show indicators beside each partner in the chat that has unread messages.
 
 Wallet Credential Revocation status
 
-<img width="1534" alt="Screen Shot 2021-08-09 at 17 07 44" src="https://user-images.githubusercontent.com/13498217/128729137-f263047c-7dbe-4def-8bd1-a76025408293.png">
+<img width="1525" alt="Screen Shot 2021-08-10 at 15 24 30" src="https://user-images.githubusercontent.com/13498217/128876214-70f1eede-b7a5-4102-97b2-5e1d07068214.png">
 
 Partner Details Revocation Status
 

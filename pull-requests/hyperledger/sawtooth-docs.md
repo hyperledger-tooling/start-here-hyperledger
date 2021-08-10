@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/90" class=".btn">#90</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/92" class=".btn">#92</a>
             </td>
             <td>
                 <b>
-                    Convert rst to md with pandoc
+                    Update links
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
                 
             </td>
             <td>
-                This is an imperfect first step at converting the rst files to markdown. Subsequent work will need to be done to finish the conversion and move the files to the appropriate location.
+                Links pointed to a former repo.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-01 23:21:17 +0000 UTC
+        Created At 2021-08-10 17:32:02 +0000 UTC
     </div>
 </div>
 

@@ -87,35 +87,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2416" class=".btn">#2416</a>
-            </td>
-            <td>
-                <b>
-                    Remove libvcx in favor of forks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `libvcx` maintenance support was dropped long time ago in indysdk repo. 
-
-Maintained alternative forks are:
-- Hyperledger [Aries VCX](https://github.com/hyperledger/aries-vcx)
-- Evernym [EV-VCX](https://gitlab.com/evernym/mobile/ev-vcx)
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 14:33:17 +0000 UTC
-    </div>
-</div>
-
