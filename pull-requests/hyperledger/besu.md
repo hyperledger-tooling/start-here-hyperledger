@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2622" class=".btn">#2622</a>
+            </td>
+            <td>
+                <b>
+                    Add Antony Denyer as a maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Antony has made [significant commits](https://github.com/hyperledger/besu/commits?author=antonydenyer) improving the quality and features of besu, this PR adds him as a maintainer.
+
+Voting ends 2 weeks from the publication of this PR or once a majority of the maintainers [vote](https://github.com/hyperledger/besu/blob/master/MAINTAINERS.md#maintainers-approval-process).
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 09:10:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2621" class=".btn">#2621</a>
             </td>
             <td>

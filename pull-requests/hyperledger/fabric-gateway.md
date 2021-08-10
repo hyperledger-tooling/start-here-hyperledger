@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/157" class=".btn">#157</a>
+            </td>
+            <td>
+                <b>
+                    go hsm signer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 09:37:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/156" class=".btn">#156</a>
             </td>
             <td>

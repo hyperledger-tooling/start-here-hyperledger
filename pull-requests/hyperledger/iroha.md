@@ -14,6 +14,126 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1328" class=".btn">#1328</a>
+            </td>
+            <td>
+                <b>
+                    Docs: General Metrics Part II
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sara <lira.lemur@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Second try of the https://github.com/hyperledger/iroha/pull/1299
+
+General information about metrics
+
+### Benefits
+
+Metrics in docs
+
+### Possible Drawbacks
+
+Not very full info. Yet.
+
+Closes #1280 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 09:12:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1327" class=".btn">#1327</a>
+            </td>
+            <td>
+                <b>
+                    [OS] batches cache + small block fixup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+Avoids small blocks on a high load.
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 07:33:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1326" class=".btn">#1326</a>
             </td>
             <td>
@@ -39,8 +159,34 @@ permalink: /pull-requests/hyperledger/iroha
 
 
 ### Description of the Change
-Adds iroha commands and queries to burrow integration
+Adds Iroha commands and queries to burrow integration
 Examples for the integration have also been added
+List of commands/queries integrated:
+1)Add Asset
+2)Add Peer
+2)Add signatory
+4)Append Role
+5)Create Account
+6)Create Asset
+7)Create Domain
+8)Detach Role
+9)Remove peer
+10)Remove Signatory
+11)Set Account Detail
+12)Set Account Quorum
+13)Subtract Asset
+14)Transfer Asset
+15)Get Account
+16)Get Block
+17)Get Signatories
+18)Get Account Asset
+19)Get Account detail
+20)Get Asset Info
+21)Get Role
+22)Get Role Permissions
+23)Get Peers
+
+
 
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
@@ -491,223 +637,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-08-03 13:40:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1309" class=".btn">#1309</a>
-            </td>
-            <td>
-                <b>
-                    rust update to 1.54
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Update rust in ci to 1.54
-
-
-### Description of the Change
-Also allows unused_results lint.
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Benefits
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 10:02:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1308" class=".btn">#1308</a>
-            </td>
-            <td>
-                <b>
-                    docs(iroha_crypto): update `Signature` docs and align args of `verify`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: 0x009922 <a.marcius26@gmail.com>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-I updated the outdated docs with actual information that describes what is contained inside of `Signature` structure. Also, I renamed an argument of `Signature::verify` method from `message` to `payload` to keep consistency with `Signature::new` method.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 09:34:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1307" class=".btn">#1307</a>
-            </td>
-            <td>
-                <b>
-                    Add derives for data model
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Closes  #1265
-
-### Description of the Change
-
-Adds derive to every item in data model. Also adds schema generation to ci
-
-### Benefits
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 08:53:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1306" class=".btn">#1306</a>
-            </td>
-            <td>
-                <b>
-                    Fix/appleclang build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-Build fixup!
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Benefits
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 07:09:18 +0000 UTC
     </div>
 </div>
 
