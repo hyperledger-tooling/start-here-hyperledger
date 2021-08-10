@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/159" class=".btn">#159</a>
+            </td>
+            <td>
+                <b>
+                    Return gRPC errors directly in Go client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Avoid wrapping errors to allow client applications to interrogate gRPC status and additional details associated with the error.
+
+Resolves #158
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 17:42:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/157" class=".btn">#157</a>
             </td>
             <td>

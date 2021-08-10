@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/77" class=".btn">#77</a>
+            </td>
+            <td>
+                <b>
+                    Add files for consistent repo structure
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 17:29:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/76" class=".btn">#76</a>
             </td>
             <td>

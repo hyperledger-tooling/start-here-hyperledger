@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1198" class=".btn">#1198</a>
+            </td>
+            <td>
+                <b>
+                    refactor(plugin-registry): getOneById to use instanceId #1197
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                The getOneById function will now use the instance ID
+for lookups instead of the package name.
+
+Also added a couple of extra convenience methods to make
+them more consistent in general and increased the
+test coverage of the plugin registry.
+
+Fixes #1197
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 18:10:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1196" class=".btn">#1196</a>
+            </td>
+            <td>
+                <b>
+                    refactor(core-api): make schema names consistent in openapi spec
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1195
+
+Signed-off-by: Youngone Lee <youngone.lee@accenture.com> 
+
+@petermetz pinged for review! 
+I have a few comments/questions regarding this issue: 
+
+1. I should update this PR so that we also change the names for "get" and "set" to contain?
+2. Could you take a look at the descriptions within the files and suggest what to write? 
+
+Thank you ⭐!! 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 17:39:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1193" class=".btn">#1193</a>
             </td>
             <td>

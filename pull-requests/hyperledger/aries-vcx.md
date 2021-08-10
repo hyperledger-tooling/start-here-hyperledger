@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    WIP: Download messages via a connection handle as u32
+                    Download messages via a connection handle as u32
                 </b>
             </td>
         </tr>
