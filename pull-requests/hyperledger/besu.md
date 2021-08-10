@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2621" class=".btn">#2621</a>
+            </td>
+            <td>
+                <b>
+                    Added PKI QBFT Block Creation Behaviour
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+- Refactored QbftRound, introducing the `CreateBlockForProposalBehaviour` Functional Interface.
+  -  The default implementation uses the `BlockCreator`
+  - The PKI implementation has the logic to add the CMS message into the proposed block' extra data
+- Added PKI Logic into `ProposalPayloadValidator` 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 03:55:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2619" class=".btn">#2619</a>
             </td>
             <td>
@@ -306,72 +340,6 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-08-03 18:12:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2605" class=".btn">#2605</a>
-            </td>
-            <td>
-                <b>
-                    removed deprecated privacy-precompiled-address CLI option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Removed long-deprecated privacy-precompiled-address CLI option
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 05:45:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2604" class=".btn">#2604</a>
-            </td>
-            <td>
-                <b>
-                    PKI QbftContext and QbftBesuControllerBuilder update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-- Created `PKIQbftContext` that is used with Besu on PKI-QBFT mode.
-- `QbftBesuControllerBuilder` uses the presence of the PKI keystore to decide if it should instantiate the PKI-specific classes 'PkiQbftExtraDataCodec' and 'PkiQbftContext'
-- The wiring of the PKI keystore will be done in a follow-up PR. At the moment it will always be empty.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 02:42:22 +0000 UTC
     </div>
 </div>
 
