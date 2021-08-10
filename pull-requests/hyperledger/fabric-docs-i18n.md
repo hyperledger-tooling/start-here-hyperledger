@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/531" class=".btn">#531</a>
-            </td>
-            <td>
-                <b>
-                    RU peer channel command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 05:54:27 +0000 UTC
-    </div>
-</div>
-

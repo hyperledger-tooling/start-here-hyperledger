@@ -509,31 +509,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2903" class=".btn">#2903</a>
-            </td>
-            <td>
-                <b>
-                    fix: presentation schema filtering respects schema IDs in contexts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #2756
-
-Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 06:16:11 +0000 UTC
-    </div>
-</div>
-
