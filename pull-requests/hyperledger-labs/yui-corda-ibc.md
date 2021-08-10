@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
 
 and 
 
-fix several points to pass the E2E test implemented in https://github.com/hyperledger-labs/yui-relayer/tree/main/tests.
+fix several points to pass corda2fab E2E test implemented in https://github.com/hyperledger-labs/yui-relayer.
             </td>
         </tr>
     </table>

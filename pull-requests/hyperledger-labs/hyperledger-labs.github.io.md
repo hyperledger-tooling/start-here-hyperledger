@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/177" class=".btn">#177</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/178" class=".btn">#178</a>
             </td>
             <td>
                 <b>
-                    Update documents on labs sponsor requirement
+                    proposal for Mokka BFT protocol as a new Hyperledger Lab
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                
+                Signed-off-by: Egor Zuev <zyev.egor@gmail.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-12 04:59:08 +0000 UTC
+        Created At 2021-08-10 07:48:27 +0000 UTC
     </div>
 </div>
 

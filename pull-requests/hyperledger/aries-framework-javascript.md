@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/422" class=".btn">#422</a>
+            </td>
+            <td>
+                <b>
+                    refactor(redux-store)/deleteProof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - renamed wrong function name from: `ProofThunks.deleteCredential` -> `ProofThunks.deleteProof`
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 11:13:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/421" class=".btn">#421</a>
+            </td>
+            <td>
+                <b>
+                    feat(redux-store): delete credentialRecord and proofRecord
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Able to delete credentialRecord and proofRecord like the connectionRecord
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 09:54:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/420" class=".btn">#420</a>
             </td>
             <td>

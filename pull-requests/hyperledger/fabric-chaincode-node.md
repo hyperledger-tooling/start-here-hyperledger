@@ -40,30 +40,3 @@ Signed-off-by: Nao Nishijima <nao.nishijima.xt@hitachi.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/286" class=".btn">#286</a>
-            </td>
-            <td>
-                <b>
-                     updated documentation for getStateByPartialCompositeKey
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                updated documentation for getStateByPartialCompositeKey, getStateByartialCompositeKeyWithPagination and getPrivateDataByPartialCompositeKey.
-Specified that we cant do a full key query: https://jira.hyperledger.org/browse/FABCN-376
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 08:50:19 +0000 UTC
-    </div>
-</div>
-

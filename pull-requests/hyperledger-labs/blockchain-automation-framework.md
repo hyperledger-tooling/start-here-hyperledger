@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1612" class=".btn">#1612</a>
+            </td>
+            <td>
+                <b>
+                    [shared] Schema validation based on ansible network variable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Update validation to use yaml file created from ansible network variable
+
+ 
+
+**Reviewed by**
+@pppazos
+
+ 
+
+**Linked issue**
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 09:32:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1609" class=".btn">#1609</a>
             </td>
             <td>
