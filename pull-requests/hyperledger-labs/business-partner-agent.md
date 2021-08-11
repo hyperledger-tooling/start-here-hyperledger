@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/569" class=".btn">#569</a>
+            </td>
+            <td>
+                <b>
+                    Virtual Partner Name/Alias
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently when we add a new Partner the Partners name is always pre filled with the partners legal name (if set). This can cause confusion because like this the partners alias is always set as well. For example:
+
+1. agent 1 adds a new partner with legal name foo
+2. partner changes legal name to bar
+3. agent 1 reloads partner, legal name changes to bar, display name stays foo
+
+This is totally correct as this adheres to our partner name strategy, but it is very confusing to the user. So instead of using two way binding to set the alias I only set the placeholder like this,
+
+<img width="721" alt="Screen Shot 2021-08-11 at 16 34 47" src="https://user-images.githubusercontent.com/13498217/129050143-c6d76c08-8f05-45dd-9c2c-3ad1452c5c61.png">
+
+then the user can set a real alias if needed.
+
+<img width="696" alt="Screen Shot 2021-08-11 at 16 34 56" src="https://user-images.githubusercontent.com/13498217/129050188-46935d9c-7408-4c0a-945d-2faf40de94cf.png">
+
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/569"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 14:36:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/567" class=".btn">#567</a>
             </td>
             <td>

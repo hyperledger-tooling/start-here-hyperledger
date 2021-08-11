@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-fabric-based-access-contr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-fabric-based-access-control/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-fabric-based-access-control/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Bump color-string from 1.5.3 to 1.6.0 in /attributebased/javascript
+                    Bump path-parse from 1.0.6 to 1.0.7 in /attributebased/javascript
                 </b>
             </td>
         </tr>
@@ -27,56 +27,17 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-fabric-based-access-contr
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [color-string](https://github.com/Qix-/color-string) from 1.5.3 to 1.6.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/Qix-/color-string/releases">color-string's releases</a>.</em></p>
-<blockquote>
-<h2>1.6.0</h2>
-<h1>Minor release 1.6.0</h1>
-<ul>
-<li><a href="https://github.com/Qix-/color-string/issues/55">#55</a> - Add support for space-separated HSL</li>
-</ul>
-<p>Thanks <a href="https://github.com/htunnicliff"><code>@​htunnicliff</code></a> for the contribution :)</p>
-<h2>1.5.5 (Patch/Security Release) - hwb() ReDos patch (low-severity)</h2>
-<blockquote>
-<p>Release notes copied verbatim from the commit message, which can be found here: 0789e21284c33d89ebc4ab4ca6f759b9375ac9d3</p>
-</blockquote>
-<pre><code>Discovered by Yeting Li, c/o Colin Ife via Snyk.io.
-<p>A ReDos (Regular Expression Denial of Service) vulnerability
-was responsibly disclosed to me via email by Colin on
-Mar 5 2021 regarding an exponential time complexity for
-linearly increasing input lengths for <code>hwb()</code> color strings.</p>
-<p>Strings reaching more than 5000 characters would see several
-milliseconds of processing time; strings reaching more than
-50,000 characters began seeing 1500ms (1.5s) of processing time.</p>
-<p>The cause was due to a the regular expression that parses
-hwb() strings - specifically, the hue value - where
-the integer portion of the hue value used a 0-or-more quantifier
-shortly thereafter followed by a 1-or-more quantifier.</p>
-<p>This caused excessive backtracking and a cartesian scan,
-resulting in exponential time complexity given a linear
-increase in input length.</p>
-<p>Thank you Yeting Li and Colin Ife for bringing this to my
-attention in a secure, responsible and professional manner.</p>
-<p>A CVE will not be assigned for this vulnerability.
-</code></pre></p>
-<h2>1.5.4 (Patch Release)</h2>
-<ul>
-<li>Removes rounding of alpha values in RGBA hex (<code>#rrggbbaa</code>) and condensed-hex (<code>#rgba</code>) parsers, which caused certain unique inputs to result in identical outputs (see <a href="https://github.com/qix-/color/issues/174">https://github.com/qix-/color/issues/174</a>).</li>
-</ul>
-</blockquote>
-</details>
+                Bumps [path-parse](https://github.com/jbgutierrez/path-parse) from 1.0.6 to 1.0.7.
 <details>
 <summary>Commits</summary>
 <ul>
-<li>See full diff in <a href="https://github.com/Qix-/color-string/commits/1.6.0">compare view</a></li>
+<li>See full diff in <a href="https://github.com/jbgutierrez/path-parse/commits/v1.0.7">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=color-string&package-manager=npm_and_yarn&previous-version=1.5.3&new-version=1.6.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=path-parse&package-manager=npm_and_yarn&previous-version=1.0.6&new-version=1.0.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -112,7 +73,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-29 19:49:48 +0000 UTC
+        Created At 2021-08-11 13:31:50 +0000 UTC
     </div>
 </div>
 

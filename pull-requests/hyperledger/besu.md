@@ -62,7 +62,12 @@ Create extra data with round information only when using a contract to obtain vo
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-roll TransactionPriceCalculator into FeeMarket
+* roll TransactionPriceCalculator into FeeMarket
+* create a LegacyFeeMarket to use prior to London
+* remove explicit usages of TransactionPriceCalculator static constructors
+* remove TransactionPriceCalculator from ProtocolSpec (added to FeeMarket)
+* make FeeMarket non-optional in ProtocolSchedule
+* create BaseFeeMarket interface for London
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

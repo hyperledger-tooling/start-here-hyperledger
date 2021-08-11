@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2929" class=".btn">#2929</a>
+            </td>
+            <td>
+                <b>
+                    feat: WACI holder APIs for vcwallet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Implemented Universal wallet interfaces discussed in
+https://github.com/w3c-ccg/universal-wallet-interop-spec/issues/99
+- Added bindings for SDK, REST, JS
+- Closes #2928
+- Part of #2433
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 15:24:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2927" class=".btn">#2927</a>
+            </td>
+            <td>
+                <b>
+                    docs: JSON-LD Context API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #2895
+
+Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 13:58:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2926" class=".btn">#2926</a>
             </td>
             <td>

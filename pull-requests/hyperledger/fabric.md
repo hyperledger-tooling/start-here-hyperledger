@@ -14,7 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2824" class=".btn">#2824</a>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2829" class=".btn">#2829</a>
+            </td>
+            <td>
+                <b>
+                    Better error messages from Gateway
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Include some of the detail information in the top level gRPC error message to aid problem determination for client applications.
+
+Resolves #2806
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 16:04:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2828" class=".btn">#2828</a>
             </td>
             <td>
                 <b>
@@ -29,12 +57,15 @@ permalink: /pull-requests/hyperledger/fabric
             <td>
                 Fix issues: FAB-18528. When received the constructed message from the malicious node (through the interface "chain.rpc.SendSubmit(dest uint64, request *orderer.SubmitRequest, report func(err error))"), all orderers will breakdown immediately.
 
+Signed-off-by: sardChen <sard.chen@gmail.com>
+
+
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-11 10:30:16 +0000 UTC
+        Created At 2021-08-11 14:42:06 +0000 UTC
     </div>
 </div>
 
