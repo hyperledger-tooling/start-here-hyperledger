@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1205" class=".btn">#1205</a>
+            </td>
+            <td>
+                <b>
+                    test(cmd-api-server): randomize port in config service test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">API_Server</span>
+            </td>
+            <td>
+                If you don't specify port zero for the API and the cockpit then they
+will default to 3000 and 4000 instead which is bad for
+parallel test execution where we need guarantees not to
+use potentially conflicting port numbers.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 04:38:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1204" class=".btn">#1204</a>
             </td>
             <td>
@@ -455,49 +486,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-08-04 19:02:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1184" class=".btn">#1184</a>
-            </td>
-            <td>
-                <b>
-                    build: yarnrc --ignore-engines true
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Specifies the --ignore-engines true parameter to be the default for
-every yarn command contributors run within the project. This makes it
-sligthly more convenient to work with yarn since now you can just say
-"yarn install" instead of having to go with the much longer "yarn
-install --ignore-engines". 
-
-Of course in an ideal world we would not need
-the --ignore-engines parameter but the Fabric Node SDK (and some other
-dependencies probably) do not declare NodeJS v16 as a supported engine
-(despite our tests succeeding on these) so we just do not have a choice
-with this if we want to support NodeJS 16 (which we very much
-do)
-
-Also removes --ignore-engines parameter from the yarn install
-command that the configure script runs so that the CI also verifies this
-to be working fine.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-04 05:10:42 +0000 UTC
     </div>
 </div>
 

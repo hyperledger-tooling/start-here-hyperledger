@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1348" class=".btn">#1348</a>
+            </td>
+            <td>
+                <b>
+                    Refactor outbound queue interface
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adjusts the outbound queue interface to be more easily generalized. As we've worked to implement outbound queuing via Kafka, we've found that the configuration just did not map onto what was needed in Kafka. Rather than expecting a connection string and parsing protocol etc. etc., this PR just passes all settings to the outbound queue implementation and allows it to read plugin configuration from the settings. This affords much greater flexibility in the structure of the outbound queue implementation. As a result, I removed some outbound queue command line arguments that were no longer used.
+
+Additionally, I updated aioredis to 2.0.0. From the aioredis maintainers speaking on version 1.3.1 of the library:
+
+> As of December, 2019, this library had been abandoned. The code had grown stale, issues were piling up, and we were rapidly becoming out-of-date with Redis’s own feature-set. In light of this, the decision was made to ensure that the barrier to support for potential maintainers or contributors would be minimized.
+
+I found that using aioredis 2.0.0 significantly simplified the code as it stood.
+
+Some other minor consistency fixes were made to bring the outbound queue package in line with the rest of the code base.
+
+I haven't had an opportunity to integration test the redis changes just yet. I noticed there were some tests for this but they did not appear to be run anywhere in the tests run by the github actions. Is this something we would want run as part of PR checks or is the occasional one-off sufficient?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 02:55:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1347" class=".btn">#1347</a>
             </td>
             <td>
