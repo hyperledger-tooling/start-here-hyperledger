@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/222" class=".btn">#222</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/224" class=".btn">#224</a>
             </td>
             <td>
                 <b>
-                    WIP: fix repolinter issues
+                    Fix Circle CI link in Readme
                 </b>
             </td>
         </tr>
@@ -27,20 +27,14 @@ permalink: /pull-requests/hyperledger-labs/perun-node
                 
             </td>
             <td>
-                [repolinter](https://github.com/todogroup/repolinter) currently reports four issues:
-- missing CODE_OF_CONDUCT
-- missing CHANGELOG
-- missing Maintainers
-- missing SECURITY
+                Fix link that broke when renaming branch `master` to `main`.
 
-To reproduce: `repolinter --rulesetUrl https://raw.githubusercontent.com/hyperledger-labs/hyperledger-community-management-tools/master/repo_structure/repolint.json`
-
-This PR is to fix this.
+See #223
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-13 17:09:42 +0000 UTC
+        Created At 2021-08-11 14:10:08 +0000 UTC
     </div>
 </div>
 

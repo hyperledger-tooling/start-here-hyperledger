@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger-labs/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/7" class=".btn">#7</a>
+            </td>
+            <td>
+                <b>
+                    Add README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 18:03:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/6" class=".btn">#6</a>
+            </td>
+            <td>
+                <b>
+                    Add GitHub action for unit tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 16:19:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/4" class=".btn">#4</a>
+            </td>
+            <td>
+                <b>
+                    Include author in token-pool event
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 16:03:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/3" class=".btn">#3</a>
             </td>
             <td>

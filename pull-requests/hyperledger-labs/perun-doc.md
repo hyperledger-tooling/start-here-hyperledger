@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/63" class=".btn">#63</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/64" class=".btn">#64</a>
             </td>
             <td>
                 <b>
-                    Add description of perun protocols
+                    Rename master branch to main
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
                 
             </td>
             <td>
-                - Description of funding protocols and withdrawal protocols are yet to
-  be added.
+                Fix some references to `master` after renaming
+the `master` branch to `main`.
 
-Relates to #62.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-21 10:20:06 +0000 UTC
+        Created At 2021-08-11 14:35:08 +0000 UTC
     </div>
 </div>
 
