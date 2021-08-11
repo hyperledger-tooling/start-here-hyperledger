@@ -28,6 +28,13 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
             </td>
             <td>
                 This resolves a part of https://github.com/hyperledger-labs/yui-relayer/issues/26.
+
+
+In the `corda-build` job, fabric-chaincode docker images are rebuilt and saved.
+This is needed to pack `yui-corda-ibc-lightclientd` and `fabibc` in a single docker image.
+
+Along with this, the base image for fabric-chaincode images is changed from `alpine` to `buster`.
+`yui-corda-ibc` doesn't compile on `alpine`-based images because of https://github.com/google/protobuf-gradle-plugin/issues/265.
             </td>
         </tr>
     </table>
