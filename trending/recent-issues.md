@@ -5,7 +5,7 @@
 
 [1551](https://github.com/hyperledger/indy-plenum/issues/1551) Ubuntu 20.04: Upgrade RocksDB
 
-[54](https://github.com/hyperledger-labs/go-perun/issues/54) eth/channel/test: Replace custom genesis code in `SimulatedBackend` constructor with `core.DeveloperGenesisBlock`
+[44](https://github.com/hyperledger-labs/firefly/issues/44) Tests fail if firefly.core file is present
 
 [<nil>](<nil>) <nil>
 
