@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/160" class=".btn">#160</a>
+            </td>
+            <td>
+                <b>
+                    Add grpc error details to Go application client sample
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add grpc error details to Go application client sample.
+Without the grpc error details, only the top level gateway error
+message was available, not the underlying service error message.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 23:17:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/159" class=".btn">#159</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/35" class=".btn">#35</a>
             </td>
             <td>
                 <b>
-                    File key regex case insensitive
+                    Fix CODEOWNERS group name
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger-labs/firefly-dataexchange-https
                 
             </td>
             <td>
-                
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-15 19:54:01 +0000 UTC
+        Created At 2021-08-10 19:50:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-dataexchange-https/pull/34" class=".btn">#34</a>
+            </td>
+            <td>
+                <b>
+                    Add files for consistent repo structure
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 19:34:10 +0000 UTC
     </div>
 </div>
 

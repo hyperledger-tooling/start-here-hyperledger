@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2822" class=".btn">#2822</a>
+            </td>
+            <td>
+                <b>
+                    Add slash command for invalid issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a "/invalid" command that when typed in an issue will let users know the purpose of GitHub issues and close the issue.
+
+This can be used when a user opens an issue seeking help, rather than to report a bug or request a feature. Simply typing `/invalid` will reply to the issue with the below comment and automatically close the issue:
+
+```
+Thank you for opening this issue.
+
+GitHub Issues is a tool for tracking bugs, feature requests, and work in general that 
+relates directly to the Fabric codebase. It is not for general help requests. Please 
+use one of the following forums to request help for your issue:
+
+- RocketChat: https://chat.hyperledger.org
+- Fabric Mailing List: fabric@lists.hyperledger.org
+```
+
+Signed-off-by: Brett Logan <lindluni@github.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 19:06:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2816" class=".btn">#2816</a>
             </td>
             <td>

@@ -65,30 +65,3 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/251" class=".btn">#251</a>
-            </td>
-            <td>
-                <b>
-                    Add "High- and Low-level Transaction REST API" doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds the feature doc for a proposed High- and Low-level transaction REST API.  The design goal is to all for clients to submit transactions in a simplified manner, using standard JSON structs, removing the need to use or understand the binary wire protocols, as well as the need for any grid-specific client SDKs.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 21:00:43 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/242" class=".btn">#242</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/249" class=".btn">#249</a>
             </td>
             <td>
                 <b>
-                    proxy support to setup fabric onto cloud managed k8s from hehind proxy
+                    Fixed link issue and added asset doc
                 </b>
             </td>
         </tr>
@@ -27,14 +27,38 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                this PR achieved A and B21 and C described in issue #240.
-fix #240
-revenge of #241
+                Signed-off-by: Tong Li <litong01@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-30 07:15:23 +0000 UTC
+        Created At 2021-08-10 19:06:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/248" class=".btn">#248</a>
+            </td>
+            <td>
+                <b>
+                    Integrate minifabric with Fabric operation console
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Tong Li <litong01@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 18:46:06 +0000 UTC
     </div>
 </div>
 

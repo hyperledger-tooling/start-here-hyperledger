@@ -1,13 +1,13 @@
 
-[1198](https://github.com/hyperledger/cactus/pull/1198) refactor(plugin-registry): getOneById to use instanceId #1197
+[1347](https://github.com/hyperledger/aries-cloudagent-python/pull/1347) feat: set arbitrary plugin config value at cli
 
-[159](https://github.com/hyperledger/fabric-gateway/pull/159) Return gRPC errors directly in Go client
+[1204](https://github.com/hyperledger/cactus/pull/1204) fix(cmd-api-server): plugins interfere with API server deps #1192
 
-[1196](https://github.com/hyperledger/cactus/pull/1196) refactor(core-api): make schema names consistent in openapi spec
+[1329](https://github.com/hyperledger/iroha/pull/1329) refactor(irohad): add config order ENV -> FILE
 
-[92](https://github.com/hyperledger/sawtooth-docs/pull/92) Update links
+[2624](https://github.com/hyperledger/besu/pull/2624) Feature/1559 cleanup tx price calc
 
-[77](https://github.com/hyperledger-labs/firefly-cli/pull/77) Add files for consistent repo structure
+[37](https://github.com/hyperledger-labs/byzantine-config/pull/37) Bump path-parse from 1.0.6 to 1.0.7
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
