@@ -101,21 +101,21 @@ You can disable automated security fix PRs for this repo from the [Security Aler
 
 ### `@iroha/crypto` is only ESM-compatible
 
-Usage of `@iroha/crypto` is still not very clear and requires a native ES modules environment. In web it works fine with `vite`, in node with `esbuild-register`. Other cases are not very well researched.
+Usage of `@iroha/crypto` is still not very clear and requires a native ES modules environment. In web it works fine with `vite`, and also in node with `esbuild-register`. Other cases are not very well researched.
 
 ### `iroha_crypto_core` crate
 
 > Located at `packages/iroha-crypto/rust/iroha_crypto_core`
 
-It is a copy of `iroha_crypto` crate from [hyperledger/iroha (iroha2-dev)](https://github.com/hyperledger/iroha/tree/iroha2-dev) repo, refactored to be no-std compatible. The better way I see here is to refactor the main crate to be no-std compatible and use it directly in `iroha_crypto_wasm` crate in this repo.
+It is a copy of `iroha_crypto` crate from [hyperledger/iroha (iroha2-dev)](https://github.com/hyperledger/iroha/tree/iroha2-dev) repo, refactored to be no-std compatible. The better way to make it I see here is to refactor the main crate to be no-std compatible and use it directly in `iroha_crypto_wasm` crate in this repo.
 
-### Don't forgive to `free()` crypto structures!
+### Don't forget to `free()` crypto structures!
 
-They will never garbage collected manually, so if you don't want memory leaks, you have to `free()` every created structures manually when they have to be dropped.
+They will never be garbage collected manually, so if you don't want memory leaks, you have to `free()` every created structures manually when they have to be dropped.
 
-### Unefficiency of exposed API by `wasm_bindgen`
+### Inefficiency of exposed API by `wasm_bindgen`
 
-There are a lot of data cloning that looks like unnecessary, but I can't determine and don't know how to design it in better way. Maybe we will see after some real-world usage.
+There is a lot of data cloning that looks like unnecessary, but I can't determine and don't know how to design it in better way. Maybe we will see it after some real-world usage.
 
 Also, `wasm_bindgen` has some undocumented behavior (or I haven't found any documentation) - Rust's ownership rules works on incoming exposed structures! For example:
 
@@ -164,9 +164,9 @@ const bytes = get_pub_key_payload(pk);
 get_pub_key_payload(pk); // error! null pointer passed to rust
 ```
 
-So, OK, ownership rules affects generated bindings by `wasm_bindgen`, **but it is completely unclear from JS side of things!** There are no any borrow-checker in JS that will fail compilation in case when ownership rules has been violated. So I removed all cases when incoming values are being *moved* and I always *borrow* them and copy when it is necessary.
+So, OK, ownership rules affect generated bindings with `wasm_bindgen`, **but it is completely unclear from the JS side!** There is no any borrow-checker in JS that will fail compilation in case when ownership rules have been violated. So I removed all cases when incoming values are being *moved* and I always *borrow* them and copy when it is necessary.
 
-How to solve it? Idk, maybe we have to completely redesign WASM crate to exclude any possibility to use it improperly. We need more usage examples.
+How to solve it? Idk, maybe we have to completely redesign the WASM crate to exclude any possibility to use it improperly. We need more usage examples.
 
             </td>
         </tr>

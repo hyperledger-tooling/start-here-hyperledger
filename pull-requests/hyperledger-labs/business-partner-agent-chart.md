@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/30" class=".btn">#30</a>
-            </td>
-            <td>
-                <b>
-                    pre-release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: frank-bee <Frank.Bernhardt@bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-04 09:19:45 +0000 UTC
-    </div>
-</div>
-
