@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1613" class=".btn">#1613</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Fixes for vaultv2 update for fabric
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Fixes some paths related to credentials
+
+ 
+
+**Reviewed by**
+@sownak 
+@suvajit-sarkar 
+
+ 
+
+**Linked issue**
+#1571 
+#1317 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 10:31:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1612" class=".btn">#1612</a>
             </td>
             <td>
@@ -788,32 +828,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-08-04 14:16:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1596" class=".btn">#1596</a>
-            </td>
-            <td>
-                <b>
-                    [corda] fixed missing variables in deploy-cordapps playbook
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-04 08:26:54 +0000 UTC
     </div>
 </div>
 

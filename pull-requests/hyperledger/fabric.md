@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2824" class=".btn">#2824</a>
+            </td>
+            <td>
+                <b>
+                    Fix FAB-18528: remove panic in ifConfig func
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix issues: FAB-18528. When received the constructed message from the malicious node (through the interface "chain.rpc.SendSubmit(dest uint64, request *orderer.SubmitRequest, report func(err error))"), all orderers will breakdown immediately.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 10:30:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2822" class=".btn">#2822</a>
             </td>
             <td>

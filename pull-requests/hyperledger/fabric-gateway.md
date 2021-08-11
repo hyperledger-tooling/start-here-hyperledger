@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/161" class=".btn">#161</a>
+            </td>
+            <td>
+                <b>
+                    Fix bad unit test for CommitStatus error in Go client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The error handling is also wrong and wasn't picked up because of the bad unit test.
+
+Resolves #158
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 08:15:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/160" class=".btn">#160</a>
             </td>
             <td>

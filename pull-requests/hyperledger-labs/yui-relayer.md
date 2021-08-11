@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/48" class=".btn">#48</a>
+            </td>
+            <td>
+                <b>
+                    fabric-test: cleanup Makefile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Toshihiko Okubo <toshihiko.okubo@datachain.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 08:19:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/47" class=".btn">#47</a>
             </td>
             <td>
@@ -40,32 +66,6 @@ Along with this, the base image for fabric-chaincode images is changed from `alp
     </table>
     <div class="right-align">
         Created At 2021-08-10 08:15:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/46" class=".btn">#46</a>
-            </td>
-            <td>
-                <b>
-                    Add Docker image of Ganache node for testing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-04 11:50:27 +0000 UTC
     </div>
 </div>
 
