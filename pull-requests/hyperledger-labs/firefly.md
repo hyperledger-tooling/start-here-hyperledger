@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/153" class=".btn">#153</a>
+            </td>
+            <td>
+                <b>
+                    Update CODEOWNERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I was missing the `@` characters on the GitHub IDs previously :(
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 18:25:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/152" class=".btn">#152</a>
             </td>
             <td>

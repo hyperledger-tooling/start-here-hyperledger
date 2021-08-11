@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/3" class=".btn">#3</a>
+            </td>
+            <td>
+                <b>
+                    Add Solidity contract and Dockerfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 20:17:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/2" class=".btn">#2</a>
             </td>
             <td>

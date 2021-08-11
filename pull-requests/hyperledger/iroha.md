@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1329" class=".btn">#1329</a>
+            </td>
+            <td>
+                <b>
+                    refactor(irohad): add config order ENV -> FILE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This makes it possible to change the precedence order via
+the passing in of a new flag called --legacy_config_precedence
+which takes a boolean true/false and defaults to true in order
+to make this change backwards compatible.
+
+In order to override the pg creds via the enviornment variables
+you need to do two things:
+1. Specify the postgres credentials via environment variables
+2. Pass in to the irohad binary the --legacy_config_precedence=false
+command line argument when starting it.
+
+Fixes #1314
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+<!-- ### Requirements -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+### Benefits
+
+Flexibility in containerized environments where the config file is set at build time and tricky to change.
+
+### Possible Drawbacks
+
+People may get confused  by the additional flag I had to add to maintain backwards compatibility, but I wanted to make sure it's not a breaking change.
+
+### Usage Examples or Tests *[optional]*
+
+Shell 1
+
+```sh
+docker run --rm -p 5432:5432 -e POSTGRES_PASSWORD=x postgres:9.5
+```
+
+Shell 2
+
+```sh
+IROHA_POSTGRES_HOST=127.0.0.1 IROHA_POSTGRES_PORT=5432 IROHA_POSTGRES_USER=postgres IROHA_POSTGRES_PASSWORD=x IROHA_POSTGRES_DATABASE=postgres IROHA_POSTGRES_MAINTENANCE_DATABASE=postgres  ./build/bin/irohad --config ./example/config.sample --verbosity=trace --legacy_config_precedence=false
+```
+
+Then you can observe that it connects to the postgres that was specified in the environment variables which was the point.
+You can also observe that if you omit the `--legacy_config_precedence=false` flag or say `--legacy_config_precedence=true` instead then it reverts back to ignoring the env variables for the legacy behavior for those who need it.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 00:20:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1328" class=".btn">#1328</a>
             </td>
             <td>

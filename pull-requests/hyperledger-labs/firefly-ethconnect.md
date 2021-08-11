@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-ethconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/137" class=".btn">#137</a>
+            </td>
+            <td>
+                <b>
+                    Add files for consistent repo structure
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-10 19:28:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/136" class=".btn">#136</a>
             </td>
             <td>
@@ -40,32 +66,6 @@ The proposed change in this PR adds a buffer of 1 to the channel between the WS 
     </table>
     <div class="right-align">
         Created At 2021-08-05 19:01:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/135" class=".btn">#135</a>
-            </td>
-            <td>
-                <b>
-                    Avoid panic on concurrent stream update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #134
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 20:38:08 +0000 UTC
     </div>
 </div>
 

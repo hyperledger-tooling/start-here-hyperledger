@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1342" class=".btn">#1342</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1347" class=".btn">#1347</a>
             </td>
             <td>
                 <b>
-                    Add an optional parameter '--ledger-socks-proxy'
+                    feat: set arbitrary plugin config value at cli
                 </b>
             </td>
         </tr>
@@ -27,17 +27,26 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Add an optional parameter '--ledger-socks-proxy' to specify the socks proxy and pass it on to pool configuration
-implementation for issue #1341 
+                Doing a bit of spit balling.
 
-**Attention**! This pull request requires the newest versions of INDY-SDK and INDY-VDR (s. issue)
+We previously addressed the need for supplying configuration to plugins with the `--plugin-config` flag to load a yaml file into `settings` for use by plugins. We've found this feature to be quite helpful, especially in the case of loading multiple plugins (i.e. resolvers) that each require their own configuration. However, we have also found that it would be handy to be able to set or modify these values from the command line. So instead of having to modify the `plugin_config.yml` you're using to load the universal resolver plugin to point it to a different resolver instance, we could have a command line argument like the following:
+```
+--plugin-config-value http_uniresolver.endpoint=http://localhost:3000
+```
 
-Signed-off-by: Vitalij Reicherdt <vitalij.reicherdt@commerzbank.com>
+Or perhaps a short form of:
+```
+-o http_uniresolver.endpoint=http://localhost:3000
+```
+
+With such a command line argument, we propose that dotted key values act as a shorthand for nesting values. For example, `a.b.c.d=value` becomes `{"a": {"b": {"c": {"d": "value"}}}}`. We also propose that the value be loaded as yaml to avoid parsing ourselves while still allowing us to express values more complicated than just strings and numbers.
+
+Open to thoughts :slightly_smiling_face: 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-03 09:08:16 +0000 UTC
+        Created At 2021-08-11 00:35:28 +0000 UTC
     </div>
 </div>
 

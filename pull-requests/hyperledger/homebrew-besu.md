@@ -38,31 +38,3 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/54" class=".btn">#54</a>
-            </td>
-            <td>
-                <b>
-                    CI Changes for `main` branch migration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update links to main branch for doc links.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-03 18:50:13 +0000 UTC
-    </div>
-</div>
-
