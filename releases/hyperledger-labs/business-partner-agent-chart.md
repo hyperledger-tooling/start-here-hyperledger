@@ -15,6 +15,34 @@ permalink: /releases/hyperledger-labs/business-partner-agent-chart
         <tr>
             <td colspan="2">
                 <b>
+                    bpa-0.8.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    bpa-0.8.1
+                </span>
+            </td>
+            <td>
+                The Business Partner Agent allows to manage and exchange master data between organizations.
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.8.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-08-12 09:56:46 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     bpa-0.8.0
                 </b>
             </td>
@@ -35,62 +63,6 @@ permalink: /releases/hyperledger-labs/business-partner-agent-chart
     </a>
     <span class="right-align">
         Created At 2021-08-06 13:06:21 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    bpa-0.8-alpha03
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    bpa-0.8-alpha03
-                </span>
-            </td>
-            <td>
-                The Business Partner Agent allows to manage and exchange master data between organizations.
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.8-alpha03" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-08-05 12:19:56 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    bpa-0.8-alpha02
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    bpa-0.8-alpha02
-                </span>
-            </td>
-            <td>
-                The Business Partner Agent allows to manage and exchange master data between organizations.
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.8-alpha02" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-08-05 12:10:20 +0000 UTC
     </span>
 </div>
 
