@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/570" class=".btn">#570</a>
+            </td>
+            <td>
+                <b>
+                    Ux/move did off dashboard
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The DID being the first thing users see confuses them as they don't know what it means. 
+
+Moved it to the settings page for us.
+
+New dashboard: 
+![image](https://user-images.githubusercontent.com/5376854/129115131-178f63f6-c92a-4cc9-a2ff-a8acd68e70e0.png)
+
+New settings page:
+![image](https://user-images.githubusercontent.com/5376854/129115190-8ba6986f-7696-478d-8a04-494cc0e0dbd3.png)
+
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/570"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-11 23:37:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/569" class=".btn">#569</a>
             </td>
             <td>
