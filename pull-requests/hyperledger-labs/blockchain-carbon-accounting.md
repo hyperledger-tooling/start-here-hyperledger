@@ -36,30 +36,3 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/270" class=".btn">#270</a>
-            </td>
-            <td>
-                <b>
-                    Move content of multiple .gitignore file to a single file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #269
-Signed-off-by: Bhaarat Kumar Khatri <bharatkhatri351@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-05 09:47:26 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-contracts/pull/16" class=".btn">#16</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-contracts/pull/19" class=".btn">#19</a>
             </td>
             <td>
                 <b>
-                    :bug: [Adjudicator] Emit concluded only once
+                    :construction_worker: [check-notice-authors] Rename master to main
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-contracts
                 
             </td>
             <td>
-                Closes #15 
+                Closes #18 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-22 11:08:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-contracts/pull/14" class=".btn">#14</a>
-            </td>
-            <td>
-                <b>
-                    :zap: [Adjudicator] Conclude after progressing into final
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #13 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-22 09:46:07 +0000 UTC
+        Created At 2021-08-12 10:22:13 +0000 UTC
     </div>
 </div>
 

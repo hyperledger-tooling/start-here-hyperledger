@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1615" class=".btn">#1615</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Quick fix to get permissions to extract go tarball in  /usr/local/ path
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: alvaropicazo <alvaro.picazo.haase@accenture.com>
+
+**Changelog**
+- Fixed task to get the permissions for extracting the go tarball in /usr/local/ directory. 
+
+ 
+
+**Reviewed by**
+@sownak 
+@suvajit-sarkar 
+
+ 
+
+**Linked issue**
+#1611 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-12 09:15:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1614" class=".btn">#1614</a>
             </td>
             <td>
@@ -340,46 +381,6 @@ Resolves #1550
     </table>
     <div class="right-align">
         Created At 2021-08-06 07:13:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1602" class=".btn">#1602</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] support for vaultv2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-
-- Fix typo in create ambassador cert role
-
-
- 
-
-**Reviewed by**
-@sownak @suvajit-sarkar 
-
- 
-
-**Linked issue**
-#1549 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-05 11:49:13 +0000 UTC
     </div>
 </div>
 

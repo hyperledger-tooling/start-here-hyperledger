@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1680" class=".btn">#1680</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1684" class=".btn">#1684</a>
             </td>
             <td>
                 <b>
-                    Add support for publishing Debian packages
+                    removed pip imports
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                - Following the pattern and enhancements developed for the plenum workflows; https://github.com/hyperledger/indy-plenum/pull/1541
-- Update test runner (`runner.py`) to automatically report the test results for each set of tests.
-  - Enhancements from https://github.com/hyperledger/indy-plenum/commit/06d9406e611784b7005829ca325fcaa3ae435ea5
+                Fixes #1682
+Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
 
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-10 13:19:20 +0000 UTC
+        Created At 2021-08-12 12:22:13 +0000 UTC
     </div>
 </div>
 
