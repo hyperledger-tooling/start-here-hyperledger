@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/250" class=".btn">#250</a>
+            </td>
+            <td>
+                <b>
+                    move some hard codings from templates to config_apply.yaml for easy changing behavior
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                related to step1 in #243 ,
+
+admin password and container run command for CA, orderer, peer, couchDB are defined in config_apply.yaml and template files refer them.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-12 02:48:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minifabric/pull/249" class=".btn">#249</a>
             </td>
             <td>

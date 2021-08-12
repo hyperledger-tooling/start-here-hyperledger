@@ -309,7 +309,7 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
 @petermetz pinged for review! 
 I have a few comments/questions regarding this issue: 
 
-1. I should update this PR so that we also change the names for "get" and "set" to contain?
+1. I should update this PR so that we also change the names for "get" and "set" to contain "V1"?
 2. Could you take a look at the descriptions within the files and suggest what to write? 
 
 Thank you ⭐!! 
