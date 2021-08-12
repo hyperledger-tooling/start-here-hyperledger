@@ -114,31 +114,3 @@ permalink: /pull-requests/hyperledger/grid
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/894" class=".btn">#894</a>
-            </td>
-            <td>
-                <b>
-                    Avoid duplicate events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR introduces an EventProcessors struct to manages that event processors are only created once per circuit/service instance.
-
-It also introduces a work-around for an issue with database transaction creation while handling commit events. It serializes the events received from event processors into a channel and handle the events serially.  This fix ensures that duplicate events won't result in duplicate entries in the DB.  This second commit may be rolled back when a proper fix for transactions is introduced.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-04 20:35:14 +0000 UTC
-    </div>
-</div>
-

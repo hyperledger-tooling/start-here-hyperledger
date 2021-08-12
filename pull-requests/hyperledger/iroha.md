@@ -327,26 +327,55 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 
 ### Description of the Change
-Unsubscribe from broker on actor stop
+1. Unsubscribe from broker on actor stop
+2. Support multiple subscriptions from the same actor type (previously a TODO)
+3. Fixes a bug where broker always put self as an actor id.
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
-### Benefits
+### Broker Bug
 
-<!-- What benefits will be realized by the code change? -->
+#### Demo Test Case
+Check out `Broker bug - test showcase` commit and run the tests added there - you will notice it fails.
+The test case just tries to send a message of one type to two subscribers - should be perfectly okay logically.
 
-### Possible Drawbacks
+#### Bug Description
+Broker in the function `subscribe_recipient` adds self in the place, where I deduce should have been an actual actor type id. Therefore as this place always contains one value - type id of the broker - when several actors/channels subscribe to one message type - only the first actor/channel that subscribed to it will receive it.
 
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
+While the *expected behavior* is for all actors that subscribed to the same message type to receive this message when it is published.
 
-### Usage Examples or Tests *[optional]*
+#### Place in code of this bug
+```rust
+impl Broker {
 
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+    // ... code ..
 
-### Alternate Designs *[optional]*
+    fn subscribe_recipient<M: BrokerMessage>(&self, recipient: Recipient<M>) {
+        let mut entry = self
+            .message_entry(TypeId::of::<M>())
+            .or_insert_with(|| Vec::with_capacity(1));
+        if entry
+            .iter()
+            .any(|(actor_id, _)| *actor_id == TypeId::of::<Self>()) // BUG!
+        {
+            return;
+        }
+        entry.push((TypeId::of::<Self>(), Box::new(recipient))); // BUG!
+    }
 
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
+    /// Subscribe actor to specific message type
+    pub fn subscribe<M: BrokerMessage, A: Actor + ContextHandler<M>>(&self, ctx: &mut Context<A>) {
+        self.subscribe_recipient(ctx.recipient::<M>()) // Notice how `A` actor type is not used at all
+    }
+
+    /// Subscribe with channel to specific message type
+    pub fn subscribe_with_channel<M: BrokerMessage + Debug>(&self) -> mpsc::Receiver<M> {
+        let (sender, receiver) = mpsc::channel(100);
+        self.subscribe_recipient(sender.into());
+        receiver
+    }
+}
+```
 
 <!--
 NOTE: User may want skip pull request and push workflows with [skip ci]

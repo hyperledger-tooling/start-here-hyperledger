@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/hyperledger-hip
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/hyperledger-hip/pull/3" class=".btn">#3</a>
+                PR <a href="https://github.com/hyperledger/hyperledger-hip/pull/4" class=".btn">#4</a>
             </td>
             <td>
                 <b>
-                    Hyperledger FireFly Propsal
+                    Remove process from template
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/hyperledger-hip
                 
             </td>
             <td>
-                This is the official proposal for Hyperledger FireFly. The contents have been coped from a snapshot from the existing Google Doc that we have been iterating on. Editing and commenting on the Google Doc are locked now, as the official proposal is now in GitHub.
+                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-29 01:09:59 +0000 UTC
+        Created At 2021-08-11 21:01:21 +0000 UTC
     </div>
 </div>
 

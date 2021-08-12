@@ -164,7 +164,7 @@ https://github.com/hyperledger/iroha/pull/1092
 GetPendingTransactions is waiting for approval:
 https://github.com/hyperledger/iroha/pull/1300
 
-In order to make working tests and examples docker image was changed to one build from [this](https://github.com/hyperledger/iroha/tree/support/1.2.x). It should be changed to official one before merging
+In order to make working tests and examples docker image was changed to one build from [this](https://github.com/hyperledger/iroha/tree/support/1.2.x). It should be changed to official one before merging. Previous image did not contain changes neccesary to use above queries
 
 
             </td>
