@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/425" class=".btn">#425</a>
+            </td>
+            <td>
+                <b>
+                    docs: added info on wgc to readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ana Goessens <anagoessens@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-12 14:23:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/424" class=".btn">#424</a>
+            </td>
+            <td>
+                <b>
+                    feat(redux-store): add mediation store
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add mediation to the redux store
+
+Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-12 13:40:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/422" class=".btn">#422</a>
             </td>
             <td>
@@ -86,37 +141,6 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </table>
     <div class="right-align">
         Created At 2021-08-10 02:47:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/419" class=".btn">#419</a>
-            </td>
-            <td>
-                <b>
-                    Fix/mediator transports
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR has code that corrects issues related to mediation.
-Corrections
-- multiple restarts with the same mediation invitation 
-- second sorting of connection transport services based on inbound services
-- multiple outbound transport support
-  - add transport is now register transport, which allows using multiple types of transport.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-05 14:31:22 +0000 UTC
     </div>
 </div>
 

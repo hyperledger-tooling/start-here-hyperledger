@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/163" class=".btn">#163</a>
+            </td>
+            <td>
+                <b>
+                    Remove references to tech preview
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Remove references to gateway "tech preview", as well as
+references to "alpha" and "beta" where possible, since
+we expect gateway to work with all Fabric v2.4 releases and later.
+
+Also cleanup duplicate sample content in the hsm sample page.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-12 14:17:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/162" class=".btn">#162</a>
             </td>
             <td>
@@ -119,34 +151,6 @@ Resolves #158
     </table>
     <div class="right-align">
         Created At 2021-08-10 09:37:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/156" class=".btn">#156</a>
-            </td>
-            <td>
-                <b>
-                    Example of reading ids from JSON files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Two main types of JSON file that contain ids. Example of reading those and then prcoessing them for use with the gateway
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-05 15:57:40 +0000 UTC
     </div>
 </div>
 

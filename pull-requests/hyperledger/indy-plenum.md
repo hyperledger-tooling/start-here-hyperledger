@@ -66,34 +66,3 @@ Signed-off-by: udosson <r.klemens@yahoo.de>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1559" class=".btn">#1559</a>
-            </td>
-            <td>
-                <b>
-                    Ubuntu 20.04: Publishing of Python packages to PyPI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR solves Issue #1555 and integrates the publishing of the Python package of Plenum to PyPI into the existing GHA workflow.
-
-A successful run of the publishing to (Test)PyPI can be found [here](https://github.com/udosson/indy-plenum/actions/runs/1101535181).
-The published Python package of Plenum can be found on Test-PyPI [indy-plenum 1.13.0.dev238](https://test.pypi.org/project/indy-plenum/1.13.0.dev238/)
-
-Signed-off-by: udosson <r.klemens@yahoo.de>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-05 13:17:25 +0000 UTC
-    </div>
-</div>
-
