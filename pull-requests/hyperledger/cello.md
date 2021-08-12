@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/292" class=".btn">#292</a>
+            </td>
+            <td>
+                <b>
+                    fix agent bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                *return value error;
+*delete agent, can't find json data.
+
+Signed-off-by: XuHugo <xq-310@163.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-12 14:51:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/291" class=".btn">#291</a>
             </td>
             <td>
@@ -128,35 +157,6 @@ Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
     </table>
     <div class="right-align">
         Created At 2021-08-08 05:14:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/285" class=".btn">#285</a>
-            </td>
-            <td>
-                <b>
-                    Return value format
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                *Return data in the format of {data, MSG, status}
-*Add exception handling
-
-Signed-off-by: XuHugo <xq-310@163.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-05 16:51:23 +0000 UTC
     </div>
 </div>
 

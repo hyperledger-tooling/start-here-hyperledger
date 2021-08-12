@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/79" class=".btn">#79</a>
+            </td>
+            <td>
+                <b>
+                    Deploy ERC1155 contract and tokens microservice
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Tokens Docker will need to be deployed before this can work, which implies a dependency on https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/3.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-12 12:45:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/78" class=".btn">#78</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/466" class=".btn">#466</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/467" class=".btn">#467</a>
             </td>
             <td>
                 <b>
-                    Fix typo
+                    Fixed state deserialize which is an uint enum in contract definition.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
+                Signed-off-by: Luciano da Silva Ribas <luciano.ribas+git@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-30 03:50:34 +0000 UTC
+        Created At 2021-08-12 18:06:48 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/11" class=".btn">#11</a>
+            </td>
+            <td>
+                <b>
+                    Add automated Docker builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-12 13:59:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/10" class=".btn">#10</a>
             </td>
             <td>

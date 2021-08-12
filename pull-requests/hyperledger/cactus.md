@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1207" class=".btn">#1207</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1209" class=".btn">#1209</a>
             </td>
             <td>
                 <b>
-                    feat(ci): support debugging on CI server through ssh
+                    feat(ci): support debugging on CI server through ssh #717
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/cactus
                 
             </td>
             <td>
-                feat(ci): support debugging on CI server through ssh 
+                Fixes #717
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-11 14:48:58 +0000 UTC
+        Created At 2021-08-12 14:15:53 +0000 UTC
     </div>
 </div>
 
@@ -335,7 +335,7 @@ Thank you ⭐!!
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
             </td>
             <td>
                 This was necessary because if we import JSON files and

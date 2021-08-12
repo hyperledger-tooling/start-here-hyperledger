@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    Reduce memory footprint of the yui-corda-ibc docker container
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                close #21 by reducing the number of Corda nodes by merging a bank node and a notary node and by removing a (unused) PartyB node.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-12 16:04:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/20" class=".btn">#20</a>
             </td>
             <td>

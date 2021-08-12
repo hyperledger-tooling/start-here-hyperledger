@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
             </td>
             <td>
                 <b>
-                    Retry block event service when no peers available
+                    FABN-1657: Retry block event service when no peers available
                 </b>
             </td>
         </tr>
