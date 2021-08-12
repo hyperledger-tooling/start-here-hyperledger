@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/162" class=".btn">#162</a>
+            </td>
+            <td>
+                <b>
+                    Update gateway sample readme with additional information
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Clean up instructions for v2.4.0-beta.
+Add a description of the scenarios demonstrated in the sample client applications.
+Minor cleanups to the scenario fixtures.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-12 05:41:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/161" class=".btn">#161</a>
             </td>
             <td>

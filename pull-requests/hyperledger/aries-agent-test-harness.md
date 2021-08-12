@@ -116,29 +116,3 @@ Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/315" class=".btn">#315</a>
-            </td>
-            <td>
-                <b>
-                    chore: update to work with latest afgo (removes a bug workaround)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-05 04:58:34 +0000 UTC
-    </div>
-</div>
-
