@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/81" class=".btn">#81</a>
+            </td>
+            <td>
+                <b>
+                    Minor enhancements to contract/REST calls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These are the commits originally in #79 but not specifically related to tokens.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-13 15:08:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/79" class=".btn">#79</a>
             </td>
             <td>
@@ -27,7 +53,7 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
                 
             </td>
             <td>
-                Tokens Docker will need to be deployed before this can work, which implies a dependency on https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/3.
+                Tokens Docker will need to be deployed before this can work, which implies a dependency on https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/3. **Edit:** this pre-req is now [done](https://github.com/hyperledger-labs/firefly-tokens-erc1155/pkgs/container/firefly-tokens-erc1155).
             </td>
         </tr>
     </table>

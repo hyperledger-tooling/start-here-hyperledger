@@ -100,29 +100,3 @@ permalink: /pull-requests/hyperledger-labs/firefly
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/151" class=".btn">#151</a>
-            </td>
-            <td>
-                <b>
-                    bump ui to v0.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-06 18:10:59 +0000 UTC
-    </div>
-</div>
-

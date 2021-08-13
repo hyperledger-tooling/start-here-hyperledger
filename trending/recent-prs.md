@@ -1,13 +1,13 @@
 
-[155](https://github.com/hyperledger/aries-framework-go-ext/pull/155) chore: update sidetree dependency
+[72](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/72) Feature/credential issuance
 
-[2932](https://github.com/hyperledger/aries-framework-go/pull/2932) chore: Updated json-gold module
+[166](https://github.com/hyperledger/fabric-gateway/pull/166) Scenario tests for transaction error responses
 
-[1621](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1621) [shared] add git action to validate sample networks
+[294](https://github.com/hyperledger/cello/pull/294) Modify node
 
-[482](https://github.com/hyperledger/fabric-sdk-node/pull/482) [bug-fix] eventhub status value is now interpreted as http code
+[197](https://github.com/hyperledger/fabric-chaincode-java/pull/197) bump version to  2.4.0-beta
 
-[71](https://github.com/hyperledger/iroha-javascript/pull/71) Iroha2 add Jenkins file
+[81](https://github.com/hyperledger-labs/firefly-cli/pull/81) Minor enhancements to contract/REST calls
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

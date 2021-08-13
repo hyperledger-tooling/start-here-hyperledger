@@ -120,29 +120,3 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/896" class=".btn">#896</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT 0.2: Avoid duplicate events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of #894
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-06 14:16:20 +0000 UTC
-    </div>
-</div>
-

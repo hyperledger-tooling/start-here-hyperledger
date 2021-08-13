@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/574" class=".btn">#574</a>
+            </td>
+            <td>
+                <b>
+                    Issue V2 Indy Credential
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently work in progress.
+
+Issue and receive indy credentials via v2 api.
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/574"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-13 13:57:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/573" class=".btn">#573</a>
             </td>
             <td>
@@ -215,50 +247,6 @@ Show indicators beside each partner in the chat that has unread messages.
     </table>
     <div class="right-align">
         Created At 2021-08-07 00:35:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/566" class=".btn">#566</a>
-            </td>
-            <td>
-                <b>
-                    Add credential revocation/revocation status
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Added the possibility to revoke issued credentials in the credential management section and in the partner details.
-- Display revocation status of credentials in the verified credentials section within my wallet
-
-Wallet Credential Revocation status
-
-<img width="1525" alt="Screen Shot 2021-08-10 at 15 24 30" src="https://user-images.githubusercontent.com/13498217/128876214-70f1eede-b7a5-4102-97b2-5e1d07068214.png">
-
-Partner Details Revocation Status
-
-<img width="1534" alt="Screen Shot 2021-08-09 at 16 25 34" src="https://user-images.githubusercontent.com/13498217/128722663-c1d1ce98-dce7-4f18-b8c4-73a82468f146.png">
-
-Issue Credential - Revocation Status
-
-<img width="1605" alt="Screen Shot 2021-08-09 at 16 25 17" src="https://user-images.githubusercontent.com/13498217/128722676-5ce26849-417f-48a4-88fd-8b53a30d29d0.png">
-
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/566"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-06 12:24:59 +0000 UTC
     </div>
 </div>
 
