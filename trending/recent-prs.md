@@ -1,13 +1,13 @@
 
-[770](https://github.com/hyperledger/besu-docs/pull/770) WIP: updating the quickstart contract examples to use web3js-quorum
+[155](https://github.com/hyperledger/aries-framework-go-ext/pull/155) chore: update sidetree dependency
 
-[2631](https://github.com/hyperledger/besu/pull/2631) Updating besu-native dependencies to 0.4.0
+[2932](https://github.com/hyperledger/aries-framework-go/pull/2932) chore: Updated json-gold module
 
-[44](https://github.com/hyperledger/besu-native/pull/44) Prepare for 0.4.1-SNAPSHOT
+[1621](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1621) [shared] add git action to validate sample networks
 
-[16](https://github.com/hyperledger/indy-sdk-react-native/pull/16) Bump path-parse from 1.0.6 to 1.0.7
+[482](https://github.com/hyperledger/fabric-sdk-node/pull/482) [bug-fix] eventhub status value is now interpreted as http code
 
-[153](https://github.com/hyperledger-labs/convector/pull/153) build(deps): bump path-parse from 1.0.5 to 1.0.7
+[71](https://github.com/hyperledger/iroha-javascript/pull/71) Iroha2 add Jenkins file
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

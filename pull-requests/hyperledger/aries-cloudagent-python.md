@@ -55,32 +55,6 @@ the workaround I'm doing right now is to make the issued credential a b64 attach
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1350" class=".btn">#1350</a>
-            </td>
-            <td>
-                <b>
-                    Poc multitenant profiles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 13:56:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1348" class=".btn">#1348</a>
             </td>
             <td>
