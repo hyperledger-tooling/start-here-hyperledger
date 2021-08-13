@@ -107,17 +107,10 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">bug</span><span class="chip">API_Server</span><span class="chip">dependencies</span><span class="chip">Security</span><span class="chip">dependent</span>
+                <span class="chip">bug</span><span class="chip">API_Server</span><span class="chip">dependencies</span><span class="chip">Security</span>
             </td>
             <td>
-                # 1 Commit to review (ignore the other one which is needed for tests to pass but is on another PR):
-
-Author: Peter Somogyvari <peter.somogyvari@accenture.com>
-Date:   Tue Aug 10 16:42:09 2021 -0700    
-    
-fix(cmd-api-server): plugins interfere with API server deps #1192
-
-Migrates to the live-plugin-manager package to install plugins
+                Migrates to the lmify package to install plugins at runtime
 instead of doing it via vanilla npm which was causing problems
 with conflicting dependency versions where the API server would
 want semver 7.x and one of the plugins (through some transient
@@ -125,16 +118,17 @@ dependency of the plugin itself) would install semver 5.x which
 would then cause the API server to break down at runtime due to
 the breaking changes between semver 7 and 5.
 
-The hope with the new live-plugin-manager package is that using
-this will provide sufficient isolation so that these kind of issues
-are non-existent and also that it does not introduce other different
-types of issues stemming from exactly said isolation. With that said
-if isolation problems do occur we'll have to fix that anyway because
-the plugins should not depend on the API server and vica versa.
+The magic sauce is the --prefix option of npm which, when specified
+instructs npm to ignore the usual parent directory traversal algorithm
+when evaluating/resolving dependency trees and instead just do a full
+installation to the specified directory path as dictated by the
+--prefix option. This means that we can install each plugin in their
+own directory the code being isolated from the API server and also
+from other plugins that might also interfere.
 
-Fixes #1192
+Fixes hyperledger#1192
 
-Depends on #1203
+Depends on hyperledger#1203
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>

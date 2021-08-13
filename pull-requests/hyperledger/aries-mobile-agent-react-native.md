@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/65" class=".btn">#65</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/71" class=".btn">#71</a>
             </td>
             <td>
                 <b>
-                    Feature/u iupdate
+                    Feature/aries hooks
                 </b>
             </td>
         </tr>
@@ -29,7 +29,9 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-complete UI overhaul, start to a component library, and a general UI pattern to be followed going forward. react-router-native was completely replaced by react-navigation to give as native an experience as possible. Global styles for main colors and generic styles. 
+Replace this text with a high-level summary of the changes included in this PR.
+
+You'll see a new "aries-hooks" folder that contains a package that'll streamline all usage of AFJ methods and such, I also implemented this package throughout the app so you'll be able to see how much reused code is now removed 
 
 # Related Issues
 
@@ -54,7 +56,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-19 16:06:38 +0000 UTC
+        Created At 2021-08-12 19:41:35 +0000 UTC
     </div>
 </div>
 
