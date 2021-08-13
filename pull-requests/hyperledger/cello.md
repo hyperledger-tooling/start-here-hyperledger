@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/293" class=".btn">#293</a>
+            </td>
+            <td>
+                <b>
+                    Fix rest_framework_jwt can not return the correct UserProfile.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed #290 rest_framework_jwt can not return the correct UserProfile object by adding customized payload_handler. we need to configure JWT_AUTH on settings.py 
+```
+'JWT_PAYLOAD_GET_USERNAME_HANDLER': 'api.utils.customized_jwt_handlers.jwt_get_user_id_from_payload_handler',
+```
+
+
+
+Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-12 18:29:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/292" class=".btn">#292</a>
             </td>
             <td>

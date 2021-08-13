@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/43" class=".btn">#43</a>
             </td>
             <td>
                 <b>
-                    Update CI to main
+                    Release 0.4.0
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                Update the CI configuration to use `main` as the default branch.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-03 17:08:16 +0000 UTC
+        Created At 2021-08-13 00:11:33 +0000 UTC
     </div>
 </div>
 

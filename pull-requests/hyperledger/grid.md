@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/900" class=".btn">#900</a>
+            </td>
+            <td>
+                <b>
+                    Add action stubs for Purchase Order smart contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds unimplemented functions for the Purchase Order
+smart contract's transaction handler actions. Also, this adds the
+handling in the `apply` function to determine a payload's action.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-12 19:30:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/899" class=".btn">#899</a>
             </td>
             <td>
@@ -113,32 +143,6 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-08-06 14:16:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/895" class=".btn">#895</a>
-            </td>
-            <td>
-                <b>
-                    Add API docs to protocol module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds rustdoc comments to the protocol code for each smart contract.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-05 18:52:26 +0000 UTC
     </div>
 </div>
 
