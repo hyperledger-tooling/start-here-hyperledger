@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/166" class=".btn">#166</a>
+            </td>
+            <td>
+                <b>
+                    Scenario tests for transaction error responses
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #165 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-13 16:46:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/164" class=".btn">#164</a>
+            </td>
+            <td>
+                <b>
+                    Support HSM Scenario tests for Go Signer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-13 14:23:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/163" class=".btn">#163</a>
             </td>
             <td>

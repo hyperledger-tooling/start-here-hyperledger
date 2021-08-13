@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/294" class=".btn">#294</a>
+            </td>
+            <td>
+                <b>
+                    Modify node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                *Modify return value format
+*Optimize the create, delete and list functions
+*The update function has not been optimized
+
+Signed-off-by: XuHugo <xq-310@163.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-13 15:59:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/293" class=".btn">#293</a>
             </td>
             <td>

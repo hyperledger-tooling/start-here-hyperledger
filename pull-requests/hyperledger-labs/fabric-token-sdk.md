@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/78" class=".btn">#78</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    Revert "Collapse Raw owner"
+                    close auditor session #79
                 </b>
             </td>
         </tr>
@@ -27,40 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                This reverts commit 9cae65af7fbb6d84f2da53e7acf1050ce8f9beee.
-
-Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-05 13:08:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/76" class=".btn">#76</a>
-            </td>
-            <td>
-                <b>
-                    Collapse Raw owner (71)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-05 12:34:32 +0000 UTC
+        Created At 2021-08-13 14:13:58 +0000 UTC
     </div>
 </div>
 
