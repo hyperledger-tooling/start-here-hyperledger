@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
                 
             </td>
             <td>
-                close #21 by reducing the number of Corda nodes by merging a bank node and a notary node and by removing a (unused) PartyB node.
+                close #21 by reducing the number of Corda nodes.
+For details, this PR does the following.
+
+- Merging a bank node and a notary node
+- Removing a (unused) PartyB node
             </td>
         </tr>
     </table>

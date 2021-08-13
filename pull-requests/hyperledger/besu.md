@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2631" class=".btn">#2631</a>
+            </td>
+            <td>
+                <b>
+                    Updating besu-native dependencies to 0.4.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+- Updating besu-native dependencies to 0.4.0
+- Adding secp256r1 native lib
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-13 03:02:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2630" class=".btn">#2630</a>
             </td>
             <td>
