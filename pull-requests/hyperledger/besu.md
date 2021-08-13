@@ -251,31 +251,3 @@ For more information on this process see the Becoming a Maintainer section in th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2618" class=".btn">#2618</a>
-            </td>
-            <td>
-                <b>
-                    Permissioning - improve java docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Add some code snippets into java docs for permissioning plugin implementation
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-06 09:39:21 +0000 UTC
-    </div>
-</div>
-

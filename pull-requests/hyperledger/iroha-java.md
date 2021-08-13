@@ -140,38 +140,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/83" class=".btn">#83</a>
-            </td>
-            <td>
-                <b>
-                    Extending tx pagination meta
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is PR for extending TxPaginationMeta in queries: GetAccountTransactions, GetAccountAssetTransactions, GetPendingTransactions.
-
-GetAccountTransactions, GetAccountAssetTransactions is working now with irohad built from iroha/support/1.2.x branch 
-https://github.com/hyperledger/iroha/pull/1092
-GetPendingTransactions is waiting for approval:
-https://github.com/hyperledger/iroha/pull/1300
-
-In order to make working tests and examples docker image was changed to one build from [this](https://github.com/hyperledger/iroha/tree/support/1.2.x). It should be changed to official one before merging. Previous image did not contain changes neccesary to use above queries
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-06 09:27:39 +0000 UTC
-    </div>
-</div>
-
