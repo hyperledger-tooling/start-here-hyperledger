@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/156" class=".btn">#156</a>
+            </td>
+            <td>
+                <b>
+                    Remove retry for correlating transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Counterpart to https://github.com/hyperledger-labs/firefly-ethconnect/pull/139.
+
+This will reduce the noisy logs when using tokens, because tokens generates ethconnect events that are "unexpected" from the perspective of the blockchain plugin. There will still be a single warning printed for each token transaction, but that's...a little better?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-14 01:08:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/154" class=".btn">#154</a>
             </td>
             <td>
