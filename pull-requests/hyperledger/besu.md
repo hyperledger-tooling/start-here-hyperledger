@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2636" class=".btn">#2636</a>
+            </td>
+            <td>
+                <b>
+                    Add auth opcode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+
+## PR description
+This adds the auth opcode of EIP-3074 to Besu.
+The opcode is added to a protocol schedule that is not mapped to any milestone yet, and I'm sharing this as a draft for early review.
+The PR is not ready for merge ; it requires the addition of the opcode authcall to complete EIP-3074.
+
+See #2637
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-14 18:03:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2635" class=".btn">#2635</a>
             </td>
             <td>
