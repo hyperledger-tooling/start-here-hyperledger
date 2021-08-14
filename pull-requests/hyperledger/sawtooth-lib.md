@@ -38,31 +38,3 @@ The postgres receipt store and migrations are behind the experimental feature "p
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/78" class=".btn">#78</a>
-            </td>
-            <td>
-                <b>
-                    Add sqlite `ReceiptStore`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a `DieselReceiptStore` implementation of `ReceiptStore`.  This PR also adds a necessary migrations module for running sqlite migrations.
-
-The `DieselReceiptStore` includes 12 tests that test sqlite migrations as well as all the methods in the ReceiptStore implementation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-06 19:26:48 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1219" class=".btn">#1219</a>
+            </td>
+            <td>
+                <b>
+                    test(tools): besu multi-party AIO container image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span><span class="chip">Besu</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                Works with a modified (forked) version of quorum-dev-quickstart
+See https://github.com/ConsenSys/quorum-dev-quickstart/pull/72
+
+On the fork we added an extra commit that removes the usage of
+tput (which is a low impact change because all
+it is being used for is to make text in the terminal bold for cosmetic
+purposes).
+
+This is published on the public registry as:
+ghcr.io/hyperledger/cactus-besu-all-in-one-multi-party:2021-08-13--private-tx
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-13 23:42:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1209" class=".btn">#1209</a>
             </td>
             <td>
@@ -440,34 +477,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-08-09 06:38:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1188" class=".btn">#1188</a>
-            </td>
-            <td>
-                <b>
-                    feat(keychain-google-sm): complete request handler and endpoints #1097
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                Fixes #1097 
-
-Depends on #1196
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-06 19:52:08 +0000 UTC
     </div>
 </div>
 

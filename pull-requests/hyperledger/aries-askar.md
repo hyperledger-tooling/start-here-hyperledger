@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/15" class=".btn">#15</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/20" class=".btn">#20</a>
             </td>
             <td>
                 <b>
-                    Update p256, k256, sqlx dependencies; update version to 0.2.1
+                    Fix: encrypt keys for new profiles
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                
+                This would be a security issue, except that it was not possible to actually use the newly created profiles.
+
+Fixes #19 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-23 18:59:48 +0000 UTC
+        Created At 2021-08-13 22:10:53 +0000 UTC
     </div>
 </div>
 

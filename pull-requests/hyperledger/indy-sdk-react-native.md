@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/17" class=".btn">#17</a>
+            </td>
+            <td>
+                <b>
+                    Feature/revocation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds recipient revocation capabilities for both Android and iOS:
+    buildGetRevocRegDefRequest
+    parseGetRevocRegDefResponse
+    buildGetRevocRegDeltaRequest
+    parseGetRevocRegDeltaResponse
+    createRevocationState
+This is a followup to #15. @TheTreek contributed the Android portions.
+This fixes the types of the previous PR and readjusted the method positioning to align with Indy.
+
+All commits should be signed. If there's still issues the repo may be checking for GCP signed keys, not DCO signoff. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-13 18:33:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/16" class=".btn">#16</a>
             </td>
             <td>

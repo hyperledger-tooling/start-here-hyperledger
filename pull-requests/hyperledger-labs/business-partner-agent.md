@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/575" class=".btn">#575</a>
+            </td>
+            <td>
+                <b>
+                    Refactor 1 of Credential Management screen layout, prep for refactor 2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is just an initial PR to remove the duplicated Schema/Cred Def management from Credential Management.
+
+This was confusing users to the real purpose of the screen which is to Issue Credentials.
+So, renaming titles to Issue Credentials, remove the schema table, and move the Issuance action of the screen to the top of the screen.
+
+There will be a subsequent PR to finish of the refactor (rename VUE files and paths, add in more resource based labels/naming). Holding off for now as there is another big PR that will hit the same code; just making it easier for that merge.
+
+
+Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/575"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-13 18:29:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/574" class=".btn">#574</a>
             </td>
             <td>
@@ -215,38 +253,6 @@ then the user can set a real alias if needed.
     </table>
     <div class="right-align">
         Created At 2021-08-11 14:36:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/567" class=".btn">#567</a>
-            </td>
-            <td>
-                <b>
-                    Feature/message persistence
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Persist the Aries Basic Messages between partners.
-Update the load and fetch mechanism for using the stored messages.
-Show indicators beside each partner in the chat that has unread messages.
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/567"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-07 00:35:32 +0000 UTC
     </div>
 </div>
 
