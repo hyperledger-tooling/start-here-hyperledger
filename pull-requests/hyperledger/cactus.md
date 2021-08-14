@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1221" class=".btn">#1221</a>
+            </td>
+            <td>
+                <b>
+                    test: ensure .test suffix on mTLS tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                These are likely the last test files that we have forgotten to
+refactor to have a .test suffix which improves developer experience
+on account of IDE support and easier filtering of files.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-14 03:56:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1220" class=".btn">#1220</a>
+            </td>
+            <td>
+                <b>
+                    ci: remove retries from ci.sh
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The tests are still not 100% stable, but a lot more stable and
+the retries might not be needed anymore.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-14 03:44:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1219" class=".btn">#1219</a>
             </td>
             <td>
