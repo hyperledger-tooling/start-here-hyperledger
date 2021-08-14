@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/260" class=".btn">#260</a>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/261" class=".btn">#261</a>
             </td>
             <td>
                 <b>
-                    BE-880 Fix incorrect multi-process logging
+                    BE-881 Release v1.1.8
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
                 
             </td>
             <td>
-                Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
-
-Because of accessing a single log file from multiple processes, logging had not been working correctly.
-
-https://jira.hyperledger.org/browse/BE-880
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-06 09:45:38 +0000 UTC
+        Created At 2021-08-14 12:25:35 +0000 UTC
     </div>
 </div>
 
