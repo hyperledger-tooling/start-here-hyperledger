@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/540" class=".btn">#540</a>
-            </td>
-            <td>
-                <b>
-                    RU endorsement policies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-07 19:00:25 +0000 UTC
-    </div>
-</div>
-
