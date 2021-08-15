@@ -162,31 +162,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/287" class=".btn">#287</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-286]Modify the agent management page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Modify the agent management page to adapt the new API interface, including creating and updating agents.
-
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-08 05:14:22 +0000 UTC
-    </div>
-</div>
-
