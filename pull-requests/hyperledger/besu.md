@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    Add auth opcode
+                    EIP-3074
                 </b>
             </td>
         </tr>
@@ -30,9 +30,9 @@ permalink: /pull-requests/hyperledger/besu
                 Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
 
 ## PR description
-This adds the auth opcode of EIP-3074 to Besu.
-The opcode is added to a protocol schedule that is not mapped to any milestone yet, and I'm sharing this as a draft for early review.
-The PR is not ready for merge ; it requires the addition of the opcode authcall to complete EIP-3074.
+This adds the auth and authcall opcodes of EIP-3074 to Besu, as well as the Puxi testnet definition.
+
+The PR is not ready for merge. It needs thorough review.
 
 See #2637
 
