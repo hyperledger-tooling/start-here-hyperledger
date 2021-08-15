@@ -1,5 +1,5 @@
 
-[2636](https://github.com/hyperledger/besu/pull/2636) Add auth opcode
+[2636](https://github.com/hyperledger/besu/pull/2636) EIP-3074
 
 [261](https://github.com/hyperledger/blockchain-explorer/pull/261) BE-881 Release v1.1.8
 

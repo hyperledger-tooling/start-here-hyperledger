@@ -136,29 +136,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/289" class=".btn">#289</a>
-            </td>
-            <td>
-                <b>
-                    [Issue #288]Modify the color of components
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Modify the color of components to avoid the same font color and background color
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-08 07:00:34 +0000 UTC
-    </div>
-</div>
-
