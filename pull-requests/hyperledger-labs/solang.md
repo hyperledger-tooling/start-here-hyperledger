@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    Fixes
+                    Parse assembly block
                 </b>
             </td>
         </tr>
