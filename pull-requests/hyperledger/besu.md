@@ -61,7 +61,7 @@ See #2637
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dev experience</span>
             </td>
             <td>
                 ## PR description
@@ -135,7 +135,7 @@ fixes #2607
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span><span class="chip">testing</span>
             </td>
             <td>
                 ## PR description
@@ -216,7 +216,7 @@ fixes #2561
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">dependencies</span>
             </td>
             <td>
                 ## PR description
@@ -246,7 +246,7 @@ fixes #2561
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -408,38 +408,6 @@ For more information on this process see the Becoming a Maintainer section in th
     </table>
     <div class="right-align">
         Created At 2021-08-10 03:55:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2619" class=".btn">#2619</a>
-            </td>
-            <td>
-                <b>
-                    PKI Block Creation cli configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-- added all CLI options for PKI Block Creation as a Mixin
-- created `PkiBlockCreationConfigurationProvider` that will be used to inject the PkiOptions into QBFT-related objects
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-08 20:28:04 +0000 UTC
     </div>
 </div>
 
