@@ -22,7 +22,7 @@ permalink: /releases/hyperledger/blockchain-explorer
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.7
+                    v1.1.8
                 </span>
             </td>
             <td>
@@ -34,15 +34,14 @@ permalink: /releases/hyperledger/blockchain-explorer
 
 ## Bug Fixes and Updates
 
-* [BE-876](https://jira.hyperledger.org/browse/BE-876) Stop unnecessary discovery request (#255)
-* Bugfix: tailing ampersand sign prevents container from restarting (#254)
-* [BE-857](https://jira.hyperledger.org/browse/BE-857) Change invoking function of lifecycle scc to allow non-admin client access (#252)
-* Bugfix: timeout error crashing explorer (#253)
-* Bugfix: disable enableAuthentication auth auto login using wrong network key issue (#250)
+* BE-880 Fix incorrect multi-process logging (#260)
+* docs: add code snippet for admin cert modification (#257) (#258)
 
 ## Known Vulnerabilities
 
+package-lock.json
 ```
+
 jsrsasign  <10.2.0
 Severity: critical
 RSA signature validation vulnerability - https://npmjs.com/advisories/1672
@@ -55,21 +54,20 @@ node_modules/jsrsasign
   node_modules/fabric-ca-client
   fabric-common  >=2.1.1-snapshot.390
   Depends on vulnerable versions of jsrsasign
-  node_modules/fabric-common
-    fabric-network  >=1.4.19-snapshot.1
-    Depends on vulnerable versions of fabric-common
-    node_modules/fabric-network
+```
 
-4 critical severity vulnerabilities
+client/package-lock.json
+```
+
 ```
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/blockchain-explorer/releases/tag/v1.1.7" class=".btn">
+    <a href="https://github.com/hyperledger/blockchain-explorer/releases/tag/v1.1.8" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-07-05 08:15:19 +0000 UTC
+        Created At 2021-08-16 13:49:20 +0000 UTC
     </span>
 </div>
 
