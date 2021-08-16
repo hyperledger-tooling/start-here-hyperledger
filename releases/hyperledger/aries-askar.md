@@ -15,29 +15,29 @@ permalink: /releases/hyperledger/aries-askar
         <tr>
             <td colspan="2">
                 <b>
-                    v0.2.1
+                    v0.2.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.2.1
+                    v0.2.2
                 </span>
             </td>
             <td>
-                - Python wrapper: Fix an issue with the ECDH-1PU interface
-- FFI: More gracefully handle a null pointer as a key algorithm identifier
-- Update dependencies
-
+                - Fix an issue creating new storage profiles
+- Fix postgres DB tests
+- Extend profile tests in Python wrapper
+- Fix result of `Store.generate_raw_key` in Python wrapper
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-askar/releases/tag/v0.2.1" class=".btn">
+    <a href="https://github.com/hyperledger/aries-askar/releases/tag/v0.2.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-07-23 19:24:35 +0000 UTC
+        Created At 2021-08-16 02:46:31 +0000 UTC
     </span>
 </div>
 
