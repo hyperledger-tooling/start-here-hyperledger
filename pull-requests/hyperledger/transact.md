@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/172" class=".btn">#172</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/174" class=".btn">#174</a>
             </td>
             <td>
                 <b>
-                    BACKPORT fix lint introduced in Rust 1.54.0
+                    Order get path results by depth
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                Additionally, back-ports the commit to remove `clean` from the `just lint` command
+                This change enforces an order on the get_path results by the depth in the tree.  This guarantees that the nodes returned will be in depth-first order.
+
+It fixes a serious issue where the trees produced were not correct.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-03 16:02:14 +0000 UTC
+        Created At 2021-08-16 15:18:22 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +42,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/171" class=".btn">#171</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/173" class=".btn">#173</a>
             </td>
             <td>
                 <b>
-                    Add missing feature guards for sqlite and postgres
+                    Remove unnecessary DB test URL loading
                 </b>
             </td>
         </tr>
@@ -53,13 +55,13 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                This change adds missing feature guards to cover the cases where the sqlite feature is omitted.  Without this change, the compiler issues several errors and a number of warnings.
+                This change removes a duplicate URL loading from the environment variable for tests.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-03 15:18:56 +0000 UTC
+        Created At 2021-08-16 15:15:08 +0000 UTC
     </div>
 </div>
 

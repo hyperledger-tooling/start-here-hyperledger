@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/545" class=".btn">#545</a>
+            </td>
+            <td>
+                <b>
+                    RU transaction context
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@scientificideas.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 18:14:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/544" class=".btn">#544</a>
             </td>
             <td>

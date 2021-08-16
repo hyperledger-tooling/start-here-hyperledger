@@ -68,29 +68,3 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/898" class=".btn">#898</a>
-            </td>
-            <td>
-                <b>
-                    Add 0.2.2 release notes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Darian Plumb <dplumb@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-09 17:31:37 +0000 UTC
-    </div>
-</div>
-
