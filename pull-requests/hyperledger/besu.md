@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2641" class=".btn">#2641</a>
+            </td>
+            <td>
+                <b>
+                    AcceptanceTests: Confirm transaction has been mined
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                AcceptanceTests: Confirm transaction has been mined before checking against privCall
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 08:41:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2640" class=".btn">#2640</a>
+            </td>
+            <td>
+                <b>
+                    Injecting BftExtraDataCodec into SubsequentMessageValidator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 08:01:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2636" class=".btn">#2636</a>
             </td>
             <td>
@@ -255,7 +308,7 @@ fixes #2561
 ## PR description
 SECP256R1 is an an alternative signature algorithm which Besu supports. Until now there was only a Java implementation available. This PR adds a native library implementation for it. The native library will be used as default, following the SECP256K1 signature algorithm.
 
-_Only this draft PR uses a snapshot version for testing, this will be replaced with a release version._ 
+~~Only this draft PR uses a snapshot version for testing, this will be replaced with a release version.~~
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -374,40 +427,6 @@ For more information on this process see the Becoming a Maintainer section in th
     </table>
     <div class="right-align">
         Created At 2021-08-10 09:10:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2621" class=".btn">#2621</a>
-            </td>
-            <td>
-                <b>
-                    Added PKI QBFT Block Creation Behaviour
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-- Refactored QbftRound, introducing the `CreateBlockForProposalBehaviour` Functional Interface.
-  -  The default implementation uses the `BlockCreator`
-  - The PKI implementation has the logic to add the CMS message into the proposed block' extra data
-- Added PKI Logic into `ProposalPayloadValidator` 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-10 03:55:13 +0000 UTC
     </div>
 </div>
 

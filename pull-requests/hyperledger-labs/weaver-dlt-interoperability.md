@@ -142,29 +142,3 @@ Added a guide for enabling Weaver in an existing Fabric network.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/124" class=".btn">#124</a>
-            </td>
-            <td>
-                <b>
-                    Downgrade fabric-protos-go version in weaver-protos-go
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sandeep.nishad1 <sandeep.nishad1@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-09 09:03:14 +0000 UTC
-    </div>
-</div>
-

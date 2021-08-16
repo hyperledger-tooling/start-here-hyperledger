@@ -1,13 +1,13 @@
 
-[1229](https://github.com/hyperledger/cactus/pull/1229) refactor(cmd-api-server): migrate container to ubuntu-20.04
+[156](https://github.com/hyperledger/aries-framework-go-ext/pull/156) chore: update AFGO for sidetree vdr
 
-[1228](https://github.com/hyperledger/cactus/pull/1228) fix(cmd-api-server): add missing deps remove unused ones #1226
+[8](https://github.com/hyperledger/fabric-protos-go/pull/8) V2
 
-[1225](https://github.com/hyperledger/cactus/pull/1225) fix(examples): front-end packages missing browserify polyfills #1224
+[99](https://github.com/hyperledger-labs/fabric-smart-client/pull/99) kvs: support delete #97
 
-[544](https://github.com/hyperledger/fabric-docs-i18n/pull/544) [ja_JP] Update "Writing Your First Application"
+[1627](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1627) [chore] End of sprint merge
 
-[467](https://github.com/hyperledger-labs/solang/pull/467) Contract variable without initializer causes unreachable error
+[1625](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1625) Sync main to develop
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
