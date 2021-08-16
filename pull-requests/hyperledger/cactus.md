@@ -563,37 +563,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1191" class=".btn">#1191</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-quorum): remove hard dependency on keychain
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                feat(quorum): remove hard dependency on keychain
-
-Removed hard dependency on keychain for Quorum plugin.
-
-Updated old test cases and added new test cases.
-
-resolves #1161 
-
-Signed-off-by: TonyRowntree <33454202+TonyRowntree@users.noreply.github.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-09 12:48:09 +0000 UTC
-    </div>
-</div>
-

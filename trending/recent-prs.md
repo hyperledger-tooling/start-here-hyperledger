@@ -1,13 +1,13 @@
 
-[156](https://github.com/hyperledger/aries-framework-go-ext/pull/156) chore: update AFGO for sidetree vdr
+[545](https://github.com/hyperledger/fabric-docs-i18n/pull/545) RU transaction context
 
-[8](https://github.com/hyperledger/fabric-protos-go/pull/8) V2
+[84](https://github.com/hyperledger-labs/firefly-cli/pull/84) Fix bugs with initialization and starting
 
-[99](https://github.com/hyperledger-labs/fabric-smart-client/pull/99) kvs: support delete #97
+[398](https://github.com/hyperledger-labs/Scorex/pull/398) Switching from Travis to GitHub actions
 
-[1627](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1627) [chore] End of sprint merge
+[2936](https://github.com/hyperledger/aries-framework-go/pull/2936) fix: add close request
 
-[1625](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1625) Sync main to develop
+[160](https://github.com/hyperledger/aries-framework-go-ext/pull/160) updated indy vdr component to be compliant with v0.1.6 aries
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
