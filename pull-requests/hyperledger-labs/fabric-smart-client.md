@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/96" class=".btn">#96</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/99" class=".btn">#99</a>
             </td>
             <td>
                 <b>
-                    F 61
+                    kvs: support delete #97
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-05 10:26:01 +0000 UTC
+        Created At 2021-08-16 11:56:18 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1627" class=".btn">#1627</a>
+            </td>
+            <td>
+                <b>
+                    [chore] End of sprint merge
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- End of sprint merge from develop to main
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 11:31:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1625" class=".btn">#1625</a>
+            </td>
+            <td>
+                <b>
+                    Sync main to develop
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                *merge main to develop branch
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 11:28:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1622" class=".btn">#1622</a>
             </td>
             <td>
