@@ -14,6 +14,120 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1229" class=".btn">#1229</a>
+            </td>
+            <td>
+                <b>
+                    refactor(cmd-api-server): migrate container to ubuntu-20.04
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">API_Server</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                1. Makes the base image of the API server ubuntu-20.04
+2. Upgrades the NodeJS version to v16
+
+Published a version of this commit to ghcr as well, built it
+with this command:
+
+DOCKER_BUILDKIT=1 docker build \
+  --build-arg NPM_PKG_VERSION=fix-1226 \
+  -f ./packages/cactus-cmd-api-server/Dockerfile . \
+  -t cas \
+  -t cactus-api-server
+
+Tagged as:
+ghcr.io/hyperledger/cactus-cmd-api-server:2021-08-15--refactor-1222
+
+Fixes #1222
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 05:33:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1228" class=".btn">#1228</a>
+            </td>
+            <td>
+                <b>
+                    fix(cmd-api-server): add missing deps remove unused ones #1226
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">API_Server</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                Fixes #1226
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 04:53:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1225" class=".btn">#1225</a>
+            </td>
+            <td>
+                <b>
+                    fix(examples): front-end packages missing browserify polyfills #1224
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                The webpack build done by the Angular CLI (ng) was broken due to a few
+different issues combined together:
+1. After upgrading to Angular v12 IE 11 is no longer supported which
+necessitated the explicit configuration in the browserlist rc config
+file accordingly so that the compilation process does not try to support
+a browser for which the build is broken to begin with.
+2. polyfills had to be added via customizing the webpack configuration
+used by the Angular CLI internally which is now being done by using a
+custom builder as specified in the angular.json file. This is the new
+method of dealing with these kind of issues after the ng eject command
+was deprecated a while back. The webpack.config.overrides.js files
+that are beind added in this commit contain only the overrides (as the
+name suggests) not the entire webpack configuration that the Angular
+CLI uses internally to build the front end packages.
+
+Fixes #1224
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 02:39:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1221" class=".btn">#1221</a>
             </td>
             <td>

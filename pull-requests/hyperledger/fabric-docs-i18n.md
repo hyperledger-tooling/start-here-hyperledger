@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/544" class=".btn">#544</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Update "Writing Your First Application"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                This patch updates "Tutorials >> Writing Your First Application" (write_first_app.rst) to the latest one in the original `fabric` repository.
+
+Commit: 9a6b35104e88dc2df08db7c7b0ba3d0f61127a85
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 01:00:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/542" class=".btn">#542</a>
             </td>
             <td>
