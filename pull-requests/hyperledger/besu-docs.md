@@ -418,6 +418,7 @@ see #{your issue number} -->
 
 fixes https://github.com/ConsenSys/doc.goquorum/issues/63
 fixes #731 
+fixes #553 
 
 ## Impacted parts <!-- check as many boxes as needed -->
 

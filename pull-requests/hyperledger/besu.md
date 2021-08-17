@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2645" class=".btn">#2645</a>
+            </td>
+            <td>
+                <b>
+                    Refactor QbftExtraDataCodec from new instance to injection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+- Updated `RoundChange` and `ProposalPayload` `decode()` methods to accept a `BftExtraDataCodec` implementation (instead of creating a new instance of `QbftExtraDataCodec`.
+- A bit of plumbing work all the way to `QbftBesuControllerBuilder`, where we choose the concrete codec instance to use.
+- For the tests, we are using the `QbftExtraDataCodec` (to keep the previous behaviour)
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-17 11:10:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2644" class=".btn">#2644</a>
             </td>
             <td>
@@ -402,36 +435,6 @@ fixes #2559
     </table>
     <div class="right-align">
         Created At 2021-08-11 00:12:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2622" class=".btn">#2622</a>
-            </td>
-            <td>
-                <b>
-                    Add Antony Denyer as a maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Antony has made [significant commits](https://github.com/hyperledger/besu/commits?author=antonydenyer) improving the quality and features of besu, this PR adds him as a maintainer.
-
-Voting ends 2 weeks from the publication of this PR or once a majority of the maintainers [vote](https://github.com/hyperledger/besu/blob/master/MAINTAINERS.md#maintainers-approval-process).
-
-For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-10 09:10:07 +0000 UTC
     </div>
 </div>
 

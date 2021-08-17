@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/253" class=".btn">#253</a>
+            </td>
+            <td>
+                <b>
+                    portainer support for kubernetes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                portainer's k8s supporting, based on https://github.com/portainer/k8s/blob/master/deploy/manifests/portainer/
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-17 06:22:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minifabric/pull/252" class=".btn">#252</a>
             </td>
             <td>
