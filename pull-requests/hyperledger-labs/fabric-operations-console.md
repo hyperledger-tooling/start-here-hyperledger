@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/36" class=".btn">#36</a>
             </td>
             <td>
                 <b>
-                    remove deployer related apis in swagger
+                    doc update - formatting
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                https://github.ibm.com/IBM-Blockchain/OpTools/issues/4787
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-05 00:14:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/32" class=".btn">#32</a>
-            </td>
-            <td>
-                <b>
-                    auto fabric upgrade
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                sync with athena to pick up https://github.ibm.com/IBM-Blockchain/athena/pull/1085
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-05 00:07:41 +0000 UTC
+        Created At 2021-08-16 20:26:58 +0000 UTC
     </div>
 </div>
 

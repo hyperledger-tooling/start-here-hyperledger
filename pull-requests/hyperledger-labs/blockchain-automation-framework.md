@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1630" class=".btn">#1630</a>
+            </td>
+            <td>
+                <b>
+                    [corda] Update to Vault v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: kaverikhaneja <kaveri.khaneja@accenture.com>
+
+**Changelog**
+- Updated secret path with v2
+- Files changed to support vault v2
+
+ 
+
+**Reviewed by**
+@sownak 
+@suvajit-sarkar 
+
+ 
+
+**Linked issue**
+#1546 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 19:50:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1627" class=".btn">#1627</a>
             </td>
             <td>

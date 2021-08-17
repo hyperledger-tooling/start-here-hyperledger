@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/252" class=".btn">#252</a>
+            </td>
+            <td>
+                <b>
+                    Explorer support for Kubernetes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix #245
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-17 00:00:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minifabric/pull/250" class=".btn">#250</a>
             </td>
             <td>

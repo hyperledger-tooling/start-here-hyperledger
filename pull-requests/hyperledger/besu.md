@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2644" class=".btn">#2644</a>
+            </td>
+            <td>
+                <b>
+                    refactor GoQuorum private transaction detection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Refactor the GoQorum private transaction detection logic to be more DRY.
+
+This also unifies `Transaction.isGoQuorumPrivateTransaction()` to also consider the `GoQuorumOptions.goQuorumCompatibilityMode` flag. Previously this flag was only considered in `TransactionDecoder`. This difference in behaviour could result in transaction encoding not being the inverse of transaction decoding.
+
+## Fixed Issue(s)
+fixes #2610
+
+## Changelog
+- [x] I thought about the changelog and ~~included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).~~ did not include a changelog update
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 22:56:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2641" class=".btn">#2641</a>
             </td>
             <td>
@@ -252,36 +287,6 @@ fixes #2561
     </table>
     <div class="right-align">
         Created At 2021-08-13 22:43:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2631" class=".btn">#2631</a>
-            </td>
-            <td>
-                <b>
-                    Updating besu-native dependencies to 0.4.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">dependencies</span>
-            </td>
-            <td>
-                ## PR description
-
-- Updating besu-native dependencies to 0.4.0
-- Adding secp256r1 native lib
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 03:02:56 +0000 UTC
     </div>
 </div>
 

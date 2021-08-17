@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/firefly-fabconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/35" class=".btn">#35</a>
-            </td>
-            <td>
-                <b>
-                    Kafka integration test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                @jimthematrix Kafka integration test as we discussed.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-09 22:44:40 +0000 UTC
-    </div>
-</div>
-

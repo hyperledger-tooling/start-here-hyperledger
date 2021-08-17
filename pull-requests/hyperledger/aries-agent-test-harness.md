@@ -88,31 +88,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/316" class=".btn">#316</a>
-            </td>
-            <td>
-                <b>
-                    fix for failing mobile tests with new connection reuse PR
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR will fix the failing Mobile Tests because of the interjection of getting a public did on the `And "Faber" and "Bob" have an existing connection` step. The handler now just accepts the 500 not found from the mobile backchannel and continues to create the connection without reporting the 500. 
-
-Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-09 23:03:41 +0000 UTC
-    </div>
-</div>
-
