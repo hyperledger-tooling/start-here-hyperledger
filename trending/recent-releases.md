@@ -1,5 +1,5 @@
 
-[v1.5.1](https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.1) v1.5.1
+[v0.8.0](https://github.com/hyperledger/cactus/releases/tag/v0.8.0) v0.8.0
 
 [v1.1.8](https://github.com/hyperledger/blockchain-explorer/releases/tag/v1.1.8) Bug fixes
 
