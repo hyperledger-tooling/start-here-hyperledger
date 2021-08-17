@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                <nil>
+                This PR implements state pruning for the SqlMerkleState.  It adds two new operations, one to update a change log and the other to perform the pruning operation.
+
+It removes the use of the index in get_leaves and goes directly against the tree node table using another recursive query - in order to support the appropriate branching needs in the state pruning tests (i.e. one parent root, two successor roots).
             </td>
         </tr>
     </table>

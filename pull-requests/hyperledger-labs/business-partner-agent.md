@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/579" class=".btn">#579</a>
+            </td>
+            <td>
+                <b>
+                    Add schema labels and prevent duplicate selection in Proof Template UI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Added labels next to DIDs when selecting and displaying schemas in proof templates
+- Dynamically disable already added attributes in dropdown inside the respective attribute groups
+- Fixed multiple Vue warnings/errors caused by elements with identical identifiers in lists and tables in proof templates
+- Add developer to NOTICE file
+
+![proofTemplateSchemaSelect](https://user-images.githubusercontent.com/87176157/129738355-d5881809-1ad4-45ad-8d91-76e1c4e2fb12.png)
+
+![selectAttribute](https://user-images.githubusercontent.com/87176157/129738696-72cc178d-03d7-44ab-9f30-03c520248ab2.png)
+
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/579"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-17 13:55:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/578" class=".btn">#578</a>
             </td>
             <td>
@@ -151,7 +189,7 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
             </td>
             <td>
                 <b>
-                    Issue V2 Indy Credential
+                    Issue and receive v2 Indy credentials
                 </b>
             </td>
         </tr>
@@ -160,9 +198,7 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
                 
             </td>
             <td>
-                Currently work in progress.
-
-Issue and receive indy credentials via v2 api.
+                Issue and receive indy credentials via the v2 aca-py endpoints.
 
 <a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/574"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 

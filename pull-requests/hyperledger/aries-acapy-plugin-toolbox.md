@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/82" class=".btn">#82</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/83" class=".btn">#83</a>
             </td>
             <td>
                 <b>
-                    fix: replace ngrok with localtunnel
+                    Test/int/holder
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-06 02:22:40 +0000 UTC
+        Created At 2021-08-17 16:57:18 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/426" class=".btn">#426</a>
+            </td>
+            <td>
+                <b>
+                    fix: date parsing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Added transform function for parsing dates from multiple formats. Added transform function to basic messaging.
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [x] Added **tests** for changed code (run `scripts/preflight` to run tests and check code style).
+- [x] Prefixed code comments with GitHub nick and an appropriate prefix.
+- [x] Coding style is consistent with the rest of the framework.
+- [x] Updated **documentation** for changed code and new or modified features.
+
+_PR template adapted from the Python attrs project._
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-17 16:51:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/425" class=".btn">#425</a>
             </td>
             <td>
