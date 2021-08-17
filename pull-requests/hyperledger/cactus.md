@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1232" class=".btn">#1232</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): project-wide upgrade August, 2021
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">SPIKE</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                Dependencies that were NOT upgraded to the latest:
+1. jose
+2. express-openapi-validator
+3. prettier
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-17 04:46:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1230" class=".btn">#1230</a>
+            </td>
+            <td>
+                <b>
+                    chore(release): publish v0.8.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-17 03:07:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1229" class=".btn">#1229</a>
             </td>
             <td>
@@ -30,7 +87,7 @@ permalink: /pull-requests/hyperledger/cactus
                 1. Makes the base image of the API server ubuntu-20.04
 2. Upgrades the NodeJS version to v16
 
-Published a version of this commit to ghcr as well, built it
+Published a version of this commit to ghcr as well, built it 
 with this command:
 
 DOCKER_BUILDKIT=1 docker build \

@@ -118,29 +118,3 @@ Signed-off-by: Timo Glastra <timo@animo.id>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/420" class=".btn">#420</a>
-            </td>
-            <td>
-                <b>
-                    Documentation - Agent setup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As usual, needs some linguistics review
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-10 02:47:13 +0000 UTC
-    </div>
-</div>
-
