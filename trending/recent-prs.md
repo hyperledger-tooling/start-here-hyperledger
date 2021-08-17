@@ -1,13 +1,13 @@
 
+[1232](https://github.com/hyperledger/cactus/pull/1232) chore(deps): project-wide upgrade August, 2021
+
+[1230](https://github.com/hyperledger/cactus/pull/1230) chore(release): publish v0.8.0
+
+[577](https://github.com/hyperledger-labs/business-partner-agent/pull/577) Dashboard Update - more cards, get counts from backend.
+
+[175](https://github.com/hyperledger/transact/pull/175) SQL State pruning
+
 [1336](https://github.com/hyperledger/iroha/pull/1336) Add missing brew dep
-
-[252](https://github.com/hyperledger-labs/minifabric/pull/252) Explorer support for Kubernetes
-
-[773](https://github.com/hyperledger/besu-docs/pull/773) 749 base fee per gas
-
-[2644](https://github.com/hyperledger/besu/pull/2644) refactor GoQuorum private transaction detection
-
-[36](https://github.com/hyperledger-labs/fabric-operations-console/pull/36) doc update - formatting
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
