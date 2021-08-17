@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1235" class=".btn">#1235</a>
+            </td>
+            <td>
+                <b>
+                    test: reduce artillery runtime to 1 minute from 10
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1146
+
+Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
+
+___________________________________________________________________________
+
+Although the original issue mentioned that the artillery runtime was 10 minutes, it might have been at 5 minutes. I'm not sure if I've altered the correct code for this issue but I edited the avgLatency. Please let me know if there's something else I should have done!! 
+
+It also looks like this testcase wasn't passing the tests (this was before I made any changes), do you want me to make a separate issue to fix the failing test cases? @petermetz 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-17 15:27:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1234" class=".btn">#1234</a>
             </td>
             <td>
@@ -537,77 +571,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-08-10 19:54:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1198" class=".btn">#1198</a>
-            </td>
-            <td>
-                <b>
-                    refactor(plugin-registry): getOneById to use instanceId #1197
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                The getOneById function will now use the instance ID
-for lookups instead of the package name.
-
-Also added a couple of extra convenience methods to make
-them more consistent in general and increased the
-test coverage of the plugin registry.
-
-Fixes #1197
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-10 18:10:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1196" class=".btn">#1196</a>
-            </td>
-            <td>
-                <b>
-                    refactor(core-api): make schema names consistent in openapi spec
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1195
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com> 
-
-@petermetz pinged for review! 
-I have a few comments/questions regarding this issue: 
-
-1. I should update this PR so that we also change the names for "get" and "set" to contain "V1"?
-2. Could you take a look at the descriptions within the files and suggest what to write? 
-
-Thank you ⭐!! 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-10 17:39:08 +0000 UTC
     </div>
 </div>
 

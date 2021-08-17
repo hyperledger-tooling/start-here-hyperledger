@@ -14,6 +14,56 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2937" class=".btn">#2937</a>
+            </td>
+            <td>
+                <b>
+                    refactor: use did:key in packagers (for didcomm v1)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change removes Base58 key encoding for recipients and sender for did:key (execept for legacy packer which will remain using bsae58 encoding).
+It also includes vdr peer did creation with all KeyAgreement keys, not only the first key.
+This change adds key resolvers for the packers, one for did:key resolution and another one used for the 1PU test vector verification purposes using a thirdparty store resolution.
+
+closes #1604
+closes #1207
+closes #1659
+closes #1847
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+Use the following template for your PR (make sure you follow our
+[guidelines](CONTRIBUTING.md#pull-request):
+
+**Title:**
+[Descriptive but using as few words as possible]
+
+**Description:**
+[Link to the GitHub issue it solves (if any)]
+
+**Summary:**
+
+[Include a brief summary of your changes]
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-17 18:17:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2936" class=".btn">#2936</a>
             </td>
             <td>
@@ -394,32 +444,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2021-08-11 08:14:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2924" class=".btn">#2924</a>
-            </td>
-            <td>
-                <b>
-                    test: Additional common storage tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-10 15:05:49 +0000 UTC
     </div>
 </div>
 
