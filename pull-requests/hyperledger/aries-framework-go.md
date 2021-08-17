@@ -452,34 +452,3 @@ Signed-off-by: Andriy Holovko <andriy.holovko@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2922" class=".btn">#2922</a>
-            </td>
-            <td>
-                <b>
-                    refactor: move jwk to its own package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">chore</span><span class="chip">refactor</span>
-            </td>
-            <td>
-                To avoid cyclic dependency with did:key creation from kms keys, the jwk api needs to be in its own subpackage.
-
-closes #2921
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-09 21:07:39 +0000 UTC
-    </div>
-</div>
-

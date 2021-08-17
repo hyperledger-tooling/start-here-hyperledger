@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/576" class=".btn">#576</a>
+            </td>
+            <td>
+                <b>
+                    bugfix: proof template view/create pages not loading on refresh
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When refreshing the proof template view & create pages manually, some fields were not being loaded due to the state/store variables being loaded asynchronously.  I corrected the code to accurately hook into the state lifecycle via the ```computed``` hook and provided a backed ```REST``` endpoint for getting a ```proof-template``` via an ID to make the endpoint fully CRUD.  
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/576"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 19:26:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/575" class=".btn">#575</a>
             </td>
             <td>
