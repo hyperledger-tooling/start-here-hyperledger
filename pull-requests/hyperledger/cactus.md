@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1238" class=".btn">#1238</a>
+            </td>
+            <td>
+                <b>
+                    fix(yarn-npm-replace): replace npm with yarn in Dockerfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Improve Dockernization by replacement of npm with yarn.
+This PR is a fix regarding Issue #1237
+Signed-off-by: Shingo Fujimoto <shingo_fujimoto@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 03:28:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1235" class=".btn">#1235</a>
             </td>
             <td>
@@ -396,37 +424,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-08-11 14:31:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1205" class=".btn">#1205</a>
-            </td>
-            <td>
-                <b>
-                    test(cmd-api-server): randomize port in config service test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">API_Server</span>
-            </td>
-            <td>
-                If you don't specify port zero for the API and the cockpit then they
-will default to 3000 and 4000 instead which is bad for
-parallel test execution where we need guarantees not to
-use potentially conflicting port numbers.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 04:38:25 +0000 UTC
     </div>
 </div>
 

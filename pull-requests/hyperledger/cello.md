@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/296" class=".btn">#296</a>
+            </td>
+            <td>
+                <b>
+                    Fix #290 Can not get JWT token from obtain_jwt_token view
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Solved by using email as the login usernames, and add an email field to
+registration API endpoint.
+
+Close #290
+
+Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 02:18:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/294" class=".btn">#294</a>
             </td>
             <td>

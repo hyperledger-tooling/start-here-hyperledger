@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/254" class=".btn">#254</a>
+            </td>
+            <td>
+                <b>
+                    reuse task with vars to clean k8s ingress entries.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                before:
+```yaml
+  include_tasks : playbooks/ops/xxx/k8s-clean-service.yaml
+  # port list  is embeded in the above file
+```
+after:
+```yaml
+ inlcude_tasks: playbooks/common/k8s-rm-ingress-entry.yaml
+ vars: 
+   ours: "{{ [ list of ports we want to remove from ingress controller ] }}"
+```
+playbooks/common/k8s-rm-ingress-entry.yaml is involved previous PR 253
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 04:49:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minifabric/pull/253" class=".btn">#253</a>
             </td>
             <td>
