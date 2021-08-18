@@ -90,7 +90,14 @@ Signed-off-by: Travis Payne <travis.payne@accenture.com>
                 <span class="chip">SPIKE</span><span class="chip">dependencies</span>
             </td>
             <td>
-                Dependencies that were NOT upgraded to the latest:
+                1. Updated how Husky is configured to match the new version.
+2. Had to migrate the custom checks tooling to Ecmascript Modules
+because globby's latest version uses them and now we must too.
+3. Restricted the custom checks to only run on NodeJS v14 and newer
+because on Node v12 the custom checks do not work anymore due to
+the ESM migration.
+
+Dependencies that were NOT upgraded to the latest:
 1. jose
 2. express-openapi-validator
 3. prettier
@@ -420,157 +427,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-08-11 04:38:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1204" class=".btn">#1204</a>
-            </td>
-            <td>
-                <b>
-                    fix(cmd-api-server): plugins interfere with API server deps #1192
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">API_Server</span><span class="chip">dependencies</span><span class="chip">Security</span>
-            </td>
-            <td>
-                Migrates to the lmify package to install plugins at runtime
-instead of doing it via vanilla npm which was causing problems
-with conflicting dependency versions where the API server would
-want semver 7.x and one of the plugins (through some transient
-dependency of the plugin itself) would install semver 5.x which
-would then cause the API server to break down at runtime due to
-the breaking changes between semver 7 and 5.
-
-The magic sauce is the --prefix option of npm which, when specified
-instructs npm to ignore the usual parent directory traversal algorithm
-when evaluating/resolving dependency trees and instead just do a full
-installation to the specified directory path as dictated by the
---prefix option. This means that we can install each plugin in their
-own directory the code being isolated from the API server and also
-from other plugins that might also interfere.
-
-Fixes hyperledger#1192
-
-Depends on hyperledger#1203
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 00:28:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1203" class=".btn">#1203</a>
-            </td>
-            <td>
-                <b>
-                    fix(prometheus): metrics.ts leaks to global registry #1202
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                fix(prometheus): metrics.ts leaks to global registry #1202
-    
-1. Specified a `register` property of the gauges as an empty
-array so that it does not pollute the global namespace. This
-is how this is supposed to be done as per the docs of prom-client.
-
-2. Once the change from 1) took place, the issue became that
-the metrics gathering code was still trying to hit up the
-global scope for the metrics, e.g. calling the get metrics
-methods directly on the promClient object instead of the
-registry that we create for each prmoetheus exporter object
-separately. So a little additional refactor ensued to fix this
-as well by making sure that we grab a reference of the registry
-object at construction time and then re-use that wherever needed
-instead of going through the global promClient object.
-
-3. Added missing .startMetricsCollection calls in the plugin
-constructors to ensure that the prometheus exporter object
-gets initialized properly (this is where the registry gets
-created as well so without this there are crashes happening
-when one tries to access the metrics through the registry)
-
-Why though?
-The problem was that the metrics.ts file that we have for all the
-plugin's metrics constructs a new Metric (Gauge) object at import
-time which then defaults to registering the metric in the global
-registry of prom-client by default.
-
-The latter was causing crashes when separate versions of the same
-metrics.ts file are imported in a scenario were the API server
-imports plugins from a different directory (this issue is coming
-from the branch where I'm working on plugin sandboxing via the
-live-plugin-manager).
-    
-Fixes #1202
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-10 22:34:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1201" class=".btn">#1201</a>
-            </td>
-            <td>
-                <b>
-                    fix(plugin-consortium-manual): drop repo constructor arg #1199
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                Removes the non-serializable consortiumRepo argument from the
-constructor of the consortium plugin manual class's options.
-
-Refactors the constructor and the internals of the plugin  to initialize
-the consortium repo from the consortium database at runtime
-instead of expecting it passed in via the constructor.
-Refactors the internal code previously using the options.consoritumRepo
-object to use this.repo instead which is what gets initalized in
-the constructor as explained above.
-
-All this leads to equivalent functionality but less boilerplate and now
-thanks to this the plugin can be (should be - more tests needed)
-initialized by the API server purely based on the static configuration
-file when necessary.
-
-Fixes #1199
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-10 19:54:27 +0000 UTC
     </div>
 </div>
 

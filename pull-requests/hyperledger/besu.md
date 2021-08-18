@@ -302,7 +302,7 @@ Wrote a failing test to show the expected behaviour and ensured that the max of 
 this is an extensive re-plumbing to make GasLimitCalculator part of ProtocolSchedule rather than being global
 
 highlights:
-* plumbing of OptionalLong targetGasLimit into ProtocolSchedule creations
+* plumbing of `Optional<AtomicLong>` targetGasLimit into MiningParameters, MiningCoordinators, MiningExecutors, and Block Creators
 * moving GasLimitCalculator interface and related implementations into ethereum:core
 * creation of LondonTargetingGasLimitCalculator
 * removal of 1559 specific forkblock gas limit logic in GasLimitRangeAndDeltaValidationRule and AbstractBlockCreator
@@ -391,50 +391,6 @@ Create extra data with round information only when using a contract to obtain vo
     </table>
     <div class="right-align">
         Created At 2021-08-11 07:53:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2624" class=".btn">#2624</a>
-            </td>
-            <td>
-                <b>
-                    Feature/1559 cleanup tx price calc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-* roll TransactionPriceCalculator into FeeMarket
-* create a LegacyFeeMarket to use prior to London
-* remove explicit usages of TransactionPriceCalculator static constructors
-* remove TransactionPriceCalculator from ProtocolSpec (added to FeeMarket)
-* make FeeMarket non-optional in ProtocolSchedule
-* create BaseFeeMarket interface for London
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2559
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 00:12:58 +0000 UTC
     </div>
 </div>
 
