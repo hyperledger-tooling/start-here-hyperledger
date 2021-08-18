@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2940" class=".btn">#2940</a>
+            </td>
+            <td>
+                <b>
+                    fix: integration issues in wallet DIDcomm interfaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Part of #2433
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-17 19:34:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2938" class=".btn">#2938</a>
+            </td>
+            <td>
+                <b>
+                    docs: Updates to storage interface documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Clarified expected behaviour of storage interface implementations
+- Added missing call to Provider.SetStoreConfig for the context store.
+- Removed the workaround for MySQL, which is no longer needed.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-17 19:12:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2937" class=".btn">#2937</a>
             </td>
             <td>
@@ -24,12 +83,13 @@ permalink: /pull-requests/hyperledger/aries-framework-go
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">refactor</span><span class="chip">aip 2.0</span>
             </td>
             <td>
                 This change removes Base58 key encoding for recipients and sender for did:key (execept for legacy packer which will remain using bsae58 encoding).
 It also includes vdr peer did creation with all KeyAgreement keys, not only the first key.
 This change adds key resolvers for the packers, one for did:key resolution and another one used for the 1PU test vector verification purposes using a thirdparty store resolution.
+Finally, this change also moves did:key fignerprint code referencing did.Doc into a separate subpackage (pkg/vdr/fingerprint/didfp) to avoid cyclic dependency with jwk fingerprint.
 
 closes #1604
 closes #1207
@@ -37,20 +97,6 @@ closes #1659
 closes #1847
 
 Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-Use the following template for your PR (make sure you follow our
-[guidelines](CONTRIBUTING.md#pull-request):
-
-**Title:**
-[Descriptive but using as few words as possible]
-
-**Description:**
-[Link to the GitHub issue it solves (if any)]
-
-**Summary:**
-
-[Include a brief summary of your changes]
-
 
             </td>
         </tr>
