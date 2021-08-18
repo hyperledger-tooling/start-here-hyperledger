@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2838" class=".btn">#2838</a>
+            </td>
+            <td>
+                <b>
+                    FAB-18529 added null check in channel header parsing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Bug fix
+
+#### Description
+Fuzz testing has reported SEGV while sending incomplete/null
+message request to orderer.  When the submit request payload
+is null, the orderer fails with SEGV while trying to parse/read 
+the channel header.
+
+Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 15:19:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2837" class=".btn">#2837</a>
             </td>
             <td>
@@ -219,65 +254,6 @@ Finally, you can contact us on https://mergify.io/
     </table>
     <div class="right-align">
         Created At 2021-08-11 18:28:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2829" class=".btn">#2829</a>
-            </td>
-            <td>
-                <b>
-                    Better error messages from Gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Include some of the detail information in the top level gRPC error message to aid problem determination for client applications.
-
-Resolves #2806
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 16:04:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2828" class=".btn">#2828</a>
-            </td>
-            <td>
-                <b>
-                    Fix FAB-18528: remove panic in ifConfig func
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix issues: FAB-18528. When received the constructed message from the malicious node (through the interface "chain.rpc.SendSubmit(dest uint64, request *orderer.SubmitRequest, report func(err error))"), all orderers will breakdown immediately.
-
-Signed-off-by: sardChen <sard.chen@gmail.com>
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 14:42:06 +0000 UTC
     </div>
 </div>
 

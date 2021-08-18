@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1240" class=".btn">#1240</a>
+            </td>
+            <td>
+                <b>
+                    docs: update faq documentation and incorporate Quick-Start-Topics section
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Structure FAQ.md into two sections:
+- Quick-Start Topics
+- Other Topics
+
+Adding a new topic for API-Server 'UnauthorizedError' to the Quick-Start Topics 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 12:27:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1238" class=".btn">#1238</a>
             </td>
             <td>
@@ -398,32 +428,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-08-12 14:15:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1206" class=".btn">#1206</a>
-            </td>
-            <td>
-                <b>
-                    Feat 1010 keychain azure handler endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 14:31:21 +0000 UTC
     </div>
 </div>
 

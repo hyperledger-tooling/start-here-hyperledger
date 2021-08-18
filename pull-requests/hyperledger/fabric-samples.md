@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/469" class=".btn">#469</a>
+            </td>
+            <td>
+                <b>
+                    Remove .env Files and Explicitly Name Network (#417)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport from main to release-2.2.
+
+There have been lots of changes and quirks with the
+docker-compose .env file, this change removes the file
+and explicitly creates and assigns the networks in the
+compose yaml files.
+
+Signed-off-by: Brett Logan <lindluni@github.com>
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 17:54:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/468" class=".btn">#468</a>
             </td>
             <td>

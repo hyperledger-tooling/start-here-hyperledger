@@ -14,6 +14,115 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1634" class=".btn">#1634</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Updated Quorum molecule tests in Git Actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: kaverikhaneja <kaveri.khaneja@accenture.com>
+
+- Updated quorum molecule tests in git actions
+- Updated molecule scenario files, as required.
+
+ 
+
+**Reviewed by**
+@sownak @suvajit-sarkar 
+
+ 
+
+**Linked issue**
+#735 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 16:38:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1633" class=".btn">#1633</a>
+            </td>
+            <td>
+                <b>
+                    [shared] simplified networkvalidation json
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- updated network validation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 15:50:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1632" class=".btn">#1632</a>
+            </td>
+            <td>
+                <b>
+                    [shared] create git actions to build baf-build image and push to dockerhub
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jose Pazos <pppazos@gmail.com>
+
+**Changelog**
+- Add git action to build baf-build image
+
+ 
+
+**Reviewed by**
+@pppazos
+
+ 
+
+**Linked issue**
+#743 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 12:46:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1631" class=".btn">#1631</a>
             </td>
             <td>
@@ -440,41 +549,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-08-12 09:15:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1614" class=".btn">#1614</a>
-            </td>
-            <td>
-                <b>
-                    [indy] update for vault v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
-
-**Changelog**
-- Update Indy code to support Vault V2
-- Merge latest from develop
- 
-
-**Linked issue**
-Resolves #1550 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 13:32:31 +0000 UTC
     </div>
 </div>
 

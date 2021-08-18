@@ -1,13 +1,13 @@
 
-[2837](https://github.com/hyperledger/fabric/pull/2837) Update bootstrap.sh download script for Fabric CA v1.5.1
+[334](https://github.com/hyperledger/aries-vcx/pull/334) Add architecture diagram, update docs
 
-[580](https://github.com/hyperledger-labs/business-partner-agent/pull/580) Partner detail/Proof detail
+[173](https://github.com/hyperledger/fabric-gateway/pull/173) Update samples for beta release
 
-[288](https://github.com/hyperledger/fabric-chaincode-node/pull/288) bump version to 2.4.0-beta
+[469](https://github.com/hyperledger/fabric-samples/pull/469) Remove .env Files and Explicitly Name Network (#417)
 
-[95](https://github.com/hyperledger/iroha-java/pull/95) Moved `encode` and `decode` from `model` to `client` module
+[1634](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1634) [quorum] Updated Quorum molecule tests in Git Actions
 
-[1631](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1631) [quorum] add quorum schema definition
+[1687](https://github.com/hyperledger/indy-node/pull/1687) Added ursa to the core.ubuntu.dockerfile install
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

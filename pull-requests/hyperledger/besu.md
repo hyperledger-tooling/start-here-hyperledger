@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2657" class=".btn">#2657</a>
+            </td>
+            <td>
+                <b>
+                    Remove EIP-1702 account versioning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                EIP-1702 versioning was a candidate for the Istanbul hard fork but was
+removed prior to the first testnet. Other versioning techniques have
+greater core dev mind share and one preparatory step landed in London,
+EIP-3541, making EIP-1702 very unlikely to make it to mainnet.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 16:32:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2656" class=".btn">#2656</a>
+            </td>
+            <td>
+                <b>
+                    Update pending transaction manager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR add different ways of sorting transactions in the pool regarding the fork present (whether or not the genesis has the london fork) .
+- Back to simple sorting for pre-london blockchains (based on gasPrice)
+- Setting up a more complex sorting for blockchains with the london fork (to manage eip1559 transactions)
+
+This makes it possible to simplify the code by putting different sorting method according to what we need .
+
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 13:27:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2655" class=".btn">#2655</a>
             </td>
             <td>

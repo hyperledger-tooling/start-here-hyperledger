@@ -27,7 +27,19 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                Signed-off-by: Lucas Steuernagel <lucas.tnagel@gmail.com>
+                This PR implements undefined variable detection for variables in function scope, using the current reaching definitions implementation. A few points need further improvement:
+1. Reaching definitions does not work across functions, which prevents us from detecting new definitions on function calls, whose arguments are memory references.
+2. Codegen Instruction `Instr::AbiDecode` needs refactoring to make reaching definitions work properly with try-catch statements.
+
+In addition, the PR prettifies warnings and errors messages Solang prints to CLI. Here is an example of the new formatting:
+```
+examples/test.sol:24:13-18: error: unreachable statement
+Line 24:
+	a = 5;
+	^^^^^
+```
+
+This work is part of the Linux Foundation mentorship for the Hyperledge Solang compiler. For more information, please refer to the [project plan](https://wiki.hyperledger.org/display/INTERN/Project+plan+-+Solang+compiler+passes+2021).
             </td>
         </tr>
     </table>
