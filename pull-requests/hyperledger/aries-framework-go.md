@@ -87,9 +87,9 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
             <td>
                 This change removes Base58 key encoding for recipients and sender for did:key (execept for legacy packer which will remain using bsae58 encoding).
-It also includes vdr peer did creation with all KeyAgreement keys, not only the first key.
+It also includes vdr peer did creation with all VM and KeyAgreement keys, not only the first key.
 This change adds key resolvers for the packers, one for did:key resolution and another one used for the 1PU test vector verification purposes using a thirdparty store resolution.
-Finally, this change also moves did:key fignerprint code referencing did.Doc into a separate subpackage (pkg/vdr/fingerprint/didfp) to avoid cyclic dependency with jwk fingerprint.
+Finally, this change also moves did:key fingerprint code referencing did.Doc into a separate subpackage (pkg/vdr/fingerprint/didfp) to avoid cyclic dependency with jwk fingerprint.
 
 closes #1604
 closes #1207
