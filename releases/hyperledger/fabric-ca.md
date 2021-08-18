@@ -48,6 +48,10 @@ To use the improvement, start the Fabric CA with the configuration option ``ca.r
 set to ``true`` (or set environment variable FABRIC_CA_SERVER_CA_REENROLLIGNORECERTEXPIRY).
 Alternatively, start the Fabric CA with flag ``--ca.reenrollignorecertexpiry``.
 
+Fixes
+-----
+Release binaries for Linux and Windows that were corrupted in v1.5.0 have been fixed in v1.5.1.
+
 Dependencies
 ------------
 
@@ -88,6 +92,7 @@ None.
 
 ## Changes:
 
+* a01d0ae681a3d71e7b812cd9c9e5ad852fcc7621 Build release artifacts on native platforms
 * d6f546ba4b9f43fcf11bda0b8d0bc08912607563 Release commit for Fabric CA v1.5.1
 * 71436f400465dcecc09abe0dd66e20830da77711 Add native target description in Makefile
 * 9b0e156edd9b244254b0ffb5189e6aeaa9f51bea review comments
@@ -97,9 +102,9 @@ None.
 * 385273877385b0cffbd9b1bb07245a722f4a9fea 521 is not supported anymore
 * 2147670bd8b25199dfd897dbfbea5ac3fbbc6eba fixed 521 to 512 ecdsa algorithm
 * 05fe243f24bfc761d3c075c4049b093ed7d270d8 fixed missed double quotation
-* 2f05c9a10dbe43344b11572ea612ed53d534b392 fixed a typo
 <details><summary><b>See More</b></summary>
 
+* 2f05c9a10dbe43344b11572ea612ed53d534b392 fixed a typo
 * 0e750f79ac8ed92d4317879d3d5e339b8eaf3784 Enable arm64
 * 9a9d6ff0a2d43aec1d97cea7b66676a9d31a345a Bump jinja2 from 2.10.1 to 2.11.3 in /docs
 * c8d2ffb69208f64ada7ac90c23d856fd8a23a8c5 Update default branch to main
@@ -111,7 +116,7 @@ None.
 * 6e825cc1a71a2ed191f17182eef8e6888108a212 Add release Target to Release Pipeline
 * fd12c1d23e6f033996ac64c7b7e963b0fe3b7e76 Change release pipeline service connection
 
-This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabric/_build/results?buildId=39255&view=logs).</details>
+This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabric/_build/results?buildId=39316&view=logs).</details>
             </td>
         </tr>
     </table>
@@ -119,7 +124,7 @@ This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabr
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-08-16 15:41:21 +0000 UTC
+        Created At 2021-08-17 19:50:27 +0000 UTC
     </span>
 </div>
 
