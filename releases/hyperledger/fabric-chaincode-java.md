@@ -15,29 +15,26 @@ permalink: /releases/hyperledger/fabric-chaincode-java
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.3 Java Chaincode
+                    v2.4.0-beta Fabric Chaincode Java
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.3
+                    v2.4.0-beta
                 </span>
             </td>
             <td>
-                This is a maintenance release for the 2.2 LTS Branch of Java Chaincode
-
-It includes fixes for Mutual TLS when working with Chaincode-as-a-Server
-
+                The first release of the v2.4 beta.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-chaincode-java/releases/tag/v2.2.3" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-chaincode-java/releases/tag/v2.4.0-beta" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-07-23 10:46:23 +0000 UTC
+        Created At 2021-08-18 10:30:06 +0000 UTC
     </span>
 </div>
 
