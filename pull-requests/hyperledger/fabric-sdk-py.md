@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/155" class=".btn">#155</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/156" class=".btn">#156</a>
             </td>
             <td>
                 <b>
-                    prune deprecated peer event port 7053
+                    added fabric 2.x lifecycle methods
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
                 
             </td>
             <td>
-                code hygience
-Signed-off-by: DavidLiu <david.yx.liu@oracle.com>
+                added fabric 2 lifecycle methods: package, install, approveformyorgcommit, commit, queryinstalled, queryapproved, querycommitted
+
+Signed-off-by: kalichyn <ext-nazarii.kalichynskyi@here.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-21 07:12:22 +0000 UTC
+        Created At 2021-08-18 08:22:26 +0000 UTC
     </div>
 </div>
 

@@ -469,34 +469,3 @@ SECP256R1 is an an alternative signature algorithm which Besu supports. Until no
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2625" class=".btn">#2625</a>
-            </td>
-            <td>
-                <b>
-                    QBFT - Create extradata with round information only
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Create extra data with round information only when using a contract to obtain vote and validators information.
- 
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 07:53:26 +0000 UTC
-    </div>
-</div>
-

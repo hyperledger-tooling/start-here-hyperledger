@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    Implement undefined varaible detection and prettify warning messages
+                    Implement undefined variable detection and prettify warning messages
                 </b>
             </td>
         </tr>

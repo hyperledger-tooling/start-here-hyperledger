@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/perun-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/225" class=".btn">#225</a>
+            </td>
+            <td>
+                <b>
+                    Release v0.6.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 08:29:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/perun-node/pull/224" class=".btn">#224</a>
             </td>
             <td>
