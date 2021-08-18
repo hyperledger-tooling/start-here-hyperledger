@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1631" class=".btn">#1631</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] add quorum schema definition
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jose Pazos <pppazos@gmail.com>
+
+**Changelog**
+- Update network-schema.yaml to include quorum network schema definition
+
+ 
+
+**Reviewed by**
+@pppazos
+
+ 
+
+**Linked issue**
+#1590 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 09:26:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1630" class=".btn">#1630</a>
             </td>
             <td>
@@ -435,46 +475,6 @@ Resolves #1550
     </table>
     <div class="right-align">
         Created At 2021-08-11 13:32:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1613" class=".btn">#1613</a>
-            </td>
-            <td>
-                <b>
-                    [fabric] Fixes for vaultv2 update for fabric
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Fixes some paths related to credentials
-
- 
-
-**Reviewed by**
-@sownak 
-@suvajit-sarkar 
-
- 
-
-**Linked issue**
-#1571 
-#1317 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 10:31:50 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/287" class=".btn">#287</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/288" class=".btn">#288</a>
             </td>
             <td>
                 <b>
-                    Fix a dead link in docs
+                    bump version to 2.4.0-beta
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                A link is broken in the documentation page because
-the name of the repository has been changed from master to main.
-This PR fixes the dead link.
-
-Signed-off-by: Nao Nishijima <nao.nishijima.xt@hitachi.com>
+                Signed-off-by: Francesco Vlacancich Francesco.Vlacancich@ibm.com
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-04 10:12:54 +0000 UTC
+        Created At 2021-08-18 12:05:59 +0000 UTC
     </div>
 </div>
 

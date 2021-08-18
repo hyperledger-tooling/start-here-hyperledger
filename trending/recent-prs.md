@@ -1,13 +1,13 @@
 
-[2655](https://github.com/hyperledger/besu/pull/2655) qbft block to transaction based voting migration
+[2837](https://github.com/hyperledger/fabric/pull/2837) Update bootstrap.sh download script for Fabric CA v1.5.1
 
-[254](https://github.com/hyperledger-labs/minifabric/pull/254) reuse task with vars to clean k8s ingress entries.
+[580](https://github.com/hyperledger-labs/business-partner-agent/pull/580) Partner detail/Proof detail
 
-[2654](https://github.com/hyperledger/besu/pull/2654) Refactor PKI ATs to only run subset of tests
+[288](https://github.com/hyperledger/fabric-chaincode-node/pull/288) bump version to 2.4.0-beta
 
-[1238](https://github.com/hyperledger/cactus/pull/1238) fix(yarn-npm-replace): replace npm with yarn in Dockerfile
+[95](https://github.com/hyperledger/iroha-java/pull/95) Moved `encode` and `decode` from `model` to `client` module
 
-[296](https://github.com/hyperledger/cello/pull/296) Fix #290 Can not get JWT token from obtain_jwt_token view
+[1631](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1631) [quorum] add quorum schema definition
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
