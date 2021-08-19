@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1359" class=".btn">#1359</a>
+            </td>
+            <td>
+                <b>
+                    Updates to the Read The Docs for 0.7.0/1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates various files necessary to generate the Read The Docs files about ACA-Py.  Should have been done before the tagging of 0.7.0 -- my miss.
+
+Mostly complete, with two classes of warnings in the generation process remaining as follows:
+
+1. One instance of this:
+
+```bash
+WARNING: error while formatting arguments for aries_cloudagent.protocols.issue_credential.v1_0.models.credential_exchange.V10CredentialExchange: unhashable type: 'list'
+```
+
+2. Nine instances with the same symptom referencing `__all__`, here are two:
+
+```
+WARNING: __all__ should be a list of strings, not [typing.Callable[[str, dict], dict], <class 'aries_cloudagent.vc.ld_proofs.document_loader.DocumentLoader'>] (in module aries_cloudagent.vc.ld_proofs.document_loader) -- ignoring __all__
+WARNING: __all__ should be a list of strings, not [<class 'aries_cloudagent.vc.ld_proofs.crypto.KeyPair.KeyPair'>, <class 'aries_cloudagent.vc.ld_proofs.crypto.WalletKeyPair.WalletKeyPair'>] (in module aries_cloudagent.vc.ld_proofs.crypto) -- ignoring __all__
+
+```
+
+If anyone knows how to address that, please do.
+
+To reproduce the errors on this branch, follow the instructions in the `readme.md` file in the \docs folder (install sphinx, run the build command).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 04:17:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1356" class=".btn">#1356</a>
             </td>
             <td>

@@ -266,6 +266,11 @@ Fixes #2650
             <td>
                 The labelled gauge functionality will allow monitoring of gauge type data without creating many gauges, which can be particularly handy in tracking related data.
 
+This would be particularly useful in a specific use case in Teku which uses the besu infrastructure to provide prometheus metrics.
+https://github.com/ConsenSys/teku/issues/3892
+
+There are a large number of gauges that are requested, but logically they're actually a single gauge with labels capturing context.
+
 ## Changelog
 
 - [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).

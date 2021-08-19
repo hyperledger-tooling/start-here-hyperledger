@@ -1,13 +1,13 @@
 
-[2659](https://github.com/hyperledger/besu/pull/2659) Split Transaction Gas Calculation from EVM Calculation
+[101](https://github.com/hyperledger/iroha-java/pull/101) Added filtering of classpath to include in fat jar only polkaj-scale
 
-[2658](https://github.com/hyperledger/besu/pull/2658) Feature/1559 cleanup remove 1559 object
+[100](https://github.com/hyperledger/iroha-java/pull/100) Removed shadowed plugin and changed 'jar' task to create fat jars 
 
-[1350](https://github.com/hyperledger/iroha/pull/1350) Fixes and enhancements of Iroha P2P. Closes #1349.
+[1359](https://github.com/hyperledger/aries-cloudagent-python/pull/1359) Updates to the Read The Docs for 0.7.0/1
 
-[47](https://github.com/hyperledger/besu-native/pull/47) Preparing for next release 
+[322](https://github.com/hyperledger/aries-agent-test-harness/pull/322) Changes by create-pull-request action
 
-[46](https://github.com/hyperledger/besu-native/pull/46) Release 0.4.1
+[165](https://github.com/hyperledger/aries-framework-go-ext/pull/165) feat: Reuse MongoDB connection across stores
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
