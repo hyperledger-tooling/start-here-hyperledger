@@ -71,32 +71,3 @@ Signed-off-by: XuHugo <xq-310@163.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/292" class=".btn">#292</a>
-            </td>
-            <td>
-                <b>
-                    fix agent bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                *return value error;
-*delete agent, can't find json data.
-
-Signed-off-by: XuHugo <xq-310@163.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-12 14:51:09 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,210 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2946" class=".btn">#2946</a>
+            </td>
+            <td>
+                <b>
+                    test: Add unit tests for storing JSON strings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Bob Stasyszyn <Bob.Stasyszyn@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 16:24:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2945" class=".btn">#2945</a>
+            </td>
+            <td>
+                <b>
+                    Add support for X25519/Ed25519 keys in fingerprint.CreateDIDKeyByJwk()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                closes #2944
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 16:17:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2943" class=".btn">#2943</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): bump webpack from 4.46.0 to 5.51.1 in /cmd/aries-js-worker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.51.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
+<blockquote>
+<h2>v5.51.1</h2>
+<h1>Bugfixes</h1>
+<ul>
+<li><code>library: &quot;module&quot;</code> propages top-level-await correctly</li>
+<li>fix crash in filesystem snapshotting when trying to snapshot a non-existing directory</li>
+<li>fix some context-dependent logic in concatenated modules and source url handling</li>
+</ul>
+<h2>v5.51.0</h2>
+<h1>Bugfixes</h1>
+<ul>
+<li>correctly keep chunk loading state when the chunk loading logic is HMR updated
+<ul>
+<li>This fixes some edge cases that e. g. occur when using lazy compilation for entrypoints. It is now able to HMR update that instead of needing a manual reload. Also see fixes in webpack-dev-server@4.</li>
+</ul>
+</li>
+<li>track and resolve symlinks for filesystem snapshotting
+<ul>
+<li>This fixes some cases of circular <code>yarn link</code>ing of dependencies.</li>
+<li>It also fixes some problems when using package managers that use symlinks to deduplicate (e. g. cnpm or pnpm)</li>
+</ul>
+</li>
+<li>pass the resulting module in the callbacks of <code>Compilation.addModuleChain</code> and <code>Compilation.addModuleTree</code></li>
+</ul>
+<h2>v5.50.0</h2>
+<h1>Features</h1>
+<ul>
+<li>hashbangs (<code>#! ...</code>) are now handled by webpack
+<ul>
+<li><a href="https://github.com/tc39/proposal-hashbang">https://github.com/tc39/proposal-hashbang</a></li>
+</ul>
+</li>
+</ul>
+<h1>Performance</h1>
+<ul>
+<li>disable cache compression by default as it tend to make performance worse
+<ul>
+<li>I could still be enabled again for specific scenarios</li>
+</ul>
+</li>
+<li>reduce the number of allocations during cache serialization
+<ul>
+<li>This improves performance and memory usage</li>
+</ul>
+</li>
+</ul>
+<h2>v5.49.0</h2>
+<h1>Features</h1>
+<ul>
+<li>add <code>experiments.buildHttp</code> to build <code>http(s)://</code> imports instead of keeping them external
+<ul>
+<li>keeps a <code>webpack.lock</code> file with integrity and <code>webpack.lock.data</code> with cached content that should be committed</li>
+<li>Automatically upgrades lockfile during development when remote resources change
+(might be disabled with <code>experiments.buildHttp.upgrade: false</code>)</li>
+<li>Lockfile is frozen during production builds and usually no network requests are made
+(exception: <code>Cache-Control: no-cache</code>).</li>
+<li>The <code>webpack.lock.data</code> persisting can be disabled with <code>experiments.buildHttp.cacheLocation: false</code>.
+That will will introduce a availability risk.
+(webpack cache will be used to cache network responses)</li>
+</ul>
+</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>fix HMR infinite loop (again)</li>
+<li>fix rare non-determinism with <code>splitChunks.maxSize</code> introduces in the last release</li>
+<li>optional modules no longer cause the module to fail when <code>bail</code> is set</li>
+<li>fix typo in records format: chunkHashs -&gt; chunkHashes</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/webpack/webpack/commit/d3da48e7e3da3042b7142fe3deced0bcaac3e704"><code>d3da48e</code></a> 5.51.1</li>
+<li><a href="https://github.com/webpack/webpack/commit/e73864c0367acdaad58c5129c1396410f986b392"><code>e73864c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14031">#14031</a> from webpack/bugfix/concatenated-contextify</li>
+<li><a href="https://github.com/webpack/webpack/commit/c76be4d7383f35b3260dafefbcd24cac245d9e42"><code>c76be4d</code></a> make some things context-independent</li>
+<li><a href="https://github.com/webpack/webpack/commit/5239f2642738ea66b9a717d4164b06de4a867429"><code>5239f26</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14030">#14030</a> from webpack/bugfix/crash-fsinfo</li>
+<li><a href="https://github.com/webpack/webpack/commit/ff69a4a631d0edf3c6086c70c79761929ae18fbb"><code>ff69a4a</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13997">#13997</a> from yujunjung/main</li>
+<li><a href="https://github.com/webpack/webpack/commit/0088d5565c602fd28cd6145186a95ed08f119642"><code>0088d55</code></a> fix crash when trying to snapshot not existing directory</li>
+<li><a href="https://github.com/webpack/webpack/commit/bd7cb37f1c0d872cfff9fc27c7db52a25e1ba6a3"><code>bd7cb37</code></a> 5.51.0</li>
+<li><a href="https://github.com/webpack/webpack/commit/1a06a4517b326e23ab39b46b5d7d0040916ac2db"><code>1a06a45</code></a> update lazy-compilation example for webpack-dev-server@4</li>
+<li><a href="https://github.com/webpack/webpack/commit/4e5e0aca41f0efaf7466c512095295421f17e4d5"><code>4e5e0ac</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14009">#14009</a> from henryqdineen/hqd-module-creation-callback</li>
+<li><a href="https://github.com/webpack/webpack/commit/c61466e43895f84ff56fb98e69cbe3f3e19f47c2"><code>c61466e</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14019">#14019</a> from webpack/bugfix/symlink-snapshot</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.51.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.51.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 14:19:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2942" class=".btn">#2942</a>
             </td>
             <td>
@@ -311,37 +515,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-08-13 12:03:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2931" class=".btn">#2931</a>
-            </td>
-            <td>
-                <b>
-                    docs: vcwallet didcomm interfaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - added docs for connect, proposePresentation & presentProof interfaces
-in vcwallet.
-- part of #2433
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-12 16:17:13 +0000 UTC
     </div>
 </div>
 

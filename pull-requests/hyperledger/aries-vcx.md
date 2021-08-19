@@ -70,13 +70,13 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    WIP: Move alice & faber "agents" to aries-vcx crate
+                    Move alice & faber "agents" to aries-vcx crate
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">refactoring</span>
             </td>
             <td>
                 Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>

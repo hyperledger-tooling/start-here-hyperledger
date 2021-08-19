@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/428" class=".btn">#428</a>
+            </td>
+            <td>
+                <b>
+                    feat: add from record method to cred preview
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Two api improvements
+1. register credential definition doesn't require `signatureType` parameter anymore (just add bloat to the API)
+2. add `fromRecord` method to credential preview to be able to create a preview from json object. this makes it a lot simpler:
+
+
+Before 
+
+```ts
+const credentialPreview = new CredentialPreview({
+  attributes: [
+    new CredentialPreviewAttribute({
+      name: 'name',
+      mimeType: 'text/plain',
+      value: 'John',
+    }),
+    new CredentialPreviewAttribute({
+      name: 'age',
+      mimeType: 'text/plain',
+      value: '99',
+    }),
+  ],
+})
+```
+
+After
+
+```ts
+const credentialPreview = CredentialPreview.fromRecord({
+  name: 'John',
+  age: '99',
+})
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 15:00:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/426" class=".btn">#426</a>
             </td>
             <td>
@@ -50,61 +107,6 @@ _PR template adapted from the Python attrs project._
     </table>
     <div class="right-align">
         Created At 2021-08-17 16:51:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/425" class=".btn">#425</a>
-            </td>
-            <td>
-                <b>
-                    docs: added info on wgc to readme
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ana Goessens <anagoessens@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-12 14:23:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/424" class=".btn">#424</a>
-            </td>
-            <td>
-                <b>
-                    feat(redux-store): add mediation store
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add mediation to the redux store
-
-Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-12 13:40:53 +0000 UTC
     </div>
 </div>
 
