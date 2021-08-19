@@ -38,31 +38,3 @@ I noticed some issues with the data models while doing this (especially with the
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/254" class=".btn">#254</a>
-            </td>
-            <td>
-                <b>
-                    Add purchase order walkthrough
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds a preliminary walkthrough for the vendor-managed purchasing scenario
-described in the RFC. This will likely need to be updated as development
-progresses.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 21:35:25 +0000 UTC
-    </div>
-</div>
-

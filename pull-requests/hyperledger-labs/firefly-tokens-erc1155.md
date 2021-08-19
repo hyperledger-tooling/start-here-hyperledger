@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/firefly-tokens-erc1155
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/10" class=".btn">#10</a>
-            </td>
-            <td>
-                <b>
-                    Support deferred initialization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 20:42:08 +0000 UTC
-    </div>
-</div>
-

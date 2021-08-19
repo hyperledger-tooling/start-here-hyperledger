@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/85" class=".btn">#85</a>
+            </td>
+            <td>
+                <b>
+                    Integration tests part II
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR merges the ongoing work of integration testing for the toolbox plugin. This is not necessarily considered done but the integration tests have stabilized to the point where they are very helpful and we'd like to merge our progress so far and proceed from here for future additions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 20:28:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/83" class=".btn">#83</a>
             </td>
             <td>

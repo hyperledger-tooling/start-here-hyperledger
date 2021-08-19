@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2942" class=".btn">#2942</a>
+            </td>
+            <td>
+                <b>
+                    test: Added tests to ensure that store config is optional for queries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Updated common storage tests to check and make sure that stores can query without requiring a store configuration (indexes). The interface says that indexes are recommended for large stores, but it doesn't say that they're always required, so storage providers should ensure that they can function without them.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 18:49:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2941" class=".btn">#2941</a>
             </td>
             <td>

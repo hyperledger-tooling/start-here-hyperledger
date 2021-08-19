@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2659" class=".btn">#2659</a>
+            </td>
+            <td>
+                <b>
+                    Split Transaction Gas Calculation from EVM Calculation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In preparation for the EVM library pull out the transaction related gas
+calculations and move them into their own `TransactionGasCalculator.`
+
+This has 4 calls right now, none of which occur inside the EVM:
+* Intrinsic gas cost
+* Code Deposit gas cost
+* Max refund quotient
+* Max Privacy Marker Transaction intrinsic gas cost.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 23:41:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2658" class=".btn">#2658</a>
+            </td>
+            <td>
+                <b>
+                    Feature/1559 cleanup remove 1559 object
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+* absorb EIP1559 objects into BaseFeeMarket
+* remove explicit EIP1559 plumbing and rely on ProtocolSchedule where possible
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes #2562
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 23:17:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2657" class=".btn">#2657</a>
             </td>
             <td>

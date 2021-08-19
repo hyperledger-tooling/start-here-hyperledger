@@ -114,31 +114,3 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/126" class=".btn">#126</a>
-            </td>
-            <td>
-                <b>
-                    Documentation Restructuring and Augmentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Restructured the "Getting Started" page by splitting the content into multiple pages with smaller themes.
-Added different alternative procedures to get a test network up and running for experimentation.
-Added a guide for enabling Weaver in an existing Fabric network.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 21:07:23 +0000 UTC
-    </div>
-</div>
-
