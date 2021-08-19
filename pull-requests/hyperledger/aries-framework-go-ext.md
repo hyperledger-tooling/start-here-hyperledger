@@ -403,31 +403,3 @@ Signed-off-by: Ardian <ardianabazi09@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/148" class=".btn">#148</a>
-            </td>
-            <td>
-                <b>
-                    feat: MongoDB/DocumentDB storage provider
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updated the existing MongoDB storage provider to fully implement the Aries storage interface and to be compatible with DocumentDB.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 23:47:29 +0000 UTC
-    </div>
-</div>
-

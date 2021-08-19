@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/47" class=".btn">#47</a>
+            </td>
+            <td>
+                <b>
+                    Preparing for next release 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 22:05:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/46" class=".btn">#46</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.4.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This version has the fix for native representation of native secp256r1 signatures [#45](https://github.com/hyperledger/besu-native/pull/45)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-18 21:47:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-native/pull/45" class=".btn">#45</a>
             </td>
             <td>

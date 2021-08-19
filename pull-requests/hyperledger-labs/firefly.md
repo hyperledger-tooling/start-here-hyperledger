@@ -92,29 +92,3 @@ This will reduce the noisy logs when using tokens, because tokens generates ethc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/154" class=".btn">#154</a>
-            </td>
-            <td>
-                <b>
-                    Add support for creating token pools
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Initial support for tokens by plugging in an instance of https://github.com/hyperledger-labs/firefly-tokens-erc1155.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-11 19:15:41 +0000 UTC
-    </div>
-</div>
-

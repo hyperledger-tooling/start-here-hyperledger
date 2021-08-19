@@ -1,13 +1,13 @@
 
-[334](https://github.com/hyperledger/aries-vcx/pull/334) Add architecture diagram, update docs
+[2659](https://github.com/hyperledger/besu/pull/2659) Split Transaction Gas Calculation from EVM Calculation
 
-[173](https://github.com/hyperledger/fabric-gateway/pull/173) Update samples for beta release
+[2658](https://github.com/hyperledger/besu/pull/2658) Feature/1559 cleanup remove 1559 object
 
-[469](https://github.com/hyperledger/fabric-samples/pull/469) Remove .env Files and Explicitly Name Network (#417)
+[1350](https://github.com/hyperledger/iroha/pull/1350) Fixes and enhancements of Iroha P2P. Closes #1349.
 
-[1634](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1634) [quorum] Updated Quorum molecule tests in Git Actions
+[47](https://github.com/hyperledger/besu-native/pull/47) Preparing for next release 
 
-[1687](https://github.com/hyperledger/indy-node/pull/1687) Added ursa to the core.ubuntu.dockerfile install
+[46](https://github.com/hyperledger/besu-native/pull/46) Release 0.4.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
