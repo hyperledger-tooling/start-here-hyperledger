@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/174" class=".btn">#174</a>
+            </td>
+            <td>
+                <b>
+                    Simplify Java event listening
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Perhaps a gRPC update now appears to start reading events when the event listening connection is established rather than only after the first read of the returned iterator occurs. This allows Java event listening client code to be simplified, both in scenario tests and samples.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 12:36:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/173" class=".btn">#173</a>
             </td>
             <td>
@@ -145,38 +171,6 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-08-13 14:23:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/163" class=".btn">#163</a>
-            </td>
-            <td>
-                <b>
-                    Remove references to tech preview
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Remove references to gateway "tech preview", as well as
-references to "alpha" and "beta" where possible, since
-we expect gateway to work with all Fabric v2.4 releases and later.
-
-Also cleanup duplicate sample content in the hsm sample page.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-12 14:17:56 +0000 UTC
     </div>
 </div>
 

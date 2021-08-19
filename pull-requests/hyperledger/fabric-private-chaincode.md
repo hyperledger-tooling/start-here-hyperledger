@@ -30,6 +30,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 **What this PR does / why we need it**:
 
 This PR introduces more tools to enhance code quality to our build pipeline.
+In particular, we add [staticcheck](https://staticcheck.io/) and spellchecking to our golinter script and fix all detected issues, including dead code, removing dependencies of deprecated code, unchecked vars, and spelling issues.
 
 **Which issue(s) this PR fixes**:
 <!--
@@ -40,7 +41,7 @@ Closes #403
 
 **Special notes for your reviewer**:
 
-Note that there exists a commit for adding the new tool and another commit that fixes the detected issues.
+Note that there exists a commit for adding the new tool and another commit that fixes the detected issues. I suggest review commit by commit.
 
             </td>
         </tr>

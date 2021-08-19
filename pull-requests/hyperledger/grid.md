@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/902" class=".btn">#902</a>
+            </td>
+            <td>
+                <b>
+                    Add workflow-aware has_permission check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds a new version of the has_permission check that is used in
+other smart contracts. This check is workflow-aware by checking against
+workflow permissions and transition permissions. This is used in the
+same way as the original has_permission check. Agents will need to have
+Pike roles with permissions that map to the names of Workflow permission
+aliases for the given workflow.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 17:58:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/901" class=".btn">#901</a>
             </td>
             <td>
@@ -63,34 +94,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-08-12 19:30:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/899" class=".btn">#899</a>
-            </td>
-            <td>
-                <b>
-                    Fix typos in PO workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes several typos in the PO workflow.rs file.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-12 17:02:18 +0000 UTC
     </div>
 </div>
 

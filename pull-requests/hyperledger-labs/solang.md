@@ -178,35 +178,3 @@ This work is part of the Linux Foundation mentorship for the Hyperledge Solang c
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/461" class=".btn">#461</a>
-            </td>
-            <td>
-                <b>
-                    Unchecked blocks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This elides overflow checking with the following syntax:
-
-```
-unchecked {
-    int64 a = b  - 1;
-}
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-12 14:43:34 +0000 UTC
-    </div>
-</div>
-

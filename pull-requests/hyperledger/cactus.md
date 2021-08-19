@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1244" class=".btn">#1244</a>
+            </td>
+            <td>
+                <b>
+                    feat(besu): support besu v21.1.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolve #982 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 12:28:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1243" class=".btn">#1243</a>
             </td>
             <td>
@@ -464,32 +490,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-08-13 23:42:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1209" class=".btn">#1209</a>
-            </td>
-            <td>
-                <b>
-                    docs(ci): support debugging on CI server through ssh #717
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #717
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-12 14:15:53 +0000 UTC
     </div>
 </div>
 
