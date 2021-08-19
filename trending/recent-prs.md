@@ -1,13 +1,13 @@
 
-[101](https://github.com/hyperledger/iroha-java/pull/101) Added filtering of classpath to include in fat jar only polkaj-scale
+[617](https://github.com/hyperledger/fabric-private-chaincode/pull/617) Introduce staticchecks and spellchecking for go
 
-[100](https://github.com/hyperledger/iroha-java/pull/100) Removed shadowed plugin and changed 'jar' task to create fat jars 
+[103](https://github.com/hyperledger/iroha-java/pull/103) Fixed U64 decoding
 
-[1359](https://github.com/hyperledger/aries-cloudagent-python/pull/1359) Updates to the Read The Docs for 0.7.0/1
+[102](https://github.com/hyperledger/iroha-java/pull/102) Fixed NPE in transaction builder
 
-[322](https://github.com/hyperledger/aries-agent-test-harness/pull/322) Changes by create-pull-request action
+[470](https://github.com/hyperledger/fabric-samples/pull/470) Fix: logspec output
 
-[165](https://github.com/hyperledger/aries-framework-go-ext/pull/165) feat: Reuse MongoDB connection across stores
+[256](https://github.com/hyperledger-labs/minifabric/pull/256) update docs/DeployOntoK8S.md for reordering instrucction
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

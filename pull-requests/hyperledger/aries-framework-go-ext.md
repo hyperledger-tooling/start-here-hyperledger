@@ -405,29 +405,3 @@ Signed-off-by: Ardian <ardianabazi09@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/149" class=".btn">#149</a>
-            </td>
-            <td>
-                <b>
-                    added nil check for nym reply
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ardian <ardianabazi09@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-12 08:58:59 +0000 UTC
-    </div>
-</div>
-
