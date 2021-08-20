@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2951" class=".btn">#2951</a>
+            </td>
+            <td>
+                <b>
+                    docs: Updates to storage interface documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Updated storage interface documentation to specify that some storage providers may require setting the tag name in a store configuration in order to do sorts in queries or get TotalItem counts.
+
+- Added disclaimers to methods in the storage interface to indicate which ones are not currently used in aries-framework-go, but which may be useful for a custom solution. If someone is creating their own storage implementation and only needs it to work in aries-framework-go, this could help save them time.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 23:22:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2950" class=".btn">#2950</a>
+            </td>
+            <td>
+                <b>
+                    test: Additional common storage tests and new iterator test option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Added new storage tests to ensure that SetStoreConfig and GetStoreConfig are also case-insensitive with respect to the store name.
+- Added an option to only check iterator total items counts when a store configuration has been set. This provides a workaround for testing storage providers that don't support getting total item counts without setting a store configuration.
+- Removed aries-framework-go/test/component replace directive from aries-js-worker since it causes checks to break when the common test method signatures are updated... and since the indexeddb module lacks a replace, it also can't be updated to have the new method signature in a single commit.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 22:17:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2949" class=".btn">#2949</a>
+            </td>
+            <td>
+                <b>
+                    feat: Enhancements to LevelDB and IndexedDB storage providers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - LevelDB and IndexedDB storage providers now only create tag maps when needed. This saves space for stores that don't make use of tags+querying.
+- Fixed an issue in the IndexedDB storage provider where the GetStoreConfig method doesn't properly convert store names to lowercase, resulting in issues when store names use capital letters.
+- Updated storage implementations to use the storage module commits - this includes new common unit tests.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 20:46:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2946" class=".btn">#2946</a>
             </td>
             <td>

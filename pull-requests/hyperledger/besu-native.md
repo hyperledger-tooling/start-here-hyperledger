@@ -116,29 +116,3 @@ Signed-off-by: Daniel Lehrner <daniel@io.builders>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/43" class=".btn">#43</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.4.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 00:11:33 +0000 UTC
-    </div>
-</div>
-
