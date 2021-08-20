@@ -582,29 +582,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2932" class=".btn">#2932</a>
-            </td>
-            <td>
-                <b>
-                    chore: Updated json-gold module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrii Soluk <isoluchok@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 12:03:45 +0000 UTC
-    </div>
-</div>
-

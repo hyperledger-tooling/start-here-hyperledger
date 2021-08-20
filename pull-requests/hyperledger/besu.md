@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2661" class=".btn">#2661</a>
+            </td>
+            <td>
+                <b>
+                    Expose args in PicoCLIOptions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Allow plugins to see what arguments were used to start besu.
+
+Form inside a plugin I need to be able to get access to arguments that were used to start besu, specifically 
+
+`--rpc-http-port`
+`--rpc-http-enabled`
+`--rpc-http-tls-enabled`
+
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 09:26:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2660" class=".btn">#2660</a>
             </td>
             <td>
