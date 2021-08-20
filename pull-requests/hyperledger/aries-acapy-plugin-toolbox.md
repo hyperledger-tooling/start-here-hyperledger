@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/86" class=".btn">#86</a>
+            </td>
+            <td>
+                <b>
+                    Support ACA-Py 0.7.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes to work with ACA-Py 0.7.0. A bug in the schema for `ConnRecord` resulted in complications with the official 0.7.0 release so it may be preferable to wait until 0.7.1 is released.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 16:58:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/85" class=".btn">#85</a>
             </td>
             <td>

@@ -243,6 +243,7 @@ This makes it possible to simplify the code by putting different sorting method 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+fixes #2563 
 
 ## Changelog
 
