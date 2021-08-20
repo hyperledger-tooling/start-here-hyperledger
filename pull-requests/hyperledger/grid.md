@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/903" class=".btn">#903</a>
+            </td>
+            <td>
+                <b>
+                    Implement some methods for Purchase Order state
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds implementations for a few methods on the Purchase Order state that are used by the smart contract actions. This pr adds implementations for the methods `get_purchase_order`, `set_purchase_order`, `get_agent`, and `get_organization`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 19:10:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/902" class=".btn">#902</a>
             </td>
             <td>
@@ -64,36 +90,6 @@ aliases for the given workflow.
     </table>
     <div class="right-align">
         Created At 2021-08-17 21:37:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/900" class=".btn">#900</a>
-            </td>
-            <td>
-                <b>
-                    Add action stubs for Purchase Order smart contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds unimplemented functions for the Purchase Order
-smart contract's transaction handler actions. Also, this adds the
-handling in the `apply` function to determine a payload's action.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-12 19:30:20 +0000 UTC
     </div>
 </div>
 

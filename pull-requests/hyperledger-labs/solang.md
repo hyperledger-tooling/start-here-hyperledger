@@ -152,29 +152,3 @@ This work is part of the Linux Foundation mentorship for the Hyperledge Solang c
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/462" class=".btn">#462</a>
-            </td>
-            <td>
-                <b>
-                    Try catch parameter is optional
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-12 20:04:32 +0000 UTC
-    </div>
-</div>
-

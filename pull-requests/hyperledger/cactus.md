@@ -112,7 +112,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 Structure FAQ.md into two sections:
@@ -148,6 +148,10 @@ Adding a new topic for API-Server 'UnauthorizedError' to the Quick-Start Topics
                 Improve Dockernization by replacement of npm with yarn.
 This PR is a fix regarding Issue #1237
 Signed-off-by: Shingo Fujimoto <shingo_fujimoto@fujitsu.com>
+
+Update by Peter:
+(this is the syntax that GitHub parses to link the issue and the PR together for automatic issue closure once the PR is merged)
+Fixes #1237 
             </td>
         </tr>
     </table>

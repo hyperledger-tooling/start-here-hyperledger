@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    Add files for consistent repo structure
+                    Add Dockerfile
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/firefly-fabconnect
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-10 18:45:29 +0000 UTC
+        Created At 2021-08-19 20:57:54 +0000 UTC
     </div>
 </div>
 

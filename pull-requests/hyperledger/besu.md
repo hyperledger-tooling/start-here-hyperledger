@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2660" class=".btn">#2660</a>
+            </td>
+            <td>
+                <b>
+                    Encapsulate London Block transaction gas price validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+* add BaseFeeBlockBodyValidator extends MainnetBlockBodyValidator
+* use in London protocolschedule
+ 
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2565
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-19 22:13:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2659" class=".btn">#2659</a>
             </td>
             <td>
@@ -594,46 +637,6 @@ fixes #2561
     </table>
     <div class="right-align">
         Created At 2021-08-13 22:43:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2630" class=".btn">#2630</a>
-            </td>
-            <td>
-                <b>
-                    Add native secp256r1 lib
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-SECP256R1 is an an alternative signature algorithm which Besu supports. Until now there was only a Java implementation available. This PR adds a native library implementation for it. The native library will be used as default, following the SECP256K1 signature algorithm.
-
-~~Only this draft PR uses a snapshot version for testing, this will be replaced with a release version.~~
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-12 20:25:35 +0000 UTC
     </div>
 </div>
 
