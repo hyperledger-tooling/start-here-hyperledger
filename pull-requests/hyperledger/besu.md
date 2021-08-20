@@ -239,7 +239,7 @@ This makes it possible to simplify the code by putting different sorting method 
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-qbft block to transaction based voting migration
+Adds a migration so the existing qbft chains can move from block header based validation selection to using a smart contract for the validator selection.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

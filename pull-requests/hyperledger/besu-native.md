@@ -90,29 +90,3 @@ Signed-off-by: Daniel Lehrner <daniel@io.builders>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/44" class=".btn">#44</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for 0.4.1-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Lucas Saldanha <lucascrsaldanha@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 02:37:37 +0000 UTC
-    </div>
-</div>
-
