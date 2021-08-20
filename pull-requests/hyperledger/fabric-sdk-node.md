@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/484" class=".btn">#484</a>
+            </td>
+            <td>
+                <b>
+                    FABN-1553: tslint to eslint migration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 09:28:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/483" class=".btn">#483</a>
             </td>
             <td>
@@ -34,34 +60,6 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     </table>
     <div class="right-align">
         Created At 2021-08-18 07:27:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/482" class=".btn">#482</a>
-            </td>
-            <td>
-                <b>
-                    [bug-fix] eventhub status value is now interpreted as http code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Cherry-pick of 37afa269ca9132f515a123c7e82c582dce719d67 from main branch.
-
-Signed-off-by: DavidLiu <david.yx.liu@oracle.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 10:47:32 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/433" class=".btn">#433</a>
+            </td>
+            <td>
+                <b>
+                    feat: add multiple inbound transports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - add support for multiple inbound transports
+- rename all occurrences of transporter to transport
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 09:59:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/432" class=".btn">#432</a>
+            </td>
+            <td>
+                <b>
+                    fix: mediator updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - extract logic for implicit pickup from websocket transport to mediation module
+	-  This will make it easier to move to implicit pickup of non-websocket transports
+- add test for restarting recipient agent
+- add timeout to return when is connected
+- fix issue where services were not reassigned after sorting or filtering
+- add persistence for mediator routing keys
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 08:23:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/428" class=".btn">#428</a>
             </td>
             <td>

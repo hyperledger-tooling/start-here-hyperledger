@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/151" class=".btn">#151</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/162" class=".btn">#162</a>
             </td>
             <td>
                 <b>
-                    Update geth to 1.10.6
+                    Make EventSub a Closer
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                Closes #149
+                Using a `[pkg/sync] Closer` makes the `EventSub.Close()` call idempotent and easier to use.
+
+Closes #161 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-26 11:34:36 +0000 UTC
+        Created At 2021-08-20 12:09:05 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1635" class=".btn">#1635</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Fix vault_kubernetes errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Fix secrets not getting created because of kubeconfig missed
+- Fix creation of docker secret before the charts are created and not after
+- Allow network schema errors to be printed always
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 08:10:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1634" class=".btn">#1634</a>
             </td>
             <td>
@@ -295,85 +328,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </table>
     <div class="right-align">
         Created At 2021-08-13 12:44:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1621" class=".btn">#1621</a>
-            </td>
-            <td>
-                <b>
-                    [shared] add git action to validate sample networks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jose Pazos <pppazos@gmail.com>
-
-**Changelog**
-- Add git action to validate sample network templates
-
- 
-
-**Reviewed by**
-@pppazos 
-
- 
-
-**Linked issue**
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 11:50:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1620" class=".btn">#1620</a>
-            </td>
-            <td>
-                <b>
-                    [indy] schema validation for indy network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jose Pazos <pppazos@gmail.com>
-
-**Changelog**
-- Update network-schema.yaml to include indy network schema validations
-
- 
-
-**Reviewed by**
-@pppazos
-
- 
-
-**Linked issue**
-#1616 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 07:32:27 +0000 UTC
     </div>
 </div>
 
