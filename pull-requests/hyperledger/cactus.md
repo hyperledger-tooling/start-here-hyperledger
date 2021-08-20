@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1249" class=".btn">#1249</a>
+            </td>
+            <td>
+                <b>
+                    feat(keychain-azure-kv): complete request handler and endpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1010 
+
+_______________________________________
+This is might be a duplicate PR that Jeff's #1206 is working on, I'm opening a new PR since I do not have collaborator rights yet. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 15:31:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1244" class=".btn">#1244</a>
             </td>
             <td>
@@ -56,7 +85,7 @@ permalink: /pull-requests/hyperledger/cactus
                 Add support for following method to `PluginKeychainVault` class
 - `transitSign` : sign digest using private key stored in vault server
 - `transitNewKey` : create a new key
-- `transitGetPub` : return `JWK` formatted public key 
+- `transitGetPub` : return `pem` encoded public key 
 - `transitRotateKey` : rotate private key
 
 For now it support `EC` (of size 256 , 384 , 521 ) only
@@ -212,6 +241,8 @@ It also looks like this testcase wasn't passing the tests (this was before I mad
             </td>
             <td>
                 This code allows for building of the a quorum multi party docker image that allows for private transactions to be tested.
+
+Related to #951 
 
 
 Signed-off-by: Travis Payne <travis.payne@accenture.com>

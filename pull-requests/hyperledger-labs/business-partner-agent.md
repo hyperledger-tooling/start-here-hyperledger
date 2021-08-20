@@ -112,7 +112,7 @@ Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
             </td>
             <td>
                 <b>
-                    Partner detail/Proof detail
+                    Refactor Partner Detail/Proof Exchange Detail Pages
                 </b>
             </td>
         </tr>
@@ -302,36 +302,6 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </table>
     <div class="right-align">
         Created At 2021-08-13 18:29:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/574" class=".btn">#574</a>
-            </td>
-            <td>
-                <b>
-                    Issue and receive v2 Indy credentials
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Issue and receive indy credentials via the v2 aca-py endpoints.
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/574"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 13:57:26 +0000 UTC
     </div>
 </div>
 

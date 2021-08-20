@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/471" class=".btn">#471</a>
+            </td>
+            <td>
+                <b>
+                    kubernetes test network : initial commit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR introduces a new deployment pattern for running the fabric `test-network` on Kubernetes, focusing on a local [KIND](https://kind.sigs.k8s.io) instance to emulate a cloud-native cluster.
+
+While the project is in early status, it provides enough functionality to illustrate the basic mechanics of launching peers, orderers, chaincode, and client applications in a virtualized environment.  No attempt has been made to streamline or script the kube descriptors into a cluster at this early stage.
+
+This project has been verified with KIND, and runs natively on IKS with minor modifications to the PVC claims and docker registry URLs.
+
+Ahoy!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 16:26:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/470" class=".btn">#470</a>
             </td>
             <td>

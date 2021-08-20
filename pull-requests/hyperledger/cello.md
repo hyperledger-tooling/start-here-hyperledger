@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/299" class=".btn">#299</a>
+            </td>
+            <td>
+                <b>
+                    Optimize network module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                *Optimize return format.
+*Optimize list, create function.
+
+Signed-off-by: XuHugo <xq-310@163.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 16:19:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/298" class=".btn">#298</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-297]Modify page display and mock data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1.Modify the organization's mock according to the new interface
+2.Modify the method of extracting organization data from agent page according to the new interface
+3.Modify the organization page and extract the organization list according to the returned information of the new interface
+4.Modify the user's mock login interface address
+
+Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+fix #issue-297
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 13:34:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/296" class=".btn">#296</a>
             </td>
             <td>
@@ -38,36 +99,6 @@ Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-08-18 02:18:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/294" class=".btn">#294</a>
-            </td>
-            <td>
-                <b>
-                    Modify node
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                *Modify return value format
-*Optimize the create, delete and list functions
-*The update function has not been optimized
-
-Signed-off-by: XuHugo <xq-310@163.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 15:59:46 +0000 UTC
     </div>
 </div>
 

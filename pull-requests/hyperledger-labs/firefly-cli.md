@@ -142,29 +142,3 @@ Other miscellaneous changes include just shuffling code around for better organi
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/81" class=".btn">#81</a>
-            </td>
-            <td>
-                <b>
-                    Minor enhancements to contract/REST calls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These are the commits originally in #79 but not specifically related to tokens.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 15:08:04 +0000 UTC
-    </div>
-</div>
-
