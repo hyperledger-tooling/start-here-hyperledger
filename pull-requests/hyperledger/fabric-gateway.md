@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
             </td>
             <td>
                 <b>
-                    Minor code tidy-up
+                    Allow string transient data values in Node client
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                <nil>
+                Also minor code tidy-up, including avoiding using private internals of elliptic Node package.
             </td>
         </tr>
     </table>
