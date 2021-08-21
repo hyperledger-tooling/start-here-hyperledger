@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2848" class=".btn">#2848</a>
+            </td>
+            <td>
+                <b>
+                    Options for GRPC message size configurable (backport #2805)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of pull request #2805
+
+Signed-off-by: Parameswaran Selvam parselva@in.ibm.com
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-21 15:23:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2847" class=".btn">#2847</a>
             </td>
             <td>
