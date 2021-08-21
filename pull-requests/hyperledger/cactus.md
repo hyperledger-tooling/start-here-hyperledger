@@ -88,7 +88,7 @@ This is might be a duplicate PR that Jeff's #1206 is working on, I'm opening a n
 - `transitGetPub` : return `pem` encoded public key 
 - `transitRotateKey` : rotate private key
 
-For now it support `EC` (of size 256 , 384 , 521 ) only
+For now it support `EC` (key generated from from curve p256 , p384 , p521 ) only
 
 Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
             </td>

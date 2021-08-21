@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2666" class=".btn">#2666</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade to OpenTelemetry 1.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+
+
+## PR description
+Upgrade to latest OpenTelemetry release.
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-21 06:50:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2664" class=".btn">#2664</a>
             </td>
             <td>
@@ -559,38 +593,6 @@ See #2637
     </table>
     <div class="right-align">
         Created At 2021-08-14 18:03:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2635" class=".btn">#2635</a>
-            </td>
-            <td>
-                <b>
-                    Refactoring CmsValidator (internal CRL resolution)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dev experience</span>
-            </td>
-            <td>
-                ## PR description
-
-Loading CRL list inside CmsValidator (instead of externally)
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-14 12:04:51 +0000 UTC
     </div>
 </div>
 
