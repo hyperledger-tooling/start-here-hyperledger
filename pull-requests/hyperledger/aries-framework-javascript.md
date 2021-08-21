@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/434" class=".btn">#434</a>
+            </td>
+            <td>
+                <b>
+                    Alter mediation recipient websocket transport priority
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Alters the mediationRecipient to properly indicate the priority for using Websockets when doing implicit mediation. 
+Updated `@aries-framework/react-native` to include buffer as a peer dependency to allow for processing and sending of messages via websockets in React Native, updated docs to reflect this.
+
+@burdettadam assisted on this as well :) 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-21 01:01:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/433" class=".btn">#433</a>
             </td>
             <td>
