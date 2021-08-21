@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2954" class=".btn">#2954</a>
+            </td>
+            <td>
+                <b>
+                    feat: kid/skid as didDoc.keyAgreement.ID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span><span class="chip">aip 2.0</span>
+            </td>
+            <td>
+                closes #2953
+
+And introduce DIDComm V2 service bloc in the did Doc.
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 19:07:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2952" class=".btn">#2952</a>
             </td>
             <td>
@@ -106,7 +137,7 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
             <td>
                 <b>
-                    feat: Enhancements to LevelDB and IndexedDB storage providers
+                    feat: Fixes and optimizations to storage providers
                 </b>
             </td>
         </tr>
@@ -116,7 +147,8 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
             <td>
                 - LevelDB and IndexedDB storage providers now only create tag maps when needed. This saves space for stores that don't make use of tags+querying.
-- Fixed an issue in the IndexedDB storage provider where the GetStoreConfig method doesn't properly convert store names to lowercase, resulting in issues when store names use capital letters.
+- Fixed an issue in the IndexedDB storage provider where the SetStoreConfig and GetStoreConfig methods were not treating store names as case-insensitive.
+- Fixed an issue in the EDV REST storage provider where the SetStoreConfig and GetStoreConfig methods were not treating store names as case-insensitive.
 - Updated storage implementations to use the storage module commits - this includes new common unit tests.
 
 Signed-off-by: Derek Trider <Derek.Trider@securekey.com>

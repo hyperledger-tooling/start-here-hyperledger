@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/79" class=".btn">#79</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    Add PostgreSQL `ReceiptStore`
+                    Fix SQLite receipt store indexing
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                This PR adds a DieselReceiptStore implementation of ReceiptStore. It also expands the migrations module to handle postgres migrations and adds the necessary postgres migrations for the receipt store tables.
+                Previously the way that the index value was being assigned to the transaction receipt entry when adding new transaction receipts to the store did not guarantee uniqueness. This PR updates that process to retrieve the index of the most recently added transaction receipt and increment it by one to get the index of each new transaction receipt being added to the database.
 
-The postgres receipt store and migrations are behind the experimental feature "postgres".
+This PR also adds a uniqueness constraint to the idx field of the `transaction_receipt` table.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-10 22:13:33 +0000 UTC
+        Created At 2021-08-20 21:45:39 +0000 UTC
     </div>
 </div>
 

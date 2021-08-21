@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/166" class=".btn">#166</a>
+            </td>
+            <td>
+                <b>
+                    test: Update common tests and interface version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Latest common storage tests commit includes new tests.
+- Updated MySQL implementation to pass them. The MySQL implementation also now defers creating a tag map until needed. It also now doesn't require SetStoreConfig in order to do queries in order to keep in line with the latest interface documentation.
+- Updated some documentation for the CouchDB implementation.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 21:18:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/165" class=".btn">#165</a>
             </td>
             <td>

@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2664" class=".btn">#2664</a>
+            </td>
+            <td>
+                <b>
+                    Remove duplicate AddOperation on MainnetEvmRegistries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+While familiarizing myself with the EVM code, I noticed that there is a duplicate `AddOperation` being added to the `MainnetEvmRegistries`. The `MainnetEvmRegistries#put()` function just assigns the operation to a map using the operation's opcode so removing this duplicate line has no effect on the EVM itself as it was just overwriting the previous line.
+
+## Fixed Issue(s)
+
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-20 23:53:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2661" class=".btn">#2661</a>
             </td>
             <td>
@@ -554,129 +591,6 @@ Loading CRL list inside CmsValidator (instead of externally)
     </table>
     <div class="right-align">
         Created At 2021-08-14 12:04:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2634" class=".btn">#2634</a>
-            </td>
-            <td>
-                <b>
-                    Jumpdest analysis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Adds ability to cache Code objects and use them for future calls which will avoid the re-computing of JUMP destinations. 
-No additonal tests have been added to demonstrate performance improvement. The correct place for those remains an open question.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes #2607 
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 23:21:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2633" class=".btn">#2633</a>
-            </td>
-            <td>
-                <b>
-                    Fixed nonce bug in EthGetTransactionCount
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">testing</span>
-            </td>
-            <td>
-                ## PR description
-
-Fixed bug where EthGetTransactionCount would return a lower value for pending than latest when there are old transactions in the transaction pool.
-
-Wrote a failing test to show the expected behaviour and ensured that the max of latest and pending is used.
-
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 22:55:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2632" class=".btn">#2632</a>
-            </td>
-            <td>
-                <b>
-                    refactor of  GasLimitCalculator into protocolSchedule
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-this is an extensive re-plumbing to make GasLimitCalculator part of ProtocolSchedule rather than being global
-
-highlights:
-* plumbing of `Optional<AtomicLong>` targetGasLimit into MiningParameters, MiningCoordinators, MiningExecutors, and Block Creators
-* moving GasLimitCalculator interface and related implementations into ethereum:core
-* creation of LondonTargetingGasLimitCalculator
-* removal of 1559 specific forkblock gas limit logic in GasLimitRangeAndDeltaValidationRule and AbstractBlockCreator
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2561 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 22:43:10 +0000 UTC
     </div>
 </div>
 
