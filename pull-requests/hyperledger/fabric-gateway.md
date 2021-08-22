@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
             </td>
             <td>
                 <b>
-                    Allow string transient data values in Node client
+                    Allow string transient data values in Node and Java client
                 </b>
             </td>
         </tr>
