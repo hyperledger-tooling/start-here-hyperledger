@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/436" class=".btn">#436</a>
+            </td>
+            <td>
+                <b>
+                    fix: their did doc not ours
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Type: Bug</span>
+            </td>
+            <td>
+                Was filtering based on our did doc, not theirs....
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-21 21:18:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/434" class=".btn">#434</a>
             </td>
             <td>
