@@ -67,29 +67,3 @@ Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1685" class=".btn">#1685</a>
-            </td>
-            <td>
-                <b>
-                    Fix issue with nightly build.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Wade Barnes <wade@neoterictech.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-15 13:22:55 +0000 UTC
-    </div>
-</div>
-
