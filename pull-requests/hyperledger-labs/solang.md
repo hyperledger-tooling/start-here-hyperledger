@@ -126,29 +126,3 @@ This work is part of the Linux Foundation mentorship for the Hyperledge Solang c
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/467" class=".btn">#467</a>
-            </td>
-            <td>
-                <b>
-                    Contract variable without initializer causes unreachable error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-15 21:20:35 +0000 UTC
-    </div>
-</div>
-
