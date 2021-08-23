@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1270" class=".btn">#1270</a>
+            </td>
+            <td>
+                <b>
+                    build(dev-container): fix yarn not found error #1269
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                Primary change:
+------------------
+
+The post-create-command.sh script will now run the
+install-yarn script prior to calling the configure script.
+This wil lensure that yarn is installed by the time the
+configure script is invoked.
+
+Secondary change(s):
+------------------------
+
+Applied automatic formatting to the Dockerfile and the
+aforementioned post-create-commands script as well.
+
+Fixes #1269
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 17:20:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1268" class=".btn">#1268</a>
+            </td>
+            <td>
+                <b>
+                    refactor(cmd-server-socket,validator): [draft] refactor the directory structure of cmd-server-socket and validators
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolving #1233 (work-in-progress)
+- status: Draft
+
+Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 14:47:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1267" class=".btn">#1267</a>
+            </td>
+            <td>
+                <b>
+                    fix(indy-validator): fixing indy validator initialization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes issue #1266.
+
+- Added initialization code before pool.open_pool_ledger API call.
+- Also added a key file necessary for the server.
+
+Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 14:36:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1249" class=".btn">#1249</a>
             </td>
             <td>

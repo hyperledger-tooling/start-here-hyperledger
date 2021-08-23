@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/164" class=".btn">#164</a>
+            </td>
+            <td>
+                <b>
+                    Create a batchpin utility for common utility between broadcast/private
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #159 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 16:26:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/163" class=".btn">#163</a>
+            </td>
+            <td>
+                <b>
+                    Reject token pool events with duplicate info
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 16:22:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/162" class=".btn">#162</a>
+            </td>
+            <td>
+                <b>
+                    Add "confirm" parameter when creating token pools
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR primarily adds the "confirm" parameter to token pool creation, which routes a request from Asset Manager to the Sync Async Bridge.
+
+I also realized that by using the approach here (passing in a `RequestSender` callback), the circular dependency between `syncasync` and `syshandler` could be broken. I adjusted the other 3 existing sync-async operations (confirmed broadcast, confirmed private, request reply) to follow the same pattern. This means that `syncasync` now contains no logic at all for _sending_, only logic for tracking inflight IDs and unpacking system events to match them up.
+
+Open to feedback on whether this callback pattern is the optimal design, but I do think removal of the circular calls makes the code easier to trace.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 15:28:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/161" class=".btn">#161</a>
             </td>
             <td>

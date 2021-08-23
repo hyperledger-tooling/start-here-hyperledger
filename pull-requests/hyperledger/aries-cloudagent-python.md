@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1371" class=".btn">#1371</a>
+            </td>
+            <td>
+                <b>
+                    Updates to eliminate warnings on RTD doc generation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+I added a mock for `aries_cloudagent.vc`, which eliminated all of the errors. Of course I suspect that it also removes the doc generation for that module, but am not certain.  But I feel better that all the warnings are gone...
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 16:59:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1368" class=".btn">#1368</a>
             </td>
             <td>
