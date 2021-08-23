@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/48" class=".btn">#48</a>
+            </td>
+            <td>
+                <b>
+                    Fix Besu integration on macOS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                besu-native-ec is updated to the latest version to correct the dynamic library resolution on macOS
+
+Signed-off-by: Daniel Lehrner <daniel@io.builders>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 05:03:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-native/pull/47" class=".btn">#47</a>
             </td>
             <td>
