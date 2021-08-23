@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2669" class=".btn">#2669</a>
+            </td>
+            <td>
+                <b>
+                    Updated besu-native to 0.4.2 for ec libraries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+- Updated besu-native to 0.4.2 for ec libraries
+- Not updating bls12-381 because of https://github.com/hyperledger/besu/issues/2668
+
+## Fixed Issue(s)
+fixes #2665
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 10:37:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2667" class=".btn">#2667</a>
             </td>
             <td>
@@ -544,59 +580,6 @@ fixes #2610
     </table>
     <div class="right-align">
         Created At 2021-08-16 22:56:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2641" class=".btn">#2641</a>
-            </td>
-            <td>
-                <b>
-                    AcceptanceTests: Confirm transaction has been mined
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                AcceptanceTests: Confirm transaction has been mined before checking against privCall
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-16 08:41:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2640" class=".btn">#2640</a>
-            </td>
-            <td>
-                <b>
-                    Injecting BftExtraDataCodec into SubsequentMessageValidator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-16 08:01:38 +0000 UTC
     </div>
 </div>
 

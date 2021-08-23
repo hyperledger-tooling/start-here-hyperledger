@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1368" class=".btn">#1368</a>
+            </td>
+            <td>
+                <b>
+                    #1349 Added option to multitenant mode to handle multiple wallets inside the same subwallet with many Askar profiles
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This mode can be run by specifying askar-profile as the wallet_type in the CLI argument --multitenancy-config
+Added AskarProfileMultitenantManager class which handles the new logic to get the wallet profile. The old logic was moved to MultitenantManager. The both extend BaseMultitenantManager where most of the previous code remained
+The MultitenantManagerProvider chooses the right manager to use depending on the CLI argument
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 08:56:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1366" class=".btn">#1366</a>
             </td>
             <td>
@@ -59,34 +87,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </table>
     <div class="right-align">
         Created At 2021-08-20 14:06:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1363" class=".btn">#1363</a>
-            </td>
-            <td>
-                <b>
-                    #1349 Added option to multitenant mode to handle multiple wallets inside the same subwallet with many Askar profiles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This mode can be run by specifying `askar-profile` as the `wallet_type` in the CLI argument `--multitenancy-config`
-Added `AskarProfileMultitenantManager` class which handles the new logic to get the wallet profile. The old logic was moved to `MultitenantManager`. The both extend `BaseMultitenantManager` where most of the previous code remained
-The MultitenantManagerProvider chooses the right manager to use depending on the CLI argument
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-20 13:23:07 +0000 UTC
     </div>
 </div>
 

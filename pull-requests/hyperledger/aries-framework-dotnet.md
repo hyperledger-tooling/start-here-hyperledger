@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/198" class=".btn">#198</a>
+            </td>
+            <td>
+                <b>
+                    Run an indy node pool on server guide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 07:00:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/197" class=".btn">#197</a>
             </td>
             <td>

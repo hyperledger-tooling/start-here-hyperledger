@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/583" class=".btn">#583</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/584" class=".btn">#584</a>
             </td>
             <td>
                 <b>
-                    WIP Partner Details redesign
+                    Presentation Requests with Proof Templates
                 </b>
             </td>
         </tr>
@@ -27,20 +27,21 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                Will include initial versions of simple exchange records detail dialogs with state dependent actions.
-![image](https://user-images.githubusercontent.com/1970182/129929750-62354c26-93ae-4ab0-bcdb-2f634d2b7274.png)
+                - Send proof templates instead of schemas via presentation requests
+- Adapt UI flow and proof template component
+
+![image](https://user-images.githubusercontent.com/87176157/130406842-4affe8c9-b548-4bd9-af23-128be71364b6.png)
+![image](https://user-images.githubusercontent.com/87176157/130406898-50925f2d-e95e-4106-bd8f-9e1fca68ca96.png)
 
 
-Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/583"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/584"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-18 15:48:42 +0000 UTC
+        Created At 2021-08-23 07:23:19 +0000 UTC
     </div>
 </div>
 

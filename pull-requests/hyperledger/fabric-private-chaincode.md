@@ -18,13 +18,13 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
             </td>
             <td>
                 <b>
-                    Step 2 to improve sample test-network
+                    HelloWorld on the sample test-network
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 <!--  Thanks for sending a pull request!  Here are some tips for you:
