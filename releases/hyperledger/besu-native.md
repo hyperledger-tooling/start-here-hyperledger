@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/besu-native
         <tr>
             <td colspan="2">
                 <b>
-                    0.4.1
+                    0.4.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.4.1
+                    0.4.2
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger/besu-native
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu-native/releases/tag/0.4.1" class=".btn">
+    <a href="https://github.com/hyperledger/besu-native/releases/tag/0.4.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-08-18 22:00:34 +0000 UTC
+        Created At 2021-08-23 08:04:34 +0000 UTC
     </span>
 </div>
 
