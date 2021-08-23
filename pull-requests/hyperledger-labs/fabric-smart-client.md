@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/99" class=".btn">#99</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/104" class=".btn">#104</a>
             </td>
             <td>
                 <b>
-                    kvs: support delete #97
+                    Remove Alice from network beta and Bob from network alpha
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-16 11:56:18 +0000 UTC
+        Created At 2021-08-23 07:17:18 +0000 UTC
     </div>
 </div>
 

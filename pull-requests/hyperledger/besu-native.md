@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/50" class=".btn">#50</a>
+            </td>
+            <td>
+                <b>
+                    Pre release 0.5.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 07:56:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/49" class=".btn">#49</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.4.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Related to https://github.com/ConsenSys/besu-native-ec/pull/17
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 07:50:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-native/pull/48" class=".btn">#48</a>
             </td>
             <td>
