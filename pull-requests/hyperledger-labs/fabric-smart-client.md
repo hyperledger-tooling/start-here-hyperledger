@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/105" class=".btn">#105</a>
+            </td>
+            <td>
+                <b>
+                    Integrate weaver-dlt-interoperability relay #61
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - documentation
+- new API to unmarshal a Proof and access the content
+- integration test rewritten to show a data transfer use case
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 15:08:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/104" class=".btn">#104</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/165" class=".btn">#165</a>
+            </td>
+            <td>
+                <b>
+                    Rename token fields to match backend changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Counterpart to the field renames in https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/15. E2E tests are expected to fail until that PR is merged and released as a Docker image.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 16:00:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/164" class=".btn">#164</a>
             </td>
             <td>

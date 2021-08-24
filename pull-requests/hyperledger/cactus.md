@@ -116,35 +116,6 @@ Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1249" class=".btn">#1249</a>
-            </td>
-            <td>
-                <b>
-                    feat(keychain-azure-kv): complete request handler and endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1010 
-
-_______________________________________
-This is might be a duplicate PR that Jeff's #1206 is working on, I'm opening a new PR since I do not have collaborator rights yet. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-20 15:31:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1244" class=".btn">#1244</a>
             </td>
             <td>
@@ -288,40 +259,6 @@ Fixes #1237
     </table>
     <div class="right-align">
         Created At 2021-08-18 03:28:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1235" class=".btn">#1235</a>
-            </td>
-            <td>
-                <b>
-                    test: reduce artillery runtime to 1 minute from 10
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1146
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-
-___________________________________________________________________________
-
-Although the original issue mentioned that the artillery runtime was 10 minutes, it might have been at 5 minutes. I'm not sure if I've altered the correct code for this issue but I edited the avgLatency. Please let me know if there's something else I should have done!! 
-
-It also looks like this testcase wasn't passing the tests (this was before I made any changes), do you want me to make a separate issue to fix the failing test cases? @petermetz 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 15:27:38 +0000 UTC
     </div>
 </div>
 
