@@ -548,38 +548,3 @@ fixes #2648
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2644" class=".btn">#2644</a>
-            </td>
-            <td>
-                <b>
-                    refactor GoQuorum private transaction detection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Refactor the GoQorum private transaction detection logic to be more DRY.
-
-This also unifies `Transaction.isGoQuorumPrivateTransaction()` to also consider the `GoQuorumOptions.goQuorumCompatibilityMode` flag. Previously this flag was only considered in `TransactionDecoder`. This difference in behaviour could result in transaction encoding not being the inverse of transaction decoding.
-
-## Fixed Issue(s)
-fixes #2610
-
-## Changelog
-- [x] I thought about the changelog and ~~included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).~~ did not include a changelog update
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-16 22:56:16 +0000 UTC
-    </div>
-</div>
-

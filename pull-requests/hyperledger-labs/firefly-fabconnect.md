@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-fabconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/38" class=".btn">#38</a>
+            </td>
+            <td>
+                <b>
+                    Fixed error handling in sync transaction requests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #26 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 21:15:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/37" class=".btn">#37</a>
             </td>
             <td>

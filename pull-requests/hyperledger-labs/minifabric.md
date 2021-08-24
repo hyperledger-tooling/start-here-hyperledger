@@ -185,29 +185,3 @@ playbooks/common/k8s-rm-ingress-entry.yaml is involved previous PR 253
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/252" class=".btn">#252</a>
-            </td>
-            <td>
-                <b>
-                    Explorer support for Kubernetes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix #245
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 00:00:21 +0000 UTC
-    </div>
-</div>
-
