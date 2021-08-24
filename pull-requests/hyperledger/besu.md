@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2670" class=".btn">#2670</a>
+            </td>
+            <td>
+                <b>
+                    Updated ATs DSL to create PKI QBFT node configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+- Exposing utility classes from `:pki` module
+- Simplified `PkiKeyStoreConfiguration` replacing password **supplier** with actual password file path
+- Added `createPkiQbftNode` method on BesuNodeFactory
+- Updated Thread and Process runner to consume PKI configuration when starting nodes
+- Created `PkiKeystoreConfigurationFactory` responsible for creating PKI config (including certificate temp files and issuing certs from the same CA).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 04:15:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2669" class=".btn">#2669</a>
             </td>
             <td>
