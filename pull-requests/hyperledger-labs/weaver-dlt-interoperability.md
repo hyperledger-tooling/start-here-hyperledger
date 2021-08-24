@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/144" class=".btn">#144</a>
+            </td>
+            <td>
+                <b>
+                    added fabric-cli with commands to exercise asset-exchange in Go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Added below commands:
+    - fabric-cli asset exchange-all
+    - fabric-cli asset exchange-step
+    - fabric-cli chaincode invoke
+    - fabric-cli chaincode query
+    - fabric-cli configure asset
+    - fabric-cli env get
+    - fabric-cli env set
+    - fabric-cli env set-file
+2. Also move the go-cli code from `sdks/fabric/go-cli` to `samples/fabric/clis/go/fabric-cli`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 08:50:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/143" class=".btn">#143</a>
             </td>
             <td>

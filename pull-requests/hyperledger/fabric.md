@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2852" class=".btn">#2852</a>
+            </td>
+            <td>
+                <b>
+                    2 issues - "Unrecognized archive format" and tag version mismatch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+
+#### Description
+
+Modified script to look for v2.2.3 in fabric-samples and v2.3.2 in fabric. Assuming fabric-samples was tagged incorrectly. Also, the archive couldn't be read and the addition of -O to command solved the issue.
+
+Motivation from getting "Unrecognized archive format," digging through the script to debug led me to realizing the fabric/fabric-samples versions were tagged incorrectly.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 09:03:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2851" class=".btn">#2851</a>
             </td>
             <td>

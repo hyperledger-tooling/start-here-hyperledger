@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/164" class=".btn">#164</a>
+            </td>
+            <td>
+                <b>
+                    :construction_worker: [CI/github] Use caching
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #160 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 11:34:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/162" class=".btn">#162</a>
             </td>
             <td>
