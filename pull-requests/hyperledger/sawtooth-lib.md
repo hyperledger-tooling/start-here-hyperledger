@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/82" class=".btn">#82</a>
+            </td>
+            <td>
+                <b>
+                    Fix error message in diesel models
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix an error message in the `from_sql` method for `StateChangeTypeModel`. The method was copy pasted and the error message was not properly updated.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 17:07:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/81" class=".btn">#81</a>
+            </td>
+            <td>
+                <b>
+                    Modify receipt store `list_receipts_since`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Modify the receipt store `list_receipts_since` method to return an iterator with type `Result<TransactionReceipt, ReceiptStoreError>` rather than just `TransactionReceipt` to cover the cases where an implementation may fail on later records in the iteration.
+
+This PR updates the method signature in the trait as well as the LMDB, SQLite and PostgreSQL implementations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 16:44:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/80" class=".btn">#80</a>
             </td>
             <td>

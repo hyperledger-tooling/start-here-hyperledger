@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1373" class=".btn">#1373</a>
+            </td>
+            <td>
+                <b>
+                    Timezone inclusion [ISO 8601] for W3C VC and Proofs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolve #1370
+- default timezone: UTC
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 15:47:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1371" class=".btn">#1371</a>
             </td>
             <td>

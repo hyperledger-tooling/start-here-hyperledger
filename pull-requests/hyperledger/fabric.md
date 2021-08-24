@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2854" class=".btn">#2854</a>
+            </td>
+            <td>
+                <b>
+                    Gateway integration tests - adv. endorsement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added extra integration tests to the gateway suite to verify the automatic generation of the ChaincodeInterest structure is working as expected. In particular the following areas have been added:
+
+- Submitting transactions that modify an SBE state.
+- Submitting transactions that modify a private data collection.
+- Submitting transactions involving chaincode to chaincode calls.
+
+resolves #2853 
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 13:57:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2852" class=".btn">#2852</a>
             </td>
             <td>
