@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/907" class=".btn">#907</a>
+            </td>
+            <td>
+                <b>
+                    Add Purchase Order store struct accessors and builders
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds public accessor methods to the PurchaseOrderStore structs
+and makes the structs' fields private. This also adds builders for the
+structs. This brings the module in-line with the other Grid stores.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 22:16:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/903" class=".btn">#903</a>
             </td>
             <td>

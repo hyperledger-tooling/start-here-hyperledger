@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/437" class=".btn">#437</a>
+            </td>
+            <td>
+                <b>
+                    TSDoc linting + API docs for mediation module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR contains API doc comments with the intent they can be used in the future to generate documentation.  To keep with the code quality standards I have added TSDoc linting. I believe this aligns with AFJ code quality goals and opens up the opportunity to generate documents from source code comments, which has been a topic of discussion in the community in the past.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 19:28:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/436" class=".btn">#436</a>
             </td>
             <td>

@@ -33,13 +33,16 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
 4. Updated the policies in `clients/src/main/resources` folder.
 5. Added docker based weaver deployment page to docs.
 6. Updated relay, drivers envs and instructions to work with docker.
-7. [PENDING] Add Enabling weaver in corda application page to docs.
+7. Added Enabling weaver in corda application page to docs.
+Using env variables to configure corda driver's rpc username and password.
 
 Fixes:
 1. Updated `corda-interop-app` and `fabric-interop-cc` unit tests (expired certs update).
 
-To Test:
-Replace `hyperledger-labs` with `sanvenDev` in `url` field of `github.properties`.
+
+Before running Tests, please:
+1. Replace `hyperledger-labs` with `sanvenDev` in `url` field of `github.properties`.
+2. Run:  `docker rmi ghcr.io/hyperledger-labs/weaver-corda-driver:1.2.3`.
 
             </td>
         </tr>

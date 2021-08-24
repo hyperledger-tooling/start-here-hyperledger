@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    Add automated Docker builds
+                    Pass through block information for blockchain transactions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/firefly-tokens-erc1155
                 
             </td>
             <td>
-                <nil>
+                Note: this is an API-breaking change.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-12 13:59:35 +0000 UTC
+        Created At 2021-08-23 21:56:16 +0000 UTC
     </div>
 </div>
 

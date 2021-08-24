@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2956" class=".btn">#2956</a>
+            </td>
+            <td>
+                <b>
+                    feat: acapy issue-credential v2 interop support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes & improvements:
+- `/kms/import` accepts BLS12381_G2 private keys.
+- `/verifiable` commands try to pick verification methods that match
+  the requested crypto suite for signing.
+- Supports raw base64 fields in proof parsing.
+- Supports bbs signature verification through public key verifier
+  SignatureVerifier.
+- time.Time wrapper handles timestrings without a timezone suffix,
+  and will transparently marshal with/without the suffix, as its
+  source string was.
+
+Interop tweaks:
+- Fixes for handling acapy "peer" DID docs.
+
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-23 21:40:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2955" class=".btn">#2955</a>
             </td>
             <td>
