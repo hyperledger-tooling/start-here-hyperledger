@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/585" class=".btn">#585</a>
+            </td>
+            <td>
+                <b>
+                    Feature/receive invite
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 02:18:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/584" class=".btn">#584</a>
             </td>
             <td>
@@ -200,41 +226,6 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     </table>
     <div class="right-align">
         Created At 2021-08-17 10:42:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/577" class=".btn">#577</a>
-            </td>
-            <td>
-                <b>
-                    Dashboard Update - more cards, get counts from backend.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-Refactor out a UX component for the cards, do some styling on different window sizes to keep text readable.
-Get all counts (totals and "new" items) from backend for the dashboard. This will allow future enhancements to get counts for different periods, such as new items since yesterday (default) or last week or last month.
-
-
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/577"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 02:34:57 +0000 UTC
     </div>
 </div>
 
