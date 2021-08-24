@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/262" class=".btn">#262</a>
+            </td>
+            <td>
+                <b>
+                    Fix: Anchorupdate - replaced deprecated configtxgen -outputAnchorPeer…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As discussed in #247 replaced deprecated `configtxgen -outputAnchorPeersUpdate` in `anchorupdate.j2` with `configtxlator`
+
+Signed-off-by: Dilum Bandara <dilum.bandara@ieee.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 10:21:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minifabric/pull/261" class=".btn">#261</a>
             </td>
             <td>
@@ -155,33 +183,6 @@ playbooks/common/k8s-rm-ingress-entry.yaml is involved previous PR 253
     </table>
     <div class="right-align">
         Created At 2021-08-18 04:49:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/253" class=".btn">#253</a>
-            </td>
-            <td>
-                <b>
-                    portainer support for kubernetes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                portainer's k8s supporting, based on https://github.com/portainer/k8s/blob/master/deploy/manifests/portainer/
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 06:22:47 +0000 UTC
     </div>
 </div>
 

@@ -548,38 +548,3 @@ There are a large number of gauges that are requested, but logically they're act
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2645" class=".btn">#2645</a>
-            </td>
-            <td>
-                <b>
-                    Refactor QbftExtraDataCodec from new instance to injection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-- Updated `RoundChange` and `ProposalPayload` `decode()` methods to accept a `BftExtraDataCodec` implementation (instead of creating a new instance of `QbftExtraDataCodec`.
-- A bit of plumbing work all the way to `QbftBesuControllerBuilder`, where we choose the concrete codec instance to use.
-- For the tests, we are using the `QbftExtraDataCodec` (to keep the previous behaviour)
-
-fixes #2648
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 11:10:02 +0000 UTC
-    </div>
-</div>
-

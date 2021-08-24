@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
             </td>
             <td>
                 <b>
-                    TSDoc linting + API docs for mediation module
+                    docs: TSDoc linting + API docs for mediation module
                 </b>
             </td>
         </tr>
