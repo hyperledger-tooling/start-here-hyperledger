@@ -14,6 +14,95 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1376" class=".btn">#1376</a>
+            </td>
+            <td>
+                <b>
+                    feat: add inject_or
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes the `required` parameter from `Injector.inject` and introduces `inject_or` that mimics the behavior of `inject(..., required=False)`. The reasoning for this change is that type checkers take issue with using the result of `inject(..., required=True)` when the signature says that it could still be `None`. For example:
+
+```python
+storage = context.inject(BaseStorage)
+records = await storage.find_all_records(...)
+```
+Yields the error `"find_all_records" is not a known member of "None"` when using pyright, even though we know that the call will have resulted in an error if it was actually `None`.
+
+This PR is mostly a proposal and does not yet fix the 109 or so instances of `inject(..., required=False)` that should be switched to `inject_or`. Open to suggestions or alternatives.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 21:16:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1375" class=".btn">#1375</a>
+            </td>
+            <td>
+                <b>
+                    fix: refine typing on base record
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This allows type checkers such as pyright to detect that `ConnRecord.retrieve_by_id` returns a `ConnRecord` rather than a `BaseRecord`
+
+These changes are purely cosmetic/developer quality of life improvements.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 20:35:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1374" class=".btn">#1374</a>
+            </td>
+            <td>
+                <b>
+                    Change log for 0.7.1 and update version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 20:29:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1373" class=".btn">#1373</a>
             </td>
             <td>
@@ -189,32 +278,6 @@ To reproduce the errors on this branch, follow the instructions in the `readme.m
     </table>
     <div class="right-align">
         Created At 2021-08-19 04:17:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1356" class=".btn">#1356</a>
-            </td>
-            <td>
-                <b>
-                    fix: problem report handler for connection specific problems
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Appears to be an error leftover from when the problem report message definition was relocated.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 19:26:41 +0000 UTC
     </div>
 </div>
 

@@ -154,32 +154,3 @@ Fabric CA v1.5.x includes updated Go dependencies.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/244" class=".btn">#244</a>
-            </td>
-            <td>
-                <b>
-                    Update CI Pool Image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Ubuntu 16.04 is deprecate and will be removed from the CI pools soon. Upgrade to the latest version.
-
-Signed-off-by: Brett Logan <lindluni@github.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 19:55:23 +0000 UTC
-    </div>
-</div>
-

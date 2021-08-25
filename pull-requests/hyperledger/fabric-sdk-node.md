@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/485" class=".btn">#485</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/486" class=".btn">#486</a>
             </td>
             <td>
                 <b>
-                    Release PR v2.2.9
+                    Release PR for version 2.2.9 
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-24 13:56:56 +0000 UTC
+        Created At 2021-08-24 19:03:16 +0000 UTC
     </div>
 </div>
 

@@ -95,29 +95,3 @@ aliases for the given workflow.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/901" class=".btn">#901</a>
-            </td>
-            <td>
-                <b>
-                    Add initial implementation of the "create purchase order" action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR makes a few updates to the purchase order protos and corresponding protocol code. This also adds an initial implementation of the "create purchase order" action for the Purchase Order smart contract's transaction handler.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 21:37:49 +0000 UTC
-    </div>
-</div>
-
