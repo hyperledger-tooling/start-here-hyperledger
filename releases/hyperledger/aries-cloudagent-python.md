@@ -15,40 +15,47 @@ permalink: /releases/hyperledger/aries-cloudagent-python
         <tr>
             <td colspan="2">
                 <b>
-                    0.7.0
+                    0.7.1-rc0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.7.0
+                    0.7.1-rc0
                 </span>
             </td>
             <td>
-                Another significant release, this version adds support for multiple new protocols, credential formats, and extension methods.
+                A relatively minor maintenance release to address issues found since the 0.7.0 Release.
+Includes some cleanups of JSON-LD Verifiable Credentials and Verifiable Presentations, some fixes to Indy AnonCreds handling
+and assorted other updates and fixes.
 
-- Support for [W3C Standard Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) based on JSON-LD using LD-Signatures and [BBS+ Signatures](https://w3c-ccg.github.io/ldp-bbs2020/), contributed by [Animo Solutions](https://animo.id/) - [#1061](https://github.com/hyperledger/aries-cloudagent-python/pull/1061)
-- [Present Proof V2](https://github.com/hyperledger/aries-rfcs/tree/master/features/0454-present-proof-v2) including support for [DIF Presentation Exchange](https://identity.foundation/presentation-exchange/) - [#1125](https://github.com/hyperledger/aries-cloudagent-python/pull/1125)
-- Pluggable DID Resolver (with a did:web resolver) with fallback to an external DID universal resolver, contributed by [Indicio](https://indicio.tech/) - [#1070](https://github.com/hyperledger/aries-cloudagent-python/pull/1070)
-- Updates and extensions to ledger transaction endorsement via the [Sign Attachment Protocol](https://github.com/hyperledger/aries-rfcs/pull/586), contributed by [AyanWorks](https://www.ayanworks.com/) - [#1134](https://github.com/hyperledger/aries-cloudagent-python/pull/1134), [#1200](https://github.com/hyperledger/aries-cloudagent-python/pull/1200)
-- Upgrades to Demos to add support for Credential Exchange 2.0 and W3C Verifiable Credentials [#1235](https://github.com/hyperledger/aries-cloudagent-python/pull/1235)
-- Alpha support for the Indy/Aries Shared Components ([indy-vdr](https://github.com/hyperledger/indy-vdr), [indy-credx](https://github.com/hyperledger/indy-shared-rs) and [aries-askar](https://github.com/hyperledger/aries-askar)), which enable running ACA-Py without using Indy-SDK, while still supporting the use of Indy as a ledger, and Indy AnonCreds verifiable credentials [#1267](https://github.com/hyperledger/aries-cloudagent-python/pull/1267)
-- A new event bus for distributing internally generated ACA-Py events to controllers and other listeners, contributed by [Indicio](https://indicio.tech/) - [#1063](https://github.com/hyperledger/aries-cloudagent-python/pull/1063)
-- Enable operation without Indy ledger support if not needed
-- Performance fix for deployments with large numbers of DIDs/connections [#1249](https://github.com/hyperledger/aries-cloudagent-python/pull/1249)
-- Simplify the creation/handling of plugin protocols [#1086](https://github.com/hyperledger/aries-cloudagent-python/pull/1086), [#1133](https://github.com/hyperledger/aries-cloudagent-python/pull/1133), [#1226](https://github.com/hyperledger/aries-cloudagent-python/pull/1226)
-- DID Exchange implicit invitation handling [#1174](https://github.com/hyperledger/aries-cloudagent-python/pull/1174)
-- Add support for Indy 1.16 predicates (restrictions on predicates based on attribute name and value) [#1213](https://github.com/hyperledger/aries-cloudagent-python/pull/1213)
-- BDD Tests run via GitHub Actions [#1046](https://github.com/hyperledger/aries-cloudagent-python/pull/1046)
+- W3C  Verifiable Credential cleanups
+  - Timezone inclusion [ISO 8601] for W3C VC and Proofs ([#1373](https://github.com/hyperledger/aries-cloudagent-python/pull/1373))
+  - W3C VC handling where attachment is JSON and not Base64 encoded ([#1352](https://github.com/hyperledger/aries-cloudagent-python/pull/1352))
+- Refactor outbound queue interface ([#1348](https://github.com/hyperledger/aries-cloudagent-python/pull/1348))
+- Command line parameter handling for arbitrary plugins ([#1347](https://github.com/hyperledger/aries-cloudagent-python/pull/1347))
+- Add an optional parameter '--ledger-socks-proxy' ([#1342](https://github.com/hyperledger/aries-cloudagent-python/pull/1342))
+- OOB Protocol - CredentialOffer Support ([#1316](https://github.com/hyperledger/aries-cloudagent-python/pull/1316)), ([#1216](https://github.com/hyperledger/aries-cloudagent-python/pull/1216))
+- Updated IndyCredPrecisSchema - pres_referents renamed to presentation_referents ([#1334](https://github.com/hyperledger/aries-cloudagent-python/pull/1334))
+- Handle unpadded protected header in PackWireFormat::get_recipient_keys ([#1324](https://github.com/hyperledger/aries-cloudagent-python/pull/1324))
+- Initial cut of OpenAPI Code Generation guidelines ([#1339](https://github.com/hyperledger/aries-cloudagent-python/pull/1339))
+- Correct revocation API in credential revocation documentation ([#612](https://github.com/hyperledger/aries-cloudagent-python/pull/612))
+- Documentation updates for Read-The-Docs ([#1359](https://github.com/hyperledger/aries-cloudagent-python/pull/1359),
+[#1366](https://github.com/hyperledger/aries-cloudagent-python/pull/1366), [#1371](https://github.com/hyperledger/aries-cloudagent-python/pull/1371))
+- Other fixes:
+  - Indy Proof processing fix, error not raised in predicate timestamp check ([#1364](https://github.com/hyperledger/aries-cloudagent-python/pull/1364))
+  - Problem Report handler for connection specific problems ([#1356](https://github.com/hyperledger/aries-cloudagent-python/pull/1356))
+  - fix: error on deserializing conn record with protocol ([#1325](https://github.com/hyperledger/aries-cloudagent-python/pull/1325))
+  - fix: failure to verify jsonld on non-conformant doc but vaild vmethod ([#1301](https://github.com/hyperledger/aries-cloudagent-python/pull/1301))
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.7.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.7.1-rc0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-07-15 11:42:15 +0000 UTC
+        Created At 2021-08-24 21:00:51 +0000 UTC
     </span>
 </div>
 
