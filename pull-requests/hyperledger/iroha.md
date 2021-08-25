@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1368" class=".btn">#1368</a>
+            </td>
+            <td>
+                <b>
+                    [GHA] reduce macos load - do not build iroha-ursa
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 19:17:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1367" class=".btn">#1367</a>
             </td>
             <td>
@@ -720,35 +746,6 @@ Closes #1280
     </table>
     <div class="right-align">
         Created At 2021-08-18 14:23:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1343" class=".btn">#1343</a>
-            </td>
-            <td>
-                <b>
-                    [GHA] CTest allowed to fail
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                /build before-merge
-
-Signed-off-by: kuvaldini <ivan@kuvaldini.pro>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 20:43:45 +0000 UTC
     </div>
 </div>
 

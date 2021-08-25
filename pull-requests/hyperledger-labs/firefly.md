@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/167" class=".btn">#167</a>
+            </td>
+            <td>
+                <b>
+                    Handle token_pool_rejected, add new transaction type for token pools
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 21:30:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/166" class=".btn">#166</a>
+            </td>
+            <td>
+                <b>
+                    Add GET routes for token pools
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 19:03:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/165" class=".btn">#165</a>
             </td>
             <td>
@@ -177,60 +229,6 @@ The end goal is that this will make it easier to wrap tokens (and other future o
     </table>
     <div class="right-align">
         Created At 2021-08-20 15:09:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/158" class=".btn">#158</a>
-            </td>
-            <td>
-                <b>
-                    Add config infrastructure for arrays of config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hopefully the test makes it clear how this works.
-
-Had to jump through a couple of hoops in the `viper` API to allow defaults to work correctly, but per the test it should be all good now.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 21:51:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/157" class=".btn">#157</a>
-            </td>
-            <td>
-                <b>
-                    bump ui to v0.2.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 20:44:12 +0000 UTC
     </div>
 </div>
 

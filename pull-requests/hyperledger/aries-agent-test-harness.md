@@ -36,33 +36,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/321" class=".btn">#321</a>
-            </td>
-            <td>
-                <b>
-                    Proposal request adjustments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR resolves the issues documented in #259 
-
-Note the openapi spec has not been updated yet. 
- 
-closes #259 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 21:12:28 +0000 UTC
-    </div>
-</div>
-

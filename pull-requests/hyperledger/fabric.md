@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2855" class=".btn">#2855</a>
+            </td>
+            <td>
+                <b>
+                    Clarify bootstrap.sh message when fabric-samples tag not found
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The latest versions of fabric are not tagged in fabric-samples repository.
+This is so that users that are using the download script
+and trying the most recent Fabric versions will
+automatically get the latest samples improvements/fixes, rather
+than getting an old tagged version of the samples.
+This works since the maintainers try to keep recent versions
+of Fabric compatible with latest fabric-samples.
+If there is an incompatibility introduced (e.g. the switch to
+osnadmin in v2.3), at that point the maintainers tag
+fabric-samples to align with Fabric versions (e.g.
+v2.2.3 Fabric works with v2.2.3 of samples without osnadmin use).
+This commit simply improves the message that download
+script users receive so that they know that using the
+fabric-samples main branch is acceptable.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-24 19:36:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2854" class=".btn">#2854</a>
             </td>
             <td>
@@ -42,40 +84,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-08-24 13:57:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2852" class=".btn">#2852</a>
-            </td>
-            <td>
-                <b>
-                    2 issues - "Unrecognized archive format" and tag version mismatch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Bug fix
-
-#### Description
-
-Modified script to look for v2.2.3 in fabric-samples and v2.3.2 in fabric. Assuming fabric-samples was tagged incorrectly. Also, the archive couldn't be read and the addition of -O to command solved the issue.
-
-Motivation from getting "Unrecognized archive format," digging through the script to debug led me to realizing the fabric/fabric-samples versions were tagged incorrectly.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-24 09:03:40 +0000 UTC
     </div>
 </div>
 
