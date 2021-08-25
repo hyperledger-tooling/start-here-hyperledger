@@ -1,13 +1,13 @@
 
-[198](https://github.com/hyperledger/fabric-chaincode-java/pull/198) First argument should be of type Context
+[1370](https://github.com/hyperledger/iroha/pull/1370) [SE] atomic task upload to external handler
 
-[145](https://github.com/hyperledger/fabric-sdk-java/pull/145) FABJ-480 fix maxInboundMessageSize value type
+[188](https://github.com/hyperledger/ursa/pull/188) Add simple ci for libursa folder
 
-[2957](https://github.com/hyperledger/aries-framework-go/pull/2957) docs: update WACI universal wallet interface reference
+[199](https://github.com/hyperledger/fabric-chaincode-java/pull/199) What we need is JDK not JRE
 
-[263](https://github.com/hyperledger-labs/minifabric/pull/263) revert #239, couchdb version  v.3 => hyperledger/fabric-couchdb:latest to support legacy fabric-version
+[488](https://github.com/hyperledger/fabric-sdk-node/pull/488) Revert back release 2.2.9 changes
 
-[167](https://github.com/hyperledger-labs/firefly/pull/167) Handle token_pool_rejected, add new transaction type for token pools
+[265](https://github.com/hyperledger-labs/minifabric/pull/265) new alias for chaincode up operation 'ccup'
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -457,32 +457,3 @@ Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2837" class=".btn">#2837</a>
-            </td>
-            <td>
-                <b>
-                    Update bootstrap.sh download script for Fabric CA v1.5.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update bootstrap.sh download script for Fabric CA v1.5.1
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 12:21:39 +0000 UTC
-    </div>
-</div>
-

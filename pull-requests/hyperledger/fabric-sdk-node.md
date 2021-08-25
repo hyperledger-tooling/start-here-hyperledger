@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/488" class=".btn">#488</a>
+            </td>
+            <td>
+                <b>
+                    Revert back release 2.2.9 changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 09:24:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/486" class=".btn">#486</a>
             </td>
             <td>
@@ -59,33 +85,6 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     </table>
     <div class="right-align">
         Created At 2021-08-20 09:28:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/483" class=".btn">#483</a>
-            </td>
-            <td>
-                <b>
-                    FABN-1657: Retry block event service when no peers available (#481)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-(cherry picked from commit b562ae4d7b8c690cd008c98ff24dfd3fb78ade81)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 07:27:21 +0000 UTC
     </div>
 </div>
 

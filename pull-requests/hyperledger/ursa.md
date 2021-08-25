@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/186" class=".btn">#186</a>
+                PR <a href="https://github.com/hyperledger/ursa/pull/188" class=".btn">#188</a>
             </td>
             <td>
                 <b>
-                    Updated versions for k256 and p256 crates
+                    Add simple ci for libursa folder
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                Updated versions for k256 and p256 crates in order to resolve dependency versions conflics with `ssi` crate
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-02 12:00:21 +0000 UTC
+        Created At 2021-08-25 11:59:54 +0000 UTC
     </div>
 </div>
 
