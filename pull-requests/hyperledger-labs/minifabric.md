@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/263" class=".btn">#263</a>
+            </td>
+            <td>
+                <b>
+                    revert #239, couchdb version  v.3 => hyperledger/fabric-couchdb:latest to support legacy fabric-version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #239 changed couchdb version from fabric-couchdb:latest to couchdb:3
+
+the background of #239:
+- fabric-couchdb became deprecated and recent fabric supports couchdb:3 officially.
+
+the reason of revert #239:
+ - to use couchdb:3, it needs FAB-17993 in peer which legacy fabric doesn't have.
+ - recent fabric version still supports fabric-couchdb,  so simply revert it.
+
+for supporting variety of versions (legacy to recent), version-image matrix will be needed.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 01:30:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minifabric/pull/262" class=".btn">#262</a>
             </td>
             <td>
@@ -146,43 +181,6 @@ so, other version can work with this PR.
     </table>
     <div class="right-align">
         Created At 2021-08-19 08:11:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/254" class=".btn">#254</a>
-            </td>
-            <td>
-                <b>
-                    reuse task with vars to clean k8s ingress entries.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                before:
-```yaml
-  include_tasks : playbooks/ops/xxx/k8s-clean-service.yaml
-  # port list  is embeded in the above file
-```
-after:
-```yaml
- inlcude_tasks: playbooks/common/k8s-rm-ingress-entry.yaml
- vars: 
-   ours: "{{ [ list of ports we want to remove from ingress controller ] }}"
-```
-playbooks/common/k8s-rm-ingress-entry.yaml is involved previous PR 253
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 04:49:02 +0000 UTC
     </div>
 </div>
 

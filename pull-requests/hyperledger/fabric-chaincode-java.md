@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/197" class=".btn">#197</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/198" class=".btn">#198</a>
             </td>
             <td>
                 <b>
-                    bump version to  2.4.0-beta
+                    First argument should be of type Context
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Signed-off-by: Francesco Vlacancich Francesco.Vlacancich@ibm.com
+                A transaction function must have at least one argument, which is of type Context.
+
+Originally, if a transaction function has 0 arguments, the runtime exists. Now with this PR, the runtime gives some cues.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-13 15:59:10 +0000 UTC
+        Created At 2021-08-25 05:55:37 +0000 UTC
     </div>
 </div>
 
