@@ -40,33 +40,3 @@ relate:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/144" class=".btn">#144</a>
-            </td>
-            <td>
-                <b>
-                    Explicit dependencies in integration test chaincode (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Cherry-pick of fc05ef2accde5956ce930623d11d5443a4d759cf from main branch.
-
-Resolves breakages with latest releases of the chaincode shim, where more recent Gradle versions are more strict in requiring dependencies to be specified rather than picked up as transient dependencies.
-
-Also update commons-compress dependency to address security vulnerability.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 15:50:27 +0000 UTC
-    </div>
-</div>
-

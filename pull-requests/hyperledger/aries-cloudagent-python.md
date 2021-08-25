@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1378" class=".btn">#1378</a>
+            </td>
+            <td>
+                <b>
+                    Allow underscore in endpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR solves issue #1362.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 13:45:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1377" class=".btn">#1377</a>
+            </td>
+            <td>
+                <b>
+                    fix: send proposal schema
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                send-proposal doesn't have `connection_id` in the schema, which is inconvenient for generated clients
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 11:27:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1376" class=".btn">#1376</a>
             </td>
             <td>

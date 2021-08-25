@@ -14,6 +14,120 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2675" class=".btn">#2675</a>
+            </td>
+            <td>
+                <b>
+                    A plugin implementer may register the payload provider in start or register
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+When registering a PrivacyPluginService you need to call setPayloadProvider before blocks get mined. You have two opportunities to do this, once when besu calls register in your plugin and once when besu calls start in your plugin.
+
+Ideally, you would setPayloadProvider when register is called. That way Besu can confirm that you've set the various command line options correctly in BesuCommand. But the problem is when Besu calls register it hasn't yet parsed the command line args into. So if you've got some cli arguments set in your plugin they will not be populated yet.
+
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 14:44:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2674" class=".btn">#2674</a>
+            </td>
+            <td>
+                <b>
+                    DRY onchain management proxies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Read-only access to the on-chain privacy group contract is centralized to happen in `OnchainPrivacyGroupContract` only. 
+
+## Fixed Issue(s)
+fixes #1303
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 09:16:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2673" class=".btn">#2673</a>
+            </td>
+            <td>
+                <b>
+                    Update memory to use MutableBytes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 08:35:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2670" class=".btn">#2670</a>
             </td>
             <td>
@@ -353,89 +467,6 @@ fixes #2562
     </table>
     <div class="right-align">
         Created At 2021-08-18 23:17:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2657" class=".btn">#2657</a>
-            </td>
-            <td>
-                <b>
-                    Remove EIP-1702 account versioning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                EIP-1702 versioning was a candidate for the Istanbul hard fork but was
-removed prior to the first testnet. Other versioning techniques have
-greater core dev mind share and one preparatory step landed in London,
-EIP-3541, making EIP-1702 very unlikely to make it to mainnet.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 16:32:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2656" class=".btn">#2656</a>
-            </td>
-            <td>
-                <b>
-                    Update pending transaction manager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR add different ways of sorting transactions in the pool regarding the fork present (whether or not the genesis has the london fork) .
-- Back to simple sorting for pre-london blockchains (based on gasPrice)
-- Setting up a more complex sorting for blockchains with the london fork (to manage eip1559 transactions)
-
-This makes it possible to simplify the code by putting different sorting method according to what we need .
-
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2563 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 13:27:26 +0000 UTC
     </div>
 </div>
 

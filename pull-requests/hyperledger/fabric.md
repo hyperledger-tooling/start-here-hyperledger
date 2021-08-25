@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2859" class=".btn">#2859</a>
+            </td>
+            <td>
+                <b>
+                    Nominate Andrew Coleman as Fabric maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I would like to nominate Andrew Coleman as a Fabric maintainer.
+Andrew has many years experience with Fabric, especially Fabric
+SDKs where he has been a maintainer and lead developer.
+Last year, Andrew demonstrated his Go expertise while working
+on the fabric-sdk-go contract programming model.
+In the past year Andrew has been working in the core Fabric
+repository, leading the Fabric Gateway feature from RFC and community
+discussions through implementation, test, and a successful beta preview.
+Andrew has also picked up skill in other areas of the peer, and
+has been reviewing PRs, extending tests, and coaching others.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 17:54:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2858" class=".btn">#2858</a>
+            </td>
+            <td>
+                <b>
+                     Options for GRPC message size configurable (backport #2805) 1.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of pull request #2805
+
+Signed-off-by: Parameswaran Selvam parselva@in.ibm.com
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 16:03:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2857" class=".btn">#2857</a>
+            </td>
+            <td>
+                <b>
+                    Implement DisregardNamespacePolicy for gateway
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add support for the ‘DisregardNamespacePolicy’ flag when generating the ChaincodeInterest structure in the transaction simulator.
+
+resolves #2856 
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 15:04:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2855" class=".btn">#2855</a>
             </td>
             <td>
@@ -419,41 +515,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-08-18 20:34:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2838" class=".btn">#2838</a>
-            </td>
-            <td>
-                <b>
-                    FAB-18529 added null check in channel header parsing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Bug fix
-
-#### Description
-Fuzz testing has reported SEGV while sending incomplete/null
-message request to orderer.  When the submit request payload
-is null, the orderer fails with SEGV while trying to parse/read 
-the channel header.
-
-Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 15:19:01 +0000 UTC
     </div>
 </div>
 

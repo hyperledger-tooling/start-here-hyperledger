@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    copy the cert notification updates
+                    add code of conduct
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                sync with https://github.ibm.com/IBM-Blockchain/apollo/pull/2316
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-17 19:08:50 +0000 UTC
+        Created At 2021-08-25 15:16:57 +0000 UTC
     </div>
 </div>
 

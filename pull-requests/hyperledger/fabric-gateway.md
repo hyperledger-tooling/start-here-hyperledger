@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/173" class=".btn">#173</a>
-            </td>
-            <td>
-                <b>
-                    Update samples for beta release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Simplify Java chaincode event listening sample
-- Dependencies for Node and Java samples on published beta versions
-- Faster execution of Node and Java samples against dependencies rather than locally built source
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 18:04:56 +0000 UTC
-    </div>
-</div>
-
