@@ -14,37 +14,6 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/620" class=".btn">#620</a>
-            </td>
-            <td>
-                <b>
-                    Separate the FPC go SDK from the Fabric Client SDK Go.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">com/client-sdk</span>
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-
-**What this PR does / why we need it**:
-
-This PR separates the FPC go SDK from the Fabric Client SDK Go.
-This allows the developers to reuse the FPC go SDK with other backends.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-23 13:01:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/619" class=".btn">#619</a>
             </td>
             <td>

@@ -230,35 +230,3 @@ Adding a new topic for API-Server 'UnauthorizedError' to the Quick-Start Topics
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1238" class=".btn">#1238</a>
-            </td>
-            <td>
-                <b>
-                    fix(yarn-npm-replace): replace npm with yarn in Dockerfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Improve Dockernization by replacement of npm with yarn.
-This PR is a fix regarding Issue #1237
-Signed-off-by: Shingo Fujimoto <shingo_fujimoto@fujitsu.com>
-
-Update by Peter:
-(this is the syntax that GitHub parses to link the issue and the PR together for automatic issue closure once the PR is merged)
-Fixes #1237 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 03:28:41 +0000 UTC
-    </div>
-</div>
-
