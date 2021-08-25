@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/199" class=".btn">#199</a>
+            </td>
+            <td>
+                <b>
+                    What we need is JDK not JRE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Make the requirements clearer.
+
+I tried with building with JRE, it didn't work.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 10:14:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/198" class=".btn">#198</a>
             </td>
             <td>
