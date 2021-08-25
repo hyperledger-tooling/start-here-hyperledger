@@ -34,7 +34,7 @@ permalink: /releases/hyperledger-labs/solang
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-08-24 21:25:03 +0000 UTC
+        Created At 2021-08-25 07:34:17 +0000 UTC
     </span>
 </div>
 
