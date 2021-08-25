@@ -142,31 +142,3 @@ Signed-off-by: Daniel Lehrner <daniel@io.builders>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/45" class=".btn">#45</a>
-            </td>
-            <td>
-                <b>
-                    Fixed faulty conversion
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signatures with their first byte being 0 were incorrectly converted to its native representation. The fix shifts those values one position to the right, in order to convert them back correctly.
-
-Signed-off-by: Daniel Lehrner <daniel@io.builders>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 13:31:25 +0000 UTC
-    </div>
-</div>
-

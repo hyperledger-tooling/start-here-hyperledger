@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1273" class=".btn">#1273</a>
+            </td>
+            <td>
+                <b>
+                    fix(config): remove no longer working scripts from package.json
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes: #1271
+Signed-off-by: Michael Courtin <michael.courtin@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 13:31:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1270" class=".btn">#1270</a>
             </td>
             <td>
@@ -197,36 +224,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-08-18 19:28:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1240" class=".btn">#1240</a>
-            </td>
-            <td>
-                <b>
-                    docs: update faq documentation and incorporate Quick-Start-Topics section
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Structure FAQ.md into two sections:
-- Quick-Start Topics
-- Other Topics
-
-Adding a new topic for API-Server 'UnauthorizedError' to the Quick-Start Topics 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 12:27:37 +0000 UTC
     </div>
 </div>
 

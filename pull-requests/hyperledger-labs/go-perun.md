@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/166" class=".btn">#166</a>
+            </td>
+            <td>
+                <b>
+                    :memo: [channel] Update Funder docu
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #165 
+
+Also addresses that the funder interface could be used for off-chain funding, while the docu explicitly mentions only on-chain funding.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 13:12:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/164" class=".btn">#164</a>
             </td>
             <td>

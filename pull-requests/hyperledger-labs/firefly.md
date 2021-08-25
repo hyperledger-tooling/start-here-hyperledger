@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/170" class=".btn">#170</a>
+            </td>
+            <td>
+                <b>
+                    Replace "ID" with "Id" in JSON response fields
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 17:03:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/169" class=".btn">#169</a>
+            </td>
+            <td>
+                <b>
+                    Alter datatype routes to query by name rather than ID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Old route is now deprecated.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 15:19:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/168" class=".btn">#168</a>
+            </td>
+            <td>
+                <b>
+                    Add maintainers as CODEOWNERS for /docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should fix the issue of requiring Nick's approval for anything that touches `/docs`. The intention was that he _could_ approve anything that _only_ modified `/docs`, but the way `CODEOWNERS` works, only the last rule to match gets applied, which meant global owners couldn't approve anything in `/docs`. I think this is the simplest solution to achieve what we want.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 12:48:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/167" class=".btn">#167</a>
             </td>
             <td>

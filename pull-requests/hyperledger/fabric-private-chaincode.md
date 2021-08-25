@@ -76,7 +76,7 @@ This changes the Test-network sample Readme adding a section to explain how to c
             </td>
             <td>
                 <b>
-                    WIP Unittest for ECC
+                    Unittest for ECC
                 </b>
             </td>
         </tr>
@@ -86,7 +86,7 @@ This changes the Test-network sample Readme adding a section to explain how to c
             </td>
             <td>
                 **What this PR does / why we need it**:
-Adding missing unit tests for ECC. This PR includes some refactoring ECC for better testing.
+Adding missing unit tests for ECC. This PR also includes some refactoring for better testing; fixed typos, go docs, etc.
             </td>
         </tr>
     </table>

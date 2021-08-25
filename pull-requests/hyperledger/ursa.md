@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/ursa
             </td>
             <td>
                 <b>
-                    Add simple ci for libursa folder
+                    Simple pipeline showing that `libursa` build fails
                 </b>
             </td>
         </tr>

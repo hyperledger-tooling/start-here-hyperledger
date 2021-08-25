@@ -145,32 +145,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1368" class=".btn">#1368</a>
-            </td>
-            <td>
-                <b>
-                    [GHA] reduce macos load - do not build iroha-ursa
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-24 19:17:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1367" class=".btn">#1367</a>
             </td>
             <td>
@@ -785,98 +759,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-08-18 22:47:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1347" class=".btn">#1347</a>
-            </td>
-            <td>
-                <b>
-                    [Testing] Fix integration tests [part1]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Warning: it is based on branch gha-better, and PR #1357 should be merged first.
-
-Hanging when Irohad exits (i.e. during destruction) is not reproducable anymore.
-
-The following tests still need to be fixed:
-* 4-integration_add_peer_test(Failed)
-* 20-integration_query_permissions_common_test(Failed), 
-* 45-regression_regression_test(Failed), 
-* 47-system_irohad_test(Failed)
-
-No Timeouts anymore!
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 16:18:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1346" class=".btn">#1346</a>
-            </td>
-            <td>
-                <b>
-                    Docs: General Metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sara <lira.lemur@gmail.com>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Second try of the https://github.com/hyperledger/iroha/pull/1299
-
-General information about metrics
-
-### Benefits
-
-Metrics in docs
-
-### Possible Drawbacks
-
-Not very full info. Yet.
-
-Closes #1280 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 14:23:31 +0000 UTC
     </div>
 </div>
 
