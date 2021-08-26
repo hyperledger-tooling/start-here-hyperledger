@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2676" class=".btn">#2676</a>
+            </td>
+            <td>
+                <b>
+                    implement EIP-3607
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+implement [EIP-3607: Reject transactions from senders with deployed code](https://eips.ethereum.org/EIPS/eip-3607)
+
+The [expectation in ACD](https://discord.com/channels/595666850260713488/745077610685661265/877128936813891634) is that this attack is not possible currently, so there should not be any need to gate this behavior on protocol schedule, since it should never have happened.
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2663 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 19:43:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2675" class=".btn">#2675</a>
             </td>
             <td>
@@ -386,87 +429,6 @@ fixes #2565
     </table>
     <div class="right-align">
         Created At 2021-08-19 22:13:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2659" class=".btn">#2659</a>
-            </td>
-            <td>
-                <b>
-                    Split Transaction Gas Calculation from EVM Calculation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In preparation for the EVM library pull out the transaction related gas
-calculations and move them into their own `TransactionGasCalculator.`
-
-This has 4 calls right now, none of which occur inside the EVM:
-* Intrinsic gas cost
-* Code Deposit gas cost
-* Max refund quotient
-* Max Privacy Marker Transaction intrinsic gas cost.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 23:41:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2658" class=".btn">#2658</a>
-            </td>
-            <td>
-                <b>
-                    Feature/1559 cleanup remove 1559 object
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-* absorb EIP1559 objects into BaseFeeMarket
-* remove explicit EIP1559 plumbing and rely on ProtocolSchedule where possible
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes #2562
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 23:17:31 +0000 UTC
     </div>
 </div>
 

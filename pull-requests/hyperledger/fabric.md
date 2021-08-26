@@ -486,35 +486,3 @@ Finally, you can contact us on https://mergify.io/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2839" class=".btn">#2839</a>
-            </td>
-            <td>
-                <b>
-                    Add documentation for AbsoluteMaxBytes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Document AbsoluteMaxBytes channel config relation to gRPC limits.
-Also replace orderer Addresses with org OrdererEndpoints in the channel config documentation (recommended since v1.4.2).
-
-Closes #2820.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 20:34:06 +0000 UTC
-    </div>
-</div>
-

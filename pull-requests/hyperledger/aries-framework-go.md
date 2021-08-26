@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2959" class=".btn">#2959</a>
+            </td>
+            <td>
+                <b>
+                    fix: rewrite util/time to save a time string instead of using zero-counting logic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes issues in parsing acapy time strings, generalizing the previous solution to allow any input document to be processed (eg, verify proof) without reformatting time values.
+
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 21:35:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2958" class=".btn">#2958</a>
             </td>
             <td>
@@ -589,34 +617,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2021-08-19 14:19:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2942" class=".btn">#2942</a>
-            </td>
-            <td>
-                <b>
-                    test: Added tests to ensure that store config is optional for queries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Updated common storage tests to check and make sure that stores can query without requiring a store configuration (indexes). The interface says that indexes are recommended for large stores, but it doesn't say that they're always required, so storage providers should ensure that they can function without them.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 18:49:25 +0000 UTC
     </div>
 </div>
 

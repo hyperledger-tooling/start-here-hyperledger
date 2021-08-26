@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    WIP: Support invitation messages with public DID
+                    Support invitation messages with public DID
                 </b>
             </td>
         </tr>
@@ -65,32 +65,6 @@ Modifies many files but does no functional changes whatsoever, so in case of mer
     </table>
     <div class="right-align">
         Created At 2021-08-22 22:51:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/335" class=".btn">#335</a>
-            </td>
-            <td>
-                <b>
-                    Remove unmaintained python wrapper
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-18 18:22:17 +0000 UTC
     </div>
 </div>
 
