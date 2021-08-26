@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/149" class=".btn">#149</a>
+            </td>
+            <td>
+                <b>
+                    Release v2.2.8
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 12:51:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/148" class=".btn">#148</a>
             </td>
             <td>
@@ -60,36 +86,6 @@ Coauthored-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-08-25 22:45:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/145" class=".btn">#145</a>
-            </td>
-            <td>
-                <b>
-                    FABJ-480 fix maxInboundMessageSize value type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add peer grpc option 'grpc.max_inbound_message_size'
-
-relate:
-[FABJ-480](https://jira.hyperledger.org/browse/FABJ-480)
-[FABJ-480 fix maxInboundMessageSize yaml reading](https://github.com/hyperledger/fabric-sdk-java/pull/140)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-25 02:16:12 +0000 UTC
     </div>
 </div>
 
