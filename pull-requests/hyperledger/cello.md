@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/304" class=".btn">#304</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-302]add fabric cmdline lib
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The command line lib library is added to help cello use the binary file of fabric to execute channel created and other methods to operate the fabric network.
+This issue will build the channel class and implement the methods of creating and querying channels
+
+Signed-off-by: tianxuanhong <523713078@qq.com>
+
+Close #302 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 01:07:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/303" class=".btn">#303</a>
             </td>
             <td>
