@@ -185,30 +185,3 @@ so, other version can work with this PR.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/256" class=".btn">#256</a>
-            </td>
-            <td>
-                <b>
-                    update docs/DeployOntoK8S.md for reordering instrucction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                proxy environment variable is set     x after ingress install    o before ingress install
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-19 08:11:11 +0000 UTC
-    </div>
-</div>
-

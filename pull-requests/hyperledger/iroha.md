@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1378" class=".btn">#1378</a>
+            </td>
+            <td>
+                <b>
+                    [Testing] Refactor tests [part2]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - [GHA] echo ::warning::/build directive in merge commit
+- [Testing] Refactor tests [part2]
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 10:34:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1377" class=".btn">#1377</a>
+            </td>
+            <td>
+                <b>
+                    Docs: Remove Doxygen Build in RTD
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+ReadTheDocs started to fail documentation builds due to time out. Doxygen is taking ~20 min of build. 
+The quick fix would be to remove Doxygen for now so the documentation could be built - later, if there is a need for Doxygen (that seems not too popular too) we could submit an issue to RTD and ask for help with resources or in other ways they could help. It is also possible to just return to the way we used to host doxygen - in a separate place.
+
+### Benefits
+
+Built docs
+
+### Possible Drawbacks
+
+Someone might need doxygen
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 09:53:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1376" class=".btn">#1376</a>
             </td>
             <td>

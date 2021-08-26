@@ -85,34 +85,3 @@ Ahoy!
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/470" class=".btn">#470</a>
-            </td>
-            <td>
-                <b>
-                    Fix: logspec output
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                If ORDERER_KAFKA_VERBOSE is true, the output of /logspec will contain
-the following kafka information even if it is raft orderer.
-{"spec":"orderer.consensus.kafka.sarama=debug:info"}
-This PR deletes environment valiable for kafka in docker-compose.
-
-Signed-off-by: Nao Nishijima <nao.nishijima.xt@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-19 09:01:10 +0000 UTC
-    </div>
-</div>
-

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/ursa
             </td>
             <td>
                 <b>
-                    Simple pipeline showing that `libursa` build fails
+                    Libursa build fix
                 </b>
             </td>
         </tr>

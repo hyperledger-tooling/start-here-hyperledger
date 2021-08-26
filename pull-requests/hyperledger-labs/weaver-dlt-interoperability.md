@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/147" class=".btn">#147</a>
+            </td>
+            <td>
+                <b>
+                    Besu interop contract for ERC20 and HTLC app
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Core network interop contract for ERC20 
+2. An application for HTLC across two Besu networks managing ERC20 tokens, possibly of different types
+
+Signed-off-by: Dhinakaran Vinayagamurthy <dhinakaran2705@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 11:00:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/146" class=".btn">#146</a>
             </td>
             <td>
@@ -85,6 +114,9 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     - fabric-cli chaincode invoke
     - fabric-cli chaincode query
     - fabric-cli configure asset
+    - fabric-cli config get
+    - fabric-cli config set
+    - fabric-cli config set-file
     - fabric-cli env get
     - fabric-cli env set
     - fabric-cli env set-file
