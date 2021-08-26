@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/910" class=".btn">#910</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT: Fix `has_permission()` bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes a bug in the `has_permission` check. Previously, the check was not properly validating whether an inherited role was actually allowed to be inherited by its owner.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 19:54:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/908" class=".btn">#908</a>
+            </td>
+            <td>
+                <b>
+                    Update purchase order protos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change makes various updates to the Purchase Order smart contract's
+state and payload protobuf messages, as several necessary attributes
+were left out of these messages.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-25 19:33:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/907" class=".btn">#907</a>
             </td>
             <td>

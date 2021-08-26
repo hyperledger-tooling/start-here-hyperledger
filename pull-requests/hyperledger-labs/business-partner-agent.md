@@ -43,6 +43,10 @@ I have added a simple single redirect handler when reading the invitation url. T
 
 
 
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/585"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
             </td>
         </tr>
     </table>

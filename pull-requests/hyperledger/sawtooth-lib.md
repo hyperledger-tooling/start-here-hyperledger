@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
             </td>
             <td>
                 <b>
-                    Fix error message in diesel models
+                    SQLite/PostgreSQL receipt store stabilization changes
                 </b>
             </td>
         </tr>
