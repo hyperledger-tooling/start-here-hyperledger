@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                <nil>
+                - Bumped versions of `hkdf`, `hmac`, `sha2`  and `sha3`. Old versions caused build failures.
+- Added ci for `libindy` directory
             </td>
         </tr>
     </table>

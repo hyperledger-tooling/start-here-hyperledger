@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/81" class=".btn">#81</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/83" class=".btn">#83</a>
             </td>
             <td>
                 <b>
-                    verify #40
+                    nwo: let the token chaincode being deployed by the nwo fabric p. #82
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                Signed-off-by: Hagar Meir <hagar.meir@ibm.com>
+                
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-19 12:38:06 +0000 UTC
+        Created At 2021-08-26 13:46:38 +0000 UTC
     </div>
 </div>
 

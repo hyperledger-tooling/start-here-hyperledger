@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
 
 This is to support connecting with non-phone Agents (ex. Trinsic Studio) that are only generating QR Codes and invitations. This allows us to take their generated invitation and create a Partner.
 
-Currently, this supports Create protocol (`c_i`) urls. We will be supporting Out Of Band (`oob`) urls as soon as https://github.com/hyperledger-labs/acapy-java-client/commit/a1a6b3019959246e39e99862fc48328d73f97039 is added to our code. This will be different PR.
+Currently tested and connected using our own invitations (connection and out of band) and an Invitation from Trinisic Studio.
 
 I have added a simple single redirect handler when reading the invitation url. This is for implementations like Trinsic Studio, where they generate a short url (and thus a simpler easier to read qr code) that will take you to the real underlying invitation url (trinisic uses `d_m` query param, but results in a connection 1.0 invitation).
 

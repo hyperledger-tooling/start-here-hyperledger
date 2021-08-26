@@ -1,13 +1,13 @@
 
-[41](https://github.com/hyperledger-labs/firefly-fabconnect/pull/41) Event data and filtering enhancements
+[1380](https://github.com/hyperledger/iroha/pull/1380) Fix/query permission test fix
 
-[147](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/147) Besu interop contract for ERC20 and HTLC app
+[109](https://github.com/hyperledger-labs/fabric-smart-client/pull/109) fabric LocalMembership should first search over the local resolvers #108
 
-[1378](https://github.com/hyperledger/iroha/pull/1378) [Testing] Refactor tests [part2]
+[1379](https://github.com/hyperledger/iroha/pull/1379) [docs] README
 
-[438](https://github.com/hyperledger/aries-framework-javascript/pull/438) fix: added ariesframeworkerror to httpoutboundtransport
+[913](https://github.com/hyperledger/grid/pull/913) Update purchase-order specific workflow tests
 
-[1377](https://github.com/hyperledger/iroha/pull/1377) Docs: Remove Doxygen Build in RTD
+[83](https://github.com/hyperledger-labs/fabric-token-sdk/pull/83) nwo: let the token chaincode being deployed by the nwo fabric p. #82
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

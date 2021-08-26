@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/913" class=".btn">#913</a>
+            </td>
+            <td>
+                <b>
+                    Update purchase-order specific workflow tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change makes a few updates across workflow tests implemented using purchase order objects. These changes include removing unused imports from the workflow module's tests in the purchase order smart contract. This also includes updating the workflow module's tests in the SDK to match the updated permission/aliases for purchase order based on the most updated RFC.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 14:23:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/912" class=".btn">#912</a>
+            </td>
+            <td>
+                <b>
+                    Add workflow-aware "Create PO" action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds an implementation to the purchase order smart contract's "create po" action. This action is implemented using the workflow-aware permission check.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 13:07:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/910" class=".btn">#910</a>
             </td>
             <td>
@@ -117,37 +169,6 @@ structs. This brings the module in-line with the other Grid stores.
     </table>
     <div class="right-align">
         Created At 2021-08-19 19:10:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/902" class=".btn">#902</a>
-            </td>
-            <td>
-                <b>
-                    Add workflow-aware has_permission check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds a new version of the has_permission check that is used in
-other smart contracts. This check is workflow-aware by checking against
-workflow permissions and transition permissions. This is used in the
-same way as the original has_permission check. Agents will need to have
-Pike roles with permissions that map to the names of Workflow permission
-aliases for the given workflow.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-19 17:58:27 +0000 UTC
     </div>
 </div>
 
