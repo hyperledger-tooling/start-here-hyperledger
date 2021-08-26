@@ -68,31 +68,3 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/165" class=".btn">#165</a>
-            </td>
-            <td>
-                <b>
-                    feat: Reuse MongoDB connection across stores
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reworked the MongoDB storage provider to use one client (and one connection) across stores. It's safe to reuse that client object and saves on extra unnecessary connections.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-19 02:03:36 +0000 UTC
-    </div>
-</div>
-

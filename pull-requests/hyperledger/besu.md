@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2677" class=".btn">#2677</a>
+            </td>
+            <td>
+                <b>
+                    Adding QBFT PKI-backed Block Creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                ## PR description
+- Changed `cms` field in `PkiExtraData` from `Optional<Bytes>` to `Bytes`
+- Updated PkiExtraData encoding/decoding. Now we are appending the CMS as the last element in the ExtraData list.
+- Created `QbftContext` containing the optional `PkiBlockCreationConfiguration`. Used to determine if the node is running in PKI mode and to have access to the KeyStores.
+- Created a new hashing strategy that excludes the CMS data from the hash calculation. This is used when calculating the signed hash inside the CMS message.
+- Updated `QbftRound` with a new `createBlockForProposalBehaviour`. The default implementation just creates the block. The "PKI" implementation created the block and adds the CMS into the extra data.
+- Updated `ProposalPayloadValidator` with logic to validate the CMS message in the proposal (when running in PKI-mode).
+- Included `pki-qbft` parameter for PKI ATs. This will run tests using PKI QBFT.
+
+## Pending Changes
+- [ ] Stop leaking PKI information to `BftExtraDataCodec` (we are leaking it through the `EXCLUDE_CMS` enum value)
+- [ ] Remove duplication on `PkiQbftExtraDataCodec#encode(..)` method (we are duplicating code from `QbftExtraDataCodec#encode`)
+
+## Fixed Issue(s)
+fixes #2653 
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 01:04:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2676" class=".btn">#2676</a>
             </td>
             <td>
