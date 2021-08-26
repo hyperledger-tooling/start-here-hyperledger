@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/148" class=".btn">#148</a>
+            </td>
+            <td>
+                <b>
+                    FABJ-480: Fix maxInboundMessageSize yaml reading
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry-pick of 4f155059b6fa8aa71e1ac96b23b03483dd82fbd8 from main branch
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 09:37:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/146" class=".btn">#146</a>
             </td>
             <td>

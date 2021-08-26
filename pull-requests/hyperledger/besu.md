@@ -196,6 +196,8 @@ fixes #1303
 
 ## PR description
 
+This modification improves performance because we no longer have to copy the memory to a new array every time we want to read it.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->

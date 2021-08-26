@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/110" class=".btn">#110</a>
+            </td>
+            <td>
+                <b>
+                    Updated scheme and fixed U128 codec
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: rkharisov <rinat@soramitsu.co.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 09:36:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/109" class=".btn">#109</a>
             </td>
             <td>
@@ -163,58 +189,6 @@ permalink: /pull-requests/hyperledger/iroha-java
     </table>
     <div class="right-align">
         Created At 2021-08-19 14:10:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/103" class=".btn">#103</a>
-            </td>
-            <td>
-                <b>
-                    Fixed U64 decoding
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: rkharisov <rinat@soramitsu.co.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-19 10:43:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/102" class=".btn">#102</a>
-            </td>
-            <td>
-                <b>
-                    Fixed NPE in transaction builder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: rkharisov <rinat@soramitsu.co.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-19 09:37:31 +0000 UTC
     </div>
 </div>
 

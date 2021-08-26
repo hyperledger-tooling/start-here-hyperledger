@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/621" class=".btn">#621</a>
+            </td>
+            <td>
+                <b>
+                    Separate the FPC go SDK from the Fabric Client SDK Go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+
+**What this PR does / why we need it**:
+
+This commit introduces the following:
+- a core package containing a fabric-sdk independent lifecycle and contract client
+- a refactored resmgmt and gateway that instantiate the core package primitives using the fabric go-sdk
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 07:49:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/619" class=".btn">#619</a>
             </td>
             <td>
@@ -92,47 +125,6 @@ Adding missing unit tests for ECC. This PR also includes some refactoring for be
     </table>
     <div class="right-align">
         Created At 2021-08-21 08:07:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/617" class=".btn">#617</a>
-            </td>
-            <td>
-                <b>
-                    Introduce staticchecks and spellchecking for go
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                **What this PR does / why we need it**:
-
-This PR introduces more tools to enhance code quality to our build pipeline.
-In particular, we add [staticcheck](https://staticcheck.io/) and spellchecking to our golinter script and fix all detected issues, including dead code, removing dependencies of deprecated code, unchecked vars, and spelling issues.
-
-**Which issue(s) this PR fixes**:
-<!--
-  list existing bug, feature and/or work-item which this PR addresses.
-  You might also consider creating an issue first for the PR.
--->
-Closes #403 
-
-**Special notes for your reviewer**:
-
-Note that there exists a commit for adding the new tool and another commit that fixes the detected issues. I suggest review commit by commit.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-19 12:21:45 +0000 UTC
     </div>
 </div>
 
