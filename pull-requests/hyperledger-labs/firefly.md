@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/172" class=".btn">#172</a>
+            </td>
+            <td>
+                <b>
+                    Remove unnecessary streamID param to ethconnect
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 12:59:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/171" class=".btn">#171</a>
             </td>
             <td>
@@ -327,39 +353,6 @@ Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
     </table>
     <div class="right-align">
         Created At 2021-08-20 21:06:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/160" class=".btn">#160</a>
-            </td>
-            <td>
-                <b>
-                    Make sync-async helpers less specific to messaging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This changeset simplifies the `inflightRequest` interface and adds 3 new generic constructs:
-* `inflightResponse`
-* `requestType`
-* `requestSender`
-
-The core helpers of sync-async (`sendAndWait` and `eventCallback`) now deal with these generic types and perform much less messaging-specific inspection of the requests and responses. There are clearer extension points for new request-response flows that may or may not relate to messaging at all.
-
-The end goal is that this will make it easier to wrap tokens (and other future operations) in sync-async handlers.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-20 15:09:39 +0000 UTC
     </div>
 </div>
 
