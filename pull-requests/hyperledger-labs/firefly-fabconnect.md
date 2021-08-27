@@ -91,29 +91,3 @@ Note: remaining issue #40 to be addressed separately
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/37" class=".btn">#37</a>
-            </td>
-            <td>
-                <b>
-                    Add Dockerfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-19 20:57:54 +0000 UTC
-    </div>
-</div>
-

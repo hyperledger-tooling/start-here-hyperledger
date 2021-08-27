@@ -146,29 +146,3 @@ structs. This brings the module in-line with the other Grid stores.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/903" class=".btn">#903</a>
-            </td>
-            <td>
-                <b>
-                    Implement some methods for Purchase Order state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds implementations for a few methods on the Purchase Order state that are used by the smart contract actions. This pr adds implementations for the methods `get_purchase_order`, `set_purchase_order`, `get_agent`, and `get_organization`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-19 19:10:08 +0000 UTC
-    </div>
-</div>
-
