@@ -64,31 +64,3 @@ Also addresses that the funder interface could be used for off-chain funding, wh
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/162" class=".btn">#162</a>
-            </td>
-            <td>
-                <b>
-                    Make EventSub a Closer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Using a `[pkg/sync] Closer` makes the `EventSub.Close()` call idempotent and easier to use.
-
-Closes #161 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-20 12:09:05 +0000 UTC
-    </div>
-</div>
-

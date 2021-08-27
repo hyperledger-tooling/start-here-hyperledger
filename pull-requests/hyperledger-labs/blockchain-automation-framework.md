@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1640" class=".btn">#1640</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Ansible decoupling for create/ca-server role
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+- Add ca_server chart
+- Update create/k8s_secrets role and create/ca-server role
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar
+@alvaropicazo
+
+ 
+
+**Linked issue**
+#1573 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 11:50:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1639" class=".btn">#1639</a>
+            </td>
+            <td>
+                <b>
+                    [corda] build docker images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: pppazos <hgartti@gmail.com>
+
+**Changelog**
+- Update git workflow docker_build.yml to include build of corda images
+
+ 
+
+**Reviewed by**
+@pppazos 
+
+ 
+
+**Linked issue**
+#741 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 06:58:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1636" class=".btn">#1636</a>
             </td>
             <td>
@@ -47,39 +129,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </table>
     <div class="right-align">
         Created At 2021-08-23 12:19:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1635" class=".btn">#1635</a>
-            </td>
-            <td>
-                <b>
-                    [fabric] Fix vault_kubernetes errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
-
-**Changelog**
-- Fix secrets not getting created because of kubeconfig missed
-- Fix creation of docker secret before the charts are created and not after
-- Allow network schema errors to be printed always
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-20 08:10:31 +0000 UTC
     </div>
 </div>
 

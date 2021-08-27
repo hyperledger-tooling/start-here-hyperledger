@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    New option to exclude checkers
+                    Skip processing key-value pairs unless necessary
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                This PR introduces a new option in CLI to specify the checkers to exclude from executing.
-This might be helpful when one wants to skip certain time-consuming checks.
+                In the current implementation, key-value processing can take much time and memory to save the history of all the values in the state. This patch skips key-value pairs when no application checkers are specified.
+
+This suppresses time and memory consumption when a user does not intend to examine and verify the contents of the transactions.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-20 00:52:45 +0000 UTC
+        Created At 2021-08-27 07:02:57 +0000 UTC
     </div>
 </div>
 

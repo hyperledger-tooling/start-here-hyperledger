@@ -1,13 +1,13 @@
 
-[2861](https://github.com/hyperledger/fabric/pull/2861) Private Data Comparison
+[1640](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1640) [fabric] Ansible decoupling for create/ca-server role
 
-[171](https://github.com/hyperledger-labs/firefly/pull/171) Firefly chaincode for Fabric integration
+[489](https://github.com/hyperledger/fabric-sdk-node/pull/489) add: more clear exception log error for no peers
 
-[1380](https://github.com/hyperledger/iroha/pull/1380) Fix/query permission test fix
+[148](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/148) Fix broken link in README.md
 
-[109](https://github.com/hyperledger-labs/fabric-smart-client/pull/109) fabric LocalMembership should first search over the local resolvers #108
+[482](https://github.com/hyperledger-labs/solang/pull/482) Release 0.1.8
 
-[1379](https://github.com/hyperledger/iroha/pull/1379) [docs] README
+[1381](https://github.com/hyperledger/iroha/pull/1381) Test/1.2.1 with permissions fix
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
