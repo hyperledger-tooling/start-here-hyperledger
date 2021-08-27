@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-fabconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/42" class=".btn">#42</a>
+            </td>
+            <td>
+                <b>
+                    Kafka integration test - module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Kafka integration test - module
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 15:49:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/41" class=".btn">#41</a>
             </td>
             <td>
@@ -36,32 +62,6 @@ Note: remaining issue #40 to be addressed separately
     </table>
     <div class="right-align">
         Created At 2021-08-26 11:21:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/39" class=".btn">#39</a>
-            </td>
-            <td>
-                <b>
-                    Kafka integration test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Kafka integration test added on top of the latest commit to avoid any conflict.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-24 17:08:43 +0000 UTC
     </div>
 </div>
 

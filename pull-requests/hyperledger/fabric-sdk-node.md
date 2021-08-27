@@ -14,6 +14,123 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/493" class=".btn">#493</a>
+            </td>
+            <td>
+                <b>
+                    Fix build break (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry-pick of relevant parts of f1378ab7a08f07c29813cd572c0d88defbab8808 from main branch.
+
+New TypeScript release caused compile / lint failures.
+
+- Pinned to a more specific TypeScript version
+- Minor type and lint changes
+
+Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 17:44:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/492" class=".btn">#492</a>
+            </td>
+            <td>
+                <b>
+                    Resolve build error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 17:27:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/491" class=".btn">#491</a>
+            </td>
+            <td>
+                <b>
+                    Fix build break
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                New TypeScript release caused compile / lint failures.
+
+- Pinned to a more specific TypeScript version
+- Minor type and lint changes
+- Some additional exclusions to license check to avoid failures in development environment
+
+Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 17:13:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/490" class=".btn">#490</a>
+            </td>
+            <td>
+                <b>
+                    FABN-1530: Timestamp added to full and private block transaction events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 15:18:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/489" class=".btn">#489</a>
             </td>
             <td>
