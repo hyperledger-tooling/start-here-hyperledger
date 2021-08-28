@@ -35,7 +35,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
 6. Added workflow for end-to-end asset-exchange (fabric-fabric) test.
 
 Fix:
-Fabric driver build error due to latest typescript `4.4.2` causing issue. Fixed the typescript version `4.3.5` in the fabric-driver.
+Fabric driver build error fix.
             </td>
         </tr>
     </table>

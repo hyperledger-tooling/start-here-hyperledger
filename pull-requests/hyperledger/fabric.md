@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2867" class=".btn">#2867</a>
+            </td>
+            <td>
+                <b>
+                    [Document] typo fix on BlockHashingDataStructure and HashingAlgorithm
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: DavidLiu <david.yx.liu@oracle.com>
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+Now beyond SHA256, SHA3_256 is also supported HashingAlgorithm
+BlockHashingDataStructure --> BlockDataHashingStructure
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-28 14:47:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2865" class=".btn">#2865</a>
             </td>
             <td>
@@ -501,34 +540,6 @@ Signed-off-by: Parameswaran Selvam parselva@in.ibm.com
     </table>
     <div class="right-align">
         Created At 2021-08-22 14:40:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2848" class=".btn">#2848</a>
-            </td>
-            <td>
-                <b>
-                    Options for GRPC message size configurable (backport #2805) 2.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of pull request #2805
-
-Signed-off-by: Parameswaran Selvam parselva@in.ibm.com
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-21 15:23:50 +0000 UTC
     </div>
 </div>
 
