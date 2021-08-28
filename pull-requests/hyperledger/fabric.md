@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2863" class=".btn">#2863</a>
+            </td>
+            <td>
+                <b>
+                    Stop spamming for wait channel acquirement in orderer integration test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The code passes a function that returns a channel instead of the channel returned by that function.
+As a result, the function is being polled thousands of times needlessly and thousands of channels
+are being created, after which a goroutine per channel feeds a value into each of them.
+
+Unfortunately, Gomega uses reflection based select on each of these channels, which is non-blocking,
+meaning it just grabs a lock on the channel, and if the sender goroutine hasn't sent the item yet,
+it returns false.
+
+Since we pass in the Gomega.Eventually, a function (and not a channel), the reflection based receive is only attempted
+once on each channel (out of the thousands created) and this creates a flake, because sometimes
+we reach the timeout before one of the goroutines has a chance to obtain the lock on the channel
+before the reflection based select obtains it, sees the channel buffer is empty, and the Gomega
+attempt for that channel is then given up.
+
+Change-Id: I4417703d17e48afec50f46f3ae6b77a8e61a9be7
+Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 23:06:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2861" class=".btn">#2861</a>
             </td>
             <td>

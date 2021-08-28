@@ -133,29 +133,3 @@ so, other version can work with this PR.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/259" class=".btn">#259</a>
-            </td>
-            <td>
-                <b>
-                    Change latest Fabric version from 2.2.0 to 2.3.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changed the current Fabric release version number in the docs from 2.2.0 to 2.3.0
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-20 23:08:10 +0000 UTC
-    </div>
-</div>
-

@@ -28,6 +28,7 @@ permalink: /pull-requests/hyperledger/fabric-ca
             </td>
             <td>
                 Update Go to 1.16.7.
+Go 1.16 changes also required one test update.
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
 
