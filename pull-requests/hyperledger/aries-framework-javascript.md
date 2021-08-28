@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/443" class=".btn">#443</a>
+            </td>
+            <td>
+                <b>
+                    chore: remove redux store package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Should not be merged until hyperledger/aries-framework-javascript-ext#3 is merged
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-28 18:13:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/442" class=".btn">#442</a>
             </td>
             <td>
