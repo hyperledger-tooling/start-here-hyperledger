@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/3" class=".btn">#3</a>
+            </td>
+            <td>
+                <b>
+                    feat: add redux-store
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-28 11:55:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/2" class=".btn">#2</a>
             </td>
             <td>

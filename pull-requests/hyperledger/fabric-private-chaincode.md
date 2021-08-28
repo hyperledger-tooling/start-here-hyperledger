@@ -160,30 +160,3 @@ This changes the Test-network sample Readme adding a section to explain how to c
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/618" class=".btn">#618</a>
-            </td>
-            <td>
-                <b>
-                    Unittest for ECC
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Test</span>
-            </td>
-            <td>
-                **What this PR does / why we need it**:
-Adding missing unit tests for ECC. This PR also includes some refactoring for better testing; fixed typos, go docs, etc.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-21 08:07:11 +0000 UTC
-    </div>
-</div>
-
