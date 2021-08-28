@@ -156,7 +156,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
                 
             </td>
             <td>
-                File .github/README.md overrides root/README.md. 
+                File .github/README.md overrides root/README.md.  Fix this by renaming .github/README.md to .github/_README.md
             </td>
         </tr>
     </table>

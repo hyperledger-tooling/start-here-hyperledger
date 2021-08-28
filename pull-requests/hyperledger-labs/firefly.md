@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/173" class=".btn">#173</a>
+            </td>
+            <td>
+                <b>
+                    Add unit tests for tokens HTTPS plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 20:11:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/172" class=".btn">#172</a>
             </td>
             <td>
@@ -324,35 +350,6 @@ Open to feedback on whether this callback pattern is the optimal design, but I d
     </table>
     <div class="right-align">
         Created At 2021-08-23 15:28:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/161" class=".btn">#161</a>
-            </td>
-            <td>
-                <b>
-                    Add an "id" parameter to SendMessageWithID
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Given the method naming, it feels more intuitive to pass this in (rather
-than requiring the sender to set it on a nested field before invoking).
-
-Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-20 21:06:17 +0000 UTC
     </div>
 </div>
 

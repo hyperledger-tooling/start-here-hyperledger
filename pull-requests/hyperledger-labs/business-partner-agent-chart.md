@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/32" class=".btn">#32</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    fix typo in aca-py webhook url
+                    Directly substitute genesisURL if not `/genesis`
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                Signed-off-by: Philipp Etschel <philipp@etschel.net>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-12 09:52:39 +0000 UTC
+        Created At 2021-08-27 21:10:55 +0000 UTC
     </div>
 </div>
 
