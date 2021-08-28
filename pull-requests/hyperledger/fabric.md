@@ -41,6 +41,8 @@ we reach the timeout before one of the goroutines has a chance to obtain the loc
 before the reflection based select obtains it, sees the channel buffer is empty, and the Gomega
 attempt for that channel is then given up.
 
+Resolves #2860 
+
 Change-Id: I4417703d17e48afec50f46f3ae6b77a8e61a9be7
 Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
 

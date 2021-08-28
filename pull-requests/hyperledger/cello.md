@@ -126,34 +126,3 @@ Signed-off-by: XuHugo <xq-310@163.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/301" class=".btn">#301</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-300]Modify registration, login, and user roles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. When registering a user, change the user name to email
-2. When logging in, change the user name to email and remove the organization name
-3. Modify the user role judgment and only retain two roles: "admin" and "member"
-
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-Close #300 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-21 02:17:02 +0000 UTC
-    </div>
-</div>
-
