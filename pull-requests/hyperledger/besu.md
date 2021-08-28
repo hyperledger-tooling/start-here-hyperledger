@@ -474,37 +474,3 @@ Fixes #2571
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2666" class=".btn">#2666</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade to OpenTelemetry 1.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
-
-
-## PR description
-Upgrade to latest OpenTelemetry release.
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-21 06:50:14 +0000 UTC
-    </div>
-</div>
-
