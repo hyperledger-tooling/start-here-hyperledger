@@ -14,6 +14,155 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2686" class=".btn">#2686</a>
+            </td>
+            <td>
+                <b>
+                    typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fix 2 typos.
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-28 04:19:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2685" class=".btn">#2685</a>
+            </td>
+            <td>
+                <b>
+                    Eth66 protocol should only apply to the Eth protocol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jason Frame <jasonwframe@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Besu using the instanbul/99 or instanbul/100 incorrectly encodes messages with a requestId from eth66.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #2682
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 07:47:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2684" class=".btn">#2684</a>
+            </td>
+            <td>
+                <b>
+                    address clique london HeaderValidator config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+address clique BlockHeaderValidator configuration issue for london fee market
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2680 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 06:57:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2683" class=".btn">#2683</a>
+            </td>
+            <td>
+                <b>
+                    Use native SECP256K1 and SECP256R1 for signature normalization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Use native SECP256K1 for signature normalization
+
+Add support for SECP256K1 "normalize" path to use the native library.
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 02:22:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2677" class=".btn">#2677</a>
             </td>
             <td>
@@ -37,7 +186,7 @@ permalink: /pull-requests/hyperledger/besu
 - Included `pki-qbft` parameter for PKI ATs. This will run tests using PKI QBFT.
 
 ## Pending Changes
-- [ ] Stop leaking PKI information to `BftExtraDataCodec` (we are leaking it through the `EXCLUDE_CMS` enum value)
+- [x] Stop leaking PKI information to `BftExtraDataCodec` (we are leaking it through the `EXCLUDE_CMS` enum value)
 - [ ] Remove duplication on `PkiQbftExtraDataCodec#encode(..)` method (we are duplicating code from `QbftExtraDataCodec#encode`)
 
 ## Fixed Issue(s)
@@ -356,125 +505,6 @@ Upgrade to latest OpenTelemetry release.
     </table>
     <div class="right-align">
         Created At 2021-08-21 06:50:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2664" class=".btn">#2664</a>
-            </td>
-            <td>
-                <b>
-                    Remove duplicate AddOperation on MainnetEvmRegistries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-While familiarizing myself with the EVM code, I noticed that there is a duplicate `AddOperation` being added to the `MainnetEvmRegistries`. The `MainnetEvmRegistries#put()` function just assigns the operation to a map using the operation's opcode so removing this duplicate line has no effect on the EVM itself as it was just overwriting the previous line.
-
-## Fixed Issue(s)
-
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-20 23:53:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2661" class=".btn">#2661</a>
-            </td>
-            <td>
-                <b>
-                    Expose args in PicoCLIOptions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Allow plugins to see what arguments were used to start besu.
-
-Form inside a plugin I need to be able to get access to arguments that were used to start besu, specifically 
-
-`--rpc-http-port`
-`--rpc-http-enabled`
-`--rpc-http-tls-enabled`
-
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-20 09:26:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2660" class=".btn">#2660</a>
-            </td>
-            <td>
-                <b>
-                    Encapsulate London Block transaction gas price validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-* add BaseFeeBlockBodyValidator extends MainnetBlockBodyValidator
-* use in London protocolschedule
- 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2565
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-19 22:13:13 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/83" class=".btn">#83</a>
+            </td>
+            <td>
+                <b>
+                    Add release notes for 0.6.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 15:14:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/82" class=".btn">#82</a>
             </td>
             <td>
@@ -61,34 +87,6 @@ This PR updates the method signature in the trait as well as the LMDB, SQLite an
     </table>
     <div class="right-align">
         Created At 2021-08-24 16:44:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/80" class=".btn">#80</a>
-            </td>
-            <td>
-                <b>
-                    Fix SQLite receipt store indexing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previously the way that the index value was being assigned to the transaction receipt entry when adding new transaction receipts to the store did not guarantee uniqueness. This PR updates that process to retrieve the index of the most recently added transaction receipt and increment it by one to get the index of each new transaction receipt being added to the database.
-
-This PR also adds a uniqueness constraint to the idx field of the `transaction_receipt` table.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-20 21:45:39 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1379" class=".btn">#1379</a>
+            </td>
+            <td>
+                <b>
+                    Write schema cred def non secrets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In progress - so far it has only been test manually.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-27 20:04:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1378" class=".btn">#1378</a>
             </td>
             <td>
@@ -258,32 +284,6 @@ The MultitenantManagerProvider chooses the right manager to use depending on the
     </table>
     <div class="right-align">
         Created At 2021-08-22 22:53:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1364" class=".btn">#1364</a>
-            </td>
-            <td>
-                <b>
-                    fix: error not raised in predicate timestamp check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Quick fix for what appears to be a typo.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-20 14:06:22 +0000 UTC
     </div>
 </div>
 

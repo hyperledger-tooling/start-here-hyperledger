@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/169" class=".btn">#169</a>
+            </td>
+            <td>
+                <b>
+                    chore: Store JSON strings as string instead of binary in MongoDB
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A JSON string (e.g. ["text"]) is persisted as a string value instead of a binary value.
+
+Also, collapse the data wrappers into one wrapper that can store binary, JSON documents, and strings.
+
+Signed-off-by: Bob Stasyszyn <Bob.Stasyszyn@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 15:17:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/168" class=".btn">#168</a>
             </td>
             <td>
@@ -35,36 +65,6 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-08-23 21:50:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/166" class=".btn">#166</a>
-            </td>
-            <td>
-                <b>
-                    test: Update common tests and interface version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Latest common storage tests commit includes new tests.
-- Updated MySQL implementation to pass them. The MySQL implementation also now defers creating a tag map until needed. It also now doesn't require SetStoreConfig in order to do queries in order to keep in line with the latest interface documentation.
-- Updated some documentation for the CouchDB implementation.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-20 21:18:50 +0000 UTC
     </div>
 </div>
 
