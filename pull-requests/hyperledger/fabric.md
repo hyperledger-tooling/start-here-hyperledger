@@ -544,31 +544,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2849" class=".btn">#2849</a>
-            </td>
-            <td>
-                <b>
-                    Options for GRPC message size configurable (backport #2805) 2.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of pull request #2805
-
-Signed-off-by: Parameswaran Selvam parselva@in.ibm.com
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-22 14:40:18 +0000 UTC
-    </div>
-</div>
-
