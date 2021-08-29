@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                In progress - so far it has only been test manually.
+                <nil>
             </td>
         </tr>
     </table>
