@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                <nil>
+                https://github.com/hyperledger-labs/fabric-operations-console/issues/29
             </td>
         </tr>
     </table>
