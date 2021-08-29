@@ -101,35 +101,3 @@ Signed-off-by: Dilum Bandara <dilum.bandara@ieee.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/261" class=".btn">#261</a>
-            </td>
-            <td>
-                <b>
-                    fix java chaincode to work with current fabric versions.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                close #260
-tested and worked with following fabric versions
-- 1.4.4 (current minimum supported version by minifab)
-- 2.0    ( first 2.0 series)
-- 2.3.2 ( latest )
-
-so, other version can work with this PR.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-22 04:13:59 +0000 UTC
-    </div>
-</div>
-
