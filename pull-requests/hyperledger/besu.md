@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2694" class=".btn">#2694</a>
+            </td>
+            <td>
+                <b>
+                    Add logs for block propagation manager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Add logs for block propagation manager
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 11:47:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2690" class=".btn">#2690</a>
+            </td>
+            <td>
+                <b>
+                    ignore all unknown fields for eth_call and eth_estimateGas
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Changed to ignore all unknown fields in JsonCallParameter. Different third-party libraries send through extra fields from time to time, for example
+ethers.js 5.4.2 sends eth_estimateGas with a `type` parameter which Besu was rejecting.
+
+```
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "type" (class org.hyperledger.besu.ethereum.api.jsonrpc.internal.parameters.JsonCallParameter), not marked as ignorable (11 known properties: "gasPrice", "value", "gasLimit", "gas", "from", "to", "maxFeePerGas", "strict", "maxPriorityFeePerGas", "payload", "data"])
+at [Source: (StringReader); line: 1, column: 42492] (through reference chain: org.hyperledger.besu.ethereum.api.jsonrpc.internal.parameters.JsonCallParameter["type"])
+```
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-29 23:07:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2686" class=".btn">#2686</a>
             </td>
             <td>
@@ -392,42 +471,6 @@ This modification improves performance because we no longer have to copy the mem
     </table>
     <div class="right-align">
         Created At 2021-08-24 04:15:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2669" class=".btn">#2669</a>
-            </td>
-            <td>
-                <b>
-                    Updated besu-native to 0.4.2 for ec libraries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-- Updated besu-native to 0.4.2 for ec libraries
-- Not updating bls12-381 because of https://github.com/hyperledger/besu/issues/2668
-
-## Fixed Issue(s)
-fixes #2665
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-23 10:37:36 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[266](https://github.com/hyperledger-labs/minifabric/pull/266) fix certificates mapping and support fabric 1.4.x series on k8s.
+[2694](https://github.com/hyperledger/besu/pull/2694) Add logs for block propagation manager
 
-[40](https://github.com/hyperledger-labs/fabric-operations-console/pull/40) add HL architecture diagram
+[589](https://github.com/hyperledger-labs/business-partner-agent/pull/589) attempt to fix action
 
-[2868](https://github.com/hyperledger/fabric/pull/2868) Stop spamming for wait channel acquirement in orderer integration test
+[111](https://github.com/hyperledger-labs/fabric-smart-client/pull/111) Noidemix3
 
-[443](https://github.com/hyperledger/aries-framework-javascript/pull/443) chore: remove redux store package
+[588](https://github.com/hyperledger-labs/business-partner-agent/pull/588) add links to clips and add screenshot to readme
 
-[2867](https://github.com/hyperledger/fabric/pull/2867) [Document] typo fix on BlockHashingDataStructure and HashingAlgorithm
+[4](https://github.com/hyperledger/aries-framework-javascript-ext/pull/4) ci: sign off release please commits
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

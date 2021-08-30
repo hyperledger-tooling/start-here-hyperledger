@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1276" class=".btn">#1276</a>
+            </td>
+            <td>
+                <b>
+                    fix(discounted-cartrade): modify README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This resolve Issue #1181
+
+Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 09:39:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1275" class=".btn">#1275</a>
             </td>
             <td>

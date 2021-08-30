@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/4" class=".btn">#4</a>
+            </td>
+            <td>
+                <b>
+                    ci: sign off release please commits
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!---
+Provide a general summary of your changes in the Title above
+-->
+
+## Description
+
+All commits require sign-off
+
+<!--- Describe your changes in detail -->
+
+- [x] Tests for the changes have been added (for bug fixes / features)
+- [x] The commit message(s) follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [x] Documentation has been added / updated (for bug fixes / features)
+- [x] Changes follow the **[contributing](../CONTRIBUTING.md)** document.
+
+## Does this PR introduce a breaking change?
+
+- [ ] Yes
+- [x] No
+
+<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. Make sure to indicate commits with breaking changes by appending a `!` after the type/scope as described by the conventional commits guidelines -->
+
+## Which merge strategy will you use?
+
+<!-- This indicates to reviewers whether they need to check your commits are ready to be rebased on main or not. Squashing only requires the title of the PR to follow conventional commits guidelines. Rebasing requires all commits to follow conventional commits guidelines, but allows to introduce multiple changes within a single PR. If you don't know what this means, Squash is probably the way to go. -->
+
+- [x] Squash (REVIEW PR title)
+- [ ] Rebase (REVIEW commit messages)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 10:56:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/3" class=".btn">#3</a>
             </td>
             <td>

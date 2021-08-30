@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/445" class=".btn">#445</a>
+            </td>
+            <td>
+                <b>
+                    feat!: throw invalid key instead of wallet error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 09:08:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/444" class=".btn">#444</a>
+            </td>
+            <td>
+                <b>
+                    fix: legacy did:sov prefix on invitation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Addition to #442 where we forgot to also transform the invitation `@type`. 
+
+This is required to interop with agents that don't support the https://didcomm.org message type prefix yet (e.g. Trinsic wallet)
+
+Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 08:44:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/443" class=".btn">#443</a>
             </td>
             <td>

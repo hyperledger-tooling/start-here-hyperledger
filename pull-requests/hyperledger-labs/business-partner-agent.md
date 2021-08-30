@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/589" class=".btn">#589</a>
+            </td>
+            <td>
+                <b>
+                    attempt to fix action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Action to publish docs currently fails because of DCO
+
+Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/589"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 11:39:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/588" class=".btn">#588</a>
+            </td>
+            <td>
+                <b>
+                    add links to clips and add screenshot to readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/588"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 11:11:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/585" class=".btn">#585</a>
             </td>
             <td>
@@ -52,41 +114,6 @@ I have added a simple single redirect handler when reading the invitation url. T
     </table>
     <div class="right-align">
         Created At 2021-08-24 02:18:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/584" class=".btn">#584</a>
-            </td>
-            <td>
-                <b>
-                    Presentation Requests with Proof Templates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Send proof templates instead of schemas via presentation requests
-- Adapt UI flow and proof template component
-
-![image](https://user-images.githubusercontent.com/87176157/130406842-4affe8c9-b548-4bd9-af23-128be71364b6.png)
-![image](https://user-images.githubusercontent.com/87176157/130406898-50925f2d-e95e-4106-bd8f-9e1fca68ca96.png)
-
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/584"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-23 07:23:19 +0000 UTC
     </div>
 </div>
 

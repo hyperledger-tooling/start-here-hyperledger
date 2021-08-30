@@ -508,39 +508,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2850" class=".btn">#2850</a>
-            </td>
-            <td>
-                <b>
-                    Update Go to v1.16.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update Go to v1.16.7.
-Go module support is assumed starting in Go v1.16.
-Therefore, for chaincodes without go modules (such as in the integration tests),
-need to explicitly set GO111MODULE to off otherwise chaincode will not compile.
-See Go v1.16 release notes for more details: https://golang.org/doc/go1.16#go-command
-
-As part of troubleshooting the Go upgrade, also added debug for the chaincode
-compile command.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-23 12:16:58 +0000 UTC
-    </div>
-</div>
-
