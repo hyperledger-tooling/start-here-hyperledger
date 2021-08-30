@@ -54,7 +54,7 @@ Fix 2 typos.
             </td>
             <td>
                 <b>
-                    Eth66 protocol should only apply to the Eth protocol
+                    Eth66 protocol request id changes should only apply to the Eth protocol
                 </b>
             </td>
         </tr>
@@ -63,9 +63,7 @@ Fix 2 typos.
                 
             </td>
             <td>
-                Signed-off-by: Jason Frame <jasonwframe@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
