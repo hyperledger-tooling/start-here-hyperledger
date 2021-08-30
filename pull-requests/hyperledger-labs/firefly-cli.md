@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/86" class=".btn">#86</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/87" class=".btn">#87</a>
             </td>
             <td>
                 <b>
-                    only show badge for main branch
+                    Update besu_provider.go
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
                 
             </td>
             <td>
-                <nil>
+                reconfigured file for supporting firefly on hyperledger-besu. Untested
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-17 19:28:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/85" class=".btn">#85</a>
-            </td>
-            <td>
-                <b>
-                    add build workflow badge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-17 19:17:48 +0000 UTC
+        Created At 2021-08-30 13:49:48 +0000 UTC
     </div>
 </div>
 

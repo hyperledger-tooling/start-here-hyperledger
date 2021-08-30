@@ -14,6 +14,197 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2878" class=".btn">#2878</a>
+            </td>
+            <td>
+                <b>
+                    Clean up Go modules (main)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Run "go mod tidy" and "go mod vendor" on main.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 17:24:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2877" class=".btn">#2877</a>
+            </td>
+            <td>
+                <b>
+                    Update Go to v1.16.7 and alpine to 3.14 (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Go module support is assumed starting in Go v1.16.
+
+Therefore, for chaincodes without go modules (such as in the integration tests),
+need to explicitly set GO111MODULE to off otherwise chaincode will not compile.
+See Go v1.16 release notes for more details: https://golang.org/doc/go1.16#go-command
+
+As part of troubleshooting the Go upgrade, also added debug for the chaincode
+compile command.
+
+Also update alpine to 3.14.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 17:07:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2876" class=".btn">#2876</a>
+            </td>
+            <td>
+                <b>
+                    Clean up Go modules (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Run "go mod tidy" to clean up module dependencies in release-2.2.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 16:58:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2875" class=".btn">#2875</a>
+            </td>
+            <td>
+                <b>
+                    Clean up Go modules (release-2.3)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Run "go mod tidy" to clean up module dependencies in release-2.3
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 16:51:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2874" class=".btn">#2874</a>
+            </td>
+            <td>
+                <b>
+                    Update Go to v1.16.7 and alpine to 3.14 (release-2.3)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update Go to v1.16.7.
+Go module support is assumed starting in Go v1.16.
+Therefore, for chaincodes without go modules (such as in the integration tests),
+need to explicitly set GO111MODULE to off otherwise chaincode will not compile.
+See Go v1.16 release notes for more details: https://golang.org/doc/go1.16#go-command
+
+As part of troubleshooting the Go upgrade, also added debug for the chaincode
+compile command.
+
+Also update alpine to 3.14.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 16:43:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2873" class=".btn">#2873</a>
+            </td>
+            <td>
+                <b>
+                    Change name of test network docker network in 2.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">docs</span>
+            </td>
+            <td>
+                Signed-off-by: Nikhil Gupta <ngupta@triplepointliquidity.com>
+
+A PR in the Fabric samples recently changed the name of the Fabric test network docker network from `net_test` to `fabric_test`. This PR updates the documentation to match.
+
+#### Type of change
+
+- Documentation update
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 16:24:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2868" class=".btn">#2868</a>
             </td>
             <td>
