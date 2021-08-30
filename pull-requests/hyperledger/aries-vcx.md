@@ -56,35 +56,3 @@ The idea is
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/339" class=".btn">#339</a>
-            </td>
-            <td>
-                <b>
-                    Fix compile warnings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Leaves standard compilation of `libvcx`, `aries-vcx` and `agency-client` with zero warnings.
-
-1. There's still warnings left when compiling tests, mostly due importing modules of shared utility functions, where some functions are used by `general_tests`, some of the functions are used by `pool_tests` ... etc.
-2. The tests were previously often importing `test` modules which contained tests, this was the issue with imported unused test functions even severe. As first step toward mitigation, I've split test functions from tests into separate modules in many files - tests stay in `test` module, and shared test util function are in `test_utils` modules. 
-3. Some `test` modules were not actually flagged by `#[cfg(test)]` macro, hence became part of compiled artifact. This was fixed, perhaps speeding up compile times slightly
-
-Modifies many files but does no functional changes whatsoever, so in case of merge conflicts with this PR it's safe to accept `yours` changes and then just make sure tests compile (due to point `2.`)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-22 22:51:29 +0000 UTC
-    </div>
-</div>
-

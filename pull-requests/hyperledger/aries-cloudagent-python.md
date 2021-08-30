@@ -261,29 +261,3 @@ The MultitenantManagerProvider chooses the right manager to use depending on the
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1366" class=".btn">#1366</a>
-            </td>
-            <td>
-                <b>
-                    Documentation and unit test cleanups
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-22 22:53:17 +0000 UTC
-    </div>
-</div>
-
