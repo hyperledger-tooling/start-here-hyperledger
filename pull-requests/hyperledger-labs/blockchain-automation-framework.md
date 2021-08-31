@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1643" class=".btn">#1643</a>
+            </td>
+            <td>
+                <b>
+                    [besu] added gcp-storageclass
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Add gcp-storageclass
+- Update main.yml file to add an entry
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar 
+@sownak 
+
+ 
+
+**Linked issue**
+#1295 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 09:43:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1641" class=".btn">#1641</a>
+            </td>
+            <td>
+                <b>
+                    docs: add mgCepeda as a contributor for code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add @mgCepeda as a contributor for code.
+
+This was requested by sownak [in this comment](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1622#issuecomment-909054765)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 09:16:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1640" class=".btn">#1640</a>
             </td>
             <td>
