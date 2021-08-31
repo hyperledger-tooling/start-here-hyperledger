@@ -14,6 +14,116 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/178" class=".btn">#178</a>
+            </td>
+            <td>
+                <b>
+                    Add skeleton functionality for token accounts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 20:50:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/177" class=".btn">#177</a>
+            </td>
+            <td>
+                <b>
+                    Read "operator" field instead of "author" for token-pool event
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 20:13:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/176" class=".btn">#176</a>
+            </td>
+            <td>
+                <b>
+                    Align the "additional info" for blockchain and token transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Both will contain keys for blockNumber, transactionIndex, and transactionHash
+(at least on Ethereum). Prune higher and lower level nested items from the
+JSON body.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 19:58:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/175" class=".btn">#175</a>
+            </td>
+            <td>
+                <b>
+                    Remove unneeded "allowExisting" param from some db methods
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If the param is always true, no need to have a param.
+
+Note that token pools were sometimes erroneously passing false, but
+should have been passing true (passing false would result in infinite
+retries for a name conflict).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 18:40:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/174" class=".btn">#174</a>
             </td>
             <td>

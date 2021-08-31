@@ -14,39 +14,6 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/266" class=".btn">#266</a>
-            </td>
-            <td>
-                <b>
-                    fix certificates mapping and support fabric 1.4.x series on k8s.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                close #246
-
-test OK     fabric 1.4.8 (NEW!)
-test OK     fabric 2.3.2 (as regression test)
-test NG     fabric 1.4.7 or older.  reason: dependency docker image fabric-ccenv:latest is gone from dockerhub
-
-
-Signed-off-by: itaru2622 <itaru2622@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 04:29:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/minifabric/pull/265" class=".btn">#265</a>
             </td>
             <td>
