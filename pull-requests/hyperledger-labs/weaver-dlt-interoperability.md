@@ -125,29 +125,3 @@ Signed-off-by: Dhinakaran Vinayagamurthy <dhinakaran2705@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/145" class=".btn">#145</a>
-            </td>
-            <td>
-                <b>
-                    Augmenting Fabric Interop Chaincode Libraries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added `utils` and `test` folders to Fabric Interoperation chaincode `libs`. The former contains utility functions to help determine whether a chaincode invocation is coming from a relay or a different chaincode; this will be imported both by the Interoperation Chaincode and sample chaincodes (in `samples`). The latter contains the mock stub code used for unit testing in several different Go packages within Weaver.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-24 14:26:08 +0000 UTC
-    </div>
-</div>
-

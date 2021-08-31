@@ -14,6 +14,126 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2888" class=".btn">#2888</a>
+            </td>
+            <td>
+                <b>
+                    platform/golang: loosen assertion for Go 1.16.2 (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The error messages for commands executed outside of a module were
+changed in Go 1.16.2. This change loosens our assertion to handle the
+old and new messages.
+    
+Signed-off-by: Matthew Sykes <sykesmat@us.ibm.com>
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 15:50:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2887" class=".btn">#2887</a>
+            </td>
+            <td>
+                <b>
+                    platform/golang: loosen assertion for Go 1.16.2 (release-2.3)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The error messages for commands executed outside of a module were
+changed in Go 1.16.2. This change loosens our assertion to handle the
+old and new messages.
+    
+Signed-off-by: Matthew Sykes <sykesmat@us.ibm.com>
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 15:44:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2886" class=".btn">#2886</a>
+            </td>
+            <td>
+                <b>
+                    deps: bump testify (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #2336 for Go 1.16 tests.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 15:28:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2885" class=".btn">#2885</a>
+            </td>
+            <td>
+                <b>
+                    deps: bump testify (release-2.3)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #2336 for Go 1.16 tests.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 15:21:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2882" class=".btn">#2882</a>
             </td>
             <td>
@@ -784,41 +904,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-08-24 19:36:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2854" class=".btn">#2854</a>
-            </td>
-            <td>
-                <b>
-                    Gateway integration tests - adv. endorsement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added extra integration tests to the gateway suite to verify the automatic generation of the ChaincodeInterest structure is working as expected. In particular the following areas have been added:
-
-- Submitting transactions that modify an SBE state.
-- Submitting transactions that modify a private data collection.
-- Submitting transactions involving chaincode to chaincode calls.
-
-resolves #2853 
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-24 13:57:44 +0000 UTC
     </div>
 </div>
 

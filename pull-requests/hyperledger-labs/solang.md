@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/484" class=".btn">#484</a>
+            </td>
+            <td>
+                <b>
+                    Solang language server should announce version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 17:03:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/483" class=".btn">#483</a>
             </td>
             <td>
@@ -166,32 +192,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2021-08-24 21:24:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/477" class=".btn">#477</a>
-            </td>
-            <td>
-                <b>
-                    Use hyperledger mac arm machine for testing and release binaries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hyperledger have kindly provided a mac arm machine for CI testing and release binaries.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-24 16:43:19 +0000 UTC
     </div>
 </div>
 
