@@ -73,31 +73,3 @@ for supporting variety of versions (legacy to recent), version-image matrix will
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/262" class=".btn">#262</a>
-            </td>
-            <td>
-                <b>
-                    Fix: Anchorupdate - replaced deprecated configtxgen -outputAnchorPeer…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As discussed in #247 replaced deprecated `configtxgen -outputAnchorPeersUpdate` in `anchorupdate.j2` with `configtxlator`
-
-Signed-off-by: Dilum Bandara <dilum.bandara@ieee.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-24 10:21:44 +0000 UTC
-    </div>
-</div>
-
