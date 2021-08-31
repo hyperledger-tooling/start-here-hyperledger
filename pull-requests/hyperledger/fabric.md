@@ -14,6 +14,158 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2882" class=".btn">#2882</a>
+            </td>
+            <td>
+                <b>
+                    Fixed a typo in private_data_tutorial
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: realnimish <realnimish@gmail.com>
+
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 22:42:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2881" class=".btn">#2881</a>
+            </td>
+            <td>
+                <b>
+                    Update alpine base image to 3.14
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update alpine base image to 3.14
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 20:24:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2880" class=".btn">#2880</a>
+            </td>
+            <td>
+                <b>
+                    Update x509.CertPool equality checks (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Go 1.16 changed the CertPool implementation to employ functions to
+lazily acquire certificates. This change effectively breaks
+`reflect.DeepEqual` used by our test assertions.
+
+This commit changes the assertions compare certificate subjects instead
+of the entire pool. While not the same, it's a close approximation.
+
+See https://go-review.googlesource.com/c/go/+/229917
+
+Signed-off-by: Matthew Sykes <sykesmat@us.ibm.com>
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 20:21:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2879" class=".btn">#2879</a>
+            </td>
+            <td>
+                <b>
+                    Update x509.CertPool equality checks (release-2.3)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Go 1.16 changed the CertPool implementation to employ functions to
+lazily acquire certificates. This change effectively breaks
+`reflect.DeepEqual` used by our test assertions.
+
+This commit changes the assertions compare certificate subjects instead
+of the entire pool. While not the same, it's a close approximation.
+
+See https://go-review.googlesource.com/c/go/+/229917
+
+Signed-off-by: Matthew Sykes <sykesmat@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 20:15:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2878" class=".btn">#2878</a>
             </td>
             <td>
@@ -667,35 +819,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-08-24 13:57:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2851" class=".btn">#2851</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for next release v2.4.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prepare Makefile and release notes for next release v2.4.0.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-23 20:45:30 +0000 UTC
     </div>
 </div>
 
