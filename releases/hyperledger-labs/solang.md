@@ -38,31 +38,3 @@ permalink: /releases/hyperledger-labs/solang
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    LLVM Libraries v12.0 (v1)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    llvm12.0-1
-                </span>
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/solang/releases/tag/llvm12.0-1" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-08-25 07:34:17 +0000 UTC
-    </span>
-</div>
-
