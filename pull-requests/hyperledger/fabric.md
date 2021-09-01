@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2889" class=".btn">#2889</a>
+            </td>
+            <td>
+                <b>
+                    Fix process termination waits in health tests (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #1563
+
+The current code is passing a function to `Eventually` that returns a
+channel instead of the channel to wait on.
+
+Signed-off-by: Matthew Sykes <sykesmat@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 21:13:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2888" class=".btn">#2888</a>
             </td>
             <td>
@@ -862,48 +893,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-08-25 15:04:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2855" class=".btn">#2855</a>
-            </td>
-            <td>
-                <b>
-                    Clarify bootstrap.sh message when fabric-samples tag not found
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The latest versions of fabric are not tagged in fabric-samples repository.
-This is so that users that are using the download script
-and trying the most recent Fabric versions will
-automatically get the latest samples improvements/fixes, rather
-than getting an old tagged version of the samples.
-This works since the maintainers try to keep recent versions
-of Fabric compatible with latest fabric-samples.
-If there is an incompatibility introduced (e.g. the switch to
-osnadmin in v2.3), at that point the maintainers tag
-fabric-samples to align with Fabric versions (e.g.
-v2.2.3 Fabric works with v2.2.3 of samples without osnadmin use).
-This commit simply improves the message that download
-script users receive so that they know that using the
-fabric-samples main branch is acceptable.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-24 19:36:35 +0000 UTC
     </div>
 </div>
 
