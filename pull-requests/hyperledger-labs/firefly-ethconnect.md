@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/139" class=".btn">#139</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    Allow client to specify request ID
+                    Add getFlyParamBool helper
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger-labs/firefly-ethconnect
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-13 19:06:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/138" class=".btn">#138</a>
-            </td>
-            <td>
-                <b>
-                    Add notes on build and test to README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-13 18:36:25 +0000 UTC
+        Created At 2021-09-01 14:29:25 +0000 UTC
     </div>
 </div>
 

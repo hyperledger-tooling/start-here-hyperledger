@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1645" class=".btn">#1645</a>
+            </td>
+            <td>
+                <b>
+                    [besu] updated binary paths
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Update default tessera version
+- Update Besu binary paths
+
+ 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-01 12:52:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1643" class=".btn">#1643</a>
             </td>
             <td>

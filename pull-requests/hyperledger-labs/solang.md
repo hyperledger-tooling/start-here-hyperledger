@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/485" class=".btn">#485</a>
+            </td>
+            <td>
+                <b>
+                    Use new solana mechanism for return data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Requires:
+ - https://github.com/solana-labs/solana/pull/19548
+ - https://github.com/solana-labs/solana/pull/19318
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-01 17:15:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/484" class=".btn">#484</a>
             </td>
             <td>
@@ -111,35 +141,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2021-08-26 09:41:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/480" class=".btn">#480</a>
-            </td>
-            <td>
-                <b>
-                    Move to ubuntu 20.04 for CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                llvm 12 requires a newer version of cmake, so just move to
-ubuntu 20.04.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-25 14:23:16 +0000 UTC
     </div>
 </div>
 
