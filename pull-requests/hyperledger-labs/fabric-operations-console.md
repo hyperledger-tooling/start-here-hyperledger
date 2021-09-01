@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/39" class=".btn">#39</a>
-            </td>
-            <td>
-                <b>
-                    add code of conduct
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-25 15:16:57 +0000 UTC
-    </div>
-</div>
-

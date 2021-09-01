@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/53" class=".btn">#53</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ui/pull/55" class=".btn">#55</a>
             </td>
             <td>
                 <b>
-                    add API error snackbars
+                    use total for counts, remove message limit
                 </b>
             </td>
         </tr>
@@ -27,13 +27,13 @@ permalink: /pull-requests/hyperledger-labs/firefly-ui
                 
             </td>
             <td>
-                <img width="1680" alt="Screen Shot 2021-08-24 at 3 50 12 PM" src="https://user-images.githubusercontent.com/10987380/130680493-f987a710-6bb8-44e4-b486-b557660d0e6e.png">
+                <img width="1916" alt="Screen Shot 2021-09-01 at 9 24 15 AM" src="https://user-images.githubusercontent.com/10987380/131680320-20e9005e-2c78-444a-86ac-4b5734022524.png">
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-24 19:50:31 +0000 UTC
+        Created At 2021-09-01 13:31:37 +0000 UTC
     </div>
 </div>
 
