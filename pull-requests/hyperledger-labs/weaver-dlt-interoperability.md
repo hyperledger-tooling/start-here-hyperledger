@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
             </td>
             <td>
                 <b>
-                    Github Workflows for Unit and Integration Tests
+                    Github Workflows for Unit and Integration Tests; Added local-docker page
                 </b>
             </td>
         </tr>
@@ -36,6 +36,10 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
 
 Fix:
 Fabric driver build error fix.
+
+Update:
+1. Modified Dockerfiles and makefiles to build docker images locally.
+2. Added docs page for `setup-local-docker`.
             </td>
         </tr>
     </table>
