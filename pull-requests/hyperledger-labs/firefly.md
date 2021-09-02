@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/185" class=".btn">#185</a>
+            </td>
+            <td>
+                <b>
+                    Pack all token pool info into "data" field
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The separate fields for the /pool API are going away. Any arbitrary
+data should now be packed (as a JSON string) into the "data" field.
+
+Depends on https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/19
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-02 17:00:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/184" class=".btn">#184</a>
             </td>
             <td>
