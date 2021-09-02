@@ -15,29 +15,29 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.3-alpha.1 Weaver Go SDK - Aug 10 2021
+                    v1.2.3-alpha.2 Weaver Go SDK - Sep 2 2021
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    sdks/fabric/go-sdk/v1.2.3-alpha.1
+                    sdks/fabric/go-sdk/v1.2.3-alpha.2
                 </span>
             </td>
             <td>
                 - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/sdks/fabric/go-sdk`
-- Alpha Release: v1.2.3-alpha.1
+- Alpha Release: v1.2.3-alpha.2
 - Source: [Weaver Go-SDK](https://github.com/hyperledger-labs/weaver-dlt-interoperability/tree/main/sdks/fabric/go-sdk)
 - [Readme](https://github.com/VRamakrishna/weaver-dlt-interoperability/blob/main/sdks/fabric/go-sdk/readme.md)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/sdks/fabric/go-sdk/v1.2.3-alpha.1" class=".btn">
+    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/sdks/fabric/go-sdk/v1.2.3-alpha.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-08-10 17:25:07 +0000 UTC
+        Created At 2021-08-29 17:31:51 +0000 UTC
     </span>
 </div>
 
