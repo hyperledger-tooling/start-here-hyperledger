@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/598" class=".btn">#598</a>
+            </td>
+            <td>
+                <b>
+                    Chat Icon hides buttons
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When no footer, and screen width is fairly narrow and there is a long form, the chat window hides the form buttons.
+Simplest fix is to ALWAYS show the footer and that bumps up any buttons or interactions above the chat icon.
+
+
+Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/598"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-01 21:46:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/596" class=".btn">#596</a>
             </td>
             <td>
