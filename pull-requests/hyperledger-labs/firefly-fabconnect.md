@@ -36,32 +36,3 @@ permalink: /pull-requests/hyperledger-labs/firefly-fabconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/41" class=".btn">#41</a>
-            </td>
-            <td>
-                <b>
-                    Event data and filtering enhancements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fills in event details from the decoded block event object (fixes #32)
-- Adds support for event filtering based on block type, chaincode ID and event name regexpression (fixes #33)
-
-Note: remaining issue #40 to be addressed separately
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-26 11:21:55 +0000 UTC
-    </div>
-</div>
-
