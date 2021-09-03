@@ -50,7 +50,7 @@ permalink: /releases/hyperledger/besu
 - GetTransactionCount should return the latest transaction count if it is greater than the transaction pool [\#2633](https://github.com/hyperledger/besu/pull/2633) 
 
 ### Download Link
-[https://hyperledger.jfrog.io/native/besu-binaries/besu/21.7.3/besu-21.7.3.zip](https://hyperledger.jfrog.io/native/besu-binaries/besu/21.7.3/besu-21.7.3.zip)\
+[https://hyperledger.jfrog.io/ui/api/v1/download?repoKey=besu-binaries&path=besu%2F21.7.3%2Fbesu-21.7.3.zip](https://hyperledger.jfrog.io/ui/api/v1/download?repoKey=besu-binaries&path=besu%2F21.7.3%2Fbesu-21.7.3.zip)\
 SHA256: 676c8bbcf4a2e7d08198b0a106a2164e8d55d6f3e1d19783cfd70048be302fb3
 
             </td>
