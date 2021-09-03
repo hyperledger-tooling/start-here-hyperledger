@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/605" class=".btn">#605</a>
+            </td>
+            <td>
+                <b>
+                    Option to set auto respond credential proposal to manual
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-03 15:43:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/604" class=".btn">#604</a>
             </td>
             <td>

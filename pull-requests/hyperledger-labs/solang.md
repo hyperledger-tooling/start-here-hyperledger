@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/486" class=".btn">#486</a>
+            </td>
+            <td>
+                <b>
+                    Get the function selector via contract.function.selector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                contract does not have to be a base class, it can be an interface as
+well.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-03 16:40:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/485" class=".btn">#485</a>
             </td>
             <td>
@@ -63,32 +92,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2021-08-31 17:03:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/483" class=".btn">#483</a>
-            </td>
-            <td>
-                <b>
-                    Bump version on vscode extension (already released)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-27 18:04:53 +0000 UTC
     </div>
 </div>
 

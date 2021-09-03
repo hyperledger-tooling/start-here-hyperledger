@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/186" class=".btn">#186</a>
+            </td>
+            <td>
+                <b>
+                    bump ui to v0.2.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-03 13:26:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/185" class=".btn">#185</a>
             </td>
             <td>
@@ -316,32 +342,6 @@ as a separate target and using e.g. "make mocks -j8".
     </table>
     <div class="right-align">
         Created At 2021-08-27 20:11:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/172" class=".btn">#172</a>
-            </td>
-            <td>
-                <b>
-                    Remove unnecessary streamID param to ethconnect
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-27 12:59:36 +0000 UTC
     </div>
 </div>
 
