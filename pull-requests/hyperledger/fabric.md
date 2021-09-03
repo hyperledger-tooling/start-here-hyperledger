@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2891" class=".btn">#2891</a>
+            </td>
+            <td>
+                <b>
+                    Refactor ChaincodeEvents to use ledger iterator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This implementation supports the ability to replay events. It also avoids any possibility of ledger commit processing being blocked by slow client event consumers.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-03 09:47:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2889" class=".btn">#2889</a>
             </td>
             <td>
