@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/115" class=".btn">#115</a>
+            </td>
+            <td>
+                <b>
+                    Remove idemix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We remove the local implementation of idemix and use the one
+provided at https://github.com/IBM/idemix
+
+Signed-off-by: Alessandro Sorniotti <aso@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-03 16:04:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/114" class=".btn">#114</a>
             </td>
             <td>
@@ -59,58 +88,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </table>
     <div class="right-align">
         Created At 2021-09-01 14:20:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/111" class=".btn">#111</a>
-            </td>
-            <td>
-                <b>
-                    Noidemix3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                work in progress
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 11:23:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/110" class=".btn">#110</a>
-            </td>
-            <td>
-                <b>
-                    Noidemix2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Still work in progress
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 09:35:33 +0000 UTC
     </div>
 </div>
 
