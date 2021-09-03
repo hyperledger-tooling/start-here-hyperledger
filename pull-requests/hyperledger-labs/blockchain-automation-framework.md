@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1652" class=".btn">#1652</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Decoupling crypto/ibft role with crypto_ibft helm chart
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Added crypto_ibft helm chart for generating the crypto materials needed
+- Updated some tasks from different roles in order to make it work
+
+ 
+
+**Reviewed by**
+@sownak 
+
+
+ 
+
+**Linked issue**
+#1626 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-03 09:05:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1651" class=".btn">#1651</a>
             </td>
             <td>
@@ -483,88 +523,6 @@ This was requested by sownak [in this comment](https://github.com/hyperledger-la
     </table>
     <div class="right-align">
         Created At 2021-08-31 09:16:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1640" class=".btn">#1640</a>
-            </td>
-            <td>
-                <b>
-                    [fabric] Ansible decoupling for create/ca-server role
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
-
-**Changelog**
-- Add ca_server chart
-- Update create/k8s_secrets role and create/ca-server role
-
- 
-
-**Reviewed by**
-@suvajit-sarkar
-@alvaropicazo
-
- 
-
-**Linked issue**
-#1573 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-27 11:50:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1639" class=".btn">#1639</a>
-            </td>
-            <td>
-                <b>
-                    [corda] build docker images
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: pppazos <hgartti@gmail.com>
-
-**Changelog**
-- Update git workflow docker_build.yml to include build of corda images
-
- 
-
-**Reviewed by**
-@pppazos 
-
- 
-
-**Linked issue**
-#741 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-27 06:58:26 +0000 UTC
     </div>
 </div>
 
