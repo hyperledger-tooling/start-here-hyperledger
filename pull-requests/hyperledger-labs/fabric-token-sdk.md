@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/90" class=".btn">#90</a>
+            </td>
+            <td>
+                <b>
+                    Drivers Enhancements #89
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - [x] Extend the use of RawOwner to DLog
+- [x] Make Fabtoken public parameters extensible
+- [x] Only Owner Identities are wrapped 
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-04 05:44:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/88" class=".btn">#88</a>
             </td>
             <td>
