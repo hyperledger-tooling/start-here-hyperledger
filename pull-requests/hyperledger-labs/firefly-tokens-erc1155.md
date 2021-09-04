@@ -116,31 +116,3 @@ relevant info into "data".
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/16" class=".btn">#16</a>
-            </td>
-            <td>
-                <b>
-                    Add operator to every websocket event
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                All of the events from this contract include an `operator` indicating the address of the party that performed the operation. This just exposes that upward.
-
-Note: previously the field was remapped to `author` on the pool creation event, but the plan is to standardize on `operator` for this interface. Will remove `author` after firefly core is adjusted to look at the new field.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-27 18:41:24 +0000 UTC
-    </div>
-</div>
-
