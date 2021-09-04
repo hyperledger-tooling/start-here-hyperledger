@@ -319,29 +319,3 @@ as a separate target and using e.g. "make mocks -j8".
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/173" class=".btn">#173</a>
-            </td>
-            <td>
-                <b>
-                    Add unit tests for tokens HTTPS plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-27 20:11:21 +0000 UTC
-    </div>
-</div>
-
