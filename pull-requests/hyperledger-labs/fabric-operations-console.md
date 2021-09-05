@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/40" class=".btn">#40</a>
-            </td>
-            <td>
-                <b>
-                    add HL architecture diagram
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger-labs/fabric-operations-console/issues/29
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-28 23:39:35 +0000 UTC
-    </div>
-</div>
-
