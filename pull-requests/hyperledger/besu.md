@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2694" class=".btn">#2694</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2717" class=".btn">#2717</a>
             </td>
             <td>
                 <b>
-                    Add logs for block propagation manager
+                    allow unlocking onchain privacy groups
                 </b>
             </td>
         </tr>
@@ -27,18 +27,13 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+                ## PR description
 
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Add logs for block propagation manager
+Allow all calls to the onchain privacy precompiled contract while locked--not just the `addParticipant` call. This allows unlocking the contract once locked. Until now, the only way to unlock the contract was to add a participant.
 
 ## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+
+fixes #2693
 
 ## Changelog
 
@@ -47,7 +42,7 @@ Add logs for block propagation manager
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-30 11:47:52 +0000 UTC
+        Created At 2021-09-05 22:00:58 +0000 UTC
     </div>
 </div>
 
@@ -55,85 +50,11 @@ Add logs for block propagation manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2690" class=".btn">#2690</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2716" class=".btn">#2716</a>
             </td>
             <td>
                 <b>
-                    ignore all unknown fields for eth_call and eth_estimateGas
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Changed to ignore all unknown fields in JsonCallParameter. Different third-party libraries send through extra fields from time to time, for example
-ethers.js 5.4.2 sends eth_estimateGas with a `type` parameter which Besu was rejecting.
-
-```
-Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "type" (class org.hyperledger.besu.ethereum.api.jsonrpc.internal.parameters.JsonCallParameter), not marked as ignorable (11 known properties: "gasPrice", "value", "gasLimit", "gas", "from", "to", "maxFeePerGas", "strict", "maxPriorityFeePerGas", "payload", "data"])
-at [Source: (StringReader); line: 1, column: 42492] (through reference chain: org.hyperledger.besu.ethereum.api.jsonrpc.internal.parameters.JsonCallParameter["type"])
-```
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-29 23:07:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2686" class=".btn">#2686</a>
-            </td>
-            <td>
-                <b>
-                    typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Fix 2 typos.
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-28 04:19:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2685" class=".btn">#2685</a>
-            </td>
-            <td>
-                <b>
-                    Eth66 protocol request id changes should only apply to the Eth protocol
+                    spike: add benchmark
                 </b>
             </td>
         </tr>
@@ -146,12 +67,10 @@ Fix 2 typos.
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Besu using the instanbul/99 or instanbul/100 incorrectly encodes messages with a requestId from eth66.
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #2682
+Add a benchmark job based on dockerized caliper. 
+
+Do not merge, rather base a PR on top of this branch.
 
 ## Changelog
 
@@ -160,7 +79,7 @@ Fixes #2682
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-27 07:47:09 +0000 UTC
+        Created At 2021-09-05 19:31:16 +0000 UTC
     </div>
 </div>
 
@@ -168,11 +87,11 @@ Fixes #2682
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2684" class=".btn">#2684</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2713" class=".btn">#2713</a>
             </td>
             <td>
                 <b>
-                    address clique london HeaderValidator config
+                    Prepare for version 21.7.4-SNAPSHOT
                 </b>
             </td>
         </tr>
@@ -181,19 +100,67 @@ Fixes #2682
                 
             </td>
             <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-02 22:40:46 +0000 UTC
+    </div>
+</div>
 
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2712" class=".btn">#2712</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.7.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-02 22:04:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2708" class=".btn">#2708</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix/revert nonce distance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-
-address clique BlockHeaderValidator configuration issue for london fee market
+Temporary revert of #2505 to unblock release
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
-fixes #2680 
 
 ## Changelog
 
@@ -202,7 +169,7 @@ fixes #2680
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-27 06:57:44 +0000 UTC
+        Created At 2021-09-01 20:22:09 +0000 UTC
     </div>
 </div>
 
@@ -210,41 +177,11 @@ fixes #2680
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2683" class=".btn">#2683</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2704" class=".btn">#2704</a>
             </td>
             <td>
                 <b>
-                    Use native SECP256K1 and SECP256R1 for signature normalization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use native SECP256K1 for signature normalization
-
-Add support for SECP256K1 "normalize" path to use the native library.
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-27 02:22:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2677" class=".btn">#2677</a>
-            </td>
-            <td>
-                <b>
-                    Adding QBFT PKI-backed Block Creation
+                    Expose json rpc config to plugins through JsonRpcConfigurationService
                 </b>
             </td>
         </tr>
@@ -254,29 +191,13 @@ Add support for SECP256K1 "normalize" path to use the native library.
             </td>
             <td>
                 ## PR description
-- Changed `cms` field in `PkiExtraData` from `Optional<Bytes>` to `Bytes`
-- Updated PkiExtraData encoding/decoding. Now we are appending the CMS as the last element in the ExtraData list.
-- Created `QbftContext` containing the optional `PkiBlockCreationConfiguration`. Used to determine if the node is running in PKI mode and to have access to the KeyStores.
-- Created a new hashing strategy that excludes the CMS data from the hash calculation. This is used when calculating the signed hash inside the CMS message.
-- Updated `QbftRound` with a new `createBlockForProposalBehaviour`. The default implementation just creates the block. The "PKI" implementation created the block and adds the CMS into the extra data.
-- Updated `ProposalPayloadValidator` with logic to validate the CMS message in the proposal (when running in PKI-mode).
-- Included `pki-qbft` parameter for PKI ATs. This will run tests using PKI QBFT.
-
-## Pending Changes
-- [x] Stop leaking PKI information to `BftExtraDataCodec` (we are leaking it through the `EXCLUDE_CMS` enum value)
-- [ ] Remove duplication on `PkiQbftExtraDataCodec#encode(..)` method (we are duplicating code from `QbftExtraDataCodec#encode`)
-
-## Fixed Issue(s)
-fixes #2653 
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+Expose json rpc config to plugins through JsonRpcConfigurationService. 
+This is instead of exposing generic untyped arguments as explored in https://github.com/hyperledger/besu/pull/2661
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-26 01:04:16 +0000 UTC
+        Created At 2021-08-31 14:37:20 +0000 UTC
     </div>
 </div>
 
@@ -284,11 +205,11 @@ fixes #2653
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2676" class=".btn">#2676</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2698" class=".btn">#2698</a>
             </td>
             <td>
                 <b>
-                    implement EIP-3607
+                    [MINOR] Fixed typos
                 </b>
             </td>
         </tr>
@@ -297,55 +218,7 @@ fixes #2653
                 
             </td>
             <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-implement [EIP-3607: Reject transactions from senders with deployed code](https://eips.ethereum.org/EIPS/eip-3607)
-
-The [expectation in ACD](https://discord.com/channels/595666850260713488/745077610685661265/877128936813891634) is that this attack is not possible currently, so there should not be any need to gate this behavior on protocol schedule, since it should never have happened.
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2663 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-25 19:43:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2675" class=".btn">#2675</a>
-            </td>
-            <td>
-                <b>
-                    A plugin implementer may register the payload provider in start or register
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-When registering a PrivacyPluginService you need to call setPayloadProvider before blocks get mined. You have two opportunities to do this, once when besu calls register in your plugin and once when besu calls start in your plugin.
-
-Ideally, you would setPayloadProvider when register is called. That way Besu can confirm that you've set the various command line options correctly in BesuCommand. But the problem is when Besu calls register it hasn't yet parsed the command line args into. So if you've got some cli arguments set in your plugin they will not be populated yet.
-
+                Fixed some typos
 
 ## Changelog
 
@@ -354,7 +227,7 @@ Ideally, you would setPayloadProvider when register is called. That way Besu can
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-25 14:44:15 +0000 UTC
+        Created At 2021-08-31 03:05:57 +0000 UTC
     </div>
 </div>
 
@@ -362,11 +235,11 @@ Ideally, you would setPayloadProvider when register is called. That way Besu can
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2674" class=".btn">#2674</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2697" class=".btn">#2697</a>
             </td>
             <td>
                 <b>
-                    DRY onchain management proxies
+                    only decode eth messages expecting request id if capability is eth 66 compatible
                 </b>
             </td>
         </tr>
@@ -379,13 +252,12 @@ Ideally, you would setPayloadProvider when register is called. That way Besu can
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-
-Read-only access to the on-chain privacy group contract is centralized to happen in `OnchainPrivacyGroupContract` only. 
+The instanbul/99 protocol includes eth protocol messages but is not eth/66 compatible. This change is needed so that only an eth protocol with version >= 66 will attempt to decode messages expecting a request id.
 
 ## Fixed Issue(s)
-fixes #1303
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+Fixes #2682 
 
 ## Changelog
 
@@ -394,83 +266,7 @@ fixes #1303
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-25 09:16:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2673" class=".btn">#2673</a>
-            </td>
-            <td>
-                <b>
-                    Update memory to use MutableBytes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This modification improves performance because we no longer have to copy the memory to a new array every time we want to read it.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-25 08:35:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2670" class=".btn">#2670</a>
-            </td>
-            <td>
-                <b>
-                    Updated ATs DSL to create PKI QBFT node configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-- Exposing utility classes from `:pki` module
-- Simplified `PkiKeyStoreConfiguration` replacing password **supplier** with actual password file path
-- Added `createPkiQbftNode` method on BesuNodeFactory
-- Updated Thread and Process runner to consume PKI configuration when starting nodes
-- Created `PkiKeystoreConfigurationFactory` responsible for creating PKI config (including certificate temp files and issuing certs from the same CA).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-24 04:15:14 +0000 UTC
+        Created At 2021-08-31 02:52:20 +0000 UTC
     </div>
 </div>
 

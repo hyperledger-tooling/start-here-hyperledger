@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1276" class=".btn">#1276</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1304" class=".btn">#1304</a>
             </td>
             <td>
                 <b>
-                    fix(discounted-cartrade): modify README.md
+                    fix(cmd-api-server): cockpit off by default #1239
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/cactus
                 
             </td>
             <td>
-                This resolve Issue #1181
-
-Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
+                Resolve #1239 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-30 09:39:54 +0000 UTC
+        Created At 2021-09-06 12:46:48 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +40,11 @@ Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1275" class=".btn">#1275</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1303" class=".btn">#1303</a>
             </td>
             <td>
                 <b>
-                    feat(odap): odap first pr
+                    docs(readme.md): add Open in VSCode badge
                 </b>
             </td>
         </tr>
@@ -55,13 +53,14 @@ Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
                 
             </td>
             <td>
-                The first pull request for odap
+                Signed-off-by: shoeb <shoebsd31@gmail.com>
 
+Added a vs code badge as described in this issue :  #1116 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-27 04:30:24 +0000 UTC
+        Created At 2021-09-04 15:42:48 +0000 UTC
     </div>
 </div>
 
@@ -69,11 +68,11 @@ Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1274" class=".btn">#1274</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1302" class=".btn">#1302</a>
             </td>
             <td>
                 <b>
-                    feat(tools): substrate test ledger
+                    feat(fabric-connector) add transact receipt
                 </b>
             </td>
         </tr>
@@ -82,53 +81,15 @@ Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
                 
             </td>
             <td>
-                Substrate-based blockchains like Polkadot are becoming increasingly relevant. However, Cactus does not have tools to support developing Substrate-based connectors, such as a test ledger.
+                Signed-off-by: jsjs026 <jasonhack518@gmail.com>
 
-
-This draft PR provides a first attempt at defining a Substrate test ledger, that allows to programmatically instantiate the Substrate node template (https://github.com/substrate-developer-hub/substrate-node-template).
-Thus, it contains a Dockerfile with the test ledger and the test-ledger file that contains the execution logic.
-
-I would appreciate feedback on the tools/docker/substrate-all-in-one/Dockerfile and packages/cactus-test-tooling/src/main/typescript/substrate-test-ledger/substrate-test-ledger.ts files prior to merging.
-
-
-Notes:
-At the moment a bug occurs in the Dockerfile at RUN   rustup update nightly
-
-
-info: syncing channel updates for 'nightly-x86_64-unknown-linux-gnu'
-info: latest update on 2021-08-26, rust version 1.56.0-nightly (0afc20860 2021-08-25)
-info: downloading component 'rust-std' for 'wasm32-unknown-unknown'
-info: downloading component 'cargo'
-info: downloading component 'rust-std'
-info: downloading component 'rustc'
-info: removing previous version of component 'rust-std' for 'wasm32-unknown-unknown'
-info: rolling back changes
-error: could not rename component file from '/usr/local/rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/wasm32-unknown-unknown/lib' to '/usr/local/rustup/tmp/jxirtjwr7gf70a8r_dir/bk'
-error: caused by: other os error
-error: backtrace:
-error:    0: error_chain::backtrace::imp::InternalBacktrace::new
-   1: rustup::utils::utils::rename
-   2: rustup::dist::component::transaction::Transaction::remove_dir
-   3: rustup::dist::component::components::Component::uninstall
-   4: rustup::dist::manifestation::Manifestation::update
-   5: rustup::dist::dist::update_from_dist_
-   6: rustup::install::InstallMethod::install
-   7: rustup::toolchain::DistributableToolchain::install_from_dist
-   8: rustup::cli::rustup_mode::update
-   9: rustup::cli::rustup_mode::main
-  10: rustup_init::main
-  11: std::rt::lang_start_internal::{{closure}}::{{closure}}
-             at rustc/c7087fe00d2ba919df1d813c040a5d47e43b0fe7/src/libstd/rt.rs:52
-      std::sys_common::backtrace::__rust_begin_short_backtrace
-             at rustc/c7087fe00d2ba919df1d813c040a5d47e43b0fe7/src/libstd/sys_common/backtrace.rs:130
-  12: main
-  13: __libc_start_main
-  14: <unknown>
+@petermetz , @RafaelAPB 
+The implementation of fabric transact receipt
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-26 02:46:48 +0000 UTC
+        Created At 2021-09-04 05:11:03 +0000 UTC
     </div>
 </div>
 
@@ -136,68 +97,46 @@ error:    0: error_chain::backtrace::imp::InternalBacktrace::new
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1273" class=".btn">#1273</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1300" class=".btn">#1300</a>
             </td>
             <td>
                 <b>
-                    fix(config): remove no longer working scripts from package.json
+                    fix(test): flaky fabric AIO container boot #876
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span><span class="chip">Fabric</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
             </td>
             <td>
-                Closes: #1271
-Signed-off-by: Michael Courtin <michael.courtin@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-25 13:31:17 +0000 UTC
-    </div>
-</div>
+                Epic facepalm once again. Turns out the default restart try
+count of supervisord is too low which leads to race conditions.
+Increasing the retry count from 4 to 20 should do it, this way
+the fabric-network process (see supervisord.conf file) should
+be 5 times as "patient" waiting for the docker daemon to launch
+within the AIO container.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1270" class=".btn">#1270</a>
-            </td>
-            <td>
-                <b>
-                    build(dev-container): fix yarn not found error #1269
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Primary change:
-------------------
+What was happening before is that the fabric-network script
+tried launching itself in parallel with the docker daemon, but
+it would time out before the docker daemon could come online.
 
-The post-create-command.sh script will now run the
-install-yarn script prior to calling the configure script.
-This wil lensure that yarn is installed by the time the
-configure script is invoked.
+Published these images as
+ghcr.io/hyperledger/cactus-fabric2-all-in-one:2021-09-02--fix-876-supervisord-retries
+and
+ghcr.io/hyperledger/cactus-fabric-all-in-one:2021-09-02--fix-876-supervisord-retries
 
-Secondary change(s):
-------------------------
-
-Applied automatic formatting to the Dockerfile and the
-aforementioned post-create-commands script as well.
-
-Fixes #1269
+Fixes #718
+Fixes #876
+Fixes #320
+Fixes #319
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-23 17:20:10 +0000 UTC
+        Created At 2021-09-03 01:00:53 +0000 UTC
     </div>
 </div>
 
@@ -205,11 +144,11 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1268" class=".btn">#1268</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1298" class=".btn">#1298</a>
             </td>
             <td>
                 <b>
-                    refactor(cmd-server-socket,validator): [draft] refactor the directory structure of cmd-server-socket and validators
+                    fix: openapi-validation for consortium-manual plugin
                 </b>
             </td>
         </tr>
@@ -218,15 +157,16 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 
             </td>
             <td>
-                - resolving #1233 (work-in-progress)
-- status: Draft
+                add missing validation for consortium-manual plugin rest endpoints
 
-Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
+Closes: #1297
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-23 14:47:26 +0000 UTC
+        Created At 2021-09-01 16:16:49 +0000 UTC
     </div>
 </div>
 
@@ -234,11 +174,11 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1267" class=".btn">#1267</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1296" class=".btn">#1296</a>
             </td>
             <td>
                 <b>
-                    fix(indy-validator): fixing indy validator initialization
+                    fix: openapi-validation for fabric plugin
                 </b>
             </td>
         </tr>
@@ -247,17 +187,241 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
                 
             </td>
             <td>
-                Fixes issue #1266.
+                add missing validation for fabric plugin rest endpoints
 
-- Added initialization code before pool.open_pool_ledger API call.
-- Also added a key file necessary for the server.
+Closes: #1295
 
-Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-23 14:36:26 +0000 UTC
+        Created At 2021-09-01 15:26:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1294" class=".btn">#1294</a>
+            </td>
+            <td>
+                <b>
+                    fix: openapi-validation for corda plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add missing validation for corda plugin rest endpoints
+
+Closes: #1293
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-01 11:36:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1292" class=".btn">#1292</a>
+            </td>
+            <td>
+                <b>
+                    fix: openapi-validation for besu plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add missing validation for besu rest endpoints throught cmd-api-server
+
+Closes: #1291
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-01 06:56:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1290" class=".btn">#1290</a>
+            </td>
+            <td>
+                <b>
+                    chore(release): publish v0.9.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 21:32:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1289" class=".btn">#1289</a>
+            </td>
+            <td>
+                <b>
+                    fix: openapi-validation for xdai plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add missing validation for xdai plugin rest endpoints
+
+Closes: #1288
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 16:43:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1287" class=".btn">#1287</a>
+            </td>
+            <td>
+                <b>
+                    fix: openapi-validation for quorum plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add missing validation for quorum plugin rest endpoints
+
+Closes: #1286
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 16:18:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1285" class=".btn">#1285</a>
+            </td>
+            <td>
+                <b>
+                    feat(corda): support corda v4.8 #889
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span><span class="chip">Corda</span>
+            </td>
+            <td>
+                Resolve #889 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 12:24:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1284" class=".btn">#1284</a>
+            </td>
+            <td>
+                <b>
+                    docs(connector-iroha): add test case link to support matrix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span><span class="chip">dependent</span><span class="chip">Iroha</span>
+            </td>
+            <td>
+                Depends on #1290 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 01:28:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1282" class=".btn">#1282</a>
+            </td>
+            <td>
+                <b>
+                    docs(roadmap): update ROADMAP.md - 2021 August #1280
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span>
+            </td>
+            <td>
+                Fixes #1280
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-30 22:20:48 +0000 UTC
     </div>
 </div>
 

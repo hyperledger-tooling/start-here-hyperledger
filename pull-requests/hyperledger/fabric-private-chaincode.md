@@ -14,20 +14,22 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/622" class=".btn">#622</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/624" class=".btn">#624</a>
             </td>
             <td>
                 <b>
-                    Fixing Codecov reporting
+                    Add FPC go protos
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">bug</span><span class="chip">Test</span>
+                <span class="chip">bug</span><span class="chip">com/client-sdk</span>
             </td>
             <td>
-                <!--  Thanks for sending a pull request!  Here are some tips for you:
+                
+
+<!--  Thanks for sending a pull request!  Here are some tips for you:
 
 1. If this is your first time, please read our code of conduct and contributor guidelines: 
      https://github.com/hyperledger/fabric-private-chaincode/blob/main/CONTRIBUTING.md
@@ -43,14 +45,19 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
 
 **What this PR does / why we need it**:
 
-- Fixes broken reporting to codecov
-- Enables go test coverage
+This manually adds the FPC go protos under git control in order to
+provide a self contained FPC client SDK to be used as normal go
+dependency.
+
+
 
 **Which issue(s) this PR fixes**:
 <!--
   list existing bug, feature and/or work-item which this PR addresses.
   You might also consider creating an issue first for the PR.
 -->
+
+This PR addresses the second problem as reported in issue #623. 
 
 **Special notes for your reviewer**:
 
@@ -65,40 +72,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-26 12:26:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/621" class=".btn">#621</a>
-            </td>
-            <td>
-                <b>
-                    Separate the FPC go SDK from the Fabric Client SDK Go
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-
-**What this PR does / why we need it**:
-
-This commit introduces the following:
-- a core package containing a fabric-sdk independent lifecycle and contract client
-- a refactored resmgmt and gateway that instantiate the core package primitives using the fabric go-sdk
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-26 07:49:36 +0000 UTC
+        Created At 2021-09-02 14:32:37 +0000 UTC
     </div>
 </div>
 

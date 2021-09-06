@@ -1,24 +1,24 @@
 ---
 layout: default
-title: fabric-protos
+title: fabric-lib-go
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/fabric-protos
+permalink: /pull-requests/hyperledger/fabric-lib-go
 ---
 
-# fabric-protos <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/fabric-protos){: .btn .mr-4 }</span>
+# fabric-lib-go <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/fabric-lib-go){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    Add start_position to gateway.ChaincodeEventsRequest
+                    Resolve go vet errors
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                Enables replay of chaincode events.
+                Resolve go vet errors.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-03 09:00:16 +0000 UTC
+        Created At 2021-08-30 22:30:36 +0000 UTC
     </div>
 </div>
 
@@ -40,7 +42,7 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/61" class=".btn">#61</a>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
@@ -54,13 +56,14 @@ permalink: /pull-requests/hyperledger/fabric-protos
             </td>
             <td>
                 Update Go to 1.16.7.
+Also bump ubuntu to 20.04.
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-30 22:05:39 +0000 UTC
+        Created At 2021-08-30 22:02:33 +0000 UTC
     </div>
 </div>
 

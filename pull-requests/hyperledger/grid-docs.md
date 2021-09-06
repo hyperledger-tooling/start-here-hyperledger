@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/255" class=".btn">#255</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/256" class=".btn">#256</a>
             </td>
             <td>
                 <b>
-                    Add high-level PO documentation
+                    Update release pages to link to release branch
                 </b>
             </td>
         </tr>
@@ -27,14 +27,18 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                Add some high-level information for Purchase Order.
+                This change updates the links used in the `Releases` pages for Grid v0.1
+and v0.2 to update the GitHub link to point to the specific release
+branch. This change also adds a note to these release pages to specify
+that the released version exists on a branch, rather than just the core
+repository.
 
-I noticed some issues with the data models while doing this (especially with the alternate IDs). I put some initial changes in here, but I am also going to double check and propose some changes to them in the RFC.
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-12 19:06:57 +0000 UTC
+        Created At 2021-09-03 17:19:27 +0000 UTC
     </div>
 </div>
 

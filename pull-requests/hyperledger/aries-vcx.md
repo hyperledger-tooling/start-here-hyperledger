@@ -14,11 +14,40 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/340" class=".btn">#340</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/345" class=".btn">#345</a>
             </td>
             <td>
                 <b>
-                    Support invitation messages with public DID
+                    Replace libindy by vdr-tools
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Refers to my fork of vdr-tools with updated `libc`, otherwise `aries-vcx` doesn't compile (created PR https://gitlab.com/evernym/verity/vdr-tools/-/merge_requests/38 )
+- Replace pgsql plugin test by mysql wallet test
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-06 09:53:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/344" class=".btn">#344</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Out of Band protocol
                 </b>
             </td>
         </tr>
@@ -27,32 +56,66 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                Moved from [here](https://github.com/hyperledger/aries-vcx/pull/7).
-
-Adds libvcx API:
-
-### Pubic agents
-- `vcx_public_agent_create` - create new public agent 
-- `vcx_public_agent_generate_public_invite` - generate public DID based invitation with custom label
-- `vcx_public_agent_serialize` - serialize public agent info
-- `vcx_public_agent_deserialize` - deserialize public agent info into an Public Agent object
-- `vcx_public_agent_release`- release Public Agent object from libvcx memory state
-
-### Connections
-- `vcx_connection_create_with_connection_request` - create new Connection from Aries "Connection Request" message
-
-# Workflow
-The idea is
-- Create "public agent" in Agency, write its info on ledger under your public DID
-- Generate Connection Invitation containing your DID
-- Publish Connection Invitation somewhere publicly (for example as QR code). Anyone can see, use it, scan it.
-- Check your Public Agent for newly received Aries messages of "Connection Request" type
-- For each new "Connection Request", create new Connection object and progress the aries connection protocol as usual
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-23 12:47:38 +0000 UTC
+        Created At 2021-09-03 14:51:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/343" class=".btn">#343</a>
+            </td>
+            <td>
+                <b>
+                    Remove unused service module, split service into enum
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                Removes unused `service` module, replaces used `Service` struct with an enum allowing for easy interchangeability between a did and a service (becomes slightly useful in Out-of-Band implementation).
+
+Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-03 10:04:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/342" class=".btn">#342</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.20.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-01 14:44:40 +0000 UTC
     </div>
 </div>
 

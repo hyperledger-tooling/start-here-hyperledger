@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/169" class=".btn">#169</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/174" class=".btn">#174</a>
             </td>
             <td>
                 <b>
-                    chore: Store JSON strings as string instead of binary in MongoDB
+                    updated indy-vdr wrapper version
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                A JSON string (e.g. ["text"]) is persisted as a string value instead of a binary value.
-
-Also, collapse the data wrappers into one wrapper that can store binary, JSON documents, and strings.
-
-Signed-off-by: Bob Stasyszyn <Bob.Stasyszyn@securekey.com>
+                Signed-off-by: Ardian Abazi <ardianabazi09@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-26 15:17:51 +0000 UTC
+        Created At 2021-09-04 11:51:47 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +40,11 @@ Signed-off-by: Bob Stasyszyn <Bob.Stasyszyn@securekey.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/168" class=".btn">#168</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/173" class=".btn">#173</a>
             </td>
             <td>
                 <b>
-                    feat: GetStoreConfig can now be used to check for underlying database
+                    fix: Retry on transient Put and Batch errors for MongoDB
                 </b>
             </td>
         </tr>
@@ -57,14 +53,68 @@ Signed-off-by: Bob Stasyszyn <Bob.Stasyszyn@securekey.com>
                 
             </td>
             <td>
-                Update the MongoDB implementation of GetStoreConfig to check for the underlying database's existence instead of looking at the in-memory store objects, per the storage interface documentation.
+                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-03 21:38:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/172" class=".btn">#172</a>
+            </td>
+            <td>
+                <b>
+                    feat: Increase max data size for MySQL storage provider
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Increased from BLOB to MEDIUMBLOB.
 
 Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-23 21:50:17 +0000 UTC
+        Created At 2021-09-02 21:18:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/171" class=".btn">#171</a>
+            </td>
+            <td>
+                <b>
+                    fix: Detect transient error when setting indexes using DocumentDB
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added a check for another type of transient error that happens during index update conflicts when using DocumentDB.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-02 18:05:48 +0000 UTC
     </div>
 </div>
 

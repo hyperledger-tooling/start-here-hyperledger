@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/56" class=".btn">#56</a>
             </td>
             <td>
                 <b>
-                    release 21.7.2
+                    updating formula to new release
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                Update homebrew to 21.7.2
-
-
+                Update homebrew to 21.7.3
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-04 06:38:27 +0000 UTC
+        Created At 2021-09-02 23:23:15 +0000 UTC
     </div>
 </div>
 

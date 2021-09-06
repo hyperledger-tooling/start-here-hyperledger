@@ -14,27 +14,31 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/548" class=".btn">#548</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/550" class=".btn">#550</a>
             </td>
             <td>
                 <b>
-                    [pt_BR] Tradução do arquivo smartcontract.md
+                    [ja_JP] Update "chaincode4ade.rst"
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">jaJP-docs-ongoing</span>
             </td>
             <td>
-                Signed-off-by: luanamalb <luana.m.alb@gmail.com>
+                This patch updates "Tutorials >> Writing Your First Chaincode" to the latest one.
 
-Closes #452 
+Commit of the fabric repository: 9a6b35104e88dc2df08db7c7b0ba3d0f61127a85
+
+Resolves #532
+
+Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-23 21:39:55 +0000 UTC
+        Created At 2021-08-30 23:53:58 +0000 UTC
     </div>
 </div>
 
