@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/83" class=".btn">#83</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/86" class=".btn">#86</a>
             </td>
             <td>
                 <b>
-                    Add release notes for 0.6.6
+                    Fix sqlite receipt store test
                 </b>
             </td>
         </tr>
@@ -27,12 +27,17 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+                Update one of the sqlite receipt store tests to work with updated
+`list_receipts_since` method that now returns an iterator of
+Result<TransactionReceipt, ReceiptStoreError> rather than just
+TransactionReceipt
+
+Signed-off-by: Isabel Tomb <tomb@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-26 15:14:53 +0000 UTC
+        Created At 2021-09-03 17:03:04 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +45,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/82" class=".btn">#82</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/85" class=".btn">#85</a>
             </td>
             <td>
                 <b>
-                    SQLite/PostgreSQL receipt store stabilization changes
+                    Add db dependencies to crates publish Dockerfile
                 </b>
             </td>
         </tr>
@@ -53,12 +58,12 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                Fix an error message in the `from_sql` method for `StateChangeTypeModel`. The method was copy pasted and the error message was not properly updated.
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-24 17:07:57 +0000 UTC
+        Created At 2021-08-31 21:35:55 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +71,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/81" class=".btn">#81</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/84" class=".btn">#84</a>
             </td>
             <td>
                 <b>
-                    Modify receipt store `list_receipts_since`
+                    Add Isabel Tomb as a maintainer
                 </b>
             </td>
         </tr>
@@ -79,14 +84,12 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                Modify the receipt store `list_receipts_since` method to return an iterator with type `Result<TransactionReceipt, ReceiptStoreError>` rather than just `TransactionReceipt` to cover the cases where an implementation may fail on later records in the iteration.
-
-This PR updates the method signature in the trait as well as the LMDB, SQLite and PostgreSQL implementations.
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-24 16:44:17 +0000 UTC
+        Created At 2021-08-31 20:55:31 +0000 UTC
     </div>
 </div>
 

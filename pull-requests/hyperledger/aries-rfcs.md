@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/695" class=".btn">#695</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/697" class=".btn">#697</a>
             </td>
             <td>
                 <b>
-                    adding link to a rust implementation of an aries compliant agent 
+                    New RFC - Forget Me
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Signed-off-by: matthew raffel <matt.raffel@gmail.com>
+                Signed-off-by: Sam Curren <telegramsam@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-02 14:48:41 +0000 UTC
+        Created At 2021-09-02 23:34:16 +0000 UTC
     </div>
 </div>
 

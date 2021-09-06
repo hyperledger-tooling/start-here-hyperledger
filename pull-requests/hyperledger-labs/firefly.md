@@ -292,30 +292,3 @@ retries for a name conflict).
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/174" class=".btn">#174</a>
-            </td>
-            <td>
-                <b>
-                    Support multi-threaded "make mocks"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Generating mocks can be sped up significantly by splitting each file out
-as a separate target and using e.g. "make mocks -j8".
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 17:22:48 +0000 UTC
-    </div>
-</div>
-

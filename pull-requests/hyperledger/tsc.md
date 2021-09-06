@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/tsc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/tsc/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger/tsc/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
-                    Add project incubation entry considerations
+                    Add common repository structure requirement
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/tsc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-05 15:49:25 +0000 UTC
+        Created At 2021-09-02 14:35:10 +0000 UTC
     </div>
 </div>
 

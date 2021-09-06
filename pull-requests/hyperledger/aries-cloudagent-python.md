@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1379" class=".btn">#1379</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1395" class=".btn">#1395</a>
             </td>
             <td>
                 <b>
-                    Write schema cred def non secrets
+                    Connectionless proof demo
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-27 20:04:58 +0000 UTC
+        Created At 2021-09-03 22:47:36 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1378" class=".btn">#1378</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1394" class=".btn">#1394</a>
             </td>
             <td>
                 <b>
-                    Allow underscore in endpoints
+                    Implement get_credentials, credential_revoked for credx backend
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                This PR solves issue #1362.
+                Add test coverage for indy-credx issuance happy path
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-25 13:45:21 +0000 UTC
+        Created At 2021-09-03 21:03:18 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +66,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1377" class=".btn">#1377</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1393" class=".btn">#1393</a>
             </td>
             <td>
                 <b>
-                    fix: send proposal schema
+                    Import cleanups
                 </b>
             </td>
         </tr>
@@ -79,12 +79,12 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                send-proposal doesn't have `connection_id` in the schema, which is inconvenient for generated clients
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-25 11:27:47 +0000 UTC
+        Created At 2021-09-03 18:47:55 +0000 UTC
     </div>
 </div>
 
@@ -92,11 +92,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1376" class=".btn">#1376</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1392" class=".btn">#1392</a>
             </td>
             <td>
                 <b>
-                    feat: add inject_or
+                    fix: return type of inject
                 </b>
             </td>
         </tr>
@@ -105,20 +105,12 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                This PR removes the `required` parameter from `Injector.inject` and introduces `inject_or` that mimics the behavior of `inject(..., required=False)`. The reasoning for this change is that type checkers take issue with using the result of `inject(..., required=True)` when the signature says that it could still be `None`. For example:
-
-```python
-storage = context.inject(BaseStorage)
-records = await storage.find_all_records(...)
-```
-Yields the error `"find_all_records" is not a known member of "None"` when using pyright, even though we know that the call will have resulted in an error if it was actually `None`.
-
-This PR is mostly a proposal and does not yet fix the 109 or so instances of `inject(..., required=False)` that should be switched to `inject_or`. Open to suggestions or alternatives.
+                Corrected the return type of these instances of `inject`. Apologies for missing these on the first pass.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-24 21:16:22 +0000 UTC
+        Created At 2021-09-03 15:52:05 +0000 UTC
     </div>
 </div>
 
@@ -126,11 +118,11 @@ This PR is mostly a proposal and does not yet fix the 109 or so instances of `in
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1375" class=".btn">#1375</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1390" class=".btn">#1390</a>
             </td>
             <td>
                 <b>
-                    fix: refine typing on base record
+                    Add no-op handler for generic ack message (RFC 0015)
                 </b>
             </td>
         </tr>
@@ -139,14 +131,12 @@ This PR is mostly a proposal and does not yet fix the 109 or so instances of `in
                 
             </td>
             <td>
-                This allows type checkers such as pyright to detect that `ConnRecord.retrieve_by_id` returns a `ConnRecord` rather than a `BaseRecord`
-
-These changes are purely cosmetic/developer quality of life improvements.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-24 20:35:34 +0000 UTC
+        Created At 2021-09-03 00:55:23 +0000 UTC
     </div>
 </div>
 
@@ -154,11 +144,11 @@ These changes are purely cosmetic/developer quality of life improvements.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1374" class=".btn">#1374</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1389" class=".btn">#1389</a>
             </td>
             <td>
                 <b>
-                    Change log for 0.7.1 and update version
+                    fix: typo in connection static result schema
                 </b>
             </td>
         </tr>
@@ -167,13 +157,12 @@ These changes are purely cosmetic/developer quality of life improvements.
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-24 20:29:07 +0000 UTC
+        Created At 2021-09-02 20:22:21 +0000 UTC
     </div>
 </div>
 
@@ -181,11 +170,11 @@ These changes are purely cosmetic/developer quality of life improvements.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1373" class=".btn">#1373</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1387" class=".btn">#1387</a>
             </td>
             <td>
                 <b>
-                    Timezone inclusion [ISO 8601] for W3C VC and Proofs
+                    fix: don't require push on outbound queue implementations
                 </b>
             </td>
         </tr>
@@ -194,13 +183,12 @@ These changes are purely cosmetic/developer quality of life improvements.
                 
             </td>
             <td>
-                - resolve #1370
-- default timezone: UTC
+                Requiring this method in concrete outbound classes should not be required -- this exact method signature is relevant only to redis. This probably should have been dropped with the outbound queue refactor but was missed.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-24 15:47:52 +0000 UTC
+        Created At 2021-09-02 18:21:00 +0000 UTC
     </div>
 </div>
 
@@ -208,11 +196,11 @@ These changes are purely cosmetic/developer quality of life improvements.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1371" class=".btn">#1371</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1383" class=".btn">#1383</a>
             </td>
             <td>
                 <b>
-                    Updates to eliminate warnings on RTD doc generation
+                    Remove connection check on proof verify
                 </b>
             </td>
         </tr>
@@ -221,15 +209,87 @@ These changes are purely cosmetic/developer quality of life improvements.
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
 
-I added a mock for `aries_cloudagent.vc`, which eliminated all of the errors. Of course I suspect that it also removes the doc generation for that module, but am not certain.  But I feel better that all the warnings are gone...
+Not required in general (if we are verifying a proof it means we have already received the proof) and causes an error on connectionless proof requests.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-23 16:59:30 +0000 UTC
+        Created At 2021-09-01 16:23:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1382" class=".btn">#1382</a>
+            </td>
+            <td>
+                <b>
+                    Align OutOfBandManager.receive_invitation with other connection managers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Refactoring step before proposing changes in mediation connection
+setup.
+
+* Align `OutOfBandManager.receive_invitation` signature with the
+  `ConnectionManager.receive_invitation` and
+  `DIDXManager.receive_invitation`
+    * rename first parameter to `invitation`
+    * change return type to `ConnRecord` and leave serialization work
+      for users of the manager
+
+* Serialize the received `ConnRecord` in
+  `protocols.out_of_band.v1_0.routes`
+
+* Adapt related tests. `assert
+  ConnRecord.deserialize(conn_rec)` is dubious as a test assertion but boiled down to `assert conn_rec
+  is not None`.
+
+* Use this refactoring to reduce branching in mediator connection
+  handling in `conductor.py`.
+
+Signed-off-by: Clément Humbert <clement.humbert@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-01 15:11:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1380" class=".btn">#1380</a>
+            </td>
+            <td>
+                <b>
+                    Pre release 0.7.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 23:14:22 +0000 UTC
     </div>
 </div>
 

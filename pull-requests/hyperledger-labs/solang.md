@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    Solana contract dispatch may select wrong constructor
+                    Ensure output from compiler is deterministic
                 </b>
             </td>
         </tr>

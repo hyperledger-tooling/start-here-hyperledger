@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/198" class=".btn">#198</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/199" class=".btn">#199</a>
             </td>
             <td>
                 <b>
-                    Run an indy node pool on server guide
+                    Improve Dispatch Error message
                 </b>
             </td>
         </tr>
@@ -27,12 +27,22 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
                 
             </td>
             <td>
-                <nil>
+                #### Short description of what this resolves:
+Improves error message to include the endpointUri
+
+#### Changes proposed in this pull request:
+
+Change to line 47 only:
+From:
+ErrorCode.A2AMessageTransmissionError, $"Failed to send A2A message with an HTTP status code of {response.StatusCode} and content {responseBody}");
+To:
+`ErrorCode.A2AMessageTransmissionError, $"Dispatch Failure. Endpoint:{endpointUri} Status: {response.StatusCode} Content: {responseBody}");`
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-23 07:00:43 +0000 UTC
+        Created At 2021-09-02 13:43:40 +0000 UTC
     </div>
 </div>
 

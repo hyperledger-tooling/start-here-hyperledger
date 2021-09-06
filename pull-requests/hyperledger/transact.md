@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/177" class=".btn">#177</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/180" class=".btn">#180</a>
             </td>
             <td>
                 <b>
-                    SqlMerkleState Remove Index tables
+                    Update MerkleRadixLeafReader rustdoc
                 </b>
             </td>
         </tr>
@@ -27,46 +27,13 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                This change removes the index tables and replaces the last use of them in list_leaves with a recursive query.  This has considerable performance improvement in Postgres, and minimal impact for Sqlite.
+                This change updates the rustdoc for the `MerkleRadixLeafReader` trait and its associated error.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-20 15:25:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/176" class=".btn">#176</a>
-            </td>
-            <td>
-                <b>
-                    Add feature deps for family-command-workload
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes the feature `"family-command-workload"` such that compiling like:
-
-```
-$ cargo check --manifest-path libtransact/Cargo.toml --features family-command-workload
-```
-
-will successfully compile.
-
-It also makes the indenting consistent in the Cargo.toml
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-19 14:00:58 +0000 UTC
+        Created At 2021-08-30 21:27:43 +0000 UTC
     </div>
 </div>
 

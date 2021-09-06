@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/475" class=".btn">#475</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/486" class=".btn">#486</a>
             </td>
             <td>
                 <b>
-                    Catch inconsistency if chaincode name does not match
+                    updated chaincodes for asset-transfer-basic in order to show good example on how achieving determinism over json
                 </b>
             </td>
         </tr>
@@ -27,29 +27,101 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                ## Problem
-
-I'm testing asset-transfer-basic/chaincode-java.
-
-If I accidently changed rootProject.name in settings.gradle to something else, but still use 
-
-```
- ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-java -ccl java 
-```
-
-for deploying the chaincode, the tool compiles the source code into  ../asset-transfer-basic/chaincode-java/build/install/newName, but deploys the outdated ../asset-transfer-basic/chaincode-java/build/install/basic to the chain.
-
-
-This behavior is very likely to cause confusions for beginners when they made changes to the source code but didn't see effects on the chain because network.sh is deploying the old copy named basic while the user is changing a project named newName.
-
-## Solution
-
-In this PR, for a Java project, network.sh is revised to remove the install folder to clean up the residues. If the root project name does not match with `-ccn`, users will see an error so that they know there is something wrong.
+                Show good praticse in order to make sure that data will be stored in the blockchain in a deterministic way using json
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-24 08:58:19 +0000 UTC
+        Created At 2021-09-06 10:05:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/483" class=".btn">#483</a>
+            </td>
+            <td>
+                <b>
+                    Move to use the 1.4.5 rather than snapshot versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-02 10:00:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/482" class=".btn">#482</a>
+            </td>
+            <td>
+                <b>
+                    Update Compose Spec & VM Spec Version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Based on PR #449 by Brett Logan <lindluni@github.com>
+
+Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-02 08:31:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/481" class=".btn">#481</a>
+            </td>
+            <td>
+                <b>
+                    Updated dependencies for Json and fabric-chaincode-shim:2.+ in java samples
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Json libraries were pulled into the project in fabric-chaincode-shim:2.+  BUT - they were declared in the project scope as compileOnly and/or testImplementation.
+Fabric-chaincode-shim used to (2.2.3) declare the json dependency with scope compile. In 2.3.1 and 2.4.0-beta the transitive dependencies are declared as runtime, which means they won’t be available to the compiler.
+Changed all java dependecies from 
+"compileOnly 'org.hyperledger.fabric-chaincode-java:fabric-chaincode-shim:2.+'"
+to
+"implementation 'org.hyperledger.fabric-chaincode-java:fabric-chaincode-shim:2.+'
+implementation 'org.json:json:+'"
+Additionally declaration for transient dependency 'org.hyperledger.fabric.protos.common' was added
+P.S. dependencies were already changed from compile only to implementatio in PR [#465](https://github.com/hyperledger/fabric-samples/pull/465) for other reason related to using fabric with microfab
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 16:15:38 +0000 UTC
     </div>
 </div>
 

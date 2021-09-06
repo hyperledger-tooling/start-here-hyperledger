@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/110" class=".btn">#110</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/134" class=".btn">#134</a>
             </td>
             <td>
                 <b>
-                    Updated scheme and fixed U128 codec
+                    Updated schema and generated model
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-26 09:36:32 +0000 UTC
+        Created At 2021-09-05 14:12:29 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/109" class=".btn">#109</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/133" class=".btn">#133</a>
             </td>
             <td>
                 <b>
-                    Fixed incorrect serialisation of Value.U32 into json
+                    Updated testcontainers run and altered mint instruction creating
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                Signed-off-by: rkharisov <rinat@soramitsu.co.jp>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-24 13:12:12 +0000 UTC
+        Created At 2021-09-02 11:30:18 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +66,63 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/108" class=".btn">#108</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/132" class=".btn">#132</a>
             </td>
             <td>
                 <b>
-                    Specified jvmTarget version as 11
+                    Merge commit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-01 12:44:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/131" class=".btn">#131</a>
+            </td>
+            <td>
+                <b>
+                    Iroha2 java
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-01 12:23:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/129" class=".btn">#129</a>
+            </td>
+            <td>
+                <b>
+                    Enabled Github actions
                 </b>
             </td>
         </tr>
@@ -84,7 +136,33 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-23 19:29:21 +0000 UTC
+        Created At 2021-09-01 12:20:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/111" class=".btn">#111</a>
+            </td>
+            <td>
+                <b>
+                    Improvement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-31 14:27:03 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/70" class=".btn">#70</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/72" class=".btn">#72</a>
             </td>
             <td>
                 <b>
-                    Bump path-parse from 1.0.6 to 1.0.7
+                    Bump tar from 4.4.13 to 4.4.19
                 </b>
             </td>
         </tr>
@@ -27,17 +27,27 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [path-parse](https://github.com/jbgutierrez/path-parse) from 1.0.6 to 1.0.7.
+                Bumps [tar](https://github.com/npm/node-tar) from 4.4.13 to 4.4.19.
 <details>
 <summary>Commits</summary>
 <ul>
-<li>See full diff in <a href="https://github.com/jbgutierrez/path-parse/commits/v1.0.7">compare view</a></li>
+<li><a href="https://github.com/npm/node-tar/commit/9a6faa017ca90538840f3ae2ccdb4550ac3f4dcf"><code>9a6faa0</code></a> 4.4.19</li>
+<li><a href="https://github.com/npm/node-tar/commit/70ef812593184cc54ea1bc74c5dae2d22995002d"><code>70ef812</code></a> drop dirCache for symlink on all platforms</li>
+<li><a href="https://github.com/npm/node-tar/commit/3e35515c09da615ac268254bed85fe43ee71e2f0"><code>3e35515</code></a> 4.4.18</li>
+<li><a href="https://github.com/npm/node-tar/commit/52b09e309bcae0c741a7eb79a17ef36e7828b946"><code>52b09e3</code></a> fix: prevent path escape using drive-relative paths</li>
+<li><a href="https://github.com/npm/node-tar/commit/bb93ba243746f705092905da1955ac3b0509ba1e"><code>bb93ba2</code></a> fix: reserve paths properly for unicode, windows</li>
+<li><a href="https://github.com/npm/node-tar/commit/2f1bca027286c23e110b8dfc7efc10756fa3db5a"><code>2f1bca0</code></a> fix: prune dirCache properly for unicode, windows</li>
+<li><a href="https://github.com/npm/node-tar/commit/9bf70a8cf725c3af5fe2270f1e5d2e06d1559b93"><code>9bf70a8</code></a> 4.4.17</li>
+<li><a href="https://github.com/npm/node-tar/commit/6aafff0a8621ba9509b63654bde28762be373d58"><code>6aafff0</code></a> fix: skip extract if linkpath is stripped entirely</li>
+<li><a href="https://github.com/npm/node-tar/commit/5c5059a69c2aaaedfe4e9766e102ae9fb79e8255"><code>5c5059a</code></a> fix: reserve paths case-insensitively</li>
+<li><a href="https://github.com/npm/node-tar/commit/fd6accba697070560f301604b8f5f7e2995a2a8b"><code>fd6accb</code></a> 4.4.16</li>
+<li>Additional commits viewable in <a href="https://github.com/npm/node-tar/compare/v4.4.13...v4.4.19">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=path-parse&package-manager=npm_and_yarn&previous-version=1.0.6&new-version=1.0.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tar&package-manager=npm_and_yarn&previous-version=4.4.13&new-version=4.4.19)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -73,7 +83,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-10 22:54:20 +0000 UTC
+        Created At 2021-09-01 02:43:00 +0000 UTC
     </div>
 </div>
 

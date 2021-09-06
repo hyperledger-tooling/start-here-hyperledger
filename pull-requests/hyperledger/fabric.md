@@ -14,6 +14,125 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2897" class=".btn">#2897</a>
+            </td>
+            <td>
+                <b>
+                    install-fabric.sh script - updated version of bootstrap.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Background:  I've always found the existing bootstrap.sh script to confusing... do the versions come first or last.  Having to think what components I want to NOT have.
+
+I wanted to offer up this alternative way of working for discussion.
+
+Uses positional arguments and opt-in logic to control the components to install
+Uses options to define the optional fabric and ca versions
+
+Order of arguments and options is not important
+
+eg
+```
+install-fabric.sh docker binary samples         # install docker images, binaries and clones samples dir
+install-fabric.sh d b s                         # install all components but with short-hand
+install-fabric.sh -f 2.4.0-beta b               # 2.4.0-beta for binaries only
+install-fabric.sh docker -c 1.5.1 -f 2.4.0-beta # docker images but for 1.5.1 CA and 2.4.0-beta
+```
+it is an error to NOT specify a component
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+- New feature
+- Improvement (improvement to code, performance, etc)
+- Test update
+- Documentation update
+
+#### Description
+
+<!--- Describe your changes in detail, including motivation. -->
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-06 15:42:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2896" class=".btn">#2896</a>
+            </td>
+            <td>
+                <b>
+                    Implement chaincode event replay for Fabric Gateway
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-06 14:01:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2894" class=".btn">#2894</a>
             </td>
             <td>
@@ -442,197 +561,6 @@ Signed-off-by: Matthew Sykes <sykesmat@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-08-30 20:15:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2878" class=".btn">#2878</a>
-            </td>
-            <td>
-                <b>
-                    Clean up Go modules (main)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Run "go mod tidy" and "go mod vendor" on main.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 17:24:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2877" class=".btn">#2877</a>
-            </td>
-            <td>
-                <b>
-                    Update Go to v1.16.7 and alpine to 3.14 (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Go module support is assumed starting in Go v1.16.
-
-Therefore, for chaincodes without go modules (such as in the integration tests),
-need to explicitly set GO111MODULE to off otherwise chaincode will not compile.
-See Go v1.16 release notes for more details: https://golang.org/doc/go1.16#go-command
-
-As part of troubleshooting the Go upgrade, also added debug for the chaincode
-compile command.
-
-Also update alpine to 3.14.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 17:07:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2876" class=".btn">#2876</a>
-            </td>
-            <td>
-                <b>
-                    Clean up Go modules (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Run "go mod tidy" to clean up module dependencies in release-2.2.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 16:58:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2875" class=".btn">#2875</a>
-            </td>
-            <td>
-                <b>
-                    Clean up Go modules (release-2.3)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Run "go mod tidy" to clean up module dependencies in release-2.3
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 16:51:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2874" class=".btn">#2874</a>
-            </td>
-            <td>
-                <b>
-                    Update Go to v1.16.7 and alpine to 3.14 (release-2.3)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update Go to v1.16.7.
-Go module support is assumed starting in Go v1.16.
-Therefore, for chaincodes without go modules (such as in the integration tests),
-need to explicitly set GO111MODULE to off otherwise chaincode will not compile.
-See Go v1.16 release notes for more details: https://golang.org/doc/go1.16#go-command
-
-As part of troubleshooting the Go upgrade, also added debug for the chaincode
-compile command.
-
-Also update alpine to 3.14.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 16:43:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2873" class=".btn">#2873</a>
-            </td>
-            <td>
-                <b>
-                    Change name of test network docker network in 2.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">docs</span>
-            </td>
-            <td>
-                Signed-off-by: Nikhil Gupta <ngupta@triplepointliquidity.com>
-
-A PR in the Fabric samples recently changed the name of the Fabric test network docker network from `net_test` to `fabric_test`. This PR updates the documentation to match.
-
-#### Type of change
-
-- Documentation update
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 16:24:15 +0000 UTC
     </div>
 </div>
 
