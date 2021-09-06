@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/92" class=".btn">#92</a>
+            </td>
+            <td>
+                <b>
+                    upgrade FSC dep
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fsc:ccdbd321d5c1ad6dd84e196f02a741aa8fe892ac
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-06 06:56:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/91" class=".btn">#91</a>
+            </td>
+            <td>
+                <b>
+                    token processors will not panic anymore when a token
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span>
+            </td>
+            <td>
+                transaction contains issue metadata
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-06 06:22:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/90" class=".btn">#90</a>
             </td>
             <td>
