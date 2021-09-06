@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1653" class=".btn">#1653</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] update certificate paths in documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Khaneja <kaveri.khaneja@accenture.com>
+
+**Changelog**
+- Updated certificates and their paths in documentation.
+
+ 
+
+**Reviewed by**
+@sownak @jagpreetsinghsasan @suvajit-sarkar 
+
+ 
+
+**Linked issue**
+#1637 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-06 09:36:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1652" class=".btn">#1652</a>
             </td>
             <td>
