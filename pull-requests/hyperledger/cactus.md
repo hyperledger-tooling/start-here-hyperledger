@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1309" class=".btn">#1309</a>
+            </td>
+            <td>
+                <b>
+                    feature(improve-indy-testnet-docker): auto-start server on container startup #1308
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Modified Dockerfile so that validator program is automatically run from supervisord.
+
+Also:
+- fixed a problem found during this implementation: sandbox directory for indy_pool was not included in current version. Now startup script automatically initializes itself when it cannot find necessary files.
+- lessened dependency to indy-sdk (some files are copied from indy-sdk to indy-testnet directory) by copying some files from indy-sdk to this directory. 
+- Note: as of now, a container for testing server containers still depends on indy-sdk source tree. This needs to be fixed in future PR.
+
+This PR corresponds to Issue #1308 
+
+Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-07 10:52:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1307" class=".btn">#1307</a>
             </td>
             <td>

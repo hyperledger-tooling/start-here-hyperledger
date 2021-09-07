@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/iroha-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/80" class=".btn">#80</a>
-            </td>
-            <td>
-                <b>
-                    Add custom python list and dictionary to iroha-python
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: i1i1 <vanyarybin1@live.ru>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 11:02:18 +0000 UTC
-    </div>
-</div>
-
