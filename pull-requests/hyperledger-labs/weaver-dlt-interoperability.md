@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/154" class=".btn">#154</a>
+            </td>
+            <td>
+                <b>
+                    Fabric Interoperation Chaincode Refactoring and Augmentation for Access Controls, and Logging Improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Separated Go mock testing functions into a separate `testutils` library (Go package).
+- Added access control logic to Fabric Interop CC asset management module to allow invocation requests only from other application chaincodes; also associated HTLC units with a chaincode ID for isolation of locks within chaincode namespaces.
+- Fixed logging behavior in relay and in the Corda Interop App to print complex payloads as Base64 strings rather than as byte arrays.
+- Added support in Fabric CLI to run chaincodes other than `simplestate` for data sharing.
+- Updated testnets for compatibility with the above changes and ran end-to-end tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-06 22:11:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/152" class=".btn">#152</a>
             </td>
             <td>

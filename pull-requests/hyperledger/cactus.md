@@ -397,31 +397,3 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1282" class=".btn">#1282</a>
-            </td>
-            <td>
-                <b>
-                    docs(roadmap): update ROADMAP.md - 2021 August #1280
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Fixes #1280
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 22:20:48 +0000 UTC
-    </div>
-</div>
-

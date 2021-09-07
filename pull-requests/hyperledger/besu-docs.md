@@ -368,7 +368,7 @@ don't hesitate to link an annotated screenshot or a small demo video. -->
             </td>
             <td>
                 <b>
-                    WIP: Add web3js-quorum content
+                    Add web3js-quorum content
                 </b>
             </td>
         </tr>
