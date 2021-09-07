@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1307" class=".btn">#1307</a>
+            </td>
+            <td>
+                <b>
+                    fix(verify-algo): fixed algorism for jwt in verifier to match algorism in validator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                changed RS256  to ES256.
+
+Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-07 05:03:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1304" class=".btn">#1304</a>
             </td>
             <td>
@@ -368,32 +396,6 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-08-31 12:24:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1284" class=".btn">#1284</a>
-            </td>
-            <td>
-                <b>
-                    docs(connector-iroha): add test case link to support matrix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">dependent</span><span class="chip">Iroha</span>
-            </td>
-            <td>
-                Depends on #1290 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 01:28:32 +0000 UTC
     </div>
 </div>
 

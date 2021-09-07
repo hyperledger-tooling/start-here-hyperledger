@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2721" class=".btn">#2721</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed some typos
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-07 03:59:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2720" class=".btn">#2720</a>
+            </td>
+            <td>
+                <b>
+                    Move QBFT CMS creation to block creator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Move the CMS creation out of the QbftRound and into a QBFT block creator.
+
+This allows the CMS to be only created the once per block regardless of how many rounds and removes the need for a proposal block behaviour in the qbft round.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-07 02:09:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2717" class=".btn">#2717</a>
             </td>
             <td>
@@ -29,7 +99,11 @@ permalink: /pull-requests/hyperledger/besu
             <td>
                 ## PR description
 
-Allow all calls to the onchain privacy precompiled contract while locked--not just the `addParticipant` call. This allows unlocking the contract once locked. Until now, the only way to unlock the contract was to add a participant.
+Prior to this commit, the only allowed transactions in locked onchain privacy groups were those making the `addParticipants` call to *any* contract--not just the proxy. This commit ensures that:
+- while locked, only the group management proxy can be called
+- while locked, all functions of the management proxy can be called
+
+Corollary, this commit allows unlocking a group using `unlock` instead of implicitly unlocking it via `addParticipants`. This fixes #2693.
 
 ## Fixed Issue(s)
 
@@ -198,75 +272,6 @@ This is instead of exposing generic untyped arguments as explored in https://git
     </table>
     <div class="right-align">
         Created At 2021-08-31 14:37:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2698" class=".btn">#2698</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Fixed typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed some typos
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 03:05:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2697" class=".btn">#2697</a>
-            </td>
-            <td>
-                <b>
-                    only decode eth messages expecting request id if capability is eth 66 compatible
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-The instanbul/99 protocol includes eth protocol messages but is not eth/66 compatible. This change is needed so that only an eth protocol with version >= 66 will attempt to decode messages expecting a request id.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #2682 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 02:52:20 +0000 UTC
     </div>
 </div>
 
