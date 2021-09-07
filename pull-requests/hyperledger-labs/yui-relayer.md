@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/48" class=".btn">#48</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/49" class=".btn">#49</a>
             </td>
             <td>
                 <b>
-                    fabric-test: cleanup Makefile
+                    ethereum: fix unmarshaling
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                Signed-off-by: Toshihiko Okubo <toshihiko.okubo@datachain.jp>
+                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-11 08:19:02 +0000 UTC
+        Created At 2021-09-07 10:08:53 +0000 UTC
     </div>
 </div>
 

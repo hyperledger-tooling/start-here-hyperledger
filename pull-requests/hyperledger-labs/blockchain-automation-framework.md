@@ -14,6 +14,83 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1655" class=".btn">#1655</a>
+            </td>
+            <td>
+                <b>
+                    [shared] Upd jobaction name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Update git action job name 
+
+ 
+
+**Reviewed by**
+@pppazos
+
+ 
+
+**Linked issue**
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-07 09:53:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1654" class=".btn">#1654</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] docker image build for supplychain quorum app
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: pppazos <hgartti@gmail.com>
+
+**Changelog**
+- Update git action for docker build including supplychain quorum app
+
+ 
+
+**Reviewed by**
+@pppazos
+
+ 
+
+**Linked issue**
+#744 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-07 09:37:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1653" class=".btn">#1653</a>
             </td>
             <td>
@@ -495,74 +572,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-09-01 12:52:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1643" class=".btn">#1643</a>
-            </td>
-            <td>
-                <b>
-                    [besu] added gcp-storageclass
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Add gcp-storageclass
-- Update main.yml file to add an entry
-
- 
-
-**Reviewed by**
-@suvajit-sarkar 
-@sownak 
-
- 
-
-**Linked issue**
-#1295 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 09:43:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1641" class=".btn">#1641</a>
-            </td>
-            <td>
-                <b>
-                    docs: add mgCepeda as a contributor for code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add @mgCepeda as a contributor for code.
-
-This was requested by sownak [in this comment](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1622#issuecomment-909054765)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 09:16:32 +0000 UTC
     </div>
 </div>
 

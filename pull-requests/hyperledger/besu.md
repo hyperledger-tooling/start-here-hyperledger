@@ -247,31 +247,3 @@ Temporary revert of #2505 to unblock release
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2704" class=".btn">#2704</a>
-            </td>
-            <td>
-                <b>
-                    Expose json rpc config to plugins through JsonRpcConfigurationService
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                ## PR description
-Expose json rpc config to plugins through JsonRpcConfigurationService. 
-This is instead of exposing generic untyped arguments as explored in https://github.com/hyperledger/besu/pull/2661
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 14:37:20 +0000 UTC
-    </div>
-</div>
-

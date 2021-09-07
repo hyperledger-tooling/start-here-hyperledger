@@ -87,31 +87,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2423" class=".btn">#2423</a>
-            </td>
-            <td>
-                <b>
-                    Fixing #2379 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bumped ubuntu version to 18.04
-changed to pip packages to use `notebook`  instead of `ipython-notebook`
-also formatting
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 10:35:17 +0000 UTC
-    </div>
-</div>
-
