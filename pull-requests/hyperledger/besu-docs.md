@@ -83,7 +83,7 @@ Total is 28 unique users => absolute majority is 15 users.
             </td>
             <td>
                 <b>
-                    Permissioning contracts v2.0.1 migration draft
+                    Permissioning contracts v2.0.1 migration
                 </b>
             </td>
         </tr>
