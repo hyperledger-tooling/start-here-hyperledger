@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1656" class=".btn">#1656</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] smc test on git actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Add quorum smartcontract test on git actions
+
+ 
+
+**Reviewed by**
+@pppazos
+
+ 
+
+**Linked issue**
+#740
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-07 13:09:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1655" class=".btn">#1655</a>
             </td>
             <td>

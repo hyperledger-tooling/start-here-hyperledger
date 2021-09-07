@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1310" class=".btn">#1310</a>
+            </td>
+            <td>
+                <b>
+                    docs(ledger-support-matrix): updated releases #1279
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolve #1279 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-07 12:43:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1309" class=".btn">#1309</a>
             </td>
             <td>
@@ -346,91 +372,6 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-08-31 21:32:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1289" class=".btn">#1289</a>
-            </td>
-            <td>
-                <b>
-                    fix: openapi-validation for xdai plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                add missing validation for xdai plugin rest endpoints
-
-Closes: #1288
-
-Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 16:43:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1287" class=".btn">#1287</a>
-            </td>
-            <td>
-                <b>
-                    fix: openapi-validation for quorum plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                add missing validation for quorum plugin rest endpoints
-
-Closes: #1286
-Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 16:18:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1285" class=".btn">#1285</a>
-            </td>
-            <td>
-                <b>
-                    feat(corda): support corda v4.8 #889
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">Corda</span>
-            </td>
-            <td>
-                Resolve #889 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 12:24:48 +0000 UTC
     </div>
 </div>
 
