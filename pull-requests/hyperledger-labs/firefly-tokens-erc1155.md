@@ -90,29 +90,3 @@ relevant info into "data".
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/17" class=".btn">#17</a>
-            </td>
-            <td>
-                <b>
-                    Remove "author" field from token-pool event
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Can be merged after https://github.com/hyperledger-labs/firefly/pull/177
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 20:16:35 +0000 UTC
-    </div>
-</div>
-

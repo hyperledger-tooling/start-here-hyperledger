@@ -92,30 +92,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/180" class=".btn">#180</a>
-            </td>
-            <td>
-                <b>
-                    Update Go to 1.16.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update Go to 1.16.7.
-Also run "go mod tidy".
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 21:58:41 +0000 UTC
-    </div>
-</div>
-

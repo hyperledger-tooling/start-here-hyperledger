@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-protos
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/61" class=".btn">#61</a>
-            </td>
-            <td>
-                <b>
-                    Update Go to 1.16.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update Go to 1.16.7.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-30 22:05:39 +0000 UTC
-    </div>
-</div>
-
