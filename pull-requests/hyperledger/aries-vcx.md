@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/347" class=".btn">#347</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Add out of band message to nodejs wrapper + tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span><span class="chip">wrappers</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 14:11:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/345" class=".btn">#345</a>
             </td>
             <td>
@@ -24,7 +50,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">tests</span>
             </td>
             <td>
                 - Refers to my fork of vdr-tools with updated `libc`, otherwise `aries-vcx` doesn't compile (created PR https://gitlab.com/evernym/verity/vdr-tools/-/merge_requests/38 )
@@ -90,32 +116,6 @@ Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
     </table>
     <div class="right-align">
         Created At 2021-09-03 10:04:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/342" class=".btn">#342</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.20.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 14:44:40 +0000 UTC
     </div>
 </div>
 

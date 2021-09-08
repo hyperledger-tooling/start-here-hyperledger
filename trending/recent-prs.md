@@ -1,13 +1,13 @@
 
-[1658](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1658) [fabric] fix chaincode test
+[625](https://github.com/hyperledger/fabric-private-chaincode/pull/625) Catch all chaincode exceptions and fail gracefully with log
 
-[185](https://github.com/hyperledger/fabric-gateway/pull/185) Better support for different elliptic curves in Java signer
+[176](https://github.com/hyperledger/aries-framework-go-ext/pull/176) chore: avoid adding current keys when update did
 
-[492](https://github.com/hyperledger-labs/solang/pull/492) Fix CI tests 
+[399](https://github.com/hyperledger-labs/Scorex/pull/399) [WIP] getStatus added to SyncTracker
 
-[1414](https://github.com/hyperledger/iroha/pull/1414) Removal of arguments from test_network crate
+[182](https://github.com/hyperledger/transact/pull/182) Consolidate migrations into single migration
 
-[1412](https://github.com/hyperledger/iroha/pull/1412) Docs: Migration Tool and WSV Checker Use
+[187](https://github.com/hyperledger/fabric-gateway/pull/187) Allow specified start block for chaincode events in Go client
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

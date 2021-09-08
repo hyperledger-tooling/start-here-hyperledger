@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/95" class=".btn">#95</a>
+            </td>
+            <td>
+                <b>
+                    Various fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - [x] NWO.Token now takes in account the network name when storing
+data. This avoids confusion when multiple networks are used.
+- [x] DLog Driver, missing return
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 14:51:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/92" class=".btn">#92</a>
             </td>
             <td>

@@ -61,38 +61,12 @@ I still need to add test coverage, but I wanted to vet that this is a good desig
 In particular want to see if we definitely want this on the method REST endpoint,
 or if it should be at a higher level somehow.
 
-Note that this branch also includes the enhancement from #140
+~~Note that this branch also includes the enhancement from #140~~
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2021-09-01 19:08:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/140" class=".btn">#140</a>
-            </td>
-            <td>
-                <b>
-                    Add getFlyParamBool helper
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 14:29:25 +0000 UTC
     </div>
 </div>
 

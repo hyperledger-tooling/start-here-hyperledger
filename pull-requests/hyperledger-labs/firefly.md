@@ -98,35 +98,3 @@ The plugin provides:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/183" class=".btn">#183</a>
-            </td>
-            <td>
-                <b>
-                    Add self-describing enum support to OpenAPI definition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                One step on the journey to #111, allowing us to list the possible values for an `FFEnum` type (renaming `LowerCasedType`).
-
-This builds on a feature added to the OpenAPI schema generator in https://github.com/getkin/kin-openapi/pull/411
-
-Using the same approach in follow-on PRs, we can:
-- Add in field-level descriptions with translation keys
-- Remove the need for hard-coded schemas for complex objects like `Message`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 14:13:55 +0000 UTC
-    </div>
-</div>
-

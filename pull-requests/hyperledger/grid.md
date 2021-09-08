@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/grid
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/916" class=".btn">#916</a>
-            </td>
-            <td>
-                <b>
-                    Add GHA
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 14:16:42 +0000 UTC
-    </div>
-</div>
-

@@ -304,31 +304,3 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2964" class=".btn">#2964</a>
-            </td>
-            <td>
-                <b>
-                    feat: mobile bindings for vcwallet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Florin Birsan <71101813+skflorin@users.noreply.github.com>
-
-Added VCWalletController to be used in native code
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 14:05:54 +0000 UTC
-    </div>
-</div>
-

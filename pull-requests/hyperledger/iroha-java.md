@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/136" class=".btn">#136</a>
+            </td>
+            <td>
+                <b>
+                    Add assetsByDomainName query
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * added assetsByDomainName query
+* implemented AssetsExtractor for parsing list of assets results
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 14:31:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/134" class=".btn">#134</a>
             </td>
             <td>
@@ -59,58 +86,6 @@ permalink: /pull-requests/hyperledger/iroha-java
     </table>
     <div class="right-align">
         Created At 2021-09-02 11:30:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/132" class=".btn">#132</a>
-            </td>
-            <td>
-                <b>
-                    Merge commit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 12:44:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/131" class=".btn">#131</a>
-            </td>
-            <td>
-                <b>
-                    Iroha2 java
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 12:23:45 +0000 UTC
     </div>
 </div>
 
