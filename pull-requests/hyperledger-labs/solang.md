@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/492" class=".btn">#492</a>
+            </td>
+            <td>
+                <b>
+                    Fix CI tests 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                CI tests on forks fail, make various parts conditional.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 08:37:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/491" class=".btn">#491</a>
             </td>
             <td>

@@ -47,7 +47,7 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
             <td>
                 <b>
-                    WIP: Out of Band protocol
+                    Out of Band protocol
                 </b>
             </td>
         </tr>
