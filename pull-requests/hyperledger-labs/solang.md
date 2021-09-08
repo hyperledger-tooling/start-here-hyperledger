@@ -152,33 +152,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/485" class=".btn">#485</a>
-            </td>
-            <td>
-                <b>
-                    Use new solana mechanism for return data
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Requires:
- - https://github.com/solana-labs/solana/pull/19548
- - https://github.com/solana-labs/solana/pull/19318
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 17:15:34 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/Scorex
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/Scorex/pull/398" class=".btn">#398</a>
+                PR <a href="https://github.com/hyperledger-labs/Scorex/pull/399" class=".btn">#399</a>
             </td>
             <td>
                 <b>
-                    Switching from Travis to GitHub actions
+                    [WIP] getStatus added to SyncTracker
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/Scorex
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-16 16:59:52 +0000 UTC
+        Created At 2021-09-08 15:45:17 +0000 UTC
     </div>
 </div>
 

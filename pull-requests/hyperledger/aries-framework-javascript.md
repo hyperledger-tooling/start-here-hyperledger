@@ -120,29 +120,3 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/450" class=".btn">#450</a>
-            </td>
-            <td>
-                <b>
-                    fix: add option check to attribute constructor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 13:13:07 +0000 UTC
-    </div>
-</div>
-
