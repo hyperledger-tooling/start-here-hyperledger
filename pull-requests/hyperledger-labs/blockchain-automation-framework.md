@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1658" class=".btn">#1658</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] fix chaincode test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Fix chaincode tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 10:23:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1656" class=".btn">#1656</a>
             </td>
             <td>
