@@ -28,7 +28,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 Update Go to 1.16.7 and run "go mod tidy"
-to clean up go modules in samples.
+to clean up go modules in samples for Go 1.16.
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>

@@ -63,29 +63,3 @@ permalink: /pull-requests/hyperledger/aries-askar
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/24" class=".btn">#24</a>
-            </td>
-            <td>
-                <b>
-                    Create universal lib on macos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 02:30:23 +0000 UTC
-    </div>
-</div>
-

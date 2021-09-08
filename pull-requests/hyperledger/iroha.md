@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1411" class=".btn">#1411</a>
+            </td>
+            <td>
+                <b>
+                    [GHA] Reduce number of docker tags, enable :latest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * push only gcc-9 builds
+* enable 'latest' for all tags, not only 'v*'
+* -DBENCHMARKING=ON
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 05:07:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1410" class=".btn">#1410</a>
             </td>
             <td>
