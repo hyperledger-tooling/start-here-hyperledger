@@ -261,34 +261,3 @@ Finally, you can contact us on https://mergify.io/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2889" class=".btn">#2889</a>
-            </td>
-            <td>
-                <b>
-                    Fix process termination waits in health tests (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of #1563
-
-The current code is passing a function to `Eventually` that returns a
-channel instead of the channel to wait on.
-
-Signed-off-by: Matthew Sykes <sykesmat@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 21:13:26 +0000 UTC
-    </div>
-</div>
-
