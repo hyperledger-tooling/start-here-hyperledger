@@ -349,29 +349,3 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1290" class=".btn">#1290</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): publish v0.9.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 21:32:10 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/voters
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/voters/pull/1" class=".btn">#1</a>
+                PR <a href="https://github.com/hyperledger-labs/voters/pull/2" class=".btn">#2</a>
             </td>
             <td>
                 <b>
-                    Handle enter key and clean up
+                    Update hashes.js
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/voters
                 
             </td>
             <td>
-                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-31 22:35:18 +0000 UTC
+        Created At 2021-09-07 19:20:46 +0000 UTC
     </div>
 </div>
 

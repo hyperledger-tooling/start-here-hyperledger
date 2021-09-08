@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1400" class=".btn">#1400</a>
+            </td>
+            <td>
+                <b>
+                    Run integration tests using external ledger and tails server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-07 23:41:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1395" class=".btn">#1395</a>
             </td>
             <td>
@@ -264,32 +290,6 @@ Signed-off-by: Clément Humbert <clement.humbert@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-09-01 15:11:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1380" class=".btn">#1380</a>
-            </td>
-            <td>
-                <b>
-                    Pre release 0.7.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 23:14:22 +0000 UTC
     </div>
 </div>
 

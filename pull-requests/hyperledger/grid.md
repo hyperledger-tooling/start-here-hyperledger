@@ -140,33 +140,3 @@ permalink: /pull-requests/hyperledger/grid
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/915" class=".btn">#915</a>
-            </td>
-            <td>
-                <b>
-                    Add purchase order list and show functionality
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added purchase order list and show functionality in the CLI. This 
-included updating the SDK client's fetch_entities_list to support 
-multiple query string parameters via a hashmap, implementing list and 
-show for purchase orders within ReqwestPurchaseOrderClient, and 
-implementing the list and show functionality for the CLI.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 19:38:45 +0000 UTC
-    </div>
-</div>
-

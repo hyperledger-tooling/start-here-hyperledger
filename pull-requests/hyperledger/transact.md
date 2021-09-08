@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/180" class=".btn">#180</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/181" class=".btn">#181</a>
             </td>
             <td>
                 <b>
-                    Update MerkleRadixLeafReader rustdoc
+                    Add From implementation for ConnectionPool
                 </b>
             </td>
         </tr>
@@ -27,13 +27,13 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                This change updates the rustdoc for the `MerkleRadixLeafReader` trait and its associated error.
+                This change adds the ability to convert from an existing `ConnectionPool` instance into a specific backend via the `From` trait.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-30 21:27:43 +0000 UTC
+        Created At 2021-09-07 21:13:18 +0000 UTC
     </div>
 </div>
 
