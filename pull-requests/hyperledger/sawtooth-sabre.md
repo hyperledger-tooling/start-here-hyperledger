@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/151" class=".btn">#151</a>
+            </td>
+            <td>
+                <b>
+                    0-5: Fix Lint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 18:39:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/150" class=".btn">#150</a>
             </td>
             <td>
@@ -65,32 +91,6 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-09-02 17:26:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/148" class=".btn">#148</a>
-            </td>
-            <td>
-                <b>
-                    Fix justfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A couple fix including fixing 'just clean'.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 21:56:34 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/924" class=".btn">#924</a>
+            </td>
+            <td>
+                <b>
+                    Add `get_purchase_order_version` operation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds a `get_purchase_order_version` operation. This fetches a PO
+version and its associated revisions and returns the Grid representation
+of them.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 21:52:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/923" class=".btn">#923</a>
+            </td>
+            <td>
+                <b>
+                    Update `add_purchase_order` operation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the `add_purchase_order` operation to properly add/update POs, versions, and revisions while avoiding unnecessary db updates.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 20:23:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/921" class=".btn">#921</a>
             </td>
             <td>
@@ -85,32 +141,6 @@ permalink: /pull-requests/hyperledger/grid
     </table>
     <div class="right-align">
         Created At 2021-09-07 16:20:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/917" class=".btn">#917</a>
-            </td>
-            <td>
-                <b>
-                    Move workflow-aware permission check into SDK
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This removes the `check_permission_with_workflow` from the Purchase order smart contract's handler module to the SDK, as a method defined for the `PermissionChecker` in Pike. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 20:02:16 +0000 UTC
     </div>
 </div>
 

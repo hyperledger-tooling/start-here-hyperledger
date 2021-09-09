@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/253" class=".btn">#253</a>
+            </td>
+            <td>
+                <b>
+                    Release commit for v1.5.2.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add release notes for v1.5.2.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 20:22:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-ca/pull/252" class=".btn">#252</a>
             </td>
             <td>
