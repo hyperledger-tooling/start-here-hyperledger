@@ -65,30 +65,3 @@ Removed double asterisk from copyright comments causing repeated <constant> TYPE
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/495" class=".btn">#495</a>
-            </td>
-            <td>
-                <b>
-                    FABN-1542: Added timeout info in transaction submit err messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 15:15:10 +0000 UTC
-    </div>
-</div>
-

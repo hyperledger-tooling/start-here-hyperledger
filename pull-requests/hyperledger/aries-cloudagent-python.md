@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1405" class=".btn">#1405</a>
+            </td>
+            <td>
+                <b>
+                    Typos in the demo's README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed a few typos in the demo's README.md and changed the "ACA-Py" abbreviation to be consistent throughout the text.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 15:05:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1400" class=".btn">#1400</a>
             </td>
             <td>

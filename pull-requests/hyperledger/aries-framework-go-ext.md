@@ -142,31 +142,3 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/171" class=".btn">#171</a>
-            </td>
-            <td>
-                <b>
-                    fix: Detect transient error when setting indexes using DocumentDB
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added a check for another type of transient error that happens during index update conflicts when using DocumentDB.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 18:05:48 +0000 UTC
-    </div>
-</div>
-

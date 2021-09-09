@@ -90,33 +90,3 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/452" class=".btn">#452</a>
-            </td>
-            <td>
-                <b>
-                    fix(core): ability to send proof without requested attributes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I had some issues with accepting a proof request that did not contain requested attributes (but only predicates or self attested attributes).
-
-This should resolve this issue.
-
-Signed-off-by: Berend Sliedrecht <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 12:40:55 +0000 UTC
-    </div>
-</div>
-
