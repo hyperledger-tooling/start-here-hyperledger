@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/792" class=".btn">#792</a>
+            </td>
+            <td>
+                <b>
+                    update config file version of required-block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Config file version of this option was incorrect
+
+## Impacted parts <!-- check as many boxes as needed -->
+
+### For content changes
+
+- [x] Doc content
+- [ ] Doc pages organisation
+
+### For tools changes
+
+- [ ] CircleCI workflow
+- [ ] Build and QA tools (lint, vale,…)
+- [ ] MkDocs templates
+- [ ] MkDocs configuration
+- [ ] Python dependencies
+- [ ] Node dependencies and JavaScript
+- [ ] ReadTheDocs configuration
+- [ ] GitHub integration
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 04:22:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/791" class=".btn">#791</a>
             </td>
             <td>

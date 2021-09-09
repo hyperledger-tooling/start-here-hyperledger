@@ -37,29 +37,3 @@ permalink: /pull-requests/hyperledger/aries-askar
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/25" class=".btn">#25</a>
-            </td>
-            <td>
-                <b>
-                    Improve serde compatibility for JWKs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 02:24:05 +0000 UTC
-    </div>
-</div>
-
