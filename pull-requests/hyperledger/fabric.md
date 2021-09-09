@@ -14,6 +14,131 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2904" class=".btn">#2904</a>
+            </td>
+            <td>
+                <b>
+                    Namespace Filter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #2819
+
+Signed-off-by: Julian Castrence <juliancastrence@ibm.com>
+
+
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- New feature
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+<!--- Describe your changes in detail, including motivation. -->
+
+- Namespace filter flag allows the user to produce only ledger differences of a given namespace. Compatible with existing flags.
+- Since it is now possible to compare two different snapshots and find no differences due to the namespace flag being active, output files with no relevant differences (empty files) will not be generated, and if no output files are generated the output directory will not be generated.
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 19:42:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2903" class=".btn">#2903</a>
+            </td>
+            <td>
+                <b>
+                    Release commit for v2.3.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update docs and release notes for v2.3.3.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 18:58:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2901" class=".btn">#2901</a>
+            </td>
+            <td>
+                <b>
+                    Release commit for v2.2.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update docs and release notes for v2.2.4.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 18:44:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2900" class=".btn">#2900</a>
             </td>
             <td>

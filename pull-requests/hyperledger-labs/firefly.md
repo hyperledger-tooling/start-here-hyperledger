@@ -65,36 +65,3 @@ Depends on https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/19
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/184" class=".btn">#184</a>
-            </td>
-            <td>
-                <b>
-                    Fabric plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Dependent on https://github.com/hyperledger-labs/firefly-fabconnect/pull/41
-
-The plugin provides:
-- `BatchPin` transactions and events support
-- Identity resolution (note that pending enhancement for https://github.com/hyperledger-labs/firefly/issues/182 is left for a future PR given its significant implications to the identity plugin). For now these workaround are used when comparing the persisted tx signer with the event signer, which will be re-implemented as part of the solution for #182:
-  - `internal/events/batch_pin_complete.go`: `subjectMatch()` 
-  - `internal/events/persist_batch.go`: `persistBatchFromBroadcast()`
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 22:37:43 +0000 UTC
-    </div>
-</div>
-

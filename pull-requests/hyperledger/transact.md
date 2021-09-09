@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/183" class=".btn">#183</a>
+            </td>
+            <td>
+                <b>
+                    Update rustdoc for state::merkle::sql
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the doc for various structs and modules in the `state::merke::sql` module.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-08 18:53:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/182" class=".btn">#182</a>
             </td>
             <td>
