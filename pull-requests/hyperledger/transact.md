@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/184" class=".btn">#184</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0.3 state-merkle-sql feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR backports the state-merkle-sql feature and a number of supporting commits
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 14:28:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/183" class=".btn">#183</a>
             </td>
             <td>

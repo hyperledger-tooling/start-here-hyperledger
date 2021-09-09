@@ -68,29 +68,3 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/149" class=".btn">#149</a>
-            </td>
-            <td>
-                <b>
-                    0-7: Fix Lint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 17:26:22 +0000 UTC
-    </div>
-</div>
-

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/firefly-ui
             </td>
             <td>
                 <b>
-                    Hide tx pie chart center label on small screens 
+                    Hide transaction pie chart center label on small screens 
                 </b>
             </td>
         </tr>
