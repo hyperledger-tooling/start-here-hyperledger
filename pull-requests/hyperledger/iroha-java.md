@@ -63,29 +63,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/133" class=".btn">#133</a>
-            </td>
-            <td>
-                <b>
-                    Updated testcontainers run and altered mint instruction creating
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 11:30:18 +0000 UTC
-    </div>
-</div>
-
