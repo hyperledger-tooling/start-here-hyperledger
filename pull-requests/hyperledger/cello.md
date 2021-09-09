@@ -196,33 +196,3 @@ Signed-off-by: zhaoshihong <523713078@qq.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/314" class=".btn">#314</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-313] cmdline lib function list and getinfo has no info return
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added information processing of function list and function getinfo
-
-Close #issue-313
-
-Signed-off-by: zhaoshihong<523713078@qq.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 08:06:06 +0000 UTC
-    </div>
-</div>
-

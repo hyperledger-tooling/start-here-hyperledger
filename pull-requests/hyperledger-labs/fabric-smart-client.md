@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/121" class=".btn">#121</a>
+            </td>
+            <td>
+                <b>
+                    Use MSPManager to get verifiers #120
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 08:16:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/118" class=".btn">#118</a>
             </td>
             <td>
@@ -88,32 +114,6 @@ Signed-off-by: Alessandro Sorniotti <aso@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-09-03 16:04:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/114" class=".btn">#114</a>
-            </td>
-            <td>
-                <b>
-                    weaver integration: address generation failure #113
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 09:44:04 +0000 UTC
     </div>
 </div>
 

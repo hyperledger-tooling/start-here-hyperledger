@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/iroha
                 
             </td>
             <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
+                ## Closes #1415
+
+<!-- You will not see HTML commented line in Pull Request body -->
 <!-- Optional sections may be omitted. Just remove them or write None -->
 
 <!-- ### Requirements -->
@@ -303,6 +305,35 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-09-07 14:03:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1408" class=".btn">#1408</a>
+            </td>
+            <td>
+                <b>
+                    Fix add_peer_test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Fix race condition in add_peer_test
+- small refactotign
+- [refac] report_abort() to protp_tx_resp.cpp
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-06 09:50:09 +0000 UTC
     </div>
 </div>
 

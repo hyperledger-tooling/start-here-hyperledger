@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/793" class=".btn">#793</a>
+            </td>
+            <td>
+                <b>
+                    typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+Fixed typo in banned-node-id
+
+- [x] Doc content
+- [ ] Doc pages organisation
+
+### For tools changes
+
+- [ ] CircleCI workflow
+- [ ] Build and QA tools (lint, vale,…)
+- [ ] MkDocs templates
+- [ ] MkDocs configuration
+- [ ] Python dependencies
+- [ ] Node dependencies and JavaScript
+- [ ] ReadTheDocs configuration
+- [ ] GitHub integration
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 06:46:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/792" class=".btn">#792</a>
             </td>
             <td>
