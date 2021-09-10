@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/20" class=".btn">#20</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/21" class=".btn">#21</a>
             </td>
             <td>
                 <b>
-                    Add curl to docker image for healthchecks
+                    Remove separate namespace/name/clientId parameters
                 </b>
             </td>
         </tr>
@@ -27,40 +27,12 @@ permalink: /pull-requests/hyperledger-labs/firefly-tokens-erc1155
                 
             </td>
             <td>
-                `curl` is necessary to have in the Docker image so that the container can run its own health checks. Custom health checks are required so that the FireFly Core does not start up until after the tokens connector is already listening for WebSocket connections.
+                Should be safe to merge now that https://github.com/hyperledger-labs/firefly/pull/185 is in.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-01 23:54:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/19" class=".btn">#19</a>
-            </td>
-            <td>
-                <b>
-                    Add arbitrary "data" input to all POST APIs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The /pool API will also be migrated from taking separate parameters
-for namespace/name/clientId and will instead require clients to pack
-relevant info into "data".
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-01 20:17:08 +0000 UTC
+        Created At 2021-09-09 20:04:13 +0000 UTC
     </div>
 </div>
 

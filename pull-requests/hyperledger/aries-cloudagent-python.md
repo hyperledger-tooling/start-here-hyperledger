@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1407" class=".btn">#1407</a>
+            </td>
+            <td>
+                <b>
+                    feature/inbound-transport-profile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When implementing a custom inbound transport there is no way to access settings through the profile. This PR adds a root profile to the `BaseInboundTransport` class that allows custom implemented inbound transports access to the profile provided to `InboundTransportManager`.
+
+main changes:
+- transport/inbound/base.py, now has a `root_profile` attribute.
+- transport/inbound/manager.py,  passes profile into `register_transport`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 22:11:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1406" class=".btn">#1406</a>
+            </td>
+            <td>
+                <b>
+                    Fix aip 20 behaviour and other cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes issue https://github.com/hyperledger/aries-cloudagent-python/issues/1333
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 20:51:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1405" class=".btn">#1405</a>
             </td>
             <td>
@@ -189,58 +246,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </table>
     <div class="right-align">
         Created At 2021-09-03 00:55:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1389" class=".btn">#1389</a>
-            </td>
-            <td>
-                <b>
-                    fix: typo in connection static result schema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 20:22:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1387" class=".btn">#1387</a>
-            </td>
-            <td>
-                <b>
-                    fix: don't require push on outbound queue implementations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Requiring this method in concrete outbound classes should not be required -- this exact method signature is relevant only to redis. This probably should have been dropped with the outbound queue refactor but was missed.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 18:21:00 +0000 UTC
     </div>
 </div>
 

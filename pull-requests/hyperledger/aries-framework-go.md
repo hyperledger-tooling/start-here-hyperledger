@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2973" class=".btn">#2973</a>
+            </td>
+            <td>
+                <b>
+                    WIP: do not merge. fix: get MyDID and TheirDID when kid is KeyAgreement.ID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 20:01:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2972" class=".btn">#2972</a>
             </td>
             <td>
@@ -237,96 +263,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2021-09-04 07:05:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2967" class=".btn">#2967</a>
-            </td>
-            <td>
-                <b>
-                    test: Additional and improved JSON storage tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Added additional JSON storage tests that check for more types.
-- Updated tests to check unmarshalled data instead of directly comparing bytes, in agreement with the updated storage interface documentation. This will avoid potential issues where some storage providers may change the order of the fields around, which could cause the tests to fail unnecessarily.
-- Removed replace of test module from aries-agent-mobile and aries-agent-rest, since it can cause some issues when the test signatures are updated.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 22:06:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2966" class=".btn">#2966</a>
-            </td>
-            <td>
-                <b>
-                    feat: support DID Doc KeyAgreement.ID as kid/skid for DIDCommV2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                This change adds DIDCommV2 support to use KeyAgreement.ID when a DID doc is available.
-Default behaviour is to use did:key for pre DIDCommV2 or where DID doc is not available to the recipient.
-The Peer VDR creator now uses DIDCommV2 service type matching the media porfile version: DIDCommMessaging (for V2).
-Default is did-communication (for pre V2) if media profile is missing or is not DIDCommV2.
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 21:07:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2965" class=".btn">#2965</a>
-            </td>
-            <td>
-                <b>
-                    docs: Update to SPI documentation for Store Put method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added clarification about how JSON-formatted objects are treated.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 19:23:38 +0000 UTC
     </div>
 </div>
 
