@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-acapy-controllers
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/39" class=".btn">#39</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade to Angular 12 to resolve audit flags
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 23:11:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/37" class=".btn">#37</a>
             </td>
             <td>

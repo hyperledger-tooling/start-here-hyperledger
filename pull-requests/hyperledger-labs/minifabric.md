@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/265" class=".btn">#265</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/268" class=".btn">#268</a>
             </td>
             <td>
                 <b>
-                    new alias for chaincode up operation 'ccup'
+                    Add support for latest point releases
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                close #251
-
-'minifab ccup' == 'minifab install,approve,commit,initialize,discover,channelquery'
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-25 07:55:28 +0000 UTC
+        Created At 2021-09-09 19:58:36 +0000 UTC
     </div>
 </div>
 

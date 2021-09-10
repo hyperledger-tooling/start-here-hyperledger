@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2748" class=".btn">#2748</a>
+            </td>
+            <td>
+                <b>
+                    Cleanup metrics connections after idle timeout
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When metrics are in use in teku (which uses besu metrics), and the prometheus service restarts, connections can be left open and never closed.
+
+These connections should close after an idle timeout to avoid causing issues with running out of ports.
+
+Reported in teku issue https://github.com/ConsenSys/teku/issues/4327 .
+
+Signed-off-by: Paul Harris <paul.harris@consensys.net>
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 00:51:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2747" class=".btn">#2747</a>
+            </td>
+            <td>
+                <b>
+                    merge main into Rayonism
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                dust off the rayonism branch
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 23:01:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2746" class=".btn">#2746</a>
+            </td>
+            <td>
+                <b>
+                    Set TransactionGasCalculator in ETC specs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+On #2659 the gas calculator was split but the ETC specification wasn't properly updated, letting 21.7.3 nodes out of consensus.
+
+## Fixed Issue(s)
+Fixes #2715
+
+## Changelog
+
+- [ ] Update Ethereum Classic Phoenix and Magneto specs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 20:09:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2745" class=".btn">#2745</a>
             </td>
             <td>
@@ -191,58 +287,6 @@ Do not merge, rather base a PR on top of this branch.
     </table>
     <div class="right-align">
         Created At 2021-09-05 19:31:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2713" class=".btn">#2713</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for version 21.7.4-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 22:40:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2712" class=".btn">#2712</a>
-            </td>
-            <td>
-                <b>
-                    Release 21.7.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-02 22:04:11 +0000 UTC
     </div>
 </div>
 

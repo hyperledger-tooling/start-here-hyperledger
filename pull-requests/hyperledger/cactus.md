@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1318" class=".btn">#1318</a>
+            </td>
+            <td>
+                <b>
+                    docs(dev-container): fix Unable to access jarfile openapi-generator-c…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">documentation</span>
+            </td>
+            <td>
+                …li/versions/5.2.0.jar #1317
+
+The OpenAPI generator versions were out of sync, unified it on 5.2.0 and now the dev container
+does not have any issue configuring itself upon a successful boot.
+
+Fixes #1317
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 22:03:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1316" class=".btn">#1316</a>
             </td>
             <td>

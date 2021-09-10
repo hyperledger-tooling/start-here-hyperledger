@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/185" class=".btn">#185</a>
+            </td>
+            <td>
+                <b>
+                    Define smaller interfaces for methods in adjudcator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Previously, the adjudicator interface consisted of four methods.
+
+- But, only some of the methods were required in any particular place.
+
+- Hence, define an interface for each of the methods and compose the
+  adjudicator interfaces from these smaller interfaces.
+
+Resolves #184.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 19:09:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/183" class=".btn">#183</a>
+            </td>
+            <td>
+                <b>
+                    [pkg/errors] Add Gatherer DoneOrFailed(Ctx)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #181  
+Need this for testing, @RmbRT also seems to appreciate it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 18:24:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/182" class=".btn">#182</a>
             </td>
             <td>
@@ -77,7 +137,17 @@ permalink: /pull-requests/hyperledger-labs/go-perun
 
 It was difficult for me to figure out how to add tests using the simulated backend. Particularly, I couldn't figure out how to make the watcher send events to the watcher.
 
-However, I implemented some tests based on generated mocks. This covers both happy path and most of the corner cases. I used these to guide my development. I have added them in the PR (in separate commits). If it is possible, we could replace them with tests using simulated backend or remove them (if they don't fit the testing style used in the project).
+However, I implemented some tests based on generated mocks , which I used these to guide my development. I have added them in the PR (in separate commits) for time being. After figuring out how to test simulated backed, we could also replace these tests. 
+
+#### Open points
+
+1. What do we do when registration fails ? Should we load the error information into the adjudicator events pub-sub to close it ?
+2. What do we do in the below scenario ?
+    1. Ledger channel (LC1) is registered with the watcher.
+    2. Client opens a sub-channel (SC1).
+    3. Funding transaction is completed on LC1  and updated to the watcher.
+    4. Before SC1 registers itself with the watcher, an event is `RegisteredEvent` is received for LC1.
+    5. Now, when we want to collect the latest state for all sub-channels of LC1, we will not be able to fund SC1.
 
 #### Resolves #174
             </td>

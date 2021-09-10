@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/929" class=".btn">#929</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0-2: Add GHA files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 20:18:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/928" class=".btn">#928</a>
+            </td>
+            <td>
+                <b>
+                    Add state methods to get/set purchase order versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds implementations for `get_purchase_order_version` and `set_purchase_order_version` for `PurchaseOrderState`. This also adds tests for all of the state methods (including the newly implemented ones).  
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-09 20:00:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/927" class=".btn">#927</a>
             </td>
             <td>
