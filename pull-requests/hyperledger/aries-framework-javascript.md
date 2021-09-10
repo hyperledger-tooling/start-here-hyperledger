@@ -64,29 +64,3 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/453" class=".btn">#453</a>
-            </td>
-            <td>
-                <b>
-                    Documentation- Agent setup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Considered all past comments and changes plus new AFJ framework mods on api's
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 16:53:05 +0000 UTC
-    </div>
-</div>
-

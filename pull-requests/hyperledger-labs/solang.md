@@ -123,32 +123,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/486" class=".btn">#486</a>
-            </td>
-            <td>
-                <b>
-                    Get the function selector via contract.function.selector
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                contract does not have to be a base class, it can be an interface as
-well.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 16:40:05 +0000 UTC
-    </div>
-</div>
-

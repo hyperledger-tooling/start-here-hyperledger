@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2752" class=".btn">#2752</a>
+            </td>
+            <td>
+                <b>
+                    Metrics idle timeout is now configurable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+#2748 introduced a timeout for metrics TCP connections. With this PR user can set a value in seconds for that timeout.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 18:03:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2751" class=".btn">#2751</a>
             </td>
             <td>

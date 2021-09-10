@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/firefly-ethconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/146" class=".btn">#146</a>
+            </td>
+            <td>
+                <b>
+                    Move contract sorting up to contractStore
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Makes the contractStore unit tests pass more reliably.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 17:39:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/145" class=".btn">#145</a>
+            </td>
+            <td>
+                <b>
+                    Rename methods on ContractStore for consistency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Follow-up to https://github.com/hyperledger-labs/firefly-ethconnect/pull/144 - makes the API of the new ContractStore type just a bit clearer and friendlier.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 15:44:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-ethconnect/pull/144" class=".btn">#144</a>
             </td>
             <td>

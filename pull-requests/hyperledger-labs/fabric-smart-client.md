@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/123" class=".btn">#123</a>
+            </td>
+            <td>
+                <b>
+                    Noidemix5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 15:48:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/122" class=".btn">#122</a>
+            </td>
+            <td>
+                <b>
+                    introduce client identities to invoke views #101
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 12:51:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/121" class=".btn">#121</a>
             </td>
             <td>
@@ -85,35 +137,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </table>
     <div class="right-align">
         Created At 2021-09-07 07:44:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/115" class=".btn">#115</a>
-            </td>
-            <td>
-                <b>
-                    Remove idemix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We remove the local implementation of idemix and use the one
-provided at https://github.com/IBM/idemix
-
-Signed-off-by: Alessandro Sorniotti <aso@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 16:04:29 +0000 UTC
     </div>
 </div>
 

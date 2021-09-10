@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    WIP: Add out of band message to nodejs wrapper + tests
+                    Add out of band message to nodejs wrapper + tests
                 </b>
             </td>
         </tr>
@@ -62,32 +62,6 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </table>
     <div class="right-align">
         Created At 2021-09-06 09:53:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/344" class=".btn">#344</a>
-            </td>
-            <td>
-                <b>
-                    Out of Band protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 14:51:14 +0000 UTC
     </div>
 </div>
 
