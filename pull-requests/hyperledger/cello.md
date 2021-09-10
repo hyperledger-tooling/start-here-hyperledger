@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/328" class=".btn">#328</a>
+            </td>
+            <td>
+                <b>
+                    Implemented channel creating operation with peer channel cli.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Create a channel for the current user, and then add all peer nodes from
+the org to the channel. Finally, set the first peer node as the anchor
+peer.
+
+Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 05:09:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/327" class=".btn">#327</a>
             </td>
             <td>
