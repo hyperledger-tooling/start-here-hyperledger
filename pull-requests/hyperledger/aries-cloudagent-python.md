@@ -223,29 +223,3 @@ main changes:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1390" class=".btn">#1390</a>
-            </td>
-            <td>
-                <b>
-                    Add no-op handler for generic ack message (RFC 0015)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 00:55:23 +0000 UTC
-    </div>
-</div>
-
