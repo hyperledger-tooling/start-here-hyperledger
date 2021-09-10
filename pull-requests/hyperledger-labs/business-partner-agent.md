@@ -102,34 +102,3 @@ fixes #609
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/604" class=".btn">#604</a>
-            </td>
-            <td>
-                <b>
-                    Invitation parser fix and test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/604"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 08:01:13 +0000 UTC
-    </div>
-</div>
-

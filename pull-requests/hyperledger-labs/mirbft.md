@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    Research fix
+                    I20 top level structure
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/mirbft
                 
             </td>
             <td>
-                OPEN SSL issue fixed
-Deleting ssh key issue fixed
-Updated README
+                Cleaning up a substantial part of the code.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-05 13:38:37 +0000 UTC
+        Created At 2021-09-10 09:28:29 +0000 UTC
     </div>
 </div>
 

@@ -38,30 +38,3 @@ eslint migration
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/496" class=".btn">#496</a>
-            </td>
-            <td>
-                <b>
-                    FABN-1547:JSDoc Cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-Removed double asterisk from copyright comments causing repeated <constant> TYPE in jsdoc
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 10:01:40 +0000 UTC
-    </div>
-</div>
-

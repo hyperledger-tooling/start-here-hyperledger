@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1662" class=".btn">#1662</a>
+            </td>
+            <td>
+                <b>
+                    [besu] full format for internal url
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 09:29:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1661" class=".btn">#1661</a>
             </td>
             <td>
@@ -280,46 +308,6 @@ resolves #1592
     </table>
     <div class="right-align">
         Created At 2021-09-06 09:36:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1652" class=".btn">#1652</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] Decoupling crypto/ibft role with crypto_ibft helm chart
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Added crypto_ibft helm chart for generating the crypto materials needed
-- Updated some tasks from different roles in order to make it work
-
- 
-
-**Reviewed by**
-@sownak 
-
-
- 
-
-**Linked issue**
-#1626 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 09:05:32 +0000 UTC
     </div>
 </div>
 
