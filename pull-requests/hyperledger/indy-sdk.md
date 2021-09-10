@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2425" class=".btn">#2425</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2426" class=".btn">#2426</a>
             </td>
             <td>
                 <b>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                <nil>
+                This pr fixes error logging typo in nodejs docs
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-10 05:55:20 +0000 UTC
+        Created At 2021-09-10 07:08:34 +0000 UTC
     </div>
 </div>
 

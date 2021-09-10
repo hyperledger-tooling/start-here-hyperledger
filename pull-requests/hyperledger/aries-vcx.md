@@ -91,31 +91,3 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/343" class=".btn">#343</a>
-            </td>
-            <td>
-                <b>
-                    Remove unused service module, split service into enum
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Removes unused `service` module, replaces used `Service` struct with an enum allowing for easy interchangeability between a did and a service (becomes slightly useful in Out-of-Band implementation).
-
-Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 10:04:23 +0000 UTC
-    </div>
-</div>
-

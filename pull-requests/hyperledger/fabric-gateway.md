@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/188" class=".btn">#188</a>
+            </td>
+            <td>
+                <b>
+                    Use protoc and ts-protoc-gen to generate Node gRPC bindings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Represent block number as JavaScript standard bigint and remove dependency on long package.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 09:56:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/187" class=".btn">#187</a>
             </td>
             <td>

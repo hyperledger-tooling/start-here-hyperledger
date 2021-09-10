@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/137" class=".btn">#137</a>
+            </td>
+            <td>
+                <b>
+                    Client exception handling, granting mint permission
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                added instruction grantMintUserAssetsDefinition to allow user to mint the asset registered by another user, wrapped ktor iroha client exceptions
+
+Signed-off-by: mbubnov <bubnov@soramitsu.co.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 11:11:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/136" class=".btn">#136</a>
             </td>
             <td>
