@@ -7,7 +7,7 @@
 
 [1551](https://github.com/hyperledger/indy-plenum/issues/1551) Ubuntu 20.04: Upgrade RocksDB
 
-[133](https://github.com/hyperledger-labs/go-perun/issues/133) Account for NumParts in NewRandom...ChannelProposal
+[1150](https://github.com/hyperledger/iroha/issues/1150) Group 1000 blocks into each block file
 
 
 [See more >>>](https://start-here.hyperledger.org/issues)
