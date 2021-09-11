@@ -36,35 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/150" class=".btn">#150</a>
-            </td>
-            <td>
-                <b>
-                    Remove known errors during .deb package install
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Switching from "-i" to "--unpack" gets rid of the caught missing
-dependency errors while installing built .deb packages.
-
-Displaying these errors, though caught, could be confusing to new
-users of the project.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 20:13:33 +0000 UTC
-    </div>
-</div>
-

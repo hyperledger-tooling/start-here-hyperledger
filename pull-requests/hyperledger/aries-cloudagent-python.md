@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1409" class=".btn">#1409</a>
+            </td>
+            <td>
+                <b>
+                    Log warning when unsupported problem report code is received
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolve #1397 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 21:36:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1408" class=".btn">#1408</a>
             </td>
             <td>
@@ -144,84 +170,6 @@ main changes:
     </table>
     <div class="right-align">
         Created At 2021-09-07 23:41:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1395" class=".btn">#1395</a>
-            </td>
-            <td>
-                <b>
-                    Connectionless proof demo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 22:47:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1394" class=".btn">#1394</a>
-            </td>
-            <td>
-                <b>
-                    Implement get_credentials, credential_revoked for credx backend
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add test coverage for indy-credx issuance happy path
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 21:03:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1393" class=".btn">#1393</a>
-            </td>
-            <td>
-                <b>
-                    Import cleanups
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 18:47:55 +0000 UTC
     </div>
 </div>
 
