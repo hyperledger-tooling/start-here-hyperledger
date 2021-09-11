@@ -189,31 +189,3 @@ Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1303" class=".btn">#1303</a>
-            </td>
-            <td>
-                <b>
-                    docs(readme.md): add Open in VSCode badge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: shoeb <shoebsd31@gmail.com>
-
-Added a vs code badge as described in this issue :  #1116 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-04 15:42:48 +0000 UTC
-    </div>
-</div>
-
