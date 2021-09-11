@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-acapy-controllers
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/37" class=".btn">#37</a>
-            </td>
-            <td>
-                <b>
-                    Audit packages and upgrade where necessary
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Akiff Manji <akiff.manji@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 22:36:54 +0000 UTC
-    </div>
-</div>
-

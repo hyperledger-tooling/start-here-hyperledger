@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/334" class=".btn">#334</a>
+            </td>
+            <td>
+                <b>
+                    removal of one revocation test as mobile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+Simple fix to remove a mistakenly added Revocation MobileTest in a previous PR. 
+
+This PR closes #330
+There is still a failure with the esatus wallet on revocation test `T001.2-HIPE0011`. This test revokes a credential, but since the verifier doesn't include a timestamp in the proof request, that means they don't care if the credential was revoked.  This case is derived from [RFC 0441](https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0441-present-proof-best-practices#semantics-of-non-revocation-interval-presence-and-absence) and states the following, 
+```
+The absence of any non-revocation interval applicable to a requested item signifies that the verifier has no interest in its
+credential's non-revocation status.
+
+A revocable or non-revocable credential may satisfy a presentation request with or without a non-revocation interval. 
+The presence of a non-revocation interval conveys that if the prover presents a revocable credential, the presentation 
+must include proof of non-revocation. Its presence does not convey any restriction on the revocability of the credential to 
+present: in many cases the verifier cannot know whether a prover's credential is revocable or not.
+```
+Depending on how we interpret that section, we may want to talk to esatus about it. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 22:06:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/332" class=".btn">#332</a>
             </td>
             <td>
@@ -281,37 +322,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-09-09 23:05:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/328" class=".btn">#328</a>
-            </td>
-            <td>
-                <b>
-                    Pin tar version for javascript backchannel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Pin the tar version due to security vulnerability.
-
-Manually "fixed" the yarn.lock file, not sure that this is the best approach :-S
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 22:01:57 +0000 UTC
     </div>
 </div>
 

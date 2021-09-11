@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    Remove tight ping loop on websocket
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #14
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 18:25:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/21" class=".btn">#21</a>
             </td>
             <td>

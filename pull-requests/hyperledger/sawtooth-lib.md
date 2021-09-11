@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/86" class=".btn">#86</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/87" class=".btn">#87</a>
             </td>
             <td>
                 <b>
-                    Fix sqlite receipt store test
+                    Add experimental features to docs.rs
                 </b>
             </td>
         </tr>
@@ -27,17 +27,13 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                Update one of the sqlite receipt store tests to work with updated
-`list_receipts_since` method that now returns an iterator of
-Result<TransactionReceipt, ReceiptStoreError> rather than just
-TransactionReceipt
+                This change adds the experimental features to the list of features that will be used to generate the rust documentation on docs.rs.
 
-Signed-off-by: Isabel Tomb <tomb@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-03 17:03:04 +0000 UTC
+        Created At 2021-09-10 20:59:33 +0000 UTC
     </div>
 </div>
 

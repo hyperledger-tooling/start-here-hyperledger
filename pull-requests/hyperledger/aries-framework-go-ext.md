@@ -140,29 +140,3 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/173" class=".btn">#173</a>
-            </td>
-            <td>
-                <b>
-                    fix: Retry on transient Put and Batch errors for MongoDB
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-03 21:38:42 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2977" class=".btn">#2977</a>
+            </td>
+            <td>
+                <b>
+                    feat: support different Accept header values for DIDcomm versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds support for selection of the DIDComm service version based on
+the OOB invitation's Accept header.
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-10 22:30:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2976" class=".btn">#2976</a>
             </td>
             <td>
