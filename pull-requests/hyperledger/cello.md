@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/331" class=".btn">#331</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-330] cmdlinelib implement of lifecycle_check_commit_readiness…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …&lifecycle_commit
+
+cmdlinelib implement of lifecycle_check_commit_readiness&lifecycle_commit functions
+
+Close #issue-330
+
+Signed-off-by: tianxuanhong <523713078@qq.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-11 08:20:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/329" class=".btn">#329</a>
             </td>
             <td>
@@ -265,67 +297,6 @@ Close #322
     </table>
     <div class="right-align">
         Created At 2021-09-05 00:44:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/321" class=".btn">#321</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-320] lifecycle_query_installed&lifecycle_get_installed_package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                lifecycle_query_installed will get all chaincode information installed in peer. lifecycle_get_installed_package will get all chaincode files installed in peer,
-it's input is packid_id.
-
-Close #issue-320
-
-Signed-off-by: zhaoshihong<523713078@qq.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-04 08:52:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/318" class=".btn">#318</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-317] cmdLineLib of chaincode operation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Construct the chaincode class and implement the methods of chaincode package and chaincode install
-
-Close #issue-317
-
-Signed-off-by: zhaoshihong <523713078@qq.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-04 06:58:58 +0000 UTC
     </div>
 </div>
 
