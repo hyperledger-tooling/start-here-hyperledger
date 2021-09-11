@@ -217,32 +217,3 @@ Added a vs code badge as described in this issue :  #1116
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1302" class=".btn">#1302</a>
-            </td>
-            <td>
-                <b>
-                    feat(fabric-connector) add transact receipt
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: jsjs026 <jasonhack518@gmail.com>
-
-@petermetz , @RafaelAPB 
-The implementation of fabric transact receipt
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-04 05:11:03 +0000 UTC
-    </div>
-</div>
-
