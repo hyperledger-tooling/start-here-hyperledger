@@ -65,29 +65,3 @@ Signed-off-by: mbubnov <bubnov@soramitsu.co.jp>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/134" class=".btn">#134</a>
-            </td>
-            <td>
-                <b>
-                    Updated schema and generated model
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: rkharisov <rinat@soramitsu.co.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-05 14:12:29 +0000 UTC
-    </div>
-</div>
-
