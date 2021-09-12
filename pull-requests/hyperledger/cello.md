@@ -268,35 +268,3 @@ Signed-off-by: zhaoshihong <523713078@qq.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/323" class=".btn">#323</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-322]Modify the agent,network and node list to display abnorma…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …l problems
-
-Modify the agent,network and node list to display abnormal problems
-
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-
-Close #322 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-05 00:44:09 +0000 UTC
-    </div>
-</div>
-
