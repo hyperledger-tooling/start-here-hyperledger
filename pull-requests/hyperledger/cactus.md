@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1323" class=".btn">#1323</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): upgrade Web3 to v1.5.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">Security</span>
+            </td>
+            <td>
+                Hoping that this will fix a good chunk of the outstanding
+security vulnerabilities that we have.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-12 04:02:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1318" class=".btn">#1318</a>
             </td>
             <td>
