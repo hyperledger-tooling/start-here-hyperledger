@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/88" class=".btn">#88</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/89" class=".btn">#89</a>
             </td>
             <td>
                 <b>
-                    Add healthcheck for tokens
+                    Add logging when http requests fail and retry
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
                 
             </td>
             <td>
-                This fixes a timing issue on starting a stack after it's been stopped. Also requires https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/20 to be merged.
+                Add some additional logging when http requests are retried
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-01 23:54:51 +0000 UTC
+        Created At 2021-09-13 14:07:47 +0000 UTC
     </div>
 </div>
 

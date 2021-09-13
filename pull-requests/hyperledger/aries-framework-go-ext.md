@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
             </td>
             <td>
                 <b>
-                    WIP chore: enable UPDATE_DOCUMENT_STORE_ENABLED for orb
+                    chore: enable UPDATE_DOCUMENT_STORE_ENABLED for orb
                 </b>
             </td>
         </tr>
