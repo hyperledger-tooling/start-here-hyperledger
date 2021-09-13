@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/613" class=".btn">#613</a>
+            </td>
+            <td>
+                <b>
+                    Label updates (Issue Credential -> Credential Definition).
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add some sorting on the issue credential screen, allow issue credential without all fields entered.
+Previously, ALL fields were required which means you need data for every field which may not be true.
+Adding sort of schema attributes when we fetch the BPA Schema model, allows for consistent rendering of the attribute order (alphabetical)
+
+Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/613"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-13 15:45:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/612" class=".btn">#612</a>
             </td>
             <td>

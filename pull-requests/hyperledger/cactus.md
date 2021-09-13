@@ -192,29 +192,3 @@ Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1304" class=".btn">#1304</a>
-            </td>
-            <td>
-                <b>
-                    fix(cmd-api-server): cockpit off by default #1239
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolve #1239 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-06 12:46:48 +0000 UTC
-    </div>
-</div>
-

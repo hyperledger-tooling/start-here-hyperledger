@@ -14,38 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1692" class=".btn">#1692</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1696" class=".btn">#1696</a>
             </td>
             <td>
                 <b>
-                    [Ubuntu 20:04] GHA pipeline covering CI and CD 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Ubuntu 20.04</span>
-            </td>
-            <td>
-                This PR solves #1678 and #1679 and provides the GHA workflow for the CI and the CD part of Indy-Node. 
-The PR is based on the work done at Indy-Plenum.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-31 17:13:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1690" class=".btn">#1690</a>
-            </td>
-            <td>
-                <b>
-                    added building and publishing of python artifacts
+                    Update version of Indy SKD
                 </b>
             </td>
         </tr>
@@ -54,15 +27,45 @@ The PR is based on the work done at Indy-Plenum.
                 
             </td>
             <td>
-                This PR adds the building and publishing of the Python artifacts based on the workflow of Indy-Plenum.
-It also adjusts the building of the debian distribution of node accordingly.
+                Update version of Indy SDK to the same version used in Indy-Plenum which is at `python3-indy==1.15.0-dev-1625`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-13 16:24:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1695" class=".btn">#1695</a>
+            </td>
+            <td>
+                <b>
+                    fix uploading of deb files with the same name but different distribution
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR rearranges the uploading structure of the debian files according to the changes made in Indy-Plenum in this [commit](https://github.com/hyperledger/indy-plenum/commit/52ddd72c0dec5f037396bf0e88acbd38d13cdb4d).
+The new structure prevents errors in uploading of debian files with the same filename but build from a different distribution.
+The new structure will be as follows:
+- `indy/pool/xenial/[dev, main, rc, stable]`
+- `indy/pool/bionic/[dev, main, rc, stable]`
+- `indy/pool/focal/[dev, main, rc, stable]`
 
 Signed-off-by: udosson <r.klemens@yahoo.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-31 15:42:22 +0000 UTC
+        Created At 2021-09-13 13:19:09 +0000 UTC
     </div>
 </div>
 
