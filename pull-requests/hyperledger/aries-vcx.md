@@ -36,32 +36,3 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/345" class=".btn">#345</a>
-            </td>
-            <td>
-                <b>
-                    Replace libindy by vdr-tools
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">tests</span>
-            </td>
-            <td>
-                - Refers to my fork of vdr-tools with updated `libc`, otherwise `aries-vcx` doesn't compile (created PR https://gitlab.com/evernym/verity/vdr-tools/-/merge_requests/38 )
-- Replace pgsql plugin test by mysql wallet test
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-06 09:53:00 +0000 UTC
-    </div>
-</div>
-

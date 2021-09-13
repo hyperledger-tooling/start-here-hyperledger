@@ -80,7 +80,7 @@ iroha/src/tx.rs (transaction_not_accepted) is changed
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span>
             </td>
             <td>
                 Signed-off-by: Egor Ivkov <e.o.ivkov@gmail.com>
@@ -97,40 +97,16 @@ iroha/src/tx.rs (transaction_not_accepted) is changed
 
 
 ### Description of the Change
-Closes #1142 
+Adds metadata key value map inside of asset definition. Also adds necessary permissions, instructions and queries.
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
 ### Issue
-
+Closes #1142 
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
 
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
             </td>
         </tr>
     </table>
@@ -365,35 +341,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-09-07 14:03:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1408" class=".btn">#1408</a>
-            </td>
-            <td>
-                <b>
-                    Fix add_peer_test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fix race condition in add_peer_test
-- small refactotign
-- [refac] report_abort() to protp_tx_resp.cpp
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-06 09:50:09 +0000 UTC
     </div>
 </div>
 

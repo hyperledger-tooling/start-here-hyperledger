@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/186" class=".btn">#186</a>
+            </td>
+            <td>
+                <b>
+                    [pkg/test] Remove deprecated function.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `InterfaceData()` is deprecated and returns unreadable data in the
+current go version. Use `Interface()` instead.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-13 08:13:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/185" class=".btn">#185</a>
             </td>
             <td>

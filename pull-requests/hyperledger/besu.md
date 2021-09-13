@@ -198,6 +198,8 @@ Fixes #2715
 
 ## PR description
 
+Added the first part that allows to manage the reception and the response of snap messages as well as an experimental flag. Subsequently this flag will be deleted and SNAP will be put directly in the flag (sync-mode)
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->

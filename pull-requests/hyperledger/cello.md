@@ -236,35 +236,3 @@ Signed-off-by: XuHugo <xq-310@163.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/324" class=".btn">#324</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-319] There is a risk of obtaining expired information
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                If the file has already been created. Then an exception occurs, at which point the file is not deleted, and the next time the function is called, the information continues to be written to the file, causing the user to get an exception.
-
-Perhaps using files is not a good method;
-
-Close #issue-319
-
-Signed-off-by: zhaoshihong <523713078@qq.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-06 12:22:14 +0000 UTC
-    </div>
-</div>
-
