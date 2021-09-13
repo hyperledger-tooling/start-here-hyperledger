@@ -86,33 +86,3 @@ fixes #609
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/606" class=".btn">#606</a>
-            </td>
-            <td>
-                <b>
-                    Proof Template Adjustments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #597
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/606"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-06 09:13:13 +0000 UTC
-    </div>
-</div>
-

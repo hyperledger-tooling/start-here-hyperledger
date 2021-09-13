@@ -38,29 +38,3 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/455" class=".btn">#455</a>
-            </td>
-            <td>
-                <b>
-                    feat(core): add toJson method to baserecord
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jan <jan@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-06 11:19:13 +0000 UTC
-    </div>
-</div>
-

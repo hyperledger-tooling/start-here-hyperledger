@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/931" class=".btn">#931</a>
+            </td>
+            <td>
+                <b>
+                    Added the libzmq3-dev dependency for building in Debian(Ubuntu)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Hi, I have added the needed pre-requisite for building Grid on Debian(Ubuntu).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-13 12:18:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/929" class=".btn">#929</a>
             </td>
             <td>

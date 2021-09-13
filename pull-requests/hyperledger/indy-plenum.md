@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1565" class=".btn">#1565</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1566" class=".btn">#1566</a>
             </td>
             <td>
                 <b>
-                    added skip upload of python package to pypi package if already exists
+                    Ubtuntu 20.04: fix uploading of deb files with the same name but different distribution
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                Signed-off-by: udosson <r.klemens@yahoo.de>
+                This PR cherry-picks the commit from #1563 and applies the same structure of uploading the debian packages to the `ubtuntu-20.04-upgrade` feature branch.
+
+Signed-off-by: udosson <r.klemens@yahoo.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-31 15:40:56 +0000 UTC
+        Created At 2021-09-13 10:11:40 +0000 UTC
     </div>
 </div>
 

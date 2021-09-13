@@ -68,30 +68,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/486" class=".btn">#486</a>
-            </td>
-            <td>
-                <b>
-                    updated chaincodes for asset-transfer-basic in order to show good example on how achieving determinism over json
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Show good praticse in order to make sure that data will be stored in the blockchain in a deterministic way using json
-Signed-off-by: fraVlaca <ocsenarf@outlook.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-06 10:05:47 +0000 UTC
-    </div>
-</div>
-
