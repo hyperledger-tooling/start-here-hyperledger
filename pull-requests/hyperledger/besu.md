@@ -71,7 +71,7 @@ Note: This build on top of the qbft contract vote migration PR, once that is in 
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
