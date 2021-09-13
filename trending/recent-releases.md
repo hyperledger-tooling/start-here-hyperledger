@@ -3,11 +3,11 @@
 
 [v0.3.0](https://github.com/hyperledger-labs/firefly-ui/releases/tag/v0.3.0) v0.3.0_5bc7947
 
-[v1.5.2](https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.2) v1.5.2
+[core/network/fabric-interop-cc/libs/assetexchange/v1.2.3](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/assetexchange/v1.2.3) v1.2.3 - Go Asset Exchange - Sep 13 2021
 
-[v1.0.0-rc2](https://github.com/hyperledger/fabric-private-chaincode/releases/tag/v1.0.0-rc2) FPC v1.0 RC2
+[core/network/fabric-interop-cc/contracts/interop/v1.2.3](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.2.3) v1.2.3 - Go Fabric Interop Chaincode - Sep 13 2021
 
-[v2.3.3](https://github.com/hyperledger/fabric/releases/tag/v2.3.3) v2.3.3
+[sdks/fabric/go-sdk/v1.2.3](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/sdks/fabric/go-sdk/v1.2.3) v1.2.3 Weaver Go SDK - Sep 13 2021
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
