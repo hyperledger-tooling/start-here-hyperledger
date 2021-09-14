@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/87" class=".btn">#87</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/88" class=".btn">#88</a>
             </td>
             <td>
                 <b>
-                    chore: replaced reference to "master" with "main"
+                    feat: Add revocation support to credentials
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                While going through the readme to setup a development environment, the
-plugin failed to install due to the `pip install` command pointing to
-the wrong branch. This change fixes that reference.
+                Currently running into an error saving credentials with the `support_revocation` flag. Data appears to be successfully received from the client, however, saving the details is another matter. Every time the credential definition is retrieved by the toolbox, `support_revocation` is set to `false` (the default value).
 
-Signed-off-by: Colton Wolkins (Laptop) <colton@indicio.tech>
+Signed-off-by: Colton Wolkins <colton@indicio.tech>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-02 18:34:58 +0000 UTC
+        Created At 2021-09-13 19:56:48 +0000 UTC
     </div>
 </div>
 
