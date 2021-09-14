@@ -1,13 +1,13 @@
 
-[1156](https://github.com/hyperledger/caliper/pull/1156) allow creating onchain privacy groups during test setup
+[1332](https://github.com/hyperledger/cactus/pull/1332) fix: openapi validation test for iroha plugin
 
-[262](https://github.com/hyperledger/blockchain-explorer/pull/262) Fix script to specify the BC Exprorer process
+[191](https://github.com/hyperledger/fabric-gateway/pull/191) Expose ChaincodeEventsRequest as interface in Java API
 
-[1327](https://github.com/hyperledger/cactus/pull/1327) feat(validator): Iroha validator using python
+[141](https://github.com/hyperledger/iroha-java/pull/141) Altered coroutine scope from Global and renamed some methods 
 
-[2758](https://github.com/hyperledger/besu/pull/2758) [MINOR] typo
+[1330](https://github.com/hyperledger/cactus/pull/1330) fix: openapi validation test for keychain-vault plugin
 
-[615](https://github.com/hyperledger-labs/business-partner-agent/pull/615) formatting for nev header image with max dimensions
+[2909](https://github.com/hyperledger/fabric/pull/2909) Write config blocks synchronously in Orderer
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
