@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/192" class=".btn">#192</a>
+            </td>
+            <td>
+                <b>
+                    Check for null names in Java client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Network name in Gateway.getNetwork()
+- Chaincode ID in Network.getContract() and Network.getChaincodeEvents()
+- Transaction name in Contract.submitTransaction(), evaluateTransaction() and newProposal()
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 15:14:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/191" class=".btn">#191</a>
             </td>
             <td>

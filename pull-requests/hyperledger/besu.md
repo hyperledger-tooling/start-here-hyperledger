@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2761" class=".btn">#2761</a>
+            </td>
+            <td>
+                <b>
+                    Gradle 7.2 upgrade / Java 17 Build Support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Upgrade to Gradle 7.2, which supports Java 17
+* Regenerate gradlew script and wrapper (as recommended)
+* Suppress the removal warning for `AccessController` for now
+* Update the JMH version to get rid of Gradle deprecation warning
+* Add spotless `targetExcludes` so it won't re-format submodules
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 17:54:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2758" class=".btn">#2758</a>
             </td>
             <td>

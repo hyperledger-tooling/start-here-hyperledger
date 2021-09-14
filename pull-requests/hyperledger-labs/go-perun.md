@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/187" class=".btn">#187</a>
+            </td>
+            <td>
+                <b>
+                    Create issue template
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding a simple issue template
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 16:38:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/186" class=".btn">#186</a>
             </td>
             <td>

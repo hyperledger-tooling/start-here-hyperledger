@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/491" class=".btn">#491</a>
-            </td>
-            <td>
-                <b>
-                    Implement signatureVerify() correctly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The actual implementation was different than originally planned.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-07 14:32:28 +0000 UTC
-    </div>
-</div>
-

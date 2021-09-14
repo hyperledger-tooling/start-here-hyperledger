@@ -1,13 +1,13 @@
 
-[1332](https://github.com/hyperledger/cactus/pull/1332) fix: openapi validation test for iroha plugin
+[2984](https://github.com/hyperledger/aries-framework-go/pull/2984) feat: add mediatype profiles and key types to agent-rest
 
-[191](https://github.com/hyperledger/fabric-gateway/pull/191) Expose ChaincodeEventsRequest as interface in Java API
+[2983](https://github.com/hyperledger/aries-framework-go/pull/2983) feat: Present proof v3
 
-[141](https://github.com/hyperledger/iroha-java/pull/141) Altered coroutine scope from Global and renamed some methods 
+[2761](https://github.com/hyperledger/besu/pull/2761) Gradle 7.2 upgrade / Java 17 Build Support
 
-[1330](https://github.com/hyperledger/cactus/pull/1330) fix: openapi validation test for keychain-vault plugin
+[180](https://github.com/hyperledger/aries-framework-go-ext/pull/180) chore: update to latest orb
 
-[2909](https://github.com/hyperledger/fabric/pull/2909) Write config blocks synchronously in Orderer
+[1672](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1672) [quorum] fixed quorum keystore password issue
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

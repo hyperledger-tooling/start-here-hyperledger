@@ -203,29 +203,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1310" class=".btn">#1310</a>
-            </td>
-            <td>
-                <b>
-                    docs(ledger-support-matrix): updated releases #1279
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolve #1279 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-07 12:43:44 +0000 UTC
-    </div>
-</div>
-
