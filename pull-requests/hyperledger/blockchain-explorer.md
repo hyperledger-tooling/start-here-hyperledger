@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/261" class=".btn">#261</a>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/262" class=".btn">#262</a>
             </td>
             <td>
                 <b>
-                    BE-881 Release v1.1.8
+                    Fix script to specify the BC Exprorer process
                 </b>
             </td>
         </tr>
@@ -27,12 +27,24 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
                 
             </td>
             <td>
-                <nil>
+                "stop.sh" uses "ps" command to identify the process ID of Explorer.
+
+> ps aux | grep -v "awk" | awk '/name - hyperledger-explorer/ {print $2}'
+
+But Alpine Linux, which is used by Explorer container, returns the following values for "ps" command.
+
+PID   USER   TIME    COMMAND
+45     root     0:12    node app/main.js name - hyperledger-explorer
+
+So correct process ID cannot be obtained by the above method. (Misidentify "root" as process ID.) 
+It works correctly by specifying the format of the output of "ps" command like follows.
+
+> ps **-eo pid,args** | grep -v "awk" | awk '/name - hyperledger-explorer/ {print $1}'
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-14 12:25:35 +0000 UTC
+        Created At 2021-09-14 05:26:44 +0000 UTC
     </div>
 </div>
 
