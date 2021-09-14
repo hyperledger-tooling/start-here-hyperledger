@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/336" class=".btn">#336</a>
+            </td>
+            <td>
+                <b>
+                    moved verity to the inviter roll
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+This PR fixes the accidental role reversal for verity. Verity cannot play the invitee role. 
+
+To test this PR
+`LEDGER_URL_CONFIG=http://dev.bcovrin.vonx.io ./manage run -d acapy-main -a verity -t @RFC0160 -t @AcceptanceTest -t ~@wip`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 13:21:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/335" class=".btn">#335</a>
             </td>
             <td>

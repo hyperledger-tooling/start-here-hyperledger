@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1413" class=".btn">#1413</a>
+            </td>
+            <td>
+                <b>
+                     Make mediation invitation parameter idempotent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To ease Aca-py's deployment in scenarios where command line arguments
+cannot be changed easily, make `--mediator-invitation` and
+`--mediator-connections-invite` available to the `provision` command.
+
+`provision` stores the mediator invite to be used by the agent (effectively "provisioning" it).
+`start` uses the stored invite. Once used, it does not establish connection again.
+If the invitation changes, the  stored value is replaced by the new one, the default mediator is cleared and the new invitation
+is used to establish connection.
+
+Boy-scouting: I split the mediation invite tests apart from the other ones for the sake of easier comprehension/code management.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 13:37:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1411" class=".btn">#1411</a>
             </td>
             <td>

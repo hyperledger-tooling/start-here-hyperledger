@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1672" class=".btn">#1672</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] fixed quorum keystore password issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 17:25:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1671" class=".btn">#1671</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] updated to support operations console
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Add helmchart for Fabric operations console
+- Rename ca-server to more appropriate generate_cacerts
+- Add support for grpcws for peer and orderer charts
+- Add support for Operations API (non TLS) for ca, peer and orderer charts
+
+ 
+**Linked issue**
+Resolves #1610 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 15:53:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1663" class=".btn">#1663</a>
             </td>
             <td>
@@ -188,44 +251,6 @@ resolves #1592
     </table>
     <div class="right-align">
         Created At 2021-09-08 10:23:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1656" class=".btn">#1656</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] smc test on git actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Add quorum smartcontract test on git actions
-
- 
-
-**Reviewed by**
-@pppazos
-
- 
-
-**Linked issue**
-#740
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-07 13:09:29 +0000 UTC
     </div>
 </div>
 

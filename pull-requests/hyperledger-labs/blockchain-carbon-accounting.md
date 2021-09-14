@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/280" class=".btn">#280</a>
-            </td>
-            <td>
-                <b>
-                    Update offsets directory data to V2 of Berkeley Carbon Trading Project data set
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-07 17:14:00 +0000 UTC
-    </div>
-</div>
-

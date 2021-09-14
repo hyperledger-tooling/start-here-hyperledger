@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/262" class=".btn">#262</a>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/264" class=".btn">#264</a>
             </td>
             <td>
                 <b>
-                    Fix script to specify the BC Exprorer process
+                    BE-874 Fix script to specify the BC Exprorer process
                 </b>
             </td>
         </tr>
@@ -33,18 +33,18 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
 
 But Alpine Linux, which is used by Explorer container, returns the following values for "ps" command.
 
-PID   USER   TIME    COMMAND
-45     root     0:12    node app/main.js name - hyperledger-explorer
+> PID USER TIME COMMAND
+> 45 root 0:12 node app/main.js name - hyperledger-explorer
 
-So correct process ID cannot be obtained by the above method. (Misidentify "root" as process ID.) 
+So correct process ID cannot be obtained by the above method. (Misidentify "root" as process ID.)
 It works correctly by specifying the format of the output of "ps" command like follows.
 
-> ps **-eo pid,args** | grep -v "awk" | awk '/name - hyperledger-explorer/ {print $1}'
+> ps -eo pid,args | grep -v "awk" | awk '/name - hyperledger-explorer/ {print $1}'
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-14 05:26:44 +0000 UTC
+        Created At 2021-09-14 14:22:49 +0000 UTC
     </div>
 </div>
 
