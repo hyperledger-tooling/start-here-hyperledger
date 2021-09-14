@@ -1,13 +1,13 @@
 
+[1156](https://github.com/hyperledger/caliper/pull/1156) allow creating onchain privacy groups during test setup
+
+[262](https://github.com/hyperledger/blockchain-explorer/pull/262) Fix script to specify the BC Exprorer process
+
+[1327](https://github.com/hyperledger/cactus/pull/1327) feat(validator): Iroha validator using python
+
+[2758](https://github.com/hyperledger/besu/pull/2758) [MINOR] typo
+
 [615](https://github.com/hyperledger-labs/business-partner-agent/pull/615) formatting for nev header image with max dimensions
-
-[614](https://github.com/hyperledger-labs/business-partner-agent/pull/614) Show Partner and Cred. Def on Credential Data Form
-
-[152](https://github.com/hyperledger/sawtooth-sabre/pull/152) Remove smart permissions and pike
-
-[2907](https://github.com/hyperledger/fabric/pull/2907) Update docs for Jira to GitHub issue transition
-
-[335](https://github.com/hyperledger/aries-agent-test-harness/pull/335) Acapy-b-verity test runset
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

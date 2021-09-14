@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1327" class=".btn">#1327</a>
+            </td>
+            <td>
+                <b>
+                    feat(validator): Iroha validator using python
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Hyperledger Iroha Validator
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 05:18:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1323" class=".btn">#1323</a>
             </td>
             <td>
@@ -161,34 +187,6 @@ Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
     </table>
     <div class="right-align">
         Created At 2021-09-07 10:52:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1307" class=".btn">#1307</a>
-            </td>
-            <td>
-                <b>
-                    fix(verify-algo): fixed algorism for jwt in verifier to match algorism in validator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                changed RS256  to ES256.
-
-Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-07 05:03:34 +0000 UTC
     </div>
 </div>
 
