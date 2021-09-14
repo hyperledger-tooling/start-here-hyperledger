@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1332" class=".btn">#1332</a>
+            </td>
+            <td>
+                <b>
+                    fix: openapi validation test for iroha plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Includes test for endpoint runTransactionV1
+with test cases:
+  - Right request
+  - Request including an invalid parameter
+  - Request without a required parameter
+
+Closes #1331
+
+Related with #847
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 11:45:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1330" class=".btn">#1330</a>
+            </td>
+            <td>
+                <b>
+                    fix: openapi validation test for keychain-vault plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Includes tests for endpoints setKeychainEntryV1,
+getKeychainEntryV1, deleteKeychainEntryV1 and
+hasKeychainEntryV1, each of them, when appropiate,
+with test cases:
+  - Right request
+  - Request including an invalid parameter
+  - Request without a required parameter
+
+Closes #1329
+
+Relationed with #847
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 09:01:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1327" class=".btn">#1327</a>
             </td>
             <td>
@@ -152,41 +226,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-09-07 12:43:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1309" class=".btn">#1309</a>
-            </td>
-            <td>
-                <b>
-                    feature(improve-indy-testnet-docker): auto-start server on container startup #1308
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Modified Dockerfile so that validator program is automatically run from supervisord.
-
-Also:
-- fixed a problem found during this implementation: sandbox directory for indy_pool was not included in current version. Now startup script automatically initializes itself when it cannot find necessary files.
-- lessened dependency to indy-sdk (some files are copied from indy-sdk to indy-testnet directory) by copying some files from indy-sdk to this directory. 
-- Note: as of now, a container for testing server containers still depends on indy-sdk source tree. This needs to be fixed in future PR.
-
-This PR corresponds to Issue #1308 
-
-Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-07 10:52:02 +0000 UTC
     </div>
 </div>
 
