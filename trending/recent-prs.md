@@ -1,13 +1,13 @@
 
-[1411](https://github.com/hyperledger/aries-cloudagent-python/pull/1411) Make requested attributes and predicates required on indy proof request
+[615](https://github.com/hyperledger-labs/business-partner-agent/pull/615) formatting for nev header image with max dimensions
 
-[1696](https://github.com/hyperledger/indy-node/pull/1696) Update version of Indy SKD
+[614](https://github.com/hyperledger-labs/business-partner-agent/pull/614) Show Partner and Cred. Def on Credential Data Form
 
-[147](https://github.com/hyperledger-labs/firefly-ethconnect/pull/147) Allow including method inputs with subscribed events
+[152](https://github.com/hyperledger/sawtooth-sabre/pull/152) Remove smart permissions and pike
 
-[255](https://github.com/hyperledger/fabric-ca/pull/255) Fixes for CA deployment guide
+[2907](https://github.com/hyperledger/fabric/pull/2907) Update docs for Jira to GitHub issue transition
 
-[795](https://github.com/hyperledger/besu-docs/pull/795) Document eth_feeHistory
+[335](https://github.com/hyperledger/aries-agent-test-harness/pull/335) Acapy-b-verity test runset
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
