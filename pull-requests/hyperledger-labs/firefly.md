@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/192" class=".btn">#192</a>
+            </td>
+            <td>
+                <b>
+                    Add identity manager and API input matrix logic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Work in progress on https://github.com/hyperledger-labs/firefly/issues/187
+
+Key proposals in this code so far (which doesn't yet build)
+- New `Identity Manager [Im]` component
+   - This is _not_ a plugin, instead a consistent component to do all identity mapping
+   - This would be expected to be where plugins would attach in the future
+   - Implementation includes testing of the various matrix options
+   - Implementation includes wiring this into `Orchestrator`
+   - Implementation includes changing imports on calling packages
+   - TODO (in this PR): Fix all the code that that currently calls `Resolve` on the now defunct Identity Interface
+- New `fftypes.Identity` sub-object
+   - Intended to replace single `author` field with `author`+`key` fields
+   - Pass pointer to this part of the struct to the new `im.ResolveInputIdentity` function
+   - TODO (in this PR): Embed this into all objects that can contain identity
+- Stubbing out the `Identity Interface [Ii]` plugin for now
+  - Still retained `onchain` key for config compatibility
+  - Removed all methods from interface
+  - Changed implementation to `TBD` for now in the code
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 05:41:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/191" class=".btn">#191</a>
             </td>
             <td>
