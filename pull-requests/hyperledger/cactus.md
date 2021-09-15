@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1336" class=".btn">#1336</a>
+            </td>
+            <td>
+                <b>
+                    feat(ci): skip check when only documentation files #1014
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolve #1014 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 08:14:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1335" class=".btn">#1335</a>
             </td>
             <td>

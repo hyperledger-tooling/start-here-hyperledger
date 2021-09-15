@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/194" class=".btn">#194</a>
+            </td>
+            <td>
+                <b>
+                    193 rename wallettest variable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #193 
+
+The variable name was suggesting that it can always be initialized with `Address.Bytes`, but the tests were assuming that the address is decodable, which is not necessarily true for `Address.Bytes`. In particular, note that the length of `Address.Bytes` can be retrieved using the `len` operator, while the length of an encoded address must either be known in advance or contained in the encoding.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 08:34:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/192" class=".btn">#192</a>
+            </td>
+            <td>
+                <b>
+                    190 verify params
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Channel backend signature verification: Check Params.
+
+Closes #190 
+
+Needs #189
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 07:16:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/191" class=".btn">#191</a>
+            </td>
+            <td>
+                <b>
+                    :bug: [channel/test] Generate modified params with correct id
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also ensure that modified states are consistent.
+
+Closes #189 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 07:10:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/187" class=".btn">#187</a>
             </td>
             <td>

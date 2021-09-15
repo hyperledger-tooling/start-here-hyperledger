@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2921" class=".btn">#2921</a>
+            </td>
+            <td>
+                <b>
+                    Fix broken links for international workgroups (#2920)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The list of international workgroups was moved
+from https://wiki.hyperledger.org/display/fabric/International+groups
+to https://wiki.hyperledger.org/display/I18N/International+groups.
+
+Signed-off-by: Justin Yang <justin.yang@themedium.io>
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+Broken links have been used in the documentation.
+
+#### Additional details
+The list of international workgroups was moved
+from https://wiki.hyperledger.org/display/fabric/International+groups
+to https://wiki.hyperledger.org/display/I18N/International+groups.
+But the documentation has used the old one.
+
+#### Related issues
+#2920 (https://github.com/hyperledger/fabric/issues/2920)
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 06:46:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2919" class=".btn">#2919</a>
             </td>
             <td>
