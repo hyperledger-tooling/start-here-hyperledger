@@ -253,29 +253,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2899" class=".btn">#2899</a>
-            </td>
-            <td>
-                <b>
-                    Minor code clean-up in Gateway ChaincodeEvents handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Remove code duplication and improve readability of `ChaincodeEvents()` function.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-08 06:05:57 +0000 UTC
-    </div>
-</div>
-

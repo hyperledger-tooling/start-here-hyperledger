@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1335" class=".btn">#1335</a>
+            </td>
+            <td>
+                <b>
+                    ci: re-enable image caching, skip flaky tests #1334
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                Fixes #1334
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 02:25:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1333" class=".btn">#1333</a>
             </td>
             <td>
