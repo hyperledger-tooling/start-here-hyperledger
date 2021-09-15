@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1333" class=".btn">#1333</a>
+            </td>
+            <td>
+                <b>
+                    Web socket identity provider
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                New feature for fabric connector. identity provider for external clients using a web-socket connection.
+    - Connect external clients to a fabric ca server
+        (1) setup FabricSocketServer on ca host
+        (2) create external web-socket client with pub/priv key pair
+        (3) pass pubkey hex to socket server to issue unique web-socket sessionId
+        (4) open authenticated sessionId including signed sessionId in url parameters of initial web-socket connection request
+    - Use fabric plugin with FabricSigningCredentialType.WsX509 to
+        - enroll registrar with admin password and admin's external pkey
+        - register new user with admins external pkey and secret
+        - enroll new user with user external pkey and secret
+        - submit transactions
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 21:55:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1332" class=".btn">#1332</a>
             </td>
             <td>
@@ -24,7 +60,7 @@ permalink: /pull-requests/hyperledger/cactus
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Iroha</span>
             </td>
             <td>
                 Includes test for endpoint runTransactionV1

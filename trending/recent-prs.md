@@ -1,13 +1,13 @@
 
-[2984](https://github.com/hyperledger/aries-framework-go/pull/2984) feat: add mediatype profiles and key types to agent-rest
+[2763](https://github.com/hyperledger/besu/pull/2763) Stub out new execution endpoint api, #474
 
-[2983](https://github.com/hyperledger/aries-framework-go/pull/2983) feat: Present proof v3
+[337](https://github.com/hyperledger/aries-agent-test-harness/pull/337) Remove PR triggered tests until Allure problem can be resolved
 
-[2761](https://github.com/hyperledger/besu/pull/2761) Gradle 7.2 upgrade / Java 17 Build Support
+[617](https://github.com/hyperledger-labs/business-partner-agent/pull/617) Expert Mode - Issue Credential from JSON
 
-[180](https://github.com/hyperledger/aries-framework-go-ext/pull/180) chore: update to latest orb
+[1333](https://github.com/hyperledger/cactus/pull/1333) Web socket identity provider
 
-[1672](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1672) [quorum] fixed quorum keystore password issue
+[2986](https://github.com/hyperledger/aries-framework-go/pull/2986) chore: complete release 0.1.7
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

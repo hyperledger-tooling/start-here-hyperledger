@@ -14,6 +14,134 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/933" class=".btn">#933</a>
+            </td>
+            <td>
+                <b>
+                    Implement data validation module and PO validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements a new data validation module. It includes new functionality to validate purchase orders with the GS1 Order XML 3.4 specification. The GDSN validation functionality was also moved here.
+
+To test:
+
+- navigate to CLI and `$ cargo build --features=experimental`
+- Navigate to root grid directory
+- `$ export PATH=$PATH:$(pwd)/target/debug`
+- Copy the following xml into a file called `test-po.xml`:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<order:orderMessage xmlns:order="urn:gs1:ecom:order:xsd:3"
+    xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:gs1:ecom:order:xsd:3 ../Schemas/gs1/ecom/Order.xsd">
+    <sh:StandardBusinessDocumentHeader>
+        <sh:HeaderVersion>1.0</sh:HeaderVersion>
+        <sh:Sender>
+            <sh:Identifier Authority="GS1"/>
+            <sh:ContactInformation>
+                <sh:Contact>John Doe</sh:Contact>
+                <sh:EmailAddress>John_Doe@purchasing.XYZretailer.com</sh:EmailAddress>
+                <sh:TelephoneNumber>+1-212-555-2122</sh:TelephoneNumber>
+                <sh:ContactTypeIdentifier>Buyer</sh:ContactTypeIdentifier>
+            </sh:ContactInformation>
+        </sh:Sender>
+        <sh:Receiver>
+            <sh:Identifier Authority="GS1"/>
+            <sh:ContactInformation>
+                <sh:Contact>Mary Smith</sh:Contact>
+                <sh:EmailAddress>Mary_Smith@widgets.com</sh:EmailAddress>
+                <sh:TelephoneNumber>+1-312-555-2125</sh:TelephoneNumber>
+                <sh:ContactTypeIdentifier>Seller</sh:ContactTypeIdentifier>
+            </sh:ContactInformation>
+        </sh:Receiver>
+        <sh:DocumentIdentification>
+            <sh:Standard>GS1</sh:Standard>
+            <sh:TypeVersion>3.4</sh:TypeVersion>
+            <sh:InstanceIdentifier>100002</sh:InstanceIdentifier>
+            <sh:Type/>
+            <sh:MultipleType>false</sh:MultipleType>
+            <sh:CreationDateAndTime>asdf</sh:CreationDateAndTime>
+        </sh:DocumentIdentification>
+    </sh:StandardBusinessDocumentHeader>
+    <order>
+        <creationDateTime>2021-07-14T12:00:00.000-01:00</creationDateTime>
+        <documentStatusCode>ORIGINAL</documentStatusCode>
+        <orderIdentification>
+            <entityIdentification>PO3352</entityIdentification>
+            <contentOwner>
+                <gln>5412345000013</gln>
+            </contentOwner>
+        </orderIdentification>
+        <buyer>
+            <gln>5412345000013</gln>
+        </buyer>
+        <seller>
+            <gln>4098765000010</gln>
+        </seller>
+        <orderLogisticalInformation>
+            <shipFrom>
+                <gln>4098765000010</gln>
+            </shipFrom>
+            <shipTo>
+                <gln>5412345000037</gln>
+            </shipTo>
+            <inventoryLocation>
+                <gln>4098765000010</gln>
+            </inventoryLocation>
+            <orderLogisticalDateInformation>
+                <requestedDeliveryDateTime>
+                    <date>2011-03-11</date>
+                    <time>12:00:00.000-01:00</time>
+                </requestedDeliveryDateTime>
+                <requestedShipDateTime>
+                    <date>2011-03-11</date>
+                    <time>12:00:00.000-01:00</time>
+                </requestedShipDateTime>
+            </orderLogisticalDateInformation>
+        </orderLogisticalInformation>
+        <orderLineItem>
+            <lineItemNumber>1</lineItemNumber>
+            <requestedQuantity measurementUnitCode="EA">10</requestedQuantity>
+            <netAmount currencyCode="EUR">100.00</netAmount>
+            <netPrice currencyCode="EUR">10.00</netPrice>
+            <transactionalTradeItem>
+                <gtin>40987650000345</gtin>
+            </transactionalTradeItem>
+        </orderLineItem>
+        <orderLineItem>
+            <lineItemNumber>2</lineItemNumber>
+            <requestedQuantity measurementUnitCode="EA">24</requestedQuantity>
+            <netAmount currencyCode="EUR">4659</netAmount>
+            <netPrice currencyCode="EUR">194.125</netPrice>
+            <transactionalTradeItem>
+                <gtin>40987650000346</gtin>
+            </transactionalTradeItem>
+        </orderLineItem>
+    </order>
+</order:orderMessage>
+```
+- `$ grid po version create test-po --org myorg --order-xml test-po.xml`
+The PO name and org aren't used since we arent actually creating anything. You should see a log message: "Purchase order is valid"
+- Try changing some values in the PO XML to make it invalid. After running the validation command you should see the validation errors and a dump of the XML.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 20:10:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/932" class=".btn">#932</a>
             </td>
             <td>

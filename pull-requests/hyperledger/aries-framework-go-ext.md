@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
             </td>
             <td>
                 <b>
-                    chore: update to latest orb
+                    chore: add temp solution to resolve updated did from cache
                 </b>
             </td>
         </tr>

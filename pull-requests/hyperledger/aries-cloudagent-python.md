@@ -209,29 +209,3 @@ main changes:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1400" class=".btn">#1400</a>
-            </td>
-            <td>
-                <b>
-                    Run integration tests using external ledger and tails server
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-07 23:41:20 +0000 UTC
-    </div>
-</div>
-
