@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2987" class=".btn">#2987</a>
+            </td>
+            <td>
+                <b>
+                    feat: extend support cases for VC BBS derivation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - support embedded contexts: include custom contexts in bbs limited credential template
+- VCs no longer required to have verifiable credential context as the *first* context.
+- support ID being optional: allow json-ld Processor to Frame docs with blank ID
+
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 06:33:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2986" class=".btn">#2986</a>
             </td>
             <td>

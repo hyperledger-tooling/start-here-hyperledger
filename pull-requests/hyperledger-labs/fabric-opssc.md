@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    chore(*): Bump the fabric versions to support the latest stable versions
+                    Enhance voting functions for chaincode_ops
                 </b>
             </td>
         </tr>
@@ -27,12 +27,20 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
                 
             </td>
             <td>
-                <nil>
+                This PR enhances voting functions for `chaincode_ops` as follows:
+- Improve voting acceptance specifications
+  - Not accept overwriting of votes from the same organization
+  - Not accept voting after the decision  (should explicitly raise an error)
+- Support rejection of proposal
+- Support withdrawal of proposal
+
+The new `chaincode_ops` can cover a series of state transitions of chaincode update proposals,
+including proposal rejection and withdrawal, although it is not yet flexible enough.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-07 08:35:18 +0000 UTC
+        Created At 2021-09-15 10:43:03 +0000 UTC
     </div>
 </div>
 

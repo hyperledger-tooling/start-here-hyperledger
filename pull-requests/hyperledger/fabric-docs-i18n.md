@@ -14,31 +14,29 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/550" class=".btn">#550</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/551" class=".btn">#551</a>
             </td>
             <td>
                 <b>
-                    [ja_JP] Update "chaincode4ade.rst"
+                    Fix broken links for international workgroups (#552)
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">jaJP-docs-ongoing</span>
+                
             </td>
             <td>
-                This patch updates "Tutorials >> Writing Your First Chaincode" to the latest one.
+                The list of international workgroups was moved
+from https://wiki.hyperledger.org/display/fabric/International+groups
+to https://wiki.hyperledger.org/display/I18N/International+groups
 
-Commit of the fabric repository: 9a6b35104e88dc2df08db7c7b0ba3d0f61127a85
-
-Resolves #532
-
-Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
+Signed-off-by: Justin Yang <justin.yang@themedium.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-30 23:53:58 +0000 UTC
+        Created At 2021-09-15 08:17:57 +0000 UTC
     </div>
 </div>
 
