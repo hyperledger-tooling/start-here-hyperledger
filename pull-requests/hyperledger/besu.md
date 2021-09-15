@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2763" class=".btn">#2763</a>
+            </td>
+            <td>
+                <b>
+                    Stub out new execution endpoint api, #474
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update json-rpc consensus API (474)
+* change rpc endpoint to engine_* rather than consensus_*
+* split consensus_assembleBlock into engine_preparePayload and engine_getPayload
+* engine_preparePayload should be stubbed to return a success response
+* engine_getPayload should repurpose consensus_assembleBlock
+
+stub out:
+* engine_executePayload
+* engine_consensusValidated
+* engine_forkChoiceUpdated
+
+remove/repurpose:
+* consensus_finalizeBlock
+* consensus_newBlock
+* consensus_setHead
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 00:01:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2761" class=".btn">#2761</a>
             </td>
             <td>

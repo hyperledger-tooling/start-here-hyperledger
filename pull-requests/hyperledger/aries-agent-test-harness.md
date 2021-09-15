@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/337" class=".btn">#337</a>
+            </td>
+            <td>
+                <b>
+                    Remove PR triggered tests until Allure problem can be resolved
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+Removing the triggering of the tests on PR addition.  The tests are failing on every run because they don't have permission to run the Allure publishing. To re-add:
+
+- figure out and correct the Allure publishing issue.
+- make a new action that runs the test, but doesn't do the Allure testing.
+
+For now, we'll just turn off the test runs.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 23:38:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/336" class=".btn">#336</a>
             </td>
             <td>
