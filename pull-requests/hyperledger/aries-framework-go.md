@@ -28,8 +28,8 @@ permalink: /pull-requests/hyperledger/aries-framework-go
             </td>
             <td>
                 - support embedded contexts: include custom contexts in bbs limited credential template
-- VCs no longer required to have verifiable credential context as the *first* context.
 - support ID being optional: allow json-ld Processor to Frame docs with blank ID
+- add interop support to new didexchange recipient key handling
 
 Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
             </td>

@@ -62,34 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/625" class=".btn">#625</a>
-            </td>
-            <td>
-                <b>
-                    Catch all chaincode exceptions and fail gracefully with log
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR solves #598 .
-
-Additional work is required for testing and for better handling errors.
-
-Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-08 18:09:14 +0000 UTC
-    </div>
-</div>
-

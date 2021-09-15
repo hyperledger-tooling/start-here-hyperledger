@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/194" class=".btn">#194</a>
+            </td>
+            <td>
+                <b>
+                    Use accessors for protobuf fields in Go client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Using getters to access fields on protobuf structs reduces the chance of runtime panics in the event that malformed protobuf messages are received from the Fabric Gateway peer. Results returned to the application will still not be correct but the chance of application failure is reduced.
+
+Note: this is **not** a fix for #193 but may make diagnosis of bugs of this type easier in the Go client, since the client is more likely to remain running for debugging or results analysis.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 13:24:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/192" class=".btn">#192</a>
             </td>
             <td>
@@ -113,58 +141,6 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     </table>
     <div class="right-align">
         Created At 2021-09-10 09:56:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/187" class=".btn">#187</a>
-            </td>
-            <td>
-                <b>
-                    Allow specified start block for chaincode events in Go client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Unit test coverage only. Scenario tests will come later when all client language implementations are complete.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-08 15:27:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/186" class=".btn">#186</a>
-            </td>
-            <td>
-                <b>
-                    Use testify for all assertions in Go unit tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Testify was already used in a few tests so, rather than mix two assertion frameworks, use testify for all assertions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-08 13:03:16 +0000 UTC
     </div>
 </div>
 

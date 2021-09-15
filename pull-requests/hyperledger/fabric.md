@@ -279,31 +279,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2900" class=".btn">#2900</a>
-            </td>
-            <td>
-                <b>
-                    updated chaincode4ade.rst("Writing your first chaincode") showing good practise on how to achieve determinism in json
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: fraVlaca <ocsenarf@outlook.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-08 15:00:23 +0000 UTC
-    </div>
-</div>
-

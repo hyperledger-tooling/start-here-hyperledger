@@ -1,13 +1,13 @@
 
-[16](https://github.com/hyperledger/indy-did-method/pull/16) Feature/ignore build
+[186](https://github.com/hyperledger/transact/pull/186) Add GHA files
 
-[1438](https://github.com/hyperledger/iroha/pull/1438) Fix http status codes
+[183](https://github.com/hyperledger/aries-framework-go-ext/pull/183) chore: update to release versions
 
-[12](https://github.com/hyperledger-labs/fabric-opssc/pull/12) Enhance voting functions for chaincode_ops
+[1699](https://github.com/hyperledger/indy-node/pull/1699) Ubuntu 20.04: bug fix: added missing env of distribution in publish_artifacts
 
-[142](https://github.com/hyperledger/iroha-java/pull/142) Added extension to run containers per test and added more instructions
+[200](https://github.com/hyperledger/fabric-chaincode-java/pull/200) Add opentelemetry
 
-[2767](https://github.com/hyperledger/besu/pull/2767) Exclude qbft reference-test resources from spotless check
+[151](https://github.com/hyperledger/fabric-sdk-java/pull/151) Add otel 2.2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

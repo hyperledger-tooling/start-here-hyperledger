@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/180" class=".btn">#180</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/183" class=".btn">#183</a>
             </td>
             <td>
                 <b>
-                    chore: add temp solution to resolve updated did from cache
+                    chore: update to release versions
                 </b>
             </td>
         </tr>
@@ -32,7 +32,35 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-14 17:53:15 +0000 UTC
+        Created At 2021-09-15 17:01:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/181" class=".btn">#181</a>
+            </td>
+            <td>
+                <b>
+                    chore: add temp solution updated did from cache
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                re-pushed changes from https://github.com/hyperledger/aries-framework-go-ext/pull/180
+
+Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 13:46:28 +0000 UTC
     </div>
 </div>
 
@@ -111,32 +139,6 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     </table>
     <div class="right-align">
         Created At 2021-09-09 20:49:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/176" class=".btn">#176</a>
-            </td>
-            <td>
-                <b>
-                    chore: avoid adding current keys when update did
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-08 15:48:40 +0000 UTC
     </div>
 </div>
 
