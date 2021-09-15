@@ -265,32 +265,3 @@ Signed-off-by: tianxuanhong <523713078@qq.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/325" class=".btn">#325</a>
-            </td>
-            <td>
-                <b>
-                    create channel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                *first,update configtx.yaml.
-*then,create channel.tx.
-
-Signed-off-by: XuHugo <xq-310@163.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-08 15:04:15 +0000 UTC
-    </div>
-</div>
-

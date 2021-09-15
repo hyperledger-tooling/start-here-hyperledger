@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/186" class=".btn">#186</a>
+            </td>
+            <td>
+                <b>
+                    Add GHA files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 17:49:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/185" class=".btn">#185</a>
+            </td>
+            <td>
+                <b>
+                    Add release notes for 0.3.8
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Schwarz <pschwarz@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 15:22:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/184" class=".btn">#184</a>
             </td>
             <td>
@@ -60,35 +112,6 @@ permalink: /pull-requests/hyperledger/transact
     </table>
     <div class="right-align">
         Created At 2021-09-08 18:53:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/182" class=".btn">#182</a>
-            </td>
-            <td>
-                <b>
-                    Consolidate migrations into single migration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change consolidates the migrations to remove the complexity of adding new tables and migrating data. 
-
-As this is unreleased code, this has no impact on any deployments.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-08 15:27:15 +0000 UTC
     </div>
 </div>
 

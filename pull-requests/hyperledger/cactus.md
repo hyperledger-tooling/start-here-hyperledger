@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1337" class=".btn">#1337</a>
+            </td>
+            <td>
+                <b>
+                    Quorum private transaction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #951 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 14:05:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1336" class=".btn">#1336</a>
             </td>
             <td>
@@ -53,7 +79,13 @@ permalink: /pull-requests/hyperledger/cactus
                 <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
             </td>
             <td>
-                Fixes #1334
+                1. Disables the coverage check of tap.
+2. Starts skipping failing tests
+3. Re-enables container image caching
+
+Fixes #1334
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
@@ -212,13 +244,15 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">Security</span>
+                <span class="chip">dependencies</span><span class="chip">Security</span><span class="chip">dependent</span>
             </td>
             <td>
                 Hoping that this will fix a good chunk of the outstanding
 security vulnerabilities that we have.
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+Depends on #1335 
             </td>
         </tr>
     </table>

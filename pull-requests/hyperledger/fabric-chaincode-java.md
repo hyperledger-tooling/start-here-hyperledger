@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/199" class=".btn">#199</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/200" class=".btn">#200</a>
             </td>
             <td>
                 <b>
-                    What we need is JDK not JRE
+                    Add opentelemetry
                 </b>
             </td>
         </tr>
@@ -27,42 +27,17 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Make the requirements clearer.
+                See #153 for discussion.
 
-I tried with building with JRE, it didn't work.
+==
+Signed-off-by: Antoine Toulme antoine@lunar-ocean.com
+
+This adds OpenTelemetry to Fabric Java chaincode.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-25 10:14:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/198" class=".btn">#198</a>
-            </td>
-            <td>
-                <b>
-                    First argument should be of type Context
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A transaction function must have at least one argument, which is of type Context.
-
-Originally, if a transaction function has 0 arguments, the runtime exists. Now with this PR, the runtime gives some cues.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-08-25 05:55:37 +0000 UTC
+        Created At 2021-09-15 16:13:33 +0000 UTC
     </div>
 </div>
 
