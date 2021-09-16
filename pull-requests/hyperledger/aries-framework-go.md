@@ -768,29 +768,3 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2972" class=".btn">#2972</a>
-            </td>
-            <td>
-                <b>
-                    feat: Present Proof v3 - REST API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrii Soluk <isoluchok@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 06:54:11 +0000 UTC
-    </div>
-</div>
-
