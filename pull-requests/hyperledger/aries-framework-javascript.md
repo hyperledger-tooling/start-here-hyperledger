@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/456" class=".btn">#456</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/457" class=".btn">#457</a>
             </td>
             <td>
                 <b>
-                    feat(core): d_m invitation parameter and invitation image
+                    fix(core): using query-string to parse URLs
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                - Adds support for the `d_m` invitation parameter in the url
-- Improved url parsing (with polyfill for React Native)
-- Able to add an image to the invitation
+                - Took the advice of @TimoGlastra ans used query-string for parsing URLs. 
+
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-07 19:41:19 +0000 UTC
+        Created At 2021-09-16 15:48:07 +0000 UTC
     </div>
 </div>
 
