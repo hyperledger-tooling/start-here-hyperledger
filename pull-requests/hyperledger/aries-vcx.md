@@ -24,10 +24,19 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">wrappers</span>
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+                Expose getters of thread ids of message threads associated with the corresponding connection, proof, disclosed proof, credential or issuer credential.
+
+New methods:
+* `vcx_connection_get_thread_id`
+* `vcx_credential_get_thread_id`
+* `vcx_disclosed_proof_get_thread_id`
+* `vcx_issuer_credential_get_thread_id`
+* `vcx_proof_get_thread_id`
+
+Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
             </td>
         </tr>
     </table>

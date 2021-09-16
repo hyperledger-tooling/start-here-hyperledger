@@ -233,35 +233,3 @@ Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/327" class=".btn">#327</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-326] cmdlinelib feature of approveformyorg && queryapproved f…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …unctions
-
-implement the cmdlinelib feature of approveformyorg && queryapproved functions
-
-Close #issue-326
-
-Signed-off-by: tianxuanhong <523713078@qq.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 00:41:27 +0000 UTC
-    </div>
-</div>
-

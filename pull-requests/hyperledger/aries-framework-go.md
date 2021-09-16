@@ -29,7 +29,6 @@ permalink: /pull-requests/hyperledger/aries-framework-go
             <td>
                 - support embedded contexts: include custom contexts in bbs limited credential template
 - support ID being optional: allow json-ld Processor to Frame docs with blank ID
-- add interop support to new didexchange recipient key handling
 
 Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
             </td>

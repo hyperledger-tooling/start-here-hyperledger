@@ -349,36 +349,3 @@ More information about this is available in GitHub documentation: https://docs.g
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1426" class=".btn">#1426</a>
-            </td>
-            <td>
-                <b>
-                    Add wsv_checker and migration-tool to docker image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Closes #1415
-### engulfs #1411
-
- * push docker images only with gcc-9 builds
- * enable 'latest' for all tags, earlier were 'v*'
- * reduce number of docker tags: remove commit-*
- * `-DBENCHMARKING=ON`
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-08 20:03:16 +0000 UTC
-    </div>
-</div>
-

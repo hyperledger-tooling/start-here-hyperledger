@@ -168,32 +168,6 @@ The PO name and org aren't used since we arent actually creating anything. You s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/931" class=".btn">#931</a>
-            </td>
-            <td>
-                <b>
-                    Added the libzmq3-dev dependency for building in Debian(Ubuntu)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hi, I have added the needed pre-requisite for building Grid on Debian(Ubuntu).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 12:18:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/929" class=".btn">#929</a>
             </td>
             <td>
@@ -295,62 +269,6 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-09-09 15:28:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/924" class=".btn">#924</a>
-            </td>
-            <td>
-                <b>
-                    Add `get_purchase_order_version` operation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds a `get_purchase_order_version` operation. This fetches a PO
-version and its associated revisions and returns the Grid representation
-of them.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-08 21:52:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/923" class=".btn">#923</a>
-            </td>
-            <td>
-                <b>
-                    Update `add_purchase_order` operation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This updates the `add_purchase_order` operation to properly add/update POs, versions, and revisions while avoiding unnecessary db updates.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-08 20:23:43 +0000 UTC
     </div>
 </div>
 

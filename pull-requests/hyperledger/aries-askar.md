@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/27" class=".btn">#27</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    Fixes #26 Incorrect signature type is used for P256KeyPair
+                    Initial BBS+ signature support crate
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                * Fixes #26 Incorrect signature type is used for P256KeyPair
-* Use compatible signature type inside of KeySign::write_signature for P256KeyPair
+                Details will assuredly change before a release, as the spec (2022 version) is still in development. This is not compatible with the BBS+ 2020 spec.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-02 08:09:02 +0000 UTC
+        Created At 2021-09-15 18:59:18 +0000 UTC
     </div>
 </div>
 

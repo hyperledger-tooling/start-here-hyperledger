@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/618" class=".btn">#618</a>
+            </td>
+            <td>
+                <b>
+                    Expert Mode - Issue Credential from CSV
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allow user to copy/paste, type or upload a CSV file and load the credential data (first row only).
+Further enhancement to the Expert Mode Load Credential data.
+As noted by @etschelp, this is just a basic first step and we should further enhance for multi-credential load etc.
+
+Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/618"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 22:38:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/617" class=".btn">#617</a>
             </td>
             <td>
@@ -188,42 +222,6 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </table>
     <div class="right-align">
         Created At 2021-09-10 17:02:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/610" class=".btn">#610</a>
-            </td>
-            <td>
-                <b>
-                    Axios Error Message Fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add in an axios error handler method that parses out the user friendly message that the backend has set.
-The delete was ok, just that the useful message that we send from the backend is never surfaced to the frontend.
-
-
-Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-fixes #609 
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/610"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-08 22:07:37 +0000 UTC
     </div>
 </div>
 
