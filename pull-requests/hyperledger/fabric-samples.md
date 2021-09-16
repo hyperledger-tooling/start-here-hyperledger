@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/491" class=".btn">#491</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/492" class=".btn">#492</a>
             </td>
             <td>
                 <b>
-                    Update to Go 1.16.7
+                    changes to support couchdb 3.1.1
                 </b>
             </td>
         </tr>
@@ -27,15 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                Update Go to 1.16.7 and run "go mod tidy"
-to clean up go modules in samples for Go 1.16.
+                Support admin party mode for couchdb 3.1.1
+Windows Git bash(MINGW*) fix for ./network down in startFabric.sh script
 
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+Signed-off-by: Indranil Majumder <indranil32@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-07 21:34:28 +0000 UTC
+        Created At 2021-09-16 10:02:24 +0000 UTC
     </div>
 </div>
 

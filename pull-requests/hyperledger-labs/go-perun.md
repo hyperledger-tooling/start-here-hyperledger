@@ -14,6 +14,170 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/205" class=".btn">#205</a>
+            </td>
+            <td>
+                <b>
+                    Integrate watcher into client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 11:46:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/204" class=".btn">#204</a>
+            </td>
+            <td>
+                <b>
+                    Improve documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 11:43:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/203" class=".btn">#203</a>
+            </td>
+            <td>
+                <b>
+                    Fix basic issue template
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Issue templates must have an about text.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 11:28:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/201" class=".btn">#201</a>
+            </td>
+            <td>
+                <b>
+                    balance reader interface
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #200 
+
+Introduces a balance reader interface for the generic client tests.
+
+(Also moves `func makeRoleSetups` to a more suitable location.)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 10:51:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/199" class=".btn">#199</a>
+            </td>
+            <td>
+                <b>
+                    Update and rename issue.md to basic.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When creating a new issue, the template description looked a bit odd. Hence, adjusting.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 10:43:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/198" class=".btn">#198</a>
+            </td>
+            <td>
+                <b>
+                    Integrate StatesPub into client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prep step for integrating refactored watcher (for IoT) use cases.
+
+Resolves #197.
+
+Note: Only the last commit is relevant. Other commits are already part of another (PR #182).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 08:51:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/196" class=".btn">#196</a>
             </td>
             <td>
@@ -213,7 +377,7 @@ Need this for testing, @RmbRT also seems to appreciate it.
             </td>
             <td>
                 <b>
-                    174 Implement local watcher
+                    Implement local watcher
                 </b>
             </td>
         </tr>
@@ -270,7 +434,7 @@ Need this for testing, @RmbRT also seems to appreciate it.
 
 #### Tests
 
-It was difficult for me to figure out how to add tests using the simulated backend. Particularly, I couldn't figure out how to make the watcher send events to the watcher.
+It was difficult for me to figure out how to add tests using the simulated backend. Particularly, I couldn't figure out how to make the client send events to the watcher, before integrating the watcher API into client.
 
 However, I implemented some tests based on generated mocks , which I used these to guide my development. I have added them in the PR (in separate commits) for time being. After figuring out how to test simulated backed, we could also replace these tests. 
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/627" class=".btn">#627</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/629" class=".btn">#629</a>
             </td>
             <td>
                 <b>
-                    Post-Release: Set version to main
+                    Fixed the version of fabric-ccenv to 2.3.0
                 </b>
             </td>
         </tr>
@@ -27,38 +27,28 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 09:36:06 +0000 UTC
-    </div>
-</div>
+                Signed-off-by: ikegawa-koshi <koshi.ikegawa.mf@hitachi.com>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/626" class=".btn">#626</a>
-            </td>
-            <td>
-                <b>
-                    Release v1.0-rc2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
+**What this PR does / why we need it**:
+
+I found a bug in the current main branch and v1.0-rc2 that causes FPC to fail to build (Issue #628).
+As a result of discussions with the community, it was found that it was caused by differences in the version of fabric-ccenv.
+This PR solves the issue of Issue #628 by setting the version of fabric-ccenv to v2.3.0.
+
+**Which issue(s) this PR fixes**:
+
+Fixes #628
+
+**Special notes for your reviewer**:
+
+**Does this PR introduce a user-facing changes and/or breaks backward compatability?**:
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-09 08:09:39 +0000 UTC
+        Created At 2021-09-16 11:53:00 +0000 UTC
     </div>
 </div>
 

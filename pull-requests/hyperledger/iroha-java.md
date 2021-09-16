@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/143" class=".btn">#143</a>
+            </td>
+            <td>
+                <b>
+                    Fixed version of kotlin dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: rkharisov <rinat@soramitsu.co.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 06:41:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/142" class=".btn">#142</a>
             </td>
             <td>
