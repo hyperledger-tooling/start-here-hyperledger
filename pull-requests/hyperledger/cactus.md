@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1340" class=".btn">#1340</a>
+            </td>
+            <td>
+                <b>
+                    style(js-object-signer): removed all "unexpected any" types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Made all "any" types either explicit or unknown (where possible)
+Allowed for private keys to be passed as either byte arrays (Buffer falls under this too) or strings
+
+Resolves #1338
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 16:22:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1339" class=".btn">#1339</a>
             </td>
             <td>
@@ -24,7 +53,7 @@ permalink: /pull-requests/hyperledger/cactus
         </tr>
         <tr>
             <td>
-                <span class="chip">dependent</span>
+                
             </td>
             <td>
                 Depends on #1334 
@@ -128,7 +157,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
             <td>
                 <b>
-                    Web socket identity provider
+                    feat(connector-fabric): support FabricSigningCredentialType.WsX509
                 </b>
             </td>
         </tr>

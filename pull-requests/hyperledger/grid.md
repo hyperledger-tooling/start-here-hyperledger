@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/935" class=".btn">#935</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0-2: Disable Jenkins CI builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                GitHub Actions will be used going forward instead.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 14:10:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/934" class=".btn">#934</a>
+            </td>
+            <td>
+                <b>
+                    Disable Jenkins CI builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                GitHub Actions will be used going forward instead.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 13:58:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/933" class=".btn">#933</a>
             </td>
             <td>
@@ -213,62 +269,6 @@ The PO name and org aren't used since we arent actually creating anything. You s
     </table>
     <div class="right-align">
         Created At 2021-09-09 20:00:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/927" class=".btn">#927</a>
-            </td>
-            <td>
-                <b>
-                    Add `list_purchase_order_versions` operation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds a `list_purchase_order_versions` operation to the purchase
-order store. This operation gets a list of purchase order versions for a
-gived purchase order. This also includes that version's revisions.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 16:51:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/925" class=".btn">#925</a>
-            </td>
-            <td>
-                <b>
-                    Add `buyer` and `seller` org fields to Purchase Order
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR updates the `PurchaseOrderPayload` to remove the `org_id` field, as the organizations are now being recorded in the purchase order itself. This also updates the `CreatePurchaseOrderPayload` and `PurchaseOrder` struct in state to support a `buyer_org` and `seller_org` fields for the purchase order. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 15:28:17 +0000 UTC
     </div>
 </div>
 

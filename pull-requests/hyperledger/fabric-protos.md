@@ -38,29 +38,3 @@ Ensure consistently unhelpful (`number`) rather than inconsistently more helpful
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/63" class=".btn">#63</a>
-            </td>
-            <td>
-                <b>
-                    Bind uint64 fields to JavaScript strings in gateway.proto
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Default protoc binding is to a JavaScript number, which can only hold integers up to 2^53 - 1.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 16:37:48 +0000 UTC
-    </div>
-</div>
-

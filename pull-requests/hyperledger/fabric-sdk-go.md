@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/186" class=".btn">#186</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/188" class=".btn">#188</a>
             </td>
             <td>
                 <b>
-                    feat(event client): add WithEventConsumerTimeout option
+                    Keep alive orderer
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                This feature allows users to configure the client event in more detail.
-
+                fix bug
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-07 08:58:20 +0000 UTC
+        Created At 2021-09-16 14:31:45 +0000 UTC
     </div>
 </div>
 

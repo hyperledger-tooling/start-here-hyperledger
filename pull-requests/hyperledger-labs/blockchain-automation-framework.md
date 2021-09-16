@@ -107,6 +107,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
 - Rename ca-server to more appropriate generate_cacerts
 - Add support for grpcws for peer and orderer charts
 - Add support for Operations API (non TLS) for ca, peer and orderer charts
+- Add playbook to deploy operations console and generate json files
 
  
 **Linked issue**
