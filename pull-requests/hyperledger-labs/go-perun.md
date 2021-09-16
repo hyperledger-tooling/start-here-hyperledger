@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/196" class=".btn">#196</a>
+            </td>
+            <td>
+                <b>
+                    Channel.Backend: Remove Params from Sign and Verify
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #195 #190 
+
+Depends on #191 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 19:18:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/194" class=".btn">#194</a>
             </td>
             <td>
@@ -42,41 +70,11 @@ The variable name was suggesting that it can always be initialized with `Address
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/192" class=".btn">#192</a>
-            </td>
-            <td>
-                <b>
-                    190 verify params
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Channel backend signature verification: Check Params.
-
-Closes #190 
-
-Needs #189
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 07:16:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/191" class=".btn">#191</a>
             </td>
             <td>
                 <b>
-                    :bug: [channel/test] Generate modified params with correct id
+                    [channel/test] Generate modified params with correct id
                 </b>
             </td>
         </tr>
@@ -85,9 +83,7 @@ Needs #189
                 
             </td>
             <td>
-                Also ensure that modified states are consistent.
-
-Closes #189 
+                Closes #189 
             </td>
         </tr>
     </table>
@@ -268,7 +264,7 @@ Need this for testing, @RmbRT also seems to appreciate it.
     - LedgerChannel does not require parent while,
     - Sub-Channel requires a parent.
     - Regarding the names, I also think we need a better name, used this for time being. 
-3. `AdjudicatorSub.Next` can be used by the client for receiving adjudicator events from the watcher.
+3. `AdjudicatorSub.EventStream` can be used by the client for receiving adjudicator events from the watcher.
 4. `StatesPub.Publish` can be used by the client to send newer transactions to the watcher.
 5. `Watcher.StopWatching` and `Watcher.Shutdown` are yet to implemented.
 

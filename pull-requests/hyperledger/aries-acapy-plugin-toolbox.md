@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/89" class=".btn">#89</a>
+            </td>
+            <td>
+                <b>
+                    fix: did:sov urls changed to github urls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                did:sov urls changed out for github urls
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 21:40:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/88" class=".btn">#88</a>
             </td>
             <td>

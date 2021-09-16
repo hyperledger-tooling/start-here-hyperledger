@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1339" class=".btn">#1339</a>
+            </td>
+            <td>
+                <b>
+                    ci: add DCI-Lint GitHub action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                Depends on #1334 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-15 20:08:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1337" class=".btn">#1337</a>
             </td>
             <td>
