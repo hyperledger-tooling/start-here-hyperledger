@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/190" class=".btn">#190</a>
+                PR <a href="https://github.com/hyperledger/ursa/pull/191" class=".btn">#191</a>
             </td>
             <td>
                 <b>
-                    Fix build for 32bit systems
+                    Update version
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                <nil>
+                This is to enable publishing a new version.
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-02 09:55:11 +0000 UTC
+        Created At 2021-09-16 02:02:52 +0000 UTC
     </div>
 </div>
 

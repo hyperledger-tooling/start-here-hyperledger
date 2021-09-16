@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger-labs/firefly
             <td>
                 Work in progress on https://github.com/hyperledger-labs/firefly/issues/187
 
-Key proposals in this code so far (which doesn't yet build)
+Key proposals in this code so far - building with Unit Tests
 - New `Identity Manager [Im]` component
    - This is _not_ a plugin, instead a consistent component to do all identity mapping
    - This would be expected to be where plugins would attach in the future
@@ -45,6 +45,13 @@ Key proposals in this code so far (which doesn't yet build)
   - Still retained `onchain` key for config compatibility
   - Removed all methods from interface
   - Changed implementation to `TBD` for now in the code
+ - Organizations and Nodes still use the signing identity
+  - For now the intention is that `Node.Owner` and `Organization.Identity` remain the signing addresses
+  - We should move these to be DIDs, but that will mean migration issues
+   - Per https://github.com/hyperledger-labs/firefly/issues/187#issuecomment-919649333 we need to consider this before acting
+
+The next step here is e2e testing, and working through various scenarios to test.
+I have only done build+UT so far.
             </td>
         </tr>
     </table>
