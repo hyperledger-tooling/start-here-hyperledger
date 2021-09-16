@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/97" class=".btn">#97</a>
-            </td>
-            <td>
-                <b>
-                    drivers: use local deserializer to register recipient identities #96
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 04:37:13 +0000 UTC
-    </div>
-</div>
-

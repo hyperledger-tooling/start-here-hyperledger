@@ -320,34 +320,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1316" class=".btn">#1316</a>
-            </td>
-            <td>
-                <b>
-                    docs(examples): fix supply chain app container image #1312
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Also published as a container image on ghcr.io as:
-ghcr.io/hyperledger/cactus-example-supply-chain-app:2021-09-08--docs-1312
-
-Fixes #1312
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 04:11:30 +0000 UTC
-    </div>
-</div>
-
