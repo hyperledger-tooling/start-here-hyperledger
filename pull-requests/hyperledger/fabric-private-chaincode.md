@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
             <td>
                 Fixed an old path reference in the helloworld tutorial.
 
-Signed-off-by: Riccardo Zappoli <42180293+ricc-zappoli@users.noreply.github.com>
+Signed-off-by: Riccardo Zappoli <riccardo.zappoli@unifr.ch>
 
 <!--  Thanks for sending a pull request!  Here are some tips for you:
 

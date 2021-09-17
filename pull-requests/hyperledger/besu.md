@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2779" class=".btn">#2779</a>
+            </td>
+            <td>
+                <b>
+                    Create new datatypes module for Address, Hash, and Wei
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Create a new `datatypes` module to hold datatypes that are broadly used.
+This will aid modularization by making sure the base types in the module
+minimize the amount of unrelated support classes needed.
+
+Move the Address, Hash, and Wei to datatypes in as they are needed for
+EVM modularization.
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-17 14:34:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2774" class=".btn">#2774</a>
             </td>
             <td>
@@ -392,37 +429,6 @@ To enable the endpoint you must utilise `--rpc-http-api` and specify the namespa
     </table>
     <div class="right-align">
         Created At 2021-09-13 14:56:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2752" class=".btn">#2752</a>
-            </td>
-            <td>
-                <b>
-                    Metrics idle timeout is now configurable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-#2748 introduced a timeout for metrics TCP connections. With this PR user can set a value in seconds for that timeout.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-10 18:03:55 +0000 UTC
     </div>
 </div>
 

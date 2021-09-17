@@ -151,31 +151,3 @@ Boy-scouting: I split the mediation invite tests apart from the other ones for t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1408" class=".btn">#1408</a>
-            </td>
-            <td>
-                <b>
-                    Encode DIDComm messages before sent to the queue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## What is this PR for?
-
-This PR fixes issue #1402 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-10 12:29:48 +0000 UTC
-    </div>
-</div>
-

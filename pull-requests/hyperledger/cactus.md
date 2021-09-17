@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1349" class=".btn">#1349</a>
+            </td>
+            <td>
+                <b>
+                    refactor (core-api): make schema names consistent in openapi spec 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-17 16:24:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1348" class=".btn">#1348</a>
+            </td>
+            <td>
+                <b>
+                    docs(API-table): update API table and description
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - updated API table for socket.io verifier and validator.
+- names are changed for consistency
+
+This PR corresponds to issue #1320
+
+Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-17 14:02:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1347" class=".btn">#1347</a>
             </td>
             <td>

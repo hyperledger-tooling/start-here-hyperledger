@@ -1,13 +1,13 @@
 
-[30](https://github.com/hyperledger/aries-framework-javascript-ext/pull/30) fix(rest): routing fix and moved cors to dependencies
+[623](https://github.com/hyperledger-labs/business-partner-agent/pull/623) Handle valid invitation type (didcomm)
 
-[631](https://github.com/hyperledger/fabric-private-chaincode/pull/631) Updated helloworld readme
+[1349](https://github.com/hyperledger/cactus/pull/1349) refactor (core-api): make schema names consistent in openapi spec 
 
-[341](https://github.com/hyperledger/aries-agent-test-harness/pull/341) Add backchannel for findy-agent
+[805](https://github.com/hyperledger/besu-docs/pull/805) add fast-sync peer recommendation
 
-[104](https://github.com/hyperledger-labs/fabric-token-sdk/pull/104) export TCC functions
+[133](https://github.com/hyperledger/iroha-ios/pull/133) WebSockets support
 
-[1445](https://github.com/hyperledger/iroha/pull/1445) Add optional nightly tags with date
+[2779](https://github.com/hyperledger/besu/pull/2779) Create new datatypes module for Address, Hash, and Wei
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
