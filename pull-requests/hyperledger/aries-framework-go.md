@@ -14,6 +14,142 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2990" class=".btn">#2990</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): bump webpack from 4.46.0 to 5.53.0 in /cmd/aries-js-worker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.53.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
+<blockquote>
+<h2>v5.53.0</h2>
+<h1>Features</h1>
+<ul>
+<li>add <code>node.__dirname/__filename: &quot;warn-mock&quot;</code> which warns on usage (will be enabled in webpack 6 by default)</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>add <code>stream/web</code> to Node.js externals</li>
+<li>fix IgnorePluginSchema</li>
+<li>fix builds with persistent caching taking 1 minute to build at least</li>
+</ul>
+<h1>Experiments</h1>
+<ul>
+<li>add <code>experiments.futureDefaults</code> to enable defaults for webpack 6</li>
+</ul>
+<h2>v5.52.1</h2>
+<h1>Performance</h1>
+<ul>
+<li>split fresh created persistent cache files by time to avoid creating very large files</li>
+</ul>
+<h2>v5.52.0</h2>
+<h1>Feature</h1>
+<ul>
+<li><code>experiments.executeModule</code> is enabled by default and the option is removed
+<ul>
+<li>loaders are now free to use <code>this.importModule</code></li>
+</ul>
+</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>fix generated <code>__WEBPACK_EXTERNAL_MODULE_null__</code>, which leads to merged externals</li>
+<li><code>.webpack[...]</code> extension is not part of matching and module name</li>
+</ul>
+<h2>v5.51.2</h2>
+<h1>Bugfixes</h1>
+<ul>
+<li>fix crash in FileSystemInfo when errors occur</li>
+<li>avoid property access of reserved properties</li>
+<li>fix reexports from async modules</li>
+<li>automatically close an active watching when closing the compiler</li>
+<li>when filenames of other runtimes are referenced that need a full hash, upgrade referencing runtime moduel to full hash mode too
+<ul>
+<li>fixes a bug where <code>[contenthash]</code> is undefined when using <code>new Worker</code></li>
+</ul>
+</li>
+</ul>
+<h2>v5.51.1</h2>
+<h1>Bugfixes</h1>
+<ul>
+<li><code>library: &quot;module&quot;</code> propages top-level-await correctly</li>
+<li>fix crash in filesystem snapshotting when trying to snapshot a non-existing directory</li>
+<li>fix some context-dependent logic in concatenated modules and source url handling</li>
+</ul>
+<h2>v5.51.0</h2>
+<h1>Bugfixes</h1>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/webpack/webpack/commit/6796b73a1ab83739f0e722d914676c9dd58d65e2"><code>6796b73</code></a> 5.53.0</li>
+<li><a href="https://github.com/webpack/webpack/commit/6458896639a484437f7f05d61a62161a2096cf59"><code>6458896</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14264">#14264</a> from webpack/bugfix/hanging</li>
+<li><a href="https://github.com/webpack/webpack/commit/ff69b3f61771ccc3f0a70d91876cb89059e1f035"><code>ff69b3f</code></a> allow process to exist and cancel timeout again</li>
+<li><a href="https://github.com/webpack/webpack/commit/20da4b1ef83cd86480abc19206faebfe477b0a15"><code>20da4b1</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14244">#14244</a> from webpack/revert-14175-ci/node-version</li>
+<li><a href="https://github.com/webpack/webpack/commit/562f17a8c04be426cb6ec9be474a37fb4dd2f6f7"><code>562f17a</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14212">#14212</a> from webpack/fix-14210</li>
+<li><a href="https://github.com/webpack/webpack/commit/76bdcbfee7645e15e3a56ff4659935882f4b9773"><code>76bdcbf</code></a> Revert &quot;fix node.js because of v8 bug&quot;</li>
+<li><a href="https://github.com/webpack/webpack/commit/3e3b528e547f5b67992b1bcdd5ae2ff108c210c3"><code>3e3b528</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14211">#14211</a> from webpack/fix-13557</li>
+<li><a href="https://github.com/webpack/webpack/commit/5592f6616f4d361a24f5ad39b25cf7987f87f30f"><code>5592f66</code></a> add experiments.futureDefaults</li>
+<li><a href="https://github.com/webpack/webpack/commit/200ce6248a45d53a19fd2e4c124b75e2ccd78ee4"><code>200ce62</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14145">#14145</a> from webpack/dependabot/npm_and_yarn/simple-git-2.45.1</li>
+<li><a href="https://github.com/webpack/webpack/commit/e91262cad7c7dc67e04b3c88aa4e2bab3462d5bb"><code>e91262c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/13986">#13986</a> from webpack/dependabot/npm_and_yarn/types/jest-27.0.1</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.53.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.53.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-17 08:14:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2988" class=".btn">#2988</a>
             </td>
             <td>
@@ -568,151 +704,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2021-09-13 08:16:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2978" class=".btn">#2978</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps-dev): bump webpack from 4.46.0 to 5.52.1 in /cmd/aries-js-worker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.52.1.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
-<blockquote>
-<h2>v5.52.1</h2>
-<h1>Performance</h1>
-<ul>
-<li>split fresh created persistent cache files by time to avoid creating very large files</li>
-</ul>
-<h2>v5.52.0</h2>
-<h1>Feature</h1>
-<ul>
-<li><code>experiments.executeModule</code> is enabled by default and the option is removed
-<ul>
-<li>loaders are now free to use <code>this.importModule</code></li>
-</ul>
-</li>
-</ul>
-<h1>Bugfixes</h1>
-<ul>
-<li>fix generated <code>__WEBPACK_EXTERNAL_MODULE_null__</code>, which leads to merged externals</li>
-<li><code>.webpack[...]</code> extension is not part of matching and module name</li>
-</ul>
-<h2>v5.51.2</h2>
-<h1>Bugfixes</h1>
-<ul>
-<li>fix crash in FileSystemInfo when errors occur</li>
-<li>avoid property access of reserved properties</li>
-<li>fix reexports from async modules</li>
-<li>automatically close an active watching when closing the compiler</li>
-<li>when filenames of other runtimes are referenced that need a full hash, upgrade referencing runtime moduel to full hash mode too
-<ul>
-<li>fixes a bug where <code>[contenthash]</code> is undefined when using <code>new Worker</code></li>
-</ul>
-</li>
-</ul>
-<h2>v5.51.1</h2>
-<h1>Bugfixes</h1>
-<ul>
-<li><code>library: &quot;module&quot;</code> propages top-level-await correctly</li>
-<li>fix crash in filesystem snapshotting when trying to snapshot a non-existing directory</li>
-<li>fix some context-dependent logic in concatenated modules and source url handling</li>
-</ul>
-<h2>v5.51.0</h2>
-<h1>Bugfixes</h1>
-<ul>
-<li>correctly keep chunk loading state when the chunk loading logic is HMR updated
-<ul>
-<li>This fixes some edge cases that e. g. occur when using lazy compilation for entrypoints. It is now able to HMR update that instead of needing a manual reload. Also see fixes in webpack-dev-server@4.</li>
-</ul>
-</li>
-<li>track and resolve symlinks for filesystem snapshotting
-<ul>
-<li>This fixes some cases of circular <code>yarn link</code>ing of dependencies.</li>
-<li>It also fixes some problems when using package managers that use symlinks to deduplicate (e. g. cnpm or pnpm)</li>
-</ul>
-</li>
-<li>pass the resulting module in the callbacks of <code>Compilation.addModuleChain</code> and <code>Compilation.addModuleTree</code></li>
-</ul>
-<h2>v5.50.0</h2>
-<h1>Features</h1>
-<ul>
-<li>hashbangs (<code>#! ...</code>) are now handled by webpack
-<ul>
-<li><a href="https://github.com/tc39/proposal-hashbang">https://github.com/tc39/proposal-hashbang</a></li>
-</ul>
-</li>
-</ul>
-<h1>Performance</h1>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/webpack/webpack/commit/d95a0418b64bd366f0c51f2635ef0c24158b8bce"><code>d95a041</code></a> 5.52.1</li>
-<li><a href="https://github.com/webpack/webpack/commit/3fc0f9f86fe4c4351e6a1942ae0272a1e18c8564"><code>3fc0f9f</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14184">#14184</a> from webpack/size/relative-url</li>
-<li><a href="https://github.com/webpack/webpack/commit/9dfcc27f6b08448f38808c14385fcc38053845d4"><code>9dfcc27</code></a> remove unnecessary Object.assign</li>
-<li><a href="https://github.com/webpack/webpack/commit/cff4bd04b378ac8d996d43edf2fdde26fd7193bf"><code>cff4bd0</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14159">#14159</a> from webpack/dependabot/npm_and_yarn/acorn-8.5.0</li>
-<li><a href="https://github.com/webpack/webpack/commit/bc8b9cf96e622412ccecd23fb2905692bb938b44"><code>bc8b9cf</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14178">#14178</a> from webpack/ci/test-stability</li>
-<li><a href="https://github.com/webpack/webpack/commit/c3a0a420ebcbfd8767b7488588e1fd57dcb3c488"><code>c3a0a42</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14174">#14174</a> from webpack/perf/persistent-cache</li>
-<li><a href="https://github.com/webpack/webpack/commit/32a9b205aad6d6ab8e47b7fbbee946e8bb75a88d"><code>32a9b20</code></a> improve test stability</li>
-<li><a href="https://github.com/webpack/webpack/commit/3270275ffeada636769a48fac8c079f7e78993de"><code>3270275</code></a> split fresh packs by time</li>
-<li><a href="https://github.com/webpack/webpack/commit/200ce66945ef18621199c582575982b37d89ac8d"><code>200ce66</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14175">#14175</a> from webpack/ci/node-version</li>
-<li><a href="https://github.com/webpack/webpack/commit/a7e5f3a73b76fa8a50250768cdab3e0dca36dec1"><code>a7e5f3a</code></a> fix node.js because of v8 bug</li>
-<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.52.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.52.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 08:16:05 +0000 UTC
     </div>
 </div>
 

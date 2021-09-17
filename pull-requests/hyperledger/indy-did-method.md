@@ -95,31 +95,3 @@ Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-did-method/pull/14" class=".btn">#14</a>
-            </td>
-            <td>
-                <b>
-                    Feature/gitpod
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Our gitpod expert @frank-bee is currently on vacation, but I tried to setup an initial version.
-
-You can try it here: https://gitpod.io/#https://github.com/domwoe/indy-did-method/tree/feature/gitpod
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-10 08:58:59 +0000 UTC
-    </div>
-</div>
-

@@ -132,29 +132,3 @@ I solved the problem locally by upgrading `github.com/dgraph-io/badger/v2 v2.200
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/41" class=".btn">#41</a>
-            </td>
-            <td>
-                <b>
-                    I20 top level structure
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Cleaning up a substantial part of the code.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-10 09:28:29 +0000 UTC
-    </div>
-</div>
-

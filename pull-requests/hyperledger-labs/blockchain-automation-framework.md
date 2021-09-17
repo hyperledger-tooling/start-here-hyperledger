@@ -156,31 +156,3 @@ Resolves #1610
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1662" class=".btn">#1662</a>
-            </td>
-            <td>
-                <b>
-                    [besu] full format for internal url
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-10 09:29:23 +0000 UTC
-    </div>
-</div>
-

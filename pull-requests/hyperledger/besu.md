@@ -222,7 +222,7 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
             </td>
             <td>
                 <b>
-                    Refactor Pico CLI options to make usage consistent
+                    Proposal for breaking change to the way plugins load cli options
                 </b>
             </td>
         </tr>
@@ -370,6 +370,20 @@ re-implementation of https://github.com/PegaSysEng/pantheon/pull/1909/
 
 
 Implements https://github.com/hyperledger/besu/issues/1317
+
+You can now register endpoints using
+
+```
+context
+  .getService(RpcEndpointService.class)
+  .get()
+  .registerRPCEndpoint("namespace", "method", request -> {
+    return "any serializable response";
+  });
+```
+To enable the endpoint you must utilise `--rpc-http-api` and specify the namespace e.g `--rpc-http-api namespace`.
+
+
 ## Changelog
 
 - [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
