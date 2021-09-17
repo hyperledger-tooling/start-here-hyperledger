@@ -14,6 +14,143 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1345" class=".btn">#1345</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): upgrade axios to latest to fix CVE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">Security</span><span class="chip">dependent</span>
+            </td>
+            <td>
+                Depends on #1344
+
+
+Details
+CVE-2021-3749
+high severity
+Vulnerable versions: <= 0.21.1
+Patched version: 0.21.2
+axios is vulnerable to Inefficient Regular Expression Complexity
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-17 00:45:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1344" class=".btn">#1344</a>
+            </td>
+            <td>
+                <b>
+                    build: downgrade to yarn v1.18.0 due to upgrade-interactive bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">dependent</span>
+            </td>
+            <td>
+                Depends on #1343
+
+See: https://github.com/yarnpkg/yarn/issues/7807 for the root cause
+and https://classic.yarnpkg.com/en/docs/cli/upgrade-interactive/
+for more information about what yarn upgrade-interactive does.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-17 00:28:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1343" class=".btn">#1343</a>
+            </td>
+            <td>
+                <b>
+                    build(yarn): reset script now wipes node modules, yarn lock
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                Found myself in need of this when strange errors started occurring
+between branch switches where the gRPC tooling was not installed
+properly despite the configure script running successfully.
+Now the reset is script is much more robust and it closer
+resembles the outcome of a fresh clone.
+
+Also: Ran the reset script and it updated the lock file, including
+that in the commit as well to see if in the future othe reset runs
+will also generate these/similar changes to the lock file or not.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 23:32:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1342" class=".btn">#1342</a>
+            </td>
+            <td>
+                <b>
+                    ci: set the swap file size to 10 GB for GitHub runners
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                This will hopefully alleviate the issue of some tests causing
+out of memory crashes on the 7.5GB RAM GitHub Action Runners.
+
+Could of course have a domino effect where the swap kicks in
+and slows everything down so much that the tests just start
+timing out instead of crashing with OOM ¯\_(ツ)_/¯
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 23:21:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1340" class=".btn">#1340</a>
             </td>
             <td>
@@ -299,7 +436,7 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">Security</span><span class="chip">dependent</span>
+                <span class="chip">dependencies</span><span class="chip">Security</span>
             </td>
             <td>
                 Hoping that this will fix a good chunk of the outstanding
@@ -313,39 +450,6 @@ Depends on #1335
     </table>
     <div class="right-align">
         Created At 2021-09-12 04:02:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1318" class=".btn">#1318</a>
-            </td>
-            <td>
-                <b>
-                    docs(dev-container): fix Unable to access jarfile openapi-generator-c…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">documentation</span>
-            </td>
-            <td>
-                …li/versions/5.2.0.jar #1317
-
-The OpenAPI generator versions were out of sync, unified it on 5.2.0 and now the dev container
-does not have any issue configuring itself upon a successful boot.
-
-Fixes #1317
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 22:03:30 +0000 UTC
     </div>
 </div>
 

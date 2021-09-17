@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/268" class=".btn">#268</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/273" class=".btn">#273</a>
             </td>
             <td>
                 <b>
-                    Add support for latest point releases
+                    fix typo in docs/DeployOntoK8S.md
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-09 19:58:36 +0000 UTC
+        Created At 2021-09-17 00:02:30 +0000 UTC
     </div>
 </div>
 

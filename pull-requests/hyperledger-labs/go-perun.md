@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/208" class=".btn">#208</a>
+            </td>
+            <td>
+                <b>
+                    207 fix ensure registered
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #207 
+Closes #206 
+
+Also fixes another issue where `ensureRegistered` would fail because the channel is registered twice.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 23:00:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/205" class=".btn">#205</a>
             </td>
             <td>
@@ -306,66 +335,6 @@ current go version. Use `Interface()` instead.
     </table>
     <div class="right-align">
         Created At 2021-09-13 08:13:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/185" class=".btn">#185</a>
-            </td>
-            <td>
-                <b>
-                    Define smaller interfaces for methods in adjudcator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Previously, the adjudicator interface consisted of four methods.
-
-- But, only some of the methods were required in any particular place.
-
-- Hence, define an interface for each of the methods and compose the
-  adjudicator interfaces from these smaller interfaces.
-
-Resolves #184.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 19:09:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/183" class=".btn">#183</a>
-            </td>
-            <td>
-                <b>
-                    [pkg/errors] Add Gatherer DoneOrFailed(Ctx)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #181  
-Need this for testing, @RmbRT also seems to appreciate it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 18:24:46 +0000 UTC
     </div>
 </div>
 

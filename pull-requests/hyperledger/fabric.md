@@ -380,31 +380,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2905" class=".btn">#2905</a>
-            </td>
-            <td>
-                <b>
-                    Updates in main for v2.3.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update docs and scripts in main branch for v2.3.3 release.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 19:40:12 +0000 UTC
-    </div>
-</div>
-
