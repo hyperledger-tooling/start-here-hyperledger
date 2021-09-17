@@ -177,36 +177,6 @@ Introduces a balance reader interface for the generic client tests.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/198" class=".btn">#198</a>
-            </td>
-            <td>
-                <b>
-                    Integrate StatesPub into client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prep step for integrating refactored watcher (for IoT) use cases.
-
-Resolves #197.
-
-Note: Only the last commit is relevant. Other commits are already part of another (PR #182).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 08:51:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/196" class=".btn">#196</a>
             </td>
             <td>
