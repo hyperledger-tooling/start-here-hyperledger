@@ -27,8 +27,7 @@ permalink: /pull-requests/hyperledger/iroha
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                
-<!-- You will not see HTML commented line in Pull Request body -->
+                <!-- You will not see HTML commented line in Pull Request body -->
 <!-- Optional sections may be omitted. Just remove them or write None -->
 
 <!-- ### Requirements -->
@@ -41,7 +40,7 @@ permalink: /pull-requests/hyperledger/iroha
 
 ### Description of the Change
 
-Add ci workflow to add nightly tags for iroha2-dev.
+Add ci workflow to push iroha2 build to dockerhub with nightly tag and commit hash.
 
 ### Issue
 
@@ -51,7 +50,7 @@ More information about this is available in GitHub documentation: https://docs.g
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
 
 ### Benefits
-Devs building on Iroha2 can use a fixed version of docker container even thought we have not released a stable version yet.
+Devs building on Iroha2 can use a fixed version of docker container even though we have not released a stable version yet.
 <!-- What benefits will be realized by the code change? -->
 
 ### Possible Drawbacks
@@ -131,6 +130,11 @@ It may be ugly with optional arguments in go
 <!-- If no drawbacks, explicitly mention this (write None) -->
 
 ### Usage Examples or Tests *[optional]*
+Example: https://gist.github.com/Pawlak00/d1fd5bd699cd11cf9f9e39c639259faf
+python3 iroha_sm_contract.py 
+smart contract code is in .sol file
+Big thanks to @Ayush-Jalan whose work has been base for this PR
+his gist on which I begin my work: https://gist.github.com/Ayush-Jalan/c795fa811c7ef4d65fa481b11b4d7fc9#file-transaction-py
 Some python examples will be provided soon
 <!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
 

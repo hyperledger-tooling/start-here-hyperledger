@@ -27,9 +27,10 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                See #153 for discussion.
+                Fixes #201
 
-==
+See #153 for previous PR.
+
 Signed-off-by: Antoine Toulme antoine@lunar-ocean.com
 
 This adds OpenTelemetry to Fabric Java chaincode.

@@ -14,32 +14,35 @@ permalink: /pull-requests/hyperledger/iroha-ios
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-ios/pull/130" class=".btn">#130</a>
+                PR <a href="https://github.com/hyperledger/iroha-ios/pull/133" class=".btn">#133</a>
             </td>
             <td>
                 <b>
-                    Initial Iroha2 Swift library with schema builder and generated code
+                    WebSockets support
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                
             </td>
             <td>
-                Removed Iroha v1 code
-Added IrohaSwiftSchemaBuilder project which builds Swift files from Iroha v2 JSON schema
-Added IrohaSwiftScale project which contains types required by SCALE, and implementation for Swift Coding to Encode/Decode SCALE types, available as separate Pod
-Storing pre-generated schema from latest Iroha v2 schema export
-Added utility scripts to generate schema, inject into dev pod or .xcodeproj
+                Updated schema
+
+Updated codegen to support fixed size array
+Fixed custom tuple structures writing to the destination
+
+Upgraded API client to properly work with Iroha2 websocket gateway
+
+Added tests for fixed size arrays
+Added tests for multiple websocket connections in parallel, and receiving events from websocket connection
 
 Signed-off-by: Alex Oakley <oakley@soramitsu.co.jp>
-Closes #128 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-14 16:04:43 +0000 UTC
+        Created At 2021-09-17 14:41:22 +0000 UTC
     </div>
 </div>
 
