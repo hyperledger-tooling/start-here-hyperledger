@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/24" class=".btn">#24</a>
+            </td>
+            <td>
+                <b>
+                    Extract "data" from inputArgs on mint/transfer calls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Depends on https://github.com/hyperledger-labs/firefly-ethconnect/pull/147
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 20:42:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/23" class=".btn">#23</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger-labs/firefly-tokens-erc1155
     </table>
     <div class="right-align">
         Created At 2021-09-10 18:25:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-tokens-erc1155/pull/21" class=".btn">#21</a>
-            </td>
-            <td>
-                <b>
-                    Remove separate namespace/name/clientId parameters
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Should be safe to merge now that https://github.com/hyperledger-labs/firefly/pull/185 is in.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 20:04:13 +0000 UTC
     </div>
 </div>
 

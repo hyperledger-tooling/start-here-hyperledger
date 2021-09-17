@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/232" class=".btn">#232</a>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/233" class=".btn">#233</a>
             </td>
             <td>
                 <b>
-                    fix: did:sov urls changed for github urls
+                    fix: did:sov urls changed out for github urls
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-toolbox
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-15 21:41:48 +0000 UTC
+        Created At 2021-09-16 23:25:20 +0000 UTC
     </div>
 </div>
 

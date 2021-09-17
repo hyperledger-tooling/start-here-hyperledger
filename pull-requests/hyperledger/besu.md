@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2774" class=".btn">#2774</a>
+            </td>
+            <td>
+                <b>
+                    fix RC1-SNAPSHOT release version 🤦‍♂️
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+add missing -SNAPSHOT to gradle.properties build version
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-16 19:12:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2773" class=".btn">#2773</a>
             </td>
             <td>
@@ -408,102 +448,6 @@ Note: This build on top of the qbft contract vote migration PR, once that is in 
     </table>
     <div class="right-align">
         Created At 2021-09-10 05:58:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2748" class=".btn">#2748</a>
-            </td>
-            <td>
-                <b>
-                    Cleanup metrics connections after idle timeout
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When metrics are in use in teku (which uses besu metrics), and the prometheus service restarts, connections can be left open and never closed.
-
-These connections should close after an idle timeout to avoid causing issues with running out of ports.
-
-Reported in teku issue https://github.com/ConsenSys/teku/issues/4327 .
-
-Signed-off-by: Paul Harris <paul.harris@consensys.net>
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-10 00:51:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2747" class=".btn">#2747</a>
-            </td>
-            <td>
-                <b>
-                    merge main into Rayonism
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                dust off the rayonism branch
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 23:01:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2746" class=".btn">#2746</a>
-            </td>
-            <td>
-                <b>
-                    Set TransactionGasCalculator in ETC specs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-On #2659 the gas calculator was split but the ETC specification wasn't properly updated, letting 21.7.3 nodes out of consensus.
-
-## Fixed Issue(s)
-Fixes #2715
-
-## Changelog
-
-- [ ] Update Ethereum Classic Phoenix and Magneto specs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-09 20:09:41 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/492" class=".btn">#492</a>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/494" class=".btn">#494</a>
             </td>
             <td>
                 <b>
-                    Fix CI tests 
+                    Implement events for Solana
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                CI tests on forks fail, make various parts conditional.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-08 08:37:01 +0000 UTC
+        Created At 2021-09-16 21:19:55 +0000 UTC
     </div>
 </div>
 
