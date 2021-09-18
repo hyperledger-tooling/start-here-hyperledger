@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2934" class=".btn">#2934</a>
+            </td>
+            <td>
+                <b>
+                    FAB-2931: do not create a chain if it's already created
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Vladyslav Kopaihorodskyi <vlad.kopaygorodsky@gmail.com>
+
+#### Type of change
+- Bug fix
+
+
+#### Description
+
+Do not create a new chain of type `etcdraft.Chain` if such exists in the map of chains. This can happen when in Raft protocol a channel was created, but not marked as done in WAL logs. So at orderer startup, it tried to create another instance of a chain and panicked because that instance startup failed. 
+
+#### Related issues
+
+#2931 
+
+
+#### Release Note
+Fixed bug when an orderer crashed at channel creation and after restart couldn't bootstrap because of desynchronization between WAL logs and ledger state.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-18 00:58:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2933" class=".btn">#2933</a>
             </td>
             <td>
