@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/941" class=".btn">#941</a>
+            </td>
+            <td>
+                <b>
+                    Fix Client `ROLES_ENDPOINT` const
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the `ROLES_ENDPOINT` const, defined for the
+`ReqwestPikeClient`, to `ROLE_ENDPOINT` and updates the value from
+"roles" to "role". The role endpoint is singular.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-17 21:54:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/939" class=".btn">#939</a>
+            </td>
+            <td>
+                <b>
+                    Hookup PO SDE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This sets up the state delta export for purchase order events. This PR also adds the conversion methods to `EventError` for the purchase order store errors.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-17 18:40:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/936" class=".btn">#936</a>
             </td>
             <td>

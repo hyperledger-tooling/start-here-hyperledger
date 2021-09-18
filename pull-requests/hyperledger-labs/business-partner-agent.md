@@ -30,6 +30,8 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 `https://didcomm.org/connections/1.0/invitation` is a valid invitation type, so let's handle the current case and this value.
 IBM had generated a connection invitation with the didcomm format and we couldn't connect, so we needed to update our invitation parser class.
 
+We can generate invitations with the same `@type` by starting the agent with `--emit-new-didcomm-prefix` option.
+
 fixes #620
 
 Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>

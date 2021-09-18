@@ -125,29 +125,3 @@ Boy-scouting: I split the mediation invite tests apart from the other ones for t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1409" class=".btn">#1409</a>
-            </td>
-            <td>
-                <b>
-                    Log warning when unsupported problem report code is received
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #1397 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-10 21:36:50 +0000 UTC
-    </div>
-</div>
-

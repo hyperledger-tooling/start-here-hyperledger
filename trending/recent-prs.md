@@ -1,13 +1,13 @@
 
-[623](https://github.com/hyperledger-labs/business-partner-agent/pull/623) Handle valid invitation type (didcomm)
+[458](https://github.com/hyperledger/aries-framework-javascript/pull/458) Feature/offline message retrieval
 
-[1349](https://github.com/hyperledger/cactus/pull/1349) refactor (core-api): make schema names consistent in openapi spec 
+[342](https://github.com/hyperledger/aries-agent-test-harness/pull/342) Add findy and verity links to interop, tweak to script and findy action
 
-[805](https://github.com/hyperledger/besu-docs/pull/805) add fast-sync peer recommendation
+[941](https://github.com/hyperledger/grid/pull/941) Fix Client `ROLES_ENDPOINT` const
 
-[133](https://github.com/hyperledger/iroha-ios/pull/133) WebSockets support
+[153](https://github.com/hyperledger/sawtooth-sabre/pull/153) Fix "panic message is not a string literal" warnings
 
-[2779](https://github.com/hyperledger/besu/pull/2779) Create new datatypes module for Address, Hash, and Wei
+[939](https://github.com/hyperledger/grid/pull/939) Hookup PO SDE
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
