@@ -92,29 +92,3 @@ Note: this is **not** a fix for #193 but may make diagnosis of bugs of this type
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/189" class=".btn">#189</a>
-            </td>
-            <td>
-                <b>
-                    Node implementation of chaincode event replay
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-11 11:29:35 +0000 UTC
-    </div>
-</div>
-
