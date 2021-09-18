@@ -68,35 +68,3 @@ Signed-off-by: tianxuanhong <523713078@qq.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/331" class=".btn">#331</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-330] cmdlinelib implement of lifecycle_check_commit_readiness…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …&lifecycle_commit
-
-cmdlinelib implement of lifecycle_check_commit_readiness&lifecycle_commit functions
-
-Close #issue-330
-
-Signed-off-by: tianxuanhong <523713078@qq.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-11 08:20:34 +0000 UTC
-    </div>
-</div>
-
