@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/342" class=".btn">#342</a>
+            </td>
+            <td>
+                <b>
+                    Add findy and verity links to interop, tweak to script and findy action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-18 00:03:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/341" class=".btn">#341</a>
             </td>
             <td>
@@ -181,47 +209,6 @@ The aries interop reports should be automatically updated upon test completion.
     </table>
     <div class="right-align">
         Created At 2021-09-13 21:30:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/334" class=".btn">#334</a>
-            </td>
-            <td>
-                <b>
-                    removal of one revocation test as mobile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Simple fix to remove a mistakenly added Revocation MobileTest in a previous PR. 
-
-This PR closes #330
-There is still a failure with the esatus wallet on revocation test `T001.2-HIPE0011`. This test revokes a credential, but since the verifier doesn't include a timestamp in the proof request, that means they don't care if the credential was revoked.  This case is derived from [RFC 0441](https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0441-present-proof-best-practices#semantics-of-non-revocation-interval-presence-and-absence) and states the following, 
-```
-The absence of any non-revocation interval applicable to a requested item signifies that the verifier has no interest in its
-credential's non-revocation status.
-
-A revocable or non-revocable credential may satisfy a presentation request with or without a non-revocation interval. 
-The presence of a non-revocation interval conveys that if the prover presents a revocable credential, the presentation 
-must include proof of non-revocation. Its presence does not convey any restriction on the revocability of the credential to 
-present: in many cases the verifier cannot know whether a prover's credential is revocable or not.
-```
-Depending on how we interpret that section, we may want to talk to esatus about it. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-10 22:06:01 +0000 UTC
     </div>
 </div>
 

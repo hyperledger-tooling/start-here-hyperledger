@@ -124,30 +124,3 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/87" class=".btn">#87</a>
-            </td>
-            <td>
-                <b>
-                    Add experimental features to docs.rs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds the experimental features to the list of features that will be used to generate the rust documentation on docs.rs.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-10 20:59:33 +0000 UTC
-    </div>
-</div>
-

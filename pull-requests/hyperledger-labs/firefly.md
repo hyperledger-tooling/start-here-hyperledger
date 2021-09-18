@@ -114,29 +114,3 @@ The behavior in that issue has been very difficult to reproduce, but this code s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/190" class=".btn">#190</a>
-            </td>
-            <td>
-                <b>
-                    bump ui to version 0.3.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ♾️ 📜 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-10 18:44:46 +0000 UTC
-    </div>
-</div>
-
