@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
             </td>
             <td>
                 <b>
-                    Fixed setup when using ngrok
+                    build: fixed setup when using ngrok
                 </b>
             </td>
         </tr>

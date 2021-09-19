@@ -1,5 +1,5 @@
 
-[459](https://github.com/hyperledger/aries-framework-javascript/pull/459) Fixed setup when using ngrok
+[459](https://github.com/hyperledger/aries-framework-javascript/pull/459) build: fixed setup when using ngrok
 
 [196](https://github.com/hyperledger/fabric-gateway/pull/196) Provide enumeration of commit status codes in Node client
 
