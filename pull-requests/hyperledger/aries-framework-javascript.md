@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/459" class=".btn">#459</a>
+            </td>
+            <td>
+                <b>
+                    Fixed setup when using ngrok
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed the env var name to properly set Agent's endpoints when using ngrok
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-18 18:34:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/458" class=".btn">#458</a>
             </td>
             <td>
