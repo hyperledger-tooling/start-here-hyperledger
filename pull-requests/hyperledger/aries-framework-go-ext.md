@@ -64,29 +64,3 @@ Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/179" class=".btn">#179</a>
-            </td>
-            <td>
-                <b>
-                    chore: enable UPDATE_DOCUMENT_STORE_ENABLED for orb
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 08:24:45 +0000 UTC
-    </div>
-</div>
-

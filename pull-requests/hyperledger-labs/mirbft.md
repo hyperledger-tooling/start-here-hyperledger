@@ -106,29 +106,3 @@ I solved the problem locally by upgrading `github.com/dgraph-io/badger/v2 v2.200
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/42" class=".btn">#42</a>
-            </td>
-            <td>
-                <b>
-                    Absolut paths in README and other minor edits.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Chrysoula Stathakopoulou <tat@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 06:39:57 +0000 UTC
-    </div>
-</div>
-

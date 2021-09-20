@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/155" class=".btn">#155</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/165" class=".btn">#165</a>
             </td>
             <td>
                 <b>
-                    Bug Fix in Github Workflows
+                    Missing protos-go in go.sum Fix
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                1. Fixing Corda unit tests failing.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-07 10:54:02 +0000 UTC
+        Created At 2021-09-20 11:09:04 +0000 UTC
     </div>
 </div>
 
