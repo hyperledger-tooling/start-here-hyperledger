@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/808" class=".btn">#808</a>
+            </td>
+            <td>
+                <b>
+                    Change example to match quorum-dev-quickstart 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Describe the change
+
+Change the QBFT examples to match the 4 validator nodes from https://github.com/ConsenSys/quorum-dev-quickstart so that developers can easily copy-paste examples! 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-20 10:40:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/806" class=".btn">#806</a>
             </td>
             <td>

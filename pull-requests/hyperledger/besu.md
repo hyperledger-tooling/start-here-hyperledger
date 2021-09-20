@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2783" class=".btn">#2783</a>
+            </td>
+            <td>
+                <b>
+                    Snapsync get list  of accounts in range
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-20 08:14:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2782" class=".btn">#2782</a>
             </td>
             <td>
@@ -312,7 +349,36 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
                 
             </td>
             <td>
-                <nil>
+                # Description 
+
+https://wiki.hyperledger.org/display/BESU/DRAFT+-+Pico+CLI+Plugin+Integration
+
+The main change is to move preparePlugins into the begging of the run method. This means that all the cli parsing will happen before any plugins are called. The only way to register cli options will be to have them on the `BesuPlugin` e.g
+
+https://github.com/hyperledger/besu/pull/2768/files#diff-2080ac0bf38c1e492921f4191b738b729195e0b1ad82657abc9103f19ac87cd8L1195
+
+```
+@AutoService(BesuPlugin.class)
+public class MyPlugin implements BesuPlugin {
+
+  @Option(
+    names = {"--Xplugin-my-option"},
+    defaultValue = "foo")
+  String myOption;
+
+  @Override
+  public Optional<String> getName() {
+    return Optional.of("my");
+  }
+}
+```
+
+The other breaking change is that you should override getName and provide a meaningful plugin name. This is used for the namespace when registering the cli arguments.
+
+https://github.com/hyperledger/besu/pull/2768/files#diff-2080ac0bf38c1e492921f4191b738b729195e0b1ad82657abc9103f19ac87cd8R1204
+
+
+
             </td>
         </tr>
     </table>
@@ -437,7 +503,7 @@ Fixed a typo
             </td>
             <td>
                 <b>
-                    Initial PoC for RPC end points via the plugin mechanism.
+                    Allow Besu to host RPC endpoints via a plugin.
                 </b>
             </td>
         </tr>

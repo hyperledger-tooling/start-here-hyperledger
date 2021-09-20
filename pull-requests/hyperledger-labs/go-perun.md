@@ -281,30 +281,3 @@ The variable name was suggesting that it can always be initialized with `Address
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/186" class=".btn">#186</a>
-            </td>
-            <td>
-                <b>
-                    [pkg/test] Remove deprecated function.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `InterfaceData()` is deprecated and returns unreadable data in the
-current go version. Use `Interface()` instead.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 08:13:57 +0000 UTC
-    </div>
-</div>
-

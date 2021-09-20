@@ -121,38 +121,3 @@ Resolves #1610
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1663" class=".btn">#1663</a>
-            </td>
-            <td>
-                <b>
-                    [corda-ent] Updated platform r3 corda-ent roles README.md files.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
- Updated platform r3 corda-ent roles README.md files.
-
- 
-
-@sownak @suvajit-sarkar 
-
- 
-1624
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 07:04:06 +0000 UTC
-    </div>
-</div>
-
