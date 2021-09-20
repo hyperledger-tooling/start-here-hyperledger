@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/89" class=".btn">#89</a>
-            </td>
-            <td>
-                <b>
-                    Add logging when http requests fail and retry
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add some additional logging when http requests are retried
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 14:07:47 +0000 UTC
-    </div>
-</div>
-
