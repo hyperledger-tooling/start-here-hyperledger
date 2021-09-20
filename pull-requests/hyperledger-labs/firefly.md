@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/196" class=".btn">#196</a>
+            </td>
+            <td>
+                <b>
+                    Factor out "PersistTransaction" as a common database utility
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                No idea where would be the appropriate place for this... but this general logic of validating and marking
+a transaction complete is going to be needed outside of `events` (specifically, tokens look to be
+introducing a new type of transaction that will be marked complete by a call in `syshandler`).
+
+This logic is all transaction- and database-related (not particularly related to events). It's also not
+particular to a specific database (ie SQL), although some of the checks could be pushed down into
+the SQLCommon handler. Looking for input on whether a common utility like this is a good idea, or
+if there's a better way to handle this common logic across packages.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-20 16:05:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/193" class=".btn">#193</a>
             </td>
             <td>
@@ -83,34 +116,6 @@ I have only done build+UT so far.
     </table>
     <div class="right-align">
         Created At 2021-09-15 05:41:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly/pull/191" class=".btn">#191</a>
-            </td>
-            <td>
-                <b>
-                    Gracefully shutdown http server when resetting config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hopefully this should fix https://github.com/hyperledger-labs/firefly-cli/issues/80
-
-The behavior in that issue has been very difficult to reproduce, but this code should help. Even if it doesn't fix that issue, it will not hurt anything else, and it helps prevent other http requests from possibly getting interrupted.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 14:09:44 +0000 UTC
     </div>
 </div>
 

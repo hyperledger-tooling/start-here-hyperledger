@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/255" class=".btn">#255</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/258" class=".btn">#258</a>
             </td>
             <td>
                 <b>
-                    Fixes for CA deployment guide
+                    Fix swagger issues
                 </b>
             </td>
         </tr>
@@ -27,17 +27,23 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Fix and improve instructions related to csr.hosts in the CA
-config and deployment guide.
-Also update deployment guide to clarify TLS certs and bootstrap
-identity for TLS CA server organization CA server.
+                Fix Structural & Semantic errors on swagger.json
 
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Related issues
+
+close #256
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-13 16:05:36 +0000 UTC
+        Created At 2021-09-20 13:00:38 +0000 UTC
     </div>
 </div>
 

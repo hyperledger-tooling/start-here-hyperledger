@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/50" class=".btn">#50</a>
+            </td>
+            <td>
+                <b>
+                    fix perm issue if src folder is owned by root
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                addresses https://github.com/hyperledger-labs/fabric-operations-console/issues/49
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-20 16:19:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/48" class=".btn">#48</a>
             </td>
             <td>

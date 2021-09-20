@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2784" class=".btn">#2784</a>
+            </td>
+            <td>
+                <b>
+                    Allow the use of BESU_CONFIG_FILE env var
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Enable the use of environment variable `BESU_CONFIG_FILE` to specify config toml
+
+## Fixed Issue(s)
+https://github.com/hyperledger/besu/issues/2455
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-20 13:41:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2783" class=".btn">#2783</a>
             </td>
             <td>
@@ -492,53 +526,6 @@ Fixed a typo
     </table>
     <div class="right-align">
         Created At 2021-09-14 04:04:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2754" class=".btn">#2754</a>
-            </td>
-            <td>
-                <b>
-                    Allow Besu to host RPC endpoints via a plugin.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                ## PR description
-re-implementation of https://github.com/PegaSysEng/pantheon/pull/1909/
-
-
-Implements https://github.com/hyperledger/besu/issues/1317
-
-You can now register endpoints using
-
-```
-context
-  .getService(RpcEndpointService.class)
-  .get()
-  .registerRPCEndpoint("namespace", "method", request -> {
-    return "any serializable response";
-  });
-```
-To enable the endpoint you must utilise `--rpc-http-api` and specify the namespace e.g `--rpc-http-api namespace`.
-
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 14:56:33 +0000 UTC
     </div>
 </div>
 

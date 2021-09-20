@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/106" class=".btn">#106</a>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/107" class=".btn">#107</a>
             </td>
             <td>
                 <b>
-                    Manually include environment variables into node docker build.
+                    Draft PR [#102]: remove sovrin dependencies
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/indy-test-automation
                 
             </td>
             <td>
-                Signed-off-by: Devin Smith <devinleighsmith@gmail.com>
+                #102 
+
+Signed-off-by: udosson <r.klemens@yahoo.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-16 15:45:11 +0000 UTC
+        Created At 2021-09-20 13:29:08 +0000 UTC
     </div>
 </div>
 
