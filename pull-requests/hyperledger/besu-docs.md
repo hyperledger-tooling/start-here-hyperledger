@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/806" class=".btn">#806</a>
+            </td>
+            <td>
+                <b>
+                    Document Besu's public key infrastructure integration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Pull request checklist
+
+### Before creating the pull request
+
+Make sure that:
+
+- [x] [all commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [x] you read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Contributing+to+documentation).
+- [x] you have [tested your changes locally](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewTheDocumentation) before submitting them to the community for review.
+
+## Describe the change
+
+Document Besu's public key infrastructure integration
+
+## Fixes issue
+Fixes [2672](https://github.com/hyperledger/besu/issues/2672)
+Fixes [2671](https://github.com/hyperledger/besu/issues/2671)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-20 02:51:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/805" class=".btn">#805</a>
             </td>
             <td>
