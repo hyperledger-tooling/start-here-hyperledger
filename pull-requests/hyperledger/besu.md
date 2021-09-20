@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2782" class=".btn">#2782</a>
+            </td>
+            <td>
+                <b>
+                    Feature/merge execute payload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+* implements engine_executePayload
+* rename and repurpose rayonism options & flag
+* treat the merge as another consensus mechanism:
+  * add a `merge` consensus gradle subproject 
+  * create MergeBesuController
+  * create MergeProtocolSchedule 
+  * create MergeContext for merge-specific consensus context
+  * create MergeHeaderValidationRuleFactory for merge specific header validation rules
+  * create MergeUnfinalizedValidationRule, attempt to enforce finalized block rules for import
+
+
+## Fixed Issue(s)
+protocol-misc 476 
+protocol-misc 485
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-20 06:00:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2779" class=".btn">#2779</a>
             </td>
             <td>
