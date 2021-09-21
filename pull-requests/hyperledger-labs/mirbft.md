@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/46" class=".btn">#46</a>
+            </td>
+            <td>
+                <b>
+                    Add high level module descriptions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The /doc directory is now cleaned up and its content moved to legacy_doc.
+The new /doc only contains a README.md file with very high-level descriptions
+of library architecture and its modules. The main README.md is now also
+updated with instructions on how to compile and run tests.
+
+The ClientTracker is now also treated as yet another module.
+
+When the user does not specify certain modules at node instantiation,
+defaults will now be used automatically.
+
+Signed-off-by: matejpavlovic <matopavlovic@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 12:03:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/mirbft/pull/45" class=".btn">#45</a>
             </td>
             <td>
@@ -33,32 +69,6 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     </table>
     <div class="right-align">
         Created At 2021-09-15 19:24:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/44" class=".btn">#44</a>
-            </td>
-            <td>
-                <b>
-                    Fixed server synchronization issues, improved some deployment scripts, updated README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-14 07:42:06 +0000 UTC
     </div>
 </div>
 
