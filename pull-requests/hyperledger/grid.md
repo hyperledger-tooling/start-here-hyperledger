@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/945" class=".btn">#945</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0-2: Conform whitespace to calc CSS standard
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To conform to the CSS standard, plus and minus characters must be
+surrounded by whitespace within the calc function. The lack of
+whitespace caused the docker image build to fail when creating
+grid-ui-alpha. This change fixes that by adding the appropriate
+whitespace.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 18:12:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/944" class=".btn">#944</a>
+            </td>
+            <td>
+                <b>
+                    Add whitespace to conform to calc CSS standard
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To conform to the CSS standard, plus and minus characters must be
+surrounded by whitespace within the calc function. The lack of
+whitespace caused the docker image build to fail when creating
+grid-ui-alpha. This change fixes that by adding the appropriate
+whitespace.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 15:13:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/941" class=".btn">#941</a>
             </td>
             <td>

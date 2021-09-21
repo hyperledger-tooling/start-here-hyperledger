@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/197" class=".btn">#197</a>
+            </td>
+            <td>
+                <b>
+                    Replace operation "info" with separate "input" and "output" fields
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Existing field has evolved to always contain plugin-specific data generated upon
+completion of the operation. There is also a (separate) use case for storing
+input data upon creating the operation, to support e.g. retryability.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 16:38:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/196" class=".btn">#196</a>
             </td>
             <td>
