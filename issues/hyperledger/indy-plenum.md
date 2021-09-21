@@ -57,6 +57,36 @@ When developing the enhancements a separate issue should be created to track the
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/indy-plenum/issues/1553" class=".btn">1553</a>
+            </td>
+            <td>
+                <b>
+                    Remove Jenkinsfile.ci Pipeline
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">Ubuntu 20.04</span>
+            </td>
+            <td>
+                GitHub Actions based workflows have been developed, on both the main branch and the ubuntu-20.04-upgrade branch, to replace all of the functionality of the Jenkinsfile.ci pipeline.
+
+Jenkinsfile.ci can safely be removed from the ubuntu-20.04-upgrade branch so when the branch is eventually merged into the main branch the file will be removed there as well.
+
+This should be done after https://github.com/hyperledger/indy-plenum/pull/1545 is merged.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-07-27 15:49:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/indy-plenum/issues/1552" class=".btn">1552</a>
             </td>
             <td>
@@ -67,7 +97,7 @@ When developing the enhancements a separate issue should be created to track the
         </tr>
         <tr>
             <td>
-                <span class="chip">help wanted</span><span class="chip">Ubuntu 20.04</span><span class="chip">upgrade</span>
+                <span class="chip">help wanted</span><span class="chip">good first issue</span><span class="chip">Ubuntu 20.04</span><span class="chip">upgrade</span>
             </td>
             <td>
                 An overview of all installed, referenced, and required PyPI packages can be found here: [Hyperledger Indy-Plenum | Dependency management Ubuntu 20](https://docs.google.com/document/d/1445VZL3qHBmuVbzm-K9O7te_63zKKlyv6mrEwiJcL3Y/edit?usp=sharing)
@@ -97,7 +127,7 @@ Where possible the dependencies should be upgraded individually to reduce the sc
         </tr>
         <tr>
             <td>
-                <span class="chip">help wanted</span><span class="chip">Ubuntu 20.04</span><span class="chip">upgrade</span>
+                <span class="chip">help wanted</span><span class="chip">good first issue</span><span class="chip">Ubuntu 20.04</span><span class="chip">upgrade</span>
             </td>
             <td>
                 For the Ubuntu 20.04 version of Plenum, upgrade to RocksDB 5.17, which is the version supported on Ubuntu 20.04; https://packages.ubuntu.com/search?searchon=sourcenames&keywords=rocksdb
