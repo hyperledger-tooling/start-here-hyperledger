@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/aries-toolbox
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/231" class=".btn">#231</a>
-            </td>
-            <td>
-                <b>
-                    Draft PR: feat: Add revocation support to credentials
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The following changes are to add support for credential revocation. This PR is marked as a draft until we can successfully create revocable credentials.
-
-Signed-off-by: Colton Wolkins <colton@indicio.tech>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 19:54:42 +0000 UTC
-    </div>
-</div>
-

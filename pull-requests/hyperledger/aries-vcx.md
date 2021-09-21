@@ -36,6 +36,8 @@ New methods:
 * `vcx_issuer_credential_get_thread_id`
 * `vcx_proof_get_thread_id`
 
+`CompleteState` on inviter's side now includes optional `thread_id` field (potentially a breaking change).
+
 Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
             </td>
         </tr>

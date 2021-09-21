@@ -276,29 +276,3 @@ The PO name and org aren't used since we arent actually creating anything. You s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/932" class=".btn">#932</a>
-            </td>
-            <td>
-                <b>
-                    Update PO store for updated protos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This updates the PO store to account for the changes to the PO protobuf messages. This updates the schemas, DB models, Grid structs, DB operations, and REST API to account for the different fields in the updated messages.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 19:36:20 +0000 UTC
-    </div>
-</div>
-
