@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/811" class=".btn">#811</a>
+            </td>
+            <td>
+                <b>
+                    Privacy restricted - corrected link
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Link restricted privacy to the page where it is explained
+
+### For content changes
+
+- [x] Doc content
+- [ ] Doc pages organisation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 03:12:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/810" class=".btn">#810</a>
             </td>
             <td>
@@ -137,8 +170,8 @@ Make sure that:
 
 Make sure that:
 
-- [ ] you fixed all the issues raised by the tests, if any.
-- [ ] you verified the rendering of your changes on [ReadTheDocs.org PR preview](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewwithReadTheDocs)
+- [x] you fixed all the issues raised by the tests, if any.
+- [x] you verified the rendering of your changes on [ReadTheDocs.org PR preview](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewwithReadTheDocs)
   and updated the testing link (see [Testing](#testing)).
 
 ## Describe the change
@@ -165,7 +198,7 @@ fixes #802
 
 ### For content changes
 
-- [ ] Doc content
+- [x] Doc content
 - [ ] Doc pages organisation
 
 ### For tools changes
@@ -186,6 +219,8 @@ Add links to preview the pages changes here.
 Link format is https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/
 Where {your PR number} must be replaced by the number of this PR, for instance 123
 -->
+
+see https://hyperledger-besu--809.org.readthedocs.build/en/809/Concepts/Permissioning/Permissioning-Overview/#onchain
 
 ## Screenshots / recording
 

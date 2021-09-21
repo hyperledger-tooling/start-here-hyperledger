@@ -14,6 +14,111 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2789" class=".btn">#2789</a>
+            </td>
+            <td>
+                <b>
+                    Rollback TransactionGasCalculator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rollback the transactionGasCalculator changes. This was done in
+preparation for the EVM modularization.  Instead, destructure the data
+needed to calculate the gas instead of passing in the whole transaction.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 05:15:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2788" class=".btn">#2788</a>
+            </td>
+            <td>
+                <b>
+                    IBFT and QBFT to use a tolerance on minimum seconds between blocks in header validation rule
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+In IBFT and QBFT it is possible in some circumstances for a block to be created with a timestamp less than the specified block period. This add an optional tolerance to the header validation rule that the blocks must be at least x seconds than the parent block to allow for this. Without this change it might not possible to sync or import an existing IBFT chain that has this issue.
+
+There will be work in another PR to fix the circumstances under which this can occur.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 03:44:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2787" class=".btn">#2787</a>
+            </td>
+            <td>
+                <b>
+                    Merge main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+merge main in.  In PR form to ensure CI passes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 03:27:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2784" class=".btn">#2784</a>
             </td>
             <td>
@@ -494,38 +599,6 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-09-14 17:54:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2758" class=".btn">#2758</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Fixed a typo
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-14 04:04:35 +0000 UTC
     </div>
 </div>
 

@@ -481,29 +481,3 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1327" class=".btn">#1327</a>
-            </td>
-            <td>
-                <b>
-                    feat(validator): Iroha validator using python
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hyperledger Iroha Validator
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-14 05:18:39 +0000 UTC
-    </div>
-</div>
-
