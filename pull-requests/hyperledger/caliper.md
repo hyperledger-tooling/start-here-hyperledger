@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1164" class=".btn">#1164</a>
+            </td>
+            <td>
+                <b>
+                    Added basic value providers in workload module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Added value-provider-interface and uniform-random-value-provider
+- Added unit tests for value providers
+- UniformRandomValueProvider test fix and reference value provider addition
+
+Signed-off-by: Aastha Bist <abist119@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 11:29:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1162" class=".btn">#1162</a>
             </td>
             <td>
