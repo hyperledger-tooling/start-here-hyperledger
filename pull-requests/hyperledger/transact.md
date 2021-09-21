@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/189" class=".btn">#189</a>
+            </td>
+            <td>
+                <b>
+                    Move sqlite and postgres specifics into own files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change moves the sqlite- and postgres-specific implementations of state-related traits (and internal traits for SqlMerkleState implementation) into their own respective sub-modules.  This brings the root state::merkle::sql module in line with the rest of the sql sub-modules.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-20 21:45:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/188" class=".btn">#188</a>
             </td>
             <td>

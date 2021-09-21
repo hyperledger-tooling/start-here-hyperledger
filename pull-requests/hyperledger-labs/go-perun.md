@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/218" class=".btn">#218</a>
+            </td>
+            <td>
+                <b>
+                    Use context as test timeout
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #202 
+
+Also refactors 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-20 18:29:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/216" class=".btn">#216</a>
             </td>
             <td>

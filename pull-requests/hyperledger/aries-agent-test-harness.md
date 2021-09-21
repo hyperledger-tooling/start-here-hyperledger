@@ -208,33 +208,3 @@ To test this PR
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/335" class=".btn">#335</a>
-            </td>
-            <td>
-                <b>
-                    Acapy-b-verity test runset
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-This PR adds an acapy-b-verity runset for daily execution in GHA. 
-A acapy-b-verity project has been added to allure. 
-The aries interop reports should be automatically updated upon test completion.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 21:30:15 +0000 UTC
-    </div>
-</div>
-

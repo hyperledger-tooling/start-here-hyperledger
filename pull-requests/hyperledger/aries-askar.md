@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/30" class=".btn">#30</a>
+            </td>
+            <td>
+                <b>
+                    BBS+ updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Misc API adjustments
+- Add accessors for proof response values and test of cross-signature message equality proof
+- Add some (likely temporary) discriminator values for proofs
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-20 22:55:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-askar/pull/29" class=".btn">#29</a>
             </td>
             <td>

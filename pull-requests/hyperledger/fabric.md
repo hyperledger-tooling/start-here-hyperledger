@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2936" class=".btn">#2936</a>
+            </td>
+            <td>
+                <b>
+                    FAB-2931: do not create a chain if it's already created (backport #2934)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #2934 done by [Mergify](https://mergify.io).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.io/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.io/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.io/
+</details>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-20 19:19:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2935" class=".btn">#2935</a>
             </td>
             <td>
@@ -476,35 +529,6 @@ Resolves #<2908>
     </table>
     <div class="right-align">
         Created At 2021-09-14 08:45:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2907" class=".btn">#2907</a>
-            </td>
-            <td>
-                <b>
-                    Update docs for Jira to GitHub issue transition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update docs to indicate that GitHub issues are now
-used instead of Jira issues.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-13 22:00:55 +0000 UTC
     </div>
 </div>
 
