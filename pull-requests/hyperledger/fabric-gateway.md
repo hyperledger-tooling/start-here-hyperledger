@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/202" class=".btn">#202</a>
+            </td>
+            <td>
+                <b>
+                    Chaincode event replay for Java client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 15:40:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/196" class=".btn">#196</a>
             </td>
             <td>
@@ -63,34 +89,6 @@ Note: this is **not** a fix for #193 but may make diagnosis of bugs of this type
     </table>
     <div class="right-align">
         Created At 2021-09-15 13:24:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/192" class=".btn">#192</a>
-            </td>
-            <td>
-                <b>
-                    Check for null names in Java client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Network name in Gateway.getNetwork()
-- Chaincode ID in Network.getContract() and Network.getChaincodeEvents()
-- Transaction name in Contract.submitTransaction(), evaluateTransaction() and newProposal()
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-14 15:14:09 +0000 UTC
     </div>
 </div>
 
