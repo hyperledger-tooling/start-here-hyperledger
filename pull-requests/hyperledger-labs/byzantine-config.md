@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/38" class=".btn">#38</a>
             </td>
             <td>
                 <b>
-                    Bump path-parse from 1.0.6 to 1.0.7
+                    Bump tmpl from 1.0.4 to 1.0.5
                 </b>
             </td>
         </tr>
@@ -27,17 +27,17 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [path-parse](https://github.com/jbgutierrez/path-parse) from 1.0.6 to 1.0.7.
+                Bumps [tmpl](https://github.com/daaku/nodejs-tmpl) from 1.0.4 to 1.0.5.
 <details>
 <summary>Commits</summary>
 <ul>
-<li>See full diff in <a href="https://github.com/jbgutierrez/path-parse/commits/v1.0.7">compare view</a></li>
+<li>See full diff in <a href="https://github.com/daaku/nodejs-tmpl/commits/v1.0.5">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=path-parse&package-manager=npm_and_yarn&previous-version=1.0.6&new-version=1.0.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tmpl&package-manager=npm_and_yarn&previous-version=1.0.4&new-version=1.0.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -73,7 +73,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-10 23:55:05 +0000 UTC
+        Created At 2021-09-21 02:55:35 +0000 UTC
     </div>
 </div>
 
