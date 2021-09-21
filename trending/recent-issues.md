@@ -5,9 +5,9 @@
 
 [1554](https://github.com/hyperledger/indy-plenum/issues/1554) GitHub Action CI/CD Enhancements
 
-[1552](https://github.com/hyperledger/indy-plenum/issues/1552) Upgrade and unpin remaining dependencies 
+[1553](https://github.com/hyperledger/indy-plenum/issues/1553) Remove Jenkinsfile.ci Pipeline
 
-[1551](https://github.com/hyperledger/indy-plenum/issues/1551) Ubuntu 20.04: Upgrade RocksDB
+[1552](https://github.com/hyperledger/indy-plenum/issues/1552) Upgrade and unpin remaining dependencies 
 
 
 [See more >>>](https://start-here.hyperledger.org/issues)
