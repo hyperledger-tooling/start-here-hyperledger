@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/204" class=".btn">#204</a>
+            </td>
+            <td>
+                <b>
+                    Scenario tests for chaincode event replay
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also fix Java scenario tests, which were all being skipped by a bad tag specification.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 16:41:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/202" class=".btn">#202</a>
             </td>
             <td>
@@ -61,34 +87,6 @@ Note the scenario test change, which demonstrates how commit status values can b
     </table>
     <div class="right-align">
         Created At 2021-09-18 12:26:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/194" class=".btn">#194</a>
-            </td>
-            <td>
-                <b>
-                    Use accessors for protobuf fields in Go client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Using getters to access fields on protobuf structs reduces the chance of runtime panics in the event that malformed protobuf messages are received from the Fabric Gateway peer. Results returned to the application will still not be correct but the chance of application failure is reduced.
-
-Note: this is **not** a fix for #193 but may make diagnosis of bugs of this type easier in the Go client, since the client is more likely to remain running for debugging or results analysis.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 13:24:52 +0000 UTC
     </div>
 </div>
 

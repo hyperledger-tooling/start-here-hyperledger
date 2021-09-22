@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2796" class=".btn">#2796</a>
+            </td>
+            <td>
+                <b>
+                    Evm speedup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Broad reaching optimizations to speed up EVM calculations
+* Generally speaking, use `int` and `long` where it is more appropriate than `UInt256` (memory indexes mostly)
+* Move the internal stack to `Bytes` from `UInt256`
+* Re-work the flow of many operations to account for the above
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 14:57:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2793" class=".btn">#2793</a>
             </td>
             <td>
@@ -102,9 +141,13 @@ The only way to register cli options is to use the extra hook provided by `BesuP
                 
             </td>
             <td>
-                ## Changelog
+                Move the EVM classes to a standalone module. This is mostly moves but
+some API re-design to peel out some features not essential to the EVM,
+such as privacy support and ties to the data storage subsystem.
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -571,61 +614,6 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-09-15 19:51:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2768" class=".btn">#2768</a>
-            </td>
-            <td>
-                <b>
-                    Proposal for breaking change to the way plugins load cli options
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Description 
-
-https://wiki.hyperledger.org/display/BESU/DRAFT+-+Pico+CLI+Plugin+Integration
-
-The main change is to move preparePlugins into the begging of the run method. This means that all the cli parsing will happen before any plugins are called. The only way to register cli options will be to have them on the `BesuPlugin` e.g
-
-https://github.com/hyperledger/besu/pull/2768/files#diff-2080ac0bf38c1e492921f4191b738b729195e0b1ad82657abc9103f19ac87cd8L1195
-
-```
-@AutoService(BesuPlugin.class)
-public class MyPlugin implements BesuPlugin {
-
-  @Option(
-    names = {"--Xplugin-my-option"},
-    defaultValue = "foo")
-  String myOption;
-
-  @Override
-  public Optional<String> getName() {
-    return Optional.of("my");
-  }
-}
-```
-
-The other breaking change is that you should override getName and provide a meaningful plugin name. This is used for the namespace when registering the cli arguments.
-
-https://github.com/hyperledger/besu/pull/2768/files#diff-2080ac0bf38c1e492921f4191b738b729195e0b1ad82657abc9103f19ac87cd8R1204
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 14:39:39 +0000 UTC
     </div>
 </div>
 
