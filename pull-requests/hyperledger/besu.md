@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2793" class=".btn">#2793</a>
+            </td>
+            <td>
+                <b>
+                    Feature/merge consensus validated
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+* implement consensusValidated
+* add Merge specific implementations of:
+  * BlockValidator
+  * BlockProcessor 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 00:23:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2792" class=".btn">#2792</a>
             </td>
             <td>
@@ -581,46 +623,6 @@ https://github.com/hyperledger/besu/pull/2768/files#diff-2080ac0bf38c1e492921f41
     </table>
     <div class="right-align">
         Created At 2021-09-15 14:39:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2763" class=".btn">#2763</a>
-            </td>
-            <td>
-                <b>
-                    Stub out new execution endpoint api, #474
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update json-rpc consensus API (474)
-* change rpc endpoint to engine_* rather than consensus_*
-* split consensus_assembleBlock into engine_preparePayload and engine_getPayload
-* engine_preparePayload should be stubbed to return a success response
-* engine_getPayload should repurpose consensus_assembleBlock
-
-stub out:
-* engine_executePayload
-* engine_consensusValidated
-* engine_forkChoiceUpdated
-
-remove/repurpose:
-* consensus_finalizeBlock
-* consensus_newBlock
-* consensus_setHead
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 00:01:05 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-fabconnect/pull/47" class=".btn">#47</a>
             </td>
             <td>
                 <b>
-                    Unit tests for eventstream
+                    Gateway client
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/firefly-fabconnect
                 
             </td>
             <td>
-                - added unit tests coverage for eventstream
-- eliminate dependencies for `github.com/hyperledger/fabric` which doesn't follow go module versioning rules
-- added `Unregister()` method to the `fabric/RPCClient` interface to allow better test-ability
+                Added support to use the gateway implementation in the SDK (client-side gateway) that works with a Fabric peer that has the discovery service turned on, in order to minimize the required information inside the connection profile.
+
+This works when `UserGatewayClient: true` is configured. If not set or set to `false`, then the original support of solely relying on the connection profile is used.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-13 12:10:20 +0000 UTC
+        Created At 2021-09-21 19:38:46 +0000 UTC
     </div>
 </div>
 
