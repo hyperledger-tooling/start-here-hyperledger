@@ -64,34 +64,3 @@ Signed-off-by: Woerner Dominic (RBCH/PJ-IOT) <dominic.woerner2@ch.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-did-method/pull/16" class=".btn">#16</a>
-            </td>
-            <td>
-                <b>
-                    Feature/ignore build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Clean up repo a bit and add IDE specific configs to gitignore
-- Add `docs` folder to gitignore
-- GHA with force add `docs/index.html`. Can't test if this will work.
-- Changed logo to svg. Logo is now shown but rather small
-- Tried to change CSS to show logo properly, but changes to `index.css` are not taken into account
-- Added line in gitpod readme to reload page if window is frozen.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 11:51:09 +0000 UTC
-    </div>
-</div>
-
