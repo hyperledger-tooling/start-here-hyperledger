@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/202" class=".btn">#202</a>
+            </td>
+            <td>
+                <b>
+                    Rename tokens "https" plugin to "fftokens"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The name "https" is too generic - the plugin represents a way to map token operations
+like pool, mint, and transfer into a specific HTTP+websocket protocol. Therefore a
+specific, unique name is appropriate.
+
+Also changed the config key from "connector" to "plugin" (since its purpose is to
+affect which plugin FireFly loads from the map).
+
+Added migration paths for both changes so that the CLI and any existing stacks can
+have time to be updated.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 14:41:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/201" class=".btn">#201</a>
             </td>
             <td>

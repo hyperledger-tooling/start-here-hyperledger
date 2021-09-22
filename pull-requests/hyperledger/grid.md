@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/946" class=".btn">#946</a>
+            </td>
+            <td>
+                <b>
+                    Add `workflow_type` to purchase order
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change mainly adds a string field, `workflow_type` to the purchase order object. This field addition affects the use of purchase order throughout the SDK, from the protobuf message to the store. Also, added the `workflow_type` to the purchase order that is returned by the rest API. 
+
+This change also makes an update to make `accepted_version_number/id` optional in the purchase order protocol and store code. This updates the use of this field as it is now an `Option<String>`, rather than just `String`. 
+
+This change also adds migration data to account for these changes to the purchase order database model.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 14:58:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/945" class=".btn">#945</a>
             </td>
             <td>

@@ -169,7 +169,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                <nil>
+                - upgraded aca-py to 0.7.1
+- set all auto flags to false where the BPA has a implementation to have this as a point of reference
+- fixed: allowing trusted issuer did to be set on more than one schema
+- manual auto respond credential proposal flow for indy credentials in v1 and v2 in backend
+- fixed: lookup for types 'a partner can issue' on the receiving side of a connection
             </td>
         </tr>
     </table>

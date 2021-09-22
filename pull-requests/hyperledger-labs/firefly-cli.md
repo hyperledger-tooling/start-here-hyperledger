@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/90" class=".btn">#90</a>
+                PR <a href="https://github.com/hyperledger-labs/firefly-cli/pull/91" class=".btn">#91</a>
             </td>
             <td>
                 <b>
-                    Add FireFly link to README
+                    Update token config keys
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/firefly-cli
                 
             </td>
             <td>
-                <nil>
+                Depends on https://github.com/hyperledger-labs/firefly/pull/202
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-15 14:12:01 +0000 UTC
+        Created At 2021-09-22 14:46:25 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/192" class=".btn">#192</a>
+            </td>
+            <td>
+                <b>
+                    Remove outdated comment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change removes an outdated comment, left over from the development process.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 17:51:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/191" class=".btn">#191</a>
+            </td>
+            <td>
+                <b>
+                    Correct feature guard for diesel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change corrects the feature guard for diesel to "diesel", making it less dependent on the feature defined in libtransact's Cargo.toml, and merely dependent on whether or not the optional dependency is included in the set of active features.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 15:42:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/190" class=".btn">#190</a>
+            </td>
+            <td>
+                <b>
+                    SqlMerkleState integration test re-org
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR moves some use statements, statics and functions around, for consistent file organization.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 14:28:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/189" class=".btn">#189</a>
             </td>
             <td>
@@ -86,58 +166,6 @@ permalink: /pull-requests/hyperledger/transact
     </table>
     <div class="right-align">
         Created At 2021-09-15 21:49:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/186" class=".btn">#186</a>
-            </td>
-            <td>
-                <b>
-                    Add GHA files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 17:49:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/185" class=".btn">#185</a>
-            </td>
-            <td>
-                <b>
-                    Add release notes for 0.3.8
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Schwarz <pschwarz@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 15:22:58 +0000 UTC
     </div>
 </div>
 

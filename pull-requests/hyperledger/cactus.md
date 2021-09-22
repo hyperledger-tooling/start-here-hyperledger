@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1376" class=".btn">#1376</a>
+            </td>
+            <td>
+                <b>
+                    ci: drop Node v12 from matrix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                Why though?
+Because Node v12 will soon be EOL'd once 16 becomes the stable LTS
+next month and testing only 2 versions in our matrix will help ease
+the pain (at least temporarily) caused by the docker hub rate limits.
+
+Also upgraded the versions for 14 and 16 to the latest as of 2021-09-22
+
+Also set the max parallel to 2 in order to closer match reallity
+instead of 1024 which if we actually used the dockerhub rate limits
+would fail all the tests anyway.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 16:43:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1349" class=".btn">#1349</a>
             </td>
             <td>
@@ -109,7 +146,7 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">Security</span><span class="chip">dependent</span>
+                <span class="chip">dependencies</span><span class="chip">Security</span>
             </td>
             <td>
                 Depends on #1344
@@ -122,7 +159,7 @@ Vulnerable versions: <= 0.21.1
 Patched version: 0.21.2
 axios is vulnerable to Inefficient Regular Expression Complexity
 
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com> 
             </td>
         </tr>
     </table>
@@ -284,32 +321,6 @@ Resolves #1338
     </table>
     <div class="right-align">
         Created At 2021-09-15 20:08:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1337" class=".btn">#1337</a>
-            </td>
-            <td>
-                <b>
-                    Quorum private transaction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #951 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 14:05:49 +0000 UTC
     </div>
 </div>
 
