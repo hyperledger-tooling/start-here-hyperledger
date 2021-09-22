@@ -33,6 +33,7 @@ permalink: /pull-requests/hyperledger/besu
 ## PR description
 
 * implement consensusValidated
+* implement forkChoiceUpdated
 * add Merge specific implementations of:
   * BlockValidator
   * BlockProcessor 
@@ -40,6 +41,8 @@ permalink: /pull-requests/hyperledger/besu
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+fixes [merge-477](https://github.com/ConsenSys/protocol-misc/issues/477)
+fixes [merge-478](https://github.com/ConsenSys/protocol-misc/issues/478)
 
 ## Changelog
 

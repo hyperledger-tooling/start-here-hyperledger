@@ -339,35 +339,3 @@ Resolves #1338
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1335" class=".btn">#1335</a>
-            </td>
-            <td>
-                <b>
-                    ci: re-enable image caching, skip flaky tests #1334
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                1. Disables the coverage check of tap.
-2. Starts skipping failing tests
-3. Re-enables container image caching
-
-Fixes #1334
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 02:25:46 +0000 UTC
-    </div>
-</div>
-
