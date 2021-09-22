@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/64" class=".btn">#64</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    Update version to 0.3.2
+                    Import sha3 directly instead of through ursa
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                
+                Ursa 0.3.7 was released with a different and incompatible version of the dependency, so this fixes a build error as well.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-03 15:19:26 +0000 UTC
+        Created At 2021-09-21 23:36:35 +0000 UTC
     </div>
 </div>
 

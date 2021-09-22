@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger-labs/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/201" class=".btn">#201</a>
+            </td>
+            <td>
+                <b>
+                    Add additional fields to TokenPool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                All token pools should record the connector that created them, may optionally
+include a token symbol, and may (in the near future) be linked to a message.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 00:50:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/firefly/pull/200" class=".btn">#200</a>
+            </td>
+            <td>
+                <b>
+                    Swagger bug fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #199 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 20:43:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/firefly/pull/197" class=".btn">#197</a>
             </td>
             <td>

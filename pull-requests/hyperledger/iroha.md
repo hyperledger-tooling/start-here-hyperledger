@@ -268,7 +268,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.x</span><span class="chip">Burrow integration</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->

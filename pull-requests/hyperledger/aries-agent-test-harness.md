@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/345" class=".btn">#345</a>
+            </td>
+            <td>
+                <b>
+                    increased the javascript wait time
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+Increased the wait times for certain calls in the javascript backchannel. Hopefully this should clear up the failures in the daily runsets. Locally all these tests are passing. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 23:54:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/344" class=".btn">#344</a>
+            </td>
+            <td>
+                <b>
+                    Support afgo-acapy RFC0453 interop, and fix 0023 interop issues
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                AFGO-ACAPy interop tests that are now enabled:
+- all didexchange tests 
+- all JSON-LD issue-credential tests, with the exception of BBS+ with ACA-Py issuer, as there's an intermittent error where ACA-Py gets the public orb DID of the afgo holder instead of a peer DID.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-21 21:24:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/343" class=".btn">#343</a>
             </td>
             <td>

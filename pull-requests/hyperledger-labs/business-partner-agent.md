@@ -251,39 +251,3 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/617" class=".btn">#617</a>
-            </td>
-            <td>
-                <b>
-                    Expert Mode - Issue Credential from JSON
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">frontend</span>
-            </td>
-            <td>
-                Allow user to copy/paste, type or upload a JSON file and load the credential data.
-Fix bug from Credential Management when you cancel Issue Credential and re-open form, the cred def wasn't loading.
-
-Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-![Screen Shot 2021-09-14 at 3 36 50 PM](https://user-images.githubusercontent.com/39388115/133343781-c1aaa943-72a0-4002-972f-d950f5562436.png)
-
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/617"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-14 22:47:34 +0000 UTC
-    </div>
-</div>
-
