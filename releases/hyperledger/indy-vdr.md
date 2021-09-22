@@ -15,26 +15,26 @@ permalink: /releases/hyperledger/indy-vdr
         <tr>
             <td colspan="2">
                 <b>
-                    v0.3.2
+                    v0.3.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.3.2
+                    v0.3.3
                 </span>
             </td>
             <td>
-                - Adds support for socks proxy
+                Updates dependencies, and fixes a warning on newer Rust versions.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-vdr/releases/tag/v0.3.2" class=".btn">
+    <a href="https://github.com/hyperledger/indy-vdr/releases/tag/v0.3.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-08-03 15:56:19 +0000 UTC
+        Created At 2021-09-22 00:07:11 +0000 UTC
     </span>
 </div>
 
