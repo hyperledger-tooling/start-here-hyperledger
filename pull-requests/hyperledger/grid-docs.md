@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/256" class=".btn">#256</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/258" class=".btn">#258</a>
             </td>
             <td>
                 <b>
-                    Update release pages to link to release branch
+                    Add the required dependencies for building in Debian(Ubuntu)
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                This change updates the links used in the `Releases` pages for Grid v0.1
-and v0.2 to update the GitHub link to point to the specific release
-branch. This change also adds a note to these release pages to specify
-that the released version exists on a branch, rather than just the core
-repository.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
+                This commit adds the dependencies needed to build the project locally in Debian(Ubuntu).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-03 17:19:27 +0000 UTC
+        Created At 2021-09-22 03:04:01 +0000 UTC
     </div>
 </div>
 
