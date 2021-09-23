@@ -3,11 +3,11 @@
 
 [1315](https://github.com/hyperledger/iroha/issues/1315) Peer responded with QueryResult instead of VersionedQueryResult
 
-[133](https://github.com/hyperledger-labs/firefly-ethconnect/issues/133) Arg packing for an empty slice actually returns an array
-
 [1554](https://github.com/hyperledger/indy-plenum/issues/1554) GitHub Action CI/CD Enhancements
 
 [1553](https://github.com/hyperledger/indy-plenum/issues/1553) Remove Jenkinsfile.ci Pipeline
+
+[1552](https://github.com/hyperledger/indy-plenum/issues/1552) Upgrade and unpin remaining dependencies 
 
 
 [See more >>>](https://start-here.hyperledger.org/issues)
