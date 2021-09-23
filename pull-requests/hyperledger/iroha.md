@@ -238,7 +238,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [gha] fix ci runs-on: ubuntu-20.04
+                    [gha] fix ci: runs-on: ubuntu-20.04
                 </b>
             </td>
         </tr>

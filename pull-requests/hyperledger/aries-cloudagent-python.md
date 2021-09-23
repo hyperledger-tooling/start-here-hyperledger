@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1416" class=".btn">#1416</a>
-            </td>
-            <td>
-                <b>
-                    unprotect liveness and readiness endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently liveness and readiness endpoints are protected by api key, it's difficult to provide agent status to external probs without revealing the key in clear text. Suggest to make the two endpoints unprotected.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 04:12:22 +0000 UTC
-    </div>
-</div>
-
