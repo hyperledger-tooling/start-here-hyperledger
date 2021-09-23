@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/80" class=".btn">#80</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/81" class=".btn">#81</a>
             </td>
             <td>
                 <b>
-                    Fix/update afj for testing
+                    Fix/Update install process
                 </b>
             </td>
         </tr>
@@ -29,11 +29,16 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-Replace this text with a high-level summary of the changes included in this PR.
+This is a replacement / followup for #80 by @NeilSMyers.
+This PR adds:
+* Fixes the Aries Hooks node_modules issues
+* Fixes multiple login issues
+* Updates the installation & setup documentation
+* Updates to AFJ 0.1.0-alpha.273
 
 # Related Issues
 
-Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
+N/A
 
 # Pull Request Checklist
 
@@ -41,10 +46,10 @@ This is just a reminder about the most common mistakes. Please make sure that yo
 
 If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
 
-- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
-- [ ] Run prettier: `npm run style-format`
-- [ ] Updated **documentation** for changed code and new or modified features.
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [x] Run prettier: `npm run style-format`
+- [x] Updated **documentation** for changed code and new or modified features.
 
 If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
 
@@ -54,7 +59,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-22 23:36:14 +0000 UTC
+        Created At 2021-09-23 02:32:04 +0000 UTC
     </div>
 </div>
 
