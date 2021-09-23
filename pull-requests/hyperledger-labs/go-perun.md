@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/223" class=".btn">#223</a>
+            </td>
+            <td>
+                <b>
+                    Extend generic channel tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #219 
+
+Package channel: Adds generic tests for testing funder, adjudicator, and subscription implementation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 12:15:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/222" class=".btn">#222</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade go to v1.17
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #221
+
+With go v1.17 the build tag format changes from `+build` to `go:build`.
+
+Also resolves some issues with files using build tags:
+- build tag wrap_test was unused and documented as broken
+- files race.go and norace.go were using build tags to detect the race flag, but were unused
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 11:34:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/218" class=".btn">#218</a>
             </td>
             <td>
@@ -194,140 +254,6 @@ Also fixes another issue where `ensureRegistered` would fail because the channel
     </table>
     <div class="right-align">
         Created At 2021-09-16 23:00:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/205" class=".btn">#205</a>
-            </td>
-            <td>
-                <b>
-                    Integrate watcher into client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 11:46:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/204" class=".btn">#204</a>
-            </td>
-            <td>
-                <b>
-                    Improve documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 11:43:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/203" class=".btn">#203</a>
-            </td>
-            <td>
-                <b>
-                    Fix basic issue template
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Issue templates must have an about text.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 11:28:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/201" class=".btn">#201</a>
-            </td>
-            <td>
-                <b>
-                    balance reader interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #200 
-
-Introduces a balance reader interface for the generic client tests.
-
-(Also moves `func makeRoleSetups` to a more suitable location.)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 10:51:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/199" class=".btn">#199</a>
-            </td>
-            <td>
-                <b>
-                    Update and rename issue.md to basic.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When creating a new issue, the template description looked a bit odd. Hence, adjusting.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 10:43:04 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/353" class=".btn">#353</a>
+            </td>
+            <td>
+                <b>
+                    Update rust toolkit version to latest stable (1.55.0)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 11:13:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/352" class=".btn">#352</a>
             </td>
             <td>
@@ -55,7 +81,7 @@ Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
                 <span class="chip">ci</span>
             </td>
             <td>
-                Updates the code coverage CI task to measure code coverage on all subcrates separately.
+                Updates the code coverage CI task to measure code coverage on all subcrates separately. See #336 .
 
 Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
             </td>
