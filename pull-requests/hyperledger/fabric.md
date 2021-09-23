@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2943" class=".btn">#2943</a>
+            </td>
+            <td>
+                <b>
+                    docs: Don't apply the syntax highlighting of python
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The syntax highlighting of pyhon is applied in the example
+of read() and write() transactions.
+For readability, don't apply the syntax highlighting.
+
+Signed-off-by: Justin Yang <justin.yang@themedium.io>
+
+#### Type of change
+- Documentation update
+
+#### Description
+Fix the style of the example of transactions in [Read-Write set semantics](https://hyperledger-fabric.readthedocs.io/en/latest/readwrite.html) document for readability.
+The fix makes showing them as just plain text.
+
+The syntax highlighting of python has been applied in the below example.
+
+> World state: (k1,1,v1), (k2,1,v2), (k3,1,v3), (k4,1,v4), (k5,1,v5)
+> T1 -> Write(k1, v1'), Write(k2, v2')
+> T2 -> Read(k1), Write(k3, v3')
+> T3 -> Write(k2, v2'')
+> T4 -> Write(k2, v2'''), read(k2)
+> T5 -> Write(k6, v6'), read(k5)
+
+The style of python string has been applied in ```'), Write(k2,v2'``` in T1', ```')``` in T2, `''` in T3, and
+```
+'''), read(k2)
+T5 -> Write(k6, v6'), read(k5)
+```
+as multiline.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 15:03:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2942" class=".btn">#2942</a>
             </td>
             <td>

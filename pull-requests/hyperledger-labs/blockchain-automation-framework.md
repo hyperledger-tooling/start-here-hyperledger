@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1677" class=".btn">#1677</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] test quroum network with vault v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: pppazos <hgartti@gmail.com>
+
+**Changelog**
+- Fix vaultv2 access and decoupling mount
+
+ 
+
+**Reviewed by**
+@pppazos
+
+ 
+
+**Linked issue**
+#1665
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 16:19:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1676" class=".btn">#1676</a>
             </td>
             <td>

@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/211" class=".btn">#211</a>
+            </td>
+            <td>
+                <b>
+                    Add tag to node module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Temporarily add the latest tag to nightly build publishing
+
+This should be reverted when there are release builds!
+
+Resolves #208
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 13:27:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/207" class=".btn">#207</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/466" class=".btn">#466</a>
+            </td>
+            <td>
+                <b>
+                    fix(core): remove unused url import
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 12:56:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/465" class=".btn">#465</a>
             </td>
             <td>
@@ -209,35 +235,6 @@ Fixes mediation to allow queued messages to be picked up from an ACA-Py Mediator
     </table>
     <div class="right-align">
         Created At 2021-09-18 00:09:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/457" class=".btn">#457</a>
-            </td>
-            <td>
-                <b>
-                    fix(core): using query-string to parse URLs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Took the advice of @TimoGlastra ans used query-string for parsing URLs. 
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 15:48:07 +0000 UTC
     </div>
 </div>
 

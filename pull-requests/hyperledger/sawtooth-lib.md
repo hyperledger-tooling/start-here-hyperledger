@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/93" class=".btn">#93</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/94" class=".btn">#94</a>
             </td>
             <td>
                 <b>
-                    BACKPORT 0-3: Disable Jenkins CI builds
+                    transact dependency update
                 </b>
             </td>
         </tr>
@@ -27,42 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                GitHub Actions will be used going forward instead.
+                This change updates the transact dependency to a minimum of 0.3.8.
 
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+This is required to cover a new error variant added to its `StateDatabaseError`. It adds an analogous error variant to libsplinter's version of the error.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-16 18:14:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/92" class=".btn">#92</a>
-            </td>
-            <td>
-                <b>
-                    Disable Jenkins CI builds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                GitHub Actions will be used going forward instead.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 18:13:53 +0000 UTC
+        Created At 2021-09-23 17:18:44 +0000 UTC
     </div>
 </div>
 

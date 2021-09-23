@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/225" class=".btn">#225</a>
+            </td>
+            <td>
+                <b>
+                    Revise generic wallet tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #224 
+
+Depends on #223 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 13:32:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/223" class=".btn">#223</a>
             </td>
             <td>

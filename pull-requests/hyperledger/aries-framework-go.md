@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2998" class=".btn">#2998</a>
+            </td>
+            <td>
+                <b>
+                    refactor: use Mediatype Profile instead of MediaType as default
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 16:57:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2997" class=".btn">#2997</a>
             </td>
             <td>
@@ -440,36 +467,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2021-09-17 13:59:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2988" class=".btn">#2988</a>
-            </td>
-            <td>
-                <b>
-                    fix: verifiable command building KID from didDoc.VM
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                when didDoc.VM.ID has a #key-X suffix, the kms KID must be built from the VM.Value or VM.JWK() instead of being extracted from VM.ID
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 15:26:08 +0000 UTC
     </div>
 </div>
 
