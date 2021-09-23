@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/48" class=".btn">#48</a>
+            </td>
+            <td>
+                <b>
+                    Redefine Net module, adding message reception
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The interface of the Net module now contains also a Receive() function,
+such that all networking can be encapsulated inside that module.
+The option of injecting messages manually (through Node.Step()) still exists
+and is an alternative to using the Net module's interface.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 11:46:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/mirbft/pull/46" class=".btn">#46</a>
             </td>
             <td>

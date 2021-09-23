@@ -14,6 +14,134 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2997" class=".btn">#2997</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump axios from 0.21.2 to 0.21.4 in /cmd/aries-js-worker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [axios](https://github.com/axios/axios) from 0.21.2 to 0.21.4.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/axios/axios/releases">axios's releases</a>.</em></p>
+<blockquote>
+<h2>v0.21.4</h2>
+<h3>0.21.4 (September 6, 2021)</h3>
+<p>Fixes and Functionality:</p>
+<ul>
+<li>Fixing JSON transform when data is stringified. Providing backward compatibility and complying to the JSON RFC standard (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4020">#4020</a>)</li>
+</ul>
+<p>Huge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:</p>
+<ul>
+<li><a href="https://github.com/gfortaine">Guillaume Fortaine</a></li>
+<li><a href="https://github.com/kawanet">Yusuke Kawasaki</a></li>
+<li><a href="https://github.com/DigitalBrainJS">Dmitriy Mozgovoy</a></li>
+</ul>
+<h2>v0.21.3</h2>
+<h3>0.21.3 (September 4, 2021)</h3>
+<p>Fixes and Functionality:</p>
+<ul>
+<li>Fixing response interceptor not being called when request interceptor is attached (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4013">#4013</a>)</li>
+</ul>
+<p>Huge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:</p>
+<ul>
+<li><a href="https://github.com/nerdbeere">Julian Hollmann</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/axios/axios/blob/master/CHANGELOG.md">axios's changelog</a>.</em></p>
+<blockquote>
+<h3>0.21.4 (September 6, 2021)</h3>
+<p>Fixes and Functionality:</p>
+<ul>
+<li>Fixing JSON transform when data is stringified. Providing backward compatability and complying to the JSON RFC standard (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4020">#4020</a>)</li>
+</ul>
+<p>Huge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:</p>
+<ul>
+<li><a href="https://github.com/axios/axios/blob/master/mailto:jasonsaayman@gmail.com">Jay</a></li>
+<li><a href="https://github.com/gfortaine">Guillaume Fortaine</a></li>
+<li><a href="https://github.com/kawanet">Yusuke Kawasaki</a></li>
+<li><a href="https://github.com/DigitalBrainJS">Dmitriy Mozgovoy</a></li>
+</ul>
+<h3>0.21.3 (September 4, 2021)</h3>
+<p>Fixes and Functionality:</p>
+<ul>
+<li>Fixing response interceptor not being called when request interceptor is attached (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4013">#4013</a>)</li>
+</ul>
+<p>Huge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:</p>
+<ul>
+<li><a href="https://github.com/axios/axios/blob/master/mailto:jasonsaayman@gmail.com">Jay</a></li>
+<li><a href="https://github.com/nerdbeere">Julian Hollmann</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/axios/axios/commit/66c46020bd01b39081259ae74edc2afc283818fa"><code>66c4602</code></a> Merge branch 'master' into release/0.21.4</li>
+<li><a href="https://github.com/axios/axios/commit/fc15665cc372bc7d2c59901e04c216c590364a67"><code>fc15665</code></a> [Releasing] v0.21.4</li>
+<li><a href="https://github.com/axios/axios/commit/c2714f08e5db79382b3e059cb6bd52134b320f7d"><code>c2714f0</code></a> [Updating] incorrect JSON syntax in README.md</li>
+<li><a href="https://github.com/axios/axios/commit/0fc7248cc3db1ea0680b7994eb2ab96b8f6e075f"><code>0fc7248</code></a> fix json transform when data is pre-stringified (<a href="https://github-redirect.dependabot.com/axios/axios/issues/4020">#4020</a>)</li>
+<li><a href="https://github.com/axios/axios/commit/90205f8ab7f73e6b3a2507bdd67a4f47ef57af9e"><code>90205f8</code></a> Change headers type to string record (<a href="https://github-redirect.dependabot.com/axios/axios/issues/3021">#3021</a>)</li>
+<li><a href="https://github.com/axios/axios/commit/92b29d2775bd4cadb3f077fe639fa29c8cf0de8e"><code>92b29d2</code></a> Make the default type of response data never (<a href="https://github-redirect.dependabot.com/axios/axios/issues/3002">#3002</a>)</li>
+<li><a href="https://github.com/axios/axios/commit/4eeb3b17e28581e6931ad7b78dcc025cf3f99bc8"><code>4eeb3b1</code></a> Improved type-safety for AxiosRequestConfig (<a href="https://github-redirect.dependabot.com/axios/axios/issues/2995">#2995</a>)</li>
+<li><a href="https://github.com/axios/axios/commit/cd7ff042b0b80f6f02e5564d184019131c90cacd"><code>cd7ff04</code></a> Adding HTTP status code to error.toJSON (<a href="https://github-redirect.dependabot.com/axios/axios/issues/2956">#2956</a>)</li>
+<li><a href="https://github.com/axios/axios/commit/b5a1a67b3c2b20f5d6e78e7e80297e71da4ab74c"><code>b5a1a67</code></a> Adding nodejs http.request option: insecureHTTPParser (<a href="https://github-redirect.dependabot.com/axios/axios/issues/2930">#2930</a>)</li>
+<li><a href="https://github.com/axios/axios/commit/4f25380b3188816300d8ec7cad125d5e9ccf57d8"><code>4f25380</code></a> Exposing the Axios constructor in index.d.ts (<a href="https://github-redirect.dependabot.com/axios/axios/issues/2872">#2872</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/axios/axios/compare/v0.21.2...v0.21.4">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=axios&package-manager=npm_and_yarn&previous-version=0.21.2&new-version=0.21.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 08:17:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2996" class=".btn">#2996</a>
             </td>
             <td>

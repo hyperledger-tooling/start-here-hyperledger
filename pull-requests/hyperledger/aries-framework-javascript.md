@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
             </td>
             <td>
                 <b>
-                    Fix meeting time in Readme -- add link to Meetings page
+                    docs: fix meeting time in readme and add link to meetings page
                 </b>
             </td>
         </tr>
