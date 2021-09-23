@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/194" class=".btn">#194</a>
+            </td>
+            <td>
+                <b>
+                    Restrict just doc to published configuration 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change restricts the `just doc` task to only apply the rustdoc configuration that would be run for the published crates.  Prior to this commit, `just doc` would run the whole workspace, which causes file name conflicts between libtransact and transact-cli.
+
+Also fixes some resulting warnings from this change.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 22:27:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/193" class=".btn">#193</a>
+            </td>
+            <td>
+                <b>
+                    SqlMerkleState typo fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 19:01:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/192" class=".btn">#192</a>
             </td>
             <td>
@@ -139,33 +194,6 @@ permalink: /pull-requests/hyperledger/transact
     </table>
     <div class="right-align">
         Created At 2021-09-16 03:03:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/187" class=".btn">#187</a>
-            </td>
-            <td>
-                <b>
-                    Stabilize state-merkle-leaf-reader feature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change stabilizes the feature "state-merkle-leaf-reader" by removing it.  Its functionality is guarded by "state-merkle".
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 21:49:36 +0000 UTC
     </div>
 </div>
 

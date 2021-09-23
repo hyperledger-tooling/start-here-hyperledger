@@ -46,29 +46,3 @@ Signed-off-by: matejpavlovic <matopavlovic@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/45" class=".btn">#45</a>
-            </td>
-            <td>
-                <b>
-                    Research fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 19:24:35 +0000 UTC
-    </div>
-</div>
-

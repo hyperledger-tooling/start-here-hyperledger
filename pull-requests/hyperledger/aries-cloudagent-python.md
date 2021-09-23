@@ -62,30 +62,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1415" class=".btn">#1415</a>
-            </td>
-            <td>
-                <b>
-                    Fix issue with startup sequence for faber agent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                for `... --multitenant --cred-type json-ld` need to start the agent before creating a DID
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 21:11:02 +0000 UTC
-    </div>
-</div>
-

@@ -331,31 +331,3 @@ Introduces a balance reader interface for the generic client tests.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/196" class=".btn">#196</a>
-            </td>
-            <td>
-                <b>
-                    Channel.Backend: Remove Params from Sign and Verify
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #195 #190 
-
-Depends on #191 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 19:18:36 +0000 UTC
-    </div>
-</div>
-
