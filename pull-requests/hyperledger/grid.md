@@ -14,11 +14,58 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/948" class=".btn">#948</a>
+            </td>
+            <td>
+                <b>
+                    Fix get/list role display bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes a bug where roles' `inherit_from` roles were not being
+displayed correctly. This fixes it so roles now properly display their
+inherited roles.
+
+# Testing
+
+## Create orgs
+
+$ grid keygen alpha-agent
+$ grid keygen beta-agent
+$ export GRID_DAEMON_KEY="beta-agent" && grid organization create beta BetaOrg --alternate-ids gs1_company_prefix:0 --wait 10
+$ export GRID_DAEMON_KEY="alpha-agent" && grid organization create alpha AlphaOrg --alternate-ids gs1_company_prefix:1 --wait 10
+
+# Create a role for beta to inherit
+$ grid role create alpha productowner --permissions schema::can-create-schema,product::can-create-product,product::can-delete-product,schema::can-update-schema,product::can-update-product --active --wait 10
+
+# inherit role
+$ export GRID_DAEMON_KEY="beta-agent"
+$ $ grid role create beta alpha-po --permissions product::can-update-product --inherit-from alpha.productowner --active --wait 10
+
+# try to list role
+$ grid role list beta
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 19:15:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/946" class=".btn">#946</a>
             </td>
             <td>
                 <b>
-                    Add `workflow_type` to purchase order
+                    Add `workflow_type` to purchase order & make `accepted_version_id` optional within the SDK
                 </b>
             </td>
         </tr>

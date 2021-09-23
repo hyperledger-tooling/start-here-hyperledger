@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/346" class=".btn">#346</a>
+            </td>
+            <td>
+                <b>
+                    further increase waits in javascript backchannel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+An added increase in javascript backchannel wait times for certain operations in hopes it fixes the failures in the daily test runsets. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-22 23:17:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/345" class=".btn">#345</a>
             </td>
             <td>
