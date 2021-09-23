@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/348" class=".btn">#348</a>
+            </td>
+            <td>
+                <b>
+                    Add verity afj dotnet runsets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds Verity with javascript and dotnet agents. They are failing locally, so this PR is just to try the execution in GHA to determine if the same issue exists as locally. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 17:56:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/347" class=".btn">#347</a>
             </td>
             <td>
@@ -253,37 +279,6 @@ Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-09-16 20:30:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/338" class=".btn">#338</a>
-            </td>
-            <td>
-                <b>
-                    added sleeps in the javascript backchannel to wait for appropriate states to proceed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR should fix the Javascript with acapy daily test runset failures.  It problems ended up being the removal of the interim state checks in the tests, since we are not checking (and waiting) for the proper state before proceeding, the waits have to be done in the javascript backchannel instead.  These are all passing on my local machine, if some still fail in the daily runs, then we may have to increase the new wait times.  
-
-Use the following command to test this:
-`./manage run -d javascript -b acapy-main -t @AcceptanceTest -t ~@wip -t @AIP10`
-
-Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 18:13:42 +0000 UTC
     </div>
 </div>
 
