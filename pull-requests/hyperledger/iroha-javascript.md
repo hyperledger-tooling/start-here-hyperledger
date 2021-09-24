@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/76" class=".btn">#76</a>
+            </td>
+            <td>
+                <b>
+                    fix: bundle cjs script for crypto lib
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Now it should work in node without on-demand transformations like `esbuild-register` or `sucrase/register`. But the way it is done now is not the best... FIXME
+
+Version bumps:
+
+- `@iroha2/client` - 0.2.0 -> 0.2.1
+- `@iroha2/crypto` - 0.1.0 -> 0.2.0
+
+#### Breaking changes
+
+Only one - initialization way:
+
+```ts
+// was
+import init from '@iroha2/crypto'
+
+// now
+import { init } from '@iroha2/crypto'
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 11:12:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-javascript/pull/75" class=".btn">#75</a>
             </td>
             <td>

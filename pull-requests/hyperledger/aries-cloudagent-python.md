@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1423" class=".btn">#1423</a>
+            </td>
+            <td>
+                <b>
+                    Open askar sessions only on demand - Connections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes the connections part of the #1417 issue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 12:05:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1422" class=".btn">#1422</a>
             </td>
             <td>

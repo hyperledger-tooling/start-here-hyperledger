@@ -44,16 +44,21 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    Use latest ubuntu version for all CI tasks
+                    Update CI Ubuntu to 20.0, rust to 1.55, add OOB to NodeJS wrapper
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">ci</span>
+                <span class="chip">enhancement</span><span class="chip">ci</span><span class="chip">wrappers</span>
             </td>
             <td>
                 GitHub started [decommissioning](https://github.blog/changelog/2021-04-29-github-actions-ubuntu-16-04-lts-virtual-environment-will-be-removed-on-september-20-2021/) old Ubuntu 16.04 hosted runners. 
+
+Also PRs:
+https://github.com/hyperledger/aries-vcx/pull/347
+https://github.com/hyperledger/aries-vcx/pull/353
+were merged into this PR by an accident
 
 Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
             </td>

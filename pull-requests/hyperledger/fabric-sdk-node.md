@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/499" class=".btn">#499</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/506" class=".btn">#506</a>
             </td>
             <td>
                 <b>
-                    Update Release branch 2.2 
+                    fixes _processConfig bug
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                PR Includes:
-eslint migration 
-
+                closes#505
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-06 08:46:07 +0000 UTC
+        Created At 2021-09-24 11:32:04 +0000 UTC
     </div>
 </div>
 

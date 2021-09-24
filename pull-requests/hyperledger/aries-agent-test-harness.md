@@ -226,31 +226,3 @@ Increased the wait times for certain calls in the javascript backchannel. Hopefu
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/341" class=".btn">#341</a>
-            </td>
-            <td>
-                <b>
-                    Add backchannel for findy-agent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Laura Vuorenoja <laura.vuorenoja@op.fi>
-
-Add backchannel for testing compatibility with [Findy Agency](https://findy-network.github.io) agent. Current interoperability target for findy-agent is IOP1.0 excluding revocation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-17 09:39:56 +0000 UTC
-    </div>
-</div>
-

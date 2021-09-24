@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1678" class=".btn">#1678</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Added transaction nodes support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Added roles and charts to have validator and member nodes in a quorum based network using ibft consensus and tessera t,
+
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar 
+
+ 
+
+**Linked issue**
+#1669 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 07:43:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1677" class=".btn">#1677</a>
             </td>
             <td>
