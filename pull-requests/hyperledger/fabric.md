@@ -42,7 +42,9 @@ Signed-off-by: Justin Yang <justin.yang@themedium.io>
 - Bug fix
 
 #### Description
-add_stylesheet() is deprecated since Sphinx 1.8
+add_stylesheet() is deprecated since Sphinx 1.8 (https://www.sphinx-doc.org/en/master/extdev/appapi.html)
+
+> Changed in version 1.8: Renamed from app.add_stylesheet(). And it allows keyword arguments as attributes of link tag.
 
 Fix this build error on Sphinx 1.8 or higher
 ```
@@ -52,6 +54,7 @@ Exception occurred:
 AttributeError: 'Sphinx' object has no attribute 'add_stylesheet'
 ```
 
+The latest version is 4.2.0 now. 
             </td>
         </tr>
     </table>
