@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1423" class=".btn">#1423</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1424" class=".btn">#1424</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-24 12:05:55 +0000 UTC
+        Created At 2021-09-24 14:12:31 +0000 UTC
     </div>
 </div>
 

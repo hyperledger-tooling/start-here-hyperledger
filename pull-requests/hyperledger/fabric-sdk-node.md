@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                closes#505
+                closes #505
             </td>
         </tr>
     </table>

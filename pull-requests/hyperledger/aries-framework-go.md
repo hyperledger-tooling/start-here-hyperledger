@@ -442,31 +442,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2991" class=".btn">#2991</a>
-            </td>
-            <td>
-                <b>
-                    chore: increase coverage for verifiable command fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-17 13:59:23 +0000 UTC
-    </div>
-</div>
-
