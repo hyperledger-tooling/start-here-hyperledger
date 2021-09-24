@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2801" class=".btn">#2801</a>
+            </td>
+            <td>
+                <b>
+                    [#536] Add support for custom private key file for public-key export and public-key export-address commands
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR adds `--node-private-key-file` option to `public-key export-address` and `public-key export` commands.
+
+## Fixed Issue(s)
+Fixes #536
+
+## Changelog
+
+- [ ] Add support for custom private key file for public-key export and public-key export-address commands
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 20:32:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2796" class=".btn">#2796</a>
             </td>
             <td>
@@ -410,46 +444,6 @@ EVM modularization.
     </table>
     <div class="right-align">
         Created At 2021-09-17 14:34:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2774" class=".btn">#2774</a>
-            </td>
-            <td>
-                <b>
-                    fix RC1-SNAPSHOT release version 🤦‍♂️
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-add missing -SNAPSHOT to gradle.properties build version
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 19:12:07 +0000 UTC
     </div>
 </div>
 

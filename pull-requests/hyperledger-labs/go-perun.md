@@ -256,32 +256,3 @@ Also refactors
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/208" class=".btn">#208</a>
-            </td>
-            <td>
-                <b>
-                    207 fix ensure registered
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #207 
-Closes #206 
-
-Also fixes another issue where `ensureRegistered` would fail because the channel is registered twice.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 23:00:48 +0000 UTC
-    </div>
-</div>
-

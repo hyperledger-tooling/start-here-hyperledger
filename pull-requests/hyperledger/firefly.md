@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/204" class=".btn">#204</a>
+            </td>
+            <td>
+                <b>
+                    Remove references to labs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 18:36:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/203" class=".btn">#203</a>
+            </td>
+            <td>
+                <b>
+                    Use Operation ID for tracking ethconnect requests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The Transaction ID is longer-lived, while Operation ID is more appropriate for
+a single request (since a transaction may contain multiple operations).
+
+Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 18:30:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/202" class=".btn">#202</a>
             </td>
             <td>
@@ -155,32 +210,6 @@ if there's a better way to handle this common logic across packages.
     </table>
     <div class="right-align">
         Created At 2021-09-20 16:05:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/193" class=".btn">#193</a>
-            </td>
-            <td>
-                <b>
-                    Small fixes to token accounts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 20:19:35 +0000 UTC
     </div>
 </div>
 

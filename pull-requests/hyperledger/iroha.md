@@ -555,7 +555,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    Missing commands integration to burrow
+                    Missing queries integration to burrow
                 </b>
             </td>
         </tr>
@@ -581,7 +581,7 @@ Imlementation of missing commands and queries to burrow integrations
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
 ### Issue
-Some of queries and commands not work with burrow: GrantPermission, RevokePermission, CreateRole, CompareAndSetDetail, GetTransactions, GetPendingTransactions, GetAccountTransactions, GetAccountAssetTransactions
+Some of queries do not work with burrow:  GetTransactions[Not done yet], GetPendingTransactions, GetAccountTransactions, GetAccountAssetTransactions
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
 

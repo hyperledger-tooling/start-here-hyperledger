@@ -254,31 +254,3 @@ Add backchannel for testing compatibility with [Findy Agency](https://findy-netw
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/339" class=".btn">#339</a>
-            </td>
-            <td>
-                <b>
-                    removed running workflows in PRs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #337
-
-Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 20:30:07 +0000 UTC
-    </div>
-</div>
-
