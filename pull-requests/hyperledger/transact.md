@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/197" class=".btn">#197</a>
+            </td>
+            <td>
+                <b>
+                    Correct feature guard for serde_derive
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change corrects the feature guard for serde_derive to "serde_derive", making it less dependent on the feature defined in
+libtransact's Cargo.toml, and merely dependent on whether or not the optional dependency is included in the set of active features.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 21:16:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/196" class=".btn">#196</a>
+            </td>
+            <td>
+                <b>
+                    Release notes for 0.3.9
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 19:31:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/195" class=".btn">#195</a>
+            </td>
+            <td>
+                <b>
+                    Remove StateDatabaseError::InternalError variant
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change removes the StateDatabaseError InternalError variant, as this is a backwards-incompatible change.
+
+In order to remove this, the original Node implementation has been restored in the kv module, the state::merkle::node::Node implementation has been reduced to only what the SQL implementation requires, and is guarded by the "state-merkle-sql" feature.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 18:27:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/194" class=".btn">#194</a>
             </td>
             <td>

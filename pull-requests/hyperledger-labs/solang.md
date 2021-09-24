@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/496" class=".btn">#496</a>
+            </td>
+            <td>
+                <b>
+                    Add import mapping to match solc's mapping functionality
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 19:20:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/495" class=".btn">#495</a>
             </td>
             <td>
@@ -44,32 +70,6 @@ tested on latest `solanalabs/solana:edge` image.
     </table>
     <div class="right-align">
         Created At 2021-09-22 15:48:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/494" class=".btn">#494</a>
-            </td>
-            <td>
-                <b>
-                    Implement events for Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 21:19:55 +0000 UTC
     </div>
 </div>
 

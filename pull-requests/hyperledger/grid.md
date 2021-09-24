@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/949" class=".btn">#949</a>
+            </td>
+            <td>
+                <b>
+                    Add create version CLI command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds the create version CLI command to create a Purchase Order
+    version and first revision for that version.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 21:36:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/948" class=".btn">#948</a>
             </td>
             <td>
@@ -204,32 +231,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-09-17 18:40:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/936" class=".btn">#936</a>
-            </td>
-            <td>
-                <b>
-                    Update PO version protos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This updates the PO version proto to reflect that a version can have multiple revisions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 18:34:46 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/26" class=".btn">#26</a>
+            </td>
+            <td>
+                <b>
+                    Remove references to labs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-23 20:39:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/25" class=".btn">#25</a>
             </td>
             <td>
@@ -41,32 +67,6 @@ of the connector if it is needed in the future.
     </table>
     <div class="right-align">
         Created At 2021-09-23 17:51:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/24" class=".btn">#24</a>
-            </td>
-            <td>
-                <b>
-                    Extract "data" from inputArgs on mint/transfer calls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Depends on https://github.com/hyperledger-labs/firefly-ethconnect/pull/147
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-16 20:42:33 +0000 UTC
     </div>
 </div>
 

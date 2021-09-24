@@ -14,6 +14,56 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2944" class=".btn">#2944</a>
+            </td>
+            <td>
+                <b>
+                    docs: Use add_css_file() instead of add_stylesheet()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add_stylesheet() is deprecated since Sphinx 1.8
+
+Fix this build error on Sphinx 1.8 or higher
+
+Exception occurred:
+  File "docs/source/conf.py", line 137, in setup
+    app.add_stylesheet('css/custom.css')
+AttributeError: 'Sphinx' object has no attribute 'add_stylesheet'
+
+Signed-off-by: Justin Yang <justin.yang@themedium.io>
+
+#### Type of change
+- Bug fix
+
+#### Description
+add_stylesheet() is deprecated since Sphinx 1.8
+
+Fix this build error on Sphinx 1.8 or higher
+```
+Exception occurred:
+  File "docs/source/conf.py", line 137, in setup
+    app.add_stylesheet('css/custom.css')
+AttributeError: 'Sphinx' object has no attribute 'add_stylesheet'
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 00:47:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2943" class=".btn">#2943</a>
             </td>
             <td>
@@ -233,6 +283,7 @@ Checklist (DELETE AFTER READING):
             <td>
                 This is an automatic backport of pull request #2934 done by [Mergify](https://mergify.io).
 
+Addresses #2931 
 
 ---
 
