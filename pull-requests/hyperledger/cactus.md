@@ -131,31 +131,3 @@ Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1347" class=".btn">#1347</a>
-            </td>
-            <td>
-                <b>
-                    fix: endpoints implementation in corda plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #1346
-
-Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-17 08:18:00 +0000 UTC
-    </div>
-</div>
-

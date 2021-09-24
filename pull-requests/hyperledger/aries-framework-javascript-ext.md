@@ -142,29 +142,3 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/29" class=".btn">#29</a>
-            </td>
-            <td>
-                <b>
-                    docs: added new rest package to the main readme
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Berend Sliedrecht <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-17 07:11:20 +0000 UTC
-    </div>
-</div>
-

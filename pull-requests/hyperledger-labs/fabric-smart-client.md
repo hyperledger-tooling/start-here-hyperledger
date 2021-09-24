@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/136" class=".btn">#136</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    Idemix proto message namespace conflict panic #133
+                    sdk: failure loading config transaction when restarting #139
                 </b>
             </td>
         </tr>
@@ -32,7 +32,33 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-22 10:22:18 +0000 UTC
+        Created At 2021-09-24 11:55:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/138" class=".btn">#138</a>
+            </td>
+            <td>
+                <b>
+                    fabric-sdk: delivery service #137
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 06:27:30 +0000 UTC
     </div>
 </div>
 
