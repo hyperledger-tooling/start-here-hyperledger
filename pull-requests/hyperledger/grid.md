@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/950" class=".btn">#950</a>
+            </td>
+            <td>
+                <b>
+                    Add `workflow_status` to `CreatePurchaseOrder` payload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds a `workflow_status` field to the `CreatePurchaseOrder` payload
+which brings the create payload in line with its update counterpart.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 16:50:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/949" class=".btn">#949</a>
             </td>
             <td>

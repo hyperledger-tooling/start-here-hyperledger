@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/206" class=".btn">#206</a>
+            </td>
+            <td>
+                <b>
+                    Docs updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Fix links and TOCs in docs
+- Add new docs page
+- Add new Hyperledger logo
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 17:40:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/204" class=".btn">#204</a>
             </td>
             <td>

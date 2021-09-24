@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/214" class=".btn">#214</a>
+            </td>
+            <td>
+                <b>
+                    Refactor commit status API to improve usability
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Minimise the number of potential error points that application code need to handle. Also minimise mutability within implementation.
+
+Updated samples to reflect API change, which required samples to use the current development code.
+
+Resolves #212
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 12:28:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/211" class=".btn">#211</a>
             </td>
             <td>

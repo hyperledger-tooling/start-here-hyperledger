@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1679" class=".btn">#1679</a>
+            </td>
+            <td>
+                <b>
+                    [corda]vaultv2 for corda-os ref. app
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Update vault v2 for corda-os ref. app 
+ 
+
+**Linked issue**
+#1664 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 15:35:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1678" class=".btn">#1678</a>
             </td>
             <td>
