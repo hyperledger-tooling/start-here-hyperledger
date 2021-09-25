@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1472" class=".btn">#1472</a>
+            </td>
+            <td>
+                <b>
+                    Commit WSV every 1000 blocks during reindex
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes hyperledger#1339
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-25 12:39:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1471" class=".btn">#1471</a>
             </td>
             <td>
@@ -454,6 +480,8 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 To check these tests locally, insert valid blockstore to directory `test/tool/block_store_7000` or edit `test/tool/CMakeLists.txt` passing option `-block_store_path` to `test_tool_wsv_checker.sh`
 
 Closes #1417 Closes #1418
+ToDo #1473
+
             </td>
         </tr>
     </table>
