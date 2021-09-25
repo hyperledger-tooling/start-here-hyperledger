@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/207" class=".btn">#207</a>
+            </td>
+            <td>
+                <b>
+                    Allow null value with blob data, and allow "none" validator to tag datatype on unstructured data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix for #198 
+
+- Fixes handling of `null` on `data.value` - including as part of a FORM post upload
+  - Stored as the bytes `null` in the database (as today)
+  - Does not contribute to the hash, when there is a blob
+  - Returned as `null` in the JSON payload on `GET`
+- Adds a new `validator` of `none`
+  - Must be set explicitly - `json` remains the default
+  - Disabled any checking of the `datatype.name`/`datatype.value` when set
+  - Allows you to just use the `datatype` for tagging purposes, without validating the `value` JSON payload itself
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-25 06:00:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/206" class=".btn">#206</a>
             </td>
             <td>
