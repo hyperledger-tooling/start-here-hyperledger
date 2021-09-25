@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1471" class=".btn">#1471</a>
+            </td>
+            <td>
+                <b>
+                    [metrics] uptime
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                It would be nice to utilize SE, but it is not able to run custom loops at the moment.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-25 09:48:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1470" class=".btn">#1470</a>
             </td>
             <td>
