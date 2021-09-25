@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 <b>
-                    docs: Use add_css_file() instead of add_stylesheet()
+                    docs: Use html_style property instead of add_stylesheet()
                 </b>
             </td>
         </tr>
