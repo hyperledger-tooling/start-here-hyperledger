@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/66" class=".btn">#66</a>
+                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/67" class=".btn">#67</a>
             </td>
             <td>
                 <b>
-                    fix: await returned in return route client
+                    refactor: simplify module routing
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
                 
             </td>
             <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+                BREAKING CHANGE: route method is replaced with ModuleRouter
+
+Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-01 00:58:42 +0000 UTC
+        Created At 2021-09-24 19:39:33 +0000 UTC
     </div>
 </div>
 

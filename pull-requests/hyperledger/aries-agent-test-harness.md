@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/350" class=".btn">#350</a>
+            </td>
+            <td>
+                <b>
+                    chore: cleanup afgo doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 21:58:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/349" class=".btn">#349</a>
             </td>
             <td>
@@ -195,34 +221,6 @@ Increased the wait times for certain calls in the javascript backchannel. Hopefu
     </table>
     <div class="right-align">
         Created At 2021-09-18 03:52:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/342" class=".btn">#342</a>
-            </td>
-            <td>
-                <b>
-                    Add findy and verity links to interop, tweak to script and findy action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-18 00:03:00 +0000 UTC
     </div>
 </div>
 
