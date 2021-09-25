@@ -31,6 +31,8 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
 2. Added unit tests for HTLC flows.
 3. Added test cordapp to be used during unit tests of HTLC flows.
 
+Fixes `tests/network-setups/corda/docker-compose.yml`.
+
 Closes #160 
             </td>
         </tr>

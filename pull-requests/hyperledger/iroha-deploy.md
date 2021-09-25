@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-deploy
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/26" class=".btn">#26</a>
+                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/28" class=".btn">#28</a>
             </td>
             <td>
                 <b>
-                    [DOPS-1451] Fix Iroha deploy role
+                    Add remove peer in python script
                 </b>
             </td>
         </tr>
@@ -27,23 +27,37 @@ permalink: /pull-requests/hyperledger/iroha-deploy
                 
             </td>
             <td>
-                # Task
-[DOPS-1451]: Fix iroha-deploy role
-depending on version (ansible or docker) Iroha role fails with error:
-`iroha_command_register.ansible_facts.docker_container.Output` - is not defined
-this is the old name for variable, the new one look like that: `iroha_command_register.container.Output`
+                ## Changes
+In some cases, it is easier to use docker image instead of Iroha cli.I updated the script to be able to un basic tasks.
 
-## Changes
-1. tasks to support new format of the variable  has been fixed
-2.  the task to check  that we can run role on new version of Ansible has been added
-
-## Author
-Signed-off-by: Vasiliy Zyabkin zyabkin@soramitsu.co.jp
+## Examples
+Add peer:
+```
+docker run -it \
+  -e DEBUG=TRUE \
+  -e IROHA_HOSTS=10.0.0.3:50051 \
+  -e IROHA_ACCOUNT=admin@test  \
+  -e IROHA_ACCOUNT_KEYS=f101537e319568c765b2cc89698325604991dca57b9716b58016b253506cab70 \
+  soramitsu/iroha-docker-iroha-python:51a6648 \
+   add_peer iroha-5:10001 f715eea67c27d507aee4923c8a7d622d5c1d5a79c0c5a2b7a4c8dcb5d492d912
+ ```
+ Remove peer
+```
+docker run -it \
+  -e DEBUG=TRUE \
+  -e IROHA_HOSTS=10.0.0.3:50051 \
+  -e IROHA_ACCOUNT=admin@test  \
+  -e IROHA_ACCOUNT_KEYS=f101537e319568c765b2cc89698325604991dca57b9716b58016b253506cab70 \
+  soramitsu/iroha-docker-iroha-python:51a6648 \
+   remove_peer f715eea67c27d507aee4923c8a7d622d5c1d5a79c0c5a2b7a4c8dcb5d492d912
+```
+## Author 
+Signed-off-by: Bulat Saifullin <bulat@saifullin.ru>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-11 21:31:58 +0000 UTC
+        Created At 2021-09-24 19:38:11 +0000 UTC
     </div>
 </div>
 

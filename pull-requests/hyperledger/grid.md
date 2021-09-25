@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/954" class=".btn">#954</a>
+            </td>
+            <td>
+                <b>
+                    Add list/get revision operations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds database operations to the `PurchaseOrderStore` to get and list `PurchaseOrderVersionRevisions`. The list operation lists revisions filtered by `po_uid` and `version_id` and the get operation fetches a revision filtered by `po_uid`, `version_id`, and `revision_id`. This also includes migrations and updates to the revisions table to add a `purchase_order_uid` column. This is necessary to be able to properly get revisions in case of overlap in version IDs between different POs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 21:20:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/953" class=".btn">#953</a>
+            </td>
+            <td>
+                <b>
+                    Add `--skip` to griddle examples
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These docker examples are likely to be rerun many times. The --skip
+option will allow the entrypoint command to run without throwing an
+error if the keys are already generated.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 20:44:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/952" class=".btn">#952</a>
+            </td>
+            <td>
+                <b>
+                    Test keygen
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add tests to validate the behavior of key generation given various
+permutations of the configuration values.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 20:36:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/950" class=".btn">#950</a>
             </td>
             <td>
@@ -204,62 +289,6 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-09-21 15:13:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/941" class=".btn">#941</a>
-            </td>
-            <td>
-                <b>
-                    Fix Client `ROLES_ENDPOINT` const
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change updates the `ROLES_ENDPOINT` const, defined for the
-`ReqwestPikeClient`, to `ROLE_ENDPOINT` and updates the value from
-"roles" to "role". The role endpoint is singular.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-17 21:54:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/939" class=".btn">#939</a>
-            </td>
-            <td>
-                <b>
-                    Hookup PO SDE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This sets up the state delta export for purchase order events. This PR also adds the conversion methods to `EventError` for the purchase order store errors.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-17 18:40:51 +0000 UTC
     </div>
 </div>
 
