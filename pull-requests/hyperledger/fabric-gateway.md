@@ -150,31 +150,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/196" class=".btn">#196</a>
-            </td>
-            <td>
-                <b>
-                    Provide enumeration of commit status codes in Node client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Allows client applications to interpret the numeric status code values and check them against specific values of interest.
-
-Note the scenario test change, which demonstrates how commit status values can be referenced by client application code.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-18 12:26:05 +0000 UTC
-    </div>
-</div>
-
