@@ -1,13 +1,13 @@
 
-[2945](https://github.com/hyperledger/fabric/pull/2945) [Release-2.2 BP FAB-2643]
+[109](https://github.com/hyperledger-labs/fabric-token-sdk/pull/109) token request: generalize auditor field #99
 
-[69](https://github.com/hyperledger/aries-staticagent-python/pull/69) refactor: rename StaticConnection to Connection
+[108](https://github.com/hyperledger-labs/fabric-token-sdk/pull/108) token transaction: application metadata #103
 
-[68](https://github.com/hyperledger/aries-staticagent-python/pull/68) Use pydantic for models
+[1384](https://github.com/hyperledger/cactus/pull/1384) build(deps): upgrade to Typescript v4.4
 
-[1472](https://github.com/hyperledger/iroha/pull/1472) Commit WSV every 1000 blocks during reindex
+[71](https://github.com/hyperledger/aries-staticagent-python/pull/71) chore: bump version
 
-[499](https://github.com/hyperledger-labs/solang/pull/499) Fix clippy warning on Windows
+[70](https://github.com/hyperledger/aries-staticagent-python/pull/70) Merge fixes from 0.9.0 prerelease branch
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
