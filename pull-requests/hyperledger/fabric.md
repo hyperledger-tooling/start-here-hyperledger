@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2945" class=".btn">#2945</a>
+            </td>
+            <td>
+                <b>
+                    [Release-2.2 BP FAB-2643]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a backport of pull request #2643
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-25 19:50:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2944" class=".btn">#2944</a>
             </td>
             <td>
