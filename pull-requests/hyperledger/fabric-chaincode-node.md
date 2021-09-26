@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/291" class=".btn">#291</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/293" class=".btn">#293</a>
             </td>
             <td>
                 <b>
-                    Fix test network
+                    Fix typos
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Signed-off-by: Kestutis Gudynas <kestutis.gudynas@ibm.com>
+                While reading the documentation I noticed some typo's. I hope this is ok :)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-31 16:02:50 +0000 UTC
+        Created At 2021-09-26 09:52:40 +0000 UTC
     </div>
 </div>
 
