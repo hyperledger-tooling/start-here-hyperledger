@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/69" class=".btn">#69</a>
+            </td>
+            <td>
+                <b>
+                    refactor: rename StaticConnection to Connection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                BREAKING CHANGE: StaticConnection renamed to Connection and moved to
+aries_staticagent.connection
+
+Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-25 19:48:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/68" class=".btn">#68</a>
+            </td>
+            <td>
+                <b>
+                    Use pydantic for models
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-25 19:16:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/67" class=".btn">#67</a>
             </td>
             <td>
