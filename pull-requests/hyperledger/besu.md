@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2810" class=".btn">#2810</a>
+            </td>
+            <td>
+                <b>
+                    Make ExceptionalHaltReason an interface
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Migrate ExceptionalHaltReason to an interface from an enum. The enum
+made it difficult for downstream implementations to add custom reasons
+as to why the EVM has halted. Switching to an interface is needed
+because enums are final and not extensible.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 16:20:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2809" class=".btn">#2809</a>
+            </td>
+            <td>
+                <b>
+                    Jumpdest cache bits
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Adds caching of valid jump destinations in a contract. This should reduce re-work previously required each time any function in the contract is called.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes #2607 
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 14:58:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2807" class=".btn">#2807</a>
             </td>
             <td>
@@ -445,40 +521,6 @@ merge main in.  In PR form to ensure CI passes
     </table>
     <div class="right-align">
         Created At 2021-09-21 03:27:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2784" class=".btn">#2784</a>
-            </td>
-            <td>
-                <b>
-                    Allow the use of BESU_CONFIG_FILE env var
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                ## PR description
-Enable the use of environment variable `BESU_CONFIG_FILE` to specify config toml
-
-## Fixed Issue(s)
-https://github.com/hyperledger/besu/issues/2455
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-20 13:41:17 +0000 UTC
     </div>
 </div>
 

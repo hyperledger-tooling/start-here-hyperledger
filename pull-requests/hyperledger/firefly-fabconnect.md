@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/51" class=".btn">#51</a>
+            </td>
+            <td>
+                <b>
+                    Added workflow to build and publish docker image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 18:03:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/50" class=".btn">#50</a>
             </td>
             <td>

@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger-labs/Scorex
                 
             </td>
             <td>
-                <nil>
+                This PR adds:
+- publishing a snapshot version if tests are green;
+- publishing a release version, triggered by a GitHub release;
             </td>
         </tr>
     </table>
