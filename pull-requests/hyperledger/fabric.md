@@ -28,6 +28,13 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 This is a backport of pull request #2643
+
+This backport required of me to upgrade viper to `v1.1.1` as in main branch, cherry-pick some related fixes to this upgrade. 
+
+#1523  (only https://github.com/hyperledger/fabric/pull/1523/commits/7dee9f7f0403e4ce993a601a6cf2545a65ebbf0b "Use UnmarshalKey to retrieve peer BCCSP config" to fix pkcs11 suite)
+#1511 (fully)
+
+nothing new was added, just exact backport of #2643 with a bit of #1523 and full #1511
             </td>
         </tr>
     </table>
