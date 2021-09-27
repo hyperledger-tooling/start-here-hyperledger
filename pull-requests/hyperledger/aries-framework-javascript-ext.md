@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/34" class=".btn">#34</a>
+            </td>
+            <td>
+                <b>
+                    ci: use new signoff option for release-please
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 12:02:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/33" class=".btn">#33</a>
             </td>
             <td>
@@ -24,7 +50,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">ci-test</span>
             </td>
             <td>
                 Bumps [tmpl](https://github.com/daaku/nodejs-tmpl) from 1.0.4 to 1.0.5.

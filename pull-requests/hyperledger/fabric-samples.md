@@ -59,7 +59,13 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                <nil>
+                Removed ca enroll and register flow
+Updated transaction flow using Fabric-gateway
+Tslint to eslint migration 
+
+
+
+
             </td>
         </tr>
     </table>

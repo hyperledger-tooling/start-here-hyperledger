@@ -97,29 +97,3 @@ Closes #160
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/165" class=".btn">#165</a>
-            </td>
-            <td>
-                <b>
-                    Missing protos-go in go.sum Fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-20 11:09:04 +0000 UTC
-    </div>
-</div>
-

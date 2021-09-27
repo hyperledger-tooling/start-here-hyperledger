@@ -14,6 +14,139 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2999" class=".btn">#2999</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): bump webpack from 4.46.0 to 5.54.0 in /cmd/aries-js-worker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.54.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
+<blockquote>
+<h2>v5.54.0</h2>
+<h1>Features</h1>
+<ul>
+<li>improve constant folding to allow to skip more branches for <code>&amp;&amp;</code> <code>||</code> and <code>??</code></li>
+<li>allow all hashing using in webpack to be configured with <code>output.hashFunction</code></li>
+<li>no longer bailout completely from inner graph analysis when <code>eval</code> is used in a module</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>force bump enhanced-resolve for bugfixes</li>
+</ul>
+<h1>Performance</h1>
+<ul>
+<li>reduce number of allocation when creating snapshots</li>
+<li>add <code>output.hashFunction: &quot;xxhash64&quot;</code> for a super fast wasm based hash function</li>
+<li>improve utf-8 conversion when serializing short strings</li>
+<li>improve hashing performance for dependencies</li>
+<li>add <code>experiments.cacheUnaffected</code> which caches computations for modules that are unchanged and reference only unchanged modules</li>
+</ul>
+<h2>v5.53.0</h2>
+<h1>Features</h1>
+<ul>
+<li>add <code>node.__dirname/__filename: &quot;warn-mock&quot;</code> which warns on usage (will be enabled in webpack 6 by default)</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>add <code>stream/web</code> to Node.js externals</li>
+<li>fix IgnorePluginSchema</li>
+<li>fix builds with persistent caching taking 1 minute to build at least</li>
+</ul>
+<h1>Experiments</h1>
+<ul>
+<li>add <code>experiments.futureDefaults</code> to enable defaults for webpack 6</li>
+</ul>
+<h2>v5.52.1</h2>
+<h1>Performance</h1>
+<ul>
+<li>split fresh created persistent cache files by time to avoid creating very large files</li>
+</ul>
+<h2>v5.52.0</h2>
+<h1>Feature</h1>
+<ul>
+<li><code>experiments.executeModule</code> is enabled by default and the option is removed
+<ul>
+<li>loaders are now free to use <code>this.importModule</code></li>
+</ul>
+</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>fix generated <code>__WEBPACK_EXTERNAL_MODULE_null__</code>, which leads to merged externals</li>
+<li><code>.webpack[...]</code> extension is not part of matching and module name</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/webpack/webpack/commit/45829826701ff6582ea16bc36376d105ff264c26"><code>4582982</code></a> 5.54.0</li>
+<li><a href="https://github.com/webpack/webpack/commit/88978167ea2ee438761179dbbe2e21233dc9d34d"><code>8897816</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14319">#14319</a> from webpack/feature/affected-mem-cache</li>
+<li><a href="https://github.com/webpack/webpack/commit/3149e2e63448e4328ca8abc270b10b3790f1642e"><code>3149e2e</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14318">#14318</a> from webpack/feature/hashing</li>
+<li><a href="https://github.com/webpack/webpack/commit/d3381768ad7d530bdd7f5f4fa5ba09d17c5e2f91"><code>d338176</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14315">#14315</a> from webpack/dependabot/npm_and_yarn/enhanced-resol...</li>
+<li><a href="https://github.com/webpack/webpack/commit/e5cb12197004af846e81835eaf392cab20439087"><code>e5cb121</code></a> bump enhanced-resolve in package.json</li>
+<li><a href="https://github.com/webpack/webpack/commit/91480cfbb1c4cc6104c1b88260fb79315ac4c5a0"><code>91480cf</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14320">#14320</a> from webpack/perf/write-strings-cache</li>
+<li><a href="https://github.com/webpack/webpack/commit/3b48429eb564061c29d38c15579e00b4c48f13a7"><code>3b48429</code></a> add MemCache for memory caching per module which is invalidated when module o...</li>
+<li><a href="https://github.com/webpack/webpack/commit/381614aecc02dffe6032201a628c5c107913c86a"><code>381614a</code></a> cache computation of values passed for hashing</li>
+<li><a href="https://github.com/webpack/webpack/commit/629ac95660b18dc71a835fc13c0573fed1cfe043"><code>629ac95</code></a> write short strings more efficient to cache</li>
+<li><a href="https://github.com/webpack/webpack/commit/bc6c0854b4bfd1c3e88b33b5a59331e720887f40"><code>bc6c085</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14317">#14317</a> from webpack/feature/hashing</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.54.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.54.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 08:17:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2998" class=".btn">#2998</a>
             </td>
             <td>

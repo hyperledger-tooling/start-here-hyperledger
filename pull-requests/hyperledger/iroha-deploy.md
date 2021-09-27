@@ -28,7 +28,7 @@ permalink: /pull-requests/hyperledger/iroha-deploy
             </td>
             <td>
                 ## Changes
-In some cases, it is easier to use docker image instead of Iroha cli.I updated the script to be able to un basic tasks.
+In some cases, it is easier to use docker image instead of Iroha cli.I updated the script to be able to run basic tasks.
 
 ## Examples
 Add peer:
