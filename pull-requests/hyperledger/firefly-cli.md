@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                Depends on https://github.com/hyperledger-labs/firefly/pull/202
+                Depends on https://github.com/hyperledger/firefly/pull/202
             </td>
         </tr>
     </table>

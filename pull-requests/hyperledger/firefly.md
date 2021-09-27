@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/209" class=".btn">#209</a>
+            </td>
+            <td>
+                <b>
+                    Factor out PersistTransaction helper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 16:01:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/208" class=".btn">#208</a>
+            </td>
+            <td>
+                <b>
+                    Move various top-level folders for smart contracts into 'smart_contracts' folder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Moved these top-level contract folders to a consolidated `smart_contracts` directory, with sub-folders corresponding to the supported ledger protocol:
+
+```
+smart_contracts
+  \_ fabric
+  \_ ethereum
+  \_ corda
+```
+
+Note that "smart contracts" is a commonly accepted term in all 3 communities (ethereum, fabric, corda)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 15:25:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/207" class=".btn">#207</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/20" class=".btn">#20</a>
+            </td>
+            <td>
+                <b>
+                    iOS: Add generateNonce method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 15:35:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/19" class=".btn">#19</a>
             </td>
             <td>
