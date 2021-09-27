@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/Scorex
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/Scorex/pull/399" class=".btn">#399</a>
+                PR <a href="https://github.com/hyperledger-labs/Scorex/pull/400" class=".btn">#400</a>
             </td>
             <td>
                 <b>
-                    [WIP] getStatus added to SyncTracker
+                    Add snapshot and release publishing jobs to CI
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/Scorex
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-08 15:45:17 +0000 UTC
+        Created At 2021-09-27 07:24:34 +0000 UTC
     </div>
 </div>
 
