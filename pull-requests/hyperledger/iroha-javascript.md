@@ -37,6 +37,10 @@ Before this I was sure that `web` target works fine both in web and nodejs envir
 ## The solution
 
 In this PR library contains main "types" entrypoint in `/types` and target-specific ones in sub-directories. It has the main type - `IrohaCryptoInterface`, and each target-specific implementation exports the same `crypto` object that is compatible with this type (it is included into type-check of the monorepo as test). And with this type it is possible to write libraries that depends on it and injects a particular implementation in runtime.
+
+## What not to check
+
+`wasm-pack` outputs at `packages/iroha-crypto/(web|node|bundler)` dirs. Btw there are `index.js` and `index.d.ts` files generated separately from it but also automatically.
             </td>
         </tr>
     </table>
