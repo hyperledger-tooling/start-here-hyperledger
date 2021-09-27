@@ -56,29 +56,3 @@ fabric:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/275" class=".btn">#275</a>
-            </td>
-            <td>
-                <b>
-                    fix cergen for subjectAltName
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix #274
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-20 03:37:31 +0000 UTC
-    </div>
-</div>
-

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
             </td>
             <td>
                 <b>
-                    Added data type support to event subscription for payload unmarshaling
+                    Added data type support to tx input and event subscription
                 </b>
             </td>
         </tr>
@@ -27,7 +27,50 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                Previously, the event payload is always send to the listening client as the byte array originally obtained from Fabric's event object:
+                ## Transaction Input
+payload schema can be specified in the `headers` section of the request body. Complex types are supported for chaincodes that takes structs as input:
+```
+{
+    "headers": {
+        "type": "SendTransaction",
+        "payloadSchema": {
+            "type": "array",
+            "prefixItems": [{
+                "name": "id", "type": "string"
+            }, {
+                "name": "color", "type": "string"
+            }, {
+                "name": "size", "type": "string"
+            }, {
+                "name": "owner", "type": "string"
+            }, {
+                "name": "appraisal", "type": "object",
+                "properties": {
+                    "appraisedValue": {
+                        "type": "integer"
+                    },
+                    "inspected": {
+                        "type": "boolean"
+                    }
+                }
+            }]
+        }
+    },
+    "func": "CreateAsset",
+    "args": {
+        "owner": "Tom",
+        "appraisal": {
+            "appraisedValue": 123000,
+            "inspected": true
+        },
+        "size": "10",
+        "id": "asset205",
+        "color": "red"
+    }
+}
+```
+## Event Payload
+Previously, the event payload is always send to the listening client as the byte array originally obtained from Fabric's event object:
 
 ```
 {
