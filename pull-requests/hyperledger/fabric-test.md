@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                Fabric-Test-Interop builds are failing when installing Java samplecc
+
+The samplecc chaincode has the wrong maven repository url
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>

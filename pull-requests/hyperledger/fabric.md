@@ -14,6 +14,148 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2951" class=".btn">#2951</a>
+            </td>
+            <td>
+                <b>
+                    Randomize selection of orderer nodes with retry
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In the Submit() API method, the list of available orderers has been randomized to support improved load balancing.
+Retry logic has been added such that if the selected orderer fails to return a success code, then the next orderer in the list is tried. If no orderers succeed, then return an error (containing details from each orderer) to the client.
+
+Resolves #2912 
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 09:42:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2950" class=".btn">#2950</a>
+            </td>
+            <td>
+                <b>
+                    Add Information about AWS HSM
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+#### Type of change
+- Documentation update
+
+#### Description
+Add AltId documentation for HSM
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 08:48:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2949" class=".btn">#2949</a>
+            </td>
+            <td>
+                <b>
+                    correct logger labels after cloning block puller.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jay Guo <guojiannan1101@gmail.com>
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+When block puller is cloned for an application channel, its logger is inherited, with label of system channel name. This would be very confusing when reading logs. This PR fixes it by overriding logger with correct label.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 08:37:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2947" class=".btn">#2947</a>
+            </td>
+            <td>
+                <b>
+                    Improve an error message in `InstallChaincode`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This patch adds the package ID to the error message in the case of 'chaincode already successfully installed'.
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+In case a 'chaincode already successfully installed' error occurs when installing a chaincode, Fabric admins cannot to know the package ID. In this case, if multiple chaincode packages with the same label are installed, it is not possible to identify them later by using `queryinstalled`.
+
+So, this patch adds the package ID to the error message in the case of 'chaincode already successfully installed'.
+
+#### Additional details
+
+#### Related issues
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 07:40:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2945" class=".btn">#2945</a>
             </td>
             <td>

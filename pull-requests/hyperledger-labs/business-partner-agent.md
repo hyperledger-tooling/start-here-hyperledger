@@ -316,33 +316,3 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/624" class=".btn">#624</a>
-            </td>
-            <td>
-                <b>
-                    Option to set auto respond credential proposal flag to false
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - upgraded aca-py to 0.7.1
-- set all auto flags to false where the BPA has a implementation to have this as a point of reference
-- fixed: allowing trusted issuer did to be set on more than one schema
-- manual auto respond credential proposal flow for indy credentials in v1 and v2 in backend
-- fixed: lookup for types 'a partner can issue' on the receiving side of a connection
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 12:25:07 +0000 UTC
-    </div>
-</div>
-
