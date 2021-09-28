@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/54" class=".btn">#54</a>
+            </td>
+            <td>
+                <b>
+                    sync files from internal repo - part a
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                copying the differences that are easy.
+
+Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 17:36:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/53" class=".btn">#53</a>
             </td>
             <td>

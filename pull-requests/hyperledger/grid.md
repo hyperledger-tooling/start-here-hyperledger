@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/957" class=".btn">#957</a>
+            </td>
+            <td>
+                <b>
+                    Add purchase order version endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add an endpoint to obtain purchase order versions at
+/purchase-order/{UUID}/versions.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 16:32:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/956" class=".btn">#956</a>
             </td>
             <td>
@@ -277,70 +306,6 @@ This change also adds migration data to account for these changes to the purchas
     </table>
     <div class="right-align">
         Created At 2021-09-22 14:58:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/945" class=".btn">#945</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT 0-2: Conform whitespace to calc CSS standard
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                To conform to the CSS standard, plus and minus characters must be
-surrounded by whitespace within the calc function. The lack of
-whitespace caused the docker image build to fail when creating
-grid-ui-alpha. This change fixes that by adding the appropriate
-whitespace.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 18:12:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/944" class=".btn">#944</a>
-            </td>
-            <td>
-                <b>
-                    Add whitespace to conform to calc CSS standard
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                To conform to the CSS standard, plus and minus characters must be
-surrounded by whitespace within the calc function. The lack of
-whitespace caused the docker image build to fail when creating
-grid-ui-alpha. This change fixes that by adding the appropriate
-whitespace.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 15:13:52 +0000 UTC
     </div>
 </div>
 

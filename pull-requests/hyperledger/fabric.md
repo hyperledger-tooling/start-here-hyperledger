@@ -14,6 +14,138 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2955" class=".btn">#2955</a>
+            </td>
+            <td>
+                <b>
+                    Refactor idemix implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes the internal implementation of the idemix protocol and uses
+an external dependency that contains the same implementation.
+
+Signed-off-by: Alessandro Sorniotti <aso@zurich.ibm.com>
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The idemix is factored out of the repo and now imported as a dependency.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 15:58:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2954" class=".btn">#2954</a>
+            </td>
+            <td>
+                <b>
+                    Add OpenTelemetry tracing with grpc interceptors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- New feature
+
+#### Description
+
+Adds OpenTelemetry tracing by adding interceptors on all gRPC communications.
+
+#### Related issues
+This is tied to https://github.com/hyperledger/fabric-rfcs/blob/main/text/0000-opentelemetry-tracing.md
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 15:39:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2953" class=".btn">#2953</a>
+            </td>
+            <td>
+                <b>
+                    [Backport]  #2936  to release-2.2 WIP
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #2936 
+
+1) In order to be able to backport changes I needed to cherry-pick #1862
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 15:04:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2952" class=".btn">#2952</a>
+            </td>
+            <td>
+                <b>
+                    Improve wording of log message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The log message that indicates which, if any, extra endorsers are required by the gateway is unclear.
+This commit improves the wording.
+
+Resolves https://github.com/hyperledger/fabric-gateway/issues/203
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 14:08:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2951" class=".btn">#2951</a>
             </td>
             <td>
@@ -369,76 +501,6 @@ Finally, you can contact us on https://mergify.io/
     </table>
     <div class="right-align">
         Created At 2021-09-21 21:46:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2939" class=".btn">#2939</a>
-            </td>
-            <td>
-                <b>
-                    Fixed Found Typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-- Fixed found typos throughout fabric code
-
-<!--- Describe your changes in detail, including motivation. -->
-
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 16:24:17 +0000 UTC
     </div>
 </div>
 
