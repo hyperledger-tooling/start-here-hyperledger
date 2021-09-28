@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/956" class=".btn">#956</a>
+            </td>
+            <td>
+                <b>
+                    Consolidate PO DB migrations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This consolidates the PO DB migrations files down to one migration. We
+    aren't currently worried about losing data as the feature is not yet
+    released and consolidating will simplify the code and development.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 20:58:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/955" class=".btn">#955</a>
+            </td>
+            <td>
+                <b>
+                    Make `accepted_version_id` optional throughout SDK
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the `accepted_version_id` field in the purchase order object to be optional throughout the SDK. This previously was defined as a required string, however this value may not always be defined. A purchase order version must first be validated that it is able to be "accepted". Therefore, this value should be optional to allow for the cases where a purchase order does not have an accepted version (yet).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 19:01:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/954" class=".btn">#954</a>
             </td>
             <td>
@@ -206,7 +260,7 @@ $ grid role list beta
             </td>
             <td>
                 <b>
-                    Add `workflow_type` to purchase order & make `accepted_version_id` optional within the SDK
+                    Add `workflow_type` to purchase order
                 </b>
             </td>
         </tr>
@@ -215,9 +269,7 @@ $ grid role list beta
                 
             </td>
             <td>
-                This change mainly adds a string field, `workflow_type` to the purchase order object. This field addition affects the use of purchase order throughout the SDK, from the protobuf message to the store. Also, added the `workflow_type` to the purchase order that is returned by the rest API. 
-
-This change also makes an update to make `accepted_version_number/id` optional in the purchase order protocol and store code. This updates the use of this field as it is now an `Option<String>`, rather than just `String`. 
+                This change adds a string field, `workflow_type` to the purchase order object. The intention with this field is to identify the workflow that a purchase order is in. This field addition affects the use of purchase order throughout the SDK, from the protobuf message to the store. Also, added the `workflow_type` to the purchase order that is returned by the rest API. 
 
 This change also adds migration data to account for these changes to the purchase order database model.
             </td>

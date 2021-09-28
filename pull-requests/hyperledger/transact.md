@@ -14,6 +14,119 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/203" class=".btn">#203</a>
+            </td>
+            <td>
+                <b>
+                    Remove CI files used by Jenkins
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                CI will be handled by Github Actions.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 21:35:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/202" class=".btn">#202</a>
+            </td>
+            <td>
+                <b>
+                    Correctly handle NotFound for prefix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change correctly handles the `NotFound` error if the prefix provided to the leaves method specifies a non-existent branch.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 20:34:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/201" class=".btn">#201</a>
+            </td>
+            <td>
+                <b>
+                    Return InvalidStateError on NotFound
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change modifies the KV-implementation of `MerkleStateLeafReader` to return an `InvalidStateError` if a `NotFound` error is encountered.
+
+This allows for differentiated handling of the two cases during consumption of the iterator.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 19:37:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/200" class=".btn">#200</a>
+            </td>
+            <td>
+                <b>
+                    Add GHA files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These workflows are intended to replace the operations in
+the Jenkinsfile.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 19:10:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/199" class=".btn">#199</a>
             </td>
             <td>
@@ -279,32 +392,6 @@ Also fixes some resulting warnings from this change.
     </table>
     <div class="right-align">
         Created At 2021-09-22 14:28:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/189" class=".btn">#189</a>
-            </td>
-            <td>
-                <b>
-                    Move sqlite and postgres specifics into own files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change moves the sqlite- and postgres-specific implementations of state-related traits (and internal traits for SqlMerkleState implementation) into their own respective sub-modules.  This brings the root state::merkle::sql module in line with the rest of the sql sub-modules.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-20 21:45:41 +0000 UTC
     </div>
 </div>
 

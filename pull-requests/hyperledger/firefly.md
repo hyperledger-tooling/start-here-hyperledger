@@ -14,6 +14,120 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/213" class=".btn">#213</a>
+            </td>
+            <td>
+                <b>
+                    Consistency in JSON/Blob codepaths for validation of "none" datatype
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In testing #207 we found the following error when using `validator: "none"` on a JSON upload of `data`, that was not seen on the BLOB upload.
+
+```
+FF10200: Unknown validator type: ‘none’
+```
+
+I found a discrepancy in the validation on upload between the two paths. This PR should reconcile that.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 20:57:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/212" class=".btn">#212</a>
+            </td>
+            <td>
+                <b>
+                    Add "created" field to token pools
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 20:47:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/211" class=".btn">#211</a>
+            </td>
+            <td>
+                <b>
+                    Announce token pool info via broadcast
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rather than requiring all token pool metadata (namespace, name, id) to be written
+to the blockchain, send it out via a broadcast message after creating the actual
+pool on chain.
+ 
+~~Note: this contains the commit from #210 as a pre-req.~~
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 18:34:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/210" class=".btn">#210</a>
+            </td>
+            <td>
+                <b>
+                    Move TokenPoolCreated handler into AssetManager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 18:20:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/209" class=".btn">#209</a>
             </td>
             <td>
