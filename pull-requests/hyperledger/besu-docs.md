@@ -173,36 +173,3 @@ don't hesitate to link an annotated screenshot or a small demo video. -->
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/811" class=".btn">#811</a>
-            </td>
-            <td>
-                <b>
-                    Privacy restricted - corrected link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Link restricted privacy to the page where it is explained
-
-### For content changes
-
-- [x] Doc content
-- [ ] Doc pages organisation
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 03:12:44 +0000 UTC
-    </div>
-</div>
-

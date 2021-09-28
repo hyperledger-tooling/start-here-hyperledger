@@ -119,7 +119,7 @@ Also set the max parallel to 2 in order to closer match reallity
 instead of 1024 which if we actually used the dockerhub rate limits
 would fail all the tests anyway.
 
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com> 
             </td>
         </tr>
     </table>
