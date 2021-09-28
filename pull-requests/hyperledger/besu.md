@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2815" class=".btn">#2815</a>
+            </td>
+            <td>
+                <b>
+                    Refactor(Balance/Ext-*Operations): Extract gas calculation into separate function
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+* Extract gas cost calculation for Balance, ExtCodeCopy, ExtCodeHash, ExtCodeSize operations into `cost` function.
+* Allow `cost` function to be called outside library
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 10:06:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2814" class=".btn">#2814</a>
+            </td>
+            <td>
+                <b>
+                    QBFT to log warning when using validator contract if genesis extra data has validator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also prevent existing warning from logging when using validator contract with no signers in genesis extra data.
+
+Fixes https://github.com/hyperledger/besu/issues/2744
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 08:35:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2810" class=".btn">#2810</a>
             </td>
             <td>
@@ -384,38 +444,6 @@ The only way to register cli options is to use the extra hook provided by `BesuP
     </table>
     <div class="right-align">
         Created At 2021-09-21 13:17:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2790" class=".btn">#2790</a>
-            </td>
-            <td>
-                <b>
-                    Evm move
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Move the EVM classes to a standalone module. This is mostly moves but
-some API re-design to peel out some features not essential to the EVM,
-such as privacy support and ties to the data storage subsystem.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 07:02:55 +0000 UTC
     </div>
 </div>
 

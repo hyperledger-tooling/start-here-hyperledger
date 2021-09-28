@@ -1,13 +1,13 @@
 
-[148](https://github.com/hyperledger/iroha-java/pull/148) Added mutex in Iroha2Client to prevent from sending transaction before subscription to it status will be established
+[501](https://github.com/hyperledger-labs/solang/pull/501) Implement block.number and block.slot
 
-[73](https://github.com/hyperledger/aries-staticagent-python/pull/73) chore(deps): Bump nokogiri from 1.11.4 to 1.12.5 in /docs
+[51](https://github.com/hyperledger-labs/mirbft/pull/51) Dummy Chat App
 
-[152](https://github.com/hyperledger/firefly-ethconnect/pull/152) Updates to avoid timing windows in WebSocket eventstream resulting in blocked streams in edge case reconnect scenario
+[1475](https://github.com/hyperledger/iroha/pull/1475) Update docker publish target to hyperledger/iroha2 #1453
 
-[1385](https://github.com/hyperledger/cactus/pull/1385) chore(release): publish v0.10.0
+[2815](https://github.com/hyperledger/besu/pull/2815) Refactor(Balance/Ext-*Operations): Extract gas calculation into separate function
 
-[203](https://github.com/hyperledger/transact/pull/203) Remove CI files used by Jenkins
+[2951](https://github.com/hyperledger/fabric/pull/2951) Randomize selection of orderer nodes with retry
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

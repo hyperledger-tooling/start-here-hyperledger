@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/148" class=".btn">#148</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/149" class=".btn">#149</a>
             </td>
             <td>
                 <b>
-                    Added mutex in Iroha2Client to prevent from sending transaction before subscription to it status will be established
+                    Restrict execution race during subscribing/sending transaction#147
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                <nil>
+                [Task](https://app.zenhub.com/workspaces/iroha-v2-60ddb820813b9100181fc060/issues/hyperledger/iroha-java/147)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-28 06:17:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/145" class=".btn">#145</a>
-            </td>
-            <td>
-                <b>
-                    Made Iroha2Client open to allow inherit from it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: rkharisov <rinat@soramitsu.co.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 10:15:09 +0000 UTC
+        Created At 2021-09-28 06:39:03 +0000 UTC
     </div>
 </div>
 
