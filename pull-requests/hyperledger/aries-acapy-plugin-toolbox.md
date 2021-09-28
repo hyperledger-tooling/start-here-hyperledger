@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/90" class=".btn">#90</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/92" class=".btn">#92</a>
             </td>
             <td>
                 <b>
-                    fix: did:sov urls changed out for github urls
+                    Fix message delivery to open session
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                did:sov urls changed out for github urls
+                While debugging usage with mobile agents, it was discovered that there is some quirky behavior in message delivery to open sockets from the toolbox plugin. This PR fixes these quirks.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-16 23:25:58 +0000 UTC
+        Created At 2021-09-27 18:29:26 +0000 UTC
     </div>
 </div>
 

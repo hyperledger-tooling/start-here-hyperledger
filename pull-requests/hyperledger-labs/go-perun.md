@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/228" class=".btn">#228</a>
+            </td>
+            <td>
+                <b>
+                    backend/eth/channel: Fix state app decoding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Function `FromEthState` did not set the App correctly on a decoded state.
+
+Relates to #226 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 20:32:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/227" class=".btn">#227</a>
             </td>
             <td>
@@ -123,34 +151,6 @@ Also resolves some issues with files using build tags:
     </table>
     <div class="right-align">
         Created At 2021-09-23 11:34:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/218" class=".btn">#218</a>
-            </td>
-            <td>
-                <b>
-                    Use context as test timeout
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #202 
-
-Also refactors 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-20 18:29:35 +0000 UTC
     </div>
 </div>
 
