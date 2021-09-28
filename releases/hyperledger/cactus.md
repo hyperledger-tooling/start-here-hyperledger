@@ -15,49 +15,56 @@ permalink: /releases/hyperledger/cactus
         <tr>
             <td colspan="2">
                 <b>
-                    v0.9.0
+                    v0.10.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.9.0
+                    v0.10.0
                 </span>
             </td>
             <td>
-                All notable changes to this project will be documented in this file.
+                # Change Log
+
+All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.9.0](https://github.com/hyperledger/cactus/compare/v0.8.0...v0.9.0) (2021-08-31)
+# [0.10.0](https://github.com/hyperledger/cactus/compare/v0.9.0...v0.10.0) (2021-09-28)
 
 
 ### Bug Fixes
 
-* check for req function onPluginInit in isCactusPlugin ([f5ffb92](https://github.com/hyperledger/cactus/commit/f5ffb92d5a03ecb14ec6952d8dff0d8ec101df35)), closes [#1277](https://github.com/hyperledger/cactus/issues/1277)
-* **cmd-api-server:** add missing deps remove unused ones [#1226](https://github.com/hyperledger/cactus/issues/1226) ([b348e42](https://github.com/hyperledger/cactus/commit/b348e4266369fed502610b4c0769d4d6b19f9115))
-* **examples:** front-end packages missing browserify polyfills [#1224](https://github.com/hyperledger/cactus/issues/1224) ([4cc6f2c](https://github.com/hyperledger/cactus/commit/4cc6f2c5d3345a7af8cc04b9218c38d7670872a8))
-* **indy-validator:** fixing indy validator initialization ([d9f6d5d](https://github.com/hyperledger/cactus/commit/d9f6d5d9cf32eb49a6159d42c717484642a98e61))
-* remove no longer working scripts from package.json ([fcf26ed](https://github.com/hyperledger/cactus/commit/fcf26edf6e2d87ae619875e2d38135d5ed11a995)), closes [#1271](https://github.com/hyperledger/cactus/issues/1271)
+* **discounted-cartrade:** modify README.md ([9a3d89a](https://github.com/hyperledger/cactus/commit/9a3d89ae2f5d4862d58a69c56b47d7de3ee7ac3d))
+* openapi validation test for consortium-manual plugin ([c568ad3](https://github.com/hyperledger/cactus/commit/c568ad3627f2f55a83ad9586b72824c44719e08a)), closes [#1297](https://github.com/hyperledger/cactus/issues/1297) [#847](https://github.com/hyperledger/cactus/issues/847)
+* openapi validation test for keychain-vault plugin ([6630ebe](https://github.com/hyperledger/cactus/commit/6630ebed4c2d4c7aa3ddd6c5e306b9bb1613f827)), closes [#1329](https://github.com/hyperledger/cactus/issues/1329) [#847](https://github.com/hyperledger/cactus/issues/847)
+* openapi validation test for quorum plugin ([8a4222a](https://github.com/hyperledger/cactus/commit/8a4222aacf3999838573d72fb82099398b955d99)), closes [#1286](https://github.com/hyperledger/cactus/issues/1286) [#847](https://github.com/hyperledger/cactus/issues/847)
+* openapi validation test for xdai plugin ([ba8a784](https://github.com/hyperledger/cactus/commit/ba8a784bb01bde2c8daf27f4a09965ea2dbb9f04)), closes [#1288](https://github.com/hyperledger/cactus/issues/1288) [#847](https://github.com/hyperledger/cactus/issues/847)
+* **test:** flaky fabric AIO container boot [#876](https://github.com/hyperledger/cactus/issues/876) ([beefcef](https://github.com/hyperledger/cactus/commit/beefcefbebbdb9a22d08118b6fb2e667493504cf)), closes [#718](https://github.com/hyperledger/cactus/issues/718) [#320](https://github.com/hyperledger/cactus/issues/320) [#319](https://github.com/hyperledger/cactus/issues/319)
+* **validators:** add some missing parts ([9a8f7db](https://github.com/hyperledger/cactus/commit/9a8f7db746e2a41708e2fe9d5277561d6abac3d4))
 
 
 ### Features
 
-* besu private transaction support ([53b4980](https://github.com/hyperledger/cactus/commit/53b49808615aced96b628bf1498a1b62c5c9ca42))
-* **cmd-api-server:** support grpc web services [#1189](https://github.com/hyperledger/cactus/issues/1189) ([4cace1d](https://github.com/hyperledger/cactus/commit/4cace1dca3377e09d2ed37fdadeec6b125d47896))
-* **connector-fabric:** add support for vault transit secret engine ([2161e0d](https://github.com/hyperledger/cactus/commit/2161e0d75bac49654f0d38c8a9e2b03234894ed8))
-* **connector-iroha:** adds connector plugin ([4745df0](https://github.com/hyperledger/cactus/commit/4745df0bee6b9ab5fb9e57bb603ae95d6baeb391))
-* **corda:** resolves [#888](https://github.com/hyperledger/cactus/issues/888) ([d4af647](https://github.com/hyperledger/cactus/commit/d4af647f96b9eda592ffe1797679e086e32a039d))
-* **iroha:** add iroha AIO image and iroha test ledger ([1eb811a](https://github.com/hyperledger/cactus/commit/1eb811a3c92f8459298c9f10b9e0d13e36d667b6))
+* **besu:** support besu v21.1.6 [#982](https://github.com/hyperledger/cactus/issues/982) ([d715c67](https://github.com/hyperledger/cactus/commit/d715c679fee681844f29ed30f09f6d651daf087e))
+* **ci:** skip check when only documentation files [#1014](https://github.com/hyperledger/cactus/issues/1014) ([8937576](https://github.com/hyperledger/cactus/commit/8937576ecc6e551feb3515bdb135cbd953a3ea28))
+* **corda:** support corda v4.8 [#889](https://github.com/hyperledger/cactus/issues/889) ([5f45813](https://github.com/hyperledger/cactus/commit/5f45813efd98507a59e8f6a84417819bc0c80742))
+* **core-api:** discontinue dedicated HTTP listeners for web service plugins ([3fbd2fc](https://github.com/hyperledger/cactus/commit/3fbd2fcb60d49090bf4e986bea74d4e988348659)), closes [#358](https://github.com/hyperledger/cactus/issues/358)
+* **core:** add installOpenapiValidationMiddleware ([1f6ea5f](https://github.com/hyperledger/cactus/commit/1f6ea5fe3aa1ba997a655098d632034f13f232a5)), closes [#847](https://github.com/hyperledger/cactus/issues/847)
+* **improve-indy-testnet-docker:** auto-start server on container startup [#1308](https://github.com/hyperledger/cactus/issues/1308) ([35b20ac](https://github.com/hyperledger/cactus/commit/35b20ac25df207c5cf329f60541c69375b408ab1))
+* **quorum-connector:** remove hard dependency on keychain ([5bf13e9](https://github.com/hyperledger/cactus/commit/5bf13e9830c00d6cca00042b5dafa22325f50a90))
+* **validator:** add a draft of Iroha Validator ([466db28](https://github.com/hyperledger/cactus/commit/466db288548b1b57d986507646e74d58e85979e4))
+
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/cactus/releases/tag/v0.9.0" class=".btn">
+    <a href="https://github.com/hyperledger/cactus/releases/tag/v0.10.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-09-08 18:58:01 +0000 UTC
+        Created At 2021-09-28 03:36:59 +0000 UTC
     </span>
 </div>
 

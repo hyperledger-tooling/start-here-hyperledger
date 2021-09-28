@@ -1,13 +1,13 @@
 
+[v0.10.0](https://github.com/hyperledger/cactus/releases/tag/v0.10.0) v0.10.0
+
+[v0.9.0-pre3](https://github.com/hyperledger/aries-staticagent-python/releases/tag/v0.9.0-pre3) 0.9.0-pre3
+
+[v0.0.31](https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.31) v0.0.31
+
+[bpa-0.8.2](https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.8.2) bpa-0.8.2
+
 [v0.3.3](https://github.com/hyperledger/indy-vdr/releases/tag/v0.3.3) v0.3.3
-
-[rest-v0.1.2](https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.1.2) @aries-framework/rest rest-v0.1.2
-
-[rest-v0.1.1](https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.1.1) @aries-framework/rest rest-v0.1.1
-
-[21.7.4](https://github.com/hyperledger/besu/releases/tag/21.7.4) 21.7.4
-
-[rest-v0.1.0](https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.1.0) @aries-framework/rest rest-v0.1.0
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
