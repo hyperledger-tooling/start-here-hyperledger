@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/223" class=".btn">#223</a>
+            </td>
+            <td>
+                <b>
+                    Java API documentation updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Async submit example in Contract class doc
+- Add equivalent call examples to Contract methods to help relate different API methods
+- Chaincode events example in Network class doc
+- Tidy-up of package-level code example
+- Consistency of top-level description between Node and Java documentation
+
+Resolves #215 
+Resolves #216 
+Contributes to #179 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 17:11:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/222" class=".btn">#222</a>
+            </td>
+            <td>
+                <b>
+                    Node API documentation updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Show printing of transaction results in top-level example
+- Update async submit example to match current API
+- Extended off-line signing example to cover complete flow
+- Add equivalent call examples to Contract methods to help relate different API methods
+
+Resolves #220 
+Resolves #221 
+Contributes to #179 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 13:14:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/214" class=".btn">#214</a>
             </td>
             <td>
@@ -121,32 +188,6 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-09-22 16:41:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/202" class=".btn">#202</a>
-            </td>
-            <td>
-                <b>
-                    Chaincode event replay for Java client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 15:40:21 +0000 UTC
     </div>
 </div>
 

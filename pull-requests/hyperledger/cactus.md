@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1388" class=".btn">#1388</a>
+            </td>
+            <td>
+                <b>
+                    feat: allows for constructor args in quorum contract deploy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes: 962
+Signed-off-by: Travis Payne <travis.payne@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 16:16:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1385" class=".btn">#1385</a>
             </td>
             <td>

@@ -97,29 +97,3 @@ Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/350" class=".btn">#350</a>
-            </td>
-            <td>
-                <b>
-                    Separate sender and receiver sides in OOB protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 12:57:55 +0000 UTC
-    </div>
-</div>
-

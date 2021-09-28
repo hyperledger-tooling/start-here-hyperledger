@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2816" class=".btn">#2816</a>
+            </td>
+            <td>
+                <b>
+                    fix: private contracts not able to call public contracts that call other public contracts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Private contracts not able to call public contracts that call other public contracts
+
+## Fixed Issue(s)
+fix #2803 Private Transaction Failed when invoking a Public Contract that calls another Public Contract
+
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 15:26:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2815" class=".btn">#2815</a>
             </td>
             <td>
@@ -414,36 +449,6 @@ fixes [merge-478](https://github.com/ConsenSys/protocol-misc/issues/478)
     </table>
     <div class="right-align">
         Created At 2021-09-22 00:23:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2792" class=".btn">#2792</a>
-            </td>
-            <td>
-                <b>
-                    Alternative proposal for breaking change to the way plugins load cli options
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://wiki.hyperledger.org/display/BESU/DRAFT+-+Pico+CLI+Plugin+Integration
-
-The main change is to move preparePlugins into the begging of the run method. This means that all the cli parsing will happen before the method register is called. 
-
-The only way to register cli options is to use the extra hook provided by `BesuPlugins::registerPicoCLIOptions`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 13:17:22 +0000 UTC
     </div>
 </div>
 
