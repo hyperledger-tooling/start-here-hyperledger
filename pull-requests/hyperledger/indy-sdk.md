@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2426" class=".btn">#2426</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2428" class=".btn">#2428</a>
             </td>
             <td>
                 <b>
-                    docs(how-tos): fixes logging typo
+                    fix(node): reworked binding.gyp
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                This pr fixes error logging typo in nodejs docs
+                The binding.gyp for the nodejs wrapper was incorrect and I have no clue how it even worked.
+
+I am currently working on Apple Silicon trying to fix the support for the indy-sdk in node.
+
+I could not test this yet on Windows or Linux so I will mark this as a draft for now.
+
+Signed-off-by: Berend Sliedrecht <berend@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-10 07:08:34 +0000 UTC
+        Created At 2021-09-29 09:22:14 +0000 UTC
     </div>
 </div>
 

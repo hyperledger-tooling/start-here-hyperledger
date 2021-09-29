@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/150" class=".btn">#150</a>
+            </td>
+            <td>
+                <b>
+                    Fixed incorrect closing of websocket connection if peer responds with `Validating` event
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Peer can responds with 3 events signaling tx status: Committed, Rejected and Validating. Committed and Rejected are final statuses, so after receiving them client need to close socket connection, but after Validating status nothing need to do.
+
+Signed-off-by: rkharisov <rinat@soramitsu.co.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 10:48:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/149" class=".btn">#149</a>
             </td>
             <td>

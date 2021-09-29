@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/184" class=".btn">#184</a>
-            </td>
-            <td>
-                <b>
-                    chore: Add commitment to KeyRetriever interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 07:05:27 +0000 UTC
-    </div>
-</div>
-
