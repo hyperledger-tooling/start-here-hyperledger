@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/190" class=".btn">#190</a>
-            </td>
-            <td>
-                <b>
-                    Fix error message in caclient_test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Found it by accident.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 09:53:23 +0000 UTC
-    </div>
-</div>
-

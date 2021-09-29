@@ -62,32 +62,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/135" class=".btn">#135</a>
-            </td>
-            <td>
-                <b>
-                    FPC Integration Enhancements #134
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Chaincode configuration to tell the fabric-sdk is a chaincode is private
-- Enhancing chaincode package to support FPC
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 10:18:21 +0000 UTC
-    </div>
-</div>
-
