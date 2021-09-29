@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1478" class=".btn">#1478</a>
+            </td>
+            <td>
+                <b>
+                    Gossip and queue fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+- Separates gossiping from round in Sumeragi (therefore fixing MST edge case) see #1433
+- Fixes a `panic` in queue on `unreachble()!` macro. It seems it is quite reachable :) Under high load and due to parallelism it can be invoked. We might improve the design here later. But for now it can be just replaced with `continue`
+- Adds a docker-compose-local.yml setup to build and start containers locally for testing.
+### Queue Bug
+#### Setup
+Local machine, docker compose with local images on latest dev commit
+#### Steps
+Submit txs with high frequency manually through iroha_client_cli
+#### Result
+Several peers stop doing anything, invalid state is reported by tokio due to `unreachable` macro in queue
+
+After fix I tested locally with the same setup to verify that it is working. Later we can try to come up with appropriate test. See next steps.
+### Next Steps
+This bug fixup is urgent so some of the things that might have been included in this PR were moved to separate issues:
+- #1480
+- #1479 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 22:26:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1477" class=".btn">#1477</a>
             </td>
             <td>

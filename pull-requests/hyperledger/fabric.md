@@ -90,7 +90,7 @@ This is tied to https://github.com/hyperledger/fabric-rfcs/blob/main/text/0000-o
             </td>
             <td>
                 <b>
-                    [Backport]  #2936  to release-2.2 WIP
+                    [Backport]  #2936  to release-2.2
                 </b>
             </td>
         </tr>
@@ -101,7 +101,7 @@ This is tied to https://github.com/hyperledger/fabric-rfcs/blob/main/text/0000-o
             <td>
                 Backport of #2936 
 
-1) In order to be able to backport changes I needed to cherry-pick #1862
+
             </td>
         </tr>
     </table>
@@ -421,86 +421,6 @@ as multiline.
     </table>
     <div class="right-align">
         Created At 2021-09-23 15:03:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2942" class=".btn">#2942</a>
-            </td>
-            <td>
-                <b>
-                    Unit test flake when rpc server stream not closed (backport #2935)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 21:55:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2940" class=".btn">#2940</a>
-            </td>
-            <td>
-                <b>
-                    Unit test flake when rpc server stream not closed (backport #2935)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #2935 done by [Mergify](https://mergify.io).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.io/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.io/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.io/
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 21:46:33 +0000 UTC
     </div>
 </div>
 

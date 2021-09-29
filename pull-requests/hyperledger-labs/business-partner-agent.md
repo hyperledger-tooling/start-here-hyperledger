@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/639" class=".btn">#639</a>
+            </td>
+            <td>
+                <b>
+                    value not needed.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jason Sy <jasyrotuck@gmail.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/639"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 20:44:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/638" class=".btn">#638</a>
             </td>
             <td>

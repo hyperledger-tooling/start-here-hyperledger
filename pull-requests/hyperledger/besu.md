@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2818" class=".btn">#2818</a>
+            </td>
+            <td>
+                <b>
+                    Rename: OffChain -> offchain
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+We are treating "offchain" as a single word.
+Rename refactor. See #2750 for "onchain" change
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 00:15:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2817" class=".btn">#2817</a>
+            </td>
+            <td>
+                <b>
+                    Qbft RPCs should be disabled after starting with or switching to use validator contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Still TODO: manually test transitions and work out if any ITs or ATs are required**
+
+## PR description
+
+Qbft RPCs should be disabled after starting with or switching to use validator contract
+Signer metrics and getValidatorsByBlock... should remain enabled.
+
+## Fixed Issue(s)
+Fixes https://github.com/hyperledger/besu/issues/2795
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 19:45:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2816" class=".btn">#2816</a>
             </td>
             <td>
@@ -404,51 +475,6 @@ Broad reaching optimizations to speed up EVM calculations
     </table>
     <div class="right-align">
         Created At 2021-09-22 14:57:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2793" class=".btn">#2793</a>
-            </td>
-            <td>
-                <b>
-                    Feature/merge consensus validated
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-* implement consensusValidated
-* implement forkChoiceUpdated
-* add Merge specific implementations of:
-  * BlockValidator
-  * BlockProcessor 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes [merge-477](https://github.com/ConsenSys/protocol-misc/issues/477)
-fixes [merge-478](https://github.com/ConsenSys/protocol-misc/issues/478)
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 00:23:13 +0000 UTC
     </div>
 </div>
 

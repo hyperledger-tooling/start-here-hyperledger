@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/95" class=".btn">#95</a>
+            </td>
+            <td>
+                <b>
+                    feat:added_connections_unit_test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added connections event handler unit test
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 22:14:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/94" class=".btn">#94</a>
+            </td>
+            <td>
+                <b>
+                    Test/add integration testing for credentials-get-list
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 22:03:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/92" class=".btn">#92</a>
             </td>
             <td>
