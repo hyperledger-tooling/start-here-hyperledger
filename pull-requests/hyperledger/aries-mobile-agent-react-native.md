@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/84" class=".btn">#84</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/85" class=".btn">#85</a>
             </td>
             <td>
                 <b>
-                    to 65
+                    added Intl polyfills
                 </b>
             </td>
         </tr>
@@ -56,7 +56,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-25 00:03:54 +0000 UTC
+        Created At 2021-09-28 20:07:36 +0000 UTC
     </div>
 </div>
 

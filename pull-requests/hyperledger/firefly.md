@@ -364,29 +364,3 @@ include a token symbol, and may (in the near future) be linked to a message.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/200" class=".btn">#200</a>
-            </td>
-            <td>
-                <b>
-                    Swagger bug fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #199 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-21 20:43:16 +0000 UTC
-    </div>
-</div>
-

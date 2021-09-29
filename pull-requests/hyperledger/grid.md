@@ -14,11 +14,70 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/959" class=".btn">#959</a>
+            </td>
+            <td>
+                <b>
+                    Add OpenAPI validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add a GitHub Action to validate the swagger file
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 22:03:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/958" class=".btn">#958</a>
+            </td>
+            <td>
+                <b>
+                    Add purchase order version REST endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add a purchase order REST endpoint to retrieve a version provided a
+version id and a purchase order.
+
+Related to: https://github.com/hyperledger/grid/issues/867
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 19:53:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/957" class=".btn">#957</a>
             </td>
             <td>
                 <b>
-                    Add purchase order version endpoint
+                    Add purchase order version list endpoint
                 </b>
             </td>
         </tr>
