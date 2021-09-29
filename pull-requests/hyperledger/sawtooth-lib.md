@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/97" class=".btn">#97</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize `transaction-receipt-store`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Move the 'transaction-receipt-store' feature from experimental to stable.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 17:10:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/96" class=".btn">#96</a>
             </td>
             <td>

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/216" class=".btn">#216</a>
+            </td>
+            <td>
+                <b>
+                    Don't export internal "...WithID" methods
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 14:41:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/215" class=".btn">#215</a>
+            </td>
+            <td>
+                <b>
+                    Add database types and route for listing token transfers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 12:54:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/213" class=".btn">#213</a>
             </td>
             <td>
@@ -300,40 +352,6 @@ Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
     </table>
     <div class="right-align">
         Created At 2021-09-23 18:30:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/202" class=".btn">#202</a>
-            </td>
-            <td>
-                <b>
-                    Rename tokens "https" plugin to "fftokens"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The name "https" is too generic - the plugin represents a way to map token operations
-like pool, mint, and transfer into a specific HTTP+websocket protocol. Therefore a
-specific, unique name is appropriate.
-
-Also changed the config key from "connector" to "plugin" (since its purpose is to
-affect which plugin FireFly loads from the map).
-
-Added migration paths for both changes so that the CLI and any existing stacks can
-have time to be updated.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 14:41:42 +0000 UTC
     </div>
 </div>
 

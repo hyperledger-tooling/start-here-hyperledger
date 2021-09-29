@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/27" class=".btn">#27</a>
+            </td>
+            <td>
+                <b>
+                    Correct license in package.json to Apache-2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should match the actual governing license from the LICENSE file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 15:51:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/26" class=".btn">#26</a>
             </td>
             <td>

@@ -95,29 +95,3 @@ Signed-off-by: David Huffman <dshuffma@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/51" class=".btn">#51</a>
-            </td>
-            <td>
-                <b>
-                    Changes for default consortium id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 15:45:11 +0000 UTC
-    </div>
-</div>
-

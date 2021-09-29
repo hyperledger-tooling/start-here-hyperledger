@@ -14,6 +14,98 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/229" class=".btn">#229</a>
+            </td>
+            <td>
+                <b>
+                    Synchronize access to session in HSM signer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                PKCS#11 sessions cannot be used concurrently.
+
+Resolves #227 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 16:50:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/228" class=".btn">#228</a>
+            </td>
+            <td>
+                <b>
+                    Interfaces for ChaincodeEvent and Status in Java API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Exposing concrete implementation classes that could not be instantiated by client code would make unit testing for client application code harder.
+
+Resolves #224 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 15:59:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/226" class=".btn">#226</a>
+            </td>
+            <td>
+                <b>
+                    Update Go API documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Async submit example
+- Chaincode events example
+- Modified off-line signing examples to demonstrate end-to-end flow
+- Added examples of equivalent calls using alternative Contract methods
+- Renamed some code examples to ensure they are associated with the correct methods
+- Minor corrections to Java equivalent call examples
+- Removed Node submit/submitAsync equivalent call examples as they are unnecessarily complex and used for different use-cases
+
+Resolves #219 
+Resolves #218 
+Resolves #179 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 14:01:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/223" class=".btn">#223</a>
             </td>
             <td>
@@ -162,32 +254,6 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-09-23 11:09:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/204" class=".btn">#204</a>
-            </td>
-            <td>
-                <b>
-                    Scenario tests for chaincode event replay
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also fix Java scenario tests, which were all being skipped by a bad tag specification.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 16:41:46 +0000 UTC
     </div>
 </div>
 

@@ -89,6 +89,8 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
                 Add an endpoint to obtain purchase order versions at
 /purchase-order/{UUID}/versions.
 
+Related: #866
+
 Signed-off-by: Lee Bradley <bradley@bitwise.io>
             </td>
         </tr>
@@ -337,34 +339,6 @@ $ grid role list beta
     </table>
     <div class="right-align">
         Created At 2021-09-22 19:15:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/946" class=".btn">#946</a>
-            </td>
-            <td>
-                <b>
-                    Add `workflow_type` to purchase order
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds a string field, `workflow_type` to the purchase order object. The intention with this field is to identify the workflow that a purchase order is in. This field addition affects the use of purchase order throughout the SDK, from the protobuf message to the store. Also, added the `workflow_type` to the purchase order that is returned by the rest API. 
-
-This change also adds migration data to account for these changes to the purchase order database model.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 14:58:28 +0000 UTC
     </div>
 </div>
 

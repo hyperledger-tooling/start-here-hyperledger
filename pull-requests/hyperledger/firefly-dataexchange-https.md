@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/41" class=".btn">#41</a>
+            </td>
+            <td>
+                <b>
+                    Set license to Apache-2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 18:08:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/39" class=".btn">#39</a>
             </td>
             <td>

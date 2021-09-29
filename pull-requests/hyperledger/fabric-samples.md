@@ -70,35 +70,3 @@ Signed-off-by: Baran Kılıç <baran.kilic@boun.edu.tr>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/494" class=".btn">#494</a>
-            </td>
-            <td>
-                <b>
-                    Basic assert transfer typescript app migration to gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Removed ca enroll and register flow
-Updated transaction flow using Fabric-gateway
-Tslint to eslint migration 
-
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 14:43:36 +0000 UTC
-    </div>
-</div>
-
