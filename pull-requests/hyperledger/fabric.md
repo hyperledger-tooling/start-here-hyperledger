@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2964" class=".btn">#2964</a>
+            </td>
+            <td>
+                <b>
+                    [Backport] #2936 to release-1.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #2936
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 16:50:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2963" class=".btn">#2963</a>
+            </td>
+            <td>
+                <b>
+                    Improve error messages when no endorsers found
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Clarify the wording in the error message returned from gateway Submit() when no endorsement plan can be created.
+
+Add the chaincode name to the error message returned from Evaluate() when no endorsing peer can be found for the chaincode/channel combination.
+
+Resolves https://github.com/hyperledger/fabric-gateway/issues/199
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 15:32:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2962" class=".btn">#2962</a>
             </td>
             <td>

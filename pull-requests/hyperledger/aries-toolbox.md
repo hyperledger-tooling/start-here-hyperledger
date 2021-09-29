@@ -14,6 +14,113 @@ permalink: /pull-requests/hyperledger/aries-toolbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/236" class=".btn">#236</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump jsoneditor from 9.5.2 to 9.5.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [jsoneditor](https://github.com/josdejong/jsoneditor) from 9.5.2 to 9.5.6.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/josdejong/jsoneditor/blob/develop/HISTORY.md">jsoneditor's changelog</a>.</em></p>
+<blockquote>
+<h2>2021-09-22, version 9.5.6</h2>
+<ul>
+<li>Fix inefficient regex to replace return characters.</li>
+</ul>
+<h2>2021-09-01, version 9.5.5</h2>
+<ul>
+<li>Fix <code>setMode</code> not throwing an exception anymore in case of a parse error
+(regression since <code>9.5.4</code>).</li>
+</ul>
+<h2>2021-08-25, version 9.5.4</h2>
+<ul>
+<li>Use <code>noreferrer</code> for window.open, see <a href="https://github-redirect.dependabot.com/josdejong/jsoneditor/issues/1365">#1365</a>. Thanks <a href="https://github.com/rajitbanerjee"><code>@​rajitbanerjee</code></a>.</li>
+<li>Fix <a href="https://github-redirect.dependabot.com/josdejong/jsoneditor/issues/1363">#1363</a>: parsing error contains html characters.</li>
+<li>Fix opening the Transform or Sort modal in code mode with invalid JSON
+contents not triggering the <code>onError</code> callback (see <a href="https://github-redirect.dependabot.com/josdejong/jsoneditor/issues/1364">#1364</a>).</li>
+<li>Change the default behavior of error handling to open a basic alert instead
+of logging the error in the console (see <a href="https://github-redirect.dependabot.com/josdejong/jsoneditor/issues/1364">#1364</a>).</li>
+</ul>
+<h2>2021-07-28, version 9.5.3</h2>
+<ul>
+<li>Fix <a href="https://github-redirect.dependabot.com/josdejong/jsoneditor/issues/1356">#1356</a>: background of tree mode is transparent instead of white.</li>
+<li>Fix <a href="https://github-redirect.dependabot.com/josdejong/jsoneditor/issues/473">#473</a>: enum dropdown not working on referenced schemas and templates,
+see <a href="https://github-redirect.dependabot.com/josdejong/jsoneditor/issues/1355">#1355</a>. Thanks <a href="https://github.com/mpccolorado"><code>@​mpccolorado</code></a>.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/josdejong/jsoneditor/commit/d289517a114a7eccccd80881f40a2b8fd7e31827"><code>d289517</code></a> Publish v9.5.6, update devDependencies</li>
+<li><a href="https://github.com/josdejong/jsoneditor/commit/6e64f937ef26eb5d894228693ff008f12f7386c6"><code>6e64f93</code></a> Add a SECURITY.md file</li>
+<li><a href="https://github.com/josdejong/jsoneditor/commit/092e386cf49f2a1450625617da8e0137ed067c3e"><code>092e386</code></a> Fix inefficient regex to replace return characters</li>
+<li><a href="https://github.com/josdejong/jsoneditor/commit/c33544bf7de6f4af05b58c4072e28bc786fb3f45"><code>c33544b</code></a> publish v9.5.5</li>
+<li><a href="https://github.com/josdejong/jsoneditor/commit/f5b30462d9034dcd058c2241b6c1d2e4af8fce68"><code>f5b3046</code></a> Fix <code>setMode</code> not throwing an exception anymore in case of a parse error</li>
+<li><a href="https://github.com/josdejong/jsoneditor/commit/f97e875d676b4fa0dc35721976296904b1356efb"><code>f97e875</code></a> Publish v9.5.4</li>
+<li><a href="https://github.com/josdejong/jsoneditor/commit/b3b31f28d6b8b0d2e4c1c825acec194e3e8af343"><code>b3b31f2</code></a> Fix opening the Transform or Sort modal in code mode with invalid JSON conten...</li>
+<li><a href="https://github.com/josdejong/jsoneditor/commit/cbb95ae97b32d0489e43870ed0e9e45d3e5f37bb"><code>cbb95ae</code></a> Change the default behavior of error handling to open a basic alert instead o...</li>
+<li><a href="https://github.com/josdejong/jsoneditor/commit/883a0c9d4a806fa0291ac0fd4aa489eb655602eb"><code>883a0c9</code></a> Update history</li>
+<li><a href="https://github.com/josdejong/jsoneditor/commit/5dbdfe4322008e6b849f2fd025ebdb70c7a1e177"><code>5dbdfe4</code></a> Fix <a href="https://github-redirect.dependabot.com/josdejong/jsoneditor/issues/1363">#1363</a>: parsing error contains html caharacters</li>
+<li>Additional commits viewable in <a href="https://github.com/josdejong/jsoneditor/compare/v9.5.2...v9.5.6">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=jsoneditor&package-manager=npm_and_yarn&previous-version=9.5.2&new-version=9.5.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-toolbox/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 17:29:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-toolbox/pull/235" class=".btn">#235</a>
             </td>
             <td>

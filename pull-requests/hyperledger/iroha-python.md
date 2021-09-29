@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/iroha-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/85" class=".btn">#85</a>
-            </td>
-            <td>
-                <b>
-                    Add getting bytes of transaction and query
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Also adds metadata for asset definitions
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 14:46:25 +0000 UTC
-    </div>
-</div>
-

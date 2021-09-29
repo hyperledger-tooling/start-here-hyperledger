@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1683" class=".btn">#1683</a>
+            </td>
+            <td>
+                <b>
+                    [shared] fabric corda quorum Hashi Vault v2 upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Hashicorp Vault V2 upgrade
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 16:31:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1682" class=".btn">#1682</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] update reference to secretsv2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Update all references for secret to secretsv2 for Vault V2
+- Update all default to secretsv2
+- Fix Fabric chaincode error
+- Fix Fabric redeployment error
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 16:16:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1681" class=".btn">#1681</a>
+            </td>
+            <td>
+                <b>
+                    changes for vaultv2 upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: angelaalagbe <angela.alagbe@accenture.com>
+
+**Changelog**
+- Added extra data paths
+- Fixed variables alignments for charts and templates
+- Updated secrets path
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @sownak 
+
+ 
+
+**Linked issue**
+#1547 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 13:44:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1680" class=".btn">#1680</a>
             </td>
             <td>

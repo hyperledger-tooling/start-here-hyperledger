@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2821" class=".btn">#2821</a>
+            </td>
+            <td>
+                <b>
+                    Jumpdest constructor inj
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Alternate implementation of [this PR](https://github.com/hyperledger/besu/pull/2809), which does not require a singleton for the jumpdest cache.
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes #2607 
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 15:19:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2820" class=".btn">#2820</a>
             </td>
             <td>
@@ -176,7 +215,11 @@ Fixes https://github.com/hyperledger/besu/issues/2795
             </td>
             <td>
                 ## PR description
-Private contracts not able to call public contracts that call other public contracts
+Private contracts not able to call public contracts that call other public contracts. 
+
+The root cause is that during `transferValue` the `MessageCallProcessor` attempts to get a mutable account. At this point the evm throws an exception as it is rightly not mutable!
+
+This can be avoided in situations when there is no value to transfer.
 
 ## Fixed Issue(s)
 fix #2803 Private Transaction Failed when invoking a Public Contract that calls another Public Contract
@@ -184,7 +227,7 @@ fix #2803 Private Transaction Failed when invoking a Public Contract that calls 
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -513,45 +556,6 @@ Fixes #536
     </table>
     <div class="right-align">
         Created At 2021-09-23 20:32:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2796" class=".btn">#2796</a>
-            </td>
-            <td>
-                <b>
-                    Evm speedup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Broad reaching optimizations to speed up EVM calculations
-* Generally speaking, use `int` and `long` where it is more appropriate than `UInt256` (memory indexes mostly)
-* Move the internal stack to `Bytes` from `UInt256`
-* Re-work the flow of many operations to account for the above
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 14:57:59 +0000 UTC
     </div>
 </div>
 

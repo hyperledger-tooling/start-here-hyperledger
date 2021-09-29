@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/188" class=".btn">#188</a>
+            </td>
+            <td>
+                <b>
+                    feat: resolve hl cas links
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 15:47:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/187" class=".btn">#187</a>
             </td>
             <td>
@@ -59,32 +85,6 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     </table>
     <div class="right-align">
         Created At 2021-09-23 09:02:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/185" class=".btn">#185</a>
-            </td>
-            <td>
-                <b>
-                    chore: check for error did not found
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 13:44:52 +0000 UTC
     </div>
 </div>
 
