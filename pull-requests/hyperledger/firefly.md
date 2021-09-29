@@ -337,30 +337,3 @@ have time to be updated.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/201" class=".btn">#201</a>
-            </td>
-            <td>
-                <b>
-                    Add additional fields to TokenPool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                All token pools should record the connector that created them, may optionally
-include a token symbol, and may (in the near future) be linked to a message.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 00:50:30 +0000 UTC
-    </div>
-</div>
-

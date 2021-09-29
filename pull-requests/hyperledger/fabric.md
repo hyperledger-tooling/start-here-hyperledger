@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2956" class=".btn">#2956</a>
+            </td>
+            <td>
+                <b>
+                    Update links for Jira to GitHub issue transition in README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update links for Jira to GitHub issue transition in README
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+This patch updates links for Jira to GitHub issue transition in README.
+
+#### Additional details
+
+Related PR:
+- https://github.com/hyperledger/fabric/pull/2907
+
+#### Related issues
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 02:40:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2955" class=".btn">#2955</a>
             </td>
             <td>
