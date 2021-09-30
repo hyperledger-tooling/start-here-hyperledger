@@ -463,32 +463,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/2996" class=".btn">#2996</a>
-            </td>
-            <td>
-                <b>
-                    fix: dynamic keyType, keyAgreementType and mediaTypeProfiles in bdd tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 02:01:02 +0000 UTC
-    </div>
-</div>
-
