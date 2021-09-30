@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1687" class=".btn">#1687</a>
+            </td>
+            <td>
+                <b>
+                    Fixed secrets path name for molecule test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 16:56:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1686" class=".btn">#1686</a>
+            </td>
+            <td>
+                <b>
+                    Added secret v2 creation molecule 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 12:41:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1685" class=".btn">#1685</a>
+            </td>
+            <td>
+                <b>
+                    [chore] updated sample url
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Update sample nexus url
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 12:30:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1684" class=".btn">#1684</a>
             </td>
             <td>
@@ -243,46 +324,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </table>
     <div class="right-align">
         Created At 2021-09-24 07:43:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1677" class=".btn">#1677</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] test quroum network with vault v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: pppazos <hgartti@gmail.com>
-
-**Changelog**
-- Fix vaultv2 access and decoupling mount
-
- 
-
-**Reviewed by**
-@pppazos
-
- 
-
-**Linked issue**
-#1665
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 16:19:21 +0000 UTC
     </div>
 </div>
 
