@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1390" class=".btn">#1390</a>
+            </td>
+            <td>
+                <b>
+                    fix(cmd-api-server): enable version selection in plugins
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                cactus-cmd-api-server can now import plugins specifying
+the npm package version as a plugin option
+
+cmd-api-server: add missing dependency bluebird
+
+closes #839 and #840
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 07:14:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1389" class=".btn">#1389</a>
             </td>
             <td>

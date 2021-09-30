@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1684" class=".btn">#1684</a>
+            </td>
+            <td>
+                <b>
+                    [shared] Fix network-schema to allow null for loadbalanceraddress
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Fix network schema
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 10:39:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1683" class=".btn">#1683</a>
             </td>
             <td>
@@ -253,45 +283,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </table>
     <div class="right-align">
         Created At 2021-09-23 16:19:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1676" class=".btn">#1676</a>
-            </td>
-            <td>
-                <b>
-                    [besu] Test BAF HL besu deployment on vault v2 branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: kaverikhaneja <kaveri.khaneja@accenture.com>
-
-**Changelog**
-- Tested BAF HL Besu deployment on vaultv2 branch with all the operational features supported by BAF.
- 
-
-**Reviewed by**
-@sownak @suvajit-sarkar 
-
- 
-
-**Linked issue**
-#1666 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 11:55:03 +0000 UTC
     </div>
 </div>
 
