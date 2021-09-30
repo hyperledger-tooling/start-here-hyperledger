@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/503" class=".btn">#503</a>
+            </td>
+            <td>
+                <b>
+                    Implement available expression analysis
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is the draft pull request for the available expression analysis. Tests haven't been coded yet.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 00:58:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/502" class=".btn">#502</a>
             </td>
             <td>
