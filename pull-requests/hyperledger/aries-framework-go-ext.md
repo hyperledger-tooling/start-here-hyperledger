@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/186" class=".btn">#186</a>
-            </td>
-            <td>
-                <b>
-                    feat: add option to return when did is anchored or updated
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 09:02:41 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/230" class=".btn">#230</a>
+            </td>
+            <td>
+                <b>
+                    Documentation and code readability improvements for HSM signer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Contributes to #227 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 09:44:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/229" class=".btn">#229</a>
             </td>
             <td>
@@ -228,32 +254,6 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-09-23 13:27:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/207" class=".btn">#207</a>
-            </td>
-            <td>
-                <b>
-                    Update samples for chaincode event replay
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 11:09:09 +0000 UTC
     </div>
 </div>
 

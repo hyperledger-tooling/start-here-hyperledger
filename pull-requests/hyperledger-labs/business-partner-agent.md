@@ -87,7 +87,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/business-partner-agent/issues/637
+                - addresses https://github.com/hyperledger-labs/business-partner-agent/issues/637 it is now possible to add one or many restrictions to a proof request
+- error events are now handled on both sides (holder, verifier), so we now see if the proof request was illegal. This can happen for example when there are two credentials in the wallet one with name=10, and one with name=MyName and we send a proof request requesting name to be < 11. In this case aca-py logs an error and ends the proof request immediately.
+- schema version and schema name are not pre-filled any more
+- the backend truncates trusted and schema issuer dids if they are fully qualified, as aca-py only allows the last segment of the did at the moment for proof requests v1
+- fixed bug in the credential component
 
 <a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/638"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 

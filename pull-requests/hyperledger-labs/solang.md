@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/504" class=".btn">#504</a>
+            </td>
+            <td>
+                <b>
+                    Generate LoadStorage instructions on related casts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 11:30:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/503" class=".btn">#503</a>
             </td>
             <td>
@@ -53,7 +79,7 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                <nil>
+                Actual transfers not implemented yet, that will come in a following pr
             </td>
         </tr>
     </table>

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2823" class=".btn">#2823</a>
+            </td>
+            <td>
+                <b>
+                    Fix changelog to have bug fix under correct version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix changelog to have bug fix under correct version
+
+Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 11:11:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2822" class=".btn">#2822</a>
             </td>
             <td>
