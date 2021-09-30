@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/258" class=".btn">#258</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/259" class=".btn">#259</a>
             </td>
             <td>
                 <b>
-                    Add the required dependencies for building in Debian(Ubuntu)
+                    Clarify gridd public key in Creating Splinter Circuits
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                This commit adds the dependencies needed to build the project locally in Debian(Ubuntu).
+                The previous version of this documentation contained punctuation that was
+potentially confusing to users who are not familiar with the key format
+that gridd is expecting.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-22 03:04:01 +0000 UTC
+        Created At 2021-09-29 21:32:29 +0000 UTC
     </div>
 </div>
 

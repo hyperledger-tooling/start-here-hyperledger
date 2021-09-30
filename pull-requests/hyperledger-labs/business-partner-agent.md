@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/640" class=".btn">#640</a>
+            </td>
+            <td>
+                <b>
+                    The Org Name/Agent Name needed alignment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/640"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 22:46:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/639" class=".btn">#639</a>
             </td>
             <td>
@@ -130,77 +160,6 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </table>
     <div class="right-align">
         Created At 2021-09-23 15:42:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/632" class=".btn">#632</a>
-            </td>
-            <td>
-                <b>
-                    Bcgov wording
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                tried templating everything, but started to see more cost than gains, some typo style things i changed for everyone. Other more specific words are delegated to the template. 
-
-Too many changes to capture them all, but we are focusing on providing context for an audience that is not familiar with the app rather than use the most correct terminology that we (the developers) would use. 
-
-If this is too much clutter, we could put this in our own fork if that is preferred. 
-
-
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/632"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 00:18:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/631" class=".btn">#631</a>
-            </td>
-            <td>
-                <b>
-                    Connection by Invitation Activity Log
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Was creating a task when connecting by connection invitation that couldn't be closed.
-Was not creating an activity log when connection by oob invitation.
-
-Now, we just create an activity log when the connection is "complete" in both the `c_i` and `oob` invitations.
-
-Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/631"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 22:09:13 +0000 UTC
     </div>
 </div>
 
