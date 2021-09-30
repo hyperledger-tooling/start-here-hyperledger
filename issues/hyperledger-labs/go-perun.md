@@ -14,6 +14,74 @@ permalink: /issues/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger-labs/go-perun/issues/226" class=".btn">226</a>
+            </td>
+            <td>
+                <b>
+                    FromEthState unit test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">testing-only</span>
+            </td>
+            <td>
+                ### Location
+`[backend/ethereum/channel] FromEthState`
+
+### Problem
+I noticed that the function is not unit-tested after #223 fixed a problem with it it.
+
+### Proposal
+Write a test that checks that `FromEthState` works together with `ToEthState` for random states.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-24 11:32:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger-labs/go-perun/issues/211" class=".btn">211</a>
+            </td>
+            <td>
+                <b>
+                    [pkg/sync] Closer.Close() returns error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span><span class="chip">good first issue</span>
+            </td>
+            <td>
+                ### Location
+`[pkg/sync] Closer.Close() error` function.
+
+### Problem
+The `Close` function can only return one error; `alreadyClosedError`. In case it was not already closed, it just returns `nil`.
+
+### Proposal
+Since it only returns one error type, we could also use a success `bool` here for brevity.  
+This would also make the error handling shorter since we often log errors when handling them.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-17 15:41:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger-labs/go-perun/issues/179" class=".btn">179</a>
             </td>
             <td>
