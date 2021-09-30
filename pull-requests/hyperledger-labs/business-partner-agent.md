@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/642" class=".btn">#642</a>
+            </td>
+            <td>
+                <b>
+                    Fix attribute format from PR 641
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                small fix for #641 
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/642"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 15:53:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/641" class=".btn">#641</a>
+            </td>
+            <td>
+                <b>
+                    Feature/cred offer manual accept
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Issue Credentials:
+Implemented manual editing and possibility to accept or create a counter offer to received proposal.
+
++ fix proof template view: Restrictions table
+
+![image](https://user-images.githubusercontent.com/87176157/135479710-ae3f8356-e4fc-43c0-ba6a-806dcf427cc0.png)
+![image](https://user-images.githubusercontent.com/87176157/135479911-3381c442-7c45-447b-8a77-46f92397ea7e.png)
+![image](https://user-images.githubusercontent.com/87176157/135479983-db9deed3-a89d-45ac-aba5-84190878de98.png)
+
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/641"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 14:59:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/640" class=".btn">#640</a>
             </td>
             <td>
@@ -138,32 +208,6 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </table>
     <div class="right-align">
         Created At 2021-09-24 23:17:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/633" class=".btn">#633</a>
-            </td>
-            <td>
-                <b>
-                    Fix: save credential data if auto-respond-credential-proposal is set to true
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 15:42:51 +0000 UTC
     </div>
 </div>
 
