@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/98" class=".btn">#98</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize `transaction-receipt-store-lmdb`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rename the 'transaction-receipt-store-lmdb' feature to 'lmdb' and move
+it from experimental to stable.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-29 19:47:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/97" class=".btn">#97</a>
             </td>
             <td>

@@ -92,30 +92,3 @@ Before each read operation in `IndyLedgerService` a new method is called, `IndyP
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/465" class=".btn">#465</a>
-            </td>
-            <td>
-                <b>
-                    docs: fix meeting time in readme and add link to meetings page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-22 22:40:56 +0000 UTC
-    </div>
-</div>
-

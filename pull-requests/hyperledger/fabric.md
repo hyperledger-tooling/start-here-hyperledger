@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/fabric
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">needs-release-note</span>
             </td>
             <td>
                 Backport of #2936
@@ -372,7 +372,7 @@ This is tied to https://github.com/hyperledger/fabric-rfcs/blob/main/text/0000-o
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">needs-release-note</span>
             </td>
             <td>
                 Backport of #2936 
