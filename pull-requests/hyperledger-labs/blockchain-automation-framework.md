@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1692" class=".btn">#1692</a>
+            </td>
+            <td>
+                <b>
+                    Feature/vaultv2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Fix molecule tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-01 11:42:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1691" class=".btn">#1691</a>
+            </td>
+            <td>
+                <b>
+                    [corda] Added new molecule tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added new molecule tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-01 09:19:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1690" class=".btn">#1690</a>
+            </td>
+            <td>
+                <b>
+                    fixed typos and checks in molecule
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-01 07:04:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1689" class=".btn">#1689</a>
             </td>
             <td>
@@ -337,45 +417,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </table>
     <div class="right-align">
         Created At 2021-09-24 15:35:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1678" class=".btn">#1678</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] Added transaction nodes support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Added roles and charts to have validator and member nodes in a quorum based network using ibft consensus and tessera t,
-
-
- 
-
-**Reviewed by**
-@suvajit-sarkar 
-
- 
-
-**Linked issue**
-#1669 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-24 07:43:41 +0000 UTC
     </div>
 </div>
 

@@ -36,35 +36,3 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/168" class=".btn">#168</a>
-            </td>
-            <td>
-                <b>
-                    Added HTLC support in Corda Interop App
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Added HTLC state, contracts and flows.
-2. Added unit tests for HTLC flows.
-3. Added test cordapp to be used during unit tests of HTLC flows.
-
-Fixes `tests/network-setups/corda/docker-compose.yml`.
-
-Closes #160 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-24 10:30:45 +0000 UTC
-    </div>
-</div>
-
