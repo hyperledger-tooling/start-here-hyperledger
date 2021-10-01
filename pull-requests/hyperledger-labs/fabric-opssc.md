@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    Enhance voting functions for chaincode_ops
+                    Support chaincode deployment with private data for chaincode_ops
                 </b>
             </td>
         </tr>
@@ -27,20 +27,15 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
                 
             </td>
             <td>
-                This PR enhances voting functions for `chaincode_ops` as follows:
-- Improve voting acceptance specifications
-  - Not accept overwriting of votes from the same organization
-  - Not accept voting after the decision  (should explicitly raise an error)
-- Support rejection of proposal
-- Support withdrawal of proposal
+                This PR supports chaincode deployment with private data for chaincode_ops.
 
-The new `chaincode_ops` can cover a series of state transitions of chaincode update proposals,
-including proposal rejection and withdrawal, although it is not yet flexible enough.
+- The current implementation internally uses some protobuf handlers based on source code in [Fabric Operations Console (FOC)](https://github.com/hyperledger-labs/fabric-operations-console) to encode/decode private data collections definitions.
+- NOTE: This PR contains minimal integration tests of the feature, but more strict tests should be added for various formats of private collections in the future.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-15 10:43:03 +0000 UTC
+        Created At 2021-10-01 00:22:14 +0000 UTC
     </div>
 </div>
 
