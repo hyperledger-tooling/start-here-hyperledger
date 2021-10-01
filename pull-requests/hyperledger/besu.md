@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2801" class=".btn">#2801</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/2804" class=".btn">#2804</a>
             </td>
             <td>
                 <b>
-                    [#536] Add support for custom private key file for public-key export and public-key export-address commands
+                    Raise Visibility of Constructor
                 </b>
             </td>
         </tr>
@@ -27,20 +27,20 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                ## PR description
-This PR adds `--node-private-key-file` option to `public-key export-address` and `public-key export` commands.
+                Raise the visibility of AbstractCreateOperation's constructor to
+protected from package so that create operations outside the library can
+re-use the existing code.
 
-## Fixed Issue(s)
-Fixes #536
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
 
 ## Changelog
 
-- [ ] Add support for custom private key file for public-key export and public-key export-address commands
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-23 20:32:45 +0000 UTC
+        Created At 2021-09-25 03:45:22 +0000 UTC
     </div>
 </div>
 
