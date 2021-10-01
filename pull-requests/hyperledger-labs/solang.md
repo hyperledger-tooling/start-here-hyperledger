@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/505" class=".btn">#505</a>
+            </td>
+            <td>
+                <b>
+                    Resolve BytesLiteral to String when hinted
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Iwan Waitusenok <sleepplease@protonmail.ch>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-01 16:30:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/504" class=".btn">#504</a>
             </td>
             <td>
