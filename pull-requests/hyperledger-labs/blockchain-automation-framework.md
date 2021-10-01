@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1693" class=".btn">#1693</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Operations console
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Add helmchart for Fabric operations console
+- Rename ca-server to more appropriate generate_cacerts
+- Add support for grpcws for peer and orderer charts
+- Add support for Operations API (non TLS) for ca, peer and orderer charts
+- Add playbook to deploy operations console and generate json files
+
+ 
+**Linked issue**
+Resolves #1610 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-01 13:44:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1692" class=".btn">#1692</a>
             </td>
             <td>
@@ -383,40 +421,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </table>
     <div class="right-align">
         Created At 2021-09-27 16:19:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1679" class=".btn">#1679</a>
-            </td>
-            <td>
-                <b>
-                    [corda]vaultv2 for corda-os ref. app
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Update vault v2 for corda-os ref. app 
- 
-
-**Linked issue**
-#1664 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-24 15:35:23 +0000 UTC
     </div>
 </div>
 
