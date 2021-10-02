@@ -14,6 +14,101 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2815" class=".btn">#2815</a>
+            </td>
+            <td>
+                <b>
+                    Refactor(Balance/Ext-*Operations): Extract gas calculation into separate function
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+* Extract gas cost calculation for Balance, ExtCodeCopy, ExtCodeHash, ExtCodeSize operations into `cost` function.
+* Allow `cost` function to be called outside library
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 10:06:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2814" class=".btn">#2814</a>
+            </td>
+            <td>
+                <b>
+                    QBFT to log warning when using validator contract if genesis extra data has validator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also prevent existing warning from logging when using validator contract with no signers in genesis extra data.
+
+Fixes https://github.com/hyperledger/besu/issues/2744
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 08:35:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2810" class=".btn">#2810</a>
+            </td>
+            <td>
+                <b>
+                    Make ExceptionalHaltReason an interface
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Migrate ExceptionalHaltReason to an interface from an enum. The enum
+made it difficult for downstream implementations to add custom reasons
+as to why the EVM has halted. Switching to an interface is needed
+because enums are final and not extensible.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-27 16:20:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2807" class=".btn">#2807</a>
             </td>
             <td>
