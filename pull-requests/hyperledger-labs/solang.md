@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/506" class=".btn">#506</a>
+            </td>
+            <td>
+                <b>
+                    The link to the llvm libraries on github is incorrect
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-02 16:25:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/505" class=".btn">#505</a>
             </td>
             <td>
@@ -79,7 +105,9 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                This is the draft pull request for the available expression analysis. Tests haven't been coded yet.
+                This PR implements an available expression analysis for the control flow graph of Solang. This analysis is going to be necessary for the common subexpression elimination pass to be implemented.
+
+This PR is part of the Linux mentorship. For more information, please refer to the [project's wiki](https://wiki.hyperledger.org/display/INTERN/Project+plan+-+Solang+compiler+passes+2021).
             </td>
         </tr>
     </table>
