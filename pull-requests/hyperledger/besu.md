@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2817" class=".btn">#2817</a>
+            </td>
+            <td>
+                <b>
+                    Qbft RPCs should be disabled after starting with or switching to use validator contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Still TODO: manually test transitions and work out if any ITs or ATs are required**
+
+## PR description
+
+Qbft RPCs should be disabled after starting with or switching to use validator contract
+Signer metrics and getValidatorsByBlock... should remain enabled.
+
+## Fixed Issue(s)
+Fixes https://github.com/hyperledger/besu/issues/2795
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 19:45:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2816" class=".btn">#2816</a>
             </td>
             <td>

@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/290" class=".btn">#290</a>
+            </td>
+            <td>
+                <b>
+                    lock Fabric records while Cactus transaction with Ethereum is in place
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - DataLock chaincode for locking fabric data, present on `utilityemissions` chaincode
+- `recordAuditedEmissionsToken` endpoint of `typescript_app` uses, it to lock emissions record while minting of token is taking place on Ethereum network.
+
+close #204 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-02 17:56:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/289" class=".btn">#289</a>
+            </td>
+            <td>
+                <b>
+                    Mentorship cactus integration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-02 14:27:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/288" class=".btn">#288</a>
             </td>
             <td>
