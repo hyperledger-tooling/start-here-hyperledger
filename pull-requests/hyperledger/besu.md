@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2816" class=".btn">#2816</a>
+            </td>
+            <td>
+                <b>
+                    fix: private contracts not able to call public contracts that call other public contracts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Private contracts not able to call public contracts that call other public contracts. 
+
+The root cause is that during `transferValue` the `MessageCallProcessor` attempts to get a mutable account. At this point the evm throws an exception as it is rightly not mutable!
+
+This can be avoided in situations when there is no value to transfer.
+
+## Fixed Issue(s)
+fix #2803 Private Transaction Failed when invoking a Public Contract that calls another Public Contract
+
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 15:26:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2815" class=".btn">#2815</a>
             </td>
             <td>
@@ -221,40 +260,6 @@ fixes #2775.
     </table>
     <div class="right-align">
         Created At 2021-09-27 01:03:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2804" class=".btn">#2804</a>
-            </td>
-            <td>
-                <b>
-                    Raise Visibility of Constructor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Raise the visibility of AbstractCreateOperation's constructor to
-protected from package so that create operations outside the library can
-re-use the existing code.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-25 03:45:22 +0000 UTC
     </div>
 </div>
 
