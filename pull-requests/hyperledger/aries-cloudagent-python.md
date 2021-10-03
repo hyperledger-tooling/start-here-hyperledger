@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1430" class=".btn">#1430</a>
+            </td>
+            <td>
+                <b>
+                    Selective Disclosure Check Fix - [Issue#1427]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolve #1427
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-01 14:34:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1429" class=".btn">#1429</a>
+            </td>
+            <td>
+                <b>
+                    Event bus Metadata
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This pr adds metadata to the event passed to an event handler. While writing a queue plugin that subscribes to events on the event bus a limitation of knowing what regular expression triggered the handler being called was identified. The event bus will call multiple handlers that match the subscribed regular expression. Currently, inside the handler, we must discover what regular expression triggered the event handler. The addition of metadata with the matched pattern in an event simplifies required logic in handlers that is error-prone.
+
+Changes:
+- event_bus.py 
+  - added new EventMetaData and EventWithMetaData classes to add needed context to events
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 20:12:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1428" class=".btn">#1428</a>
+            </td>
+            <td>
+                <b>
+                    Update CONTRIBUTING.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 16:41:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1426" class=".btn">#1426</a>
             </td>
             <td>
@@ -66,59 +148,6 @@ If the counter-offer is not defined/empty logic stays the same as It was before 
     </table>
     <div class="right-align">
         Created At 2021-09-27 16:11:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1424" class=".btn">#1424</a>
-            </td>
-            <td>
-                <b>
-                    Open askar sessions only on demand - Connections
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes the connections part of the #1417 issue.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-24 14:12:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1422" class=".btn">#1422</a>
-            </td>
-            <td>
-                <b>
-                    Endorser protocol configuration, automation and demo integration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See issue https://github.com/hyperledger/aries-cloudagent-python/issues/1238
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 22:18:44 +0000 UTC
     </div>
 </div>
 

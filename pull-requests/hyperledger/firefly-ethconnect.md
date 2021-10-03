@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/155" class=".btn">#155</a>
+            </td>
+            <td>
+                <b>
+                    Add extra nil checks and logging surrounding contract caching
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-01 16:39:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/154" class=".btn">#154</a>
             </td>
             <td>
@@ -136,32 +162,6 @@ So this PR does two things:
     </table>
     <div class="right-align">
         Created At 2021-09-28 03:16:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/151" class=".btn">#151</a>
-            </td>
-            <td>
-                <b>
-                    Replace paths to reference hyperledger repo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 16:11:29 +0000 UTC
     </div>
 </div>
 

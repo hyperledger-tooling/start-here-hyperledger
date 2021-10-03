@@ -38,35 +38,3 @@ Signed-off-by: Baran Kılıç <baran.kilic@boun.edu.tr>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/495" class=".btn">#495</a>
-            </td>
-            <td>
-                <b>
-                    Pipeline changes for Linting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Removed global install of modules. 
-- 
-- Project can now chose it’s own linting framework, versions and execution pattern
-- 
-- Fixed linting errors for chaincode-typescript
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 15:54:57 +0000 UTC
-    </div>
-</div>
-

@@ -5,9 +5,9 @@
 
 [289](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/289) Mentorship cactus integration
 
-[643](https://github.com/hyperledger-labs/business-partner-agent/pull/643) Set Nav/Dashboard Icon colors
+[2840](https://github.com/hyperledger/besu/pull/2840) Feature/mining till fork
 
-[55](https://github.com/hyperledger-labs/fabric-operations-console/pull/55) sync differences from internal repo
+[2839](https://github.com/hyperledger/besu/pull/2839) Feature/local mergenet errata
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
