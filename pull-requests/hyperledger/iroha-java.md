@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/152" class=".btn">#152</a>
+            </td>
+            <td>
+                <b>
+                    Altered queries builder to avoid passing result extractor by sdk client, now it can be defined based on query type
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [Task](https://app.zenhub.com/workspaces/iroha-v2-60ddb820813b9100181fc060/issues/hyperledger/iroha-java/115)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-03 10:37:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/150" class=".btn">#150</a>
             </td>
             <td>
