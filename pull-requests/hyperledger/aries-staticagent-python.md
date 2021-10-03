@@ -183,29 +183,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/72" class=".btn">#72</a>
-            </td>
-            <td>
-                <b>
-                    Ci/fix publish
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-26 17:12:35 +0000 UTC
-    </div>
-</div>
-
