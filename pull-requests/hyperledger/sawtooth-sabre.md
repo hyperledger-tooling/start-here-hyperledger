@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/155" class=".btn">#155</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/157" class=".btn">#157</a>
             </td>
             <td>
                 <b>
-                    BACKPORT 0-7: Add GHA
+                    BACKPORT 0-7: Remove CI files used by Jenkins
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
                 
             </td>
             <td>
-                <nil>
+                CI will be handled by Github Actions.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-24 23:50:52 +0000 UTC
+        Created At 2021-10-01 18:23:22 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +42,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/154" class=".btn">#154</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/156" class=".btn">#156</a>
             </td>
             <td>
                 <b>
-                    CI Improvements
+                    Remove CI files used by Jenkins
                 </b>
             </td>
         </tr>
@@ -53,12 +55,14 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
                 
             </td>
             <td>
-                <nil>
+                CI will be handled by Github Actions.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-23 19:44:48 +0000 UTC
+        Created At 2021-10-01 18:18:28 +0000 UTC
     </div>
 </div>
 

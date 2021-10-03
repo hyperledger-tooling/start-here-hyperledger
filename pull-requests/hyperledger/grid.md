@@ -14,6 +14,171 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/967" class=".btn">#967</a>
+            </td>
+            <td>
+                <b>
+                    Add implementation for "create version" action in po smart contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR mainly adds an implementation and unit tests for the "create_version" function within the purchase order smart contract's handler.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-01 22:37:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/966" class=".btn">#966</a>
+            </td>
+            <td>
+                <b>
+                    Singularize CLI action modules
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the names of the CLI action modules to be singular. This
+    brings these module names in line with their counterparts in other parts
+    of Grid.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-01 18:26:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/965" class=".btn">#965</a>
+            </td>
+            <td>
+                <b>
+                    Update `/purchase-orders` to `/purchase_orders`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update the REST API for purchase orders so that it conforms with a the
+lower snake case URL standard.
+
+This PR was created in response to validation problems discovered in https://github.com/hyperledger/grid/pull/959
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-01 18:18:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/964" class=".btn">#964</a>
+            </td>
+            <td>
+                <b>
+                    Require `workflow_status` and `order_xml` args
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This makes the `workflow_status` and `order_xml` CLI args required for
+    the PO version create and update commands. A version/revision doesn't
+    provide much utility without these values.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-01 16:35:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/963" class=".btn">#963</a>
+            </td>
+            <td>
+                <b>
+                    Add po revision get rest endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 19:47:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/962" class=".btn">#962</a>
+            </td>
+            <td>
+                <b>
+                    Add po revision list rest endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 19:34:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/960" class=".btn">#960</a>
             </td>
             <td>
@@ -177,147 +342,6 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-09-27 19:01:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/954" class=".btn">#954</a>
-            </td>
-            <td>
-                <b>
-                    Add list/get revision operations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds database operations to the `PurchaseOrderStore` to get and list `PurchaseOrderVersionRevisions`. The list operation lists revisions filtered by `po_uid` and `version_id` and the get operation fetches a revision filtered by `po_uid`, `version_id`, and `revision_id`. This also includes migrations and updates to the revisions table to add a `purchase_order_uid` column. This is necessary to be able to properly get revisions in case of overlap in version IDs between different POs.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-24 21:20:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/953" class=".btn">#953</a>
-            </td>
-            <td>
-                <b>
-                    Add `--skip` to griddle examples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These docker examples are likely to be rerun many times. The --skip
-option will allow the entrypoint command to run without throwing an
-error if the keys are already generated.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-24 20:44:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/952" class=".btn">#952</a>
-            </td>
-            <td>
-                <b>
-                    Test keygen
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add tests to validate the behavior of key generation given various
-permutations of the configuration values.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-24 20:36:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/950" class=".btn">#950</a>
-            </td>
-            <td>
-                <b>
-                    Add `workflow_status` to `CreatePurchaseOrder` payload
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds a `workflow_status` field to the `CreatePurchaseOrder` payload
-which brings the create payload in line with its update counterpart.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-24 16:50:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/949" class=".btn">#949</a>
-            </td>
-            <td>
-                <b>
-                    Add create version CLI command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds the create version CLI command to create a Purchase Order
-    version and first revision for that version.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 21:36:59 +0000 UTC
     </div>
 </div>
 

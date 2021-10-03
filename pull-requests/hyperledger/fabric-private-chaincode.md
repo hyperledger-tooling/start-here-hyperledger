@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
             </td>
             <td>
                 <b>
-                    WIP Upgrade go and fabric
+                    Upgrade go and fabric
                 </b>
             </td>
         </tr>
@@ -27,37 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                <!--  Thanks for sending a pull request!  Here are some tips for you:
+                **What this PR does / why we need it**:
 
-1. If this is your first time, please read our code of conduct and contributor guidelines: 
-     https://github.com/hyperledger/fabric-private-chaincode/blob/main/CONTRIBUTING.md
-     https://github.com/hyperledger/fabric-private-chaincode/blob/main/CODE_OF_CONDUCT.md
-   In particular pay attention to the git workflows
-      https://docs.google.com/document/d/1sR7YV3pSYN3NEFiW-2fUqtpsJeJrpC0EWUVtEm0Blcg/edit#heading=h.kwcug3pkefak
-2. Fill out below sections.
-3. Label the PR with the label of any component this PR touches.
-4. ALso don't forget to sign your comments before submitting. 
-   Github will complain if there is no DCO but it's easier if we don't have to hunt you down to fix that :-)
-
--->
-
-**What this PR does / why we need it**:
-
-**Which issue(s) this PR fixes**:
-<!--
-  list existing bug, feature and/or work-item which this PR addresses.
-  You might also consider creating an issue first for the PR.
--->
-Fixes #
+This PR upgrade go version to 1.16.7, the same version as currently used by Fabric. Also, we upgrade to the most recent version of Fabric 2.3.3. The main reason for upgrading to this fabric version is to resolve compatibility issues between 2.3.0 and 2.3.3 as already mentioned in #629. 
 
 **Special notes for your reviewer**:
+Note that in the test-network tutorial, we are now using the main branch for fabric-samples as there is no 2.3.3 tag yet available. The previous tag 2.3.0, we used, is not compatible with Fabric 2.3.3. 
 
-**Does this PR introduce a user-facing changes and/or breaks backward compatability?**:
-<!--
-  If no, you can delete this section
-  If yes, describe what changes and/or what breaks ..
--->
-```
 
             </td>
         </tr>
