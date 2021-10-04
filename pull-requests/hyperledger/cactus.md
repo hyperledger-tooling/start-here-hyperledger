@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1391" class=".btn">#1391</a>
+            </td>
+            <td>
+                <b>
+                    docs: adding example for besu private transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+Closes: 1213
+Signed-off-by: Travis Payne <travis.payne@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-30 14:07:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1390" class=".btn">#1390</a>
             </td>
             <td>
@@ -89,7 +118,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 
             </td>
             <td>
-                Closes: 962
+                Closes: #962
 Signed-off-by: Travis Payne <travis.payne@accenture.com>
             </td>
         </tr>
@@ -122,61 +151,6 @@ Signed-off-by: Travis Payne <travis.payne@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-09-28 00:23:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1384" class=".btn">#1384</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): upgrade to Typescript v4.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1129 
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-26 02:59:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1377" class=".btn">#1377</a>
-            </td>
-            <td>
-                <b>
-                    docs(reading-list): update BAFT DLPC doc to latest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also added latest business best practices doc link
-Previous link was to an an announcement of the doc rather than the doc itself, and was also an outdated version
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 18:11:45 +0000 UTC
     </div>
 </div>
 
