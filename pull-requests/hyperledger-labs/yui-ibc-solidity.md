@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/52" class=".btn">#52</a>
             </td>
             <td>
                 <b>
-                    mockclient: add a comment
+                    move contract initialization into truffle migrations
                 </b>
             </td>
         </tr>
@@ -28,11 +28,13 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
             </td>
             <td>
                 Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+
+Fix #51 (thanks to @toshihiko-okubo)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-01 02:31:21 +0000 UTC
+        Created At 2021-10-04 01:50:51 +0000 UTC
     </div>
 </div>
 
