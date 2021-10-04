@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1695" class=".btn">#1695</a>
+            </td>
+            <td>
+                <b>
+                    [besu] added clique consensus
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: roshan13046 <roshanpk.raut@gmail.com>
+
+**Changelog**
+- Added a new role for the clique consensus to generate a clique genesis file
+- Updated deploy-network to include the option for generating crypto for the clique network and to deploy nodes for Clique consensus
+
+
+
+
+ 
+
+**Reviewed by**
+@sownak 
+ 
+
+**Linked issue**
+#510 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-04 15:13:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1693" class=".btn">#1693</a>
             </td>
             <td>
@@ -390,37 +433,6 @@ Resolves #1610
     </table>
     <div class="right-align">
         Created At 2021-09-29 13:44:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1680" class=".btn">#1680</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] fixed authpath issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
-
-**Changelog**
-- Fix `authpath` typo
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-27 16:19:50 +0000 UTC
     </div>
 </div>
 

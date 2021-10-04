@@ -116,33 +116,3 @@ Finally, you can contact us on https://mergify.io/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/336" class=".btn">#336</a>
-            </td>
-            <td>
-                <b>
-                    Fix java samplecc build error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fabric-Test-Interop builds are failing when installing Java samplecc
-
-The samplecc chaincode has the wrong maven repository url
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-27 15:59:50 +0000 UTC
-    </div>
-</div>
-
