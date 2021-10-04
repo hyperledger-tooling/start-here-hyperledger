@@ -15,33 +15,37 @@ permalink: /releases/hyperledger/firefly-cli
         <tr>
             <td colspan="2">
                 <b>
-                    v0.0.31
+                    v0.0.32
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.0.31
+                    v0.0.32
                 </span>
             </td>
             <td>
                 ## Changelog
 
-6806654 Add FireFly link to README
-9d3c0be Merge pull request #92 from hyperledger/hyperledger-move
-b9c96bc Remove references to labs
-990ca92 Remove references to labs (except in Docker images)
+db1ca08 Add --prompt-names option for overriding org/node names
+9e92fb6 Adding help section to Makefile
+3cc67df Adding linter in Makefile to catch lint issues
+2617eb2 Fix mismatched member configs
+8e8f9d8 Merge pull request #101 from apoorvam1/makefile-help
+675f176 Merge pull request #95 from kaleido-io/tokens
+783dd5d Merge pull request #98 from apoorvam1/linter
+c3711f7 Update token config keys
 
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.31" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.32" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-09-24 17:37:11 +0000 UTC
+        Created At 2021-10-04 17:49:24 +0000 UTC
     </span>
 </div>
 
