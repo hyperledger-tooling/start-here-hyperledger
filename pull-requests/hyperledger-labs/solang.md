@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/508" class=".btn">#508</a>
+            </td>
+            <td>
+                <b>
+                    Allow calling constants from contracts as well
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Iwan Waitusenok <sleepplease@protonmail.ch>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-04 17:14:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/507" class=".btn">#507</a>
+            </td>
+            <td>
+                <b>
+                    Resolve constants from libraries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Iwan Waitusenok <sleepplease@protonmail.ch>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-04 14:18:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/506" class=".btn">#506</a>
             </td>
             <td>

@@ -64,31 +64,3 @@ Relates to #226
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/227" class=".btn">#227</a>
-            </td>
-            <td>
-                <b>
-                    Options to ignore the App + Assets in generic tests.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds `IgnoreApp` and `IgnoreAssets` options to make the `[channel] GenericBackendTest` work with the polkadot backend.
-
-Closes #170 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-27 14:15:11 +0000 UTC
-    </div>
-</div>
-

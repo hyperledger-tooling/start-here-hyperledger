@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2847" class=".btn">#2847</a>
+            </td>
+            <td>
+                <b>
+                    r 21.10.0 RC2 SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                21.10.0-RC2-SNAPSHOT
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-04 18:08:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2846" class=".btn">#2846</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.10.0-RC1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-04 17:25:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2845" class=".btn">#2845</a>
             </td>
             <td>
@@ -1034,41 +1088,6 @@ Fixes https://github.com/hyperledger/besu/issues/2744
     </table>
     <div class="right-align">
         Created At 2021-09-28 08:35:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2810" class=".btn">#2810</a>
-            </td>
-            <td>
-                <b>
-                    Make ExceptionalHaltReason an interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Migrate ExceptionalHaltReason to an interface from an enum. The enum
-made it difficult for downstream implementations to add custom reasons
-as to why the EVM has halted. Switching to an interface is needed
-because enums are final and not extensible.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-27 16:20:56 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/968" class=".btn">#968</a>
+            </td>
+            <td>
+                <b>
+                    Create PO in cli
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding functionality to create purchase order. Based on the updated RFC,
+we need buyer-org and seller-org instead of owning org. Changes are
+reflected in the man pages as well as code.
+
+Signed-off-by: Kevin Johnson <kevin_johnson@cargill.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-04 13:33:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/967" class=".btn">#967</a>
             </td>
             <td>
@@ -72,7 +102,7 @@ permalink: /pull-requests/hyperledger/grid
             </td>
             <td>
                 <b>
-                    Update `/purchase-orders` to `/purchase_orders`
+                    Update `/purchase-order` to `/purchase_order`
                 </b>
             </td>
         </tr>

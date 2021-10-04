@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1431" class=".btn">#1431</a>
+            </td>
+            <td>
+                <b>
+                    Endorser protocol event bus refactor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add a function to the protocol to (potentially) subscribe to events
+
+Register/subscribe to all protocol events on aca-py startup
+
+Add meta-data to the endorser transaction record to pass information downstream (e.g. save cred def revocation info so it's available to the revocation registry tasks)
+
+Code refactor is WIP
+
+(see https://hackmd.io/51flx8CVS1ypyOjEqVl1tg?view#Implementation-Details)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-04 14:31:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1430" class=".btn">#1430</a>
             </td>
             <td>
@@ -122,32 +157,6 @@ If the counter-offer is not defined/empty logic stays the same as It was before 
     </table>
     <div class="right-align">
         Created At 2021-09-29 12:34:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1425" class=".btn">#1425</a>
-            </td>
-            <td>
-                <b>
-                    WIP: Multiple Indy Ledger support, State Proof and leaf inclusion verification
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-27 16:11:53 +0000 UTC
     </div>
 </div>
 
