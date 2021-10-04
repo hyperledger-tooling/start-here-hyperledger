@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3006" class=".btn">#3006</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3007" class=".btn">#3007</a>
             </td>
             <td>
                 <b>
-                    chore(deps-dev): bump webpack from 4.46.0 to 5.55.1 in /cmd/aries-js-worker
+                    chore(deps-dev): bump webpack from 4.46.0 to 5.56.1 in /cmd/aries-js-worker
                 </b>
             </td>
         </tr>
@@ -27,11 +27,21 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.55.1.
+                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.56.1.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
 <blockquote>
+<h2>v5.56.1</h2>
+<h1>Bugfix</h1>
+<ul>
+<li>DefinePlugin: fix conflict with older variants of the plugin</li>
+</ul>
+<h2>v5.56.0</h2>
+<h1>Performance</h1>
+<ul>
+<li>make DefinePlugin rebuild check more efficient performance and memory wise</li>
+</ul>
 <h2>v5.55.1</h2>
 <h1>Bugfixes</h1>
 <ul>
@@ -84,17 +94,6 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 <li>improve hashing performance for dependencies</li>
 <li>add <code>experiments.cacheUnaffected</code> which caches computations for modules that are unchanged and reference only unchanged modules</li>
 </ul>
-<h2>v5.53.0</h2>
-<h1>Features</h1>
-<ul>
-<li>add <code>node.__dirname/__filename: &quot;warn-mock&quot;</code> which warns on usage (will be enabled in webpack 6 by default)</li>
-</ul>
-<h1>Bugfixes</h1>
-<ul>
-<li>add <code>stream/web</code> to Node.js externals</li>
-<li>fix IgnorePluginSchema</li>
-<li>fix builds with persistent caching taking 1 minute to build at least</li>
-</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -102,23 +101,23 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/webpack/webpack/commit/ed55e200efb0dad7716d509c82a6ed82aee86c51"><code>ed55e20</code></a> 5.56.1</li>
+<li><a href="https://github.com/webpack/webpack/commit/835240024d89321095ab9a0cfeff2b8a6ae9eb44"><code>8352400</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14393">#14393</a> from webpack/bugfix/define-plugin</li>
+<li><a href="https://github.com/webpack/webpack/commit/ebc25510605783f4133f75d2fbf23be5a3f6b171"><code>ebc2551</code></a> give DefinePlugin a different key to avoid conflicting with different variant...</li>
+<li><a href="https://github.com/webpack/webpack/commit/4eb122092d9696ac5286bc2dcf3eacfb901f4fed"><code>4eb1220</code></a> 5.56.0</li>
+<li><a href="https://github.com/webpack/webpack/commit/b7f382878e50452d02c7ad1eeaf28f14d40b29ce"><code>b7f3828</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14366">#14366</a> from webpack/perf/define-hash</li>
+<li><a href="https://github.com/webpack/webpack/commit/5f22bffdd1d8808a4fe7cc5d65deeb72fb8e4c62"><code>5f22bff</code></a> use a hash instead of a list to track DefinePlugin dependency</li>
 <li><a href="https://github.com/webpack/webpack/commit/e78403d6a8d4e682fbd4a0eb58f042866cfde42a"><code>e78403d</code></a> 5.55.1</li>
 <li><a href="https://github.com/webpack/webpack/commit/0c3fab62ab340faeccd23d3a5f48f621c2d340db"><code>0c3fab6</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14358">#14358</a> from webpack/bugfix/shared-cache</li>
 <li><a href="https://github.com/webpack/webpack/commit/61569e26b9f3783e72756e0c5104cb245f4e6191"><code>61569e2</code></a> compare references modules when restoring mem cache</li>
 <li><a href="https://github.com/webpack/webpack/commit/6c6e48c3826216e055c3ee4f99b3cf160d21a47a"><code>6c6e48c</code></a> avoid RuntimeSpecMap in favor of directly setting on memCache</li>
-<li><a href="https://github.com/webpack/webpack/commit/a82ab66fc1dbfa841c59439b1efe8e2a990b6014"><code>a82ab66</code></a> fix accidentically shared mem caches</li>
-<li><a href="https://github.com/webpack/webpack/commit/5db30851c7ed007d8f94150ee2c6a1b47d10d388"><code>5db3085</code></a> 5.55.0</li>
-<li><a href="https://github.com/webpack/webpack/commit/3a0d5ff8e45eeade8f107c3e67f8ba7e4251a9a1"><code>3a0d5ff</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14350">#14350</a> from webpack/perf/lazy-assign-connections</li>
-<li><a href="https://github.com/webpack/webpack/commit/9e4c259cce6301697c7e82c99c23bf0b502f7ecb"><code>9e4c259</code></a> fix some cases where undefined modules are used</li>
-<li><a href="https://github.com/webpack/webpack/commit/daa2c3808e57723d7a569688081f75ceef2fd9b2"><code>daa2c38</code></a> lazy assign connections to dependencies</li>
-<li><a href="https://github.com/webpack/webpack/commit/449f7ef39b1096bdacd384d917baec954a0aaca2"><code>449f7ef</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14342">#14342</a> from webpack/perf/unsafe-cache</li>
-<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.55.1">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.56.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.55.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.56.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -149,7 +148,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-30 08:16:46 +0000 UTC
+        Created At 2021-10-04 08:19:22 +0000 UTC
     </div>
 </div>
 
