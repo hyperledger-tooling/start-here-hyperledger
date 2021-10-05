@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/293" class=".btn">#293</a>
+            </td>
+            <td>
+                <b>
+                    Web socket identities
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR integrates web-socket secure identities into the utility-emissions-channel app
+It uses the ws-wallet package to generate key pairs on an external clients device and identity packages to connect it to the fabric application (using cactus-plugin-ledger-connector-fabric).
+The src for both packages are included in the secure-identities directory
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 05:24:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/290" class=".btn">#290</a>
             </td>
             <td>
