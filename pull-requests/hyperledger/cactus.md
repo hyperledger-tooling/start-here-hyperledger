@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1404" class=".btn">#1404</a>
+            </td>
+            <td>
+                <b>
+                    Made changes and fixed linter warnings in issues listed under batch 1/26
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Made changes in all the files as listed under batch 11/26 assigned to me. Kindly review the PR and let me know if there are any amendments to be made
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-02 14:10:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1403" class=".btn">#1403</a>
+            </td>
+            <td>
+                <b>
+                    Fixed linter error in config-service.ts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed unexpected type any by casting configSchema to Record
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-02 02:44:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1402" class=".btn">#1402</a>
+            </td>
+            <td>
+                <b>
+                    deprecate rotateEncryptionKeys method #1108
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                refactor(keychain): deprecate rotateEncryptionKeys method #1108
+
+Found 6 locations of the method:
+This pull request removes the method from 6/6 locations
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-01 23:09:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1398" class=".btn">#1398</a>
             </td>
             <td>
@@ -274,32 +355,6 @@ Signed-off-by: Travis Payne <travis.payne@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-09-28 16:16:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1385" class=".btn">#1385</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): publish v0.10.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 00:23:26 +0000 UTC
     </div>
 </div>
 
