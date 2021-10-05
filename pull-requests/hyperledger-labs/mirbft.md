@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/51" class=".btn">#51</a>
-            </td>
-            <td>
-                <b>
-                    Dummy Chat App
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 11:33:34 +0000 UTC
-    </div>
-</div>
-

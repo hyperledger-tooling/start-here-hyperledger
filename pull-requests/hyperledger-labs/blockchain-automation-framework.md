@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1696" class=".btn">#1696</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Addition of custom user certificate generation and management using fabric-ca
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Add
+
+- Addition of new playbook user-certificate.yaml
+- New create roles addition
+- network-user-certificate sample addition
+
+**Reviewed by**
+@arsulegai 
+
+ 
+
+**Linked issue**
+#1184 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 08:08:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1695" class=".btn">#1695</a>
             </td>
             <td>
