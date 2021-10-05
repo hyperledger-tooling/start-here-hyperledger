@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/iroha-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/86" class=".btn">#86</a>
-            </td>
-            <td>
-                <b>
-                    Add support to https and update config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: i1i1 <vanyarybin1@live.ru>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 12:49:09 +0000 UTC
-    </div>
-</div>
-

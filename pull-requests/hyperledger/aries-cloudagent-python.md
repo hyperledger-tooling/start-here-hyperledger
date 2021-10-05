@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1434" class=".btn">#1434</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.7.2-rc0 preparation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update Changelog, version.py, open-api.json and update the indy-vdr dependency to the latest release.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 17:07:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1433" class=".btn">#1433</a>
             </td>
             <td>

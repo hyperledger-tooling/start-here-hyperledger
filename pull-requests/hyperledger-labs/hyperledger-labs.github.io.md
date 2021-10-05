@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/178" class=".btn">#178</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/179" class=".btn">#179</a>
             </td>
             <td>
                 <b>
-                    proposal for Mokka BFT protocol as a new Hyperledger Lab
+                    orion
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Signed-off-by: Egor Zuev <zyev.egor@gmail.com>
+                Orion is a centralized ledger with certain blockchain properties such as tamper-evident, and non-repudiation.
 
+Signed-off-by: senthil <cendhu@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-10 07:48:27 +0000 UTC
+        Created At 2021-10-05 12:29:03 +0000 UTC
     </div>
 </div>
 

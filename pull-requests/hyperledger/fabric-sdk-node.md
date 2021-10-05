@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/507" class=".btn">#507</a>
-            </td>
-            <td>
-                <b>
-                    Remove Cloudant test for Fabric CA
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The same set of CA tests are carried out with CouchDB, and the externally managed Cloudant instance that was used is obsolete.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 13:22:46 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/971" class=".btn">#971</a>
+            </td>
+            <td>
+                <b>
+                    Add `workflow_status` to PO version DB structs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds the workflow_status field to the PO version DB structs.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 15:48:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/970" class=".btn">#970</a>
+            </td>
+            <td>
+                <b>
+                    Update built-in workflow display methods to designate version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the built-in purchase order workflows to specify the
+version being used for the workflow, and to specify these workflows are
+built-in. This changes the formatting of the POWorkflow's type from
+`<workflow_type>` to `built-in::<workflow_type>::v1`.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 15:10:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/968" class=".btn">#968</a>
             </td>
             <td>
@@ -287,37 +346,6 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-09-28 19:53:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/957" class=".btn">#957</a>
-            </td>
-            <td>
-                <b>
-                    Add purchase order version list endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add an endpoint to obtain purchase order versions at
-/purchase-order/{UUID}/versions.
-
-Related: #866
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 16:32:17 +0000 UTC
     </div>
 </div>
 
