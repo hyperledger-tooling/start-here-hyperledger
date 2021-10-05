@@ -1,13 +1,13 @@
 
-[2847](https://github.com/hyperledger/besu/pull/2847) r 21.10.0 RC2 SNAPSHOT
+[14](https://github.com/hyperledger-labs/fabric-opssc/pull/14) OpsSC v0.2.0 release
 
-[1500](https://github.com/hyperledger/iroha/pull/1500) Queue stress test
+[510](https://github.com/hyperledger-labs/solang/pull/510) Add support for destructive expressions in return
 
-[2846](https://github.com/hyperledger/besu/pull/2846) Release 21.10.0-RC1
+[260](https://github.com/hyperledger/grid-docs/pull/260) Change `POSTGRES_HOST_AUTH_METHOD` to `trust`
 
-[508](https://github.com/hyperledger-labs/solang/pull/508) Allow calling constants from contracts as well
+[2849](https://github.com/hyperledger/besu/pull/2849) errata discovered during m2/m3 testing
 
-[1695](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1695) [besu] added clique consensus
+[58](https://github.com/hyperledger/sawtooth-poet/pull/58) Pin Coverage to version 5.5 in bumper tests
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

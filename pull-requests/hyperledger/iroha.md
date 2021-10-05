@@ -28,7 +28,6 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 
-
 Signed-off-by: Egor Ivkov <e.o.ivkov@gmail.com>
 
 <!-- You will not see HTML commented line in Pull Request body -->
@@ -48,6 +47,7 @@ Signed-off-by: Egor Ivkov <e.o.ivkov@gmail.com>
 - Some other minor tests added for queue cases
 - Queue test fixes
 - Fixes in the queue behavior due to improper rebase
+- Unnecessary (due to removed functonaility) test with getting transactions on leader - removed
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 

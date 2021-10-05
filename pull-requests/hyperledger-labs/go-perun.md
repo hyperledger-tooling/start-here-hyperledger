@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/228" class=".btn">#228</a>
-            </td>
-            <td>
-                <b>
-                    backend/eth/channel: Fix state app decoding
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Function `FromEthState` did not set the App correctly on a decoded state.
-
-Relates to #226 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-27 20:32:37 +0000 UTC
-    </div>
-</div>
-
