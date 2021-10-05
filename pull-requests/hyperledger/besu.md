@@ -14,6 +14,117 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2853" class=".btn">#2853</a>
+            </td>
+            <td>
+                <b>
+                    customized test results location
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Justin Florentine <justin.florentine@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Adds the sonarqube plugin and an initial configuration for it. To use:
+
+`./gradlew jacocoRootReport sonarqube -Dsonar.login=$SONAR_TOKEN`
+
+With a valid SONAR_TOKEN defined in your environment. This will push analysis reports to Hyperledgers account on Sonar Cloud.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes #2811
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 11:23:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2851" class=".btn">#2851</a>
+            </td>
+            <td>
+                <b>
+                    Listener fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 09:01:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2850" class=".btn">#2850</a>
+            </td>
+            <td>
+                <b>
+                    fix equality for finalized head check in forkChoiceUpdated
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+fix forkchoiceupdate finalized root check
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 07:34:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2849" class=".btn">#2849</a>
             </td>
             <td>
@@ -1043,15 +1154,13 @@ Rename refactor. See #2750 for "onchain" change
                 
             </td>
             <td>
-                **Still TODO: manually test transitions and work out if any ITs or ATs are required**
-
-## PR description
+                ## PR description
 
 Qbft RPCs should be disabled after starting with or switching to use validator contract
 Signer metrics and getValidatorsByBlock... should remain enabled.
 
 ## Fixed Issue(s)
-Fixes https://github.com/hyperledger/besu/issues/2795
+Related to https://github.com/hyperledger/besu/issues/2795
 
 ## Changelog
 
@@ -1100,66 +1209,6 @@ fix #2803 Private Transaction Failed when invoking a Public Contract that calls 
     </table>
     <div class="right-align">
         Created At 2021-09-28 15:26:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2815" class=".btn">#2815</a>
-            </td>
-            <td>
-                <b>
-                    Refactor(Balance/Ext-*Operations): Extract gas calculation into separate function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-* Extract gas cost calculation for Balance, ExtCodeCopy, ExtCodeHash, ExtCodeSize operations into `cost` function.
-* Allow `cost` function to be called outside library
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 10:06:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2814" class=".btn">#2814</a>
-            </td>
-            <td>
-                <b>
-                    QBFT to log warning when using validator contract if genesis extra data has validator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also prevent existing warning from logging when using validator contract with no signers in genesis extra data.
-
-Fixes https://github.com/hyperledger/besu/issues/2744
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 08:35:36 +0000 UTC
     </div>
 </div>
 

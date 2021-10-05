@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/511" class=".btn">#511</a>
+            </td>
+            <td>
+                <b>
+                    Improve error message when accessing contract variable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 If a contract variable is not constant and it is accessed via the contract type, rather than a contract instance, give a nicer error message.
+    
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 09:39:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/510" class=".btn">#510</a>
             </td>
             <td>
@@ -243,32 +271,6 @@ This PR is part of the Linux mentorship. For more information, please refer to t
     </table>
     <div class="right-align">
         Created At 2021-09-29 11:19:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/501" class=".btn">#501</a>
-            </td>
-            <td>
-                <b>
-                    Implement block.number and block.slot
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 11:45:08 +0000 UTC
     </div>
 </div>
 

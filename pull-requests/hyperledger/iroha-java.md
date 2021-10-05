@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/155" class=".btn">#155</a>
+            </td>
+            <td>
+                <b>
+                    Iroha-121: implement queries in QueryBuilder 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 07:22:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/154" class=".btn">#154</a>
             </td>
             <td>
@@ -113,32 +139,6 @@ Signed-off-by: rkharisov <rinat@soramitsu.co.jp>
     </table>
     <div class="right-align">
         Created At 2021-09-29 10:48:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/149" class=".btn">#149</a>
-            </td>
-            <td>
-                <b>
-                    Restrict execution race during subscribing/sending transaction#147
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                [Task](https://app.zenhub.com/workspaces/iroha-v2-60ddb820813b9100181fc060/issues/hyperledger/iroha-java/147)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 06:39:03 +0000 UTC
     </div>
 </div>
 

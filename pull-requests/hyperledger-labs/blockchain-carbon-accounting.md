@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/295" class=".btn">#295</a>
+            </td>
+            <td>
+                <b>
+                    enh(chaincode): Migrate from TSLint to ESLint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Migrated the [chaincode/typescript](https://github.com/hyperledger-labs/blockchain-carbon-accounting/tree/main/utility-emissions-channel/chaincode/typescript) directory from TSLint to ESLint. Added the same ESLint and Prettier configuration as for the [typescript_app](https://github.com/hyperledger-labs/blockchain-carbon-accounting/tree/main/utility-emissions-channel/typescript_app) directory. Also added in the `lint` and `lint:fix` scripts.
+
+Fixes #268. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 11:28:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/293" class=".btn">#293</a>
             </td>
             <td>
