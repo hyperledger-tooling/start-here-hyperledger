@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2854" class=".btn">#2854</a>
+            </td>
+            <td>
+                <b>
+                    [#538] Add a bash/zsh autocomplete script to distributions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR adds bash/zsh autocomplete support using [PicoCLI Command Line Completion](https://picocli.info/autocomplete.html).
+
+## Fixed Issue(s)
+Fixes  #538
+
+## Running
+The simpler way to see how it works is within a Docker container:
+```shell
+$ ./gradlew clean build
+$ tar -zxvf build/distributions/besu-21.10.0-RC1-SNAPSHOT.tar.gz -C build/distributions
+$ docker run -v `pwd`/build/distributions/besu-21.10.0-RC1-SNAPSHOT:/besu -it --rm openjdk:11 /bin/bash
+
+# source /besu/besu.autocomplete.sh
+# /besu/bin/besu -<TAB><TAB>
+```
+
+## Changelog
+
+- [ ] Added CLI autocomplete scripts
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 17:19:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2853" class=".btn">#2853</a>
             </td>
             <td>
@@ -1164,51 +1209,12 @@ Related to https://github.com/hyperledger/besu/issues/2795
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 19:45:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2816" class=".btn">#2816</a>
-            </td>
-            <td>
-                <b>
-                    fix: private contracts not able to call public contracts that call other public contracts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Private contracts not able to call public contracts that call other public contracts. 
-
-The root cause is that during `transferValue` the `MessageCallProcessor` attempts to get a mutable account. At this point the evm throws an exception as it is rightly not mutable!
-
-This can be avoided in situations when there is no value to transfer.
-
-## Fixed Issue(s)
-fix #2803 Private Transaction Failed when invoking a Public Contract that calls another Public Contract
-
-
-## Changelog
-
 - [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-28 15:26:19 +0000 UTC
+        Created At 2021-09-28 19:45:53 +0000 UTC
     </div>
 </div>
 

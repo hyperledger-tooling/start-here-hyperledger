@@ -1,24 +1,24 @@
 ---
 layout: default
-title: sawtooth-sdk-java
+title: sawtooth-sdk-javascript
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/sawtooth-sdk-java
+permalink: /pull-requests/hyperledger/sawtooth-sdk-javascript
 ---
 
-# sawtooth-sdk-java <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/sawtooth-sdk-java){: .btn .mr-4 }</span>
+# sawtooth-sdk-javascript <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/sawtooth-sdk-javascript){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-javascript/pull/25" class=".btn">#25</a>
             </td>
             <td>
                 <b>
-                    Remove coverage from test Dockerfiles
+                    Remove `coverage` from test Dockerfiles
                 </b>
             </td>
         </tr>
@@ -36,7 +36,7 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-05 16:09:27 +0000 UTC
+        Created At 2021-10-05 15:57:48 +0000 UTC
     </div>
 </div>
 
