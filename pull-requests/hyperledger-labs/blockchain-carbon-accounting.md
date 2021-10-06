@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/297" class=".btn">#297</a>
+            </td>
+            <td>
+                <b>
+                    fix(chaincode): fix linting as per ESLint configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed the linting as per the ESLint configuration added in by #295. The output of running `npm run lint` is given below.
+![image](https://user-images.githubusercontent.com/51477130/136084508-d907676d-de79-4acd-81e1-d7f9c1f608df.png)
+No errors are thrown after running the lint script.
+
+Fixes #296.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 18:49:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/295" class=".btn">#295</a>
             </td>
             <td>

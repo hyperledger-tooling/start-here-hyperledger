@@ -361,32 +361,3 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1389" class=".btn">#1389</a>
-            </td>
-            <td>
-                <b>
-                    docs(examples): add npm version build arg to supply-chain app container
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                This will enable us to have an automated image publishing pipeline set up
-later down the line as our automation capabilities increase.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 19:49:43 +0000 UTC
-    </div>
-</div>
-

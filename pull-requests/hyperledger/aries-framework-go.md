@@ -204,34 +204,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3002" class=".btn">#3002</a>
-            </td>
-            <td>
-                <b>
-                    feat: support present proof v2 interop with acapy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Add present proof ack status
-- Separate inbound/outbound message handling in present proof
-- Set presentation format attach_id when constructing presentation message
-- Use interop-compatible time format for LD signing when in interop mode
-
-Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 19:51:54 +0000 UTC
-    </div>
-</div>
-
