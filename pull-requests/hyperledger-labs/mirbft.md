@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/52" class=".btn">#52</a>
-            </td>
-            <td>
-                <b>
-                    Top level refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-29 12:24:03 +0000 UTC
-    </div>
-</div>
-
