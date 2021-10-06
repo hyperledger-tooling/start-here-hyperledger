@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/974" class=".btn">#974</a>
+            </td>
+            <td>
+                <b>
+                    Match the db schema to model for Purchase Order
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the `PurchaseOrder` database table schema to match
+the order the fields exist in the `PurchaseOrderModel` struct.
+
+Previously, this caused an error when diesel attempted to insert the
+database model into the table, as the native model does not match the
+table's schema.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-06 16:55:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/973" class=".btn">#973</a>
             </td>
             <td>

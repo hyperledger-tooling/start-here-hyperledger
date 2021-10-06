@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/646" class=".btn">#646</a>
+            </td>
+            <td>
+                <b>
+                    Ordered connection states in case events are received unordered
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                see https://github.com/hyperledger-labs/business-partner-agent/issues/644
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-06 15:20:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/645" class=".btn">#645</a>
             </td>
             <td>
