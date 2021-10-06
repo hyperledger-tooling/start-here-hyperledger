@@ -187,36 +187,3 @@ Changes:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1426" class=".btn">#1426</a>
-            </td>
-            <td>
-                <b>
-                    Add support for custom offers from the proposal
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## What is this PR for?
-
-Currently, the issuer only has the ability to offer a credential that is the same as the one defined in a credential proposal. 
-This PR enables the holder and issuer to negotiate about the credential via proposals and offers in order to agree on what credential the holder will receive.
-
-### Backwards compatibility:
-
-If the counter-offer is not defined/empty logic stays the same as It was before this change.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-29 12:34:17 +0000 UTC
-    </div>
-</div>
-
