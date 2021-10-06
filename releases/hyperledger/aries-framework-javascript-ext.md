@@ -15,31 +15,35 @@ permalink: /releases/hyperledger/aries-framework-javascript-ext
         <tr>
             <td colspan="2">
                 <b>
-                    @aries-framework/rest rest-v0.1.2
+                    @aries-framework/rest rest-v0.2.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    rest-v0.1.2
+                    rest-v0.2.0
                 </span>
             </td>
             <td>
                 
 
-### Bug Fixes
+### ⚠ BREAKING CHANGES
 
-* **rest:** routing fix and moved cors to dependencies ([#31](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/31)) ([0999658](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/09996580a0015004ca18d36487276588460d0dfd))
+* **rest:** The port property has been moved into a new configuration object.
+
+### Features
+
+* **rest:** added support for custom controllers ([#39](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/39)) ([8362e30](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/8362e30d8a4c9ef24779769f81b6e74f7f5978cc))
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.1.2" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.2.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-09-17 14:00:05 +0000 UTC
+        Created At 2021-10-06 06:26:06 +0000 UTC
     </span>
 </div>
 
