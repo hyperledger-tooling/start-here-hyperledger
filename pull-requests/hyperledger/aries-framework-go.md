@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3007" class=".btn">#3007</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3008" class=".btn">#3008</a>
             </td>
             <td>
                 <b>
-                    chore(deps-dev): bump webpack from 4.46.0 to 5.56.1 in /cmd/aries-js-worker
+                    chore(deps-dev): bump webpack from 4.46.0 to 5.57.1 in /cmd/aries-js-worker
                 </b>
             </td>
         </tr>
@@ -27,11 +27,33 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.56.1.
+                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.57.1.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
 <blockquote>
+<h2>v5.57.1</h2>
+<h1>Bugfix</h1>
+<ul>
+<li>fix experiments.cacheUnaffected which broke by last release</li>
+</ul>
+<h2>v5.57.0</h2>
+<h1>Performance</h1>
+<ul>
+<li>reduce number of hash.update calls</li>
+<li>allow ExternalModules to be unsafe cached</li>
+<li>improve hashing performance of module lists (StringXor)</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>experiments.cacheUnaffected
+<ul>
+<li>handle module/chunk id changes correctly</li>
+<li>cache modules with async blocks</li>
+<li>show errors when using incompatible options</li>
+</ul>
+</li>
+</ul>
 <h2>v5.56.1</h2>
 <h1>Bugfix</h1>
 <ul>
@@ -75,25 +97,6 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 </ul>
 </li>
 </ul>
-<h2>v5.54.0</h2>
-<h1>Features</h1>
-<ul>
-<li>improve constant folding to allow to skip more branches for <code>&amp;&amp;</code> <code>||</code> and <code>??</code></li>
-<li>allow all hashing using in webpack to be configured with <code>output.hashFunction</code></li>
-<li>no longer bailout completely from inner graph analysis when <code>eval</code> is used in a module</li>
-</ul>
-<h1>Bugfixes</h1>
-<ul>
-<li>force bump enhanced-resolve for bugfixes</li>
-</ul>
-<h1>Performance</h1>
-<ul>
-<li>reduce number of allocation when creating snapshots</li>
-<li>add <code>output.hashFunction: &quot;xxhash64&quot;</code> for a super fast wasm based hash function</li>
-<li>improve utf-8 conversion when serializing short strings</li>
-<li>improve hashing performance for dependencies</li>
-<li>add <code>experiments.cacheUnaffected</code> which caches computations for modules that are unchanged and reference only unchanged modules</li>
-</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -101,23 +104,23 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/webpack/webpack/commit/ed55e200efb0dad7716d509c82a6ed82aee86c51"><code>ed55e20</code></a> 5.56.1</li>
-<li><a href="https://github.com/webpack/webpack/commit/835240024d89321095ab9a0cfeff2b8a6ae9eb44"><code>8352400</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14393">#14393</a> from webpack/bugfix/define-plugin</li>
-<li><a href="https://github.com/webpack/webpack/commit/ebc25510605783f4133f75d2fbf23be5a3f6b171"><code>ebc2551</code></a> give DefinePlugin a different key to avoid conflicting with different variant...</li>
-<li><a href="https://github.com/webpack/webpack/commit/4eb122092d9696ac5286bc2dcf3eacfb901f4fed"><code>4eb1220</code></a> 5.56.0</li>
-<li><a href="https://github.com/webpack/webpack/commit/b7f382878e50452d02c7ad1eeaf28f14d40b29ce"><code>b7f3828</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14366">#14366</a> from webpack/perf/define-hash</li>
-<li><a href="https://github.com/webpack/webpack/commit/5f22bffdd1d8808a4fe7cc5d65deeb72fb8e4c62"><code>5f22bff</code></a> use a hash instead of a list to track DefinePlugin dependency</li>
-<li><a href="https://github.com/webpack/webpack/commit/e78403d6a8d4e682fbd4a0eb58f042866cfde42a"><code>e78403d</code></a> 5.55.1</li>
-<li><a href="https://github.com/webpack/webpack/commit/0c3fab62ab340faeccd23d3a5f48f621c2d340db"><code>0c3fab6</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14358">#14358</a> from webpack/bugfix/shared-cache</li>
-<li><a href="https://github.com/webpack/webpack/commit/61569e26b9f3783e72756e0c5104cb245f4e6191"><code>61569e2</code></a> compare references modules when restoring mem cache</li>
-<li><a href="https://github.com/webpack/webpack/commit/6c6e48c3826216e055c3ee4f99b3cf160d21a47a"><code>6c6e48c</code></a> avoid RuntimeSpecMap in favor of directly setting on memCache</li>
-<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.56.1">compare view</a></li>
+<li><a href="https://github.com/webpack/webpack/commit/0581bb3c1c32bcb3e182a0f732b862a6c5bb7846"><code>0581bb3</code></a> 5.57.1</li>
+<li><a href="https://github.com/webpack/webpack/commit/48c3d290c5c49152f0b1fc71ed2388e3a426e9c9"><code>48c3d29</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14413">#14413</a> from webpack/bugfix/cache-unaffected</li>
+<li><a href="https://github.com/webpack/webpack/commit/07ad896f7aedee7d32e8247323b54b759b7637e5"><code>07ad896</code></a> bugfix cacheUnaffected</li>
+<li><a href="https://github.com/webpack/webpack/commit/e841ab01417f8e1dd6a2533638f848b5ad0c7d16"><code>e841ab0</code></a> 5.57.0</li>
+<li><a href="https://github.com/webpack/webpack/commit/9e3e71813f30b716e32fb197a6c331fd6c9c4f56"><code>9e3e718</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14410">#14410</a> from webpack/bugfix/allow-side-effects</li>
+<li><a href="https://github.com/webpack/webpack/commit/da098d7872b72415f820510841a8f0263996e460"><code>da098d7</code></a> optimization.sideEffects is compatible with cacheUnaffected</li>
+<li><a href="https://github.com/webpack/webpack/commit/56653f827592f72aea0cb5e7bd9c54253363f532"><code>56653f8</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14406">#14406</a> from webpack/bugfix/cache-unaffected-ids</li>
+<li><a href="https://github.com/webpack/webpack/commit/f05246efcba907f1ce7e31ff78817e138e1c56d8"><code>f05246e</code></a> use buildInfo instead of hash for cacheUnaffected</li>
+<li><a href="https://github.com/webpack/webpack/commit/4c688339be60f229e7fae43446c55a1ff39f6579"><code>4c68833</code></a> run test cases for cacheUnaffected</li>
+<li><a href="https://github.com/webpack/webpack/commit/91b69721442d42c03b94307271f0c701004ddf95"><code>91b6972</code></a> add memCache2 for mem caching with module/chunk ids</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.57.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.56.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.57.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -148,7 +151,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-04 08:19:22 +0000 UTC
+        Created At 2021-10-06 08:18:56 +0000 UTC
     </div>
 </div>
 

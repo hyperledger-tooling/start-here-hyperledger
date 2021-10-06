@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/64" class=".btn">#64</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/65" class=".btn">#65</a>
             </td>
             <td>
                 <b>
-                    Rename master branch to main
+                    Developer tutorial updates
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
                 
             </td>
             <td>
-                Fix some references to `master` after renaming
-the `master` branch to `main`.
-
+                This PR mainly adapted the starting page of the developer tutorial to make it more readable and fixed some typos.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-11 14:35:08 +0000 UTC
+        Created At 2021-10-06 09:59:29 +0000 UTC
     </div>
 </div>
 

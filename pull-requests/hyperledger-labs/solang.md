@@ -274,29 +274,3 @@ This PR is part of the Linux mentorship. For more information, please refer to t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/502" class=".btn">#502</a>
-            </td>
-            <td>
-                <b>
-                    Add value to solidity instruction on Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Actual transfers not implemented yet, that will come in a following pr
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-29 11:19:16 +0000 UTC
-    </div>
-</div>
-

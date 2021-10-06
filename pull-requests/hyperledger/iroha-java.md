@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/157" class=".btn">#157</a>
+            </td>
+            <td>
+                <b>
+                    Iroha-151: Update docker image name in test containers to hyperledger/iroha2:dev
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-06 09:13:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/156" class=".btn">#156</a>
+            </td>
+            <td>
+                <b>
+                    Iroha-121: implement all queries in QueryBuilder and add tests for them
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-06 06:47:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/155" class=".btn">#155</a>
             </td>
             <td>
@@ -111,34 +163,6 @@ permalink: /pull-requests/hyperledger/iroha-java
     </table>
     <div class="right-align">
         Created At 2021-10-03 10:37:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/150" class=".btn">#150</a>
-            </td>
-            <td>
-                <b>
-                    Fixed incorrect closing of websocket connection if peer responds with `Validating` event
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Peer can responds with 3 events signaling tx status: Committed, Rejected and Validating. Committed and Rejected are final statuses, so after receiving them client need to close socket connection, but after Validating status nothing need to do.
-
-Signed-off-by: rkharisov <rinat@soramitsu.co.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-29 10:48:12 +0000 UTC
     </div>
 </div>
 

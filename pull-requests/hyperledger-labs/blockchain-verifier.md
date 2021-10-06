@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/14" class=".btn">#14</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    Blockchain Verifier v0.3.1 release
+                    Introduce the snapshot feature
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                Bump the version of Blockchain Verifier, upgrading the dependencies and updating the documentation.
-
-The changes from v0.3.0 include
-- Add an option to skip certain checkers
-- Add integration tests with Hyperledger Fabric v2.2/2.3
+                This PR brings the snapshot feature into Blockchain Verifier, which allows users to save checks into a snapshot, and to resume checks from the point when the snapshot is saved.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-31 10:12:20 +0000 UTC
+        Created At 2021-10-06 08:14:59 +0000 UTC
     </div>
 </div>
 
