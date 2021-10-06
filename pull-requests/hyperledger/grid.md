@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/973" class=".btn">#973</a>
+            </td>
+            <td>
+                <b>
+                    Fix handling of protobuf optional field
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change fixes how the `CreateVersionPayload` is being converted by
+the purchase order protocol code. Previously, this value was being
+pulled from the protobuf, but as it is optional, the value pulled from
+the protobuf must first be validated as non-empty. If it is empty, this
+field is set to `None`. If not, the `CreateVersionPayload` is converted
+into a native struct using it's `from_proto` method.
+
+This fixes an issue where the payload may be set with empty values from
+the protobuf.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 20:00:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/972" class=".btn">#972</a>
+            </td>
+            <td>
+                <b>
+                    Re-add `created_at` to PO migrations tables
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The created_at field was omitted accidentally when consolidating the
+migrations for the purchase_order table. This just adds that back in.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 18:56:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/971" class=".btn">#971</a>
             </td>
             <td>
@@ -287,65 +352,6 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-09-29 19:50:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/959" class=".btn">#959</a>
-            </td>
-            <td>
-                <b>
-                    Add OpenAPI validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a GitHub Action to validate the swagger file
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 22:03:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/958" class=".btn">#958</a>
-            </td>
-            <td>
-                <b>
-                    Add purchase order version REST endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a purchase order REST endpoint to retrieve a version provided a
-version id and a purchase order.
-
-Related to: https://github.com/hyperledger/grid/issues/867
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 19:53:16 +0000 UTC
     </div>
 </div>
 

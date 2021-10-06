@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/207" class=".btn">#207</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/208" class=".btn">#208</a>
             </td>
             <td>
                 <b>
-                    Backport 0-3: Add MerkleLeafIter back to public API
+                    Update migration log to be debug and include crate
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                Back-port of #205 
+                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-28 18:34:03 +0000 UTC
+        Created At 2021-10-05 18:42:22 +0000 UTC
     </div>
 </div>
 
