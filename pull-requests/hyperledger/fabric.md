@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2974" class=".btn">#2974</a>
+            </td>
+            <td>
+                <b>
+                    Rename EndpointError to ErrorDetail
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In the gateway.proto, the EndpointError message has been renamed ErrorDetail.
+This commit updates the proto dependency and renames the type in the gateway code.
+
+Contributes to #2971 
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-07 08:09:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2973" class=".btn">#2973</a>
             </td>
             <td>

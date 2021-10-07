@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2860" class=".btn">#2860</a>
+            </td>
+            <td>
+                <b>
+                    remove random from blockhash calc and blockheader in executePayload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+* remove random from blockhash calc and blockheader in executePayload
+* re-add stop at TTD to PostMergeContext
+* remove old spec KNOWN status
+* disable short-circuiting for known blocks
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-07 11:01:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2858" class=".btn">#2858</a>
             </td>
             <td>
@@ -1030,35 +1071,6 @@ Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
     </table>
     <div class="right-align">
         Created At 2021-09-30 13:08:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2823" class=".btn">#2823</a>
-            </td>
-            <td>
-                <b>
-                    Fix changelog to have bug fix under correct version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix changelog to have bug fix under correct version
-
-Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-30 11:11:48 +0000 UTC
     </div>
 </div>
 
