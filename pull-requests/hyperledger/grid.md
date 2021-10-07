@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/975" class=".btn">#975</a>
+            </td>
+            <td>
+                <b>
+                    Add `grid po version update` CLI command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds and implements the `grid po version update` CLI command. This
+    command is used to update one or more of the editable PO version fields.
+    This command handles for adding a new revision if new PO XML is
+    submitted.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-06 21:10:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/974" class=".btn">#974</a>
             </td>
             <td>
@@ -359,32 +388,6 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-09-30 19:34:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/960" class=".btn">#960</a>
-            </td>
-            <td>
-                <b>
-                    Add CLI filters to DB ops
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds filters to some of the PO DB operations that correspond to the filters available in the list/show PO CLI commands.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-29 19:50:12 +0000 UTC
     </div>
 </div>
 
