@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1413" class=".btn">#1413</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-sawtooth): add the docker environment of Validator on connector-sawtooth-socketio
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                resolve #1326
+
+Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-04 10:35:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1412" class=".btn">#1412</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-go-ethereum): add the docker environment of Validator on connector-go-ethereum-socketio
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                resolve #1326 
+
+Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-04 10:00:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1411" class=".btn">#1411</a>
+            </td>
+            <td>
+                <b>
+                    refactor(cmd-server-socketio): refactor the verifier socket.io channel and verifierFactory
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                resolve #1322 #1324
+
+Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-04 09:22:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1410" class=".btn">#1410</a>
             </td>
             <td>
@@ -381,39 +465,6 @@ Signed-off-by: Travis Payne <travis.payne@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-09-30 14:07:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1390" class=".btn">#1390</a>
-            </td>
-            <td>
-                <b>
-                    fix(cmd-api-server): enable version selection in plugins
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                cactus-cmd-api-server can now import plugins specifying
-the npm package version as a plugin option
-
-cmd-api-server: add missing dependency bluebird
-
-closes #839 and #840
-
-Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-30 07:14:28 +0000 UTC
     </div>
 </div>
 

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
             </td>
             <td>
                 <b>
-                    Introduce the snapshot feature
+                    Introduce the checkpoint feature
                 </b>
             </td>
         </tr>
