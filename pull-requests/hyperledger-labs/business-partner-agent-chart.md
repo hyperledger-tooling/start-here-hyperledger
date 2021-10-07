@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/35" class=".btn">#35</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/36" class=".btn">#36</a>
             </td>
             <td>
                 <b>
-                    disabling webhook security until aca-py 0.7.2 is released
+                    Removing bcgov, adding new ux config
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                Signed-off-by: Philipp Etschel <philipp@etschel.net>
+                added a new property to override the genesis url
+updated aca-py version
+DID NOT update release or image tags - unsure what is going on with new builds.
+
+This works with commit [fc68763](https://github.com/hyperledger-labs/business-partner-agent/commit/fc687636b956046fa63e5751a9c8b9601e643d2b)
+
+Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-24 08:24:02 +0000 UTC
+        Created At 2021-10-06 20:05:01 +0000 UTC
     </div>
 </div>
 

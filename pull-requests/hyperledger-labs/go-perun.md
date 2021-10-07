@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/230" class=".btn">#230</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/235" class=".btn">#235</a>
             </td>
             <td>
                 <b>
-                    [README] Add read-the-docs badge.
+                    :memo: [README] Update go version
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                Closes #229 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 11:56:37 +0000 UTC
+        Created At 2021-10-06 18:19:26 +0000 UTC
     </div>
 </div>
 

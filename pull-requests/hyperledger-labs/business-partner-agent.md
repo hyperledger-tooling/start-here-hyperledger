@@ -174,33 +174,3 @@ Implemented manual editing and possibility to accept or create a counter offer t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/640" class=".btn">#640</a>
-            </td>
-            <td>
-                <b>
-                    The Org Name/Agent Name needed alignment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/640"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-29 22:46:52 +0000 UTC
-    </div>
-</div>
-
