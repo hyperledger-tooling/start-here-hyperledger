@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/158" class=".btn">#158</a>
+            </td>
+            <td>
+                <b>
+                    Honor fly-id for contract deployments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This also prevents bugs where the loaded deployMsg already had an ID and
+the ID is reused.
+
+Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-07 17:47:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/157" class=".btn">#157</a>
             </td>
             <td>

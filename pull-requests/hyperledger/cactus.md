@@ -217,7 +217,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
             <td>
                 <b>
-                    Made changes and fixed linter warnings in issues listed under batch 1/26
+                    style: #1350 lint fixes for batch 1/26
                 </b>
             </td>
         </tr>
@@ -226,7 +226,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 
             </td>
             <td>
-                Made changes in all the files as listed under batch 11/26 assigned to me. Kindly review the PR and let me know if there are any amendments to be made
+                Added lint fixes for batch 1/26 or #1350  issue
             </td>
         </tr>
     </table>
@@ -393,78 +393,6 @@ Fixes #1374
     </table>
     <div class="right-align">
         Created At 2021-10-01 19:53:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1392" class=".btn">#1392</a>
-            </td>
-            <td>
-                <b>
-                    fix(plugin-ledger-connector-quorum): no keychain endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Endpoint invoke-contract without keychain was failing because,
-on deploy, network information was saved inside the contractJson
-object, which was keeping it on memory and for this reason it was
-not failing calling the connector.
-
-2. Now, when no keychain is used, instead of save the contracts
-addresses in memory indexed by contractName, this parameter
-should be sent in the request to avoid that there can only be a
-single instance for each contract name. When keychain is used,
-contract address is still saved indexed by contractName.
-
-3. Openapi specs were changed to consider these changes,
-including remove fields that are inside the contractJSON object
-and definition of this object structure.
-
-4. Includes openapi validation test for new endpoints.
-
-Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-30 14:08:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1391" class=".btn">#1391</a>
-            </td>
-            <td>
-                <b>
-                    docs: adding example for besu private transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-Closes: 1213
-Signed-off-by: Travis Payne <travis.payne@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-30 14:07:57 +0000 UTC
     </div>
 </div>
 

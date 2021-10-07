@@ -161,29 +161,3 @@ Changes:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1428" class=".btn">#1428</a>
-            </td>
-            <td>
-                <b>
-                    Update CONTRIBUTING.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-30 16:41:18 +0000 UTC
-    </div>
-</div>
-

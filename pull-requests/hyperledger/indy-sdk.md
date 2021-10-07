@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2428" class=".btn">#2428</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2432" class=".btn">#2432</a>
             </td>
             <td>
                 <b>
-                    fix(node): reworked binding.gyp
+                    fix ordering of attributes being used before being introduced
                 </b>
             </td>
         </tr>
@@ -27,18 +27,29 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                The binding.gyp for the nodejs wrapper was incorrect and I have no clue how it even worked.
+                Signed-off-by: Axel Nennker <axel.nennker@telekom.de>
 
-I am currently working on Apple Silicon trying to fix the support for the indy-sdk in node.
+The compiler was complaining about the following:
 
-I could not test this yet on Windows or Linux so I will mark this as a draft for now.
+> warning: derive helper attribute is used before it is introduced
+   --> src/services/pool/types.rs:357:3
+    |
+357 | #[serde(tag = "op")]
+    |   ^^^^^
+358 | #[derive(Serialize, Deserialize, Debug)]
+    |          --------- the attribute is introduced here
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #79202 <https://github.com/rust-lang/rust/issues/79202>
 
-Signed-off-by: Berend Sliedrecht <berend@animo.id>
+
+This PR reorders the two code lines so that the attribute is used after being introduced
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 09:22:14 +0000 UTC
+        Created At 2021-10-07 14:23:50 +0000 UTC
     </div>
 </div>
 
