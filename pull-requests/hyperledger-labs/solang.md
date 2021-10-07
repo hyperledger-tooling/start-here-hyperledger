@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/516" class=".btn">#516</a>
+            </td>
+            <td>
+                <b>
+                    Fix gasprice handling and documentation on Solana
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                gasprice is not used on Solana.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-07 15:58:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/515" class=".btn">#515</a>
             </td>
             <td>
