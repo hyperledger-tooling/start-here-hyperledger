@@ -76,7 +76,7 @@ Fixes #268.
             </td>
             <td>
                 <b>
-                    Web socket identities
+                    Support for FabricSigningCredentialType.WsX509
                 </b>
             </td>
         </tr>

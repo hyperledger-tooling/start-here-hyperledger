@@ -272,31 +272,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/503" class=".btn">#503</a>
-            </td>
-            <td>
-                <b>
-                    Implement available expression analysis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements an available expression analysis for the control flow graph of Solang. This analysis is going to be necessary for the common subexpression elimination pass to be implemented.
-
-This PR is part of the Linux mentorship. For more information, please refer to the [project's wiki](https://wiki.hyperledger.org/display/INTERN/Project+plan+-+Solang+compiler+passes+2021).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-30 00:58:19 +0000 UTC
-    </div>
-</div>
-
