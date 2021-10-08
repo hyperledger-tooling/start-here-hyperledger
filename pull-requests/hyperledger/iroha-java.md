@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/161" class=".btn">#161</a>
+            </td>
+            <td>
+                <b>
+                    Iroha-146: Rename String.hex() to String.fromHex() and ByteArray.hex() to ByteArray.toHex()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-08 07:15:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/160" class=".btn">#160</a>
+            </td>
+            <td>
+                <b>
+                    Iroha-120: Implemented remaining instructions in TransactionBuilder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-08 07:00:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/158" class=".btn">#158</a>
             </td>
             <td>
