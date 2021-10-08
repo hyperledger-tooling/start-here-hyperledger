@@ -105,29 +105,3 @@ Code refactor is WIP
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1430" class=".btn">#1430</a>
-            </td>
-            <td>
-                <b>
-                    Selective Disclosure Check Fix - [Issue#1427]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #1427
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-01 14:34:37 +0000 UTC
-    </div>
-</div>
-
