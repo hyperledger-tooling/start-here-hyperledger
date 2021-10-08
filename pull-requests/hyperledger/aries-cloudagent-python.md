@@ -131,33 +131,3 @@ Code refactor is WIP
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1429" class=".btn">#1429</a>
-            </td>
-            <td>
-                <b>
-                    Event bus Metadata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This pr adds metadata to the event passed to an event handler. While writing a queue plugin that subscribes to events on the event bus a limitation of knowing what regular expression triggered the handler being called was identified. The event bus will call multiple handlers that match the subscribed regular expression. Currently, inside the handler, we must discover what regular expression triggered the event handler. The addition of metadata with the matched pattern in an event simplifies required logic in handlers that is error-prone.
-
-Changes:
-- event_bus.py 
-  - added new EventMetaData and EventWithMetaData classes to add needed context to events
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-30 20:12:57 +0000 UTC
-    </div>
-</div>
-

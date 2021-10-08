@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 <b>
-                    Orderer unittest flake in deliver_test
+                    Limit TestBlockPullerBadBlocks pullblock time
                 </b>
             </td>
         </tr>

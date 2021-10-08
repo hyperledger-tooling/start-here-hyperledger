@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/261" class=".btn">#261</a>
+            </td>
+            <td>
+                <b>
+                    Add GHA
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-07 19:30:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid-docs/pull/260" class=".btn">#260</a>
             </td>
             <td>

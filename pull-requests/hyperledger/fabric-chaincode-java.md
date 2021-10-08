@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/200" class=".btn">#200</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/204" class=".btn">#204</a>
             </td>
             <td>
                 <b>
-                    Add opentelemetry
+                    Make test less flaky by removing grpc exporter
                 </b>
             </td>
         </tr>
@@ -27,18 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Fixes #201
+                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
 
-See #153 for previous PR.
-
-Signed-off-by: Antoine Toulme antoine@lunar-ocean.com
-
-This adds OpenTelemetry to Fabric Java chaincode.
+This addresses #203 by removing the standard grpc exporter and relying instead on injecting our own exporter via a spi interface.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-15 16:13:33 +0000 UTC
+        Created At 2021-10-08 00:05:12 +0000 UTC
     </div>
 </div>
 
