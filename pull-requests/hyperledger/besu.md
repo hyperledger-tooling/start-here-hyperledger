@@ -14,6 +14,106 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2866" class=".btn">#2866</a>
+            </td>
+            <td>
+                <b>
+                    Leave block p2p messages enabled
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+To support following the chain prior to TTD being reached, the NEW_BLOCK_HASHES and NEW_BLOCK messages must remain enabled.  
+
+Potentially validation could/should be added to reject an new blocks if their parent already meets the total difficulty requirement for transition but that likely should live in the block import code rather than the networking code. That hasn't been done in this PR.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-08 04:29:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2865" class=".btn">#2865</a>
+            </td>
+            <td>
+                <b>
+                    Added support for PKCS11 keystore on PKI Block Creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+- Extracted nested `KeyStoreWrapperProvider` interface into its own file
+- Created a default implementation of this interface that takes care of instantiating the correct `KeyStoreWrapper` based on the type configuration.
+
+## Fixed Issue(s)
+fixes #2764 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-08 02:15:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2864" class=".btn">#2864</a>
+            </td>
+            <td>
+                <b>
+                    Fixed build badge: image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+master.svg -> main.svg
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-08 02:06:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2863" class=".btn">#2863</a>
             </td>
             <td>
@@ -1019,36 +1119,6 @@ fixes #2831
     </table>
     <div class="right-align">
         Created At 2021-10-01 06:24:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2832" class=".btn">#2832</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Rename whitelist -> allowlist
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Renamed some variables still using whitelist
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-01 05:23:14 +0000 UTC
     </div>
 </div>
 
