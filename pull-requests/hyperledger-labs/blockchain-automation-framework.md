@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1702" class=".btn">#1702</a>
+            </td>
+            <td>
+                <b>
+                    update compatibility table and NPM prerequisite
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Add NPM prerequisite section
+- Update compatibility table 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-08 06:38:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1701" class=".btn">#1701</a>
             </td>
             <td>
@@ -119,7 +150,7 @@ https://github.com/hyperledger-labs/blockchain-automation-framework/releases
             </td>
             <td>
                 <b>
-                    [quorum] Vault engine integration for tessera node keys integration
+                    [quorum] Vault engine integration for tessera node keys generation
                 </b>
             </td>
         </tr>
@@ -271,86 +302,6 @@ Resolves #1610
     </table>
     <div class="right-align">
         Created At 2021-10-01 13:44:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1692" class=".btn">#1692</a>
-            </td>
-            <td>
-                <b>
-                    Feature/vaultv2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Fix molecule tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-01 11:42:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1691" class=".btn">#1691</a>
-            </td>
-            <td>
-                <b>
-                    [corda] Added new molecule tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added new molecule tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-01 09:19:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1690" class=".btn">#1690</a>
-            </td>
-            <td>
-                <b>
-                    fixed typos and checks in molecule
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-01 07:04:29 +0000 UTC
     </div>
 </div>
 

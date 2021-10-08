@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3008" class=".btn">#3008</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3010" class=".btn">#3010</a>
             </td>
             <td>
                 <b>
-                    chore(deps-dev): bump webpack from 4.46.0 to 5.57.1 in /cmd/aries-js-worker
+                    chore(deps-dev): bump webpack from 4.46.0 to 5.58.0 in /cmd/aries-js-worker
                 </b>
             </td>
         </tr>
@@ -27,11 +27,28 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.57.1.
+                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.58.0.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
 <blockquote>
+<h2>v5.58.0</h2>
+<h1>Features</h1>
+<ul>
+<li>add hook for readResource</li>
+<li>add <code>diagnostics_channel</code> to node builtins</li>
+</ul>
+<h1>Performance</h1>
+<ul>
+<li>improve chunk graph creation performance
+<ul>
+<li>add cacheUnaffected cache support</li>
+</ul>
+</li>
+<li>remove some caching that makes not difference</li>
+<li>improve splitChunks performance</li>
+<li>improve chunk conditions performance</li>
+</ul>
 <h2>v5.57.1</h2>
 <h1>Bugfix</h1>
 <ul>
@@ -75,28 +92,6 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 </ul>
 </li>
 </ul>
-<h2>v5.55.0</h2>
-<h1>Performance</h1>
-<ul>
-<li><code>experiments.cacheUnaffected</code>
-<ul>
-<li>reduce cache memory usage</li>
-<li>make memCache per module</li>
-<li>cache ESM reexport computation</li>
-</ul>
-</li>
-<li><code>module.unsafeCache</code>
-<ul>
-<li>make it faster by moving it to Compilation-level instead of in NormalModuleFactory</li>
-<li>omit tracking resolve dependencies since they are not used when unsafe cache is enabled</li>
-</ul>
-</li>
-<li>module graph
-<ul>
-<li>lazy assign ModuleGraphConnections to Dependencies since that is only accessed when uncached</li>
-</ul>
-</li>
-</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -104,23 +99,23 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/webpack/webpack/commit/0581bb3c1c32bcb3e182a0f732b862a6c5bb7846"><code>0581bb3</code></a> 5.57.1</li>
-<li><a href="https://github.com/webpack/webpack/commit/48c3d290c5c49152f0b1fc71ed2388e3a426e9c9"><code>48c3d29</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14413">#14413</a> from webpack/bugfix/cache-unaffected</li>
-<li><a href="https://github.com/webpack/webpack/commit/07ad896f7aedee7d32e8247323b54b759b7637e5"><code>07ad896</code></a> bugfix cacheUnaffected</li>
-<li><a href="https://github.com/webpack/webpack/commit/e841ab01417f8e1dd6a2533638f848b5ad0c7d16"><code>e841ab0</code></a> 5.57.0</li>
-<li><a href="https://github.com/webpack/webpack/commit/9e3e71813f30b716e32fb197a6c331fd6c9c4f56"><code>9e3e718</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14410">#14410</a> from webpack/bugfix/allow-side-effects</li>
-<li><a href="https://github.com/webpack/webpack/commit/da098d7872b72415f820510841a8f0263996e460"><code>da098d7</code></a> optimization.sideEffects is compatible with cacheUnaffected</li>
-<li><a href="https://github.com/webpack/webpack/commit/56653f827592f72aea0cb5e7bd9c54253363f532"><code>56653f8</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14406">#14406</a> from webpack/bugfix/cache-unaffected-ids</li>
-<li><a href="https://github.com/webpack/webpack/commit/f05246efcba907f1ce7e31ff78817e138e1c56d8"><code>f05246e</code></a> use buildInfo instead of hash for cacheUnaffected</li>
-<li><a href="https://github.com/webpack/webpack/commit/4c688339be60f229e7fae43446c55a1ff39f6579"><code>4c68833</code></a> run test cases for cacheUnaffected</li>
-<li><a href="https://github.com/webpack/webpack/commit/91b69721442d42c03b94307271f0c701004ddf95"><code>91b6972</code></a> add memCache2 for mem caching with module/chunk ids</li>
-<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.57.1">compare view</a></li>
+<li><a href="https://github.com/webpack/webpack/commit/7666277551be32947227e80fb2fccdbbe656254b"><code>7666277</code></a> 5.58.0</li>
+<li><a href="https://github.com/webpack/webpack/commit/59581f53acf51c5d22b3e697a3f66bff7bd7de28"><code>59581f5</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14427">#14427</a> from webpack/perf/chunk-combinations</li>
+<li><a href="https://github.com/webpack/webpack/commit/0c71073adb4225905eef5829d7a2b61e40cc995b"><code>0c71073</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14426">#14426</a> from Zhangdroid/main</li>
+<li><a href="https://github.com/webpack/webpack/commit/049b859879017ad89fefe91b7842b8efd7f66a1e"><code>049b859</code></a> compute depth faster</li>
+<li><a href="https://github.com/webpack/webpack/commit/643f1200c0ee610c724d4ee443567c39ff224ec8"><code>643f120</code></a> skip chunk conditions faster</li>
+<li><a href="https://github.com/webpack/webpack/commit/0e13c7dea4160f96cad7f26cca93c17ab841de20"><code>0e13c7d</code></a> track chunk combinations for modules</li>
+<li><a href="https://github.com/webpack/webpack/commit/e0915a538e23ca53c98fba4acb9a29e589bb832e"><code>e0915a5</code></a> add &quot;diagnostics_channel&quot; to NodeTargetPlugin</li>
+<li><a href="https://github.com/webpack/webpack/commit/48ffd04129e2578f88666aec383e1c16357ecc37"><code>48ffd04</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14425">#14425</a> from webpack/feature/hook-read-resource</li>
+<li><a href="https://github.com/webpack/webpack/commit/508e8d50f234bc3ab949b6e3db1e646de21486be"><code>508e8d5</code></a> expand readResource hook to cover normal file reading</li>
+<li><a href="https://github.com/webpack/webpack/commit/da74127bfeacff017c5d60842351b4136afba794"><code>da74127</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14420">#14420</a> from webpack/perf/remove-caching</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.58.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.57.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.58.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -151,7 +146,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-06 08:18:56 +0000 UTC
+        Created At 2021-10-08 08:17:05 +0000 UTC
     </div>
 </div>
 

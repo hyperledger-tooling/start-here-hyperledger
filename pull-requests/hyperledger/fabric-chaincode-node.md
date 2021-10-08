@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/293" class=".btn">#293</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/295" class=".btn">#295</a>
             </td>
             <td>
                 <b>
-                    Fix typos
+                    Node update
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                While reading the documentation I noticed some typo's. I hope this is ok :)
+                Updated to the lastest path release of node 12, to fix a number of security issues raised on the node runtime.
+
+Had to fix quite a few unit test failures... as a result of the slightly changed node version
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-26 09:52:40 +0000 UTC
+        Created At 2021-10-08 09:50:51 +0000 UTC
     </div>
 </div>
 

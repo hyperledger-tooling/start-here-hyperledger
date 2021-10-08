@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/697" class=".btn">#697</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/699" class=".btn">#699</a>
             </td>
             <td>
                 <b>
-                    New RFC - Forget Me
+                    feat: rfc-0699: push notifications
                 </b>
             </td>
         </tr>
@@ -27,12 +27,17 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Signed-off-by: Sam Curren <telegramsam@gmail.com>
+                - Rfc that enables agents to exhange a push notification configuration 
+- It is possible with the discover features protocols, the roles specifically, to check which notification services another agent can provide.
+
+Interested to hear any feedback!
+
+Signed-off-by: Berend Sliedrecht <berend@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-02 23:34:16 +0000 UTC
+        Created At 2021-10-08 11:01:30 +0000 UTC
     </div>
 </div>
 

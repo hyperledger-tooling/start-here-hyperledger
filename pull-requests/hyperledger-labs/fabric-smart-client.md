@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/145" class=".btn">#145</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/148" class=".btn">#148</a>
             </td>
             <td>
                 <b>
-                    vault fails to validate keys containing string(utf8.MaxRune) #144
+                    imports cleanup
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                - reduce dependency to Fabric
+- remove Fabric's imports form `platform/view` 
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-01 07:13:35 +0000 UTC
+        Created At 2021-10-08 09:12:43 +0000 UTC
     </div>
 </div>
 

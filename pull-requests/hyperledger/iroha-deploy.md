@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-deploy
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    Add remove peer in python script
+                    Add RocksDB support.
                 </b>
             </td>
         </tr>
@@ -27,37 +27,27 @@ permalink: /pull-requests/hyperledger/iroha-deploy
                 
             </td>
             <td>
-                ## Changes
-In some cases, it is easier to use docker image instead of Iroha cli.I updated the script to be able to run basic tasks.
+                This PR adding:
+- RocksDB setup support
+iroha_new_database_config is adding [new config of database definition](https://iroha.readthedocs.io/en/develop/configure/index.html#deployment-specific-parameters)
+True - generate new config
+False - stay with old parameter pg_opt (default value)
 
-## Examples
-Add peer:
-```
-docker run -it \
-  -e DEBUG=TRUE \
-  -e IROHA_HOSTS=10.0.0.3:50051 \
-  -e IROHA_ACCOUNT=admin@test  \
-  -e IROHA_ACCOUNT_KEYS=f101537e319568c765b2cc89698325604991dca57b9716b58016b253506cab70 \
-  soramitsu/iroha-docker-iroha-python:51a6648 \
-   add_peer iroha-5:10001 f715eea67c27d507aee4923c8a7d622d5c1d5a79c0c5a2b7a4c8dcb5d492d912
- ```
- Remove peer
-```
-docker run -it \
-  -e DEBUG=TRUE \
-  -e IROHA_HOSTS=10.0.0.3:50051 \
-  -e IROHA_ACCOUNT=admin@test  \
-  -e IROHA_ACCOUNT_KEYS=f101537e319568c765b2cc89698325604991dca57b9716b58016b253506cab70 \
-  soramitsu/iroha-docker-iroha-python:51a6648 \
-   remove_peer f715eea67c27d507aee4923c8a7d622d5c1d5a79c0c5a2b7a4c8dcb5d492d912
-```
-## Author 
-Signed-off-by: Bulat Saifullin <bulat@saifullin.ru>
+iroha_use_rdb it switcher between postgres and rdb in new type of database definition. Addition if it True will create volume with rdb files
+
+- Possible to run Iroha container in priviledged mode if iroha_docker_priviledged=True
+
+Tested by:
+- [False value](https://jenkins.soramitsu.co.jp/job/qa/job/iroha1/job/iroha-dev/158/parameters/)
+- [True value](https://jenkins.soramitsu.co.jp/job/qa/job/iroha1/job/iroha-dev/157/parameters/)
+- [From master branch](https://jenkins.soramitsu.co.jp/job/qa/job/iroha1/job/iroha-dev/162/parameters/)
+
+Signed-off-by: Stepan Lavrentev <lawrentievsv@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-24 19:38:11 +0000 UTC
+        Created At 2021-10-08 11:22:50 +0000 UTC
     </div>
 </div>
 

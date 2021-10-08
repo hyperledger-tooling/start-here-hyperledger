@@ -1,13 +1,13 @@
 
-[2866](https://github.com/hyperledger/besu/pull/2866) Leave block p2p messages enabled
+[518](https://github.com/hyperledger-labs/solang/pull/518) Cast ternary expressions
 
-[2865](https://github.com/hyperledger/besu/pull/2865) Added support for PKCS11 keystore on PKI Block Creation
+[1510](https://github.com/hyperledger/iroha/pull/1510) Update `README.md` and `config.json` to fix `iroha_client_cli`
 
-[2864](https://github.com/hyperledger/besu/pull/2864) Fixed build badge: image
+[29](https://github.com/hyperledger/iroha-deploy/pull/29) Add RocksDB support.
 
-[2863](https://github.com/hyperledger/besu/pull/2863) Fixed build badge
+[699](https://github.com/hyperledger/aries-rfcs/pull/699) feat: rfc-0699: push notifications
 
-[204](https://github.com/hyperledger/fabric-chaincode-java/pull/204) Make test less flaky by removing grpc exporter
+[1509](https://github.com/hyperledger/iroha/pull/1509) Addition of typed crypto primitives and migration to typesafe cryptography
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
