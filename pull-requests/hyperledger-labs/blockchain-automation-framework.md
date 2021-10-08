@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1704" class=".btn">#1704</a>
+            </td>
+            <td>
+                <b>
+                    [besu] Updated documents for clique consensus
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- updated the documents and added doc changes for besu clique consensus
+ 
+
+**Reviewed by**
+@sownak 
+
+ 
+
+**Linked issue**
+#510 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-08 14:39:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1702" class=".btn">#1702</a>
             </td>
             <td>
@@ -264,44 +301,6 @@ https://github.com/hyperledger-labs/blockchain-automation-framework/releases
     </table>
     <div class="right-align">
         Created At 2021-10-04 15:13:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1693" class=".btn">#1693</a>
-            </td>
-            <td>
-                <b>
-                    [fabric] Operations console
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
-
-**Changelog**
-- Add helmchart for Fabric operations console
-- Rename ca-server to more appropriate generate_cacerts
-- Add support for grpcws for peer and orderer charts
-- Add support for Operations API (non TLS) for ca, peer and orderer charts
-- Add playbook to deploy operations console and generate json files
-
- 
-**Linked issue**
-Resolves #1610 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-01 13:44:46 +0000 UTC
     </div>
 </div>
 

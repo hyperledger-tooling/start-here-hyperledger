@@ -1,13 +1,13 @@
 
-[518](https://github.com/hyperledger-labs/solang/pull/518) Cast ternary expressions
+[303](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/303) utility bills do not cover a year so this is more typical
 
-[1510](https://github.com/hyperledger/iroha/pull/1510) Update `README.md` and `config.json` to fix `iroha_client_cli`
+[299](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/299) small documentation fixes
 
-[29](https://github.com/hyperledger/iroha-deploy/pull/29) Add RocksDB support.
+[212](https://github.com/hyperledger/transact/pull/212) Fix `time_to_wait` comments
 
-[699](https://github.com/hyperledger/aries-rfcs/pull/699) feat: rfc-0699: push notifications
+[150](https://github.com/hyperledger-labs/fabric-smart-client/pull/150) Method `CallView` from package `web` able to send correct inputs
 
-[1509](https://github.com/hyperledger/iroha/pull/1509) Addition of typed crypto primitives and migration to typesafe cryptography
+[1704](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1704) [besu] Updated documents for clique consensus
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

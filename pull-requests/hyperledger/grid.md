@@ -340,31 +340,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/964" class=".btn">#964</a>
-            </td>
-            <td>
-                <b>
-                    Require `workflow_status` and `order_xml` args
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This makes the `workflow_status` and `order_xml` CLI args required for
-    the PO version create and update commands. A version/revision doesn't
-    provide much utility without these values.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-01 16:35:55 +0000 UTC
-    </div>
-</div>
-
