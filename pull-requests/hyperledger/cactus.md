@@ -209,29 +209,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1404" class=".btn">#1404</a>
-            </td>
-            <td>
-                <b>
-                    style: #1350 lint fixes for batch 1/26
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added lint fixes for batch 1/26 or #1350  issue
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-02 14:10:46 +0000 UTC
-    </div>
-</div>
-
