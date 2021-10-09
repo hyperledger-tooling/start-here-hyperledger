@@ -324,29 +324,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/506" class=".btn">#506</a>
-            </td>
-            <td>
-                <b>
-                    The link to the llvm libraries on github is incorrect
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-02 16:25:28 +0000 UTC
-    </div>
-</div>
-
