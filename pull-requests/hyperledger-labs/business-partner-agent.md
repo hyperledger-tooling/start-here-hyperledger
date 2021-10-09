@@ -72,39 +72,3 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/643" class=".btn">#643</a>
-            </td>
-            <td>
-                <b>
-                    Set Nav/Dashboard Icon colors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a setting to Vuetify for icon colors, and allow user to set at runtime similar to the Frontend/Primary color.
-Default is black (what it is currently).
-
-Will add configuration to the chart.
-
-
-Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/643"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-01 21:54:13 +0000 UTC
-    </div>
-</div>
-

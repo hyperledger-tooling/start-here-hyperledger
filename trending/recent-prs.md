@@ -1,13 +1,13 @@
 
-[303](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/303) utility bills do not cover a year so this is more typical
+[1437](https://github.com/hyperledger/aries-cloudagent-python/pull/1437) Fix issue with cred limit on presentation endpoint
 
-[299](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/299) small documentation fixes
+[161](https://github.com/hyperledger/firefly-ethconnect/pull/161) Make requestABIId omitempty
 
-[212](https://github.com/hyperledger/transact/pull/212) Fix `time_to_wait` comments
+[520](https://github.com/hyperledger-labs/solang/pull/520) Fix StorageRefs in ternary expressions
 
-[150](https://github.com/hyperledger-labs/fabric-smart-client/pull/150) Method `CallView` from package `web` able to send correct inputs
+[213](https://github.com/hyperledger/transact/pull/213) Update various dependencies
 
-[1704](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1704) [besu] Updated documents for clique consensus
+[977](https://github.com/hyperledger/grid/pull/977) Add JWT support for Splinter
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/977" class=".btn">#977</a>
+            </td>
+            <td>
+                <b>
+                    Add JWT support for Splinter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds further Cylinder JWT support throughout the daemon, where Splinter components are accessed. All of the updates in this PR are behind the experimental `cylinder-jwt-support` feature. 
+
+Mainly, these changes include:
+* Generate Grid's JWT at run-time within the `run_splinter` method
+* Updates the `SplinterBackendClient` to have an `authorization` field, added by the `new` constructor. This authorization field is now used by each of the backend client's methods.
+* Updates the Splinter-specific application authorization handler (which contains functions for verifying a Splinter node's ID and status) to take the JWT generated in the `run_splinter` method to use when accessing Splinter endpoints. 
+* Updates the event processors used to handle state change events from Scabbard to include authorization in the websocket set up to listen for these events.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-08 18:36:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/976" class=".btn">#976</a>
             </td>
             <td>
@@ -252,91 +284,6 @@ Signed-off-by: Kevin Johnson <kevin_johnson@cargill.com>
     </table>
     <div class="right-align">
         Created At 2021-10-04 13:33:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/967" class=".btn">#967</a>
-            </td>
-            <td>
-                <b>
-                    Add implementation for "create version" action in po smart contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR mainly adds an implementation and unit tests for the "create_version" function within the purchase order smart contract's handler.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-01 22:37:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/966" class=".btn">#966</a>
-            </td>
-            <td>
-                <b>
-                    Singularize CLI action modules
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This updates the names of the CLI action modules to be singular. This
-    brings these module names in line with their counterparts in other parts
-    of Grid.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-01 18:26:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/965" class=".btn">#965</a>
-            </td>
-            <td>
-                <b>
-                    Update `/purchase-order` to `/purchase_order`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update the REST API for purchase orders so that it conforms with a the
-lower snake case URL standard.
-
-This PR was created in response to validation problems discovered in https://github.com/hyperledger/grid/pull/959
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-01 18:18:42 +0000 UTC
     </div>
 </div>
 
