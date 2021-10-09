@@ -235,29 +235,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1403" class=".btn">#1403</a>
-            </td>
-            <td>
-                <b>
-                    Fixed linter error in config-service.ts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed unexpected type any by casting configSchema to Record
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-02 02:44:32 +0000 UTC
-    </div>
-</div>
-
