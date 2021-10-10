@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/191" class=".btn">#191</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/194" class=".btn">#194</a>
             </td>
             <td>
                 <b>
-                    cachedConn lastClose update specified
+                    Add transaction request options
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                <nil>
+                This changes allow you to configure various request options. Such as retry policies, timeouts and so on. Some changes to the unit tests fix various linter warnings.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-24 07:55:27 +0000 UTC
+        Created At 2021-10-10 16:36:56 +0000 UTC
     </div>
 </div>
 
