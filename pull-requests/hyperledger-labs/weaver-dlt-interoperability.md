@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/169" class=".btn">#169</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/173" class=".btn">#173</a>
             </td>
             <td>
                 <b>
-                    Simple Asset CorDapp added
+                    fix(build): relay build.rs relative paths for .protos
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                Signed-off-by: Krishnasuri Narayanam <knaraya3@in.ibm.com>
+                Without this change the `cargo build` of the relay was not operational.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-26 20:31:20 +0000 UTC
+        Created At 2021-10-11 00:51:32 +0000 UTC
     </div>
 </div>
 
