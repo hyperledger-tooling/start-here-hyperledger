@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
             </td>
             <td>
                 <b>
-                    Remove coverage from test Dockerfiles
+                    Remove `coverage` from test Dockerfiles
                 </b>
             </td>
         </tr>

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1707" class=".btn">#1707</a>
+            </td>
+            <td>
+                <b>
+                    updated code owners and maintainers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Update code owners and maintainers
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-11 12:51:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1706" class=".btn">#1706</a>
             </td>
             <td>
@@ -278,7 +308,7 @@ https://github.com/hyperledger-labs/blockchain-automation-framework/releases
  
 
 **Linked issue**
-#1551
+#1355 #1703 
 
             </td>
         </tr>
@@ -325,49 +355,6 @@ https://github.com/hyperledger-labs/blockchain-automation-framework/releases
     </table>
     <div class="right-align">
         Created At 2021-10-05 08:08:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1695" class=".btn">#1695</a>
-            </td>
-            <td>
-                <b>
-                    [besu] added clique consensus
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: roshan13046 <roshanpk.raut@gmail.com>
-
-**Changelog**
-- Added a new role for the clique consensus to generate a clique genesis file
-- Updated deploy-network to include the option for generating crypto for the clique network and to deploy nodes for Clique consensus
-
-
-
-
- 
-
-**Reviewed by**
-@sownak 
- 
-
-**Linked issue**
-#510 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-04 15:13:28 +0000 UTC
     </div>
 </div>
 

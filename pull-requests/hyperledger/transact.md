@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/215" class=".btn">#215</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0-3: stabilize "state-merkle-sql"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change back-ports the following PRs:
+
+* #189
+* #191
+* #192  
+* #193 
+* #209 
+* #214
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-11 17:28:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/214" class=".btn">#214</a>
+            </td>
+            <td>
+                <b>
+                    stabilize "state-merkle-sql"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR also stabilizes "sqlite" and "postgres" features. 
+
+It also includes a new test run to cover the postgres tests with the stable feature group enabled. This run is executed only in CI.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-11 15:50:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/213" class=".btn">#213</a>
             </td>
             <td>
@@ -107,9 +168,7 @@ Signed-off-by: Isabel Tomb <tomb@bitwise.io>
                 
             </td>
             <td>
-                Add a `--duration` option to the workload CLI command that allows a user to set the amount of time in hours that a workload should run for, this value can be provided as an integer or a float ex: 24, 0.002, 1.5
-
-Update the workload shutdown method to use a boolean value that represents if the workload is running or not. This change allows for a worker to be stopped and shutdown properly in the case of an error. Previously, some of the break statements in the `WorkerBuilder`'s `build` method that were meant to stop the worker, would break out of the loop but not exit the program. The workload would then require a ctrl-c to exit and workers would not be shutdown properly. Using the `running` boolean, in the case of an error, the value is set to false before breaking the loop and shutting down as intended.
+                Add a `--duration` option to the workload CLI command that allows a user to set the amount of time in hours that a workload should run for, this value can be provided in seconds, minutes, hours, or days. ex: 7s, 20m, 24h, 2d
 
 ### Testing:
 1. Start two splinter nodes and create a circuit
@@ -124,7 +183,7 @@ cargo run --manifest-path cli/Cargo.toml \
   --target-rate 1/s \
   -vv \
   --update 2 \
-  --duration 0.002
+  --duration 10s
 ```
 The workload should run for the duration given and then exit, shutting down the workload.
             </td>
