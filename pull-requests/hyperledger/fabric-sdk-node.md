@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/510" class=".btn">#510</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/512" class=".btn">#512</a>
             </td>
             <td>
                 <b>
-                    add support for getting CA info from the CA server
+                    [refactor] use override than type check switch
                 </b>
             </td>
         </tr>
@@ -27,12 +27,17 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                Signed-off-by: Redi Kurti <redikurti.s@gmail.com>
+                An attempt to move if type=='query' check code block to inherit class
+instead of expose too much subclass implementation detail in superclass
+
+TODO: test to be covered later
+
+Signed-off-by: DavidLiu <david.yx.liu@oracle.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-03 14:04:14 +0000 UTC
+        Created At 2021-10-11 04:01:33 +0000 UTC
     </div>
 </div>
 
