@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/978" class=".btn">#978</a>
+            </td>
+            <td>
+                <b>
+                    Update "create po" smart contract action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the "create po" action implementation to handle the `workflow_status` now present in the `CreatePurchaseOrderPayload` and the `CreateVersionPayload`. 
+
+Previously, this action assumed the intended `workflow` status based on the state of the payload. Now, the purchase order is created with the intended `workflow_status` in mind and this transition is validated rather than what the action assumes the desired workflow state is. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-11 15:52:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/977" class=".btn">#977</a>
             </td>
             <td>
@@ -254,36 +282,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-05 15:10:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/968" class=".btn">#968</a>
-            </td>
-            <td>
-                <b>
-                    Create PO in cli
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adding functionality to create purchase order. Based on the updated RFC,
-we need buyer-org and seller-org instead of owning org. Changes are
-reflected in the man pages as well as code.
-
-Signed-off-by: Kevin Johnson <kevin_johnson@cargill.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-04 13:33:32 +0000 UTC
     </div>
 </div>
 

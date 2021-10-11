@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2872" class=".btn">#2872</a>
+            </td>
+            <td>
+                <b>
+                    Use web3j gradle plugin for acceptance tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Generate wrappers using web3j for all contracts in `./acceptance-tests/tests/contracts`
+
+Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-11 14:50:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2871" class=".btn">#2871</a>
+            </td>
+            <td>
+                <b>
+                    add jacoco store artifacts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-11 12:48:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2870" class=".btn">#2870</a>
             </td>
             <td>
@@ -619,60 +686,6 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-10-04 18:44:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2847" class=".btn">#2847</a>
-            </td>
-            <td>
-                <b>
-                    r 21.10.0 RC2 SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                21.10.0-RC2-SNAPSHOT
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-04 18:08:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2846" class=".btn">#2846</a>
-            </td>
-            <td>
-                <b>
-                    Release 21.10.0-RC1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-04 17:25:28 +0000 UTC
     </div>
 </div>
 
