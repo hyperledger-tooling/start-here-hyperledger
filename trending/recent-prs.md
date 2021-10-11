@@ -1,13 +1,13 @@
 
-[512](https://github.com/hyperledger/fabric-sdk-node/pull/512) [refactor] use override than type check switch
+[2870](https://github.com/hyperledger/besu/pull/2870) Clarify text in javadocs
 
-[173](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/173) fix(build): relay build.rs relative paths for .protos
+[154](https://github.com/hyperledger-labs/fabric-smart-client/pull/154) locking on view/endpoint resolvers
 
-[522](https://github.com/hyperledger-labs/solang/pull/522) Fix cfg for modifiers
+[1439](https://github.com/hyperledger/aries-cloudagent-python/pull/1439) Feat ident 3372 askar session deadlock v2 
 
-[521](https://github.com/hyperledger-labs/solang/pull/521) Add support for pretty comments
+[1706](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1706) [chore] release merged 
 
-[194](https://github.com/hyperledger/fabric-sdk-go/pull/194) Add transaction request options
+[304](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/304) Add lint checks to CI pipeline
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
