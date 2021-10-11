@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2870" class=".btn">#2870</a>
+            </td>
+            <td>
+                <b>
+                    Clarify text in javadocs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-11 12:12:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2869" class=".btn">#2869</a>
+            </td>
+            <td>
+                <b>
+                    Fix for Select correct ValidatorProvider when transitioning from validator contract to block header mode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+During the transition from contract mode to block header mode, when creating the extra data for a new block, we need to look ahead to the next block's voteProvider to obtain the nonEmpty one associated with the BlockValidatorProvider.
+
+This only applies to ForkingValidatorProvider which is currently only used for QBFT. However, we don't want QBFT to know it's using a ForkingValidatorProvider. Therefore we need to implement getVoteProviderAfterBlock on the ValidatorProvider interface even though it's implementation is equivalent to getVoteProvider.
+
+Update qbft integration tests to expose this bug.
+
+## Fixed Issue(s)
+Fixes https://github.com/hyperledger/besu/issues/2868
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-11 07:43:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2866" class=".btn">#2866</a>
             </td>
             <td>
@@ -608,71 +673,6 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-10-04 17:25:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2845" class=".btn">#2845</a>
-            </td>
-            <td>
-                <b>
-                    null on consensus validated
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-04 09:31:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2844" class=".btn">#2844</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix/unblock pow mining
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-unblock PoW mining
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-04 08:02:29 +0000 UTC
     </div>
 </div>
 

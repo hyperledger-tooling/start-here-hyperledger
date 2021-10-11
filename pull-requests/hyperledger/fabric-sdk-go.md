@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                This changes allow you to configure various request options. Such as retry policies, timeouts and so on. Some changes to the unit tests fix various linter warnings.
+                This changes allows you to configure various request options. Such as retry policies, timeouts and so on. Some changes to the unit tests fix linter warnings.
             </td>
         </tr>
     </table>
