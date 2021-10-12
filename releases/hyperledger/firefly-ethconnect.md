@@ -15,6 +15,40 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
+                    v3.0.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v3.0.1
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Fix docker release trigger by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/165
+* Update ref to latest ethbinding by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/166
+* Avoid holding batchCond while dispatching updateInterrupt by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/164
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.0.0...v3.0.1
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.0.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-10-11 21:03:42 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v3.0.0
                 </b>
             </td>
