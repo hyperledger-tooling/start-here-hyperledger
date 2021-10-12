@@ -296,31 +296,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/511" class=".btn">#511</a>
-            </td>
-            <td>
-                <b>
-                    Improve error message when accessing contract variable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 If a contract variable is not constant and it is accessed via the contract type, rather than a contract instance, give a nicer error message.
-    
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-05 09:39:01 +0000 UTC
-    </div>
-</div>
-

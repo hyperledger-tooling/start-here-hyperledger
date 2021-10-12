@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/52" class=".btn">#52</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/56" class=".btn">#56</a>
             </td>
             <td>
                 <b>
-                    move contract initialization into truffle migrations
+                    Implement channelClose{Init,Confirm}
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
-
-Fix #51 (thanks to @toshihiko-okubo)
+                fix #11
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-04 01:50:51 +0000 UTC
+        Created At 2021-10-12 08:26:00 +0000 UTC
     </div>
 </div>
 

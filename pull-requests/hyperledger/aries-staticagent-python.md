@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/77" class=".btn">#77</a>
+            </td>
+            <td>
+                <b>
+                    feat: better typing on ModuleRouter.__call__ using @overload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-12 11:24:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/76" class=".btn">#76</a>
+            </td>
+            <td>
+                <b>
+                    Simplify Dispatcher
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an internal change to Dispatchers to remove some superfluous classes and simplify the interface used by Connection.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-12 10:54:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/75" class=".btn">#75</a>
             </td>
             <td>
