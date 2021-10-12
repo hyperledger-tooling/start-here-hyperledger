@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                fix #11
+                fix #11 by:
+- implementing channelClose{Init,Confirm} in the IBCHandler contract
+- fixing e2e/integration testing to test channel closing
             </td>
         </tr>
     </table>

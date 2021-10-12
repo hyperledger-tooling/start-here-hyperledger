@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/310" class=".btn">#310</a>
+            </td>
+            <td>
+                <b>
+                    typescript_app: add api docker containers with localS3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - add docker-compose definition of api server
+- add localS3 to run inside a docker
+
+Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-12 15:21:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/309" class=".btn">#309</a>
             </td>
             <td>

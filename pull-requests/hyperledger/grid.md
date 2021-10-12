@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/979" class=".btn">#979</a>
+            </td>
+            <td>
+                <b>
+                    Add update purchase order action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds an implementation of the update purchase order action
+to Grid contracts.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-12 17:58:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/978" class=".btn">#978</a>
             </td>
             <td>
@@ -223,65 +252,6 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-05 18:56:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/971" class=".btn">#971</a>
-            </td>
-            <td>
-                <b>
-                    Add `workflow_status` to PO version DB structs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds the workflow_status field to the PO version DB structs.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-05 15:48:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/970" class=".btn">#970</a>
-            </td>
-            <td>
-                <b>
-                    Update built-in workflow display methods to designate version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change updates the built-in purchase order workflows to specify the
-version being used for the workflow, and to specify these workflows are
-built-in. This changes the formatting of the POWorkflow's type from
-`<workflow_type>` to `built-in::<workflow_type>::v1`.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-05 15:10:54 +0000 UTC
     </div>
 </div>
 

@@ -40,7 +40,9 @@ permalink: /pull-requests/hyperledger/iroha
 
 ### Description of the Change
 
-Added an error message for self-consensus in multinode (non-standalone) mode.
+Removed MAX_FAULTY_PEERS parameter.
+Now max_faulty_peers() is a SumeragiConfiguration method.
+Calculated as (f-1)/3, where f is trusted peers count.
 
 ### Benefits
 
