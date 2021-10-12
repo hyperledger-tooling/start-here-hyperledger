@@ -14,17 +14,17 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/356" class=".btn">#356</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/359" class=".btn">#359</a>
             </td>
             <td>
                 <b>
-                    Fail Ci if libvcx docker image publishing fails
+                    Run nodejs demo by default against predeployed agency instance
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">ci</span><span class="chip">agents</span>
             </td>
             <td>
                 Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-30 11:39:13 +0000 UTC
+        Created At 2021-10-07 14:24:36 +0000 UTC
     </div>
 </div>
 
@@ -40,17 +40,17 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/355" class=".btn">#355</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/358" class=".btn">#358</a>
             </td>
             <td>
                 <b>
-                    Fix openssl version at 1.1.1l
+                    Add tests for predicates
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">tests</span>
             </td>
             <td>
                 Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
@@ -58,7 +58,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-30 11:07:22 +0000 UTC
+        Created At 2021-10-06 08:59:21 +0000 UTC
     </div>
 </div>
 
@@ -66,25 +66,25 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/354" class=".btn">#354</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/357" class=".btn">#357</a>
             </td>
             <td>
                 <b>
-                    Release 0.21.0
+                    Credential proposal
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">changelog-excluded</span>
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+                Implements sending and receiving credential proposals.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 12:26:49 +0000 UTC
+        Created At 2021-10-05 19:46:43 +0000 UTC
     </div>
 </div>
 

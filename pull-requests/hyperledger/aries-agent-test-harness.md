@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/353" class=".btn">#353</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/359" class=".btn">#359</a>
             </td>
             <td>
                 <b>
-                    feat: afgo-acapy present proof interop
+                    Add support for testing RFC-0044 mime types
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                <nil>
+                - Adds `/agent/start` backchannel POST command, which tells the backchannel to (re)start its agent, and includes a set of parameters to include in the agent's configuration (whether as command-line parameters, environment variables, or otherwise). Parameters have generic names on the AATH side, and must be translated by the backchannel for the given agent implementation. In this PR only one parameter is introduced, `mime-type` to specify the default mime type for the agent's outgoing messages as per Aries RFC 0044.
+- Adds support for `/agent/start` to afgo backchannel, handling the `mime-type` parameter.
+- Adds a new step that (re)starts a given agent with a given set of extra parameters.
+- Adds a BDD feature for RFC 0044, that restarts Acme and Bob with given default mime types, and performs didexchange to demonstrate permissive agent acceptance of incoming mime types.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 17:19:21 +0000 UTC
+        Created At 2021-10-07 20:10:30 +0000 UTC
     </div>
 </div>
 
@@ -40,35 +43,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/352" class=".btn">#352</a>
-            </td>
-            <td>
-                <b>
-                    Findy afj dotnet runsets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds runsets for findy, dotnet, and afj combinations. All tests are failing because of connection issues . My recommendation is to put them up failing, and have people who are familiar with these agents diagnose/fix the issue.
-
- 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-28 23:15:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/351" class=".btn">#351</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/358" class=".btn">#358</a>
             </td>
             <td>
                 <b>
@@ -86,7 +61,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-25 03:52:17 +0000 UTC
+        Created At 2021-10-07 03:52:21 +0000 UTC
     </div>
 </div>
 
@@ -94,11 +69,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/350" class=".btn">#350</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/357" class=".btn">#357</a>
             </td>
             <td>
                 <b>
-                    chore: cleanup afgo doc
+                    waits added to dotnet backchannel
                 </b>
             </td>
         </tr>
@@ -107,64 +82,14 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-24 21:58:23 +0000 UTC
-    </div>
-</div>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/349" class=".btn">#349</a>
-            </td>
-            <td>
-                <b>
-                    Changes by create-pull-request action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+Added waits for Connection, Issue Credential, and Proof. This should get us 5 passing tests. However there is an issue with the dotnet agent on issuing a credential when the test does a proposal. Details of this issue is documented in #356. More investigation on what is going on in that issue is required. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-24 03:52:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/348" class=".btn">#348</a>
-            </td>
-            <td>
-                <b>
-                    Add verity afj dotnet runsets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds Verity with javascript and dotnet agents. They are failing locally, so this PR is just to try the execution in GHA to determine if the same issue exists as locally. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 17:56:17 +0000 UTC
+        Created At 2021-10-05 22:35:23 +0000 UTC
     </div>
 </div>
 

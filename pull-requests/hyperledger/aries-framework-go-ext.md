@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/188" class=".btn">#188</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/190" class=".btn">#190</a>
             </td>
             <td>
                 <b>
-                    feat: resolve hl cas links
+                    feat: Query using less than or greater than operators with MongoDB
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 15:47:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/187" class=".btn">#187</a>
-            </td>
-            <td>
-                <b>
-                    feat: allow vdr to accept did with verification methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-24 07:39:49 +0000 UTC
+        Created At 2021-10-06 19:11:46 +0000 UTC
     </div>
 </div>
 

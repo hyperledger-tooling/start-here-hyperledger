@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/96" class=".btn">#96</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/105" class=".btn">#105</a>
             </td>
             <td>
                 <b>
-                    Trustping Protocol and Integration Test updates
+                    feat/added_deletehandler_unit_test
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: PeterStrob <peter@indicio.tech>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 20:59:22 +0000 UTC
+        Created At 2021-10-11 20:21:30 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/95" class=".btn">#95</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/104" class=".btn">#104</a>
             </td>
             <td>
                 <b>
-                    feat:added_connections_unit_test
+                    feat:added_StorageError_check_to_updatehandler_test
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                Added connections event handler unit test
+                Added a check for the StorageError exception to the UpdateHandler test.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-28 22:14:16 +0000 UTC
+        Created At 2021-10-11 16:28:08 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +66,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/94" class=".btn">#94</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/103" class=".btn">#103</a>
             </td>
             <td>
                 <b>
-                    Test/add integration testing for credentials-get-list
+                    fix: Switch from Sovrin StagingNet to BuilderNet
                 </b>
             </td>
         </tr>
@@ -79,12 +79,23 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                <nil>
+                Due to a recent change, the StagingNet is no longer free. It is
+recommended that developers switch to the BuilderNet for development
+purposes. If an application reaches a state where it is applicable for a
+prototype or pre-production uses, the StagingNet should be used instead.
+
+Please see https://selfserve.sovrin.org/ for more information about the
+different Sovrin networks.
+
+This commit changes all references to the StagingNet to point to the
+BuilderNet instead.
+
+Signed-off-by: Colton Wolkins (Indicio work address) <colton@indicio.tech>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-28 22:03:23 +0000 UTC
+        Created At 2021-10-08 17:26:59 +0000 UTC
     </div>
 </div>
 
@@ -92,11 +103,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/92" class=".btn">#92</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/102" class=".btn">#102</a>
             </td>
             <td>
                 <b>
-                    Fix message delivery to open session
+                    feat:added updatehandler test
                 </b>
             </td>
         </tr>
@@ -105,12 +116,64 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                While debugging usage with mobile agents, it was discovered that there is some quirky behavior in message delivery to open sockets from the toolbox plugin. This PR fixes these quirks.
+                Added unit test for UpdateHandler class, as well as fixed bug in class. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-27 18:29:26 +0000 UTC
+        Created At 2021-10-07 22:33:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/101" class=".btn">#101</a>
+            </td>
+            <td>
+                <b>
+                    fix: demo mediator use undelivered queue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-07 19:06:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/100" class=".btn">#100</a>
+            </td>
+            <td>
+                <b>
+                    Add presentation request to the "get-matching-credentials" call
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When requesting matching credentials to a presentation, the credentials are returned without any indication of what the verifier requested. This change adds the presentation request to the response which will reduce API requests and unneeded complexity for the prover.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-07 11:13:12 +0000 UTC
     </div>
 </div>
 
