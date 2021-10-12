@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/162" class=".btn">#162</a>
+            </td>
+            <td>
+                <b>
+                    Updated Iroha binary name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: rkharisov <rinat@soramitsu.co.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-12 12:08:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/161" class=".btn">#161</a>
             </td>
             <td>
@@ -137,32 +163,6 @@ permalink: /pull-requests/hyperledger/iroha-java
     </table>
     <div class="right-align">
         Created At 2021-10-06 06:47:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/155" class=".btn">#155</a>
-            </td>
-            <td>
-                <b>
-                    Iroha-121: implement queries in QueryBuilder 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-05 07:22:22 +0000 UTC
     </div>
 </div>
 

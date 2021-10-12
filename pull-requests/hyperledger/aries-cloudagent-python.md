@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 <b>
-                    Feat ident 3372 askar session deadlock v2 
+                    Fixed potential deadlocks by opening sessions only on demand
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                <nil>
+                Removed potential deadlocks in Multitenancy, Issue credential v2, Present proof v2 and mediation protocols by opening sessions on demand and closing them asap.
+
+Additional info in this issue: https://github.com/hyperledger/aries-cloudagent-python/issues/1417
             </td>
         </tr>
     </table>
