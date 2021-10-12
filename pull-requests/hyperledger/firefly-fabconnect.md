@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/51" class=".btn">#51</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/53" class=".btn">#53</a>
             </td>
             <td>
                 <b>
-                    Added workflow to build and publish docker image
+                    Added better synchronization to broadcast when websocket server's topic changes
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-27 18:03:56 +0000 UTC
+        Created At 2021-10-08 20:33:20 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/52" class=".btn">#52</a>
             </td>
             <td>
                 <b>
-                    Added data type support to tx input and event subscription
+                    Added lock around accessing websocket server's topics
                 </b>
             </td>
         </tr>
@@ -53,124 +53,12 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                ## Transaction Input
-payload schema can be specified in the `headers` section of the request body. Complex types are supported for chaincodes that takes structs as input:
-```
-{
-    "headers": {
-        "type": "SendTransaction",
-        "payloadSchema": {
-            "type": "array",
-            "prefixItems": [{
-                "name": "id", "type": "string"
-            }, {
-                "name": "color", "type": "string"
-            }, {
-                "name": "size", "type": "string"
-            }, {
-                "name": "owner", "type": "string"
-            }, {
-                "name": "appraisal", "type": "object",
-                "properties": {
-                    "appraisedValue": {
-                        "type": "integer"
-                    },
-                    "inspected": {
-                        "type": "boolean"
-                    }
-                }
-            }]
-        }
-    },
-    "func": "CreateAsset",
-    "args": {
-        "owner": "Tom",
-        "appraisal": {
-            "appraisedValue": 123000,
-            "inspected": true
-        },
-        "size": "10",
-        "id": "asset205",
-        "color": "red"
-    }
-}
-```
-## Event Payload
-Previously, the event payload is always send to the listening client as the byte array originally obtained from Fabric's event object:
-
-```
-{
-    "chaincodeId": "asset_transfer",
-    "blockNumber": 126,
-    "transactionId": "ff1c69f8e891a6aa43378ecd2a914f4a0ea3f3cfb23247ecc298a2e66a5c5970",
-    "eventName": "AssetCreated",
-    "payload": "eyJJRCI6ImFzc2V0MTA2OSIsImNvbG9yIjoieWVsbG93Iiwic2l6ZSI6MTAsIm93bmVyIjoiVG9tIiwiYXBwcmFpc2VkVmFsdWUiOjEzMDB9",
-    "subId": "sb-6366481d-1495-4a89-6e57-b9403d781208"
-  }
-```
-
-With the enhancement, a `payloadType` property can be specified during event subscription, that can provide one of 3 types to instruct the event processor in fabconnect to unmarshal the byte array before sending to the client:
-- `string`: the byte array will be encoded as UTF-8 strings,
-```
-{
-    "chaincodeId": "asset_transfer",
-    "blockNumber": 131,
-    "transactionId": "c38dc609f86298e2ef407cc645aeec134fb08cbe283565501bb8b38103fcaee0",
-    "eventName": "AssetCreated",
-    "payload": "{\"ID\":\"asset1074\",\"color\":\"yellow\",\"size\":10,\"owner\":\"Tom\",\"appraisedValue\":1300}",
-    "subId": "sb-ad7adeb7-5f40-4157-51b9-5caa35a1fd4d"
-  }
-```
-- `stringifiedJSON`: the byte array will be encoded as fully expanded string maps,
-```
-{
-    "chaincodeId": "asset_transfer",
-    "blockNumber": 130,
-    "transactionId": "83be13b68874253655eefde7cb992b4b53bea7b919eed742f91a08b802aadd98",
-    "eventName": "AssetCreated",
-    "payload": {
-      "ID": "asset1073",
-      "appraisedValue": 1300,
-      "color": "yellow",
-      "owner": "Tom",
-      "size": 10
-    },
-    "subId": "sb-bb06eaaf-cc71-422b-581a-b3ded393d63d"
-  }
-```
-- `bytes`: which is the default, the byte array is left alone without any further treatment
-
+                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-24 14:23:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/49" class=".btn">#49</a>
-            </td>
-            <td>
-                <b>
-                    Remove references to labs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 20:27:57 +0000 UTC
+        Created At 2021-10-08 19:44:38 +0000 UTC
     </div>
 </div>
 

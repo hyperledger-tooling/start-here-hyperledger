@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/61" class=".btn">#61</a>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/64" class=".btn">#64</a>
             </td>
             <td>
                 <b>
-                    Remove references to labs
+                    Message timeline now uses key instead of author
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ui
                 
             </td>
             <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+                Needed to fix timeline based on new DID changes in firefly core
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-23 20:56:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/60" class=".btn">#60</a>
-            </td>
-            <td>
-                <b>
-                    update firefly link in README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 16:18:53 +0000 UTC
+        Created At 2021-10-11 14:13:59 +0000 UTC
     </div>
 </div>
 

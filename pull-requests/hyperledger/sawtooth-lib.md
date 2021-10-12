@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/98" class=".btn">#98</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/104" class=".btn">#104</a>
             </td>
             <td>
                 <b>
-                    Stabilize `transaction-receipt-store-lmdb`
+                    Update redis dependency to 0.21
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                Rename the 'transaction-receipt-store-lmdb' feature to 'lmdb' and move
-it from experimental to stable.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 19:47:49 +0000 UTC
+        Created At 2021-10-08 22:14:55 +0000 UTC
     </div>
 </div>
 
@@ -41,11 +40,11 @@ it from experimental to stable.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/97" class=".btn">#97</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/103" class=".btn">#103</a>
             </td>
             <td>
                 <b>
-                    Stabilize `transaction-receipt-store`
+                    Add readme field to Cargo.toml
                 </b>
             </td>
         </tr>
@@ -54,12 +53,14 @@ it from experimental to stable.
                 
             </td>
             <td>
-                Move the 'transaction-receipt-store' feature from experimental to stable.
+                This makes the crates.io page friendlier to look at.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 17:10:29 +0000 UTC
+        Created At 2021-10-07 20:32:12 +0000 UTC
     </div>
 </div>
 
@@ -67,11 +68,11 @@ it from experimental to stable.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/96" class=".btn">#96</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/102" class=".btn">#102</a>
             </td>
             <td>
                 <b>
-                    Add a `service_id` to the `DieselReceiptStore`
+                    Stabilize postgres and sqlite features
                 </b>
             </td>
         </tr>
@@ -80,12 +81,38 @@ it from experimental to stable.
                 
             </td>
             <td>
-                This PR adds a `service_id` to the diesel implementation of receipt store. The `service_id` scopes the store to a specific instance of a receipt store. The index field is also updated to longer have a unique constraint, this is because with the addition of the `service_id` index only needs to be unique for a given `service_id`.
+                Stabilize the postgres and sqlite features by moving them from experimental to stable.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-24 18:18:30 +0000 UTC
+        Created At 2021-10-06 15:49:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/101" class=".btn">#101</a>
+            </td>
+            <td>
+                <b>
+                    Update migration log to be debug and include crate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 18:38:23 +0000 UTC
     </div>
 </div>
 

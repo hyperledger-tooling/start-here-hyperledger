@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/33" class=".btn">#33</a>
             </td>
             <td>
                 <b>
-                    Only ping event stream socket when it is open
+                    Rsjx version
                 </b>
             </td>
         </tr>
@@ -27,12 +27,27 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                <nil>
+                Not sure why we didn't see this in the Github actions builds, but after building API calls are failing due to the below stack.
+See https://github.com/hyperledger/firefly/pull/215#issuecomment-940150647
+
+This is due to a move in rxjs 7 that deprecated `toPromise`, and you should explicitly now use `lastValueOf`.
+However, in my VSCode I did find the automatic type casting was a faff, and I had to make some more tweaks.
+
+```
+�[34;1mtokens_0_1        |�[0m �[32m[Nest] 17  - �[39m10/11/2021, 3:52:08 PM �[32m    LOG�[39m �[38;5;3m[RequestLogging] �[39m�[32mPOST /api/v1/init�[39m
+�[34;1mtokens_0_1        |�[0m �[31m[Nest] 17  - �[39m10/11/2021, 3:52:08 PM �[31m  ERROR�[39m �[38;5;3m[ExceptionsHandler] �[39m�[31mrxjs_1.lastValueFrom is not a function�[39m
+�[34;1mtokens_0_1        |�[0m TypeError: rxjs_1.lastValueFrom is not a function
+�[34;1mtokens_0_1        |�[0m     at RouterResponseController.transformToResult (/root/node_modules/@nestjs/core/router/router-response-controller.js:32:27)
+�[34;1mtokens_0_1        |�[0m     at /root/node_modules/@nestjs/core/router/router-execution-context.js:173:52
+�[34;1mtokens_0_1        |�[0m     at /root/node_modules/@nestjs/core/router/router-execution-context.js:47:19
+�[34;1mtokens_0_1        |�[0m     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+�[34;1mtokens_0_1        |�[0m     at async /root/node_modules/@nestjs/core/router/router-proxy.js:9:17
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 18:41:54 +0000 UTC
+        Created At 2021-10-11 16:10:41 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +55,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/27" class=".btn">#27</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Correct license in package.json to Apache-2.0
+                    Use strings to pass all values, as they are uint256
                 </b>
             </td>
         </tr>
@@ -53,72 +68,15 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                This should match the actual governing license from the LICENSE file.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-29 15:51:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/26" class=".btn">#26</a>
-            </td>
-            <td>
-                <b>
-                    Remove references to labs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 20:39:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/25" class=".btn">#25</a>
-            </td>
-            <td>
-                <b>
-                    Replace arbitrary "data" param on /pool with individual fields
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This has gone back and forth a few times, but it does seem like there's a
-specific need for a "trackingId" that can be used to correlate the request with
-the created pool, and that this is the only piece of extra data that needs to
-be written to the chain.
-
-Also adds a "config" parameter to the API - not used currently, but this
-gives some future-proofing so it will be accepted and ignored by this version
-of the connector if it is needed in the future.
+                - Update passing of int256 values to base10 strings
+  - Per https://github.com/hyperledger/firefly/pull/215#issuecomment-939998082
+- Update dependencies to pick up security fixes 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-23 17:51:49 +0000 UTC
+        Created At 2021-10-11 15:14:34 +0000 UTC
     </div>
 </div>
 

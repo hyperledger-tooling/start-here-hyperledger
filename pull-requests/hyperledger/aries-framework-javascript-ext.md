@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    chore: update @aries-framework dependencies
+                    feat(push-notifications): added push-notifications plugin
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
                 
             </td>
             <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
+                - Push notifications module that can be injected into the agent to set/get a push notification configuration
+- only the notification-receiver side
+- Includes tests and a sample
+
+Signed-off-by: Berend Sliedrecht <berend@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 10:39:33 +0000 UTC
+        Created At 2021-10-08 10:41:33 +0000 UTC
     </div>
 </div>
 
@@ -40,25 +44,40 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/35" class=".btn">#35</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/40" class=".btn">#40</a>
             </td>
             <td>
                 <b>
-                    docs: release process and adding new packages
+                    chore: release @aries-framework/rest 0.2.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
             </td>
             <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
+                :robot: I have created a release \*beep\* \*boop\*
+---
+## [0.2.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.1.2...rest-v0.2.0) (2021-10-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **rest:** The port property has been moved into a new configuration object.
+
+### Features
+
+* **rest:** added support for custom controllers ([#39](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/39)) ([8362e30](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/8362e30d8a4c9ef24779769f81b6e74f7f5978cc))
+---
+
+
+This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-27 12:35:45 +0000 UTC
+        Created At 2021-10-05 13:15:41 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +85,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/34" class=".btn">#34</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    ci: use new signoff option for release-please
+                    feat(rest)!: added support for custom controllers
                 </b>
             </td>
         </tr>
@@ -79,12 +98,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
                 
             </td>
             <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
+                Signed-off-by: Jan <jan@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-27 12:02:25 +0000 UTC
+        Created At 2021-10-05 10:51:45 +0000 UTC
     </div>
 </div>
 

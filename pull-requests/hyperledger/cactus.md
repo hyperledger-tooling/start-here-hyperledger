@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1413" class=".btn">#1413</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1451" class=".btn">#1451</a>
             </td>
             <td>
                 <b>
-                    feat(connector-sawtooth): add the docker environment of Validator on connector-sawtooth-socketio
+                    chore(release): publish v1.0.0-rc.1
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/cactus
                 
             </td>
             <td>
-                resolve #1326
-
-Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
+                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-04 10:35:54 +0000 UTC
+        Created At 2021-10-11 18:45:36 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +40,11 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1412" class=".btn">#1412</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1449" class=".btn">#1449</a>
             </td>
             <td>
                 <b>
-                    feat(connector-go-ethereum): add the docker environment of Validator on connector-go-ethereum-socketio
+                    fix(cmd-socker-server): delete unnecessary files on cmd-socker-server
                 </b>
             </td>
         </tr>
@@ -55,14 +53,14 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
                 
             </td>
             <td>
-                resolve #1326 
+                resolve #1450 
 
 Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-04 10:00:21 +0000 UTC
+        Created At 2021-10-11 12:18:37 +0000 UTC
     </div>
 </div>
 
@@ -70,11 +68,11 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1411" class=".btn">#1411</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1448" class=".btn">#1448</a>
             </td>
             <td>
                 <b>
-                    refactor(cmd-server-socketio): refactor the verifier socket.io channel and verifierFactory
+                    docs(nonce-manager): nonce manager investigation report
                 </b>
             </td>
         </tr>
@@ -83,14 +81,16 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
                 
             </td>
             <td>
-                resolve #1322 #1324
+                Primary Change
+ -----------------
+1. Added investigation report detailing the research done for issue #1036
 
-Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
+Signed-off-by: jagpreetsinghsaan <jagpreet.singh.sasan@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-04 09:22:38 +0000 UTC
+        Created At 2021-10-11 07:42:29 +0000 UTC
     </div>
 </div>
 
@@ -98,11 +98,11 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1410" class=".btn">#1410</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1447" class=".btn">#1447</a>
             </td>
             <td>
                 <b>
-                    fix(tools): add docker network on tools/docker/sawtooth ledger
+                    feat: allows for constructor args in quorum contract deploy
                 </b>
             </td>
         </tr>
@@ -111,14 +111,13 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
                 
             </td>
             <td>
-                resolve #1409 
-
-Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
+                Closes: #962
+Signed-off-by: Travis Payne <travis.payne@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-04 08:54:18 +0000 UTC
+        Created At 2021-10-07 11:20:46 +0000 UTC
     </div>
 </div>
 
@@ -126,11 +125,11 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1408" class=".btn">#1408</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1446" class=".btn">#1446</a>
             </td>
             <td>
                 <b>
-                    fix(tools): fix the wallet config of fabcar chaincode on tools/docker/fabric ledger
+                    fix(api-server): fixes issue 1444 invoking the required onPluginInit
                 </b>
             </td>
         </tr>
@@ -139,14 +138,142 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
                 
             </td>
             <td>
-                resolve #1311
+                In api server the instantiatePlugin function is now calling the required
+onPluginInit for each corresponding connector
 
-Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
+Closes: #1444
+Signed-off-by: Michael Courtin <michael.courtin@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-04 08:07:27 +0000 UTC
+        Created At 2021-10-07 08:47:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1443" class=".btn">#1443</a>
+            </td>
+            <td>
+                <b>
+                    fix(core-api): modifications in openapi specs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Modifies definition of schemas GetKeychainEntryRequestV1 and
+DeleteKeychainEntryRequest to add option additionalProperties=false
+to them.
+
+Modifies definition of schemas GetKeychainEntryResponseV1 and
+DeleteKeychainEntryResponseV1 to remove option
+additionalProperties=false.
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-07 06:47:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1442" class=".btn">#1442</a>
+            </td>
+            <td>
+                <b>
+                    feat: option to enable a graceful shutdown via cli
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes: #1223 
+Signed-off-by: Travis Payne <travis.payne@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-06 09:48:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1441" class=".btn">#1441</a>
+            </td>
+            <td>
+                <b>
+                    fix: openapi validation for keychain-google-sm plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Includes tests for endpoints setKeychainEntry, getKeychainEntryV1,
+hasKeychainEntryV1 and deleteKeychainEntryV1, each of them with
+test cases:
+  - Right request
+  - Request including an invalid parameter
+  - Request without a required parameter
+
+Dependent on #1443
+
+Relationed with #847
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-06 07:15:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1439" class=".btn">#1439</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-quorum): split web3 endpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR splits the run transaction web3 endpoint into the 4 different web3 signing types. It also creates 4 new invoke contract methods.
+
+resolve #1248 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 10:11:09 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,81 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/216" class=".btn">#216</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/242" class=".btn">#242</a>
             </td>
             <td>
                 <b>
-                    Don't export internal "...WithID" methods
+                    Run E2E tests with matrix including fabric
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                It looks like there's a lot of code change here, but it's really not a lot. To summarize the changes:
+
+- Existing E2E tests have been split up into two test suites:
+  - `OnChainOffChainTestSuite`
+  - `TokensTestSuite`
+- There are two "traditional tests" that run these suites
+  - `TestEthereumE2ESuite` which runs both suites
+  - `TestFabricE2ESuite` which just runs `OnChainOffChainTestSuite`
+- The `run.sh` test script has been updated to use several new environment variables which get passed to the CLI to create the appropriate environment.
+- The E2E GitHub action now uses a matrix strategy to run each variant of the tests while setting the appropriate environment variables.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-11 21:15:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/241" class=".btn">#241</a>
+            </td>
+            <td>
+                <b>
+                    Add manifest for CLI to pull specific version sets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a manifest file that the CLI will use to pull specific versions of each FireFly microservice. The manifest file can be updated in one of two ways:
+
+- Manually, by hand. If a specific version of a FireFly microservice is needed for the version of FireFly in a specific commit/branch, the manifest can be updated accordingly for that commit/branch 
+- Automatically with the script - the `manifestgen.sh` script can be run manually, or with `make manifest` to fetch the latest version of each FireFly microservice.
+
+The script uses the GitHub API to query each repo and get the latest release.
+
+> Note: We should make sure `prerelease` versions are excluded from this.
+
+I will leave this PR in draft state until we actually get images published for all the repos, otherwise the version will be reported as `null`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-11 21:01:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/240" class=".btn">#240</a>
+            </td>
+            <td>
+                <b>
+                    update ui to version 0.3.2
                 </b>
             </td>
         </tr>
@@ -32,7 +102,7 @@ permalink: /pull-requests/hyperledger/firefly
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 14:41:36 +0000 UTC
+        Created At 2021-10-11 14:27:06 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +110,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/215" class=".btn">#215</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/239" class=".btn">#239</a>
             </td>
             <td>
                 <b>
-                    Add database types and route for listing token transfers
+                    Add transaction for token transfers
                 </b>
             </td>
         </tr>
@@ -53,12 +123,12 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                <nil>
+                This is a continuation of #215 with one extra commit to add a transaction for token transfers. Did not want to keep pushing commits onto that one since it's nearly ready to merge.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 12:54:38 +0000 UTC
+        Created At 2021-10-08 18:35:44 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +136,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/213" class=".btn">#213</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/237" class=".btn">#237</a>
             </td>
             <td>
                 <b>
-                    Consistency in JSON/Blob codepaths for validation of "none" datatype
+                    Config key concurrency
                 </b>
             </td>
         </tr>
@@ -79,18 +149,16 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                In testing #207 we found the following error when using `validator: "none"` on a JSON upload of `data`, that was not seen on the BLOB upload.
+                This PR adds a mutex to `configPrefix.keys` to prevent concurrent reading and writing to this map by different goroutines.
 
-```
-FF10200: Unknown validator type: ‘none’
-```
+- Fixes https://github.com/hyperledger/firefly/issues/235
 
-I found a discrepancy in the validation on upload between the two paths. This PR should reconcile that.
+I also evaluated changing `configPrefix.keys` to be a `sync.Map` https://pkg.go.dev/sync#Map, however I think the change to add a mutex was actually simpler. `sync.Map` has a few disadvantages, one of them being losing type safety. This combined with it actually being a larger code change to use `sync.Map`'s functions to get data in and out of the map, led me to just add the mutex.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-27 20:57:34 +0000 UTC
+        Created At 2021-10-08 15:31:36 +0000 UTC
     </div>
 </div>
 
@@ -98,217 +166,11 @@ I found a discrepancy in the validation on upload between the two paths. This PR
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/212" class=".btn">#212</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/236" class=".btn">#236</a>
             </td>
             <td>
                 <b>
-                    Add "created" field to token pools, add some extra E2E checks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-27 20:47:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/211" class=".btn">#211</a>
-            </td>
-            <td>
-                <b>
-                    Announce token pool info via broadcast
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Rather than requiring all token pool metadata (namespace, name, id) to be written
-to the blockchain, send it out via a broadcast message after creating the actual
-pool on chain.
- 
-~~Note: this contains the commit from #210 as a pre-req.~~
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-27 18:34:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/210" class=".btn">#210</a>
-            </td>
-            <td>
-                <b>
-                    Move TokenPoolCreated handler into AssetManager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-27 18:20:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/209" class=".btn">#209</a>
-            </td>
-            <td>
-                <b>
-                    Factor out PersistTransaction helper
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-27 16:01:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/208" class=".btn">#208</a>
-            </td>
-            <td>
-                <b>
-                    Move various top-level folders for smart contracts into 'smart_contracts' folder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Moved these top-level contract folders to a consolidated `smart_contracts` directory, with sub-folders corresponding to the supported ledger protocol:
-
-```
-smart_contracts
-  \_ fabric
-  \_ ethereum
-  \_ corda
-```
-
-Note that "smart contracts" is a commonly accepted term in all 3 communities (ethereum, fabric, corda)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-27 15:25:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/207" class=".btn">#207</a>
-            </td>
-            <td>
-                <b>
-                    Allow null value with blob data, and allow "none" validator to tag datatype on unstructured data
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix for #198 
-
-- Fixes handling of `null` on `data.value` - including as part of a FORM post upload
-  - Stored as the bytes `null` in the database (as today)
-  - Does not contribute to the hash, when there is a blob
-  - Returned as `null` in the JSON payload on `GET`
-- Adds a new `validator` of `none`
-  - Must be set explicitly - `json` remains the default
-  - Disabled any checking of the `datatype.name`/`datatype.value` when set
-  - Allows you to just use the `datatype` for tagging purposes, without validating the `value` JSON payload itself
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-25 06:00:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/206" class=".btn">#206</a>
-            </td>
-            <td>
-                <b>
-                    Docs updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fix links and TOCs in docs
-- Add new docs page
-- Add new Hyperledger logo
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-24 17:40:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/204" class=".btn">#204</a>
-            </td>
-            <td>
-                <b>
-                    Remove references to labs
+                    Add new unit tests to fix test coverage
                 </b>
             </td>
         </tr>
@@ -322,7 +184,7 @@ Note that "smart contracts" is a commonly accepted term in all 3 communities (et
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-23 18:36:04 +0000 UTC
+        Created At 2021-10-08 15:07:51 +0000 UTC
     </div>
 </div>
 
@@ -330,11 +192,11 @@ Note that "smart contracts" is a commonly accepted term in all 3 communities (et
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/203" class=".btn">#203</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/234" class=".btn">#234</a>
             </td>
             <td>
                 <b>
-                    Use Operation ID for tracking ethconnect requests
+                    Capture logs if startup or earlier steps fail
                 </b>
             </td>
         </tr>
@@ -343,15 +205,147 @@ Note that "smart contracts" is a commonly accepted term in all 3 communities (et
                 
             </td>
             <td>
-                The Transaction ID is longer-lived, while Operation ID is more appropriate for
-a single request (since a transaction may contain multiple operations).
+                Per https://github.com/hyperledger/firefly/issues/226#issuecomment-938160813, the change in #231 only helps capture container logs during the test running phase.
 
-Signed-off-by: Andrew Richardson <andrew.richardson@kaleido.io>
+If the failure happens during startup or registration in the CLI, then logs aren't currently captured.
+
+This change checks the RC after each step, so that the bash code always goes through the log exit
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-23 18:30:19 +0000 UTC
+        Created At 2021-10-08 11:56:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/233" class=".btn">#233</a>
+            </td>
+            <td>
+                <b>
+                    fix wsclient mocks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 - artifact left over from wsclient migration to `pkg`
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-07 21:03:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/232" class=".btn">#232</a>
+            </td>
+            <td>
+                <b>
+                    Fix new identity checks on registration with confirm=true
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes the new registration endpoints so they work with the new identity checks again. With these changes, both the new registration endpoints and the deprecated endpoints (still used by the CLI until https://github.com/hyperledger/firefly-cli/pull/108 goes in) still work too.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-07 19:36:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/231" class=".btn">#231</a>
+            </td>
+            <td>
+                <b>
+                    Capture logs as artifacts even if e2e fails (simulated failure in this commit)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-07 14:14:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/230" class=".btn">#230</a>
+            </td>
+            <td>
+                <b>
+                    Update kin-openapi with fix for #229 and add UT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #229 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-07 12:13:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/228" class=".btn">#228</a>
+            </td>
+            <td>
+                <b>
+                    make InitialConnectAttempts json tag camel case
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-05 14:37:26 +0000 UTC
     </div>
 </div>
 

@@ -120,37 +120,3 @@ See issue https://github.com/hyperledger/aries-cloudagent-python/issues/1436
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1433" class=".btn">#1433</a>
-            </td>
-            <td>
-                <b>
-                    Profile for base outbound transport class
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When developing plugins for different transports it becomes difficult to do things without having access to the context profile provides. This pr adds root_profile to the base class of outbound transport which is passed in from the outbound transport manager. 
-
-changes:
- - aries_cloudagent/transport/outbound/base.py
-     - added class attribute to store profile called root_profile with supporting code
- - aries_cloudagent/transport/outbound/manager.py
-     - updated the class creation to take the manager profile
-     
-Signed-off-by: Adam Burdett <burdettadam@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-04 19:04:32 +0000 UTC
-    </div>
-</div>
-
