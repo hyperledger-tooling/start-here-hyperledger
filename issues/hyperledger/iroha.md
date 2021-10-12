@@ -79,38 +79,6 @@ It's better to:
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1185" class=".btn">1185</a>
-            </td>
-            <td>
-                <b>
-                    Rename iroha lib and bin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                
-
-Egor Ivkov, [11.06.21 11:32]
-Ok, so I guess the points on which we agreed:
-1. Call iroha library - iroha_core
-2. Call iroha binary - iroha
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-15 18:48:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/1149" class=".btn">1149</a>
             </td>
             <td>
