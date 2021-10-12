@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/243" class=".btn">#243</a>
+            </td>
+            <td>
+                <b>
+                    Clean up Gen 1 "KAT" implementation, and update README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Remove the generation 1 KAT runtime, now that Tokens is delivered and functional parity is there in Gen 2
+- Substantial update to the README, to hopefully make the goals of the project as clear as possible, orient potential users/contributors, then get them to the right bit of the docs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-12 02:09:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/242" class=".btn">#242</a>
             </td>
             <td>
