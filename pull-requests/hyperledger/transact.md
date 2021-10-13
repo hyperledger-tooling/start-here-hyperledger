@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/217" class=".btn">#217</a>
+            </td>
+            <td>
+                <b>
+                    Remove Clone constraint from Write, Prune
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change removes the `Clone` constraint from the `Write` and `Prune` traits.  This constraint makes it so that these traits cannot be boxed as the traits are not object-safe.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-12 20:56:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/216" class=".btn">#216</a>
             </td>
             <td>
@@ -243,32 +269,6 @@ The workload should run for the duration given and then exit, shutting down the 
     </table>
     <div class="right-align">
         Created At 2021-10-06 17:11:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/208" class=".btn">#208</a>
-            </td>
-            <td>
-                <b>
-                    Update migration log to be debug and include crate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-05 18:42:22 +0000 UTC
     </div>
 </div>
 
