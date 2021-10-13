@@ -50,7 +50,7 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
             </td>
             <td>
                 <b>
-                    feat: rfc-0699: push notifications
+                    feat: rfc-0699: push notifications native
                 </b>
             </td>
         </tr>
