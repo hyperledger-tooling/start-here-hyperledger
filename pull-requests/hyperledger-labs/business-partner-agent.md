@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/649" class=".btn">#649</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/651" class=".btn">#651</a>
             </td>
             <td>
                 <b>
-                    Feature/presentationexchangeviewv2
+                    Merge Credential Issuer And Holder Tables
                 </b>
             </td>
         </tr>
@@ -27,18 +27,19 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                Update PresentationRecord view when viewing a completed exchange. Make verified credentials look like cards. 
+                As a prerequisite for the manual credential proposal flow I had to merge the issuer and holder tables into one. Like this we have the same behavior as with the presentation flows. So in the ui the user will also see the credentials that have been received from a partner, and not only those that were issued.
 
-Having some troubles with the flex arrangements of the card component, might investigate columns to provide better spacing. 
+<img width="1183" alt="Screen Shot 2021-10-13 at 17 30 34" src="https://user-images.githubusercontent.com/13498217/137165405-0a9fb709-0990-45fa-b585-c73afc9f9d62.png">
 
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/649"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/651"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-12 20:28:12 +0000 UTC
+        Created At 2021-10-13 15:27:16 +0000 UTC
     </div>
 </div>
 
@@ -71,36 +72,6 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </table>
     <div class="right-align">
         Created At 2021-10-12 19:50:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/646" class=".btn">#646</a>
-            </td>
-            <td>
-                <b>
-                    Ordered connection states in case events are received unordered
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                see https://github.com/hyperledger-labs/business-partner-agent/issues/644
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/646"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 15:20:36 +0000 UTC
     </div>
 </div>
 

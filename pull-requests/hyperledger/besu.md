@@ -37,21 +37,61 @@ permalink: /pull-requests/hyperledger/besu
 We just detected a concurrency exception on one of our canary nodes. Synchronizing the block does not seem to be enough to prevent concurrent modifications during foreach. I propose to use an iterator for this part in order to resolve this issue
 
 ```
-{“timestamp”:“2021-10-12T21:08:32,573",“level”:“ERROR”,“thread”:“nioEventLoopGroup-3-7",“class”:“Subscribers”,“message”:“Error in callback: “,”throwable”:” java.util.ConcurrentModificationException\n\tat java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemainin
-g(ArrayList.java:1661)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequen
-tial(ForEachOps.java:150)\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.forEach
-(ReferencePipeline.java:497)\n\tat org.hyperledger.besu.ethereum.eth.manager.EthPeers.abortPendingRequestsAssignedToDisconnectedPeers(EthPeers.java:107)\n\tat org.hyperledger.besu.ethereum.eth.manager.EthPeers.registerDisconnect(EthPeers.java:96)\n\tat org.hyperledger.b
-esu.ethereum.eth.manager.EthProtocolManager.handleDisconnect(EthProtocolManager.java:343)\n\tat org.hyperledger.besu.ethereum.p2p.network.NetworkRunner.lambda$setupHandlers$2(NetworkRunner.java:157)\n\tat org.hyperledger.besu.ethereum.p2p.rlpx.connections.PeerConnection
-Events.lambda$dispatchDisconnect$0(PeerConnectionEvents.java:55)\n\tat org.hyperledger.besu.util.Subscribers.lambda$forEach$0(Subscribers.java:112)\n\tat java.base/java.lang.Iterable.forEach(Iterable.java:75)\n\tat org.hyperledger.besu.util.Subscribers.forEach(Subscribe
-rs.java:109)\n\tat org.hyperledger.besu.ethereum.p2p.rlpx.connections.PeerConnectionEvents.dispatchDisconnect(PeerConnectionEvents.java:55)\n\tat org.hyperledger.besu.ethereum.p2p.rlpx.connections.AbstractPeerConnection.terminateConnection(AbstractPeerConnection.java:14
-5)\n\tat org.hyperledger.besu.ethereum.p2p.rlpx.connections.netty.NettyPeerConnection.lambda$new$0(NettyPeerConnection.java:62)\n\tat io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)\n\tat io.netty.util.concurrent.DefaultPromise.notifyLis
-tenersNow(DefaultPromise.java:552)\n\tat io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)\n\tat io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)\n\tat io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPr
-omise.java:605)\n\tat io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)\n\tat io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)\n\tat io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:118
-2)\n\tat io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:773)\n\tat io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:749)\n\tat io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)\n\tat
-io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.closeOnRead(AbstractNioByteChannel.java:105)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEve
-ntLoop.java:719)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)\n\tat io.ne
-tty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)\n\tat io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)\n\tat io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)\n\tat java
-.base/java.lang.Thread.run(Thread.java:829)\n”}
+{“timestamp”:“2021-10-12T21:08:32,573",“level”:“ERROR”,“thread”:“nioEventLoopGroup-3-7",“class”:“Subscribers”,“message”:“Error in callback: “,”throwable”:” java.util.ConcurrentModificationException
+	 java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemainin
+g(ArrayList.java:1661)
+	 java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	 java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	 java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequen
+tial(ForEachOps.java:150)
+	 java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	 java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	 java.base/java.util.stream.ReferencePipeline.forEach
+(ReferencePipeline.java:497)
+	 org.hyperledger.besu.ethereum.eth.manager.EthPeers.abortPendingRequestsAssignedToDisconnectedPeers(EthPeers.java:107)
+	 org.hyperledger.besu.ethereum.eth.manager.EthPeers.registerDisconnect(EthPeers.java:96)
+	 org.hyperledger.b
+esu.ethereum.eth.manager.EthProtocolManager.handleDisconnect(EthProtocolManager.java:343)
+	 org.hyperledger.besu.ethereum.p2p.network.NetworkRunner.lambda$setupHandlers$2(NetworkRunner.java:157)
+	 org.hyperledger.besu.ethereum.p2p.rlpx.connections.PeerConnection
+Events.lambda$dispatchDisconnect$0(PeerConnectionEvents.java:55)
+	 org.hyperledger.besu.util.Subscribers.lambda$forEach$0(Subscribers.java:112)
+	 java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	 org.hyperledger.besu.util.Subscribers.forEach(Subscribe
+rs.java:109)
+	 org.hyperledger.besu.ethereum.p2p.rlpx.connections.PeerConnectionEvents.dispatchDisconnect(PeerConnectionEvents.java:55)
+	 org.hyperledger.besu.ethereum.p2p.rlpx.connections.AbstractPeerConnection.terminateConnection(AbstractPeerConnection.java:14
+5)
+	 org.hyperledger.besu.ethereum.p2p.rlpx.connections.netty.NettyPeerConnection.lambda$new$0(NettyPeerConnection.java:62)
+	 io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	 io.netty.util.concurrent.DefaultPromise.notifyLis
+tenersNow(DefaultPromise.java:552)
+	 io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	 io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	 io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPr
+omise.java:605)
+	 io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	 io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	 io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:118
+2)
+	 io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:773)
+	 io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:749)
+	 io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	
+io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.closeOnRead(AbstractNioByteChannel.java:105)
+	 io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+	 io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEve
+ntLoop.java:719)
+	 io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	 io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	 io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	 io.ne
+tty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	 io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	 io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	 java
+.base/java.lang.Thread.run(Thread.java:829)
+”}
 ```
 
 ## Changelog
