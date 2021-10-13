@@ -244,29 +244,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/513" class=".btn">#513</a>
-            </td>
-            <td>
-                <b>
-                    Re-write tests using new solana-solidity library
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 14:41:26 +0000 UTC
-    </div>
-</div>
-

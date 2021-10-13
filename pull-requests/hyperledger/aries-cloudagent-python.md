@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1442" class=".btn">#1442</a>
+            </td>
+            <td>
+                <b>
+                    Add missing param to ws protocol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-13 15:08:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1439" class=".btn">#1439</a>
             </td>
             <td>

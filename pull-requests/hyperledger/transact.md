@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/218" class=".btn">#218</a>
+            </td>
+            <td>
+                <b>
+                    Allow migrations to be run against a single connection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change allows the user to run the migrations directly against a reference to a diesel connection.  It accomplishes this by re-exporting the database-specific migration functions directly from the migration module.
+
+This allows migrations to be run in instances where the caller does not have access to a pool or the connection string, and therefore cannot use a `Backend` instance via the `MigrationManager`.
+ 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-13 16:29:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/217" class=".btn">#217</a>
             </td>
             <td>
@@ -243,32 +272,6 @@ The workload should run for the duration given and then exit, shutting down the 
     </table>
     <div class="right-align">
         Created At 2021-10-07 17:02:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/209" class=".btn">#209</a>
-            </td>
-            <td>
-                <b>
-                    Replace OverlayReader/Writer with MerkleRadixStore
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR replaces the OverlayReader/Writer with a MerkleRadixStore trait.  The SqlMerkleRadixStore implementation of this trait isolates all of the operations usage behind the trait, and allows for all of the operations, schema's and models to be moved into a store module.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 17:11:53 +0000 UTC
     </div>
 </div>
 
