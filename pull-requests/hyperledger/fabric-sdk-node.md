@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/515" class=".btn">#515</a>
-            </td>
-            <td>
-                <b>
-                    Issue# 500
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-12 07:54:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/512" class=".btn">#512</a>
             </td>
             <td>
@@ -55,8 +29,6 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
             <td>
                 An attempt to move if type=='query' check code block to inherit class
 instead of expose too much subclass implementation detail in superclass
-
-TODO: test to be covered later
 
 Signed-off-by: DavidLiu <david.yx.liu@oracle.com>
             </td>

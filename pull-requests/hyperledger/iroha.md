@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1521" class=".btn">#1521</a>
+            </td>
+            <td>
+                <b>
+                    FIx MST expiration #1488, #1489, #1490
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-13 08:23:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1520" class=".btn">#1520</a>
             </td>
             <td>
@@ -148,7 +174,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    Removed code duplication via monomorphic dispatch.
+                    Logging improvements
                 </b>
             </td>
         </tr>
@@ -161,13 +187,15 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 Replaced code duplication in `logger/src/lib.rs` with a monomorphic version of the same. 
 
+Implemented `tracing-bunyan-formatter`. Added tests to see if telemetry behaviour is consistent with 
+
 ### Issue
 
-Resolves #1516. 
+Resolves #1516 and #1497. 
 
 ### Benefits
 
-Less code duplication
+Less code duplication. `Bunyan` export added as a configuration option. 
 
 ### Possible Drawbacks
 

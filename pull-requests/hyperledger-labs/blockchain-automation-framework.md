@@ -78,7 +78,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
             </td>
             <td>
                 <b>
-                    resolved the openjdk-14 issue in baf-build
+                    [shared] resolved the openjdk-14 issue in baf-build
                 </b>
             </td>
         </tr>
