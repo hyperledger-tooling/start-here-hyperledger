@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/336" class=".btn">#336</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/337" class=".btn">#337</a>
             </td>
             <td>
                 <b>
-                    LSI-32: Compiled code must not be in source repos
+                    Download binary files in docker image building process. 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                Modified api-engine docker file, so the compiled code tools will be downloaded in the images building process. 
+
+Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-30 16:29:50 +0000 UTC
+        Created At 2021-10-12 23:43:10 +0000 UTC
     </div>
 </div>
 
