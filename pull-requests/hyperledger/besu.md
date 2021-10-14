@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2903" class=".btn">#2903</a>
+            </td>
+            <td>
+                <b>
+                    fix some flakey onchain privacy tests (ConsenSys/protocol-misc#419)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ConsenSys/protocol-misc#419 lists a number of onchain privacy acceptance tests that are flakey. 
+
+All these tests fail because of a timeout while checking that a privacy group has been created on all the member nodes.
+
+This PR changes the timeout from the default 10s to 20s
+
+Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-14 05:09:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2902" class=".btn">#2902</a>
+            </td>
+            <td>
+                <b>
+                    Bft block period transition
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Allow the Bft block period to be changed using a transition. This allows the block period to be changed in either IBFT2 or QBFT.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-14 04:06:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2896" class=".btn">#2896</a>
             </td>
             <td>
@@ -264,7 +336,11 @@ Closes #2890
                 
             </td>
             <td>
-                Created a partial copy of the ForkingValidatorProvider in order to use a read-only version of the BlockValidatorProvider (which contains its own voteTallyCache).
+                ~Created a partial copy of the ForkingValidatorProvider in order to use a read-only version of the BlockValidatorProvider (which contains its own voteTallyCache).~
+
+Create readOnlyValidatorProvider in QbftBesuControllerBuilder and pass into QbftJsonRpcMethods constructor (better than using protocolContext as is only used once when creating the RPCs
+
+This requires storing transactionValidatorProvider in a field and relying on its earlier creation during createConsensusContext()
 
 Fixes https://github.com/hyperledger/besu/issues/2795
             </td>
@@ -376,7 +452,7 @@ change version 21.10.0-RC3
             </td>
             <td>
                 <b>
-                    Qbft validation selection was incorrectly being applied for non validator selection mode transitions
+                    Qbft validator selection was incorrectly being applied to non validator selection mode transitions
                 </b>
             </td>
         </tr>
@@ -389,7 +465,7 @@ change version 21.10.0-RC3
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Qbft validation selection was incorrectly being applied for non validator selection mode transitions. This was cause by the QbftProtocolSchedule not considering the current validator selection mode. The BftForksSchedule has been added to the QbftProtocolSchedule so that current mode is used even when the transition is not for changing the validation selection mode.
+Qbft validation selection was incorrectly being applied for non validator selection mode transitions. This was caused by the QbftProtocolSchedule not considering the current validator selection mode. The BftForksSchedule has been added to the QbftProtocolSchedule so that current mode is used even when the transition is not for changing the validation selection mode.
 
 fixes #2894
 
@@ -786,36 +862,6 @@ no-op executePayload  for existing blocks
     </table>
     <div class="right-align">
         Created At 2021-10-07 11:01:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2858" class=".btn">#2858</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] change DNS permissioning logging to TRACE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changed recently added extra logging to TRACE level (same as other permissioning logging)
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 02:31:35 +0000 UTC
     </div>
 </div>
 

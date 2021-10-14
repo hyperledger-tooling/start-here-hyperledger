@@ -56,33 +56,3 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/502" class=".btn">#502</a>
-            </td>
-            <td>
-                <b>
-                    Fix function comment in asset-transfer-ledger-queries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix typo in function comment.
-
-Thanks to RobertBetschinger for finding this issue.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 02:35:29 +0000 UTC
-    </div>
-</div>
-
