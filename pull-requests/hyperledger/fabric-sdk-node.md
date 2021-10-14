@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/519" class=".btn">#519</a>
+            </td>
+            <td>
+                <b>
+                    Publish Contract JSDoc (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This was being excluded from the generated JavaScript files as it was not immediately above a class definition that would be written to the JavaScript file by the TypeScript compiler.
+
+Also add the TransactionError as a possible thrown exception from Transaction.submit().
+
+Contributes to #504 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-14 13:53:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/518" class=".btn">#518</a>
+            </td>
+            <td>
+                <b>
+                    Publish Contract JSDoc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This was being excluded from the generated JavaScript files as it was not immediately above a class definition that would be written to the JavaScript file by the TypeScript compiler.
+
+Also add the TransactionError as a possible thrown exception from Transaction.submit().
+
+Resolves #504 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-14 13:46:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/517" class=".btn">#517</a>
             </td>
             <td>

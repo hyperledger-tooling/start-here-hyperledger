@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2908" class=".btn">#2908</a>
+            </td>
+            <td>
+                <b>
+                    Always copy create code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Always copy the create code. Since it is memory bytes it is subject to
+re-writing by the caller and all data would otherwise have to be treated
+ as mutable.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+
+## Fixed Issue(s)
+#2899
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-14 17:04:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2907" class=".btn">#2907</a>
+            </td>
+            <td>
+                <b>
+                    Copy stack items for logs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Always make a byte copy of stack items for logs. While we take a
+performance hit the items can mutate.
+
+Fixes #2899
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-14 14:44:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2904" class=".btn">#2904</a>
             </td>
             <td>
@@ -899,45 +970,6 @@ Create a common bft forks schedule that can be used between both ibft and qbft. 
     </table>
     <div class="right-align">
         Created At 2021-10-07 23:46:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2861" class=".btn">#2861</a>
-            </td>
-            <td>
-                <b>
-                    Feature/no op candidate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-no-op executePayload  for existing blocks
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 16:39:53 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/235" class=".btn">#235</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/242" class=".btn">#242</a>
             </td>
             <td>
                 <b>
-                    :memo: [README] Update go version
+                    Abstraction of wire serializartion (1/5)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,42 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                <nil>
+                The scope of this PR is to implement changes described in step 1 in #233.
+
+Move the encoding/decoding logic  from package `pkg/io` to `wire/perun and the associated generic test helpers from `pkg/io/test' to `wire/test`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-06 18:19:26 +0000 UTC
+        Created At 2021-10-14 16:02:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/240" class=".btn">#240</a>
+            </td>
+            <td>
+                <b>
+                    🎨 Allocation redesign
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Goal: Make Allocation easier to setup and modify.
+
+Closes #63 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-14 13:56:59 +0000 UTC
     </div>
 </div>
 
