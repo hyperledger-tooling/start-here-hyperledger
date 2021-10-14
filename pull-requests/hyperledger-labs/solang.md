@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/525" class=".btn">#525</a>
+            </td>
+            <td>
+                <b>
+                    Support retrieving balance on Solana
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-14 09:05:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/524" class=".btn">#524</a>
             </td>
             <td>
@@ -189,58 +215,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2021-10-07 15:58:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/515" class=".btn">#515</a>
-            </td>
-            <td>
-                <b>
-                    Resolve bases before resolving types in contracts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Iwan Waitusenok <sleepplease@protonmail.ch>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 12:06:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/514" class=".btn">#514</a>
-            </td>
-            <td>
-                <b>
-                    Move rational tests into its own module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 09:23:04 +0000 UTC
     </div>
 </div>
 

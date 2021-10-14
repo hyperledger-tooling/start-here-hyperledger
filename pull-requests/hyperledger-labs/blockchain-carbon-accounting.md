@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">hacktoberfest-accepted</span>
             </td>
             <td>
                 Fixes #305 

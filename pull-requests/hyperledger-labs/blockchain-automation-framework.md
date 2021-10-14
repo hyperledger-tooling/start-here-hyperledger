@@ -95,6 +95,8 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
 **Reviewed by**
 @suvajit-sarkar @sownak
 
+
+Resolves #1711 
             </td>
         </tr>
     </table>
@@ -304,110 +306,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </table>
     <div class="right-align">
         Created At 2021-10-07 16:13:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1700" class=".btn">#1700</a>
-            </td>
-            <td>
-                <b>
-                    release 0.10.0 code merge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-
-https://github.com/hyperledger-labs/blockchain-automation-framework/releases
-
- 
-
-**Reviewed by**
-@sownak @jagpreetsinghsasan @alvaropicazo 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 08:41:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1699" class=".btn">#1699</a>
-            </td>
-            <td>
-                <b>
-                    [shared] merged code for release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Added main branch commits and resolved conflict  
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 07:46:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1698" class=".btn">#1698</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] Vault engine integration for tessera node keys generation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: alvaropicazo <alvaro.picazo.haase@accenture.com>
-
-**Changelog**
-- Added inegration of vault engine for generating tessera node keys (public and private keys)
-- Fixed paths and small bugs on some chart / template files
-- Updated roles for checking the key paths due to the changes that the integration of the engine
- 
-
-**Reviewed by**
-@sownak 
-@suvajit-sarkar 
-
- 
-
-**Linked issue**
-#1355 #1703 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 07:39:37 +0000 UTC
     </div>
 </div>
 
