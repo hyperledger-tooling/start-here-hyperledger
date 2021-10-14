@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/87" class=".btn">#87</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/88" class=".btn">#88</a>
             </td>
             <td>
                 <b>
-                    Add http headers support
+                    Update pythonize
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 10:22:03 +0000 UTC
+        Created At 2021-10-14 09:07:27 +0000 UTC
     </div>
 </div>
 

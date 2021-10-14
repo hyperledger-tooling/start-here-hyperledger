@@ -31,6 +31,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
 We currently have a real use case for this.
 
 My understanding is that there is no reason not to allow negative values, but I'd be glad to discuss this further.
+
+I attempted to retain the default behavior, but I don't see how to do so without massive impact.
+We would need to be able to distinguish between the zero and the unset case, which is not currently possible with an `int` field in the policy. I quickly tried to switch to a `string` field but did not pursue this way as this would impact many other modules.
+So I went to find a middle ground: default is only applied when the resolver mode is not explicitly set and value is less or equal than zero.
+I'm not very happy with this since there are different behaviors depending on the resolver mode being set or not. On the other hand the lag threshold only have meaning when using the appropriate resolver, so I guess this is fine.
             </td>
         </tr>
     </table>

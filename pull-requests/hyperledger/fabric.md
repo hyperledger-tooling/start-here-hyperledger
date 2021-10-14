@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2982" class=".btn">#2982</a>
+            </td>
+            <td>
+                <b>
+                    Extra info in log message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add the transaction ID and the orderer endpoint address to the log message before sending the transaction to the orderer.
+
+Resolves https://github.com/hyperledger/fabric-gateway/issues/250
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-14 07:18:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2981" class=".btn">#2981</a>
             </td>
             <td>
@@ -164,38 +195,6 @@ Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-10-07 12:45:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2974" class=".btn">#2974</a>
-            </td>
-            <td>
-                <b>
-                    Rename EndpointError to ErrorDetail
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In the gateway.proto, the EndpointError message has been renamed ErrorDetail.
-This commit updates the proto dependency and renames the type in the gateway code.
-
-Contributes to #2971 
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 08:09:00 +0000 UTC
     </div>
 </div>
 
