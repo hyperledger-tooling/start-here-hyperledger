@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/219" class=".btn">#219</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0.3: Allow migrations to be run against a single connection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #218 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-13 18:51:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/218" class=".btn">#218</a>
             </td>
             <td>

@@ -399,7 +399,7 @@ fixes #2894
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -816,46 +816,6 @@ no-op executePayload  for existing blocks
     </table>
     <div class="right-align">
         Created At 2021-10-07 02:31:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2857" class=".btn">#2857</a>
-            </td>
-            <td>
-                <b>
-                    stop syncing at terminal total difficulty, add MergeBlockImporter whi…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-* add MergeBlockImporter
-* add TTD to syncState to prevent re-syncing when we have already sync'd up-to/past TTD
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 18:23:44 +0000 UTC
     </div>
 </div>
 

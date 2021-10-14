@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/60" class=".btn">#60</a>
+            </td>
+            <td>
+                <b>
+                    Fix cert warning notice if building CAs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-13 19:07:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/59" class=".btn">#59</a>
             </td>
             <td>
@@ -59,34 +85,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     </table>
     <div class="right-align">
         Created At 2021-10-10 01:58:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/56" class=".btn">#56</a>
-            </td>
-            <td>
-                <b>
-                    removing dead "template" code to simplify codebase
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These files are no longer used.
-
-Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 20:20:50 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/318" class=".btn">#318</a>
+            </td>
+            <td>
+                <b>
+                    Lint warning fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #305 
+
+* Fixed lint warning in chaincode
+
+* Fixed linting warnings in typescript_app
+
+* Fixed lint warning due to prettier auto save
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-13 19:38:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/315" class=".btn">#315</a>
             </td>
             <td>
