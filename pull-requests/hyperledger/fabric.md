@@ -148,31 +148,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2973" class=".btn">#2973</a>
-            </td>
-            <td>
-                <b>
-                    Add clarifications to dev env versions in doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update Go version and add caveats to dev env version doc.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 22:11:57 +0000 UTC
-    </div>
-</div>
-
