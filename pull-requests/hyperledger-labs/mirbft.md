@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/60" class=".btn">#60</a>
+            </td>
+            <td>
+                <b>
+                    Chat demo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-15 09:12:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/mirbft/pull/59" class=".btn">#59</a>
             </td>
             <td>

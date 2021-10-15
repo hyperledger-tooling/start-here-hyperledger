@@ -42,34 +42,3 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/699" class=".btn">#699</a>
-            </td>
-            <td>
-                <b>
-                    feat: rfc-0699: push notifications native
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Rfc that enables agents to exhange a push notification configuration 
-- It is possible with the discover features protocols, the roles specifically, to check which notification services another agent can provide.
-
-Interested to hear any feedback!
-
-Signed-off-by: Berend Sliedrecht <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 11:01:30 +0000 UTC
-    </div>
-</div>
-

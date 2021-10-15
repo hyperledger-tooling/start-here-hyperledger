@@ -122,38 +122,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2977" class=".btn">#2977</a>
-            </td>
-            <td>
-                <b>
-                    Update developer environment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-#### Type of change
-
-- Documentation update
-
-#### Description
-
-Improve the setting up dev environment section
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 09:19:22 +0000 UTC
-    </div>
-</div>
-

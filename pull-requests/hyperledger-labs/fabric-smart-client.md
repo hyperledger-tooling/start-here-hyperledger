@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/156" class=".btn">#156</a>
+            </td>
+            <td>
+                <b>
+                    Added Fabric topology flexibility
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                It is easier to add and modify chancodes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-15 11:37:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/155" class=".btn">#155</a>
             </td>
             <td>
@@ -113,35 +139,6 @@ Signed-off-by: Alex Shehovcov <alex.shehovcov@482.solutions>
     </table>
     <div class="right-align">
         Created At 2021-10-08 15:55:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/148" class=".btn">#148</a>
-            </td>
-            <td>
-                <b>
-                    imports cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - reduce dependency to Fabric
-- remove Fabric's imports form `platform/view` 
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 09:12:43 +0000 UTC
     </div>
 </div>
 
