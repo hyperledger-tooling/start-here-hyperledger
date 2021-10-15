@@ -52,39 +52,6 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2907" class=".btn">#2907</a>
-            </td>
-            <td>
-                <b>
-                    Copy stack items for logs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Always make a byte copy of stack items for logs. While we take a
-performance hit the items can mutate.
-
-Fixes #2899
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-14 14:44:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2904" class=".btn">#2904</a>
             </td>
             <td>
@@ -901,75 +868,6 @@ master.svg -> main.svg
     </table>
     <div class="right-align">
         Created At 2021-10-08 02:06:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2863" class=".btn">#2863</a>
-            </td>
-            <td>
-                <b>
-                    Fixed build badge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed links for build and license badges: changed master to main.
-Fixed some typos.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 00:45:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2862" class=".btn">#2862</a>
-            </td>
-            <td>
-                <b>
-                    Common Bft forks schedule
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Create a common bft forks schedule that can be used between both ibft and qbft. This is necessary to add a bft transition for block period.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 23:46:32 +0000 UTC
     </div>
 </div>
 

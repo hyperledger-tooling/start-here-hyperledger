@@ -186,32 +186,3 @@ Mainly, these changes include:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/976" class=".btn">#976</a>
-            </td>
-            <td>
-                <b>
-                    Add update purchase order uid and version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds the update payload uid and accepted version number, as well as
-tests to verify the translation to and from protobuf.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 20:08:03 +0000 UTC
-    </div>
-</div>
-
