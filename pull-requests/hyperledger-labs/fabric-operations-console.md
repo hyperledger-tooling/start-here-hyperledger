@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/61" class=".btn">#61</a>
+            </td>
+            <td>
+                <b>
+                    Fix channel not found error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Error when getting channel Details because of `.values_map.Endpoints` being null. I have just changed the if condition. Let me know if this is acceptable.
+I am getting Null for Endpoint, but the `channel_group.values_map.OrdererAddresses.value.addresses_list` is successful
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-15 15:51:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/60" class=".btn">#60</a>
             </td>
             <td>
