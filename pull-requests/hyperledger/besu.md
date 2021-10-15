@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2909" class=".btn">#2909</a>
+            </td>
+            <td>
+                <b>
+                    Added log for validator selection mode transition
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+- Add a log message when validator selection mode changes between blocks
+- Notification logic implemented on `QbftTransitionNotifier`
+- Check happens upon creation of a new `QbftBlockHeighManager` in the corresponding factory. That means that we notify before the transition actually happens, to help diagnose any issues with the transition that is about to happen (e.g. wrong address for the validator contract).
+
+Example messages:
+```
+Transitioning validator selection mode from BLOCKHEADER to ADDRESS(0x0000000000000000000000000000000000008888)
+
+Transitioning validator selection mode from ADDRESS(0x0000000000000000000000000000000000008888) to BLOCKHEADER
+
+Transitioning validator selection mode from ADDRESS(0x0000000000000000000000000000000000008888) to ADDRESS(0x0000000000000000000000000000000000007777)
+```
+
+## Fixed Issue(s)
+fixes #2784
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-15 01:53:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2908" class=".btn">#2908</a>
             </td>
             <td>
@@ -213,7 +258,7 @@ Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span><span class="chip">consensus</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -768,106 +813,6 @@ Fixes https://github.com/hyperledger/besu/issues/2868
     </table>
     <div class="right-align">
         Created At 2021-10-11 07:43:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2866" class=".btn">#2866</a>
-            </td>
-            <td>
-                <b>
-                    Leave block p2p messages enabled
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-To support following the chain prior to TTD being reached, the NEW_BLOCK_HASHES and NEW_BLOCK messages must remain enabled.  
-
-Potentially validation could/should be added to reject an new blocks if their parent already meets the total difficulty requirement for transition but that likely should live in the block import code rather than the networking code. That hasn't been done in this PR.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 04:29:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2865" class=".btn">#2865</a>
-            </td>
-            <td>
-                <b>
-                    Added support for PKCS11 keystore on PKI Block Creation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-- Extracted nested `KeyStoreWrapperProvider` interface into its own file
-- Created a default implementation of this interface that takes care of instantiating the correct `KeyStoreWrapper` based on the type configuration.
-
-## Fixed Issue(s)
-fixes #2764 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 02:15:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2864" class=".btn">#2864</a>
-            </td>
-            <td>
-                <b>
-                    Fixed build badge: image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-master.svg -> main.svg
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 02:06:22 +0000 UTC
     </div>
 </div>
 
