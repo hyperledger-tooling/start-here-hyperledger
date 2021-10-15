@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2985" class=".btn">#2985</a>
+            </td>
+            <td>
+                <b>
+                    Gateway endorsement retry logic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rather than selecting one layout from the discovery endorsement plan and failing if one of the endorsers fails, this commit attempts to create a set of endorsements by retrying the proposal on other endorser until one of the layouts is satisfied.
+Additionally, rather than connect to all peers in a channel once on first usage and then never update that cache, this commit adds support for later additions and removals to/from the cache and closing stale connections to peers.
+
+Resolves #2914 
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-15 15:20:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2982" class=".btn">#2982</a>
             </td>
             <td>
@@ -89,36 +121,6 @@ After this patch is merged, I'm going to submit the following related patches as
     </table>
     <div class="right-align">
         Created At 2021-10-14 04:21:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2978" class=".btn">#2978</a>
-            </td>
-            <td>
-                <b>
-                    Improve health checker docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add more details about health checkers, including ability
-to not register Docker health checker if using
-external chaincode builders.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 14:34:53 +0000 UTC
     </div>
 </div>
 

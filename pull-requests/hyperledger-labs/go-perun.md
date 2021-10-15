@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/243" class=".btn">#243</a>
+            </td>
+            <td>
+                <b>
+                    :bug: :white_check_mark: Attempt at fixing Ethereum subscription race test deadlock
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Should close #237 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-15 14:00:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/242" class=".btn">#242</a>
             </td>
             <td>

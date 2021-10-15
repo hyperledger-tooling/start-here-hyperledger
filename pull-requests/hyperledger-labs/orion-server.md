@@ -95,35 +95,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/194" class=".btn">#194</a>
-            </td>
-            <td>
-                <b>
-                    maintain order between -ve and +ve number
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">query support</span>
-            </td>
-            <td>
-                This commits make the -ve number appear first
-in the order before the +ve number. Further,
-the value order is preserved too (i.e., -1000
-appear before -100 and -90 appears before 10,
-and so on)
-
-Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 12:48:54 +0000 UTC
-    </div>
-</div>
-

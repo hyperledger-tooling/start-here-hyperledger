@@ -114,31 +114,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/150" class=".btn">#150</a>
-            </td>
-            <td>
-                <b>
-                    Method `CallView` from package `web` able to send correct inputs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Details you can found in this issue: https://github.com/hyperledger-labs/fabric-smart-client/issues/147
-
-Signed-off-by: Alex Shehovcov <alex.shehovcov@482.solutions>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 15:55:05 +0000 UTC
-    </div>
-</div>
-
