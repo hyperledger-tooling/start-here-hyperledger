@@ -1,13 +1,13 @@
 
-[654](https://github.com/hyperledger-labs/business-partner-agent/pull/654) Selected Credential not being used in backend
+[59](https://github.com/hyperledger-labs/mirbft/pull/59) Fixed broken go yaml.v2 installation.
 
-[323](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/323) small changes to docs with link to secure identities directories
+[2909](https://github.com/hyperledger/besu/pull/2909) Added log for validator selection mode transition
 
-[1445](https://github.com/hyperledger/aries-cloudagent-python/pull/1445) fix: help text for open-mediation flag
+[81](https://github.com/hyperledger/aries-staticagent-python/pull/81) chore: bump version for 0.9.0-pre4
 
-[2908](https://github.com/hyperledger/besu/pull/2908) Always copy create code
+[80](https://github.com/hyperledger/aries-staticagent-python/pull/80) fix: export new components from package
 
-[242](https://github.com/hyperledger-labs/go-perun/pull/242) Abstraction of wire serializartion (1/5)
+[79](https://github.com/hyperledger/aries-staticagent-python/pull/79) feat: add helper for extracting recipients from packed message
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
