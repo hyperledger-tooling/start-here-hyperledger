@@ -1,13 +1,13 @@
 
-[59](https://github.com/hyperledger-labs/mirbft/pull/59) Fixed broken go yaml.v2 installation.
+[121](https://github.com/hyperledger-labs/fabric-token-sdk/pull/121) Added FPC support to Token Topology
 
-[2909](https://github.com/hyperledger/besu/pull/2909) Added log for validator selection mode transition
+[520](https://github.com/hyperledger/fabric-sdk-node/pull/520) fix: upgrade protobufjs from 6.9.0 to 6.10.2
 
-[81](https://github.com/hyperledger/aries-staticagent-python/pull/81) chore: bump version for 0.9.0-pre4
+[156](https://github.com/hyperledger-labs/fabric-smart-client/pull/156) Added Fabric topology flexibility
 
-[80](https://github.com/hyperledger/aries-staticagent-python/pull/80) fix: export new components from package
+[165](https://github.com/hyperledger/iroha-java/pull/165) Iroha-114: Make all collections in generated data models immutable
 
-[79](https://github.com/hyperledger/aries-staticagent-python/pull/79) feat: add helper for extracting recipients from packed message
+[60](https://github.com/hyperledger-labs/mirbft/pull/60) Chat demo
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

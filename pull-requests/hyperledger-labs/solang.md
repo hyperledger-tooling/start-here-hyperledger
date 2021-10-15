@@ -166,29 +166,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/518" class=".btn">#518</a>
-            </td>
-            <td>
-                <b>
-                    Cast ternary expressions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Iwan Waitusenok <sleepplease@protonmail.ch>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 11:57:30 +0000 UTC
-    </div>
-</div>
-

@@ -239,34 +239,3 @@ Resolves #1711
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1702" class=".btn">#1702</a>
-            </td>
-            <td>
-                <b>
-                    update compatibility table and NPM prerequisite
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Add NPM prerequisite section
-- Update compatibility table 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 06:38:11 +0000 UTC
-    </div>
-</div>
-
