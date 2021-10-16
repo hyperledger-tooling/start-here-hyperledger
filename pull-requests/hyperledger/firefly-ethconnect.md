@@ -248,33 +248,3 @@ Release the `batchCond` lock, before consuming from the `updateInterrupt` channe
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/161" class=".btn">#161</a>
-            </td>
-            <td>
-                <b>
-                    Make requestABIId omitempty
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Two small observations in e2e testing of #159 fix:
-- `requestABIId` does not have `omitempty`
-  - Change made here
--  Would be helpful to fill this in, for the case we generated the ABI ID from the request ID, to make it clear we did that
-  - This is actually really hard, due to where it's assigned. So suggesting we do not action this.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 22:41:08 +0000 UTC
-    </div>
-</div>
-
