@@ -146,31 +146,3 @@ Signed-off-by: Timo Glastra <timo@animo.id>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1437" class=".btn">#1437</a>
-            </td>
-            <td>
-                <b>
-                    Fix issue with cred limit on presentation endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-See issue https://github.com/hyperledger/aries-cloudagent-python/issues/1436
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 23:24:01 +0000 UTC
-    </div>
-</div>
-

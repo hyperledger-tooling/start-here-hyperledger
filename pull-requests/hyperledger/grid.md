@@ -212,35 +212,3 @@ Previously, this action assumed the intended `workflow` status based on the stat
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/977" class=".btn">#977</a>
-            </td>
-            <td>
-                <b>
-                    Add JWT support for Splinter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds further Cylinder JWT support throughout the daemon, where Splinter components are accessed. All of the updates in this PR are behind the experimental `cylinder-jwt-support` feature. 
-
-Mainly, these changes include:
-* Generate Grid's JWT at run-time within the `run_splinter` method
-* Updates the `SplinterBackendClient` to have an `authorization` field, added by the `new` constructor. This authorization field is now used by each of the backend client's methods.
-* Updates the Splinter-specific application authorization handler (which contains functions for verifying a Splinter node's ID and status) to take the JWT generated in the `run_splinter` method to use when accessing Splinter endpoints. 
-* Updates the event processors used to handle state change events from Scabbard to include authorization in the websocket set up to listen for these events.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 18:36:12 +0000 UTC
-    </div>
-</div>
-
