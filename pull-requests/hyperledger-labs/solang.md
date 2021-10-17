@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/527" class=".btn">#527</a>
+            </td>
+            <td>
+                <b>
+                    docs: `git clone --depth 1` for installation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prevents downloading unneeded git history.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-17 00:23:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/526" class=".btn">#526</a>
             </td>
             <td>
