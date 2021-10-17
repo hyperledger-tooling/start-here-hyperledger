@@ -92,32 +92,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/197" class=".btn">#197</a>
-            </td>
-            <td>
-                <b>
-                    test flake in TestBlockReplicator_Submit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">replication</span>
-            </td>
-            <td>
-                Address the test flake in TestBlockReplicator_Submit/normal_flow:_blocked_submit
-as described in issue #195
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-10 12:43:44 +0000 UTC
-    </div>
-</div>
-
