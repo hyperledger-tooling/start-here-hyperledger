@@ -89,29 +89,3 @@ I am getting Null for Endpoint, but the `channel_group.values_map.OrdererAddress
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/58" class=".btn">#58</a>
-            </td>
-            <td>
-                <b>
-                    enable node ou - default
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-10 01:58:47 +0000 UTC
-    </div>
-</div>
-
