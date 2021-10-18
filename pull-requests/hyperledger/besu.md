@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2917" class=".btn">#2917</a>
+            </td>
+            <td>
+                <b>
+                    EVM Speed Improvements for MLOAD
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR Description
+
+More EVM Speed Improvements aimed at improving MLOAD times.
+* Move Memory from raw bytes to byte array
+* Add calls for 32 byte MSB aligned copies
+* Remove `incrementProgramCounter` and move data into OperationResult
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-18 00:19:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2916" class=".btn">#2916</a>
             </td>
             <td>
@@ -129,11 +167,11 @@ fix for #2705
 
 Example messages:
 ```
-Transitioning validator selection mode from BLOCKHEADER to ADDRESS(0x0000000000000000000000000000000000008888)
+Transitioning validator selection mode from blockheader to contract (address: 0x0000000000000000000000000000000000008888)
 
-Transitioning validator selection mode from ADDRESS(0x0000000000000000000000000000000000008888) to BLOCKHEADER
+Transitioning validator selection mode from contract (address: 0x0000000000000000000000000000000000008888) to blockheader
 
-Transitioning validator selection mode from ADDRESS(0x0000000000000000000000000000000000008888) to ADDRESS(0x0000000000000000000000000000000000007777)
+Transitioning validator selection mode from contract (address: 0x0000000000000000000000000000000000008888) to contract (address: 0x0000000000000000000000000000000000007777)
 ```
 
 ## Fixed Issue(s)

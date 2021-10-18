@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1448" class=".btn">#1448</a>
+            </td>
+            <td>
+                <b>
+                    Endorser protocol updates - refactor to use event bus
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add a function to the protocol to (potentially) subscribe to events
+
+Register/subscribe to all protocol events on aca-py startup
+
+Add meta-data to the endorser transaction record to pass information downstream (e.g. save cred def revocation info so it's available to the revocation registry tasks)
+
+(see https://hackmd.io/51flx8CVS1ypyOjEqVl1tg?view#Implementation-Details)
+
+There are some issues when running with askar but I will deal with those on a separate PR
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-17 23:42:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1446" class=".btn">#1446</a>
             </td>
             <td>

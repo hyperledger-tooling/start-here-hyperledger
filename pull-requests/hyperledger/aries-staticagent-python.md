@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/82" class=".btn">#82</a>
+            </td>
+            <td>
+                <b>
+                    Add get_nowait and return messages in queue on flush
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-17 19:13:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/81" class=".btn">#81</a>
             </td>
             <td>
