@@ -273,31 +273,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/304" class=".btn">#304</a>
-            </td>
-            <td>
-                <b>
-                    Add lint checks to CI pipeline
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                PR #297 fixed the linting in the `chaincode/typescript` and `typescript_app` directories as per the ESLint and Prettier configuration. This PR will run the linting checks for both of these directories in separate jobs as part of the existing CI pipeline on GitHub actions, so that code style and formatting is enforced with every PR.
-
-Fixes #221 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-11 08:40:03 +0000 UTC
-    </div>
-</div>
-
