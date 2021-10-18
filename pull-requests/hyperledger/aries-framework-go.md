@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3017" class=".btn">#3017</a>
+            </td>
+            <td>
+                <b>
+                    feat: web-redirect support in present proof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - support in ack msgs
+- support in problem reports
+- SDK, command controller updates
+- bdd tests
+- Closes #3015
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-18 15:25:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3016" class=".btn">#3016</a>
             </td>
             <td>

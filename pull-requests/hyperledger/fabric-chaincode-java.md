@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/204" class=".btn">#204</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/206" class=".btn">#206</a>
             </td>
             <td>
                 <b>
-                    Make test less flaky by removing grpc exporter
+                    Include the exception cause
                 </b>
             </td>
         </tr>
@@ -27,14 +27,38 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
-
-This addresses #203 by removing the standard grpc exporter and relying instead on injecting our own exporter via a spi interface.
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-08 00:05:12 +0000 UTC
+        Created At 2021-10-18 14:41:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/205" class=".btn">#205</a>
+            </td>
+            <td>
+                <b>
+                    Include the exception cause
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-18 13:43:58 +0000 UTC
     </div>
 </div>
 

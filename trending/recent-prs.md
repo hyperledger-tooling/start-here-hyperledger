@@ -1,13 +1,13 @@
 
-[1712](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1712) [fabric] Ansible decoupling for create/crypto/orderer role
+[2919](https://github.com/hyperledger/besu/pull/2919) propagate the changelog and next version from RC3 release to main
 
-[3016](https://github.com/hyperledger/aries-framework-go/pull/3016) chore(deps): bump axios from 0.21.4 to 0.23.0 in /cmd/aries-js-worker
+[168](https://github.com/hyperledger/iroha-java/pull/168) Iroha-166: Update SDK model from the latest schema version
 
-[2917](https://github.com/hyperledger/besu/pull/2917) EVM Speed Improvements for MSTORE
+[3017](https://github.com/hyperledger/aries-framework-go/pull/3017) feat: web-redirect support in present proof
 
-[339](https://github.com/hyperledger/cello/pull/339) Added ports number mapping feature when the agent created nodes.
+[2988](https://github.com/hyperledger/fabric/pull/2988) Fix core/ledger/kvledger unit-test (#2987)
 
-[1448](https://github.com/hyperledger/aries-cloudagent-python/pull/1448) Endorser protocol updates - refactor to use event bus
+[340](https://github.com/hyperledger/fabric-test/pull/340) Update to latest patch of Node12
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
