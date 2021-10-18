@@ -14,6 +14,94 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2919" class=".btn">#2919</a>
+            </td>
+            <td>
+                <b>
+                    propagate the changelog and next version from RC3 release to main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+propagate changelog and version from RC3 branch to main
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-18 16:29:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2918" class=".btn">#2918</a>
+            </td>
+            <td>
+                <b>
+                    [#2454] Set gas fees to zero when simulating a transaction without enforcing balance checks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">documentation</span><span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                Before we set the sender balance to the maximum allowed, but this has
+side effects in smart contracts that use `msg.sender.balance`.
+
+Setting `strict` field to `false` in the `eth_call` call, forces gas fees to be set to zero,
+so the execution of the transaction is not constrained to the balance of the sender.
+
+
+Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+#2454 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-18 13:57:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2917" class=".btn">#2917</a>
             </td>
             <td>
@@ -814,73 +902,6 @@ fixes #2894
     </table>
     <div class="right-align">
         Created At 2021-10-12 03:23:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2872" class=".btn">#2872</a>
-            </td>
-            <td>
-                <b>
-                    Use web3j gradle plugin for acceptance tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Generate wrappers using web3j for all contracts in `./acceptance-tests/tests/contracts`
-
-Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-11 14:50:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2871" class=".btn">#2871</a>
-            </td>
-            <td>
-                <b>
-                    add jacoco store artifacts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-11 12:48:30 +0000 UTC
     </div>
 </div>
 

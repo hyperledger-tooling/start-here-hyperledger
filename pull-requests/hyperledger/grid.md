@@ -184,31 +184,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/978" class=".btn">#978</a>
-            </td>
-            <td>
-                <b>
-                    Update "create po" smart contract action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change updates the "create po" action implementation to handle the `workflow_status` now present in the `CreatePurchaseOrderPayload` and the `CreateVersionPayload`. 
-
-Previously, this action assumed the intended `workflow` status based on the state of the payload. Now, the purchase order is created with the intended `workflow_status` in mind and this transition is validated rather than what the action assumes the desired workflow state is. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-11 15:52:09 +0000 UTC
-    </div>
-</div>
-

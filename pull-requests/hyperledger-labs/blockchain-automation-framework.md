@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1714" class=".btn">#1714</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Issue 1665
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Update role validation
+
+ 
+
+**Reviewed by**
+@pppazos
+
+ 
+
+**Linked issue**
+#1665 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-18 12:30:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1712" class=".btn">#1712</a>
             </td>
             <td>
@@ -146,36 +184,6 @@ Resolves #1711
     </table>
     <div class="right-align">
         Created At 2021-10-12 13:01:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1707" class=".btn">#1707</a>
-            </td>
-            <td>
-                <b>
-                    updated code owners and maintainers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Update code owners and maintainers
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-11 12:51:05 +0000 UTC
     </div>
 </div>
 

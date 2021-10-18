@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1530" class=".btn">#1530</a>
+            </td>
+            <td>
+                <b>
+                    Added boolean-based asset mintability check.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+### Description of the Change
+
+Added a boolean to check if the asset definition allows mintability of an asset. 
+
+### Issue
+
+[#1139](https://app.zenhub.com/workspaces/iroha-v2-60ddb820813b9100181fc060/issues/hyperledger/iroha/1139)
+
+
+### Benefits
+
+Assets could be made unmintable at creation time. 
+
+### Possible Drawbacks
+
+More memory footprint. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-18 14:03:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1527" class=".btn">#1527</a>
             </td>
             <td>
@@ -412,62 +456,6 @@ Use `Box<dyn Subscriber>` as the return type of `crate::logger::init()`. It redu
     </table>
     <div class="right-align">
         Created At 2021-10-12 07:50:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1517" class=".btn">#1517</a>
-            </td>
-            <td>
-                <b>
-                    GaroRobe/issue1485
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Added a new query - FindTransactionByHash. Will search a confirmed or rejected transaction by hash value.
-
-### Benefits
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks 
-
-Doesn't account for any permissions or domains. Which might be wrong or need a setting.
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-11 14:30:54 +0000 UTC
     </div>
 </div>
 
