@@ -142,29 +142,3 @@ My main goal was just to include the word "Solana" in the `h1`, but I added the 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/522" class=".btn">#522</a>
-            </td>
-            <td>
-                <b>
-                    Fix cfg for modifiers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Iwan Waitusenok <sleepplease@protonmail.ch>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-10 18:37:29 +0000 UTC
-    </div>
-</div>
-

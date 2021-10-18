@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/206" class=".btn">#206</a>
+            </td>
+            <td>
+                <b>
+                    Release txs in block-creator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">replication</span>
+            </td>
+            <td>
+                When the replicator rejects a block, release TXs in the block from the PendingTxs queue.
+
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-17 19:47:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/205" class=".btn">#205</a>
             </td>
             <td>

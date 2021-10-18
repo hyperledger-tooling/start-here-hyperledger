@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/339" class=".btn">#339</a>
+            </td>
+            <td>
+                <b>
+                    Added ports number mapping feature when the agent created nodes.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To make Fabric node services' ports available to other services outside of Docker.
+
+Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-17 23:44:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/337" class=".btn">#337</a>
             </td>
             <td>
