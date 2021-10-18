@@ -1,5 +1,5 @@
 
-[2917](https://github.com/hyperledger/besu/pull/2917) EVM Speed Improvements for MLOAD
+[2917](https://github.com/hyperledger/besu/pull/2917) EVM Speed Improvements for MSTORE
 
 [339](https://github.com/hyperledger/cello/pull/339) Added ports number mapping feature when the agent created nodes.
 
