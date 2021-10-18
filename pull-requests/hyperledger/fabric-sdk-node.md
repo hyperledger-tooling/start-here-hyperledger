@@ -141,32 +141,3 @@ Co-authored-by: Deepak Singh <deepak.singh2@dltlabs.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/512" class=".btn">#512</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] use override than type check switch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                An attempt to move if type=='query' check code block to inherit class
-instead of expose too much subclass implementation detail in superclass
-
-Signed-off-by: DavidLiu <david.yx.liu@oracle.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-11 04:01:33 +0000 UTC
-    </div>
-</div>
-

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    EVM Speed Improvements for MLOAD
+                    EVM Speed Improvements for MSTORE
                 </b>
             </td>
         </tr>
@@ -29,9 +29,9 @@ permalink: /pull-requests/hyperledger/besu
             <td>
                 ## PR Description
 
-More EVM Speed Improvements aimed at improving MLOAD times.
+More EVM Speed Improvements aimed at improving MSTORE times.
 * Move Memory from raw bytes to byte array
-* Add calls for 32 byte MSB aligned copies
+* Add calls for 32 byte MSB aligned writes
 * Remove `incrementProgramCounter` and move data into OperationResult
 
 Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
