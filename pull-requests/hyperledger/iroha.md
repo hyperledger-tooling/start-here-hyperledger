@@ -429,7 +429,7 @@ Use `Box<dyn Subscriber>` as the return type of `crate::logger::init()`. It redu
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
@@ -468,32 +468,6 @@ Doesn't account for any permissions or domains. Which might be wrong or need a s
     </table>
     <div class="right-align">
         Created At 2021-10-11 14:30:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1515" class=".btn">#1515</a>
-            </td>
-            <td>
-                <b>
-                    Added myself to CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-11 06:40:22 +0000 UTC
     </div>
 </div>
 

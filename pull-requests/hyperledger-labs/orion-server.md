@@ -90,33 +90,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/202" class=".btn">#202</a>
-            </td>
-            <td>
-                <b>
-                    Release transactions with error from PendingTxs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">replication</span>
-            </td>
-            <td>
-                - Add a ReleaseWithError method to PendingTxs queue
-- Add a link to PendindTxs queue to block-creator & block-replicator
-- Functinality of block-creator & block-replicator in later commits
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-11 07:37:30 +0000 UTC
-    </div>
-</div>
-

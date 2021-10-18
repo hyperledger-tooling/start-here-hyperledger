@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1712" class=".btn">#1712</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Ansible decoupling for create/crypto/orderer role
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+- Fix sintax error in ca chart
+- Update ca-tools chart to perform the functionality performed by create / crytpyo / orderer
+- Delete  create / crytpyo / orderer role
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar
+@alvaropicazo
+@jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1574 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-18 09:18:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1710" class=".btn">#1710</a>
             </td>
             <td>
@@ -132,73 +176,6 @@ Resolves #1711
     </table>
     <div class="right-align">
         Created At 2021-10-11 12:51:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1706" class=".btn">#1706</a>
-            </td>
-            <td>
-                <b>
-                    [chore] release merged 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Add ethash and clique consensus code and documentation for Besu
-- Fix multiple k8s context in kubeconfig file
-
-
- 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-11 10:00:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1705" class=".btn">#1705</a>
-            </td>
-            <td>
-                <b>
-                    update roadmap for post release v0.10.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Update roadmap
- 
-
-**Linked issue**
-#1668 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-11 07:41:00 +0000 UTC
     </div>
 </div>
 
