@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                Fixes #339 
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>

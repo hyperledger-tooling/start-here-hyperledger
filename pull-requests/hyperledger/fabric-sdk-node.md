@@ -14,38 +14,6 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/520" class=".btn">#520</a>
-            </td>
-            <td>
-                <b>
-                    fix: upgrade protobufjs from 6.9.0 to 6.10.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Snyk has created this PR to upgrade protobufjs from 6.9.0 to 6.10.2.
-
-See this package in npm:
-https://www.npmjs.com/package/protobufjs
-
-See this project in Snyk:
-https://app.snyk.io/org/qdigital/project/54e5713b-c8f6-4d64-ac72-ab0f92114d39?utm_source=github&utm_medium=upgrade-pr
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 11:50:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/519" class=".btn">#519</a>
             </td>
             <td>
