@@ -101,29 +101,3 @@ It's better to:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1139" class=".btn">1139</a>
-            </td>
-            <td>
-                <b>
-                    Set mintability of assets on asset creation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                When assets are created, they should be able to be set as mintable or unmintable when creating the asset.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-12 11:42:31 +0000 UTC
-    </div>
-</div>
-
