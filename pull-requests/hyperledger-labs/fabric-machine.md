@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/5" class=".btn">#5</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/6" class=".btn">#6</a>
             </td>
             <td>
                 <b>
-                    [Misc] Updates documentation.
+                    feat: bcm protocol software receiver
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
                 
             </td>
             <td>
-                Signed-off-by: Haris Javaid <harisj@xilinx.com>
+                Signed-off-by: U-XLNX\jamiey <jamiey@XSJJAMIEY30.xlnx.xilinx.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-17 03:50:28 +0000 UTC
+        Created At 2021-10-19 01:16:26 +0000 UTC
     </div>
 </div>
 
