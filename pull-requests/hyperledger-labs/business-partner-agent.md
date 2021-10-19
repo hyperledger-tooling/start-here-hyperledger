@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/658" class=".btn">#658</a>
+            </td>
+            <td>
+                <b>
+                    Small wording changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Presentation Request accepted -> Proof has been sent
+Organization profile now has an edit button, so remove instructions to go to the edit page. 
+
+Signed-off-by: Jason Sy <jasyrotuck@gmail.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/658"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 18:17:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/657" class=".btn">#657</a>
             </td>
             <td>
