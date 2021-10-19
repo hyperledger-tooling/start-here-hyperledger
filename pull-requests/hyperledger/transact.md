@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/221" class=".btn">#221</a>
+            </td>
+            <td>
+                <b>
+                    Limit recursion to same tree ID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change limits the SQL recursion to the same tree_id.  This prevents an issue where the existence of multiple trees with duplicate structure creates an infinite loop in SQLite.
+
+The same change has been applied to the recursive queries in Postgres.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 15:27:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/220" class=".btn">#220</a>
             </td>
             <td>
@@ -121,32 +150,6 @@ This allows migrations to be run in instances where the caller does not have acc
     </table>
     <div class="right-align">
         Created At 2021-10-12 20:56:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/216" class=".btn">#216</a>
-            </td>
-            <td>
-                <b>
-                    Release notes for 0.3.11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-12 15:01:34 +0000 UTC
     </div>
 </div>
 

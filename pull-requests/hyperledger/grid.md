@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/989" class=".btn">#989</a>
+            </td>
+            <td>
+                <b>
+                    Implement list/show revisions in the reqwest client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This implements the `list_purchase_order_revisions` and `get_purchase_order_revision` functions in the reqwest client.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 17:51:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/988" class=".btn">#988</a>
+            </td>
+            <td>
+                <b>
+                    Update purchase order to use actix path tuples
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Actix requires that all URL params are defined in a single path tuple.
+This change allows actix to correctly process requests to specific
+purchase order endpoints.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 15:06:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/984" class=".btn">#984</a>
             </td>
             <td>
@@ -152,35 +208,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-13 19:14:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/979" class=".btn">#979</a>
-            </td>
-            <td>
-                <b>
-                    Add update purchase order action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds an implementation of the update purchase order action
-to Grid contracts.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-12 17:58:41 +0000 UTC
     </div>
 </div>
 
