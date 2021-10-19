@@ -151,32 +151,3 @@ Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/309" class=".btn">#309</a>
-            </td>
-            <td>
-                <b>
-                    docs(minikube): add vault setup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Added docs explaining all the environment variable used in `typecript_app`
-- docs for setting up vault server in minikube.
-
-Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-12 12:05:44 +0000 UTC
-    </div>
-</div>
-

@@ -153,12 +153,20 @@ propagate changelog and version from RC3 branch to main
                 <span class="chip">bug</span><span class="chip">documentation</span><span class="chip">doc-change-required</span>
             </td>
             <td>
-                Before we set the sender balance to the maximum allowed, but this has
+                Before, when the `strict` was set to `false`, we set the sender balance to the maximum allowed, but this had
 side effects in smart contracts that use `msg.sender.balance`.
 
-Setting `strict` field to `false` in the `eth_call` call, forces gas fees to be set to zero,
+With this change, setting `strict` field to `false` in the `eth_call` call, forces gas fees to be set to zero,
 so the execution of the transaction is not constrained to the balance of the sender.
 
+There are limitations on what can be simulated with `strict: false`:
+
+- The sender cannot send a value higher than its balance.
+- Be aware that `gasPrice` and `baseFee` are set to zero, when simulating smart contract calls.
+
+Removing these limitations requires some effort to add a simulation mode to the way transaction are processed,
+that do not seem to be worth, since an user could always use an account with enough balance on a test network,
+to simulate the call.
 
 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
 
@@ -834,131 +842,6 @@ Closes #2890
     </table>
     <div class="right-align">
         Created At 2021-10-12 23:16:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2881" class=".btn">#2881</a>
-            </td>
-            <td>
-                <b>
-                    Qbft RPCs should read validators from the contract when in contract mode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ~Created a partial copy of the ForkingValidatorProvider in order to use a read-only version of the BlockValidatorProvider (which contains its own voteTallyCache).~
-
-Create readOnlyValidatorProvider in QbftBesuControllerBuilder and pass into QbftJsonRpcMethods constructor (better than using protocolContext as is only used once when creating the RPCs
-
-This requires storing transactionValidatorProvider in a field and relying on its earlier creation during createConsensusContext()
-
-Fixes https://github.com/hyperledger/besu/issues/2795
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-12 09:50:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2880" class=".btn">#2880</a>
-            </td>
-            <td>
-                <b>
-                    change version 21.10.0-RC3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-change version 21.10.0-RC3
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-12 08:17:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2878" class=".btn">#2878</a>
-            </td>
-            <td>
-                <b>
-                    Release 21.10.0-RC2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-12 06:38:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2876" class=".btn">#2876</a>
-            </td>
-            <td>
-                <b>
-                    Release 21.10.0-RC2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-12 06:25:23 +0000 UTC
     </div>
 </div>
 
