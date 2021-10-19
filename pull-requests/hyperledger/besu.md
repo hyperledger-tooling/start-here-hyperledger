@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2924" class=".btn">#2924</a>
+            </td>
+            <td>
+                <b>
+                    Simplify clock in ValidatorContractTest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 05:56:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2923" class=".btn">#2923</a>
+            </td>
+            <td>
+                <b>
+                    QBFT Contract based validators Acceptance test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span><span class="chip">consensus</span>
+            </td>
+            <td>
+                ## PR description
+Add Acceptance test for QBFT contract based validators [#2620]
+
+Signed-off-by: Usman Saleem <usman@usmans.info>
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 03:12:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2922" class=".btn">#2922</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed some typos
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 01:11:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2919" class=".btn">#2919</a>
             </td>
             <td>
@@ -488,6 +573,18 @@ Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
 ## PR description
 Allow the Bft block period to be changed using a transition. This allows the block period to be changed in either IBFT2 or QBFT.
 
+Example configuration for ibft2 to change the block period to 4 seconds at block 1240 would be:
+```
+"transitions": {
+	"ibft2": [
+		{
+			"block": 1240,
+			"blockperiodseconds": 4
+		}
+	]
+}
+```		
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
@@ -862,46 +959,6 @@ change version 21.10.0-RC3
     </table>
     <div class="right-align">
         Created At 2021-10-12 06:25:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2874" class=".btn">#2874</a>
-            </td>
-            <td>
-                <b>
-                    Qbft validator selection was incorrectly being applied to non validator selection mode transitions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Qbft validation selection was incorrectly being applied for non validator selection mode transitions. This was caused by the QbftProtocolSchedule not considering the current validator selection mode. The BftForksSchedule has been added to the QbftProtocolSchedule so that current mode is used even when the transition is not for changing the validation selection mode.
-
-fixes #2894
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-12 03:23:08 +0000 UTC
     </div>
 </div>
 
