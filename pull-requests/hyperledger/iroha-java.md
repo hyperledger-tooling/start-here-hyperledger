@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/163" class=".btn">#163</a>
-            </td>
-            <td>
-                <b>
-                    Iroha-112: JAR with source code and javadoc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-13 06:20:54 +0000 UTC
-    </div>
-</div>
-

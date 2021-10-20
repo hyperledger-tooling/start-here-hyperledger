@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1539" class=".btn">#1539</a>
+            </td>
+            <td>
+                <b>
+                    Fixup configure endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+This pr fixes configure endpoint and changes its API, also adding regression tests for it.
+
+### Issue
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 11:18:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1538" class=".btn">#1538</a>
             </td>
             <td>
@@ -347,7 +406,7 @@ More memory footprint.
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
@@ -533,32 +592,6 @@ Added configuration parameters into configs of all Actor implementations, defini
     </table>
     <div class="right-align">
         Created At 2021-10-14 07:17:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1521" class=".btn">#1521</a>
-            </td>
-            <td>
-                <b>
-                    FIx MST expiration #1488, #1489, #1490
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-13 08:23:43 +0000 UTC
     </div>
 </div>
 
