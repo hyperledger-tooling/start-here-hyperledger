@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1718" class=".btn">#1718</a>
+            </td>
+            <td>
+                <b>
+                    Add Weihong as a maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add @weihong-ou as a committer and a code-owner.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 17:54:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1716" class=".btn">#1716</a>
             </td>
             <td>

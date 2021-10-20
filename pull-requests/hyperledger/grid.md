@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/994" class=".btn">#994</a>
+            </td>
+            <td>
+                <b>
+                    Base grid-cli on focal instead of sabre-cli
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previously we had a need for sabre cli alongside the grid cli but this is no
+longer the case.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 15:58:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/990" class=".btn">#990</a>
             </td>
             <td>

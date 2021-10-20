@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/224" class=".btn">#224</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in rustdoc for SabreContext.add_receipt_data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 17:55:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/223" class=".btn">#223</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0-3: Limit recursion to same tree ID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Back-port of #221 to 0-3
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 16:38:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/222" class=".btn">#222</a>
             </td>
             <td>
@@ -121,35 +173,6 @@ If a command workload is being run and the batch result doesn't match the expect
     </table>
     <div class="right-align">
         Created At 2021-10-13 18:51:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/218" class=".btn">#218</a>
-            </td>
-            <td>
-                <b>
-                    Allow migrations to be run against a single connection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change allows the user to run the migrations directly against a reference to a diesel connection.  It accomplishes this by re-exporting the database-specific migration functions directly from the migration module.
-
-This allows migrations to be run in instances where the caller does not have access to a pool or the connection string, and therefore cannot use a `Backend` instance via the `MigrationManager`.
- 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-13 16:29:53 +0000 UTC
     </div>
 </div>
 

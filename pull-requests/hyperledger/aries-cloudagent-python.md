@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1450" class=".btn">#1450</a>
+            </td>
+            <td>
+                <b>
+                    Endorser protocol askar fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add askar support to integration test script (`./demo/run_bdd`)
+
+Fix database locking errors (similar issues as were fixed in PR https://github.com/hyperledger/aries-cloudagent-python/pull/1439)
+
+Fix/cleanup unit tests
+
+WIP, current status is:
+- several unit tests are failing (fixes are in progress)
+- `./run_bdd` all tests pass (indy-sdk, default wallet)
+- `ACAPY_ARG_FILE=postgres-indy-args.yml ./run_bdd` all tests pass (indy-sdk, postgres wallet)
+- `BDD_EXTRA_AGENT_ARGS="{\"wallet-type\":\"askar\"}" ./run_bdd` tests fails due to database locking issue (askar/credx, default wallet)
+- `BDD_EXTRA_AGENT_ARGS="{\"wallet-type\":\"askar\"}" ACAPY_ARG_FILE=postgres-indy-args.yml ./run_bdd` all tests pass (askar/credx, postgres wallet)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 13:48:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1448" class=".btn">#1448</a>
             </td>
             <td>
@@ -94,32 +132,6 @@ There are some issues when running with askar but I will deal with those on a se
     </table>
     <div class="right-align">
         Created At 2021-10-14 19:07:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1442" class=".btn">#1442</a>
-            </td>
-            <td>
-                <b>
-                    Add missing param to ws protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-13 15:08:04 +0000 UTC
     </div>
 </div>
 
