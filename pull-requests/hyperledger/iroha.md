@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1538" class=".btn">#1538</a>
+            </td>
+            <td>
+                <b>
+                    Iroha2 CI improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span><span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+Refactored the pr-workflows to be more parallelisable and granular. This should help in case a heavy workload needs to be re-run (e.g. it exited with `SIGKILL`). This should also reduce waiting times for longer workloads as more workflows can be run concurrently.
+
+### Issue
+
+#1526 
+
+### Benefits
+
+Shorter CI turnaround. Ability to re-run only the heavy workflows. 
+
+### Possible Drawbacks
+
+None at the moment
+
+### Usage Examples 
+
+Suppose PR #XXXX is blocked by a failing `print-telemetry` job, which exited with SIGKILL. This is likely because of using too much memory and being killed by the server, so instead of pushing, it's better to just re-run the heavy workflow, rather than re-run all the workflows. 
+
+### THIS IS A DRAFT PR. Please do not merge, just comment. 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 05:14:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1537" class=".btn">#1537</a>
             </td>
             <td>

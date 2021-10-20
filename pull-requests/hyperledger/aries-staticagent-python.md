@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/78" class=".btn">#78</a>
-            </td>
-            <td>
-                <b>
-                    Refine awaiting messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Having never been completely satisfied with the previous mechanism, this refactor seeks to simplify and solidify the message awaiting functionality of the static agent library. Rather than creating and tracking individual futures, these changes implement a new dispatcher that queues messages and provides a simple interface for retrieving messages from this queue. This dispatcher is temporarily installed using the `Connection.queue` context manager. On exit from the context, any messages that were received while queuing and not explicitly retrieved are passed to the main dispatcher for routing to handlers.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-13 03:00:04 +0000 UTC
-    </div>
-</div>
-
