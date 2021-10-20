@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-rfcs/pull/27" class=".btn">#27</a>
+                PR <a href="https://github.com/hyperledger/grid-rfcs/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    Add metadata to identity RFC
+                    Factory Certification RFC
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/grid-rfcs
                 
             </td>
             <td>
-                Adds the PR link and updates the title to include the RFC number
+                Opened for early visibility. Looking to port the factory certification features of [ConsenSource](https://github.com/target/consensource) into a reusable grid workflow/component. I have filled out the summary and motivation sections. 
+
+I believe we may be able to design the certificate data model generically enough to benefit other parts of Grid. "Grid Certificate" be its own RFC that could introduce different types of certifications, such as factory level certificates vs product level certificates. Would appreciate any thoughts/feedback 😄 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-04 19:33:31 +0000 UTC
+        Created At 2021-10-19 21:00:13 +0000 UTC
     </div>
 </div>
 

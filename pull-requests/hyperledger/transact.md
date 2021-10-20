@@ -127,29 +127,3 @@ This allows migrations to be run in instances where the caller does not have acc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/217" class=".btn">#217</a>
-            </td>
-            <td>
-                <b>
-                    Remove Clone constraint from Write, Prune
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change removes the `Clone` constraint from the `Write` and `Prune` traits.  This constraint makes it so that these traits cannot be boxed as the traits are not object-safe.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-12 20:56:36 +0000 UTC
-    </div>
-</div>
-
