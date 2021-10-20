@@ -74,35 +74,3 @@ permalink: /releases/hyperledger/firefly-ethconnect
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v3.0.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v3.0.2
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Fix use of GITHUB_REF in docker build by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/167
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.0.1...v3.0.2
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.0.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-10-12 20:09:49 +0000 UTC
-    </span>
-</div>
-
