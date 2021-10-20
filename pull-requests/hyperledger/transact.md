@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/222" class=".btn">#222</a>
+            </td>
+            <td>
+                <b>
+                    Multi-threaded bug fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a test for multi-threaded reads using merkle state implementations.  This test identified several issues with the SqlMerkleState sqlite and postgres implementations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 01:26:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/221" class=".btn">#221</a>
             </td>
             <td>
