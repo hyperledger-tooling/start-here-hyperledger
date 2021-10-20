@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/700" class=".btn">#700</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/703" class=".btn">#703</a>
             </td>
             <td>
                 <b>
-                    feat: rfc-0700: oob through redirect
+                    update all references from master to main
                 </b>
             </td>
         </tr>
@@ -27,18 +27,42 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                - RFC about how to send out-of-band invitation through redirect URLs for
-intended targets
-- Also covers redirect back from recipient to requestor
+                The default branch was recently renamed from master to main, but all references were still using master.
 
-Interested to hear any feedback!
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-12 14:16:01 +0000 UTC
+        Created At 2021-10-20 12:34:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/702" class=".btn">#702</a>
+            </td>
+            <td>
+                <b>
+                    update please ack to accepted
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                AIP 2.0 doesn't include support for please ack decorator, even though it is used in revocation notification and other protocols (issue credential and present proof I believe). We decided to add it to AIP 2.0 but I think we forgot. The state was also still proposed, so I updated it to "Active"
+
+Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 12:31:04 +0000 UTC
     </div>
 </div>
 

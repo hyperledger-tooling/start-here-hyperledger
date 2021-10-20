@@ -156,7 +156,15 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
                 
             </td>
             <td>
-                <nil>
+                - manually accept credential offer
+- decline credential proposal
+- decline credential offer
+
+for v1 and v2 indy credentials
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/655"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
             </td>
         </tr>
     </table>
@@ -232,39 +240,6 @@ Signed-off-by: Jason Sy <jasyrotuck@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-10-13 18:43:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/651" class=".btn">#651</a>
-            </td>
-            <td>
-                <b>
-                    Merge Credential Issuer And Holder Tables
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As a prerequisite for the manual credential proposal flow I had to merge the issuer and holder tables into one. Like this we have the same behavior as with the presentation flows. So in the ui the user will also see the credentials that have been received from a partner, and not only those that were issued.
-
-<img width="1183" alt="Screen Shot 2021-10-13 at 17 30 34" src="https://user-images.githubusercontent.com/13498217/137165405-0a9fb709-0990-45fa-b585-c73afc9f9d62.png">
-
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/651"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-13 15:27:16 +0000 UTC
     </div>
 </div>
 
