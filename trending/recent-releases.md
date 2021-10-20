@@ -1,5 +1,5 @@
 
-[v0.10.0](https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.10.0) v0.10.0
+[v0.9.0-20211019-01](https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.9.0-20211019-01) v0.9.0-20211019-01
 
 [v0.10.1](https://github.com/hyperledger/firefly/releases/tag/v0.10.1) v0.10.1
 

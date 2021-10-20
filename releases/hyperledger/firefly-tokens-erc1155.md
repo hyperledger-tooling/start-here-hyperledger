@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/firefly-tokens-erc1155
         <tr>
             <td colspan="2">
                 <b>
-                    v0.10.0
+                    v0.9.0-20211019-01
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.10.0
+                    v0.9.0-20211019-01
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger/firefly-tokens-erc1155
 * Do not use tokenIndex for fungible pools by @awrichar in https://github.com/hyperledger/firefly-tokens-erc1155/pull/35
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v0.9.0...v0.10.0
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v0.9.0...v0.9.0-20211019-01
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.10.0" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.9.0-20211019-01" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
