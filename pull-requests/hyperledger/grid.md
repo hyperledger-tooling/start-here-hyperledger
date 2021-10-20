@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/990" class=".btn">#990</a>
+            </td>
+            <td>
+                <b>
+                    Implement list/show version fns for reqwest client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This implements the functions to list and show PO versions in the reqwest client.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 20:11:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/989" class=".btn">#989</a>
             </td>
             <td>

@@ -38,31 +38,3 @@ Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/337" class=".btn">#337</a>
-            </td>
-            <td>
-                <b>
-                    Download binary files in docker image building process. 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Modified api-engine docker file, so the compiled code tools will be downloaded in the images building process. 
-
-Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-12 23:43:10 +0000 UTC
-    </div>
-</div>
-

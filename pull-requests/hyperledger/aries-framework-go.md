@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3022" class=".btn">#3022</a>
+            </td>
+            <td>
+                <b>
+                    feat: vcwallet presentproof - wait for done
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - wait for acknowledgement
+- wait for problem-report
+- support for web redirect info
+- closes #3021
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 22:59:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3020" class=".btn">#3020</a>
             </td>
             <td>

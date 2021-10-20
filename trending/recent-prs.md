@@ -1,13 +1,13 @@
 
-[658](https://github.com/hyperledger-labs/business-partner-agent/pull/658) Small wording changes
+[659](https://github.com/hyperledger-labs/business-partner-agent/pull/659) Remove Edit button on Add partner Profile
 
-[36](https://github.com/hyperledger/fabric-cli/pull/36) update go.sum to fix go mod issue
+[3022](https://github.com/hyperledger/aries-framework-go/pull/3022) feat: vcwallet presentproof - wait for done
 
-[989](https://github.com/hyperledger/grid/pull/989) Implement list/show revisions in the reqwest client
+[29](https://github.com/hyperledger/grid-rfcs/pull/29) Factory Certification RFC
 
-[529](https://github.com/hyperledger-labs/solang/pull/529) Code cleanups
+[64](https://github.com/hyperledger-labs/fabric-operations-console/pull/64) Fix component disappearances
 
-[264](https://github.com/hyperledger/grid-docs/pull/264) Update roadmap to reflect plans for Grid v0.3
+[2930](https://github.com/hyperledger/besu/pull/2930) fix difficulty gauge metric in stratumserver, add simple test coverage
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

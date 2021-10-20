@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/659" class=".btn">#659</a>
+            </td>
+            <td>
+                <b>
+                    Remove Edit button on Add partner Profile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix up render of html in i18n message resource.
+
+Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/659"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 23:46:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/658" class=".btn">#658</a>
             </td>
             <td>
@@ -233,38 +265,6 @@ Signed-off-by: Jason Sy <jasyrotuck@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-10-13 15:27:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/648" class=".btn">#648</a>
-            </td>
-            <td>
-                <b>
-                    Partner Select List bug - remove Invitations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also remove from dashboard counts and do not include in the chat message list.
-
-Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/648"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-12 19:50:16 +0000 UTC
     </div>
 </div>
 

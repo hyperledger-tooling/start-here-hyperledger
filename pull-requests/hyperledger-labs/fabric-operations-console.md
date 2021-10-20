@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/64" class=".btn">#64</a>
+            </td>
+            <td>
+                <b>
+                    Fix component disappearances
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes bug with status polling where a new component disappears 1 minute after it was added.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 20:34:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/63" class=".btn">#63</a>
             </td>
             <td>
