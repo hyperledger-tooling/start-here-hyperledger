@@ -75,29 +75,3 @@ It's better to:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1149" class=".btn">1149</a>
-            </td>
-            <td>
-                <b>
-                    Limit Block Files to 1 million Per Folder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Block files in the blocks storage should be limited to 1 million blocks. If more than 1 million files are in a block storage folder, new folders should be created so the 1 million file limit is not violated.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-07-13 08:34:51 +0000 UTC
-    </div>
-</div>
-
