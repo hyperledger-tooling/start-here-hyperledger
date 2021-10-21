@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/359" class=".btn">#359</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/369" class=".btn">#369</a>
             </td>
             <td>
                 <b>
-                    Add support for testing RFC-0044 mime types
+                    added a missing -t to the tags in yml
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                - Adds `/agent/start` backchannel POST command, which tells the backchannel to (re)start its agent, and includes a set of parameters to include in the agent's configuration (whether as command-line parameters, environment variables, or otherwise). Parameters have generic names on the AATH side, and must be translated by the backchannel for the given agent implementation. In this PR only one parameter is introduced, `mime-type` to specify the default mime type for the agent's outgoing messages as per Aries RFC 0044.
-- Adds support for `/agent/start` to afgo backchannel, handling the `mime-type` parameter.
-- Adds a new step that (re)starts a given agent with a given set of extra parameters.
-- Adds a BDD feature for RFC 0044, that restarts Acme and Bob with given default mime types, and performs didexchange to demonstrate permissive agent acceptance of incoming mime types.
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+This PR fixes the daily run for findy-b-dotnet runset.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-07 20:10:30 +0000 UTC
+        Created At 2021-10-20 20:11:04 +0000 UTC
     </div>
 </div>
 
@@ -43,7 +42,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/358" class=".btn">#358</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/368" class=".btn">#368</a>
             </td>
             <td>
                 <b>
@@ -61,7 +60,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-07 03:52:21 +0000 UTC
+        Created At 2021-10-17 03:52:19 +0000 UTC
     </div>
 </div>
 
@@ -69,11 +68,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/357" class=".btn">#357</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/367" class=".btn">#367</a>
             </td>
             <td>
                 <b>
-                    waits added to dotnet backchannel
+                    fix(LE CA issues): fixing Let's Encrypt CA expiration fallout
                 </b>
             </td>
         </tr>
@@ -82,14 +81,65 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Added waits for Connection, Issue Credential, and Proof. This should get us 5 passing tests. However there is an issue with the dotnet agent on issuing a credential when the test does a proposal. Details of this issue is documented in #356. More investigation on what is going on in that issue is required. 
+                - updating root CA for verity backchannel build
+- adding a warning in manage when a mobile agent is used
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-05 22:35:23 +0000 UTC
+        Created At 2021-10-15 20:39:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/366" class=".btn">#366</a>
+            </td>
+            <td>
+                <b>
+                    add a full suite of Media Type Profile negotiation tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Tests demonstrate OOB media-type-profile negotiation across different scenarios, including success and failure.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-15 14:31:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/364" class=".btn">#364</a>
+            </td>
+            <td>
+                <b>
+                    aries-vcx: credential proposal API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-14 15:03:11 +0000 UTC
     </div>
 </div>
 

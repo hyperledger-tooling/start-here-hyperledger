@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/57" class=".btn">#57</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/59" class=".btn">#59</a>
             </td>
             <td>
                 <b>
-                    21.7.4 release
+                    update to 21.10.0-RC3
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                update homebrew-besu version to 21.7.4
+                bump homebrew to 21.10.0-RC3 since we published 21.10.0-RC2 last release
+
+Signed-off-by: garyschulte <garyschulte@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-16 17:14:56 +0000 UTC
+        Created At 2021-10-15 18:35:20 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/482" class=".btn">#482</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/500" class=".btn">#500</a>
             </td>
             <td>
                 <b>
-                    fix(core): improved present-proof tests
+                    docs: receiving credentials
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                - Added some additional checking at the `proofs.test.ts`.
-- I mainly copied it from the `credentials.test.ts`, but I am not sure if this is the correct way.
-  - #363 mentions consistent tests ([eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest))
-
-Interested to hear some opinions on how we should deal with tests right now / in the future.
-
-resolves #481 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-11 10:38:51 +0000 UTC
+        Created At 2021-10-21 03:34:20 +0000 UTC
     </div>
 </div>
 
@@ -46,69 +40,11 @@ resolves #481
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/480" class=".btn">#480</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/499" class=".btn">#499</a>
             </td>
             <td>
                 <b>
-                    fix(core): export AgentMessage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Berend Sliedrecht <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 12:35:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/479" class=".btn">#479</a>
-            </td>
-            <td>
-                <b>
-                    fix(core): convert legacy prefix for inner msgs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit adds legacy type prefix support for CredentialPreview,
-PresentationPreview and SignatureDecorator.
-
-It does this by replacing the `did:sov:BzCbsNYhMrjHiqZDTUASHg;spec` legacy prefix with the newer `https://didcomm.org` prefix.
-
-Signed-off-by: Karim Stekelenburg <karim@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 13:21:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/478" class=".btn">#478</a>
-            </td>
-            <td>
-                <b>
-                    docs: update dev readme with changed setup
+                    docs: web socket transport is supported
                 </b>
             </td>
         </tr>
@@ -122,7 +58,33 @@ Signed-off-by: Karim Stekelenburg <karim@animo.id>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-06 13:04:52 +0000 UTC
+        Created At 2021-10-20 12:51:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/491" class=".btn">#491</a>
+            </td>
+            <td>
+                <b>
+                    fix(core): send messages now takes a connection id
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Berend Sliedrecht <berend@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 13:03:51 +0000 UTC
     </div>
 </div>
 

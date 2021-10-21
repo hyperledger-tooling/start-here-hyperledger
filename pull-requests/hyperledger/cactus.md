@@ -14,29 +14,28 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1453" class=".btn">#1453</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1467" class=".btn">#1467</a>
             </td>
             <td>
                 <b>
-                    chore(maintainer): update maintainer list
+                    docs: add SECURITY.md file to comply with the HL repo linter
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span><span class="chip">Security</span>
             </td>
             <td>
-                update maintainer list
+                A 100% knockoff of the Fabric project's SECURITY.md file.
 
-This PR corresponds to Issue #1452 
-
-Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
+Closes: #662
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-12 01:24:42 +0000 UTC
+        Created At 2021-10-20 22:44:31 +0000 UTC
     </div>
 </div>
 
@@ -44,17 +43,51 @@ Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1451" class=".btn">#1451</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1466" class=".btn">#1466</a>
             </td>
             <td>
                 <b>
-                    chore(release): publish v1.0.0-rc.1
+                    build: reset:node-modules script dry-run parameter dropped
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                Epic facepalm once again, congratulations to Peter!
+
+The reset:node-modules script had one job, which was to
+delete all node_modules directories in the entire repo.
+It was on the right track, but the --dry-run flag was forgotten
+in among the CLI arguments so this whole time the script was
+not working *at all* because of it. Just brilliant... :-)
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 22:39:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1464" class=".btn">#1464</a>
+            </td>
+            <td>
+                <b>
+                    feat(common): add Strings#isNonBlank()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span>
             </td>
             <td>
                 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
@@ -62,7 +95,7 @@ Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-11 18:45:36 +0000 UTC
+        Created At 2021-10-19 06:53:23 +0000 UTC
     </div>
 </div>
 
@@ -70,11 +103,11 @@ Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1449" class=".btn">#1449</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1463" class=".btn">#1463</a>
             </td>
             <td>
                 <b>
-                    fix(cmd-socker-server): delete unnecessary files on cmd-socker-server
+                    feat(plugin-keychain-memory-wasm): add WebAssmebly PoC
                 </b>
             </td>
         </tr>
@@ -83,14 +116,60 @@ Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
                 
             </td>
             <td>
-                resolve #1450 
+                Adding a new keychain in-memory plugin that has it's implementation
+written in Rust that is then compiled down to WebAssmebly via wasm-pack
+and used by the wrapper Typescript code.
 
-Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
+This is NOT meant for production because it stores everything in plain
+text and also provides zero durability/persistence guarantees given that
+it's only storing everything in memory.
+
+The actual news here is that we have a plugin now written in Rust which
+is the pre-cursor to us being able to do something similar with the
+Weaver relay component as the next phase of a bigger PoC.
+
+The reason why not the entire plugin is implemented in Rust is because
+we are unable to hook up ExpressJS request handlers from the Rust code
+as far as I could determine. See this link for further details on this:
+https://rustwasm.github.io/book/reference/js-ffi.html#from-the-rust-side
+
+Because of the above, the way it works is this:
+
+        +--------+ API Request   +----------+
+        | HTTP   |-------------->| ExpressJS|
+        | Client |               +----------+
+        +--------+               Method|
+                                 Call  |
+                                       v
+        +---------+ Method Call  +----------+
+        | Calling |------------->|JS Plugin |
+        | Module  |              |Module    |
+        +---------+              +----------+
+                                   |get()
+                                   |set()
+                                   |has()
+                                   |delete()
+                +-------------+    |
+                | Wasm Plugin |<---+
+                | Module      |
+                +-------------+
+                        ^
+                        |
+                        |
+                        v
+           +------------------------+
+           |Rust Native             |
+           |HashMap<String, String> |
+           +------------------------+
+
+Resolves #1281
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-11 12:18:37 +0000 UTC
+        Created At 2021-10-19 06:47:33 +0000 UTC
     </div>
 </div>
 
@@ -98,11 +177,11 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1448" class=".btn">#1448</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1462" class=".btn">#1462</a>
             </td>
             <td>
                 <b>
-                    docs(nonce-manager): nonce manager investigation report
+                    build(tools): upgraded sync-npm-deps script to globby v12
                 </b>
             </td>
         </tr>
@@ -111,16 +190,20 @@ Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
                 
             </td>
             <td>
-                Primary Change
- -----------------
-1. Added investigation report detailing the research done for issue #1036
+                Globby's newer versions use ESM modules which caused problems
+when running our TS code with ts-node, the workarounds are now
+in place so that the sync-npm-deps script that writes to
+tsconfig.json can be used once more (though still not redcommended
+because of other technical debt that was recently introduced to
+the codebase in the form of non-uniform tsconfig.json files for
+some packages)
 
-Signed-off-by: jagpreetsinghsaan <jagpreet.singh.sasan@accenture.com>
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-11 07:42:29 +0000 UTC
+        Created At 2021-10-19 01:32:45 +0000 UTC
     </div>
 </div>
 
@@ -128,11 +211,11 @@ Signed-off-by: jagpreetsinghsaan <jagpreet.singh.sasan@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1447" class=".btn">#1447</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1460" class=".btn">#1460</a>
             </td>
             <td>
                 <b>
-                    feat: allows for constructor args in quorum contract deploy
+                    fix(lint): fix issue #1360
                 </b>
             </td>
         </tr>
@@ -141,13 +224,14 @@ Signed-off-by: jagpreetsinghsaan <jagpreet.singh.sasan@accenture.com>
                 
             </td>
             <td>
-                Closes: #962
-Signed-off-by: Travis Payne <travis.payne@accenture.com>
+                fix warns for issue https://github.com/hyperledger/cactus/issues/1360
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-07 11:20:46 +0000 UTC
+        Created At 2021-10-17 14:13:07 +0000 UTC
     </div>
 </div>
 
@@ -155,11 +239,11 @@ Signed-off-by: Travis Payne <travis.payne@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1446" class=".btn">#1446</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1459" class=".btn">#1459</a>
             </td>
             <td>
                 <b>
-                    fix(api-server): fixes issue 1444 invoking the required onPluginInit
+                    fix(lint): fix issue #1359
                 </b>
             </td>
         </tr>
@@ -168,142 +252,84 @@ Signed-off-by: Travis Payne <travis.payne@accenture.com>
                 
             </td>
             <td>
-                In api server the instantiatePlugin function is now calling the required
-onPluginInit for each corresponding connector
+                fixes https://github.com/hyperledger/cactus/issues/1359 for lint issues in `src/test/typescript/integration/openapi/openapi-validation.test.ts`
 
-Closes: #1444
+
+#### Previous errors:
+packages/cactus-plugin-keychain-vault/src/test/typescript/integration/openapi/openapi-validation.test.ts
+  141:12  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  160:16  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  180:16  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  200:16  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  223:12  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  247:12  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  271:12  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  295:12  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-17 13:50:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1458" class=".btn">#1458</a>
+            </td>
+            <td>
+                <b>
+                    ci: temporarily disable Fabric container image builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is necessary because they are being flaky again, potentially
+due to the DockerHub rate limits.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-15 19:52:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1457" class=".btn">#1457</a>
+            </td>
+            <td>
+                <b>
+                    fix(plugin-ledger-connectors): fixes 1445 and implementing correct interface types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                For all the connector class definitions the implementation are fixed to
+follow their interface definition and to match in consistent way for all
+the connectors
+
+Closes: #1445
 Signed-off-by: Michael Courtin <michael.courtin@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-07 08:47:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1443" class=".btn">#1443</a>
-            </td>
-            <td>
-                <b>
-                    fix(core-api): modifications in openapi specs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Modifies definition of schemas GetKeychainEntryRequestV1 and
-DeleteKeychainEntryRequest to add option additionalProperties=false
-to them.
-
-Modifies definition of schemas GetKeychainEntryResponseV1 and
-DeleteKeychainEntryResponseV1 to remove option
-additionalProperties=false.
-
-Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 06:47:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1442" class=".btn">#1442</a>
-            </td>
-            <td>
-                <b>
-                    feat: option to enable a graceful shutdown via cli
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes: #1223 
-Signed-off-by: Travis Payne <travis.payne@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 09:48:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1441" class=".btn">#1441</a>
-            </td>
-            <td>
-                <b>
-                    fix: openapi validation for keychain-google-sm plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Includes tests for endpoints setKeychainEntry, getKeychainEntryV1,
-hasKeychainEntryV1 and deleteKeychainEntryV1, each of them with
-test cases:
-  - Right request
-  - Request including an invalid parameter
-  - Request without a required parameter
-
-Dependent on #1443
-
-Relationed with #847
-
-Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 07:15:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1439" class=".btn">#1439</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-quorum): split web3 endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR splits the run transaction web3 endpoint into the 4 different web3 signing types. It also creates 4 new invoke contract methods.
-
-resolve #1248 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-05 10:11:09 +0000 UTC
+        Created At 2021-10-15 09:56:46 +0000 UTC
     </div>
 </div>
 

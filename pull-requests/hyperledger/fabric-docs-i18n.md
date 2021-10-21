@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/561" class=".btn">#561</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/563" class=".btn">#563</a>
             </td>
             <td>
                 <b>
-                    [ja_JP] Translate "create_channel.md"
+                    [pt_BR] translate analysis.md
                 </b>
             </td>
         </tr>
@@ -27,14 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                Signed-off-by: Atsushi Neki <nekiaiken@gmail.com>
+                Closes #450 
 
-Resolve #205 
+Signed-off-by: Pedro Matias de Araujo <pmatias@ibm.com>
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-10 14:33:21 +0000 UTC
+        Created At 2021-10-18 18:08:30 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +44,11 @@ Resolve #205
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/560" class=".btn">#560</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/562" class=".btn">#562</a>
             </td>
             <td>
                 <b>
-                    ko_KR: Translate whatis.md
+                    ko_KR: Translate getting_started.rst and prereqs.rst 
                 </b>
             </td>
         </tr>
@@ -55,147 +57,15 @@ Resolve #205
                 
             </td>
             <td>
-                Signed-off-by: Justin Yang <justin.yang@themedium.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 13:42:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/559" class=".btn">#559</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Translate source/config_update.md into Japanese
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">jaJP-docs-ongoing</span>
-            </td>
-            <td>
-                This patch translates source/config_update.md into Japanese.
-
-Resolves #209 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 11:49:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/558" class=".btn">#558</a>
-            </td>
-            <td>
-                <b>
-                    ko_KR: Translate CONTRIBUTING.rst
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Yang <justin.yang@themedium.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 04:51:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/557" class=".btn">#557</a>
-            </td>
-            <td>
-                <b>
-                    ko_KR: Update README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Add the links for Korean online documentation and github repository
-* Translate 'Representantes' and 'Quer contribuir?' into Korean
+                * Translate getting_started.rst
+* Translate prereqs.rst
 
 Signed-off-by: Justin Yang <justin.yang@themedium.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-06 02:03:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/556" class=".btn">#556</a>
-            </td>
-            <td>
-                <b>
-                    ko_KR: Translate index.rst for the first page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Yang <justin.yang@themedium.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-05 15:38:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/555" class=".btn">#555</a>
-            </td>
-            <td>
-                <b>
-                    ko_KR: Add ko_KR locale for new translation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Yang <justin.yang@themedium.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-05 07:27:58 +0000 UTC
+        Created At 2021-10-16 17:21:27 +0000 UTC
     </div>
 </div>
 
