@@ -1,13 +1,13 @@
 
-[500](https://github.com/hyperledger/aries-framework-javascript/pull/500) docs: receiving credentials
+[1547](https://github.com/hyperledger/iroha/pull/1547) CI Dependency FIx
 
-[279](https://github.com/hyperledger/firefly/pull/279) Add EventTypeTransferOpFailed for token transfer operations that fail
+[1545](https://github.com/hyperledger/iroha/pull/1545) Removed the DSL crate & moved tests to `data_model`
 
-[278](https://github.com/hyperledger/firefly/pull/278) tokens-by-id getTokenPoolByNameOrID() and getTokenTransfersByID()
+[2934](https://github.com/hyperledger/besu/pull/2934) Fix bonsai getMutable method regression
 
-[2933](https://github.com/hyperledger/besu/pull/2933) Feature/2920 sepolia ropsten
+[2991](https://github.com/hyperledger/fabric/pull/2991) fix Windows SyncDir issue
 
-[1467](https://github.com/hyperledger/cactus/pull/1467) docs: add SECURITY.md file to comply with the HL repo linter
+[89](https://github.com/hyperledger/iroha-python/pull/89) Update of merged pyo3 library
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/2991" class=".btn">#2991</a>
+            </td>
+            <td>
+                <b>
+                    fix Windows SyncDir issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+closes #2984 
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+On windows it's not valid to invoke Sync on a directory, it results in an error "Handle is invalid"
+
+#### Additional details
+
+As windows is there only as a development platform, removing the attempt to Sync on a dir restores the ability for Peer and Orderer to run natively on Windows Desktop platforms.
+
+Included as well is ensuring the downloadable windows package contains .exe files so they are usable straight away (no extra rename once unpacked is required)
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 08:58:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2990" class=".btn">#2990</a>
             </td>
             <td>
@@ -216,37 +260,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-10-15 15:20:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2982" class=".btn">#2982</a>
-            </td>
-            <td>
-                <b>
-                    Extra info in log message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add the transaction ID and the orderer endpoint address to the log message before sending the transaction to the orderer.
-
-Resolves https://github.com/hyperledger/fabric-gateway/issues/250
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-14 07:18:04 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2934" class=".btn">#2934</a>
+            </td>
+            <td>
+                <b>
+                    Fix bonsai getMutable method regression
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 09:48:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2933" class=".btn">#2933</a>
             </td>
             <td>
                 <b>
-                    Feature/2920 sepolia ropsten
+                    Add Sepolia configs and address baseFee at genesis case
                 </b>
             </td>
         </tr>
@@ -49,37 +88,6 @@ fixes #2920
     </table>
     <div class="right-align">
         Created At 2021-10-21 00:54:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2931" class=".btn">#2931</a>
-            </td>
-            <td>
-                <b>
-                    GoQuorum static flag reset missing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes 2 spots where the static flag was not being reset to the default value.
-More permanent refactor is happening here - https://github.com/hyperledger/besu/pull/2805
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 04:21:03 +0000 UTC
     </div>
 </div>
 
@@ -640,123 +648,6 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-10-14 17:04:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2904" class=".btn">#2904</a>
-            </td>
-            <td>
-                <b>
-                    Add trace_filter API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR adds the trace_filter API. This API returns traces matching given filter
-
-    fromBlock:  trace will start at this block (optional) .
-    toBlock:race will stop at this block (optional) .
-    fromAddress: only traces with this senders  (optional) .
-    toAddress: only traces with this destination addresses  (optional) .
-    after: the offset 
-    count:  maximum number of traces to return
-
-#### Request
-```json
-{
-    "jsonrpc": "2.0",
-    "method": "trace_filter",
-    "params": [
-      {
-        "fromBlock": "0x1",
-        "toBlock": "0x21",
-        "after": 2,
-        "count": 2,
-        "fromAddress": [
-          "0xfe3b557e8fb62b89f4916b721be55ceb828dbd73"
-        ]
-      }
-    ],
-    "id": 415
-  }
-```
-
-
-#### Response
-```json
-{
-    "jsonrpc": "2.0",
-    "result": [
-      {
-        "action": {
-          "callType": "call",
-          "from": "0xfe3b557e8fb62b89f4916b721be55ceb828dbd73",
-          "gas": "0xffad82",
-          "input": "0x0000000000000000000000000000000000000999",
-          "to": "0x0020000000000000000000000000000000000000",
-          "value": "0x0"
-        },
-        "blockHash": "0xcd5d9c7acdcbd3fb4b24a39e05a38e32235751bb0c9e4f1aa16dc598a2c2a9e4",
-        "blockNumber": 6,
-        "result": {
-          "gasUsed": "0x7536",
-          "output": "0x"
-        },
-        "subtraces": 1,
-        "traceAddress": [],
-        "transactionHash": "0x91eeabc671e2dd2b1c8ddebb46ba59e8cb3e7d189f80bcc868a9787728c6e59e",
-        "transactionPosition": 0,
-        "type": "call"
-      },
-      {
-        "action": {
-          "callType": "call",
-          "from": "0xfe3b557e8fb62b89f4916b721be55ceb828dbd73",
-          "gas": "0xffad52",
-          "input": "0xf000000000000000000000000000000000000000000000000000000000000001",
-          "to": "0x0030000000000000000000000000000000000000",
-          "value": "0x0"
-        },
-        "blockHash": "0xeed85fe57db751442c826cfe4fdf43b10a5c2bc8b6fd3a8ccced48eb3fb35885",
-        "blockNumber": 7,
-        "result": {
-          "gasUsed": "0x1b",
-          "output": "0xf000000000000000000000000000000000000000000000000000000000000002"
-        },
-        "subtraces": 0,
-        "traceAddress": [],
-        "transactionHash": "0x47f4d445ea1812cb1ddd3464ab23d2bfc6ed408a8a9db1c497f94e8e06e85286",
-        "transactionPosition": 0,
-        "type": "call"
-      }
-    ],
-    "id": 415
-  }
-```
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-14 09:11:16 +0000 UTC
     </div>
 </div>
 
