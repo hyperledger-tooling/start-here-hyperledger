@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/996" class=".btn">#996</a>
+            </td>
+            <td>
+                <b>
+                    Add alternate_id support to PO state proto
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds support for alternate IDs to the Purchase Order state proto.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 20:33:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/995" class=".btn">#995</a>
+            </td>
+            <td>
+                <b>
+                    Add `alternate_id` support to `grid po create` CLI command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds support for adding alternate IDs to the `grid po create`
+    command. Previously, this was omitted due to lack of support in the
+    store and protocol code.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 19:56:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/994" class=".btn">#994</a>
             </td>
             <td>
@@ -237,32 +291,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-14 14:28:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/980" class=".btn">#980</a>
-            </td>
-            <td>
-                <b>
-                    Implement Update PO CLI action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This implements the `grid po update` CLI command. This follows the patterns established by other commands. Additionally, this update required that a lot of the gaps in PO, especially surrounding alternate IDs, be filled in.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-13 19:14:27 +0000 UTC
     </div>
 </div>
 

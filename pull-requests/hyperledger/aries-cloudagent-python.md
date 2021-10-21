@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Add askar support to integration test script (`./demo/run_bdd`)
+                Add askar support to integration test script (`BDD_EXTRA_AGENT_ARGS="{\"wallet-type\":\"askar\"}" ./demo/run_bdd`)
 
 Fix database locking errors (similar issues as were fixed in PR https://github.com/hyperledger/aries-cloudagent-python/pull/1439)
 
 Fix/cleanup unit tests
 
 WIP, current status is:
-- several unit tests are failing (fixes are in progress)
+- unit tests are all passing
 - `./run_bdd` all tests pass (indy-sdk, default wallet)
 - `ACAPY_ARG_FILE=postgres-indy-args.yml ./run_bdd` all tests pass (indy-sdk, postgres wallet)
 - `BDD_EXTRA_AGENT_ARGS="{\"wallet-type\":\"askar\"}" ./run_bdd` tests fails due to database locking issue (askar/credx, default wallet)

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/225" class=".btn">#225</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0-3: Multi-threaded bug fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backports PR #222 into 0-3
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 19:31:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/224" class=".btn">#224</a>
             </td>
             <td>
@@ -147,32 +173,6 @@ If a command workload is being run and the batch result doesn't match the expect
     </table>
     <div class="right-align">
         Created At 2021-10-15 20:32:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/219" class=".btn">#219</a>
-            </td>
-            <td>
-                <b>
-                    Backport 0.3: Allow migrations to be run against a single connection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of #218 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-13 18:51:17 +0000 UTC
     </div>
 </div>
 
