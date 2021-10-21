@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger-labs/go-perun
             </td>
             <td>
                 <b>
-                    Abstraction of wire serializartion (1/5)
+                    Abstraction of wire serializartion (Draft PR)
                 </b>
             </td>
         </tr>

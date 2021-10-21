@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">changelog-excluded</span>
             </td>
             <td>
                 Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
@@ -53,7 +53,63 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 <span class="chip">enhancement</span><span class="chip">breaking</span>
             </td>
             <td>
-                <nil>
+                Implement [presentation proposal](https://github.com/hyperledger/aries-rfcs/blob/main/features/0037-present-proof/README.md) API.
+
+The state mappings changed from
+```
+            ProverState::Initial => 0,
+            ProverState::PresentationPrepared => 1,
+            ProverState::PresentationPreparationFailed => 2,
+            ProverState::PresentationSent => 3,
+            ProverState::Finished => 4,
+            ProverState::Failed => 5
+...
+            VerifierState::Initial => 0,
+            VerifierState::PresentationRequestSent => 1,
+            VerifierState::Finished => 2,
+            VerifierState::Failed => 3
+```
+to
+```
+            ProverState::Initial => 0,
+            ProverState::PresentationProposalSent => 1,
+            ProverState::PresentationRequestReceived => 2,
+            ProverState::PresentationPrepared => 3,
+            ProverState::PresentationPreparationFailed => 4,
+            ProverState::PresentationSent => 5,
+            ProverState::Finished => 6,
+            ProverState::Failed => 7
+...
+            VerifierState::Initial => 0,
+            VerifierState::PresentationRequestSet => 1,
+            VerifierState::PresentationProposalReceived => 2,
+            VerifierState::PresentationRequestSent => 3,
+            VerifierState::Finished => 4,
+            VerifierState::Failed => 5
+```
+
+Verifier initial state was renamed from `Initiated` to `Initial`, so verifier SM now deserializes into
+```
+{
+  "version": "2.0",
+  "data": {
+    "verifier_sm": {
+      "source_id": "123",
+      "state": {
+        "Initial": {
+...
+```
+instead of
+```
+{
+  "version": "2.0",
+  "data": {
+    "verifier_sm": {
+      "source_id": "123",
+      "state": {
+        "Initiated": {
+...
+```
             </td>
         </tr>
     </table>

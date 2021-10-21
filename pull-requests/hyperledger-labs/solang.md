@@ -116,29 +116,3 @@ My main goal was just to include the word "Solana" in the `h1`, but I added the 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/525" class=".btn">#525</a>
-            </td>
-            <td>
-                <b>
-                    Support retrieving balance on Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-14 09:05:23 +0000 UTC
-    </div>
-</div>
-
