@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/503" class=".btn">#503</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/507" class=".btn">#507</a>
             </td>
             <td>
                 <b>
-                    Do not weep for the UNKIND Kubernetes test-network prototype. 
+                    Possible update to nano-bash network for external builders
                 </b>
             </td>
         </tr>
@@ -27,32 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                The [new one](/hyperledger/fabric-samples/tree/main/test-network-k8s) is much better.
+                Pull in the external builders from an assumed location in the binary package (as per https://github.com/hyperledger/fabric/pull/2990)
 
-
-_Farewell! thou art too dear for my possessing,
-And like enough thou knowst thy estimate.
-The Charter of thy worth gives thee releasing;
-My bonds in thee are all determinate.
-For how do I hold thee but by thy granting,
-And for that riches where is my deserving?
-The cause of this fair gift in me is wanting,
-And so my patent back again is swerving.
-Thy self thou gav'st, thy own worth then not knowing,
-Or me, to whom thou gav'st it, else mistaking,
-So thy great gift, upon misprision growing,
-Comes home again, on better judgement making.
-   Thus have I had thee as a dream doth flatter:
-   In sleep a king, but waking no such matter._
-
-  -- Bill
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-07 16:43:13 +0000 UTC
+        Created At 2021-10-21 15:55:00 +0000 UTC
     </div>
 </div>
 

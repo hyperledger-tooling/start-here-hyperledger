@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/67" class=".btn">#67</a>
+            </td>
+            <td>
+                <b>
+                    State example unittest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding unittest to state trie example
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 13:34:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/66" class=".btn">#66</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
-[1547](https://github.com/hyperledger/iroha/pull/1547) CI Dependency FIx
+[263](https://github.com/hyperledger/fabric-ca/pull/263) Bump babel from 2.3.4 to 2.9.1 in /docs
 
-[1545](https://github.com/hyperledger/iroha/pull/1545) Removed the DSL crate & moved tests to `data_model`
+[2992](https://github.com/hyperledger/fabric/pull/2992) Bump babel from 2.3.4 to 2.9.1 in /docs
 
-[2934](https://github.com/hyperledger/besu/pull/2934) Fix bonsai getMutable method regression
+[217](https://github.com/hyperledger-labs/orion-server/pull/217) WIP: Block numbering
 
-[2991](https://github.com/hyperledger/fabric/pull/2991) fix Windows SyncDir issue
+[525](https://github.com/hyperledger/fabric-sdk-node/pull/525) Release v2.2.10
 
-[89](https://github.com/hyperledger/iroha-python/pull/89) Update of merged pyo3 library
+[2935](https://github.com/hyperledger/besu/pull/2935) Transitions validator provider bug
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

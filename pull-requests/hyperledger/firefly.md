@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/280" class=".btn">#280</a>
+            </td>
+            <td>
+                <b>
+                    pools-by-connector Add connector field to TokenPoolQueryFactory
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To support the new [Tokens Page in the UI](https://github.com/hyperledger/firefly-ui/issues/65), filtering that supports getting pools by connector is needed
+
+```GET /namespaces/<namespace>/tokens/pools?connector={connectorName}``` returns all token pools with specified connector
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 15:36:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/279" class=".btn">#279</a>
             </td>
             <td>
@@ -27,7 +55,9 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                This basically works, but I'd like to vet the behavior since there are some slight inconsistencies.
+                Part of #218.
+
+This basically works, but I'd like to vet the behavior since there are some slight inconsistencies.
 
 When you submit a transfer request, you'll (now) ultimately receive one of two events in response:
 * `EventTypeTransferConfirmed` if transfer is confirmed -> references the transfer's `LocalID` so you can look up the transfer
@@ -567,32 +597,6 @@ The problem in the stack, is that we were creating separate mutexes for locking,
     </table>
     <div class="right-align">
         Created At 2021-10-14 21:48:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/251" class=".btn">#251</a>
-            </td>
-            <td>
-                <b>
-                    Update E2E script to use manifest file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Opening this as a draft PR for now. It will fail until we merge and tag/release https://github.com/hyperledger/firefly-cli/pull/112. This uses the new CLI flag when running E2E tests to ensure that the images tested, are the specific ones listed in the `manifest.json` for the FireFly Core commit being tested.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-14 14:43:51 +0000 UTC
     </div>
 </div>
 

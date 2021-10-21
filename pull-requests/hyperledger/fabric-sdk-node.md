@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/525" class=".btn">#525</a>
+            </td>
+            <td>
+                <b>
+                    Release v2.2.10
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 16:27:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/524" class=".btn">#524</a>
+            </td>
+            <td>
+                <b>
+                    Handle array-like input in Utils.convertBytetoString() (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry-pick of fix in main branch.
+
+Contributes to #505
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 15:55:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/523" class=".btn">#523</a>
+            </td>
+            <td>
+                <b>
+                    Handle array-like input in Utils.convertBytetoString()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #505
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 15:51:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/522" class=".btn">#522</a>
             </td>
             <td>
@@ -39,66 +119,6 @@ Signed-off-by: DavidLiu <david.yx.liu@oracle.com>
     </table>
     <div class="right-align">
         Created At 2021-10-20 09:58:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/519" class=".btn">#519</a>
-            </td>
-            <td>
-                <b>
-                    Publish Contract JSDoc (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This was being excluded from the generated JavaScript files as it was not immediately above a class definition that would be written to the JavaScript file by the TypeScript compiler.
-
-Also add the TransactionError as a possible thrown exception from Transaction.submit().
-
-Contributes to #504 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-14 13:53:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/518" class=".btn">#518</a>
-            </td>
-            <td>
-                <b>
-                    Publish Contract JSDoc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This was being excluded from the generated JavaScript files as it was not immediately above a class definition that would be written to the JavaScript file by the TypeScript compiler.
-
-Also add the TransactionError as a possible thrown exception from Transaction.submit().
-
-Resolves #504 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-14 13:46:54 +0000 UTC
     </div>
 </div>
 
