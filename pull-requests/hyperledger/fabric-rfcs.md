@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/45" class=".btn">#45</a>
+                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/46" class=".btn">#46</a>
             </td>
             <td>
                 <b>
-                    [FAB-18531] RFC for extend chaincode lifecycle API to query all appro…
+                    RFC for private data purge
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
                 
             </td>
             <td>
-                Signed-off-by: Hui Shen hui.shen@oracle.com
+                This RFC proposes a new operation *purge* on private data via chaincode shim that allows purging of all the historical versions of the supplied keys from the private data store permanently so as to enable applications to implement right-to-forget behavior for private data.
 
-This RFC is proposed to extend chaincode lifecycle api to query all approved chaincode definition
-
-Thanks!
+Signed-off-by: manish <manish.sethi@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-02 17:16:09 +0000 UTC
+        Created At 2021-10-18 19:13:09 +0000 UTC
     </div>
 </div>
 

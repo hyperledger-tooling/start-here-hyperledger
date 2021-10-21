@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/244" class=".btn">#244</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/259" class=".btn">#259</a>
             </td>
             <td>
                 <b>
-                    Add error handling to gateway samples
+                    Allow explicit timeouts for gRPC service invocations in Java API
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Shows how to access the error details in the 3 SDK samples
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+                Contributes to #198 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-11 14:35:14 +0000 UTC
+        Created At 2021-10-20 11:12:39 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +40,11 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/243" class=".btn">#243</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/256" class=".btn">#256</a>
             </td>
             <td>
                 <b>
-                    Samples for real-time event listening
+                    Clean up eventing
                 </b>
             </td>
         </tr>
@@ -55,16 +53,21 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
                 
             </td>
             <td>
-                - Augments the existing replay event listening examples.
-- Includes correct close of eventing when listening is completed.
-- Better examples in API documentation.
+                Some code clean up and minimise client API implementation and behaviour beyond what is provided by gRPC.
 
-Contributes to #231 
+Java:
+- Use async rather than direct in-process service invocation for unit tests to better simulate runtime behaviour.
+- Remove explicit closed baheviour from ChaincodeEventIterator, and let the gRPC iterator throw a gRPC error if the iterator is used after the stream is closed.
+- Simplify unit test implementations.
+- Simplify ChaincodeEventIterator implementation.
+
+Node:
+- Remove explicit closed behaviour from chaincode event AsyncIterable and use whatever behaviour the gRPC server stream's AsyncIterable provides.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-08 18:35:09 +0000 UTC
+        Created At 2021-10-19 13:31:19 +0000 UTC
     </div>
 </div>
 
@@ -72,11 +75,11 @@ Contributes to #231
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/239" class=".btn">#239</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/255" class=".btn">#255</a>
             </td>
             <td>
                 <b>
-                    Simplify cancel impementation for Java chaincode events
+                    Additional chaincode event close scenario tests
                 </b>
             </td>
         </tr>
@@ -85,12 +88,15 @@ Contributes to #231
                 
             </td>
             <td>
-                Contributes to #231 
+                Refactored use of gRPC context to close event listening to avoid interleaving of contexts and unintentional cancellation
+ of gRPC calls.
+
+Closes #213 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-08 10:47:30 +0000 UTC
+        Created At 2021-10-15 17:33:37 +0000 UTC
     </div>
 </div>
 
@@ -98,11 +104,11 @@ Contributes to #231
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/238" class=".btn">#238</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/253" class=".btn">#253</a>
             </td>
             <td>
                 <b>
-                    Stop event listening in Node client using async iterable
+                    Scenario tests for chaincode event listening close
                 </b>
             </td>
         </tr>
@@ -111,157 +117,12 @@ Contributes to #231
                 
             </td>
             <td>
-                Add a close() method to the AsyncIterable returned when getting chancode events.
-
-Contributes to #213
+                Contributes to #213 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-07 16:35:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/237" class=".btn">#237</a>
-            </td>
-            <td>
-                <b>
-                    Rename EndpointError to ErrorDetail
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The gateway proto message EndpointError was renamed to ErrorDetail and the associated changes were also made in the fabric gateway server code.
-This commit renames all refererences to this in the client SDKs
-
-Resolves https://github.com/hyperledger/fabric/issues/2971
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 14:23:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/236" class=".btn">#236</a>
-            </td>
-            <td>
-                <b>
-                    Add Transaction class description to JavaDoc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also for clarity, add some spacing to async submit example in Contract JavaDoc.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 09:13:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/235" class=".btn">#235</a>
-            </td>
-            <td>
-                <b>
-                    Generate a new transaction ID for every proposal in Java API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Calling Proposal.Builder.build() multiple times on the same builder instance will similarly configured transaction proposals, but with different transaction IDs (and channel header timestamps).
-
-Resolves #234 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 14:44:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/232" class=".btn">#232</a>
-            </td>
-            <td>
-                <b>
-                    Scenario tests for error paths
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Testing that errors that get raised in the peer or chaincode get reported back to the client, including details of which endorser raised the error.
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 09:05:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/231" class=".btn">#231</a>
-            </td>
-            <td>
-                <b>
-                    Stop receiving chaincode events in Java API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a close() method to the event iterator that can be called when events are no longer required.
-
-Calling close() on the event iterator cancels the server streaming gRPC connection from the client end. This requires the use of the async gRPC stub, which is significantly more complex to use than the blocking API. This complexity is hidden within a new internal GatewayClient class, which decouples the rest of the client code from the gRPC API calls.
-
-Contributes to #213
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-05 13:43:04 +0000 UTC
+        Created At 2021-10-15 11:00:26 +0000 UTC
     </div>
 </div>
 

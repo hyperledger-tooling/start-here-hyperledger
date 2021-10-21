@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/239" class=".btn">#239</a>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/243" class=".btn">#243</a>
             </td>
             <td>
                 <b>
-                    feat: enable restrictions
+                    Fix public DID retrieval
                 </b>
             </td>
         </tr>
@@ -27,40 +27,12 @@ permalink: /pull-requests/hyperledger/aries-toolbox
                 
             </td>
             <td>
-                Closes #181
-
-Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-08 21:25:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/238" class=".btn">#238</a>
-            </td>
-            <td>
-                <b>
-                    fix: problem report messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 21:17:35 +0000 UTC
+        Created At 2021-10-14 18:34:25 +0000 UTC
     </div>
 </div>
 
