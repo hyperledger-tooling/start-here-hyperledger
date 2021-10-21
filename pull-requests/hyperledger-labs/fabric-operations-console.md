@@ -115,29 +115,3 @@ I am getting Null for Endpoint, but the `channel_group.values_map.OrdererAddress
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/60" class=".btn">#60</a>
-            </td>
-            <td>
-                <b>
-                    Fix cert warning notice if building CAs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-13 19:07:44 +0000 UTC
-    </div>
-</div>
-

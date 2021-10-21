@@ -88,35 +88,3 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/59" class=".btn">#59</a>
-            </td>
-            <td>
-                <b>
-                    Change import path
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Change import path from: `github.com/IBM-Blockchain/bcdb-sdk`
-to: `github.com/hyperledger-labs/orion-sdk-go`
-
-and from: `github.com/IBM-Blockchain/bcdb-server`
-to: `github.com/hyperledger-labs/orion-server`
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-13 20:52:36 +0000 UTC
-    </div>
-</div>
-

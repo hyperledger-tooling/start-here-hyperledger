@@ -218,7 +218,8 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 ### Description of the Change
 
-A test to pinpoint an issue with FindTransactionByHash.
+1. Fixed a bug in VersionedTransaction::from (it modified trx creation_time)
+2. Added a test for FindTransactionByHash - for positive and negative case
 
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->

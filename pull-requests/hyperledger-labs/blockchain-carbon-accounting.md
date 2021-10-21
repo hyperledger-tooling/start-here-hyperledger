@@ -14,11 +14,39 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/326" class=".btn">#326</a>
+            </td>
+            <td>
+                <b>
+                    Vault identity Management server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add Vault identity Management server for managing vault identity for the client. 
+
+Close #312 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-20 18:49:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/325" class=".btn">#325</a>
             </td>
             <td>
                 <b>
-                    Add identity router for differnet signer types
+                    Add identity router for different Fabric types
                 </b>
             </td>
         </tr>
@@ -67,38 +95,6 @@ Signed-off-by: brioux <Bertrand.rioux@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-10-14 22:28:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/318" class=".btn">#318</a>
-            </td>
-            <td>
-                <b>
-                    Lint warning fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">hacktoberfest-accepted</span>
-            </td>
-            <td>
-                Fixes #305 
-
-* Fixed lint warning in chaincode
-
-* Fixed linting warnings in typescript_app
-
-* Fixed lint warning due to prettier auto save
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-13 19:38:54 +0000 UTC
     </div>
 </div>
 

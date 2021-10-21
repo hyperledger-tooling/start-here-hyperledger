@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/280" class=".btn">#280</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/296" class=".btn">#296</a>
             </td>
             <td>
                 <b>
-                    Allows setting the CA admin passwd using spec.yaml
+                    Allow endpoint address to be fqdn
                 </b>
             </td>
         </tr>
@@ -27,32 +27,12 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                The admin CA password is hardcoded in config_apply.yaml, this PR enables the use of adminPassword if it is defined in spec.yml. 
-
-`# spec.yaml 
-fabric:
-  cas:
-  - "ca1.devops.io"
-  peers: 
-  - "peer1.devops.io"
-  orderers:
-  - "orderer1.devops-orderer.io"
-  settings:
-    ca:
-      FABRIC_LOGGING_SPEC: DEBUG
-     adminPassword: "test"
-    peer:
-      FABRIC_LOGGING_SPEC: DEBUG
-    orderer:
-      FABRIC_LOGGING_SPEC: DEBUG
-`
-
-
+                Signed-off-by: Tong Li <litong01@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-26 16:34:35 +0000 UTC
+        Created At 2021-10-20 21:10:41 +0000 UTC
     </div>
 </div>
 
