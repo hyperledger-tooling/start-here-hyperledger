@@ -117,29 +117,3 @@ This PR fixes the daily run for findy-b-dotnet runset.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/364" class=".btn">#364</a>
-            </td>
-            <td>
-                <b>
-                    aries-vcx: credential proposal API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-14 15:03:11 +0000 UTC
-    </div>
-</div>
-

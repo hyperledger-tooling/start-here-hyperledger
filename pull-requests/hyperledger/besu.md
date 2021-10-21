@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2935" class=".btn">#2935</a>
+            </td>
+            <td>
+                <b>
+                    Transitions validator provider bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/besu/issues/2901
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 16:16:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2934" class=".btn">#2934</a>
             </td>
             <td>
@@ -610,44 +636,6 @@ fixes #2784
     </table>
     <div class="right-align">
         Created At 2021-10-15 01:53:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2908" class=".btn">#2908</a>
-            </td>
-            <td>
-                <b>
-                    Always copy create code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Always copy the create code. Since it is memory bytes it is subject to
-re-writing by the caller and all data would otherwise have to be treated
- as mutable.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-
-## Fixed Issue(s)
-#2899
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-14 17:04:57 +0000 UTC
     </div>
 </div>
 

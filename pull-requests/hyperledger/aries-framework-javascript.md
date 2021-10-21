@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/503" class=".btn">#503</a>
+            </td>
+            <td>
+                <b>
+                    feat(core): store mediator id in connection record
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 15:06:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/500" class=".btn">#500</a>
             </td>
             <td>
