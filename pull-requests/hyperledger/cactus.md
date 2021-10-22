@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1476" class=".btn">#1476</a>
+            </td>
+            <td>
+                <b>
+                    ci: de-couple matrix to separate jobs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ci: de-couple matrix to separate jobs. Resolves #1393
+
+Validations:
+
+* I tested this my making a PR in my own repo and commenting the `tool/ci.sh` and adding small logic to create fail scenario.
+* Initial run showing
+    * All the build stages/steps
+    * With the the temp logic, the build for node v14 fails. 
+    <img width="1396" alt="Initial Run with all jobs listed_node_14_failed" src="https://user-images.githubusercontent.com/10603196/138488942-d2038350-7f47-4701-811e-e788f6197f7c.png">
+
+     * The build for node v16 succeeds.
+    <img width="1382" alt="Initial Run_node_16_succeded" src="https://user-images.githubusercontent.com/10603196/138489169-6b623be3-6d45-4084-9462-682706215045.png">
+
+* I actually killed the last `build_containers` stage to avoid delay. 
+* Once we have the option of re-running all the jobs, if we just click it and re-run all the jobs, it actually pulls down the cache and uses it to decide which steps to run. 
+* For Attempt 2, 
+    * The build for node v14 still fails because of the additional logic
+    <img width="1383" alt="Attempt 2_node_14_still fails" src="https://user-images.githubusercontent.com/10603196/138490268-97e27352-f2b8-4408-a5e0-096eda9f8769.png">
+
+    * For the build for node v16, since the previous run was successful, wherever we had if conditions, it skipped that steps. 
+    <img width="1389" alt="Attempt 2_node_16_does not run" src="https://user-images.githubusercontent.com/10603196/138490429-08b2c2f2-8b00-4913-86d4-ec571a2aae2a.png">
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-22 15:54:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1475" class=".btn">#1475</a>
             </td>
             <td>

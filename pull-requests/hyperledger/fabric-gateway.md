@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/263" class=".btn">#263</a>
+            </td>
+            <td>
+                <b>
+                    Set default timeouts in Java samples
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-22 14:54:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/260" class=".btn">#260</a>
             </td>
             <td>
@@ -98,35 +124,6 @@ Node:
     </table>
     <div class="right-align">
         Created At 2021-10-19 13:31:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/255" class=".btn">#255</a>
-            </td>
-            <td>
-                <b>
-                    Additional chaincode event close scenario tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Refactored use of gRPC context to close event listening to avoid interleaving of contexts and unintentional cancellation
- of gRPC calls.
-
-Closes #213 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 17:33:37 +0000 UTC
     </div>
 </div>
 

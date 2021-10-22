@@ -117,29 +117,3 @@ This PR fixes the daily run for findy-b-dotnet runset.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/366" class=".btn">#366</a>
-            </td>
-            <td>
-                <b>
-                    add a full suite of Media Type Profile negotiation tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Tests demonstrate OOB media-type-profile negotiation across different scenarios, including success and failure.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 14:31:04 +0000 UTC
-    </div>
-</div>
-

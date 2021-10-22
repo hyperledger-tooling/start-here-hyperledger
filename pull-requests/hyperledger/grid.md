@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/998" class=".btn">#998</a>
+            </td>
+            <td>
+                <b>
+                    Make workflow status required for `po create`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The PO create command will panic if no workflow status is passed, and
+the CreatePurchaseOrderPayloadBuilder requires it to function. This
+change makes clap force the user to pass a workflow status.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-22 16:35:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/996" class=".btn">#996</a>
             </td>
             <td>
@@ -172,64 +202,6 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-19 15:06:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/984" class=".btn">#984</a>
-            </td>
-            <td>
-                <b>
-                    Add constraints to built-in workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previously, the built-in workflows defined for the Purchase Order smart contract did not define any constraints between workflow states. This pr adds an enum (to make these variants easily accessible to the smart contract which will need to now ask the workflow state for any constraints it may have to verify the po state) for the possible workflow constraints.  
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 18:07:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/983" class=".btn">#983</a>
-            </td>
-            <td>
-                <b>
-                    Add SplinterProtocolVersion to app auth handler registration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This will enable getting the correctly formatted version of
-AdminEvents from 0.5 splinter nodes and should be ignored
-from 0.4 splinter nodes.
-
-Required for backward compatibility.
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 15:46:56 +0000 UTC
     </div>
 </div>
 

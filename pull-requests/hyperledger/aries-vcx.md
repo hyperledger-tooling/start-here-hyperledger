@@ -146,29 +146,3 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/360" class=".btn">#360</a>
-            </td>
-            <td>
-                <b>
-                    Update reqwest, tokio, futures dependencies, fix CI iOS build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span>
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 14:56:36 +0000 UTC
-    </div>
-</div>
-

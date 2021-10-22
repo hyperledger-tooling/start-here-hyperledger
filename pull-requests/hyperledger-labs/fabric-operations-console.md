@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/65" class=".btn">#65</a>
+            </td>
+            <td>
+                <b>
+                    update release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-22 15:02:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/64" class=".btn">#64</a>
             </td>
             <td>
@@ -85,33 +111,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     </table>
     <div class="right-align">
         Created At 2021-10-18 22:41:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/61" class=".btn">#61</a>
-            </td>
-            <td>
-                <b>
-                    Fix channel not found error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Error when getting channel Details because of `.values_map.Endpoints` being null. I have just changed the if condition. Let me know if this is acceptable.
-I am getting Null for Endpoint, but the `channel_group.values_map.OrdererAddresses.value.addresses_list` is successful
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 15:51:22 +0000 UTC
     </div>
 </div>
 

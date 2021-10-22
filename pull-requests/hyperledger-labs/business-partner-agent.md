@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/660" class=".btn">#660</a>
+            </td>
+            <td>
+                <b>
+                    highlight revoked credentials in presentation exchange 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                relates to: https://github.com/hyperledger-labs/business-partner-agent/issues/647
+
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/660"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-22 14:45:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/659" class=".btn">#659</a>
             </td>
             <td>
@@ -136,40 +169,6 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </table>
     <div class="right-align">
         Created At 2021-10-15 23:00:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/655" class=".btn">#655</a>
-            </td>
-            <td>
-                <b>
-                    Option to handle credential offer manually
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - manually accept credential offer
-- decline credential proposal
-- decline credential offer
-
-for v1 and v2 indy credentials
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/655"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 15:37:59 +0000 UTC
     </div>
 </div>
 
