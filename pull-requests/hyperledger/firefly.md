@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/281" class=".btn">#281</a>
+            </td>
+            <td>
+                <b>
+                    Fix release action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This will prevent duplicate build tasks when creating pre-release versions, as well as `latest` getting set to a pre-release version.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 20:01:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/280" class=".btn">#280</a>
             </td>
             <td>
@@ -35,42 +61,6 @@ permalink: /pull-requests/hyperledger/firefly
     </table>
     <div class="right-align">
         Created At 2021-10-21 15:36:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/279" class=".btn">#279</a>
-            </td>
-            <td>
-                <b>
-                    Add EventTypeTransferOpFailed for token transfer operations that fail
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Part of #218.
-
-This basically works, but I'd like to vet the behavior since there are some slight inconsistencies.
-
-When you submit a transfer request, you'll (now) ultimately receive one of two events in response:
-* `EventTypeTransferConfirmed` if transfer is confirmed -> references the transfer's `LocalID` so you can look up the transfer
-* `EventTypeTransferOpFailed` if transfer fails -> references the operation's `ID` so you can look up the failed operation (there is no transfer object created in this case)
-
-Even though this means the events are a bit asymmetric, I can't come up with a more sensible way to do it.
-
-However, when submitting a transfer with `confirm=true`, the sync-async bridge tracks a _single_ ID which will ultimately resolve in success or failure. I've chosen the transfer's `LocalID`, but that means there's an additional step in the case of `EventTypeTransferOpFailed`, for sync-async to map the operation `ID` to the transfer `LocalID`. This also meant extracting some helpers to `txcommon` (for lack of a better place to put them).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 01:06:15 +0000 UTC
     </div>
 </div>
 
@@ -543,60 +533,6 @@ created by github.com/hyperledger/firefly/internal/apiserver.(*httpServer).serve
     </table>
     <div class="right-align">
         Created At 2021-10-15 03:44:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/255" class=".btn">#255</a>
-            </td>
-            <td>
-                <b>
-                    Use a single mutex, as there is a single keys map
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #254 
-
-The problem in the stack, is that we were creating separate mutexes for locking, but passing the same root map down in the config objects. So this cleans up the code to a single mutex, and makes it more clear there's a single root map.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 00:34:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/253" class=".btn">#253</a>
-            </td>
-            <td>
-                <b>
-                    Reduce I/O load of test runs by using memory DB
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Now we have SQLConfMaxConnections, the previous reasons we needed a real filesystem backing the SQL tests has been removed, and it seems to significantly slow down the test to have a full filesystem on I/O throttled build servers.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-14 21:48:21 +0000 UTC
     </div>
 </div>
 

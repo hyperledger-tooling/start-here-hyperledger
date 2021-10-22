@@ -173,38 +173,3 @@ for v1 and v2 indy credentials
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/654" class=".btn">#654</a>
-            </td>
-            <td>
-                <b>
-                    Selected Credential not being used in backend
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Change the API to not use aca-py models, don't try fulfill aca-py request directly.
-Small fix on view credential exchange when you are a holder and haven't stored the schema.
-
-fixes #634 
- 
-Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/654"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-14 22:49:07 +0000 UTC
-    </div>
-</div>
-

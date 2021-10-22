@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/53" class=".btn">#53</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/56" class=".btn">#56</a>
             </td>
             <td>
                 <b>
-                    Added better synchronization to broadcast when websocket server's topic changes
+                    Fix release action
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                <nil>
+                This will prevent duplicate build tasks when creating pre-release versions, as well as `latest` getting set to a pre-release version.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-08 20:33:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/52" class=".btn">#52</a>
-            </td>
-            <td>
-                <b>
-                    Added lock around accessing websocket server's topics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-08 19:44:38 +0000 UTC
+        Created At 2021-10-21 20:46:43 +0000 UTC
     </div>
 </div>
 

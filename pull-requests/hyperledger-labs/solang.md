@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/530" class=".btn">#530</a>
+            </td>
+            <td>
+                <b>
+                    Simplify loop for readability
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This loop should execute until there is nothing more to do. Express this
+more clearly; this also makes clippy 1.56.0 happy.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 20:46:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/529" class=".btn">#529</a>
             </td>
             <td>
@@ -59,32 +88,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2021-10-19 08:58:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/527" class=".btn">#527</a>
-            </td>
-            <td>
-                <b>
-                    docs: `git clone --depth 1` for installation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prevents downloading unneeded git history.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-17 00:23:41 +0000 UTC
     </div>
 </div>
 

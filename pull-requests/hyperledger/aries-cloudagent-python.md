@@ -134,29 +134,3 @@ There are some issues when running with askar but I will deal with those on a se
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1445" class=".btn">#1445</a>
-            </td>
-            <td>
-                <b>
-                    fix: help text for open-mediation flag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-14 19:07:07 +0000 UTC
-    </div>
-</div>
-

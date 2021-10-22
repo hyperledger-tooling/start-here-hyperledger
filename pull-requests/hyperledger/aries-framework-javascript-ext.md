@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/41" class=".btn">#41</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/55" class=".btn">#55</a>
             </td>
             <td>
                 <b>
-                    feat(push-notifications): added push-notifications plugin
+                    docs: fix react-hooks npm badge
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
                 
             </td>
             <td>
-                - Push notifications module that can be injected into the agent to set/get a push notification configuration
-- only the notification-receiver side
-- Includes tests and a sample
-
-Signed-off-by: Berend Sliedrecht <berend@animo.id>
+                Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-08 10:41:33 +0000 UTC
+        Created At 2021-10-21 11:33:08 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +40,11 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/54" class=".btn">#54</a>
             </td>
             <td>
                 <b>
-                    chore: release @aries-framework/rest 0.2.0
+                    chore: release @aries-framework/push-notifications 0.1.0
                 </b>
             </td>
         </tr>
@@ -59,16 +55,12 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
 ---
-## [0.2.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.1.2...rest-v0.2.0) (2021-10-05)
+## 0.1.0 (2021-10-21)
 
-
-### ⚠ BREAKING CHANGES
-
-* **rest:** The port property has been moved into a new configuration object.
 
 ### Features
 
-* **rest:** added support for custom controllers ([#39](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/39)) ([8362e30](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/8362e30d8a4c9ef24779769f81b6e74f7f5978cc))
+* **push-notifications:** added push-notifications plugin ([#41](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/41)) ([c6cf262](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/c6cf262a21399cc55f3a1dab0e24831b96c2bb18))
 ---
 
 
@@ -77,7 +69,7 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-05 13:15:41 +0000 UTC
+        Created At 2021-10-21 10:01:57 +0000 UTC
     </div>
 </div>
 
@@ -85,11 +77,11 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/39" class=".btn">#39</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/52" class=".btn">#52</a>
             </td>
             <td>
                 <b>
-                    feat(rest)!: added support for custom controllers
+                    refactor(react-hooks): provider files for each context, export file
                 </b>
             </td>
         </tr>
@@ -98,12 +90,12 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
                 
             </td>
             <td>
-                Signed-off-by: Jan <jan@animo.id>
+                Signed-off-by: NeilSMyers <mmyersneil@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-05 10:51:45 +0000 UTC
+        Created At 2021-10-15 21:14:50 +0000 UTC
     </div>
 </div>
 

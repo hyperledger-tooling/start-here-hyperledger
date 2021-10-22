@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/41" class=".btn">#41</a>
+                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    Set license to Apache-2.0
+                    Fix release action
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
                 
             </td>
             <td>
-                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
+                This will prevent duplicate build tasks when creating pre-release versions, as well as `latest` getting set to a pre-release version.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-29 18:08:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/39" class=".btn">#39</a>
-            </td>
-            <td>
-                <b>
-                    Remove references to labs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-23 20:14:38 +0000 UTC
+        Created At 2021-10-21 20:54:43 +0000 UTC
     </div>
 </div>
 
