@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/169" class=".btn">#169</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/170" class=".btn">#170</a>
             </td>
             <td>
                 <b>
-                    Fix push of latest docker tag
+                    Fix release action
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                Since this is the last line in the action, this is probably the last fix that will be needed :disappointed: 
+                This will prevent duplicate build tasks when creating pre-release versions, as well as `latest` getting set to a pre-release version.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-13 11:48:02 +0000 UTC
+        Created At 2021-10-21 20:45:04 +0000 UTC
     </div>
 </div>
 

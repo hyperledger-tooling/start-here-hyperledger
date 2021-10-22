@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1472" class=".btn">#1472</a>
+            </td>
+            <td>
+                <b>
+                    test: skip flaky fabric 2.2.x deploy cc from JS test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Fabric</span><span class="chip">Developer_Experience</span><span class="chip">Flaky-Test-Automation</span><span class="chip">Tests</span>
+            </td>
+            <td>
+                This is related to #1471 (does not fix it though). In order to enable
+faster CI/PR turnaround times we are aggressively eliminating (skipping)
+flaky tests and creating issues in the backlog for fixing them later on.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 22:46:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1470" class=".btn">#1470</a>
+            </td>
+            <td>
+                <b>
+                    test(connector-corda): skip deploy-cordapp-jars-to-nodes-v4.8
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Flaky-Test-Automation</span>
+            </td>
+            <td>
+                Related to #1469
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-21 19:51:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1467" class=".btn">#1467</a>
             </td>
             <td>
@@ -226,7 +284,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             <td>
                 fix warns for issue https://github.com/hyperledger/cactus/issues/1360
 
-
+Fixes #1360
             </td>
         </tr>
     </table>

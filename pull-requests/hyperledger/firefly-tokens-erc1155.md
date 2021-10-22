@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    Rsjx version
+                    Fix release action
                 </b>
             </td>
         </tr>
@@ -27,27 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                Not sure why we didn't see this in the Github actions builds, but after building API calls are failing due to the below stack.
-See https://github.com/hyperledger/firefly/pull/215#issuecomment-940150647
-
-This is due to a move in rxjs 7 that deprecated `toPromise`, and you should explicitly now use `lastValueOf`.
-However, in my VSCode I did find the automatic type casting was a faff, and I had to make some more tweaks.
-
-```
-�[34;1mtokens_0_1        |�[0m �[32m[Nest] 17  - �[39m10/11/2021, 3:52:08 PM �[32m    LOG�[39m �[38;5;3m[RequestLogging] �[39m�[32mPOST /api/v1/init�[39m
-�[34;1mtokens_0_1        |�[0m �[31m[Nest] 17  - �[39m10/11/2021, 3:52:08 PM �[31m  ERROR�[39m �[38;5;3m[ExceptionsHandler] �[39m�[31mrxjs_1.lastValueFrom is not a function�[39m
-�[34;1mtokens_0_1        |�[0m TypeError: rxjs_1.lastValueFrom is not a function
-�[34;1mtokens_0_1        |�[0m     at RouterResponseController.transformToResult (/root/node_modules/@nestjs/core/router/router-response-controller.js:32:27)
-�[34;1mtokens_0_1        |�[0m     at /root/node_modules/@nestjs/core/router/router-execution-context.js:173:52
-�[34;1mtokens_0_1        |�[0m     at /root/node_modules/@nestjs/core/router/router-execution-context.js:47:19
-�[34;1mtokens_0_1        |�[0m     at processTicksAndRejections (internal/process/task_queues.js:95:5)
-�[34;1mtokens_0_1        |�[0m     at async /root/node_modules/@nestjs/core/router/router-proxy.js:9:17
-```
+                This will prevent duplicate build tasks when creating pre-release versions, as well as `latest` getting set to a pre-release version.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-11 16:10:41 +0000 UTC
+        Created At 2021-10-21 20:53:28 +0000 UTC
     </div>
 </div>
 
@@ -55,11 +40,11 @@ However, in my VSCode I did find the automatic type casting was a faff, and I ha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/32" class=".btn">#32</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/36" class=".btn">#36</a>
             </td>
             <td>
                 <b>
-                    Use strings to pass all values, as they are uint256
+                    Expose "standard" attribute for token pools (always set to "ERC1155")
                 </b>
             </td>
         </tr>
@@ -68,15 +53,39 @@ However, in my VSCode I did find the automatic type casting was a faff, and I ha
                 
             </td>
             <td>
-                - Update passing of int256 values to base10 strings
-  - Per https://github.com/hyperledger/firefly/pull/215#issuecomment-939998082
-- Update dependencies to pick up security fixes 
-
+                Counterpart to https://github.com/hyperledger/firefly/pull/276
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-11 15:14:34 +0000 UTC
+        Created At 2021-10-20 18:39:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/35" class=".btn">#35</a>
+            </td>
+            <td>
+                <b>
+                    Do not use tokenIndex for fungible pools
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is irrelevant (always 0), so do not require it to be passed or
+pass it back in events.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-18 20:27:57 +0000 UTC
     </div>
 </div>
 
