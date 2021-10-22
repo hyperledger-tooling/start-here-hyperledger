@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/56" class=".btn">#56</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/57" class=".btn">#57</a>
             </td>
             <td>
                 <b>
-                    Implement channelClose{Init,Confirm}
+                    Add support for delay period 
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                fix #11 by:
-- implementing channelClose{Init,Confirm} in the IBCHandler contract
-- fixing e2e/integration testing to test channel closing
+                close #49 
+
+Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-12 08:26:00 +0000 UTC
+        Created At 2021-10-22 08:38:01 +0000 UTC
     </div>
 </div>
 
