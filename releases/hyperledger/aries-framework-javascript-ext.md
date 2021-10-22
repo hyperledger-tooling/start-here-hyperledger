@@ -43,36 +43,3 @@ permalink: /releases/hyperledger/aries-framework-javascript-ext
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    @aries-framework/react-hooks react-hooks-v0.1.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    react-hooks-v0.1.2
-                </span>
-            </td>
-            <td>
-                
-
-### Bug Fixes
-
-* **react-hooks:** add jsx react to tsconfig ([4701369](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/47013691f173016860abbef0a7fc7541c33302c3))
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/react-hooks-v0.1.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-10-14 20:17:31 +0000 UTC
-    </span>
-</div>
-
