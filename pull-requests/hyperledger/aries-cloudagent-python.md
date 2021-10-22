@@ -108,29 +108,3 @@ There are some issues when running with askar but I will deal with those on a se
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1446" class=".btn">#1446</a>
-            </td>
-            <td>
-                <b>
-                    Add credential validation to offer issuance step
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This pull request adds an additional credential instance validation for any missing attributes. With this check eliminate errors at the issuance stage where in case of missing attributes, Aca-Py returns 500 error right now. And exchange record goes into a fault state.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 13:44:15 +0000 UTC
-    </div>
-</div>
-

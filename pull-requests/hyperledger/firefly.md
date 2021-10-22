@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/283" class=".btn">#283</a>
+            </td>
+            <td>
+                <b>
+                    Replace BeforeSend callback with a Prepare method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This instructs the sender to prepare the message for sending, but return before
+actually sending it. Re-invoking Send or SendAndWait on the same sender should
+dispatch the prepared message.
+
+Further aligned methods between transfers and messaging for consistency.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-22 16:05:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/281" class=".btn">#281</a>
             </td>
             <td>
