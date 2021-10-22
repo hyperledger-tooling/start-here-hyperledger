@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1474" class=".btn">#1474</a>
+            </td>
+            <td>
+                <b>
+                    test: skip corda v4.7 deploy test due to flakiness
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Corda</span><span class="chip">Flaky-Test-Automation</span><span class="chip">Tests</span>
+            </td>
+            <td>
+                Related to #1473 but does NOT fix it, that is to come at a later point
+in time when we have time for a full and proper diagnosis+fix.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-22 04:35:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1472" class=".btn">#1472</a>
             </td>
             <td>

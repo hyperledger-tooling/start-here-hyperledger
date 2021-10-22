@@ -91,29 +91,3 @@ Signed-off-by: matejpavlovic <matopavlovic@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/59" class=".btn">#59</a>
-            </td>
-            <td>
-                <b>
-                    Fixed broken go yaml.v2 installation.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Chrysoula Stathakopoulou <tat@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 05:39:22 +0000 UTC
-    </div>
-</div>
-
