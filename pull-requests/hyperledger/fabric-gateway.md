@@ -130,29 +130,3 @@ Closes #213
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/253" class=".btn">#253</a>
-            </td>
-            <td>
-                <b>
-                    Scenario tests for chaincode event listening close
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Contributes to #213 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 11:00:26 +0000 UTC
-    </div>
-</div>
-

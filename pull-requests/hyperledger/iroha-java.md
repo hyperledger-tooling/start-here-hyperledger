@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/170" class=".btn">#170</a>
+            </td>
+            <td>
+                <b>
+                    Updated schema version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: rkharisov <rinat@soramitsu.co.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-22 09:08:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/169" class=".btn">#169</a>
             </td>
             <td>
@@ -85,32 +111,6 @@ permalink: /pull-requests/hyperledger/iroha-java
     </table>
     <div class="right-align">
         Created At 2021-10-18 14:19:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/165" class=".btn">#165</a>
-            </td>
-            <td>
-                <b>
-                    Iroha-114: Make all collections in generated data models immutable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 09:18:55 +0000 UTC
     </div>
 </div>
 

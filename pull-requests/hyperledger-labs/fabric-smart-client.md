@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/156" class=".btn">#156</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/161" class=".btn">#161</a>
             </td>
             <td>
                 <b>
-                    Added Fabric topology flexibility
+                    nwo fabric: support fpc invocation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,64 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                It is easier to add and modify chancodes
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-15 11:37:31 +0000 UTC
+        Created At 2021-10-22 11:01:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/160" class=".btn">#160</a>
+            </td>
+            <td>
+                <b>
+                    Add FPC container logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-22 10:27:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/159" class=".btn">#159</a>
+            </td>
+            <td>
+                <b>
+                    Deduplicate endorsers during discovery
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-22 10:27:16 +0000 UTC
     </div>
 </div>
 

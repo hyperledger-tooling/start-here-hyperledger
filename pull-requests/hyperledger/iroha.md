@@ -322,7 +322,9 @@ None at the moment.
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                Signed-off-by: Alexey Kalita <kalita.alexey@outlook.com>
+                Closes #1141
+
+Signed-off-by: Alexey Kalita <kalita.alexey@outlook.com>
 
 <!-- You will not see HTML commented line in Pull Request body -->
 <!-- Optional sections may be omitted. Just remove them or write None -->
@@ -721,7 +723,7 @@ More memory footprint.
             </td>
             <td>
                 <b>
-                    Return response with more specific error description #1454
+                    Fix query error response with specific status code and hints. Close #1454
                 </b>
             </td>
         </tr>
@@ -730,49 +732,49 @@ More memory footprint.
                 <span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
+                ## 1. Query Response
 
 ### Description of the Change
+Status and whether each step succeeded:
+| Status | Decode & Versioning | Signature | Permission | Find |
+| -- | -- | -- | -- | -- |
+| 400 | N | - | - | - |
+| 401 | Y | N | - | - |
+| 404 | Y | Y | N | - |
+| 404 | Y | Y | Y | N |
+| 200 | Y | Y | Y | Y |
 
-* Before
+#### Asset Not Found 404
+Hint and whether each object exists:
+| Hint | Domain | Account | Asset Definition | Asset |
+| -- | -- | -- | -- | -- |
+| "domain" | N | - | - | - |
+| "account" | Y | N | - | - |
+| "definition" | Y | - | N | - |
+| - | Y | Y | Y | N |
 
-* After
+#### Account Not Found 404
+Hint and whether each object exists:
+| Hint | Domain | Account |
+| -- | -- | -- |
+| "domain" | N | - |
+| - | Y | N |
 
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+This specification is as [torii unit tests](https://github.com/s8sato/iroha/blob/8305d6d7cb18d5ae4d7596c864b9798ab2fb37e4/core/src/torii/mod.rs#L674-L893)
 
 ### Issue
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+Close #1454
+Relate to #1404
+Relate to #1460
 
 ### Benefits
 
-<!-- What benefits will be realized by the code change? -->
-
 ### Possible Drawbacks
 
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
+## 2. `CONTRIBUTING.md` Minor Fix
 
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
+### Description of the Change
+Clarify that we use ZenHub and personal forks
             </td>
         </tr>
     </table>

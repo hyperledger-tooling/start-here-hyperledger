@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1475" class=".btn">#1475</a>
+            </td>
+            <td>
+                <b>
+                    build(yarn): migrate from V1 to V3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We hope to solve issues with this that were plaguing contributors due to
+bugs in the much older Yarn 1.x versions that we had to use because Yarn V2
+had it's own set of problems when it came to linking the .bin folders for
+child packages in a monorepo.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-22 07:28:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1474" class=".btn">#1474</a>
             </td>
             <td>
@@ -386,37 +417,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-10-15 19:52:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1457" class=".btn">#1457</a>
-            </td>
-            <td>
-                <b>
-                    fix(plugin-ledger-connectors): fixes 1445 and implementing correct interface types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                For all the connector class definitions the implementation are fixed to
-follow their interface definition and to match in consistent way for all
-the connectors
-
-Closes: #1445
-Signed-off-by: Michael Courtin <michael.courtin@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 09:56:46 +0000 UTC
     </div>
 </div>
 
