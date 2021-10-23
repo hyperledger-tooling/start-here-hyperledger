@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1719" class=".btn">#1719</a>
+            </td>
+            <td>
+                <b>
+                    [corda] fixed node/notary registration charts using roottoken
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Fix/removed root token being used in store-certs post registration
+- Added create and update capabilities in policy to vault auth token
+
+ 
+
+**Reviewed by**
+@sownak 
+
+ 
+
+**Linked issue**
+#1713 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-23 07:15:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1718" class=".btn">#1718</a>
             </td>
             <td>

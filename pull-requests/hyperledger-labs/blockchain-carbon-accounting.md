@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/328" class=".btn">#328</a>
+            </td>
+            <td>
+                <b>
+                    Add test reports to CI pipeline
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds test reports to the existing CI test pipeline, using the [Test Reporter Action](https://github.com/marketplace/actions/test-reporter). For the purposes of creating the report, a new script called `test:ci` has been added in wherein Mocha has been configured to output to a `test-results.json` file (this functionality was added in with Mocha [v9.1.0](https://github.com/mochajs/mocha/releases/tag/v9.1.0)). This file is then uploaded using the [Upload Artifact Action](https://github.com/actions/upload-artifact). The test reporter workflow has been separated out into a new file [as specified here](https://github.com/marketplace/actions/test-reporter#recommended-setup-for-public-repositories).
+
+Closes #291.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-23 07:46:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/327" class=".btn">#327</a>
             </td>
             <td>

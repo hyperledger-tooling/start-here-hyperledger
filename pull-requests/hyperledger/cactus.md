@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1478" class=".btn">#1478</a>
+            </td>
+            <td>
+                <b>
+                    style: 2021-09-20 linter warnings batch 9 / 26 #1358
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #1358
+
+Signed-off-by: jgusta <jgustafx@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-23 07:49:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1477" class=".btn">#1477</a>
             </td>
             <td>
