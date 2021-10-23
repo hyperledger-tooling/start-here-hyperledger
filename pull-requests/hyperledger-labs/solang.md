@@ -91,31 +91,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/526" class=".btn">#526</a>
-            </td>
-            <td>
-                <b>
-                    docs: optimize keywords
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is the 5th Google result for "solidity solana," and I think it should be the 1st one (amazing project)—the docs actually rank 3 places higher.
-
-My main goal was just to include the word "Solana" in the `h1`, but I added the other targets for good measure. It's a little wordy, but I think it is worth merging (even if after a little tinkering).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-16 07:56:03 +0000 UTC
-    </div>
-</div>
-
