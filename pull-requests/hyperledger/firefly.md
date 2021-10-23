@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/284" class=".btn">#284</a>
+            </td>
+            <td>
+                <b>
+                    Update docs and add new guides
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The Contributor's Guide has seen some meaningful updates in this PR. There are some additional, brand new guides added here too.
+
+Relevant changes can be previewed here:
+
+- Contributor's Guide: https://nguyer.github.io/firefly/contributors/contributors.html
+- Contributing to Documentation: https://nguyer.github.io/firefly/contributors/docs_setup.html
+- Advanced CLI Usage: https://nguyer.github.io/firefly/contributors/advanced_cli_usage.html
+- Versioning Scheme: https://nguyer.github.io/firefly/maintainers/version_scheme.html
+- Release Guide: https://nguyer.github.io/firefly/maintainers/release_guide.html
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-22 20:23:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/283" class=".btn">#283</a>
             </td>
             <td>
@@ -474,37 +508,6 @@ a bit easier.
     </table>
     <div class="right-align">
         Created At 2021-10-16 20:46:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/258" class=".btn">#258</a>
-            </td>
-            <td>
-                <b>
-                    Fix logic for transfer+message with waitConfirm=true
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Part of #218.
-
-Includes a new MessageSender interface that is used by asset manager, broadcast manager, private messaging,
-and sync-async bridge. This allows cleaner tracking of the progress of resolving and sending a message, and
-injection of hooks at particular spots in the flow (which is needed here to dispatch the transfer and message in
-a specific order).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 19:08:33 +0000 UTC
     </div>
 </div>
 

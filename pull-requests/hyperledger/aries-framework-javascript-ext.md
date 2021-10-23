@@ -73,29 +73,3 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/52" class=".btn">#52</a>
-            </td>
-            <td>
-                <b>
-                    refactor(react-hooks): provider files for each context, export file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: NeilSMyers <mmyersneil@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 21:14:50 +0000 UTC
-    </div>
-</div>
-

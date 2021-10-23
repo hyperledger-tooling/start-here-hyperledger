@@ -438,32 +438,3 @@ packages/cactus-plugin-keychain-vault/src/test/typescript/integration/openapi/op
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1458" class=".btn">#1458</a>
-            </td>
-            <td>
-                <b>
-                    ci: temporarily disable Fabric container image builds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is necessary because they are being flaky again, potentially
-due to the DockerHub rate limits.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 19:52:42 +0000 UTC
-    </div>
-</div>
-
