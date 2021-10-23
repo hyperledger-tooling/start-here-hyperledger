@@ -90,30 +90,3 @@ This PR fixes the daily run for findy-b-dotnet runset.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/367" class=".btn">#367</a>
-            </td>
-            <td>
-                <b>
-                    fix(LE CA issues): fixing Let's Encrypt CA expiration fallout
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - updating root CA for verity backchannel build
-- adding a warning in manage when a mobile agent is used
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 20:39:52 +0000 UTC
-    </div>
-</div>
-
