@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    Merge
+                    Merge main into merge feature branch
                 </b>
             </td>
         </tr>

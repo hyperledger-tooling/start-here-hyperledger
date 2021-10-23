@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1477" class=".btn">#1477</a>
+            </td>
+            <td>
+                <b>
+                    test(test-tooling): filter whitespaces from container logs #1247
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a utility function in the Containers class to stream logs and
+automatically exclude newline-only log messages.
+
+Resolves #1247
+
+Signed-off-by: Jake Gustafson <jgustafx@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-23 04:08:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1476" class=".btn">#1476</a>
             </td>
             <td>
