@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/329" class=".btn">#329</a>
+            </td>
+            <td>
+                <b>
+                    Implement pre-commit hook for linting typescript_app and chaincode/typescript
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements pre-commit hook using husky, which is being used for linting ``typescript_app`` and ``chaincode/typescript``.
+
+Closes #324 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-23 15:28:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/328" class=".btn">#328</a>
             </td>
             <td>
