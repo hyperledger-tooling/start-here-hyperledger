@@ -485,29 +485,3 @@ a bit easier.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/260" class=".btn">#260</a>
-            </td>
-            <td>
-                <b>
-                    Move e2e to new routes, and add private/broadcast strong datatype tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                New E2E tests created as part of a recreate for #257, which turned out to be working as designed (due to a quirk of the JSON Schema syntax allowing additional properties by default).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-16 20:46:36 +0000 UTC
-    </div>
-</div>
-
