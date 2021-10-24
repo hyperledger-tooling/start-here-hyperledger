@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                close #49 
+                Close #49, close #54
 
 Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
             </td>
