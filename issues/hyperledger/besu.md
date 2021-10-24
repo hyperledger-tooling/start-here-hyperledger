@@ -14,11 +14,11 @@ permalink: /issues/hyperledger/besu
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/besu/issues/2308" class=".btn">2308</a>
+                Issue <a href="https://github.com/hyperledger/besu/issues/2705" class=".btn">2705</a>
             </td>
             <td>
                 <b>
-                    Separate Listening and Discovery Ports in Node Configuration
+                    Log unused JSON-RPC Request Fields
                 </b>
             </td>
         </tr>
@@ -28,23 +28,21 @@ permalink: /issues/hyperledger/besu
             </td>
             <td>
                 ### Description
-According to the documentation on [P2P Port](https://besu.hyperledger.org/en/stable/Reference/CLI/CLI-Syntax/#p2p-port) configuration, the `--p2p-port` options/`BESU_P2P_PORT` environment variable/`p2p-port` configuration file option can be used to configure the listening port for the node, which is used for both the TCP listening port and the UDP discovery port.
+As part of [PR 2690](https://github.com/hyperledger/besu/pull/2690) we allowed all fields in a JSON-RPC call that are not recognized to be ignored.  This was done to support other libraries that would occasionally send "extra" fields (like "type" in eth_estimateGas).  While this increases compatibility, there is a risk we may be unaware of properties that we may want in the future.
 
-Strangely enough, there are sections in the documentation that describe a valid [Enode URL](https://besu.hyperledger.org/en/stable/Concepts/Node-Keys/#enode-url) that allows setting a different discovery port using a `discport` query parameter.
+To help this, as a node operator I want unknown properties to be appeneded to the console (at info level), including what the field and value is and what type it was trying to be added to.  The particular call would be nice but may be hard to marshal.
 
-This brings the question of if those Enode URLs are supported, how can one configure a dedicated port for discovery, which has a different number than the listening port.
+One possible approach is to add `@AnySetter` methods in key places and logging the results.  (for context a stackoverflow question: https://stackoverflow.com/a/31164723/8020)
 
 ### Acceptance Criteria
-Allow configuring the listening port and discovery port of the node separatly,
+Calling any JSON-RPC with an unexpected field will result in the console log notifying me at ~INFO~ DEBUG level.
 
-### Additional Information
-It might seem like a small issue, but in scenarios that require exposing both ports, it creates limitations such as the cloud services that can be used to run nodes (at the time of opening this issue, both Azure ACI and AWS ECS do not support opening the same port number for both TCP and UDP at the same time).
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-20 14:08:31 +0000 UTC
+        Created At 2021-08-31 16:38:39 +0000 UTC
     </div>
 </div>
 
@@ -52,75 +50,118 @@ It might seem like a small issue, but in scenarios that require exposing both po
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/besu/issues/2190" class=".btn">2190</a>
+                Issue <a href="https://github.com/hyperledger/besu/issues/2681" class=".btn">2681</a>
             </td>
             <td>
                 <b>
-                    Unit tests fail if system language is not English
+                    Update JavaDoc so we can build with Java 16+
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dev experience</span><span class="chip">good first issue</span>
+                <span class="chip">good first issue</span><span class="chip">dev experience</span>
+            </td>
+            <td>
+                Currently Hypedlerger Besu won't fully build when using Java 16 as the JVM that is running the gradle build. One reason is that some of javadoc rules in have changed.
+
+There are two main items that are hitting us
+* Not all public classes have comments. Fixing these can be tedious, but it appears our warning setting lets us get away with it.
+* Some places we use out-of-order &lt;H3&gt; headings and the javadoc linter really hates that.
+
+If we can get away without adding javadoc on all public methods that would be great.  If we do have to do thousands of javadocs we should consider the bare-minimum needed, without blatently saying "TODO" on all of them. This can be fixed possibly with CLI flags in the build?
+
+The other lint options should be fixed.  The heading order ones in particular.  But if there are syntax and reference bugs those should be fixed.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-26 19:22:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/besu/issues/2643" class=".btn">2643</a>
+            </td>
+            <td>
+                <b>
+                    [Spike] Determine the tasks required to upgrade from Java 11 to Java 17
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">help wanted</span><span class="chip">dev experience</span>
+            </td>
+            <td>
+                This spike should involve an investigation and some initial testing to determine the subtasks required to upgrade Besu to Java 17.
+For completion a number of other issues should be created in this epic.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-08-16 19:44:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/besu/issues/2569" class=".btn">2569</a>
+            </td>
+            <td>
+                <b>
+                    Improve error message when verifying enode syntax with xdns-enabled
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span>
             </td>
             <td>
                 ### Description
-The tests `BesuCommandTest.privEnclaveKeyFileDoesNotExist` and `NetworkingServiceLifecycleTest.startDiscoveryPortInUse` fail if the system language of the operating system is another language than English. In `BesuCommandTest.privEnclaveKeyFileDoesNotExist` the test looks like this:
 
-```
-@Test
-public void privEnclaveKeyFileDoesNotExist() {
-  parseCommand("--privacy-enabled=true", "--privacy-public-key-file", "/non/existent/file");
+When deploying multiples nodes on private network, the same `BESU_BOOTNODES` env variable is set with all the enodes.
+This is ok as a node will detect its own enode.
 
-  assertThat(commandOutput.toString()).isEmpty();
-  assertThat(commandErrorOutput.toString()).startsWith("Problem with privacy-public-key-file");
-  assertThat(commandErrorOutput.toString()).contains("No such file");
-}
-```
+Now, in a private networking environment such a Kubernetes, the option `BESU_XDNS_ENABLED` is set to true so we can point to the Pods hostnames instead of IPs that will change.
 
-The last assertion is the one that is failing. `No such file` is the error message coming directly from `IOException` when the file is not found. But the error messages of the exceptions thrown by the Java library are translated according to the system language. For example when the system language is set to Spanish the error looks like this:
+Internally, Besu seems to retrieve from DNS the IP and then substitute it in the enode string.
+If any of the nodes listed on the `BESU_BOOTNODES` option is not yet ready, the Kubernetes DNS will not report any IP, and then the Besu command will fail with this message:
 
-```
-Problem with privacy-public-key-file: /non/existent/file (No existe el archivo o el directorio)
+```log
+Invalid enode URL syntax. Enode URL should have the following format 'enode://<node_id>@<ip>:<listening_port>[?discport=<discovery_port>]'.  Invalid ip address.
 ```
 
-In this case `No such file` is not part of the output string and the assertion fails.
+If the option `BESU_XDNS_UPDATE_ENABLED` is also enabled, Besu does not substitute any IP in the enode string and passes the boot up validations.
 
- `NetworkingServiceLifecycleTest.startDiscoveryPortInUse`  fails for the same reason:
- 
- ```
-catch (final Exception e) {
-          assertThat(e).hasCauseExactlyInstanceOf(PeerDiscoveryServiceException.class);
-          assertThat(e)
-              .hasMessageStartingWith(
-                  "org.hyperledger.besu.ethereum.p2p.discovery."
-                      + "PeerDiscoveryServiceException: Failed to bind Ethereum UDP discovery listener to 0.0.0.0:");
 
-          assumeThat(System.getProperty("user.language")).isEqualTo("en");
-          assertThat(e).hasMessageContaining("Address already in use");
-        } 
+
+**Expected behavior:**
+
+If `BESU_XDNS_ENABLED` is set to true, but `BESU_XDNS_UPDATE_ENABLED` isn't, the error message displayed should be more clear on what is actually happening.
+
+Example:
+
+```
+Invalid ip address or DNS query resolved an invalid ip.
 ```
 
-Here again the last assertion fails, because it comes directly from an exception thrown by the Java library.
+### Versions
+* Software version: `besu/v21.7.1/linux-x86_64/adoptopenjdk-java-11` (docker latest tag at the time of writting).
 
-### Expected behavior
-The tests should either be successful or be skipped.
-
-### Possible solution
-The tests could be skipped using [AssertJ Assume](https://assertj.github.io/doc/#assertj-core-assumptions) and testing if the system language is English or not. Like that they would not fail for developers with another system language. But they would still be executed in the CI / CD pipeline, to verify that the tested behavior has not been changed.
-
-### Steps to Reproduce (Bug)
-1. Checkout `master` branch
-2. Change system language to any other than English
-3. Execute `./gradlew build` 
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-04-26 11:24:46 +0000 UTC
+        Created At 2021-07-21 14:20:22 +0000 UTC
     </div>
 </div>
 
