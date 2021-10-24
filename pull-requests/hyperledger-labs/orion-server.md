@@ -121,29 +121,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/205" class=".btn">#205</a>
-            </td>
-            <td>
-                <b>
-                    Update docker build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-17 07:37:44 +0000 UTC
-    </div>
-</div>
-
