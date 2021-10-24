@@ -14,11 +14,41 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/218" class=".btn">#218</a>
+            </td>
+            <td>
+                <b>
+                    Get last ledger block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding API to get last ledger block using /ledger/block/last URL
+
+This API used to get ledger height and get ledger last block at once.
+
+Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-24 14:29:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/217" class=".btn">#217</a>
             </td>
             <td>
                 <b>
-                    WIP: Block numbering
+                    Block numbering in replicator
                 </b>
             </td>
         </tr>
@@ -27,7 +57,12 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 <span class="chip">replication</span>
             </td>
             <td>
-                <nil>
+                The block replicator is made in charge of numbering the blocks and setting the last header base hash.
+The block replicator keeps track of the last committed block, and the last proposed block, and
+updates them whe leadership is assumed and lost.
+
+The block numbers given the block creator are provisional, and number the sequence of proposals since
+the node started its current incarnation.
             </td>
         </tr>
     </table>
