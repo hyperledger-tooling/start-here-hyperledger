@@ -28,6 +28,7 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
             </td>
             <td>
                 - Allow external TxIDs on data tx (for now)
+- check the characters of external TxID
 - the internal commonTxContext augmented with variadic config function parameter
 - config function WithTxID
 

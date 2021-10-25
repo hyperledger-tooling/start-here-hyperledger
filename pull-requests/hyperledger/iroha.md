@@ -833,37 +833,18 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             <td>
                 ### Description of the Change
 
-Removing code duplication from sumeragi and refactoring it.
+- Removing code duplication from Sumeragi.
+- Using actor system to full extent.
 
 ### Issue
 
+Closes #1269 
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
 
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
 
-### Benefits
 
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
 
             </td>
         </tr>
@@ -982,50 +963,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-10-19 08:28:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1530" class=".btn">#1530</a>
-            </td>
-            <td>
-                <b>
-                    Added boolean-based asset mintability check.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
-
-### Description of the Change
-
-Added a boolean to check if the asset definition allows mintability of an asset. 
-
-### Issue
-
-[#1139](https://app.zenhub.com/workspaces/iroha-v2-60ddb820813b9100181fc060/issues/hyperledger/iroha/1139)
-
-
-### Benefits
-
-Assets could be made unmintable at creation time. 
-
-### Possible Drawbacks
-
-More memory footprint. 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-18 14:03:06 +0000 UTC
     </div>
 </div>
 
