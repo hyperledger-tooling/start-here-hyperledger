@@ -1,13 +1,13 @@
 
-[372](https://github.com/hyperledger/aries-agent-test-harness/pull/372) Changes by create-pull-request action
+[164](https://github.com/hyperledger-labs/fabric-smart-client/pull/164) reduce integration infrastructure logging to info
 
-[2941](https://github.com/hyperledger/besu/pull/2941) Strict input length metering for crypto precompiles
+[1562](https://github.com/hyperledger/iroha/pull/1562) I2 ci fix
 
-[371](https://github.com/hyperledger/aries-agent-test-harness/pull/371) chore: update afj, remove setTimeouts
+[172](https://github.com/hyperledger/iroha-java/pull/172) update to iroha:1.3.0-rc.1
 
-[218](https://github.com/hyperledger-labs/orion-server/pull/218) Get last ledger block
+[58](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/58) Bump up the version of Solidity to v0.8.9
 
-[127](https://github.com/hyperledger-labs/fabric-token-sdk/pull/127) additonal network abstraction
+[71](https://github.com/hyperledger-labs/orion-sdk-go/pull/71) Allow external TxID on data tx
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
