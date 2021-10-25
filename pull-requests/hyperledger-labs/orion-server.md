@@ -100,31 +100,3 @@ This will eventually reject, redirect, or drop all the transactions waiting for 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/209" class=".btn">#209</a>
-            </td>
-            <td>
-                <b>
-                    MPTrie Proof data scructure comments fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                Misleading comment in state.Proof data structure.
-
-Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-18 14:12:02 +0000 UTC
-    </div>
-</div>
-

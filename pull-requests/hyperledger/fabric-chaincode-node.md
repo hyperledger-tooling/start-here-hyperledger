@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
             </td>
             <td>
                 <b>
-                    Node update main
+                    Node update - move to using node 16 for main branch
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                <nil>
+                The main branch is Fabric v2.4, and Node 16 will be LTS very soon.
+
+Updating seemed to a little harder than expected. Notably, some of the `promise` handling appeared to be subtly different. 
             </td>
         </tr>
     </table>

@@ -1,13 +1,13 @@
 
-[164](https://github.com/hyperledger-labs/fabric-smart-client/pull/164) reduce integration infrastructure logging to info
+[183](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/183) Core network interop contracts for Besu for exchanging ERC20 tokens and a simpleasset application
 
-[1562](https://github.com/hyperledger/iroha/pull/1562) I2 ci fix
+[331](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/331) typescript_app: typescript build fix
 
-[172](https://github.com/hyperledger/iroha-java/pull/172) update to iroha:1.3.0-rc.1
+[330](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/330) added status badges of GitHub Action pipelines
 
-[58](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/58) Bump up the version of Solidity to v0.8.9
+[1722](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1722) Added cenm-cli helm chart
 
-[71](https://github.com/hyperledger-labs/orion-sdk-go/pull/71) Allow external TxID on data tx
+[661](https://github.com/hyperledger-labs/business-partner-agent/pull/661) Support sending and receiving V2 Indy Proof Requests
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

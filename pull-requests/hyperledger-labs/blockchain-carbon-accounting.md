@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/331" class=".btn">#331</a>
+            </td>
+            <td>
+                <b>
+                    typescript_app: typescript build fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes the typescript_app build error
+
+@brioux 
+ 
+Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-25 16:29:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/330" class=".btn">#330</a>
+            </td>
+            <td>
+                <b>
+                    added status badges of GitHub Action pipelines
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+![image](https://user-images.githubusercontent.com/39259938/138733476-3db9f884-deab-4b82-9bcf-8d17e3cc5427.png)
+![image](https://user-images.githubusercontent.com/39259938/138733411-0d426805-85f4-4f32-b69c-5646a6497641.png)
+
+Signed-off-by: udosson <r.klemens@yahoo.de>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-25 16:21:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/329" class=".btn">#329</a>
             </td>
             <td>
