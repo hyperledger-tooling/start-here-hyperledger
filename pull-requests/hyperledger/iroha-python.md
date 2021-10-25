@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/iroha-python
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 Signed-off-by: i1i1 <vanyarybin1@live.ru>
