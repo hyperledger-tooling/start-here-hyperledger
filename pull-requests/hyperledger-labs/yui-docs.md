@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    Add README
+                    adding yui-ibc-solidity sample
                 </b>
             </td>
         </tr>
@@ -27,64 +27,13 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
                 
             </td>
             <td>
-                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+                As a sample of application development using yui-ibc-solidity,
+we created an environment for inter-ledger transfer using a token called MiniToken.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-08 15:45:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/3" class=".btn">#3</a>
-            </td>
-            <td>
-                <b>
-                    Add contributors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                added contributors to CONTRIBUTORS.md
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-08 11:50:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/1" class=".btn">#1</a>
-            </td>
-            <td>
-                <b>
-                    Add CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-06-04 13:56:58 +0000 UTC
+        Created At 2021-10-26 03:53:09 +0000 UTC
     </div>
 </div>
 

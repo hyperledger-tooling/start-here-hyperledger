@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/334" class=".btn">#334</a>
+            </td>
+            <td>
+                <b>
+                    Updated tests for FabricSigningCredentialType.WsX509
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Replicate existing tests for VaultX509
+Add gateway interface IWebSocketKey for webSocketKey object with sessionId and signature.
+Extend service/input header to include Record with object values (not just strings).
+
+Signed-off-by: brioux <Bertrand.rioux@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-26 05:31:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/332" class=".btn">#332</a>
             </td>
             <td>

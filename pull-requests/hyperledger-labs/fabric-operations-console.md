@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/63" class=".btn">#63</a>
-            </td>
-            <td>
-                <b>
-                    some documentation and setup script fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These are fix to some of the issues I encountered while I was setting up the environment.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 06:17:51 +0000 UTC
-    </div>
-</div>
-
