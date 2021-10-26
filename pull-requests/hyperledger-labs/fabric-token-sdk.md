@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/130" class=".btn">#130</a>
+            </td>
+            <td>
+                <b>
+                    Update FSC to latest version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-26 09:15:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/129" class=".btn">#129</a>
             </td>
             <td>
@@ -163,34 +189,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2021-10-22 14:26:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/123" class=".btn">#123</a>
-            </td>
-            <td>
-                <b>
-                    Resolve data races in ZKAT-DLOG transfers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit resolves data races in the ZKAT-DLOG transfers via refactoring the code to use local variables instead of field variables, hence making local variables reference-able only from the goroutine that created them and not shared across goroutines.
-
-Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 11:37:09 +0000 UTC
     </div>
 </div>
 

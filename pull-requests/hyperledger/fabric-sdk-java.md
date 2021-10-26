@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/151" class=".btn">#151</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/154" class=".btn">#154</a>
             </td>
             <td>
                 <b>
-                    Add otel 2.2
+                    Listen to private data in the events
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                Porting #115 over to release 2.2 branch.
+                [Work in Progress] Listen to the private data map from the deliver response message.
+Addresses #153 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-15 15:54:38 +0000 UTC
+        Created At 2021-10-26 08:10:00 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/266" class=".btn">#266</a>
+            </td>
+            <td>
+                <b>
+                    Use firefly_e2e instead of firefly-e2e for container names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fits with other FireFly naming conventions and makes highlighting in terminal
+a bit easier.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-19 18:22:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/264" class=".btn">#264</a>
             </td>
             <td>
