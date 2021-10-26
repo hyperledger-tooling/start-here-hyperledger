@@ -1,13 +1,13 @@
 
-[516](https://github.com/hyperledger/fabric-samples/pull/516) test-network: Make the regexp of checking version more strict (backpo…
+[2997](https://github.com/hyperledger/fabric/pull/2997) Protobuf and etcd upgrade
 
-[38](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/38) release 0.8.4 from main
+[531](https://github.com/hyperledger-labs/solang/pull/531) First steps in move to ghcr.io away from docker hub
 
-[1569](https://github.com/hyperledger/iroha/pull/1569) GaroRobe/issue1197
+[1703](https://github.com/hyperledger/indy-node/pull/1703) changed pypi package of plenum to the newest one published by GHA 
 
-[515](https://github.com/hyperledger/fabric-samples/pull/515) test-network: Make the regexp of checking version more strict
+[1000](https://github.com/hyperledger/grid/pull/1000) Fix adding a new revision to the store
 
-[1567](https://github.com/hyperledger/iroha/pull/1567) [GHA] remake matrix to buildspec, fix build with URSA
+[517](https://github.com/hyperledger/fabric-samples/pull/517) Local docker images
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
