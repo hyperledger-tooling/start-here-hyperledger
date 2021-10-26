@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
             </td>
             <td>
                 <b>
-                    Allow external TxID on data tx
+                    WIP: Allow external TxID on data tx
                 </b>
             </td>
         </tr>

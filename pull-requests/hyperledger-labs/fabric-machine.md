@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/6" class=".btn">#6</a>
-            </td>
-            <td>
-                <b>
-                    feat: bcm protocol software receiver
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: U-XLNX\jamiey <jamiey@XSJJAMIEY30.xlnx.xilinx.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 01:16:26 +0000 UTC
-    </div>
-</div>
-
