@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
             </td>
             <td>
                 <b>
-                    WIP: Allow external TxID on data tx
+                    Allow external TxID on data tx
                 </b>
             </td>
         </tr>
@@ -51,7 +51,7 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
             </td>
             <td>
                 <b>
-                    State example unittest
+                    WIP State example unittest
                 </b>
             </td>
         </tr>
@@ -144,32 +144,6 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-10-19 14:55:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/61" class=".btn">#61</a>
-            </td>
-            <td>
-                <b>
-                    multi sign data transaction example
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 11:49:55 +0000 UTC
     </div>
 </div>
 
