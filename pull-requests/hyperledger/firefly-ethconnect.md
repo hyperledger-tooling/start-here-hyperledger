@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/170" class=".btn">#170</a>
-            </td>
-            <td>
-                <b>
-                    Fix release action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This will prevent duplicate build tasks when creating pre-release versions, as well as `latest` getting set to a pre-release version.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 20:45:04 +0000 UTC
-    </div>
-</div>
-

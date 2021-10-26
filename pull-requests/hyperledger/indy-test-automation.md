@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/107" class=".btn">#107</a>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/108" class=".btn">#108</a>
             </td>
             <td>
                 <b>
-                    Draft PR [#102]: remove sovrin dependencies
+                    removed circular dependencies and adjusted to be executed in GHA
                 </b>
             </td>
         </tr>
@@ -27,14 +27,17 @@ permalink: /pull-requests/hyperledger/indy-test-automation
                 
             </td>
             <td>
-                #102 
+                This PR separates the Hyperledger Indy packages from the sovrin packages. Also, the docker files and scripts are adjusted to run in GHA as well as in local environments.
+
+A successful run of all `node-only` test can be found at: https://github.com/udosson/indy-test-automation/actions/runs/1372937579 The workflow has been moved to `indy-node`
+Issue: #102 
 
 Signed-off-by: udosson <r.klemens@yahoo.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-20 13:29:08 +0000 UTC
+        Created At 2021-10-26 14:01:36 +0000 UTC
     </div>
 </div>
 

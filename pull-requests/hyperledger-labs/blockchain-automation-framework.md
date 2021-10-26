@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1723" class=".btn">#1723</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] fixed quorum raft issues
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Fixed keystore not base64 encoded for raft
+- Fixed static.json file special character issue
+- Fixed organization reference error 
+
+ 
+
+**Reviewed by**
+@alvaropicazo @sownak 
+
+ 
+
+**Linked issue**
+#1721 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-26 12:34:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1722" class=".btn">#1722</a>
             </td>
             <td>

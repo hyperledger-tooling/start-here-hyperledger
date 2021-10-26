@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1000" class=".btn">#1000</a>
+            </td>
+            <td>
+                <b>
+                    Fix adding a new revision to the store
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes a bug when attempting to add a revision to the store when the
+version doesn't yet exist. This now proprly creates the new version
+first.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-26 14:59:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/999" class=".btn">#999</a>
             </td>
             <td>
@@ -176,62 +206,6 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-19 20:11:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/989" class=".btn">#989</a>
-            </td>
-            <td>
-                <b>
-                    Implement list/show revisions in the reqwest client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This implements the `list_purchase_order_revisions` and `get_purchase_order_revision` functions in the reqwest client.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 17:51:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/988" class=".btn">#988</a>
-            </td>
-            <td>
-                <b>
-                    Update purchase order to use actix path tuples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Actix requires that all URL params are defined in a single path tuple.
-This change allows actix to correctly process requests to specific
-purchase order endpoints.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 15:06:18 +0000 UTC
     </div>
 </div>
 

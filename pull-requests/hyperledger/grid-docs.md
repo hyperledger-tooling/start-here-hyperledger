@@ -140,29 +140,3 @@ permalink: /pull-requests/hyperledger/grid-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/264" class=".btn">#264</a>
-            </td>
-            <td>
-                <b>
-                    Update roadmap to reflect plans for Grid v0.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This also makes some other modifications to the page, such as removing primary contact and moving Grid v0.2 to past releases.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 17:20:53 +0000 UTC
-    </div>
-</div>
-
