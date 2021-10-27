@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/9" class=".btn">#9</a>
-            </td>
-            <td>
-                <b>
-                    Software setup.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Haris Javaid <harisj@xilinx.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 03:05:32 +0000 UTC
-    </div>
-</div>
-

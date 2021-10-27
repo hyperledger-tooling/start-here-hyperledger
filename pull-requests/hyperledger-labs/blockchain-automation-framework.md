@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1725" class=".btn">#1725</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Generation of configtx.yaml with usage of custom templates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Generation of configtx.yaml with usage of custom templates
+- Addition of new tasks for copy and checking the configtx.yaml
+- Renaming configtx templates with default postfix and associated code
+- Addition of configtx custom folder path
+
+Co-authored-by: S m, Aruna <aruna.mohan@walmart.com>
+Co-authored-by: Shubhkarman Walia <shubhkarman.walia@Walmart.com>
+Co-authored-by: Karthik Samaganam <karthik.samaganam@walmart.com>
+
+Signed-off-by: S m, Aruna <aruna.mohan@walmart.com>
+Signed-off-by: Puneet Joshi <puneet.joshi@walmart.com
+ 
+
+**Reviewed by**
+@arsulegai
+ 
+
+**Linked issue**
+#1724 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 03:59:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1723" class=".btn">#1723</a>
             </td>
             <td>
