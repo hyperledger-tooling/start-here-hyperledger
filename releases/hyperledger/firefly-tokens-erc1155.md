@@ -42,35 +42,3 @@ permalink: /releases/hyperledger/firefly-tokens-erc1155
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.9.0-20211019-01
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.9.0-20211019-01
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Do not use tokenIndex for fungible pools by @awrichar in https://github.com/hyperledger/firefly-tokens-erc1155/pull/35
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v0.9.0...v0.9.0-20211019-01
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.9.0-20211019-01" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-10-19 15:36:36 +0000 UTC
-    </span>
-</div>
-
