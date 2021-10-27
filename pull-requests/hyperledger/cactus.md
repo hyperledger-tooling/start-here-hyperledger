@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1486" class=".btn">#1486</a>
+            </td>
+            <td>
+                <b>
+                    test: skip corda deploy 4.6 integration test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Corda</span><span class="chip">Developer_Experience</span><span class="chip">Flaky-Test-Automation</span><span class="chip">Tests</span>
+            </td>
+            <td>
+                Skip the test case at:
+packages/cactus-plugin-ledger-connector-corda/src/test/typescript/
+integration/deploy-cordapp-jars-to-nodes.test.ts
+
+This is related to (but does not fix) #1485
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 16:45:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1484" class=".btn">#1484</a>
             </td>
             <td>

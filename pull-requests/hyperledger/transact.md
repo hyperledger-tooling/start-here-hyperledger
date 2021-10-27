@@ -14,6 +14,110 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/236" class=".btn">#236</a>
+            </td>
+            <td>
+                <b>
+                    Delete SqlMerkleState trees
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 16:18:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/235" class=".btn">#235</a>
+            </td>
+            <td>
+                <b>
+                    Drop experimental redis support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This feature is no longer of interest as it does not provide enough of the transactional guarantees required for its usage with merkle state.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 15:28:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/234" class=".btn">#234</a>
+            </td>
+            <td>
+                <b>
+                    Replace smallbank magic values with consts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 15:05:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/233" class=".btn">#233</a>
+            </td>
+            <td>
+                <b>
+                    Replace expect with invalid transaction in command fam
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 14:02:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/232" class=".btn">#232</a>
             </td>
             <td>
@@ -217,58 +321,6 @@ builds.
     </table>
     <div class="right-align">
         Created At 2021-10-20 19:31:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/224" class=".btn">#224</a>
-            </td>
-            <td>
-                <b>
-                    Fix typo in rustdoc for SabreContext.add_receipt_data
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 17:55:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/223" class=".btn">#223</a>
-            </td>
-            <td>
-                <b>
-                    Backport 0-3: Limit recursion to same tree ID
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Back-port of #221 to 0-3
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 16:38:28 +0000 UTC
     </div>
 </div>
 

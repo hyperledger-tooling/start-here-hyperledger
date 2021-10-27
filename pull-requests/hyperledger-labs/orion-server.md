@@ -97,32 +97,3 @@ the node started its current incarnation.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/211" class=".btn">#211</a>
-            </td>
-            <td>
-                <b>
-                    Release txs replicator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">replication</span>
-            </td>
-            <td>
-                When a leader loses its leadership, it should stop proposing blocks to raft, and drain all blocks
-waiting to be proposed by calling ReleaseWithError to the PendingTxs queue.
-This will eventually reject, redirect, or drop all the transactions waiting for replication.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 14:21:55 +0000 UTC
-    </div>
-</div>
-

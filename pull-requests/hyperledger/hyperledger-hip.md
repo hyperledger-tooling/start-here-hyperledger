@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/hyperledger-hip
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/hyperledger-hip/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger/hyperledger-hip/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    Remove process from template
+                    Add baf hip
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/hyperledger-hip
                 
             </td>
             <td>
-                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-11 21:01:21 +0000 UTC
+        Created At 2021-10-27 13:40:40 +0000 UTC
     </div>
 </div>
 

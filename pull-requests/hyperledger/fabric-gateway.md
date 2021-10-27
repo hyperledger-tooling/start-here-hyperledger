@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/268" class=".btn">#268</a>
+            </td>
+            <td>
+                <b>
+                    Correct dependency version for Java protobufs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Keep in step with transient dependencies of gRPC packages to avoid runtime version resolution issues.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 15:12:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/266" class=".btn">#266</a>
+            </td>
+            <td>
+                <b>
+                    Allow per-call gRPC call options in Node client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Contributes to #198 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 14:11:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/264" class=".btn">#264</a>
             </td>
             <td>
@@ -55,7 +107,7 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
                 
             </td>
             <td>
-                <nil>
+                Contributes to #198 
             </td>
         </tr>
     </table>
