@@ -116,35 +116,3 @@ Contributes to #505
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/522" class=".btn">#522</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] ServiceHandler.js->function type ServiceHandler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It might involve
-- rewrite DiscoveryHandler.js
-- migrate to use TargetedHandler.js
-- more code hygiene in Proposal.js
-- more use subclass of Proposal.js, than ServiceAction
-
-Signed-off-by: DavidLiu <david.yx.liu@oracle.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 09:58:07 +0000 UTC
-    </div>
-</div>
-

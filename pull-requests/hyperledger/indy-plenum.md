@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1567" class=".btn">#1567</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1568" class=".btn">#1568</a>
             </td>
             <td>
                 <b>
-                    updated version of pygments because of security vulnerability
+                    pinned dependencies because of missing support for python 3.5
                 </b>
             </td>
         </tr>
@@ -27,18 +27,17 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                This PR updates the version of  `pygments` to v.2.7.4 to fix the following CVEs (Issue #1540):
-[CVE-2021-20270](https://github.com/advisories/GHSA-pq64-v7f5-gqh8)
-[CVE-2021-27291](https://github.com/advisories/GHSA-pq64-v7f5-gqh8)
-
-
+                Pinned the following PyPI packages to specific versions that are compatible with Python 3.5 and to fix CVEs.
+- `setuptools<=50.3.2`
+- `pygments==2.7.4` 
+- `importlib_metadata==2.1.1`
 
 Signed-off-by: udosson <r.klemens@yahoo.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-12 17:40:13 +0000 UTC
+        Created At 2021-10-27 08:22:52 +0000 UTC
     </div>
 </div>
 

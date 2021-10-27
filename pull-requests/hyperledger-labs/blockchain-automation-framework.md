@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1727" class=".btn">#1727</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] Added cenm-cli docker file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: surabhi-dudhediya <surabhi.dudhediya@accenture.com>
+
+**Changelog**
+- Add cenm-cli docker file
+
+ 
+
+**Reviewed by**
+@jagpreetsinghsasan @suvajit-sarkar @sownak 
+ 
+
+**Linked issue**
+#1545 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 11:07:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1725" class=".btn">#1725</a>
             </td>
             <td>
@@ -102,46 +141,6 @@ Signed-off-by: Puneet Joshi <puneet.joshi@walmart.com
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1722" class=".btn">#1722</a>
-            </td>
-            <td>
-                <b>
-                    Added cenm-cli helm chart
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: surabhi-dudhediya <surabhi.dudhediya@accenture.com>
-
-**Changelog**
-- Add cenm-cli helm chart and its dockerfile
-
- 
-
-**Reviewed by**
-@jagpreetsinghsasan @suvajit-sarkar @sownak 
-
- 
-
-**Linked issue**
-#1545 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-25 14:50:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1719" class=".btn">#1719</a>
             </td>
             <td>
@@ -202,36 +201,6 @@ Signed-off-by: Puneet Joshi <puneet.joshi@walmart.com
     </table>
     <div class="right-align">
         Created At 2021-10-20 17:54:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1716" class=".btn">#1716</a>
-            </td>
-            <td>
-                <b>
-                    Added EKS upgrade to roadmap
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Update roadmap
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 09:33:11 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1484" class=".btn">#1484</a>
+            </td>
+            <td>
+                <b>
+                    feat(iroha): adding checkEmpty param to request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Current functionality did not make use of the newer additional parameter in the Iroha command
+
+Closes: #1265
+Signed-off-by: Travis Payne <travis.payne@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 10:14:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1482" class=".btn">#1482</a>
+            </td>
+            <td>
+                <b>
+                    docs(discounted-cartrade): update README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                update README of discounted-cartrade example to reflect changes in ledger setup and script building steps.
+
+resolves: #1428 
+
+Signed-off-by: Izuru Sato <sato.izuru@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-26 10:45:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1478" class=".btn">#1478</a>
             </td>
             <td>
@@ -294,140 +353,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-10-20 22:39:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1464" class=".btn">#1464</a>
-            </td>
-            <td>
-                <b>
-                    feat(common): add Strings#isNonBlank()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 06:53:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1463" class=".btn">#1463</a>
-            </td>
-            <td>
-                <b>
-                    feat(plugin-keychain-memory-wasm): add WebAssmebly PoC
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adding a new keychain in-memory plugin that has it's implementation
-written in Rust that is then compiled down to WebAssmebly via wasm-pack
-and used by the wrapper Typescript code.
-
-This is NOT meant for production because it stores everything in plain
-text and also provides zero durability/persistence guarantees given that
-it's only storing everything in memory.
-
-The actual news here is that we have a plugin now written in Rust which
-is the pre-cursor to us being able to do something similar with the
-Weaver relay component as the next phase of a bigger PoC.
-
-The reason why not the entire plugin is implemented in Rust is because
-we are unable to hook up ExpressJS request handlers from the Rust code
-as far as I could determine. See this link for further details on this:
-https://rustwasm.github.io/book/reference/js-ffi.html#from-the-rust-side
-
-Because of the above, the way it works is this:
-
-        +--------+ API Request   +----------+
-        | HTTP   |-------------->| ExpressJS|
-        | Client |               +----------+
-        +--------+               Method|
-                                 Call  |
-                                       v
-        +---------+ Method Call  +----------+
-        | Calling |------------->|JS Plugin |
-        | Module  |              |Module    |
-        +---------+              +----------+
-                                   |get()
-                                   |set()
-                                   |has()
-                                   |delete()
-                +-------------+    |
-                | Wasm Plugin |<---+
-                | Module      |
-                +-------------+
-                        ^
-                        |
-                        |
-                        v
-           +------------------------+
-           |Rust Native             |
-           |HashMap<String, String> |
-           +------------------------+
-
-Resolves #1281
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 06:47:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1462" class=".btn">#1462</a>
-            </td>
-            <td>
-                <b>
-                    build(tools): upgraded sync-npm-deps script to globby v12
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Globby's newer versions use ESM modules which caused problems
-when running our TS code with ts-node, the workarounds are now
-in place so that the sync-npm-deps script that writes to
-tsconfig.json can be used once more (though still not redcommended
-because of other technical debt that was recently introduced to
-the codebase in the form of non-uniform tsconfig.json files for
-some packages)
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 01:32:45 +0000 UTC
     </div>
 </div>
 
