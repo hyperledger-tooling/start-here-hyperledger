@@ -69,35 +69,3 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/659" class=".btn">#659</a>
-            </td>
-            <td>
-                <b>
-                    Remove Edit button on Add partner Profile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix up render of html in i18n message resource.
-
-Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/659"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 23:46:16 +0000 UTC
-    </div>
-</div>
-
