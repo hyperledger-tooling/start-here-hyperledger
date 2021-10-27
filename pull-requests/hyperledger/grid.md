@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1001" class=".btn">#1001</a>
+            </td>
+            <td>
+                <b>
+                    Add PO version and revision `list` and `show` CLI commands
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds CLI commands for listing and showing Grid Purchase Order versions and revisions. In support of this, the purchase order client's functions and structs are also brought up-to-date with the rest of the module's pieces.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 15:58:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1000" class=".btn">#1000</a>
             </td>
             <td>
@@ -151,35 +177,6 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-20 19:56:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/994" class=".btn">#994</a>
-            </td>
-            <td>
-                <b>
-                    Base grid-cli on focal instead of sabre-cli
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previously we had a need for sabre cli alongside the grid cli but this is no
-longer the case.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 15:58:05 +0000 UTC
     </div>
 </div>
 

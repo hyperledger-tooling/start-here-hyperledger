@@ -178,29 +178,3 @@ Signed-off-by: Puneet Joshi <puneet.joshi@walmart.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1718" class=".btn">#1718</a>
-            </td>
-            <td>
-                <b>
-                    Add Weihong as a maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add @weihong-ou as a committer and a code-owner.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 17:54:20 +0000 UTC
-    </div>
-</div>
-

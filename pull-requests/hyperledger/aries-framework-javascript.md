@@ -120,29 +120,3 @@ Signed-off-by: Timo Glastra <timo@animo.id>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/499" class=".btn">#499</a>
-            </td>
-            <td>
-                <b>
-                    docs: web socket transport is supported
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 12:51:13 +0000 UTC
-    </div>
-</div>
-

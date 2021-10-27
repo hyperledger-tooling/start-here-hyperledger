@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/43" class=".btn">#43</a>
             </td>
             <td>
                 <b>
-                    Remove `coverage` from test Dockerfiles
+                    Bump junit from 4.12 to 4.13.1
                 </b>
             </td>
         </tr>
@@ -27,16 +27,15 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
                 
             </td>
             <td>
-                The 6.0 release of Coverage dropped support for python 3.5, which is the last
-supported version on Xenial so it can no longer be installed properly. However,
-it's not required to run the tests so it can be removed safely.
+                Dependabot suggested this change in
+https://github.com/hyperledger/sawtooth-sdk-java/pull/39
 
 Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-05 16:09:27 +0000 UTC
+        Created At 2021-10-27 16:34:31 +0000 UTC
     </div>
 </div>
 

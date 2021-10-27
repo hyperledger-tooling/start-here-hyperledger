@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/grid-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/265" class=".btn">#265</a>
-            </td>
-            <td>
-                <b>
-                    Add just to publish_docker workflow step
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 17:57:00 +0000 UTC
-    </div>
-</div>
-
