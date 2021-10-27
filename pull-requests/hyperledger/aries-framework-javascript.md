@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/505" class=".btn">#505</a>
+            </td>
+            <td>
+                <b>
+                    feat(core)!: metadata on records
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                BREAKING CHANGE: `credentialRecord.credentialMetadata` has been replaced by `credentialRecord.metadata`.
+
+- Adds metadata to the baserecord
+- Does not do any persistency and should be done manually after updating the metadata no the record.
+- Can be used by framework developers and consumers.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-26 09:18:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/504" class=".btn">#504</a>
+            </td>
+            <td>
+                <b>
+                    fix: export indy pool config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                it is used in public config so should be exported
+
+Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-26 08:38:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/503" class=".btn">#503</a>
             </td>
             <td>
@@ -85,32 +143,6 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </table>
     <div class="right-align">
         Created At 2021-10-20 12:51:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/491" class=".btn">#491</a>
-            </td>
-            <td>
-                <b>
-                    fix(core): send messages now takes a connection id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Berend Sliedrecht <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 13:03:51 +0000 UTC
     </div>
 </div>
 

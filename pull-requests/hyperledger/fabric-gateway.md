@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/264" class=".btn">#264</a>
+            </td>
+            <td>
+                <b>
+                    Fixup scenario tests for endorser retry
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The endorser retry logic has been merged into fabric main branch.  Once the peer docker image has been uploaded, a few fabric-gateway scenario tests will fail (the error details will contain more items where more endorsements have been attempted).  This PR fixes those failures.  It doesn't add any more tests at this stage.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-26 14:26:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/263" class=".btn">#263</a>
             </td>
             <td>
@@ -63,67 +91,6 @@ Contributes to #198
     </table>
     <div class="right-align">
         Created At 2021-10-21 12:28:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/259" class=".btn">#259</a>
-            </td>
-            <td>
-                <b>
-                    Allow explicit timeouts for gRPC service invocations in Java API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Contributes to #198 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 11:12:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/256" class=".btn">#256</a>
-            </td>
-            <td>
-                <b>
-                    Clean up eventing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Some code clean up and minimise client API implementation and behaviour beyond what is provided by gRPC.
-
-Java:
-- Use async rather than direct in-process service invocation for unit tests to better simulate runtime behaviour.
-- Remove explicit closed baheviour from ChaincodeEventIterator, and let the gRPC iterator throw a gRPC error if the iterator is used after the stream is closed.
-- Simplify unit test implementations.
-- Simplify ChaincodeEventIterator implementation.
-
-Node:
-- Remove explicit closed behaviour from chaincode event AsyncIterable and use whatever behaviour the gRPC server stream's AsyncIterable provides.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 13:31:19 +0000 UTC
     </div>
 </div>
 

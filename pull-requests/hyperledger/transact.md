@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/232" class=".btn">#232</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize sabre-compat by moving to wasm (stable)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-26 21:29:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/231" class=".btn">#231</a>
+            </td>
+            <td>
+                <b>
+                    Fixups for protocol-sabre feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rename protocol-sabre-exec to protocol-sabre and remove unused functions and variables from protocol::sabre.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-26 18:51:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/230" class=".btn">#230</a>
+            </td>
+            <td>
+                <b>
+                    Add sabre_command and sabre_smallbank to top-level Cargo.toml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes 'cargo clean' which in turn fixes 'just clean', and makes
+sabre_command and sabre_smallbank use the shared target directory during
+builds.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-25 16:51:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/229" class=".btn">#229</a>
             </td>
             <td>
@@ -189,61 +269,6 @@ permalink: /pull-requests/hyperledger/transact
     </table>
     <div class="right-align">
         Created At 2021-10-20 16:38:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/222" class=".btn">#222</a>
-            </td>
-            <td>
-                <b>
-                    Multi-threaded bug fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a test for multi-threaded reads using merkle state implementations.  This test identified several issues with the SqlMerkleState sqlite and postgres implementations.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 01:26:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/221" class=".btn">#221</a>
-            </td>
-            <td>
-                <b>
-                    Limit recursion to same tree ID
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change limits the SQL recursion to the same tree_id.  This prevents an issue where the existence of multiple trees with duplicate structure creates an infinite loop in SQLite.
-
-The same change has been applied to the recursive queries in Postgres.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-19 15:27:12 +0000 UTC
     </div>
 </div>
 
