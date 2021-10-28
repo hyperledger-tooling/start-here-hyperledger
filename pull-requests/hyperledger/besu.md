@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2970" class=".btn">#2970</a>
+            </td>
+            <td>
+                <b>
+                    [2883] log nicer warnings when runtime isn't configured for ipv6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+https://github.com/hyperledger/besu/issues/2883
+
+## Changelog
+Catching `UnsupportedAddressTypeException` which are caused by runtime not having ipv6 support and display a nice error message rather than half a page long of unhelpful stacktrace
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 05:52:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2969" class=".btn">#2969</a>
+            </td>
+            <td>
+                <b>
+                    Private transaction nonce management improvement: PMT pool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added a "PMT Pool" to keep track of pending private transactions, so these can be factored into private nonce management.
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 05:23:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2968" class=".btn">#2968</a>
             </td>
             <td>
@@ -573,48 +642,6 @@ is related to #502 since it verify that the behavior is consistent with other cl
     </table>
     <div class="right-align">
         Created At 2021-10-21 09:48:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2933" class=".btn">#2933</a>
-            </td>
-            <td>
-                <b>
-                    Add Sepolia configs and address baseFee at genesis case
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
- * add configs for sepolia test net
- * ensure london-at-genesis has a baseFee
- * allow override of the initial baseFee via config and overrides
-
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2920
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 00:54:49 +0000 UTC
     </div>
 </div>
 
