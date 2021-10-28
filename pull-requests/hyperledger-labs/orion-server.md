@@ -92,34 +92,3 @@ Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/217" class=".btn">#217</a>
-            </td>
-            <td>
-                <b>
-                    Block numbering in replicator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">replication</span>
-            </td>
-            <td>
-                The block replicator is made in charge of numbering the blocks and setting the last header base hash.
-The block replicator keeps track of the last committed block, and the last proposed block, and
-updates them whe leadership is assumed and lost.
-
-The block numbers given the block creator are provisional, and number the sequence of proposals since
-the node started its current incarnation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 17:26:47 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/238" class=".btn">#238</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize protocol-sabre by moving to stable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 15:53:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/237" class=".btn">#237</a>
             </td>
             <td>
@@ -97,7 +123,7 @@ permalink: /pull-requests/hyperledger/transact
             </td>
             <td>
                 <b>
-                    Replace smallbank magic values with consts
+                    Smallbank updates for stabilization
                 </b>
             </td>
         </tr>

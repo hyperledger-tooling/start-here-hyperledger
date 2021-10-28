@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2972" class=".btn">#2972</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.10.0-RC4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 17:56:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2971" class=".btn">#2971</a>
             </td>
             <td>
@@ -603,32 +629,6 @@ is related to #502 since it verify that the behavior is consistent with other cl
     </table>
     <div class="right-align">
         Created At 2021-10-22 16:05:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2935" class=".btn">#2935</a>
-            </td>
-            <td>
-                <b>
-                    Transitions validator provider bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger/besu/issues/2901
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 16:16:17 +0000 UTC
     </div>
 </div>
 

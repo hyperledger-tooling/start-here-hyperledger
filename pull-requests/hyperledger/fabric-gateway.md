@@ -144,33 +144,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/260" class=".btn">#260</a>
-            </td>
-            <td>
-                <b>
-                    Default timeouts in Java API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The existing Node SDK has configurable default timeouts for query (evaluate), endorse and submit (submit and commitStatus), so I think having configurable defaults timeouts for each gRPC service invocation is the right thing to do. Some service invocations are likely to take significantly longer than others, and the time the client is prepared to wait for different invocations is likely to vary significantly too, so I don't think there is a good default timeout value that covers all cases.
-
-I would really like to have made use of the gRPC **CallOptions** class directly, rather than the Fabric Gateway API having its own **CallOption** abstraction to maintain. Unfortunately the Java gRPC client stubs expect specific methods to be called for specific options (which update a **CallOptions** object internally) and don't expose a method to just specify or update the existing **CallOptions**.
-
-Contributes to #198 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 12:28:49 +0000 UTC
-    </div>
-</div>
-
