@@ -208,31 +208,3 @@ Closes #291.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/326" class=".btn">#326</a>
-            </td>
-            <td>
-                <b>
-                    Vault identity Management server
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                add Vault identity Management server for managing vault identity for the client. 
-
-Close #312 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 18:49:17 +0000 UTC
-    </div>
-</div>
-

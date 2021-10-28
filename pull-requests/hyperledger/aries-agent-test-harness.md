@@ -95,31 +95,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/369" class=".btn">#369</a>
-            </td>
-            <td>
-                <b>
-                    added a missing -t to the tags in yml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-This PR fixes the daily run for findy-b-dotnet runset.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 20:11:04 +0000 UTC
-    </div>
-</div>
-

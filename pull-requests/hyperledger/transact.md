@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/237" class=".btn">#237</a>
+            </td>
+            <td>
+                <b>
+                    `workload-runner` stabilization changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - make `DEFAULT_LOG_TIME_SECS` const private
+- make `runner` module private
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 21:10:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/236" class=".btn">#236</a>
             </td>
             <td>
@@ -295,32 +322,6 @@ builds.
     </table>
     <div class="right-align">
         Created At 2021-10-21 19:25:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/225" class=".btn">#225</a>
-            </td>
-            <td>
-                <b>
-                    Backport 0-3: Multi-threaded bug fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backports PR #222 into 0-3
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 19:31:21 +0000 UTC
     </div>
 </div>
 

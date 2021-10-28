@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1002" class=".btn">#1002</a>
+            </td>
+            <td>
+                <b>
+                    Update the image used by node in Dockerfiles
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the image used by node within the UI Dockerfiles,
+from `lts-alpine` to `14.18.1-alpine3.11`.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 21:56:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1001" class=".btn">#1001</a>
             </td>
             <td>
@@ -123,60 +152,6 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-22 16:35:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/996" class=".btn">#996</a>
-            </td>
-            <td>
-                <b>
-                    Add alternate_id support to PO state proto
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds support for alternate IDs to the Purchase Order state proto.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 20:33:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/995" class=".btn">#995</a>
-            </td>
-            <td>
-                <b>
-                    Add `alternate_id` support to `grid po create` CLI command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds support for adding alternate IDs to the `grid po create`
-    command. Previously, this was omitted due to lack of support in the
-    store and protocol code.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 19:56:25 +0000 UTC
     </div>
 </div>
 

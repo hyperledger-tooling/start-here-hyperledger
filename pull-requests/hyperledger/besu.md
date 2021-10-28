@@ -14,6 +14,126 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2968" class=".btn">#2968</a>
+            </td>
+            <td>
+                <b>
+                    iterative merge: Initial plumbing for merge subproject
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This is step one of an iterative merge of the amphora feature branch into main.
+
+highlights include:
+* gradle subproject for merge
+* cli option
+* genesis file config optional for terminal total difficulty
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2966
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 21:50:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2967" class=".btn">#2967</a>
+            </td>
+            <td>
+                <b>
+                    [#2953] Fix loop exit condition for BonsaiWorldStateArchive
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Diego López León <dieguitoll@gmail.com>
+
+## PR description
+Fixes the exit condition for loading a `BonsaiPersistedWorldState` for a sibling block of the last one persisted
+
+## Fixed Issue(s)
+fixes #2953
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 21:07:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2962" class=".btn">#2962</a>
+            </td>
+            <td>
+                <b>
+                    2936 debug docker build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Adds a debug profile, and updates the latest profile to openjdk-17
+
+## Fixed Issue(s)
+fixes #2936 
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 18:37:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2957" class=".btn">#2957</a>
             </td>
             <td>
@@ -125,7 +245,7 @@ Changelog for BFT block period transitions feature
             </td>
             <td>
                 <b>
-                    Build arm64 besu docker images
+                    Build arm64 besu docker images [WIP]
                 </b>
             </td>
         </tr>
