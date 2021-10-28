@@ -1,13 +1,13 @@
 
-[1488](https://github.com/hyperledger/cactus/pull/1488) fix(connector-quorum): transaction with different credentials #1098
+[305](https://github.com/hyperledger/firefly/pull/305) Always pass key and message hash to fftokens connector
 
-[270](https://github.com/hyperledger/fabric-gateway/pull/270) Allow setting default call options for Node client
+[2972](https://github.com/hyperledger/besu/pull/2972) Release 21.10.0-RC4
 
-[225](https://github.com/hyperledger-labs/orion-server/pull/225) docs based on Facebook's docusaurus
+[1004](https://github.com/hyperledger/grid/pull/1004) Add `update version` action to the po smart contract
 
-[523](https://github.com/hyperledger/fabric-samples/pull/523) Updated logging
+[1003](https://github.com/hyperledger/grid/pull/1003) Add simple validation for po payloads
 
-[1728](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1728) [corda] Fix molecule test
+[238](https://github.com/hyperledger/transact/pull/238) Stabilize protocol-sabre by moving to stable
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

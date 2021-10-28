@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1706" class=".btn">#1706</a>
+            </td>
+            <td>
+                <b>
+                    changed plenum version to 1.13.0.dev143 from GHA and fixed ci
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR updates the version of the PyPI package of indy-plenum from 1.13.0.dev1034 (build and published by Jenkins instance of Sovrin) to version 1.13.0.dev143. This version was published in the latest successful GHA run from the master branch. The GHA run is at: https://github.com/hyperledger/indy-plenum/runs/3579890752?check_suite_focus=true
+
+This change is the precondition to start migrating from https://repo.sovrin.org/deb/pool/xenial/ to https://hyperledger.jfrog.io/ui/native/indy/pool/xenial.
+Also, this update is required to run the node system tests from https://github.com/hyperledger/indy-test-automation/ with the Debian files built and published in the new CI/CD pipeline.
+
+Further, this PR contains some fixes for the Jenkins CI pipeline.
+
+A successful run can be found at: https://github.com/udosson/indy-node/actions/runs/1395055187
+The GHA run of this PR fails because the `build` image is updated.
+
+Signed-off-by: udosson <r.klemens@yahoo.de>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 14:30:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1705" class=".btn">#1705</a>
             </td>
             <td>
@@ -60,37 +96,6 @@ Signed-off-by: pSchlarb <p.schlarb@esatus.com>
     </table>
     <div class="right-align">
         Created At 2021-10-28 08:31:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1703" class=".btn">#1703</a>
-            </td>
-            <td>
-                <b>
-                    changed pypi package of plenum to the newest one published by GHA 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR updates the version of the PyPI package of `indy-plenum`  from `1.13.0.dev1034` (build and published by Jenkins instance of Sovrin) to version `1.13.0.dev143`. This version was published in the latest successful GHA run from the `master` branch. The GHA run is at: https://github.com/hyperledger/indy-plenum/runs/3579890752?check_suite_focus=true
-
-This change is the precondition to start migrating from https://repo.sovrin.org/deb/pool/xenial/ to https://hyperledger.jfrog.io/ui/native/indy/pool/xenial.
-Also, this update is required to run the node system tests from https://github.com/hyperledger/indy-test-automation/ with the Debian files built and published in the new CI/CD pipeline.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 15:35:24 +0000 UTC
     </div>
 </div>
 

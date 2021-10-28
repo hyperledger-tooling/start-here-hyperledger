@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/305" class=".btn">#305</a>
+            </td>
+            <td>
+                <b>
+                    Always pass key and message hash to fftokens connector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 18:08:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/304" class=".btn">#304</a>
             </td>
             <td>
@@ -219,7 +245,7 @@ I'm not 100% sure my unit test accurately reproduces the exact situation we're r
 
 Falls under architecture item #218.
 
-It contains the commits from #283 and #296 as pre-requisites, so those should be reviewed first. Only the last 2 commits are net new code.
+~~It contains the commits from #283 and #296 as pre-requisites, so those should be reviewed first. Only the last 2 commits are net new code.~~
             </td>
         </tr>
     </table>
@@ -628,34 +654,6 @@ Further aligned methods between transfers and messaging for consistency.
     </table>
     <div class="right-align">
         Created At 2021-10-22 16:05:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/280" class=".btn">#280</a>
-            </td>
-            <td>
-                <b>
-                    pools-by-connector Add connector field to TokenPoolQueryFactory
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                To support the new [Tokens Page in the UI](https://github.com/hyperledger/firefly-ui/issues/65), filtering that supports getting pools by connector is needed
-
-```GET /namespaces/<namespace>/tokens/pools?connector={connectorName}``` returns all token pools with specified connector
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 15:36:06 +0000 UTC
     </div>
 </div>
 

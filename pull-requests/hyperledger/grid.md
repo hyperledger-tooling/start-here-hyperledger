@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1004" class=".btn">#1004</a>
+            </td>
+            <td>
+                <b>
+                    Add `update version` action to the po smart contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 17:33:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1003" class=".btn">#1003</a>
+            </td>
+            <td>
+                <b>
+                    Add simple validation for po payloads
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds a `payload` module to the purchase order smart contract
+for basic validation of the various PurchaseOrderPayload`s that are
+handled. These new functions validate that the payload has all the
+required fields defined.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 17:24:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1002" class=".btn">#1002</a>
             </td>
             <td>
