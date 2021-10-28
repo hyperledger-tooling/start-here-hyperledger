@@ -14,6 +14,112 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/303" class=".btn">#303</a>
+            </td>
+            <td>
+                <b>
+                    Update assertion on unit test to pass on Go 1.17
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Somehow I missed this one when I fixed the other tests.
+
+Resolves https://github.com/hyperledger/firefly/issues/282
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 21:06:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/302" class=".btn">#302</a>
+            </td>
+            <td>
+                <b>
+                    Use single quotes for strings in postgres migration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 20:37:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/301" class=".btn">#301</a>
+            </td>
+            <td>
+                <b>
+                    Small doc updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update some sample response bodies to align with the new fields from #296, and update the notes on what the CLI stands up by default.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 20:20:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/300" class=".btn">#300</a>
+            </td>
+            <td>
+                <b>
+                    remove-member-field Removing member field from operations table
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Operations table no longer has the `member` field associated with it
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-27 19:37:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/299" class=".btn">#299</a>
             </td>
             <td>
@@ -553,33 +659,6 @@ Further aligned methods between transfers and messaging for consistency.
     </table>
     <div class="right-align">
         Created At 2021-10-21 01:03:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/277" class=".btn">#277</a>
-            </td>
-            <td>
-                <b>
-                    introduce FFTime.Time()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 - Converts FFTime -> Time
- - some misc. changes my linter pointed out
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-20 20:25:07 +0000 UTC
     </div>
 </div>
 
