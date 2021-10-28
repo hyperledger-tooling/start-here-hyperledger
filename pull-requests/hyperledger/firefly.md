@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/304" class=".btn">#304</a>
+            </td>
+            <td>
+                <b>
+                    Allow did:firefly:org/xyz prefix on group input
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Seems odd that currently we don't resolve this down to an org, as it feels like the primary syntax.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 04:23:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/303" class=".btn">#303</a>
             </td>
             <td>
@@ -630,35 +656,6 @@ Further aligned methods between transfers and messaging for consistency.
     </table>
     <div class="right-align">
         Created At 2021-10-21 15:36:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/278" class=".btn">#278</a>
-            </td>
-            <td>
-                <b>
-                    tokens-by-id getTokenPoolByNameOrID() and getTokenTransfersByID()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                To support the new [Tokens Page in the UI](https://github.com/hyperledger/firefly-ui/issues/65), an endpoint to get token pools by name or ID and to get token transfers by ID is needed.
-
-```GET /namespaces/<namespace>/tokens/pools/{nameOrID}``` returns all token pools with specified name or ID
-```GET /namespaces/<namespace>/tokens/transfers/{transferID}``` returns token transfer with specified ID
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 01:03:20 +0000 UTC
     </div>
 </div>
 
