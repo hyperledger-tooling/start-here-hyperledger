@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1705" class=".btn">#1705</a>
+            </td>
+            <td>
+                <b>
+                    Baseimage 0.0.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Baseimage changes as discussed in #1684 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 08:41:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1704" class=".btn">#1704</a>
+            </td>
+            <td>
+                <b>
+                    LF Endings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As discussed in #1684
+Signed-off-by: pSchlarb <p.schlarb@esatus.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 08:31:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1703" class=".btn">#1703</a>
             </td>
             <td>

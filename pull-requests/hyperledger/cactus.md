@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1488" class=".btn">#1488</a>
+            </td>
+            <td>
+                <b>
+                    fix(connector-quorum): transaction with different credentials #1098
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #1098 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 12:16:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1486" class=".btn">#1486</a>
             </td>
             <td>

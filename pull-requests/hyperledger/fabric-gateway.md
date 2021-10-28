@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/270" class=".btn">#270</a>
+            </td>
+            <td>
+                <b>
+                    Allow setting default call options for Node client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also update samples to demonstrate default timeouts.
+
+Contributes to #198 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 10:58:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/268" class=".btn">#268</a>
             </td>
             <td>

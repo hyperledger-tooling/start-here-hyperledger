@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2971" class=".btn">#2971</a>
+            </td>
+            <td>
+                <b>
+                    Refactor privacy controller
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cleanup of PrivacyController class.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 07:33:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2970" class=".btn">#2970</a>
             </td>
             <td>
@@ -603,45 +629,6 @@ is related to #502 since it verify that the behavior is consistent with other cl
     </table>
     <div class="right-align">
         Created At 2021-10-21 16:16:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2934" class=".btn">#2934</a>
-            </td>
-            <td>
-                <b>
-                    Fix bonsai getMutable method regression
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 09:48:42 +0000 UTC
     </div>
 </div>
 

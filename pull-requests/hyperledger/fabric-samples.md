@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/523" class=".btn">#523</a>
+            </td>
+            <td>
+                <b>
+                    Updated logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - updated the logging for the application command; wasn't very good
+- added some information to the help option. the current settings
+  useful if you're not sure what you've set
+
+
+FYI @jkneubuh 
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 09:29:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/519" class=".btn">#519</a>
             </td>
             <td>
