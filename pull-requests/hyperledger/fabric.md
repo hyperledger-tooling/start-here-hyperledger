@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3000" class=".btn">#3000</a>
+            </td>
+            <td>
+                <b>
+                    Move to better IsAbs Implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                closes #2998 
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+
+- Bug fix
+
+#### Description
+
+path.IsAbs is a poor implementation in Go, filepath.IsAbs looks to be much better 
+and addresses the problem where a windows absolute path is not recognised
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 08:42:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/2999" class=".btn">#2999</a>
             </td>
             <td>
@@ -262,50 +300,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-10-21 17:53:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2991" class=".btn">#2991</a>
-            </td>
-            <td>
-                <b>
-                    fix Windows SyncDir issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-closes #2984 
-
-#### Type of change
-
-- Bug fix
-
-#### Description
-
-On windows it's not valid to invoke Sync on a directory, it results in an error "Handle is invalid"
-
-#### Additional details
-
-As windows is there only as a development platform, removing the attempt to Sync on a dir restores the ability for Peer and Orderer to run natively on Windows Desktop platforms.
-
-Included as well is ensuring the downloadable windows package contains .exe files so they are usable straight away (no extra rename once unpacked is required)
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 08:58:08 +0000 UTC
     </div>
 </div>
 
