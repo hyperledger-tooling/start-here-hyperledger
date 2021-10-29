@@ -14,26 +14,25 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1168" class=".btn">#1168</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1170" class=".btn">#1170</a>
             </td>
             <td>
                 <b>
-                    Add factory class, formatted string and list element value providers.
+                    Added open in Visual Studio Code badge
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">PR/change requested</span><span class="chip">PR/missing DCO</span>
             </td>
             <td>
-                Signed-off-by: Aastha Bist <abist119@gmail.com>
-
+                Add a badge to open repository in Visual Studio Code
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-06 17:55:46 +0000 UTC
+        Created At 2021-10-29 11:52:57 +0000 UTC
     </div>
 </div>
 
