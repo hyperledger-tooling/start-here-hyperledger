@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/131" class=".btn">#131</a>
+            </td>
+            <td>
+                <b>
+                    extended fabric identity (idemix) deserializer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 13:44:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/129" class=".btn">#129</a>
             </td>
             <td>
@@ -137,32 +163,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2021-10-23 08:19:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/124" class=".btn">#124</a>
-            </td>
-            <td>
-                <b>
-                    introduce more abstractions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-22 14:26:26 +0000 UTC
     </div>
 </div>
 

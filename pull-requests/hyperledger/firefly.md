@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/288" class=".btn">#288</a>
+            </td>
+            <td>
+                <b>
+                    Fix image repos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Helm chart still had `-labs` in the names
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-26 02:58:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/287" class=".btn">#287</a>
+            </td>
+            <td>
+                <b>
+                    Add namespace field to token accounts and transfers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-25 20:14:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/286" class=".btn">#286</a>
             </td>
             <td>
@@ -102,36 +154,6 @@ Relevant changes can be previewed here:
     </table>
     <div class="right-align">
         Created At 2021-10-22 20:23:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/283" class=".btn">#283</a>
-            </td>
-            <td>
-                <b>
-                    Replace BeforeSend callback with a Prepare method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This instructs the sender to prepare the message for sending, but return before
-actually sending it. Re-invoking Send or SendAndWait on the same sender should
-dispatch the prepared message.
-
-Further aligned methods between transfers and messaging for consistency.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-22 16:05:29 +0000 UTC
     </div>
 </div>
 

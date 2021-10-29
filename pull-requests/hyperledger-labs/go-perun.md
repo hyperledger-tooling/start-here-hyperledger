@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/250" class=".btn">#250</a>
+            </td>
+            <td>
+                <b>
+                    Prepare release Hyperion v0.8.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 17:14:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/249" class=".btn">#249</a>
+            </td>
+            <td>
+                <b>
+                    ✨ Reorg-resistant contract deployment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #99 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 16:45:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/248" class=".btn">#248</a>
             </td>
             <td>
@@ -61,32 +113,6 @@ Also tested [here](https://github.com/perun-network/go-perun/runs/4015731561?che
     </table>
     <div class="right-align">
         Created At 2021-10-26 22:35:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/245" class=".btn">#245</a>
-            </td>
-            <td>
-                <b>
-                    🚸  Configure finality depth
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #163 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-22 15:00:29 +0000 UTC
     </div>
 </div>
 

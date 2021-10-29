@@ -214,29 +214,3 @@ Signed-off-by: Sam Yuan <yy19902439@126.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/510" class=".btn">#510</a>
-            </td>
-            <td>
-                <b>
-                    [DO NOT MERGE] Initial REST sample
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Needs more unhappy path testing and lots of review comments!
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-22 16:56:56 +0000 UTC
-    </div>
-</div>
-
