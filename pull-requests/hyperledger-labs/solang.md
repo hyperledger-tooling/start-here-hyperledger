@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/540" class=".btn">#540</a>
+            </td>
+            <td>
+                <b>
+                    Keep next_id up to date in namespace
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR keeps the `next_id` attribute of `struct Namespace` always updated after the insertion of temporaries. This is modification is necessary to make the common subexpressions elimination work.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 22:20:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/539" class=".btn">#539</a>
             </td>
             <td>
@@ -221,35 +247,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2021-10-26 15:52:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/530" class=".btn">#530</a>
-            </td>
-            <td>
-                <b>
-                    Simplify loop for readability
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This loop should execute until there is nothing more to do. Express this
-more clearly; this also makes clippy 1.56.0 happy.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 20:46:19 +0000 UTC
     </div>
 </div>
 

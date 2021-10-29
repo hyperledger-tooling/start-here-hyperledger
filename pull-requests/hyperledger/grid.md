@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1004" class=".btn">#1004</a>
+                PR <a href="https://github.com/hyperledger/grid/pull/1005" class=".btn">#1005</a>
             </td>
             <td>
                 <b>
-                    Add `update version` action to the po smart contract
+                    Add update version action to po smart contract
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/grid
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-28 17:33:37 +0000 UTC
+        Created At 2021-10-28 21:28:54 +0000 UTC
     </div>
 </div>
 

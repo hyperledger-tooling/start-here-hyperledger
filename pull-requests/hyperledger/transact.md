@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/239" class=".btn">#239</a>
+            </td>
+            <td>
+                <b>
+                    `workload` stabilization updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Stabilization related updates for the workload feature
+- Add documentation for the workload module
+- Make the source module private and put it behind the "workload-batch-gen" feature because it's only used in the `batch_gen` module which is behind this feature 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 22:56:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/238" class=".btn">#238</a>
             </td>
             <td>
@@ -244,110 +272,6 @@ builds.
     </table>
     <div class="right-align">
         Created At 2021-10-25 16:51:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/229" class=".btn">#229</a>
-            </td>
-            <td>
-                <b>
-                    Update rust docs for sabre protocols
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 21:26:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/228" class=".btn">#228</a>
-            </td>
-            <td>
-                <b>
-                    Add release notes for 0.3.12
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 20:18:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/227" class=".btn">#227</a>
-            </td>
-            <td>
-                <b>
-                    sabre protocol doc typo fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 19:33:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/226" class=".btn">#226</a>
-            </td>
-            <td>
-                <b>
-                    Fix typo in doc comment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Isabel Tomb <tomb@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-21 19:25:33 +0000 UTC
     </div>
 </div>
 

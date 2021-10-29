@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/336" class=".btn">#336</a>
+            </td>
+            <td>
+                <b>
+                    update documentation for ws-socket and vault security
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @brioux @Zzocker Can you please review these changes to the documentation based on our call on Monday?
+
+I'm still not too clear where the ws-identity and ws-identity-client are vs each other. Does ws-wallet talk to ws-identity, which then talks through ws-identity-client to Fabric?
+
+A client application that uses web socket identity then somehow incorporate ws-wallet in its UI?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 00:15:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/334" class=".btn">#334</a>
             </td>
             <td>
