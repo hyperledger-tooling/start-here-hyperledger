@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/65" class=".btn">#65</a>
-            </td>
-            <td>
-                <b>
-                    update release notes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-22 15:02:50 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3005" class=".btn">#3005</a>
+            </td>
+            <td>
+                <b>
+                    Add integration tests for `calculatepackageid` command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This patch adds integration tests for `calculatepackageid` command.
+
+#### Type of change
+
+- Test update
+
+#### Description
+
+This patch adds integration tests for `calculatepackageid` command.
+
+#### Additional details
+
+#### Related issues
+
+- https://github.com/hyperledger/fabric/issues/2976
+- https://github.com/hyperledger/fabric/pull/2981
+ 
+After this PR is merged, I'm going to submit some patches to add some output options as a separate PR in sequence.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 16:44:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3004" class=".btn">#3004</a>
+            </td>
+            <td>
+                <b>
+                    Don’t close connection if already closing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When a peer is shutdown, if the gateway attempts to send a proposal to it, it will fail and the gateway will close the connection and remove it from its registry.
+Under stress, with multiple concurrent goroutines all attempting to use and then close the connection, the log gets flooded with the messages:
+- (INFO) Attempting to close
+- (ERROR) Failed to close.
+
+This commit changes the behaviour so that it checks the grpc state before logging and attempting to close.  If it’s already shutting down, then it’s a no-op.
+
+Resolves https://github.com/hyperledger/fabric-gateway/issues/265
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 15:00:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3002" class=".btn">#3002</a>
             </td>
             <td>

@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1006" class=".btn">#1006</a>
+            </td>
+            <td>
+                <b>
+                    Update schema loading for Order.xsd
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the loading of the schema to be done in the
+directory where schemas are specified. This directory is able to be set
+with the `GRID_ORDER_SCHEMA_DIR` environment variable, or it is set by
+default.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 15:20:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1005" class=".btn">#1005</a>
             </td>
             <td>
@@ -179,36 +210,6 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-25 19:47:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/998" class=".btn">#998</a>
-            </td>
-            <td>
-                <b>
-                    Make workflow status required for `po create`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The PO create command will panic if no workflow status is passed, and
-the CreatePurchaseOrderPayloadBuilder requires it to function. This
-change makes clap force the user to pass a workflow status.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-22 16:35:09 +0000 UTC
     </div>
 </div>
 

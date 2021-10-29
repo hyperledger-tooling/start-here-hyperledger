@@ -1,13 +1,13 @@
 
-[1170](https://github.com/hyperledger/caliper/pull/1170) Added open in Visual Studio Code badge
+[64](https://github.com/hyperledger-labs/mirbft/pull/64) Implement preliminary simplified epoch transition
 
-[63](https://github.com/hyperledger-labs/mirbft/pull/63) Start implementing ISS
+[250](https://github.com/hyperledger-labs/go-perun/pull/250) Prepare release Hyperion v0.8.0
 
-[248](https://github.com/hyperledger-labs/go-perun/pull/248) Merge the refactored watcher
+[249](https://github.com/hyperledger-labs/go-perun/pull/249) ✨ Reorg-resistant contract deployment
 
-[775](https://github.com/hyperledger/avalon/pull/775) Gramine Integartion with Avalon
+[3005](https://github.com/hyperledger/fabric/pull/3005) Add integration tests for `calculatepackageid` command
 
-[2976](https://github.com/hyperledger/besu/pull/2976) consensus context changes in support of merge context
+[240](https://github.com/hyperledger/transact/pull/240) Fix outdated rustdoc comment for process_smallbank_playlist
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
