@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3002" class=".btn">#3002</a>
+            </td>
+            <td>
+                <b>
+                    Add explanation of stringArray (--peerAddresses)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+I searched the documentations but didn't find they explain stringArray. 
+
+I looked at the source code of github.com/spf13/pflag and guess I should use
+
+ `--peerAddresses localhost:9051--peerAddresses localhost:7051` rather than `--peerAddresses "localhost:9051
+localhost:7051"`.
+
+I think this information should be added to the docs.
+
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 02:31:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3000" class=".btn">#3000</a>
             </td>
             <td>
