@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/avalon
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/avalon/pull/772" class=".btn">#772</a>
+                PR <a href="https://github.com/hyperledger/avalon/pull/775" class=".btn">#775</a>
             </td>
             <td>
                 <b>
-                    Minor rectification in crypto tests
+                    Gramine Integartion with Avalon
                 </b>
             </td>
         </tr>
@@ -27,12 +27,19 @@ permalink: /pull-requests/hyperledger/avalon
                 
             </td>
             <td>
-                Signed-off-by: Rajeev Ranjan <rajeev2.ranjan@intel.com>
+                This PR has the changes required to integrate  @[Gramine](https://github.com/gramineproject/gramine) with Avalon.
+
+Changes includes:
+- GSC build scripts
+- Device mapping for gsgx in yaml files
+- Manifest file (avalon.manifest)
+- Graphene workload tutorials
+- few Readme file modifications
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-29 03:11:44 +0000 UTC
+        Created At 2021-10-29 09:17:31 +0000 UTC
     </div>
 </div>
 

@@ -38,31 +38,3 @@ Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/57" class=".btn">#57</a>
-            </td>
-            <td>
-                <b>
-                    Add support for delay period 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Close #49, close #54
-
-Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-22 08:38:01 +0000 UTC
-    </div>
-</div>
-

@@ -14,40 +14,11 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/63" class=".btn">#63</a>
             </td>
             <td>
                 <b>
-                    Use custom named types for IDs and some indices
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Those types introduced in the /pkg/types package also define methods for
-conversion to protobuf-compatible basic types.
-
-Signed-off-by: matejpavlovic <matopavlovic@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-15 18:13:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/61" class=".btn">#61</a>
-            </td>
-            <td>
-                <b>
-                    Resolving concurrency issues under high load
+                    Start implementing ISS
                 </b>
             </td>
         </tr>
@@ -61,7 +32,7 @@ Signed-off-by: matejpavlovic <matopavlovic@gmail.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-15 14:34:07 +0000 UTC
+        Created At 2021-10-29 11:16:10 +0000 UTC
     </div>
 </div>
 
