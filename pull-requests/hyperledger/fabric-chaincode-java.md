@@ -28,6 +28,8 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
             </td>
             <td>
                 When starting java chaincode as a service with shim 2.2.3 on JDK8, `epochBytes.flip()` throws `java.lang.NoSuchMethodError: java.nio.ByteBuffer.flip()`, which would make the response of the invoke request from peer miss, and peer would report timeout.
+
+Signed-off-by: Wu Yiyang <wuyiyang1992@qq.com>
             </td>
         </tr>
     </table>
