@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/243" class=".btn">#243</a>
+            </td>
+            <td>
+                <b>
+                    `workload` feature stabilization updates - errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Update the methods in the `TransactionWorkload` and `BatchWorkload` traits to use the `InvalidStateError` error type instead of
+`WorkloadError`.
+- Remove `WorkloadError` from the workload error module.
+- Make workload error module private
+- `enum_variant_names` clippy lint doesn't allow enum variants to repeat the enum name.
+- Put the `BatchReadingError` behind the "workload-batch-gen" feature as this error type is only used by functions behind this feature.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 23:17:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/242" class=".btn">#242</a>
+            </td>
+            <td>
+                <b>
+                    Fix `--duration` help message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update the help message for the `--duration` option in the workload CLI
+command.
+
+Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 20:27:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/241" class=".btn">#241</a>
+            </td>
+            <td>
+                <b>
+                    Small fixups for `transact playlist` CLI command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 19:29:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/240" class=".btn">#240</a>
             </td>
             <td>

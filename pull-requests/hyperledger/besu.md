@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2978" class=".btn">#2978</a>
+            </td>
+            <td>
+                <b>
+                    Feature/arrow glacier
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Implement arrowGlacier hardfork EIP-4345.  
+
+Upstream reference tests do not yet exist for arrowGlacier, but we can add them once they exist upstream, see #2977
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2943 
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 20:09:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2976" class=".btn">#2976</a>
             </td>
             <td>
@@ -39,7 +80,7 @@ This pr does not include MergeContext, TransitionContext or PostMergeContext, bu
 highlights:
 * largely just a search/replace of the various consensus context usages
 * consensus context objects implement  ConsensusContext interface
-* rename protocolContext method to consensusState to match implementation names
+* rename protocolContext consensusState -> consensusContext to match implementation names
 
 
 ## Fixed Issue(s)
@@ -660,45 +701,6 @@ data to the native methods.
     </table>
     <div class="right-align">
         Created At 2021-10-25 03:14:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2939" class=".btn">#2939</a>
-            </td>
-            <td>
-                <b>
-                    Merge main into merge feature branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Merge main into `merge` branch, one cherry-pick at a time.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-23 00:00:11 +0000 UTC
     </div>
 </div>
 

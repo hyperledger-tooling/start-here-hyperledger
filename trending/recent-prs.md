@@ -1,13 +1,13 @@
 
-[64](https://github.com/hyperledger-labs/mirbft/pull/64) Implement preliminary simplified epoch transition
+[664](https://github.com/hyperledger-labs/business-partner-agent/pull/664) Update notification badges logic for manual vs auto Cred Exchange
 
-[250](https://github.com/hyperledger-labs/go-perun/pull/250) Prepare release Hyperion v0.8.0
+[1465](https://github.com/hyperledger/aries-cloudagent-python/pull/1465) Fix error removing proof req entries by timestamp
 
-[249](https://github.com/hyperledger-labs/go-perun/pull/249) ✨ Reorg-resistant contract deployment
+[243](https://github.com/hyperledger/transact/pull/243) `workload` feature stabilization updates - errors
 
-[3005](https://github.com/hyperledger/fabric/pull/3005) Add integration tests for `calculatepackageid` command
+[2402](https://github.com/hyperledger/sawtooth-core/pull/2402) Add batch show subcommand to sawadm CLI
 
-[240](https://github.com/hyperledger/transact/pull/240) Fix outdated rustdoc comment for process_smallbank_playlist
+[1464](https://github.com/hyperledger/aries-cloudagent-python/pull/1464) Implement Revocation Notification v1.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
