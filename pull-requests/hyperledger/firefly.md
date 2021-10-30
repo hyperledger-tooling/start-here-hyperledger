@@ -123,37 +123,3 @@ The `manifestgen.sh` script also gets an update with this, allowing it to pull t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/284" class=".btn">#284</a>
-            </td>
-            <td>
-                <b>
-                    Update docs and add new guides
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The Contributor's Guide has seen some meaningful updates in this PR. There are some additional, brand new guides added here too.
-
-Relevant changes can be previewed here:
-
-- Contributor's Guide: https://nguyer.github.io/firefly/contributors/contributors.html
-- Contributing to Documentation: https://nguyer.github.io/firefly/contributors/docs_setup.html
-- Advanced CLI Usage: https://nguyer.github.io/firefly/contributors/advanced_cli_usage.html
-- Versioning Scheme: https://nguyer.github.io/firefly/maintainers/version_scheme.html
-- Release Guide: https://nguyer.github.io/firefly/maintainers/release_guide.html
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-22 20:23:51 +0000 UTC
-    </div>
-</div>
-
