@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/227" class=".btn">#227</a>
+            </td>
+            <td>
+                <b>
+                    WIP - Augmented header
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-31 18:01:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/225" class=".btn">#225</a>
             </td>
             <td>
@@ -59,36 +85,6 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     </table>
     <div class="right-align">
         Created At 2021-10-27 11:40:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/218" class=".btn">#218</a>
-            </td>
-            <td>
-                <b>
-                    Get last ledger block
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adding API to get last ledger block using /ledger/block/last URL
-
-This API used to get ledger height and get ledger last block at once.
-
-Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-24 14:29:45 +0000 UTC
     </div>
 </div>
 
