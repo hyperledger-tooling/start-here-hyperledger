@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1733" class=".btn">#1733</a>
+            </td>
+            <td>
+                <b>
+                    [shared] Fixed docs formatting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sownak Roy <sownak.roy@accenture.com>
+
+**Changelog**
+- Fix formatting error for docs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-01 17:00:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1732" class=".btn">#1732</a>
+            </td>
+            <td>
+                <b>
+                    [shared] Fix docutils so readthedocs don't fail
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Fix readthedocs build
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-01 16:44:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1731" class=".btn">#1731</a>
+            </td>
+            <td>
+                <b>
+                    [shared] added copyright
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Add copyright in all files
+- Fix few issues with Fabric deployment and user creation
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-01 16:04:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1729" class=".btn">#1729</a>
             </td>
             <td>

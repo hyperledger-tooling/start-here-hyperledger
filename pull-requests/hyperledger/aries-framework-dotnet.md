@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/199" class=".btn">#199</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/203" class=".btn">#203</a>
             </td>
             <td>
                 <b>
-                    Improve Dispatch Error message
+                    Allow switching between return routing types
                 </b>
             </td>
         </tr>
@@ -28,21 +28,17 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
             </td>
             <td>
                 #### Short description of what this resolves:
-Improves error message to include the endpointUri
+This PR enables implementers to select different types of return routing. Before, the `return_routing` decorator was always set to `all` and could not be changed. Now, the default value is still `all`, but the value can be defined via a parameter of `SendReceiveAsync`.
 
 #### Changes proposed in this pull request:
 
-Change to line 47 only:
-From:
-ErrorCode.A2AMessageTransmissionError, $"Failed to send A2A message with an HTTP status code of {response.StatusCode} and content {responseBody}");
-To:
-`ErrorCode.A2AMessageTransmissionError, $"Dispatch Failure. Endpoint:{endpointUri} Status: {response.StatusCode} Content: {responseBody}");`
+- Add parameter to `SendReceiveAsync` in `IMessageService.cs` and `DefaultMessageService.cs` which specifies the desired return_routing type
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-02 13:43:40 +0000 UTC
+        Created At 2021-11-01 15:21:27 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/244" class=".btn">#244</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0.3:Delete SqlMerkleState trees
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #236 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-01 15:39:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/243" class=".btn">#243</a>
             </td>
             <td>
@@ -356,34 +382,6 @@ Signed-off-by: Isabel Tomb <tomb@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-26 18:51:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/230" class=".btn">#230</a>
-            </td>
-            <td>
-                <b>
-                    Add sabre_command and sabre_smallbank to top-level Cargo.toml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes 'cargo clean' which in turn fixes 'just clean', and makes
-sabre_command and sabre_smallbank use the shared target directory during
-builds.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-25 16:51:44 +0000 UTC
     </div>
 </div>
 

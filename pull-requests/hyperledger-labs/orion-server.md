@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/229" class=".btn">#229</a>
+            </td>
+            <td>
+                <b>
+                    WIP - Don't merge. Create Docker workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Trigger docker build on each PR and push to main branch
+Push docker image with tag latest to docker hub only on push to main branch
+
+Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-01 16:30:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/227" class=".btn">#227</a>
             </td>
             <td>

@@ -184,33 +184,3 @@ If the version string (by `'peer version'`) includes other "Version: " strings, 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/513" class=".btn">#513</a>
-            </td>
-            <td>
-                <b>
-                    resolve for #512
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                resolve for #512
-
-by adding storageClassName in PVC files
-
-Signed-off-by: Sam Yuan <yy19902439@126.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-25 14:16:40 +0000 UTC
-    </div>
-</div>
-

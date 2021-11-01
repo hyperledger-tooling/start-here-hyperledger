@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1008" class=".btn">#1008</a>
+            </td>
+            <td>
+                <b>
+                    Add PO list/show CLI functionality
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR updates the Grid CLI to include functionality to list and show a Grid Purchase Order. This includes changes to the Purchase Order client to update the structs and functions to align with the RFC and current discussions. It also includes updates to the version and revision list/show commands to use the new display utility functions/patterns introduced here.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-01 15:23:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1006" class=".btn">#1006</a>
             </td>
             <td>

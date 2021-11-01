@@ -96,30 +96,3 @@ The `manifestgen.sh` script also gets an update with this, allowing it to pull t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/285" class=".btn">#285</a>
-            </td>
-            <td>
-                <b>
-                    Update DX dependency, and go deps including bluemonday for CVE-2021-42576
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Updates dependencies for security issues
-- Pulls in all the latest images of downstream deps
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-25 15:24:57 +0000 UTC
-    </div>
-</div>
-

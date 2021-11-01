@@ -32,6 +32,8 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
 - `public` modifiers of constructors
 - Unused function parameter
 - Variable shadowing
+
+This fix corresponds to https://github.com/datachainlab/solidity-protobuf/pull/13
             </td>
         </tr>
     </table>

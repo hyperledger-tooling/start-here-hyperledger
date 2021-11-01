@@ -718,37 +718,3 @@ fixes #1632
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2942" class=".btn">#2942</a>
-            </td>
-            <td>
-                <b>
-                    exclude acceptance tests from coverage metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Excludes the `org.hyperledger.besu.tests.acceptance` package from calculating test coverage.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-25 15:21:06 +0000 UTC
-    </div>
-</div>
-
