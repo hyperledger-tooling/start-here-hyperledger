@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2980" class=".btn">#2980</a>
+            </td>
+            <td>
+                <b>
+                    [2950] Support websocket binary frames 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes https://github.com/hyperledger/besu/issues/2950
+
+## Changelog
+
+- Failing test for sending a binary frame to websocketservice
+- Add support
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-01 05:41:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2979" class=".btn">#2979</a>
             </td>
             <td>
@@ -705,39 +749,6 @@ Excludes the `org.hyperledger.besu.tests.acceptance` package from calculating te
     </table>
     <div class="right-align">
         Created At 2021-10-25 15:21:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2941" class=".btn">#2941</a>
-            </td>
-            <td>
-                <b>
-                    Strict input length metering for crypto precompiles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-For operations where input length as a maximum, only send that amount of
-data to the native methods.
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-25 03:14:32 +0000 UTC
     </div>
 </div>
 
