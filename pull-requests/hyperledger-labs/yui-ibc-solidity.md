@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/58" class=".btn">#58</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/61" class=".btn">#61</a>
             </td>
             <td>
                 <b>
-                    Bump up the version of Solidity to v0.8.9
+                    Stop warnings
                 </b>
             </td>
         </tr>
@@ -27,14 +27,42 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                close #55 
-
-Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
+                Stop warnings related to:
+- Function state mutability
+- `public` modifiers of constructors
+- Unused function parameter
+- Variable shadowing
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-25 09:37:06 +0000 UTC
+        Created At 2021-11-01 12:25:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/60" class=".btn">#60</a>
+            </td>
+            <td>
+                <b>
+                    SPDX License
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix #59 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-01 10:42:22 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3006" class=".btn">#3006</a>
+            </td>
+            <td>
+                <b>
+                    Add logging for identity, policy, and signature troubleshooting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Most identity, policy, and signature issues return a fairly generic error
+message to the user, e.g. "not authorized".
+This is often intentional so as to not disclose information to malicious users that
+may be probing for information about the system.
+
+This commit adds logging on the orderer and peer side so that identity issues
+can more easily be troubleshooted by users setting up sample networks,
+and by administrators and SREs in production networks.
+
+For any identity, policy, or signature error, the identity is now logged in a warning message.
+Additionally, the identity of every signature that is verified can be seen if tracing is enabled.
+
+The new logging can help with the following types of issue resolution:
+User cert and MSP membership errors
+Determine which user is unauthorized to perform an action
+Determine which MSPs and user signatures are included in a config transaction that was invalidated
+Determine which peers participated in an endorsement invalidation
+Determine which peer signature doesn't match the others in a proposal response
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-01 12:15:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3005" class=".btn">#3005</a>
             </td>
             <td>

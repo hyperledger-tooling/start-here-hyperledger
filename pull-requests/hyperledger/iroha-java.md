@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/172" class=".btn">#172</a>
-            </td>
-            <td>
-                <b>
-                    update to iroha:1.3.0-rc.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                iroha:1.3.0-rc.1 docker image released
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-25 10:19:56 +0000 UTC
-    </div>
-</div>
-
