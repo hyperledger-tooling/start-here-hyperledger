@@ -15,31 +15,41 @@ permalink: /releases/hyperledger/aries-framework-javascript-ext
         <tr>
             <td colspan="2">
                 <b>
-                    @aries-framework/push-notifications push-notifications-v0.1.0
+                    @aries-framework/rest rest-v0.3.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    push-notifications-v0.1.0
+                    rest-v0.3.0
                 </span>
             </td>
             <td>
                 
 
-### Features
+### ⚠ BREAKING CHANGES
 
-* **push-notifications:** added push-notifications plugin ([#41](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/41)) ([c6cf262](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/c6cf262a21399cc55f3a1dab0e24831b96c2bb18))
+* **rest:** The credentential-definitions endpoint topic contained a typo (credential-defintions instead of credential-definitions)
+* **rest:** The connection id is moved from the path to the request body for credential and proof endpoints
+
+### Bug Fixes
+
+* **rest:** typo in credential definition endpoint ([b4d345e](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/b4d345ed2af112679389ad4d8ed76760e442cc26))
+
+
+### Code Refactoring
+
+* **rest:** moved connectionId from path to requestbody ([#59](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/59)) ([1d37f0b](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/1d37f0bdde96742fc947213f8b934353872c570c))
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/push-notifications-v0.1.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.3.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-10-21 10:22:37 +0000 UTC
+        Created At 2021-11-01 12:50:04 +0000 UTC
     </span>
 </div>
 
