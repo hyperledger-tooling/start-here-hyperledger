@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
             </td>
             <td>
                 <b>
-                    WIP - Augmented header
+                    Augmented header
                 </b>
             </td>
         </tr>
