@@ -27,11 +27,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                Stop warnings related to:
-- Function state mutability
-- `public` modifiers of constructors
-- Unused function parameter
-- Variable shadowing
+                close #62 
 
 This fix corresponds to https://github.com/datachainlab/solidity-protobuf/pull/13
             </td>
