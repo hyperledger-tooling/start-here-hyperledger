@@ -70,29 +70,3 @@ Signed-off-by: brioux <Bertrand.rioux@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/332" class=".btn">#332</a>
-            </td>
-            <td>
-                <b>
-                    small changes to documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-25 23:07:03 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/183" class=".btn">#183</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/184" class=".btn">#184</a>
             </td>
             <td>
                 <b>
-                    Core network interop contracts for Besu for exchanging ERC20 tokens and a simpleasset application
+                    Enable TLS in Relay, Drivers, and Apps
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                <nil>
+                Augmented code to optionally enable TLS in servers and clients where one endpoint is a relay or a Fabric or Corda driver.
+Added suitable configuration parameters and set defaults.
+Updated instructions in README files.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-25 17:17:33 +0000 UTC
+        Created At 2021-11-01 18:56:16 +0000 UTC
     </div>
 </div>
 
