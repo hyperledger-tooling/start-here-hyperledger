@@ -48,7 +48,7 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
             </td>
             <td>
                 <b>
-                    WIP feat: add issue credential V3
+                    feat: add issue credential V3
                 </b>
             </td>
         </tr>
@@ -57,7 +57,9 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                V3 spec: https://github.com/trustbloc/wallet/tree/main/docs/waci-credential-manifest/issue_credential
+
+Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
             </td>
         </tr>
     </table>
@@ -98,35 +100,6 @@ Iterate through all key prefixes in the keyset to try to decrypt data.
     </table>
     <div class="right-align">
         Created At 2021-11-01 11:00:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3026" class=".btn">#3026</a>
-            </td>
-            <td>
-                <b>
-                    fix: wallet present proof fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - fixed issue where wallet is only relying parent thread id of present
-proof V2
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 15:50:47 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/246" class=".btn">#246</a>
+            </td>
+            <td>
+                <b>
+                    Remove "database-lmdb" from experimental
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change removes the feature "database-lmdb" from the set of experimental features, as it is already stable and included under the default features.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-02 18:02:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/245" class=".btn">#245</a>
             </td>
             <td>

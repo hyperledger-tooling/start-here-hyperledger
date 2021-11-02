@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3013" class=".btn">#3013</a>
+            </td>
+            <td>
+                <b>
+                    Add chaincode err message to Evaluate err message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In a previous commit which implemented retry logic for the evaluate method, the error(s) produced by remote endorsers were added to the Details field of the gateway error with a generic error message at the top level.
+In the case of a proposal response containing a chaincode generated error, no retry is performed and so the error message should also be at the top level (as it used to be before that earlier commit).
+
+This commit adds the chaincode error message back into the message returned by the gateway, and will restore the behaviour expected by the scenario tests in the SDKs.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-02 16:33:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3012" class=".btn">#3012</a>
             </td>
             <td>
@@ -45,7 +77,8 @@ That is it. Developers have no idea what mismatch what.
 
 Now, with this PR, the error message is like 
 
-> Error: could not assemble transaction: ProposalResponsePayloads do not match with version:1 response:<status:200 payload:"true" > payload:"\n \265\277\020\265\226D\035\361\001n\371K\013\274\021F\227\002?\261\204\370\327\363r\347\010\221\313\214\031\230\022\230\001\n|\0227\n\n_lifecycle\022)\n'\n..." endorsement:<endorser:"\n\007Org1MSP\022\252\006-----BEGIN CERTIFICATE-----\nMIICKDCCAc6gAwIBAgIQEO..." signature:"0E\002!\000\331p\034A\353t\261{\026#\177\211\371g\232\213\331\323\..." > - proposal response: version:1 response:<status:200 payload:"true" > payload:"\n \265\277\020\265\226D\035\361\001n\371K\013\274\021F\227\002?\261\204\370\327\363r\347\010\221\313\214\031\230\022\213\001\no\0227\n\n_lifecycle\022)\n'..." endorsement:<endorser:"\n\007Org2MSP\022\252\006-----BEGIN CERTIFICATE-----\nMIICKDCCAc+gA..." signature:"0D\002 J\\\300\307~\350\236\026\245H\003\337\2732\020\312\n\017Fa\306~\367x\356\347K\225\..." > 
+> Error: could not assemble transaction: ProposalResponsePayloads do not match with version:1 response:<status:200 payload:"true" > payload:"\n \265\277\020\265\226D\035\361\001n\371K\013\274\021F\227\002?\261\204\370\327\363r\347\010\221\313\214\031\230\022\230\001\n|\0227\n\n_lifecycle\022)\n'\n..." endorsement:<endorser:"\n\007Org1MSP\022\252\006-----BEGIN CERTIFICATE-----\nMIICKDCCAc6gAwIBAgIQEO..." signature:"0E\002!\000\331p\034A\353t\261{\026#\177\211\371g\232\213\331\323\..." >
+> &#45; proposal response: version:1 response:<status:200 payload:"true" > payload:"\n \265\277\020\265\226D\035\361\001n\371K\013\274\021F\227\002?\261\204\370\327\363r\347\010\221\313\214\031\230\022\213\001\no\0227\n\n_lifecycle\022)\n'..." endorsement:<endorser:"\n\007Org2MSP\022\252\006-----BEGIN CERTIFICATE-----\nMIICKDCCAc+gA..." signature:"0D\002 J\\\300\307~\350\236\026\245H\003\337\2732\020\312\n\017Fa\306~\367x\356\347K\225\..." > 
 
 
 With this error message, developers can use text comparison tools to find out where the two responses start to differ, and they may get some cues.
@@ -120,7 +153,7 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">docs</span>
             </td>
             <td>
                 Update transaction flow doc for the new v2.4 flow with the peer gateway.
@@ -196,7 +229,7 @@ Also, this PR adds an output option for `calculatepackageid` command:
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">docs</span>
             </td>
             <td>
                 Contributes to #2807 
@@ -488,48 +521,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-10-27 15:36:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2997" class=".btn">#2997</a>
-            </td>
-            <td>
-                <b>
-                    Protobuf and etcd upgrade
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Update protobuf and etcd to their latest versions.
-
-#### Additional details
-
-This is a reprisal of the work on updating protobuf by #2185
-
-#### Related issues
-
-FAB-18363
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 15:57:35 +0000 UTC
     </div>
 </div>
 

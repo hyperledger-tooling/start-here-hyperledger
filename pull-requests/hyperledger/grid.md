@@ -205,33 +205,3 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1000" class=".btn">#1000</a>
-            </td>
-            <td>
-                <b>
-                    Fix adding a new revision to the store
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes a bug when attempting to add a revision to the store when the
-version doesn't yet exist. This now proprly creates the new version
-first.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 14:59:56 +0000 UTC
-    </div>
-</div>
-
