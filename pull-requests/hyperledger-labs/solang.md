@@ -326,31 +326,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/531" class=".btn">#531</a>
-            </td>
-            <td>
-                <b>
-                    First steps in move to ghcr.io away from docker hub
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Docker hub is super slow and has a terrible ui.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 15:52:43 +0000 UTC
-    </div>
-</div>
-

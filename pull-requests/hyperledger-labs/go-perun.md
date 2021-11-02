@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                <nil>
+                Closes #238 
             </td>
         </tr>
     </table>

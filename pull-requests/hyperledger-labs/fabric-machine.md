@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/16" class=".btn">#16</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/17" class=".btn">#17</a>
             </td>
             <td>
                 <b>
-                    Updates software setup.
+                    Fabric Machine Simulator
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-22 07:34:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/15" class=".btn">#15</a>
-            </td>
-            <td>
-                <b>
-                    Fixing software setup.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updating software setup.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-22 07:24:56 +0000 UTC
+        Created At 2021-11-02 16:49:22 +0000 UTC
     </div>
 </div>
 

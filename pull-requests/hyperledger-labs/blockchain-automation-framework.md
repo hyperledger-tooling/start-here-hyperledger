@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1736" class=".btn">#1736</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Added new tables for sql db tessera
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: alvaropicazo <alvaro.picazo.haase@accenture.com>
+
+**Changelog**
+- Added new tables creation which fix some sql tables missing errors logs in tessera node chart
+
+**Linked issue**
+#1551 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-02 17:00:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1733" class=".btn">#1733</a>
             </td>
             <td>
@@ -239,48 +272,6 @@ Signed-off-by: Puneet Joshi <puneet.joshi@walmart.com
     </table>
     <div class="right-align">
         Created At 2021-10-27 03:59:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1723" class=".btn">#1723</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] fixed quorum raft issues
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Fixed keystore not base64 encoded for raft
-- Fixed static.json file special character issue
-- Fixed organization reference error 
-
- 
-
-**Reviewed by**
-@alvaropicazo @sownak 
-
- 
-
-**Linked issue**
-#1721 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 12:34:09 +0000 UTC
     </div>
 </div>
 

@@ -99,35 +99,3 @@ Signed-off-by: pSchlarb <p.schlarb@esatus.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1702" class=".btn">#1702</a>
-            </td>
-            <td>
-                <b>
-                    Ubuntu16:04: Indy-Test-Automation workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR provides a GHA workflow to run the node system tests from https://github.com/hyperledger/indy-test-automation
-The workflow covers all tests from the following pipelines
-- The CD Pipeline runs these set of tests; https://github.com/hyperledger/indy-node/blob/master/Jenkinsfile.cd#L87-L100
-- The nightly build runs these set of tests; https://github.com/hyperledger/indy-node/blob/master/Jenkinsfile.nightly#L41-L72
-
-- [ ] Test with Debian packages from Artifactory 
-- [ ] Decide about the trigger of the pipeline
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 14:11:11 +0000 UTC
-    </div>
-</div>
-

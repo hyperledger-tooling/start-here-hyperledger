@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/71" class=".btn">#71</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/73" class=".btn">#73</a>
             </td>
             <td>
                 <b>
-                    Allow external TxID on data tx
+                    [WIP] block header delivery service
                 </b>
             </td>
         </tr>
@@ -27,19 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                - Allow external TxIDs on data tx (for now)
-- check the characters of external TxID
-- the internal commonTxContext augmented with variadic config function parameter
-- config function WithTxID
-
-This forms the basis for future options to be given to the TxContext of other types as well.
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
+                Signed-off-by: senthil <cendhu@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-25 09:34:38 +0000 UTC
+        Created At 2021-11-02 13:11:34 +0000 UTC
     </div>
 </div>
 

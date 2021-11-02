@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/666" class=".btn">#666</a>
+            </td>
+            <td>
+                <b>
+                    Bug: get Cred Ex for review was triggering state change
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When the issuer wants to review the credential exchange (what we issued and whether it was accepted/declined), we just need the data from the db. Was calling the full check to see if it is in db and wallet (important for holder), this was triggering a state change to problem once the credentials exchange is auto-removed from the wallet - so this little fix ensures we can read historical data stored in BPA db. However, the original call that compares db and wallet is important (particularly for the holder) as the conversation/exchange is ongoing. 
+
+Not sure what is going on with my local docker, but it was NOT picking up the changes to acapy images, so my local dev was using a slightly older version and this wasn't an issue.  🤷 
+
+Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/666"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-02 17:30:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/665" class=".btn">#665</a>
             </td>
             <td>
