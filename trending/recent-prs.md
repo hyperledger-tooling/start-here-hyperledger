@@ -1,13 +1,13 @@
 
-[2986](https://github.com/hyperledger/besu/pull/2986) [MINOR] Typos
+[545](https://github.com/hyperledger-labs/solang/pull/545) Ensure variable names are unique in the cfg
 
-[3009](https://github.com/hyperledger/fabric/pull/3009) Improve output formats of calculatepackageid
+[3012](https://github.com/hyperledger/fabric/pull/3012) Show what do not match
 
-[2985](https://github.com/hyperledger/besu/pull/2985) Add Daniel as a maintainer
+[134](https://github.com/hyperledger-labs/fabric-token-sdk/pull/134) reduce fabric dep
 
-[3034](https://github.com/hyperledger/aries-framework-go/pull/3034) fix: present proof issues in REST controllers
+[337](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/337) Revision to secure-identity doc edits by opentaps main
 
-[1469](https://github.com/hyperledger/aries-cloudagent-python/pull/1469) Fix connection record response for mobile
+[3011](https://github.com/hyperledger/fabric/pull/3011) Update Sphinx to v1.8.2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
