@@ -15,14 +15,14 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.3 - Go Fabric Utils for Interoperation - Nov 2 2021
+                    v1.2.4 - Go Fabric Utils for Interoperation - Nov 2 2021
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    core/network/fabric-interop-cc/libs/utils/v1.2.3
+                    core/network/fabric-interop-cc/libs/utils/v1.2.4
                 </span>
             </td>
             <td>
@@ -30,7 +30,7 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/utils/v1.2.3" class=".btn">
+    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/utils/v1.2.4" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">

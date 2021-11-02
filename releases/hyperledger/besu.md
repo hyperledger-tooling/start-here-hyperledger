@@ -52,7 +52,7 @@ permalink: /releases/hyperledger/besu
 - Enable plugins to expose custom JSON-RPC / WebSocket methods [#1317](https://github.com/hyperledger/besu/issues/1317)
 
 ### Download Link
-https://hyperledger.jfrog.io/native/besu-binaries/besu/21.10.0/besu-21.10.0.zip \
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.0/besu-21.10.0.zip \
 SHA256: 71374454753c2ee595f4f34dc6913f731818d50150accbc98088aace313c6935
             </td>
         </tr>
