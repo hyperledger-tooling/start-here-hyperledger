@@ -61,8 +61,9 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
             <td>
                 1. busybox latest image tag
-2. pull images with more images
-3. load images to kind cluster at local
+1. making pod image point to local reg
+1. pull images and push images to local reg
+1. make network down able to re run
 
 Signed-off-by: Sam Yuan <yy19902439@126.com>
             </td>
@@ -121,66 +122,6 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-10-27 11:42:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/516" class=".btn">#516</a>
-            </td>
-            <td>
-                <b>
-                    test-network: Make the regexp of checking version more strict (backpo…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                (Backport #515)
-
-Make the regular expression of checking version more strict in `test-network/network.sh` for comparing only the main version.
-
-If the version string (by `'peer version'`) includes other "Version: " strings, the comparing version between `LOCAL_VERSION` and `DOCKER_IMAGE_VERSION` would be failed because of the cropping by '`head -1`'.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 12:22:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/515" class=".btn">#515</a>
-            </td>
-            <td>
-                <b>
-                    test-network: Make the regexp of checking version more strict
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Make the regular expression of checking version more strict in `test-network/network.sh` for comparing only the main version.
-
-If the version string (by `'peer version'`) includes other "Version: " strings, the comparing version between `LOCAL_VERSION` and `DOCKER_IMAGE_VERSION` would be failed because of the cropping by '`head -1`'.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 10:01:46 +0000 UTC
     </div>
 </div>
 

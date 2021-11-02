@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/caliper
         </tr>
         <tr>
             <td>
-                <span class="chip">PR/change requested</span><span class="chip">PR/missing DCO</span>
+                
             </td>
             <td>
                 Add a badge to open repository in Visual Studio Code

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1472" class=".btn">#1472</a>
+            </td>
+            <td>
+                <b>
+                    Fixed potential deadlocks by opening sessions only on demand (Wallet endpoints)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Removed potential deadlocks for Wallet endpoints
+
+Additional info in this issue: #1417 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-02 09:10:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1469" class=".btn">#1469</a>
             </td>
             <td>
