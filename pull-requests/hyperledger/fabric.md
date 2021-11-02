@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3009" class=".btn">#3009</a>
+            </td>
+            <td>
+                <b>
+                    Improve output formats of calculatepackageid
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR improves the output formats of `calculatepackageid` command.
+
+#### Type of change
+- New feature
+- Documentation update
+
+#### Description
+
+This patch removes the prefix from the output format of calculatepackageid.
+With this patch, the command returns only the package ID by default.
+
+Also, this PR adds an output option for `calculatepackageid` command:
+- `-O json`: to output as JSON format
+
+#### Additional details
+
+#### Related issues
+- https://github.com/hyperledger/fabric/issues/2976
+
+#### Related PRs
+- https://github.com/hyperledger/fabric/pull/2981
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-02 00:34:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3008" class=".btn">#3008</a>
             </td>
             <td>

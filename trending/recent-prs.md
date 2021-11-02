@@ -1,13 +1,13 @@
 
-[3033](https://github.com/hyperledger/aries-framework-go/pull/3033) WIP feat: add issue credential V3
+[3009](https://github.com/hyperledger/fabric/pull/3009) Improve output formats of calculatepackageid
 
-[3008](https://github.com/hyperledger/fabric/pull/3008) Add gateway architecture page to docs
+[2985](https://github.com/hyperledger/besu/pull/2985) Add Daniel as a maintainer
 
-[1733](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1733) [shared] Fixed docs formatting
+[3034](https://github.com/hyperledger/aries-framework-go/pull/3034) fix: present proof issues in REST controllers
 
-[1732](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1732) [shared] Fix docutils so readthedocs don't fail
+[1469](https://github.com/hyperledger/aries-cloudagent-python/pull/1469) Fix connection record response for mobile
 
-[229](https://github.com/hyperledger-labs/orion-server/pull/229) WIP - Don't merge. Create Docker workflow
+[2984](https://github.com/hyperledger/besu/pull/2984) Release 21.10.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
