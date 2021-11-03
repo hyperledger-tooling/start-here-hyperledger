@@ -103,7 +103,7 @@ Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
             </td>
             <td>
                 <b>
-                    Int test basic cluster
+                    Integration test: basic cluster
                 </b>
             </td>
         </tr>

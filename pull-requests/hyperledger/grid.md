@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1014" class=".btn">#1014</a>
+            </td>
+            <td>
+                <b>
+                    Stabilization changes for error response
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Part of https://github.com/hyperledger/grid/issues/1012
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 17:21:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1009" class=".btn">#1009</a>
             </td>
             <td>
@@ -27,7 +53,7 @@ permalink: /pull-requests/hyperledger/grid
                 
             </td>
             <td>
-                <nil>
+                Addresses https://github.com/hyperledger/grid/issues/985
             </td>
         </tr>
     </table>
@@ -110,7 +136,13 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
                 
             </td>
             <td>
-                <nil>
+                This adds an implementation to the po smart contract for the "update version" action. 
+
+This also makes a few small bu fixes that were found while running the unit tests for this action. Mainly, this updates the following:
+
+- `can_transition` workflow state method, this method will now check it's `self.name` property against the desired state. If these values are the same, and we are not transitioning the po/vers to a new workflow state, `true` is returned.
+
+- `add_purchase_order_version` in po state module, this method will now validate if the purchase order version it is adding to state is an update (as in, the version already exists for the po we fetch). Now, this method will replace the outdated vers with the updated one, rather than pushing all "new" versions it receives to the end of the list (which would result in duplicate version IDs being present and the `get_purchase_order_version` method to only return the first version it finds, which based on the functionality of iters is the first one added which would be the outdated version)
             </td>
         </tr>
     </table>
@@ -176,32 +208,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-27 21:56:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1001" class=".btn">#1001</a>
-            </td>
-            <td>
-                <b>
-                    Add PO version and revision `list` and `show` CLI commands
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds CLI commands for listing and showing Grid Purchase Order versions and revisions. In support of this, the purchase order client's functions and structs are also brought up-to-date with the rest of the module's pieces.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 15:58:41 +0000 UTC
     </div>
 </div>
 

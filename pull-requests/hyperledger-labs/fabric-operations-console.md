@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/67" class=".btn">#67</a>
-            </td>
-            <td>
-                <b>
-                    Dev update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 16:02:06 +0000 UTC
-    </div>
-</div>
-

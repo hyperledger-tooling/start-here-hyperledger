@@ -74,34 +74,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/519" class=".btn">#519</a>
-            </td>
-            <td>
-                <b>
-                    nit fixs for test network k8s
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. busybox latest image tag
-1. making pod image point to local reg
-1. pull images and push images to local reg
-1. make network down able to re run
-
-Signed-off-by: Sam Yuan <yy19902439@126.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 16:07:19 +0000 UTC
-    </div>
-</div>
-

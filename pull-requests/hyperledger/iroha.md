@@ -14,11 +14,44 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1576" class=".btn">#1576</a>
+            </td>
+            <td>
+                <b>
+                    Add endpoint for internal metrics for administration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+### Issue
+Close #1387
+
+### Benefits
+
+### Possible Drawbacks
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 16:47:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1575" class=".btn">#1575</a>
             </td>
             <td>
                 <b>
-                    DRAFT Fix the push pipeline.
+                    Fix the push pipeline.
                 </b>
             </td>
         </tr>
@@ -166,44 +199,6 @@ None known.
     </table>
     <div class="right-align">
         Created At 2021-11-02 06:48:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1570" class=".btn">#1570</a>
-            </td>
-            <td>
-                <b>
-                    Detect future timestamp on queue push
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-Make `Queue` determine if a transaction has been tampered to have a future timestamp,
-based on configurable threshold
-
-### Issue
-Close #1494
-
-### Benefits
-Prevent future timestamps and make transaction TTLs work well
-
-### Possible Drawbacks
-`DEFAULT_FUTURE_THRESHOLD_MS` may be debatable
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 14:43:56 +0000 UTC
     </div>
 </div>
 

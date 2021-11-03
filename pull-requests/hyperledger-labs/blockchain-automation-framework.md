@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1739" class=".btn">#1739</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Fixed raft errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Fix generic RAFT errors
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 17:25:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1737" class=".btn">#1737</a>
             </td>
             <td>
