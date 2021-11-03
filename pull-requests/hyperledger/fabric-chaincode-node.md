@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/298" class=".btn">#298</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/299" class=".btn">#299</a>
             </td>
             <td>
                 <b>
-                    Correct TS type definitions
+                    Rename the root json config file
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-26 08:20:45 +0000 UTC
+        Created At 2021-11-03 10:48:19 +0000 UTC
     </div>
 </div>
 

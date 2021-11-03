@@ -34,7 +34,7 @@ Also, this update is required to run the node system tests from https://github.c
 
 Further, this PR contains some fixes for the Jenkins CI pipeline.
 
-A successful run can be found at: https://github.com/udosson/indy-node/actions/runs/1395055187
+A successful run can be found at: https://github.com/udosson/indy-node/actions/runs/1413619194
 The GHA run of this PR fails because the `build` image is updated.
 
 Signed-off-by: udosson <r.klemens@yahoo.de>

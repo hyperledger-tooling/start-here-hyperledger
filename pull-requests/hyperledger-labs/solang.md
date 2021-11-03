@@ -14,6 +14,57 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/547" class=".btn">#547</a>
+            </td>
+            <td>
+                <b>
+                    Lisbon Release v0.1.9
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added
+- Added support for solc import mapppings using `--importmap`
+- Added support for Events on Solana
+- `msg.data`, `msg.sig`, `msg.value`, `block.number`, and `block.slot` are
+  implemented for Solana
+- Implemented balance transfers using `.send()` and `.transfer()` on Solana
+- Implemented retrieving account balances on Solana
+- Verify ed25519 signatures with `signatureVerify()` on Solana
+- Added support for Rational numbers
+- The address type and value type can changed using `--address-length` and
+  `--value-length` command line arguments (for Substrate only)
+
+Changed
+- Solana now requires v1.8.1 or later
+- On Solana, the return data is now provided in the program log. As a result,
+  RPCs are now are now supported.
+- On the solang command line, the target must be specified.
+- The Solana instruction now includes a 64 bit value field
+- Many fixes to the parser and resolver, so solidity compatibility is much
+  improved, thanks to [sushi-shi](https://github.com/hyperledger-labs/solang/pulls?q=is%3Apr+author%3Asushi-shi+is%3Aclosed).
+
+Removed
+- The Sawtooth Sabre target has been removed.
+- The generic target has been removed.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 08:54:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/546" class=".btn">#546</a>
             </td>
             <td>
@@ -163,166 +214,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2021-10-28 22:20:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/539" class=".btn">#539</a>
-            </td>
-            <td>
-                <b>
-                    Make function body more readable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Iwan Waitusenok <sleepplease@protonmail.ch>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 10:25:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/538" class=".btn">#538</a>
-            </td>
-            <td>
-                <b>
-                    Another atempt to make readthedocs work
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The problem is that readthedocs is using very ancient version of sphinx
-(1.8.5). I have no idea why they prefer tools from before the k-t
-boundary.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 10:07:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/537" class=".btn">#537</a>
-            </td>
-            <td>
-                <b>
-                    Docs are failing to build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 09:22:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/536" class=".btn">#536</a>
-            </td>
-            <td>
-                <b>
-                    Fix tys unreachable case
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Iwan Waitusenok <sleepplease@protonmail.ch>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 09:08:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/535" class=".btn">#535</a>
-            </td>
-            <td>
-                <b>
-                    Documentation review
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 09:08:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/533" class=".btn">#533</a>
-            </td>
-            <td>
-                <b>
-                    move to ghcr.io away from docker hub (final part)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 07:40:01 +0000 UTC
     </div>
 </div>
 
