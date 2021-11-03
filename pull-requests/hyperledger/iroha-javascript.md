@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/80" class=".btn">#80</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/81" class=".btn">#81</a>
             </td>
             <td>
                 <b>
-                    Update data model & peer usage
+                    Adding tx hash and status to sendTransactions return
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                - Update `@scale-codec/*` deps
-- Use `rollupSingleTuplesIntoAliases` & "external" type compiler's features
+                So after using commands to send transactions, I noticed there's no response from the promise, would be useful to have a status and a hash returned after attempting the transactions.
+
+Thanks!
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-17 08:07:32 +0000 UTC
+        Created At 2021-11-03 13:49:14 +0000 UTC
     </div>
 </div>
 

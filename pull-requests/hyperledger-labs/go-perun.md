@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/252" class=".btn">#252</a>
+            </td>
+            <td>
+                <b>
+                    :bug: [client] Start watching for sub-channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #251 
+
+Maybe add tests for watching sub-channels. We only test watching ledger channels.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 17:02:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/250" class=".btn">#250</a>
             </td>
             <td>

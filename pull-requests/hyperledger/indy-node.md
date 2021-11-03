@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1707" class=".btn">#1707</a>
+            </td>
+            <td>
+                <b>
+                    re-added the adjustment of packages for the cannonical archive
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This needs to be re-added so the packages get named accordingly to the naming convention with the `python3` prefix.
+
+Signed-off-by: udosson <r.klemens@yahoo.de>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 16:29:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1706" class=".btn">#1706</a>
             </td>
             <td>

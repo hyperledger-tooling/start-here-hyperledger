@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/339" class=".btn">#339</a>
+            </td>
+            <td>
+                <b>
+                    feat (test): Add MD5 checksum test for emission records
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Every time a new emission is recorded, its MD5 digest is computed and stored on the ledger. Then, when the emission is retrieved again, the MD5 digest is re-computed and is checked against the value stored in the ledger. This PR exercises this functionality as a test, by deleting the emission document and then adding a dummy document in its place. This should cause the MD5 digest to be changed, and hence the test should fail.
+
+Closes #188.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 13:04:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/338" class=".btn">#338</a>
             </td>
             <td>

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1570" class=".btn">#1570</a>
+            </td>
+            <td>
+                <b>
+                    added importlib-metadata as debian package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added missing 3rd party dependency `importlib-metadata` to the build process of the Debian packages.
+
+Signed-off-by: udosson <r.klemens@yahoo.de>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 15:51:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-plenum/pull/1569" class=".btn">#1569</a>
             </td>
             <td>

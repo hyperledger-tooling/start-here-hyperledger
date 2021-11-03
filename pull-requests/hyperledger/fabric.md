@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3016" class=".btn">#3016</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in comment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+This change fixes a typo in a comment in `gossip/privdata/pvtdataprovider.go`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 12:37:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3013" class=".btn">#3013</a>
             </td>
             <td>
@@ -490,37 +522,6 @@ and addresses the problem where a windows absolute path is not recognised
     </table>
     <div class="right-align">
         Created At 2021-10-28 08:42:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/2999" class=".btn">#2999</a>
-            </td>
-            <td>
-                <b>
-                    Retry logic for evaluate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Modify the evaluate method to retry processing of a transaction proposal on another peer in the case of an error.
-
-resolves #2913 
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 15:36:23 +0000 UTC
     </div>
 </div>
 
