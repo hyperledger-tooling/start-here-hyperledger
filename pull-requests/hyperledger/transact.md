@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/248" class=".btn">#248</a>
+            </td>
+            <td>
+                <b>
+                    Add release notes for 0.3.13
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-02 21:55:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/247" class=".btn">#247</a>
+            </td>
+            <td>
+                <b>
+                    Remove openssl dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change removes the openssl dependency.  This library was only used for SHA-512 hashing.  This same functionality can be replaced with the already-included sha2 library.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-02 20:52:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/246" class=".btn">#246</a>
             </td>
             <td>
@@ -382,58 +434,6 @@ Signed-off-by: Isabel Tomb <tomb@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-27 14:02:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/232" class=".btn">#232</a>
-            </td>
-            <td>
-                <b>
-                    Stabilize sabre-compat by moving to wasm (stable)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 21:29:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/231" class=".btn">#231</a>
-            </td>
-            <td>
-                <b>
-                    Fixups for protocol-sabre feature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Rename protocol-sabre-exec to protocol-sabre and remove unused functions and variables from protocol::sabre.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 18:51:09 +0000 UTC
     </div>
 </div>
 
