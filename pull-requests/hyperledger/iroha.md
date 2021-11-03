@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">bug</span><span class="chip">iroha2</span><span class="chip">CI</span>
             </td>
             <td>
                 Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>

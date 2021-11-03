@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/237" class=".btn">#237</a>
+            </td>
+            <td>
+                <b>
+                    Intro page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 07:22:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/236" class=".btn">#236</a>
             </td>
             <td>
@@ -144,32 +170,6 @@ Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-10-28 10:38:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/222" class=".btn">#222</a>
-            </td>
-            <td>
-                <b>
-                    Limit the number of in flight blocks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">replication</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 11:40:02 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1737" class=".btn">#1737</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] Added the helm chart and dockerfile for CENM Zone service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: surabhi-dudhediya <surabhi.dudhediya@accenture.com>
+
+**Changelog**
+- Add helm chart and dockerfile for CENM Zone service
+
+**Reviewed by**
+@suvajit-sarkar @jagpreetsinghsasan @sownak 
+
+ 
+
+**Linked issue**
+#1735 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 11:24:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1736" class=".btn">#1736</a>
             </td>
             <td>
@@ -187,45 +225,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </table>
     <div class="right-align">
         Created At 2021-10-28 08:53:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1727" class=".btn">#1727</a>
-            </td>
-            <td>
-                <b>
-                    [corda-ent] Added cenm-cli docker file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: surabhi-dudhediya <surabhi.dudhediya@accenture.com>
-
-**Changelog**
-- Add cenm-cli docker file
-
- 
-
-**Reviewed by**
-@jagpreetsinghsasan @suvajit-sarkar @sownak 
- 
-
-**Linked issue**
-#1545 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 11:07:34 +0000 UTC
     </div>
 </div>
 

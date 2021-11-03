@@ -108,35 +108,3 @@ Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/663" class=".btn">#663</a>
-            </td>
-            <td>
-                <b>
-                    Feature list in readme
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                added detailed feature list to the readme and updated main description
-
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/663"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 10:27:53 +0000 UTC
-    </div>
-</div>
-

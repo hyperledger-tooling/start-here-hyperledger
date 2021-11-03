@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2992" class=".btn">#2992</a>
+            </td>
+            <td>
+                <b>
+                    Update bls12-381 native library
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+The native library for bls12-381 is updated to the latest version to add support for M1 (ARM) processors.
+ 
+## Fixed Issue(s)
+Fixes #2668 
+
+## Changelog
+
+- [x ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 11:41:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2989" class=".btn">#2989</a>
             </td>
             <td>
@@ -727,34 +766,6 @@ fixes #2936
     </table>
     <div class="right-align">
         Created At 2021-10-27 18:37:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2957" class=".btn">#2957</a>
-            </td>
-            <td>
-                <b>
-                    Move plugin validation to happen after startPlugins
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is required because plugin implementation may need to wait until cli options have been bound to decide if they wish to initialise. 
-
-Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 12:10:20 +0000 UTC
     </div>
 </div>
 

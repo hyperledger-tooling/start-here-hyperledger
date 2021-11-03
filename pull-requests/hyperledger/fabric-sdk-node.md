@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/526" class=".btn">#526</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/527" class=".btn">#527</a>
             </td>
             <td>
                 <b>
-                    Revert to snapshot publishing after release
+                    Fix lint errors
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                Likely caused by the build picking up new eslint versions.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-22 08:11:35 +0000 UTC
+        Created At 2021-11-03 10:37:21 +0000 UTC
     </div>
 </div>
 
