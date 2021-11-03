@@ -22,7 +22,7 @@ permalink: /releases/hyperledger-labs/solang
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.8
+                    v0.1.9
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger-labs/solang
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/solang/releases/tag/v0.1.8" class=".btn">
+    <a href="https://github.com/hyperledger-labs/solang/releases/tag/v0.1.9" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-08-27 09:45:09 +0000 UTC
+        Created At 2021-11-03 09:16:33 +0000 UTC
     </span>
 </div>
 
