@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
             </td>
             <td>
                 <b>
-                    [WIP] block header delivery service
+                    augmented block header delivery service
                 </b>
             </td>
         </tr>

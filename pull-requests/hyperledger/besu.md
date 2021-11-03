@@ -553,6 +553,16 @@ fixes #2964
 
 ## PR description
 
+See attached issue for more detailed description from the user's perspective. This exception is caused by the runtime not supporting ipv6 outbound traffic (docker by default doesn't), and the full stacktrace is not helpful and spammy. This PR makes the log TRACE level so users will need to specifically toggle to see the full trace.
+
+Step 2 is to update our troubleshooting doc in besu-docs to include ipv6 related query.
+
+Step 3 is to potentially update our quick start guide to include instructions on how to turn on ipv6 in docker
+
+Step 4 (maybe) is to rewrite how PeerDiscoveryAgent is used, and maybe verify ipv6 connectivity and filter our ipv6 peers.
+
+Step 2,3,4 and this PR are not dependent on each other.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
