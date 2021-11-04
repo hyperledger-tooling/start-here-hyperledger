@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/66" class=".btn">#66</a>
+            </td>
+            <td>
+                <b>
+                    chore: release @aries-framework/react-hooks 0.1.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">autorelease: pending</span>
+            </td>
+            <td>
+                :robot: I have created a release \*beep\* \*boop\*
+---
+### [0.1.3](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/react-hooks-v0.1.2...react-hooks-v0.1.3) (2021-11-04)
+
+
+### Bug Fixes
+
+* **react-hooks:** message filtering overflows ([#58](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/58)) ([1eb2a92](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/1eb2a92dcf28e7693ed75c7a00f234eea4782b1f))
+---
+
+
+This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 07:12:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/65" class=".btn">#65</a>
             </td>
             <td>
@@ -24,7 +61,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">ci-test</span>
             </td>
             <td>
                 Bumps [validator](https://github.com/validatorjs/validator.js) from 13.6.0 to 13.7.0.

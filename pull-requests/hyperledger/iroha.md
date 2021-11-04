@@ -189,11 +189,31 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 ### Benefits
 
-Peer now has several dependent datatypes, which make the depedency graph clearer. 
+Peer now has several dependent datatypes: `Connection` and `Cryptographer<T, K, E>`, which make the depedency graph clearer. 
+
+The `handshake` method either returns a `State::Ready` peer or terminates. 
+
+The handler can no longer end up in an infinite loop if `handshake()` method returns anything other than a peer in `State::Ready`. 
+
+The `State::Error` peer now records the error. 
+
+Error handling is (mostly) monadic. 
+
+The state `enum` now only derives `Debug`, which should reduce compilation time. 
+
+Each stage of the handshake now asserts that it came from the previous stage, and raises an `Error::Handshake` if it didn't. Trivial handling of this error is to change the `peer.state`. 
 
 ### Possible Drawbacks
 
 None known. 
+
+### Alternative implementations. 
+
+Turning `peer` into an enum necessitates one of several modifications. The `impl Peer` needs to pass by value and take ownership of the data, of which neither TCPStream nor the cryptographic primitives can be cloned. As a result each function has the potential of losing the peer entirely on error. This precludes recovery. 
+
+Additionally, most functions upon which `handshake` depends, pass by mutable reference which means that they cannot change the `enum` variant themselves, and neither can `handshake`. To get around this issue we could swap into `self` a Dummy varialbe, and change the freed copy based off of the new information. This 1) making the code more obtuse, 2) requires creating a dummy default constructable peer, which would be equivalent to it being nullable, 3) does not communicate the intention more clearly. 
+
+Moving all state except `broker` and `id` into the `enum` state has the benefit of clarifying that at certain stages the peer doesn't have to have certain types of data. However, because the state needs to be changed, said data (which is not `Clone`), will need to be moved into dummy variables of the same type, which has the same result as making `peer` an `enum`. 
             </td>
         </tr>
     </table>

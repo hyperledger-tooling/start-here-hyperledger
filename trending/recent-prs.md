@@ -1,13 +1,13 @@
 
-[2996](https://github.com/hyperledger/besu/pull/2996) Improved QBFT logs
+[32](https://github.com/hyperledger-labs/fabric-chaincode-haskell/pull/32) Update to latest dependencies
 
-[2995](https://github.com/hyperledger/besu/pull/2995) Qbft migration
+[379](https://github.com/hyperledger/aries-agent-test-harness/pull/379) Fix aries-vcx workflow YAML linebreak
 
-[2440](https://github.com/hyperledger/indy-sdk/pull/2440) fix(objective c wrapper) NSError should be nil when there is no error
+[287](https://github.com/hyperledger/fabric-gateway/pull/287) Make fine-grained Go API usable without explicit context handling
 
-[2994](https://github.com/hyperledger/besu/pull/2994) Added validate-config subcommand
+[286](https://github.com/hyperledger/fabric-gateway/pull/286) Update CI to publish on tagged releases
 
-[2993](https://github.com/hyperledger/besu/pull/2993) Log unused JSON params
+[239](https://github.com/hyperledger-labs/orion-server/pull/239) Allow zap.Options in logger
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

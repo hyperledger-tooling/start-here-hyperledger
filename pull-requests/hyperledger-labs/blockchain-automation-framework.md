@@ -228,34 +228,3 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1728" class=".btn">#1728</a>
-            </td>
-            <td>
-                <b>
-                    [corda] Fix molecule test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
-
-**Changelog**
-- Update github actions VM env to ubuntu-18.04
-
- 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 08:53:09 +0000 UTC
-    </div>
-</div>
-
