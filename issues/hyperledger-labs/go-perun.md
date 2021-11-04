@@ -100,13 +100,14 @@ This would also make the error handling shorter since we often log errors when h
 - [ ] 2. `NewFundingReq` returns a `*FundingReq` (per convention) but `Funder.Fund` accepts a `FundingReq`.
 - [ ] 3. [eth/Backend.VerifySignature](https://github.com/hyperledger-labs/go-perun/blob/5340aa3f6d9dc59739ad77cd362e0962de435024/backend/ethereum/wallet/backend.go#L69) contains a superfluous `if`
 - [x] 4. `wallet.Address` needs only to be an `Encoder`, not `Serializer`. Decoding is handled by the backend anyway. (Done in #194)
-- [ ] 5. `channel/backend.Verify` gets passed in `Params` but expects the implementation to ignore them.
-- [ ] 6. `Params.ID` should be calculated on the fly to avoid inconsistencies. Members of Params are exported, but should be read only.
+- [x] 5. `channel/backend.Verify` gets passed in `Params` but expects the implementation to ignore them (Done in #196).
+- [ ] 6. `Params.ID` should be calculated on the fly to avoid inconsistencies. Members of Params are exported, but should be read only (TBD #188).
 - [ ] 7. `AdjudicatorReq.Acc` and `AdjudicatorReq.Idx` are not needed for `Adjudicator.Register`. We could create `type RegisterReq` specifically for registering.
 - [ ] 9. `Adjudicator.Withdraw` could take the beneficiary as a parameter. (Currently, the beneficiary is a property of the adjudicator.)
 - [ ] 10. Add custom errors to the wallet interface: eg. `ErrAccountNotFound` or `ErrWrongAddrType`.
 - [ ] 11. Add `NewAssetFundingError` since we also have `NewFundingTimeoutError` and they need each other.
 - [ ] 12. Add `NewAdjudicatorReq`.
+- [ ] `WithCommitTx` is missing a comment.
 
 Please extend this list.  
 :point_right: Related issues will be moved to Milestone *Beautification*.
