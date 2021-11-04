@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1019" class=".btn">#1019</a>
+            </td>
+            <td>
+                <b>
+                    Remove `sawtooth-compat` from SDK
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change removes the `sawtooth-compat` feature from the SDK. The
+dependencies pulled in by this feature are already pulled in based on
+the `target_arch` and the `sawtooth-compat` feature itself does not
+protect any code within the SDK.
+
+This also updates the `sawtooth-support` feature in the daemon to pull
+in the Sabre and Sawtooth SDKs individually.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 16:10:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1018" class=".btn">#1018</a>
+            </td>
+            <td>
+                <b>
+                    Remove `splinter` feature from CLI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change removes the experimental "splinter" feature from the Grid
+CLI. Grid handles the separate backends within the Rest API and daemon.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 15:41:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1017" class=".btn">#1017</a>
             </td>
             <td>
@@ -96,13 +159,15 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
 which validates whether an agent has the correct permissions to
 transition to a new workflow state, to check the workflow state's name.
 This covers a case in which an agent is not attempting to transition a
-workflow, but rather update an object. Previously, the `can_transition`
+workflow, but rather update an object. 
+
+Previously, the `can_transition`
 method would return false if it did not have it's own name within it's
 transitions. Rather than add all of the workflow states as transitions
 to their own state, this will check if we are staying in the same
 workflow state and return `true`, as we are not transitioning.
 
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
+This PR also updates a test to change the name of the workflow state used. This allows an alias' transitions to be validated, while avoiding a situation where the alias is attempting to transition to the same state.
             </td>
         </tr>
     </table>
@@ -249,37 +314,6 @@ This also makes a few small bu fixes that were found while running the unit test
     </table>
     <div class="right-align">
         Created At 2021-10-28 21:28:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1003" class=".btn">#1003</a>
-            </td>
-            <td>
-                <b>
-                    Add simple validation for po payloads
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds a `payload` module to the purchase order smart contract
-for basic validation of the various PurchaseOrderPayload`s that are
-handled. These new functions validate that the payload has all the
-required fields defined.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 17:24:38 +0000 UTC
     </div>
 </div>
 

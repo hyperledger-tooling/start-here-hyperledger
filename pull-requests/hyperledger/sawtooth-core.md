@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2407" class=".btn">#2407</a>
-            </td>
-            <td>
-                <b>
-                    Add batch submit subcommand to sawadm CLI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 21:39:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2406" class=".btn">#2406</a>
             </td>
             <td>
@@ -132,32 +106,6 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-11-02 18:35:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2403" class=".btn">#2403</a>
-            </td>
-            <td>
-                <b>
-                    Add batch status subcommand to to sawadm CLI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 19:11:42 +0000 UTC
     </div>
 </div>
 

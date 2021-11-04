@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3017" class=".btn">#3017</a>
+            </td>
+            <td>
+                <b>
+                    Better gRPC error on context error from CommitStatus service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rather than always return a FailedPrecondition error on failure obtaining commit status, return either a DeadlineExceeded or Canceled error on a context error. This may happen if the call is cancelled from the client end, either by an explicit context cancel or timeout.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 18:13:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3016" class=".btn">#3016</a>
             </td>
             <td>

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1511" class=".btn">#1511</a>
+            </td>
+            <td>
+                <b>
+                    docs(tools): fix/migrate example config generator to ESM
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">documentation</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                Fixes #1510
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 17:45:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1496" class=".btn">#1496</a>
             </td>
             <td>

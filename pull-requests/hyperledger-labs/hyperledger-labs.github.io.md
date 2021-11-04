@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/179" class=".btn">#179</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/180" class=".btn">#180</a>
             </td>
             <td>
                 <b>
-                    orion
+                    Fablo
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Orion is a centralized ledger with certain blockchain properties such as tamper-evident, and non-repudiation.
+                Setting up and running a custom Hyperledger Fabric network is hard. The main goal of Fablo is to make this process easy, straightforward and accessible. It transforms a single configuration file to running network.
 
-Signed-off-by: senthil <cendhu@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-05 12:29:03 +0000 UTC
+        Created At 2021-11-04 12:50:22 +0000 UTC
     </div>
 </div>
 
