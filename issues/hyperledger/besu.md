@@ -14,11 +14,11 @@ permalink: /issues/hyperledger/besu
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/besu/issues/2705" class=".btn">2705</a>
+                Issue <a href="https://github.com/hyperledger/besu/issues/2757" class=".btn">2757</a>
             </td>
             <td>
                 <b>
-                    Log unused JSON-RPC Request Fields
+                    Add headings to Besu help
                 </b>
             </td>
         </tr>
@@ -27,22 +27,90 @@ permalink: /issues/hyperledger/besu
                 <span class="chip">good first issue</span>
             </td>
             <td>
-                ### Description
-As part of [PR 2690](https://github.com/hyperledger/besu/pull/2690) we allowed all fields in a JSON-RPC call that are not recognized to be ignored.  This was done to support other libraries that would occasionally send "extra" fields (like "type" in eth_estimateGas).  While this increases compatibility, there is a risk we may be unaware of properties that we may want in the future.
+                This can be done with PicoCLI headings https://picocli.info/quick-guide.html#_section_headings
 
-To help this, as a node operator I want unknown properties to be appeneded to the console (at info level), including what the field and value is and what type it was trying to be added to.  The particular call would be nice but may be hard to marshal.
+See related ticket about formatting of the help output
+https://github.com/hyperledger/besu/issues/541
 
-One possible approach is to add `@AnySetter` methods in key places and logging the results.  (for context a stackoverflow question: https://stackoverflow.com/a/31164723/8020)
+### Description
+As a developer, I want help grouped sensibly so that it's easy to find what I'm looking for.
+
+Suggested groupings:
+GraphQL
+JSON-RPC HTTP 
+JSON-RPC WebSockets
+Metrics
+Miner
+Privacy
+Permissions
+Tx pool
+(everything else can remain ungrouped)
 
 ### Acceptance Criteria
-Calling any JSON-RPC with an unexpected field will result in the console log notifying me at ~INFO~ DEBUG level.
+* Besu help has headings for related CLI options
+
+### Steps to Reproduce (Bug)
+1. besu --help
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 03:28:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/besu/issues/2756" class=".btn">2756</a>
+            </td>
+            <td>
+                <b>
+                    Add data-path to error message re chain data mismatch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span>
+            </td>
+            <td>
+                eg if I start besu with default --data-path and I've already forgotten what the default value is, this will save me looking it up. 
+
+### Description
+As a Besu user, I want to see the effective data-path in the error message so that I can delete it if switching between networks. 
+
+### Acceptance Criteria
+* Actual/effective data-path is printed out in the error message when genesis block mismatch.
+
+### Steps to Reproduce (Bug)
+1. Start besu with --network=rinkeby
+2. stop besu
+3. start besu with --network=ropsten
+
+**Expected behavior:** [What you expect to happen]
+```
+Supplied genesis block does not match stored chain data in </path/to/data/path/dir>
+Please specify a different data directory with --data-path or specify the original genesis file with --genesis-file.
+```
+**Actual behavior:** [What actually happens]
+```
+Supplied genesis block does not match stored chain data.
+Please specify a different data directory with --data-path or specify the original genesis file with --genesis-file.
+```
+**Frequency:** 
+every time the genesis block doesn't match
+
+### Additional Information
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-31 16:38:39 +0000 UTC
+        Created At 2021-09-14 03:03:47 +0000 UTC
     </div>
 </div>
 
