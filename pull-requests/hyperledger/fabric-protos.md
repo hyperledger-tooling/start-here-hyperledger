@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/66" class=".btn">#66</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/67" class=".btn">#67</a>
             </td>
             <td>
                 <b>
-                    Change EndpointError to ErrorDetail
+                    Update CI ubuntu to 20.04
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                This name gets surfaced in the SDKs,  not as an error itself, but as extra information within an error/exception.  The name, ending in Error, is misleading in Java and Node.  This commit changes it to more appropriate name.
-
-contributes to https://github.com/hyperledger/fabric/issues/2971
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+                Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-06 14:33:28 +0000 UTC
+        Created At 2021-11-04 18:03:46 +0000 UTC
     </div>
 </div>
 

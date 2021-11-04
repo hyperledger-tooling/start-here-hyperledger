@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/550" class=".btn">#550</a>
+            </td>
+            <td>
+                <b>
+                    Implement common subexpression elimination
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a draft PR for the common subexpression elimination. Some tests are still missing and there are temporary test files that will be removed when the PR is ready for review.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 14:20:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/547" class=".btn">#547</a>
             </td>
             <td>

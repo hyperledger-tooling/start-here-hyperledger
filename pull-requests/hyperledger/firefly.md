@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/314" class=".btn">#314</a>
+            </td>
+            <td>
+                <b>
+                    Use WriteByte instead of WriteRune when possible
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 17:42:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/313" class=".btn">#313</a>
             </td>
             <td>
@@ -187,32 +213,6 @@ I've published the docs in this PR to my own FireFly fork here, if you like read
     </table>
     <div class="right-align">
         Created At 2021-10-28 19:10:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/305" class=".btn">#305</a>
-            </td>
-            <td>
-                <b>
-                    Always pass key and message hash to fftokens connector
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Part of #218.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 18:08:10 +0000 UTC
     </div>
 </div>
 

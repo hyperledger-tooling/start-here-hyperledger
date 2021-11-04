@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-cli/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger/fabric-cli/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    update go.sum to fix go mod issue
+                    Update CI ubuntu to 20.04
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-cli
                 
             </td>
             <td>
-                Signed-off-by: Danny Zhou <danny.zhou@securekey.com>
+                Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-19 17:55:52 +0000 UTC
+        Created At 2021-11-04 18:01:08 +0000 UTC
     </div>
 </div>
 

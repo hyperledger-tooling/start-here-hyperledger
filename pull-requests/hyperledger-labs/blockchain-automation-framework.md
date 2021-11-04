@@ -202,29 +202,3 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1729" class=".btn">#1729</a>
-            </td>
-            <td>
-                <b>
-                    [shared] Merge main to develop
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                chore
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 15:44:43 +0000 UTC
-    </div>
-</div>
-

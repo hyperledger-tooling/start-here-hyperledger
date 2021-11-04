@@ -53,7 +53,28 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 <span class="chip">refactoring</span><span class="chip">breaking</span>
             </td>
             <td>
-                <nil>
+                Before, credential offer was sent in e.g. NodeJS as follows:
+```
+    const issuerCred = await IssuerCredential.create({
+      attr,
+      sourceId: 'alice_degree',
+      credDefHandle,
+      credentialName: 'cred',
+      price: '0',
+      issuerDid
+    })
+    await issuerCred.sendOffer(connection)
+```
+In order to simplify the API (and the internal code), this was changed to (again, using NodeJS only as an example):
+```
+    const issuerCred = await IssuerCredential.create('alice_degree')
+    logger.info(`Per issuer credential ${issuerCredId}, sending cred offer to connection ${connectionId}`)
+    await issuerCred.sendOffer(connection, {
+      attr,
+      credDefHandle
+    })
+
+```
             </td>
         </tr>
     </table>

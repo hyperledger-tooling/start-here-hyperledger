@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/250" class=".btn">#250</a>
+            </td>
+            <td>
+                <b>
+                    `family-command` stabilization updates - make handler module private
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `CommandTransactionHandler` is re-exported so the handler module can
+be made private.
+
+Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 17:25:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/249" class=".btn">#249</a>
             </td>
             <td>
@@ -308,32 +337,6 @@ Signed-off-by: Isabel Tomb <tomb@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-28 22:56:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/238" class=".btn">#238</a>
-            </td>
-            <td>
-                <b>
-                    Stabilize protocol-sabre by moving to stable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 15:53:34 +0000 UTC
     </div>
 </div>
 

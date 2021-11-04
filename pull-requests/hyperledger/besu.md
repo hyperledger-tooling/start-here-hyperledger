@@ -684,29 +684,3 @@ fixes #2964
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2972" class=".btn">#2972</a>
-            </td>
-            <td>
-                <b>
-                    Release 21.10.0-RC4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 17:56:31 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1578" class=".btn">#1578</a>
+            </td>
+            <td>
+                <b>
+                    [GHA] fix pretty version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                /build all
+
+Signed-off-by: kuvaldini <ivan@kuvaldini.pro>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 14:45:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1576" class=".btn">#1576</a>
             </td>
             <td>
