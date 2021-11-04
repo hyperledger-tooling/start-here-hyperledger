@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/249" class=".btn">#249</a>
+            </td>
+            <td>
+                <b>
+                    `workload-runner` stabilization updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes a bug where the break statements in the `WorkerBuilder` `build` function didn't properly shutdown the workload. This bug is fixed by switching from using an AtomicBool to a shutdown signaler. Previously an AtomicBool was used to indicate the running state of a workload and a loop was used to keep the workloads running until a sigint was received. With this setup, any break statements in the `WorkerBuilder` `build` function would exit the inner loop and cause the program to hang because the outer loop would not exit until the AtomicBool was changed by the ctrlc handler. Using the shutdown signaler and the `wait_for_shutdown` function allow for the workload to shutdown properly if any errors are encountered. As a result of this change the duration value is passed to the `add_workload` function and used in the `build` function of `WorkerBuilder` to calculate the end time and stop the workload when the end time is reached.
+
+Other stabilization related changes included in this PR:
+- Remove an `expect` in the worker thread
+- Replace `exit` with `break` in the worker thread
+- Add rustdoc comments for `get_batch_status` and `build`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 20:08:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/248" class=".btn">#248</a>
             </td>
             <td>
@@ -303,33 +334,6 @@ Signed-off-by: Isabel Tomb <tomb@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-28 15:53:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/237" class=".btn">#237</a>
-            </td>
-            <td>
-                <b>
-                    `workload-runner` stabilization changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - make `DEFAULT_LOG_TIME_SECS` const private
-- make `runner` module private
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 21:10:20 +0000 UTC
     </div>
 </div>
 

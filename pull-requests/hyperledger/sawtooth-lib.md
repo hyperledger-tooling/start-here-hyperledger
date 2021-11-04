@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/104" class=".btn">#104</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/107" class=".btn">#107</a>
             </td>
             <td>
                 <b>
-                    Update redis dependency to 0.21
+                    Remove "stores" and associated implementations
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                <nil>
+                This PR removes all of the "stores" feature.  This experimental feature was developed using an earlier pattern that has been superseded by the pattern seen in `sawtooth::receipt::store` (under the `"transaction-receipt-feature"`).  It removes all implementations of these stores.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-08 22:14:55 +0000 UTC
+        Created At 2021-11-02 13:55:18 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/103" class=".btn">#103</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/106" class=".btn">#106</a>
             </td>
             <td>
                 <b>
-                    Add readme field to Cargo.toml
+                    Remove "receipt-store" feature
                 </b>
             </td>
         </tr>
@@ -53,66 +53,13 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                This makes the crates.io page friendlier to look at.
+                This has been replaced with the stabilized "transaction-receipt-store" feature.
 
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-07 20:32:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/102" class=".btn">#102</a>
-            </td>
-            <td>
-                <b>
-                    Stabilize postgres and sqlite features
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Stabilize the postgres and sqlite features by moving them from experimental to stable.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-06 15:49:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/101" class=".btn">#101</a>
-            </td>
-            <td>
-                <b>
-                    Update migration log to be debug and include crate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-05 18:38:23 +0000 UTC
+        Created At 2021-11-01 20:24:46 +0000 UTC
     </div>
 </div>
 

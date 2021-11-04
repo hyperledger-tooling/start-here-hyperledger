@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/107" class=".btn">#107</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/111" class=".btn">#111</a>
             </td>
             <td>
                 <b>
-                    feat:added create invitation handler unit test
+                    Feat/added receiveinvitationhandler.test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                feat: Added ReceiveInvitationHandler unit test
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-01 20:13:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/110" class=".btn">#110</a>
+            </td>
+            <td>
+                <b>
+                    feat:added presentation exchange flow integration test
                 </b>
             </td>
         </tr>
@@ -32,7 +58,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-26 21:18:16 +0000 UTC
+        Created At 2021-10-29 20:44:26 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +66,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/106" class=".btn">#106</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/109" class=".btn">#109</a>
             </td>
             <td>
                 <b>
-                    feat: update tunnels in demo to use simplified service
+                    doc: Add information about starting ACA-Py with config
                 </b>
             </td>
         </tr>
@@ -53,12 +79,48 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                The upstream `agent-tunnel` service has been updated to make things simpler and more reliable. We now pull from the wait script available in that repo and just wrap with setting the ACA-Py environment variable. This should help us to consume improvements from upstream in the future more easily.
+                A really useful function is the ability to use config files to setup
+many pre-defined options. I have added a recommendation to use the demo
+configuration files as a basis for launching ACA-Py more easily.
+
+Signed-off-by: Colton Wolkins (Indicio work address) <colton@indicio.tech>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-25 14:49:30 +0000 UTC
+        Created At 2021-10-29 20:08:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/108" class=".btn">#108</a>
+            </td>
+            <td>
+                <b>
+                    chore: Update readme with tip to install the Indy SDK
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When following the instructions to setup the the Aries Cloud Agent -
+Python, there is a section informing the user that they may run a pip
+install of ACA-PY with indy support. These instructions do not indicate
+whether or not the indy-SDK is needed, nor does it inform the user how
+they should install it. I have added that critical documentation.
+
+Signed-off-by: Colton Wolkins (Indicio work address) <colton@indicio.tech>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 19:59:35 +0000 UTC
     </div>
 </div>
 

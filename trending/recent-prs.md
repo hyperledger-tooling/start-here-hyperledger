@@ -1,13 +1,13 @@
 
-[1475](https://github.com/hyperledger/aries-cloudagent-python/pull/1475) Update credential and proof mappings to allow negative encoded values
+[2407](https://github.com/hyperledger/sawtooth-core/pull/2407) Add batch submit subcommand to sawadm CLI
 
-[1739](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1739) [quorum] Fixed raft errors
+[1017](https://github.com/hyperledger/grid/pull/1017) Validate payloads in `apply` method
 
-[1014](https://github.com/hyperledger/grid/pull/1014) Stabilization changes for error response
+[528](https://github.com/hyperledger/fabric-samples/pull/528) Add an option to stage docker images locally to KIND
 
-[252](https://github.com/hyperledger-labs/go-perun/pull/252) :bug: [client] Start watching for sub-channel
+[1016](https://github.com/hyperledger/grid/pull/1016) Update `add` method in state to consider updates
 
-[1576](https://github.com/hyperledger/iroha/pull/1576) Add endpoint for internal metrics for administration
+[1015](https://github.com/hyperledger/grid/pull/1015) Validate self workflow state in `can_transition`
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

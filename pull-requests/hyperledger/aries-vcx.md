@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/373" class=".btn">#373</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/377" class=".btn">#377</a>
             </td>
             <td>
                 <b>
-                    Add missing sections to changelog generator
+                    Add code of conduct
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">ci</span>
+                <span class="chip">documentation</span>
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-27 20:04:34 +0000 UTC
+        Created At 2021-11-03 10:08:09 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,37 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/372" class=".btn">#372</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/376" class=".btn">#376</a>
             </td>
             <td>
                 <b>
-                    WIP: Store thread id on state machine level
+                    Simplify issuer offer sending API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span><span class="chip">breaking</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-02 15:36:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/375" class=".btn">#375</a>
+            </td>
+            <td>
+                <b>
+                    Store thread id on state machine level for connection
                 </b>
             </td>
         </tr>
@@ -58,7 +84,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-27 16:49:47 +0000 UTC
+        Created At 2021-10-29 21:10:45 +0000 UTC
     </div>
 </div>
 
@@ -66,104 +92,25 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/371" class=".btn">#371</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/374" class=".btn">#374</a>
             </td>
             <td>
                 <b>
-                    Release 0.23.0
+                    Misc. SM refactors + remove all warnings
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">refactoring</span>
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                Add new initial state for issuer (to allow downloading proposal via `update_state`), use destructuring in connection SMs, rename inviter's / invitee's`NullState` to `InitialState`, fix all compiler warnings for all features and tests, store thread id on SM level in connection SMs as well.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-27 12:52:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/370" class=".btn">#370</a>
-            </td>
-            <td>
-                <b>
-                    wip: Agency client/async api
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span><span class="chip">update</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 15:10:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/369" class=".btn">#369</a>
-            </td>
-            <td>
-                <b>
-                    Fix codecov badge to refer to 'main' branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">hotfix</span>
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 09:32:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/368" class=".btn">#368</a>
-            </td>
-            <td>
-                <b>
-                    Downgrade/reqwest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">update</span>
-            </td>
-            <td>
-                - reqwest `0.11.5` blocking API was working fine on linux, but threw panics on osx, hence downgrade to `0.10.10` as temporary solution (proper solution is to upgrade back to `0.11.5` and use async API)
-- added test `test_provision_cloud_agent` which fails on osx with `reqwest 0.11.5` but works with `reqwest 0.10.10`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 09:19:45 +0000 UTC
+        Created At 2021-10-29 14:26:49 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    Fix release action
+                    Clean up README
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                This will prevent duplicate build tasks when creating pre-release versions, as well as `latest` getting set to a pre-release version.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-21 20:53:28 +0000 UTC
+        Created At 2021-10-28 20:20:37 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/40" class=".btn">#40</a>
             </td>
             <td>
                 <b>
-                    Expose "standard" attribute for token pools (always set to "ERC1155")
+                    Make "operator" mandatory, remove "data" from pool creation
                 </b>
             </td>
         </tr>
@@ -53,39 +53,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                Counterpart to https://github.com/hyperledger/firefly/pull/276
+                Will need to merge after https://github.com/hyperledger/firefly/pull/305 (ie once FireFly begins passing operator on every call).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-20 18:39:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/35" class=".btn">#35</a>
-            </td>
-            <td>
-                <b>
-                    Do not use tokenIndex for fungible pools
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is irrelevant (always 0), so do not require it to be passed or
-pass it back in events.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-18 20:27:57 +0000 UTC
+        Created At 2021-10-28 19:01:30 +0000 UTC
     </div>
 </div>
 
