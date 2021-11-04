@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/287" class=".btn">#287</a>
+            </td>
+            <td>
+                <b>
+                    Make fine-grained Go API usable without explicit context handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Use default contexts throughout the Go API, except for chaincode events, which requires an explicit context for cancellation. This avoids requiring the burden of context management for the client application. Added ...WithContext() alternatives to finer-grained calls to allow a context to be specified if desired.
+
+Also fixes a build break in Node linting when we picked up new type definitions for a dependency.
+
+Closes #198 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 10:42:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/286" class=".btn">#286</a>
+            </td>
+            <td>
+                <b>
+                    Update CI to publish on tagged releases
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 10:29:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/285" class=".btn">#285</a>
             </td>
             <td>
@@ -241,34 +297,6 @@ Resolves #252
     </table>
     <div class="right-align">
         Created At 2021-10-29 09:54:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/270" class=".btn">#270</a>
-            </td>
-            <td>
-                <b>
-                    Allow setting default call options for Node client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also update samples to demonstrate default timeouts.
-
-Contributes to #198 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 10:58:34 +0000 UTC
     </div>
 </div>
 

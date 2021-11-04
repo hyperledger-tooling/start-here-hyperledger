@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/239" class=".btn">#239</a>
+            </td>
+            <td>
+                <b>
+                    Allow zap.Options in logger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allowing zap.Options in the logger will allow us to insert zap.Hooks.
+This will allow us to catch log messages during unit testing, and test
+events that are difficult to observer otherwise.
+
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 09:16:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/237" class=".btn">#237</a>
             </td>
             <td>
@@ -74,7 +104,7 @@ Signed-off-by: senthil <cendhu@gmail.com>
             </td>
             <td>
                 <b>
-                    WIP Create docker workflow
+                    Create docker workflow
                 </b>
             </td>
         </tr>
@@ -144,32 +174,6 @@ Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-10-31 18:01:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/225" class=".btn">#225</a>
-            </td>
-            <td>
-                <b>
-                    docs based on Facebook's docusaurus
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 10:38:59 +0000 UTC
     </div>
 </div>
 

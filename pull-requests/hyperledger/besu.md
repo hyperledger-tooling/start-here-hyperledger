@@ -710,29 +710,3 @@ fixes #2964
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2971" class=".btn">#2971</a>
-            </td>
-            <td>
-                <b>
-                    Refactor privacy controller
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Cleanup of PrivacyController class.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 07:33:23 +0000 UTC
-    </div>
-</div>
-
