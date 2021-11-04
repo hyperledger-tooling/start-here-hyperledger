@@ -216,29 +216,3 @@ I've published the docs in this PR to my own FireFly fork here, if you like read
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/304" class=".btn">#304</a>
-            </td>
-            <td>
-                <b>
-                    Allow did:firefly:org/xyz prefix on group input
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Seems odd that currently we don't resolve this down to an org, as it feels like the primary syntax.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 04:23:13 +0000 UTC
-    </div>
-</div>
-

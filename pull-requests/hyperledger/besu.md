@@ -14,6 +14,172 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2996" class=".btn">#2996</a>
+            </td>
+            <td>
+                <b>
+                    Improved QBFT logs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span>
+            </td>
+            <td>
+                ## PR description
+- Added some extra information on QBFT logs to help analysis
+
+## Fixed Issue(s)
+N/A
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 04:31:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2995" class=".btn">#2995</a>
+            </td>
+            <td>
+                <b>
+                    Qbft migration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Spike of IBFT2 to QBFT migration. This is still a work in progress and is not intended to be merged as is.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 02:57:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2994" class=".btn">#2994</a>
+            </td>
+            <td>
+                <b>
+                    Added validate-config subcommand
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2759 
+
+I had to expose BesuCommand.commandLine to make this work. If we don't like that it would need a refactor. 
+
+I have tested this locally
+
+```
+➜  besu git:(2837) ✗ besu validate-config --config-file ../besu-local-nodes/config/besu/besu1.conf
+This toml config file is valid.%
+➜  besu git:(2837) ✗ besu validate-config --config-file ../besu-local-nodes/config/besu/besu1.conf
+picocli.CommandLine$ParameterException: Unknown option in TOML configuration file: xdata-path%
+```
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 02:26:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/2993" class=".btn">#2993</a>
+            </td>
+            <td>
+                <b>
+                    Log unused JSON params
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2705. 
+
+I have tested this locally. eg
+
+```
+{
+    "jsonrpc": "2.0",
+    "method": "eth_estimateGas",
+    "params": [
+        {
+            "from": "0xFE3B557E8Fb62b89F4916B721be55cEb828dBd73",
+            "to": "0xdd37f65db31c107f773e82a4f85c693058fef7a9",
+            "nonce": 99,
+            "value": "0x1"
+        },
+        "latest"
+    ],
+    "id": 1
+}
+```
+gives me the expected result, with also this logged:
+```
+2021-11-04 11:35:17.486+10:00 | vert.x-worker-thread-14 | DEBUG | JsonCallParameter | unknown property - nonce with value - 99 and type - class java.lang.Integer caught during serialization
+```
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 01:38:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2992" class=".btn">#2992</a>
             </td>
             <td>
@@ -567,85 +733,6 @@ fixes #2964
     </table>
     <div class="right-align">
         Created At 2021-10-28 07:33:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2970" class=".btn">#2970</a>
-            </td>
-            <td>
-                <b>
-                    [2883] log nicer warnings when runtime isn't configured for ipv6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-See attached issue for more detailed description from the user's perspective. This exception is caused by the runtime not supporting ipv6 outbound traffic (docker by default doesn't), and the full stacktrace is not helpful and spammy. This PR makes the log TRACE level so users will need to specifically toggle to see the full trace.
-
-Step 2 is to update our troubleshooting doc in besu-docs to include ipv6 related query.
-
-Step 3 is to potentially update our quick start guide to include instructions on how to turn on ipv6 in docker
-
-Step 4 (maybe) is to rewrite how PeerDiscoveryAgent is used, and maybe verify ipv6 connectivity and filter our ipv6 peers.
-
-Step 2,3,4 and this PR are not dependent on each other.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-https://github.com/hyperledger/besu/issues/2883
-
-## Changelog
-Catching `UnsupportedAddressTypeException` which are caused by runtime not having ipv6 support and display a nice error message rather than half a page long of unhelpful stacktrace
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 05:52:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2969" class=".btn">#2969</a>
-            </td>
-            <td>
-                <b>
-                    Private transaction nonce management improvement: PMT pool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added a "PMT Pool" to keep track of pending private transactions, so these can be factored into private nonce management.
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 05:23:58 +0000 UTC
     </div>
 </div>
 
