@@ -1,13 +1,13 @@
 
-[2407](https://github.com/hyperledger/sawtooth-core/pull/2407) Add batch submit subcommand to sawadm CLI
+[2996](https://github.com/hyperledger/besu/pull/2996) Improved QBFT logs
 
-[1017](https://github.com/hyperledger/grid/pull/1017) Validate payloads in `apply` method
+[2995](https://github.com/hyperledger/besu/pull/2995) Qbft migration
 
-[528](https://github.com/hyperledger/fabric-samples/pull/528) Add an option to stage docker images locally to KIND
+[2440](https://github.com/hyperledger/indy-sdk/pull/2440) fix(objective c wrapper) NSError should be nil when there is no error
 
-[1016](https://github.com/hyperledger/grid/pull/1016) Update `add` method in state to consider updates
+[2994](https://github.com/hyperledger/besu/pull/2994) Added validate-config subcommand
 
-[1015](https://github.com/hyperledger/grid/pull/1015) Validate self workflow state in `can_transition`
+[2993](https://github.com/hyperledger/besu/pull/2993) Log unused JSON params
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
