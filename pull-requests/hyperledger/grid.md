@@ -14,6 +14,107 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1017" class=".btn">#1017</a>
+            </td>
+            <td>
+                <b>
+                    Validate payloads in `apply` method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change passes a reference to the payload, once it is converted to
+the PurchaseOrderPayload, to the `validate_po_payload` function. This
+function will validate the timestamp within the payload and the
+associated action's payload.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 21:32:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1016" class=".btn">#1016</a>
+            </td>
+            <td>
+                <b>
+                    Update `add` method in state to consider updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the `set_purchase_order_version` method in the
+purchase order state module to consider if a purchase order version is
+being updated. This means, when the po is fetched from state, the method
+will now check to see if a version with the same ID exists in the list
+and then it is removed and re-inserted with the updated version.
+Otherwise, a new version is simply added to the end of the purchase
+order's `versions` list.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 20:18:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1015" class=".btn">#1015</a>
+            </td>
+            <td>
+                <b>
+                    Validate self workflow state in `can_transition`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the workflow state module's `can_transition` method,
+which validates whether an agent has the correct permissions to
+transition to a new workflow state, to check the workflow state's name.
+This covers a case in which an agent is not attempting to transition a
+workflow, but rather update an object. Previously, the `can_transition`
+method would return false if it did not have it's own name within it's
+transitions. Rather than add all of the workflow states as transitions
+to their own state, this will check if we are staying in the same
+workflow state and return `true`, as we are not transitioning.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 20:16:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1014" class=".btn">#1014</a>
             </td>
             <td>
@@ -179,35 +280,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-28 17:24:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1002" class=".btn">#1002</a>
-            </td>
-            <td>
-                <b>
-                    Update the image used by node in Dockerfiles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change updates the image used by node within the UI Dockerfiles,
-from `lts-alpine` to `14.18.1-alpine3.11`.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 21:56:26 +0000 UTC
     </div>
 </div>
 

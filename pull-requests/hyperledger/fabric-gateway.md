@@ -14,6 +14,240 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/285" class=".btn">#285</a>
+            </td>
+            <td>
+                <b>
+                    Reinstate nightly publishing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Old node module has been deprecated so can remove that step from ci and
+switch back to nightly publishing
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+Contributes to #209 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 18:06:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/284" class=".btn">#284</a>
+            </td>
+            <td>
+                <b>
+                    Deprecate old node module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previous deprecation failed with `422 Unprocessable Entity` which should be
+fixed in npm v7
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+Contributes to #209 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 17:14:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/283" class=".btn">#283</a>
+            </td>
+            <td>
+                <b>
+                    Rename node module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rename fabric-gateway module to scoped @hyperledger/fabric-gateway
+
+Also deprecates existing published fabric-gateway module
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+Contributes to #209 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 16:08:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/281" class=".btn">#281</a>
+            </td>
+            <td>
+                <b>
+                    Default gRPC call timeouts for Go API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Updated samples to demonstrate setting default timeouts.
+- Removed async submit example for HSM samples since this duplicates main samples and keeping them simple makes it easier to see the HSM-specific aspects.
+
+Contributes to #198 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-03 15:52:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/277" class=".btn">#277</a>
+            </td>
+            <td>
+                <b>
+                    Fix scenario tests for latest fabric updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Changes in fabric gateway relating to evaluate retry logic and error message text have broken some of the error scenario tests.  This commit fixes them.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-02 14:43:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/275" class=".btn">#275</a>
+            </td>
+            <td>
+                <b>
+                    Timeouts for Go API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Removed chaincode events default call options from samples since it makes little sense to set an arbitrary timeout on a streaming call.
+
+Contributes to #198 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-02 12:22:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/273" class=".btn">#273</a>
+            </td>
+            <td>
+                <b>
+                    Node API documentation improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Examples of default call timeouts.
+- Simplify Node gRPC client constructor examples.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 13:01:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/272" class=".btn">#272</a>
+            </td>
+            <td>
+                <b>
+                    Dynamic load of optional pkcs11js dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prevents this dependency being loaded unless an HSM signer is actually created, avoiding runtime issues on systems that do not have the optional pkcs11js dependency available.
+
+Resolves #252 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-29 09:54:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/270" class=".btn">#270</a>
             </td>
             <td>
@@ -35,112 +269,6 @@ Contributes to #198
     </table>
     <div class="right-align">
         Created At 2021-10-28 10:58:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/268" class=".btn">#268</a>
-            </td>
-            <td>
-                <b>
-                    Correct dependency version for Java protobufs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Keep in step with transient dependencies of gRPC packages to avoid runtime version resolution issues.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 15:12:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/266" class=".btn">#266</a>
-            </td>
-            <td>
-                <b>
-                    Allow per-call gRPC call options in Node client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Contributes to #198 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-27 14:11:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/264" class=".btn">#264</a>
-            </td>
-            <td>
-                <b>
-                    Fixup scenario tests for endorser retry
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The endorser retry logic has been merged into fabric main branch.  Once the peer docker image has been uploaded, a few fabric-gateway scenario tests will fail (the error details will contain more items where more endorsements have been attempted).  This PR fixes those failures.  It doesn't add any more tests at this stage.
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-26 14:26:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/263" class=".btn">#263</a>
-            </td>
-            <td>
-                <b>
-                    Set default timeouts in Java samples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Contributes to #198 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-22 14:54:27 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-controllers
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/39" class=".btn">#39</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    Upgrade to Angular 12 to resolve audit flags
+                    Fixes docker build error with Alice controller
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-acapy-controllers
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Akiff Manji <akiff.manji@gmail.com>
+
+Resolves #40 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-09 23:11:41 +0000 UTC
+        Created At 2021-11-02 20:06:24 +0000 UTC
     </div>
 </div>
 

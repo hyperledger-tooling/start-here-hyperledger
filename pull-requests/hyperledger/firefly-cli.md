@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/113" class=".btn">#113</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/118" class=".btn">#118</a>
             </td>
             <td>
                 <b>
-                    Update goreleaser binary name. Remove Windows binary.
+                    Firefly besu clique
                 </b>
             </td>
         </tr>
@@ -27,12 +27,64 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                The main thing here is to rename the binary to `ff` so it's consistent whether you manually download and use a compiled binary, or if you `go install` it
+                "Signed-off-by: sukrut29 <sukrut.sathaye@sttech.de>"
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-21 19:34:11 +0000 UTC
+        Created At 2021-11-03 09:55:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/117" class=".btn">#117</a>
+            </td>
+            <td>
+                <b>
+                    Firefly on besu ibft2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sukrut29 <sukrut.sathaye@sttech.de> 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-02 16:03:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/116" class=".btn">#116</a>
+            </td>
+            <td>
+                <b>
+                    Update readme with new installation instructions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                New installation instructions do not require the installation of Go on developers' computers. Instead, we now recommend that users just download a pre-built binary from our Releases page. Extra details about how to approve running the binary on macOS are provided.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 19:11:21 +0000 UTC
     </div>
 </div>
 

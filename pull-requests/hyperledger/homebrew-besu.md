@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/59" class=".btn">#59</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/61" class=".btn">#61</a>
             </td>
             <td>
                 <b>
-                    update to 21.10.0-RC3
+                    21.10.0 quarterly release
                 </b>
             </td>
         </tr>
@@ -27,14 +27,38 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                bump homebrew to 21.10.0-RC3 since we published 21.10.0-RC2 last release
-
-Signed-off-by: garyschulte <garyschulte@gmail.com>
+                21.10.0 quarterly release
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-15 18:35:20 +0000 UTC
+        Created At 2021-11-01 23:31:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/60" class=".btn">#60</a>
+            </td>
+            <td>
+                <b>
+                    update homebrew to 21.10.0-RC4 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                releasing 21.10.0-RC4 since we currently have RC3 published
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-28 22:11:52 +0000 UTC
     </div>
 </div>
 
