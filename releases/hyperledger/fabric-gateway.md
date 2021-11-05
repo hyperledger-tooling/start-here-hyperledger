@@ -15,26 +15,26 @@ permalink: /releases/hyperledger/fabric-gateway
         <tr>
             <td colspan="2">
                 <b>
-                    v0.1.0-preview.1
+                    v0.1.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.0-preview.1
+                    v0.1.0
                 </span>
             </td>
             <td>
-                Pre-release version of the Fabric Gateway client API. This release should be feature complete but is **not** recommended for production use. Feedback or suggestions are encouraged and very welcome.
+                This is a preview release and is **not** recommended for production use. However, the API should be stable and it should be feature complete for an initial production release so you are encouraged to give it a try. Feedback, suggestions and bug reports are welcome!
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-gateway/releases/tag/v0.1.0-preview.1" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-gateway/releases/tag/v0.1.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-11-04 19:09:21 +0000 UTC
+        Created At 2021-11-05 10:00:20 +0000 UTC
     </span>
 </div>
 
