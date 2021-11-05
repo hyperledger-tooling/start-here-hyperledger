@@ -22,7 +22,7 @@ permalink: /releases/hyperledger/fabric-gateway
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.0
+                    v0.1.0-preview.1
                 </span>
             </td>
             <td>
@@ -30,7 +30,7 @@ permalink: /releases/hyperledger/fabric-gateway
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-gateway/releases/tag/v0.1.0" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-gateway/releases/tag/v0.1.0-preview.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
