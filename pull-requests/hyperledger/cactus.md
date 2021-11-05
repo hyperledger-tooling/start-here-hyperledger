@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1514" class=".btn">#1514</a>
+            </td>
+            <td>
+                <b>
+                    fix: openapi validation for keychain-aws-sm plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Includes tests for endpoints setKeychainEntry, getKeychainEntryV1,
+hasKeychainEntryV1 and deleteKeychainEntryV1, each of them with
+test cases:
+  - Right request
+  - Request including an invalid parameter
+  - Request without a required parameter
+
+Relationed with #847
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 09:12:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1513" class=".btn">#1513</a>
+            </td>
+            <td>
+                <b>
+                    feat(example): make cartrade support more environments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR resolves Issue #1512 .
+Some environments (ex. not centos) have problems with fabcar operation, so I want to make cartrade applications available in more environments. To do this, I first introduce minifabric:<https://github.com/hyperledger-labs/minifabric>.
+
+Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 07:09:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1511" class=".btn">#1511</a>
             </td>
             <td>

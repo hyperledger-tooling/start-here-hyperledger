@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/348" class=".btn">#348</a>
+            </td>
+            <td>
+                <b>
+                    identity(ui): add identity-ui for vault
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                close #313 
+
+Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 11:38:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/347" class=".btn">#347</a>
             </td>
             <td>

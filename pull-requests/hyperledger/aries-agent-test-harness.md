@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/381" class=".btn">#381</a>
+            </td>
+            <td>
+                <b>
+                    Updated README for VCX being replaced by AriesVCX.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated README for VCX being replaced by AriesVCX.
+
+Signed-off-by: kukgini <kukgini@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 07:56:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/380" class=".btn">#380</a>
             </td>
             <td>

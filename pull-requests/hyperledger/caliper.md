@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/caliper
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1170" class=".btn">#1170</a>
-            </td>
-            <td>
-                <b>
-                    Added open in Visual Studio Code badge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a badge to open repository in Visual Studio Code
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 11:52:57 +0000 UTC
-    </div>
-</div>
-

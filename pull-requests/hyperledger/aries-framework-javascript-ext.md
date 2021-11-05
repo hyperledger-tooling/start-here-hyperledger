@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/68" class=".btn">#68</a>
+            </td>
+            <td>
+                <b>
+                    chore: release @aries-framework/rest 0.4.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">autorelease: pending</span>
+            </td>
+            <td>
+                :robot: I have created a release \*beep\* \*boop\*
+---
+## [0.4.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.3.0...rest-v0.4.0) (2021-11-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **rest:** changed oob proof parameter from c_i to d_m (#67)
+
+### Code Refactoring
+
+* **rest:** changed oob proof parameter from c_i to d_m ([#67](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/67)) ([5f9b1ae](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/5f9b1aeabcd81b5d3a084f69b280ceff84298b7e))
+---
+
+
+This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 09:21:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/67" class=".btn">#67</a>
+            </td>
+            <td>
+                <b>
+                    refactor(rest)!: changed oob proof parameter from c_i to d_m
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #64 
+
+Signed-off-by: janrtvld <jan@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 09:03:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/66" class=".btn">#66</a>
             </td>
             <td>
@@ -24,7 +93,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
         </tr>
         <tr>
             <td>
-                <span class="chip">autorelease: pending</span>
+                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
             </td>
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
@@ -325,34 +394,6 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     </table>
     <div class="right-align">
         Created At 2021-10-29 19:50:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/59" class=".btn">#59</a>
-            </td>
-            <td>
-                <b>
-                    refactor(rest)!: moved connectionId from path to requestbody
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #57 
-
-Signed-off-by: janrtvld <jan@animo.id[C>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 09:08:29 +0000 UTC
     </div>
 </div>
 

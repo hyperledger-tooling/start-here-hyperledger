@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/65" class=".btn">#65</a>
+            </td>
+            <td>
+                <b>
+                    ISS documentation comments, slight ISS refactoring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: matejpavlovic <matopavlovic@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 11:59:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/mirbft/pull/64" class=".btn">#64</a>
             </td>
             <td>
@@ -36,32 +62,6 @@ Signed-off-by: matejpavlovic <matopavlovic@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-10-29 17:49:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/63" class=".btn">#63</a>
-            </td>
-            <td>
-                <b>
-                    Start implementing ISS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 11:16:10 +0000 UTC
     </div>
 </div>
 

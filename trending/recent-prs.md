@@ -1,13 +1,13 @@
 
-[854](https://github.com/hyperledger/besu-docs/pull/854) Use better instruction for cors settings with MetaMask
+[65](https://github.com/hyperledger-labs/mirbft/pull/65) ISS documentation comments, slight ISS refactoring
 
-[347](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/347) build(deps): bump tar from 6.1.0 to 6.1.11 in /open-offsets-directory/react
+[297](https://github.com/hyperledger/fabric-gateway/pull/297) Fix CI version check
 
-[346](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/346) build(deps): bump tmpl from 1.0.4 to 1.0.5 in /open-offsets-directory/react
+[348](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/348) identity(ui): add identity-ui for vault
 
-[345](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/345) build(deps): bump axios from 0.21.1 to 0.21.2 in /open-offsets-directory/react
+[296](https://github.com/hyperledger/fabric-gateway/pull/296) Remove support for Node 12
 
-[552](https://github.com/hyperledger-labs/solang/pull/552) Small fixes
+[1740](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1740) [corda-ent] created ansible roles for the CENM Auth service
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
