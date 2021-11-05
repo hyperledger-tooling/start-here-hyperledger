@@ -90,29 +90,3 @@ Maybe add tests for watching sub-channels. We only test watching ledger channels
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/248" class=".btn">#248</a>
-            </td>
-            <td>
-                <b>
-                    Merge the refactored watcher
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 11:00:44 +0000 UTC
-    </div>
-</div>
-

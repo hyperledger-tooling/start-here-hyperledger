@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/297" class=".btn">#297</a>
+            </td>
+            <td>
+                <b>
+                    Fix CI version check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 11:43:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/296" class=".btn">#296</a>
+            </td>
+            <td>
+                <b>
+                    Remove support for Node 12
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Move to Node 14 as the minimum supported Node version.
+
+Closes #288 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 11:29:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/295" class=".btn">#295</a>
+            </td>
+            <td>
+                <b>
+                    Add tags trigger to CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 09:36:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/291" class=".btn">#291</a>
             </td>
             <td>
@@ -321,34 +401,6 @@ Contributes to #198
     </table>
     <div class="right-align">
         Created At 2021-10-29 13:01:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/272" class=".btn">#272</a>
-            </td>
-            <td>
-                <b>
-                    Dynamic load of optional pkcs11js dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prevents this dependency being loaded unless an HSM signer is actually created, avoiding runtime issues on systems that do not have the optional pkcs11js dependency available.
-
-Resolves #252 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 09:54:25 +0000 UTC
     </div>
 </div>
 

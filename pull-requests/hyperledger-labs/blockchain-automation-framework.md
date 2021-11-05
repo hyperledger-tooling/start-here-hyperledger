@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1740" class=".btn">#1740</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] created ansible roles for the CENM Auth service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Added an ansible role for the Auth service and an Auth tpl file for its automation
+- Updated the Ansible setup/cenm role to include a task for the deployment of the Auth service
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @sownak 
+
+ 
+
+**Linked issue**
+#1726 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 11:10:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1739" class=".btn">#1739</a>
             </td>
             <td>
