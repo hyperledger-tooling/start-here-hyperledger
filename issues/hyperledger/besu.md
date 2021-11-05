@@ -14,6 +14,49 @@ permalink: /issues/hyperledger/besu
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/besu/issues/2759" class=".btn">2759</a>
+            </td>
+            <td>
+                <b>
+                    Ability to validate besu config file / command line
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">TeamRevenant</span>
+            </td>
+            <td>
+                ### Description
+As a developer, I want to be able to validate my besu config file (or command line) so that I can make sure it is valid without starting besu. 
+
+I think it makes sense to do this as a besu subcommand.
+
+### Acceptance Criteria
+* `besu validate-config --config-file=besu.conf`
+* `besu validate-config --unknown-option`
+Above commands would print out any pico CLI exceptions, but not start besu
+
+**Expected behavior:** [What you expect to happen]
+I would like to see any errors, or a "success" message, without needing to start besu
+
+**Actual behavior:** [What actually happens]
+Currently I need to start besu with the given config file / command line and if it's valid (besu starts) I kill besu. 
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-14 04:22:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/besu/issues/2757" class=".btn">2757</a>
             </td>
             <td>

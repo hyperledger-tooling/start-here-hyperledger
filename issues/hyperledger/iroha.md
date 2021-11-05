@@ -14,6 +14,35 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/1511" class=".btn">1511</a>
+            </td>
+            <td>
+                <b>
+                    Define maximum read buffer size for blocks deserialization in Kura
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                In kura.rs:read_block we currently allocate buffer for data before VersionCommittedBlock deserialization. Buffer size is read from the file and, in case it's malformed, might be huge and we'll panic. 
+As a temporary solution, there's a local constant BUFFER_SIZE_LIMIT = 500Kb, which limits maximum sane buffer size. Otherwise we'll throw.
+
+This solution is too rigid. We should think of a more controllable/configurable way of setting this limit.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-08 11:36:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/1315" class=".btn">1315</a>
             </td>
             <td>
