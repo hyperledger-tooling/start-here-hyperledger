@@ -1,13 +1,13 @@
 
-[65](https://github.com/hyperledger-labs/mirbft/pull/65) ISS documentation comments, slight ISS refactoring
+[351](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/351) eth-identity: add ethereum integration with vault
 
-[297](https://github.com/hyperledger/fabric-gateway/pull/297) Fix CI version check
+[68](https://github.com/hyperledger/fabric-protos/pull/68) Additional information for Gateway routing
 
-[348](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/348) identity(ui): add identity-ui for vault
+[350](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/350) build(deps): bump keypair from 1.0.2 to 1.0.4 in /net-emissions-token-network/interface
 
-[296](https://github.com/hyperledger/fabric-gateway/pull/296) Remove support for Node 12
+[349](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/349) build(deps): bump url-parse from 1.5.1 to 1.5.3 in /open-offsets-directory/react
 
-[1740](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1740) [corda-ent] created ansible roles for the CENM Auth service
+[1580](https://github.com/hyperledger/iroha/pull/1580) upgrade dependabot
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

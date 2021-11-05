@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/339" class=".btn">#339</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/342" class=".btn">#342</a>
             </td>
             <td>
                 <b>
-                    Added ports number mapping feature when the agent created nodes.
+                    set source of pip
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                To make Fabric node services' ports available to other services outside of Docker.
+                set source of pip in docker-agent
+*You can modify the pip source by yourself, and then update the pip source with PIP parameters
 
-Signed-off-by: Yuanmao Zhu <zhu.yuanmao18@gmail.com>
+Signed-off-by: XuHugo <xq-310@163.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-17 23:44:54 +0000 UTC
+        Created At 2021-11-05 15:48:29 +0000 UTC
     </div>
 </div>
 

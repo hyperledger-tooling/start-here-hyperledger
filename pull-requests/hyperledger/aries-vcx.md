@@ -135,29 +135,3 @@ In order to simplify the API (and the internal code), this was changed to (again
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/374" class=".btn">#374</a>
-            </td>
-            <td>
-                <b>
-                    Misc. SM refactors + remove all warnings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Add new initial state for issuer (to allow downloading proposal via `update_state`), use destructuring in connection SMs, rename inviter's / invitee's`NullState` to `InitialState`, fix all compiler warnings for all features and tests, store thread id on SM level in connection SMs as well.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 14:26:49 +0000 UTC
-    </div>
-</div>
-

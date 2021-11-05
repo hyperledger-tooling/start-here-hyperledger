@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/299" class=".btn">#299</a>
+            </td>
+            <td>
+                <b>
+                    Bump version to 0.1.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 15:42:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/298" class=".btn">#298</a>
+            </td>
+            <td>
+                <b>
+                    Use ECMAScript private methods instead of TypeScript private modifiers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We already use ECMAScript private fields for properties so this just extends it for methods too. This provides hard privacy and prevents plain JavaScript applications from accidentally using internal methods that may change and break them in the future.
+
+Closes #254 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 14:40:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/297" class=".btn">#297</a>
             </td>
             <td>
@@ -94,37 +148,11 @@ Closes #288
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/291" class=".btn">#291</a>
-            </td>
-            <td>
-                <b>
-                    Publish Java build artifact
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 16:07:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/290" class=".btn">#290</a>
             </td>
             <td>
                 <b>
-                    [WIP] Update Java and Node versions in CI
+                    Update Java and Node versions used in CI
                 </b>
             </td>
         </tr>
@@ -374,33 +402,6 @@ Contributes to #198
     </table>
     <div class="right-align">
         Created At 2021-11-02 12:22:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/273" class=".btn">#273</a>
-            </td>
-            <td>
-                <b>
-                    Node API documentation improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Examples of default call timeouts.
-- Simplify Node gRPC client constructor examples.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 13:01:24 +0000 UTC
     </div>
 </div>
 

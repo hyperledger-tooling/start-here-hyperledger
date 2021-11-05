@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/66" class=".btn">#66</a>
+            </td>
+            <td>
+                <b>
+                    Remove most of the legacy code and doc.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matej Pavlovic <matopavlovic@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 15:54:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/mirbft/pull/65" class=".btn">#65</a>
             </td>
             <td>
@@ -33,35 +59,6 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     </table>
     <div class="right-align">
         Created At 2021-11-05 11:59:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/64" class=".btn">#64</a>
-            </td>
-            <td>
-                <b>
-                    Implement preliminary simplified epoch transition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also add the check if all requests were delivered in the tests
-and disable WAL loading for ISS for now.
-
-Signed-off-by: matejpavlovic <matopavlovic@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 17:49:43 +0000 UTC
     </div>
 </div>
 

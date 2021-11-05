@@ -254,34 +254,3 @@ This PR also updates a test to change the name of the workflow state used. This 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1006" class=".btn">#1006</a>
-            </td>
-            <td>
-                <b>
-                    Update schema loading for Order.xsd
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change updates the loading of the schema to be done in the
-directory where schemas are specified. This directory is able to be set
-with the `GRID_ORDER_SCHEMA_DIR` environment variable, or it is set by
-default.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 15:20:20 +0000 UTC
-    </div>
-</div>
-
