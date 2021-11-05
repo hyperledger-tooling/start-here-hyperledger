@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2408" class=".btn">#2408</a>
+            </td>
+            <td>
+                <b>
+                    Add batch status subcommand to sawadm CLI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 19:20:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2406" class=".btn">#2406</a>
             </td>
             <td>

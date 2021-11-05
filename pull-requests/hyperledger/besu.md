@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3008" class=".btn">#3008</a>
+            </td>
+            <td>
+                <b>
+                    When tls is on, use passthrough framer and passthrough handshaker to avoid double encryption
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When tls is on, use passthrough framer and passthrough handshaker to avoid double encryption
+
+Signed-off-by: Saravana Perumal Shanmugam <perusworld@linux.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 19:39:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/2996" class=".btn">#2996</a>
             </td>
             <td>
@@ -96,14 +126,13 @@ Spike of IBFT2 to QBFT migration. This is still a work in progress and is not in
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamRevenant</span>
             </td>
             <td>
                 Fixes #2759 
 
-I had to expose BesuCommand.commandLine to make this work. If we don't like that it would need a refactor. 
 
-I have tested this locally
+I have tested this locally:
 
 ```
 ➜  besu git:(2837) ✗ besu validate-config --config-file ../besu-local-nodes/config/besu/besu1.conf
@@ -655,32 +684,6 @@ fixes #2964
     </table>
     <div class="right-align">
         Created At 2021-10-29 01:06:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2973" class=".btn">#2973</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for version 21.10.0-RC5-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 18:25:10 +0000 UTC
     </div>
 </div>
 

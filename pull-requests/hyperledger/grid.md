@@ -285,35 +285,3 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1005" class=".btn">#1005</a>
-            </td>
-            <td>
-                <b>
-                    Add update version action to po smart contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds an implementation to the po smart contract for the "update version" action. 
-
-This also makes a few small bu fixes that were found while running the unit tests for this action. Mainly, this updates the following:
-
-- `can_transition` workflow state method, this method will now check it's `self.name` property against the desired state. If these values are the same, and we are not transitioning the po/vers to a new workflow state, `true` is returned.
-
-- `add_purchase_order_version` in po state module, this method will now validate if the purchase order version it is adding to state is an update (as in, the version already exists for the po we fetch). Now, this method will replace the outdated vers with the updated one, rather than pushing all "new" versions it receives to the end of the list (which would result in duplicate version IDs being present and the `get_purchase_order_version` method to only return the first version it finds, which based on the functionality of iters is the first one added which would be the outdated version)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 21:28:54 +0000 UTC
-    </div>
-</div>
-

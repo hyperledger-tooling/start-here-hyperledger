@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/252" class=".btn">#252</a>
+            </td>
+            <td>
+                <b>
+                    `family-smallbank` stabilization updates - make handler module private
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `SmallbankTransactionHandler` is already re-exported so the handler module can
+be made private.
+
+Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 18:37:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/251" class=".btn">#251</a>
+            </td>
+            <td>
+                <b>
+                    `family-command-workload` stabilization updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Stabilization updates for the `family-command-workload` feature
+- add a module doc comment for the command::workload module
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 18:23:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/250" class=".btn">#250</a>
             </td>
             <td>
@@ -27,7 +83,7 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                `CommandTransactionHandler` is re-exported so the handler module can
+                `CommandTransactionHandler` is already re-exported so the handler module can
 be made private.
 
 Signed-off-by: Isabel Tomb <tomb@bitwise.io>
@@ -309,34 +365,6 @@ Signed-off-by: Isabel Tomb <tomb@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-10-29 16:06:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/239" class=".btn">#239</a>
-            </td>
-            <td>
-                <b>
-                    `workload` stabilization updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Stabilization related updates for the workload feature
-- Add documentation for the workload module
-- Make the source module private and put it behind the "workload-batch-gen" feature because it's only used in the `batch_gen` module which is behind this feature 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 22:56:12 +0000 UTC
     </div>
 </div>
 

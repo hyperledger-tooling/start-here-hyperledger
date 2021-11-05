@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/firefly-cli
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/116" class=".btn">#116</a>
-            </td>
-            <td>
-                <b>
-                    Update readme with new installation instructions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                New installation instructions do not require the installation of Go on developers' computers. Instead, we now recommend that users just download a pre-built binary from our Releases page. Extra details about how to approve running the binary on macOS are provided.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 19:11:21 +0000 UTC
-    </div>
-</div>
-
