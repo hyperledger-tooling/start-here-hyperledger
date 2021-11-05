@@ -14,6 +14,56 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/113" class=".btn">#113</a>
+            </td>
+            <td>
+                <b>
+                    Auto organize imports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+I find inconsistent imports can cause more merge conflicts and mental effort than should be. How about we get VSCode to manage consistency for us? I've added a `.vscode/settings.json` file with the directive for VSCode to organize imports on save. It will put them in order, remove unused imports, and keep them formatted propertly. 
+
+It's fine if ppl don't use VSCode, those of us using it will have imports organize on save. As the app stabilizes over time I expect imports will change less frequently.
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+
+If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [x] Run prettier: `npm run style-format`
+- [x] Updated **documentation** for changed code and new or modified features.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 19:55:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/109" class=".btn">#109</a>
             </td>
             <td>
@@ -269,106 +319,6 @@ _PR template adapted from the Python attrs project._
     </table>
     <div class="right-align">
         Created At 2021-10-29 21:15:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/99" class=".btn">#99</a>
-            </td>
-            <td>
-                <b>
-                    Fix VirtualizedLists nesting issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-The `VirtualizedLists` does not like being nested in a `SafeAreaScrollView`. When done RN throws an error that is visually jarring. I fixed it by removing the `SafeAreaScrollView` and just using a plane old `View` because the two views this issue appears on don't need to scroll (AFAIK). On iOS usrs may be inclided to pull-to-refresh in this situation even though it has no effect.
-
-
-# Related Issues
-
-Fixes #98
-
-# Pull Request Checklist
-
-This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-
-If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
-- [x] Run prettier: `npm run style-format`
-- [ ] Updated **documentation** for changed code and new or modified features.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 23:21:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/97" class=".btn">#97</a>
-            </td>
-            <td>
-                <b>
-                    Adds Sovrin Staging Net genesis file. Fix README link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Akiff Manji <akiff.manji@gmail.com>
-
-# Summary of Changes
-
-* Adds Sovrin Staging Net genesis file
-* Fixes a README link
-
-# Related Issues
-
-N/A
-
-# Pull Request Checklist
-
-This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-
-If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
-
-- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
-- [ ] Run prettier: `npm run style-format`
-- [ ] Updated **documentation** for changed code and new or modified features.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 22:40:20 +0000 UTC
     </div>
 </div>
 

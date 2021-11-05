@@ -398,31 +398,3 @@ Added a "declined" Proof State. Added a "decline request" method, allowing the h
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/507" class=".btn">#507</a>
-            </td>
-            <td>
-                <b>
-                    feat(core)!: added basic message sent event
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: NeilSMyers <mmyersneil@gmail.com>
-
-Created BasicMessageSentEvent. created in tandem with an update to AFJ/react-hooks and will need to be merged before that PR can be
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 19:41:57 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/552" class=".btn">#552</a>
+            </td>
+            <td>
+                <b>
+                    Small fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-04 22:23:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/550" class=".btn">#550</a>
             </td>
             <td>
@@ -214,32 +240,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2021-11-01 11:23:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/540" class=".btn">#540</a>
-            </td>
-            <td>
-                <b>
-                    Keep next_id up to date in namespace
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR keeps the `next_id` attribute of `struct Namespace` always updated after the insertion of temporaries. This is modification is necessary to make the common subexpressions elimination work.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 22:20:58 +0000 UTC
     </div>
 </div>
 

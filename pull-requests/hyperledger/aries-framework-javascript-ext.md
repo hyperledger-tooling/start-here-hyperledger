@@ -356,29 +356,3 @@ Signed-off-by: janrtvld <jan@animo.id[C>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/58" class=".btn">#58</a>
-            </td>
-            <td>
-                <b>
-                    fix(react-hooks): message filtering overflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                added a use effect to useBasicMessagesByConnectionId because the filter was causing too many renders in use. This is being created at the same time as a new AFJ event listener for sending messages and will rely on that event to work
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-28 19:40:32 +0000 UTC
-    </div>
-</div>
-
