@@ -15,7 +15,7 @@ permalink: /releases/hyperledger/fabric-gateway
         <tr>
             <td colspan="2">
                 <b>
-                    v0.1.0
+                    v0.1.0 (preview)
                 </b>
             </td>
         </tr>
@@ -34,7 +34,7 @@ permalink: /releases/hyperledger/fabric-gateway
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-11-05 10:00:20 +0000 UTC
+        Created At 2021-11-05 14:44:22 +0000 UTC
     </span>
 </div>
 
