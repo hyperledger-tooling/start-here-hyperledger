@@ -119,32 +119,3 @@ However, there is a bug: the substrate connector cannot connect to the saio runn
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1489" class=".btn">#1489</a>
-            </td>
-            <td>
-                <b>
-                    DRAFT - migrate-to-jest-coexistence
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The idea here is that with this we can merge the current state of the
-migration without having to finish it all in one go.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 02:39:41 +0000 UTC
-    </div>
-</div>
-
