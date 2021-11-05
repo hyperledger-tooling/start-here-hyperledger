@@ -126,33 +126,3 @@ This PR also introduces a _new_ concept of what is a "token account" - currently
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/309" class=".btn">#309</a>
-            </td>
-            <td>
-                <b>
-                    Consume websocket events in "strong datatype" tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Even though these tests use confirm=true, we must create a websocket
-and wait on events to propagate (otherwise the events may propagate
-later and confuse the next test).
-
-Fixes #308
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 16:30:36 +0000 UTC
-    </div>
-</div>
-

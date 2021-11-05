@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-contracts/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-contracts/pull/20" class=".btn">#20</a>
             </td>
             <td>
                 <b>
-                    :construction_worker: [check-notice-authors] Rename master to main
+                    [README] Replace outdated wiki link with link to perun-docs.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-contracts
                 
             </td>
             <td>
-                Closes #18 
+                The wiki that is linked to is out-dated and only exists in the archived perun-network repository. This change replaces that link with a link to the perun-doc page.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-12 10:22:13 +0000 UTC
+        Created At 2021-11-05 13:03:12 +0000 UTC
     </div>
 </div>
 

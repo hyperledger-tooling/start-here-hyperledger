@@ -72,34 +72,3 @@ permalink: /pull-requests/hyperledger/firefly-ui
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/69" class=".btn">#69</a>
-            </td>
-            <td>
-                <b>
-                    Store time range as URL query parameter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Time ranges are now stored as URL query parameters for easy linking
-
-
-example url: `http://localhost:3000/namespace/ff_system/data?time=24hours`
-
-closes #51 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 18:05:07 +0000 UTC
-    </div>
-</div>
-

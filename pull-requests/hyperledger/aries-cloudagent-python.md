@@ -246,29 +246,3 @@ I've done some testing using the [revocation demo](https://github.com/Indicio-te
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1463" class=".btn">#1463</a>
-            </td>
-            <td>
-                <b>
-                    Allow base wallet to connect to a mediator after startup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Connecting the base wallet to a mediator is supported through command line arguments but not the Admin API. In our experience, it is often simpler to establish the base wallet's mediator after startup through the Admin API. That being said, there could be consequences to this change that I'm not seeing yet so hoping @ianco and @TimoGlastra could give their thoughts on this change.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 13:01:25 +0000 UTC
-    </div>
-</div>
-

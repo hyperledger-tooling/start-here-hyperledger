@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/71" class=".btn">#71</a>
+            </td>
+            <td>
+                <b>
+                    feat(rest): added support for custom label and custom imageUrl
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: janrtvld <jan@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 14:28:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/70" class=".btn">#70</a>
+            </td>
+            <td>
+                <b>
+                    feat(rest): added outofband offer to credentialController
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #69 
+
+Signed-off-by: janrtvld <jan@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 14:26:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/68" class=".btn">#68</a>
             </td>
             <td>
@@ -35,6 +89,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
 ### ⚠ BREAKING CHANGES
 
 * **rest:** changed oob proof parameter from c_i to d_m (#67)
+
+### Features
+
+* **rest:** added support for custom label and custom imageUrl ([#71](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/71)) ([686bddd](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/686bddd58d0947ab4dda1b1d4a49ce721c6b464b))
+
 
 ### Code Refactoring
 
