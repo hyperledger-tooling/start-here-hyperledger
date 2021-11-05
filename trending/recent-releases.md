@@ -1,5 +1,5 @@
 
-[v0.1.0](https://github.com/hyperledger/fabric-gateway/releases/tag/v0.1.0) v0.1.0-preview.1
+[v0.1.0-preview.1](https://github.com/hyperledger/fabric-gateway/releases/tag/v0.1.0-preview.1) v0.1.0-preview.1
 
 [v0.1.9](https://github.com/hyperledger-labs/solang/releases/tag/v0.1.9) 
 
