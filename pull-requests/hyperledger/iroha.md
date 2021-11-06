@@ -173,10 +173,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
                 
             </td>
             <td>
-                /build all
-
-Signed-off-by: kuvaldini <ivan@kuvaldini.pro>
-
+                Close #1577
             </td>
         </tr>
     </table>
