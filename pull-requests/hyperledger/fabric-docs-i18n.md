@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/615" class=".btn">#615</a>
-            </td>
-            <td>
-                <b>
-                    ko_KR: Translate dev-setup/
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Yang <justin.yang@themedium.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-30 16:22:53 +0000 UTC
-    </div>
-</div>
-
