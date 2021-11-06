@@ -14,6 +14,36 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/1529" class=".btn">1529</a>
+            </td>
+            <td>
+                <b>
+                    Record fields in all logs instead of formatting them
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                Now that we have a possibility to output structured logging it is needed to make our logs good for that format. Where possible we should use [log fields](https://docs.rs/tracing/0.1.29/tracing/#recording-fields) instead of usual Rust formatting.
+
+Example instead of `info!("Created block with hash: {}", hash)` it should be `info!("Created block", hash)`. 
+
+While some places are already in the later format, some are still not updated currently.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-18 13:43:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/1511" class=".btn">1511</a>
             </td>
             <td>
