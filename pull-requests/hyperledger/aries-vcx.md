@@ -109,29 +109,3 @@ In order to simplify the API (and the internal code), this was changed to (again
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/375" class=".btn">#375</a>
-            </td>
-            <td>
-                <b>
-                    Store thread id on state machine level for connection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 21:10:45 +0000 UTC
-    </div>
-</div>
-

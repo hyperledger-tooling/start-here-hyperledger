@@ -116,29 +116,3 @@ Signed-off-by: kukgini <kukgini@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/377" class=".btn">#377</a>
-            </td>
-            <td>
-                <b>
-                    fix(afj): always use latest version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 21:06:16 +0000 UTC
-    </div>
-</div>
-

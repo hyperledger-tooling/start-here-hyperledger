@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/300" class=".btn">#300</a>
+            </td>
+            <td>
+                <b>
+                    Simplify off-line signing flow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Locate all methods for creating signed objects on the Gateway object, removing the need for client code to remember the network or contract used to create the unsigned objects.
+
+Closes #301 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 21:20:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/299" class=".btn">#299</a>
             </td>
             <td>

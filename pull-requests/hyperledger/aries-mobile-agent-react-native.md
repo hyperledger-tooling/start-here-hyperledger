@@ -14,6 +14,210 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/119" class=".btn">#119</a>
+            </td>
+            <td>
+                <b>
+                    Proof Request screen updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Fixes Proof Request screen:
+* Updates route params in screen
+* Adds try/catch blocks to async operations
+* Logs errors on failure and presents failure message
+
+Replace this text with a high-level summary of the changes included in this PR.
+
+N/A
+
+Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
+
+# Pull Request Checklist
+
+This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+
+If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
+
+- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [ ] Run prettier: `npm run style-format`
+- [ ] Updated **documentation** for changed code and new or modified features.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 23:53:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/118" class=".btn">#118</a>
+            </td>
+            <td>
+                <b>
+                    Update navigation packages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+I've updates navigation packages and made a few small changes to get navigation working after the most recent updates.
+
+# Related Issues
+
+Fixes #117
+
+# Pull Request Checklist
+
+This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+
+If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [x] Run prettier: `npm run style-format`
+- [x] Updated **documentation** for changed code and new or modified features.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 23:14:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/116" class=".btn">#116</a>
+            </td>
+            <td>
+                <b>
+                    QR scanner updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Some cosmetic enhancements to the QR Scanner screen:
+* Added Credential Offer stepper/hints
+* Added Torch button that can activate flash when needed
+* Updated styling on page to use emotion with layout adjustment for device orientation
+* Removes activation timeout
+* Adds haptic feedback when QR code detected
+
+# Related Issues
+
+#104 
+
+# Pull Request Checklist
+
+This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+
+If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
+
+- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [ ] Run prettier: `npm run style-format`
+- [ ] Updated **documentation** for changed code and new or modified features.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+_PR template adapted from the Python attrs project._
+![image](https://user-images.githubusercontent.com/5605464/140563264-b5a77c13-3756-420b-b66e-98ecfd319498.png)
+
+![image](https://user-images.githubusercontent.com/5605464/140563283-f387d86b-a937-4ac4-b120-2de1f88552d2.png)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 18:48:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/115" class=".btn">#115</a>
+            </td>
+            <td>
+                <b>
+                    Extract the remaining strings to the en translation file.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Extract the remaining strings to the `en` translation file. This does not include scree names used for navigation.
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+
+If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [x] Run prettier: `npm run style-format`
+- [x] Updated **documentation** for changed code and new or modified features.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-05 18:38:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/113" class=".btn">#113</a>
             </td>
             <td>
@@ -267,58 +471,6 @@ _PR template adapted from the Python attrs project._
     </table>
     <div class="right-align">
         Created At 2021-11-02 16:42:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/101" class=".btn">#101</a>
-            </td>
-            <td>
-                <b>
-                    Update AFJ core and configure multiple ledgers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Akiff Manji <akiff.manji@gmail.com>
-
-# Summary of Changes
-
-* Upgrade AFJ core and react-native dependency to support multiple ledgers
-* Adds Indy Pool configurations for multiple ledgers
-* Initialize Agent with multiple Indy Pool configurations
-
-# Related Issues
-
-#100 
-
-# Pull Request Checklist
-
-This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-
-If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
-
-- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
-- [ ] Run prettier: `npm run style-format`
-- [ ] Updated **documentation** for changed code and new or modified features.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 21:15:18 +0000 UTC
     </div>
 </div>
 
