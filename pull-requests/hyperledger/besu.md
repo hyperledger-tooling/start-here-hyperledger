@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    When tls is on, use passthrough framer and passthrough handshaker to avoid double encryption
+                    When tls is on, use plain framer and handshaker to avoid double encryption
                 </b>
             </td>
         </tr>
@@ -558,47 +558,6 @@ fixes #2900
     </table>
     <div class="right-align">
         Created At 2021-10-31 21:30:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2978" class=".btn">#2978</a>
-            </td>
-            <td>
-                <b>
-                    Feature/arrow glacier
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Implement arrowGlacier hardfork EIP-4345.  
-
-Upstream reference tests do not yet exist for arrowGlacier, but we can add them once they exist upstream, see #2977
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2943 
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-29 20:09:49 +0000 UTC
     </div>
 </div>
 
