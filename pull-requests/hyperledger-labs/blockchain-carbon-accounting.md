@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/354" class=".btn">#354</a>
+            </td>
+            <td>
+                <b>
+                    Add password encryption to PKCS#8 private key
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - ws-wallet new-key requests user to input password to encrypt PKCS#8 private key
+- ws-wallet open includes -p (--pass)when open web-socket session
+- WsWallet open method will request user for password if -p not provided or fails to decrypt key file
+- process closed after 3 failed attempts
+
+Signed-off-by: brioux <Bertrand.rioux@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-06 21:05:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/353" class=".btn">#353</a>
             </td>
             <td>
