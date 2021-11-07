@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1517" class=".btn">#1517</a>
+            </td>
+            <td>
+                <b>
+                    test: supply-chain-backend-api-calls fails without config file #1516
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Made it so that the test uses a config that does not specify a config
+file path to be parsed by the config service so that it does not depend
+on one existing on the file system when the test gets executed.
+It works fine without the .config.json file because we anyway configure
+everything via code within the test.
+
+This test started failing while I was working on the Jest/Tap co-existence
+pull request so it might have something to do with the migration, but it
+does not look like it.
+
+Fixes #1516
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-06 23:07:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1514" class=".btn">#1514</a>
             </td>
             <td>
@@ -154,32 +192,6 @@ However, there is a bug: the substrate connector cannot connect to the saio runn
     </table>
     <div class="right-align">
         Created At 2021-11-01 22:20:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1490" class=".btn">#1490</a>
-            </td>
-            <td>
-                <b>
-                    feat(polkadot): polkadot-connector-first-implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The first implementation of the Polkadot connector for Hyperledger Cactus.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-30 23:58:13 +0000 UTC
     </div>
 </div>
 
