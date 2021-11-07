@@ -78,7 +78,7 @@ Signed-off-by: janrtvld <jan@animo.id>
         </tr>
         <tr>
             <td>
-                <span class="chip">autorelease: pending</span>
+                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
             </td>
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
@@ -381,32 +381,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-11-03 19:43:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/62" class=".btn">#62</a>
-            </td>
-            <td>
-                <b>
-                    chore: update afj to latest version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-31 12:32:19 +0000 UTC
     </div>
 </div>
 

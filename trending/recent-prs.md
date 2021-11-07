@@ -1,13 +1,13 @@
 
-[1582](https://github.com/hyperledger/iroha/pull/1582) GHA clean up
+[528](https://github.com/hyperledger/aries-framework-javascript/pull/528) fix(core): log errors if message is undeliverable
 
-[3019](https://github.com/hyperledger/fabric/pull/3019) docs: fix typo in comment
+[527](https://github.com/hyperledger/aries-framework-javascript/pull/527) fix(core)!: do not request ping res for connection
 
-[1517](https://github.com/hyperledger/cactus/pull/1517) test: supply-chain-backend-api-calls fails without config file #1516
+[526](https://github.com/hyperledger/aries-framework-javascript/pull/526) feat(core): validate outbound messages
 
-[354](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/354) Add password encryption to PKCS#8 private key
+[525](https://github.com/hyperledger/aries-framework-javascript/pull/525) fix(core)!: improve proof request validation
 
-[120](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/120) Feature/localization
+[198](https://github.com/hyperledger/fabric-sdk-go/pull/198) fix error 'send on closed channel' after retry
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

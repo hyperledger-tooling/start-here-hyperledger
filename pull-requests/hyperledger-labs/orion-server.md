@@ -205,29 +205,3 @@ Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/227" class=".btn">#227</a>
-            </td>
-            <td>
-                <b>
-                    Augmented header
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-31 18:01:07 +0000 UTC
-    </div>
-</div>
-

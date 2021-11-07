@@ -27,10 +27,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
                 
             </td>
             <td>
-                - ws-wallet new-key requests user to input password to encrypt PKCS#8 private key
-- ws-wallet open includes -p (--pass)when open web-socket session
-- WsWallet open method will request user for password if -p not provided or fails to decrypt key file
-- process closed after 3 failed attempts
+                    - ws-wallet new-key requests user to input password to encrypt PKCS#8 private key
+    - ws-wallet open will request password to decrypt private key for signing
+    - getPass() fn handles terminal requests to input passwor 
+    - unlockKey() fn checks if decryption password is valid. Process closed after 3 failed attempts
+    - Password -p option can be provided with new-key and open commands
 
 Signed-off-by: brioux <Bertrand.rioux@gmail.com>
             </td>
