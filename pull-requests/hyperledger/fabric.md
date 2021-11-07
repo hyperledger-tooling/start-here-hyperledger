@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3019" class=".btn">#3019</a>
+            </td>
+            <td>
+                <b>
+                    docs: fix typo in comment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+ * Documentation update
+ 
+#### Description
+This change fixes a typo in a comment in `main/common/ledger/blkstorage/blockfile_mgr.go`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-07 03:48:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3017" class=".btn">#3017</a>
             </td>
             <td>
