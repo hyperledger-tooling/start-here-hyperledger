@@ -335,29 +335,3 @@ To help when user forgot to call `agent.initialize()` (https://github.com/hyperl
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/510" class=".btn">#510</a>
-            </td>
-            <td>
-                <b>
-                    feat(node): add is-indy-installed command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-31 12:15:25 +0000 UTC
-    </div>
-</div>
-
