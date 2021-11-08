@@ -1,13 +1,13 @@
 
-[255](https://github.com/hyperledger-labs/go-perun/pull/255) :bug: Prevent confirmNTimes from blocking indefinitely
+[1741](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1741) [skip ci] Added auth chart
 
-[528](https://github.com/hyperledger/aries-framework-javascript/pull/528) fix(core): log errors if message is undeliverable
+[3018](https://github.com/hyperledger/besu/pull/3018) JsonUtil.normalizeKeys should handle ArrayNodes
 
-[527](https://github.com/hyperledger/aries-framework-javascript/pull/527) fix(core)!: do not request ping res for connection
+[1583](https://github.com/hyperledger/iroha/pull/1583) DRAFT Fix `docker-test`
 
-[526](https://github.com/hyperledger/aries-framework-javascript/pull/526) feat(core): validate outbound messages
+[3017](https://github.com/hyperledger/besu/pull/3017) [2981] Multi algorithm support for JWT
 
-[525](https://github.com/hyperledger/aries-framework-javascript/pull/525) fix(core)!: improve proof request validation
+[857](https://github.com/hyperledger/besu-docs/pull/857) Document QBFT smart contracts.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

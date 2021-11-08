@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/857" class=".btn">#857</a>
+            </td>
+            <td>
+                <b>
+                    Document QBFT smart contracts.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: bgravenorst <byron.gravenorst@consensys.net>
+
+### Before creating the pull request
+
+Make sure that:
+
+- [x] [all commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [x] you read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Contributing+to+documentation).
+- [x] you have [tested your changes locally](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewTheDocumentation) before submitting them to the community for review.
+
+## Describe the change
+
+Document using smart contracts to manage QBFT validators
+
+## Issue fixed
+
+Fixes #824 
+
+## Preview
+https://hyperledger-besu--857.org.readthedocs.build/en/857/HowTo/Configure/Consensus-Protocols/QBFT/
+https://hyperledger-besu--857.org.readthedocs.build/en/857/HowTo/Configure/Consensus-Protocols/Add-Validators/#qbft
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 03:53:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/854" class=".btn">#854</a>
             </td>
             <td>
