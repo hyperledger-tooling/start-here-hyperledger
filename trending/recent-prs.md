@@ -1,13 +1,13 @@
 
-[531](https://github.com/hyperledger/fabric-samples/pull/531) Update application-gateway-typescript
+[531](https://github.com/hyperledger/aries-framework-javascript/pull/531) feat: Add support for new out-of-band protocol Stage 1
 
-[356](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/356) feat(CI): Add tests for net-emissions-token-network
+[73](https://github.com/hyperledger-labs/fabric-operations-console/pull/73) allow underscores and dashes in comp id field
 
-[1709](https://github.com/hyperledger/indy-node/pull/1709) updated version of setup-jfrog-cli to v2
+[1588](https://github.com/hyperledger/iroha/pull/1588) Gha chatops
 
-[1742](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1742) [ci skip] Added gateway chart
+[1745](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1745) [fabric] Fix usage of roottoken
 
-[301](https://github.com/hyperledger/fabric-chaincode-node/pull/301) Rename the root json config file
+[1519](https://github.com/hyperledger/cactus/pull/1519) fix(tools): fix the names of scripts on README
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

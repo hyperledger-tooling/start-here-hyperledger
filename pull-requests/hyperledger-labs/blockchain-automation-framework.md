@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1745" class=".btn">#1745</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Fix usage of roottoken
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Add delete/k8s_secrets role
+- Fix root-token usage
+- Fix usage of reviewe-role for the vault-kubernetes job
+
+ 
+
+**Reviewed by**
+@jagpreetsinghsasan @suvajit-sarkar 
+
+ 
+
+**Linked issue**
+Resolves #1730 #1638 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 15:10:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1742" class=".btn">#1742</a>
             </td>
             <td>
@@ -291,38 +333,6 @@ JWT creation can be moved to PKI job
     </table>
     <div class="right-align">
         Created At 2021-11-01 16:44:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1731" class=".btn">#1731</a>
-            </td>
-            <td>
-                <b>
-                    [shared] added copyright
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
-
-**Changelog**
-- Add copyright in all files
-- Fix few issues with Fabric deployment and user creation
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 16:04:39 +0000 UTC
     </div>
 </div>
 

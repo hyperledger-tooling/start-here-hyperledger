@@ -256,29 +256,3 @@ Other stabilization related changes included in this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/244" class=".btn">#244</a>
-            </td>
-            <td>
-                <b>
-                    Backport 0.3:Delete SqlMerkleState trees
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of #236 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 15:39:42 +0000 UTC
-    </div>
-</div>
-

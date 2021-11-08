@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1519" class=".btn">#1519</a>
+            </td>
+            <td>
+                <b>
+                    fix(tools): fix the names of scripts on README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                resolve #1520 
+
+Signed-off-by: Takuma TAKEUCHI <takeuchi.takuma@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 14:56:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1517" class=".btn">#1517</a>
             </td>
             <td>

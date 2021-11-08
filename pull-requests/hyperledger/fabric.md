@@ -334,34 +334,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3007" class=".btn">#3007</a>
-            </td>
-            <td>
-                <b>
-                    Reword duplicate error message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There are two error paths that produce the same message.  Reword the second one to a more acurate description of the problem.
-
-Resolves https://github.com/hyperledger/fabric-gateway/issues/271
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 13:45:08 +0000 UTC
-    </div>
-</div>
-
