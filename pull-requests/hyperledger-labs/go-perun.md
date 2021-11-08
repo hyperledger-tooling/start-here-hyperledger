@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/255" class=".btn">#255</a>
+            </td>
+            <td>
+                <b>
+                    :bug: Prevent confirmNTimes from blocking indefinitely
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #254 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-07 18:42:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/252" class=".btn">#252</a>
             </td>
             <td>
