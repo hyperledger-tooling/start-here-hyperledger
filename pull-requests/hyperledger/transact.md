@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/254" class=".btn">#254</a>
+            </td>
+            <td>
+                <b>
+                    `workload` transact CLI stabilization updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes some of the calculations in the process of turning the rate, given with the `--target-rate` CLI option, into the amount of time to wait between batch submissions. Previously starting a workload with a rate of 2/s would make the workload wait 2s between submissions making the actual rate 0.5/s
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 17:57:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/253" class=".btn">#253</a>
             </td>
             <td>

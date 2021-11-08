@@ -305,32 +305,3 @@ Also, this PR adds an output option for `calculatepackageid` command:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3008" class=".btn">#3008</a>
-            </td>
-            <td>
-                <b>
-                    Add gateway architecture page to docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">docs</span>
-            </td>
-            <td>
-                Contributes to #2807 
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 17:55:06 +0000 UTC
-    </div>
-</div>
-
