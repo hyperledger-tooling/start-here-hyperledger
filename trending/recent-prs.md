@@ -1,13 +1,13 @@
 
-[1741](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1741) [skip ci] Added auth chart
+[531](https://github.com/hyperledger/fabric-samples/pull/531) Update application-gateway-typescript
 
-[3018](https://github.com/hyperledger/besu/pull/3018) JsonUtil.normalizeKeys should handle ArrayNodes
+[356](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/356) feat(CI): Add tests for net-emissions-token-network
 
-[1583](https://github.com/hyperledger/iroha/pull/1583) DRAFT Fix `docker-test`
+[1709](https://github.com/hyperledger/indy-node/pull/1709) updated version of setup-jfrog-cli to v2
 
-[3017](https://github.com/hyperledger/besu/pull/3017) [2981] Multi algorithm support for JWT
+[1742](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1742) [ci skip] Added gateway chart
 
-[857](https://github.com/hyperledger/besu-docs/pull/857) Document QBFT smart contracts.
+[301](https://github.com/hyperledger/fabric-chaincode-node/pull/301) Rename the root json config file
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

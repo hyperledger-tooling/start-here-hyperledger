@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1709" class=".btn">#1709</a>
+            </td>
+            <td>
+                <b>
+                    updated version of setup-jfrog-cli to v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry-picked commit https://github.com/hyperledger/indy-node/commit/5994b3fab897d9e8f999400607670f5228627939 from master to upgrade version of `action/setup-jfrog-ci` to `v2`.
+
+Signed-off-by: udosson <r.klemens@yahoo.de>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 11:54:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1708" class=".btn">#1708</a>
             </td>
             <td>
