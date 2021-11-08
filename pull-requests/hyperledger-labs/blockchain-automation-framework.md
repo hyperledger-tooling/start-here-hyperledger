@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1742" class=".btn">#1742</a>
+            </td>
+            <td>
+                <b>
+                    [ci skip] Added gateway chart
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Add gateway chart
+
+ 
+
+**Reviewed by**
+@sownak @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1507 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 11:46:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1741" class=".btn">#1741</a>
             </td>
             <td>

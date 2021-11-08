@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1574" class=".btn">#1574</a>
+            </td>
+            <td>
+                <b>
+                    updated version of setup-jfrog-cli to v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry-picked commit https://github.com/hyperledger/indy-plenum/commit/765a499e5aa629261c89b6127f7e612f6dd130bf from master to upgrade version of `action/setup-jfrog-ci` to `v2`.
+
+Signed-off-by: udosson <r.klemens@yahoo.de>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 11:41:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1573" class=".btn">#1573</a>
+            </td>
+            <td>
+                <b>
+                    bump version of zipp to 1.2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump version of `zipp` from `1.0.0` to `1.2.0` because `zipp==1.0.0` depends on `more-itertools`. To reduce the number of dependencies this PR updates `zipp` to version `1.2.0` that doesn't depend on additional PyPI packages anymore.
+
+
+Signed-off-by: udosson <r.klemens@yahoo.de>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 11:36:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-plenum/pull/1572" class=".btn">#1572</a>
             </td>
             <td>
