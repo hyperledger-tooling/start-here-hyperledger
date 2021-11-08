@@ -14,43 +14,6 @@ permalink: /issues/hyperledger/besu
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/besu/issues/2766" class=".btn">2766</a>
-            </td>
-            <td>
-                <b>
-                    Clean up deprecation warnings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span>
-            </td>
-            <td>
-                ### Description
-Some methods used by Besu are being deprecated and need to be migrated.
-
-There are some easy wins that have simple method name changes e.g. 
-
-https://github.com/hyperledger/besu/blob/main/nat/src/main/java/org/hyperledger/besu/nat/upnp/OkHttpStreamClient.java#L53
-https://github.com/hyperledger/besu/blob/main/besu/src/test/java/org/hyperledger/besu/cli/BesuCommandTest.java#L1922
-
-### Steps to Reproduce 
-1. Temporarily add `'-Xlint:deprecation'` to `options.compilerArgs` in the project you want to clean up.
-2. rebuild and look for warnings!
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-09-15 08:48:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 Issue <a href="https://github.com/hyperledger/besu/issues/2762" class=".btn">2762</a>
             </td>
             <td>
