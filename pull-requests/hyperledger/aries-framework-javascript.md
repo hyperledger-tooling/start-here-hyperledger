@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/531" class=".btn">#531</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add support for new out-of-band protocol Stage 1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is the first step in the implementation of #344. 
+
+It corresponds approximately to Step 1 defined in [Aries RFC 0496: Transition to the Out of Band and DID Exchange Protocols](https://github.com/hyperledger/aries-rfcs/blob/main/features/0496-transition-to-oob-and-did-exchange/README.md).
+
+As you can see I decided to create an Out-of-band module and keep the implementation there. I realized that putting it into the Connection module could cause more issues than benefits right now. It has only two drawbacks:
+* API users would need to decide what method to call for now. But it allows more gradual adoption of new out-of-band by users. When we have a full implementation, users will ideally just call one method for OOB messages.
+* I copy-pasted methods for connection creation. That can be solved by calling the whole Connections module from the OOB module.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 15:59:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/528" class=".btn">#528</a>
             </td>
             <td>
@@ -480,33 +512,6 @@ To help when user forgot to call `agent.initialize()` (https://github.com/hyperl
     </table>
     <div class="right-align">
         Created At 2021-11-01 16:52:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/511" class=".btn">#511</a>
-            </td>
-            <td>
-                <b>
-                    docs: added info on ext to readme
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ana Goessens <anagoessens@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 15:11:00 +0000 UTC
     </div>
 </div>
 

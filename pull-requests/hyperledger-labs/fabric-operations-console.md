@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/68" class=".btn">#68</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/73" class=".btn">#73</a>
             </td>
             <td>
                 <b>
-                    docker compose version pre-req
+                    allow underscores and dashes in comp id field
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                docker compose version pre-req
+                addresses https://github.com/hyperledger-labs/fabric-operations-console/issues/74
+
+Signed-off-by: David Huffman <dshuffma@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-28 02:39:07 +0000 UTC
+        Created At 2021-11-08 15:37:10 +0000 UTC
     </div>
 </div>
 
