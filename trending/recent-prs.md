@@ -1,13 +1,13 @@
 
-[531](https://github.com/hyperledger/aries-framework-javascript/pull/531) feat: Add support for new out-of-band protocol Stage 1
+[3021](https://github.com/hyperledger/besu/pull/3021) Fix a double execution of the same method
 
-[73](https://github.com/hyperledger-labs/fabric-operations-console/pull/73) allow underscores and dashes in comp id field
+[343](https://github.com/hyperledger/cello/pull/343) Fix peer cmd 
 
-[1588](https://github.com/hyperledger/iroha/pull/1588) Gha chatops
+[254](https://github.com/hyperledger/transact/pull/254) `workload` transact CLI stabilization updates
 
-[1745](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1745) [fabric] Fix usage of roottoken
+[637](https://github.com/hyperledger/fabric-private-chaincode/pull/637) WIP Extend FPC Shim support
 
-[1519](https://github.com/hyperledger/cactus/pull/1519) fix(tools): fix the names of scripts on README
+[82](https://github.com/hyperledger/iroha-javascript/pull/82) next: actualizing lib + new features
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

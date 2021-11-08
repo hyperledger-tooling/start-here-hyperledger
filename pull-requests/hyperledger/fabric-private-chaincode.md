@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/635" class=".btn">#635</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/637" class=".btn">#637</a>
             </td>
             <td>
                 <b>
-                    Demo FSC integration using the IRB demo
+                    WIP Extend FPC Shim support
                 </b>
             </td>
         </tr>
@@ -27,15 +27,17 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                **What this PR does / why we need it**:
-This PR adds a new sample on how to use FPC with the Fabric Smart Client (FSC) by demonstrating our IRB demo, which was presented at HLGF21. To simplify the demo and focus on the FPC and FSC usage, the demo was stripped a lot. Web services, UI, and patient data pdf transformer have been removed and experiment worker uses a pure python implementation (and thus maybe breaking graphene compatibility). 
+                - add get_signed_proposal
+- add get_tx_id
+- add get_channel_id
+- add get_transient_data
 
-
+Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-22 11:07:46 +0000 UTC
+        Created At 2021-11-08 17:44:48 +0000 UTC
     </div>
 </div>
 

@@ -489,29 +489,3 @@ To help when user forgot to call `agent.initialize()` (https://github.com/hyperl
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/512" class=".btn">#512</a>
-            </td>
-            <td>
-                <b>
-                    fix(core): do not throw error on timeout in http
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 16:52:01 +0000 UTC
-    </div>
-</div>
-

@@ -202,31 +202,3 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3033" class=".btn">#3033</a>
-            </td>
-            <td>
-                <b>
-                    feat: add issue credential V3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                V3 spec: https://github.com/trustbloc/wallet/tree/main/docs/waci-credential-manifest/issue_credential
-
-Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 18:08:41 +0000 UTC
-    </div>
-</div>
-
