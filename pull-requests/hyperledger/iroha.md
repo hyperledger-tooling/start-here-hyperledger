@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1583" class=".btn">#1583</a>
+            </td>
+            <td>
+                <b>
+                    DRAFT Fix `docker-test`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+
+### Description of the Change
+Fix Docker test
+
+### Issue
+None yet
+
+
+### Benefits
+
+Docker test runs
+
+### Possible Drawbacks
+
+Docker test might not run
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 04:46:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1582" class=".btn">#1582</a>
             </td>
             <td>

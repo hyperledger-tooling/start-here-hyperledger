@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1741" class=".btn">#1741</a>
+            </td>
+            <td>
+                <b>
+                    [skip ci] Added auth chart
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Add helm chart for auth service
+- Update pki job to create auth trust store
+
+**TODO**
+Creds for the crypto materials needs to fetch vault and replaced
+JWT creation can be moved to PKI job
+
+ 
+
+**Reviewed by**
+@sownak @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1506 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 05:56:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1740" class=".btn">#1740</a>
             </td>
             <td>
