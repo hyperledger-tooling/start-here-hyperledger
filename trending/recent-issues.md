@@ -7,7 +7,7 @@
 
 [211](https://github.com/hyperledger-labs/go-perun/issues/211) [pkg/sync] Closer.Close() returns error
 
-[2762](https://github.com/hyperledger/besu/issues/2762) subcommands do not support --version flag
+[2766](https://github.com/hyperledger/besu/issues/2766) Clean up deprecation warnings
 
 
 [See more >>>](https://start-here.hyperledger.org/issues)
