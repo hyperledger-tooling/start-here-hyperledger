@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3028" class=".btn">#3028</a>
+            </td>
+            <td>
+                <b>
+                    Update VoteTallyCache when transitioning to blockheader validatorselectionmode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                TODO:
+ - discuss cache overriding parent block (instead of block being produced) - maybe we should only set the cache once the block is successfully created.
+ - discuss cache getting set every read
+ - try to recreate bug where network was stopped before node2 imported block, then got InvalidBlock
+
+https://github.com/hyperledger/besu/issues/3019
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 13:13:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3027" class=".btn">#3027</a>
             </td>
             <td>
@@ -617,88 +648,6 @@ Fixes #2668
     </table>
     <div class="right-align">
         Created At 2021-11-03 11:41:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2989" class=".btn">#2989</a>
-            </td>
-            <td>
-                <b>
-                    Add 21.10.0 release changes to main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Add 21.10.0 release changes from the release branch back to main
-* update changelog to reflect the 21.10.0 release
-* fix a bit of copypasta in retesteth chain params for the arrowGlacier definition
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 17:19:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2988" class=".btn">#2988</a>
-            </td>
-            <td>
-                <b>
-                    removes transitive deps on slf4j impl
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Removes logback slf4j impl inherited from tuweni
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2800 
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 13:46:06 +0000 UTC
     </div>
 </div>
 

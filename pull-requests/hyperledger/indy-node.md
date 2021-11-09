@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1711" class=".btn">#1711</a>
+            </td>
+            <td>
+                <b>
+                    prepares indy-plenum package version of debian version depedency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change is needed to replace the PyPI version of `plenum` with the version of the Debian artifact.
+Otherwise, we run into this error:
+`indy-node : Depends: indy-plenum (= 1.13.0.dev169) but 1.13.0~dev169 is to be installed`
+
+Signed-off-by: udosson <r.klemens@yahoo.de>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 16:17:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1710" class=".btn">#1710</a>
             </td>
             <td>

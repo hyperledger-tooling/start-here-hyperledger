@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-cli
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/117" class=".btn">#117</a>
-            </td>
-            <td>
-                <b>
-                    Firefly on besu ibft2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sukrut29 <sukrut.sathaye@sttech.de> 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 16:03:50 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1171" class=".btn">#1171</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1172" class=".btn">#1172</a>
             </td>
             <td>
                 <b>
-                    Update link for security bug handling wiki page
+                    Update branch name in Azure CI pipeline configuration
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                Signed-off-by: Attila Klenik <a.klenik@gmail.com>
+                Probably the first step to get the CI pipeline working (before debugging integration tests or porting to GitHub Actions).
+
+Signed-off-by: Attila Klenik <a.klenik@gmail.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-02 12:31:17 +0000 UTC
+        Created At 2021-11-09 12:25:06 +0000 UTC
     </div>
 </div>
 

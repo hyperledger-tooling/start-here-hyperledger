@@ -14,6 +14,101 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3036" class=".btn">#3036</a>
+            </td>
+            <td>
+                <b>
+                    Add extra info to error message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When processing an endorsement plan, failure to connect to remote peers could lead to an error saying there aren’t enough endorsers to satisfy the policy.  This commit add the list of peers that failed to commit.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 17:48:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3032" class=".btn">#3032</a>
+            </td>
+            <td>
+                <b>
+                    Use correct timeout option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The gateway’s endpoint connection factory is currently using the EndorsementTimeout option when making connections.  It should be using the DialTimeout.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 13:34:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3031" class=".btn">#3031</a>
+            </td>
+            <td>
+                <b>
+                    ProposalResponse error should return error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A transaction proposal can fail for two reasons:
+1) The chaincode return an error (status 500) response
+2) Some infrastructure error occurs or error generated in the peer.
+
+For case (1), the ProcessProposal() function will return the ProposalResponse and a nil error.
+For case (2), most error paths return both a newly generated status 500 response and the error.  There is one path though (the one that invokes the simulateProposal) that just returns a status 500 response, but a nil error.
+This means that client applications (via SDKs or Gateway) cannot destinguish between chaincode raised errors (case 1) and infrastructure errors (case 2).  This is a problem for the gateway which needs to destinguish these two situations in its retry logic.
+
+This commit fixes this by returning the original error (instead of nil) as well as the generated ProposalResponse for this error path.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 13:18:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3019" class=".btn">#3019</a>
             </td>
             <td>
@@ -97,38 +192,6 @@ This change fixes a typo in a comment in `gossip/privdata/pvtdataprovider.go`
     </table>
     <div class="right-align">
         Created At 2021-11-03 12:37:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3013" class=".btn">#3013</a>
-            </td>
-            <td>
-                <b>
-                    Add chaincode err message to Evaluate err message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In a previous commit which implemented retry logic for the evaluate method, the error(s) produced by remote endorsers were added to the Details field of the gateway error with a generic error message at the top level.
-In the case of a proposal response containing a chaincode generated error, no retry is performed and so the error message should also be at the top level (as it used to be before that earlier commit).
-
-This commit adds the chaincode error message back into the message returned by the gateway, and will restore the behaviour expected by the scenario tests in the SDKs.
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 16:33:01 +0000 UTC
     </div>
 </div>
 
