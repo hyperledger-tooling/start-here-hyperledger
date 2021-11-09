@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/382" class=".btn">#382</a>
+            </td>
+            <td>
+                <b>
+                    fix(afj): updates for latest release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+AFJ had some breaking changes merged last night. Not able to test as everything is broken on my M1 mac. Not fixing it will definitely break, so I'm hoping this will work. (why were the PR runs removed? :(
+
+Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 18:54:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/381" class=".btn">#381</a>
             </td>
             <td>

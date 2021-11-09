@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3022" class=".btn">#3022</a>
+            </td>
+            <td>
+                <b>
+                    Maintainer: add Taccat Isid 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+I propose to add @taccatisid as a Besu project maintainer.
+
+@taccatisid has contributed with many high quality commits:
+
+Here are their past contributions on Besu project
+- https://github.com/hyperledger/besu/pull/2644
+- https://github.com/hyperledger/besu/pull/2674
+- https://github.com/hyperledger/besu/pull/2717
+- https://github.com/hyperledger/besu/pull/2805
+- https://github.com/hyperledger/besu/pull/2956
+
+<!-- for non-code contributors -->
+@taccatisid also contributed with many high quality actions:
+
+Quality code reviews eg 
+- https://github.com/hyperledger/besu/pull/2994
+- https://github.com/hyperledger/besu/pull/2971
+
+Voting ends 2 weeks from the publication of this PR or once a majority of the maintainers [vote](https://github.com/hyperledger/besu/blob/main/MAINTAINERS.md#maintainers-approval-process).
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 20:38:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3021" class=".btn">#3021</a>
             </td>
             <td>
@@ -535,132 +584,6 @@ fixes #2800
     </table>
     <div class="right-align">
         Created At 2021-11-02 02:35:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2985" class=".btn">#2985</a>
-            </td>
-            <td>
-                <b>
-                    Add Daniel as a maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Add Daniel Lehrner as a contributor/maintainer.  
-
-Daniel has contributed to hyperledger/besu significantly at ioBuilders  while working on adding secp256R1 support into besu, and he has recently joined the besu mainnet team at Consensys.
-
-Daniel has already made significant contributions to [besu](https://github.com/hyperledger/besu/commits?author=daniel-iobuilders) and [besu-native](https://github.com/hyperledger/besu-native/pulls?q=is%3Apr+author%3Adaniel-iobuilders+), this PR proposes to add him as a maintainer.
-
-
-https://github.com/hyperledger/besu/pull/2630
-https://github.com/hyperledger/besu/pull/2321
-https://github.com/hyperledger/besu/pull/2183
-https://github.com/hyperledger/besu/pull/2163
-https://github.com/hyperledger/besu/pull/2066
-https://github.com/hyperledger/besu/pull/2036
-https://github.com/hyperledger/besu/pull/2008
-https://github.com/hyperledger/besu/pull/1933
-https://github.com/hyperledger/besu-native/pull/48
-https://github.com/hyperledger/besu-native/pull/45
-https://github.com/hyperledger/besu-native/pull/39
-https://github.com/hyperledger/besu-native/pull/38
-
-## Vote
-Voting ends 2 weeks from the publication of this PR or once a majority of the maintainers [vote](https://github.com/hyperledger/besu/blob/master/MAINTAINERS.md#maintainers-approval-process).  
-
-For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 23:11:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2984" class=".btn">#2984</a>
-            </td>
-            <td>
-                <b>
-                    Release 21.10.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 22:00:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2983" class=".btn">#2983</a>
-            </td>
-            <td>
-                <b>
-                    Quarterly release branch update and cherry-pick
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Quarterly release for 21.10.0.  In addition to the cumulative release candidates (RC1, RC2, RC3, RC4):
-
-* cherry-pick merge of arrow-glacier
-* update CHANGELOG.md for quarterly release
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 20:38:41 +0000 UTC
     </div>
 </div>
 

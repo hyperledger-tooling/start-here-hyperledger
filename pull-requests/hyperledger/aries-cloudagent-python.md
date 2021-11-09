@@ -130,34 +130,3 @@ Additional info in this issue: #1417
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1469" class=".btn">#1469</a>
-            </td>
-            <td>
-                <b>
-                    Fix connection record response for mobile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-See issue: https://github.com/hyperledger/aries-cloudagent-python/issues/1441
-
-This is a bit of a shot in the dark, the connection auto-replies aren't following the same convention as other protocols.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 22:29:11 +0000 UTC
-    </div>
-</div>
-

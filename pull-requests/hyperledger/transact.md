@@ -256,29 +256,3 @@ Other stabilization related changes included in this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/245" class=".btn">#245</a>
-            </td>
-            <td>
-                <b>
-                    `Workload` CLI feature stabilization updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Stabilization updates for the `workload` feature in transact CLI
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 18:23:56 +0000 UTC
-    </div>
-</div>
-
