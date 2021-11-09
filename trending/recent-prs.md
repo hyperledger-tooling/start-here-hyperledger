@@ -1,13 +1,13 @@
 
-[3021](https://github.com/hyperledger/besu/pull/3021) Fix a double execution of the same method
+[1031](https://github.com/hyperledger/grid/pull/1031) Fix CLI values of global options
 
-[343](https://github.com/hyperledger/cello/pull/343) Fix peer cmd 
+[75](https://github.com/hyperledger-labs/fabric-operations-console/pull/75) improve readme, add crypto secure context details
 
-[254](https://github.com/hyperledger/transact/pull/254) `workload` transact CLI stabilization updates
+[1030](https://github.com/hyperledger/grid/pull/1030) Support `alternate_id` for PO creation and lookup
 
-[637](https://github.com/hyperledger/fabric-private-chaincode/pull/637) WIP Extend FPC Shim support
+[1710](https://github.com/hyperledger/indy-node/pull/1710) bump indy-plenum to version 1.13.0.dev169
 
-[82](https://github.com/hyperledger/iroha-javascript/pull/82) next: actualizing lib + new features
+[3022](https://github.com/hyperledger/besu/pull/3022) Maintainer: add Taccat Isid 
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

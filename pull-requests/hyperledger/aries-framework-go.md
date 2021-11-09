@@ -172,33 +172,3 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3034" class=".btn">#3034</a>
-            </td>
-            <td>
-                <b>
-                    fix: present proof issues in REST controllers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - fixed issues where request body payloads are being ignored by present
-proof REST controllers
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 22:40:31 +0000 UTC
-    </div>
-</div>
-

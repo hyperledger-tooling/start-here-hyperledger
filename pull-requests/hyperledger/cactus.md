@@ -197,29 +197,3 @@ However, there is a bug: the substrate connector cannot connect to the saio runn
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1492" class=".btn">#1492</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): publish v1.0.0-rc.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 22:20:51 +0000 UTC
-    </div>
-</div>
-

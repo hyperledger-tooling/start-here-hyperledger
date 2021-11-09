@@ -461,31 +461,3 @@ I would also like to add support for a custom imageUrl on connection/label, but 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/513" class=".btn">#513</a>
-            </td>
-            <td>
-                <b>
-                    fix(core): improve wallet not initialized error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-To help when user forgot to call `agent.initialize()` (https://github.com/hyperledger/aries-framework-javascript/issues/508)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 18:47:13 +0000 UTC
-    </div>
-</div>
-

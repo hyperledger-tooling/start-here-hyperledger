@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1031" class=".btn">#1031</a>
+            </td>
+            <td>
+                <b>
+                    Fix CLI values of global options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Implements a fix regarding values of global options being
+unavailable to subcommands.
+
+While clap propagates global argument values down to the
+subcommand level, they are not available in intermediate levels.
+This is in contrast to how we must define them in the app.
+
+Previously, the CLI tried to access global arg values at the level
+that they were defined. This fix gets the values at the lowest
+subcommand level.
+
+Resolves: #1026
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 21:59:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1030" class=".btn">#1030</a>
+            </td>
+            <td>
+                <b>
+                    Support `alternate_id` for PO creation and lookup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the Grid PO store, SDE, and CLI to support PO creation and lookup using a properly formatted (`<id_type>:<id>`) alternate ID. This change includes an update to the `grid create po` CLI command to update the flag for specifying an alternate ID to `--alternate-id` from the less descriptive `--id`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 20:42:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1029" class=".btn">#1029</a>
+            </td>
+            <td>
+                <b>
+                    Set explicit feature dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 19:44:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1027" class=".btn">#1027</a>
             </td>
             <td>
@@ -345,32 +436,6 @@ This PR also updates a test to change the name of the workflow state used. This 
     </table>
     <div class="right-align">
         Created At 2021-11-03 17:21:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1009" class=".btn">#1009</a>
-            </td>
-            <td>
-                <b>
-                    Update po create action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Addresses https://github.com/hyperledger/grid/issues/985
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 18:57:56 +0000 UTC
     </div>
 </div>
 

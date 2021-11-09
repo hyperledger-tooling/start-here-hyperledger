@@ -36,30 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/106" class=".btn">#106</a>
-            </td>
-            <td>
-                <b>
-                    Remove "receipt-store" feature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This has been replaced with the stabilized "transaction-receipt-store" feature.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-01 20:24:46 +0000 UTC
-    </div>
-</div>
-

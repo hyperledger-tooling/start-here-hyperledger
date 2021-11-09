@@ -27,11 +27,11 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Fixed peer cmd, so we can use `peer channel` cmd in api-engine container.  There are some changes in this pr. 
-* Refactored the configtx generation by using a template file. 
+                Fix peer cmd, so we can use `peer channel` cmd in api-engine container.  There are some changes in this pr. 
+* Refactor the configtx generation by using a template file. 
 * The admin permission check errors were caused by `MSP ID` mismatched, the configtx defined the MSP as `Org1OrdererMSP`, but `orderer.yaml` and `core.yaml` defined different ones. 
-* Added some environment variables when creating nodes. 
-* Created a docker network to connect node containers, api-engine container and agent container for development purposes. 
+* Add some environment variables when creating nodes. 
+* Create a docker network to connect node containers, api-engine container and agent container for development purposes. 
             </td>
         </tr>
     </table>

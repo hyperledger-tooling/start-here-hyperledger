@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1710" class=".btn">#1710</a>
+            </td>
+            <td>
+                <b>
+                    bump indy-plenum to version 1.13.0.dev169
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                bump indy-plenum to version `1.13.0.dev169`  from the most recent build at https://github.com/hyperledger/indy-plenum/actions/runs/1436144765
+
+Signed-off-by: udosson <r.klemens@yahoo.de>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 20:40:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1709" class=".btn">#1709</a>
             </td>
             <td>

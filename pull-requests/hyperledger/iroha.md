@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1589" class=".btn">#1589</a>
+            </td>
+            <td>
+                <b>
+                    gha fix dockerpush
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix bug
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-08 20:17:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1588" class=".btn">#1588</a>
             </td>
             <td>
