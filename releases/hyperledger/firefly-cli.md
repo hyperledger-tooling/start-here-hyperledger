@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/firefly-cli
         <tr>
             <td colspan="2">
                 <b>
-                    v0.0.37
+                    v0.0.38
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.0.37
+                    v0.0.38
                 </span>
             </td>
             <td>
@@ -35,11 +35,11 @@ a80fccc Merge pull request #115 from hyperledger/pull-all-images
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.37" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.38" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-10-28 13:07:49 +0000 UTC
+        Created At 2021-11-09 18:14:25 +0000 UTC
     </span>
 </div>
 
