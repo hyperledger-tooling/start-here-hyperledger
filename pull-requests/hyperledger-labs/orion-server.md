@@ -183,32 +183,3 @@ Signed-off-by: senthil <cendhu@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/235" class=".btn">#235</a>
-            </td>
-            <td>
-                <b>
-                    Create docker workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Trigger docker build on each PR and tag push to main branch.
-Push docker image with latest repository tag to docker hub only on tag push.
-
-Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 16:09:38 +0000 UTC
-    </div>
-</div>
-

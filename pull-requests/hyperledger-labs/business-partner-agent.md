@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/670" class=".btn">#670</a>
+            </td>
+            <td>
+                <b>
+                    Display build number in settings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - cleaned up delombok, but it is not working -> duplicate class error, needs different paths
+- added possibility to set version from the build pipeline
+- TODO fix smarttag action
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/670"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 14:57:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/669" class=".btn">#669</a>
+            </td>
+            <td>
+                <b>
+                    Feature/UI polish: Decline with reason
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Different changes to improve the Partner UI and exchange tables:
+
+- Credential exchange dialog: Add text field to send an optional decline reason message
+- Presentation exchange dialog: Add text field to send an optional decline reason message
+- Display reason message as tooltip on decline icon
+- Display reason message in timelines in dialogs
+- Change missing trusted issuer warning to info (colors)
+- Add text in addition to icon on revoked status in table
+- Improve icon height in tables
+- Capitalize some texts for consistency
+
+Dev stuff:
+
+- Add local docker tails server for development in local scenario
+- Adapted .env example file
+
+![image](https://user-images.githubusercontent.com/87176157/140942113-d9487b88-1155-4c5f-a751-fff1f9a2719b.png)
+![image](https://user-images.githubusercontent.com/87176157/140942370-cb16eef2-0836-4a2e-916e-60cf8241cb24.png)
+![image](https://user-images.githubusercontent.com/87176157/140942502-1aa482ae-8b6c-40f7-9576-c1db9560a1a0.png)
+![image](https://user-images.githubusercontent.com/87176157/140942582-cf0f447d-cc1c-46a1-bc1d-a6308adc415c.png)
+
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/669"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 14:30:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/668" class=".btn">#668</a>
             </td>
             <td>
@@ -33,6 +117,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
 2. Disable auto respond credential request flag. This one is a bit tricky as in v1 indy a credential request event is always preceeded by an offer, so here we can always auto respond because the user has already accepted the offer. Whereas in v2 a holder can initiate the flow directly. This means running an agent with this auto flag enabled results in auto issuance, which could be a security issue when running none test bpa instances. So I changed the behaviour in the v2 handler that credential requests without a prior offer are denied. We can implement this flow later for v2, which is a nice shortcut feature.
 3. Verry basic proof request name resolution. when receiving v1 proof proposals
 4. Auto accepting crredential offer when offer == proposal, otherwise manual acceptance is required
+5. Added v2 option to request verification flow
 
 
 
@@ -76,40 +161,6 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </table>
     <div class="right-align">
         Created At 2021-11-05 09:54:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/666" class=".btn">#666</a>
-            </td>
-            <td>
-                <b>
-                    Bug: get Cred Ex for review was triggering state change
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When the issuer wants to review the credential exchange (what we issued and whether it was accepted/declined), we just need the data from the db. Was calling the full check to see if it is in db and wallet (important for holder), this was triggering a state change to problem once the credentials exchange is auto-removed from the wallet - so this little fix ensures we can read historical data stored in BPA db. However, the original call that compares db and wallet is important (particularly for the holder) as the conversation/exchange is ongoing. 
-
-Not sure what is going on with my local docker, but it was NOT picking up the changes to acapy images, so my local dev was using a slightly older version and this wasn't an issue.  🤷 
-
-Signed-off-by: Jason Sherman <jsherman@parcsystems.ca>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/666"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 17:30:20 +0000 UTC
     </div>
 </div>
 

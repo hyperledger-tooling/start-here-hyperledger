@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/256" class=".btn">#256</a>
+            </td>
+            <td>
+                <b>
+                    Append -experimental to packages with experimental features
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Without this commit, it's impossible to differentiate packages built
+with experimental features without installing the package and running
+commands to test.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 16:27:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/255" class=".btn">#255</a>
+            </td>
+            <td>
+                <b>
+                    Retire Eloá Franca Verona from maintainers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 16:17:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/254" class=".btn">#254</a>
             </td>
             <td>
@@ -227,32 +283,6 @@ Other stabilization related changes included in this PR:
     </table>
     <div class="right-align">
         Created At 2021-11-02 20:52:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/246" class=".btn">#246</a>
-            </td>
-            <td>
-                <b>
-                    Remove "database-lmdb" from experimental
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change removes the feature "database-lmdb" from the set of experimental features, as it is already stable and included under the default features.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 18:02:27 +0000 UTC
     </div>
 </div>
 

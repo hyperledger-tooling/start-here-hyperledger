@@ -245,36 +245,3 @@ JWT creation can be moved to PKI job
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1736" class=".btn">#1736</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] Added new tables for sql db tessera
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: alvaropicazo <alvaro.picazo.haase@accenture.com>
-
-**Changelog**
-- Added new tables creation which fix some sql tables missing errors logs in tessera node chart
-
-**Linked issue**
-#1551 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 17:00:40 +0000 UTC
-    </div>
-</div>
-

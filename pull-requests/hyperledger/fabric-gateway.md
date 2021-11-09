@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/305" class=".btn">#305</a>
+            </td>
+            <td>
+                <b>
+                    Additional node module information
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 14:49:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/304" class=".btn">#304</a>
+            </td>
+            <td>
+                <b>
+                    More specific errors in Node API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add EndorseError, SubmitError and CommitStatusError to better differentiate the point in the submit flow where a failure occurs.
+
+Contributes to #302 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 14:30:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/300" class=".btn">#300</a>
             </td>
             <td>
@@ -374,34 +428,6 @@ Contributes to #198
     </table>
     <div class="right-align">
         Created At 2021-11-03 15:52:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/277" class=".btn">#277</a>
-            </td>
-            <td>
-                <b>
-                    Fix scenario tests for latest fabric updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changes in fabric gateway relating to evaluate retry logic and error message text have broken some of the error scenario tests.  This commit fixes them.
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 14:43:41 +0000 UTC
     </div>
 </div>
 
