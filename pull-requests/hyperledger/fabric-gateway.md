@@ -405,31 +405,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/275" class=".btn">#275</a>
-            </td>
-            <td>
-                <b>
-                    Timeouts for Go API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Removed chaincode events default call options from samples since it makes little sense to set an arbitrary timeout on a streaming call.
-
-Contributes to #198 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 12:22:31 +0000 UTC
-    </div>
-</div>
-

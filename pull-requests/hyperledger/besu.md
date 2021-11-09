@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3027" class=".btn">#3027</a>
+            </td>
+            <td>
+                <b>
+                    [3026] Updating version of disovery dependency 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+The discovery dependency is responsible for handling the v5 version of the discovery process of peers. This PR is updating the version to the latest. The project changed versioning after 0.5.0. The following version was 21.10.0 as can be seen on
+the [release page](https://github.com/ConsenSys/discovery/releases).
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #3027 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 10:33:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3025" class=".btn">#3025</a>
+            </td>
+            <td>
+                <b>
+                    [3011] Calling SignatureAlgorithmFactory::resetInstance before test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+The NodeKeyTest might fail in case the SignatureAlgorithmFactory has an
+instance already set from some previous test.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+fixes #3011 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 10:23:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3024" class=".btn">#3024</a>
             </td>
             <td>
@@ -250,7 +334,7 @@ Add support for additional JWT auth algorithms and associated tests
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dev experience</span><span class="chip">TeamRevenant</span>
             </td>
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
