@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
             </td>
             <td>
                 <b>
-                    Get rid of remaining auto flags
+                    Disable auto respond credential request
                 </b>
             </td>
         </tr>
@@ -29,9 +29,10 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
             <td>
                 This PR is about fixing some remaining issues in the exchange states.
 
-1. Store credential information on credential issued (issuer) and credential received (holder) events, as the acked event is only a courtesy and might not be implemented by all agents.
+1. Store credential information on credential issued (only v2, not implemented in v1), as the acked event is only a courtesy and might not be implemented by all agents.
 2. Disable auto respond credential request flag. This one is a bit tricky as in v1 indy a credential request event is always preceeded by an offer, so here we can always auto respond because the user has already accepted the offer. Whereas in v2 a holder can initiate the flow directly. This means running an agent with this auto flag enabled results in auto issuance, which could be a security issue when running none test bpa instances. So I changed the behaviour in the v2 handler that credential requests without a prior offer are denied. We can implement this flow later for v2, which is a nice shortcut feature.
-3. Disable auto store credential on the holder side. 
+3. Verry basic proof request name resolution. when receiving v1 proof proposals
+4. Auto accepting crredential offer when offer == proposal, otherwise manual acceptance is required
 
 
 

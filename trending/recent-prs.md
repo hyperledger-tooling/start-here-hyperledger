@@ -1,13 +1,13 @@
 
-[344](https://github.com/hyperledger/fabric-test/pull/344) Update to Node 16.4.0
+[3027](https://github.com/hyperledger/besu/pull/3027) [3026] Updating version of disovery dependency 
 
-[3024](https://github.com/hyperledger/besu/pull/3024) Prepare for 21.10.2-SNAPSHOT
+[3025](https://github.com/hyperledger/besu/pull/3025) [3011] Calling SignatureAlgorithmFactory::resetInstance before test
 
-[3044](https://github.com/hyperledger/aries-framework-go/pull/3044) feat: Credential Manifest
+[1482](https://github.com/hyperledger/aries-cloudagent-python/pull/1482) Clarify instructions in Acme Controller Workshop
 
-[383](https://github.com/hyperledger/aries-agent-test-harness/pull/383) Changes by create-pull-request action
+[177](https://github.com/hyperledger/iroha-java/pull/177) Implemented conversion to fixed point IR-135
 
-[3023](https://github.com/hyperledger/besu/pull/3023) Release 21.10.1
+[244](https://github.com/hyperledger-labs/orion-server/pull/244) Solve replicator close deadlock
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

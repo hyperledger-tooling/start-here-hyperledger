@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1482" class=".btn">#1482</a>
+            </td>
+            <td>
+                <b>
+                    Clarify instructions in Acme Controller Workshop
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #1477.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 09:38:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1476" class=".btn">#1476</a>
             </td>
             <td>
@@ -99,34 +125,6 @@ WARNING: error while formatting arguments for aries_cloudagent.protocols.coordin
     </table>
     <div class="right-align">
         Created At 2021-11-02 14:56:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1472" class=".btn">#1472</a>
-            </td>
-            <td>
-                <b>
-                    Fixed potential deadlocks by opening sessions only on demand (Wallet endpoints)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Removed potential deadlocks for Wallet endpoints
-
-Additional info in this issue: #1417 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 09:10:47 +0000 UTC
     </div>
 </div>
 

@@ -853,30 +853,3 @@ Closes #306.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/337" class=".btn">#337</a>
-            </td>
-            <td>
-                <b>
-                    Revision to secure-identity doc edits by opentaps main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Some fixes to the secure-identities docs.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 10:54:00 +0000 UTC
-    </div>
-</div>
-

@@ -425,39 +425,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/516" class=".btn">#516</a>
-            </td>
-            <td>
-                <b>
-                    feat(core): update agent label and imageUrl plus per connection label and imageUrl
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #506 
-
-This pr contains:
-
-- Support for updating agent label
-- Support for custom label on connection/invitation
-
-I would also like to add support for a custom imageUrl on connection/label, but before that i would like some feedback on this draft.
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 07:37:40 +0000 UTC
-    </div>
-</div>
-
