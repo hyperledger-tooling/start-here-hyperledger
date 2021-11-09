@@ -31,6 +31,7 @@ permalink: /pull-requests/hyperledger/iroha-javascript
 - Split crypto package into separated ones
 - API Extractor rollup + reports
 - API Documenter + vitepress docs
+- Use gulp for scripting
             </td>
         </tr>
     </table>
