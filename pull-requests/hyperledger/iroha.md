@@ -593,9 +593,11 @@ Add new endpoint which listens on the specific port and reports internal metrics
 ![2021-11-08T205724+090000](https://user-images.githubusercontent.com/49983831/140738273-89423751-c7df-47fa-95a7-67b4e141608e.png)
 
 ### Issue
-Close #1387
+Closes #1387
 
 ### Benefits
+
+Internal metrics can now be gathered non-invasively. 
 
 ### Possible Drawbacks
             </td>

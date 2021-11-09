@@ -1,13 +1,13 @@
 
-[1031](https://github.com/hyperledger/grid/pull/1031) Fix CLI values of global options
+[344](https://github.com/hyperledger/fabric-test/pull/344) Update to Node 16.4.0
 
-[75](https://github.com/hyperledger-labs/fabric-operations-console/pull/75) improve readme, add crypto secure context details
+[3024](https://github.com/hyperledger/besu/pull/3024) Prepare for 21.10.2-SNAPSHOT
 
-[1030](https://github.com/hyperledger/grid/pull/1030) Support `alternate_id` for PO creation and lookup
+[3044](https://github.com/hyperledger/aries-framework-go/pull/3044) feat: Credential Manifest
 
-[1710](https://github.com/hyperledger/indy-node/pull/1710) bump indy-plenum to version 1.13.0.dev169
+[383](https://github.com/hyperledger/aries-agent-test-harness/pull/383) Changes by create-pull-request action
 
-[3022](https://github.com/hyperledger/besu/pull/3022) Maintainer: add Taccat Isid 
+[3023](https://github.com/hyperledger/besu/pull/3023) Release 21.10.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
