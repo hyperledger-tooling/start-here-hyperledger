@@ -108,6 +108,7 @@ This would also make the error handling shorter since we often log errors when h
 - [ ] 11. Add `NewAssetFundingError` since we also have `NewFundingTimeoutError` and they need each other.
 - [ ] 12. Add `NewAdjudicatorReq`.
 - [ ] `WithCommitTx` is missing a comment.
+- [ ] `local/watcher.go` contains two wrong usages of `Debugf`
 
 Please extend this list.  
 :point_right: Related issues will be moved to Milestone *Beautification*.
