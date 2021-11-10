@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3047" class=".btn">#3047</a>
+            </td>
+            <td>
+                <b>
+                    fix: Crytp signature verification using P384 key from JWK import 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since P-384 DER format was using Tink's default signature template which uses SHA512, it was causing keys imported from a JWK to fail.
+This change uses a template with SHA384 instead to keep signature/verification consistent in all cases (native kms key vs JWK imported key).
+
+
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 16:54:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3046" class=".btn">#3046</a>
             </td>
             <td>

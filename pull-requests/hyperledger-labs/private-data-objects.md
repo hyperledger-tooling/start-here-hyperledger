@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/334" class=".btn">#334</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/338" class=".btn">#338</a>
             </td>
             <td>
                 <b>
-                    Update Wawaka benchmarking setup to use WASI
+                    Upgrade openssl and fix secp256k1 dependency
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 
             </td>
             <td>
-                Minor updates to cmake files and run scripts to fix Wawaka benchmarking setup. 
-
-TODO:
-- [ ] Test in HW mode
-- [ ] Test with #329 
+                Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-17 00:20:39 +0000 UTC
+        Created At 2021-11-10 17:51:07 +0000 UTC
     </div>
 </div>
 

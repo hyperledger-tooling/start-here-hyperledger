@@ -14,6 +14,178 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1600" class=".btn">#1600</a>
+            </td>
+            <td>
+                <b>
+                    Docs: Fix Starting Container Instructions for RocksDB Iroha
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sara <lira.lemur@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Fixing docs a little - to start containers without PostgreSQL when working with RDB
+
+### Issue
+
+Reported by a maintainer
+
+### Benefits
+
+Better Docs
+
+### Possible Drawbacks
+
+Should not be there
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 15:37:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1599" class=".btn">#1599</a>
+            </td>
+            <td>
+                <b>
+                    [Fix] 1502 Return first sources in error responses in Torii
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                
+### Description of the Change
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+Closes #1502 
+
+
+### Benefits
+
+Torii produces more detailed error messages. 
+
+### Possible Drawbacks
+
+Error sources are added to all errors. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 13:00:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1598" class=".btn">#1598</a>
+            </td>
+            <td>
+                <b>
+                    [Refactor] 1529: structured logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span><span class="chip">iroha2</span><span class="chip">refactor</span>
+            </td>
+            <td>
+                Signed-off-by: Marin Veršić <marin.versic101@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Refactored logging messages to adhere to structured logging format
+
+* Use structured logging
+* Use explicit `field` names
+
+### Issue
+
+Closes #1529 
+
+### Benefits
+
+Structured logging makes log messages more consistent and easier to parse.
+Using explicit `field` names prevents accidental changes in log format if local variable names are modified. If clients depend on log parsing this will make log API more robust
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 12:26:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1597" class=".btn">#1597</a>
             </td>
             <td>
@@ -542,46 +714,6 @@ This changeset also includes features ursa,burrow if they are to `irohad --versi
     </table>
     <div class="right-align">
         Created At 2021-11-04 14:45:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1576" class=".btn">#1576</a>
-            </td>
-            <td>
-                <b>
-                    Add endpoint for internal metrics for administration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">metrics</span>
-            </td>
-            <td>
-                ### Description of the Change
-Add new endpoint which listens on the specific port and reports internal metrics:
-* Number of connected peers
-* Number of committed blocks
-
-![2021-11-08T205724+090000](https://user-images.githubusercontent.com/49983831/140738273-89423751-c7df-47fa-95a7-67b4e141608e.png)
-
-### Issue
-Closes #1387
-
-### Benefits
-
-Internal metrics can now be gathered non-invasively. 
-
-### Possible Drawbacks
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 16:47:53 +0000 UTC
     </div>
 </div>
 

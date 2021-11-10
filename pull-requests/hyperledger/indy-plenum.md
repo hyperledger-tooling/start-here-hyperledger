@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1577" class=".btn">#1577</a>
+            </td>
+            <td>
+                <b>
+                    pinned version of importlib-metadata because of issue with fpm
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR pins the version of `importlib-metadata` to `v3.10.01`. From version `4.0.0`  on, the resulting package ends in `python3-importlib-metadata_0.0.0_amd64.deb`.
+
+The issue can be seen at: https://github.com/hyperledger/indy-plenum/runs/4166593170?check_suite_focus=true#step:5:5304 
+
+Signed-off-by: udosson <r.klemens@yahoo.de>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 15:47:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-plenum/pull/1576" class=".btn">#1576</a>
             </td>
             <td>
@@ -154,34 +184,6 @@ Signed-off-by: udosson <r.klemens@yahoo.de>
     </table>
     <div class="right-align">
         Created At 2021-11-04 13:17:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1570" class=".btn">#1570</a>
-            </td>
-            <td>
-                <b>
-                    added importlib-metadata as debian package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added missing 3rd party dependency `importlib-metadata` to the build process of the Debian packages.
-
-Signed-off-by: udosson <r.klemens@yahoo.de>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 15:51:39 +0000 UTC
     </div>
 </div>
 

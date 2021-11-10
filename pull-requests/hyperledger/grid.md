@@ -490,29 +490,3 @@ This PR also updates a test to change the name of the workflow state used. This 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1014" class=".btn">#1014</a>
-            </td>
-            <td>
-                <b>
-                    Stabilization changes for error response
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Part of https://github.com/hyperledger/grid/issues/1012
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 17:21:28 +0000 UTC
-    </div>
-</div>
-

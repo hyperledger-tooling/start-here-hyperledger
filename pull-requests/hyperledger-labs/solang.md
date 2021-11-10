@@ -53,7 +53,11 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                This is a draft PR for the common subexpression elimination. Some tests are still missing and there are temporary test files that will be removed when the PR is ready for review.
+                This PR implements common subexpression elimination for the Solang compiler. It runs an available expression analysis during the first pass. Then, during a second pass we exchange common expressions by a temporaries.
+
+Further documentation about the project will be added to Solang docs in another PR.
+
+This PR is the last milestone for the Linux Mentorship for the Hyperledger foundation. For more information about the project, please check the [wiki](https://wiki.hyperledger.org/display/INTERN/Project+plan+-+Solang+compiler+passes+2021).
             </td>
         </tr>
     </table>

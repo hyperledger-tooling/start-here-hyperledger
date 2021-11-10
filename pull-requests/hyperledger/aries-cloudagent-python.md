@@ -90,33 +90,3 @@ Signed-off-by: Elias Strehle <elias@circulartree.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1475" class=".btn">#1475</a>
-            </td>
-            <td>
-                <b>
-                    Update credential and proof mappings to allow negative encoded values
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-See issue https://github.com/hyperledger/aries-cloudagent-python/issues/1462
-
-@jsyro
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 18:13:53 +0000 UTC
-    </div>
-</div>
-
