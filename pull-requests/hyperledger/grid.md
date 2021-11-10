@@ -14,6 +14,81 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1033" class=".btn">#1033</a>
+            </td>
+            <td>
+                <b>
+                    Add paging query string support, tests, and docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a rewrite of the paging module with several notable differences
+from the original.
+
+The first and most notable change is the addition of arbitary query
+string support in the base URL, so we can add filters to the paging
+URLs. To facilitate this, this change uses the Rust url crate for both
+the external API and internal URL representation. This change also adds
+the serde feature to the url library to allow the Paging object to
+serialize.
+
+The second change is to modify the returned object to make the "prev"
+link optional. This mirrors "next" which was already optional.
+
+Other notable changes include splitting up the internal structure for
+ease of reading and testing, added tests to verify offset and
+serialization output, and added documentation in anticipation of
+Paging module stabilization.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 18:29:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1032" class=".btn">#1032</a>
+            </td>
+            <td>
+                <b>
+                    Change keygen priv key file permissions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Changes private key file perms from 640 to 600. This matches
+ssh-keygen (as a standard).
+
+Resolves: #1020
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 18:20:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1031" class=".btn">#1031</a>
             </td>
             <td>
@@ -37,6 +112,8 @@ This is in contrast to how we must define them in the app.
 Previously, the CLI tried to access global arg values at the level
 that they were defined. This fix gets the values at the lowest
 subcommand level.
+
+These changes also changed the formatting required by `cargo fmt`.
 
 Resolves: #1026
 

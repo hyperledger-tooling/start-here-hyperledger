@@ -42,33 +42,3 @@ permalink: /pull-requests/hyperledger/firefly-ui
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/70" class=".btn">#70</a>
-            </td>
-            <td>
-                <b>
-                    Fix token accounts to align with latest APIs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <img width="1943" alt="FireFly_Explorer" src="https://user-images.githubusercontent.com/1993829/139951026-7221bafd-2233-46f7-8f4d-196bb5cbbdab.png">
-
-<img width="1915" alt="FireFly_Explorer" src="https://user-images.githubusercontent.com/1993829/139969408-f5da3454-ee96-4a3e-aaa6-848529b468f7.png">
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 21:10:22 +0000 UTC
-    </div>
-</div>
-

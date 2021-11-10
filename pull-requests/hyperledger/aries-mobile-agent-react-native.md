@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/125" class=".btn">#125</a>
+            </td>
+            <td>
+                <b>
+                    Add application artwork and icon sets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+I added the application icon sets. They'll be needed if anyone wants to upload the app, even for references or demo purposes, to iTunes. I also sent `ENABLE_BITCODE` to `false` for release builds because it's disabled for Indy SDK and both need to match.
+
+- Add Android icon set;
+- Add iOS icon set;
+- Disable bitcode for iOS release builds (required because Indy SDK also has it disabled).
+
+# Related Issues
+
+Fixes #124
+
+# Pull Request Checklist
+
+This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+
+If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [x] Run prettier: `npm run style-format`
+- [x] Updated **documentation** for changed code and new or modified features.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 19:23:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/120" class=".btn">#120</a>
             </td>
             <td>
