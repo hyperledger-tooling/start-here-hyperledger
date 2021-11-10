@@ -28,8 +28,8 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 TODO:
- - discuss cache overriding parent block (instead of block being produced) - maybe we should only set the cache once the block is successfully created.
- - discuss cache getting set every read
+ - discuss that the cache is overriding validators for parent block (instead of block being produced) - maybe we should only set the cache once the block is successfully created? In reality this shouldn't matter since the parent block should be a contract-mode block and therefore have no cache entry.
+ - discuss cache not just getting set once, but every execution of ForkingValidatorProvider.getValidators while producing the transition block.
  - try to recreate bug where network was stopped before node2 imported block, then got InvalidBlock
 
 https://github.com/hyperledger/besu/issues/3019
@@ -332,6 +332,18 @@ fixes #2856
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+This PR allows the user to specify a JWT key algorithm when starting a node with http auth, and the algorithm will then be used with the provided public key.
+
+- Added acceptance tests with login and authorised routes example usage
+- Added unit tests for parsing of the public key file and creating JWTAuthOptions
+- Added command line argument 'rpc-http-authentication-jwt-algorithm'
+- Added test public key - JWT sets
+- Added to change log
+
+## Note for reviewers
+
+The deprecation warnings will be flagged by sonar cloud, however it seems we're on a version of vert.x where some methods are flagged as deprecated but the replacement is not available.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

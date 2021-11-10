@@ -153,33 +153,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/236" class=".btn">#236</a>
-            </td>
-            <td>
-                <b>
-                    build doc on pull request but don't deploy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                For pull-request, build the documentation. This will catch all errors before merging the PR.
-
-For push-request, build and deploy the documentation. This will deploy the pages on `gh-pages` channel. 
-
-Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 05:43:33 +0000 UTC
-    </div>
-</div>
-

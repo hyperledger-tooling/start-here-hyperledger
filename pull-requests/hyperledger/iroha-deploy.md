@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-deploy
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    RDB migration role for ansible
+                    cleanup the repo from deprecated k8s files
                 </b>
             </td>
         </tr>
@@ -27,12 +27,23 @@ permalink: /pull-requests/hyperledger/iroha-deploy
                 
             </td>
             <td>
-                <nil>
+                # Cleanup the repo from deprecated k8s files
+
+## Changes
+
+1. Remove ansible/roles/iroha-k8s role.
+2. Remove the inventory file associated with the iroha-k8s role.
+3. Add a new inventory file for remote iroha deployment with dummy data.
+4. Add simpel documentation for the repo.
+
+## Author
+
+Signed-off-by: Ahmed Elkashef <aelkashef@soramitsu.co.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-02 14:55:17 +0000 UTC
+        Created At 2021-11-10 04:05:36 +0000 UTC
     </div>
 </div>
 
