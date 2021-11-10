@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/73" class=".btn">#73</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/75" class=".btn">#75</a>
             </td>
             <td>
                 <b>
-                    augmented block header delivery service
+                    update json query json
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                Signed-off-by: senthil <cendhu@gmail.com>
+                include unindexed attribute in the value
+
+Signed-off-by: senthil <cendhu@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-02 13:11:34 +0000 UTC
+        Created At 2021-11-10 14:23:24 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/256" class=".btn">#256</a>
+            </td>
+            <td>
+                <b>
+                    Pkg migration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Remove folder `pkg/`
+- Replace import paths
+- Work-around missing vanity import path, therefore WIP until https://github.com/perun-network/poly-go/issues/1
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 15:41:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/255" class=".btn">#255</a>
             </td>
             <td>
@@ -33,34 +61,6 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </table>
     <div class="right-align">
         Created At 2021-11-07 18:42:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/252" class=".btn">#252</a>
-            </td>
-            <td>
-                <b>
-                    :bug: [client] Start watching for sub-channel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #251 
-
-Maybe add tests for watching sub-channels. We only test watching ledger channels.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 17:02:53 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3038" class=".btn">#3038</a>
+            </td>
+            <td>
+                <b>
+                    Reword evaluate() error message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When no suitable peers are available to evaluate a transaction, the registry returns an error.  The message should be reworded to make clear it is being used for evaluation rather than endorsement.
+
+Resolves https://github.com/hyperledger/fabric-gateway/issues/282
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 13:17:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3037" class=".btn">#3037</a>
             </td>
             <td>
@@ -216,38 +247,6 @@ This change fixes a typo in a comment in `main/common/ledger/blkstorage/blockfil
     </table>
     <div class="right-align">
         Created At 2021-11-04 18:13:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3016" class=".btn">#3016</a>
-            </td>
-            <td>
-                <b>
-                    Fix typo in comment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-This change fixes a typo in a comment in `gossip/privdata/pvtdataprovider.go`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 12:37:50 +0000 UTC
     </div>
 </div>
 
