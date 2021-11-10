@@ -825,31 +825,3 @@ Closes #188.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/338" class=".btn">#338</a>
-            </td>
-            <td>
-                <b>
-                    feat(CI): Add linting and tests for datalock chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds linting and chaincode tests to the existing CI pipeline for the [datalock chaincode](https://github.com/hyperledger-labs/blockchain-carbon-accounting/tree/main/utility-emissions-channel/chaincode/datalock). It uses the same scripts as specified in the Makefile. I have used [this action](https://github.com/marketplace/actions/run-golangci-lint) to setup the golangcli-lint tool.
-
-Closes #306.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 19:58:57 +0000 UTC
-    </div>
-</div>
-

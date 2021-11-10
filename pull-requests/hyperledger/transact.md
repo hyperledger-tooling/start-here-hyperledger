@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/257" class=".btn">#257</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize "workload" by moving to stable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Stabilize the "workload" feature by moving it to stable
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 21:26:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/256" class=".btn">#256</a>
             </td>
             <td>
@@ -231,58 +257,6 @@ Other stabilization related changes included in this PR:
     </table>
     <div class="right-align">
         Created At 2021-11-03 20:08:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/248" class=".btn">#248</a>
-            </td>
-            <td>
-                <b>
-                    Add release notes for 0.3.13
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 21:55:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/247" class=".btn">#247</a>
-            </td>
-            <td>
-                <b>
-                    Remove openssl dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change removes the openssl dependency.  This library was only used for SHA-512 hashing.  This same functionality can be replaced with the already-included sha2 library.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-02 20:52:46 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/307" class=".btn">#307</a>
+            </td>
+            <td>
+                <b>
+                    Wrap gRPC ServiceError thrown by chaincode events as GatewayError
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also corrected the gRPC status code import for some unit tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 19:30:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/305" class=".btn">#305</a>
             </td>
             <td>

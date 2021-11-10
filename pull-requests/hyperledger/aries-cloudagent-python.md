@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1483" class=".btn">#1483</a>
+            </td>
+            <td>
+                <b>
+                    fix: create static doc use empty endpoint if None
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This enables us to use the undelivered queue with static connections by not specifying the endpoint.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-09 19:58:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1482" class=".btn">#1482</a>
             </td>
             <td>
