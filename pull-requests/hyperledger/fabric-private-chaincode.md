@@ -18,19 +18,19 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
             </td>
             <td>
                 <b>
-                    WIP Extend FPC Shim support
+                    Extend FPC Shim support
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">feature</span><span class="chip">comp/shim</span>
             </td>
             <td>
                 - add get_signed_proposal
 - add get_tx_id
 - add get_channel_id
-- add get_transient_data
+- add get_creator
 
 Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
             </td>

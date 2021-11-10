@@ -38,29 +38,3 @@ Likely caused by the build picking up new eslint versions.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/527" class=".btn">#527</a>
-            </td>
-            <td>
-                <b>
-                    Fix lint errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Likely caused by the build picking up new eslint versions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 10:37:21 +0000 UTC
-    </div>
-</div>
-

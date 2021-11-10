@@ -14,17 +14,17 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/89" class=".btn">#89</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/90" class=".btn">#90</a>
             </td>
             <td>
                 <b>
-                    Update of merged pyo3 library
+                    Fix protocol issues and add tests
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">bug</span><span class="chip">iroha2</span>
             </td>
             <td>
                 Signed-off-by: i1i1 <vanyarybin1@live.ru>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-21 08:46:14 +0000 UTC
+        Created At 2021-11-10 10:30:36 +0000 UTC
     </div>
 </div>
 

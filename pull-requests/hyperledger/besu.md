@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3031" class=".btn">#3031</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] add download link for 21.10.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+added download link and hash for 21.10.1
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 08:27:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3028" class=".btn">#3028</a>
             </td>
             <td>
@@ -621,45 +653,6 @@ gives me the expected result, with also this logged:
     </table>
     <div class="right-align">
         Created At 2021-11-04 01:38:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2992" class=".btn">#2992</a>
-            </td>
-            <td>
-                <b>
-                    Update bls12-381 native library
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-The native library for bls12-381 is updated to the latest version to add support for M1 (ARM) processors.
- 
-## Fixed Issue(s)
-Fixes #2668 
-
-## Changelog
-
-- [x ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 11:41:07 +0000 UTC
     </div>
 </div>
 

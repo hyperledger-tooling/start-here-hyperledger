@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/207" class=".btn">#207</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/209" class=".btn">#209</a>
             </td>
             <td>
                 <b>
-                    cast type to java.nio.Buffer to flip()
+                    For 'application errors' set response to the COMPLETED
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                When starting java chaincode as a service with shim 2.2.3 on JDK8, `epochBytes.flip()` throws `java.lang.NoSuchMethodError: java.nio.ByteBuffer.flip()`, which would make the response of the invoke request from peer miss, and peer would report timeout.
-
-Signed-off-by: Wu Yiyang <wuyiyang1992@qq.com>
+                Previously this was set to error which means that the entire chaincode failed, not
+a 'good' error from the application level code
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-29 18:22:33 +0000 UTC
+        Created At 2021-11-10 11:10:50 +0000 UTC
     </div>
 </div>
 
