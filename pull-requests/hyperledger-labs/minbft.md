@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/208" class=".btn">#208</a>
+                PR <a href="https://github.com/hyperledger-labs/minbft/pull/210" class=".btn">#210</a>
             </td>
             <td>
                 <b>
-                    ReqViewChange message handling
+                    Update linters
                 </b>
             </td>
         </tr>
@@ -31,16 +31,13 @@ permalink: /pull-requests/hyperledger-labs/minbft
 
 <!-- describe the purpose of the pull request, as well as its benefits
      and possible concerns related to the proposed changes -->
-This pull request fully implements handling of ReqViewChange message type.
-
-<!-- and reference any issues resolved by the pull request, e.g. #123 -->
-Resolves: #177 
+This pull request updates the set of linters enabled in `golangci-lint` configuration.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-24 21:14:02 +0000 UTC
+        Created At 2021-11-10 10:36:33 +0000 UTC
     </div>
 </div>
 

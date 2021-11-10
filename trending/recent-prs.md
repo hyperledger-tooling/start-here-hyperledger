@@ -1,13 +1,13 @@
 
-[32](https://github.com/hyperledger/iroha-deploy/pull/32) cleanup the repo from deprecated k8s files
+[138](https://github.com/hyperledger-labs/fabric-token-sdk/pull/138) rm off chain
 
-[361](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/361) REST API for ws-wallet web-socket-key request
+[1576](https://github.com/hyperledger/indy-plenum/pull/1576) added versions of 3rd party packages to Debian artifacts
 
-[258](https://github.com/hyperledger/transact/pull/258) `workload-runner` stabilization updates - fix batch status check
+[209](https://github.com/hyperledger/fabric-chaincode-java/pull/209) For 'application errors' set response to the COMPLETED
 
-[3037](https://github.com/hyperledger/fabric/pull/3037) no gateway via cli - tutorials
+[532](https://github.com/hyperledger/fabric-samples/pull/532) Setup basic HA features for the Peers
 
-[257](https://github.com/hyperledger/transact/pull/257) Stabilize "workload" by moving to stable
+[210](https://github.com/hyperledger-labs/minbft/pull/210) Update linters
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

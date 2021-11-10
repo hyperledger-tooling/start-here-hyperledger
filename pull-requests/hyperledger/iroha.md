@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1597" class=".btn">#1597</a>
+            </td>
+            <td>
+                <b>
+                    Tests for tools iroha_migrate, iroha_wsv_diff
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Valid blocks store required to test on CI.
+To check these tests locally, insert valid blockstore to directory `test/tool/block_store_7000` or edit `test/tool/CMakeLists.txt` passing option `-block_store_path` to `test_tool_wsv_checker.sh`
+
+Closes #1417 Closes #1418
+ToDo #1473
+
+## #1472 should be merged first
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 08:05:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1589" class=".btn">#1589</a>
             </td>
             <td>
@@ -229,48 +262,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-11-08 10:41:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1583" class=".btn">#1583</a>
-            </td>
-            <td>
-                <b>
-                    DRAFT Fix `docker-test`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
-
-
-### Description of the Change
-Fix Docker test
-
-### Issue
-None yet
-
-
-### Benefits
-
-Docker test runs
-
-### Possible Drawbacks
-
-Docker test might not run
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-08 04:46:53 +0000 UTC
     </div>
 </div>
 

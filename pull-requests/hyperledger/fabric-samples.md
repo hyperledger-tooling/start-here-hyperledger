@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/532" class=".btn">#532</a>
+            </td>
+            <td>
+                <b>
+                    Setup basic HA features for the Peers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add a new label to each peer to mark which org it is in
+- Create new service per org, that matches this label - so the service can pick from one of multiple pods
+- Update the kubeproxy to give more choice of ha stratergies
+- Update the application configmaps and samples to refer to this new service rather than specific peers
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 10:57:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/531" class=".btn">#531</a>
             </td>
             <td>
@@ -178,37 +209,6 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-03 20:57:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/527" class=".btn">#527</a>
-            </td>
-            <td>
-                <b>
-                    Use built-in Peer chaincode-as-a-server builder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Using the variant of the peer's docker container from https://github.com/hyperledger/fabric/pull/2990  this PR adapts the K8S deployment to use this inbuilt chaincode builder.
-
-- creates two deployments of the chaincode for each peer
-- uses the builders ability to template the fields in the connection.json
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 10:08:54 +0000 UTC
     </div>
 </div>
 
