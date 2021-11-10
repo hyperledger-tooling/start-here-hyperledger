@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/258" class=".btn">#258</a>
+            </td>
+            <td>
+                <b>
+                    `workload-runner` stabilization updates - fix batch status check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR modifies the process in which batch statuses are checked when running a workload.
+
+Previously the process to check the statuses of submitted batches was to call the `check_batch_status` function at the end of each loop in the `Worker` thread. However, because it takes a while for batches to be processed and return their status, the list of batch status links that needed to be checked each loop got very long after running a workload for a short period of time and slowed down the workload substantially. 
+
+This PR changes this process to use a thread instead. This way the process can run in parallel with the worker thread and doesn't require the worker thread to wait for the statuses to be checked each iteration of the loop. The worker thread and the batch status checker thread share a `ExpectedBatchResults` hashmap so that the worker can add links to the list as batches are submitted and the batch status checker can check the links and then remove them once the status of a batch has been confirmed.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 01:06:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/257" class=".btn">#257</a>
             </td>
             <td>
