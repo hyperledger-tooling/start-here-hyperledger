@@ -14,6 +14,107 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3039" class=".btn">#3039</a>
+            </td>
+            <td>
+                <b>
+                    Shift Optimization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Reduce shift calculations to shifts that may have an actual result.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-11 05:50:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3037" class=".btn">#3037</a>
+            </td>
+            <td>
+                <b>
+                    Maintainers: move to emeritus x 3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+I propose moving the following maintainers to Emeritus status, pursuant to the inactivity clause. These maintainers have had no activity during Q3 2021 (since July 2021):
+* @edwardmac - last commit was in Nov 2020
+* @rain-on - last commit was in Mar 2021
+* @davemec - last commit was in May 2021
+
+We very much appreciate their contributions but moving their status to emeritus (and thus revoking PR approval privileges) is in the interest of an orderly project. If any of these maintainers express in this PR that they intend to make contributions in the next quarter, then they will not be moved to emeritus status.
+I propose this vote be open until either an absolute majority of active maintainers (13) votes for the same outcome, or until two weeks has passed (25 Nov 2021), after which a voting majority will determine the outcome (with a tie resulting in no change).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-11 04:32:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3036" class=".btn">#3036</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] updated comment and added link to generateId code in Tessera
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">privacy</span><span class="chip">TeamRevenant</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Added link to relevant Tessera code for generating privacy group ID
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-11 01:58:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3035" class=".btn">#3035</a>
             </td>
             <td>
@@ -650,171 +751,6 @@ Signed-off-by: Saravana Perumal Shanmugam <perusworld@linux.com>
     </table>
     <div class="right-align">
         Created At 2021-11-04 19:39:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2996" class=".btn">#2996</a>
-            </td>
-            <td>
-                <b>
-                    Improved QBFT logs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                ## PR description
-- Added some extra information on QBFT logs to help analysis
-
-## Fixed Issue(s)
-N/A
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 04:31:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2995" class=".btn">#2995</a>
-            </td>
-            <td>
-                <b>
-                    Qbft migration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Spike of IBFT2 to QBFT migration. This is still a work in progress and is not intended to be merged as is.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 02:57:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2994" class=".btn">#2994</a>
-            </td>
-            <td>
-                <b>
-                    Added validate-config subcommand
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span>
-            </td>
-            <td>
-                Fixes #2759 
-
-
-I have tested this locally:
-
-```
-➜  besu git:(2837) ✗ besu validate-config --config-file ../besu-local-nodes/config/besu/besu1.conf
-This toml config file is valid.%
-➜  besu git:(2837) ✗ besu validate-config --config-file ../besu-local-nodes/config/besu/besu1.conf
-picocli.CommandLine$ParameterException: Unknown option in TOML configuration file: xdata-path%
-```
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 02:26:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/2993" class=".btn">#2993</a>
-            </td>
-            <td>
-                <b>
-                    Log unused JSON params
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #2705. 
-
-I have tested this locally. eg
-
-```
-{
-    "jsonrpc": "2.0",
-    "method": "eth_estimateGas",
-    "params": [
-        {
-            "from": "0xFE3B557E8Fb62b89F4916B721be55cEb828dBd73",
-            "to": "0xdd37f65db31c107f773e82a4f85c693058fef7a9",
-            "nonce": 99,
-            "value": "0x1"
-        },
-        "latest"
-    ],
-    "id": 1
-}
-```
-gives me the expected result, with also this logged:
-```
-2021-11-04 11:35:17.486+10:00 | vert.x-worker-thread-14 | DEBUG | JsonCallParameter | unknown property - nonce with value - 99 and type - class java.lang.Integer caught during serialization
-```
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 01:38:18 +0000 UTC
     </div>
 </div>
 
