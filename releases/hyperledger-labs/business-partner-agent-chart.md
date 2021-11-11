@@ -15,26 +15,26 @@ permalink: /releases/hyperledger-labs/business-partner-agent-chart
         <tr>
             <td colspan="2">
                 <b>
-                    bpa-0.8.4
+                    bpa-0.8.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    bpa-0.8.4
+                    bpa-0.8.5
                 </span>
             </td>
             <td>
-                The Business Partner Agent allows to manage and exchange master data between organizations.
+                The BPA allows organizations to verify, hold, and issue verifiable credentials.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.8.4" class=".btn">
+    <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.8.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-10-26 11:25:42 +0000 UTC
+        Created At 2021-11-11 13:55:33 +0000 UTC
     </span>
 </div>
 
