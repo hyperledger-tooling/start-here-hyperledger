@@ -97,33 +97,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/239" class=".btn">#239</a>
-            </td>
-            <td>
-                <b>
-                    Allow zap.Options in logger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Allowing zap.Options in the logger will allow us to insert zap.Hooks.
-This will allow us to catch log messages during unit testing, and test
-events that are difficult to observer otherwise.
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 09:16:35 +0000 UTC
-    </div>
-</div>
-

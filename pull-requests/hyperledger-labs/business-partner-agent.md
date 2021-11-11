@@ -27,9 +27,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                - cleaned up delombok, but it is not working -> duplicate class error, needs different paths
-- added possibility to set version from the build pipeline
-- TODO fix smarttag action
+                - cleaned up delombok a bit, but it is not working -> duplicate class error, needs different paths, but as we are not shipping a javadoc jar I skipped this for now
+- added option to set Maven .jar version from the build pipeline
+- removed obsolete smart tag action from the build pipeline and replaced it with the metadata action
+- version of the jar should be either sha or tag (in that order), but needs running on main to be sure, otherwise we need to fallback to the revision of the commit
+- added build version und uptime to the UI settings section
 
 Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
 

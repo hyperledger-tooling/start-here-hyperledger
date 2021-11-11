@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/170" class=".btn">#170</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/175" class=".btn">#175</a>
             </td>
             <td>
                 <b>
-                    fabric envelope logs
+                    cleanup context after responding
                 </b>
             </td>
         </tr>
@@ -27,43 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-03 11:37:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/169" class=".btn">#169</a>
-            </td>
-            <td>
-                <b>
-                    vault rws comparison fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - compare a rws against an inspector
-- does not fail if the rws bytes are different
-but rwsets are equal
-- todo: extend vault support for Fabric's rws
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 08:14:27 +0000 UTC
+        Created At 2021-11-11 09:24:20 +0000 UTC
     </div>
 </div>
 
