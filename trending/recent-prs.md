@@ -1,13 +1,13 @@
 
-[3039](https://github.com/hyperledger/besu/pull/3039) Shift Optimization
+[39](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/39) 0.8.5 release
 
-[3037](https://github.com/hyperledger/besu/pull/3037) Maintainers: move to emeritus x 3
+[1713](https://github.com/hyperledger/indy-node/pull/1713) bump version of indy plenum and added pypi versio to 3rd party artifacts
 
-[1036](https://github.com/hyperledger/grid/pull/1036) Improve build times
+[175](https://github.com/hyperledger-labs/fabric-smart-client/pull/175) cleanup context after responding
 
-[3036](https://github.com/hyperledger/besu/pull/3036) [MINOR] updated comment and added link to generateId code in Tessera
+[1602](https://github.com/hyperledger/iroha/pull/1602) [FIXUP] avoid event waiting on concurrent execution
 
-[1035](https://github.com/hyperledger/grid/pull/1035) Replace `workflow_status` with `workflow_state`
+[76](https://github.com/hyperledger-labs/orion-sdk-go/pull/76) Adding json query example
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
