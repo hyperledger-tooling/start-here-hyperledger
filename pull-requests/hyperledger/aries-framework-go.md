@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
             </td>
             <td>
                 <b>
-                    fix: Crytp signature verification using P384 key from JWK import 
+                    fix: Crytpo signature verification using P384 key from JWK import 
                 </b>
             </td>
         </tr>

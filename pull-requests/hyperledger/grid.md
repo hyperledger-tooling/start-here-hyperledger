@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1035" class=".btn">#1035</a>
+            </td>
+            <td>
+                <b>
+                    Replace `workflow_status` with `workflow_state`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This replaces all references/arguments/variables called
+`workflow_status` with the name `workflow_state`. This is for
+consistency and accuracy.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 22:29:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1034" class=".btn">#1034</a>
+            </td>
+            <td>
+                <b>
+                    Clean up client feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR contains several updates to the client module. These changes are intended to work towards stabilizing the `client` feature. Changes include:
+ - Standardizing documentation
+ - Standardizing objects to derive the same traits where applicable
+ - Removing the `create_client_factory` fn in favor of creating the factories directly
+ - Reorganizing the client module to group like files and simplify config
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-10 18:26:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1033" class=".btn">#1033</a>
             </td>
             <td>
@@ -384,109 +444,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-11-04 15:41:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1017" class=".btn">#1017</a>
-            </td>
-            <td>
-                <b>
-                    Validate payloads in `apply` method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change passes a reference to the payload, once it is converted to
-the PurchaseOrderPayload, to the `validate_po_payload` function. This
-function will validate the timestamp within the payload and the
-associated action's payload.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 21:32:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1016" class=".btn">#1016</a>
-            </td>
-            <td>
-                <b>
-                    Update `add` method in state to consider updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change updates the `set_purchase_order_version` method in the
-purchase order state module to consider if a purchase order version is
-being updated. This means, when the po is fetched from state, the method
-will now check to see if a version with the same ID exists in the list
-and then it is removed and re-inserted with the updated version.
-Otherwise, a new version is simply added to the end of the purchase
-order's `versions` list.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 20:18:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1015" class=".btn">#1015</a>
-            </td>
-            <td>
-                <b>
-                    Validate self workflow state in `can_transition`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change updates the workflow state module's `can_transition` method,
-which validates whether an agent has the correct permissions to
-transition to a new workflow state, to check the workflow state's name.
-This covers a case in which an agent is not attempting to transition a
-workflow, but rather update an object. 
-
-Previously, the `can_transition`
-method would return false if it did not have it's own name within it's
-transitions. Rather than add all of the workflow states as transitions
-to their own state, this will check if we are staying in the same
-workflow state and return `true`, as we are not transitioning.
-
-This PR also updates a test to change the name of the workflow state used. This allows an alias' transitions to be validated, while avoiding a situation where the alias is attempting to transition to the same state.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 20:16:54 +0000 UTC
     </div>
 </div>
 

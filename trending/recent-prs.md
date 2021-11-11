@@ -1,13 +1,13 @@
 
-[338](https://github.com/hyperledger-labs/private-data-objects/pull/338) Upgrade openssl and fix secp256k1 dependency
+[1035](https://github.com/hyperledger/grid/pull/1035) Replace `workflow_status` with `workflow_state`
 
-[3034](https://github.com/hyperledger/besu/pull/3034) Update Sepolia bootnode, peer logging
+[69](https://github.com/hyperledger/sawtooth-sdk-rust/pull/69) Update usage of protobuf to avoid compiler warnings
 
-[3033](https://github.com/hyperledger/besu/pull/3033) Fix dns discovery issue 
+[68](https://github.com/hyperledger/sawtooth-sdk-rust/pull/68) Update various dependencies that don't require code updates
 
-[3047](https://github.com/hyperledger/aries-framework-go/pull/3047) fix: Crytp signature verification using P384 key from JWK import 
+[3035](https://github.com/hyperledger/besu/pull/3035) Fix sepolia copypasta
 
-[535](https://github.com/hyperledger/fabric-samples/pull/535) Retire dormant maintainers
+[1034](https://github.com/hyperledger/grid/pull/1034) Clean up client feature
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
