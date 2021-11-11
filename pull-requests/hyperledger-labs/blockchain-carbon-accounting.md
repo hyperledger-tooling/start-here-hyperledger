@@ -799,32 +799,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/344" class=".btn">#344</a>
-            </td>
-            <td>
-                <b>
-                    Add REST request endpoint for ws-wallet connection to ws-identity server
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                    ws-wallet open [keyname] [endpoint]
-    open connection for keyname to ws-identity server
-    provide a websock session endpoint of the fabric app that will use this connection
-    i.e., the session can only be used by the IP address of the app that requests it
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 16:38:44 +0000 UTC
-    </div>
-</div>
-

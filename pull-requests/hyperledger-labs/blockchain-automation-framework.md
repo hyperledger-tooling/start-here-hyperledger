@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1746" class=".btn">#1746</a>
+            </td>
+            <td>
+                <b>
+                    [besu] Deploy Smart Contract and Express API App
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: kaverikhaneja <kaveri.khaneja@accenture.com>
+
+**Changelog**
+- Added charts, roles and other files as necessary, to deploy express app.
+- Fixed smart contract deploy script.
+- Updated network configuration file in samples directory.
+
+
+ 
+
+**Reviewed by**
+@sownak @suvajit-sarkar @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1562 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-11 18:16:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1745" class=".btn">#1745</a>
             </td>
             <td>
