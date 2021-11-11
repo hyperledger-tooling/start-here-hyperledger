@@ -64,29 +64,3 @@ Signed-off-by: Elias Strehle <elias@circulartree.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1476" class=".btn">#1476</a>
-            </td>
-            <td>
-                <b>
-                    fix: use named tuple instead of dataclass in mediation invite store
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Dataclass wasn't added until python 3.7 and we're on 3.6. Not sure how this wasn't failing tests :thinking: we must have a backport package installed in the base image or similar but at any rate, I'm hopeful this will resolve issues @swcurran raised in #1473 for this module's doc generation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-03 20:05:00 +0000 UTC
-    </div>
-</div>
-
