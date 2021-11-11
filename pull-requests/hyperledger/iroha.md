@@ -14,6 +14,56 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1603" class=".btn">#1603</a>
+            </td>
+            <td>
+                <b>
+                    [Feat] #1238: Run-time logging reload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+
+
+### Description of the Change
+
+Implemented a `POST` handler on the `/configuration` Torii endpoint, which changes the log-level at runtime. 
+
+### Issue
+
+Closes 1238
+
+
+### Benefits
+
+Log level is changeable at runtime. 
+
+### Possible Drawbacks
+
+None
+
+### Usage Examples or Tests 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-11 14:38:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1602" class=".btn">#1602</a>
             </td>
             <td>
@@ -752,42 +802,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-11-05 15:13:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1578" class=".btn">#1578</a>
-            </td>
-            <td>
-                <b>
-                    Fix pretty version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Close #1577
-
-The problem:
-Irohad reports version without tag - only hash
-```
-root@925227c5f28d:/opt/iroha_data# irohad --version
-irohad version 0a8da15
-```
-This is because actions/checkout module fetches/clones git repo with default depth 1.
-
-This changeset also includes features ursa,burrow if they are to `irohad --version` 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 14:45:42 +0000 UTC
     </div>
 </div>
 

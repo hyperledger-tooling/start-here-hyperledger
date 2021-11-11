@@ -1,13 +1,13 @@
 
-[39](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/39) 0.8.5 release
+[186](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/186) Besu-cli 
 
-[1713](https://github.com/hyperledger/indy-node/pull/1713) bump version of indy plenum and added pypi versio to 3rd party artifacts
+[1746](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1746) [besu] Deploy Smart Contract and Express API App
 
-[175](https://github.com/hyperledger-labs/fabric-smart-client/pull/175) cleanup context after responding
+[1715](https://github.com/hyperledger/indy-node/pull/1715) updated libsodium from v18 to v23
 
-[1602](https://github.com/hyperledger/iroha/pull/1602) [FIXUP] avoid event waiting on concurrent execution
+[672](https://github.com/hyperledger-labs/business-partner-agent/pull/672) Option to reissue an existing credential if it is in state revoked
 
-[76](https://github.com/hyperledger-labs/orion-sdk-go/pull/76) Adding json query example
+[1714](https://github.com/hyperledger/indy-node/pull/1714) set dependencies for the Cannocical archive
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

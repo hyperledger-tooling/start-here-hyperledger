@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/185" class=".btn">#185</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/186" class=".btn">#186</a>
             </td>
             <td>
                 <b>
-                    Corda Testnet: Added Corda_Network2
+                    Besu-cli 
                 </b>
             </td>
         </tr>
@@ -27,19 +27,16 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                1. Added Corda_Network2.
-2. Enabled data transfer and asset-exchange between corda-corda.
-3. Updated docs for data transfer, and asset-exchange.
-4. Fixed docs next page links.
-4. Observer in HTLC (corda), will record all the states.
-5. Corda apps version updated to v1.2.4-alpha.6.
-6. Re-arranged corda `configure` command in client.
-7. Added support for shared policy states in Corda.
+                Base commit for besu-cli
+
+Includes source file for all the commands
+
+Readme to be improved
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-02 20:34:54 +0000 UTC
+        Created At 2021-11-11 18:17:42 +0000 UTC
     </div>
 </div>
 

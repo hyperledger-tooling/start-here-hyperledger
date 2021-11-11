@@ -69,31 +69,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/240" class=".btn">#240</a>
-            </td>
-            <td>
-                <b>
-                    Unit test flake
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">testing</span>
-            </td>
-            <td>
-                Eliminate flake by removing sleep, use zap.Hooks instead.
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 16:22:08 +0000 UTC
-    </div>
-</div>
-

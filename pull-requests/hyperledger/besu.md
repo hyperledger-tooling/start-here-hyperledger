@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3043" class=".btn">#3043</a>
+            </td>
+            <td>
+                <b>
+                    Require blockheader mode validators
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A runtime is thrown at startup if this requirement is not met.
+
+A second PR will remove some now redundant complexity in ForkingValidatorProvider
+
+https://github.com/hyperledger/besu/issues/3038
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-11 12:38:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3042" class=".btn">#3042</a>
             </td>
             <td>
@@ -378,37 +408,6 @@ added download link and hash for 21.10.1
     </table>
     <div class="right-align">
         Created At 2021-11-10 08:27:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3028" class=".btn">#3028</a>
-            </td>
-            <td>
-                <b>
-                    Update VoteTallyCache when transitioning to blockheader validatorselectionmode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                TODO:
- - discuss that the cache is overriding validators for parent block (instead of block being produced) - maybe we should only set the cache once the block is successfully created? In reality this shouldn't matter since the parent block should be a contract-mode block and therefore have no cache entry.
- - discuss cache not just getting set once, but every execution of ForkingValidatorProvider.getValidators while producing the transition block.
- - try to recreate bug where network was stopped before node2 imported block, then got InvalidBlock
-
-https://github.com/hyperledger/besu/issues/3019
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-09 13:13:39 +0000 UTC
     </div>
 </div>
 
