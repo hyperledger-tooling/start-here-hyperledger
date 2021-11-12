@@ -240,29 +240,3 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/253" class=".btn">#253</a>
-            </td>
-            <td>
-                <b>
-                    Add Isabel Tomb as a Maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-05 15:30:54 +0000 UTC
-    </div>
-</div>
-

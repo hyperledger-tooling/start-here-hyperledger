@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3051" class=".btn">#3051</a>
+            </td>
+            <td>
+                <b>
+                    Retrieve ENR via RPC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+Adds the Ethereum Node Record to the `admin_nodeInfo` RPC call. This is not final and could be changed as an alternative solution could be to create a new endpoint.
+
+## Fixed Issue(s)
+fixes #3050 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 14:46:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3049" class=".btn">#3049</a>
             </td>
             <td>
