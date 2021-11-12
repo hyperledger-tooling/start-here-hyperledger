@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1748" class=".btn">#1748</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] Added ansible role for automation of zone service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: surabhi-dudhediya <surabhi.dudhediya@accenture.com>
+
+**Changelog**
+- Add ansible role for automation of CENM zone service
+- Update cenm role to trigger zone service
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @jagpreetsinghsasan @sownak 
+
+ 
+
+**Linked issue**
+#1743 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 07:31:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1746" class=".btn">#1746</a>
             </td>
             <td>

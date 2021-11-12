@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/65" class=".btn">#65</a>
-            </td>
-            <td>
-                <b>
-                    ISS documentation comments, slight ISS refactoring
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: matejpavlovic <matopavlovic@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-05 11:59:24 +0000 UTC
-    </div>
-</div>
-
