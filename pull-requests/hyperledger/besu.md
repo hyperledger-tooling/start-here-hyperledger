@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3049" class=".btn">#3049</a>
+            </td>
+            <td>
+                <b>
+                    3038 clean up
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cleanup for https://github.com/hyperledger/besu/issues/3038 (following the first related PR https://github.com/hyperledger/besu/pull/3043)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 10:56:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3048" class=".btn">#3048</a>
             </td>
             <td>
