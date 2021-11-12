@@ -799,33 +799,3 @@ N/A
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3008" class=".btn">#3008</a>
-            </td>
-            <td>
-                <b>
-                    When tls is on, use plain framer and handshaker to avoid double encryption
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When tls is on, use passthrough framer and passthrough handshaker to avoid double encryption
-
-Signed-off-by: Saravana Perumal Shanmugam <perusworld@linux.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 19:39:03 +0000 UTC
-    </div>
-</div>
-

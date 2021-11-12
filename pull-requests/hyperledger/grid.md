@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1039" class=".btn">#1039</a>
+            </td>
+            <td>
+                <b>
+                    Fix pagination filters
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the logic for extracting the base URL so that filters will be passed along to paging.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 00:02:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1038" class=".btn">#1038</a>
+            </td>
+            <td>
+                <b>
+                    Fix po update cli command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change fixes the po update cli command by changing it to use the alternate id from the po get endpoint (which is already called earlier and therefore its result is available) instead of the unimplemented `list_alternate_ids` REST client fn.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-11 22:26:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1036" class=".btn">#1036</a>
             </td>
             <td>

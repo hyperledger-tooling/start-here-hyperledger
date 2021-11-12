@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3042" class=".btn">#3042</a>
+            </td>
+            <td>
+                <b>
+                    Gateway overview edited
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+New Fabric Gateway overview doc, written by @andrew-coleman, reviewed by @denyeart, and edited by @joshhus. 
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- New feature
+- Documentation update
+
+#### Description
+
+Fabric Gateway simplifies client app / SDK development by migrating transaction endorsement functionality to a Fabric Gateway peer. 
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+Some related doc file reviews and edits are still TBA.
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/2807
+
+#### Release Note
+
+Fabric Gateway simplifies client application development by migrating transaction endorsement functionality from the client to the Fabric Gateway peer. This new gateway functionality is currently optional. Simplified SDKs are provided for clients who choose to implement the new gateway. Read more at (link to documentation start -- gateway.md). 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-11 21:12:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3040" class=".btn">#3040</a>
             </td>
             <td>
@@ -50,7 +108,6 @@ but the flow of service discovery, the client, and peer gateway remains the same
 The endorsement policy can to be an OR over two mutually exclusive cases:
 1. An AND over a set of organizational principals (such as Org1.Peer and Org2.Peer)
 2. An OR over one or more identities (which can only be signed in collaboration among the peers)
-
 Discovery will always return only combinations of the former kind since no peer can identify with an identity of the latter kind.
 
 The flow will then be as follows: 
@@ -58,6 +115,8 @@ The flow will then be as follows:
 2. The peers, using the endorsement plugin, engage in a protocol at which end they all return the same endorsement.
 3. The gateway submits the transaction (this time, with a single endorsement) to the orderer.
 4. Upon transaction validation we validate a single endorsement instead of several.
+
+By enabling threshold signatures, we can maintain security (multiple organizations execute the smart contract and sign over the execution results) without sacrificing performance (transaction ends up with having a single endorsement)
 
 Change-Id: I9193187ae6b08791f8762a9d325442d156c4f828
 Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
