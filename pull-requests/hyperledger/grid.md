@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1041" class=".btn">#1041</a>
+            </td>
+            <td>
+                <b>
+                    Clarify po update error message for is_closed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The old update po error message for is_closed was ambiguous. This change
+clarifies that the error is due to the closed constraint on the state
+not being in sync with the is_closed payload.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 17:13:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1039" class=".btn">#1039</a>
             </td>
             <td>

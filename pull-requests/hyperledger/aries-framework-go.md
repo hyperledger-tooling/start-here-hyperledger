@@ -245,8 +245,6 @@ Fixes #3029
 **Summary:**
 
 Converts the verification method / public key to the key ID that's required by keyManager to retrieve the private key for signing. The conversion steps were taken from the standard VC issuing endpoint.
-
-
             </td>
         </tr>
     </table>
