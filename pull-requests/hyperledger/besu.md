@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3048" class=".btn">#3048</a>
+            </td>
+            <td>
+                <b>
+                    Create stub ForkingBesuControllerBuilder with no migration capabilities
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Paving the way for the work on IBFT2 to QBFT migration.
+
+- Created `startBlock` option for `QbftConfig`
+- Created skeleton `ForkingBesuControllerBuilder`
+
+fixes #2997
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 03:24:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3047" class=".btn">#3047</a>
+            </td>
+            <td>
+                <b>
+                    add more logging for get blocks form peers task
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #3010
+
+Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 01:19:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3043" class=".btn">#3043</a>
             </td>
             <td>
@@ -54,7 +117,7 @@ https://github.com/hyperledger/besu/issues/3038
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">testing</span><span class="chip">TeamRevenant</span>
             </td>
             <td>
                 with usingRecursiveComparison().isEqualTo

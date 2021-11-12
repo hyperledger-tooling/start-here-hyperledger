@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3048" class=".btn">#3048</a>
+            </td>
+            <td>
+                <b>
+                    docs: aries standards and specifications
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 02:57:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3047" class=".btn">#3047</a>
             </td>
             <td>
