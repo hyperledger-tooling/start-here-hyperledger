@@ -14,34 +14,6 @@ permalink: /issues/hyperledger/fabric
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/fabric/issues/2976" class=".btn">2976</a>
-            </td>
-            <td>
-                <b>
-                    Include the chaincode hash when installing an already existing chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span>
-            </td>
-            <td>
-                When installing a new chaincode on the peer you do get the package id of the chaincode which is good... this allows customers to use that data to go through the approve/commit steps.
-
-However the issue is when they are reinstalling an existing chaincode there is nothing in the response to indicate the package id(hash). Install in that case returns a message that the chaincode already exists. We should include the package id of the chaincode in the response when it is already installed on the peer.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-07 14:04:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 Issue <a href="https://github.com/hyperledger/fabric/issues/2916" class=".btn">2916</a>
             </td>
             <td>
