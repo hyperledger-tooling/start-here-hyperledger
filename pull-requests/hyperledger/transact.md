@@ -14,6 +14,98 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/261" class=".btn">#261</a>
+            </td>
+            <td>
+                <b>
+                    `family-command` stabilization updates - Add documentation for handler
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add documentation for `CommandTransactionHandler`
+
+Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 00:06:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/260" class=".btn">#260</a>
+            </td>
+            <td>
+                <b>
+                    `family-smallbank` stabilization updates - Add API doc for handler
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add API doc for the `SmallbankTransactionHandler`
+
+Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-11 23:40:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/259" class=".btn">#259</a>
+            </td>
+            <td>
+                <b>
+                    `workload-batch-gen` stabilization updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Stabilization updates for the "workload-batch-gen" feature
+
+- Remove `SignedBatchIterator` because it isn't used
+- Make `BatchListFeeder` pub(super) 
+- Make `BatchListResult` type pub(super) 
+- Remove unused variants from `BatchReadingError`
+- Replace `generate_signed_batches` with a `write_to` function for `SignedBatchProducer` and update cli playlist to use it
+- Make BatchResult type private
+- Modify the `batch_transactions` function to use `BatchBuilder` to eliminate the need to use protobuf directly
+- Remove 'error' from the end of enum variants to resolve lint
+- Add feature guards to `BatchingError`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-11 18:48:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/258" class=".btn">#258</a>
             </td>
             <td>
@@ -171,62 +263,6 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-11-05 15:30:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/252" class=".btn">#252</a>
-            </td>
-            <td>
-                <b>
-                    `family-smallbank` stabilization updates - make handler module private
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `SmallbankTransactionHandler` is already re-exported so the handler module can
-be made private.
-
-Signed-off-by: Isabel Tomb <tomb@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 18:37:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/251" class=".btn">#251</a>
-            </td>
-            <td>
-                <b>
-                    `family-command-workload` stabilization updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Stabilization updates for the `family-command-workload` feature
-- add a module doc comment for the command::workload module
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 18:23:10 +0000 UTC
     </div>
 </div>
 
