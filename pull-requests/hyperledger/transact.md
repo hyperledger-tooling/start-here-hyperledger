@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/262" class=".btn">#262</a>
+            </td>
+            <td>
+                <b>
+                    `workload-runner` stabilization - request logger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Stabilization updates for the `workload-runner` feature in libtransact
+
+The main focus of this PR is to move the printing functionality of `HttpRequestCounter` to the CLI. This PR replaces the `log` function in `HttpRequestCounter` with a `RequestLogger` in the CLI which takes a list of `HttpRequestCounter`s and starts a thread which loops through the counters, printing the information stored in them. The request logger uses the value given with the `--update` option to sleep for the correct amount of time between logs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-13 00:07:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/261" class=".btn">#261</a>
             </td>
             <td>

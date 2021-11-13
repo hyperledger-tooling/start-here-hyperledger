@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/77" class=".btn">#77</a>
+            </td>
+            <td>
+                <b>
+                    clarify purpose of the confusing password fields
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Addresses concern in https://github.com/hyperledger-labs/fabric-operations-console/issues/35
+- doc update
+
+Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 20:33:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/76" class=".btn">#76</a>
+            </td>
+            <td>
+                <b>
+                    add changes to enable and doc audit log files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                for issue https://github.com/hyperledger-labs/fabric-operations-console/issues/42. 
+
+i've repurposed the "Activity Tracker" code to work in a more generic way and use a simpler format. Also this enables the audit logs by default.
+
+Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 19:51:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/75" class=".btn">#75</a>
             </td>
             <td>

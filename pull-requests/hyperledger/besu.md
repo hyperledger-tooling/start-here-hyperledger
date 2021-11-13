@@ -14,6 +14,133 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3055" class=".btn">#3055</a>
+            </td>
+            <td>
+                <b>
+                    fix toml parsing of Long option types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fix toml config file parsing for options that map to type Long or long.  Previously setting a value in toml config for a long option type would result in, e.g. :
+```org.apache.tuweni.toml.TomlInvalidTypeException: Value of 'Xbonsai-maximum-back-layers-to-load' is a integer```
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 22:15:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3054" class=".btn">#3054</a>
+            </td>
+            <td>
+                <b>
+                    Add Diego López León to maintainers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+
+## PR description
+
+Diego has made significant [commits](https://github.com/hyperledger/besu/pulls?q=is%3Apr+author%3Adiega) improving the quality and features of besu, this PR adds him as a maintainer.
+
+Voting ends 2 weeks from the publication of this PR or once a majority of the maintainers vote.
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+
+## Fixed Issue(s)
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 21:06:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3052" class=".btn">#3052</a>
+            </td>
+            <td>
+                <b>
+                    add Fabio as a maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Fabio has made significant [commits](https://github.com/hyperledger/besu/pulls?q=is%3Apr+author%3Afab-10) improving the quality and features of besu, this PR adds him as a maintainer.
+
+Voting ends 2 weeks from the publication of this PR or once a majority of the maintainers vote.
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 19:24:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3051" class=".btn">#3051</a>
             </td>
             <td>
