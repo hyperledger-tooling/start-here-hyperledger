@@ -14,11 +14,39 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1489" class=".btn">#1489</a>
+            </td>
+            <td>
+                <b>
+                    Update to ReadMe and Supported RFCs for 0.7.2.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates to readme to better reflect the current state of ACA-Py. 
+
+Update the "Supported RFCs" doc to use the checklist style that Northern Block and Animo Solutions created.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-12 22:30:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1488" class=".btn">#1488</a>
             </td>
             <td>
                 <b>
-                    WIP: Updating the RTDs code for Release 0.7.2 - Try 2
+                    Updating the RTDs code for Release 0.7.2 - Try 2
                 </b>
             </td>
         </tr>
