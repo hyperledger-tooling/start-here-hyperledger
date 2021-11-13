@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/362" class=".btn">#362</a>
+            </td>
+            <td>
+                <b>
+                    feat (test): Test if partyId is being hashed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The SHA-256 hash of the `partyId` is computed before it is stored as an emission record so as to maintain confidentiality. This PR adds a test that exercises this functionality by computing the hash of the `partyId` separately and then asserting that the hash stored on the ledger matches the separately computed hash.
+
+Closes #187. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-13 07:53:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/361" class=".btn">#361</a>
             </td>
             <td>
