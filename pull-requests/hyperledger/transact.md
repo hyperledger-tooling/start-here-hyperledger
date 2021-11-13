@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/263" class=".btn">#263</a>
+            </td>
+            <td>
+                <b>
+                    `family-command-workload` stabilization updates - add CommandTransactionBuilder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Replace `make_command_transaction` with `CommandTransactionBuilder`.
+
+```
+let command_transaction_pair: TransactionPair = CommandTransactionBuilder::new()
+  .with_commands(vec![commands])
+  .into_transaction_builder()?
+  .build_pair()?;
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-13 03:19:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/262" class=".btn">#262</a>
             </td>
             <td>
