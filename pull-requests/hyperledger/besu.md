@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3057" class=".btn">#3057</a>
+            </td>
+            <td>
+                <b>
+                    Feature/keep peers on dns fail
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+* Address dns discovery failures by *not* overwriting the dns peers list when discovery returns an empty list.  
+* Add a cli parameter `--Xp2p-dns-discovery-server` to override the default dns server if the dns default dns server is unreliable or does not serve TCP dns requests
+
+example using cloudflare DNS:
+`besu --Xp2p-dns-discovery-server=1.1.1.1`
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-13 04:23:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3055" class=".btn">#3055</a>
             </td>
             <td>
