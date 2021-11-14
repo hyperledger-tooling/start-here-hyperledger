@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/249" class=".btn">#249</a>
+            </td>
+            <td>
+                <b>
+                    WIP: TLS support for comm
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Support TLS for peer server to server communication.
+The server accepts only TLS connections, the client dials TLS.
+Client authentication is not yet supported (future commit).
+Client authorization is not yet supported (future commit).
+
+Some utilities where added to load the CA certificates from disk, verify them,
+and pack then all into a single bundle, as the rafthttp transport expects.
+
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-14 11:02:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/244" class=".btn">#244</a>
             </td>
             <td>
