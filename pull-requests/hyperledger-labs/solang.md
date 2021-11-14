@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/565" class=".btn">#565</a>
+            </td>
+            <td>
+                <b>
+                    Divide optimizer into sections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently, the 'Unused Variable Elimination' and 'Common Subexpression Eimination' are sub sections under 'Vector to Slice Pass' in [Solang docs](https://solang.readthedocs.io/en/latest/optimizer.html). They should be a new section under Optimization Passes, instead of a subsection. This PR fix this issue.
+
+![Screen Shot 2021-11-14 at 09 53 10](https://user-images.githubusercontent.com/38472950/141681928-b414c934-61bc-4434-a78c-402b60933ba0.png)
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-14 12:55:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/564" class=".btn">#564</a>
             </td>
             <td>
@@ -27,7 +58,7 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                <nil>
+                Fixes #561 and other issues.
             </td>
         </tr>
     </table>
