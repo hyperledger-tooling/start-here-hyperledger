@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-fabric-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/35" class=".btn">#35</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/36" class=".btn">#36</a>
             </td>
             <td>
                 <b>
-                    Change the module name to github.com/hyperledger-labs/yui-fabric-ibc
+                    fix uint64 parser for packet sequence
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-fabric-ibc
                 
             </td>
             <td>
-                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+                Signed-off-by: Toshihiko Okubo <toshihiko.okubo@datachain.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-30 07:32:34 +0000 UTC
+        Created At 2021-11-15 07:15:34 +0000 UTC
     </div>
 </div>
 
