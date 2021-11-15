@@ -1,13 +1,13 @@
 
-[3059](https://github.com/hyperledger/besu/pull/3059) Remove redundant method and associated tests
+[141](https://github.com/hyperledger-labs/fabric-token-sdk/pull/141) get anonymous identity wrt audit info as well
 
-[3058](https://github.com/hyperledger/besu/pull/3058) [2982] Handle operation not permitted exception (firewall)
+[1751](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1751) [corda-ent] Added Ansible Role and tpl file for automation of gateway service.
 
-[348](https://github.com/hyperledger/cello/pull/348) Correct the org field name and remove unused fields
+[3056](https://github.com/hyperledger/aries-framework-go/pull/3056) feat: add support of general key prefixes for LocalKMS
 
-[347](https://github.com/hyperledger/cello/pull/347) Change Fabric nodes naming 
+[80](https://github.com/hyperledger-labs/orion-sdk-go/pull/80) Adding ErrorNotFound to distinguish between 404 and another errors
 
-[346](https://github.com/hyperledger/cello/pull/346) Refactor channel creating and channel cmd.
+[79](https://github.com/hyperledger-labs/orion-sdk-go/pull/79) Check validity of txid
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

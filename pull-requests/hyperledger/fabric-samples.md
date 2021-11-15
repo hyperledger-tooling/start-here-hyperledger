@@ -175,31 +175,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/531" class=".btn">#531</a>
-            </td>
-            <td>
-                <b>
-                    Update application-gateway-typescript
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The fabric-gateway node module has been renamed to @hyperledger/fabric-gateway
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-08 12:21:17 +0000 UTC
-    </div>
-</div>
-

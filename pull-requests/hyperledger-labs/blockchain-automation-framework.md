@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1751" class=".btn">#1751</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] Added Ansible Role and tpl file for automation of gateway service.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: nikhilagolla <nikhila.golla@accenture.com>
+
+**Changelog**
+- Add Ansible Role and tpl file for automation of gateway service.
+ 
+
+**Reviewed by**
+@sownak @jagpreetsinghsasan @suvajit-sarkar 
+
+ 
+
+**Linked issue**
+#1734 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 12:17:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1750" class=".btn">#1750</a>
             </td>
             <td>
@@ -175,46 +215,6 @@ Resolves #1730 #1638
     </table>
     <div class="right-align">
         Created At 2021-11-08 15:10:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1742" class=".btn">#1742</a>
-            </td>
-            <td>
-                <b>
-                    [ci skip] Added gateway chart
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Add gateway chart
-
- 
-
-**Reviewed by**
-@sownak @jagpreetsinghsasan 
-
- 
-
-**Linked issue**
-#1507 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-08 11:46:18 +0000 UTC
     </div>
 </div>
 

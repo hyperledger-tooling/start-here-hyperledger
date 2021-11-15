@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3056" class=".btn">#3056</a>
+            </td>
+            <td>
+                <b>
+                    feat: add support of general key prefixes for LocalKMS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
+
+
+**Title:**
+Add support of general key prefixes for LocalKMS
+
+**Summary:**
+
+Now LocalKMS support not only local key prefix but other prefixes with the form "anyprefixname://".
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 11:51:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3055" class=".btn">#3055</a>
             </td>
             <td>
@@ -388,32 +424,6 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-11-09 04:12:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3042" class=".btn">#3042</a>
-            </td>
-            <td>
-                <b>
-                    feat: add issue credential V3 wasm test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-08 08:24:46 +0000 UTC
     </div>
 </div>
 

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
             </td>
             <td>
                 <b>
-                    WIP: TLS support for comm
+                    TLS support for comm
                 </b>
             </td>
         </tr>
