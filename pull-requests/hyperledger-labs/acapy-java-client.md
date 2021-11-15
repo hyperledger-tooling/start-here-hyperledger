@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/10" class=".btn">#10</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/11" class=".btn">#11</a>
             </td>
             <td>
                 <b>
-                    Fix parameter for SetEndorserRoleFilter api
+                    Proof Request Builder Improvements
                 </b>
             </td>
         </tr>
@@ -27,15 +27,13 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Fixes the call to aca-py  `/transactions/<conn_id>/set-endorser-role?transaction_my_job=TRANSACTION_AUTHOR`
-
+                
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-15 23:26:21 +0000 UTC
+        Created At 2021-11-15 16:01:00 +0000 UTC
     </div>
 </div>
 

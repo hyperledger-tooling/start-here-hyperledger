@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3045" class=".btn">#3045</a>
+            </td>
+            <td>
+                <b>
+                    Enhance gateway error logic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add logic to determine the origin of the error returned by ProcessProposal, and whether the evaluate/endorse methods should close the connection to the peer and/or retry the proposal on another peer.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 16:33:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3044" class=".btn">#3044</a>
             </td>
             <td>

@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1174" class=".btn">#1174</a>
+            </td>
+            <td>
+                <b>
+                    Fix Besu integration test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Change opened RPC WS API names to upper case, lower case names resulted in error.
+* Remove the custom docker build from the network, use the Besu image directly and set the required parameters on the container.
+* Fix the Besu version to 21.10.1
+* Add some docker container log dumps in case of CI test failure
+
+Signed-off-by: Attila Klenik <a.klenik@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 15:00:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1172" class=".btn">#1172</a>
             </td>
             <td>

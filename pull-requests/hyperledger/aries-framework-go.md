@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3059" class=".btn">#3059</a>
+            </td>
+            <td>
+                <b>
+                    fix: TransactionTime in UnpublishedOperations and PublishedOperations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 17:47:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3058" class=".btn">#3058</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add unpublishedOperations and publishedOperations to DID Doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 17:04:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3057" class=".btn">#3057</a>
+            </td>
+            <td>
+                <b>
+                    fix: allow payloads of any size in hkdf and pbkdf2 encrypt
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrii Holovko <andriy.holovko@gmail.com>
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 16:39:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3056" class=".btn">#3056</a>
             </td>
             <td>

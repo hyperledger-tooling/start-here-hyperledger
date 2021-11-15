@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1491" class=".btn">#1491</a>
+            </td>
+            <td>
+                <b>
+                    DIF PresExch Tests - temporary update to fix pyld.jsonld.JsonLdError
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a repeat of #1251 , then it started working without any updates after sometime.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 17:10:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1490" class=".btn">#1490</a>
             </td>
             <td>
