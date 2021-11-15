@@ -1,13 +1,13 @@
 
-[536](https://github.com/hyperledger/fabric-samples/pull/536) Nominate Josh Kneubuhl as fabric-samples maintainer
+[348](https://github.com/hyperledger/cello/pull/348) Correct the org field name and remove unused fields
 
-[565](https://github.com/hyperledger-labs/solang/pull/565) Divide optimizer into sections
+[347](https://github.com/hyperledger/cello/pull/347) Change Fabric nodes naming 
 
-[1610](https://github.com/hyperledger/iroha/pull/1610) return versioned query response for /query endpoint
+[346](https://github.com/hyperledger/cello/pull/346) Refactor channel creating and channel cmd.
 
-[249](https://github.com/hyperledger-labs/orion-server/pull/249) WIP: TLS support for comm
+[345](https://github.com/hyperledger/cello/pull/345) Create a docker network
 
-[1609](https://github.com/hyperledger/iroha/pull/1609) gha docker tag latest
+[344](https://github.com/hyperledger/cello/pull/344) Refactor configtx and configtxgen
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
