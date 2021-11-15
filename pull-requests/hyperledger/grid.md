@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1063" class=".btn">#1063</a>
+            </td>
+            <td>
+                <b>
+                    Update "create po" action to handle constraints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the "create po" action in the purchase order smart
+contract to concern itself with workflow constraints. This adds further
+validation when a user attempts to create a purchase order.
+
+This change also adds a test to validate a purchase order may not be
+created if the desired workflow state has a constraint it does not
+fulfill.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 14:59:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1062" class=".btn">#1062</a>
+            </td>
+            <td>
+                <b>
+                    Add concern for workflow constraints to "create vers" action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds concern for workflow constraints to the "create
+version" action of the purchase order smart contract. This also updates
+the tests written for this action to re-align with the updated
+implementation.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 14:26:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1041" class=".btn">#1041</a>
             </td>
             <td>

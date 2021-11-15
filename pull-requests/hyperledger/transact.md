@@ -153,8 +153,8 @@ Signed-off-by: Isabel Tomb <tomb@bitwise.io>
 - Replace `generate_signed_batches` with a `write_to` function for `SignedBatchProducer` and update cli playlist to use it
 - Make BatchResult type private
 - Modify the `batch_transactions` function to use `BatchBuilder` to eliminate the need to use protobuf directly
-- Remove 'error' from the end of enum variants to resolve lint
-- Add feature guards to `BatchingError`
+- Add feature guards to `BatchingError` and replace the `BatchingError` variants with common errors `InternalError` and
+`InvalidStateError`.
             </td>
         </tr>
     </table>
@@ -272,32 +272,6 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-11-09 16:17:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/254" class=".btn">#254</a>
-            </td>
-            <td>
-                <b>
-                    `workload` transact CLI stabilization updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes some of the calculations in the process of turning the rate, given with the `--target-rate` CLI option, into the amount of time to wait between batch submissions. Previously starting a workload with a rate of 2/s would make the workload wait 2s between submissions making the actual rate 0.5/s
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-08 17:57:49 +0000 UTC
     </div>
 </div>
 
