@@ -14,6 +14,100 @@ permalink: /issues/hyperledger/besu
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/besu/issues/2812" class=".btn">2812</a>
+            </td>
+            <td>
+                <b>
+                    ANTLR Tool version mismatch on startup with --config-file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">dev experience</span>
+            </td>
+            <td>
+                ### Description
+As a besu user, I want startup without errors. This error does not affect operation, but it's affecting developer experience. It is common for users to see this error and think besu is not starting properly.
+
+### Acceptance Criteria
+* besu can start with config file, without the ANTLR version error message
+
+### Steps to Reproduce (Bug)
+Note this error appears with valid config file, or invalid. 
+
+So the easiest way to reproduce is a simple invalid config file:
+```
+cat b.conf
+nope="yes"
+```
+Attempt to start besu with this config file
+```
+besu --config-file=b.conf
+ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.8ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.8ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.8ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.8Unknown option in TOML configuration file: nope
+```
+Example output with valid config file:
+```
+besu --config-file=besu1.conf
+ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.8ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.8ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.8ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.82021-09-28 15:21:45.792+10:00 | main | INFO  | Besu | Using LibEthPairings native alt bn128
+2021-09-28 15:21:45.795+10:00 | main | INFO  | Besu | Using the native implementation of the signature algorithm
+2021-09-28 15:21:45.800+10:00 | main | INFO  | Besu | Starting Besu version: besu/v21.10.0-RC1-dev-46066518/osx-x86_64/oracle_openjdk-java-11
+2021-09-28 15:21:46.004+10:00 | main | INFO  | Besu | Static Nodes file = /Users/sallymacfarlane/workspace/besu-local-nodes/workdir/besu1/data/static-nodes.json
+2021-09-28 15:21:46.005+10:00 | main | INFO  | StaticNodesParser | StaticNodes file /Users/sallymacfarlane/workspace/besu-local-nodes/workdir/besu1/data/static-nodes.json does not exist, no static connections will be created.
+2021-09-28 15:21:46.005+10:00 | main | INFO  | Besu | Connecting to 0 static nodes.
+```
+**Expected behavior:** [What you expect to happen]
+besu --config-file=b.conf
+Unknown option in TOML configuration file: nope
+
+**Actual behavior:** [What actually happens]
+```
+besu --config-file=b.conf
+ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.8ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.8ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.8ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.8Unknown option in TOML configuration file: nope
+```
+Note if I supply this option on the command line (no config file) I do not get the error.
+```
+besu --nope=yes
+Unknown option: '--nope=yes'
+Possible solutions: --node-private-key-file
+
+To display full help:
+besu [COMMAND] --help
+```
+I get the same behavior using IDE or on the command line.
+
+**Frequency:** [What percentage of the time does it occur?]
+100% when using --config-file
+
+### Versions (Add all that apply)
+* Software version: [`besu --version`]
+besu -V
+besu/v21.10.0-RC1-dev-46066518/osx-x86_64/oracle_openjdk-java-11
+* Java version: [`java -version`]
+java -version
+openjdk version "11.0.10" 2021-01-19
+OpenJDK Runtime Environment (build 11.0.10+9)
+OpenJDK 64-Bit Server VM (build 11.0.10+9, mixed mode)
+* OS Name & Version: [`cat /etc/*release`]
+* Kernel Version: [`uname -a`]
+uname -a
+Darwin Sallys-MacBook-Pro.local 20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64 x86_64
+
+### Additional Information
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-09-28 05:58:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/besu/issues/2766" class=".btn">2766</a>
             </td>
             <td>
