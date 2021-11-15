@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3059" class=".btn">#3059</a>
+            </td>
+            <td>
+                <b>
+                    Remove redundant method and associated tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/besu/issues/3038
+
+Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 04:55:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3058" class=".btn">#3058</a>
+            </td>
+            <td>
+                <b>
+                    [2982] Handle operation not permitted exception (firewall)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Hide these exceptions to DEBUG logging level as per https://github.com/hyperledger/besu/issues/2982
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #2982
+
+## Changelog
+
+Don't need changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 02:31:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3057" class=".btn">#3057</a>
             </td>
             <td>
@@ -936,160 +1008,6 @@ fixes #3020
     </table>
     <div class="right-align">
         Created At 2021-11-08 18:09:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3018" class=".btn">#3018</a>
-            </td>
-            <td>
-                <b>
-                    JsonUtil.normalizeKeys should handle ArrayNodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-- Updated JsonUtils to handle ArrayNode. This is important now that we have bft transitions that are specified in an array in the genesis file.
-
-## Fixed Issue(s)
-fixes #2856
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-08 05:15:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3017" class=".btn">#3017</a>
-            </td>
-            <td>
-                <b>
-                    [2981] Multi algorithm support for JWT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Frank Li <b439988l@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR allows the user to specify a JWT key algorithm when starting a node with http auth, and the algorithm will then be used with the provided public key.
-
-- Added acceptance tests with login and authorised routes example usage
-- Added unit tests for parsing of the public key file and creating JWTAuthOptions
-- Added command line argument 'rpc-http-authentication-jwt-algorithm'
-- Added test public key - JWT sets
-- Added to change log
-
-## Note for reviewers
-
-The deprecation warnings will be flagged by sonar cloud, however it seems we're on a version of vert.x where some methods are flagged as deprecated but the replacement is not available.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #2981 
-
-## Changelog
-
-Add support for additional JWT auth algorithms and associated tests
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-08 04:39:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3016" class=".btn">#3016</a>
-            </td>
-            <td>
-                <b>
-                    separate step for sonar
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dev experience</span><span class="chip">TeamRevenant</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Separate SonarQube into its own step since it uses a restricted context
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-08 02:24:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3014" class=".btn">#3014</a>
-            </td>
-            <td>
-                <b>
-                    More BFT tracing log messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-- Add a trace log message when `BftProtocolManager` receives a subprotocol message. This is the entry-point for BFT related logic in response to the message.
-
-## Fixed Issue(s)
-N/A
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-08 01:43:45 +0000 UTC
     </div>
 </div>
 
