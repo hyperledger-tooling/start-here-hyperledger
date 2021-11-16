@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1494" class=".btn">#1494</a>
+            </td>
+            <td>
+                <b>
+                    Fix TypeError
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When calling /schemas/{schema_id}/write_record, a server error 500 occurrs. The log output says
+
+    TypeError: inject() got an unexpected keyword argument 'required'
+
+Other code in this file seems to indicate that the proposed change is what is needed to prevent the error from being thrown.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 12:37:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1493" class=".btn">#1493</a>
             </td>
             <td>

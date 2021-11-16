@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/266" class=".btn">#266</a>
+            </td>
+            <td>
+                <b>
+                    Fix feature guard on static adapter tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change the feature guard on the tests in the `static_adapter` module from "family-command" to "family-command-workload", the tests use `CommandTransactionBuilder` which is behind the "family-command-workload" feature.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 17:09:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/265" class=".btn">#265</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize `family-command`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Stabilize the "family-command" feature by moving it from experimental
+to stable.
+
+Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 16:30:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/264" class=".btn">#264</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize `family-smallbank`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Stabilize the "family-smallbank" feature by moving it from experimental
+to stable.
+
+Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 16:22:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/263" class=".btn">#263</a>
             </td>
             <td>
@@ -153,7 +237,6 @@ Signed-off-by: Isabel Tomb <tomb@bitwise.io>
                 Stabilization updates for the "workload-batch-gen" feature
 
 - Remove `SignedBatchIterator` because it isn't used
-- Make `BatchListFeeder` pub(super) 
 - Make `BatchListResult` type pub(super) 
 - Remove unused variants from `BatchReadingError`
 - Replace `generate_signed_batches` with a `write_to` function for `SignedBatchProducer` and update cli playlist to use it
@@ -222,62 +305,6 @@ This PR changes this process to use a thread instead. This way the process can r
     </table>
     <div class="right-align">
         Created At 2021-11-09 21:26:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/256" class=".btn">#256</a>
-            </td>
-            <td>
-                <b>
-                    Append -experimental to packages with experimental features
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Without this commit, it's impossible to differentiate packages built
-with experimental features without installing the package and running
-commands to test.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-09 16:27:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/255" class=".btn">#255</a>
-            </td>
-            <td>
-                <b>
-                    Retire Eloá Franca Verona from maintainers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-09 16:17:03 +0000 UTC
     </div>
 </div>
 
