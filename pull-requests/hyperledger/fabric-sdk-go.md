@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/198" class=".btn">#198</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/199" class=".btn">#199</a>
             </td>
             <td>
                 <b>
-                    fix error 'send on closed channel' after retry
+                    fix typo
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: wuqiaomin <wuqiaomin2@huawei.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-07 15:01:36 +0000 UTC
+        Created At 2021-11-16 03:39:59 +0000 UTC
     </div>
 </div>
 
