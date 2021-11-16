@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1175" class=".btn">#1175</a>
+            </td>
+            <td>
+                <b>
+                    Fix Ethereum integration test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Anchor Ethereum client docker image version
+* Fix geth CLI flags according to the set release
+
+Signed-off-by: Attila Klenik <a.klenik@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 22:14:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1174" class=".btn">#1174</a>
             </td>
             <td>

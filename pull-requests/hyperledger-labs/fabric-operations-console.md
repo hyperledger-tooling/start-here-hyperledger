@@ -69,30 +69,3 @@ Signed-off-by: David Huffman <dshuffma@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/75" class=".btn">#75</a>
-            </td>
-            <td>
-                <b>
-                    improve readme, add crypto secure context details
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                adds documentation for a few issues like:
-- https://github.com/hyperledger-labs/fabric-operations-console/issues/70
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-08 21:14:30 +0000 UTC
-    </div>
-</div>
-

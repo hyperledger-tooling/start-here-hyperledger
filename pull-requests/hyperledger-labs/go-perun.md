@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/260" class=".btn">#260</a>
+            </td>
+            <td>
+                <b>
+                    Update linter config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Fixes linter warnings
+- Updates the linter config
+
+Depends on #256 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 21:44:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/258" class=".btn">#258</a>
             </td>
             <td>
@@ -55,7 +84,7 @@ permalink: /pull-requests/hyperledger-labs/go-perun
             <td>
                 - Remove folder `pkg/`
 - Replace import paths
-- Work-around missing vanity import path, therefore WIP until https://github.com/perun-network/poly-go/issues/1
+- <s>Work-around missing vanity import path, therefore WIP until https://github.com/perun-network/poly-go/issues/1</s>
             </td>
         </tr>
     </table>

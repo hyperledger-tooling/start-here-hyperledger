@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1493" class=".btn">#1493</a>
+            </td>
+            <td>
+                <b>
+                    DIF PresExch - ProblemReport and "is_holder"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolve #1486 
+- review all tests involving `TEST_CRED_DICT` and `TEST_CRED_WILDCARD` with `FHIR` contexts to mock `pyld` returns.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 20:56:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1492" class=".btn">#1492</a>
+            </td>
+            <td>
+                <b>
+                    Aries Cloud Agent Python Release 0.7.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 18:38:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1491" class=".btn">#1491</a>
             </td>
             <td>
