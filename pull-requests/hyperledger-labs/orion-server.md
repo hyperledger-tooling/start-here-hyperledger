@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/257" class=".btn">#257</a>
+            </td>
+            <td>
+                <b>
+                    Calculate max-raft-id from members when committing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The MaxRaftId field in RaftConfig records the highest raft-id ever seen in the cluster.
+We calculate it from the members as we build the genesis block, and from then on it is
+updated every time a config block commits. The incoming config-tx does not change this value,
+and it must be equal to value in the current config. Users can only read this value.
+This field is used to ensure that the raft id of added new peers is larger then the current
+max-raft-id, and was therefore never used.
+
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 12:12:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/256" class=".btn">#256</a>
+            </td>
+            <td>
+                <b>
+                    encoder for value
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit adds an utility that can encode the given data to
+base64 string. Note that this utility accepts either a JSON or
+string value only.
+
+Signed-off-by: senthil <cendhu@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 08:50:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/249" class=".btn">#249</a>
             </td>
             <td>
@@ -41,39 +104,6 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-14 11:02:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/244" class=".btn">#244</a>
-            </td>
-            <td>
-                <b>
-                    Solve replicator close deadlock
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                When closing the replicator, in one case, the replicator's event-loop go-routine breaks out
-of the loop without broadcasting to the propose-loop sync.Cond, and the propose loop remains
-waiting on it and does not exit.
-
-The solution is to broadcast to the sync.Cond when the event-loop go-routine exits, not only
-when it detects the stop signal.
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-09 07:15:02 +0000 UTC
     </div>
 </div>
 

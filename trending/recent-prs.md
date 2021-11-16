@@ -1,13 +1,13 @@
 
-[3047](https://github.com/hyperledger/fabric/pull/3047) Updates to Gateway doc topic
+[257](https://github.com/hyperledger-labs/orion-server/pull/257) Calculate max-raft-id from members when committing
 
-[199](https://github.com/hyperledger/fabric-sdk-go/pull/199) fix typo
+[1754](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1754) [indy] Fix issue #1738
 
-[3069](https://github.com/hyperledger/besu/pull/3069) Qbft migration protocol schedule
+[3048](https://github.com/hyperledger/fabric/pull/3048) Update Contract and Application API docs for Fabric Gateway
 
-[1175](https://github.com/hyperledger/caliper/pull/1175) Fix Ethereum integration test
+[1176](https://github.com/hyperledger/caliper/pull/1176) Fix generator integration test
 
-[260](https://github.com/hyperledger-labs/go-perun/pull/260) Update linter config
+[3071](https://github.com/hyperledger/besu/pull/3071) Making sure that the resolved DNS lists get used in full
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

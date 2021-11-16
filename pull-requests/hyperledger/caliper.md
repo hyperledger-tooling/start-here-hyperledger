@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1176" class=".btn">#1176</a>
+            </td>
+            <td>
+                <b>
+                    Fix generator integration test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Downgrade to v3 Yeoman generator in dependencies
+* Downgrade to v3 Yeoman generator in integration test
+
+Note: Yeoman v4 requires Node.js v14 LTS, bump back versions once Node version is also bumped.
+
+Signed-off-by: Attila Klenik <a.klenik@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 10:26:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1175" class=".btn">#1175</a>
             </td>
             <td>
