@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1754" class=".btn">#1754</a>
+            </td>
+            <td>
+                <b>
+                    [indy] Fix issue #1738
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: juraj-durech <juraj.durech@accenture.com>
+
+**Changelog**
+- Fix Issue #1738 (join a Indy consortium which has not been created by BAF)
+
+ 
+
+**Reviewed by**
+@sownak 
+
+ 
+
+**Linked issue**
+#1738
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 11:57:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1751" class=".btn">#1751</a>
             </td>
             <td>

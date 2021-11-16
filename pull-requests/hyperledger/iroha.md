@@ -43,6 +43,8 @@ permalink: /pull-requests/hyperledger/iroha
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
+Peer sends `GetBlocksAfter` message in which it sends it's latest block hash, and other peers respond with `ShareBlocks` message if they have newer blocks
+
 ### Issue
 
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
@@ -220,7 +222,7 @@ Final v1.3 release.
             </td>
             <td>
                 <b>
-                    [Feat] #1238: Run-time logging reload
+                    [Feat] #1238: Run-time log-level updates
                 </b>
             </td>
         </tr>
@@ -388,50 +390,6 @@ Should not be there
     </table>
     <div class="right-align">
         Created At 2021-11-10 15:37:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1599" class=".btn">#1599</a>
-            </td>
-            <td>
-                <b>
-                    [Fix] 1502 Return first sources in error responses in Torii
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                
-### Description of the Change
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-Closes #1502 
-
-
-### Benefits
-
-Torii produces more detailed error messages. 
-
-### Possible Drawbacks
-
-Error sources are added to all errors. 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-10 13:00:40 +0000 UTC
     </div>
 </div>
 
