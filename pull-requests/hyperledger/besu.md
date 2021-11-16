@@ -14,49 +14,6 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3071" class=".btn">#3071</a>
-            </td>
-            <td>
-                <b>
-                    Making sure that the resolved DNS lists get used in full
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Previously we would always process the list of DNS resolved peers from the beginning. We would
-at most only try `maxConnections` valid elements from the list and never try more. So the each
-time we might be trying the same 25 peers, we connect with them and then drop them. This PR
-firstly shuffles the peers list each time before applying it and then also takes from the list for
-as long as there are free peers slots available as opposed to guess the limit upfront and hope
-that all the peers connect.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-16 10:03:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3069" class=".btn">#3069</a>
             </td>
             <td>

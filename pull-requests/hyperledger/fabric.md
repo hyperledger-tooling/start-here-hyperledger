@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3049" class=".btn">#3049</a>
+            </td>
+            <td>
+                <b>
+                    Add gateway ref to private data doc topic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Minor doc update.  Contributes to #2807 
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 14:41:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3048" class=".btn">#3048</a>
             </td>
             <td>
@@ -325,64 +354,6 @@ Also, copy release note text into the release specific /release_notes file.
     </table>
     <div class="right-align">
         Created At 2021-11-09 21:33:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3036" class=".btn">#3036</a>
-            </td>
-            <td>
-                <b>
-                    Add extra info to error message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When processing an endorsement plan, failure to connect to remote peers could lead to an error saying there aren’t enough endorsers to satisfy the policy.  This commit add the list of peers that failed to commit.
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-09 17:48:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3032" class=".btn">#3032</a>
-            </td>
-            <td>
-                <b>
-                    Use correct timeout option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The gateway’s endpoint connection factory is currently using the EndorsementTimeout option when making connections.  It should be using the DialTimeout.
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-09 13:34:17 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[257](https://github.com/hyperledger-labs/orion-server/pull/257) Calculate max-raft-id from members when committing
+[81](https://github.com/hyperledger-labs/fabric-operations-console/pull/81) added to release notes
 
-[1754](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1754) [indy] Fix issue #1738
+[266](https://github.com/hyperledger/transact/pull/266) Fix feature guard on static adapter tests
 
-[3048](https://github.com/hyperledger/fabric/pull/3048) Update Contract and Application API docs for Fabric Gateway
+[265](https://github.com/hyperledger/transact/pull/265) Stabilize `family-command`
 
-[1176](https://github.com/hyperledger/caliper/pull/1176) Fix generator integration test
+[264](https://github.com/hyperledger/transact/pull/264) Stabilize `family-smallbank`
 
-[3071](https://github.com/hyperledger/besu/pull/3071) Making sure that the resolved DNS lists get used in full
+[567](https://github.com/hyperledger-labs/solang/pull/567) Do not link against libffi
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

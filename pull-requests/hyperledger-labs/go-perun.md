@@ -30,6 +30,7 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 - Fixes linter warnings
 - Updates the linter config
 
+Closes #132  
 Depends on #256 
             </td>
         </tr>
