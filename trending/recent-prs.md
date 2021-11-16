@@ -1,13 +1,13 @@
 
-[3065](https://github.com/hyperledger/besu/pull/3065) basFee as Wei instead of long
+[1175](https://github.com/hyperledger/caliper/pull/1175) Fix Ethereum integration test
 
-[3059](https://github.com/hyperledger/aries-framework-go/pull/3059) fix: TransactionTime in UnpublishedOperations and PublishedOperations
+[260](https://github.com/hyperledger-labs/go-perun/pull/260) Update linter config
 
-[3064](https://github.com/hyperledger/besu/pull/3064) Adding filechannel name to the exception
+[3068](https://github.com/hyperledger/besu/pull/3068) Add Simon Dudley as a maintainer
 
-[1491](https://github.com/hyperledger/aries-cloudagent-python/pull/1491) DIF PresExch Tests - temporary update to fix pyld.jsonld.JsonLdError
+[1493](https://github.com/hyperledger/aries-cloudagent-python/pull/1493) DIF PresExch - ProblemReport and "is_holder"
 
-[3058](https://github.com/hyperledger/aries-framework-go/pull/3058) feat: Add unpublishedOperations and publishedOperations to DID Doc
+[3067](https://github.com/hyperledger/besu/pull/3067) Prepare for 21.10.3-SNAPSHOT
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

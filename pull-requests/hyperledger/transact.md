@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                Replace `make_command_transaction` with `CommandTransactionBuilder`.
+                family-command-workload stabilization updates:
+
+- Replace `make_command_transaction` with `CommandTransactionBuilder`. CommandTransactionBuilder can be used in the following way to create command transactions:
 
 ```
 let command_transaction_pair: TransactionPair = CommandTransactionBuilder::new()
@@ -35,6 +37,10 @@ let command_transaction_pair: TransactionPair = CommandTransactionBuilder::new()
   .into_transaction_builder()?
   .build_pair()?;
 ```
+- Remove pub from `playlist::bytes_to_hex_str`
+- Refactor the `CommandGeneratingIter` to remove panics
+- Rename the `playlist` module in `families::command::workload` to `command_iter` as it does not contain any playlist related code
+- Refactor code to only use protocol to avoid using protobuf directly
             </td>
         </tr>
     </table>

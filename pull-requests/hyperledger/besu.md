@@ -14,11 +14,95 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3068" class=".btn">#3068</a>
+            </td>
+            <td>
+                <b>
+                    Add Simon Dudley as a maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Simon has made significant [commits](https://github.com/hyperledger/besu/pulls?q=is%3Apr+author%3Asiladu) improving the quality and features of besu, this PR adds him as a maintainer.
+
+Voting ends 2 weeks from the publication of this PR or once a majority of the maintainers vote.
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 21:25:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3067" class=".btn">#3067</a>
+            </td>
+            <td>
+                <b>
+                    Prepare for 21.10.3-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prepare snapshot 21.10.3
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 20:33:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3066" class=".btn">#3066</a>
+            </td>
+            <td>
+                <b>
+                    21.10.2 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                21.10.2 release
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-15 19:15:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3065" class=".btn">#3065</a>
             </td>
             <td>
                 <b>
-                    basFee as Wei instead of long
+                    baseFee as Wei instead of long
                 </b>
             </td>
         </tr>
@@ -430,7 +514,7 @@ fixes #3050
             </td>
             <td>
                 <b>
-                    Create stub ForkingBesuControllerBuilder with no migration capabilities
+                    Create ConsensusScheduleBesuControllerBuilder with no migration capabilities
                 </b>
             </td>
         </tr>
@@ -1028,55 +1112,6 @@ and added placeholder in changelog
     </table>
     <div class="right-align">
         Created At 2021-11-09 01:57:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3022" class=".btn">#3022</a>
-            </td>
-            <td>
-                <b>
-                    Maintainer: add Taccat Isid 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-I propose to add @taccatisid as a Besu project maintainer.
-
-@taccatisid has contributed with many high quality commits:
-
-Here are their past contributions on Besu project
-- https://github.com/hyperledger/besu/pull/2644
-- https://github.com/hyperledger/besu/pull/2674
-- https://github.com/hyperledger/besu/pull/2717
-- https://github.com/hyperledger/besu/pull/2805
-- https://github.com/hyperledger/besu/pull/2956
-
-<!-- for non-code contributors -->
-@taccatisid also contributed with many high quality actions:
-
-Quality code reviews eg 
-- https://github.com/hyperledger/besu/pull/2994
-- https://github.com/hyperledger/besu/pull/2971
-
-Voting ends 2 weeks from the publication of this PR or once a majority of the maintainers [vote](https://github.com/hyperledger/besu/blob/main/MAINTAINERS.md#maintainers-approval-process).
-
-For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-08 20:38:23 +0000 UTC
     </div>
 </div>
 
