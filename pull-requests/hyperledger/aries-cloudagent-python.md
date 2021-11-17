@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1500" class=".btn">#1500</a>
+            </td>
+            <td>
+                <b>
+                    Discover Features Protocol: v1_0 refactoring and v2_0 implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolves #1466
+- v1_0 refactoring - workflow should now be compliant with `RFC0031`, `discover-features` `Query and Disclose` aries messages.
+
+- Pending v2_0 work: goal_code repository and test coverage
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-17 17:21:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1496" class=".btn">#1496</a>
             </td>
             <td>
