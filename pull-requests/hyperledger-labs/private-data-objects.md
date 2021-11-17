@@ -39,29 +39,3 @@ Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/338" class=".btn">#338</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade openssl and fix secp256k1 dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-10 17:51:07 +0000 UTC
-    </div>
-</div>
-

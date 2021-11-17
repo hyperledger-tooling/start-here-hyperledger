@@ -14,6 +14,79 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3051" class=".btn">#3051</a>
+            </td>
+            <td>
+                <b>
+                    Don't use EndorseResponse.Result field
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This duplicates information already held within the transaction envelope, and can cause failures on gRPC message size limit with large transaction results.
+    
+Also:
+- nil out the ProposalResponse.Response.Payload field in EndorseResponse messages since, in the successful endorsement case, this is typically populated with a duplicate of the transaction result. This field is not required by the Fabric Gateway client and can cause gRPC message size limit failures.
+- prefer the transaction result within the proposal response payload for EvaluateResponse messages since the Response.Payload in the proposal response is not required to be the transaction result and may instead contain metadata.
+
+Contributes to hyperledger/fabric-gateway#316
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-17 15:36:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3050" class=".btn">#3050</a>
+            </td>
+            <td>
+                <b>
+                    Fix CI script syntax
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+Previous change made for Windows in PR #2991 introduced a syntax error which
+this fixes.
+
+#### Related issues
+
+N.A.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-17 13:14:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3049" class=".btn">#3049</a>
             </td>
             <td>
@@ -267,37 +340,6 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-11 14:03:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3038" class=".btn">#3038</a>
-            </td>
-            <td>
-                <b>
-                    Reword evaluate() error message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When no suitable peers are available to evaluate a transaction, the registry returns an error.  The message should be reworded to make clear it is being used for evaluation rather than endorsement.
-
-Resolves https://github.com/hyperledger/fabric-gateway/issues/282
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-10 13:17:56 +0000 UTC
     </div>
 </div>
 

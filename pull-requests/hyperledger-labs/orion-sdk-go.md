@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/83" class=".btn">#83</a>
+            </td>
+            <td>
+                <b>
+                    Examples unit tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-17 13:59:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/82" class=".btn">#82</a>
             </td>
             <td>
@@ -143,34 +169,6 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-11 09:08:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/75" class=".btn">#75</a>
-            </td>
-            <td>
-                <b>
-                    update json query json
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                include unindexed attribute in the value
-
-Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-10 14:23:24 +0000 UTC
     </div>
 </div>
 
