@@ -282,29 +282,3 @@ This PR changes this process to use a thread instead. This way the process can r
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/257" class=".btn">#257</a>
-            </td>
-            <td>
-                <b>
-                    Stabilize "workload" by moving to stable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Stabilize the "workload" feature by moving it to stable
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-09 21:26:48 +0000 UTC
-    </div>
-</div>
-

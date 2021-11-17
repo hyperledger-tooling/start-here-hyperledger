@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/82" class=".btn">#82</a>
+            </td>
+            <td>
+                <b>
+                    Docker docs update 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added documentation about docker image volumes and new location of crypto.
+
+Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 21:14:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/80" class=".btn">#80</a>
             </td>
             <td>
