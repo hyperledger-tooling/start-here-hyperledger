@@ -40,31 +40,3 @@ Signed-off-by: udosson <r.klemens@yahoo.de>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1576" class=".btn">#1576</a>
-            </td>
-            <td>
-                <b>
-                    added versions of 3rd party packages to Debian artifacts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR retrieves the most recent version of the third-party dependencies and includes the version number into the name of the artifacts published to Artifactory. This is needed because without it the artifacts get published with version `0.0.0` e.g.  `python3-importlib-metadata_0.0.0_amd64.deb` (https://hyperledger.jfrog.io/ui/native/indy/pool/focal/dev/i/importlib-metadata)
-
-Signed-off-by: udosson <r.klemens@yahoo.de>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-10 12:10:18 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/528" class=".btn">#528</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/531" class=".btn">#531</a>
             </td>
             <td>
                 <b>
-                    Fix lint errors (release-2.2)
+                    Remove mkdocs.yaml
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                Cherry-pick of a2d0f5c93baeac884a31bcf85a1e6a741cb43096 from main branch.
+                mkdocs.yaml is not used and the content within is outdated and not correct.
 
-Likely caused by the build picking up new eslint versions.
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-03 12:38:08 +0000 UTC
+        Created At 2021-11-17 11:16:52 +0000 UTC
     </div>
 </div>
 

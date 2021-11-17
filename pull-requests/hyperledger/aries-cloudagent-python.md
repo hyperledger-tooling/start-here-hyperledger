@@ -232,31 +232,3 @@ I'll keep this open until 0.7.2 is final.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1484" class=".btn">#1484</a>
-            </td>
-            <td>
-                <b>
-                    Clarify instructions in Acme Controller Workshop
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #1477 
-
-Signed-off-by: Elias Strehle <elias@circulartree.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-10 09:38:40 +0000 UTC
-    </div>
-</div>
-
