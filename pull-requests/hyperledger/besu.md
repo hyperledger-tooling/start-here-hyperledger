@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3073" class=".btn">#3073</a>
+            </td>
+            <td>
+                <b>
+                    Vert.x upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Upgrades vert.x dependency. 
+
+Work in Progress. Still more tests to fix.  Areas of impact:
+
+- Getting connections from an HTTP client is in itself asynchronous, so another layer of futures is added.
+- The way keypairs are added to the JWTAuthProvider is different, and now they are configured using PEM strings.
+- JWT attributes and principal fields are changed, for example exp (expiry) is a user attribute, not a principal property.
+- Still need to determine if our integration testing covers some of these changes.
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 19:23:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3069" class=".btn">#3069</a>
             </td>
             <td>

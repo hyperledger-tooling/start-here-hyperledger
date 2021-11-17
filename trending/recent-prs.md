@@ -1,13 +1,13 @@
 
-[81](https://github.com/hyperledger-labs/fabric-operations-console/pull/81) added to release notes
+[363](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/363) build(deps): bump aws-sdk from 2.793.0 to 2.814.0 in /utility-emissions-channel/typescript_app
 
-[266](https://github.com/hyperledger/transact/pull/266) Fix feature guard on static adapter tests
+[82](https://github.com/hyperledger-labs/orion-sdk-go/pull/82) Docker docs update 
 
-[265](https://github.com/hyperledger/transact/pull/265) Stabilize `family-command`
+[261](https://github.com/hyperledger-labs/orion-server/pull/261) Storing all sample configuration files to same folder
 
-[264](https://github.com/hyperledger/transact/pull/264) Stabilize `family-smallbank`
+[1496](https://github.com/hyperledger/aries-cloudagent-python/pull/1496) Add RTD configs to get generator working
 
-[567](https://github.com/hyperledger-labs/solang/pull/567) Do not link against libffi
+[3073](https://github.com/hyperledger/besu/pull/3073) Vert.x upgrade
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

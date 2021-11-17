@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1496" class=".btn">#1496</a>
+            </td>
+            <td>
+                <b>
+                    Add RTD configs to get generator working
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Needed (I think) to get ReadTheDocs generation working again.  Currently not working because of a way that RTD works. Generation is no longer working because of a change in a default dependency, per [this bug report](https://gitanswer.com/build-failed-typeerror-generator-object-is-not-subscriptable-python-readthedocs-org-1036337375) and [guidance](https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html#using-a-configuration-file).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 20:31:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1494" class=".btn">#1494</a>
             </td>
             <td>
@@ -231,32 +257,6 @@ Signed-off-by: Elias Strehle <elias@circulartree.com>
     </table>
     <div class="right-align">
         Created At 2021-11-10 09:38:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1483" class=".btn">#1483</a>
-            </td>
-            <td>
-                <b>
-                    fix: create static doc use empty endpoint if None
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This enables us to use the undelivered queue with static connections by not specifying the endpoint.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-09 19:58:36 +0000 UTC
     </div>
 </div>
 

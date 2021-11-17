@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1068" class=".btn">#1068</a>
+            </td>
+            <td>
+                <b>
+                    Enforce uniqueness for PO alternate IDs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the purchase order code to enforce uniqueness for alternate IDs. This adds checks to both the client and PO store to make sure that alternate IDs are only used once per splinter circuit or sawtooth instance.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 18:31:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1063" class=".btn">#1063</a>
             </td>
             <td>
@@ -240,81 +266,6 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-11-10 18:26:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1033" class=".btn">#1033</a>
-            </td>
-            <td>
-                <b>
-                    Add paging query string support, tests, and docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a rewrite of the paging module with several notable differences
-from the original.
-
-The first and most notable change is the addition of arbitary query
-string support in the base URL, so we can add filters to the paging
-URLs. To facilitate this, this change uses the Rust url crate for both
-the external API and internal URL representation. This change also adds
-the serde feature to the url library to allow the Paging object to
-serialize.
-
-The second change is to modify the returned object to make the "prev"
-link optional. This mirrors "next" which was already optional.
-
-Other notable changes include splitting up the internal structure for
-ease of reading and testing, added tests to verify offset and
-serialization output, and added documentation in anticipation of
-Paging module stabilization.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-09 18:29:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1032" class=".btn">#1032</a>
-            </td>
-            <td>
-                <b>
-                    Change keygen priv key file permissions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changes private key file perms from 640 to 600. This matches
-ssh-keygen (as a standard).
-
-Resolves: #1020
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-09 18:20:35 +0000 UTC
     </div>
 </div>
 
