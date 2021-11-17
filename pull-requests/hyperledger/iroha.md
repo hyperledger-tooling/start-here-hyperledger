@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1617" class=".btn">#1617</a>
+            </td>
+            <td>
+                <b>
+                    [README.md] Updated Readme to conform to template.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+
+
+
+### Description of the Change
+
+Updated documentation
+
+### Issue
+
+Closes #1248 
+
+### Benefits
+
+Easier to read Readme, with better Grammar and easier to understand language. 
+
+### Possible Drawbacks
+
+None
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-17 07:26:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1613" class=".btn">#1613</a>
             </td>
             <td>
@@ -463,39 +509,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-11-10 12:26:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1597" class=".btn">#1597</a>
-            </td>
-            <td>
-                <b>
-                    Tests for tools iroha_migrate, iroha_wsv_diff
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Valid blocks store required to test on CI.
-To check these tests locally, insert valid blockstore to directory `test/tool/block_store_7000` or edit `test/tool/CMakeLists.txt` passing option `-block_store_path` to `test_tool_wsv_checker.sh`
-
-Closes #1417 Closes #1418
-ToDo #1473
-
-## #1472 should be merged first
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-10 08:05:39 +0000 UTC
     </div>
 </div>
 
