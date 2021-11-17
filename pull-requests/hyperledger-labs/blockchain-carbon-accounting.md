@@ -180,34 +180,3 @@ Closes #187.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/361" class=".btn">#361</a>
-            </td>
-            <td>
-                <b>
-                    REST API for ws-wallet web-socket-key request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ws-wallet REST API to request and authorize web-socket keys for third party applications
-
-POST /session/new/ ,
-body: {endpoint: <fabric app's ws-identity session ticket  url>, key_name: <keyName>}
-
-Signed-off-by: brioux <Bertrand.rioux@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-10 03:56:05 +0000 UTC
-    </div>
-</div>
-
