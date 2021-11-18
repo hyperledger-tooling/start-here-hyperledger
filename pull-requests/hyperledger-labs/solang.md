@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                If the vector to slice pass updates once incoming value for a phi node,
+                If the vector to slice pass updates one incoming value for a phi node,
 but not another we end up with a phi node that is invalid; one entry
 is a vector and the other a slice.
 

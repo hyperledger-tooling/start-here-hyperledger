@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3082" class=".btn">#3082</a>
+            </td>
+            <td>
+                <b>
+                    Fix admin_nodeInfo when response has jdk8 optional values
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+We were not handling JDK8 (de)serialization properly in our RPC services. This PR is using jackson-jdk8 module to handle Optional (de)serialization for responses.
+
+This will ensure that serialization maps the value of Optional to null, if no value is present, or the wrapped value if present.
+
+It does not make sense for the QBFT config to return null for the validator address and start block, so we are not including it into the json when these values are not present.
+
+## Fixed Issue(s)
+N/A
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-17 23:19:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3077" class=".btn">#3077</a>
             </td>
             <td>
@@ -151,12 +190,12 @@ Fixes #2960
 
 Upgrades vert.x dependency. 
 
-Work in Progress. Still more tests to fix.  Areas of impact:
+Notable areas of impact:
 
 - Getting connections from an HTTP client is in itself asynchronous, so another layer of futures is added.
 - The way keypairs are added to the JWTAuthProvider is different, and now they are configured using PEM strings.
 - JWT attributes and principal fields are changed, for example exp (expiry) is a user attribute, not a principal property.
-- Still need to determine if our integration testing covers some of these changes.
+
 
 ## Changelog
 
@@ -972,47 +1011,6 @@ Added link to relevant Tessera code for generating privacy group ID
     </table>
     <div class="right-align">
         Created At 2021-11-11 01:58:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3035" class=".btn">#3035</a>
-            </td>
-            <td>
-                <b>
-                    Fix sepolia copypasta
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-fix incorrect discovery port on geth sepolia config
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-10 19:36:36 +0000 UTC
     </div>
 </div>
 

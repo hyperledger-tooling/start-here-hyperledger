@@ -1,13 +1,13 @@
 
-[569](https://github.com/hyperledger-labs/solang/pull/569) Vector to slice pass creates invalid phi nodes
+[303](https://github.com/hyperledger-labs/minifabric/pull/303) Fix simple chaincode build failed issue
 
-[1500](https://github.com/hyperledger/aries-cloudagent-python/pull/1500) Discover Features Protocol: v1_0 refactoring and v2_0 implementation
+[269](https://github.com/hyperledger/transact/pull/269) `command` transact-cli stabilization updates
 
-[1071](https://github.com/hyperledger/grid/pull/1071) Small cli fixes
+[3082](https://github.com/hyperledger/besu/pull/3082) Fix admin_nodeInfo when response has jdk8 optional values
 
-[1070](https://github.com/hyperledger/grid/pull/1070) Remove `pike-rest-api` feature
+[3055](https://github.com/hyperledger/fabric/pull/3055) Use Heap To Maintain First Differences
 
-[3051](https://github.com/hyperledger/fabric/pull/3051) Don't use EndorseResponse.Result field
+[268](https://github.com/hyperledger/transact/pull/268) `playlist` transact-cli stabilization updates
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
