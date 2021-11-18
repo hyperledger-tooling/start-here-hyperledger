@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                - Update the content of the command get-state man page.
+                - Add a comment to command get-state man page to specify nothing is returned.
 - Fix the example commands in each of the command man pages.
             </td>
         </tr>

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/570" class=".btn">#570</a>
+            </td>
+            <td>
+                <b>
+                    Increase stack size on Windows to 8MB
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Both Mac and Linux already use a 8MB stack by default.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 15:02:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/569" class=".btn">#569</a>
             </td>
             <td>
@@ -190,32 +218,6 @@ Thanks!
     </table>
     <div class="right-align">
         Created At 2021-11-12 15:45:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/556" class=".btn">#556</a>
-            </td>
-            <td>
-                <b>
-                    Fix recursive structs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Iwan Waitusenok <sleepplease@protonmail.ch>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-11 12:56:31 +0000 UTC
     </div>
 </div>
 

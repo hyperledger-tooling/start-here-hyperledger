@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3086" class=".btn">#3086</a>
+            </td>
+            <td>
+                <b>
+                    Removing the orion acceptance tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ORION is getting deprecated. There is no need to run these acceptance
+tests any more.
+
+Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+Fixes [3030](https://github.com/hyperledger/besu/issues/3030)
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 15:59:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3085" class=".btn">#3085</a>
+            </td>
+            <td>
+                <b>
+                    Adding support for NO_COLOR environment variable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding support of the NO_COLOR environment variable as described in
+the [NO_COLOR](https://no-color.org/) standard.
+
+The new behaviour looks like this:
+1) Both NO_COLOR is not set and color-enabled options is not set => colors
+will be enabled (by default we have colors on)
+
+2) NO_COLOR is not set but color-enabled option is set to false =>
+colors will be disabled (we can disable colors using an option)
+
+3) NO_COLOR is set to any value and color-enabled option is not used =>
+colors will be disabled (we can disable colors using an environment
+variable this is new!)
+
+4) NO_COLOR is set to any value but color-enabled option is set to true
+=> colors will be enabled (an option has precedence over the environment
+variable)
+
+Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+Fixes issue [1756](https://github.com/hyperledger/besu/issues/1756)
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 15:18:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3082" class=".btn">#3082</a>
             </td>
             <td>
@@ -205,6 +301,49 @@ Notable areas of impact:
     </table>
     <div class="right-align">
         Created At 2021-11-16 19:23:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3071" class=".btn">#3071</a>
+            </td>
+            <td>
+                <b>
+                    Making sure that the resolved DNS lists get used in full
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Previously we would always process the list of DNS resolved peers from the beginning. We would
+at most only try `maxConnections` valid elements from the list and never try more. So the each
+time we might be trying the same 25 peers, we connect with them and then drop them. This PR
+firstly shuffles the peers list each time before applying it and then also takes from the list for
+as long as there are free peers slots available as opposed to guess the limit upfront and hope
+that all the peers connect.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-16 10:03:03 +0000 UTC
     </div>
 </div>
 
@@ -804,36 +943,6 @@ Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
     </table>
     <div class="right-align">
         Created At 2021-11-12 01:19:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3043" class=".btn">#3043</a>
-            </td>
-            <td>
-                <b>
-                    Require blockheader mode validators
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A runtime is thrown at startup if this requirement is not met.
-
-A second PR will remove some now redundant complexity in ForkingValidatorProvider
-
-https://github.com/hyperledger/besu/issues/3038
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-11 12:38:12 +0000 UTC
     </div>
 </div>
 
