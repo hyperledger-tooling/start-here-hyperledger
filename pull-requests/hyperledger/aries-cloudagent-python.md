@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1501" class=".btn">#1501</a>
+            </td>
+            <td>
+                <b>
+                    Outbound Queue - more usability improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR improves the usability of outbound queues by:
+- Fixing a bug where a queue instance was created twice when loading the class
+- Add explicit startup and shutdown methods that are called in startup and shutdown of the conductor. This makes it so we can hold connections to external queues and give the outbound queue implementation the flexibility to determine how long those connections should live.
+- Add `open` and `close` method to be used as `start` and `stop` were previously used. These methods are called by `aenter` and `aexit` on the base class and are therefore used each time a message is enqueued.
+- All the `start`, `stop`, `open`, and `close` methods are now optional. If no special behavior is required, the inheriting class need not define an empty method.
+- Outbound queue accepts a `Profile` instance for configuration instead of `Settings`. This allows the queue to subscribe to an publish events through the root profile.
+
+This represents a BREAKING CHANGE in the outbound queue interface as the semantics of `start` and `stop` have been altered. Additionally, queue implementation init methods will need to be reconfigured to accept a profile instead of a settings object.
+
+I think these changes, while breaking changes, go a long way towards improving the outbound queue interface and will better support a wider variety of external queue implementations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 02:56:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1500" class=".btn">#1500</a>
             </td>
             <td>

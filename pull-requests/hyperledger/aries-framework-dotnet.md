@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/203" class=".btn">#203</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/204" class=".btn">#204</a>
             </td>
             <td>
                 <b>
-                    Allow switching between return routing types
+                    Change references to streetcred-id GitHub org to trinsic-id
                 </b>
             </td>
         </tr>
@@ -27,18 +27,22 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
                 
             </td>
             <td>
-                #### Short description of what this resolves:
-This PR enables implementers to select different types of return routing. Before, the `return_routing` decorator was always set to `all` and could not be changed. Now, the default value is still `all`, but the value can be defined via a parameter of `SendReceiveAsync`.
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+#### Short description of what this resolves:
+There are some references in the repo to the old "streetcred-id" GitHub organization that need to be changed to "trinsic-id".  Another party has grabbed the "streetcred-id" github account and is using it, so the links are no longer reliable.
 
 #### Changes proposed in this pull request:
 
-- Add parameter to `SendReceiveAsync` in `IMessageService.cs` and `DefaultMessageService.cs` which specifies the desired return_routing type
+- Rename several paths into GitHub to use Trinsic
+
+**Fixes**: #
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-01 15:21:27 +0000 UTC
+        Created At 2021-11-18 01:13:38 +0000 UTC
     </div>
 </div>
 

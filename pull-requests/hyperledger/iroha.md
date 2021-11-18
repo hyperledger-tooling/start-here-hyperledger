@@ -18,13 +18,13 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [README.md] Updated Readme to conform to template.
+                    [docs] Updated Readme to conform to template.
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
             </td>
             <td>
                 Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
