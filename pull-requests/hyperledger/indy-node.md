@@ -70,32 +70,3 @@ Signed-off-by: udosson <r.klemens@yahoo.de>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1713" class=".btn">#1713</a>
-            </td>
-            <td>
-                <b>
-                    bump version of indy plenum and added pypi versio to 3rd party artifacts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR bumps the version of `Indy Plenum`  to `1.13.0.dev175`.
-Also, this PR adds the most recent version names to the 3rd party artifacts.
-
-Signed-off-by: udosson <r.klemens@yahoo.de>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-11 10:09:48 +0000 UTC
-    </div>
-</div>
-

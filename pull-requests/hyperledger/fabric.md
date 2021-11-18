@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3056" class=".btn">#3056</a>
+            </td>
+            <td>
+                <b>
+                    docs: fixing some typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+This change fixes some typos  in the docs
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 11:38:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3055" class=".btn">#3055</a>
             </td>
             <td>

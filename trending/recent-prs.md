@@ -1,13 +1,13 @@
 
-[1501](https://github.com/hyperledger/aries-cloudagent-python/pull/1501) Outbound Queue - more usability improvements
+[675](https://github.com/hyperledger-labs/business-partner-agent/pull/675) Issuer option to select credential definition when receiving a proposal
 
-[706](https://github.com/hyperledger/aries-rfcs/pull/706) Update OOB spec with clarifications
+[3056](https://github.com/hyperledger/fabric/pull/3056) docs: fixing some typos
 
-[204](https://github.com/hyperledger/aries-framework-dotnet/pull/204) Change references to streetcred-id GitHub org to trinsic-id
+[73](https://github.com/hyperledger-labs/mirbft/pull/73) Clarify difference between WAL and event log
 
-[303](https://github.com/hyperledger-labs/minifabric/pull/303) Fix simple chaincode build failed issue
+[1757](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1757) [fabric] Ansible decoupling for create/crypto/peer role
 
-[269](https://github.com/hyperledger/transact/pull/269) `command` transact-cli stabilization updates
+[1756](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1756) [indy] Fix issue #1738
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

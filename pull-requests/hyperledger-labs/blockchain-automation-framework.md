@@ -14,7 +14,50 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1754" class=".btn">#1754</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1757" class=".btn">#1757</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Ansible decoupling for create/crypto/peer role
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+- Update ca-tools chart to perform the functionality performed by create / crypto / peer
+- Delete create / crypto / peer role
+
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar
+@jagpreetsinghsasan
+
+ 
+
+**Linked issue**
+#1575 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 11:00:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1756" class=".btn">#1756</a>
             </td>
             <td>
                 <b>
@@ -27,26 +70,24 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
                 
             </td>
             <td>
-                Signed-off-by: juraj-durech <juraj.durech@accenture.com>
-
-**Changelog**
-- Fix Issue #1738 (join a Indy consortium which has not been created by BAF)
+                **Changelog**
+- Fix #1738 
 
  
 
 **Reviewed by**
-@sownak 
+@sownak
 
  
 
 **Linked issue**
-#1738
+#1738 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-16 11:57:49 +0000 UTC
+        Created At 2021-11-18 10:43:43 +0000 UTC
     </div>
 </div>
 
