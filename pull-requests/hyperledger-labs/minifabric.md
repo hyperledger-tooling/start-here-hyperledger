@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/303" class=".btn">#303</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/304" class=".btn">#304</a>
             </td>
             <td>
                 <b>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                Fix simple chaincode build failed issue #223, just changed mod and sum file in chaincode folder. 
+                #223 Signed-off-by: zhenbing <szb@bitm.cn>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-18 00:32:05 +0000 UTC
+        Created At 2021-11-18 15:03:42 +0000 UTC
     </div>
 </div>
 

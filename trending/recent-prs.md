@@ -1,13 +1,13 @@
 
-[675](https://github.com/hyperledger-labs/business-partner-agent/pull/675) Issuer option to select credential definition when receiving a proposal
+[533](https://github.com/hyperledger/fabric-sdk-node/pull/533) Use chaincode action response payload as transaction result
 
-[3056](https://github.com/hyperledger/fabric/pull/3056) docs: fixing some typos
+[1504](https://github.com/hyperledger/aries-cloudagent-python/pull/1504) Remove Streetcred references
 
-[73](https://github.com/hyperledger-labs/mirbft/pull/73) Clarify difference between WAL and event log
+[3086](https://github.com/hyperledger/besu/pull/3086) Removing the orion acceptance tests
 
-[1757](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1757) [fabric] Ansible decoupling for create/crypto/peer role
+[264](https://github.com/hyperledger-labs/go-perun/pull/264) Rename Address.Equals to Equal
 
-[1756](https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1756) [indy] Fix issue #1738
+[2447](https://github.com/hyperledger/indy-sdk/pull/2447) [#2446] docker compose up fails in in pip3 install
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
