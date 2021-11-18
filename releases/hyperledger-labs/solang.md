@@ -15,14 +15,14 @@ permalink: /releases/hyperledger-labs/solang
         <tr>
             <td colspan="2">
                 <b>
-                    
+                    LLVM Libraries v13.0 (v1)
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.9
+                    llvm13.0-1
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger-labs/solang
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/solang/releases/tag/v0.1.9" class=".btn">
+    <a href="https://github.com/hyperledger-labs/solang/releases/tag/llvm13.0-1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-11-03 09:16:33 +0000 UTC
+        Created At 2021-11-18 16:46:49 +0000 UTC
     </span>
 </div>
 
