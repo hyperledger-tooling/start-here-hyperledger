@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/296" class=".btn">#296</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/303" class=".btn">#303</a>
             </td>
             <td>
                 <b>
-                    Allow endpoint address to be fqdn
+                    Fix simple chaincode build failed issue
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                Signed-off-by: Tong Li <litong01@us.ibm.com>
+                Fix simple chaincode build failed issue #223, just changed mod and sum file in chaincode folder. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-20 21:10:41 +0000 UTC
+        Created At 2021-11-18 00:32:05 +0000 UTC
     </div>
 </div>
 
