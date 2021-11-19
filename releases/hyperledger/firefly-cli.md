@@ -15,31 +15,31 @@ permalink: /releases/hyperledger/firefly-cli
         <tr>
             <td colspan="2">
                 <b>
-                    v0.0.38
+                    v0.0.39
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.0.38
+                    v0.0.39
                 </span>
             </td>
             <td>
                 ## Changelog
 
-9d533eb Enhance pull command to pull all images in stack
-a80fccc Merge pull request #115 from hyperledger/pull-all-images
+dff1fa0 Update readme with new installation instructions (#116)
+1eaadbd Use external config for ethconnect (#122)
 
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.38" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.39" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-11-09 18:14:25 +0000 UTC
+        Created At 2021-11-18 23:57:57 +0000 UTC
     </span>
 </div>
 
