@@ -90,8 +90,6 @@ I think these changes, while breaking changes, go a long way towards improving t
             <td>
                 - resolves #1466
 - v1_0 refactoring - workflow should now be compliant with `RFC0031`, `discover-features` `Query and Disclose` aries messages.
-
-- Pending v2_0 work: goal_code repository and test coverage
             </td>
         </tr>
     </table>

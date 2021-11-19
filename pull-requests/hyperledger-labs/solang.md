@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/573" class=".btn">#573</a>
+            </td>
+            <td>
+                <b>
+                    Use the latest @solana/solidity npm version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-19 12:59:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/572" class=".btn">#572</a>
             </td>
             <td>
@@ -246,32 +272,6 @@ Thanks!
     </table>
     <div class="right-align">
         Created At 2021-11-13 04:48:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/562" class=".btn">#562</a>
-            </td>
-            <td>
-                <b>
-                    Minor fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-12 15:45:15 +0000 UTC
     </div>
 </div>
 

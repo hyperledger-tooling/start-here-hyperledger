@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/344" class=".btn">#344</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/352" class=".btn">#352</a>
             </td>
             <td>
                 <b>
-                    Update to Node 16.4.0
+                    [WIP] Update to recent dependency versions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+                [Work in progress] Updating to get this testing working again
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-09 06:13:03 +0000 UTC
+        Created At 2021-11-19 16:01:42 +0000 UTC
     </div>
 </div>
 
