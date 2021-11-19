@@ -15,18 +15,20 @@ permalink: /releases/hyperledger/iroha
         <tr>
             <td colspan="2">
                 <b>
-                    Hyperledger Iroha v1.3 Release Candidate 1
+                    Hyperledger Iroha v1.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    1.3.0-rc.1
+                    1.3.0
                 </span>
             </td>
             <td>
                 # Hyperledger Iroha v1.3
+
+Here is the list of changes that were implemented since Iroha v1.2.1:
 
 ## Features:
 
@@ -43,16 +45,17 @@ SE features update #914:
 [Stack-created subscriber is not allowed](https://github.com/hyperledger/iroha/commit/bbf35f85a12bf6400255a4e6d61a1a871e954468)
 Is busy fixup #1366
 Atomic busy check #1370
+Repeat implementation #1410
 
 Fixed thread pool tasks balancer #1271
 
 ### Metrics #943
-
 - Add CMake files to .clang-format-ignore
 - Disable prometheus-cpp logs
 - Extend WSV to countDomains(), countTransactions(), countPeers()
 - `-fno-lto` to link GCC-10 and clang with civetweb which was built with GCC-9
 - Tests dependant on ametsuchi are linked against sync_subscription, not async
+Metrics Uptime #1471
 
 Prometheus metrics sample #841
 Documentation #1346
@@ -60,6 +63,8 @@ Documentation #1346
 ### GitHub Actions #1028
 A script to request tags of docker repository from DockerHub using curl and jq #1288
 Improvements and fixes #1291, #1313, #1343, #1357, #1284, #1157, #1039
+Fixed CI and automatic builds #1450, #1567, #1578, #1589
+Better cathegories in CTest logs #1564
 
 ### RocksDB #1084
 
@@ -72,10 +77,14 @@ Fix: Read precision in SubstractAssetQuantity #1091
 Specific query executor #1049
 Block Store #1304
 RocksDB cache #1335
+Print current DB status on exit #1410
+Memory leaks fixes #1410
 
 ### Tools for Migration to RocksDB
 ``wsv_checker`` #1294
 Migration-tool #1320
+Adding the tools to Docker #1426
+Tests for tools iroha_migrate, iroha_wsv_diff #1597
 
 ### Proposal Creation Timeout #1011:
 - Replace round delay with proposal creation timeout
@@ -88,6 +97,7 @@ Migration-tool #1320
 ### Additional Commands and Queries for Burrow #1326
 *Implemented by this year's Hyperledger intern @Ayush-Jalan with @Baziorek as a mentor*
 Documentation on new commands #1334
+Missing queries integration to Burrow #1443
 
 ### Queries extension by modifing TxPaginationMeta #1092
 *Implemented by this year's Hyperledger intern @Pawlak00 with @Baziorek as a mentor*
@@ -116,6 +126,15 @@ Ordering Service batches cache + small block fixup #1327
 Fixed integration tests #1347, 
 Fixed integration tests #1347, #1378
 Query permission test fix #1380
+Fixed add_peer_test #1408
+RocksDBWsvQuery: fixed buffer reuse in getPeerByPublicKey #1505
+Fixed MST expiration #1488, #1489, #1490, #1521, #1557
+YAC logical fixes #1410
+Ordering Service removing duplicated transactions #1410
+Prevented Ordering Service server from creating blocks when there are not enough transactions in the pool #1581
+Restoring WSV Fix #1528, #1472
+`GetTransactions` request fix #1410 
+`on_demand_os_client_grpc` test freeze fix #1410 
 
 ## Infrastructure
 
@@ -130,6 +149,7 @@ Added scripts/fix-dco.sh #1303
 Refactored YAC #1110
 Removed `boost::adaptors::filter` which could be dereferenced multiple times causing performance decrease #869
 Remove rxcpp #1004
+Internal storage refactoring #1410 
 
 ## Docs
 
@@ -142,15 +162,21 @@ Block Path Config Description #1080
 Updated documentation requirements #1359, #1159
 Configuration Fix #1360
 Removed Doxygen build #1377
+Docs: Migration Tool and WSV Checker Use #1412
+Fixed Build Instructions #1503
+Fixed Starting Container Instructions for RocksDB Iroha #1600
 
+Main team preparing the release: @kuvaldini, @iceseer, @LiraLemur 
+
+**Results of the Performance Testing can be found [here](https://wiki.hyperledger.org/display/iroha/Release+1.3.0)**
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/iroha/releases/tag/1.3.0-rc.1" class=".btn">
+    <a href="https://github.com/hyperledger/iroha/releases/tag/1.3.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-09-02 09:46:47 +0000 UTC
+        Created At 2021-11-12 15:10:48 +0000 UTC
     </span>
 </div>
 
