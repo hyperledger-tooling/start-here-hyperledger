@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3087" class=".btn">#3087</a>
+            </td>
+            <td>
+                <b>
+                    Rename BftForkSpec to ForkSpec and make it generic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span>
+            </td>
+            <td>
+                ## PR description
+This was split out of #3069. Changes the BftForkSpec to more generic concept so it can be reused in the QBFT migration.
+
+* Rename BftForkSpec to ForkSpec
+* Move from consenus.common.bft package in the consensus.common package
+* Allow it to hold any value not just a BftConfigOption
+* Rename getConfigOption to getValue
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-19 04:01:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3086" class=".btn">#3086</a>
             </td>
             <td>
@@ -361,7 +401,7 @@ that all the peers connect.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -880,69 +920,6 @@ fixes #3050
     </table>
     <div class="right-align">
         Created At 2021-11-12 10:56:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3048" class=".btn">#3048</a>
-            </td>
-            <td>
-                <b>
-                    Create ConsensusScheduleBesuControllerBuilder with no migration capabilities
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Paving the way for the work on IBFT2 to QBFT migration.
-
-- Created `startBlock` option for `QbftConfig`
-- Created skeleton `ForkingBesuControllerBuilder`
-
-fixes #2997
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-12 03:24:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3047" class=".btn">#3047</a>
-            </td>
-            <td>
-                <b>
-                    add more logging for get blocks form peers task
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #3010
-
-Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-12 01:19:19 +0000 UTC
     </div>
 </div>
 
