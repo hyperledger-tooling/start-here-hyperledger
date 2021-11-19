@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1076" class=".btn">#1076</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize SDK's "cylinder-jwt-support" by removing it
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change stabilizes the "cylinder-jwt-support" feature by removing it
+from the Grid SDK.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-19 14:34:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1075" class=".btn">#1075</a>
             </td>
             <td>
@@ -210,36 +239,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-11-15 14:26:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1041" class=".btn">#1041</a>
-            </td>
-            <td>
-                <b>
-                    Clarify po update error message for is_closed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The old update po error message for is_closed was ambiguous. This change
-clarifies that the error is due to the closed constraint on the state
-not being in sync with the is_closed payload.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-12 17:13:17 +0000 UTC
     </div>
 </div>
 
