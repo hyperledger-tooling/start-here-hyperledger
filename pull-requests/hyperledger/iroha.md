@@ -265,30 +265,3 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1604" class=".btn">#1604</a>
-            </td>
-            <td>
-                <b>
-                    v1.3 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Description of the Change
-Final v1.3 release.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-12 08:06:36 +0000 UTC
-    </div>
-</div>
-
