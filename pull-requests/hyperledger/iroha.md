@@ -119,7 +119,7 @@ None
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
-Peer sends `GetBlocksAfter` message in which it sends it's latest block hash, and other peers respond with `ShareBlocks` message if they have newer blocks
+Each peer collects heights of all other peers and randomly chooses one of the `n` peers with largest height to send the request for latest block to. This is implemented as two independent gossipings, one for synchronizing peer block heights and one for synchronizing blocks.
 
 ### Issue
 
@@ -138,6 +138,8 @@ Closes #1236
 
 <!-- What are the possible side-effects or negative impacts of the code change? -->
 <!-- If no drawbacks, explicitly mention this (write None) -->
+
+gossiping about block heights periodically sends info about all block heights from every peer to a randomly selected subset of peers. How large is this payload depends on the number of nodes in the network. Is there some estimate?
 
 ### Usage Examples or Tests *[optional]*
 

@@ -14,6 +14,121 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/273" class=".btn">#273</a>
+            </td>
+            <td>
+                <b>
+                    `family-smallbank-workload` stabilization updates - add smallbank protocol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Stabilization updates for `family-smallbank-workload`
+
+- Add smallbank protocol
+- Refactor code to use protocol instead of protobuf
+- Remove panics from `SmallbankGeneratingIter`
+- Remove pub from `bytes_to_hex_str`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-19 00:12:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/272" class=".btn">#272</a>
+            </td>
+            <td>
+                <b>
+                    Rename GHA workflow files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If workflows share the name filename as an existing workflow in the main
+branch, github will execute the workflow from main instead of the branch
+appropriate instance.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 21:32:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/271" class=".btn">#271</a>
+            </td>
+            <td>
+                <b>
+                    Package man pages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 21:12:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/270" class=".btn">#270</a>
+            </td>
+            <td>
+                <b>
+                    Add list trees to MerkleRadixStore
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a `list_trees` method to the `MerkleRadixStore` and provides the necessary operations to enable the new method. 
+
+As this is not a method directly associated with `SqlMerkleState`, this PR also makes the store module and the store itself public, such that this method can be used.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 21:00:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/269" class=".btn">#269</a>
             </td>
             <td>
@@ -237,97 +352,6 @@ The main focus of this PR is to move the printing functionality of `HttpRequestC
     </table>
     <div class="right-align">
         Created At 2021-11-13 00:07:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/261" class=".btn">#261</a>
-            </td>
-            <td>
-                <b>
-                    `family-command` stabilization updates - Add documentation for handler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add documentation for `CommandTransactionHandler`
-
-Signed-off-by: Isabel Tomb <tomb@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-12 00:06:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/260" class=".btn">#260</a>
-            </td>
-            <td>
-                <b>
-                    `family-smallbank` stabilization updates - Add API doc for handler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add API doc for the `SmallbankTransactionHandler`
-
-Signed-off-by: Isabel Tomb <tomb@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-11 23:40:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/259" class=".btn">#259</a>
-            </td>
-            <td>
-                <b>
-                    `workload-batch-gen` stabilization updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Stabilization updates for the "workload-batch-gen" feature
-
-- Remove `SignedBatchIterator` because it isn't used
-- Make `BatchListResult` type pub(super) 
-- Remove unused variants from `BatchReadingError`
-- Replace `generate_signed_batches` with a `write_to` function for `SignedBatchProducer` and update cli playlist to use it
-- Make BatchResult type private
-- Modify the `batch_transactions` function to use `BatchBuilder` to eliminate the need to use protobuf directly
-- Add feature guards to `BatchingError` and replace the `BatchingError` variants with common errors `InternalError` and
-`InvalidStateError`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-11 18:48:22 +0000 UTC
     </div>
 </div>
 

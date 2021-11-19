@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3060" class=".btn">#3060</a>
+            </td>
+            <td>
+                <b>
+                    Updates to endorser and gateway logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update endorser and gateway log levels to improve troubleshooting.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 21:07:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3059" class=".btn">#3059</a>
+            </td>
+            <td>
+                <b>
+                    Update protobuf definitions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Redundant `result` fields removed from gateway.EndorseResponse and gateway.PreparedTransaction.
+
+Contributes to hyperledger/fabric-gateway#316
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 18:23:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3056" class=".btn">#3056</a>
             </td>
             <td>
@@ -374,64 +430,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-13 16:09:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3042" class=".btn">#3042</a>
-            </td>
-            <td>
-                <b>
-                    Gateway overview edited
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-New Fabric Gateway overview doc, written by @andrew-coleman, reviewed by @denyeart, and edited by @joshhus. 
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- New feature
-- Documentation update
-
-#### Description
-
-Fabric Gateway simplifies client app / SDK development by migrating transaction endorsement functionality to a Fabric Gateway peer. 
-
-#### Additional details
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-Some related doc file reviews and edits are still TBA.
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/2807
-
-#### Release Note
-
-Fabric Gateway simplifies client application development by migrating transaction endorsement functionality from the client to the Fabric Gateway peer. This new gateway functionality is currently optional. Simplified SDKs are provided for clients who choose to implement the new gateway. Read more at (link to documentation start -- gateway.md). 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-11 21:12:14 +0000 UTC
     </div>
 </div>
 

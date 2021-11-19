@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/340" class=".btn">#340</a>
+            </td>
+            <td>
+                <b>
+                    Updates to cmake files and wawaka benchmarks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR introduces two main updates:
+- Bump the minimum required cmake version to 3.10 throughout the CMakeLists.txt files in the codebase (cmake 3.10 is the default in Ubuntu 18.04)
+- Update the wawaka benchmarks to build with clang-wasi 
+
+This PR supersedes #334 .
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 22:52:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/339" class=".btn">#339</a>
             </td>
             <td>
