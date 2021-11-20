@@ -260,31 +260,3 @@ Other code in this file seems to indicate that the proposed change is what is ne
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1489" class=".btn">#1489</a>
-            </td>
-            <td>
-                <b>
-                    Update to ReadMe and Supported RFCs for 0.7.2.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates to readme to better reflect the current state of ACA-Py. 
-
-Update the "Supported RFCs" doc to use the checklist style that Northern Block and Animo Solutions created.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-12 22:30:44 +0000 UTC
-    </div>
-</div>
-
