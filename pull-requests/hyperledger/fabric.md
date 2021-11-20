@@ -532,32 +532,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3044" class=".btn">#3044</a>
-            </td>
-            <td>
-                <b>
-                    Clarify ProcessProposal error handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add comments to clarify ProcessProposal error handling intent.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-13 16:09:37 +0000 UTC
-    </div>
-</div>
-
