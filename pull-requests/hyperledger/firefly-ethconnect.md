@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/171" class=".btn">#171</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/174" class=".btn">#174</a>
             </td>
             <td>
                 <b>
-                    Add GitHub action to build commits to main
+                    Add nil check when looking up contracts
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-25 20:18:16 +0000 UTC
+        Created At 2021-11-19 18:36:38 +0000 UTC
     </div>
 </div>
 

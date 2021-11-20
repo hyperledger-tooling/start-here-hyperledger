@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3065" class=".btn">#3065</a>
+            </td>
+            <td>
+                <b>
+                    Fix Issue #257 by including additional details on Kube Service routing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+This PR adds a brief summary of Kubernetes Service routing as a mechanism to implement basic HA / DR / connection load balancing to the Fabric Gateway. 
+
+#### Additional details
+
+A sample integration of the Kube routing is available in the Kubernetes Test Network [HA GUIDE](https://github.com/hyperledger/fabric-samples/blob/main/test-network-k8s/docs/HIGH_AVAILABILITY.md)
+
+Kube test network updates to enable gateway client load balancing are available in [fabric-samples PR #532](https://github.com/hyperledger/fabric-samples/pull/532)
+#### Related issues
+
+Additional discussion, and the original issue, is tracked at [fabric-gateway issue #257](https://github.com/hyperledger/fabric-gateway/issues/257) 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-19 19:15:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3064" class=".btn">#3064</a>
             </td>
             <td>
