@@ -241,37 +241,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/563" class=".btn">#563</a>
-            </td>
-            <td>
-                <b>
-                    Disable eliminating unused variables when optimization level is None (-O none)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hi,
-
-I created this new PR to fix all problems mentioned in the previous PR https://github.com/hyperledger-labs/solang/pull/560
-
-I also fixed the problems mentioned by @LucasSte in https://github.com/hyperledger-labs/solang/pull/560#issuecomment-967294935
-
-Can you help to review it?
-
-Thanks!
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-13 04:48:11 +0000 UTC
-    </div>
-</div>
-
