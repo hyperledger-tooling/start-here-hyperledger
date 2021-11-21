@@ -234,29 +234,3 @@ Other code in this file seems to indicate that the proposed change is what is ne
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1490" class=".btn">#1490</a>
-            </td>
-            <td>
-                <b>
-                    fix: using a default mediator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes an error in the use of a default mediator in the connections and out of band protocols. The mediation ID was being saved as None instead of the retrieved default mediator value.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-13 22:51:04 +0000 UTC
-    </div>
-</div>
-

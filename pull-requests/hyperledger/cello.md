@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/350" class=".btn">#350</a>
+            </td>
+            <td>
+                <b>
+                    Update quick start part of README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rewrite the quick start part of README, so we can use this instruction to run the cello application.
+
+Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-20 20:46:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/349" class=".btn">#349</a>
             </td>
             <td>
