@@ -89,7 +89,34 @@ I think these changes, while breaking changes, go a long way towards improving t
             </td>
             <td>
                 - resolves #1466
-- v1_0 refactoring - workflow should now be compliant with `RFC0031`, `discover-features` `Query and Disclose` aries messages.
+- v1.0 refactoring/rewrite - workflow should now be compliant with [RFC0031](https://github.com/hyperledger/aries-rfcs/tree/b3a3942ef052039e73cd23d847f42947f8287da2/features/0031-discover-features)
+Earlier implementation involved calling `/featues` endpoint [under `server` tag] to disclose protocols for that agent. It did not involve the flow of `Aries` messages as specified in the RFC.
+- v2.0 implementation [RFC0557](https://github.com/hyperledger/aries-rfcs/tree/b3a3942ef052039e73cd23d847f42947f8287da2/features/0557-discover-features-v2)
+
+Major Changes
+- Startup arguments
+  - `--auto-disclose-features` Enables [proactive disclosure](https://github.com/hyperledger/aries-rfcs/tree/b3a3942ef052039e73cd23d847f42947f8287da2/features/0557-discover-features-v2#requester) for v2.0. Such agent will automatically disclose features to another agent when an active connection gets established. `--disclose-features-list` can be used to limit what to disclose and if not specified, then all are disclosed.
+  - `--disclose-features-list` Provides control over what features to publish. Accepts a path to YAML config file [example structure below]. This is valid for both v1.0 and v2.0
+- Removed `/features under server` endpoint
+- Added these endpoints:
+  -  `discover-features` tag
+     -  /discover-features/query
+     - /discover-features/records
+  -  `discover-features v2.0` tag
+     - /discover-features-2.0/queries
+     - /discover-features-2.0/records
+- Added Controller class to protocols to specify, manage and load goal-codes
+YAML config file structure, such agent will only disclose `did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/action-menu/1.0` protocol and/or `aries.vc` goal-code
+```
+   protocols: ["did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/action-menu/1.0"]
+   goal-codes: ["aries.vc"]
+```
+
+Testing
+- For v1.0, execute query using ` /discover-features/query`. If no `connection_id` is specified then it processes the query on the same agent (disclose features of the same agent). This essentially mimics what can be achieved using `/features` [under `server`]. To look up either all records or a record by `connection_id`, use `/discover-features/records`.
+- For v2.0, execute queries using `/discover-features-2.0/queries`. Same logic when no `connection_id` is specified as above. To look up either all records or a record by `connection_id`, use `/discover-features-2.0/records`.
+`connection_id` is an unique identifier for these records.
+
             </td>
         </tr>
     </table>

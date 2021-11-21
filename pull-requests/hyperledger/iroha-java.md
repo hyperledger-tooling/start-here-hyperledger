@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/177" class=".btn">#177</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/178" class=".btn">#178</a>
             </td>
             <td>
                 <b>
-                    Implemented conversion to fixed point IR-135
+                    Iroha-jave v1.3.0
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                closes #135 
+                Iroha v1.3.0 has been released.
+
+This branch is an update of iroha java library to v1.3.0.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-09 09:35:04 +0000 UTC
+        Created At 2021-11-21 07:05:37 +0000 UTC
     </div>
 </div>
 
