@@ -215,29 +215,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/564" class=".btn">#564</a>
-            </td>
-            <td>
-                <b>
-                    Minor fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #561 and other issues.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-13 23:03:07 +0000 UTC
-    </div>
-</div>
-
