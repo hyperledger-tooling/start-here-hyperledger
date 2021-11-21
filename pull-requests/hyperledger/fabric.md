@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3067" class=".btn">#3067</a>
+            </td>
+            <td>
+                <b>
+                    add http proxy support to core/chaincode/platforms
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: itaru2622 <itaru2622@gmail.com>
+
+close #3066 
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+support http proxy in chaincode container build phase if fabric-peer configured proxy environment variable at docker run.
+for details, refer #3066 
+
+#### Additional details
+
+when your devenv is located behind http proxy, additional no_proxy entries may be required to pass unit-test and integration-test.
+the reasons is  described in #3066 and end of docs/sources/dev-setup/devenv.rst
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-21 08:05:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3065" class=".btn">#3065</a>
             </td>
             <td>

@@ -236,32 +236,3 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1609" class=".btn">#1609</a>
-            </td>
-            <td>
-                <b>
-                    gha docker tag latest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - GHA docker.meta: flavor: suffix=....onlatest=true
-- GHA no dockertag for release
-- GHA clean up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-14 08:21:39 +0000 UTC
-    </div>
-</div>
-
