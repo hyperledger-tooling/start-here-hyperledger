@@ -28,6 +28,7 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 Run goimports to make code compatible with Go 1.17.
+The changes work with both Go 1.16 and Go 1.17, therefore it can be merged now.
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
 
@@ -66,7 +67,7 @@ close #3066
 
 #### Description
 
-support http proxy in chaincode container build phase if fabric-peer configured proxy environment variable at docker run.
+add http proxy support to chaincode container build phase when fabric-peer container run with  "-e https_proxy=... " 
 for details, refer #3066 
 
 #### Additional details
