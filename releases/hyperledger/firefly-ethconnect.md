@@ -15,62 +15,31 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v3.0.4
+                    v3.0.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v3.0.4
+                    v3.0.5
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Fix push of latest docker tag by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/169
+* Add GitHub action to build commits to main by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/171
+* Add nil check when looking up contracts by @awrichar in https://github.com/hyperledger/firefly-ethconnect/pull/174
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.0.3...v3.0.4
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.0.4...v3.0.5
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.0.4" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.0.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-10-13 11:57:44 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v3.0.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v3.0.3
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Fix tagging of latest image on release by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/168
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.0.2...v3.0.3
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.0.3" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-10-12 21:42:42 +0000 UTC
+        Created At 2021-11-19 20:57:38 +0000 UTC
     </span>
 </div>
 
