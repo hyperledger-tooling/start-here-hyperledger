@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/272" class=".btn">#272</a>
+            </td>
+            <td>
+                <b>
+                    ConsensusConfig reconfig rules
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Define the rules for updating the ConsensusConfig, in particular, the Memebrs.
+
+The core contribution is the VerifyConsensusReConfig method, that checks the configuration changes in types.ConsensusConfig.
+
+This method checks that the changes between one ConsensusConfig to the next are safe, because some mutations might
+cause a permanent loss of quorum in the cluster, something that is very difficult to recover from.
+ - Members can be added or removed (membership change) one member at a time
+ - Members' endpoints cannot be changed together with a membership change
+ - An existing member cannot change its Raft ID (it must be removed from the cluster and added again as a new member)
+ - The Raft ID of a new member must be unique - therefore it must be larger than MaxRaftId
+
+We assume that both the current and updated ClusterConfig are internally consistent, specifically, that the Nodes
+and the ConsensusConfig.Members arrays match by NodeId in each.
+
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 13:58:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/271" class=".btn">#271</a>
+            </td>
+            <td>
+                <b>
+                    Overview of ledger API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 13:22:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/270" class=".btn">#270</a>
             </td>
             <td>
