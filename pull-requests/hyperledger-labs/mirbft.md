@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/75" class=".btn">#75</a>
+            </td>
+            <td>
+                <b>
+                    Client request signatures
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 14:33:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/mirbft/pull/74" class=".btn">#74</a>
             </td>
             <td>
@@ -59,65 +85,6 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     </table>
     <div class="right-align">
         Created At 2021-11-18 11:08:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/71" class=".btn">#71</a>
-            </td>
-            <td>
-                <b>
-                    Clean up Node config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Remove legacy fields and commented fields from the Node-level config struct.
-All protocol-specific configuration is now part of the protocol implementation
-and the Node config is left only with the logger.
-When more node-level configuration is needed, it should be added to config.
-
-Resolves #21 
-
-Signed-off-by: Matej Pavlovic <matopavlovic@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-15 16:17:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/70" class=".btn">#70</a>
-            </td>
-            <td>
-                <b>
-                    Undocumented Crypto module spec and implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matej Pavlovic <matopavlovic@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-15 15:42:38 +0000 UTC
     </div>
 </div>
 
