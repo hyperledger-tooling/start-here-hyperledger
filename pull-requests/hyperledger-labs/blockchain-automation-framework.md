@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1766" class=".btn">#1766</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] Removed hardcoded credentials from auth chart
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: surabhi-dudhediya <surabhi.dudhediya@accenture.com>
+
+**Changelog**
+- Add auth ssl keystore password to vault path
+- Fix hardcoded credentials from auth chart and pki chart
+- Update pki chart to fetch auth-ssl-keystore from vault
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @sownak @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1752 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 05:53:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1757" class=".btn">#1757</a>
             </td>
             <td>

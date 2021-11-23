@@ -108,7 +108,7 @@ close #3066
 
 #### Type of change
 
-- Improvement (improvement to code, performance, etc)
+- New feature
 
 #### Description
 
@@ -542,34 +542,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-16 11:05:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3047" class=".btn">#3047</a>
-            </td>
-            <td>
-                <b>
-                    Updates to Gateway doc topic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update to Fabric Gateway doc topic.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-16 04:28:28 +0000 UTC
     </div>
 </div>
 
