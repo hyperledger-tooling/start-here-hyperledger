@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3072" class=".btn">#3072</a>
+            </td>
+            <td>
+                <b>
+                    1121 peers e2e and gateway
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+- Peers topic e3e edit for gateway, in detail, substantial.
+- Minor updates to gateway overview since prior commit.
+- Flow diagrams figure 6 and figure 10 are commented out for now - pending design update to reflect the associated text updates. 
+
+#### Type of change
+
+- New feature
+- Documentation update
+
+#### Description
+
+Fabric Gateway service - new feature.
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/2807
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 22:37:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3070" class=".btn">#3070</a>
             </td>
             <td>
@@ -369,54 +414,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2021-11-17 23:15:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3054" class=".btn">#3054</a>
-            </td>
-            <td>
-                <b>
-                    gateway doc updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Josh Horton <joshh@us.ibm.com>
-
-- proposed edits to gateway overview topic
-- adds to "peer" docs 
-
-#### Type of change
-
-- New feature
-- Documentation update
-
-#### Description
-
-https://github.com/hyperledger/fabric/issues/2807
-
-#### Additional details
-
-The section at the following link, and its immediately preceding paragraph, have some duplication; I attempted to resolve the duplication but these are also related topics - a) specifying orgs due to transient data and b) specifying orgs generally (for other reasons) (https://github.com/hyperledger/fabric/blob/main/docs/source/gateway.md#targeting-specific-endorsement-peers)
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/2807
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-17 20:31:55 +0000 UTC
     </div>
 </div>
 

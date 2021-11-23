@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/577" class=".btn">#577</a>
+            </td>
+            <td>
+                <b>
+                    Provide way to specify solang executable rather than automatic download
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Should fix https://github.com/hyperledger-labs/solang/issues/574
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 21:24:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/576" class=".btn">#576</a>
             </td>
             <td>
