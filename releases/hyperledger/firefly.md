@@ -26,7 +26,24 @@ permalink: /releases/hyperledger/firefly
                 </span>
             </td>
             <td>
-                ## What's Changed
+                ## Summary
+This release brings a lot of fixes and some exciting new features. Here are some of the highlights:
+
+- Significantly hardened and enhanced token functionality
+  - New, more flexible API structure (old APIs deprecated)
+  - Coordination of token mint/burn/transfer events with attached messages and off-chain data
+  - Proper handling for failed transfers and other error scenarios
+- Major web UI overhaul
+   - New pluggable architecture, introducing modules
+     - Existing FireFly UI is now the data  module
+     - Added two new modules, tokens and network-map
+  - Reworked navigation
+  - Updated dashboard
+  - Enhanced filtering
+- Optimized database operations for increased transactional throughput
+- Fixed PostgreSQL database migrations
+
+## What's Changed
 * Move e2e to new routes, and add private/broadcast strong datatype tests by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/260
 * Added more tests to the Fabric plugin for 100% coverage by @jimthematrix in https://github.com/hyperledger/firefly/pull/261
 * Do not allow UUIDs to be used as names by @awrichar in https://github.com/hyperledger/firefly/pull/262
