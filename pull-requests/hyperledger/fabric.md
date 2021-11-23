@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3075" class=".btn">#3075</a>
+            </td>
+            <td>
+                <b>
+                    Refine Gateway gRPC error status codes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 16:34:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3074" class=".btn">#3074</a>
+            </td>
+            <td>
+                <b>
+                    EndorsementTimeout should apply to each endorser
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently the options.EndorsementTimeout creates a context that is shared by all endorsement requests in the Endose() and Evaluate() methods.
+This commit changes it so It is applied individually to each endorsing peer.
+The overall timeout for Endorse/Evaluate is set in the client SDK
+
+Resolves https://github.com/hyperledger/fabric-gateway/issues/292
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 14:15:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3072" class=".btn">#3072</a>
             </td>
             <td>
@@ -164,6 +223,7 @@ Kube test network updates to enable gateway client load balancing are available 
 
 Additional discussion, and the original issue, is tracked at [fabric-gateway issue #257](https://github.com/hyperledger/fabric-gateway/issues/257) 
 
+Resolves #257
 
             </td>
         </tr>
@@ -487,35 +547,6 @@ N.A.
     </table>
     <div class="right-align">
         Created At 2021-11-17 13:14:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3049" class=".btn">#3049</a>
-            </td>
-            <td>
-                <b>
-                    Add gateway ref to private data doc topic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Minor doc update.  Contributes to #2807 
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-16 14:41:43 +0000 UTC
     </div>
 </div>
 
