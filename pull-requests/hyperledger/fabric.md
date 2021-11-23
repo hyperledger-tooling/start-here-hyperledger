@@ -519,29 +519,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3048" class=".btn">#3048</a>
-            </td>
-            <td>
-                <b>
-                    Update Contract and Application API docs for Fabric Gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Contributes to #2807 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-16 11:05:02 +0000 UTC
-    </div>
-</div>
-

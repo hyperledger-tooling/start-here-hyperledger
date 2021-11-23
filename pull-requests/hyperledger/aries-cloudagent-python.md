@@ -14,6 +14,134 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1510" class=".btn">#1510</a>
+            </td>
+            <td>
+                <b>
+                    Fix bug when getting credentials on askar-profile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes bug when getting credentials under askar-profile environment.
+
+### Environment
+askar-profile
+
+### Problem
+After holder received credential from issuer, holder get empty results when getting credentials.
+
+### Fix
+Add `profile` parameter with `wallet.askar_profile` when scanning credentials
+
+
+Thanks!
+
+Signed-off-by: Ethan Sung <baegjae@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 04:37:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1509" class=".btn">#1509</a>
+            </td>
+            <td>
+                <b>
+                    Fix warnings when generating ReadTheDocs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: shaangill025 <gill.shaanjots@gmail.com>
+
+- resolves #1506
+- For duplicated object description, renamed references in `__init__.py`:
+  - `vc.ld_proofs.crypto`, `vc.ld_proofs.purposes`, `vc.ld_proofs.suites` by adding a `_` when importing modules. Modified `vc.ld_proofs` to accomodate these changes
+  -  `vc.vc_ld.models` by adding a `_` when importing modules. Modified `vc.vc_ld` accordingly
+- For cross-reference warnings, adopted solution from [here](https://github.com/sphinx-doc/sphinx/issues/3866#issuecomment-768167824).
+- Regarding`list not hashable` issue in `aries_cloudagent/protocols/issue_credential/v1_0/models/credential_exchange.py`, I think there was a minor bug/typo, we had `credential_request: [Mapping, IndyCredRequest] = None` instead of `credential_request: Union[Mapping, IndyCredRequest] = None`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 02:14:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1508" class=".btn">#1508</a>
+            </td>
+            <td>
+                <b>
+                    Fix error when connection request is received (askar, public invitation)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes error when connection request is received with public invitation under askar
+
+### Environment
+- connections/1.0 protocol
+- public invitation
+- askar
+
+### Problem
+Faber (invitation creator) encountered error below, when connection request was received.
+```
+2021-11-22 17:39:38,849 aries_cloudagent.core.dispatcher ERROR Handler error: Dispatcher.handle_message
+Traceback (most recent call last):
+  File "/Users/baegjae/src/aries-cloudagent-python/aries_cloudagent/core/dispatcher.py", line 197, in handle_message
+    await handler(context, responder)
+  File "/Users/baegjae/src/aries-cloudagent-python/aries_cloudagent/protocols/connections/v1_0/handlers/connection_request_handler.py", line 41, in handle
+    await mgr.receive_request(
+  File "/Users/baegjae/src/aries-cloudagent-python/aries_cloudagent/protocols/connections/v1_0/manager.py", line 592, in receive_request
+    my_info = await wallet.create_local_did(DIDMethod.SOV, KeyType.ED25519)
+  File "/Users/baegjae/src/aries-cloudagent-python/aries_cloudagent/wallet/askar.py", line 199, in create_local_did
+    await self._session.handle.insert_key(
+AttributeError: 'NoneType' object has no attribute 'insert_key'
+```
+
+`wallet` was inactive (=handle was None) when creating local did.
+
+### Fix
+This PR make `wallet` active to create local did.
+
+
+Signed-off-by: Ethan Sung <baegjae@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 08:58:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1504" class=".btn">#1504</a>
             </td>
             <td>
@@ -178,86 +306,6 @@ Other code in this file seems to indicate that the proposed change is what is ne
     </table>
     <div class="right-align">
         Created At 2021-11-16 12:37:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1493" class=".btn">#1493</a>
-            </td>
-            <td>
-                <b>
-                    DIF PresExch - ProblemReport and "is_holder"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #1486 
-- review all tests involving `TEST_CRED_DICT` and `TEST_CRED_WILDCARD` with `FHIR` contexts to mock `pyld` returns.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-15 20:56:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1492" class=".btn">#1492</a>
-            </td>
-            <td>
-                <b>
-                    Aries Cloud Agent Python Release 0.7.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-15 18:38:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1491" class=".btn">#1491</a>
-            </td>
-            <td>
-                <b>
-                    DIF PresExch Tests - temporary update to fix pyld.jsonld.JsonLdError
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a repeat of #1251 , then it started working without any updates after sometime.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-15 17:10:08 +0000 UTC
     </div>
 </div>
 

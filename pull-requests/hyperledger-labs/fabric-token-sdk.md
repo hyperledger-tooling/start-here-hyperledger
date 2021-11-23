@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/147" class=".btn">#147</a>
+            </td>
+            <td>
+                <b>
+                    new nwo token
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - support multiple networks
+- generate identity crypto material locally
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 08:02:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/146" class=".btn">#146</a>
             </td>
             <td>

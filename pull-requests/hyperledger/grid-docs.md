@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/271" class=".btn">#271</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/274" class=".btn">#274</a>
             </td>
             <td>
                 <b>
-                    Add clarification to Creating Locations
+                    Add workflow specification page
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                <nil>
+                Adds a "feature doc" for workflow, with content taken from the RFC.
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-05 15:17:00 +0000 UTC
+        Created At 2021-11-22 22:47:22 +0000 UTC
     </div>
 </div>
 

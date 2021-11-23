@@ -14,6 +14,149 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1081" class=".btn">#1081</a>
+            </td>
+            <td>
+                <b>
+                    Update purchase order man pages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates the purchase order man pages to match the current implementation. This mainly included updating the formatting of arguments and updating the example responses.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 20:22:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1080" class=".btn">#1080</a>
+            </td>
+            <td>
+                <b>
+                    Add documentation comments for workflow module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds module-level and public API documentation for the
+workflow module within the Grid SDK.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 19:19:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1079" class=".btn">#1079</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize `rest-api-resources`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 19:04:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1078" class=".btn">#1078</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize gridd "cylinder-jwt-support" by removing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change stabilizes the grid daemon's experimental
+"cylinder-jwt-support" feature by removing it.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 16:16:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1077" class=".btn">#1077</a>
+            </td>
+            <td>
+                <b>
+                    Add Pike namespace to transaction inputs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds the Pike namespace to the Purchase Order smart
+contract's transaction inputs. This allows the purchase order smart
+contract to access the state within the Pike namespace.
+
+Before this change, the sawtooth example would be unable to submit a purchase order smart contract action without receiving an error about attempting to access an unauthorized namespace (Pike Organization namespace, specifically).
+```
+sawtooth-sabre-tp                  | 2021-11-19 21:29:53,500 INFO  [sawtooth_sdk::processor] TP_PROCESS_REQUEST sending TpProcessResponse: ExternalsError { message: "Trap(Trap { kind: Host(ExternalsError { message: \"AuthorizationError(\\\"Tried to get unauthorized addresses: [\\\\\\\"621dee0501ba3ce58667ca9b12b3c0cdcc4da57f9962aeca7065c43a7d9c027332fdb9\\\\\\\"]\\\")\" }) })" }
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 15:32:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1076" class=".btn">#1076</a>
             </td>
             <td>
@@ -174,71 +317,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-11-16 18:31:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1063" class=".btn">#1063</a>
-            </td>
-            <td>
-                <b>
-                    Update "create po" action to handle constraints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change updates the "create po" action in the purchase order smart
-contract to concern itself with workflow constraints. This adds further
-validation when a user attempts to create a purchase order.
-
-This change also adds a test to validate a purchase order may not be
-created if the desired workflow state has a constraint it does not
-fulfill.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-15 14:59:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1062" class=".btn">#1062</a>
-            </td>
-            <td>
-                <b>
-                    Add concern for workflow constraints to "create vers" action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds concern for workflow constraints to the "create
-version" action of the purchase order smart contract. This also updates
-the tests written for this action to re-align with the updated
-implementation.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-15 14:26:50 +0000 UTC
     </div>
 </div>
 
