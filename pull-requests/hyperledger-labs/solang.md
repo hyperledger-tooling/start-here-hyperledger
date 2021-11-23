@@ -208,31 +208,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/567" class=".btn">#567</a>
-            </td>
-            <td>
-                <b>
-                    Do not link against libffi
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                libffi is not needed and we shouldn't depend on it.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-16 14:49:02 +0000 UTC
-    </div>
-</div>
-
