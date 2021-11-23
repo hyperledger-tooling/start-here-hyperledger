@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/276" class=".btn">#276</a>
+            </td>
+            <td>
+                <b>
+                    minor fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: senthil <cendhu@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 10:06:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/275" class=".btn">#275</a>
+            </td>
+            <td>
+                <b>
+                    Updated images/README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 09:43:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/274" class=".btn">#274</a>
+            </td>
+            <td>
+                <b>
+                    Update docker build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Same image name both locally and in docker hub
+README.md to docker hub.
+
+Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 09:03:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/272" class=".btn">#272</a>
             </td>
             <td>
@@ -214,69 +295,6 @@ Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-16 21:04:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/257" class=".btn">#257</a>
-            </td>
-            <td>
-                <b>
-                    Calculate max-raft-id from members when committing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">replication</span>
-            </td>
-            <td>
-                The MaxRaftId field in RaftConfig records the highest raft-id ever seen in the cluster.
-We calculate it from the members as we build the genesis block, and from then on it is
-updated every time a config block commits. The incoming config-tx does not change this value,
-and it must be equal to value in the current config. Users can only read this value.
-This field is used to ensure that the raft id of added new peers is larger then the current
-max-raft-id, and was therefore never used.
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-16 12:12:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/256" class=".btn">#256</a>
-            </td>
-            <td>
-                <b>
-                    encoder for value
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit adds an utility that can encode the given data to
-base64 string. Note that this utility accepts either a JSON or
-string value only.
-
-Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-16 08:50:06 +0000 UTC
     </div>
 </div>
 

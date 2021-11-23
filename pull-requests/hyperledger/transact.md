@@ -14,6 +14,233 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/283" class=".btn">#283</a>
+            </td>
+            <td>
+                <b>
+                    Build some crates with target wasm32-unknown-unknown
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This catches errors for crates which are usually compiled into smart
+contracts.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 22:31:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/282" class=".btn">#282</a>
+            </td>
+            <td>
+                <b>
+                    Update rand dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Removes rand_hc and updates rand to 0.8.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 20:23:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/281" class=".btn">#281</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize `family-command-workload`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Stabilize the `family-command-workload` feature by moving it from
+experimental to stable.
+
+Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 19:56:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/280" class=".btn">#280</a>
+            </td>
+            <td>
+                <b>
+                    Implement Drop Context
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 19:37:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/279" class=".btn">#279</a>
+            </td>
+            <td>
+                <b>
+                    `family-command-workload` stabilization updates - API docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add API doc for CommandGeneratingIter, CommandTransactionWorkload, CommandBatchWorkload, and CommandTransactionBuilder 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 18:56:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/278" class=".btn">#278</a>
+            </td>
+            <td>
+                <b>
+                    Update flexi_logger dependency to v0.20
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is intended as a non-functional change the track the latest
+dependency.
+
+Adds the "use_chrono_for_offset" feature as required to avoid warnings
+from this version of flexi_logger; this is a flexi_logger problem and
+can be safely removed when its no longer needed to avoid warnings from
+flexi_logger.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 18:05:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/277" class=".btn">#277</a>
+            </td>
+            <td>
+                <b>
+                    Remove experimental database-sqlite feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The database-sqlite feature has been replaced with sqlite support at
+a higher level (sqlite+state-merkle-sql features) which allows for
+greater efficiencies. So while this feature works, removing it to avoid
+duplication of approach.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 17:29:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/276" class=".btn">#276</a>
+            </td>
+            <td>
+                <b>
+                    `workload` stabilization updates - Add `workload-smallbank` feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add a "workload-smallbank" feature to transact-cli and put any code
+currently behind the "workload" feature, that is related to smallbank,
+behind this new feature.
+
+Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-22 16:16:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/275" class=".btn">#275</a>
             </td>
             <td>

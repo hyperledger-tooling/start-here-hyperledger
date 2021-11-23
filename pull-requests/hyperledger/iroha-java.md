@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha-java
             </td>
             <td>
                 <b>
-                    Iroha-jave v1.3.0
+                    Iroha-java v1.3.0
                 </b>
             </td>
         </tr>
