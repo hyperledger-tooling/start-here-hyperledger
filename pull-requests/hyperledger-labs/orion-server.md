@@ -293,34 +293,3 @@ Signed-off-by: senthil <cendhu@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/261" class=".btn">#261</a>
-            </td>
-            <td>
-                <b>
-                    Storing all sample configuration files to same folder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Configuration files for local executable, for docker and all certificates moved to same folder (deployment),
-subfolder for each type.
-
-Updated docker to have 3 separate volumes - one for configuration, one for crypto and one for ledger.
-
-Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-16 21:04:04 +0000 UTC
-    </div>
-</div>
-
