@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/226" class=".btn">#226</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/228" class=".btn">#228</a>
             </td>
             <td>
                 <b>
-                    Bump github.com/ethereum/go-ethereum from 1.10.1 to 1.10.8
+                    Bump github.com/ethereum/go-ethereum from 1.10.1 to 1.10.10
                 </b>
             </td>
         </tr>
@@ -27,16 +27,44 @@ permalink: /pull-requests/hyperledger-labs/perun-node
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [github.com/ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) from 1.10.1 to 1.10.8.
+                Bumps [github.com/ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) from 1.10.1 to 1.10.10.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/ethereum/go-ethereum/releases">github.com/ethereum/go-ethereum's releases</a>.</em></p>
 <blockquote>
-<h2>Hades Gamma (v1.10.8)</h2>
-<p>Geth v1.10.8 is a pre-announced <em><strong>hotfix release to patch a vulnerability in the EVM</strong></em> (<code>CVE-2021-39137</code>).</p>
-<p>The exact attack vector will be provided at a later date to give node operators and dependent downstream projects time to update their nodes and software. All Geth versions supporting the London hard fork are vulnerable (the bug is older than London), so all users should update.</p>
-<p>Credits for the discovery go to <a href="https://github.com/guidovranken"><code>@​guidovranken</code></a> (working for <a href="https://sentnl.io/">Sentnl</a> during an audit of the <a href="https://www.telos.net/evm">Telos EVM</a>) and reported via <a href="mailto:bounty@ethereum.org">bounty@ethereum.org</a>.</p>
-<p>Beside the fix, we're merged in a few tiny polishes and fixes. For a rundown, please consult the Geth 1.10.8 <a href="https://github.com/ethereum/go-ethereum/milestone/120?closed=1">release milestone</a>.</p>
+<h2>Sytau (v1.10.10)</h2>
+<p>Geth v1.10.10 is another bug fix release.</p>
+<h4>Geth changes</h4>
+<ul>
+<li>Geth is much less likely to crash during shutdown, especially when mining is active. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23435">#23435</a>, <a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/21992">#21992</a>, <a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/22853">#22853</a>)</li>
+<li>The new <code>--rpc.evmtimeout</code> flag allows setting the internal timeout for <code>eth_call</code>. The default timeout is still 5s. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23645">#23645</a>)</li>
+<li>The geth console supports some ECMAScript 6 features like arrow functions, typed arrays and let bindings (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23721">#23721</a>)</li>
+<li>The console no longer crashes when trying to complete on properties with value 'null' or 'undefined'. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23701">#23701</a>)</li>
+<li>The evm debugging/testing tool now validates transaction gas limits in 't9n' mode. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23694">#23694</a>)</li>
+</ul>
+<h4>RPC API changes</h4>
+<ul>
+<li>A regression in the JS-based call tracer is resolved. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23667">#23667</a>)</li>
+<li>The new <code>debug_getAccessibleState</code> RPC method finds a block number at which full state is available. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23646">#23646</a>)</li>
+<li>The new <code>debug_getHeaderRlp</code> RPC method fetches RLP-encoded headers from the database. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23670">#23670</a>, <a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23677">#23677</a>)</li>
+<li>The sender address is once again returned correctly for very old Frontier-era transactions. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23683">#23683</a>)</li>
+</ul>
+<h4>Go library changes</h4>
+<ul>
+<li>For contract calls using accounts/abi/bind, a regression that could lead to incorrect gas estimation is fixed. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23719">#23719</a>)</li>
+<li>Package accounts/abi now has basic support for Solidity error types. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23161">#23161</a>)</li>
+<li>Miner stress test tools work again (they were broken in the previous release) (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23699">#23699</a>)</li>
+<li>The transaction recipient address stored in types.Transaction is now truly independent of the address pointer passed to the constructor. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23376">#23376</a>)</li>
+<li>The Receipt type now implements encoding.BinaryMarshaler, like Transaction (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/22806">#22806</a>)</li>
+<li>TxPool.Pending no longer returns an error (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23720">#23720</a>)</li>
+</ul>
+<h4>Build</h4>
+<ul>
+<li>As a workaround for tracing issues on Alpine Linux, we now set the C stack size to 8MB for release builds. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23676">#23676</a>)</li>
+<li>Go module vendoring issues related to github.com/karalable/usb are finally resolved. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23684">#23684</a>)</li>
+<li>This release is built with Go 1.17.2. (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23698">#23698</a>)</li>
+</ul>
+<p>For a full rundown of the changes please consult the Geth 1.10.10 <a href="https://github.com/ethereum/go-ethereum/milestone/122?closed=1">release milestone</a>.</p>
 <hr />
 <p>As with all our previous releases, you can find the:</p>
 <ul>
@@ -45,36 +73,10 @@ permalink: /pull-requests/hyperledger-labs/perun-node
 <li>Ubuntu packages in our <a href="https://launchpad.net/~ethereum/+archive/ubuntu/ethereum">Launchpad PPA repository</a>.</li>
 <li>OSX packages in our <a href="https://github.com/ethereum/homebrew-ethereum">Homebrew Tap repository</a>.</li>
 </ul>
-<h2>Styx Theta (v1.10.7)</h2>
-<p>Geth v1.10.7 is a maintenance release, mostly focusing on a few post-London polishes.</p>
-<p><strong>A few important notes to keep in mind:</strong></p>
-<ul>
-<li><strong>The return type for <code>oldestBlock</code> in <code>eth_feeHistory</code> was changed from decimal to hex.</strong> This is to conform to the updated spec that was released after Geth's London hard-fork release was already made. The input <code>blockCount</code> parameter was also updated, but there Geth will accept both hex and decimal to keep backward compatibility.</li>
-<li><strong>The <code>-miner.gastarget</code> CLI flag was deprecated and is a noop.</strong> This flag is already a noop for networks running the London hard-fork, since it London miners only take into account the <code>-miner.gaslimit</code> flag. For non-London private networks and Geth forks, this might result in a gas bump depending on how the miners are configured.</li>
-<li>Docker builds were changed from DockerHub Automated Builds to offsite builds and manual pushes to DockerHub. At the same time, we've added support for multi-arch images, the original tags being the metadata image, linking a <code>-amd64</code> and a <code>-arm64</code> tags together. No changes are needed for docker users, but keep us posted if something strange happens. On the upside, Geth now has official <code>arm64</code> docker images too.</li>
-</ul>
-<p>Changes made:</p>
-<ul>
-<li>Change the <code>oldestBlock</code> return type in <code>eth_feeHistory</code> to hex, accept both decimal and hex as the block count (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23239">#23239</a>, <a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23363">#23363</a>).</li>
-<li>Cap max usable gas in <code>eth_estimateGas</code> better for 1559 transactions (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23309">#23309</a>).</li>
-<li>When deploying multiple contracts via abigen, only parse the ABI once (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/22583">#22583</a>).</li>
-<li>Return <code>maxFeePerGas</code> for the <code>gasPrice</code> of pending transactions (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23345">#23345</a>).</li>
-<li>Check cached blocks too when attempting to retrieve a header (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23299">#23299</a>).</li>
-<li>Reject transactions imitated from non EOA accounts (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23303">#23303</a>).</li>
-<li>Reduce allocations a bit while CPU mining ethash (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23199">#23199</a>).</li>
-<li>Deprecate the <code>-miner.gastarget</code> CLI flag (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23213">#23213</a>).</li>
-<li>Switch over to manual docker pushes (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23373">#23373</a>).</li>
-</ul>
-<p>Bugs fixed:</p>
-<ul>
-<li>Fix a <code>nil</code> pointer panic for certain abigen generated code due to missing context initialization (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23188">#23188</a>).</li>
-<li>Fix <code> nil</code> pointer panic in certain automatic access list generation RPC API calls (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23225">#23225</a>).</li>
-<li>Fix a regression that prevented <code>clef</code> from signing a legacy transaction (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23274">#23274</a>).</li>
-<li>Fix a permission error during snapshot based pruning on Windows (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23370">#23370</a>).</li>
-<li>Fix the marshaling of errors from the tracers (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/pull/23292">#23292</a>).</li>
-</ul>
-<p>For a full rundown of the changes please consult the Geth 1.10.7 <a href="https://github.com/ethereum/go-ethereum/milestone/119?closed=1">release milestone</a>.</p>
-<hr />
+<h2>Attican Beta (v1.10.9)</h2>
+<p>Geth v1.10.9 is a maintenance release containing mostly bug fixes.</p>
+<p>Chain tracing has received quite a bit of attention during this release cycle. JS-based tracing now supports additional callbacks for entry and exit of contract calls, improving performance if processing individual opcodes is not needed.</p>
+<h4>Geth command changes</h4>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -82,23 +84,23 @@ permalink: /pull-requests/hyperledger-labs/perun-node
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/ethereum/go-ethereum/commit/26675454bf93bf904be7a43cce6b3f550115ff90"><code>2667545</code></a> params: release Geth v1.10.8</li>
-<li><a href="https://github.com/ethereum/go-ethereum/commit/1d995731923ca899964371ddb213d40b7e773818"><code>1d99573</code></a> core/vm: faster code analysis (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23381">#23381</a>)</li>
-<li><a href="https://github.com/ethereum/go-ethereum/commit/f38abc55f135587ce3cf60c9d574ec2a4ebb8197"><code>f38abc5</code></a> eth/gasprice: feeHistory improvements (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23422">#23422</a>)</li>
-<li><a href="https://github.com/ethereum/go-ethereum/commit/dfeb2f7e8001aef1005a8d5e1605bae1de0b4f12"><code>dfeb2f7</code></a> go.mod: upgrade golang.org/x/sys for go1.17 support (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23406">#23406</a>)</li>
-<li><a href="https://github.com/ethereum/go-ethereum/commit/bb1f7ebf203f40dae714a3b8445918cfcfc9a7db"><code>bb1f7eb</code></a> signer/core/apitypes: remove dependency on internal/ethapi (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23362">#23362</a>)</li>
-<li><a href="https://github.com/ethereum/go-ethereum/commit/d02c60536799698888d21f093f7c379acdad3147"><code>d02c605</code></a> core: only check sendernoeoa in non fake mode (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23424">#23424</a>)</li>
-<li><a href="https://github.com/ethereum/go-ethereum/commit/c368f728c19e7fd7a9613513edda68ffcb503af0"><code>c368f72</code></a> Revert &quot;eth: drop eth/65, the last non-reqid protocol version&quot; (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23426">#23426</a>)</li>
-<li><a href="https://github.com/ethereum/go-ethereum/commit/5566e5d152c490e5e533f3bc7735dddd57a428eb"><code>5566e5d</code></a> eth/downloader: fix typo in comment (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23413">#23413</a>)</li>
-<li><a href="https://github.com/ethereum/go-ethereum/commit/57feabea663496109e59df669238398239438fb1"><code>57feabe</code></a> eth, internal/ethapi: make RPC block miner field show block sealer correctly ...</li>
-<li><a href="https://github.com/ethereum/go-ethereum/commit/16ecdd583984162923256e563320b8b381da7f46"><code>16ecdd5</code></a> cmd/utils: add --nousb to the list of deprecated flags (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23388">#23388</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/ethereum/go-ethereum/compare/v1.10.1...v1.10.8">compare view</a></li>
+<li><a href="https://github.com/ethereum/go-ethereum/commit/bb74230f2a93057b92bf58aab09c9438ce435f95"><code>bb74230</code></a> params: release go-ethereum v1.10.10 stable</li>
+<li><a href="https://github.com/ethereum/go-ethereum/commit/f915f6873f725b338dc95f0a8add7875af0de912"><code>f915f68</code></a> core/state/snapshot: fix data race in layer flattening (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23628">#23628</a>)</li>
+<li><a href="https://github.com/ethereum/go-ethereum/commit/08e782c61ff5eb1f5890238c970c95bc6d19c3a6"><code>08e782c</code></a> accounts/abi: add basic support for error types (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23161">#23161</a>)</li>
+<li><a href="https://github.com/ethereum/go-ethereum/commit/011fe3eb5e29e246ba14e7c9675c536cf7123305"><code>011fe3e</code></a> core: remove unused error from TxPool.Pending (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23720">#23720</a>)</li>
+<li><a href="https://github.com/ethereum/go-ethereum/commit/79b727bc8aa19a70c0735141e60da003d3624472"><code>79b727b</code></a> accounts/abi/bind: refactor transact method (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23719">#23719</a>)</li>
+<li><a href="https://github.com/ethereum/go-ethereum/commit/778ff947944f388e2a0307764a182a5521886081"><code>778ff94</code></a> all: fix some go-critic linter warnings (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23709">#23709</a>)</li>
+<li><a href="https://github.com/ethereum/go-ethereum/commit/e4f570fcc67aa2df489666cc08568c637024fd3c"><code>e4f570f</code></a> core/types: add MarshalBinary, UnmarshalBinary for Receipt (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/22806">#22806</a>)</li>
+<li><a href="https://github.com/ethereum/go-ethereum/commit/f9d683b07f390080c4898260d9824137e0b62a3f"><code>f9d683b</code></a> go.mod: upgrade goja (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23721">#23721</a>)</li>
+<li><a href="https://github.com/ethereum/go-ethereum/commit/633e7ef4781453111c4b29e14a65c5335bb9ecac"><code>633e7ef</code></a> eth,rpc: allow for flag configured timeouts for eth_call (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23645">#23645</a>)</li>
+<li><a href="https://github.com/ethereum/go-ethereum/commit/3d11a22c99d195c8bd8a99f3b41e96745d31c360"><code>3d11a22</code></a> fixed broken web3 methods link in README.md (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/23703">#23703</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/ethereum/go-ethereum/compare/v1.10.1...v1.10.10">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/ethereum/go-ethereum&package-manager=go_modules&previous-version=1.10.1&new-version=1.10.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/ethereum/go-ethereum&package-manager=go_modules&previous-version=1.10.1&new-version=1.10.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -134,7 +136,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-30 16:36:38 +0000 UTC
+        Created At 2021-11-23 18:23:48 +0000 UTC
     </div>
 </div>
 
