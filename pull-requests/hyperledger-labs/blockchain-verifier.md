@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/15" class=".btn">#15</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/16" class=".btn">#16</a>
             </td>
             <td>
                 <b>
-                    Introduce the checkpoint feature
+                    Add the "-b" option to limit the number of blocks to check
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                This PR brings the snapshot feature into Blockchain Verifier, which allows users to save checks into a snapshot, and to resume checks from the point when the snapshot is saved.
+                This PR adds a new option "-b" to limit the number of blocks that are to be verified along with some bug fix and minor improvement.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-06 08:14:59 +0000 UTC
+        Created At 2021-11-24 02:36:05 +0000 UTC
     </div>
 </div>
 
