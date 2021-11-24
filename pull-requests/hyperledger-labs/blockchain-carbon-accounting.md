@@ -388,7 +388,7 @@ With your current configuration, Renovate will create 110 Pull Requests:
   - Pin [@types/mocha](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `9.0.0`
   - Pin [@types/multer](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `1.4.7`
   - Pin [@types/node](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `14.17.20`
-  - Pin [@types/node](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `16.11.9`
+  - Pin [@types/node](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `16.11.10`
   - Pin [@types/react](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `16.14.5`
   - Pin [@types/rewire](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `2.5.28`
   - Pin [@types/ssh2-streams](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `0.1.9`
@@ -1182,12 +1182,12 @@ With your current configuration, Renovate will create 110 Pull Requests:
 </details>
 
 <details>
-<summary>chore(deps): update dependency @&#8203;types/node to v16.11.9</summary>
+<summary>chore(deps): update dependency @&#8203;types/node to v16.11.10</summary>
 
   - Schedule: ["at any time"]
   - Branch name: `renovate/node-16.x`
   - Merge into: `main`
-  - Upgrade [@types/node](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `16.11.9`
+  - Upgrade [@types/node](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `16.11.10`
 
 
 </details>
@@ -1317,12 +1317,12 @@ With your current configuration, Renovate will create 110 Pull Requests:
 </details>
 
 <details>
-<summary>fix(deps): update dependency @testing-library/jest-dom to v5.15.0</summary>
+<summary>fix(deps): update dependency @testing-library/jest-dom to v5.15.1</summary>
 
   - Schedule: ["at any time"]
   - Branch name: `renovate/testing-library-jest-dom-5.x`
   - Merge into: `main`
-  - Upgrade [@testing-library/jest-dom](https://togithub.com/testing-library/jest-dom) to `5.15.0`
+  - Upgrade [@testing-library/jest-dom](https://togithub.com/testing-library/jest-dom) to `5.15.1`
 
 
 </details>

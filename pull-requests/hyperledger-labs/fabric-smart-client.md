@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/177" class=".btn">#177</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/180" class=".btn">#180</a>
             </td>
             <td>
                 <b>
-                    orion integration
+                    improvements
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                <nil>
+                - race detection
+- committer retries
+- concurrency improvements
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-13 15:00:09 +0000 UTC
+        Created At 2021-11-24 08:50:03 +0000 UTC
     </div>
 </div>
 

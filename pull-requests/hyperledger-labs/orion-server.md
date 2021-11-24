@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">replication</span>
             </td>
             <td>
                 <nil>
@@ -131,7 +131,7 @@ Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">replication</span>
             </td>
             <td>
                 Define the rules for updating the ConsensusConfig, in particular, the Memebrs.

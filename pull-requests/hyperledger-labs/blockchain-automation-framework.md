@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/blockchain-automation-framework
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1767" class=".btn">#1767</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] Removed hard coded credentials from gateway and Zone charts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: nikhilagolla <nikhila.golla@accenture.com>
+
+**Changelog**  
+- Fix hard coded credentials from gateway and Zone charts.
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @sownak @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1753 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-24 10:42:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-automation-framework/pull/1766" class=".btn">#1766</a>
             </td>
             <td>
