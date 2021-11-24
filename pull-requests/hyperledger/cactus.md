@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1546" class=".btn">#1546</a>
+            </td>
+            <td>
+                <b>
+                    test: jestify deploy-contract-from-json-xdai test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Migrated test from Tap to Jest.
+
+File Path:
+packages/cactus-plugin-ledger-connector-xdai/src/test/typescript/integration/deploy-contract-from-json-xdai.test.ts
+
+This is a PARTIAL resolution to issue #238 
+
+This partially fixes #238
+
+Signed-off-by: awadhana <awadhana0825@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-18 19:58:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1545" class=".btn">#1545</a>
             </td>
             <td>

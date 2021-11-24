@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2451" class=".btn">#2451</a>
+            </td>
+            <td>
+                <b>
+                    Added implementation of MultiWalletMultiTable postgres plugin strategy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We saw that the strategy MultiWalletMultiTable was prepared in the code but not yet implemented.
+
+So decided to do that because we experienced some major peformance issues with the implemented strategies so far.
+
+In addition we added another Strategy: MultiWalletSplitDatabaseMultiTable which cluster the tables in different databases depending on the id of the wallet. That lead to a performance boost.
+
+All unit test ran successfull and we tested the strategy in production aswell but we still consider it as experimentall because further tests are required to ensure that there are no undetected misconceptions.
+
+Signed-off-by: j.henrich@esatus.com
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-24 14:40:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-sdk/pull/2448" class=".btn">#2448</a>
             </td>
             <td>

@@ -102,29 +102,3 @@ Signed-off-by: David Huffman <dshuffma@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/83" class=".btn">#83</a>
-            </td>
-            <td>
-                <b>
-                    move react-scripts to dev dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-17 14:46:05 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/108" class=".btn">#108</a>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/109" class=".btn">#109</a>
             </td>
             <td>
                 <b>
-                    removed circular dependencies and adjusted to be executed in GHA
+                    removed circular dependencies and generalized for ubuntu 16.04 and 20.04
                 </b>
             </td>
         </tr>
@@ -27,17 +27,21 @@ permalink: /pull-requests/hyperledger/indy-test-automation
                 
             </td>
             <td>
-                This PR separates the Hyperledger Indy packages from the sovrin packages. Also, the docker files and scripts are adjusted to run in GHA as well as in local environments.
+                This PR separated the `sovrin` specific tets from indy-node tests. This removes the circular dependencies mentioned in #102.
 
-A successful run of all `node-only` test can be found at: https://github.com/udosson/indy-test-automation/actions/runs/1372937579 The workflow has been moved to `indy-node`
-Issue: #102 
+Also, the scripts have been adjusted to run locally as well on GitHub Actions pipelines. 
+The basis for testing `ubuntu 20.04` based `indy-node` artifacts is implemented. 
+Current issue: There is no working `systemd` image for `ubuntu 20.04` 
+
+A successful run of all tests in GHA can be found at: https://github.com/udosson/indy-node/actions/runs/1495380875
+
 
 Signed-off-by: udosson <r.klemens@yahoo.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-26 14:01:36 +0000 UTC
+        Created At 2021-11-23 14:41:02 +0000 UTC
     </div>
 </div>
 

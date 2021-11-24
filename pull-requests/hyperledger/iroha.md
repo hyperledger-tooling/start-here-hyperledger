@@ -14,6 +14,139 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1634" class=".btn">#1634</a>
+            </td>
+            <td>
+                <b>
+                    Removed myself from CODEOWNERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 17:15:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1631" class=".btn">#1631</a>
+            </td>
+            <td>
+                <b>
+                    Transaction status events tested for each of 7 peers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Egor Ivkov <e.o.ivkov@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+Transaction status events are tested:
+- By connecting for events to each peer
+- By submitting transactions in turn to each peer 
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+#1492
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+Thoroughly testing potential bug cases described in the issue. 
+<!-- What benefits will be realized by the code change? -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 16:18:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1629" class=".btn">#1629</a>
+            </td>
+            <td>
+                <b>
+                    [fix] issue 1593
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+
+### Description of the Change
+
+Made every operation involving `iroha_data_model::fixed::Fixed` fail if any value involved in said operation corresponds to a negative `Value`. 
+
+### Issue
+
+Closes #1593 
+
+### Benefits
+
+- The checked operations will cause an error if a negative value is passed. 
+- The maximum error guarantee is verified using an `ignored` test. (this is only necessary once). 
+- Some error messages have been improved. 
+
+### Possible Drawbacks
+
+None
+
+### Alternate Designs 
+
+Check if `Fixed` values are negative only when performing the `Mint` and `Burn` operations, without checking for negative values anywhere within the code. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 15:19:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1627" class=".btn">#1627</a>
             </td>
             <td>
@@ -175,53 +308,6 @@ Signed-off-by: kuvaldini <ivan@kuvaldini.pro>
     </table>
     <div class="right-align">
         Created At 2021-11-18 07:02:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1617" class=".btn">#1617</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] Organisation of `json` files and readme. 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Documentation</span><span class="chip">refactor</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
-
-
-
-
-### Description of the Change
-
-Updated documentation
-
-### Issue
-
-Closes #1248
-Closes #1237 
-
-### Benefits
-
-Easier to read Readme, with better Grammar and easier to understand language. 
-
-### Possible Drawbacks
-
-None
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-17 07:26:29 +0000 UTC
     </div>
 </div>
 
