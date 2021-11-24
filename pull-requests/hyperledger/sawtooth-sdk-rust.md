@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/70" class=".btn">#70</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/71" class=".btn">#71</a>
             </td>
             <td>
                 <b>
-                    Add GHA
+                    Remove CI files used by Jenkins
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
                 
             </td>
             <td>
-                <nil>
+                CI will be handled by Github Actions.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-12 22:21:11 +0000 UTC
+        Created At 2021-11-23 19:05:00 +0000 UTC
     </div>
 </div>
 

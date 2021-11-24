@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/184" class=".btn">#184</a>
+            </td>
+            <td>
+                <b>
+                    Fix post-merge build issue related to error codes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See failure here https://github.com/hyperledger/firefly-ethconnect/runs/4301810830?check_suite_focus=true
+
+Combination of #178 post-merge with #177
+
+```
+# github.com/hyperledger/firefly-ethconnect/internal/contractgateway
+internal/contractgateway/smartcontractgw.go:529:31: undefined: "github.com/hyperledger/firefly-ethconnect/internal/errors".New
+make: *** [Makefile:43: deps] Error 2
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 16:56:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/183" class=".btn">#183</a>
             </td>
             <td>
@@ -296,7 +330,7 @@ In case it's useful, here is a simple sample app for streaming messages in at a 
 const axios = require('axios');
 const https = require('https');
 
-const BASE_URL = 'https://zzzixar21f-zzlcxv8ksq-connect.dev2.photic.io/';
+const BASE_URL = 'https://xyz.example.com/';
 const USERNAME = 'xxxxxx';
 const PASSWORD = 'xxxxxx;
 const INSTANCE_ADDRESS = '0xbb99253e723891b73b9c18bcc818678f3e29c009';

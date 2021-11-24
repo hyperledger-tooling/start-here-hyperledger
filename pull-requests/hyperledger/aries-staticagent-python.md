@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/86" class=".btn">#86</a>
-            </td>
-            <td>
-                <b>
-                    Feature/queue get all
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-17 02:28:07 +0000 UTC
-    </div>
-</div>
-

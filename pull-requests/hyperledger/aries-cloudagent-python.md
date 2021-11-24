@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1516" class=".btn">#1516</a>
+            </td>
+            <td>
+                <b>
+                    Fix AttributeError
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Follow-up error after [PR 1515](https://github.com/hyperledger/aries-cloudagent-python/pull/1515). When calling `/credential-definitions/{cred_def_id}/write_record` in the Swagger UI, the call results in:
+
+    AttributeError: 'IndySdkLedger' object has no attribute 'add_cred_def_non_secrets_record'
+
+The code attempts to call `add_cred_def_non_secrets_record` on the `ledger` instance which doesn't have such a method. Instead, the actual method is in `routes.py` itself and should just be called there.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-24 10:43:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1515" class=".btn">#1515</a>
+            </td>
+            <td>
+                <b>
+                    Fix TypeError when calling credential_definitions_fix_cred_def_wallet…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When calling `/credential-definitions/{cred_def_id}/write_record` in the Swagger UI, the call results in a `TypeError` (same reason as in  [PR 1494](https://github.com/hyperledger/aries-cloudagent-python/pull/1494)). So the correct line of code has to be
+
+        ledger = context.inject_or(BaseLedger)
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-24 09:16:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1510" class=".btn">#1510</a>
             </td>
             <td>
@@ -196,116 +257,6 @@ I think these changes, while breaking changes, go a long way towards improving t
     </table>
     <div class="right-align">
         Created At 2021-11-18 02:56:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1500" class=".btn">#1500</a>
-            </td>
-            <td>
-                <b>
-                    Discover Features Protocol: v1_0 refactoring and v2_0 implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolves #1466
-- v1.0 refactoring/rewrite - workflow should now be compliant with [RFC0031](https://github.com/hyperledger/aries-rfcs/tree/b3a3942ef052039e73cd23d847f42947f8287da2/features/0031-discover-features)
-Earlier implementation involved calling `/featues` endpoint [under `server` tag] to disclose protocols for that agent. It did not involve the flow of `Aries` messages as specified in the RFC.
-- v2.0 implementation [RFC0557](https://github.com/hyperledger/aries-rfcs/tree/b3a3942ef052039e73cd23d847f42947f8287da2/features/0557-discover-features-v2)
-
-Major Changes
-- Startup arguments
-  - `--auto-disclose-features` Enables [proactive disclosure](https://github.com/hyperledger/aries-rfcs/tree/b3a3942ef052039e73cd23d847f42947f8287da2/features/0557-discover-features-v2#requester) for v2.0. Such agent will automatically disclose features to another agent when an active connection gets established. `--disclose-features-list` can be used to limit what to disclose and if not specified, then all are disclosed.
-  - `--disclose-features-list` Provides control over what features to publish. Accepts a path to YAML config file [example structure below]. This is valid for both v1.0 and v2.0
-- Removed `/features under server` endpoint
-- Added these endpoints:
-  -  `discover-features` tag
-     -  /discover-features/query
-     - /discover-features/records
-  -  `discover-features v2.0` tag
-     - /discover-features-2.0/queries
-     - /discover-features-2.0/records
-- Added Controller class to protocols to specify, manage and load goal-codes
-YAML config file structure, such agent will only disclose `did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/action-menu/1.0` protocol and/or `aries.vc` goal-code
-```
-   protocols: ["did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/action-menu/1.0"]
-   goal-codes: ["aries.vc"]
-```
-
-Testing
-- For v1.0, execute query using ` /discover-features/query`. If no `connection_id` is specified then it processes the query on the same agent (disclose features of the same agent). This essentially mimics what can be achieved using `/features` [under `server`]. To look up either all records or a record by `connection_id`, use `/discover-features/records`.
-- For v2.0, execute queries using `/discover-features-2.0/queries`. Same logic when no `connection_id` is specified as above. To look up either all records or a record by `connection_id`, use `/discover-features-2.0/records`.
-`connection_id` is an unique identifier for these records.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-17 17:21:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1496" class=".btn">#1496</a>
-            </td>
-            <td>
-                <b>
-                    Add RTD configs to get generator working
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Needed (I think) to get ReadTheDocs generation working again.  Currently not working because of a way that RTD works. Generation is no longer working because of a change in a default dependency, per [this bug report](https://gitanswer.com/build-failed-typeerror-generator-object-is-not-subscriptable-python-readthedocs-org-1036337375) and [guidance](https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html#using-a-configuration-file).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-16 20:31:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1494" class=".btn">#1494</a>
-            </td>
-            <td>
-                <b>
-                    Fix TypeError
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When calling /schemas/{schema_id}/write_record, a server error 500 occurrs. The log output says
-
-    TypeError: inject() got an unexpected keyword argument 'required'
-
-Other code in this file seems to indicate that the proposed change is what is needed to prevent the error from being thrown.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-16 12:37:35 +0000 UTC
     </div>
 </div>
 

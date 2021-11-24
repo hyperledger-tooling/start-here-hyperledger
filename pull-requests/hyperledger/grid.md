@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1097" class=".btn">#1097</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize client feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This stabilizes the `client` feature by moving it to `stable` from
+`experimental`.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 21:46:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1082" class=".btn">#1082</a>
+            </td>
+            <td>
+                <b>
+                    Update references of "status" to "state"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the purchase order smart contract handler to use the
+`workflow_state` field rather than `workflow_status`. This also updates
+references of "status" to "state" to avoid confusion.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 20:03:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1081" class=".btn">#1081</a>
             </td>
             <td>
@@ -236,87 +295,6 @@ Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-11-18 20:32:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1071" class=".btn">#1071</a>
-            </td>
-            <td>
-                <b>
-                    Small cli fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-17 17:00:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1070" class=".btn">#1070</a>
-            </td>
-            <td>
-                <b>
-                    Remove `pike-rest-api` feature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change removes the `pike-rest-api` feature from the SDK. This
-feature is a duplicate of the `rest-api-resources-agent` feature.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-17 16:20:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1068" class=".btn">#1068</a>
-            </td>
-            <td>
-                <b>
-                    Enforce uniqueness for PO alternate IDs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This updates the purchase order code to enforce uniqueness for alternate IDs. This adds checks to both the client and PO store to make sure that alternate IDs are only used once per splinter circuit or sawtooth instance.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-16 18:31:51 +0000 UTC
     </div>
 </div>
 

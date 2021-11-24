@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/578" class=".btn">#578</a>
+            </td>
+            <td>
+                <b>
+                    Use latest @solana/solidity library
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-24 17:08:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/577" class=".btn">#577</a>
             </td>
             <td>
@@ -167,44 +193,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2021-11-18 15:02:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/569" class=".btn">#569</a>
-            </td>
-            <td>
-                <b>
-                    Vector to slice pass creates invalid phi nodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                If the vector to slice pass updates one incoming value for a phi node,
-but not another we end up with a phi node that is invalid; one entry
-is a vector and the other a slice.
-
-This fix does the following.
-
-1. First collect all the set instructions we are going to update.
-2. For all phi nodes, check if there are any reaching definitions we
-   are not updating.
-3. If any reaching definition for the phi node is not updated, then do
-   not update any of them.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-17 17:52:31 +0000 UTC
     </div>
 </div>
 

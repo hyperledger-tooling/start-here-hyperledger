@@ -62,7 +62,7 @@ Fixes a series of broken fabric-ca unit tests.  These were caused by an expired 
 
 #### Related issues
 
-
+Fixes #260 
             </td>
         </tr>
     </table>
