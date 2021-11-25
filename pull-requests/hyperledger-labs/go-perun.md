@@ -102,29 +102,3 @@ What do you think?
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/264" class=".btn">#264</a>
-            </td>
-            <td>
-                <b>
-                    Rename Address.Equals to Equal
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactor</span>
-            </td>
-            <td>
-                Closes #253 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-18 15:54:12 +0000 UTC
-    </div>
-</div>
-

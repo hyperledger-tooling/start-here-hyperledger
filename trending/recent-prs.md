@@ -1,13 +1,13 @@
 
-[708](https://github.com/hyperledger/aries-rfcs/pull/708) Update HIPE pull request links to Aries RFCs
+[579](https://github.com/hyperledger-labs/solang/pull/579) Fix modifier with return values needing phis
 
-[2452](https://github.com/hyperledger/indy-sdk/pull/2452) Added implementation of MultiWalletMultiTable postgres plugin strategy
+[1521](https://github.com/hyperledger/aries-cloudagent-python/pull/1521) Delete unused ConnRecord generated - OOB invitation  `(use_exising_connection)`
 
-[205](https://github.com/hyperledger/fabric-sdk-go/pull/205) Fix bug
+[3078](https://github.com/hyperledger/fabric/pull/3078) What's New for v2.4.0 doc topic
 
-[1519](https://github.com/hyperledger/aries-cloudagent-python/pull/1519) added logging documentation
+[547](https://github.com/hyperledger/fabric-samples/pull/547) asset-transfer-ledger-queries/chaincode-javascript and chaincode/marbles02/javascript with pagination issues
 
-[1518](https://github.com/hyperledger/aries-cloudagent-python/pull/1518) Fix error when removing a wallet on askar-profile
+[545](https://github.com/hyperledger/fabric-samples/pull/545) Asset_transfer Java Contract
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
