@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1519" class=".btn">#1519</a>
+            </td>
+            <td>
+                <b>
+                    added logging documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added markdown documentation of logging in Acapy.
+
+- [x] Command Line Arguments
+- [x] Environment Variables
+- [x] Acapy Config
+- [x] Logging Config File
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-25 07:53:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1518" class=".btn">#1518</a>
             </td>
             <td>

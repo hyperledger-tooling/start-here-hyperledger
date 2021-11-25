@@ -529,12 +529,12 @@ With your current configuration, Renovate will create 110 Pull Requests:
 </details>
 
 <details>
-<summary>chore(deps): update dependency @&#8203;nomiclabs/hardhat-etherscan to v2.1.7</summary>
+<summary>chore(deps): update dependency @&#8203;nomiclabs/hardhat-etherscan to v2.1.8</summary>
 
   - Schedule: ["at any time"]
   - Branch name: `renovate/nomiclabs-hardhat-etherscan-2.x`
   - Merge into: `main`
-  - Upgrade [@nomiclabs/hardhat-etherscan](https://togithub.com/nomiclabs/hardhat) to `2.1.7`
+  - Upgrade [@nomiclabs/hardhat-etherscan](https://togithub.com/nomiclabs/hardhat) to `2.1.8`
 
 
 </details>
@@ -784,12 +784,12 @@ With your current configuration, Renovate will create 110 Pull Requests:
 </details>
 
 <details>
-<summary>chore(deps): update dependency cspell to v5.13.0</summary>
+<summary>chore(deps): update dependency cspell to v5.13.1</summary>
 
   - Schedule: ["at any time"]
   - Branch name: `renovate/cspell-5.x`
   - Merge into: `main`
-  - Upgrade [cspell](https://togithub.com/streetsidesoftware/cspell) to `5.13.0`
+  - Upgrade [cspell](https://togithub.com/streetsidesoftware/cspell) to `5.13.1`
 
 
 </details>
@@ -817,12 +817,12 @@ With your current configuration, Renovate will create 110 Pull Requests:
 </details>
 
 <details>
-<summary>chore(deps): update dependency hardhat to v2.6.8</summary>
+<summary>chore(deps): update dependency hardhat to v2.7.0</summary>
 
   - Schedule: ["at any time"]
   - Branch name: `renovate/hardhat-2.x`
   - Merge into: `main`
-  - Upgrade [hardhat](https://togithub.com/nomiclabs/hardhat) to `2.6.8`
+  - Upgrade [hardhat](https://togithub.com/nomiclabs/hardhat) to `2.7.0`
 
 
 </details>
@@ -950,23 +950,23 @@ With your current configuration, Renovate will create 110 Pull Requests:
 </details>
 
 <details>
-<summary>fix(deps): update dependency @&#8203;graphprotocol/graph-cli to v0.24.0</summary>
+<summary>fix(deps): update dependency @&#8203;graphprotocol/graph-cli to v0.24.1</summary>
 
   - Schedule: ["at any time"]
   - Branch name: `renovate/graphprotocol-graph-cli-0.x`
   - Merge into: `main`
-  - Upgrade @&#8203;graphprotocol/graph-cli to `0.24.0`
+  - Upgrade @&#8203;graphprotocol/graph-cli to `0.24.1`
 
 
 </details>
 
 <details>
-<summary>fix(deps): update dependency @&#8203;graphprotocol/graph-ts to v0.24.0</summary>
+<summary>fix(deps): update dependency @&#8203;graphprotocol/graph-ts to v0.24.1</summary>
 
   - Schedule: ["at any time"]
   - Branch name: `renovate/graphprotocol-graph-ts-0.x`
   - Merge into: `main`
-  - Upgrade @&#8203;graphprotocol/graph-ts to `0.24.0`
+  - Upgrade @&#8203;graphprotocol/graph-ts to `0.24.1`
 
 
 </details>
@@ -1355,7 +1355,7 @@ With your current configuration, Renovate will create 110 Pull Requests:
   - Schedule: ["at any time"]
   - Branch name: `renovate/react-17.x`
   - Merge into: `main`
-  - Upgrade [@types/react](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `17.0.36`
+  - Upgrade [@types/react](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `17.0.37`
 
 
 </details>
@@ -1421,7 +1421,7 @@ With your current configuration, Renovate will create 110 Pull Requests:
   - Schedule: ["at any time"]
   - Branch name: `renovate/ipfs-http-client-54.x`
   - Merge into: `main`
-  - Upgrade [ipfs-http-client](https://togithub.com/ipfs/js-ipfs) to `54.0.1`
+  - Upgrade [ipfs-http-client](https://togithub.com/ipfs/js-ipfs) to `54.0.2`
 
 
 </details>

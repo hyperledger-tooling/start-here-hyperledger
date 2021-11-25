@@ -96,38 +96,3 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/675" class=".btn">#675</a>
-            </td>
-            <td>
-                <b>
-                    Issuer option to select credential definition when receiving a proposal
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previously only the first matching credential definition was selected. Now the flow is:
-
-- First match is selected, if no credential definition is found the proposal is rejected
-- The issuer can change the preselection in the frontend
-
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/675"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-18 11:52:50 +0000 UTC
-    </div>
-</div>
-
