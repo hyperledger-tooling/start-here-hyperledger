@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 <b>
-                    peers iteration
+                    peers doc iteration
                 </b>
             </td>
         </tr>
