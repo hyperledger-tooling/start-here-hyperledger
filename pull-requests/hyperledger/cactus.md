@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1565" class=".btn">#1565</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump @openzeppelin/contracts from 4.2.0 to 4.3.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">Security</span>
+            </td>
+            <td>
+                Bumps [@openzeppelin/contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
+from 4.2.0 to 4.3.3.
+
+- [Release notes](https://github.com/OpenZeppelin/openzeppelin-contracts/releases)
+- [Changelog](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/OpenZeppelin/openzeppelin-contracts/compare/v4.2.0...v4.3.3)
+
+---
+updated-dependencies:
+- dependency-name: "@openzeppelin/contracts"
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+(cherry picked from commit 8308434b862d9cc4a5d1b345cb09951438ee792d)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 19:20:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1564" class=".btn">#1564</a>
             </td>
             <td>
@@ -525,40 +566,6 @@ Signed-off-by: awadhana <awadhana0825@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-11-18 19:58:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1545" class=".btn">#1545</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify besu-erc20 refund endpoint invalid time test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Migrated test from Tap to Jest.
-
-File Path:
-packages/cactus-test-plugin-htlc-eth-besu-erc20/src/test/typescript/integration/plugin-htlc-eth-besu-erc20/refund-endpoint-invalid-time.test.ts
-
-This is a PARTIAL resolution to #238 and other half of test file path:
-packages/cactus-test-plugin-htlc-eth-besu-erc20/src/test/typescript/integration/plugin-htlc-eth-besu-erc20/refund-endpoint.test.ts
-
-Signed-off-by: awadhana <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-18 04:00:34 +0000 UTC
     </div>
 </div>
 
