@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1521" class=".btn">#1521</a>
+            </td>
+            <td>
+                <b>
+                    Delete unused ConnRecord generated - OOB invitation  `(use_exising_connection)`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
+- resolve #1511 
+- The problem it solves:
+  - If 2 agents [`Alice and Bob`] have an active connection setup (using an OOB public DID invitation)
+  - `Alice` send another OOB invitation (public) to `Bob`
+  - `Bob` accepts it with `use_existing_connection` option, then on `Alice` side, the invitation and associated connection generated remain unused.
+- This PR implements `flush_stale_connections` function, which deletes all `ConnRecords` with `state: invitation` and `invitation_mode: once` which were last updated `at least 3 hours` back. The trigger for this function is creating an OOB invitation, so whenever a new `OOB invitation` is created then this cleanup is performed. Does this strategy sound reasonable?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-25 17:00:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1519" class=".btn">#1519</a>
             </td>
             <td>
@@ -295,32 +327,6 @@ Signed-off-by: Ethan Sung <baegjae@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-11-22 08:58:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1504" class=".btn">#1504</a>
-            </td>
-            <td>
-                <b>
-                    Remove Streetcred references
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-18 16:58:44 +0000 UTC
     </div>
 </div>
 
