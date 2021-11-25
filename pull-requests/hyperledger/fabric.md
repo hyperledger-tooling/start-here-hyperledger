@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3077" class=".btn">#3077</a>
+            </td>
+            <td>
+                <b>
+                    peers iteration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Horton <joshh@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- New feature
+- Documentation update
+
+#### Description
+
+Another iteration on the Peers topic for new Fabric Gateway service.
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/2807
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-24 23:46:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3075" class=".btn">#3075</a>
             </td>
             <td>
@@ -66,51 +109,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-23 14:15:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3072" class=".btn">#3072</a>
-            </td>
-            <td>
-                <b>
-                    1121 peers e2e and gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-- Peers topic e3e edit for gateway, in detail, substantial.
-- Minor updates to gateway overview since prior commit.
-- Flow diagrams figure 6 and figure 10 are commented out for now - pending design update to reflect the associated text updates. 
-
-#### Type of change
-
-- New feature
-- Documentation update
-
-#### Description
-
-Fabric Gateway service - new feature.
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/2807
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-22 22:37:38 +0000 UTC
     </div>
 </div>
 
@@ -402,78 +400,6 @@ This change fixes some typos  in the docs
     </table>
     <div class="right-align">
         Created At 2021-11-18 11:38:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3055" class=".btn">#3055</a>
-            </td>
-            <td>
-                <b>
-                    Use Heap To Maintain First Differences
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Julian Castrence <juliancastrence@ibm.com>
-
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-
-#### Description
-
-- Changed ledgerutil compare naive implementation of maintaining list of first differences to use heap implementation for better performance
-
-<!--- Describe your changes in detail, including motivation. -->
-
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-17 23:15:53 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/160" class=".btn">#160</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/163" class=".btn">#163</a>
             </td>
             <td>
                 <b>
-                    Rename GHA workflow files
+                    Require AdminPermission to be Send
                 </b>
             </td>
         </tr>
@@ -27,16 +27,13 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
                 
             </td>
             <td>
-                If workflows share the name filename as an existing workflow in the main
-branch, github will execute the workflow from main instead of the branch
-appropriate instance.
+                Given that transaction handlers can be supplied to background threads (for example, in transact), this change adds the `Send` trait bound for `AdminPermission`
 
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-20 21:20:53 +0000 UTC
+        Created At 2021-11-24 22:40:26 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +41,40 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/159" class=".btn">#159</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/162" class=".btn">#162</a>
             </td>
             <td>
                 <b>
-                    BACKPORT 0-5: Add GHA
+                    Update Transact dependency to 0.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Includes changing HashMethod::SHA512 to HashMethod::Sha512.
+Transact changed HashMethod enum to follow standard linting practices.
+
+Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-24 22:17:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/161" class=".btn">#161</a>
+            </td>
+            <td>
+                <b>
+                    Update various dependencies
                 </b>
             </td>
         </tr>
@@ -62,7 +88,7 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-20 19:39:01 +0000 UTC
+        Created At 2021-11-24 19:47:53 +0000 UTC
     </div>
 </div>
 

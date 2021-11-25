@@ -1,13 +1,13 @@
 
-[294](https://github.com/hyperledger/transact/pull/294) Correct tests after txn id type change
+[3077](https://github.com/hyperledger/fabric/pull/3077) peers iteration
 
-[293](https://github.com/hyperledger/transact/pull/293) Stabilize `workload-batch-gen` in libtransact
+[1517](https://github.com/hyperledger/aries-cloudagent-python/pull/1517) Fix DIF Presentation Request Input Validation
 
-[679](https://github.com/hyperledger-labs/business-partner-agent/pull/679) fix bad url
+[163](https://github.com/hyperledger/sawtooth-sabre/pull/163) Require AdminPermission to be Send
 
-[578](https://github.com/hyperledger-labs/solang/pull/578) Use latest @solana/solidity library
+[162](https://github.com/hyperledger/sawtooth-sabre/pull/162) Update Transact dependency to 0.4
 
-[292](https://github.com/hyperledger/transact/pull/292) Remove unused `source.rs` file
+[295](https://github.com/hyperledger/transact/pull/295) Release notes for v0.4.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

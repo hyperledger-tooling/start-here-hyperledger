@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/87" class=".btn">#87</a>
+            </td>
+            <td>
+                <b>
+                    create setting to allow users to keep default pass
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                added the setting `allow_default_password`
+- if `true` users are allowed to keep the default password
+- if `false` users will be forced to set a new password after their first login
+- defaults `false`
+
+https://github.com/hyperledger-labs/fabric-operations-console/issues/79
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-24 20:14:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/86" class=".btn">#86</a>
             </td>
             <td>
