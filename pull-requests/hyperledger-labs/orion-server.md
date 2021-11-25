@@ -313,35 +313,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/265" class=".btn">#265</a>
-            </td>
-            <td>
-                <b>
-                    decoder decodes data response envelope
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commits add a decoder utility that would decode
-a given json data response envelope.
-
-It will get updated to decode the bas64 encoded value
-in the subsequent PR.
-
-Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-18 08:58:42 +0000 UTC
-    </div>
-</div>
-

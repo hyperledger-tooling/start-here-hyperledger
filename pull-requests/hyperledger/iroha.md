@@ -282,32 +282,3 @@ Possibly it will slow down the CI and might sometimes fail tests due to not enou
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1622" class=".btn">#1622</a>
-            </td>
-            <td>
-                <b>
-                    Transmit proposal hash via network to reduce footprint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                instead of sending proposal itself.
-
-Signed-off-by: kuvaldini <ivan@kuvaldini.pro>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-18 07:02:49 +0000 UTC
-    </div>
-</div>
-

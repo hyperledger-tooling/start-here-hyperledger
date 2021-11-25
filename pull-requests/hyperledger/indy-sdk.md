@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2451" class=".btn">#2451</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2452" class=".btn">#2452</a>
             </td>
             <td>
                 <b>
@@ -35,12 +35,12 @@ In addition we added another Strategy: MultiWalletSplitDatabaseMultiTable which 
 
 All unit test ran successfull and we tested the strategy in production aswell but we still consider it as experimentall because further tests are required to ensure that there are no undetected misconceptions.
 
-Signed-off-by: j.henrich@esatus.com
+Signed-off-by: Johannes Henrich <j.henrich@esatus.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-24 14:40:53 +0000 UTC
+        Created At 2021-11-25 10:00:13 +0000 UTC
     </div>
 </div>
 
