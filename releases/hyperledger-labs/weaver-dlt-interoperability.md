@@ -15,25 +15,25 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.5-beta.1 - Go Fabric Interop Chaincode - Nov 18 2021
+                    v1.2.6-alpha - Go Fabric Interop Chaincode - Nov 25 2021
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    core/network/fabric-interop-cc/contracts/interop/v1.2.5-beta.1
+                    core/network/fabric-interop-cc/contracts/interop/v1.2.6-alpha
                 </span>
             </td>
             <td>
                 - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/core/network/fabric-interop-cc/contracts/interop`
-- Release: v1.2.5-beta.1
-- Readme [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.2.5-beta.1/core/network/fabric-interop-cc/README.md).
-- Source: [Interop Chaincode](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.2.5-beta.1/core/network/fabric-interop-cc/contracts/interop)
+- Release: v1.2.6-alpha
+- Readme [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.2.6-alpha/core/network/fabric-interop-cc/README.md).
+- Source: [Interop Chaincode](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.2.6-alpha/core/network/fabric-interop-cc/contracts/interop)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.2.5-beta.1" class=".btn">
+    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.2.6-alpha" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
