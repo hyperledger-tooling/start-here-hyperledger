@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1517" class=".btn">#1517</a>
+            </td>
+            <td>
+                <b>
+                    Fix DIF Presentation Request Input Validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolve #1512 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-24 22:56:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1516" class=".btn">#1516</a>
             </td>
             <td>
