@@ -15,26 +15,26 @@ permalink: /releases/hyperledger/fabric-chaincode-java
         <tr>
             <td colspan="2">
                 <b>
-                    v2.4.0-beta Fabric Chaincode Java
+                    v2.4.0 Java Chaincode
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.4.0-beta
+                    v2.4.0
                 </span>
             </td>
             <td>
-                The first release of the v2.4 beta.
+                v2.4.0 Java Chaincode to support the upcoming Fabric v2.4 release 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-chaincode-java/releases/tag/v2.4.0-beta" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-chaincode-java/releases/tag/v2.4.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-08-18 10:30:06 +0000 UTC
+        Created At 2021-11-26 13:39:05 +0000 UTC
     </span>
 </div>
 
