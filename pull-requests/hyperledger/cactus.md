@@ -343,30 +343,3 @@ webpack script does not need npm run all
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1552" class=".btn">#1552</a>
-            </td>
-            <td>
-                <b>
-                    ci: ensure sorted package json files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1341
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-19 03:39:18 +0000 UTC
-    </div>
-</div>
-
