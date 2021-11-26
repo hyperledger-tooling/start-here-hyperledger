@@ -33,7 +33,8 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
   - If 2 agents [`Alice and Bob`] have an active connection setup (using an OOB public DID invitation)
   - `Alice` send another OOB invitation (public) to `Bob`
   - `Bob` accepts it with `use_existing_connection` option, then on `Alice` side, the invitation and associated connection generated remain unused.
-- This PR implements `flush_stale_connections` function, which deletes all `ConnRecords` with `state: invitation` and `invitation_mode: once` which were last updated `at least 3 hours` back. The trigger for this function is creating an OOB invitation, so whenever a new `OOB invitation` is created then this cleanup is performed. Does this strategy sound reasonable?
+- ~~This PR implements `flush_stale_connections` function, which deletes all `ConnRecords` with `state: invitation` and `invitation_mode: once` which were last updated `at least 3 hours` back. The trigger for this function is creating an OOB invitation, so whenever a new `OOB invitation` is created then this cleanup is performed. Does this strategy sound reasonable?~~
+- Following feedback from @swcurran, fixed initial flawed implementation of `reuse` message and used it to accomplish deletion of `hanging` connections.
             </td>
         </tr>
     </table>
