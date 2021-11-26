@@ -15,26 +15,29 @@ permalink: /releases/hyperledger/fabric-chaincode-node
         <tr>
             <td colspan="2">
                 <b>
-                    v2.4.0-beta
+                    v2.4.0 Fabric Chaincode Node
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.4.0-beta
+                    v2.4.0
                 </span>
             </td>
             <td>
-                First release of the 2.4.0-beta
+                This v2.4.0 release  supports the upcoming Fabric v2.4.0 release
+
+Note that the version of Node.js is updated to 16.4.0. See the COMPATIBILITY.md file in the main branch for information.
+
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-chaincode-node/releases/tag/v2.4.0-beta" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-chaincode-node/releases/tag/v2.4.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-09-02 14:23:33 +0000 UTC
+        Created At 2021-11-26 13:56:11 +0000 UTC
     </span>
 </div>
 
