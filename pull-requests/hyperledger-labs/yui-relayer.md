@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/52" class=".btn">#52</a>
             </td>
             <td>
                 <b>
-                    Fix uint64 parser
+                    Add `update-clients` command
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-05 14:51:41 +0000 UTC
+        Created At 2021-11-26 09:20:17 +0000 UTC
     </div>
 </div>
 

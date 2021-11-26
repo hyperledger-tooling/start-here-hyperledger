@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/302" class=".btn">#302</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/303" class=".btn">#303</a>
             </td>
             <td>
                 <b>
-                    Correct TS type definitions
+                    Release 2.4.0
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                Updated version numbers & the compatibility.md table
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-19 10:21:18 +0000 UTC
+        Created At 2021-11-26 08:17:39 +0000 UTC
     </div>
 </div>
 

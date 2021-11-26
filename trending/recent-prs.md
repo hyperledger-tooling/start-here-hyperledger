@@ -1,13 +1,13 @@
 
-[181](https://github.com/hyperledger-labs/fabric-smart-client/pull/181) nwo: improved fabric network support
+[1716](https://github.com/hyperledger/indy-node/pull/1716) Fixes wrong max slices in GHA
 
-[579](https://github.com/hyperledger-labs/solang/pull/579) Fix modifier with return values needing phis
+[86](https://github.com/hyperledger-labs/orion-sdk-go/pull/86) demo: academic doc management
 
-[1521](https://github.com/hyperledger/aries-cloudagent-python/pull/1521) Delete unused ConnRecord generated - OOB invitation  `(use_exising_connection)`
+[52](https://github.com/hyperledger-labs/yui-relayer/pull/52) Add `update-clients` command
 
-[3078](https://github.com/hyperledger/fabric/pull/3078) What's New for v2.4.0 doc topic
+[212](https://github.com/hyperledger/fabric-chaincode-java/pull/212) Release 2.4
 
-[547](https://github.com/hyperledger/fabric-samples/pull/547) asset-transfer-ledger-queries/chaincode-javascript and chaincode/marbles02/javascript with pagination issues
+[303](https://github.com/hyperledger/fabric-chaincode-node/pull/303) Release 2.4.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
