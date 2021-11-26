@@ -242,32 +242,3 @@ sawtooth-sabre-tp                  | 2021-11-19 21:29:53,500 INFO  [sawtooth_sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1076" class=".btn">#1076</a>
-            </td>
-            <td>
-                <b>
-                    Stabilize SDK's "cylinder-jwt-support" by removing it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change stabilizes the "cylinder-jwt-support" feature by removing it
-from the Grid SDK.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-19 14:34:36 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1577" class=".btn">#1577</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1578" class=".btn">#1578</a>
             </td>
             <td>
                 <b>
-                    pinned version of importlib-metadata because of issue with fpm
+                    bump indy-sdk to v. 1.16.0
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                This PR pins the version of `importlib-metadata` to `v3.10.01`. From version `4.0.0`  on, the resulting package ends in `python3-importlib-metadata_0.0.0_amd64.deb`.
-
-The issue can be seen at: https://github.com/hyperledger/indy-plenum/runs/4166593170?check_suite_focus=true#step:5:5304 
-
-Signed-off-by: udosson <r.klemens@yahoo.de>
+                Signed-off-by: udosson <r.klemens@yahoo.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-10 15:47:55 +0000 UTC
+        Created At 2021-11-26 13:32:03 +0000 UTC
     </div>
 </div>
 
