@@ -150,31 +150,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/539" class=".btn">#539</a>
-            </td>
-            <td>
-                <b>
-                    Updated fabric-gateway version in application-gateway-typescript 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-
-Changed fabric-gateway version to unstable 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-19 15:11:09 +0000 UTC
-    </div>
-</div>
-

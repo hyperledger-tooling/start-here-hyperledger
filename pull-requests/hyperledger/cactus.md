@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1568" class=".btn">#1568</a>
+            </td>
+            <td>
+                <b>
+                    ci(tools): fix iroha AIO image build flake on CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span><span class="chip">Iroha</span>
+            </td>
+            <td>
+                Related to #1566 but does not actually fix it.
+For now I just commented out the build step
+of the flaky container image until we figure out
+how to remedy the situation properly because
+in the meantime I do not want to waste time
+having to re-run the CI all the time because of the
+flake.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-23 23:27:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1565" class=".btn">#1565</a>
             </td>
             <td>
@@ -313,33 +347,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2021-11-23 04:31:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1554" class=".btn">#1554</a>
-            </td>
-            <td>
-                <b>
-                    chore: clean package.json
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Removes resource script that is not present in any package;
-webpack script does not need npm run all
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-19 14:07:00 +0000 UTC
     </div>
 </div>
 

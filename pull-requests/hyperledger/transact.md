@@ -596,29 +596,3 @@ Signed-off-by: Isabel Tomb <tomb@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/274" class=".btn">#274</a>
-            </td>
-            <td>
-                <b>
-                    Back-port 0-3: Add list trees to MerkleRadixStore
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                back-port of #270 into the 0-3 branch
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-19 16:44:33 +0000 UTC
-    </div>
-</div>
-
