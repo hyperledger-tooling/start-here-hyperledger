@@ -445,7 +445,7 @@ With your current configuration, Renovate will create 110 Pull Requests:
   - Pin [nyc](https://togithub.com/istanbuljs/nyc) to `12.0.2`
   - Pin [pg](https://togithub.com/brianc/node-postgres) to `8.6.0`
   - Pin [pg-hstore](https://togithub.com/scarney81/pg-hstore) to `2.3.4`
-  - Pin [prettier](https://togithub.com/prettier/prettier) to `2.4.1`
+  - Pin [prettier](https://togithub.com/prettier/prettier) to `2.5.0`
   - Pin [prettier](https://togithub.com/prettier/prettier) to `2.2.1`
   - Pin [prettier-plugin-solidity](https://togithub.com/prettier-solidity/prettier-plugin-solidity) to `1.0.0-beta.2`
   - Pin [react](https://togithub.com/facebook/react) to `16.14.0`
@@ -828,23 +828,23 @@ With your current configuration, Renovate will create 110 Pull Requests:
 </details>
 
 <details>
-<summary>chore(deps): update dependency hardhat-deploy to v0.9.10</summary>
+<summary>chore(deps): update dependency hardhat-deploy to v0.9.12</summary>
 
   - Schedule: ["at any time"]
   - Branch name: `renovate/hardhat-deploy-0.x`
   - Merge into: `main`
-  - Upgrade [hardhat-deploy](https://togithub.com/wighawag/hardhat-deploy) to `0.9.10`
+  - Upgrade [hardhat-deploy](https://togithub.com/wighawag/hardhat-deploy) to `0.9.12`
 
 
 </details>
 
 <details>
-<summary>chore(deps): update dependency prettier to v2.4.1</summary>
+<summary>chore(deps): update dependency prettier to v2.5.0</summary>
 
   - Schedule: ["at any time"]
   - Branch name: `renovate/prettier-2.x`
   - Merge into: `main`
-  - Upgrade [prettier](https://togithub.com/prettier/prettier) to `2.4.1`
+  - Upgrade [prettier](https://togithub.com/prettier/prettier) to `2.5.0`
 
 
 </details>

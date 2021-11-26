@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/86" class=".btn">#86</a>
+            </td>
+            <td>
+                <b>
+                    demo: academic doc management
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: senthil <cendhu@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-26 10:02:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/85" class=".btn">#85</a>
             </td>
             <td>

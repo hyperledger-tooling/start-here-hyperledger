@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/210" class=".btn">#210</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/212" class=".btn">#212</a>
             </td>
             <td>
                 <b>
-                    Chaincode-as-a-service main bootstrap method
+                    Release 2.4
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Included the main bootstrap method into the codebase to assist in getting the
-chaincode as a service up and running.
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-16 09:04:08 +0000 UTC
+        Created At 2021-11-26 08:24:09 +0000 UTC
     </div>
 </div>
 
