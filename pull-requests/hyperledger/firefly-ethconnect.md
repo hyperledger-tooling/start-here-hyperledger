@@ -397,29 +397,3 @@ run().catch(err => {
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/174" class=".btn">#174</a>
-            </td>
-            <td>
-                <b>
-                    Add nil check when looking up contracts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-19 18:36:38 +0000 UTC
-    </div>
-</div>
-

@@ -570,29 +570,3 @@ Signed-off-by: Isabel Tomb <tomb@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/275" class=".btn">#275</a>
-            </td>
-            <td>
-                <b>
-                    Add release notes for 0.3.14
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Schwarz <pschwarz@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-19 22:42:15 +0000 UTC
-    </div>
-</div>
-
