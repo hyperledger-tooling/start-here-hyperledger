@@ -15,29 +15,30 @@ permalink: /releases/hyperledger/indy-sdk-react-native
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.1.14
+                    Release 0.1.15
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.1.14
+                    0.1.15
                 </span>
             </td>
             <td>
-                * Bump path-parse from 1.0.6 to 1.0.7 (#18) (e99df25)
-* feat: add prover/recipient revocation for iOS (#17) (ee96631)
-* Add Android revocation methods (#15) (e32e060)
-* Bump path-parse from 1.0.6 to 1.0.7 (#16) (8c9c4e4)
+                * ci: validate on pr (#22) (f058a5b)
+* Android: add generateNonce method. (#21) (16710fa)
+* iOS: Add generateNonce method (#20) (36e926a)
+* chore(deps): bump react-native from 0.59.10 to 0.62.3 (#13) (4c0a8b2)
+* Bump tmpl from 1.0.4 to 1.0.5 (#19) (bae864d)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.1.14" class=".btn">
+    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.1.15" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-08-21 13:31:35 +0000 UTC
+        Created At 2021-11-27 14:58:36 +0000 UTC
     </span>
 </div>
 
