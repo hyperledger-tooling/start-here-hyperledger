@@ -161,7 +161,7 @@ Based on the default config's presets, Renovate will:
 
 ### What to Expect
 
-With your current configuration, Renovate will create 110 Pull Requests:
+With your current configuration, Renovate will create 111 Pull Requests:
 
 <details>
 <summary>chore(deps): roll back dependency ws-identity to ^1.0.12</summary>
@@ -240,94 +240,6 @@ With your current configuration, Renovate will create 110 Pull Requests:
   - Branch name: `renovate/npm-validator-vulnerability`
   - Merge into: `main`
   - Upgrade validator to `13.7.0`
-
-
-</details>
-
-<details>
-<summary>chore(deps): update dependency @&#8203;types/express to v4.17.13</summary>
-
-  - Schedule: ["at any time"]
-  - Branch name: `renovate/express-4.x`
-  - Merge into: `main`
-  - Upgrade [@types/express](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `4.17.13`
-
-
-</details>
-
-<details>
-<summary>chore(deps): update dependency @&#8203;types/mocha to v8.2.3</summary>
-
-  - Schedule: ["at any time"]
-  - Branch name: `renovate/mocha-8.x`
-  - Merge into: `main`
-  - Upgrade [@types/mocha](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `8.2.3`
-
-
-</details>
-
-<details>
-<summary>chore(deps): update dependency @&#8203;types/node to v14.17.34</summary>
-
-  - Schedule: ["at any time"]
-  - Branch name: `renovate/node-14.x`
-  - Merge into: `main`
-  - Upgrade [@types/node](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `14.17.34`
-
-
-</details>
-
-<details>
-<summary>chore(deps): update dependency @&#8203;types/uuid to v8.3.3</summary>
-
-  - Schedule: ["at any time"]
-  - Branch name: `renovate/uuid-8.x`
-  - Merge into: `main`
-  - Upgrade [@types/uuid](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `8.3.3`
-
-
-</details>
-
-<details>
-<summary>chore(deps): update dependency hardhat-deploy-ethers to v0.3.0-beta.11</summary>
-
-  - Schedule: ["at any time"]
-  - Branch name: `renovate/hardhat-deploy-ethers-0.x`
-  - Merge into: `main`
-  - Upgrade [hardhat-deploy-ethers](https://togithub.com/wighawag/hardhat-deploy-ethers) to `0.3.0-beta.11`
-
-
-</details>
-
-<details>
-<summary>chore(deps): update dependency nodemon to v2.0.15</summary>
-
-  - Schedule: ["at any time"]
-  - Branch name: `renovate/nodemon-2.x`
-  - Merge into: `main`
-  - Upgrade [nodemon](https://togithub.com/remy/nodemon) to `2.0.15`
-
-
-</details>
-
-<details>
-<summary>chore(deps): update dependency prettier-plugin-solidity to v1.0.0-beta.19</summary>
-
-  - Schedule: ["at any time"]
-  - Branch name: `renovate/prettier-plugin-solidity-1.x`
-  - Merge into: `main`
-  - Upgrade [prettier-plugin-solidity](https://togithub.com/prettier-solidity/prettier-plugin-solidity) to `1.0.0-beta.19`
-
-
-</details>
-
-<details>
-<summary>chore(deps): update dependency solidity-coverage to v0.7.17</summary>
-
-  - Schedule: ["at any time"]
-  - Branch name: `renovate/solidity-coverage-0.x`
-  - Merge into: `main`
-  - Upgrade [solidity-coverage](https://togithub.com/sc-forks/solidity-coverage) to `0.7.17`
 
 
 </details>
@@ -535,6 +447,94 @@ With your current configuration, Renovate will create 110 Pull Requests:
   - Branch name: `renovate/nomiclabs-hardhat-etherscan-2.x`
   - Merge into: `main`
   - Upgrade [@nomiclabs/hardhat-etherscan](https://togithub.com/nomiclabs/hardhat) to `2.1.8`
+
+
+</details>
+
+<details>
+<summary>chore(deps): update dependency @&#8203;types/express to v4.17.13</summary>
+
+  - Schedule: ["at any time"]
+  - Branch name: `renovate/express-4.x`
+  - Merge into: `main`
+  - Upgrade [@types/express](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `4.17.13`
+
+
+</details>
+
+<details>
+<summary>chore(deps): update dependency @&#8203;types/mocha to v8.2.3</summary>
+
+  - Schedule: ["at any time"]
+  - Branch name: `renovate/mocha-8.x`
+  - Merge into: `main`
+  - Upgrade [@types/mocha](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `8.2.3`
+
+
+</details>
+
+<details>
+<summary>chore(deps): update dependency @&#8203;types/node to v14.17.34</summary>
+
+  - Schedule: ["at any time"]
+  - Branch name: `renovate/node-14.x`
+  - Merge into: `main`
+  - Upgrade [@types/node](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `14.17.34`
+
+
+</details>
+
+<details>
+<summary>chore(deps): update dependency @&#8203;types/uuid to v8.3.3</summary>
+
+  - Schedule: ["at any time"]
+  - Branch name: `renovate/uuid-8.x`
+  - Merge into: `main`
+  - Upgrade [@types/uuid](https://togithub.com/DefinitelyTyped/DefinitelyTyped) to `8.3.3`
+
+
+</details>
+
+<details>
+<summary>chore(deps): update dependency hardhat-deploy-ethers to v0.3.0-beta.11</summary>
+
+  - Schedule: ["at any time"]
+  - Branch name: `renovate/hardhat-deploy-ethers-0.x`
+  - Merge into: `main`
+  - Upgrade [hardhat-deploy-ethers](https://togithub.com/wighawag/hardhat-deploy-ethers) to `0.3.0-beta.11`
+
+
+</details>
+
+<details>
+<summary>chore(deps): update dependency nodemon to v2.0.15</summary>
+
+  - Schedule: ["at any time"]
+  - Branch name: `renovate/nodemon-2.x`
+  - Merge into: `main`
+  - Upgrade [nodemon](https://togithub.com/remy/nodemon) to `2.0.15`
+
+
+</details>
+
+<details>
+<summary>chore(deps): update dependency prettier-plugin-solidity to v1.0.0-beta.19</summary>
+
+  - Schedule: ["at any time"]
+  - Branch name: `renovate/prettier-plugin-solidity-1.x`
+  - Merge into: `main`
+  - Upgrade [prettier-plugin-solidity](https://togithub.com/prettier-solidity/prettier-plugin-solidity) to `1.0.0-beta.19`
+
+
+</details>
+
+<details>
+<summary>chore(deps): update dependency solidity-coverage to v0.7.17</summary>
+
+  - Schedule: ["at any time"]
+  - Branch name: `renovate/solidity-coverage-0.x`
+  - Merge into: `main`
+  - Upgrade [solidity-coverage](https://togithub.com/sc-forks/solidity-coverage) to `0.7.17`
 
 
 </details>
@@ -1367,6 +1367,17 @@ With your current configuration, Renovate will create 110 Pull Requests:
   - Branch name: `renovate/bootstrap-5.x`
   - Merge into: `main`
   - Upgrade [bootstrap](https://togithub.com/twbs/bootstrap) to `5.1.3`
+
+
+</details>
+
+<details>
+<summary>fix(deps): update dependency chalk to v5</summary>
+
+  - Schedule: ["at any time"]
+  - Branch name: `renovate/chalk-5.x`
+  - Merge into: `main`
+  - Upgrade [chalk](https://togithub.com/chalk/chalk) to `5.0.0`
 
 
 </details>
