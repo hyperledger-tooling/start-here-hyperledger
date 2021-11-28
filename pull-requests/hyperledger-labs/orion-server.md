@@ -14,20 +14,62 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/285" class=".btn">#285</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/286" class=".btn">#286</a>
             </td>
             <td>
                 <b>
-                    WIP: Reconfig cluster membership peer removal
+                    Re-config comm transport endpoints
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">replication</span>
             </td>
             <td>
-                <nil>
+                Allow the HTTPTransport to update its member peers - add peer / remove peer / change peer endpoint.
+    This includes both the raft http transport and the catchup client.
+    
+    Note: a config TX that adds or removes peers is not yet supported (future commit).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-28 14:35:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/285" class=".btn">#285</a>
+            </td>
+            <td>
+                <b>
+                    Re-config cluster membership: peer removal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">replication</span>
+            </td>
+            <td>
+                Handle a config TX that carries a membership change, i.e. adding or removing a member peer.
+
+If a config transaction carries changes to the cluster membership, i.e. add or remove a node, it is proposed
+using Raft’s ProposeConfChange(), with the config-block as Context field of the proposal.
+This allows consensus on the new Raft membership, while consenting on the new config-block at the same time.
+If the config tx does not carry changes to the cluster membership it is proposed using the normal Propose().
+
+Implement peer removal and addition, but test only removal.
+- When a node is removed, it is recommended to shutdown the removed node prior to proposing the removal config-tx.
+- If the removed node is alive, it detects its own removal after it commits and then shuts down the replication component.
+- The removed server may continue to serve queries until it is shutdown.
+- The removed server always reports the Leader-RaftID=0, so it cannot be used for transactions.
+
+Adding a peer is still not supported (future commit).
             </td>
         </tr>
     </table>
@@ -96,7 +138,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
             </td>
             <td>
                 <b>
-                    WIP: Re-config cluster endpoints
+                    Re-config cluster endpoints
                 </b>
             </td>
         </tr>
@@ -105,7 +147,9 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 <span class="chip">replication</span>
             </td>
             <td>
-                <nil>
+                Allow a config Tx that changes the endpoint of an existing PeerConfig.
+
+Note: a config TX that adds or removes peers is not yet supported (future commit).
             </td>
         </tr>
     </table>
@@ -258,58 +302,6 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-22 13:22:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/270" class=".btn">#270</a>
-            </td>
-            <td>
-                <b>
-                    Adding cryptoGen.sh documentation.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-21 17:16:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/269" class=".btn">#269</a>
-            </td>
-            <td>
-                <b>
-                    Updating sdk transactions, docker documentation and broken links
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-21 14:22:43 +0000 UTC
     </div>
 </div>
 

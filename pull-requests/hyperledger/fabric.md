@@ -179,33 +179,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3070" class=".btn">#3070</a>
-            </td>
-            <td>
-                <b>
-                    goimports updates to prepare for Go 1.17
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Run goimports to make code compatible with Go 1.17.
-The changes work with both Go 1.16 and Go 1.17, therefore it can be merged now.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-21 16:04:38 +0000 UTC
-    </div>
-</div>
-
