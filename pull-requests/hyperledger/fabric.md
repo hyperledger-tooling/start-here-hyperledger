@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3080" class=".btn">#3080</a>
+            </td>
+            <td>
+                <b>
+                    Other key concepts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- New feature
+- Documentation update
+
+#### Description
+
+Other Key Concepts - Network and Ordering Service topics for gateway
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/2807 
+- Other Key Concepts items
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-27 23:22:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3079" class=".btn">#3079</a>
+            </td>
+            <td>
+                <b>
+                    Peers for Gateway
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Horton <joshh@us.ibm.com>
+
+Final review of Peers page/topic for Fabric Gateway GA
+
+#### Type of change
+
+- New feature
+- Documentation update
+
+#### Description
+
+Fabric Gateway service - new model for peers and apps for transaction proposals and endorsements.
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/2807
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-27 20:18:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3078" class=".btn">#3078</a>
             </td>
             <td>
@@ -35,49 +117,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-25 15:37:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3077" class=".btn">#3077</a>
-            </td>
-            <td>
-                <b>
-                    peers doc iteration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Josh Horton <joshh@us.ibm.com>
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- New feature
-- Documentation update
-
-#### Description
-
-Another iteration on the Peers topic for new Fabric Gateway service.
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/2807
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-24 23:46:25 +0000 UTC
     </div>
 </div>
 
