@@ -1388,7 +1388,7 @@ With your current configuration, Renovate will create 111 Pull Requests:
   - Schedule: ["at any time"]
   - Branch name: `renovate/debug-4.x`
   - Merge into: `main`
-  - Upgrade [debug](https://togithub.com/visionmedia/debug) to `4.3.2`
+  - Upgrade [debug](https://togithub.com/visionmedia/debug) to `4.3.3`
 
 
 </details>
