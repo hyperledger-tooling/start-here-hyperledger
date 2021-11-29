@@ -828,12 +828,12 @@ With your current configuration, Renovate will create 111 Pull Requests:
 </details>
 
 <details>
-<summary>chore(deps): update dependency hardhat-deploy to v0.9.12</summary>
+<summary>chore(deps): update dependency hardhat-deploy to v0.9.14</summary>
 
   - Schedule: ["at any time"]
   - Branch name: `renovate/hardhat-deploy-0.x`
   - Merge into: `main`
-  - Upgrade [hardhat-deploy](https://togithub.com/wighawag/hardhat-deploy) to `0.9.12`
+  - Upgrade [hardhat-deploy](https://togithub.com/wighawag/hardhat-deploy) to `0.9.14`
 
 
 </details>
