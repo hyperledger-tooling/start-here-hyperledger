@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3083" class=".btn">#3083</a>
+            </td>
+            <td>
+                <b>
+                    Clarify v2.x upgrade docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Combine the v2.x to v2.x instructions in a single section.
+
+For v1.x to v2.x, clarify which steps should occur prior to updating peers,
+while updating peers, and after updating peers, by adding a section header for each.
+
+Finally, clarify that existing chaincodes will automatically shift from old lifecycle framework
+to new lifecycle framework upon the first install/approve/commit after enabling the
+v2.x lifecycle (i.e., after updating the V2_0 application capability).
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-29 02:56:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3082" class=".btn">#3082</a>
+            </td>
+            <td>
+                <b>
+                    Update v2.4.0 release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update v2.4.0 release notes
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-29 01:59:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3080" class=".btn">#3080</a>
             </td>
             <td>
