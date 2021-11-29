@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3087" class=".btn">#3087</a>
+            </td>
+            <td>
+                <b>
+                    Add command reference doc for ledgerutil
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add command reference doc for ledgerutil.
+Includes minor edits to the command's user messages.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-29 17:10:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3086" class=".btn">#3086</a>
+            </td>
+            <td>
+                <b>
+                    latest PR review comments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Horton <joshh@us.ibm.com>
+
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- New feature
+- Documentation update
+
+#### Description
+
+Gateway updates to Ordering service topic and Network topic
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/2807
+This replaces https://github.com/hyperledger/fabric/pull/3080
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-29 15:59:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3085" class=".btn">#3085</a>
             </td>
             <td>
@@ -126,46 +204,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-29 01:59:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3080" class=".btn">#3080</a>
-            </td>
-            <td>
-                <b>
-                    Other key concepts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- New feature
-- Documentation update
-
-#### Description
-
-Other Key Concepts - Network and Ordering Service topics for gateway
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/2807 
-- Other Key Concepts items
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-27 23:22:55 +0000 UTC
     </div>
 </div>
 

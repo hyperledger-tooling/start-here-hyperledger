@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 <b>
-                    added documentation for sqlite database as wallet storage
+                    added documentation for wallet storage databases
                 </b>
             </td>
         </tr>

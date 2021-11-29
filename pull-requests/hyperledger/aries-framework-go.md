@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3064" class=".btn">#3064</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3076" class=".btn">#3076</a>
             </td>
             <td>
                 <b>
-                    feat: didcomm v2 DID rotation
+                    feat: Credential Fulfillment
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+                - Added a library that allows you to parse Credential Fulfillment objects and resolve VCs from them based on an Issue Credential Message's attachment. This Credential Fulfillment implementation is based on the specification at https://identity.foundation/credential-manifest/#credential-fulfillment.
+
+- Refactored the CredentialManifest.ResolveOutputDescriptors method to take in a *verifiable.Credential object instead of a []byte, in order to make the expected type more explicit.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-19 17:25:06 +0000 UTC
+        Created At 2021-11-29 03:19:52 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +44,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3063" class=".btn">#3063</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3075" class=".btn">#3075</a>
             </td>
             <td>
                 <b>
-                    feat: oobv2 controllers & bdd tests
+                    feat: command controllers for wallet issuance flow
                 </b>
             </td>
         </tr>
@@ -53,16 +57,83 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                This change introduces out-of-band v2 controllers and commands and includes bdd tests
-It also removes unused Actions in OOB v2 service
+                - added JS, REST command controllers for wallet issuance interfaces.
+- Part of  #3073
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-26 21:23:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3074" class=".btn">#3074</a>
+            </td>
+            <td>
+                <b>
+                    feat: WACI issuance flow interfaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                based on [WACI Issuance in Universal
+Wallet](https://github.com/w3c-ccg/universal-wallet-interop-spec/issues/101)
+
+- added propose credential interface
+- added request credential interface
+- added tests
+- Closes #3073
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-26 16:24:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3072" class=".btn">#3072</a>
+            </td>
+            <td>
+                <b>
+                    feat: connectionRecord in OOBV2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change includes ConnectionRecord creation in OOBV2 and requires invitation attachment messages to include `from`
+header representing the sender's DID.
+
 
 Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
 
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-19 00:25:06 +0000 UTC
+        Created At 2021-11-26 15:24:48 +0000 UTC
     </div>
 </div>
 
@@ -70,11 +141,11 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3060" class=".btn">#3060</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3071" class=".btn">#3071</a>
             </td>
             <td>
                 <b>
-                    chore(deps-dev): bump webpack from 4.46.0 to 5.64.1 in /cmd/aries-js-worker
+                    chore(deps-dev): bump webpack from 4.46.0 to 5.64.4 in /cmd/aries-js-worker
                 </b>
             </td>
         </tr>
@@ -83,11 +154,38 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.64.1.
+                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.64.4.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
 <blockquote>
+<h2>v5.64.4</h2>
+<h1>Bugfixes</h1>
+<ul>
+<li>fix tagged template literal evaluation</li>
+<li>fix ModuleFederation with ESM</li>
+<li>fix outputModule with intial splitChunks</li>
+</ul>
+<h1>Performance</h1>
+<ul>
+<li>upgrade watchpack for faster watcher updating</li>
+<li>track file and directory timestamps separately in watchpack and webpack</li>
+</ul>
+<h1>Developer Experience</h1>
+<ul>
+<li>show origin of singleton shared module in mismatch warning</li>
+</ul>
+<h2>v5.64.3</h2>
+<h1>Performance</h1>
+<ul>
+<li>allow to use pre-compiled schema when <code>Infinity</code> is used in configuration</li>
+<li>allow to use pre-compiled schema for configuration arrays</li>
+</ul>
+<h2>v5.64.2</h2>
+<h1>Bugfixes</h1>
+<ul>
+<li>avoid double initial compilation due to invalid dependencies with managedPaths</li>
+</ul>
 <h2>v5.64.1</h2>
 <h1>Bugfixes</h1>
 <ul>
@@ -111,34 +209,6 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
 <ul>
 <li>avoid running regexp twice over the file list</li>
 </ul>
-<h2>v5.63.0</h2>
-<h1>Features</h1>
-<ul>
-<li>allow passing <code>chunkLoading: false</code> to disable on-demand loading</li>
-</ul>
-<h1>Bugfixes</h1>
-<ul>
-<li>fix <code>import 'single-quote'</code> in esm build dependencies</li>
-</ul>
-<h2>v5.62.2</h2>
-<h1>Bugfixes</h1>
-<ul>
-<li>fix <code>__system_context__</code> injection when using the <code>library</code> option on entrypoint</li>
-<li>enable <code>exportsPresence: &quot;error&quot;</code> by default in <code>futureDefaults</code></li>
-<li>fix bad performance for a RegExp in Stats printing (with large error messages)</li>
-<li>fix <code>exportPresence</code> -&gt; <code>exportsPresence</code> typo</li>
-<li>fix a bug with module invalidation when only module id changes with <code>experiments.cacheUnaffected</code></li>
-</ul>
-<h2>v5.62.1</h2>
-<h1>Bugfix</h1>
-<ul>
-<li>fix invalid generated code when omitting <code>;</code></li>
-</ul>
-<h2>v5.62.0</h2>
-<h1>Features</h1>
-<ul>
-<li>add options to configure export presence checking</li>
-</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -146,23 +216,23 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/webpack/webpack/commit/3d5503a5b535b89bbdde78535c1839cefd88e4fa"><code>3d5503a</code></a> 5.64.1</li>
-<li><a href="https://github.com/webpack/webpack/commit/1f75ab01fea4952a244752769d126b2ebf3d9226"><code>1f75ab0</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14737">#14737</a> from webpack/dependabot/npm_and_yarn/webpack-source...</li>
-<li><a href="https://github.com/webpack/webpack/commit/0f90f75a0e1dabc3c5ec15493cf0e9884687c08e"><code>0f90f75</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14736">#14736</a> from webpack/dependabot/npm_and_yarn/terser-5.10.0</li>
-<li><a href="https://github.com/webpack/webpack/commit/0fd96aca4f70dcdb74cf7349181d3a1a44107615"><code>0fd96ac</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14735">#14735</a> from webpack/bugfix/unsafe-cache-managed-paths</li>
-<li><a href="https://github.com/webpack/webpack/commit/cae22d1888f7aff66dedc44bf3b9206035d2d85e"><code>cae22d1</code></a> fallback to normal snapshotting when managed path optimization fails</li>
-<li><a href="https://github.com/webpack/webpack/commit/98ea582bf0553302a6db1fb3c94a04c5f23e3a58"><code>98ea582</code></a> watch package.json for managed directories</li>
-<li><a href="https://github.com/webpack/webpack/commit/bbd039a7ac5321cab00193a50664f719a3a45c3c"><code>bbd039a</code></a> update package.json</li>
-<li><a href="https://github.com/webpack/webpack/commit/5cba448bfb780a05c19790a604afb8b892ef9717"><code>5cba448</code></a> update snapshot</li>
-<li><a href="https://github.com/webpack/webpack/commit/d73bd6996ca2044255d4e6ca8a9b84ba48d4af83"><code>d73bd69</code></a> chore(deps): bump webpack-sources from 3.2.1 to 3.2.2</li>
-<li><a href="https://github.com/webpack/webpack/commit/65d795e5a79f66d53146def3e344a35c0f9dd23a"><code>65d795e</code></a> chore(deps-dev): bump terser from 5.9.0 to 5.10.0</li>
-<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.64.1">compare view</a></li>
+<li><a href="https://github.com/webpack/webpack/commit/d3cd4cb6e38338237fe722d4b7feae2244c425c5"><code>d3cd4cb</code></a> 5.64.4</li>
+<li><a href="https://github.com/webpack/webpack/commit/4f9fafc73e46b1b08fa0d3e7551b5ab6b94d1441"><code>4f9fafc</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14829">#14829</a> from webpack/bugfix/split-chunks-esm</li>
+<li><a href="https://github.com/webpack/webpack/commit/093eadfdb45c3e94bab7057971debba093cb39a9"><code>093eadf</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14827">#14827</a> from webpack/bugfix/mf-module</li>
+<li><a href="https://github.com/webpack/webpack/commit/c69e37c39d12c8e3c761c883069d89f90cac817c"><code>c69e37c</code></a> fix outputModule with initial splitChunks</li>
+<li><a href="https://github.com/webpack/webpack/commit/041287ff589701f288d6baafe150002529317ca9"><code>041287f</code></a> fix test problem</li>
+<li><a href="https://github.com/webpack/webpack/commit/c3691df74064ec2a591b3c0beefe3565f84cb71b"><code>c3691df</code></a> fix CI problems</li>
+<li><a href="https://github.com/webpack/webpack/commit/d91248711b63818a4e935294dec290a760fcca5d"><code>d912487</code></a> fix and test module federation with ESM</li>
+<li><a href="https://github.com/webpack/webpack/commit/ac9a2c87ed732adaf9dfe307c7690c43609d06a2"><code>ac9a2c8</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14782">#14782</a> from tanhauhau/tanhauhau/show-which-container-loade...</li>
+<li><a href="https://github.com/webpack/webpack/commit/ce0f0b3a164591da1b8edcee038b9e81d0bf4909"><code>ce0f0b3</code></a> update test case</li>
+<li><a href="https://github.com/webpack/webpack/commit/68c4a2a0a9a9c12c55e2ba2a5273dd26958e4027"><code>68c4a2a</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14728">#14728</a> from markjm/markjm/context-timestamps</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.64.4">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.64.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.64.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -193,7 +263,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-16 08:24:58 +0000 UTC
+        Created At 2021-11-26 08:14:32 +0000 UTC
     </div>
 </div>
 
@@ -201,11 +271,11 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3059" class=".btn">#3059</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3070" class=".btn">#3070</a>
             </td>
             <td>
                 <b>
-                    fix: TransactionTime in UnpublishedOperations and PublishedOperations
+                    wip: merge present proof v2/v3 client APIs
                 </b>
             </td>
         </tr>
@@ -214,12 +284,12 @@ You can trigger Dependabot actions by commenting on this PR:
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-15 17:47:16 +0000 UTC
+        Created At 2021-11-26 03:34:51 +0000 UTC
     </div>
 </div>
 
@@ -227,11 +297,11 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3058" class=".btn">#3058</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3068" class=".btn">#3068</a>
             </td>
             <td>
                 <b>
-                    feat: Add unpublishedOperations and publishedOperations to DID Doc
+                    feat: support mediator bdd tests with didcomm v2
                 </b>
             </td>
         </tr>
@@ -240,12 +310,14 @@ You can trigger Dependabot actions by commenting on this PR:
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-15 17:04:21 +0000 UTC
+        Created At 2021-11-25 04:17:09 +0000 UTC
     </div>
 </div>
 
@@ -253,11 +325,11 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3057" class=".btn">#3057</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3067" class=".btn">#3067</a>
             </td>
             <td>
                 <b>
-                    fix: allow payloads of any size in hkdf and pbkdf2 encrypt
+                    fix: OOB V2 db name can't use . or / for mongodb compatibility
                 </b>
             </td>
         </tr>
@@ -266,51 +338,12 @@ You can trigger Dependabot actions by commenting on this PR:
                 
             </td>
             <td>
-                Signed-off-by: Andrii Holovko <andriy.holovko@gmail.com>
-
-
-
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-15 16:39:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3056" class=".btn">#3056</a>
-            </td>
-            <td>
-                <b>
-                    feat: add support of general key prefixes for LocalKMS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
-
-
-**Title:**
-Add support of general key prefixes for LocalKMS
-
-**Summary:**
-
-Now LocalKMS support not only local key prefix but other prefixes with the form "anyprefixname://".
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-15 11:51:53 +0000 UTC
+        Created At 2021-11-24 18:09:34 +0000 UTC
     </div>
 </div>
 
