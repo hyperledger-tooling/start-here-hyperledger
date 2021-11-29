@@ -38,31 +38,3 @@ permalink: /releases/hyperledger/firefly-ui
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.4.1_f09c392
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.4.1
-                </span>
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-ui/releases/tag/v0.4.1" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2021-11-22 15:01:12 +0000 UTC
-    </span>
-</div>
-
