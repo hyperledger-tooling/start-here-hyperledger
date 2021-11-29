@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3085" class=".btn">#3085</a>
+            </td>
+            <td>
+                <b>
+                    Add read version to the example in read-write set
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+
+Per discussion, we want to add read version to the example in read-write set so that
+
+1. the read version described in the earlier description appears in this example.
+2. show readers clearly that a transaction is rejected due to read version mismatch.
+
+#### Related issues
+
+Fixes #3015 
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-29 08:16:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3083" class=".btn">#3083</a>
             </td>
             <td>

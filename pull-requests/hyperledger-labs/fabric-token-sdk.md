@@ -115,32 +115,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/145" class=".btn">#145</a>
-            </td>
-            <td>
-                <b>
-                    TCC extension
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - export tcc functions
-- enable hash support
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-22 10:16:36 +0000 UTC
-    </div>
-</div>
-
