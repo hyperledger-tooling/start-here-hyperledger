@@ -66,29 +66,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/542" class=".btn">#542</a>
-            </td>
-            <td>
-                <b>
-                    Extend test network to support prometheus/grafana performances framework. Fixes hyperledger/fabric-test#347
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: fraVlaca <ocsenarf@outlook.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-22 12:07:04 +0000 UTC
-    </div>
-</div>
-

@@ -181,7 +181,7 @@ Thoroughly testing potential bug cases described in the issue.
             </td>
             <td>
                 <b>
-                    [fix] issue 1593
+                    [fix] Minting issues (1593 and 1405)
                 </b>
             </td>
         </tr>
@@ -200,6 +200,7 @@ Made every operation involving `iroha_data_model::fixed::Fixed` fail if any valu
 ### Issue
 
 Closes #1593 
+Closes #1405 
 
 ### Benefits
 
@@ -294,70 +295,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-11-22 23:00:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1625" class=".btn">#1625</a>
-            </td>
-            <td>
-                <b>
-                    Switch to GitHub Runners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-Testing the possibility to switch back to GitHub runners as there are currently problems with self hosted runners. 
-
-Also updated log level for test network:
-- bench - WARN
-- other - INFO
-
-Previous log level of TRACE had performance implications due to printing all logs to std out and also made debugging failed jobs in CI difficult.
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-#1626 
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-Working CI
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-Possibly it will slow down the CI and might sometimes fail tests due to not enough parallelism.
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-22 10:52:33 +0000 UTC
     </div>
 </div>
 

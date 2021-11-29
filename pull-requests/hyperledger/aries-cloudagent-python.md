@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1523" class=".btn">#1523</a>
+            </td>
+            <td>
+                <b>
+                    added documentation for sqlite database as wallet storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - [x] SQlite
+- [x] PostgreDB
+- [x] Link in other documentation
+- [x] Docker Compose example
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-29 09:46:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1521" class=".btn">#1521</a>
             </td>
             <td>
@@ -66,7 +95,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
 - [x] Environment Variables
 - [x] Acapy Config
 - [x] Logging Config File
-
+- [x] Link in dev readme
             </td>
         </tr>
     </table>
@@ -273,61 +302,6 @@ Signed-off-by: Ethan Sung <baegjae@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-11-23 02:14:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1508" class=".btn">#1508</a>
-            </td>
-            <td>
-                <b>
-                    Fix error when connection request is received (askar, public invitation)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes error when connection request is received with public invitation under askar
-
-### Environment
-- connections/1.0 protocol
-- public invitation
-- askar
-
-### Problem
-Faber (invitation creator) encountered error below, when connection request was received.
-```
-2021-11-22 17:39:38,849 aries_cloudagent.core.dispatcher ERROR Handler error: Dispatcher.handle_message
-Traceback (most recent call last):
-  File "/Users/baegjae/src/aries-cloudagent-python/aries_cloudagent/core/dispatcher.py", line 197, in handle_message
-    await handler(context, responder)
-  File "/Users/baegjae/src/aries-cloudagent-python/aries_cloudagent/protocols/connections/v1_0/handlers/connection_request_handler.py", line 41, in handle
-    await mgr.receive_request(
-  File "/Users/baegjae/src/aries-cloudagent-python/aries_cloudagent/protocols/connections/v1_0/manager.py", line 592, in receive_request
-    my_info = await wallet.create_local_did(DIDMethod.SOV, KeyType.ED25519)
-  File "/Users/baegjae/src/aries-cloudagent-python/aries_cloudagent/wallet/askar.py", line 199, in create_local_did
-    await self._session.handle.insert_key(
-AttributeError: 'NoneType' object has no attribute 'insert_key'
-```
-
-`wallet` was inactive (=handle was None) when creating local did.
-
-### Fix
-This PR make `wallet` active to create local did.
-
-
-Signed-off-by: Ethan Sung <baegjae@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-22 08:58:03 +0000 UTC
     </div>
 </div>
 
