@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1717" class=".btn">#1717</a>
+            </td>
+            <td>
+                <b>
+                    Update README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Instead of "consequently", do you really mean "consecutively"?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-28 23:00:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1716" class=".btn">#1716</a>
             </td>
             <td>
