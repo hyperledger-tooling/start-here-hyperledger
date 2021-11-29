@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/163" class=".btn">#163</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/164" class=".btn">#164</a>
             </td>
             <td>
                 <b>
-                    Require AdminPermission to be Send
+                    Release notes  for 0.8.1
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
                 
             </td>
             <td>
-                Given that transaction handlers can be supplied to background threads (for example, in transact), this change adds the `Send` trait bound for `AdminPermission`
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-24 22:40:26 +0000 UTC
+        Created At 2021-11-29 15:27:16 +0000 UTC
     </div>
 </div>
 
