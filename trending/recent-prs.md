@@ -1,13 +1,13 @@
 
-[3117](https://github.com/hyperledger/besu/pull/3117) QBFT migration: Create a switchable protocol context
+[1718](https://github.com/hyperledger/indy-node/pull/1718) VSCode Devcontainer
 
-[272](https://github.com/hyperledger-labs/go-perun/pull/272) Refactor Data and Action Type
+[680](https://github.com/hyperledger-labs/business-partner-agent/pull/680) option to filter wallet documents by type
 
-[3116](https://github.com/hyperledger/besu/pull/3116) fix flakey test caused by random payload
+[1648](https://github.com/hyperledger/iroha/pull/1648) Feature/syncing node
 
-[1601](https://github.com/hyperledger/cactus/pull/1601) fix(security): upgrade fabric-common to 2.2.10 or later
+[17](https://github.com/hyperledger-labs/blockchain-verifier/pull/17) Add HLF v2.4.0 to the target versions of the integration tests
 
-[1645](https://github.com/hyperledger/iroha/pull/1645) tidy up data_model
+[1647](https://github.com/hyperledger/iroha/pull/1647) Add actor doc and minor fixes
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
