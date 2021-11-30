@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/288" class=".btn">#288</a>
+            </td>
+            <td>
+                <b>
+                    Re-config cluster membership: peer addition
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allow a config-tx to carry a membership change that adds a peer.
+Test that the peer was added to the existing cluster.
+Note that bootstrapping the peer is not yet supported (future commit).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-30 08:20:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/287" class=".btn">#287</a>
             </td>
             <td>
@@ -54,9 +82,9 @@ permalink: /pull-requests/hyperledger-labs/orion-server
             </td>
             <td>
                 Allow the HTTPTransport to update its member peers - add peer / remove peer / change peer endpoint.
-    This includes both the raft http transport and the catchup client.
-    
-    Note: a config TX that adds or removes peers is not yet supported (future commit).
+This includes both the raft http transport and the catchup client.
+
+Note: a config TX that adds or removes peers is not yet supported (future commit).
             </td>
         </tr>
     </table>
@@ -181,87 +209,6 @@ Note: a config TX that adds or removes peers is not yet supported (future commit
     </table>
     <div class="right-align">
         Created At 2021-11-23 15:39:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/276" class=".btn">#276</a>
-            </td>
-            <td>
-                <b>
-                    minor fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-23 10:06:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/275" class=".btn">#275</a>
-            </td>
-            <td>
-                <b>
-                    Updated images/README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-23 09:43:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/274" class=".btn">#274</a>
-            </td>
-            <td>
-                <b>
-                    Update docker build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Same image name both locally and in docker hub
-README.md to docker hub.
-
-Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-23 09:03:52 +0000 UTC
     </div>
 </div>
 
