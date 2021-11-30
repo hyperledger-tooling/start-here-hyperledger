@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3117" class=".btn">#3117</a>
+            </td>
+            <td>
+                <b>
+                    QBFT migration: Create a switchable protocol context
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+For the QBFT migration we need to be able to return the appropriate consensus context for the current consensus mechanism.
+
+This introduces a schedulable protocol context and scheduable context that are used together to return the consensus context for the current chain height.
+
+Fixes #3000 
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-30 06:16:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3116" class=".btn">#3116</a>
+            </td>
+            <td>
+                <b>
+                    fix flakey test caused by random payload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes flakey tests e.g. https://app.circleci.com/pipelines/github/hyperledger/besu/11940/workflows/7dc4c157-f51b-4ba7-aaa8-3baec6b5a038/jobs/65476/tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-30 05:45:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3114" class=".btn">#3114</a>
             </td>
             <td>
