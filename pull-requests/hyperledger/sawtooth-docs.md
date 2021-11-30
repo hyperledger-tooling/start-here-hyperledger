@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/92" class=".btn">#92</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/93" class=".btn">#93</a>
             </td>
             <td>
                 <b>
-                    Update links
+                    Mike/faq
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
                 
             </td>
             <td>
-                Links pointed to a former repo.
+                This issue tripped me up when I was first using Sawtooth (I know other people who had issues with this as well), and I couldn't find any mention of it in any of the documentation.  I had to go to the Sawtooth chat and do a search through the chat archives to find information on it.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-10 17:32:02 +0000 UTC
+        Created At 2021-11-29 23:42:37 +0000 UTC
     </div>
 </div>
 

@@ -257,7 +257,7 @@ https://github.com/hyperledger/fabric/issues/2807
             </td>
             <td>
                 <b>
-                    What's New for v2.4.0 doc topic
+                    Release commit for v2.4.0
                 </b>
             </td>
         </tr>
@@ -266,7 +266,8 @@ https://github.com/hyperledger/fabric/issues/2807
                 
             </td>
             <td>
-                Add What's New for v2.4.0
+                Add What's New for v2.4.0.
+Update install doc and scripts for v2.4.0.
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
