@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3118" class=".btn">#3118</a>
+            </td>
+            <td>
+                <b>
+                    Start external services before we start mining
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Reasons:
+
+- you may wish to query the blockchain using rpc before you start processing
+
+- you may wish to register a websocket e.g to listen for blocks currently, you will probably miss one because we start processing before we start the ws service
+
+Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-30 15:51:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3117" class=".btn">#3117</a>
             </td>
             <td>
@@ -552,48 +593,6 @@ For more information on this process see the Becoming a Maintainer section in th
     </table>
     <div class="right-align">
         Created At 2021-11-23 19:16:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3098" class=".btn">#3098</a>
-            </td>
-            <td>
-                <b>
-                    Migration mining coordinator duplicate event
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Split out from https://github.com/hyperledger/besu/pull/3097 as it's a non-breaking issue. (But still part of https://github.com/hyperledger/besu/issues/2999)
-
-Changes from siladu:migration-mining-coordinator viewable here: https://github.com/siladu/besu/compare/migration-mining-coordinator...migration-mining-coordinator_duplicate-event
-
-The issue is that both SchedulableMiningCoordinator and its delegate, BftMiningCoordinator are registered as BlockAddedObservers when the mining coordinator is started. 
-This means a duplicate event is processed:
-```
-DEBUG | BaseBftController | New chain head detected (block number=1), currently mining on top of 0.
-DEBUG | BaseBftController | New chain head detected (block number=1), currently mining on top of 1.
-TRACE | BaseBftController | Discarding duplicate NewChainHead event. chainHeight=1 
-```
-
-It is correctly discarded so it's not a blocker, but it should still be fixed.
-
-I decided to cover this only using unit tests.
-I considered the qbft integration-tests, but they avoid executing the mining coordinator, instead requiring the test code to 'manually' do the coordination.
-This fix also seemed too fined grained for an acceptance test.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-23 14:21:49 +0000 UTC
     </div>
 </div>
 
