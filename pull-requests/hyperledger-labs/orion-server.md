@@ -184,31 +184,3 @@ Adding a peer is still not supported (future commit).
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/277" class=".btn">#277</a>
-            </td>
-            <td>
-                <b>
-                    Re-config cluster endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">replication</span>
-            </td>
-            <td>
-                Allow a config Tx that changes the endpoint of an existing PeerConfig.
-
-Note: a config TX that adds or removes peers is not yet supported (future commit).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-23 15:39:16 +0000 UTC
-    </div>
-</div>
-

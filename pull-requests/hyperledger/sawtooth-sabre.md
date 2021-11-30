@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/165" class=".btn">#165</a>
+            </td>
+            <td>
+                <b>
+                    Remove CI files used by Jenkins
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                CI will be handled by Github Actions.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-30 15:37:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/164" class=".btn">#164</a>
             </td>
             <td>

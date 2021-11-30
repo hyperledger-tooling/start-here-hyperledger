@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos-go/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos-go/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    V2
+                    [WIP] Comparing updated code generation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-protos-go
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-16 12:21:12 +0000 UTC
+        Created At 2021-11-30 17:02:20 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/681" class=".btn">#681</a>
+            </td>
+            <td>
+                <b>
+                    Full language support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ![image](https://user-images.githubusercontent.com/87176157/144095441-e40b23ea-f740-4a13-a1f3-60b0248c346c.png)
+
+- Replaced all static texts
+- Added German translation (de.json)
+- Added language selector in settings
+- Adapted bcgov.json file
+- Added git hook for automatic license header update in every file and replaced all license headers
+
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/681"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-30 17:21:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/680" class=".btn">#680</a>
             </td>
             <td>

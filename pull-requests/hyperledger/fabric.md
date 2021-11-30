@@ -211,48 +211,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3079" class=".btn">#3079</a>
-            </td>
-            <td>
-                <b>
-                    Peers for Gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Josh Horton <joshh@us.ibm.com>
-
-Final review of Peers page/topic for Fabric Gateway GA
-
-#### Type of change
-
-- New feature
-- Documentation update
-
-#### Description
-
-Fabric Gateway service - new model for peers and apps for transaction proposals and endorsements.
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/2807
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-27 20:18:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3078" class=".btn">#3078</a>
             </td>
             <td>
@@ -275,65 +233,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-25 15:37:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3075" class=".btn">#3075</a>
-            </td>
-            <td>
-                <b>
-                    Refine Gateway gRPC error status codes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-23 16:34:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3074" class=".btn">#3074</a>
-            </td>
-            <td>
-                <b>
-                    EndorsementTimeout should apply to each endorser
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently the options.EndorsementTimeout creates a context that is shared by all endorsement requests in the Endose() and Evaluate() methods.
-This commit changes it so It is applied individually to each endorsing peer.
-The overall timeout for Endorse/Evaluate is set in the client SDK
-
-Resolves https://github.com/hyperledger/fabric-gateway/issues/292
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-23 14:15:06 +0000 UTC
     </div>
 </div>
 

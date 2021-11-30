@@ -1106,34 +1106,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1562" class=".btn">#1562</a>
-            </td>
-            <td>
-                <b>
-                    fix(connector-corda): add script to remove files before generate them
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                generate-server script calls this new script before call
-openapi-generator-cli
-
-Closes: #1559
-
-Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-23 12:57:24 +0000 UTC
-    </div>
-</div>
-
