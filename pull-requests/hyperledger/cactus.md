@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1599" class=".btn">#1599</a>
+            </td>
+            <td>
+                <b>
+                    test: skip flaky deploy-cordapp-jars-to-nodes-v4.8-express
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">Corda</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span><span class="chip">Flaky-Test-Automation</span><span class="chip">Tests</span>
+            </td>
+            <td>
+                Related to #1598 but does not fix it.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-30 00:30:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1597" class=".btn">#1597</a>
+            </td>
+            <td>
+                <b>
+                    refactor(cmd-socketio-server): circular dependency fix and minor fixes for verifier tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix circular dependency between routing-interface and VerifierFactory,
+add default validator config used by ValidatorAuthentication, type fixes
+in Verifier, format some files according to standard.
+
+Closes: #1596
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-29 21:11:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1595" class=".btn">#1595</a>
             </td>
             <td>

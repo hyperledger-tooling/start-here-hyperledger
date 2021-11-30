@@ -39,31 +39,3 @@ Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/274" class=".btn">#274</a>
-            </td>
-            <td>
-                <b>
-                    Add workflow specification page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds a "feature doc" for workflow, with content taken from the RFC.
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-22 22:47:22 +0000 UTC
-    </div>
-</div>
-
