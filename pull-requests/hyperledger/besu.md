@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3119" class=".btn">#3119</a>
+            </td>
+            <td>
+                <b>
+                    Emeritus maintainers x 2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I propose moving the following maintainers to Emeritus status, pursuant to the inactivity clause. These maintainers have had no activity during Q3/Q4 2021 (since July 2021):
+* @mbaxter’s last Besu activity was in July 2021
+* @abdelhamidbakhta’s last Besu activity was in July 2021
+
+We very much appreciate their contributions but moving their status to emeritus (and thus revoking PR approval privileges) is in the interest of an orderly project. If any of these maintainers express in this PR that they intend to make contributions in the next quarter, then they will not be moved to emeritus status.
+This vote is open until either an absolute majority of active maintainers votes for the same outcome, or until two weeks has passed, after which a voting majority will determine the outcome (with a tie resulting in no change).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-30 23:22:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3118" class=".btn">#3118</a>
             </td>
             <td>
@@ -521,78 +552,6 @@ fixes #3083
     </table>
     <div class="right-align">
         Created At 2021-11-24 04:34:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3101" class=".btn">#3101</a>
-            </td>
-            <td>
-                <b>
-                    Prepare to merge execute_getPayload json-rpc endpoint into main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-minor refactor in support of merging getPayload rpc method into main
-* ensure we always serialize as even length hex representation
-* move payload id into consensus namespace
-* remove unused protocolSchedule
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-23 23:32:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3100" class=".btn">#3100</a>
-            </td>
-            <td>
-                <b>
-                    Jiri maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                JIri has made [significant commits](https://github.com/hyperledger/besu/pulls?q=is%3Apr+author%3Agezero) improving the quality and features of besu, this PR adds him as a maintainer.
-
-Voting ends 2 weeks from the publication of this PR or once a majority of the maintainers vote.
-
-For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-23 19:16:35 +0000 UTC
     </div>
 </div>
 

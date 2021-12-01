@@ -107,33 +107,3 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/677" class=".btn">#677</a>
-            </td>
-            <td>
-                <b>
-                    Add YT links to readmes.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jason Sy <jasyrotuck@gmail.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/677"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-23 21:04:32 +0000 UTC
-    </div>
-</div>
-
