@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3120" class=".btn">#3120</a>
+            </td>
+            <td>
+                <b>
+                    Add Frank Li as a maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Frank has made more than 5 significant [commits](https://github.com/hyperledger/besu/pulls?q=is%3Apr+author%3Afrankisawesome+is%3Aclosed) that improved the quality of Besu and/or added new features.
+
+Voting ends 2 weeks from the publication of this PR or once more than 50% of the current maintainers approved.
+
+For more information on this process see the **Becoming a Maintainer** section in the MAINTAINERS.md file.
+
+Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 03:56:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3119" class=".btn">#3119</a>
             </td>
             <td>
@@ -513,45 +546,6 @@ related to #2897
     </table>
     <div class="right-align">
         Created At 2021-11-24 08:04:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3103" class=".btn">#3103</a>
-            </td>
-            <td>
-                <b>
-                    (internal) Refactor PrivacyReorgTest to use mock enclave
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Frank Li <b439988l@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-PrivacyReorgTest currently spins up a Orion instance just to store and retrieve the same private payload - this PR refactors it into a mock enclave.
-
-## Fixed Issue(s)
-fixes #3083 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-24 04:34:30 +0000 UTC
     </div>
 </div>
 

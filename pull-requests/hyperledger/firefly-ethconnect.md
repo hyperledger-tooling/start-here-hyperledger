@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/184" class=".btn">#184</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/186" class=".btn">#186</a>
             </td>
             <td>
                 <b>
-                    Fix post-merge build issue related to error codes
+                    don't swallow webhook processMsg status codes
                 </b>
             </td>
         </tr>
@@ -27,20 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                See failure here https://github.com/hyperledger/firefly-ethconnect/runs/4301810830?check_suite_focus=true
-
-Combination of #178 post-merge with #177
-
-```
-# github.com/hyperledger/firefly-ethconnect/internal/contractgateway
-internal/contractgateway/smartcontractgw.go:529:31: undefined: "github.com/hyperledger/firefly-ethconnect/internal/errors".New
-make: *** [Makefile:43: deps] Error 2
-```
+                While doing some performance testing for tokens, @awrichar and I noticed that the `429` HTTP code was being swallowed and a `500` was being returned instead. Now, any error code from `processMsg` will be correctly surfaced.  
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-23 16:56:38 +0000 UTC
+        Created At 2021-12-01 02:50:16 +0000 UTC
     </div>
 </div>
 

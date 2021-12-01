@@ -573,39 +573,6 @@ Signed-off-by: awadhana <awadhana0825@gmail.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1587" class=".btn">#1587</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify bools test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Tests</span>
-            </td>
-            <td>
-                Migrated test from Tap to Jest.
-
-File Path:
-packages/cactus-common/src/test/typescript/unit/bools.test.ts
-
-This is a PARTIAL resolution to issue #238
-
-Signed-off-by: awadhana <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-24 22:06:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1586" class=".btn">#1586</a>
             </td>
             <td>
