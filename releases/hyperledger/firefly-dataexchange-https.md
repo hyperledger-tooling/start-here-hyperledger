@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/firefly-dataexchange-https
         <tr>
             <td colspan="2">
                 <b>
-                    v0.9.1
+                    v0.9.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.9.1
+                    v0.9.2
                 </span>
             </td>
             <td>
@@ -33,11 +33,11 @@ permalink: /releases/hyperledger/firefly-dataexchange-https
 * Add GitHub action to build commits to main by @nguyer in https://github.com/hyperledger/firefly-dataexchange-https/pull/48
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.9.0...v0.9.1
+**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.9.0...v0.9.2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.9.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.9.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
