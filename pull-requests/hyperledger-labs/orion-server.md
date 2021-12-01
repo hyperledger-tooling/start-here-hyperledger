@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">replication</span>
             </td>
             <td>
                 Allow a config-tx to carry a membership change that adds a peer.

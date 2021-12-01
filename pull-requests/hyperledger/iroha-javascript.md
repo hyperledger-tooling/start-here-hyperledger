@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/82" class=".btn">#82</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/83" class=".btn">#83</a>
             </td>
             <td>
                 <b>
-                    next: actualizing lib + new features
+                    Update schema & fix querying
                 </b>
             </td>
         </tr>
@@ -27,16 +27,13 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                - Updated data model, actualized client (bigints, new SCALE approach, just make up-to-date with actual peer)
-- Split crypto package into separated ones
-- API Extractor rollup + reports
-- API Documenter + vitepress docs
-- Use gulp for scripting
+                - Update data model
+- Fix query entrypoint at client
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-08 16:29:19 +0000 UTC
+        Created At 2021-12-01 10:05:16 +0000 UTC
     </div>
 </div>
 

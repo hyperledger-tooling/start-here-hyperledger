@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/585" class=".btn">#585</a>
+            </td>
+            <td>
+                <b>
+                    New sema/parser tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These tests use the graphviz dot functionality to write the entire ast as a dot file, and compare against pre-generated files.
+
+This ensures that the sema produces a stable ast and there are no regressions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 09:24:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/583" class=".btn">#583</a>
             </td>
             <td>
