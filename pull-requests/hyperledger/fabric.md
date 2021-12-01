@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3089" class=".btn">#3089</a>
+            </td>
+            <td>
+                <b>
+                    Randomize endorsement layouts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                For improved load balancing and fairer workload distribution across organizations, then gateway should randomize the endorsement layouts
+
+Resolves https://github.com/hyperledger/fabric-gateway/issues/338
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 11:58:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3088" class=".btn">#3088</a>
+            </td>
+            <td>
+                <b>
+                    Corrected container names in commercial paper tutorial
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Corrected container names in commercial paper tutorial
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+Corrected container names in commercial paper tutorial. The container names for Org1 and Org2 were swapped with each other.
+
+Signed-off-by: Nidhi Singh <nidhi2894@gmail.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 11:20:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3087" class=".btn">#3087</a>
             </td>
             <td>

@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1615" class=".btn">#1615</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-xdai): remove hard dependency on keychain
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #1162 
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 09:36:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1614" class=".btn">#1614</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): upgrade jose to v4.x
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Commit to be reviewed
+-----
+chore(deps): upgrade jose to 4.x
+	
+	Primary Change
+	-------------
+	1. Upgraded Jose version from 1.x to 4.1.0
+	2. Upgraded code and test cases to incorporate the same
+
+Resolves #1231
+
+Signed-off-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 07:10:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1612" class=".btn">#1612</a>
             </td>
             <td>
@@ -868,69 +933,6 @@ Signed-off-by: awadhana <awadhana0825@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-11-24 18:32:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1575" class=".btn">#1575</a>
-            </td>
-            <td>
-                <b>
-                    test(cmd-socketio-server): add new unit test for cmd-socketio-server verifier
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                New jest test suite that checks the public interface of Verifier
-component of cactus-cmd-socketio-server.
-
-Closes: #1325
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-
-**Depends on #1574 - must be merged after it.**
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-24 12:26:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1574" class=".btn">#1574</a>
-            </td>
-            <td>
-                <b>
-                    refactor(cmd-socketio-server): cmd-socketio-server Verifier test adjustments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix warnings triggered by the strict flag, format the code according to
-cactus/.prettierrc.js, minor fixes (mostly in log writing), dependency
-injection for VerifierAuthentication.verify.
-
-Closes: #1573
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-24 11:32:37 +0000 UTC
     </div>
 </div>
 

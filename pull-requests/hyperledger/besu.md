@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3121" class=".btn">#3121</a>
+            </td>
+            <td>
+                <b>
+                    WIP || (internal) Refactor hard coded state roots in PrivacyReorgTest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+We're generating the state roots at test time without assuming the seed value or random algorithm used in BlockDataGenerator
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #1793 
+
+## Changelog
+Not required (test code refactor)
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 09:43:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3120" class=".btn">#3120</a>
             </td>
             <td>
@@ -502,50 +544,6 @@ Fixes [#474](https://github.com/hyperledger/besu/issues/474):
     </table>
     <div class="right-align">
         Created At 2021-11-24 13:12:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3104" class=".btn">#3104</a>
-            </td>
-            <td>
-                <b>
-                    merge of Blockheader changes to support random field
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-In support of [EIP-4399](https://github.com/ethereum/EIPs/blob/979cf123558bab61e2278f3c962c9a68d1adc2f4/EIPS/eip-4399.md) this PR adds a field to block headers, `random` which is 32 bytes of randao randomness data.
-
-In accordance with spec, we re-purpose mixHash as random in RLP encoding and decoding, since they should be mutually exclusive -  a block with `random`  will not have a `mixHash` and vice-versa
-
-related to #2897 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-24 08:04:36 +0000 UTC
     </div>
 </div>
 
