@@ -177,7 +177,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    Add actor doc and minor fixes
+                    [fix] #1649: Add actor doc and minor fixes
                 </b>
             </td>
         </tr>
@@ -186,17 +186,13 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
                 <span class="chip">enhancement</span><span class="chip">iroha2</span><span class="chip">Documentation</span>
             </td>
             <td>
-                
-### Description of the Change
+                ### Description of the Change
 
 Add markdown document with onboarding for actor system onboarding. Also fix some minor issues.
 
 ### Issue
 
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+Related to #1649 
 
 ### Benefits
 
@@ -356,7 +352,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    Calculate TPS locally on peer
+                    [feature] #1632: Calculate TPS locally on peer
                 </b>
             </td>
         </tr>

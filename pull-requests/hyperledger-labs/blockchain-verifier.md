@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/16" class=".btn">#16</a>
-            </td>
-            <td>
-                <b>
-                    Add the "-b" option to limit the number of blocks to check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a new option "-b" to limit the number of blocks that are to be verified along with some bug fix and minor improvement.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-24 02:36:05 +0000 UTC
-    </div>
-</div>
-
