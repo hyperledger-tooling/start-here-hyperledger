@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3080" class=".btn">#3080</a>
+            </td>
+            <td>
+                <b>
+                    fix: don't set recipientKeys and routingKeys if empty
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 16:37:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3079" class=".btn">#3079</a>
+            </td>
+            <td>
+                <b>
+                    refactor: change webkms to fit refactored kms service, add bdd tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
+
+**Title:**
+Change format of remote kms api calls to correspond to changes in kms service api
+
+**Description:**
+Make changes to webkms and remote crytro to work with new version of kms service.
+Add bdd tests for webkms and remote crypto.
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 14:52:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3077" class=".btn">#3077</a>
             </td>
             <td>
@@ -419,32 +482,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2021-11-25 04:17:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3067" class=".btn">#3067</a>
-            </td>
-            <td>
-                <b>
-                    fix: OOB V2 db name can't use . or / for mongodb compatibility
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-24 18:09:34 +0000 UTC
     </div>
 </div>
 

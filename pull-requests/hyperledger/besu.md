@@ -124,7 +124,7 @@ This vote is open until either an absolute majority of active maintainers votes 
             </td>
             <td>
                 <b>
-                    Start external services before we start mining
+                    Start external services before we start plugins
                 </b>
             </td>
         </tr>
@@ -136,13 +136,15 @@ This vote is open until either an absolute majority of active maintainers votes 
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
-## PR description
+## PR description - start external services before we start plugins
 
 Reasons:
 
-- you may wish to query the blockchain using rpc before you start processing
+- you may wish to query the current state of your blockchain using rpc before you start processing new blocks
 
 - you may wish to register a websocket e.g to listen for blocks currently, you will probably miss one because we start processing before we start the ws service
+
+To enable this a 'beforeExternalServices' hook was addedd to allow plugins to do things before those services are started. 
 
 Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
 
@@ -501,49 +503,6 @@ FYI @jflo
     </table>
     <div class="right-align">
         Created At 2021-11-25 01:13:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3105" class=".btn">#3105</a>
-            </td>
-            <td>
-                <b>
-                    Tls configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Adding two new options:
-* `--rpc-http-tls-protocols` to be able to specify TLS protocol version 
-* `--rpc-http-tls-ciphersuites` to be able to specify Java cypher suites
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes [#474](https://github.com/hyperledger/besu/issues/474): 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-24 13:12:59 +0000 UTC
     </div>
 </div>
 

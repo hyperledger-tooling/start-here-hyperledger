@@ -79,39 +79,6 @@ Signed-off-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1612" class=".btn">#1612</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify besu-get-transaction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Migrated test from Tap to Jest.
-
-File Path:
-packages/cactus-plugin-ledger-connector-besu/src/test/typescript/integration/plugin-ledger-connector-besu/deploy-contract/besu-test-ledger-parameters.test.ts
-
-This is a PARTIAL resolution to issue #238
-
-Signed-off-by: awadhana awadhana0825@gmail.com
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-30 20:10:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1601" class=".btn">#1601</a>
             </td>
             <td>

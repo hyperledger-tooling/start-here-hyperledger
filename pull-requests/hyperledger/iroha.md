@@ -18,18 +18,18 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [feature] #1216: Add proof-of-concept Prometheus endpoint. 
+                    [feature] #1216: Add Prometheus endpoint. 
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 ### Description of the Change
 
-Added a [`prometheus`](https://prometheus.io/docs/introduction/overview/) end-point to iroha2. At present it serves only one metric: `txs_in_last_block`. 
+Added a [`prometheus`](https://prometheus.io/docs/introduction/overview/) end-point to iroha2. 
 
 ### Issue
 
@@ -38,6 +38,12 @@ Closes #1216
 ### Benefits
 
 Prometheus Monitoring is possible. 
+ 
+The following metrics are gathered:
+- uptime since genesis. 
+- currently connected peers
+- block height
+- total transactions
 
 ### Possible Drawbacks
 Small overhead to block commit. 
@@ -52,7 +58,7 @@ or directly.
 
 run 
 ```bash
-prometheus configs/prometheus.yml
+prometheus --config.file=configs/prometheus.yml
 ```
 to scrape for the metric. 
 
@@ -62,6 +68,8 @@ Transactions per second should be handled by prometheus.
 ### Alternate Designs 
 
 Could compute a running average of TPS and send it to the status endpoint. 
+
+This is error-prone and unnecessary, since the TPS can be computed while processing the `prometheus` data. 
 
             </td>
         </tr>
