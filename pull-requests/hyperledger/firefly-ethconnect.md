@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/187" class=".btn">#187</a>
+            </td>
+            <td>
+                <b>
+                    don't swallow webhook processMsg status codes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                While doing some performance testing for tokens, @awrichar and I noticed that the 429 HTTP code was being swallowed and a 500 was being returned instead. Now, any error code from processMsg will be correctly surfaced.
+
+closes #185
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 15:14:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/186" class=".btn">#186</a>
             </td>
             <td>
@@ -27,7 +55,9 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                While doing some performance testing for tokens, @awrichar and I noticed that the `429` HTTP code was being swallowed and a `500` was being returned instead. Now, any error code from `processMsg` will be correctly surfaced.  
+                While doing some performance testing for tokens, @awrichar and I noticed that the `429` HTTP code was being swallowed and a `500` was being returned instead. Now, any error code from `processMsg` will be correctly surfaced.
+
+closes #185   
             </td>
         </tr>
     </table>

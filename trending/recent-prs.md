@@ -1,13 +1,13 @@
 
-[1656](https://github.com/hyperledger/iroha/pull/1656) [feature] #1216: Add proof-of-concept Prometheus endpoint. 
+[1526](https://github.com/hyperledger/aries-cloudagent-python/pull/1526) Display QR code when generating/displaying invites on startup
 
-[3089](https://github.com/hyperledger/fabric/pull/3089) Randomize endorsement layouts
+[3091](https://github.com/hyperledger/fabric/pull/3091) Final peer for gateway
 
-[1655](https://github.com/hyperledger/iroha/pull/1655) [feature] #1643: Wait for peers to commit genesis in tests
+[3080](https://github.com/hyperledger/aries-framework-go/pull/3080) fix: don't set recipientKeys and routingKeys if empty
 
-[3088](https://github.com/hyperledger/fabric/pull/3088) Corrected container names in commercial paper tutorial
+[186](https://github.com/hyperledger-labs/fabric-smart-client/pull/186) [WIP] Cache endorser connections when invoking chaincode
 
-[83](https://github.com/hyperledger/iroha-javascript/pull/83) Update schema & fix querying
+[3090](https://github.com/hyperledger/fabric/pull/3090) Final network orderers
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

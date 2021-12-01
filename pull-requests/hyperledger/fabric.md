@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3091" class=".btn">#3091</a>
+            </td>
+            <td>
+                <b>
+                    Final peer for gateway
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Peers topic for new gateway service, updates following WebEx with @andrew-coleman 
+
+#### Type of change
+
+- New feature
+- Documentation update
+
+#### Description
+
+gateway service running on peers in Fabric v2.4
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/2807
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 16:43:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3090" class=".btn">#3090</a>
+            </td>
+            <td>
+                <b>
+                    Final network orderers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Final doc for Networks and Orderers, following WebEx with @andrew-coleman
+
+#### Type of change
+
+- New feature
+- Documentation update
+
+#### Description
+
+Updates for the gateway service now managing Tx proposals and endorsements.
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/2807
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 16:13:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3089" class=".btn">#3089</a>
             </td>
             <td>
@@ -105,54 +185,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-29 17:10:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3086" class=".btn">#3086</a>
-            </td>
-            <td>
-                <b>
-                    latest PR review comments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Josh Horton <joshh@us.ibm.com>
-
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- New feature
-- Documentation update
-
-#### Description
-
-Gateway updates to Ordering service topic and Network topic
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/2807
-This replaces https://github.com/hyperledger/fabric/pull/3080
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-29 15:59:03 +0000 UTC
     </div>
 </div>
 
