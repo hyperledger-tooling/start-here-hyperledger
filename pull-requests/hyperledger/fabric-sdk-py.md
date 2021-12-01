@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/156" class=".btn">#156</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/158" class=".btn">#158</a>
             </td>
             <td>
                 <b>
-                    added fabric 2.x lifecycle methods
+                    Make sphinx building happy
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
                 
             </td>
             <td>
-                added fabric 2 lifecycle methods: package, install, approveformyorgcommit, commit, queryinstalled, queryapproved, querycommitted
-
-Signed-off-by: kalichyn <ext-nazarii.kalichynskyi@here.com>
+                Otherwise, it will report ModuleNotFoundError: No module named 'hfc'
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-18 08:22:26 +0000 UTC
+        Created At 2021-11-30 23:25:22 +0000 UTC
     </div>
 </div>
 
