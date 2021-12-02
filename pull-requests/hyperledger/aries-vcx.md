@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/408" class=".btn">#408</a>
+            </td>
+            <td>
+                <b>
+                    Use GITHUB_TOKEN, GITHUB_ACTOR in ci
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Use GITHUB_TOKEN, GITHUB_ACTOR to publish libvcx image to github registry
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 11:32:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/407" class=".btn">#407</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade NodeJS dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 11:26:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/406" class=".btn">#406</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.25.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 11:05:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/405" class=".btn">#405</a>
             </td>
             <td>
@@ -273,32 +353,6 @@ Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
     </table>
     <div class="right-align">
         Created At 2021-11-25 13:39:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/391" class=".btn">#391</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.24.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pre-release</span>
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-25 11:49:21 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[1662](https://github.com/hyperledger/iroha/pull/1662) Replaces in sample config files deprecated max_rounds_delay into proposal_creation_timeout and deprecated DB connection string
+[1667](https://github.com/hyperledger/iroha/pull/1667) Remove i1i1 from maintainers
 
-[397](https://github.com/hyperledger/aries-agent-test-harness/pull/397) Changes by create-pull-request action
+[408](https://github.com/hyperledger/aries-vcx/pull/408) Use GITHUB_TOKEN, GITHUB_ACTOR in ci
 
-[3123](https://github.com/hyperledger/besu/pull/3123) Move discovery options constants to genesis files of predefined networks
+[407](https://github.com/hyperledger/aries-vcx/pull/407) Upgrade NodeJS dependencies
 
-[187](https://github.com/hyperledger-labs/fabric-smart-client/pull/187) Revert "Cache peer connections when invoking chaincode/discovery"
+[559](https://github.com/hyperledger/aries-framework-javascript/pull/559) ci: create non-annotated tags
 
-[15](https://github.com/hyperledger-labs/fabric-opssc/pull/15) Support the latest version of Fabric
+[406](https://github.com/hyperledger/aries-vcx/pull/406) Release 0.25.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
