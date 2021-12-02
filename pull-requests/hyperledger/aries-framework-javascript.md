@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/561" class=".btn">#561</a>
+            </td>
+            <td>
+                <b>
+                    style: non-null assertions and newline import
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 15:16:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/560" class=".btn">#560</a>
+            </td>
+            <td>
+                <b>
+                    feat: add problem report protocol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Summary of Changes
+Implemented the problem report [RFC-0035](https://github.com/hyperledger/aries-rfcs/blob/main/features/0035-report-problem/README.md)
+
+Problem Report RFC effective for reporting of errors and warnings to other agents. Once this PR is merged agent will be able to report problems occurred in `Connection`, `Issue Credential`  & `Present Proof`
+
+### Related Issue 
+#58 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 13:43:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/559" class=".btn">#559</a>
             </td>
             <td>

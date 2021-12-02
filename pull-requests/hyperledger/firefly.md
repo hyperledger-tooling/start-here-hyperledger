@@ -70,7 +70,7 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 <b>
-                    Metrics endpoint to support charting (WIP: Unit Tests)
+                    Metrics endpoint to support charting
                 </b>
             </td>
         </tr>
@@ -154,44 +154,6 @@ Typical response times for this endpoint are `50-100ms`. The `buckets` param is 
     </table>
     <div class="right-align">
         Created At 2021-11-29 14:15:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/338" class=".btn">#338</a>
-            </td>
-            <td>
-                <b>
-                    Helm Chart Support for Prometheus Metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #322
-
-## Adds
-* Configuring `metrics` section of FireFly core
-* Support for an optional `ServiceMonitor` object
-* Tests `ServiceMonitor` install via IT test in GH actions
-
-## Fixes
-* App versioning w/in chart, FireFly is fixed to `v0.11.0` and DX is fixed to `v0.9.1`
-
-## TODOs
-- [ ] Manually test `ServiceMonitor` w/ kind
-- [ ] Update docs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-25 16:01:28 +0000 UTC
     </div>
 </div>
 

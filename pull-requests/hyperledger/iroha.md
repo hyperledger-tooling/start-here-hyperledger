@@ -91,7 +91,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [fix] #1630: Move back to self-hosted runners.
+                    [refactor] #(1630, 666): Move back to self-hosted runners.
                 </b>
             </td>
         </tr>
