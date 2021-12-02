@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/187" class=".btn">#187</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Cache peer connections when invoking chaincode/discovery"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Reverts hyperledger-labs/fabric-smart-client#186
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 01:33:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/186" class=".btn">#186</a>
             </td>
             <td>
                 <b>
-                    [WIP] Cache endorser connections when invoking chaincode
+                    Cache peer connections when invoking chaincode/discovery
                 </b>
             </td>
         </tr>

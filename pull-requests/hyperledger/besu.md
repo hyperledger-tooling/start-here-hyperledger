@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3123" class=".btn">#3123</a>
+            </td>
+            <td>
+                <b>
+                    Move discovery options constants to genesis files of predefined networks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR is a continuation of #2944 by moving the hardcoded discovery values into each of the genesis files.
+  * a2b081e01 has the minimal set of changes for the _factory method_ of `org.hyperledger.besu.cli.config.EthNetworkConfig` to resolve the bootnodes and dns from the genesis file. The _factory method_ could have been removed and its behavior integrated directly into the `org.hyperledger.besu.cli.BesuCommand` reusing the logic for external genesis files, but that would have impacted in many tests, making the review harder to perform.
+  * efaf0ca39 and c12da44ca are not mandatory for this PR but I think it would be hard to make this changes as part of a bigger and meaningful PR. Can be removed if any reviewer request it.
+ 
+It's worth to mention that the hardcoded discovery values were keep just for testing purposes within that scope.
+
+## Enhacement(s)
+closes #3113
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 03:40:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3121" class=".btn">#3121</a>
             </td>
             <td>
@@ -464,45 +498,6 @@ Addresses part of #2965
     </table>
     <div class="right-align">
         Created At 2021-11-25 18:59:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3106" class=".btn">#3106</a>
-            </td>
-            <td>
-                <b>
-                    Remove Ethsigner to Besu acceptance tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Remove EthSigner acceptance tests as these test cases are covered in EthSigner and other test tools.
-
-FYI @jflo
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-25 01:13:16 +0000 UTC
     </div>
 </div>
 
