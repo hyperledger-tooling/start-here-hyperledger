@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/394" class=".btn">#394</a>
-            </td>
-            <td>
-                <b>
-                    aries-vcx: Fix proof presentation where aries-vcx is verifier and acapy is prover
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-25 13:13:15 +0000 UTC
-    </div>
-</div>
-

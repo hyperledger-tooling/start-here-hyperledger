@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    Proof Request Builder Improvements
+                    Feature/ld improvements
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-15 16:01:00 +0000 UTC
+        Created At 2021-12-02 15:02:11 +0000 UTC
     </div>
 </div>
 

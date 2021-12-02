@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/409" class=".btn">#409</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade vdr-tools to 0.8.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 14:07:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/408" class=".btn">#408</a>
             </td>
             <td>
@@ -301,58 +327,6 @@ Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
     </table>
     <div class="right-align">
         Created At 2021-11-26 15:36:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/393" class=".btn">#393</a>
-            </td>
-            <td>
-                <b>
-                    Update readme, delete unmaintained changelog.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-25 14:48:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/392" class=".btn">#392</a>
-            </td>
-            <td>
-                <b>
-                    Release retry/0.24.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pre-release</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-25 13:39:31 +0000 UTC
     </div>
 </div>
 

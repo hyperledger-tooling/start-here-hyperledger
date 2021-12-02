@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/587" class=".btn">#587</a>
+            </td>
+            <td>
+                <b>
+                    Update test.yml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add manual trigger for test flow.
+
+Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 17:50:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/586" class=".btn">#586</a>
+            </td>
+            <td>
+                <b>
+                    Small fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 15:15:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/585" class=".btn">#585</a>
             </td>
             <td>
@@ -87,35 +141,6 @@ This ensures that the sema produces a stable ast and there are no regressions.
     </table>
     <div class="right-align">
         Created At 2021-11-26 14:07:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/579" class=".btn">#579</a>
-            </td>
-            <td>
-                <b>
-                    Fix modifier with return values needing phis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When the return value is stored in a local variable, then phis might be
-needed.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-25 17:38:16 +0000 UTC
     </div>
 </div>
 
