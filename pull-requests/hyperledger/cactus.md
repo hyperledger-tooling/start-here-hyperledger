@@ -540,30 +540,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1592" class=".btn">#1592</a>
-            </td>
-            <td>
-                <b>
-                    feat(example): make cartrade support more environments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span><span class="chip">Tests</span>
-            </td>
-            <td>
-                This PR resolves Issue #1512 and related to PR #1513 .
-Signed-off-by: Yasushi Takahashi <t-yasushi@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-25 05:26:48 +0000 UTC
-    </div>
-</div>
-

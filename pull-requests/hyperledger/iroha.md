@@ -14,6 +14,81 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1662" class=".btn">#1662</a>
+            </td>
+            <td>
+                <b>
+                    Replaces in sample config files deprecated max_rounds_delay into proposal_creation_timeout and deprecated DB connection string
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">1.x</span><span class="chip">config-changes</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+According to [documentation](https://iroha.readthedocs.io/en/develop/configure/index.html) the param `max_rounds_delay` is deprecated and replaced with `proposal_creation_timeout` so I've made those changes in `example/config.*` files. I've also replaced deprecated DB connection string in  `example/config.docker` to be not deprecated.
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+Changes will complete another issue: https://github.com/hyperledger/iroha/pull/1654
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+Example config files in sync with documentation
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+If somebody would use old iroha (e.g. 1.1.3) it would not work, but the person should change tag in repository into: `1.1.3` and everything would be fine.
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+Tested on local iroha storage:
+```
+$  Pulpit docker images
+hyperledger/iroha-burrow   1.3.0        379586614dad   2 weeks ago     195MB
+```
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+Alternatively it would be to add another config files with name e.g. `config.1.3.0.docker` instead of existing files modifications. IMO it would be worse solution because official docker images are using only files with name `config.docker`.
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 04:36:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1656" class=".btn">#1656</a>
             </td>
             <td>
@@ -502,7 +577,6 @@ Partially solve #1387
 * rename `Query` -> `ExecutableQuery`, `QueryOutput` -> `Query`
 * fix `roles` feature inconsistencies
 * move some transaction structures to `data_model`. Will be used for block streaming
-* sort out unused dependencies
 
 ### Issue
 
@@ -537,8 +611,6 @@ NOTE: User may want skip pull request and push workflows with [skip ci]
 https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
 Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 -->
-
-I recommend that we make use of `cargo udeps` in our CI to guard against unused dependencies. It's super easy to use and we don't have to run it on every PR?
             </td>
         </tr>
     </table>
