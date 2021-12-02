@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/307" class=".btn">#307</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/336" class=".btn">#336</a>
             </td>
             <td>
                 <b>
-                    Wrap gRPC ServiceError thrown by chaincode events as GatewayError
+                    Update language-specific README files for v1.0
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Also corrected the gRPC status code import for some unit tests.
+                - Consistency of wording with release documentation.
+- Correct dependency information for v1.0.0.
+- Reference compatibility information in the documentation.
+
+Contributes to #210 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-09 19:30:02 +0000 UTC
+        Created At 2021-11-27 14:21:58 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +44,70 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/305" class=".btn">#305</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/335" class=".btn">#335</a>
             </td>
             <td>
                 <b>
-                    Additional node module information
+                    Document supported versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Added compatibility section with supported (and tested) versions.
+- Pre-reqs are for running the samples, and are now located with the README describing the samples.
+- Trimmed unnecessary and obsolete content to make key information more accessible.
+
+Closes #210 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-26 17:54:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/334" class=".btn">#334</a>
+            </td>
+            <td>
+                <b>
+                    Update README and samples documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Minor updates to development pre-reqs in README.
+- Pre-reqs specifically for samples, which differ from general pre-reqs / supported versions.
+- Describe new sample scenarios.
+- Update commands used to set up and run samples.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-11-26 16:37:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/331" class=".btn">#331</a>
+            </td>
+            <td>
+                <b>
+                    Update pages for v1 release
                 </b>
             </td>
         </tr>
@@ -58,7 +121,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-09 14:49:38 +0000 UTC
+        Created At 2021-11-26 10:26:52 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +129,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/304" class=".btn">#304</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/330" class=".btn">#330</a>
             </td>
             <td>
                 <b>
-                    More specific errors in Node API
+                    Fix urls in Java SDK pom
                 </b>
             </td>
         </tr>
@@ -79,289 +142,14 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Add EndorseError, SubmitError and CommitStatusError to better differentiate the point in the submit flow where a failure occurs.
-
-Contributes to #302 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-09 14:30:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/300" class=".btn">#300</a>
-            </td>
-            <td>
-                <b>
-                    Simplify off-line signing flow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Locate all methods for creating signed objects on the Gateway object, removing the need for client code to remember the network or contract used to create the unsigned objects.
-
-Closes #301 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-05 21:20:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/299" class=".btn">#299</a>
-            </td>
-            <td>
-                <b>
-                    Bump version to 0.1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-05 15:42:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/298" class=".btn">#298</a>
-            </td>
-            <td>
-                <b>
-                    Use ECMAScript private methods instead of TypeScript private modifiers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We already use ECMAScript private fields for properties so this just extends it for methods too. This provides hard privacy and prevents plain JavaScript applications from accidentally using internal methods that may change and break them in the future.
-
-Closes #254 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-05 14:40:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/297" class=".btn">#297</a>
-            </td>
-            <td>
-                <b>
-                    Fix CI version check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-05 11:43:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/296" class=".btn">#296</a>
-            </td>
-            <td>
-                <b>
-                    Remove support for Node 12
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Move to Node 14 as the minimum supported Node version.
-
-Closes #288 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-05 11:29:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/295" class=".btn">#295</a>
-            </td>
-            <td>
-                <b>
-                    Add tags trigger to CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-05 09:36:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/290" class=".btn">#290</a>
-            </td>
-            <td>
-                <b>
-                    Update Java and Node versions used in CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 13:01:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/287" class=".btn">#287</a>
-            </td>
-            <td>
-                <b>
-                    Make fine-grained Go API usable without explicit context handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use default contexts throughout the Go API, except for chaincode events, which requires an explicit context for cancellation. This avoids requiring the burden of context management for the client application. Added ...WithContext() alternatives to finer-grained calls to allow a context to be specified if desired.
-
-Also fixes a build break in Node linting when we picked up new type definitions for a dependency.
-
-Closes #198 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 10:42:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/286" class=".btn">#286</a>
-            </td>
-            <td>
-                <b>
-                    Update CI to publish on tagged releases
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-04 10:29:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/285" class=".btn">#285</a>
-            </td>
-            <td>
-                <b>
-                    Reinstate nightly publishing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Old node module has been deprecated so can remove that step from ci and
-switch back to nightly publishing
+                The links were confusingly pointing to the already confusing fabric-gateway-java project instead of fabric-gateway!
 
 Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-Contributes to #209 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-03 18:06:31 +0000 UTC
+        Created At 2021-11-26 09:54:40 +0000 UTC
     </div>
 </div>
 
@@ -369,11 +157,11 @@ Contributes to #209
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/284" class=".btn">#284</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/329" class=".btn">#329</a>
             </td>
             <td>
                 <b>
-                    Deprecate old node module
+                    Prepare v1.0.0 release
                 </b>
             </td>
         </tr>
@@ -382,17 +170,12 @@ Contributes to #209
                 
             </td>
             <td>
-                Previous deprecation failed with `422 Unprocessable Entity` which should be
-fixed in npm v7
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-Contributes to #209 
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-03 17:14:00 +0000 UTC
+        Created At 2021-11-25 16:07:12 +0000 UTC
     </div>
 </div>
 
@@ -400,11 +183,11 @@ Contributes to #209
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/283" class=".btn">#283</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/327" class=".btn">#327</a>
             </td>
             <td>
                 <b>
-                    Rename node module
+                    Initial release process documentation
                 </b>
             </td>
         </tr>
@@ -413,18 +196,12 @@ Contributes to #209
                 
             </td>
             <td>
-                Rename fabric-gateway module to scoped @hyperledger/fabric-gateway
-
-Also deprecates existing published fabric-gateway module
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-Contributes to #209 
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-03 16:08:31 +0000 UTC
+        Created At 2021-11-25 11:25:36 +0000 UTC
     </div>
 </div>
 
@@ -432,11 +209,11 @@ Contributes to #209
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/281" class=".btn">#281</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/326" class=".btn">#326</a>
             </td>
             <td>
                 <b>
-                    Default gRPC call timeouts for Go API
+                    Prepare v0.2.0 release
                 </b>
             </td>
         </tr>
@@ -445,15 +222,12 @@ Contributes to #209
                 
             </td>
             <td>
-                - Updated samples to demonstrate setting default timeouts.
-- Removed async submit example for HSM samples since this duplicates main samples and keeping them simple makes it easier to see the HSM-specific aspects.
-
-Contributes to #198 
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-03 15:52:29 +0000 UTC
+        Created At 2021-11-25 11:24:52 +0000 UTC
     </div>
 </div>
 

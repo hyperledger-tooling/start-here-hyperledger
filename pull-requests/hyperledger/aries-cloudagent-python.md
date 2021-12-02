@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1528" class=".btn">#1528</a>
+            </td>
+            <td>
+                <b>
+                    Fix integration tests (revocation notifications)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 23:55:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1527" class=".btn">#1527</a>
+            </td>
+            <td>
+                <b>
+                    Add Revocation notification support to alice/faber
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 22:24:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1526" class=".btn">#1526</a>
             </td>
             <td>
@@ -197,32 +249,6 @@ Signed-off-by: Ethan Sung <baegjae@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-11-25 04:23:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1517" class=".btn">#1517</a>
-            </td>
-            <td>
-                <b>
-                    Fix DIF Presentation Request Input Validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #1512 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-24 22:56:57 +0000 UTC
     </div>
 </div>
 

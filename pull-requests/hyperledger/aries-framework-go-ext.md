@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/190" class=".btn">#190</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/202" class=".btn">#202</a>
             </td>
             <td>
                 <b>
-                    feat: Query using less than or greater than operators with MongoDB
+                    fix: don't set RecipientKeys and RoutingKeys if empty
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-06 19:11:46 +0000 UTC
+        Created At 2021-12-01 19:25:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/201" class=".btn">#201</a>
+            </td>
+            <td>
+                <b>
+                    chore: add verify resolution result option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 15:39:43 +0000 UTC
     </div>
 </div>
 

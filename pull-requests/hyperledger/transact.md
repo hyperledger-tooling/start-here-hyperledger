@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/transact
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/295" class=".btn">#295</a>
-            </td>
-            <td>
-                <b>
-                    Release notes for v0.4.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also updates the main branches release notes to include all of the 0.3.x releases.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-24 21:37:47 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3092" class=".btn">#3092</a>
+            </td>
+            <td>
+                <b>
+                    Create HashedIndex in Pvtdata Store retroactively
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: manish <manish.sethi@gmail.com>
+
+- Add functions in the pvtdata store package that would be used for creating the HashedIndex in Pvtdata Store retroactively.
+- We use this opportunity to upgrade the data format from V11 to V12, so we can simplify the reading code in the future releases.
+- Small refactoring is included to simplify the usage of update batch.
+
+#### Type of change
+- New feature
+
+#### Related issues
+- [RFC](https://github.com/hyperledger/fabric-rfcs/blob/main/text/0000-private_data_purge.md)
+- [Issue](https://github.com/hyperledger/fabric/issues/3022) 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-01 20:49:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3091" class=".btn">#3091</a>
             </td>
             <td>
