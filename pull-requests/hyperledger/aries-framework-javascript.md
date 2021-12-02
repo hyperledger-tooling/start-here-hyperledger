@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/559" class=".btn">#559</a>
+            </td>
+            <td>
+                <b>
+                    ci: create non-annotated tags
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+
+The ci created annotated tags which clashes with lerna. This PR makes sure we create non-annotated tags
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 11:06:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/558" class=".btn">#558</a>
             </td>
             <td>

@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3093" class=".btn">#3093</a>
+            </td>
+            <td>
+                <b>
+                    Randomize endorsement layouts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry pick of https://github.com/hyperledger/fabric/commit/7c736c44b5b9d2ba4d64d148a8fca2be2bb59341 from main branch
+
+For improved load balancing and fairer workload distribution across organizations, then gateway should randomize the endorsement layouts
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 08:43:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3092" class=".btn">#3092</a>
             </td>
             <td>

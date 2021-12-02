@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/158" class=".btn">#158</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/159" class=".btn">#159</a>
             </td>
             <td>
                 <b>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
                 
             </td>
             <td>
-                Otherwise, it will report ModuleNotFoundError: No module named 'hfc'
+                Otherwise, it will report ModuleNotFoundError: No module named
+'hfc'.
+
+Close #158
+
+Change-Id: I113b395623a6d5d6a629e36362765720291d964f
+Signed-off-by: Baohua Yang <yangbaohua@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-30 23:25:22 +0000 UTC
+        Created At 2021-12-02 06:49:04 +0000 UTC
     </div>
 </div>
 

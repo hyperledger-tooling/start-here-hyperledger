@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/393" class=".btn">#393</a>
-            </td>
-            <td>
-                <b>
-                    fix(afj): send proof request fixes and prettier formatting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-25 09:41:25 +0000 UTC
-    </div>
-</div>
-
