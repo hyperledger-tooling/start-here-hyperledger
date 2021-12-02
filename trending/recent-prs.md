@@ -1,13 +1,13 @@
 
-[1526](https://github.com/hyperledger/aries-cloudagent-python/pull/1526) Display QR code when generating/displaying invites on startup
+[15](https://github.com/hyperledger-labs/fabric-opssc/pull/15) Support the latest version of Fabric
 
-[3091](https://github.com/hyperledger/fabric/pull/3091) Final peer for gateway
+[1528](https://github.com/hyperledger/aries-cloudagent-python/pull/1528) Fix integration tests (revocation notifications)
 
-[3080](https://github.com/hyperledger/aries-framework-go/pull/3080) fix: don't set recipientKeys and routingKeys if empty
+[3](https://github.com/hyperledger-labs/chaincode-analyzer/pull/3) added .gitignore and go.mod files
 
-[186](https://github.com/hyperledger-labs/fabric-smart-client/pull/186) [WIP] Cache endorser connections when invoking chaincode
+[1527](https://github.com/hyperledger/aries-cloudagent-python/pull/1527) Add Revocation notification support to alice/faber
 
-[3090](https://github.com/hyperledger/fabric/pull/3090) Final network orderers
+[77](https://github.com/hyperledger/aries-framework-javascript-ext/pull/77) fix(rest)!: remove record transformer
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

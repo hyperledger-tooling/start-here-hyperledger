@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/266" class=".btn">#266</a>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/267" class=".btn">#267</a>
             </td>
             <td>
                 <b>
-                    Added Notice file
+                    iroha integration
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
                 
             </td>
             <td>
-                Signed-off-by: Jeeva <jeevasang@gmail.com>
+                - Hyperledger Iroha integration (#78)
+- Fixed issue with environment variables in example Iroha-Explorer integration
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-27 14:11:54 +0000 UTC
+        Created At 2021-12-01 21:12:29 +0000 UTC
     </div>
 </div>
 

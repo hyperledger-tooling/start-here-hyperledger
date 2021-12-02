@@ -470,7 +470,7 @@ Partially solve #1387
             </td>
             <td>
                 <b>
-                    [refactor] tidy up `data_model`
+                    [refactor] #1650: tidy up `data_model`
                 </b>
             </td>
         </tr>
@@ -502,6 +502,7 @@ Partially solve #1387
 * rename `Query` -> `ExecutableQuery`, `QueryOutput` -> `Query`
 * fix `roles` feature inconsistencies
 * move some transaction structures to `data_model`. Will be used for block streaming
+* sort out unused dependencies
 
 ### Issue
 
@@ -537,6 +538,7 @@ https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-pu
 Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 -->
 
+I recommend that we make use of `cargo udeps` in our CI to guard against unused dependencies. It's super easy to use and we don't have to run it on every PR?
             </td>
         </tr>
     </table>

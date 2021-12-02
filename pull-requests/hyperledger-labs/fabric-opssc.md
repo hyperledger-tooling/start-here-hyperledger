@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/14" class=".btn">#14</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    OpsSC v0.2.0 release
+                    Support the latest version of Fabric
                 </b>
             </td>
         </tr>
@@ -27,16 +27,13 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
                 
             </td>
             <td>
-                Update README to release v0.2.0
-
-This changes include:
-- Support multiple endorsement policy formats for chaincode_ops
-- Bump fabric version to 2.3.3 or 2.2.4
+                This patch adds Fabric v2.4.0 to the target versions for build and testing.
+Also, this bumps asset-transfer-basic to the latest version in fabric-samples.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-05 00:38:59 +0000 UTC
+        Created At 2021-12-02 00:16:51 +0000 UTC
     </div>
 </div>
 
