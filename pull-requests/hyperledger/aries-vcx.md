@@ -304,29 +304,3 @@ Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/396" class=".btn">#396</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade reqwest to 0.9.19
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-26 15:36:34 +0000 UTC
-    </div>
-</div>
-

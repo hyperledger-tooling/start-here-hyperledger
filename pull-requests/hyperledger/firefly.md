@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/350" class=".btn">#350</a>
+            </td>
+            <td>
+                <b>
+                    Replace UpsertOperation with InsertOperation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                No code path ever passes allowExisting=true, and we already have a separate
+UpdateOperation method for updates. Therefore, rename this method to
+InsertOperation and remove the unneeded branches.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 17:22:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/347" class=".btn">#347</a>
             </td>
             <td>

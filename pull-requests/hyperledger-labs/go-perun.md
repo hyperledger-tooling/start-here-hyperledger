@@ -14,11 +14,63 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/279" class=".btn">#279</a>
+            </td>
+            <td>
+                <b>
+                    Introduce and use Asset.Equal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #247 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 14:14:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/278" class=".btn">#278</a>
+            </td>
+            <td>
+                <b>
+                    log: Add comments to logger interfaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #262 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 12:47:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/277" class=".btn">#277</a>
             </td>
             <td>
                 <b>
-                    Lint uncomment exported objects (functions, types, ...)
+                    Lint comments on exported objects (functions, types, ...)
                 </b>
             </td>
         </tr>

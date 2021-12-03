@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1530" class=".btn">#1530</a>
+            </td>
+            <td>
+                <b>
+                    Enable WS Pings for WS Inbound Transport
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When connecting over WS, it is impossible for ACA-Py to detect when the other end has unexpectedly closed (no WS close or error message sent) without using a heartbeat and timeout. With these changes, if a mobile agent connected over WS suddenly loses connectivity (wifi or data signal drops, for instance), the window of time where a message can be lost due to ACA-Py not realizing the WS has entered a bad state is shrunk to at most `timeout_interval` seconds. An image with a version of these changes has been in testing in a live mediator deployment for a couple of months now with much success.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 16:12:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1528" class=".btn">#1528</a>
             </td>
             <td>

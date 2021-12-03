@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1165" class=".btn">#1165</a>
+            </td>
+            <td>
+                <b>
+                    Fix alternate ID bugs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes a couple bugs related to alternate IDs for purchase orders. There were two separate bugs that affected the ability to update the alternate IDs for a purchase order. One bug prevented adding new IDs and one prevented properly removing IDs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 16:35:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1164" class=".btn">#1164</a>
             </td>
             <td>
