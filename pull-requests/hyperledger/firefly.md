@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/347" class=".btn">#347</a>
+            </td>
+            <td>
+                <b>
+                    Address coverage drop from #337
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Coverage for JSONInputMask was inadvertently lost.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 19:28:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/346" class=".btn">#346</a>
+            </td>
+            <td>
+                <b>
+                    Return an empty slice (rather than nil) for zero token accounts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #345
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 18:47:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/344" class=".btn">#344</a>
             </td>
             <td>
