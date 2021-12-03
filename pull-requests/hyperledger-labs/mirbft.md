@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/78" class=".btn">#78</a>
+            </td>
+            <td>
+                <b>
+                    Checkpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Checkpoint protocol stub, extension to Events, and node error output in chat demo app.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 11:01:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/mirbft/pull/76" class=".btn">#76</a>
             </td>
             <td>

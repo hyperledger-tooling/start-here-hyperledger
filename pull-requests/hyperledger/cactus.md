@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1623" class=".btn">#1623</a>
+            </td>
+            <td>
+                <b>
+                    fix(supply-chain-app): enable cockpit in supply-chain
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #1622
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 11:57:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1621" class=".btn">#1621</a>
+            </td>
+            <td>
+                <b>
+                    fix: shutdown hook configuration is using wrong config key
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In the api-server constructor the evaluation for the activation /
+deactivation of the shutdown hook is based on the wrong configuration
+property so that it always is falling back to the default value and
+pre-configured value is not taken.
+
+Closes: #1619
+Signed-off-by: Michael Courtin <michael.courtin@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 11:13:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1618" class=".btn">#1618</a>
             </td>
             <td>

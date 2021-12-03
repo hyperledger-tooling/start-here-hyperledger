@@ -428,35 +428,3 @@ Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3108" class=".btn">#3108</a>
-            </td>
-            <td>
-                <b>
-                    Rename BftForksSchedule to ForksSchedule
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Preparation for https://github.com/hyperledger/besu/pull/3097
-
-* Rename BftForksSchedule to ForkSchedule
-* Make ForksSchedule generic beyond BftConfigOptions to allow it to work for MiningCoordinator
-* Rename static factory to make it specific to BftConfigOptions
-* Move ForksSchedule to common package
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-26 11:05:06 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/277" class=".btn">#277</a>
+            </td>
+            <td>
+                <b>
+                    Lint uncomment exported objects (functions, types, ...)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #267 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 12:23:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/276" class=".btn">#276</a>
             </td>
             <td>
