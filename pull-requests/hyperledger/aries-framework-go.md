@@ -431,29 +431,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3070" class=".btn">#3070</a>
-            </td>
-            <td>
-                <b>
-                    wip: merge present proof v2/v3 client APIs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-26 03:34:51 +0000 UTC
-    </div>
-</div>
-
