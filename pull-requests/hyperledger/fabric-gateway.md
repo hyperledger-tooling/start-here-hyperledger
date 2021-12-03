@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/341" class=".btn">#341</a>
+            </td>
+            <td>
+                <b>
+                    Remove golint and add go vet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                golint is deprecated and no longer developed. Replacing with go vet.
+
+Also removed unused build dependencies on gobin and goimports.
+
+Resolves #339 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 10:30:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/336" class=".btn">#336</a>
             </td>
             <td>
@@ -96,60 +126,6 @@ Closes #210
     </table>
     <div class="right-align">
         Created At 2021-11-26 16:37:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/331" class=".btn">#331</a>
-            </td>
-            <td>
-                <b>
-                    Update pages for v1 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-26 10:26:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/330" class=".btn">#330</a>
-            </td>
-            <td>
-                <b>
-                    Fix urls in Java SDK pom
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The links were confusingly pointing to the already confusing fabric-gateway-java project instead of fabric-gateway!
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-26 09:54:40 +0000 UTC
     </div>
 </div>
 

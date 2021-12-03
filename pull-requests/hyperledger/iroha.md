@@ -244,7 +244,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [fix] #1630: Move back to self-hosted runners.
+                    [ci] #1657: Update image to rust 1.57
                 </b>
             </td>
         </tr>
@@ -258,14 +258,12 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 ### Description of the Change
 
-- Added back the self-hosted CI runners. 
 - Made all `cargo` commands quiet to improve readability (this reduces the verbosity of test outputs, but still produces the full logs and messages for the failing tests). 
+- Bump versions of nightly (2021-12-02 and stable (1.57) toolchains.
 
 ### Issue
 
-Closes #1630 
-
-
+Closes #1657 
 
 ### Benefits
 
@@ -274,7 +272,7 @@ Closes #1630
 
 
 ### Possible Drawbacks
-Self-hosted runners can break. 
+None found
 
 ### Examples
 
@@ -283,6 +281,7 @@ Self-hosted runners can break.
 [docs]: CI
 [ci]: Docs
 [ci] #1330: not relevant feature, but can't check. 
+[ci] #1630, #1637: This PR.
 ```
 
             </td>
@@ -496,7 +495,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 ### Description of the Change
@@ -856,7 +855,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span><span class="chip">iroha2</span><span class="chip">Documentation</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">Documentation</span>
             </td>
             <td>
                 ### Description of the Change
@@ -912,7 +911,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 ### Description of the Change
@@ -948,7 +947,7 @@ Partially solve #1387
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">refactor</span>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
             </td>
             <td>
                 Signed-off-by: Marin Veršić <marin.versic101@gmail.com>

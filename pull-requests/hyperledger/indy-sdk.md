@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2452" class=".btn">#2452</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2453" class=".btn">#2453</a>
             </td>
             <td>
                 <b>
-                    Added implementation of MultiWalletMultiTable postgres plugin strategy
+                    postgres_storage: Changed type in unsafe block to be able to compile on arm64 architecture 
                 </b>
             </td>
         </tr>
@@ -27,20 +27,19 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                We saw that the strategy MultiWalletMultiTable was prepared in the code but not yet implemented.
+                @WadeBarnes thanks for the hint:  Replaced `*const i8` with `libc::c_char` in `unsafe {}` blocks in file `lib.rs` to be able to compile on linux/arm64 architecture. Now compiles on Ubuntu 20.04 aarch64 and MacOS 12.0.1 (Apple M1, arm64/v8). Rust Version: 1.56.0
 
-So decided to do that because we experienced some major peformance issues with the implemented strategies so far.
+`unsafe { *tags_json_ptr = record.tags.as_ptr() as *const libc::c_char; }`
 
-In addition we added another Strategy: MultiWalletSplitDatabaseMultiTable which cluster the tables in different databases depending on the id of the wallet. That lead to a performance boost.
-
-All unit test ran successfull and we tested the strategy in production aswell but we still consider it as experimentall because further tests are required to ensure that there are no undetected misconceptions.
-
-Signed-off-by: Johannes Henrich <j.henrich@esatus.com>
+*Deprecation Warnings*
+Changed [deprecated use](https://blog.rust-lang.org/2020/03/12/Rust-1.42.html#errordescription-is-deprecated) of `err.description()` to silence warnings
+`warning: use of deprecated item std::error::Error::description: use the Display impl or to_string()`
+ in `src/common.rs, src/wallet.rs, src/crypto.rs`
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-25 10:00:13 +0000 UTC
+        Created At 2021-12-03 10:43:10 +0000 UTC
     </div>
 </div>
 
