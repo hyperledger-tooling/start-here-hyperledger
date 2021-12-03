@@ -1,13 +1,13 @@
 
-[277](https://github.com/hyperledger-labs/go-perun/pull/277) Lint uncomment exported objects (functions, types, ...)
+[3084](https://github.com/hyperledger/aries-framework-go/pull/3084) feat: Added option for optimizing storage batch put operations
 
-[1623](https://github.com/hyperledger/cactus/pull/1623) fix(supply-chain-app): enable cockpit in supply-chain
+[301](https://github.com/hyperledger/transact/pull/301) Enforce single writer for sqlite
 
-[1621](https://github.com/hyperledger/cactus/pull/1621) fix: shutdown hook configuration is using wrong config key
+[300](https://github.com/hyperledger/transact/pull/300) Improve documentation on state::Prune and Merkle state
 
-[78](https://github.com/hyperledger-labs/mirbft/pull/78) Checkpoints
+[350](https://github.com/hyperledger/firefly/pull/350) Replace UpsertOperation with InsertOperation
 
-[2453](https://github.com/hyperledger/indy-sdk/pull/2453) postgres_storage: Changed type in unsafe block to be able to compile on arm64 architecture 
+[1165](https://github.com/hyperledger/grid/pull/1165) Fix alternate ID bugs
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

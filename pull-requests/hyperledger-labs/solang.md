@@ -147,29 +147,3 @@ This ensures that the sema produces a stable ast and there are no regressions.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/580" class=".btn">#580</a>
-            </td>
-            <td>
-                <b>
-                    Push array of mappings on Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-26 14:07:41 +0000 UTC
-    </div>
-</div>
-

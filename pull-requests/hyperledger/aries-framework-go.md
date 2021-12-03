@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3084" class=".btn">#3084</a>
+            </td>
+            <td>
+                <b>
+                    feat: Added option for optimizing storage batch put operations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Added the ability to set an option on a put operation that indicates that the key being used does not already exist in the database. For some storage providers, knowing this beforehand allows them to operate faster.
+- Also updated some other documentation in the storage interface to make it explicit that data is normally overwritten if an existing key is being used.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 18:13:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3082" class=".btn">#3082</a>
             </td>
             <td>
@@ -303,73 +332,6 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-11-26 21:23:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3074" class=".btn">#3074</a>
-            </td>
-            <td>
-                <b>
-                    feat: WACI issuance flow interfaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                based on [WACI Issuance in Universal
-Wallet](https://github.com/w3c-ccg/universal-wallet-interop-spec/issues/101)
-
-- added propose credential interface
-- added request credential interface
-- added tests
-- Closes #3073
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-26 16:24:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3072" class=".btn">#3072</a>
-            </td>
-            <td>
-                <b>
-                    feat: connectionRecord in OOBV2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change includes ConnectionRecord creation in OOBV2 and requires invitation attachment messages to include `from`
-header representing the sender's DID.
-
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-26 15:24:48 +0000 UTC
     </div>
 </div>
 
