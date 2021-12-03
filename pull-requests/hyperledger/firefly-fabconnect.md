@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/56" class=".btn">#56</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/61" class=".btn">#61</a>
             </td>
             <td>
                 <b>
-                    Fix release action
+                    Improve responses for enroll/register endpoints
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                This will prevent duplicate build tasks when creating pre-release versions, as well as `latest` getting set to a pre-release version.
+                These caught me out a bit using the API:
+- No feedback on what's wrong with the input if you specify fields that shouldn't be there
+- You always get `"name": ""` in the response, because `username` comes from the URL
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-21 20:46:43 +0000 UTC
+        Created At 2021-12-02 21:57:34 +0000 UTC
     </div>
 </div>
 

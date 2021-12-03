@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/276" class=".btn">#276</a>
+            </td>
+            <td>
+                <b>
+                    Enable context check linter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #275 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 00:25:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/274" class=".btn">#274</a>
+            </td>
+            <td>
+                <b>
+                    CI: Update workflow after changing from dev to main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Just a minor update to the CI workflow.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 21:19:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/272" class=".btn">#272</a>
             </td>
             <td>

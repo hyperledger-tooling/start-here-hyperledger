@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/534" class=".btn">#534</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/537" class=".btn">#537</a>
             </td>
             <td>
                 <b>
-                    Use chaincode action response payload as transaction result (release-2.2)
+                    Fix regression in ECDSA_KEY.generateCSR()
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                Cherry-pick of 85e877cf7e3bacbeb9c045648ab4523fbfe903b4
-
-The top-level response payload in the proposal response is not required to contain the transaction result and may be used to hold metadata. Even though current Fabric implementations typically duplicate the transaction result in the top-level response payload, this actually causes failures due to message size limits in some cases, so might change and should not be relied upon.
+                Subject alternative names extensions were not being correctly handled. Moving to non-deprecated jsrsasign API call and implementing some translation between previous extension format and the one required by the new API call.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-23 13:16:05 +0000 UTC
+        Created At 2021-12-02 22:41:35 +0000 UTC
     </div>
 </div>
 

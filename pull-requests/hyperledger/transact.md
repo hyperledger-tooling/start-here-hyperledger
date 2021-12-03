@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/299" class=".btn">#299</a>
+            </td>
+            <td>
+                <b>
+                    Refactor/simplify cli Dockerfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There's no need to copy over the workspace Cargo.toml or any other
+dependencies because we aren't pre-caching dependencies.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-02 22:03:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/298" class=".btn">#298</a>
             </td>
             <td>
