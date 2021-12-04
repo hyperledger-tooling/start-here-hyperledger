@@ -1,13 +1,13 @@
 
-[3097](https://github.com/hyperledger/fabric/pull/3097) Update peer-chaincode-devmode.md
+[82](https://github.com/hyperledger/aries-framework-javascript-ext/pull/82) chore: release @aries-framework/rest 0.5.1
 
-[3096](https://github.com/hyperledger/fabric/pull/3096) Update peer-chaincode-devmode.md
+[81](https://github.com/hyperledger/aries-framework-javascript-ext/pull/81) chore: release @aries-framework/redux-store 0.1.2
 
-[3127](https://github.com/hyperledger/besu/pull/3127) Merge: Return full payload id when engine_forkchoiceUpdatedV1 is called
+[80](https://github.com/hyperledger/aries-framework-javascript-ext/pull/80) chore: release @aries-framework/react-hooks 0.1.4
 
-[3126](https://github.com/hyperledger/besu/pull/3126) remove random from payload Identifier
+[79](https://github.com/hyperledger/aries-framework-javascript-ext/pull/79) chore: release @aries-framework/push-notifications 0.1.1
 
-[3085](https://github.com/hyperledger/aries-framework-go/pull/3085) test: Add tests for storage batch put operation IsNewKey option
+[1525](https://github.com/hyperledger/burrow/pull/1525) fix encoding error of dynamic objet after uint[]
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

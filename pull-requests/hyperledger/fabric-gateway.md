@@ -40,33 +40,3 @@ Resolves #339
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/336" class=".btn">#336</a>
-            </td>
-            <td>
-                <b>
-                    Update language-specific README files for v1.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Consistency of wording with release documentation.
-- Correct dependency information for v1.0.0.
-- Reference compatibility information in the documentation.
-
-Contributes to #210 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-27 14:21:58 +0000 UTC
-    </div>
-</div>
-

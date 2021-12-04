@@ -326,7 +326,7 @@ None found
             </td>
             <td>
                 <b>
-                    [feature] #1671: use type instead of wrapper struct for versioned items
+                    [feature] #1675: use type instead of wrapper struct for versioned items
                 </b>
             </td>
         </tr>
@@ -362,6 +362,8 @@ None found
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
 
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+Closes #1675 
 
 ### Benefits
 

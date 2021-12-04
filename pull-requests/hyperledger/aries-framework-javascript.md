@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/563" class=".btn">#563</a>
+            </td>
+            <td>
+                <b>
+                    style(eslint): enforce strict type checking rules
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Enforces strict type checking rules
+
+@blu3beri we were getting an enormous amount of errors due to how typescript was configured, removing that it reduced it to about ~900 errors. I then disabled some rules for test files as they're quite strict which is not needed for testing which reduced to about ~300 errors.
+
+I have already fixes some of them, when you have the time maybe you can try to fix some more? Would be good to have this added.
+
+Fixes #376 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-04 14:23:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/561" class=".btn">#561</a>
             </td>
             <td>
