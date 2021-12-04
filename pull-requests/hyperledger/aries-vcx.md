@@ -276,31 +276,3 @@ Signed-off-by: kukgini <kukgini@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/397" class=".btn">#397</a>
-            </td>
-            <td>
-                <b>
-                    Do not serialize None Filter fields
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">hotfix</span>
-            </td>
-            <td>
-                Serialized `null` values in the `Filter` were throwing acapy off.
-
-Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-26 20:51:11 +0000 UTC
-    </div>
-</div>
-

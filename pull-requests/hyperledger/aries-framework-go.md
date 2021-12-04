@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3085" class=".btn">#3085</a>
+            </td>
+            <td>
+                <b>
+                    test: Add tests for storage batch put operation IsNewKey option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 21:59:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3084" class=".btn">#3084</a>
             </td>
             <td>
@@ -302,36 +328,6 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-11-29 03:19:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3075" class=".btn">#3075</a>
-            </td>
-            <td>
-                <b>
-                    feat: command controllers for wallet issuance flow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - added JS, REST command controllers for wallet issuance interfaces.
-- Part of  #3073
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-26 21:23:23 +0000 UTC
     </div>
 </div>
 

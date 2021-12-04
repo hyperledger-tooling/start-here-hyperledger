@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3127" class=".btn">#3127</a>
+            </td>
+            <td>
+                <b>
+                    Merge: Return full payload id when engine_forkchoiceUpdatedV1 is called
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+Fixes the issue mentioned in an issue of Teku: https://github.com/ConsenSys/teku/issues/4700
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 22:10:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3126" class=".btn">#3126</a>
+            </td>
+            <td>
+                <b>
+                    remove random from payload Identifier
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+upstream changes to merge feature branch related to PR feedback from #3107 
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 22:03:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3123" class=".btn">#3123</a>
             </td>
             <td>

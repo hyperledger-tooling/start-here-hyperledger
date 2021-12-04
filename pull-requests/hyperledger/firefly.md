@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/352" class=".btn">#352</a>
+            </td>
+            <td>
+                <b>
+                    update prometheus client version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 21:03:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/351" class=".btn">#351</a>
+            </td>
+            <td>
+                <b>
+                    on transfer/mint/burn fail, set transaction & operation as failed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previously, if a tokens related transaction failed the transaction and operation in the DB would stay in the pending state. Now, it will correctly be marked as `failed`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 19:08:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/350" class=".btn">#350</a>
             </td>
             <td>

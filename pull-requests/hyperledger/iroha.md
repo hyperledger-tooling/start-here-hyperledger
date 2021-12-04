@@ -326,7 +326,7 @@ None found
             </td>
             <td>
                 <b>
-                    [feature] #0000: use type instead of wrapper struct for versioned items
+                    [feature] #1671: use type instead of wrapper struct for versioned items
                 </b>
             </td>
         </tr>
