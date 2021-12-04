@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/120" class=".btn">#120</a>
+            </td>
+            <td>
+                <b>
+                    Fix rust 1.57 lint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 19:03:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/119" class=".btn">#119</a>
             </td>
             <td>

@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/96" class=".btn">#96</a>
+            </td>
+            <td>
+                <b>
+                    add a read-only-mode server setting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 21:42:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/95" class=".btn">#95</a>
+            </td>
+            <td>
+                <b>
+                    Fix auto fabric upgrade parsing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The auto fabric upgrade logic was not parsing the get-available-fabric-versions api response correctly, causes the upgrade api to fail.
+
+This PR also now ignores the db setting `DISABLE_AUTO_FAB_UP` when calling the fabric upgrade manually. meaning the setting `DISABLE_AUTO_FAB_UP` only applies to the automatic fabric upgrade logic.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 20:53:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/94" class=".btn">#94</a>
             </td>
             <td>
