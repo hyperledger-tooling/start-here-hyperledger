@@ -15,35 +15,64 @@ permalink: /releases/hyperledger/aries-framework-javascript-ext
         <tr>
             <td colspan="2">
                 <b>
-                    @aries-framework/rest rest-v0.5.0
+                    @aries-framework/push-notifications push-notifications-v0.1.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    rest-v0.5.0
+                    push-notifications-v0.1.1
                 </span>
             </td>
             <td>
                 
 
-### ⚠ BREAKING CHANGES
+### Bug Fixes
 
-* **rest:** the 'extraControllers' config property has been removed in favor of a custom 'app' property. This allows for a more flexible wat to customize the express app. See the sample for an example.
-
-### Features
-
-* **rest:** allow app instance for custom configuration ([#73](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/73)) ([35400df](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/35400df5bdf1f621109e38aca4fa6644664612c8))
+* **deps:** update dependencies ([#78](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/78)) ([ca38eba](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ca38eba50dbb524269865d4fbfcb2d33720d0b48))
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.5.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/push-notifications-v0.1.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-11-15 19:17:27 +0000 UTC
+        Created At 2021-12-04 19:56:06 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    @aries-framework/react-hooks react-hooks-v0.1.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    react-hooks-v0.1.4
+                </span>
+            </td>
+            <td>
+                
+
+### Bug Fixes
+
+* **deps:** update dependencies ([#78](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/78)) ([ca38eba](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ca38eba50dbb524269865d4fbfcb2d33720d0b48))
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/react-hooks-v0.1.4" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-12-04 18:21:03 +0000 UTC
     </span>
 </div>
 
