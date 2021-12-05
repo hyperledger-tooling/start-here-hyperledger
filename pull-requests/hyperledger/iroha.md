@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1676" class=".btn">#1676</a>
+            </td>
+            <td>
+                <b>
+                    TEST core dump artifact
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: kuvaldini <ivan@kuvaldini.pro>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-05 00:35:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1672" class=".btn">#1672</a>
             </td>
             <td>

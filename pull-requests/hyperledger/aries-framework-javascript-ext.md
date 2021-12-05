@@ -61,7 +61,7 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
         </tr>
         <tr>
             <td>
-                <span class="chip">autorelease: pending</span><span class="chip">ci-test</span>
+                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
             </td>
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
@@ -98,7 +98,7 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
         </tr>
         <tr>
             <td>
-                <span class="chip">autorelease: pending</span><span class="chip">ci-test</span>
+                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
             </td>
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
@@ -135,7 +135,7 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
         </tr>
         <tr>
             <td>
-                <span class="chip">autorelease: pending</span><span class="chip">ci-test</span>
+                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
             </td>
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
