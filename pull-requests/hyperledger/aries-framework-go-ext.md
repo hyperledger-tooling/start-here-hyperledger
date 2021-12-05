@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/203" class=".btn">#203</a>
+            </td>
+            <td>
+                <b>
+                    feat: Support for faster InsertOne command in MongoDB Batch call
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Added the ability for a caller of the Batch function to specify if they know in advance that a key is definitely going to be new - in those cases, the operation will be much faster.
+- Updated MongoDB driver to v1.8.0.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-05 04:32:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/202" class=".btn">#202</a>
             </td>
             <td>
