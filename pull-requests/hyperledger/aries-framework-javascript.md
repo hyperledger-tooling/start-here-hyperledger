@@ -297,31 +297,3 @@ TODO: more tests and documentation
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/552" class=".btn">#552</a>
-            </td>
-            <td>
-                <b>
-                    ci: add continuous deployment scripts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds continuous deployment scripts for stable releases. We can now run a manual `workflow_dispatch` action on the `Continuous Integration` pipeline and it will create a PR for the next release. 
-
-Once that PR is merged it will automatically tag, create a github release and release to NPM. This is in preparation for the 0.1.0 release I want to do.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-27 18:39:58 +0000 UTC
-    </div>
-</div>
-
