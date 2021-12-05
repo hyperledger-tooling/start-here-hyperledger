@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    TEST core dump artifact
+                    GHA: core dump artifact (if any)
                 </b>
             </td>
         </tr>
