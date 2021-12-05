@@ -64,32 +64,3 @@ Note that bootstrapping the peer is not yet supported (future commit).
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/286" class=".btn">#286</a>
-            </td>
-            <td>
-                <b>
-                    Re-config comm transport endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">replication</span>
-            </td>
-            <td>
-                Allow the HTTPTransport to update its member peers - add peer / remove peer / change peer endpoint.
-This includes both the raft http transport and the catchup client.
-
-Note: a config TX that adds or removes peers is not yet supported (future commit).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-28 14:35:40 +0000 UTC
-    </div>
-</div>
-
