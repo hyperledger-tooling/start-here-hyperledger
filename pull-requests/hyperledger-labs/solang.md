@@ -121,29 +121,3 @@ This ensures that the sema produces a stable ast and there are no regressions.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/583" class=".btn">#583</a>
-            </td>
-            <td>
-                <b>
-                    Generate Graphviz dot for the ast
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-29 12:27:45 +0000 UTC
-    </div>
-</div>
-
