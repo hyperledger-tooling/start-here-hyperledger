@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/350" class=".btn">#350</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/352" class=".btn">#352</a>
             </td>
             <td>
                 <b>
-                    Update quick start part of README
+                    Add postman collection and Update Channel model
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Rewrite the quick start part of README, so we can use this instruction to run the cello application.
+                Update postman collection with some request & response examples. 
+Add orderers field to Channel Model.
 
-Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+Signed-off-by: Yuanmao Zhu yuanmao@ualberta.ca
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-20 20:46:24 +0000 UTC
+        Created At 2021-12-06 06:09:27 +0000 UTC
     </div>
 </div>
 

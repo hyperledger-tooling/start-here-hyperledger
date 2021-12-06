@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    GaroRobe/issue1678
+                    [feature] #1678: `try_allocate`
                 </b>
             </td>
         </tr>
@@ -64,7 +64,7 @@ We no longer depend on some particular "max buffer size" constant.
             </td>
             <td>
                 <b>
-                    bump dependencies
+                    [refactor]: bump dependencies
                 </b>
             </td>
         </tr>
