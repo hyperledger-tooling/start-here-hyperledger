@@ -166,33 +166,3 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/271" class=".btn">#271</a>
-            </td>
-            <td>
-                <b>
-                    :truck: [MIGRATION] Use pkg/io instead of poly-go/io
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Because, the encoder/decoder implementations are specific to go-perun.
-
-- And the package will be modified in upcoming changes.
-
-Signed-off-by: Manoranjith <ponraj.manoranjitha@in.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-29 11:17:36 +0000 UTC
-    </div>
-</div>
-
