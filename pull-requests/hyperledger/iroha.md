@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1679" class=".btn">#1679</a>
+            </td>
+            <td>
+                <b>
+                    GaroRobe/issue1678
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                
+### Description of the Change
+
+There is a chance to fail to allocate buffer for block deserialization if its size was corrupted.
+At the time try_allocate was still experimental and I coudn't use it. Now it's stable, so this is a planned enchancement.
+
+### Benefits
+
+We no longer depend on some particular "max buffer size" constant.
+
+### Possible Drawbacks 
+
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-05 20:05:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1677" class=".btn">#1677</a>
             </td>
             <td>

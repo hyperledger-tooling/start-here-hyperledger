@@ -38,29 +38,3 @@ Note that bootstrapping the peer is not yet supported (future commit).
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/287" class=".btn">#287</a>
-            </td>
-            <td>
-                <b>
-                    Adding proofs general doc, ledger, block header, Merkle tree and MPTrie
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-28 18:20:08 +0000 UTC
-    </div>
-</div>
-
