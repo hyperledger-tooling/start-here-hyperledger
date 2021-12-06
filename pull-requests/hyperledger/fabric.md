@@ -406,33 +406,3 @@ Signed-off-by: Nidhi Singh <nidhi2894@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3087" class=".btn">#3087</a>
-            </td>
-            <td>
-                <b>
-                    Add command reference doc for ledgerutil
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add command reference doc for ledgerutil.
-Includes minor edits to the command's user messages.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-29 17:10:01 +0000 UTC
-    </div>
-</div>
-

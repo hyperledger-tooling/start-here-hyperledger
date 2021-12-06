@@ -157,7 +157,9 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                <nil>
+                Change Data and Action type from Encoder to binary.(Un)marshaler.
+
+Relates to #233 (Step 1.2)
             </td>
         </tr>
     </table>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/97" class=".btn">#97</a>
+            </td>
+            <td>
+                <b>
+                    updated release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-06 15:44:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/96" class=".btn">#96</a>
             </td>
             <td>
@@ -27,7 +53,9 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+                read only mode will allow users to view/monitor components/ledger, but they will be unable to create new or edit existing components.
+
+Signed-off-by: David Huffman <dshuffma@us.ibm.com>
             </td>
         </tr>
     </table>
@@ -170,32 +198,6 @@ Signed-off-by: David Huffman <dshuffma@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-11-30 20:21:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/88" class=".btn">#88</a>
-            </td>
-            <td>
-                <b>
-                    added release notes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-29 15:04:51 +0000 UTC
     </div>
 </div>
 
