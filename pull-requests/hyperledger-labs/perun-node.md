@@ -36,13 +36,17 @@ other open pull requests targeting the same issue. -->
 #### Description
 <!-- Describe your changes in detail. -->
 
+Upgrade go-perun to v0.7.0. Also, upgrade go version to 1.17.
+
+This is an intermediate step, before upgrading to the latest version of go-perun (v0.8.0). 
+
 ##### Category
 <!-- Tell us what type of issue does your pull request target.
 You can uncomment one of the following options: -->
 
 <!-- Bug Fix -->
 <!-- Improvement -->
-<!-- Implementation Task -->
+Implementation Task
 
 ##### Relevant issue
 <!-- Provide a link to the related issue. You can use the following keywords
@@ -51,22 +55,16 @@ and the issue number: "fixes", "resolves", "relates to". E.g.: closes #21
 We accept only pull requests related to open issues. If you're suggesting a new
 feature, improvement or fixing a bug that is not yet reported, please discuss it in
 an issue before submitting a pull request. -->
-
+Relates to #232. (completes step 1/2)
 #### Testing
 <!-- Tell us how you have tested the changes. -->
-
-##### Steps to run the tests
-<!-- Describe a set of steps to run the tests relevant to this change. -->
-
-1. 
-2. 
-3.  
+All existing tests should continue to pass.
 
 #### Checklist 
 <!-- Please check if the pull request fulfils these requirements: -->
 
-- [ ] Name is added to the NOTICE file, if it is not present already.
-- [ ] Changes are rebased onto the target branch.
+- [x] Name is added to the NOTICE file, if it is not present already.
+- [x] Changes are rebased onto the target branch.
 
             </td>
         </tr>
@@ -102,13 +100,19 @@ other open pull requests targeting the same issue. -->
 #### Description
 <!-- Describe your changes in detail. -->
 
+Upgrade go-perun to the latest version. This also upgrades the version of go-ethereum to v1.10.12.
+
+Apart from a few minor changes, the major changes are
+1.  Deprecation of `Register` method on `Channel`. This logic for closing a channel has been updated accordingly.
+2. Use of external watching component.
+
 ##### Category
 <!-- Tell us what type of issue does your pull request target.
 You can uncomment one of the following options: -->
 
 <!-- Bug Fix -->
 <!-- Improvement -->
-<!-- Implementation Task -->
+Implementation Task
 
 ##### Relevant issue
 <!-- Provide a link to the related issue. You can use the following keywords
@@ -118,21 +122,18 @@ We accept only pull requests related to open issues. If you're suggesting a new
 feature, improvement or fixing a bug that is not yet reported, please discuss it in
 an issue before submitting a pull request. -->
 
+Closes #232.
+
 #### Testing
 <!-- Tell us how you have tested the changes. -->
 
-##### Steps to run the tests
-<!-- Describe a set of steps to run the tests relevant to this change. -->
-
-1. 
-2. 
-3.  
+All existing tests should continue to pass.
 
 #### Checklist 
 <!-- Please check if the pull request fulfils these requirements: -->
 
-- [ ] Name is added to the NOTICE file, if it is not present already.
-- [ ] Changes are rebased onto the target branch.
+- [x] Name is added to the NOTICE file, if it is not present already.
+- [x] Changes are rebased onto the target branch.
 
             </td>
         </tr>
