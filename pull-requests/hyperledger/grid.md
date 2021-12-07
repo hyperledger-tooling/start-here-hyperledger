@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1166" class=".btn">#1166</a>
+            </td>
+            <td>
+                <b>
+                    Add xsd files to docker images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds product and purchase order xsd files to default locations so users running through the examples can create products and purchase order versions. Previously, users would have to copy the files from the Grid directory into the running container and in the correct location.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-07 17:46:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1165" class=".btn">#1165</a>
             </td>
             <td>
