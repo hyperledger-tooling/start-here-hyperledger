@@ -137,7 +137,7 @@ Enable PR CI for this branch
             </td>
             <td>
                 <b>
-                    [feature] #1261: Add cargo bloat.
+                    [feature] #1689: Fix feature dependencies.
                 </b>
             </td>
         </tr>
@@ -150,15 +150,16 @@ Enable PR CI for this branch
 
 ### Description of the Change
 
-Added cargo bloat
+Fixed feature dependencies. 
+Convinced myself that cargo bloat would be completely extraneous. 
 
 ### Issue
 
-Closes #1261 
+Closes #1689. 
 
 ### Benefits
 
-Can tell if a particular change made Iroha more bloated. 
+Builds more reliable with the `-p` flag. 
 
 ### Possible Drawbacks
 

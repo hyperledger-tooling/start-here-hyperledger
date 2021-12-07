@@ -140,31 +140,3 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/272" class=".btn">#272</a>
-            </td>
-            <td>
-                <b>
-                    Refactor Data and Action Type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Change Data and Action type from Encoder to binary.(Un)marshaler.
-
-Relates to #233 (Step 1.2)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-30 06:16:03 +0000 UTC
-    </div>
-</div>
-
