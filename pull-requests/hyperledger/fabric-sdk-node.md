@@ -30,6 +30,8 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 Cherry-pick of PR #537 to release-2.2 branch.
 
 Subject alternative names extensions were not being correctly handled. Moving to non-deprecated jsrsasign API call and implementing some translation between previous extension format and the one required by the new API call.
+
+Contributes to #536 
             </td>
         </tr>
     </table>
@@ -56,6 +58,8 @@ Subject alternative names extensions were not being correctly handled. Moving to
             </td>
             <td>
                 Subject alternative names extensions were not being correctly handled. Moving to non-deprecated jsrsasign API call and implementing some translation between previous extension format and the one required by the new API call.
+
+Resolves #536
             </td>
         </tr>
     </table>
