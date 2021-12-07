@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/149" class=".btn">#149</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/152" class=".btn">#152</a>
             </td>
             <td>
                 <b>
-                    dep sync
+                    F 150
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-24 11:02:02 +0000 UTC
+        Created At 2021-12-07 11:03:34 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/148" class=".btn">#148</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/151" class=".btn">#151</a>
             </td>
             <td>
                 <b>
-                    reduce logging from error to debug
+                    deactivate range proof when it is an ownership transfer
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                Signed-off-by: KAO <kao@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-24 08:31:43 +0000 UTC
+        Created At 2021-12-07 10:20:31 +0000 UTC
     </div>
 </div>
 

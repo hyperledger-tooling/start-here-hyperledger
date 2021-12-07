@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/293" class=".btn">#293</a>
+            </td>
+            <td>
+                <b>
+                    Proofs documentation and code snipplets for SDK.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-07 11:44:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/291" class=".btn">#291</a>
             </td>
             <td>
@@ -33,34 +59,6 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     </table>
     <div class="right-align">
         Created At 2021-12-06 12:17:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/288" class=".btn">#288</a>
-            </td>
-            <td>
-                <b>
-                    Re-config cluster membership: peer addition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">replication</span>
-            </td>
-            <td>
-                Allow a config-tx to carry a membership change that adds a peer.
-Test that the peer was added to the existing cluster.
-Note that bootstrapping the peer is not yet supported (future commit).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-30 08:20:23 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3102" class=".btn">#3102</a>
+            </td>
+            <td>
+                <b>
+                    Fix channel config callback in gateway
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently, the config update callback triggers a discovery call to get the updated channel orderers.
+However, this relies on the discovery service having processed the config message before the gateway.  If it hasn’t, the gateway just gets the stale orderer config.
+This commit changes the logic so the gateway extracts the orderer endpoints directly from the config bundle.
+
+Resolves https://github.com/hyperledger/fabric-gateway/issues/318
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-07 09:59:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3099" class=".btn">#3099</a>
             </td>
             <td>
