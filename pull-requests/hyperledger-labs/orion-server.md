@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 Signed-off-by: Gennady Laventman <gennady@il.ibm.com>

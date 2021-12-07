@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/686" class=".btn">#686</a>
+            </td>
+            <td>
+                <b>
+                    TypeScript Conversion + Project Cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Converted frontend codebase to TypeScript
+    - TS compiler flag "noImplicitAny" is still set to false as the codebase is not typed yet
+    - Future Vue components need to be switched to Typescript (<script lang="ts">...</script>)
+- Updated dependencies
+    - Set fixed versions of dependencies
+    - Added linting options + husky update with pre-commit git hook
+    - Added license header tool to build chain/git hook to automatically add license headers to all relevant text files with correct comment syntax
+
++ Refactoring
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/686"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-07 17:27:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/685" class=".btn">#685</a>
             </td>
             <td>
@@ -125,43 +163,6 @@ I could try and outline where/how the BPA presents these items, but that seems t
     </table>
     <div class="right-align">
         Created At 2021-12-02 15:30:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/681" class=".btn">#681</a>
-            </td>
-            <td>
-                <b>
-                    Full language support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ![image](https://user-images.githubusercontent.com/87176157/144095441-e40b23ea-f740-4a13-a1f3-60b0248c346c.png)
-
-- Replaced all static texts
-- Added German translation (de.json)
-- Added language selector in settings
-- Adapted bcgov.json file
-- Added git hook for automatic license header update in every file and replaced all license headers
-
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/681"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-30 17:21:18 +0000 UTC
     </div>
 </div>
 
