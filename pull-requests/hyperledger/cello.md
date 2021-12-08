@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/354" class=".btn">#354</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-353]Add Channel Page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add channel list page
+
+Close #issue-353
+
+Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 15:44:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/352" class=".btn">#352</a>
             </td>
             <td>
