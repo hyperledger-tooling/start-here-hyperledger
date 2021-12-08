@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/547" class=".btn">#547</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/552" class=".btn">#552</a>
             </td>
             <td>
                 <b>
-                    asset-transfer-ledger-queries/chaincode-javascript and chaincode/marbles02/javascript with pagination issues
+                    Fixed configtxlator permission error
                 </b>
             </td>
         </tr>
@@ -27,42 +27,18 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                From issue #546 
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
 
-Signed-off-by: David Faulstich Diniz Reis <davidfdr@gmail.com>
+Fixed  issue  `configtxlator: error: open /dev/stdout: permission denied, try --help` found  while setting up test-network
+
+
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-25 15:28:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/545" class=".btn">#545</a>
-            </td>
-            <td>
-                <b>
-                    Asset_transfer Java Contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added in example error cases, and support
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-25 14:26:19 +0000 UTC
+        Created At 2021-12-08 08:06:47 +0000 UTC
     </div>
 </div>
 

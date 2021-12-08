@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/594" class=".btn">#594</a>
+            </td>
+            <td>
+                <b>
+                    Fix import of relative paths after import via map
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #591 
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 11:36:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/593" class=".btn">#593</a>
+            </td>
+            <td>
+                <b>
+                    Build container images for amd64 and arm64
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is done using Hyperledger mac CI servers, which has docker buildx
+configured so that the arm64 build happens on the arm mac, and the amd64
+on the intel mac.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 11:08:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/588" class=".btn">#588</a>
             </td>
             <td>
@@ -90,34 +148,6 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </table>
     <div class="right-align">
         Created At 2021-12-02 15:15:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/585" class=".btn">#585</a>
-            </td>
-            <td>
-                <b>
-                    New sema/parser tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These tests use the graphviz dot functionality to write the entire ast as a dot file, and compare against pre-generated files.
-
-This ensures that the sema produces a stable ast and there are no regressions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 09:24:55 +0000 UTC
     </div>
 </div>
 

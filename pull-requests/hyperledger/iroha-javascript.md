@@ -64,30 +64,3 @@ Fixed a badge in README
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/83" class=".btn">#83</a>
-            </td>
-            <td>
-                <b>
-                    Update schema & fix querying
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update data model
-- Fix query entrypoint at client
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 10:05:16 +0000 UTC
-    </div>
-</div>
-
