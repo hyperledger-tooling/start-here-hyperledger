@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1168" class=".btn">#1168</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize `client-reqwest` feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This stabilizes the `client-reqwest` feature by moving it into "stable"
+in the sdk/Cargo.toml file.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-07 20:56:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1167" class=".btn">#1167</a>
+            </td>
+            <td>
+                <b>
+                    Fix mislabeled workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Corrects an accepted workflow being built as a proposed workflow.
+
+Resolves: #1156
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-07 20:20:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1166" class=".btn">#1166</a>
             </td>
             <td>
@@ -28,6 +87,8 @@ permalink: /pull-requests/hyperledger/grid
             </td>
             <td>
                 Adds product and purchase order xsd files to default locations so users running through the examples can create products and purchase order versions. Previously, users would have to copy the files from the Grid directory into the running container and in the correct location.
+
+Resolves: #1141
             </td>
         </tr>
     </table>

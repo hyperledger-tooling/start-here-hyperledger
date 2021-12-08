@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/341" class=".btn">#341</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/343" class=".btn">#343</a>
             </td>
             <td>
                 <b>
-                    add to wawaka native functions to verify sgx attestation
+                    Implement wawaka function for parsing an SGX quote & report body
                 </b>
             </td>
         </tr>
@@ -27,14 +27,17 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                Add native functions to Wawaka that allow for a report to be verified. This means that we can write contracts that establish an attested connection to services hosted in other enclaves. For example, we should be able to build a secure channel to a service hosted in Gramine.
+                Add wawaka native function to parse the sgx quote and report
+    
+Add a function, sgx_parse_report, to convert the binary sgx report into a JSON structure that can be interpreted by the contract. Add a new common function package for processing the sgx attestation. Update the tests for the new values.
 
-A couple other cleanups where necessary to make this work.
+Also fix a bug in the error handling of pdo-shell.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-19 23:27:05 +0000 UTC
+        Created At 2021-12-08 00:09:05 +0000 UTC
     </div>
 </div>
 
