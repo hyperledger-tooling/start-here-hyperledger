@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1700" class=".btn">#1700</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #1698: Fixed `client_cli` public keys, documentation and error messages.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+
+### Description of the Change
+
+Fixed `iroha_client_cli` to work with the newest Iroha build. 
+Clarified points in documentation. 
+Added more detailed error messages to `debug` builds of `iroha_client_cli`. 
+
+### Issue
+
+Closes 1698
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+`iroha_client_cli` works. 
+
+### Possible Drawbacks
+
+None. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 07:10:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1697" class=".btn">#1697</a>
             </td>
             <td>
@@ -1093,207 +1140,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-12-02 04:36:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1656" class=".btn">#1656</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #1216: Add Prometheus endpoint. 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
-            </td>
-            <td>
-                ### Description of the Change
-
-Added a [`prometheus`](https://prometheus.io/docs/introduction/overview/) end-point to iroha2. 
-
-### Issue
-
-Closes #1216 
-
-### Benefits
-
-Prometheus Monitoring is possible. 
- 
-The following metrics are gathered:
-- uptime since genesis. 
-- currently connected peers
-- block height
-- total transactions
-
-### Possible Drawbacks
-Small overhead to block commit. 
-
-### Usage Examples or Tests 
-
-Install `prometheus`. 
-
-Run an iroha peer (or network) using either 
-`docker compose up`
-or directly. 
-
-run 
-```bash
-prometheus --config.file=configs/prometheus.yml
-```
-to scrape for the metric. 
-
-Transactions per second should be handled by prometheus. 
-
-
-### Alternate Designs 
-
-Could compute a running average of TPS and send it to the status endpoint. 
-
-This is error-prone and unnecessary, since the TPS can be computed while processing the `prometheus` data. 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 12:07:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1655" class=".btn">#1655</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #1643: Wait for peers to commit genesis in tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Tests</span><span class="chip">Optimization</span>
-            </td>
-            <td>
-                Signed-off-by: Egor Ivkov <e.o.ivkov@gmail.com>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-Wait for peers to commit genesis in tests.
-Also adds a genesis submission delay, which is useful as peers can take some time to connect to each other.
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-Faster tests, less uncertainty points in tests that can cause failures.
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 11:41:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1654" class=".btn">#1654</a>
-            </td>
-            <td>
-                <b>
-                    Docs: Small Fixes on Config and Docker Metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sara <lira.lemur@gmail.com>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Added notes that in configuration proposal delay must be bigger than proposal_creation_timeout.
-Tried to add some information on ports for metrics (please review it carefully, I am not very sure about that).
-
-Also fixed a couple of indentation warnings for doc build. 
-
-### Issue
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Better Docs
-
-### Possible Drawbacks
-
-None
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 09:06:34 +0000 UTC
     </div>
 </div>
 
