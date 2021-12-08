@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/101" class=".btn">#101</a>
+            </td>
+            <td>
+                <b>
+                    add prefix to random ids and log it
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                don't merge yet - saving code for next week
+
+Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+- Improvement - will log that we created a random deployer component id.
+
+
+#### Description
+this helps us debug where the id came from.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 17:52:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/100" class=".btn">#100</a>
+            </td>
+            <td>
+                <b>
+                    add mustgather strings to localization file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 17:43:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/99" class=".btn">#99</a>
             </td>
             <td>

@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3104" class=".btn">#3104</a>
+            </td>
+            <td>
+                <b>
+                    Gateway to use simplified createTx function
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The gateway has been reusing the protoutil.CreateTx function to build the transaction envelope from the set of endorsements.  This function changed recently to add extra information into the error message if the proposal responses don’t all match.  This change was identified as causing a problem for the gateway (https://github.com/hyperledger/fabric-gateway/issues/332).
+This commit adds a simplified createTx function in the gateway package that removes this amendment and also removes some other checks that aren’t relevant to its usage in the gateway.
+
+Resolves https://github.com/hyperledger/fabric-gateway/issues/332
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 15:52:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3102" class=".btn">#3102</a>
             </td>
             <td>
@@ -288,86 +320,6 @@ Signed-off-by: manish <manish.sethi@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-12-01 20:49:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3091" class=".btn">#3091</a>
-            </td>
-            <td>
-                <b>
-                    Final peer for gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Peers topic for new gateway service, updates following WebEx with @andrew-coleman 
-
-#### Type of change
-
-- New feature
-- Documentation update
-
-#### Description
-
-gateway service running on peers in Fabric v2.4
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/2807
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 16:43:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3090" class=".btn">#3090</a>
-            </td>
-            <td>
-                <b>
-                    Final network orderers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Final doc for Networks and Orderers, following WebEx with @andrew-coleman
-
-#### Type of change
-
-- New feature
-- Documentation update
-
-#### Description
-
-Updates for the gateway service now managing Tx proposals and endorsements.
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/2807
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 16:13:31 +0000 UTC
     </div>
 </div>
 

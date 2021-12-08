@@ -18,13 +18,13 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
             </td>
             <td>
                 <b>
-                    Add stress test for many invocations
+                    Add stress test for many invocations and fix memory leak
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">Test</span>
+                <span class="chip">bug</span><span class="chip">Test</span>
             </td>
             <td>
                 Add another stress test to detect memory leaks.
