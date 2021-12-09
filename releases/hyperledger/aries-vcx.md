@@ -15,6 +15,44 @@ permalink: /releases/hyperledger/aries-vcx
         <tr>
             <td colspan="2">
                 <b>
+                    Release 0.26.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    0.26.0
+                </span>
+            </td>
+            <td>
+                #
+
+## [0.26.0](https://github.com/hyperledger/aries-vcx/tree/0.26.0) (2021-12-09)
+
+### Updates
+
+- Upgrade vdr-tools to latest main [\#409](https://github.com/hyperledger/aries-vcx/pull/409)
+
+
+
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.26.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-12-09 10:13:33 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Release 0.25.0
                 </b>
             </td>
