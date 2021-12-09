@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">replication</span>
             </td>
             <td>
                 When an admin joins a new server to the cluster, he has to provide to the new server
@@ -48,7 +48,7 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
             </td>
             <td>
                 <b>
-                    Bootstrap method join in replication
+                    Cluster bootstrap join in replication
                 </b>
             </td>
         </tr>
