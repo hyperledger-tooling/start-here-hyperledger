@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/352" class=".btn">#352</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/353" class=".btn">#353</a>
             </td>
             <td>
                 <b>
-                    [WIP] Update to recent dependency versions
+                    fix operator
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                [Work in progress] Updating to get this testing working again
+                - fix issue where more than 1 orderer means the orderers can't talk to each other
+- improve instantiate so that it commits on more than 1 org under certain circumstances
 
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+Signed-off-by: D <d_kelsey@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-19 16:01:42 +0000 UTC
+        Created At 2021-12-09 15:12:29 +0000 UTC
     </div>
 </div>
 
