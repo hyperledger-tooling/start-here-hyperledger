@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/52" class=".btn">#52</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/53" class=".btn">#53</a>
             </td>
             <td>
                 <b>
-                    Add `update-clients` command
+                    ethereum: update yui-ibc-solidity
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+                Signed-off-by: Ryo Sato <ryo.sato@datachain.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-26 09:20:17 +0000 UTC
+        Created At 2021-12-09 03:02:41 +0000 UTC
     </div>
 </div>
 

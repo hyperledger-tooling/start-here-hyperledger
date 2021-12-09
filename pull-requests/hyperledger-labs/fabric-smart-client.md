@@ -90,29 +90,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/187" class=".btn">#187</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Cache peer connections when invoking chaincode/discovery"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reverts hyperledger-labs/fabric-smart-client#186
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-02 01:33:31 +0000 UTC
-    </div>
-</div>
-
