@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/86" class=".btn">#86</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/92" class=".btn">#92</a>
             </td>
             <td>
                 <b>
-                    demo: academic doc management
+                    change examples unit tests ports
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                Signed-off-by: senthil <cendhu@gmail.com>
+                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-26 10:02:45 +0000 UTC
+        Created At 2021-12-09 10:36:20 +0000 UTC
     </div>
 </div>
 

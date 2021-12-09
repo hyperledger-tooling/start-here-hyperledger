@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/287" class=".btn">#287</a>
+            </td>
+            <td>
+                <b>
+                    Merge perunio/test into wire/test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Completes step 1.3 described in #233.
+
+This is done in two steps:
+
+1. In the first step, the test helper function `TestMsg` which runs a set of generic tests on Msg is moved to perunio/test, where the other generic tests are located.
+
+2. In the second step, the package "perunio/test" which contains test helpers for running various kinds of generic tests is merged into wire/test.
+
+Details of the individual changes have been documented in the commit message.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-09 07:20:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/285" class=".btn">#285</a>
             </td>
             <td>
