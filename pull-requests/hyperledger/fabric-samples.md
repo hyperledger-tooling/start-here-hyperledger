@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 <b>
-                    Updates to asset-transfer-based Gateway sample to align with docs
+                    Updates to asset-transfer-basic Gateway sample to align with docs
                 </b>
             </td>
         </tr>
@@ -27,7 +27,10 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                <nil>
+                Also fix linting:
+
+- Install goimports globally to run the linting check rather than installing to each gomodule, which was causing dependency conflicts.
+- Tidy all go.mod and go.sum files.
             </td>
         </tr>
     </table>

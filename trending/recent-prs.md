@@ -1,13 +1,13 @@
 
-[296](https://github.com/hyperledger-labs/orion-server/pull/296) Bootstrap method join in replication
+[1708](https://github.com/hyperledger/iroha/pull/1708) [fix] #1707: UI tests format
 
-[101](https://github.com/hyperledger-labs/fabric-operations-console/pull/101) add prefix to random ids and log it
+[1178](https://github.com/hyperledger/grid/pull/1178) Add guard against multiple accepted po versions
 
-[595](https://github.com/hyperledger-labs/solang/pull/595) Create output directory if it does not exist already
+[1177](https://github.com/hyperledger/grid/pull/1177) Simplify po cli batch actions and add tests
 
-[553](https://github.com/hyperledger/fabric-samples/pull/553) Updates to asset-transfer-based Gateway sample to align with docs
+[1184](https://github.com/hyperledger/caliper/pull/1184) Fix CompositeRateController class bug (#1181)
 
-[100](https://github.com/hyperledger-labs/fabric-operations-console/pull/100) add mustgather strings to localization file
+[103](https://github.com/hyperledger-labs/fabric-operations-console/pull/103) 1208-releasenotes
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

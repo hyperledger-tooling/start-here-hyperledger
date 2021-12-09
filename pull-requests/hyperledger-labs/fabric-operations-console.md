@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/103" class=".btn">#103</a>
+            </td>
+            <td>
+                <b>
+                    1208-releasenotes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- release notes
+
+#### Description
+- updated release notes
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 21:55:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/102" class=".btn">#102</a>
+            </td>
+            <td>
+                <b>
+                    Auto upgrade version fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Bug fix
+
+#### Description
+- the auto upgrade fabric logic was upgrading from versions that were okay. it was upgrading all orderers to the highest available major fabric version, unless they were already at the highest level (within the same major version).
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 18:59:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/101" class=".btn">#101</a>
             </td>
             <td>
