@@ -96,32 +96,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/588" class=".btn">#588</a>
-            </td>
-            <td>
-                <b>
-                    Update test.yml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I think this will stop the double trigger of tests
-on a PR.
-
-Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-02 22:43:31 +0000 UTC
-    </div>
-</div>
-

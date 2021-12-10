@@ -40,31 +40,3 @@ Contributes to #536
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/537" class=".btn">#537</a>
-            </td>
-            <td>
-                <b>
-                    Fix regression in ECDSA_KEY.generateCSR()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Subject alternative names extensions were not being correctly handled. Moving to non-deprecated jsrsasign API call and implementing some translation between previous extension format and the one required by the new API call.
-
-Resolves #536
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-02 22:41:35 +0000 UTC
-    </div>
-</div>
-
