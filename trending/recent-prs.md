@@ -1,13 +1,13 @@
 
-[191](https://github.com/hyperledger-labs/fabric-smart-client/pull/191) Increase default batch size
+[196](https://github.com/hyperledger-labs/fabric-smart-client/pull/196) Lock when sending
 
-[80](https://github.com/hyperledger-labs/mirbft/pull/80) Use proper epoch numbers with checkpoint messages
+[687](https://github.com/hyperledger-labs/business-partner-agent/pull/687) fix link to local-network scenario
 
-[3111](https://github.com/hyperledger/fabric/pull/3111) Update the Makefile target for release/
+[195](https://github.com/hyperledger-labs/fabric-smart-client/pull/195) Do not closeSend
 
-[180](https://github.com/hyperledger/iroha-java/pull/180) Iroha-179
+[194](https://github.com/hyperledger-labs/fabric-smart-client/pull/194) fix deadlock
 
-[158](https://github.com/hyperledger/fabric-sdk-java/pull/158) Bump log4j-core from 2.14.0 to 2.15.0
+[193](https://github.com/hyperledger-labs/fabric-smart-client/pull/193) FlowControlBroadcast
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
