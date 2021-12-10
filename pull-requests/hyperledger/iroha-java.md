@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/178" class=".btn">#178</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/180" class=".btn">#180</a>
             </td>
             <td>
                 <b>
-                    Iroha-java v1.3.0
+                    Iroha-179
                 </b>
             </td>
         </tr>
@@ -27,14 +27,20 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                Iroha v1.3.0 has been released.
-
-This branch is an update of iroha java library to v1.3.0.
+                - Updated permissions
+- Investigated jitpack build error
+- Investigated genesis role error
+- Iroha2 image with version
+- Added to Instructions possibility to create peer instruction
+- Added healthcheck and status
+- New module genesis
+- Serializers were moved to other module
+- Deserializers for Genesis were added
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-21 07:05:37 +0000 UTC
+        Created At 2021-12-10 06:15:35 +0000 UTC
     </div>
 </div>
 
