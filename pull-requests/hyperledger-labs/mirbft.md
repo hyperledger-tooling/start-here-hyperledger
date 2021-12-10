@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/78" class=".btn">#78</a>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    Checkpoints
+                    Use proper epoch numbers with checkpoint messages
                 </b>
             </td>
         </tr>
@@ -27,12 +27,19 @@ permalink: /pull-requests/hyperledger-labs/mirbft
                 
             </td>
             <td>
-                Checkpoint protocol stub, extension to Events, and node error output in chat demo app.
+                The epoch number of a checkpint now always corresponds to the epoch
+the associated sequence number belongs to.
+At epoch transition, rathen than having an epoch "end" with a checkpoint,
+the next epoch "starts" with a checkpoint, and thus the checkpoint
+is associated with the new epoch rather than with the old one.
+This also makes more sense with respect to the associated sequence number.
+
+Signed-off-by: Matej Pavlovic <matopavlovic@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-03 11:01:32 +0000 UTC
+        Created At 2021-12-10 12:13:25 +0000 UTC
     </div>
 </div>
 
