@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3111" class=".btn">#3111</a>
+            </td>
+            <td>
+                <b>
+                    Update the Makefile target for release/
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updating the release/xxx target to include the cc builders in the tgz
+The dist/xxx target was originally updated, but the actual publishing from the fabric-interop test doesn't use this target.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 09:55:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3110" class=".btn">#3110</a>
             </td>
             <td>

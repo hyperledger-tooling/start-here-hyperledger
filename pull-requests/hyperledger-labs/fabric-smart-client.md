@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/190" class=".btn">#190</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/191" class=".btn">#191</a>
             </td>
             <td>
                 <b>
-                    Export Platform
+                    Increase default batch size
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-02 23:03:02 +0000 UTC
+        Created At 2021-12-10 12:25:50 +0000 UTC
     </div>
 </div>
 

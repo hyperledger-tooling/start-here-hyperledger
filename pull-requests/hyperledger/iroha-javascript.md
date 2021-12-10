@@ -27,7 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                <nil>
+                - Client API is refactored a bit
+- Data Model is updated a lot (new json schema, new compiler & runtime)
+- Fixnum package got minor update
+- Docs are updated - new intro, several recipes, etc
+- GitHub Pages workflow & changesets config are updated - now they will target `iroha2` branch instead of `iroha2-dev`
+- Other chores
             </td>
         </tr>
     </table>
