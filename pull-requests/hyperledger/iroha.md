@@ -33,10 +33,12 @@ the number of maximum faults tolerated is now a function of the current `Topolog
 
 ### Issue
 Close #1706
+Produce #1716
 
 ### Benefits
 
 ### Possible Drawbacks
+
             </td>
         </tr>
     </table>

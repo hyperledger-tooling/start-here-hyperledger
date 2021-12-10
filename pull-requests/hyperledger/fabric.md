@@ -81,7 +81,7 @@ The dist/xxx target was originally updated, but the actual publishing from the f
             </td>
             <td>
                 Fix misleading debug message.
-Log into when channel config is applied.
+Log info when channel config is applied.
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
 
