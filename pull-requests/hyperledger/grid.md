@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1181" class=".btn">#1181</a>
+            </td>
+            <td>
+                <b>
+                    Backport: Stabilize `cylinder-jwt-support` to 0-2 branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This includes the commit used to stabilize the `cylinder-jwt-support` feature in both the SDK and the daemon.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 22:31:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1180" class=".btn">#1180</a>
+            </td>
+            <td>
+                <b>
+                    Add tests for the purchase order endpoints provided by the daemon
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Mainly, this PR is a response to a request made in the stabilization process for the Grid Daemon's `purchase-order` feature. This PR adds tests to the purchase-order-specific rest endpoints. This also adds a field to the return objects, `service_id`, as this field allows for more thorough testing and is info that some clients may want or need.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 22:22:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1178" class=".btn">#1178</a>
             </td>
             <td>
@@ -91,9 +143,6 @@ to verify that it acts as expected.
 filtering based on accepted/not_accepted state. Previously,
 filtering had no effect.
 
-The previous implementation was likely being affected by another
-existing bug, but this implementation is also simpler.
-
 Required to fix issue #1171
 
 Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
@@ -168,7 +217,7 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
             </td>
             <td>
                 <b>
-                    Add documentation to purchase order endpoints
+                    Stabilization fixes for the `purchase-order` endpoints feature 
                 </b>
             </td>
         </tr>
@@ -178,9 +227,7 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
             </td>
             <td>
                 This change adds module-level documentation and doc comments for any
-public implementation.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
+public implementation. 
             </td>
         </tr>
     </table>
