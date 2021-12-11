@@ -78,35 +78,3 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/685" class=".btn">#685</a>
-            </td>
-            <td>
-                <b>
-                    Readme for aca-py flags
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We wanted to document the scope of what aca-py 'features' or aries protocols that the BPA supports. Take a look and provide any feedback. 
-
-I could try and outline where/how the BPA presents these items, but that seems to volatile and not that valuable. As this would be target towards someone familiar or interested in engaging with the Hyperledger ARIES protocols. 
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/685"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-03 19:44:08 +0000 UTC
-    </div>
-</div>
-

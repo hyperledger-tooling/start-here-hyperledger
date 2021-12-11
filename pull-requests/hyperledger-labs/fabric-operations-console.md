@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/105" class=".btn">#105</a>
+            </td>
+            <td>
+                <b>
+                    update release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                updating release notes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 19:07:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/104" class=".btn">#104</a>
+            </td>
+            <td>
+                <b>
+                    fix version compare logic with double digit str
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+
+#### Description
+The version comparison logic did not work correctly when comparing 1 double digit version to a single digit version.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 18:56:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/103" class=".btn">#103</a>
             </td>
             <td>
@@ -221,62 +280,6 @@ Signed-off-by: David Huffman <dshuffma@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-12-06 15:44:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/96" class=".btn">#96</a>
-            </td>
-            <td>
-                <b>
-                    add a read-only-mode server setting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                read only mode will allow users to view/monitor components/ledger, but they will be unable to create new or edit existing components.
-
-Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-03 21:42:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/95" class=".btn">#95</a>
-            </td>
-            <td>
-                <b>
-                    Fix auto fabric upgrade parsing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The auto fabric upgrade logic was not parsing the get-available-fabric-versions api response correctly, causes the upgrade api to fail.
-
-This PR also now ignores the db setting `DISABLE_AUTO_FAB_UP` when calling the fabric upgrade manually. meaning the setting `DISABLE_AUTO_FAB_UP` only applies to the automatic fabric upgrade logic.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-03 20:53:36 +0000 UTC
     </div>
 </div>
 
