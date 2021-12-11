@@ -14,43 +14,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/197" class=".btn">#197</a>
-            </td>
-            <td>
-                <b>
-                    Make IsFinal work for real
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The way how we implement broadcasting a transaction and then waiting for it to commit is inherently flawed:
-
-1. We send it to the orderer
-2. We connect to the orderer and start listening for blocks starting from the last block.
-
-After (1) and before (2) the transaction might already enter a block and then (2) will miss it.
-Moreover, the way (2) is implemented is connecting to the peer's delivery service and it just doesn't scale well when many transactions should be sent and waited for.
-
-Implemented a pub-sub mechanism that is piggybacking on the already existing background task that pulls blocks and parses them. 
-
-
-Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-11 00:57:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/196" class=".btn">#196</a>
             </td>
             <td>
