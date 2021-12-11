@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3114" class=".btn">#3114</a>
+            </td>
+            <td>
+                <b>
+                    Go 1.17 prep - ignore vendor directory in staticcheck
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A few vendored dependencies have benign staticcheck errors
+when using Go 1.17.
+
+This commit simply filters out vendor directories in staticcheck output
+since the intention of the linter is to check Fabric source only.
+
+Note - it is not possible to filter the vendor directories as input to staticcheck,
+as they will still show up when the Fabric package that uses them gets checked.
+Have to filter the output instead.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-11 16:53:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3113" class=".btn">#3113</a>
             </td>
             <td>
