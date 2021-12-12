@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/153" class=".btn">#153</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/162" class=".btn">#162</a>
             </td>
             <td>
                 <b>
-                    Added documentation aimed at security analysts, developers, and archi…
+                    Replace default loading / splash screen
                 </b>
             </td>
         </tr>
@@ -29,12 +29,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-Created documentation files (markdown, PlantUML) primarily focused on security design considerations for apps based on Aries Bifold. 
-
+As part of reworking the on-boarding workflow I've replaced the existing default splash / loading screen with one of our own making.
 
 # Related Issues
 
-N/A
+Fixes #163
 
 # Pull Request Checklist
 
@@ -55,7 +54,56 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-28 18:23:46 +0000 UTC
+        Created At 2021-12-06 21:52:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/161" class=".btn">#161</a>
+            </td>
+            <td>
+                <b>
+                    Fix tab bar accessibility
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+The accessability labels for the `TabBar` need to be set differently than other components. This PR fixes this issue.
+
+
+# Related Issues
+
+Fixes #160
+
+# Pull Request Checklist
+
+This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+
+If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [x] Run prettier: `npm run style-format`
+- [x] Updated **documentation** for changed code and new or modified features.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-06 19:55:36 +0000 UTC
     </div>
 </div>
 

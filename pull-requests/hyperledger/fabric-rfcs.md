@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/47" class=".btn">#47</a>
             </td>
             <td>
                 <b>
-                    RFC for private data purge
+                    update open tracing rfc
                 </b>
             </td>
         </tr>
@@ -27,14 +27,19 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
                 
             </td>
             <td>
-                This RFC proposes a new operation *purge* on private data via chaincode shim that allows purging of all the historical versions of the supplied keys from the private data store permanently so as to enable applications to implement right-to-forget behavior for private data.
+                Hi Fabric,
 
-Signed-off-by: manish <manish.sethi@gmail.com>
+Recently, I am adding open tracing for [Tape](https://github.com/Hyperledger-TWGC/tape) specific for [issue](https://github.com/Hyperledger-TWGC/tape/issues/223)
+
+It looks like if we adding open tracing in fabric process, it may help us understand bottleneck in fabric process better?
+That's the reason I updated open telemetry related rfc.
+
+Signed-off-by: Sam Yuan <yy19902439@126.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-18 19:13:09 +0000 UTC
+        Created At 2021-12-06 12:37:59 +0000 UTC
     </div>
 </div>
 

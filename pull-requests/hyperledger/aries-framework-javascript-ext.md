@@ -14,48 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/82" class=".btn">#82</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/85" class=".btn">#85</a>
             </td>
             <td>
                 <b>
-                    chore: release @aries-framework/rest 0.5.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">autorelease: pending</span><span class="chip">ci-test</span>
-            </td>
-            <td>
-                :robot: I have created a release \*beep\* \*boop\*
----
-### [0.5.1](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.5.0...rest-v0.5.1) (2021-12-04)
-
-
-### Bug Fixes
-
-* **deps:** update dependencies ([#78](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/78)) ([ca38eba](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ca38eba50dbb524269865d4fbfcb2d33720d0b48))
----
-
-
-This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-04 18:12:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/81" class=".btn">#81</a>
-            </td>
-            <td>
-                <b>
-                    chore: release @aries-framework/redux-store 0.1.2
+                    chore: release @aries-framework/rest 0.6.1
                 </b>
             </td>
         </tr>
@@ -66,12 +29,12 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
 ---
-### [0.1.2](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/redux-store-v0.1.1...redux-store-v0.1.2) (2021-12-04)
+### [0.6.1](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.6.0...rest-v0.6.1) (2021-12-07)
 
 
 ### Bug Fixes
 
-* **deps:** update dependencies ([#78](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/78)) ([ca38eba](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ca38eba50dbb524269865d4fbfcb2d33720d0b48))
+* **rest:** made nonce optional on proofrequest ([#84](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/84)) ([c1efe58](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/c1efe58055639e1c3df0429df6a0efe8fcdeb850))
 ---
 
 
@@ -80,7 +43,7 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-04 18:12:32 +0000 UTC
+        Created At 2021-12-07 22:57:47 +0000 UTC
     </div>
 </div>
 
@@ -88,11 +51,37 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/80" class=".btn">#80</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/84" class=".btn">#84</a>
             </td>
             <td>
                 <b>
-                    chore: release @aries-framework/react-hooks 0.1.4
+                    fix(rest): made nonce optional on proofrequest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-07 14:08:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/83" class=".btn">#83</a>
+            </td>
+            <td>
+                <b>
+                    chore: release @aries-framework/rest 0.6.0
                 </b>
             </td>
         </tr>
@@ -103,12 +92,17 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
 ---
-### [0.1.4](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/react-hooks-v0.1.3...react-hooks-v0.1.4) (2021-12-04)
+## [0.6.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.5.0...rest-v0.6.0) (2021-12-06)
 
+
+### ⚠ BREAKING CHANGES
+
+* **rest:** proof request indy fields are now snake_case as used by indy instead of camelCase as used by AFJ.
 
 ### Bug Fixes
 
 * **deps:** update dependencies ([#78](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/78)) ([ca38eba](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ca38eba50dbb524269865d4fbfcb2d33720d0b48))
+* **rest:** remove record transformer ([#77](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/77)) ([cda30f5](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/cda30f56b557a11645e9201ecf3e615ce8c890f5))
 ---
 
 
@@ -117,137 +111,7 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-04 18:12:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/79" class=".btn">#79</a>
-            </td>
-            <td>
-                <b>
-                    chore: release @aries-framework/push-notifications 0.1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
-            </td>
-            <td>
-                :robot: I have created a release \*beep\* \*boop\*
----
-### [0.1.1](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/push-notifications-v0.1.0...push-notifications-v0.1.1) (2021-12-04)
-
-
-### Bug Fixes
-
-* **deps:** update dependencies ([#78](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/78)) ([ca38eba](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ca38eba50dbb524269865d4fbfcb2d33720d0b48))
----
-
-
-This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-04 18:12:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/78" class=".btn">#78</a>
-            </td>
-            <td>
-                <b>
-                    fix(deps): update dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-BREAKING CHANGE: update AFJ and other dependencies to latest version
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-04 14:39:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/77" class=".btn">#77</a>
-            </td>
-            <td>
-                <b>
-                    fix(rest)!: remove record transformer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-BREAKING CHANGE: proof request indy fields are now snake_case as used by indy instead of camelCase as used by AFJ.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 21:56:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/76" class=".btn">#76</a>
-            </td>
-            <td>
-                <b>
-                    feat: added question answer provider
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Added question answer provider in conjunction with https://github.com/hyperledger/aries-framework-javascript/pull/557
-
-# Pull Request Checklist
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
-- [x] Added **tests** for changed code (run `scripts/preflight` to run tests and check code style).
-- [x] Prefixed code comments with GitHub nick and an appropriate prefix.
-- [x] Coding style is consistent with the rest of the framework.
-- [x] Updated **documentation** for changed code and new or modified features.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 17:29:36 +0000 UTC
+        Created At 2021-12-06 08:59:28 +0000 UTC
     </div>
 </div>
 
