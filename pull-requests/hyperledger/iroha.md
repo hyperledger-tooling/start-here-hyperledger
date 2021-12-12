@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1720" class=".btn">#1720</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #1331: Implement more `Prometheus` metrics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">metrics</span>
+            </td>
+            <td>
+                
+
+### Description of the Change
+
+Refactored metric storage. 
+Added more metrics. 
+Added instrumentation for easily tracking query and isi execution and timing, via `iroha_data_model_derive` proc_macro crate. 
+
+### Issue
+
+Resolves #1331 
+
+
+### Benefits
+
+More metrics
+
+### Possible Drawbacks
+
+tracking metrics can adversely affect performance. 
+
+### Usage Examples or Tests *[optional]*
+
+TODO
+
+### Alternate Designs *[optional]*
+
+Instrumentation can be added by changing the trait topology for Queries and ISI. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-12 11:14:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1710" class=".btn">#1710</a>
             </td>
             <td>
