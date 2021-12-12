@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1530" class=".btn">#1530</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1553" class=".btn">#1553</a>
             </td>
             <td>
                 <b>
-                    Enable WS Pings for WS Inbound Transport
+                    PR#1543 Follow up - Adding invitation_msg_id and their_public_did back to record_value.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                When connecting over WS, it is impossible for ACA-Py to detect when the other end has unexpectedly closed (no WS close or error message sent) without using a heartbeat and timeout. With these changes, if a mobile agent connected over WS suddenly loses connectivity (wifi or data signal drops, for instance), the window of time where a message can be lost due to ACA-Py not realizing the WS has entered a bad state is shrunk to at most `timeout_interval` seconds. An image with a version of these changes has been in testing in a live mediator deployment for a couple of months now with much success.
+                Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-03 16:12:09 +0000 UTC
+        Created At 2021-12-11 20:13:13 +0000 UTC
     </div>
 </div>
 
@@ -40,37 +40,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1528" class=".btn">#1528</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1551" class=".btn">#1551</a>
             </td>
             <td>
                 <b>
-                    Fix integration tests (revocation notifications)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 23:55:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1527" class=".btn">#1527</a>
-            </td>
-            <td>
-                <b>
-                    Add Revocation notification support to alice/faber
+                    Update demo requirements
                 </b>
             </td>
         </tr>
@@ -84,7 +58,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-01 22:24:39 +0000 UTC
+        Created At 2021-12-11 00:45:46 +0000 UTC
     </div>
 </div>
 
@@ -92,11 +66,133 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1526" class=".btn">#1526</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1550" class=".btn">#1550</a>
             </td>
             <td>
                 <b>
-                    Display QR code when generating/displaying invites on startup
+                    Remove required dependencies from multi-ledger code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also adjusts the return value from `get_ledger_for_identifier` for consistency.
+
+Fixes #1549 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 23:55:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1545" class=".btn">#1545</a>
+            </td>
+            <td>
+                <b>
+                    Add credential_revoked state
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pull request for [Issue: 1539](https://github.com/hyperledger/aries-cloudagent-python/issues/1539)
+@swcurran  Added the credential_revoked state. 
+For now I have considered only issue-credential 1.0, I should check for the record in V20CredentialExchange too.
+Will do it soon. If you have any suggestions on my approach please comment below.
+
+Questions:
+- Is it required raise an error if the credential record doesn't exist? 
+- The credential state should be changed only after publishing revocation.
+   When publish is set to pending, what is the best way to implement this?. I'm planning to create retrieve credential records using rev_reg_id and cred_rev_id
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-09 09:28:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1544" class=".btn">#1544</a>
+            </td>
+            <td>
+                <b>
+                    Remove request_id from inviter connection record
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+Addresses issue https://github.com/hyperledger/aries-cloudagent-python/issues/1541
+
+Tested in alice/faber, there are some error messages on the faber side however the connection (didexchange) is established and can be used for issuing credentials and requesting proofs.
+
+Not sure what is the issue of removing `request_id` from the inviter connection record, or why it's required for didexchange but not connections protocol.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 19:27:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1543" class=".btn">#1543</a>
+            </td>
+            <td>
+                <b>
+                    ConnRecord tags - `their_public_did` and `invitation_msg_id`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
+- resolve #1542 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 19:18:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1538" class=".btn">#1538</a>
+            </td>
+            <td>
+                <b>
+                    Fix validation for range checks
                 </b>
             </td>
         </tr>
@@ -110,7 +206,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-01 18:01:51 +0000 UTC
+        Created At 2021-12-07 02:11:45 +0000 UTC
     </div>
 </div>
 
@@ -118,11 +214,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1525" class=".btn">#1525</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1535" class=".btn">#1535</a>
             </td>
             <td>
                 <b>
-                    OOB: Fixes issues with multiple public explicit invitation and unused 0160 connection
+                    Updates to Changelog, RTD and version for the 0.7.3-RC0 release
                 </b>
             </td>
         </tr>
@@ -131,15 +227,13 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
-- resolves #1524
-- Updated `ConnectionManager` and `DIDXManager` to look up `ConnRecord` by `invitation_msg_id`
-- Also fixes the issue, when an OOB invitation [`0160` and with public DID] is accepted by the invitee, on the inviter side, a new `ConnRecord` is created and activated, and the original `ConnRecord` created along with the invitation remains unused.
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-30 20:11:49 +0000 UTC
+        Created At 2021-12-06 18:45:59 +0000 UTC
     </div>
 </div>
 
@@ -147,11 +241,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1523" class=".btn">#1523</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1534" class=".btn">#1534</a>
             </td>
             <td>
                 <b>
-                    added documentation for wallet storage databases
+                    WIP: PyLD credentialSchema normalize and DIF PE fix
                 </b>
             </td>
         </tr>
@@ -160,15 +254,12 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                - [x] SQlite
-- [x] PostgreDB
-- [x] Link in other documentation
-- [x] Docker Compose example
+                - resolve #1529 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-29 09:46:44 +0000 UTC
+        Created At 2021-12-06 17:33:20 +0000 UTC
     </div>
 </div>
 

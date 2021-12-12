@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/301" class=".btn">#301</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/302" class=".btn">#302</a>
             </td>
             <td>
                 <b>
-                    Enforce single writer for sqlite
+                    Add release notes for 0.4.2
                 </b>
             </td>
         </tr>
@@ -32,141 +32,7 @@ permalink: /pull-requests/hyperledger/transact
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-03 17:59:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/300" class=".btn">#300</a>
-            </td>
-            <td>
-                <b>
-                    Improve documentation on state::Prune and Merkle state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-03 17:57:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/299" class=".btn">#299</a>
-            </td>
-            <td>
-                <b>
-                    Refactor/simplify cli Dockerfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There's no need to copy over the workspace Cargo.toml or any other
-dependencies because we aren't pre-caching dependencies.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-02 22:03:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/298" class=".btn">#298</a>
-            </td>
-            <td>
-                <b>
-                    Add default key location
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update the `create_cylinder_jwt_auth_signer_key` function to check the default location, ~/.cylinder/keys, if no `--key` argument is given.
-- Update the following CLI commands to not require the `--key` arg: `command set-state`, `command get-state`, `command show-state`, `playlist submit` and `workload`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-02 17:34:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/297" class=".btn">#297</a>
-            </td>
-            <td>
-                <b>
-                    Fix clippy errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-02 16:11:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/296" class=".btn">#296</a>
-            </td>
-            <td>
-                <b>
-                    Move `CommandTransactionBuilder`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a copy of the `CommandTransactionBuilder`, from the `family::command::workload` module, to a new `family::command::transaction_builder` module behind a new feature "family-command-transaction-builder" and re-export it from `family::command`. Additionally, depreciate the copy of the builder in the workload module.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 16:12:30 +0000 UTC
+        Created At 2021-12-10 18:07:09 +0000 UTC
     </div>
 </div>
 

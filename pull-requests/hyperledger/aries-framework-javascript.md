@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/563" class=".btn">#563</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/573" class=".btn">#573</a>
             </td>
             <td>
                 <b>
-                    style(eslint): enforce strict type checking rules
+                    build: add arm test ledger setup
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Enforces strict type checking rules
-
-@blu3beri we were getting an enormous amount of errors due to how typescript was configured, removing that it reduced it to about ~900 errors. I then disabled some rules for test files as they're quite strict which is not needed for testing which reduced to about ~300 errors.
-
-I have already fixes some of them, when you have the time maybe you can try to fix some more? Would be good to have this added.
-
-Fixes #376 
+                Ledger setup didn't fully work for ARM baed macs. This PR adds an extra dockerfile that can be used to set up the test ledger on ARM macs.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-04 14:23:58 +0000 UTC
+        Created At 2021-12-11 15:22:57 +0000 UTC
     </div>
 </div>
 
@@ -46,25 +40,25 @@ Fixes #376
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/561" class=".btn">#561</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/571" class=".btn">#571</a>
             </td>
             <td>
                 <b>
-                    style: non-null assertions and newline import
+                    chore(release): v0.1.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">ci-test</span>
             </td>
             <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
+                Release version 0.1.0
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-02 15:16:52 +0000 UTC
+        Created At 2021-12-08 10:47:42 +0000 UTC
     </div>
 </div>
 
@@ -72,11 +66,11 @@ Fixes #376
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/560" class=".btn">#560</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/566" class=".btn">#566</a>
             </td>
             <td>
                 <b>
-                    feat: add problem report protocol
+                    feat: expose wallet API
                 </b>
             </td>
         </tr>
@@ -85,18 +79,14 @@ Fixes #376
                 
             </td>
             <td>
-                ### Summary of Changes
-Implemented the problem report [RFC-0035](https://github.com/hyperledger/aries-rfcs/blob/main/features/0035-report-problem/README.md)
+                As a developer, I want to have more granular control of the wallet so that I can decide what flow to run in my business logic according to the state of the wallet. For example, I want to run a different branch (UI screens) of my code if the wallet does not exist without creating the wallet immediately.
 
-Problem Report RFC effective for reporting of errors and warnings to other agents. Once this PR is merged agent will be able to report problems occurred in `Connection`, `Issue Credential`  & `Present Proof`
-
-### Related Issue 
-#58 
+I moved the creation of master secret into a create method. It should happen only once. It was unnecessarily called during every open wallet operation.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-02 13:43:49 +0000 UTC
+        Created At 2021-12-07 14:58:05 +0000 UTC
     </div>
 </div>
 
@@ -104,11 +94,11 @@ Problem Report RFC effective for reporting of errors and warnings to other agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/559" class=".btn">#559</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/565" class=".btn">#565</a>
             </td>
             <td>
                 <b>
-                    ci: create non-annotated tags
+                    chore: disable unnecessary type check in Dispatcher test
                 </b>
             </td>
         </tr>
@@ -117,14 +107,12 @@ Problem Report RFC effective for reporting of errors and warnings to other agent
                 
             </td>
             <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-The ci created annotated tags which clashes with lerna. This PR makes sure we create non-annotated tags
+                Signed-off-by: Jakub Koci <jakub.koci@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-02 11:06:58 +0000 UTC
+        Created At 2021-12-07 14:42:57 +0000 UTC
     </div>
 </div>
 
@@ -132,11 +120,11 @@ The ci created annotated tags which clashes with lerna. This PR makes sure we cr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/558" class=".btn">#558</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/564" class=".btn">#564</a>
             </td>
             <td>
                 <b>
-                    ci: create tag on alpha release
+                    docs: Proofs
                 </b>
             </td>
         </tr>
@@ -145,155 +133,12 @@ The ci created annotated tags which clashes with lerna. This PR makes sure we cr
                 
             </td>
             <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-@JamesKEbert I think this should do it. It will create a tag names `alpha.<number>` on each release. I think lerna search for the default `vX.X.X` prefix so should not cause any issues. 
-
-Let's try!
+                Initial documentation for dealing with Proofs
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-01 18:24:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/557" class=".btn">#557</a>
-            </td>
-            <td>
-                <b>
-                    feat: add question answer protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Added a question answer module (https://github.com/hyperledger/aries-rfcs/blob/main/features/0113-question-answer/README.md) to send and receive question messages and to send and receive answer messages with a valid response. 
-
-# Pull Request Checklist
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
-- [x] Added **tests** for changed code (run `scripts/preflight` to run tests and check code style).
-- [x] Prefixed code comments with GitHub nick and an appropriate prefix.
-- [x] Coding style is consistent with the rest of the framework.
-- [x] Updated **documentation** for changed code and new or modified features.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 17:28:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/556" class=".btn">#556</a>
-            </td>
-            <td>
-                <b>
-                    fix(core): expose record metadata types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Berend Sliedrecht <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 08:57:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/555" class=".btn">#555</a>
-            </td>
-            <td>
-                <b>
-                    fix: removed check for senderkey for connectionless exchange
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Trinsic doesn't send the senderVerkey on a connectionless exchange.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-30 13:32:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/554" class=".btn">#554</a>
-            </td>
-            <td>
-                <b>
-                    feat: add generic did resolver
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add generic did resolver. Implementation is based on the `did-resolver` library, but uses its own did method registry for a bit more flexiblity. Parsing logic is used from the `did-resolver` library and it is also possible to wrap `did-resolver` plugins (we do that for `web-did-resolver`.
-
-Supports `did:sov`, `did:web`, `did:key`.
-
-Usage:
-
-```ts
-// Module
-const did = await agent.dids.resolve('did:web:trinsic.id')
-
-// or service (need to have instance of the service, class is for example)
-const did = await DidResolverService.resolve('did:web:trinsic.id')
-```
-
-The `did:key` implementation comes with a `DidKey` class that makes it easy to use for encoding public keys as `did:key` string.
-
-```ts
-const publicKeyBase58 = "xxxx" // publicKeyBase58 is same as verkey
-const didKey = DidKey.fromPublicKeyBase58(publicKeyBase58, KeyType.ED25519)
-
-const did = didKey.did // get did:key string
-```
-
-
-TODO: more tests and documentation
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-29 16:03:04 +0000 UTC
+        Created At 2021-12-07 08:45:08 +0000 UTC
     </div>
 </div>
 

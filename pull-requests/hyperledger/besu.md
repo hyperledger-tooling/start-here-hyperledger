@@ -14,39 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3127" class=".btn">#3127</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/3160" class=".btn">#3160</a>
             </td>
             <td>
                 <b>
-                    Merge: Return full payload id when engine_forkchoiceUpdatedV1 is called
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-Fixes the issue mentioned in an issue of Teku: https://github.com/ConsenSys/teku/issues/4700
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-03 22:10:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3126" class=".btn">#3126</a>
-            </td>
-            <td>
-                <b>
-                    remove random from payload Identifier
+                    Uprev
                 </b>
             </td>
         </tr>
@@ -59,8 +31,96 @@ Fixes the issue mentioned in an issue of Teku: https://github.com/ConsenSys/teku
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-upstream changes to merge feature branch related to PR feedback from #3107 
+  
+corrects sha hash for 2021.10.3 build
 
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 20:31:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3159" class=".btn">#3159</a>
+            </td>
+            <td>
+                <b>
+                    uprev to 20.10.4-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Justin Florentine <justin+github@florentine.us>
+
+
+## Changelog
+
+- [X ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 19:24:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3157" class=".btn">#3157</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.10.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 16:22:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3156" class=".btn">#3156</a>
+            </td>
+            <td>
+                <b>
+                    Feature/fix sync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -73,7 +133,7 @@ upstream changes to merge feature branch related to PR feedback from #3107
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-03 22:03:36 +0000 UTC
+        Created At 2021-12-10 16:00:28 +0000 UTC
     </div>
 </div>
 
@@ -81,151 +141,11 @@ upstream changes to merge feature branch related to PR feedback from #3107
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3123" class=".btn">#3123</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/3154" class=".btn">#3154</a>
             </td>
             <td>
                 <b>
-                    Move discovery options constants to genesis files of predefined networks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This PR is a continuation of #2944 by moving the hardcoded discovery values into each of the genesis files.
-  * a2b081e01 has the minimal set of changes for the _factory method_ of `org.hyperledger.besu.cli.config.EthNetworkConfig` to resolve the bootnodes and dns from the genesis file. The _factory method_ could have been removed and its behavior integrated directly into the `org.hyperledger.besu.cli.BesuCommand` reusing the logic for external genesis files, but that would have impacted in many tests, making the review harder to perform.
-  * efaf0ca39 and c12da44ca are not mandatory for this PR but I think it would be hard to make this changes as part of a bigger and meaningful PR. Can be removed if any reviewer request it.
- 
-It's worth to mention that the hardcoded discovery values were keep just for testing purposes within that scope.
-
-## Enhacement(s)
-closes #3113
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-02 03:40:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3121" class=".btn">#3121</a>
-            </td>
-            <td>
-                <b>
-                    WIP || (internal) Refactor hard coded state roots in PrivacyReorgTest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Frank Li <b439988l@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-We're generating the state roots at test time without assuming the seed value or random algorithm used in BlockDataGenerator
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #1793 
-
-## Changelog
-Not required (test code refactor)
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 09:43:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3120" class=".btn">#3120</a>
-            </td>
-            <td>
-                <b>
-                    Add Frank Li as a maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Frank has made more than 5 significant [commits](https://github.com/hyperledger/besu/pulls?q=is%3Apr+author%3Afrankisawesome+is%3Aclosed) that improved the quality of Besu and/or added new features.
-
-Voting ends 2 weeks from the publication of this PR or once more than 50% of the current maintainers approved.
-
-For more information on this process see the **Becoming a Maintainer** section in the MAINTAINERS.md file.
-
-Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-01 03:56:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3119" class=".btn">#3119</a>
-            </td>
-            <td>
-                <b>
-                    Emeritus maintainers x 2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I propose moving the following maintainers to Emeritus status, pursuant to the inactivity clause. These maintainers have had no activity during Q3/Q4 2021 (since July 2021):
-* @mbaxter’s last Besu activity was in July 2021
-* @abdelhamidbakhta’s last Besu activity was in July 2021
-
-We very much appreciate their contributions but moving their status to emeritus (and thus revoking PR approval privileges) is in the interest of an orderly project. If any of these maintainers express in this PR that they intend to make contributions in the next quarter, then they will not be moved to emeritus status.
-This vote is open until either an absolute majority of active maintainers votes for the same outcome, or until two weeks has passed, after which a voting majority will determine the outcome (with a tie resulting in no change).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-30 23:22:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3118" class=".btn">#3118</a>
-            </td>
-            <td>
-                <b>
-                    Start external services before we start plugins
+                    Merge main eip 4399
                 </b>
             </td>
         </tr>
@@ -237,26 +157,21 @@ This vote is open until either an absolute majority of active maintainers votes 
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
-## PR description - start external services before we start plugins
-
-Reasons:
-
-- you may wish to query the current state of your blockchain using rpc before you start processing new blocks
-
-- you may wish to register a websocket e.g to listen for blocks currently, you will probably miss one because we start processing before we start the ws service
-
-To enable this a 'beforeExternalServices' hook was addedd to allow plugins to do things before those services are started. 
-
-Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
+## PR description
+merge of eip-4399 from main into merge branch
+plus tls configs
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
 
 ## Changelog
 
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-30 15:51:19 +0000 UTC
+        Created At 2021-12-10 13:00:31 +0000 UTC
     </div>
 </div>
 
@@ -264,11 +179,96 @@ Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3117" class=".btn">#3117</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/3153" class=".btn">#3153</a>
             </td>
             <td>
                 <b>
-                    QBFT migration: Create a switchable protocol context
+                    address errata discovered with teku interop
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+address errata discovered with teku interop:
+  fix baseFeePerGas genesis parsing 
+  remove mixHash writing from MergeBlockCreator
+  use evictingQueue for payloads
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 12:11:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3152" class=".btn">#3152</a>
+            </td>
+            <td>
+                <b>
+                    merge kintsugi-v3 changes back to main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Merge kintsugi v3 changes back to main for json-rpc endpoints that have already previously been merged to main
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 09:15:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3151" class=".btn">#3151</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade log4j
                 </b>
             </td>
         </tr>
@@ -278,11 +278,251 @@ Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
             </td>
             <td>
                 ## PR description
-For the QBFT migration we need to be able to return the appropriate consensus context for the current consensus mechanism.
+Upgrades log4j and explicitly disables JNDI message format lookups to improve security.
 
-This introduces a schedulable protocol context and scheduable context that are used together to return the consensus context for the current chain height.
+## Changelog
 
-Fixes #3000 
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 05:05:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3150" class=".btn">#3150</a>
+            </td>
+            <td>
+                <b>
+                    Kintsugi v3/json rpc encoding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+* json-rpc encoding changes
+* execution-specific error responses
+* add latestValidHash to `engineExecutePayload`
+* add invalid blocks to badBlocks on failed validation and/or processing
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+addresses #3138
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 01:09:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3149" class=".btn">#3149</a>
+            </td>
+            <td>
+                <b>
+                    (fix) exclude ATs from sonar cloud
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dev experience</span>
+            </td>
+            <td>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Excludes ATs from sonar cloud runs
+
+## Fixed Issue(s)
+fixes https://github.com/hyperledger/besu/issues/3142
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-10 00:57:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3143" class=".btn">#3143</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] updating enclave AT code to remove orion references
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Use generic language, remove reference to Orion formatted messages
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 19:08:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3137" class=".btn">#3137</a>
+            </td>
+            <td>
+                <b>
+                    Dockerfile: update to different 11 jre
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Update Dockerfile to use a Java 11 JRE which passes docker scan
+
+## Fixed Issue(s)
+Fixes #3045 
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 05:08:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3136" class=".btn">#3136</a>
+            </td>
+            <td>
+                <b>
+                    merge main into kintsugi v3 branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Merge main and address breakage in merge implementations
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-08 00:57:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3135" class=".btn">#3135</a>
+            </td>
+            <td>
+                <b>
+                    Vert.x upgrade (for acceptanceTests)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a PR continuing #3073 by @jflo just to see if it passes the _acceptanceTests_
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-07 20:04:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3133" class=".btn">#3133</a>
+            </td>
+            <td>
+                <b>
+                    Change the ForkSchedule to take a single argument
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Simplify the constructor for the ForkSchedule. This removes the need to seperate out a seperate ForkSpec for the genesis block.
+
+fixes #3131 
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
@@ -294,7 +534,7 @@ Fixes #3000
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-30 06:16:04 +0000 UTC
+        Created At 2021-12-07 02:20:58 +0000 UTC
     </div>
 </div>
 
@@ -302,65 +542,11 @@ Fixes #3000
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3116" class=".btn">#3116</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/3132" class=".btn">#3132</a>
             </td>
             <td>
                 <b>
-                    fix flakey test caused by random payload
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes flakey tests e.g. https://app.circleci.com/pipelines/github/hyperledger/besu/11940/workflows/7dc4c157-f51b-4ba7-aaa8-3baec6b5a038/jobs/65476/tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-30 05:45:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3114" class=".btn">#3114</a>
-            </td>
-            <td>
-                <b>
-                    Reduce log level down to debug on EthPeer Permissioning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reduce log level down to debug on EthPeer Permissioning - the logs can become very verbose when blocking p2p transactions in private networks.
-
-Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-29 16:04:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3112" class=".btn">#3112</a>
-            </td>
-            <td>
-                <b>
-                    Include invalid value in Enode error message
+                    Removing duplicate code from FlexiblePrivacyPrecompiledContract [#2961]
                 </b>
             </td>
         </tr>
@@ -370,18 +556,55 @@ Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
             </td>
             <td>
                 ## PR description
-Makes it much easier for users to identify their mistake if the CLI argument after `--bootnodes <some-valid-enode>` has a typo. PicoCLI will treat any unrecognised option as another bootnode so it's very confusing to get an invalid enode message when the enode is fine and it's the next argument that's incorrect.
+Remove duplicate code (TODO) in FlexiblePrivacyPrecompiledContract. The getParticipantsFromParameter method was copied from FlexibleUtil, this has now been removed.
 
-For example `--bootnodes enode://blah@127.0.0.1:30303 --datapath foo` would otherwise print an error message saying there wasn't an `enode://` prefix when there clearly is.  When the invalid value is shown the user can see that it's actually `--datapath` that's unrecognised and fix the problem.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+## Fixed Issue(s)
+#2961
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-29 09:37:13 +0000 UTC
+        Created At 2021-12-06 23:18:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3130" class=".btn">#3130</a>
+            </td>
+            <td>
+                <b>
+                    Backward sync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is a WIP proof of concept to be discussed with @garyschulte to possibly change the direction of the work
+
+Even if the approach would get approved, at least the following still needs to get done before a full PR can be raised:
+* add tests that properly describe the requirements - at this moment the tests I have are not worth sharing publicly
+* don't ignore the blocks proposed by the consensus layer - at this moment, we only care about the headers and ignore the block body.
+* should any of the backward sync state persist between restarts?
+* the backward sync should sync towards a block that was sent by the consensus layer. At this moment, we sync towards a known head of the blockchain that we already have. What about reorgs?
+
+Highlights to note:
+* The algorithm starts when called `org.hyperledger.besu.consensus.merge.blockcreation.backward.sync.BackwardsSyncContext::syncBackwardsUntil`
+* The request returns a completable future that might complete exceptionally in case where the sync was interrupted by a newer request sent later or there was an error during sync. 
+* Theoretically, the Backward sync can be merged into master independently. 
+
+Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-06 09:12:24 +0000 UTC
     </div>
 </div>
 
