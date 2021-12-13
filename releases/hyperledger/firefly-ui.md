@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/firefly-ui
         <tr>
             <td colspan="2">
                 <b>
-                    v0.4.2_8351002
+                    v0.4.3_c59f789
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.4.2
+                    v0.4.3
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger/firefly-ui
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ui/releases/tag/v0.4.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ui/releases/tag/v0.4.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-11-23 21:01:09 +0000 UTC
+        Created At 2021-12-13 18:32:13 +0000 UTC
     </span>
 </div>
 
