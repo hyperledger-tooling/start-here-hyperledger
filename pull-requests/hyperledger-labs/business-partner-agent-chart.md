@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    0.9.0 release
+                    chart with fixed fixed log4j2 version
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-03 10:15:34 +0000 UTC
+        Created At 2021-12-13 09:12:15 +0000 UTC
     </div>
 </div>
 

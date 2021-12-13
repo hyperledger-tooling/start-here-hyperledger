@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/560" class=".btn">#560</a>
+            </td>
+            <td>
+                <b>
+                    Adding examples of CCAAS and support into the test-network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Updated the test-network with examples of runnig CCAAS
+- Updating the asset transfer basic with how to run chaincode as a service.
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 10:46:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/556" class=".btn">#556</a>
             </td>
             <td>

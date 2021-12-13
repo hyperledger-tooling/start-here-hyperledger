@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1727" class=".btn">#1727</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #0000: Move rc-branch containers to rc-branch docker-compose.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+
+### Description of the Change
+Fix containers.
+
+### Issue
+
+None yet. 
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Consistency
+
+### Possible Drawbacks
+
+None
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 10:26:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1724" class=".btn">#1724</a>
             </td>
             <td>
@@ -89,7 +134,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [refactor] #0000: allow only known fields in version attribute
+                    [fix] #0000: allow only known fields in version attribute
                 </b>
             </td>
         </tr>
@@ -236,7 +281,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [refactor] #0000: Remove global state in Torii
+                    [refactor] #1725: Remove global state in Torii
                 </b>
             </td>
         </tr>
@@ -269,7 +314,7 @@ Have `warp` filters in `Torii` only receive part of the state they require, not 
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
 
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
+Closes  #1725
 ### Benefits
 
 <!-- What benefits will be realized by the code change? -->
@@ -951,157 +996,6 @@ None
     </table>
     <div class="right-align">
         Created At 2021-12-06 13:38:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1684" class=".btn">#1684</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #1641: keypair doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-
-Added documentation about key-pairs. 
-
-### Issue
-
-Closes #1641 
-
-### Benefits
-More docs
-
-### Possible Drawbacks
-
-None
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 09:57:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1682" class=".btn">#1682</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #1630: Move back to self-hosted runners.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-
-Moved back to self-hosted runners with a smarter cache. 
-
-### Issue
-
-closes #1630 
-
-### Benefits
-
-Faster CI time. 
-
-### Possible Drawbacks
-
-Self hosted runners could be unstable. 
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 07:56:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1681" class=".btn">#1681</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: Fix linter error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-A tiny fix for static analysis error introduced in #1678.
-
-### Benefits
-
-
-
-### Possible Drawbacks 
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 07:55:50 +0000 UTC
     </div>
 </div>
 

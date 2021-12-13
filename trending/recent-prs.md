@@ -1,13 +1,13 @@
 
-[1724](https://github.com/hyperledger/iroha/pull/1724) [feature] #1210 Block streaming - server side
+[215](https://github.com/hyperledger/fabric-chaincode-java/pull/215) Release 2.4.1
 
-[1723](https://github.com/hyperledger/iroha/pull/1723) [refactor] #0000: allow only known fields in version attribute
+[560](https://github.com/hyperledger/fabric-samples/pull/560) Adding examples of CCAAS and support into the test-network
 
-[1722](https://github.com/hyperledger/iroha/pull/1722) [refactor] #0000: iroha_crypto dependencies
+[1727](https://github.com/hyperledger/iroha/pull/1727) [fix] #0000: Move rc-branch containers to rc-branch docker-compose.
 
-[1721](https://github.com/hyperledger/iroha/pull/1721) [refactor] #0000: Remove global state in Torii
+[159](https://github.com/hyperledger/fabric-sdk-java/pull/159) Bump log4j-core from 2.14.0 to 2.15.0
 
-[3115](https://github.com/hyperledger/fabric/pull/3115) Bump Go to 1.17.5
+[41](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/41) chart with fixed fixed log4j2 version
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
