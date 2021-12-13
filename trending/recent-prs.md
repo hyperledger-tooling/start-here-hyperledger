@@ -1,13 +1,13 @@
 
-[1720](https://github.com/hyperledger/iroha/pull/1720) [feature] #1331: Implement more `Prometheus` metrics
+[1724](https://github.com/hyperledger/iroha/pull/1724) [feature] #1210 Block streaming - server side
 
-[402](https://github.com/hyperledger/aries-agent-test-harness/pull/402) Changes by create-pull-request action
+[1723](https://github.com/hyperledger/iroha/pull/1723) [refactor] #0000: allow only known fields in version attribute
 
-[1553](https://github.com/hyperledger/aries-cloudagent-python/pull/1553) PR#1543 Follow up - Adding invitation_msg_id and their_public_did back to record_value.
+[1722](https://github.com/hyperledger/iroha/pull/1722) [refactor] #0000: iroha_crypto dependencies
 
-[25](https://github.com/hyperledger/indy-did-method/pull/25) Change the separator for a sub-namespace to . from :
+[1721](https://github.com/hyperledger/iroha/pull/1721) [refactor] #0000: Remove global state in Torii
 
-[24](https://github.com/hyperledger/indy-did-method/pull/24) Fix typos
+[3115](https://github.com/hyperledger/fabric/pull/3115) Bump Go to 1.17.5
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
