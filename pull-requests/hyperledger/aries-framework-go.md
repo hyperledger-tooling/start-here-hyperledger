@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3104" class=".btn">#3104</a>
+            </td>
+            <td>
+                <b>
+                    chore: upgrade to Go 1.17 and fix MacOS Monterey Go Bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 16:08:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3102" class=".btn">#3102</a>
             </td>
             <td>
@@ -277,71 +305,6 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </table>
     <div class="right-align">
         Created At 2021-12-08 03:03:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3087" class=".btn">#3087</a>
-            </td>
-            <td>
-                <b>
-                    feat: Added ErrDuplicateKey to storage interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This error is used when a call to Store.Batch using the IsNewKey PutOption with a key that already exists in the database. Callers can use this to react accordingly.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 17:28:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3086" class=".btn">#3086</a>
-            </td>
-            <td>
-                <b>
-                    fix: Add the missing message handler for the messaging service on mobile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Mobile implementations could not register a new message service.
-
-**Description:**
-Related issue: #3083.
-
-Fixed the issue by creating the `Registrar` on a higher level and passed it as part of the mobile wrapped options to the required functions.
-
-**Summary:**
-There was a missing message handler on mobile that did cause a null dereferencing error when trying to register a new message service
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 07:54:19 +0000 UTC
     </div>
 </div>
 

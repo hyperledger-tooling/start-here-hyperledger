@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3118" class=".btn">#3118</a>
+            </td>
+            <td>
+                <b>
+                    Remove discovery.acl principal warning (backport #3116)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #3116 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 12:50:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3116" class=".btn">#3116</a>
             </td>
             <td>
@@ -347,38 +400,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2021-12-08 20:36:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3104" class=".btn">#3104</a>
-            </td>
-            <td>
-                <b>
-                    Gateway to use simplified createTx function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The gateway has been reusing the protoutil.CreateTx function to build the transaction envelope from the set of endorsements.  This function changed recently to add extra information into the error message if the proposal responses don’t all match.  This change was identified as causing a problem for the gateway (https://github.com/hyperledger/fabric-gateway/issues/332).
-This commit adds a simplified createTx function in the gateway package that removes this amendment and also removes some other checks that aren’t relevant to its usage in the gateway.
-
-Resolves https://github.com/hyperledger/fabric-gateway/issues/332
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-08 15:52:56 +0000 UTC
     </div>
 </div>
 

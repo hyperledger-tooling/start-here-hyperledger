@@ -257,29 +257,3 @@ Signed-off-by: David Huffman <dshuffma@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/97" class=".btn">#97</a>
-            </td>
-            <td>
-                <b>
-                    updated release notes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 15:44:20 +0000 UTC
-    </div>
-</div>
-

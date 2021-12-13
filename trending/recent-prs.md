@@ -1,13 +1,13 @@
 
-[215](https://github.com/hyperledger/fabric-chaincode-java/pull/215) Release 2.4.1
+[602](https://github.com/hyperledger-labs/solang/pull/602) feat: feature-gate LLVM dependency
 
-[560](https://github.com/hyperledger/fabric-samples/pull/560) Adding examples of CCAAS and support into the test-network
+[199](https://github.com/hyperledger-labs/fabric-smart-client/pull/199) Make default KA in CreateGRPCClient zero value
 
-[1727](https://github.com/hyperledger/iroha/pull/1727) [fix] #0000: Move rc-branch containers to rc-branch docker-compose.
+[1557](https://github.com/hyperledger/aries-cloudagent-python/pull/1557) ACA-Py Upgrade command implementation
 
-[159](https://github.com/hyperledger/fabric-sdk-java/pull/159) Bump log4j-core from 2.14.0 to 2.15.0
+[222](https://github.com/hyperledger-labs/minbft/pull/222) Specify commit certificate size explicitly
 
-[41](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/41) chart with fixed fixed log4j2 version
+[3104](https://github.com/hyperledger/aries-framework-go/pull/3104) chore: upgrade to Go 1.17 and fix MacOS Monterey Go Bug
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

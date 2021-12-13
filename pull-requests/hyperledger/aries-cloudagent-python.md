@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1557" class=".btn">#1557</a>
+            </td>
+            <td>
+                <b>
+                    ACA-Py Upgrade command implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 17:31:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1556" class=".btn">#1556</a>
+            </td>
+            <td>
+                <b>
+                    Added event queue support as an alternative to webhook notifications
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## What is this PR for?
+
+- Added external queue support as an alternative to HTTP webhook events
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 14:51:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1553" class=".btn">#1553</a>
             </td>
             <td>
@@ -234,32 +288,6 @@ Not sure what is the issue of removing `request_id` from the inviter connection 
     </table>
     <div class="right-align">
         Created At 2021-12-06 18:45:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1534" class=".btn">#1534</a>
-            </td>
-            <td>
-                <b>
-                    WIP: PyLD credentialSchema normalize and DIF PE fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #1529 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 17:33:20 +0000 UTC
     </div>
 </div>
 
