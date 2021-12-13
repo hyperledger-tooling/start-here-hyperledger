@@ -99,32 +99,3 @@ Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/352" class=".btn">#352</a>
-            </td>
-            <td>
-                <b>
-                    Add postman collection and Update Channel model
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update postman collection with some request & response examples. 
-Add orderers field to Channel Model.
-
-Signed-off-by: Yuanmao Zhu yuanmao@ualberta.ca
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 06:09:27 +0000 UTC
-    </div>
-</div>
-
