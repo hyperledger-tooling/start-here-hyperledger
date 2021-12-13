@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3160" class=".btn">#3160</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/3166" class=".btn">#3166</a>
             </td>
             <td>
                 <b>
-                    Uprev
+                    trace_call API
                 </b>
             </td>
         </tr>
@@ -27,19 +27,82 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
 
 ## PR description
-  
-corrects sha hash for 2021.10.3 build
+[trace_call API](https://openethereum.github.io/JSONRPC-trace-module#trace_call): Executes the given call and returns a number of possible traces for it.
 
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+## Fixed Issue(s)
+fixes #2885 
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-10 20:31:45 +0000 UTC
+        Created At 2021-12-13 15:15:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3162" class=".btn">#3162</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] add common code to before method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+moved common code to a Before method
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 06:00:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3161" class=".btn">#3161</a>
+            </td>
+            <td>
+                <b>
+                    corrected download link for 21.10.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Correct link and hash for 21.10.3 release
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 00:34:53 +0000 UTC
     </div>
 </div>
 
@@ -425,7 +488,7 @@ Update Dockerfile to use a Java 11 JRE which passes docker scan
 Fixes #3045 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -565,46 +628,6 @@ Remove duplicate code (TODO) in FlexiblePrivacyPrecompiledContract. The getParti
     </table>
     <div class="right-align">
         Created At 2021-12-06 23:18:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3130" class=".btn">#3130</a>
-            </td>
-            <td>
-                <b>
-                    Backward sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is a WIP proof of concept to be discussed with @garyschulte to possibly change the direction of the work
-
-Even if the approach would get approved, at least the following still needs to get done before a full PR can be raised:
-* add tests that properly describe the requirements - at this moment the tests I have are not worth sharing publicly
-* don't ignore the blocks proposed by the consensus layer - at this moment, we only care about the headers and ignore the block body.
-* should any of the backward sync state persist between restarts?
-* the backward sync should sync towards a block that was sent by the consensus layer. At this moment, we sync towards a known head of the blockchain that we already have. What about reorgs?
-
-Highlights to note:
-* The algorithm starts when called `org.hyperledger.besu.consensus.merge.blockcreation.backward.sync.BackwardsSyncContext::syncBackwardsUntil`
-* The request returns a completable future that might complete exceptionally in case where the sync was interrupted by a newer request sent later or there was an error during sync. 
-* Theoretically, the Backward sync can be merged into master independently. 
-
-Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 09:12:24 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1182" class=".btn">#1182</a>
+            </td>
+            <td>
+                <b>
+                    v0.2 Rust 1.57 clippy updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 Rust 1.57 clippy updates for the 0-2 branch
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 15:27:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1181" class=".btn">#1181</a>
             </td>
             <td>
