@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3115" class=".btn">#3115</a>
+            </td>
+            <td>
+                <b>
+                    Bump Go to 1.17.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump Go to 1.17.5.
+
+Signed-off-by: David Enyeart enyeart@us.ibm.com
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-12 20:40:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3114" class=".btn">#3114</a>
             </td>
             <td>
