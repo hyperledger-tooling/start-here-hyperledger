@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/106" class=".btn">#106</a>
+            </td>
+            <td>
+                <b>
+                    add react route for exporting identities via link
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+- New feature
+
+#### Description
+adds a route to download the identities. visiting `/export-identities` will immediately prompt for a local download of your wallet.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 21:38:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/105" class=".btn">#105</a>
             </td>
             <td>
@@ -193,67 +228,6 @@ this helps us debug where the id came from.
     </table>
     <div class="right-align">
         Created At 2021-12-08 17:43:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/99" class=".btn">#99</a>
-            </td>
-            <td>
-                <b>
-                    add skip param to restore api + rebuild white list
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds a skip doc query parameter to the restore api. This will allow use of the restore api w/o having to modify the backup object in order to NOT restore certain documents.
-
-This PR also rebuilds the component whitelist once a restore is complete.  This should allow the console to operate with the components found in its db.
-
-query params:
-```js
-skip_system="['00_settings_athena']"	// [optional] docs that match these ids will not be restored to the system db
-skip_component="['abcd']"	// [optional] docs that match these ids will not be restored to the components db
-```
-Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 20:39:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/98" class=".btn">#98</a>
-            </td>
-            <td>
-                <b>
-                    issues template
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 18:43:08 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3168" class=".btn">#3168</a>
+            </td>
+            <td>
+                <b>
+                    Fixed typo in option name in CLI dependency check: tls-cipher-suite
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update dependency check for TLS / cipher-suite and added test
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 23:35:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3167" class=".btn">#3167</a>
+            </td>
+            <td>
+                <b>
+                    3140 header validation rules
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Kintsugi header validation rules.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #3140
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 22:39:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3166" class=".btn">#3166</a>
             </td>
             <td>
@@ -598,36 +668,6 @@ fixes #3131
     </table>
     <div class="right-align">
         Created At 2021-12-07 02:20:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3132" class=".btn">#3132</a>
-            </td>
-            <td>
-                <b>
-                    Removing duplicate code from FlexiblePrivacyPrecompiledContract [#2961]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Remove duplicate code (TODO) in FlexiblePrivacyPrecompiledContract. The getParticipantsFromParameter method was copied from FlexibleUtil, this has now been removed.
-
-## Fixed Issue(s)
-#2961
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 23:18:51 +0000 UTC
     </div>
 </div>
 

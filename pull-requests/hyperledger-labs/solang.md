@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    feat: feature-gate LLVM dependency
+                    Feature gate LLVM dependency
                 </b>
             </td>
         </tr>
