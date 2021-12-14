@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/15" class=".btn">#15</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/16" class=".btn">#16</a>
             </td>
             <td>
                 <b>
-                    Support the latest version of Fabric
+                    Add voting config option
                 </b>
             </td>
         </tr>
@@ -27,13 +27,16 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
                 
             </td>
             <td>
-                This patch adds Fabric v2.4.0 to the target versions for build and testing.
-Also, this bumps asset-transfer-basic to the latest version in fabric-samples.
+                This patch adds a voting configuration option for chaincode_ops.
+This allows OpsSC users to configure the maximum number of malicious organizations (`f`) in the voting process.
+
+- If the option is set, 2f + 1 is required to judge a proposal get `Approved`.
+- If the option is not set, a majority of all participating organizations is required to judge a proposal get `Approved`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-02 00:16:51 +0000 UTC
+        Created At 2021-12-14 11:23:01 +0000 UTC
     </div>
 </div>
 

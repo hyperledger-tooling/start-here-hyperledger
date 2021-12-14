@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3119" class=".btn">#3119</a>
+            </td>
+            <td>
+                <b>
+                    Reduce CPU&memory cost of collecting endorsements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Based on performance analysis of the gateway, the following changes are made in this commit:
+1. Instead of collecting and holding copies of all proposal responses in order to reuse the protoutil.CreateTx() function, just store a single response payload and all of the signed endorsement objects.  Check that all payloads are bitwise idential and endorsers are unique at collection time.
+2. Eliminate the duplicate unmarshalling that was occurring as a result of reusing protoutil.CreateTx
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-14 11:47:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3118" class=".btn">#3118</a>
             </td>
             <td>
@@ -404,39 +435,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2021-12-08 20:36:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3102" class=".btn">#3102</a>
-            </td>
-            <td>
-                <b>
-                    Fix channel config callback in gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently, the config update callback triggers a discovery call to get the updated channel orderers.
-However, this relies on the discovery service having processed the config message before the gateway.  If it hasn’t, the gateway just gets the stale orderer config.
-This commit changes the logic so the gateway extracts the orderer endpoints directly from the config bundle.
-
-Resolves https://github.com/hyperledger/fabric-gateway/issues/318
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-07 09:59:16 +0000 UTC
     </div>
 </div>
 
