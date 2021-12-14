@@ -54,6 +54,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
+- `upgrade` command
+  **Example**
+  ```
+  ./scripts/run_docker upgrade --upgrade-config ./aries_cloudagent/acapy_upgrade_config.yml \
+  --wallet-type indy \
+  --wallet-name issuer \
+  --wallet-key mykey \
+  --wallet-storage-type postgres_storage \
+  --wallet-storage-config '{"url":"host.docker.internal:5432","max_connections":5}' \
+  --wallet-storage-creds '{"account":"postgres","password":"pwd","admin_account":"postgres","admin_password":"pwd"}'
+  ```
+    - `--upgrade-config` - path to YAML config file
+      **Example YAML config**
+      ```
+      resave_records:
+        base_record_path:
+          - "aries_cloudagent.connections.models.conn_record.ConnRecord"
+        base_exch_record_path:
+          - "aries_cloudagent.protocols.issue_credential.v1_0.models.credential_exchange.V10CredentialExchange"
+      update_existing_records: false
+      ```
+      The above will re-save `ConnRecord` and `V10CredentialExchange`. `update_existing_records` can be used to handle 
+      changes where existing records need to be updated, for instance, if a new required field has been added to Marshmallow 
+      schema. The steps/logic for this can be implemented [here](https://github.com/hyperledger/aries-cloudagent-python/blob/23db66a41a82313ee76951e856b54f2fb6fecca7/aries_cloudagent/commands/upgrade.py#L63), this will have to be managed every release.
+    - Also accepts `WalletGroup` arguments
+
+Thanks @ianco for suggesting the command approach. This is an initial implementation, for now, it can only handle re-save and/or update records but it can be expanded upon. @andrewwhitehead, @swcurran, and @ianco I will appreciate any feedback.
             </td>
         </tr>
     </table>
@@ -261,32 +288,6 @@ Not sure what is the issue of removing `request_id` from the inviter connection 
     </table>
     <div class="right-align">
         Created At 2021-12-08 19:18:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1538" class=".btn">#1538</a>
-            </td>
-            <td>
-                <b>
-                    Fix validation for range checks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-07 02:11:45 +0000 UTC
     </div>
 </div>
 

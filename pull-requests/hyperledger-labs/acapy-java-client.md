@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    Feature/ld improvements
+                    Integration test with multiple aca-py agents
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                <nil>
+                Test connection process between 2 agents.
+
+New base class for integration testing with multiple agents.
+
+TODO parametrize agent startup to allow different tests to start agents with different settings.
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-02 15:02:11 +0000 UTC
+        Created At 2021-12-14 04:37:55 +0000 UTC
     </div>
 </div>
 
