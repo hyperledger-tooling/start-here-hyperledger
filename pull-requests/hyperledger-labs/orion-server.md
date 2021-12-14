@@ -128,29 +128,3 @@ implemented (future commit).
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/293" class=".btn">#293</a>
-            </td>
-            <td>
-                <b>
-                    Proofs documentation and code snipplets for SDK.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-07 11:44:07 +0000 UTC
-    </div>
-</div>
-

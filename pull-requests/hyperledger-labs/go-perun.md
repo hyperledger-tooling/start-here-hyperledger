@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/295" class=".btn">#295</a>
+            </td>
+            <td>
+                <b>
+                    Move verify function from wallet.Backend to wallet.Sig
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #294.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-14 11:34:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/293" class=".btn">#293</a>
+            </td>
+            <td>
+                <b>
+                    Define an abstract type for wallet.Sig
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #292
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-14 10:43:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/291" class=".btn">#291</a>
             </td>
             <td>
