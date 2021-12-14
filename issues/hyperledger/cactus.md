@@ -14,42 +14,73 @@ permalink: /issues/hyperledger/cactus
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/cactus/issues/1142" class=".btn">1142</a>
+                Issue <a href="https://github.com/hyperledger/cactus/issues/1386" class=".btn">1386</a>
             </td>
             <td>
                 <b>
-                    build: migrate to Yarn v2
+                    test(connector-besu): fix missing multi-party all-in-one ledger image caching
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">good-first-issue</span><span class="chip">help wanted</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span><span class="chip">Hacktoberfest</span><span class="chip">dependent</span><span class="chip">good-first-issue-400-expert</span>
+                <span class="chip">bug</span><span class="chip">good-first-issue</span><span class="chip">help wanted</span><span class="chip">Nice-to-Have</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span><span class="chip">Performance</span><span class="chip">Hacktoberfest</span><span class="chip">good-first-issue-400-expert</span>
             </td>
             <td>
-                ### Description
+                > This is marked as a good first issue because mostly you just need to be experienced in containerization, not necessarily the core of the Cactus code nor distributed ledgers. Do bear in mind that it is level 400 though so it's not exactly easy unless you have significant experience with containers.
 
-Depends on https://github.com/hyperledger/cactus/pull/1141
+**Describe the bug**
 
-**This is an expert level good first issue, meaning that you don't need to know much about Cactus specifically, but you do need to be an expert in configuring build systems/package managers/etc.**
+The  multi-party all-in-one ledger image for Besu tests does not cache the images it downloads from DockerHub, meaning that every time the tests run it pulls all the images again and this has been leading to rate limiting errors that make the CI flaky (once again)
 
-**Yarn V2 is not yet generally available so we have to wait with this issue until it reaches GA. Do not work on this issue before that happens unless you are okay with waiting**
+**To Reproduce**
 
-**There's also a branch out there where Peter already performed the migration, but it's currently broken due to a bug in Yarn v2**
+Run a lot of tests for a lot of PRs all at once and in a few hours you will have exhausted the DockerHub rate limit and all the tests will start failing for the next 6-12 hours until the rate limit cools off.
 
-Yarn v2 has some performance improvements (among other things) compared to Yarn v1 so we should migrate over as soon as possible (when it hits GA).
+**Expected behavior**
 
+Tests are stable, DockerHub rate limits are not at risk of being hit at any time regardless of how many tests we run in parallel. 
 
-### Acceptance Criteria
-1. Developer flow has not changed, commands are the same (so that we don't have to re-write half the documentation)
-2. If the dev flow must change then the PR must include the new documentation for this and also a migration guide for people who have the old project build working (it's okay to say that they need to delete everything and do a fresh clone - as long as that actually works)
-3. No plug and play for now, let's take it one step at a time.
+Either the AIO besu multi-party image caches a set of pinned versions of all the images it uses (e.g. fetches from dockerhub) at image **build** time so that by the time the CI pulls up the container for the tests, it only needs to download the one big image from ghcr.io instead of dockerhub (the former does not have rate limits - yet)
 
+Relevant Dockerfile:
+`tools/docker/besu-multi-party-all-in-one/Dockerfile`
+
+**Logs/Stack traces**
+
+N/A
+
+**Screenshots**
+
+N/A
+
+**Cloud provider or hardware configuration:**
+
+GH managed action runners
+
+**Operating system name, version, build:**
+
+Ubuntu 20.04
+
+**Hyperledger Cactus release version or commit (git rev-parse --short HEAD):**
+
+0.9.0 / 0.10.0
+
+**Hyperledger Cactus Plugins/Connectors Used**
+
+Besu
+
+**Additional context**
+
+The AIO besu multi-party image caches a set of pinned versions of all the images it uses
+
+Relevant Dockerfile:
+`tools/docker/besu-multi-party-all-in-one/Dockerfile`
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-16 18:28:49 +0000 UTC
+        Created At 2021-09-28 00:52:43 +0000 UTC
     </div>
 </div>
 
