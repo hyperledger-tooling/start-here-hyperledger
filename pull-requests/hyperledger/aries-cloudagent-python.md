@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1558" class=".btn">#1558</a>
+            </td>
+            <td>
+                <b>
+                    Await asyncio.sleeps
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes a few warnings during tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-13 22:16:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1557" class=".btn">#1557</a>
             </td>
             <td>
@@ -261,33 +287,6 @@ Not sure what is the issue of removing `request_id` from the inviter connection 
     </table>
     <div class="right-align">
         Created At 2021-12-07 02:11:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1535" class=".btn">#1535</a>
-            </td>
-            <td>
-                <b>
-                    Updates to Changelog, RTD and version for the 0.7.3-RC0 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 18:45:59 +0000 UTC
     </div>
 </div>
 

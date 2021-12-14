@@ -1,13 +1,13 @@
 
-[602](https://github.com/hyperledger-labs/solang/pull/602) feat: feature-gate LLVM dependency
+[3168](https://github.com/hyperledger/besu/pull/3168) Fixed typo in option name in CLI dependency check: tls-cipher-suite
 
-[199](https://github.com/hyperledger-labs/fabric-smart-client/pull/199) Make default KA in CreateGRPCClient zero value
+[1729](https://github.com/hyperledger/iroha/pull/1729) [refactor] #1210: Split event stream
 
-[1557](https://github.com/hyperledger/aries-cloudagent-python/pull/1557) ACA-Py Upgrade command implementation
+[3167](https://github.com/hyperledger/besu/pull/3167) 3140 header validation rules
 
-[222](https://github.com/hyperledger-labs/minbft/pull/222) Specify commit certificate size explicitly
+[1558](https://github.com/hyperledger/aries-cloudagent-python/pull/1558) Await asyncio.sleeps
 
-[3104](https://github.com/hyperledger/aries-framework-go/pull/3104) chore: upgrade to Go 1.17 and fix MacOS Monterey Go Bug
+[3105](https://github.com/hyperledger/aries-framework-go/pull/3105) refactor: update goal_code invalid name for OOB V2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

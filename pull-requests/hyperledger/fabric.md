@@ -114,6 +114,10 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
             <td>
                 Bump Go to 1.17.5.
+Fix unit tests to work with Go 1.17.5.
+Update dependencies to work with Go 1.17.
+
+Resolves #3073 
 
 Signed-off-by: David Enyeart enyeart@us.ibm.com
             </td>
