@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/691" class=".btn">#691</a>
+            </td>
+            <td>
+                <b>
+                    Optimized runtime variables script
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">frontend</span><span class="chip">Infrastructure</span>
+            </td>
+            <td>
+                - Individual actions in script will only be performed when necessary
+    - No runtime/environment variable set - no delay
+- Improved maintainability (just add future runtime variable names to the pseudo-array)
+- Improved POSIX compliance (should run on virtually any Linux based container image - provided that java is installed)
+
+Signed-off-by: Tim Schlagenhaufer <tim.schlagenhaufer@bosch.io>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/691"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-14 13:21:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/690" class=".btn">#690</a>
             </td>
             <td>
@@ -104,44 +139,6 @@ To hide the sidebar entirely, set both to true e.g. in your docker-compose as en
     </table>
     <div class="right-align">
         Created At 2021-12-10 17:37:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/686" class=".btn">#686</a>
-            </td>
-            <td>
-                <b>
-                    TypeScript Conversion + Project Cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Converted frontend codebase to TypeScript
-    - TS compiler flag "noImplicitAny" is still set to false as the codebase is not typed yet
-    - Future Vue components need to be switched to Typescript (<script lang="ts">...</script>)
-- Updated dependencies
-    - Set fixed versions of dependencies
-    - Added linting options + husky update with pre-commit git hook
-    - Added license header tool to build chain/git hook to automatically add license headers to all relevant text files with correct comment syntax
-
-+ Refactoring
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/686"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-07 17:27:42 +0000 UTC
     </div>
 </div>
 

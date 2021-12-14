@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/192" class=".btn">#192</a>
+                PR <a href="https://github.com/hyperledger/ursa/pull/197" class=".btn">#197</a>
             </td>
             <td>
                 <b>
-                    add r1cs-select
+                    Update Time crate
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                This PR adds a command-line tool that demonstrates how to build an R1CS circuit frontend that can choose between multiple backends. This work was funded by research from Fujistu Labs and donated to Ursa per their request.
+                Fixes https://github.com/hyperledger/ursa/issues/196
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-21 15:09:29 +0000 UTC
+        Created At 2021-12-14 14:38:37 +0000 UTC
     </div>
 </div>
 

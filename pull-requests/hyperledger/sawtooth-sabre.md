@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/165" class=".btn">#165</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/166" class=".btn">#166</a>
             </td>
             <td>
                 <b>
-                    Remove CI files used by Jenkins
+                    Replace rust-crypto with sha2
                 </b>
             </td>
         </tr>
@@ -27,14 +27,16 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
                 
             </td>
             <td>
-                CI will be handled by Github Actions.
+                The `"rust-crypto"` dependency was only being used for the Sha512 hashing capability. This can easily be replaced with the `"sha2"` library.  This library benefits from a number of things:
 
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+* It's maintained - rust-crypto hasn't been updated for 5 years
+* It's a smaller, single-purpose library - lower compile times
+* It's wasm-friendly - no need for target-specific dependencies
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-30 15:37:20 +0000 UTC
+        Created At 2021-12-14 16:08:01 +0000 UTC
     </div>
 </div>
 

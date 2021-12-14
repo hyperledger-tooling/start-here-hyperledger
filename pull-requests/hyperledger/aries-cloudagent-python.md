@@ -81,6 +81,23 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     - Also accepts `WalletGroup` arguments
 
 Thanks @ianco for suggesting the command approach. This is an initial implementation, for now, it can only handle re-save and/or update records but it can be expanded upon. @andrewwhitehead, @swcurran, and @ianco I will appreciate any feedback.
+
+**Follow-up**
+YAML config file format can be updated as:
+```
+  0.6.0:
+    ...
+  0.7.1:
+    ...
+  0.7.2:
+    resave_records:
+      base_record_path:
+        - "aries_cloudagent.connections.models.conn_record.ConnRecord"
+      base_exch_record_path:
+        - "aries_cloudagent.protocols.issue_credential.v1_0.models.credential_exchange.V10CredentialExchange"
+    update_existing_records: false
+```
+`from_version` argument can be added to `UpgradeGroup`. So with ACA-Py `0.7.3` release, if someone is updating from `0.7.2`  then they can run `./scripts/run_docker upgrade --upgrade-config ./aries_cloudagent/acapy_upgrade_config.yml  --from-version 0.7.2 ...` command.
             </td>
         </tr>
     </table>
