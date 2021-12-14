@@ -15,53 +15,51 @@ permalink: /releases/hyperledger/firefly
         <tr>
             <td colspan="2">
                 <b>
-                    v0.11.1
+                    v0.11.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.11.1
+                    v0.11.2
                 </span>
             </td>
             <td>
                 ## Summary
 This patch release includes important fixes and hardening for recent features. Major highlights:
-
-- Fixed bugs with some token transfer events being ignored
-- Added support for retrieving the URI attached to each non-fungible token
-- Updated EthConnect release with significant new features, particularly when using Kafka
-- Added initial prometheus metrics for batch pins
+* New charts UI and UI fixes for token panels
+* Handling for token connectors that don't guarantee a unique URI for each NFT
 
 ## Updated Dependencies
-* firefly-ethconnect [v3.1.0](https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.0)
-* firefly-fabconnect [v0.9.2](https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.2)
-* firefly-dataexchange-https [v0.9.2](https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.9.2)
-* firefly-tokens-erc1155 [v0.10.1](https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.10.1)
-* firefly-ui [v0.4.2](https://github.com/hyperledger/firefly-ui/compare/v0.4.1...v0.4.2)
+* firefly-dataexchange-https [v0.9.3](https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.9.3)
+* firefly-ui [v0.4.3](https://github.com/hyperledger/firefly-ui/compare/v0.4.2...v0.4.3)
 
 ## What's Changed
-* Update dependencies for v0.11.0 release by @nguyer in https://github.com/hyperledger/firefly/pull/333
-* Remove "skipEventstreamInit" parameters by @awrichar in https://github.com/hyperledger/firefly/pull/329
-* add batchpin counter prometheus metric by @shorsher in https://github.com/hyperledger/firefly/pull/334
-* Add token URI by @awrichar in https://github.com/hyperledger/firefly/pull/335
-* Split event stream helpers into separate files by @awrichar in https://github.com/hyperledger/firefly/pull/323
-* Add "Getting Started" documentation for tokens by @awrichar in https://github.com/hyperledger/firefly/pull/306
-* Move definitions of datatypes and tokens to their proper namespace by @nguyer in https://github.com/hyperledger/firefly/pull/312
-* Leverage new token transfer id from plugin by @awrichar in https://github.com/hyperledger/firefly/pull/336
-* bump ui to version 0.4.2 by @shorsher in https://github.com/hyperledger/firefly/pull/339
-* Update dependencies for v0.11.1 release by @awrichar in https://github.com/hyperledger/firefly/pull/342
+* Fix Hyperledger Image Refs and Migration Job's Postgres URL in Helm Chart by @hfuss in https://github.com/hyperledger/firefly/pull/340
+* Fix image repos by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/288
+* Updates to handle recursive structures in swagger - depends on kin-openapi change by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/337
+* Return an empty slice (rather than nil) for zero token accounts by @awrichar in https://github.com/hyperledger/firefly/pull/346
+* Address coverage drop from #337 by @awrichar in https://github.com/hyperledger/firefly/pull/347
+* on transfer/mint/burn fail, set transaction & operation as failed by @shorsher in https://github.com/hyperledger/firefly/pull/351
+* update prometheus client version by @shorsher in https://github.com/hyperledger/firefly/pull/352
+* Replace UpsertOperation with InsertOperation by @awrichar in https://github.com/hyperledger/firefly/pull/350
+* Metrics endpoint to support charting by @eberger727 in https://github.com/hyperledger/firefly/pull/341
+* Remove unique index on token URIs by @awrichar in https://github.com/hyperledger/firefly/pull/353
+* Reduce overhead of gocritic by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/344
+* ui version 0.4.3 by @shorsher in https://github.com/hyperledger/firefly/pull/358
+* Update manifest for dataexchange-https by @awrichar in https://github.com/hyperledger/firefly/pull/360
 
-**Full Changelog**: https://github.com/hyperledger/firefly/compare/v0.11.0...v0.11.1
+
+**Full Changelog**: https://github.com/hyperledger/firefly/compare/v0.11.1...v0.11.2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly/releases/tag/v0.11.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly/releases/tag/v0.11.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-12-01 16:28:13 +0000 UTC
+        Created At 2021-12-14 18:05:30 +0000 UTC
     </span>
 </div>
 
