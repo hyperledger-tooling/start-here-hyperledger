@@ -15,30 +15,35 @@ permalink: /releases/hyperledger/aries-cloudagent-python
         <tr>
             <td colspan="2">
                 <b>
-                    0.7.2
+                    0.7.3-rc0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.7.2
+                    0.7.3-rc0
                 </span>
             </td>
             <td>
-                A mostly maintenance release with some key updates and cleanups based on community deployments and discovery. With usage in the field increasing, we're cleaning up edge cases and issues related to volume deployments.
+                Release Candidate:
 
-The most significant new feature for users of Indy ledgers is a simplified approach for transaction authors getting their transactions signed by an endorser. Transaction author controllers now do almost nothing other than configuring their instance to use an Endorser, and ACA-Py takes care of the rest. Documentation for this feature can be found [here](https://github.com/hyperledger/aries-cloudagent-python/blob/main/Endorser.md).
+This release includes some new AIP 2.0 features out (Revocation Notification and
+Discover Features 2.0), a major new feature for those using Indy ledger (multi-ledger support),
+and a fix for a critical bug in some mediator scenarios. The release also includes several new
+pieces of documentation (storage database information and logging) and some other documentation
+updates that make the ACA-Py [Read The Docs site](https://aries-cloud-agent-python.readthedocs.io/en/latest/)
+useful again. And of course, some recent bug fixes and cleanups are included.
 
-Other changes in this release can be found in the Change Log, [Release 0.7.2](https://github.com/hyperledger/aries-cloudagent-python/blob/main/CHANGELOG.md#072).
+For some existing deployments there may be some breaking changes to be aware of in this release, as documented in the [Changelog.md file](https://github.com/hyperledger/aries-cloudagent-python/blob/main/CHANGELOG.md).
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.7.2" class=".btn">
+    <a href="https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.7.3-rc0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-11-15 18:58:10 +0000 UTC
+        Created At 2021-12-13 23:04:31 +0000 UTC
     </span>
 </div>
 
