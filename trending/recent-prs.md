@@ -1,13 +1,13 @@
 
-[201](https://github.com/hyperledger-labs/fabric-smart-client/pull/201) Add option to redirect FSC to file
+[3121](https://github.com/hyperledger/fabric/pull/3121) fix typo in docker-env.mk
 
-[3119](https://github.com/hyperledger/fabric/pull/3119) Reduce CPU&memory cost of collecting endorsements
+[223](https://github.com/hyperledger-labs/minbft/pull/223) Update CODEOWNERS
 
-[295](https://github.com/hyperledger-labs/go-perun/pull/295) Move verify function from wallet.Backend to wallet.Sig
+[217](https://github.com/hyperledger/fabric-chaincode-java/pull/217) Revert "add cause message to ContractRuntimeException message"
 
-[16](https://github.com/hyperledger-labs/fabric-opssc/pull/16) Add voting config option
+[202](https://github.com/hyperledger-labs/fabric-smart-client/pull/202) Redirect OSN output to file
 
-[200](https://github.com/hyperledger-labs/fabric-smart-client/pull/200) Revert "Make default KA in CreateGRPCClient zero value"
+[166](https://github.com/hyperledger/sawtooth-sabre/pull/166) Replace rust-crypto with sha2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -771,7 +771,7 @@ Merge main and address breakage in merge implementations
             </td>
             <td>
                 <b>
-                    Vert.x upgrade (for acceptanceTests)
+                    Vert.x upgrade (with tests)
                 </b>
             </td>
         </tr>
