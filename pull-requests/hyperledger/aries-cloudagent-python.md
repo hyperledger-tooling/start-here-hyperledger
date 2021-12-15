@@ -83,7 +83,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
       ```
       The above will re-save `ConnRecord` and `V10CredentialExchange`. `update_existing_records` can be used to handle 
       changes where existing records need to be updated, for instance, if a new required field has been added to Marshmallow 
-      schema. The steps/logic for this can be implemented [here](https://github.com/hyperledger/aries-cloudagent-python/blob/89118b7209bc0575c7daa3f57de595e65231d709/aries_cloudagent/commands/upgrade.py#L65), this will have to be managed every release.
+      schema. The steps/logic for this can be implemented [here](https://github.com/hyperledger/aries-cloudagent-python/blob/473e1053da9fb278d39d2a863598f5671ec51466/aries_cloudagent/commands/upgrade.py#L40) and [here](https://github.com/hyperledger/aries-cloudagent-python/blob/473e1053da9fb278d39d2a863598f5671ec51466/aries_cloudagent/commands/upgrade.py#L131), this will have to be managed every release.
     - `--from-version` is used to specify the ACA-Py version from which to upgrade.
     - Also accepts `WalletGroup` arguments
 
