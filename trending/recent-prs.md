@@ -1,13 +1,13 @@
 
-[3121](https://github.com/hyperledger/fabric/pull/3121) fix typo in docker-env.mk
+[224](https://github.com/hyperledger-labs/minbft/pull/224) Update CODEOWNERS
 
-[223](https://github.com/hyperledger-labs/minbft/pull/223) Update CODEOWNERS
+[692](https://github.com/hyperledger-labs/business-partner-agent/pull/692) Add endorser support WIP
 
-[217](https://github.com/hyperledger/fabric-chaincode-java/pull/217) Revert "add cause message to ContractRuntimeException message"
+[3107](https://github.com/hyperledger/aries-framework-go/pull/3107) fix: issuecredential empty metadata request should not override default message
 
-[202](https://github.com/hyperledger-labs/fabric-smart-client/pull/202) Redirect OSN output to file
+[375](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/375) build(deps): bump @openzeppelin/contracts from 3.3.0 to 4.4.1 in /net-emissions-token-network
 
-[166](https://github.com/hyperledger/sawtooth-sabre/pull/166) Replace rust-crypto with sha2
+[374](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/374) build(deps): bump @openzeppelin/contracts-upgradeable from 3.4.1 to 4.4.1 in /net-emissions-token-network
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

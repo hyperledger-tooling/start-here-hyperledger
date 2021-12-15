@@ -31,8 +31,9 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
 
 New base class for integration testing with multiple agents.
 
-TODO parametrize agent startup to allow different tests to start agents with different settings.
+Parametrize agent startup to allow different tests to start agents with different settings.
 
+Add test with author/endorser flow.
 
             </td>
         </tr>

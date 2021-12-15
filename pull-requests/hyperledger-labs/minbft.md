@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/minbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/223" class=".btn">#223</a>
+                PR <a href="https://github.com/hyperledger-labs/minbft/pull/224" class=".btn">#224</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/minbft
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-14 16:27:47 +0000 UTC
+        Created At 2021-12-14 23:16:07 +0000 UTC
     </div>
 </div>
 

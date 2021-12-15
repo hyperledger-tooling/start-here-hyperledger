@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/108" class=".btn">#108</a>
+            </td>
+            <td>
+                <b>
+                    lint code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement 
+
+#### Description
+- linted code based on es lint rules
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-14 20:34:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/107" class=".btn">#107</a>
+            </td>
+            <td>
+                <b>
+                    use the same major and minor versions for upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+- use the same major and minor versions for upgrade
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-14 20:16:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/106" class=".btn">#106</a>
             </td>
             <td>

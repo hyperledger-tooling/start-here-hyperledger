@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3107" class=".btn">#3107</a>
+            </td>
+            <td>
+                <b>
+                    fix: issuecredential empty metadata request should not override default message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-14 22:05:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3105" class=".btn">#3105</a>
             </td>
             <td>
@@ -82,7 +109,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+                - Added method to add Credential Fulfillment to an existing Verifiable Presentation.
+- Also added https://identity.foundation/credential-manifest/fulfillment/v1 to test contexts for JSON-LD document loader.
+- Renamed existing sample data as needed for consistency with the new sample data added in this commit and existing sample data.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
         </tr>
     </table>
