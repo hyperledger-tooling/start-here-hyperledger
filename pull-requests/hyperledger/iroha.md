@@ -306,7 +306,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [refactor] #0000: iroha_crypto dependencies
+                    [refactor]: iroha_crypto dependencies
                 </b>
             </td>
         </tr>
