@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3175" class=".btn">#3175</a>
+            </td>
+            <td>
+                <b>
+                    Update to log4j 2.16.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Updates to log4j2 2.16.0 which identified a second vector for JNDI attacks via `ThreadContext`. Besu only uses `ThreadContext` as part of the acceptance test framework and not in production code so isn't vulnerable to this issue.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-14 20:46:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3172" class=".btn">#3172</a>
             </td>
             <td>
@@ -31,6 +62,8 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+Factor out timer from BesuRunner into TransactionPoolEvictionService so that BesuRunner does not contain inner details of the transaction pool implementation.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -760,32 +793,6 @@ Merge main and address breakage in merge implementations
     </table>
     <div class="right-align">
         Created At 2021-12-08 00:57:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3135" class=".btn">#3135</a>
-            </td>
-            <td>
-                <b>
-                    Vert.x upgrade (with tests)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a PR continuing #3073 by @jflo just to see if it passes the _acceptanceTests_
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-07 20:04:41 +0000 UTC
     </div>
 </div>
 

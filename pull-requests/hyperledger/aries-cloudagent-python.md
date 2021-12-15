@@ -58,6 +58,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
   **Example**
   ```
   ./scripts/run_docker upgrade --upgrade-config ./aries_cloudagent/acapy_upgrade_config.yml \
+  --from-version 0.7.2 \
   --wallet-type indy \
   --wallet-name issuer \
   --wallet-key mykey \
@@ -68,36 +69,25 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     - `--upgrade-config` - path to YAML config file
       **Example YAML config**
       ```
-      resave_records:
-        base_record_path:
-          - "aries_cloudagent.connections.models.conn_record.ConnRecord"
-        base_exch_record_path:
-          - "aries_cloudagent.protocols.issue_credential.v1_0.models.credential_exchange.V10CredentialExchange"
-      update_existing_records: false
+      0.6.0:
+      ...
+      0.7.1:
+      ...
+      0.7.2:
+        resave_records:
+          base_record_path:
+            - "aries_cloudagent.connections.models.conn_record.ConnRecord"
+          base_exch_record_path:
+            - "aries_cloudagent.protocols.issue_credential.v1_0.models.credential_exchange.V10CredentialExchange"
+        update_existing_records: false
       ```
       The above will re-save `ConnRecord` and `V10CredentialExchange`. `update_existing_records` can be used to handle 
       changes where existing records need to be updated, for instance, if a new required field has been added to Marshmallow 
-      schema. The steps/logic for this can be implemented [here](https://github.com/hyperledger/aries-cloudagent-python/blob/23db66a41a82313ee76951e856b54f2fb6fecca7/aries_cloudagent/commands/upgrade.py#L63), this will have to be managed every release.
+      schema. The steps/logic for this can be implemented [here](https://github.com/hyperledger/aries-cloudagent-python/blob/89118b7209bc0575c7daa3f57de595e65231d709/aries_cloudagent/commands/upgrade.py#L65), this will have to be managed every release.
+    - `--from-version` is used to specify the ACA-Py version from which to upgrade.
     - Also accepts `WalletGroup` arguments
 
 Thanks @ianco for suggesting the command approach. This is an initial implementation, for now, it can only handle re-save and/or update records but it can be expanded upon. @andrewwhitehead, @swcurran, and @ianco I will appreciate any feedback.
-
-**Follow-up**
-YAML config file format can be updated as:
-```
-  0.6.0:
-    ...
-  0.7.1:
-    ...
-  0.7.2:
-    resave_records:
-      base_record_path:
-        - "aries_cloudagent.connections.models.conn_record.ConnRecord"
-      base_exch_record_path:
-        - "aries_cloudagent.protocols.issue_credential.v1_0.models.credential_exchange.V10CredentialExchange"
-    update_existing_records: false
-```
-`from_version` argument can be added to `UpgradeGroup`. So with ACA-Py `0.7.3` release, if someone is updating from `0.7.2`  then they can run `./scripts/run_docker upgrade --upgrade-config ./aries_cloudagent/acapy_upgrade_config.yml  --from-version 0.7.2 ...` command.
             </td>
         </tr>
     </table>
