@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3176" class=".btn">#3176</a>
+            </td>
+            <td>
+                <b>
+                    (fix) log data path on error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dev experience</span>
+            </td>
+            <td>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+We will now log the data path if the genesis doesn't match network provided for easier debug
+
+## Fixed Issue(s)
+fixes https://github.com/hyperledger/besu/issues/2756
+
+## Changelog
+Not required
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-15 02:07:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3175" class=".btn">#3175</a>
             </td>
             <td>
@@ -721,78 +761,6 @@ Use generic language, remove reference to Orion formatted messages
     </table>
     <div class="right-align">
         Created At 2021-12-08 19:08:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3137" class=".btn">#3137</a>
-            </td>
-            <td>
-                <b>
-                    Dockerfile: update to different 11 jre
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Update Dockerfile to use a Java 11 JRE which passes docker scan
-
-## Fixed Issue(s)
-Fixes #3045 
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-08 05:08:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3136" class=".btn">#3136</a>
-            </td>
-            <td>
-                <b>
-                    merge main into kintsugi v3 branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Merge main and address breakage in merge implementations
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-08 00:57:24 +0000 UTC
     </div>
 </div>
 

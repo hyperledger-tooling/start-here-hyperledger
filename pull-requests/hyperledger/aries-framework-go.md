@@ -333,36 +333,3 @@ Change type of Capability field in createKeyStoreResp to  []byte from string
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3090" class=".btn">#3090</a>
-            </td>
-            <td>
-                <b>
-                    fix: vcwallet WACI issuance fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - refactored WACI request credential to rely on state message rather
-than action events, to fix event notification issues in JavaScript
-bindings
-- other minor fixes
-- Part of #3073
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-08 03:03:14 +0000 UTC
-    </div>
-</div>
-
