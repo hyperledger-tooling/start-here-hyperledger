@@ -470,7 +470,7 @@ moved common code to a Before method
             </td>
             <td>
                 <b>
-                    Feature/fix sync
+                    Add retry mechanism when we failed to download a block from peers
                 </b>
             </td>
         </tr>

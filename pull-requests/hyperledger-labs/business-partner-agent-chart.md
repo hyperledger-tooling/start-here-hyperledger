@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/42" class=".btn">#42</a>
+            </td>
+            <td>
+                <b>
+                    release 0.9.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Philipp Etschel <philipp@etschel.net>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-15 08:29:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/41" class=".btn">#41</a>
             </td>
             <td>

@@ -171,35 +171,3 @@ Signed-off-by: Baran Kılıç <baran.kilic@boun.edu.tr>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/552" class=".btn">#552</a>
-            </td>
-            <td>
-                <b>
-                    Fixed configtxlator permission error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-
-Fixed  issue  `configtxlator: error: open /dev/stdout: permission denied, try --help` found  while setting up test-network
-
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-08 08:06:47 +0000 UTC
-    </div>
-</div>
-
