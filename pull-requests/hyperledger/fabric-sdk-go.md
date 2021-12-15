@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/206" class=".btn">#206</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/208" class=".btn">#208</a>
             </td>
             <td>
                 <b>
-                    Get proposal response payload from chaincode action
+                    Update fabric-protos-go dependency
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                This is the correct chaincode transaction response payload location. The response payload field is intended to contain metadata but the peer currently copies the transaction response payload here for convenience. This causes failures due to gRPC message size limits for large response payloads and so may be removed in the future.
-
-Also changed a few build scripts to honour the GO_CMD environment variable.
+                This version of the Fabric protobuf Go bindings is functionally compatible with the previous one, but contains changes released in Fabric v2.4 and so makes this Go SDK able to coexist with the Fabric Gateway API for Go released alongside Fabric v2.4.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-02 13:59:08 +0000 UTC
+        Created At 2021-12-15 17:59:21 +0000 UTC
     </div>
 </div>
 

@@ -307,29 +307,3 @@ Change type of Capability field in createKeyStoreResp to  []byte from string
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3091" class=".btn">#3091</a>
-            </td>
-            <td>
-                <b>
-                    feat: merge issue-credential v2/v3 APIs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-08 15:53:21 +0000 UTC
-    </div>
-</div>
-

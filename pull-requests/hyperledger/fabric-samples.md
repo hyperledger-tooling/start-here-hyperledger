@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/562" class=".btn">#562</a>
+            </td>
+            <td>
+                <b>
+                    DRAFT - Add prometheus and grafana server in Fabric Samples test network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is just a draft to provide a working prototype for people that are interestensted on providing some feedback or just do some performance assessments during the Christmas period.
+
+It is an opportunity to have some feedback and ideas on how to improve this tool.
+
+At the moment the prometheus-grafana server is fully functional only on Lunux, while on other OS there are some problems on using the cadvisor to get docker metrics for prometheus. Will work on solving this problems after the Christmas break.
+
+Feel free to add any comments and leave as much feedback as you like.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-15 15:34:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/561" class=".btn">#561</a>
             </td>
             <td>
@@ -142,32 +174,6 @@ Signed-off-by: Baran Kılıç <baran.kilic@boun.edu.tr>
     </table>
     <div class="right-align">
         Created At 2021-12-09 06:56:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/553" class=".btn">#553</a>
-            </td>
-            <td>
-                <b>
-                    Updates to asset-transfer-basic Gateway sample to align with docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also install goimports globally to run the linting check rather than installing to each gomodule, which was causing dependency conflicts.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-08 17:45:12 +0000 UTC
     </div>
 </div>
 
