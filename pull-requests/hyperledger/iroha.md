@@ -81,7 +81,7 @@ More information about this is available in GitHub documentation: https://docs.g
 
 ### Benefits
 
-<!-- What benefits will be realized by the code change? -->
+Less chance a wrong message will be sent over the socket
 
 ### Possible Drawbacks
 
@@ -663,87 +663,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-12-09 00:23:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1705" class=".btn">#1705</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #1685, #1694: Update [Contributing.md].
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                
-
-### Description of the Change
-
-Updated `contributing.md` in accordance with points discussed at the `Iroha2::Core` meeting on 2021-12-08 Wed. 
-
-### Issue
-
-Partially addresses #1685 
-Closes #1694 
-
-
-### Benefits
-More up-to-date and enforceable contributing guide. 
-
-### Possible Drawbacks
-
-None
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-08 13:01:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1704" class=".btn">#1704</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #1698: Ensure client_cli is working and add documentation.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-
-
-### Issue
-Closes #1698 
-
-### Benefits
-
-`client_cli` works. 
-
-### Possible Drawbacks
-
-None. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-08 12:55:22 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[204](https://github.com/hyperledger-labs/fabric-smart-client/pull/204) Do not use QSCC to query block, fetch it from peer instead
+[208](https://github.com/hyperledger/fabric-sdk-go/pull/208) Update fabric-protos-go dependency
 
-[3123](https://github.com/hyperledger/fabric/pull/3123) Enable gateway concurrency limits
+[604](https://github.com/hyperledger-labs/solang/pull/604) Fix broken SafeMath due to missing phi nodes
 
-[693](https://github.com/hyperledger-labs/business-partner-agent/pull/693) Merge customization file with english localization
+[3179](https://github.com/hyperledger/besu/pull/3179) fastsync refactor for snapsync
 
-[42](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/42) release 0.9.2
+[168](https://github.com/hyperledger/sawtooth-sabre/pull/168) Fix mistune doc build error
 
-[3176](https://github.com/hyperledger/besu/pull/3176) (fix) log data path on error
+[43](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/43) Add runtime variables to bpa chart
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
