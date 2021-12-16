@@ -39,33 +39,3 @@ Signed-off-by: Baohua Yang <yangbaohua@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/356" class=".btn">#356</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-355] There has a bug of Call cmd, need to be fixed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There has a bug of Call cmd, need to be fixed: Cannot find the peer binary file now.
-
-Close #issue-#355
-
-Signed-off-by: tianxuanhong <523713078@qq.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-09 01:16:33 +0000 UTC
-    </div>
-</div>
-

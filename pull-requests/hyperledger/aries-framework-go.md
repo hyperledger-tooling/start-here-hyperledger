@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
             </td>
             <td>
                 <b>
-                    refactor: move oobv2 From field out of attachment
+                    refactor: move oobv2 'From' field up from attachment
                 </b>
             </td>
         </tr>
