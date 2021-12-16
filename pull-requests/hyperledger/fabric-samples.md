@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/564" class=".btn">#564</a>
+            </td>
+            <td>
+                <b>
+                    Add build status to readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-16 11:14:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/562" class=".btn">#562</a>
             </td>
             <td>
@@ -120,60 +146,6 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2021-12-09 20:05:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/555" class=".btn">#555</a>
-            </td>
-            <td>
-                <b>
-                    Lint fix 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-09 08:39:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/554" class=".btn">#554</a>
-            </td>
-            <td>
-                <b>
-                    Add acknowledgement text for erc1155 chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hi! I previously contributed ERC1155 in #463. I am now requested to add a acknowledgement text. I will be glad if you approve it. Thanks.
-
-Signed-off-by: Baran Kılıç <baran.kilic@boun.edu.tr>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-09 06:56:28 +0000 UTC
     </div>
 </div>
 

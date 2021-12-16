@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/18" class=".btn">#18</a>
+            </td>
+            <td>
+                <b>
+                    fix(agent): Fix a bug when handling a proposal not using the next sequence
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Normally, if a proposal uses an incorrect sequence number, there is no problem
+because committing the chaincode definition will fail.
+
+However, in the case of a proposal with the current sequence number and a new
+chaincode source code, the approval process will update the chaincode package
+in the sequence unexpectedly. Furthermore, in the case of using an earlier
+sequence number, resources are wasted due to installing the chaincode successfully.
+
+To avoid the cases, this patch adds a process to compare the committed sequence
+number with the proposed one at the top of prepareToDeploy().
+
+Also, the PR includes some minor modifications.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-16 11:22:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/17" class=".btn">#17</a>
+            </td>
+            <td>
+                <b>
+                    fix(common,agent,api-server): Improve log formats
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This patch improves the log formats as follows:
+- Change the formats from 'simple' to 'json'
+- Improve readability of submitTransaction() error messages
+
+Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-16 06:30:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/16" class=".btn">#16</a>
             </td>
             <td>
