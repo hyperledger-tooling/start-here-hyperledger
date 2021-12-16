@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3108" class=".btn">#3108</a>
+            </td>
+            <td>
+                <b>
+                    refactor: move oobv2 From field out of attachment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As per the DIDComm V2 spec, the From field should be in the oobv2 struct directly, not in the attachment.
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-15 23:34:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3107" class=".btn">#3107</a>
             </td>
             <td>

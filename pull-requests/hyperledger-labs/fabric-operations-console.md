@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/110" class=".btn">#110</a>
+            </td>
+            <td>
+                <b>
+                    fix refresh cert button, only show for deploy node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+The "refresh cert" button should show up for deployed nodes and not show for imported nodes. This was not working as intended for orderering nodes. If the first orderer in an OS (when sorted by name alphabetically) was a deployed node, the console would show the button on all ordering nodes in that OS.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-15 19:34:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/108" class=".btn">#108</a>
             </td>
             <td>
@@ -172,69 +207,6 @@ The version comparison logic did not work correctly when comparing 1 double digi
     </table>
     <div class="right-align">
         Created At 2021-12-10 18:56:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/103" class=".btn">#103</a>
-            </td>
-            <td>
-                <b>
-                    1208-releasenotes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- release notes
-
-#### Description
-- updated release notes
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-08 21:55:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/102" class=".btn">#102</a>
-            </td>
-            <td>
-                <b>
-                    Auto upgrade version fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Bug fix
-
-#### Description
-- the auto upgrade fabric logic was upgrading from versions that were okay. it was upgrading all orderers to the highest available major fabric version, unless they were already at the highest level (within the same major version).
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-08 18:59:15 +0000 UTC
     </div>
 </div>
 

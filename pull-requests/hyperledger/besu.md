@@ -851,35 +851,3 @@ fixes https://github.com/hyperledger/besu/issues/3142
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3143" class=".btn">#3143</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] updating enclave AT code to remove orion references
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Use generic language, remove reference to Orion formatted messages
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-08 19:08:25 +0000 UTC
-    </div>
-</div>
-
