@@ -204,37 +204,3 @@ Fixes #1549
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1545" class=".btn">#1545</a>
-            </td>
-            <td>
-                <b>
-                    Add credential_revoked state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Pull request for [Issue: 1539](https://github.com/hyperledger/aries-cloudagent-python/issues/1539)
-@swcurran  Added the credential_revoked state. 
-For now I have considered only issue-credential 1.0, I should check for the record in V20CredentialExchange too.
-Will do it soon. If you have any suggestions on my approach please comment below.
-
-Questions:
-- Is it required raise an error if the credential record doesn't exist? 
-- The credential state should be changed only after publishing revocation.
-   When publish is set to pending, what is the best way to implement this?. I'm planning to create retrieve credential records using rev_reg_id and cred_rev_id
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-09 09:28:53 +0000 UTC
-    </div>
-</div>
-

@@ -1,13 +1,13 @@
 
-[3186](https://github.com/hyperledger/besu/pull/3186) Validate that blockperiodseconds is set to a positive integer
+[171](https://github.com/hyperledger/fabric-sdk-java/pull/171) Release v1.4.14
 
-[3183](https://github.com/hyperledger/besu/pull/3183) specify solidity version
+[14](https://github.com/hyperledger-labs/acapy-java-client/pull/14) prepare for upcoming 0.7.3 release of aca-py
 
-[3182](https://github.com/hyperledger/besu/pull/3182) test -- DO NOT MERGE
+[18](https://github.com/hyperledger-labs/fabric-opssc/pull/18) fix(agent): Fix a bug when handling a proposal not using the next sequence
 
-[3181](https://github.com/hyperledger/besu/pull/3181) no acceptance tests + log4j fix
+[564](https://github.com/hyperledger/fabric-samples/pull/564) Add build status to readme
 
-[3108](https://github.com/hyperledger/aries-framework-go/pull/3108) refactor: move oobv2 'From' field up from attachment
+[605](https://github.com/hyperledger-labs/solang/pull/605) Emit syntax errors and uniswap tests
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
