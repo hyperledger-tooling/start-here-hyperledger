@@ -268,34 +268,3 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3095" class=".btn">#3095</a>
-            </td>
-            <td>
-                <b>
-                    fix: removing item tagged by collection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - fixing issue with `wallet.Remove()` where mapping data with collection
-wasn't deleted.
-- Part of #2433
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-09 16:51:48 +0000 UTC
-    </div>
-</div>
-

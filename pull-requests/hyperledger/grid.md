@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1187" class=".btn">#1187</a>
+            </td>
+            <td>
+                <b>
+                    Add xsd files to gridd .deb package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Including these in the package ensures they're available if the package
+is copied out of the Docker image and installed elsewhere.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-16 16:43:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1186" class=".btn">#1186</a>
             </td>
             <td>

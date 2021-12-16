@@ -67,32 +67,3 @@ Related to #215, #178.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/220" class=".btn">#220</a>
-            </td>
-            <td>
-                <b>
-                    Reject messages embedding incorrect messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                This pull request concludes the changes in handling of incorrect messages that were discussed in #217.
-
-Related to #217, #178.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-09 15:01:49 +0000 UTC
-    </div>
-</div>
-
