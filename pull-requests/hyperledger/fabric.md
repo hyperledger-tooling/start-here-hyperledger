@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3131" class=".btn">#3131</a>
+            </td>
+            <td>
+                <b>
+                    v2.4.1 release commit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update release notes, documentation, and scripts for v2.4.1.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-16 19:42:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3128" class=".btn">#3128</a>
             </td>
             <td>
@@ -529,64 +558,6 @@ The dist/xxx target was originally updated, but the actual publishing from the f
     </table>
     <div class="right-align">
         Created At 2021-12-10 09:55:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3110" class=".btn">#3110</a>
-            </td>
-            <td>
-                <b>
-                    Update 'Running a Fabric Application' tutorial for Fabric Gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also fixed a few build warnings in other documents.
-
-Contributes to #2807 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-09 22:01:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3109" class=".btn">#3109</a>
-            </td>
-            <td>
-                <b>
-                    Update config transaction validation logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix misleading debug message.
-Log info when channel config is applied.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-09 21:59:26 +0000 UTC
     </div>
 </div>
 

@@ -149,29 +149,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/556" class=".btn">#556</a>
-            </td>
-            <td>
-                <b>
-                    More Gateway asset-transfer-basic tweaks to support docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-09 20:05:15 +0000 UTC
-    </div>
-</div>
-

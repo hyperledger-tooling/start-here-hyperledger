@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1563" class=".btn">#1563</a>
+            </td>
+            <td>
+                <b>
+                    Typo vdr service name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-16 21:46:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1562" class=".btn">#1562</a>
+            </td>
+            <td>
+                <b>
+                    chore: update pydid to ^0.3.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should have a pretty minimal impact on things while enabling resolution of Documents with nonconforming `@context` attributes (spec defines that context must be a list of strings, some docs have embedded contexts). Also solves the bug mentioned in this comment from forever ago: https://github.com/hyperledger/aries-cloudagent-python/pull/1218#issuecomment-890591874
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-16 20:19:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1561" class=".btn">#1561</a>
             </td>
             <td>

@@ -14,6 +14,112 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3196" class=".btn">#3196</a>
+            </td>
+            <td>
+                <b>
+                    TEST DO NOT MERGRE Release solc fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-17 00:11:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3195" class=".btn">#3195</a>
+            </td>
+            <td>
+                <b>
+                    Fix canDeployContractSignedByPlugin acceptance test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+
+Fixes `canDeployContractSignedByPlugin` acceptance test by retrieving the transaction hash of the contract deployment programmatically. Removed path for solidity executable to make ot work on MacOS as well.
+
+## Fixed Issue(s)
+fixes #3189 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-16 21:25:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3194" class=".btn">#3194</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.10.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                cherry-picks for 21.10.4
+* install solc on CI executor 
+* update log4j
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-16 21:09:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3193" class=".btn">#3193</a>
             </td>
             <td>
@@ -279,13 +385,17 @@ Revert deletion of the lowest announced block detection
 
 ## PR description
 
+According to the spec, the 'to' field of a transaction is optional, and it is not specified when call `eth_call` to create a contract.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
+fixes #3
+
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
