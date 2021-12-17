@@ -15,30 +15,27 @@ permalink: /releases/hyperledger/indy-sdk-react-native
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.1.15
+                    Release 0.1.16
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.1.15
+                    0.1.16
                 </span>
             </td>
             <td>
-                * ci: validate on pr (#22) (f058a5b)
-* Android: add generateNonce method. (#21) (16710fa)
-* iOS: Add generateNonce method (#20) (36e926a)
-* chore(deps): bump react-native from 0.59.10 to 0.62.3 (#13) (4c0a8b2)
-* Bump tmpl from 1.0.4 to 1.0.5 (#19) (bae864d)
+                * fix: allow sender verkey to be null when packing with anoncrypt (#25) (e23aa64)
+* android: pool calls happen in own thread (#24) (222b2d0)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.1.15" class=".btn">
+    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.1.16" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-11-27 14:58:36 +0000 UTC
+        Created At 2021-12-17 19:42:38 +0000 UTC
     </span>
 </div>
 
