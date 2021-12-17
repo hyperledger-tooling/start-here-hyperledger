@@ -276,33 +276,3 @@ To hide the sidebar entirely, set both to true e.g. in your docker-compose as en
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/687" class=".btn">#687</a>
-            </td>
-            <td>
-                <b>
-                    fix link to local-network scenario
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jason Sy <jasyrotuck@gmail.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/687"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-10 17:37:57 +0000 UTC
-    </div>
-</div>
-

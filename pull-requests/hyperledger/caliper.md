@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1184" class=".btn">#1184</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1186" class=".btn">#1186</a>
             </td>
             <td>
                 <b>
-                    Fix CompositeRateController class bug (#1181)
+                    Propose myself as a new caliper Maintainer
                 </b>
             </td>
         </tr>
@@ -27,19 +27,17 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                * Rename old "roundConfig" references to the new "testMessage"
-* Extend TestMessage class with some functions to allow modification by CompositeRateController
-* Fix passed arguments to the new RateControl constructor when creating subcontrollers
-* Add a composite rate controller to one of the Fabric CI phases
+                I would like to request to become a new caliper maintainer based on my
+contributions to caliper especially around a new fabric connector
+released in 0.4.2
 
-Fixes #1181 
+Signed-off-by: D <d_kelsey@uk.ibm.com>
 
-Signed-off-by: Attila Klenik <a.klenik@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-08 23:17:26 +0000 UTC
+        Created At 2021-12-17 15:34:56 +0000 UTC
     </div>
 </div>
 

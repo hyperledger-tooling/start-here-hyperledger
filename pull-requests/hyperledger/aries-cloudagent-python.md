@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1565" class=".btn">#1565</a>
+            </td>
+            <td>
+                <b>
+                    Update docker scripts to use new & improved docker IP detection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+Required to support newer versions of docker
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-17 18:02:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1564" class=".btn">#1564</a>
             </td>
             <td>
