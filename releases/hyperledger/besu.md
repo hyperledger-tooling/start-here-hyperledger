@@ -15,6 +15,37 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
+                    Release 21.10.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    21.10.4
+                </span>
+            </td>
+            <td>
+                ### Bug Fixes
+- Update log4j to 2.16.0.
+- Change the base docker image from Debian Buster to Ubuntu 20.04 [#3171](https://github.com/hyperledger/besu/issues/3171) fixes [#3045](https://github.com/hyperledger/besu/issues/3045)
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/besu/releases/tag/21.10.4" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2021-12-17 02:24:08 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     22.1.0-RC1
                 </b>
             </td>
