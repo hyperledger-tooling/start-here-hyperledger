@@ -1,13 +1,13 @@
 
-[21.10.4](https://github.com/hyperledger/besu/releases/tag/21.10.4) Release 21.10.4
+[v2.4.1](https://github.com/hyperledger/fabric/releases/tag/v2.4.1) v2.4.1
 
-[22.1.0-RC1](https://github.com/hyperledger/besu/releases/tag/22.1.0-RC1) 22.1.0-RC1
+[v2.2.11](https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.11) v2.2.11
 
-[bpa-0.9.3](https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.9.3) bpa-0.9.3
+[0.27.0](https://github.com/hyperledger/aries-vcx/releases/tag/0.27.0) Release 0.27.0
 
-[22.1.0-RC1](https://github.com/hyperledger/besu-docs/releases/tag/22.1.0-RC1) 22.1.0-RC1
+[v2.2.10](https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.10) v2.2.10
 
-[0.9.3](https://github.com/hyperledger-labs/business-partner-agent/releases/tag/0.9.3) 0.9.3
+[v1.4.14](https://github.com/hyperledger/fabric-sdk-java/releases/tag/v1.4.14) v1.4.14
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
