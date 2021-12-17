@@ -30,6 +30,9 @@ permalink: /releases/hyperledger/besu
 - Update log4j to 2.16.0.
 - Change the base docker image from Debian Buster to Ubuntu 20.04 [#3171](https://github.com/hyperledger/besu/issues/3171) fixes [#3045](https://github.com/hyperledger/besu/issues/3045)
 
+### Download Links
+[besu-21.10.4.tar.gz](https://hyperledger.jfrog.io/ui/native/besu-binaries/besu/21.10.4/besu-21.10.4.tar.gz) (SHA256 952beb48ffda8680dc34ecb617693524448313dc3007e483a379056030f1efd7)
+[besu-21.10.4.zip](https://hyperledger.jfrog.io/ui/native/besu-binaries/besu/21.10.4/besu-21.10.4.zip) (SHA256 e72e7ce2f7b11183a68b54d67edfc1bdf90a54f1654ff80247b952d4c88993c0)
             </td>
         </tr>
     </table>
@@ -37,7 +40,7 @@ permalink: /releases/hyperledger/besu
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-12-17 02:24:08 +0000 UTC
+        Created At 2021-12-17 04:51:04 +0000 UTC
     </span>
 </div>
 
