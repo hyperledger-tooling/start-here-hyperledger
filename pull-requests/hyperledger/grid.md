@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1188" class=".btn">#1188</a>
+            </td>
+            <td>
+                <b>
+                    Update Splinter version and add authorization to ScabbardClient
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-16 20:38:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1187" class=".btn">#1187</a>
             </td>
             <td>
@@ -128,7 +154,7 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
             </td>
             <td>
                 <b>
-                    Backport: Stabilize `cylinder-jwt-support` to 0-2 branch
+                    Backport: Stabilize `cylinder-jwt-support` to 0-2 branch & adding ScabbardClient auth
                 </b>
             </td>
         </tr>
@@ -138,6 +164,8 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
             </td>
             <td>
                 This includes the commit used to stabilize the `cylinder-jwt-support` feature in both the SDK and the daemon.
+
+Also backports #1188 
             </td>
         </tr>
     </table>
