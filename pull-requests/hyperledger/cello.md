@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/359" class=".btn">#359</a>
+            </td>
+            <td>
+                <b>
+                    Add API Response wrappers.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add Response wrappers to channel, organization, node, register and login API. 
+Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-17 05:19:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/357" class=".btn">#357</a>
             </td>
             <td>
