@@ -43,32 +43,6 @@ Resolves: #225
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/224" class=".btn">#224</a>
-            </td>
-            <td>
-                <b>
-                    Update CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Do not merge.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-14 23:16:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/minbft/pull/222" class=".btn">#222</a>
             </td>
             <td>

@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3197" class=".btn">#3197</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix/suggested fee recipient
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+fix a defect found in kintsugi testnet where we produce blocks with the coinbase from miningParams, but use suggestedFeeRecipient for the blockheader.
+* consistently use suggestedFeeRecipient and fall back to miningParams
+* start MiningCoordinator test coverage with this case
+* clean up of unnecessary blockValidator params to MiningCoordinator and BackwardsSyncContext
+* ensure only latest (best) blockProposal is available by payloadId from MergeContext
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-17 18:30:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3196" class=".btn">#3196</a>
             </td>
             <td>
@@ -796,37 +838,6 @@ moved common code to a Before method
     </table>
     <div class="right-align">
         Created At 2021-12-13 00:34:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3159" class=".btn">#3159</a>
-            </td>
-            <td>
-                <b>
-                    uprev to 20.10.4-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-
-## Changelog
-
-- [X ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-10 19:24:04 +0000 UTC
     </div>
 </div>
 

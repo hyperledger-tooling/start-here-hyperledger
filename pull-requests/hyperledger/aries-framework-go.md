@@ -177,33 +177,3 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3102" class=".btn">#3102</a>
-            </td>
-            <td>
-                <b>
-                    feat: Method to add Credential Fulfillment to Verifiable Presentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Added method to add Credential Fulfillment to an existing Verifiable Presentation.
-- Also added https://identity.foundation/credential-manifest/fulfillment/v1 to test contexts for JSON-LD document loader.
-- Renamed existing sample data as needed for consistency with the new sample data added in this commit and existing sample data.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-10 20:01:52 +0000 UTC
-    </div>
-</div>
-
