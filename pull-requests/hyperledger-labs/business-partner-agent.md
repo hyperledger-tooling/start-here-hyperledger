@@ -246,33 +246,3 @@ To hide the sidebar entirely, set both to true e.g. in your docker-compose as en
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/689" class=".btn">#689</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix for CVE-2021-44228 increased Log4J version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Martin Aulich <m.aulich@gmx.de>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/689"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-11 17:45:06 +0000 UTC
-    </div>
-</div>
-
