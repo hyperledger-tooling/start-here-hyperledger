@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1566" class=".btn">#1566</a>
+            </td>
+            <td>
+                <b>
+                    DiscoveryExchangeRecord RECORD_TOPIC typo fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-17 23:15:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1565" class=".btn">#1565</a>
             </td>
             <td>
@@ -295,60 +321,6 @@ Thanks @ianco for suggesting the command approach. This is an initial implementa
     </table>
     <div class="right-align">
         Created At 2021-12-11 20:13:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1551" class=".btn">#1551</a>
-            </td>
-            <td>
-                <b>
-                    Update demo requirements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-11 00:45:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1550" class=".btn">#1550</a>
-            </td>
-            <td>
-                <b>
-                    Remove required dependencies from multi-ledger code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also adjusts the return value from `get_ledger_for_identifier` for consistency.
-
-Fixes #1549 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-10 23:55:24 +0000 UTC
     </div>
 </div>
 

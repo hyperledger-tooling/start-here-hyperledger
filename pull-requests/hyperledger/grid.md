@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1191" class=".btn">#1191</a>
+            </td>
+            <td>
+                <b>
+                    Fix revision count in `po version list`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds filter to select only revisions of the same purchase order
+when listing po versions. Previously, if versions of different
+purchase orders had the same version ID, the revison count would
+include all revisions of versions with that name.
+
+Resolves: #1170
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-18 00:36:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1190" class=".btn">#1190</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize `purchase-order` feature in sdk
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This stabilizes the `purchase-order` feature in the Grid SDK by moving
+the feature from `experimental` to `stable`.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-17 19:06:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1189" class=".btn">#1189</a>
             </td>
             <td>
@@ -169,60 +231,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-12-13 15:27:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1181" class=".btn">#1181</a>
-            </td>
-            <td>
-                <b>
-                    Backport: Stabilize `cylinder-jwt-support` to 0-2 branch & adding ScabbardClient auth
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This includes the commit used to stabilize the `cylinder-jwt-support` feature in both the SDK and the daemon.
-
-Also backports #1188 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-10 22:31:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1180" class=".btn">#1180</a>
-            </td>
-            <td>
-                <b>
-                    Add tests for the purchase order endpoints provided by the daemon
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Mainly, this PR is a response to a request made in the stabilization process for the Grid Daemon's `purchase-order` feature. This PR adds tests to the purchase-order-specific rest endpoints. This also adds a field to the return objects, `service_id`, as this field allows for more thorough testing and is info that some clients may want or need.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-10 22:22:03 +0000 UTC
     </div>
 </div>
 

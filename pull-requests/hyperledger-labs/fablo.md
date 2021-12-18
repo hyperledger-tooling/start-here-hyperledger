@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/261" class=".btn">#261</a>
+            </td>
+            <td>
+                <b>
+                    Update test-on-push.yml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Gate slack on forks
+
+Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-17 22:52:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fablo/pull/260" class=".btn">#260</a>
             </td>
             <td>
