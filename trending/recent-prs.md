@@ -1,13 +1,13 @@
 
+[262](https://github.com/hyperledger-labs/fablo/pull/262) don't merge - gateway test only
+
+[174](https://github.com/hyperledger/fabric-sdk-java/pull/174) Bump log4j-core from 2.16.0 to 2.17.0 (release-1.4)
+
+[173](https://github.com/hyperledger/fabric-sdk-java/pull/173) Bump log4j-core from 2.16.0 to 2.17.0 (release-2.2)
+
+[172](https://github.com/hyperledger/fabric-sdk-java/pull/172) Bump log4j-core from 2.16.0 to 2.17.0
+
 [3198](https://github.com/hyperledger/besu/pull/3198) Update Log4J2 to 2.17.0
-
-[268](https://github.com/hyperledger/blockchain-explorer/pull/268) Simplify e2e-test for upgrading test env to the latest
-
-[3135](https://github.com/hyperledger/fabric/pull/3135) peer-chaincode-devmode.md - added missing quotation mark (') in commnd
-
-[3134](https://github.com/hyperledger/fabric/pull/3134) sampleconfig - change address in core.yaml to avoid collision with orderer.yaml
-
-[1191](https://github.com/hyperledger/grid/pull/1191) Fix revision count in `po version list`
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
