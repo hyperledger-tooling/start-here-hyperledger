@@ -232,7 +232,7 @@ Signed-off-by: Ethan Sung <baegjae@gmail.com>
   **Example**
   ```
   ./scripts/run_docker upgrade --upgrade-config ./aries_cloudagent/acapy_upgrade_config.yml \
-  --from-version 0.7.2 \
+  --from-version v0.7.2 \
   --wallet-type indy \
   --wallet-name issuer \
   --wallet-key mykey \
@@ -243,11 +243,11 @@ Signed-off-by: Ethan Sung <baegjae@gmail.com>
     - `--upgrade-config` - path to YAML config file
       **Example YAML config**
       ```
-      0.6.0:
+      v0.6.0:
       ...
-      0.7.1:
+      v0.7.1:
       ...
-      0.7.2:
+      v0.7.2:
         resave_records:
           base_record_path:
             - "aries_cloudagent.connections.models.conn_record.ConnRecord"
@@ -257,9 +257,11 @@ Signed-off-by: Ethan Sung <baegjae@gmail.com>
       ```
       The above will re-save `ConnRecord` and `V10CredentialExchange`. `update_existing_records` can be used to handle 
       changes where existing records need to be updated, for instance, if a new required field has been added to Marshmallow 
-      schema. The steps/logic for this can be implemented [here](https://github.com/hyperledger/aries-cloudagent-python/blob/473e1053da9fb278d39d2a863598f5671ec51466/aries_cloudagent/commands/upgrade.py#L40) and [here](https://github.com/hyperledger/aries-cloudagent-python/blob/473e1053da9fb278d39d2a863598f5671ec51466/aries_cloudagent/commands/upgrade.py#L131), this will have to be managed every release.
-    - `--from-version` is used to specify the ACA-Py version from which to upgrade.
+      schema. It is handled here: [link1](https://github.com/hyperledger/aries-cloudagent-python/blob/c97c1ba35168e9ab445ec9328e19350a7ece0d47/aries_cloudagent/commands/upgrade.py#L39) and [link2](https://github.com/hyperledger/aries-cloudagent-python/blob/c97c1ba35168e9ab445ec9328e19350a7ece0d47/aries_cloudagent/commands/upgrade.py#L122) and [link3](https://github.com/hyperledger/aries-cloudagent-python/blob/c97c1ba35168e9ab445ec9328e19350a7ece0d47/aries_cloudagent/commands/upgrade.py#L183), this will have to be managed every release.
+    - `--from-version` is only required when version information is not there in storage. It will be ignored if version is found in storage
     - Also accepts `WalletGroup` arguments
+
+Update: now follows this [approach](https://github.com/hyperledger/aries-cloudagent-python/pull/1557#issuecomment-996387027).
 
 Thanks @ianco for suggesting the command approach. This is an initial implementation, for now, it can only handle re-save and/or update records but it can be expanded upon. @andrewwhitehead, @swcurran, and @ianco I will appreciate any feedback.
             </td>
@@ -295,32 +297,6 @@ Thanks @ianco for suggesting the command approach. This is an initial implementa
     </table>
     <div class="right-align">
         Created At 2021-12-13 14:51:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1553" class=".btn">#1553</a>
-            </td>
-            <td>
-                <b>
-                    PR#1543 Follow up - Adding invitation_msg_id and their_public_did back to record_value.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-11 20:13:13 +0000 UTC
     </div>
 </div>
 
