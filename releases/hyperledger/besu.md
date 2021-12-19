@@ -31,8 +31,8 @@ permalink: /releases/hyperledger/besu
 - Change the base docker image from Debian Buster to Ubuntu 20.04 [#3171](https://github.com/hyperledger/besu/issues/3171) fixes [#3045](https://github.com/hyperledger/besu/issues/3045)
 
 ### Download Links
-[besu-21.10.4.tar.gz](https://hyperledger.jfrog.io/ui/native/besu-binaries/besu/21.10.4/besu-21.10.4.tar.gz) (SHA256 952beb48ffda8680dc34ecb617693524448313dc3007e483a379056030f1efd7)
-[besu-21.10.4.zip](https://hyperledger.jfrog.io/ui/native/besu-binaries/besu/21.10.4/besu-21.10.4.zip) (SHA256 e72e7ce2f7b11183a68b54d67edfc1bdf90a54f1654ff80247b952d4c88993c0)
+[besu-21.10.4.tar.gz](https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.4/besu-21.10.4.tar.gz) (SHA256 ed21ee852c261e1a123db5fa6f5826bfc925756d74e1ec42a9580d77874280fa)
+[besu-21.10.4.zip](https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.4/besu-21.10.4.zip) (SHA256 ef730e42bc47605f5f863c7f700e3dc1e513a53e29ab5e52ffbd31174a112375)
             </td>
         </tr>
     </table>
