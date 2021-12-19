@@ -14,6 +14,147 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1740" class=".btn">#1740</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #1249: Remove structopt from iroha_core.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Remove `structopt` from `iroha_core`. Should be merged after #1739. 
+
+### Issue
+
+Closes #1249. 
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Structopt wasn't doing much in `iroha_core` beyond making compilation take longer. 
+
+### Possible Drawbacks
+
+None
+
+### Usage Examples or Tests *[optional]*
+
+by setting the environment variables, anywhere in the iroha git folder. 
+```bash
+cargo run --bin iroha -- --submit
+```
+for a short override and same effect, 
+```bash
+IROHA2_GENESIS_PATH="/home/app/Git/iroha/configs/peer/genesis.json" IROHA2_CONFIG_PATH="/home/app/Git/iroha/configs/peer/config.json" cargo run --bin iroha -- --submit
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-19 10:37:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1739" class=".btn">#1739</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #1636: Remove `trusted_peers.json`.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Removed the required command-line flag for specifying the `trusted_peers.json` file. 
+
+### Issue
+
+Closes #1636. 
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Simpler configuration. 
+
+### Possible Drawbacks
+
+Not really a drawback, but If `trusted_peers` is a large `json` array, they still need to be specified in `config.json`. 
+
+### Usage Examples or Tests *[optional]*
+used to be 
+
+```bash
+cargo run --bin iroha -- --config-path ./configs/peer/config.json --trusted-peers-path ./configs/peer/trusted_peers.json --genesis-path ./configs/peer/genesis.json
+```
+now is:
+```bash
+cargo run --bin iroha -- --config-path ./configs/peer/config.json --genesis-path ./configs/peer/genesis.json
+```
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-19 08:25:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1738" class=".btn">#1738</a>
             </td>
             <td>
@@ -611,69 +752,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-12-12 22:24:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1720" class=".btn">#1720</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #1331: Implement more `Prometheus` metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">metrics</span>
-            </td>
-            <td>
-                
-### Description of the Change
-
-- Refactored metric storage. 
-- Added more metrics. 
-- Added instrumentation for easily tracking `query` and `isi` execution and timing, via `iroha_telemetry_derive` procedural macro crate. 
-- Full metrics are hidden behind the `expensive-telemetry` feature flag for core. Without this flag the `metrics` macro checks, if it's properly applied, but doesn't record the metrics. 
-
-
-### Issue
-
-Resolves #1331 
-
-
-### Benefits
-
-More metrics
-
-### Possible Drawbacks
-Tracking `expensive-telemetry` metrics slows down all instrumented `isi` and `query` implementations. 
-
-### Usage Examples or Tests *[optional]*
-
-```rust
-#[metrics(
-   "a", 
-   "bunch_of_metrics",
-   "ordered_freely", 
-   "only_the_timed", 
-  +"have_a_plus", 
-  +"which_looks_like_a_t"
-)]
-```
-
-### Alternate Designs *[optional]*
-
-Instrumentation can be added by changing the trait topology for Queries and ISI. 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-12 11:14:01 +0000 UTC
     </div>
 </div>
 
