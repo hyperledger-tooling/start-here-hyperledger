@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/19" class=".btn">#19</a>
+            </td>
+            <td>
+                <b>
+                    Bump to 2.4.1 and some bug fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR bumps the fabric version to 2.4.1.
+Also, the PR adds an API to get channel info for API server and fixes a bug in agent to pass the integration tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 11:14:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/18" class=".btn">#18</a>
             </td>
             <td>

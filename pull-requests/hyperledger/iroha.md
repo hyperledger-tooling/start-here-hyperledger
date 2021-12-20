@@ -67,81 +67,17 @@ Link to a good tool on deployment (which is extremely difficult atm)
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1740" class=".btn">#1740</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #1249: Remove structopt from iroha_core.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Remove `structopt` from `iroha_core`. Should be merged after #1739. 
-
-### Issue
-
-Closes #1249. 
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Structopt wasn't doing much in `iroha_core` beyond making compilation take longer. 
-
-### Possible Drawbacks
-
-None
-
-### Usage Examples or Tests *[optional]*
-
-by setting the environment variables, anywhere in the iroha git folder. 
-```bash
-cargo run --bin iroha -- --submit
-```
-for a short override and same effect, 
-```bash
-IROHA2_GENESIS_PATH="/home/app/Git/iroha/configs/peer/genesis.json" IROHA2_CONFIG_PATH="/home/app/Git/iroha/configs/peer/config.json" cargo run --bin iroha -- --submit
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-19 10:37:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1739" class=".btn">#1739</a>
             </td>
             <td>
                 <b>
-                    [fix] #1636: Remove `trusted_peers.json`.
+                    [fix] #1636, #1249: Remove `trusted_peers.json` and `structopt`
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">dependencies</span><span class="chip">iroha2</span><span class="chip">Refactor</span>
             </td>
             <td>
                 Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
@@ -159,42 +95,37 @@ IROHA2_GENESIS_PATH="/home/app/Git/iroha/configs/peer/genesis.json" IROHA2_CONFI
 
 ### Description of the Change
 
-Removed the required command-line flag for specifying the `trusted_peers.json` file. 
+- Remove the required command-line flag for specifying the `trusted_peers.json` file. 
+- Remove `structopt` from `iroha_core`. 
 
 ### Issue
 
 Closes #1636. 
+Closes #1249. 
 
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
 
 ### Benefits
 
-Simpler configuration. 
+- Simpler configuration. 
+- Structopt wasn't doing much in `iroha_core` beyond making compilation take longer. 
 
 ### Possible Drawbacks
 
 Not really a drawback, but If `trusted_peers` is a large `json` array, they still need to be specified in `config.json`. 
 
 ### Usage Examples or Tests *[optional]*
-used to be 
 
+by setting the environment variables, anywhere in the iroha git folder. 
 ```bash
-cargo run --bin iroha -- --config-path ./configs/peer/config.json --trusted-peers-path ./configs/peer/trusted_peers.json --genesis-path ./configs/peer/genesis.json
+cargo run --bin iroha -- --submit
 ```
-now is:
+for a short override and same effect, 
 ```bash
-cargo run --bin iroha -- --config-path ./configs/peer/config.json --genesis-path ./configs/peer/genesis.json
+IROHA2_GENESIS_PATH="/home/app/Git/iroha/configs/peer/genesis.json" IROHA2_CONFIG_PATH="/home/app/Git/iroha/configs/peer/config.json" cargo run --bin iroha -- --submit
 ```
 
 ### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
 
             </td>
         </tr>
@@ -218,7 +149,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
             </td>
             <td>
                 ### Description of the Change
@@ -469,51 +400,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-12-13 23:03:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1727" class=".btn">#1727</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #0000: Move rc-branch containers to rc-branch docker-compose.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
-
-
-### Description of the Change
-Fix containers.
-
-### Issue
-
-None yet. 
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Consistency
-
-### Possible Drawbacks
-
-None
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-13 10:26:40 +0000 UTC
     </div>
 </div>
 
