@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/609" class=".btn">#609</a>
+            </td>
+            <td>
+                <b>
+                    Fix mapping in dynamic array of storage structs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #559
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 14:12:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/608" class=".btn">#608</a>
             </td>
             <td>
@@ -139,58 +165,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2021-12-14 18:41:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/602" class=".btn">#602</a>
-            </td>
-            <td>
-                <b>
-                    Feature gate LLVM dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves https://github.com/hyperledger-labs/solang/issues/597
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-13 18:14:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/601" class=".btn">#601</a>
-            </td>
-            <td>
-                <b>
-                    Fixed length hex literal initializer can be any length as long as its zero
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #600 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-13 15:39:57 +0000 UTC
     </div>
 </div>
 
