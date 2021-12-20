@@ -484,7 +484,7 @@ fixes #3189
 
 ## PR description
 
-Created a function to validate that blockperiodseconds is set to a positive integer.
+Update ConfigOptions class to validate blockperiodseconds is set to a positive integer when retrieved.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
