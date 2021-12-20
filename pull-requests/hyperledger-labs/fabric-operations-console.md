@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/113" class=".btn">#113</a>
+            </td>
+            <td>
+                <b>
+                    update release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 17:49:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/112" class=".btn">#112</a>
+            </td>
+            <td>
+                <b>
+                    log if the deployer id came from the api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement 
+
+
+#### Description
+adds log message that the deployer id came from the api request.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 17:46:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/111" class=".btn">#111</a>
             </td>
             <td>

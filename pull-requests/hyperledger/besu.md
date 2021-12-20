@@ -958,37 +958,3 @@ fixes #3140
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3166" class=".btn">#3166</a>
-            </td>
-            <td>
-                <b>
-                    trace_call API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-## PR description
-[trace_call API](https://openethereum.github.io/JSONRPC-trace-module#trace_call): Executes the given call and returns a number of possible traces for it.
-
-## Fixed Issue(s)
-fixes #2885 
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-13 15:15:57 +0000 UTC
-    </div>
-</div>
-

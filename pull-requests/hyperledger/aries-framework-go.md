@@ -149,31 +149,3 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3104" class=".btn">#3104</a>
-            </td>
-            <td>
-                <b>
-                    chore: upgrade to Go 1.17 and fix MacOS Monterey Go Bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-13 16:08:41 +0000 UTC
-    </div>
-</div>
-

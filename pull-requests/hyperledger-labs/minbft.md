@@ -39,34 +39,3 @@ Resolves: #225
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/222" class=".btn">#222</a>
-            </td>
-            <td>
-                <b>
-                    Specify commit certificate size explicitly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                
-This pull request makes the commit certificate size explicit in the code.
-
-<!-- and reference any issues resolved by the pull request, e.g. #123 -->
-Related to #215, #178.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-13 16:33:59 +0000 UTC
-    </div>
-</div>
-

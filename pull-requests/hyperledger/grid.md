@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1192" class=".btn">#1192</a>
+            </td>
+            <td>
+                <b>
+                    Add Grid 0.2.3 release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 14:36:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1191" class=".btn">#1191</a>
             </td>
             <td>
@@ -205,32 +231,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-12-15 14:08:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1182" class=".btn">#1182</a>
-            </td>
-            <td>
-                <b>
-                    v0.2 Rust 1.57 clippy updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 Rust 1.57 clippy updates for the 0-2 branch
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-13 15:27:31 +0000 UTC
     </div>
 </div>
 
