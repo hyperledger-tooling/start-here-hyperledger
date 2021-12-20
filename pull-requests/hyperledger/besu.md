@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3205" class=".btn">#3205</a>
+            </td>
+            <td>
+                <b>
+                    CHANGELOG got a bit out of sync. this fixes it
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+* Fixes up some alignment issues in the 21.10.x changelog. 
+* Adds 21.10.5 
+* and removes download link for earlier 21.10.x releases
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 03:24:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3204" class=".btn">#3204</a>
+            </td>
+            <td>
+                <b>
+                    CI: install a fixed version of solc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+What is currently on main is currently working - but it didn't work when we did release 21.10.4. 
+This is the install that was used for release 21.10.4 - is this more reliable?
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 03:07:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3203" class=".btn">#3203</a>
             </td>
             <td>
@@ -922,38 +989,6 @@ fixes #2885
     </table>
     <div class="right-align">
         Created At 2021-12-13 15:15:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3162" class=".btn">#3162</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] add common code to before method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-moved common code to a Before method
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-13 06:00:02 +0000 UTC
     </div>
 </div>
 
