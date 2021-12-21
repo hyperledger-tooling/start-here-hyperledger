@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1570" class=".btn">#1570</a>
+            </td>
+            <td>
+                <b>
+                    fix: use invitation key for connection query
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+
+Invitation key was not taken into account for get connections endpoint.
+
+If possible, would like to get this in the upcoming 0.7.3 release :)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-21 16:30:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1569" class=".btn">#1569</a>
             </td>
             <td>
