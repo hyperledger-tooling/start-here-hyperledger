@@ -94,29 +94,3 @@ Feel free to add any comments and leave as much feedback as you like.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/561" class=".btn">#561</a>
-            </td>
-            <td>
-                <b>
-                    Go samples Migration to fabric-gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-14 08:02:35 +0000 UTC
-    </div>
-</div>
-

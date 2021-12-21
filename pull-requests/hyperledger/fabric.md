@@ -524,34 +524,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3119" class=".btn">#3119</a>
-            </td>
-            <td>
-                <b>
-                    Reduce CPU&memory cost of collecting endorsements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Based on performance analysis of the gateway, the following changes are made in this commit:
-1. Instead of collecting and holding copies of all proposal responses in order to reuse the protoutil.CreateTx() function, just store a single response payload and all of the signed endorsement objects.  Check that all payloads are bitwise idential and endorsers are unique at collection time.
-2. Eliminate the duplicate unmarshalling that was occurring as a result of reusing protoutil.CreateTx
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-14 11:47:21 +0000 UTC
-    </div>
-</div>
-
