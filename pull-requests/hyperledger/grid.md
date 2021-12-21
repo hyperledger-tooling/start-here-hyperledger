@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1195" class=".btn">#1195</a>
+            </td>
+            <td>
+                <b>
+                    0-2: Update griddle version to match the rest of the repo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 20:49:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1194" class=".btn">#1194</a>
+            </td>
+            <td>
+                <b>
+                    Update griddle version to match the rest of the repo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 20:44:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1193" class=".btn">#1193</a>
+            </td>
+            <td>
+                <b>
+                    Fix duplicate printing in `po version list`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes bug in which versions would be printed multiple times.
+
+Resolves: #1179
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 19:29:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1192" class=".btn">#1192</a>
             </td>
             <td>
@@ -44,7 +126,7 @@ permalink: /pull-requests/hyperledger/grid
             </td>
             <td>
                 <b>
-                    Fix revision count in `po version list`
+                    Fix revision count in po and po version `list` and `show` commands
                 </b>
             </td>
         </tr>
@@ -53,10 +135,10 @@ permalink: /pull-requests/hyperledger/grid
                 
             </td>
             <td>
-                Adds filter to select only revisions of the same purchase order
-when listing po versions. Previously, if versions of different
-purchase orders had the same version ID, the revison count would
-include all revisions of versions with that name.
+                Adds filter to select only revisions of the same purchase order.
+Previously, if versions of different purchase orders had the same
+version ID, the revision count would include all revisions of
+versions with that name.
 
 Resolves: #1170
 

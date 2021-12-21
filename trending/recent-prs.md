@@ -1,13 +1,13 @@
 
-[113](https://github.com/hyperledger-labs/fabric-operations-console/pull/113) update release notes
+[3111](https://github.com/hyperledger/aries-framework-go/pull/3111) feat: Method to resolve Data Display Descriptors from VP
 
-[112](https://github.com/hyperledger-labs/fabric-operations-console/pull/112) log if the deployer id came from the api
+[1195](https://github.com/hyperledger/grid/pull/1195) 0-2: Update griddle version to match the rest of the repo
 
-[1192](https://github.com/hyperledger/grid/pull/1192) Add Grid 0.2.3 release notes
+[1194](https://github.com/hyperledger/grid/pull/1194) Update griddle version to match the rest of the repo
 
-[609](https://github.com/hyperledger-labs/solang/pull/609) Fix mapping in dynamic array of storage structs
+[114](https://github.com/hyperledger-labs/fabric-operations-console/pull/114) fix the available fabric upgrade  w/old versions
 
-[19](https://github.com/hyperledger-labs/fabric-opssc/pull/19) Bump to 2.4.1 and some bug fixes
+[1569](https://github.com/hyperledger/aries-cloudagent-python/pull/1569) Multi ledger: IndyDID resolver bug fix
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
