@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
             </td>
             <td>
                 <b>
-                    Bump to 2.4.1 and some bug fixes
+                    Bump to 2.4.1 and fix some bugs
                 </b>
             </td>
         </tr>

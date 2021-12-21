@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1569" class=".btn">#1569</a>
+            </td>
+            <td>
+                <b>
+                    Multi ledger: IndyDID resolver bug fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
+- resolve #1567 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 19:32:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1566" class=".btn">#1566</a>
             </td>
             <td>
@@ -181,32 +208,6 @@ Signed-off-by: Ethan Sung <baegjae@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-12-16 17:56:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1558" class=".btn">#1558</a>
-            </td>
-            <td>
-                <b>
-                    Await asyncio.sleeps
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes a few warnings during tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-13 22:16:04 +0000 UTC
     </div>
 </div>
 

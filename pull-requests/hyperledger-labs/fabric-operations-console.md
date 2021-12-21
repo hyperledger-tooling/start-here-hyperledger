@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    fix the available fabric upgrade  w/old versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+This PR fixes the "fabric upgrade available" code if the component is using a short hand version field. 
+
+Older components may have a version of `"v1.4"` instead of the major.minor.patch-prerelease format like `"1.4.5-6"`. The short hand version fields break the "upgrade available" logic (it won't prompt for a fabric upgrade).
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 20:19:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/113" class=".btn">#113</a>
             </td>
             <td>
@@ -211,41 +248,6 @@ The "refresh cert" button should show up for deployed nodes and not show for imp
     </table>
     <div class="right-align">
         Created At 2021-12-14 20:16:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/106" class=".btn">#106</a>
-            </td>
-            <td>
-                <b>
-                    add react route for exporting identities via link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-
-#### Type of change
-
-- New feature
-
-#### Description
-adds a route to download the identities. visiting `/export-identities` will immediately prompt for a local download of your wallet.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-13 21:38:32 +0000 UTC
     </div>
 </div>
 
