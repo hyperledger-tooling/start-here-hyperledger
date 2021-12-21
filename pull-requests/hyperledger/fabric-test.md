@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/353" class=".btn">#353</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/355" class=".btn">#355</a>
             </td>
             <td>
                 <b>
-                    fix operator
+                    Add an operator based network for chaos testing
                 </b>
             </td>
         </tr>
@@ -27,15 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                - fix issue where more than 1 orderer means the orderers can't talk to each other
-- improve instantiate so that it commits on more than 1 org under certain circumstances
+                This defines a 3 org, 2 peer network that
+will be used for chaos testing. It will run
+on the daily build so it uses the jfrog images
 
 Signed-off-by: D <d_kelsey@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-09 15:12:29 +0000 UTC
+        Created At 2021-12-21 15:51:43 +0000 UTC
     </div>
 </div>
 

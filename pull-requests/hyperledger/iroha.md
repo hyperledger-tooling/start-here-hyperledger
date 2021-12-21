@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1743" class=".btn">#1743</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #1734: Validate `Name` to exclude whitespaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+- Prohibit a whitespace from getting into a `Name` of domain, account, asset, metadata key, and permission token.
+- Identify `Domain` by `Id` instead of `Name`
+
+Now `Id::new`s return `Result<Self>`, while previous implementations are left as `Id::test`s for usability
+
+### Issue
+Close #1734
+
+### Benefits
+Type level guarantee of no whitespaces in `Name` 
+
+### Possible Drawbacks
+There might be a better error handling for `Name` validation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-21 15:08:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1741" class=".btn">#1741</a>
             </td>
             <td>
@@ -300,33 +339,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2021-12-17 06:03:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1732" class=".btn">#1732</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #666: Fixed a problematic typo in previous PR.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Fix Small Typo
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-14 15:26:21 +0000 UTC
     </div>
 </div>
 

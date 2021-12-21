@@ -174,38 +174,3 @@ Note this code is migrated from an older (now closed) PR.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/691" class=".btn">#691</a>
-            </td>
-            <td>
-                <b>
-                    Optimized runtime variables script
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">frontend</span><span class="chip">Infrastructure</span>
-            </td>
-            <td>
-                - Individual actions in script will only be performed when necessary
-    - No runtime/environment variable set - no delay
-- Improved maintainability (just add future runtime variable names to the pseudo-array)
-- Improved POSIX compliance (should run on virtually any Linux based container image - provided that java is installed)
-
-Signed-off-by: Tim Schlagenhaufer <tim.schlagenhaufer@bosch.io>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/691"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-14 13:21:08 +0000 UTC
-    </div>
-</div>
-

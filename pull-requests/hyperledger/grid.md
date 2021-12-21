@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1196" class=".btn">#1196</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize `rest-api-endpoint-purchase-order`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change stabilizes the `rest-api-endpoint-purchase-order` feature by
+moving it to "stable".
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-21 17:26:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1195" class=".btn">#1195</a>
             </td>
             <td>
