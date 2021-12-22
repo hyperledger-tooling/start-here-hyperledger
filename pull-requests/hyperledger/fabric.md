@@ -427,36 +427,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3123" class=".btn">#3123</a>
-            </td>
-            <td>
-                <b>
-                    Enable gateway concurrency limits
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add support for setting API invocation concurrency limits on the gateway service.  Uses the same mechanism as used by the endorser and deliver services.
-
-The sample config limit has been set to 500 for now.  This can be adjusted in the future based on experience.
-
-Resolves https://github.com/hyperledger/fabric-gateway/issues/344
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-15 10:52:04 +0000 UTC
-    </div>
-</div>
-

@@ -104,36 +104,3 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/693" class=".btn">#693</a>
-            </td>
-            <td>
-                <b>
-                    Merge customization file with english localization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I merged the bcgov customization into the English localization so that we can safely delete it. The polish file still has most of the keys from the English one so we need to either delete the keys from there or fully localize them.
-
- 
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/693"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-15 10:42:37 +0000 UTC
-    </div>
-</div>
-

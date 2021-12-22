@@ -1,13 +1,13 @@
 
-[1744](https://github.com/hyperledger/iroha/pull/1744) [fix] #1742: Concrete errors returned in `core` instructions.
+[1199](https://github.com/hyperledger/grid/pull/1199) Purchase Order protobuf updates
 
-[568](https://github.com/hyperledger/fabric-samples/pull/568) test-network: Fix a indentation for readability
+[235](https://github.com/hyperledger-labs/perun-node/pull/235) Update changelog for v0.6.2 release
 
-[1574](https://github.com/hyperledger/aries-cloudagent-python/pull/1574) Allow public invites for alice/faber demo
+[266](https://github.com/hyperledger-labs/fablo/pull/266) Global explorer
 
-[1573](https://github.com/hyperledger/aries-cloudagent-python/pull/1573) Updates for final Release 0.7.3
+[1746](https://github.com/hyperledger/iroha/pull/1746) [fix] #1715: Consensus fixes to handle high load
 
-[1198](https://github.com/hyperledger/grid/pull/1198) Re-scope REST API modules
+[1745](https://github.com/hyperledger/iroha/pull/1745) [fix] #1404: Verify fixed.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
