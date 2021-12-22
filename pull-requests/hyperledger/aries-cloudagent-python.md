@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1574" class=".btn">#1574</a>
+            </td>
+            <td>
+                <b>
+                    Allow public invites for alice/faber demo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+Addresses https://github.com/hyperledger/aries-cloudagent-python/issues/1571
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-21 23:59:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1573" class=".btn">#1573</a>
+            </td>
+            <td>
+                <b>
+                    Updates for final Release 0.7.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-21 22:54:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1570" class=".btn">#1570</a>
             </td>
             <td>

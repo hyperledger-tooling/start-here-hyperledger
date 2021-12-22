@@ -121,30 +121,3 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3107" class=".btn">#3107</a>
-            </td>
-            <td>
-                <b>
-                    fix: issuecredential empty metadata request should not override default message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-14 22:05:10 +0000 UTC
-    </div>
-</div>
-
