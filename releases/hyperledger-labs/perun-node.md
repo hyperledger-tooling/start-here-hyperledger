@@ -15,29 +15,29 @@ permalink: /releases/hyperledger-labs/perun-node
         <tr>
             <td colspan="2">
                 <b>
-                    Release v0.6.1
+                    Release v0.6.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.6.1
+                    v0.6.2
                 </span>
             </td>
             <td>
-                perun-node v0.6.1 is a patch release that fixes issues reported by [repolinter](https://github.com/todogroup/repolinter).
+                perun-node v0.6.2 is a patch release that upgrades the versions of go-perun, go-ethereum libraries; and go.
 
-For detailed information on changes covered in the release, see the pull request #222.
+For detailed information on changes covered in the release, see the issue #232.
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/perun-node/releases/tag/v0.6.1" class=".btn">
+    <a href="https://github.com/hyperledger-labs/perun-node/releases/tag/v0.6.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-08-13 07:20:10 +0000 UTC
+        Created At 2021-12-22 10:22:35 +0000 UTC
     </span>
 </div>
 
