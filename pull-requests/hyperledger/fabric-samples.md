@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/568" class=".btn">#568</a>
+            </td>
+            <td>
+                <b>
+                    test-network: Fix a indentation for readability
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Additionally, remove a trailing white space
+
+Signed-off-by: Justin Yang <justin.yang@themedium.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-22 06:01:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/565" class=".btn">#565</a>
             </td>
             <td>
