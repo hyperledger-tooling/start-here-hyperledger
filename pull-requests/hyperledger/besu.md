@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3214" class=".btn">#3214</a>
+            </td>
+            <td>
+                <b>
+                    Merge executePayload to main from merge branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+merge `engine_executePayload` into main from merge feature branch
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+partially adresses #2965 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-21 19:46:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3213" class=".btn">#3213</a>
             </td>
             <td>
@@ -592,7 +634,7 @@ fixes #3189
 
 ## PR description
 
-Update ConfigOptions class to validate blockperiodseconds is set to a positive integer when retrieved.
+Implemented getPositiveInt function in JsonUtil to validate a JSON positive number value. Using this function, the blockperiodseconds should now be validated whenever retrieved from the genensis config. 
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -600,9 +642,6 @@ Update ConfigOptions class to validate blockperiodseconds is set to a positive i
 
 Fixes https://github.com/hyperledger/besu/issues/3093
 
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -804,37 +843,6 @@ Not required
     </table>
     <div class="right-align">
         Created At 2021-12-15 02:07:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3175" class=".btn">#3175</a>
-            </td>
-            <td>
-                <b>
-                    Update to log4j 2.16.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Updates to log4j2 2.16.0 which identified a second vector for JNDI attacks via `ThreadContext`. Besu only uses `ThreadContext` as part of the acceptance test framework and not in production code so isn't vulnerable to this issue.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-14 20:46:55 +0000 UTC
     </div>
 </div>
 

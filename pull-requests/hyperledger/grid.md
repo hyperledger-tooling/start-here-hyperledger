@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1198" class=".btn">#1198</a>
+            </td>
+            <td>
+                <b>
+                    Re-scope REST API modules
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This limits the scope of the exports of the rest api modules to `pub(crate)` from `pub`. This also removes the `pub` re-exports of the `handler` and `payloads` modules in the purchase_order rest api module.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-21 20:04:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1197" class=".btn">#1197</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize "workflow" feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-21 19:28:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1196" class=".btn">#1196</a>
             </td>
             <td>
