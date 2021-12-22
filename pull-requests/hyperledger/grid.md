@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1200" class=".btn">#1200</a>
+            </td>
+            <td>
+                <b>
+                    Make `check_permission_with_workflow` take reference
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the `check_permission_with_workflow` method to take a reference to the workflow state. Ownership is not required for this function. This allows the smart contract to maintain ownership over the workflow state for further processing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-22 12:38:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1199" class=".btn">#1199</a>
             </td>
             <td>
@@ -53,7 +79,8 @@ permalink: /pull-requests/hyperledger/grid
                 
             </td>
             <td>
-                This limits the scope of the exports of the rest api modules to `pub(crate)` from `pub`. This also removes the `pub` re-exports of the `handler` and `payloads` modules in the purchase_order rest api module.
+                This removes the `pub` re-export of the `handler` and `payloads`
+modules. Only the required elements from these modules are now exported.
             </td>
         </tr>
     </table>
@@ -391,35 +418,6 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-12-15 22:57:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1185" class=".btn">#1185</a>
-            </td>
-            <td>
-                <b>
-                    Fix lint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change removes two empty lines. This was causing a lint error for
-the main build of Grid.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-15 14:08:44 +0000 UTC
     </div>
 </div>
 
