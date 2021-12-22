@@ -1,13 +1,13 @@
 
-[1199](https://github.com/hyperledger/grid/pull/1199) Purchase Order protobuf updates
+[269](https://github.com/hyperledger-labs/fablo/pull/269) Use the official CouchDB image for peer database
 
-[235](https://github.com/hyperledger-labs/perun-node/pull/235) Update changelog for v0.6.2 release
+[268](https://github.com/hyperledger-labs/fablo/pull/268) Support Postgres as a CA database
 
-[266](https://github.com/hyperledger-labs/fablo/pull/266) Global explorer
+[305](https://github.com/hyperledger-labs/orion-server/pull/305) HTTPTransport reports active peers
 
-[1746](https://github.com/hyperledger/iroha/pull/1746) [fix] #1715: Consensus fixes to handle high load
+[183](https://github.com/hyperledger/iroha-java/pull/183) Iroha-182: READMEs && minor changes in tests
 
-[1745](https://github.com/hyperledger/iroha/pull/1745) [fix] #1404: Verify fixed.
+[1200](https://github.com/hyperledger/grid/pull/1200) Make `check_permission_with_workflow` take reference
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

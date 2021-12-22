@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/181" class=".btn">#181</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/183" class=".btn">#183</a>
             </td>
             <td>
                 <b>
-                    Iroha-179: comment
+                    Iroha-182: READMEs && minor changes in tests
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-13 08:59:59 +0000 UTC
+        Created At 2021-12-22 13:27:20 +0000 UTC
     </div>
 </div>
 

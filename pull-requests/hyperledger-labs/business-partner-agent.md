@@ -78,29 +78,3 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/694" class=".btn">#694</a>
-            </td>
-            <td>
-                <b>
-                    upgrade to java 17
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-15 16:15:39 +0000 UTC
-    </div>
-</div>
-

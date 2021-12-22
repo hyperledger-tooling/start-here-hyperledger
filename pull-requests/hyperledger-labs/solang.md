@@ -144,29 +144,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/604" class=".btn">#604</a>
-            </td>
-            <td>
-                <b>
-                    Fix broken SafeMath due to missing phi nodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-15 17:13:54 +0000 UTC
-    </div>
-</div>
-
