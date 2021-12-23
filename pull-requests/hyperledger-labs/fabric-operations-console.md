@@ -145,38 +145,3 @@ https://github.com/hyperledger-labs/fabric-operations-console/issues/109
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/110" class=".btn">#110</a>
-            </td>
-            <td>
-                <b>
-                    fix refresh cert button, only show for deploy node
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-
-#### Type of change
-
-- Bug fix
-
-#### Description
-The "refresh cert" button should show up for deployed nodes and not show for imported nodes. This was not working as intended for orderering nodes. If the first orderer in an OS (when sorted by name alphabetically) was a deployed node, the console would show the button on all ordering nodes in that OS.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-15 19:34:48 +0000 UTC
-    </div>
-</div>
-
