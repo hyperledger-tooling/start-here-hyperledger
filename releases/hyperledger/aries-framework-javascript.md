@@ -15,26 +15,29 @@ permalink: /releases/hyperledger/aries-framework-javascript
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.0.63-unstable.0
+                    v0.1.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.0.63-unstable.0
+                    v0.1.0
                 </span>
             </td>
             <td>
-                * feat: negotiation and auto accept credentials (#336) (55e8697)
+                Release v0.1.0
+
+You can find the changelog in the [CHANGELOG.md](https://github.com/hyperledger/aries-framework-javascript/blob/main/CHANGELOG.md) file.
+
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/0.0.63-unstable.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.1.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-07-15 10:07:00 +0000 UTC
+        Created At 2021-12-23 14:11:20 +0000 UTC
     </span>
 </div>
 
