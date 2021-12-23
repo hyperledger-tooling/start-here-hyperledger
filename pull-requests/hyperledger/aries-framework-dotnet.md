@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/204" class=".btn">#204</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/208" class=".btn">#208</a>
             </td>
             <td>
                 <b>
-                    Change references to streetcred-id GitHub org to trinsic-id
+                    Refactor ResolveByMyKey into IConnectionService
                 </b>
             </td>
         </tr>
@@ -27,22 +27,17 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+                #### Short description of what this resolves:
+With this PR ResolveByMyKey becomes an actual method of IConnectionService
 
-#### Short description of what this resolves:
-There are some references in the repo to the old "streetcred-id" GitHub organization that need to be changed to "trinsic-id".  Another party has grabbed the "streetcred-id" github account and is using it, so the links are no longer reliable.
-
-#### Changes proposed in this pull request:
-
-- Rename several paths into GitHub to use Trinsic
-
-**Fixes**: #
+#### Changes proposed in this pull request
+- Let ResolveByMyKey become a method of IConnectionService to enable testing and improvements
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-18 01:13:38 +0000 UTC
+        Created At 2021-12-22 19:16:44 +0000 UTC
     </div>
 </div>
 
