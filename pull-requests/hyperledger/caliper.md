@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1189" class=".btn">#1189</a>
+            </td>
+            <td>
+                <b>
+                    Add GitHub web forms-based issue templates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Add issue template for bug reports
+* Add issue template for feature requests
+* Still allow the old issue template for now
+* Provide links to other Caliper forums
+
+Closes #1190 
+
+Signed-off-by: Attila Klenik <a.klenik@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-23 08:03:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1186" class=".btn">#1186</a>
             </td>
             <td>

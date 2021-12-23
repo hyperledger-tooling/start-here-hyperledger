@@ -1,13 +1,13 @@
 
-[3113](https://github.com/hyperledger/aries-framework-go/pull/3113) fix: unnoticed bdd test error in didcommv2 implicit connection
+[3144](https://github.com/hyperledger/fabric/pull/3144) - Fix failure to generate all possible combinations (backport #3132)
 
-[1203](https://github.com/hyperledger/grid/pull/1203) Add `workflow_name` arg to `grid po create`
+[3143](https://github.com/hyperledger/fabric/pull/3143) - Fix failure to generate all possible combinations (backport #3132)
 
-[3217](https://github.com/hyperledger/besu/pull/3217) Version upgrades for 22Q1
+[3142](https://github.com/hyperledger/fabric/pull/3142) - Fix failure to generate all possible combinations (backport #3132)
 
-[3112](https://github.com/hyperledger/aries-framework-go/pull/3112) fix: Skipped BDD tests
+[3141](https://github.com/hyperledger/fabric/pull/3141) - Fix failure to generate all possible combinations (backport #3132)
 
-[1747](https://github.com/hyperledger/iroha/pull/1747) Develop
+[3140](https://github.com/hyperledger/fabric/pull/3140) - Fix failure to generate all possible combinations (backport #3132)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
