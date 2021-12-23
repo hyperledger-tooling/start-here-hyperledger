@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/208" class=".btn">#208</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/216" class=".btn">#216</a>
             </td>
             <td>
                 <b>
-                    chore: update maintainers list
+                    feat: Allow for more than two tags in query for MongoDB
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Signed-off-by: Troy Ronda <troy.ronda@securekey.com>
+                This PR allows for more than two tags to be specified in a query in the MongoDB implementation, whereas before, only a maximum of two tags were supported.
+
+Signed-off-by: Bob Stasyszyn <Bob.Stasyszyn@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-10 15:58:40 +0000 UTC
+        Created At 2021-12-19 21:10:22 +0000 UTC
     </div>
 </div>
 
@@ -40,66 +42,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/207" class=".btn">#207</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/215" class=".btn">#215</a>
             </td>
             <td>
                 <b>
-                    chore: update orb and afgo version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-10 09:19:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/205" class=".btn">#205</a>
-            </td>
-            <td>
-                <b>
-                    feat: Wrap MongoDB duplicate key error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Wrapped the error that can happen when using the IsNewKey optimization flag with a key that already exists with a special error value from the storage interface
-- Also shortened the error text overall to be more succinct.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-06 20:15:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/204" class=".btn">#204</a>
-            </td>
-            <td>
-                <b>
-                    chore: add tracing for vdr read
+                    chore: update http2 for http client
                 </b>
             </td>
         </tr>
@@ -113,7 +60,111 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-06 15:33:01 +0000 UTC
+        Created At 2021-12-17 18:19:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/214" class=".btn">#214</a>
+            </td>
+            <td>
+                <b>
+                    fix: sidetree vdr
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-17 17:15:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/213" class=".btn">#213</a>
+            </td>
+            <td>
+                <b>
+                    chore: update to latest sidetree vdr
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-17 16:58:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/212" class=".btn">#212</a>
+            </td>
+            <td>
+                <b>
+                    chore: add custom http client option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-17 16:36:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/211" class=".btn">#211</a>
+            </td>
+            <td>
+                <b>
+                    chore: update to latest aries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-17 14:02:18 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/354" class=".btn">#354</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/365" class=".btn">#365</a>
             </td>
             <td>
                 <b>
-                    [helm] Adding Storage for DX Blobs and PVC Templating Improvements
+                    Validate message topics/tag before sending
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                We aren't ensuring there's some sort of writeable filesystem to the DX pods for blob storage, might as well offer the ability to persist it too. This refactors how we template the DX PVCs to other more customization (size, storage class, etc.) for future users, as well as offers the ability to disable the PVCs and use `emptyDir` instead.
-
-> **NOTE**: This does include a breaking change in the chart for how DX data is handled: `/data/peers` and `/data/peer-certs` are now apart of the same PVC but given subdirs within the volume. However, we have not made an official release of the chart yet.
+                Currently these fields are verified only by the receiver, which can lead to
+sending a bad message that is rejected on the other end.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-10 00:37:11 +0000 UTC
+        Created At 2021-12-22 19:38:15 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +41,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/353" class=".btn">#353</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/364" class=".btn">#364</a>
             </td>
             <td>
                 <b>
-                    Remove unique index on token URIs
+                    Update manifest ready for v0.11.3 release
                 </b>
             </td>
         </tr>
@@ -55,12 +54,100 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-08 22:10:14 +0000 UTC
+        Created At 2021-12-20 22:23:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/363" class=".btn">#363</a>
+            </td>
+            <td>
+                <b>
+                    Fix send-to-self for private messages, and add group query URLs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I noticed that when I was only sending to myself, I was still getting data being pushed by FireFly core to DX.
+
+Looks like when we made the identity change to introduce DIDs, we broke the code here:
+https://github.com/hyperledger/firefly/blob/24d075b4ec5b08601780ebac04fefc61aebbd427/internal/privatemessaging/privatemessaging.go#L188-L191
+
+Also @hfuss mentioned to me that we've seen problems where the config has to have the full Key specification exactly as it gets resolved by the blockchain connector (so `0x` prefix for ethereum, and the full `CN=xyz...` syntax for fabric), or things do not work correctly.
+
+This PR:
+- Ensures we always use the blockchain connector to get the resolved signing key
+- Compares `Owner` of a `Node` to the signing key of the local org, not the DID
+- Adds APIs to query groups, which seemed to be missing
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 19:52:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/362" class=".btn">#362</a>
+            </td>
+            <td>
+                <b>
+                    Support configuration keys when the value type is a list
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: jebonfig <joe.bonfiglio@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 15:20:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/361" class=".btn">#361</a>
+            </td>
+            <td>
+                <b>
+                    Fabric connector needs to subscribe from zero
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See conversation in https://github.com/hyperledger/firefly-fabconnect/pull/63
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-20 00:55:55 +0000 UTC
     </div>
 </div>
 

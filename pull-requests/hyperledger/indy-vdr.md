@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/66" class=".btn">#66</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/70" class=".btn">#70</a>
             </td>
             <td>
                 <b>
-                    Import sha3 directly instead of through ursa
+                    Update dependencies
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                Ursa 0.3.7 was released with a different and incompatible version of the dependency, so this fixes a build error as well.
+                - Updates to hyper 0.14, tokio 1.0
+- Also fixes errors during macro expansion
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-21 23:36:35 +0000 UTC
+        Created At 2021-12-20 22:49:10 +0000 UTC
     </div>
 </div>
 

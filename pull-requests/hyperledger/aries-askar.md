@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/35" class=".btn">#35</a>
             </td>
             <td>
                 <b>
-                    Check JWK parameters when deserializing for specific key type
+                    Update dependencies
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                Switches BLS keys to 'OKP' for the kty value - following https://github.com/mattrglobal/bls12381-jwk-draft
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-22 00:14:57 +0000 UTC
+        Created At 2021-12-20 21:46:38 +0000 UTC
     </div>
 </div>
 

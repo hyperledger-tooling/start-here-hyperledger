@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/617" class=".btn">#617</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/634" class=".btn">#634</a>
             </td>
             <td>
                 <b>
-                    fix typo
+                    RU tx flow
                 </b>
             </td>
         </tr>
@@ -27,12 +27,91 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                Signed-off-by: wuqiaomin <wuqiaomin2@huawei.com>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-02 03:01:12 +0000 UTC
+        Created At 2021-12-23 17:52:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/633" class=".btn">#633</a>
+            </td>
+            <td>
+                <b>
+                    RU peer event services
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-23 12:12:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/632" class=".btn">#632</a>
+            </td>
+            <td>
+                <b>
+                    RU discovery overview
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-23 10:15:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/631" class=".btn">#631</a>
+            </td>
+            <td>
+                <b>
+                    【zh_CN】Docs » MSP Identity Validity Rules && 【zh_CN】Docs » 术语表
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                solve issue #439 and #440
+Signed-off-by: zhangziyi <cloud1230@hotmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-17 07:32:08 +0000 UTC
     </div>
 </div>
 
