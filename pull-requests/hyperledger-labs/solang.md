@@ -118,29 +118,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/605" class=".btn">#605</a>
-            </td>
-            <td>
-                <b>
-                    Emit syntax errors and uniswap tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-16 10:54:23 +0000 UTC
-    </div>
-</div>
-
