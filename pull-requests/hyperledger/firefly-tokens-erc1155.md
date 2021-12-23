@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/49" class=".btn">#49</a>
             </td>
             <td>
                 <b>
-                    Remove ETHCONNECT_IDENTITY parameter
+                    add basic auth to ethconnect connections
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-04 20:00:24 +0000 UTC
+        Created At 2021-12-17 03:07:30 +0000 UTC
     </div>
 </div>
 

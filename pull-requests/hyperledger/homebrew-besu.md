@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/64" class=".btn">#64</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/65" class=".btn">#65</a>
             </td>
             <td>
                 <b>
-                    Update to 21.10.3
+                    Update to 21.10.5
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-10 19:55:58 +0000 UTC
+        Created At 2021-12-19 21:54:02 +0000 UTC
     </div>
 </div>
 

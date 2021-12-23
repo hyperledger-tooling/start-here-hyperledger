@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/22" class=".btn">#22</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/25" class=".btn">#25</a>
             </td>
             <td>
                 <b>
-                    ci: validate on pr
+                    fix: allow sender verkey to be null in iOS when packing with anoncrypt
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-27 14:57:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/21" class=".btn">#21</a>
-            </td>
-            <td>
-                <b>
-                    Android: add generateNonce method.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-27 13:29:11 +0000 UTC
+        Created At 2021-12-16 22:00:53 +0000 UTC
     </div>
 </div>
 
