@@ -157,29 +157,3 @@ Solution should work in readthedocs view
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1783" class=".btn">#1783</a>
-            </td>
-            <td>
-                <b>
-                    Some links in setting_dlt.md are broken
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                What were originally html doc files were changed to md at some point. Updated the links to reflect
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-16 22:01:02 +0000 UTC
-    </div>
-</div>
-

@@ -170,29 +170,3 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/258" class=".btn">#258</a>
-            </td>
-            <td>
-                <b>
-                    Update links in README to point at hyperledger-labs/fablo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-16 21:58:25 +0000 UTC
-    </div>
-</div>
-

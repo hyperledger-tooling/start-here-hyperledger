@@ -457,29 +457,3 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1188" class=".btn">#1188</a>
-            </td>
-            <td>
-                <b>
-                    Update Splinter version and add authorization to ScabbardClient
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-16 20:38:13 +0000 UTC
-    </div>
-</div>
-
