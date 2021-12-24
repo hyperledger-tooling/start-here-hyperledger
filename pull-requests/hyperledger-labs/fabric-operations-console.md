@@ -111,37 +111,3 @@ adds log message that the deployer id came from the api request.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/111" class=".btn">#111</a>
-            </td>
-            <td>
-                <b>
-                    allow associating identities from intermediate ca
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Bug fix
-
-#### Description
-This pr allows identities from an intermediate CA to be available in the associate drop down.
-https://github.com/hyperledger-labs/fabric-operations-console/issues/109
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-16 19:41:59 +0000 UTC
-    </div>
-</div>
-

@@ -504,32 +504,3 @@ as below.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3131" class=".btn">#3131</a>
-            </td>
-            <td>
-                <b>
-                    v2.4.1 release commit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update release notes, documentation, and scripts for v2.4.1.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-16 19:42:33 +0000 UTC
-    </div>
-</div>
-

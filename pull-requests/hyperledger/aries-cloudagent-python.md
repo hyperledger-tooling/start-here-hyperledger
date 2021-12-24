@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1581" class=".btn">#1581</a>
+            </td>
+            <td>
+                <b>
+                    OOB connection_reuse webhooks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-23 23:53:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1576" class=".btn">#1576</a>
             </td>
             <td>
@@ -58,6 +84,8 @@ Signed-off-by: john court <jcourt@anonyome.com>
                 Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
 
 Addresses https://github.com/hyperledger/aries-cloudagent-python/issues/1571
+
+Note - added a `--reuse-connections` parameter to faber - this will trigger faber to use a public did in the didexchange connection (and alice will always "reuse connection" if possible) and the connection indeed gets reused, however right now there are no webhooks for the "reuse" messages so the alice/faber controllers are getting hung ...
 
             </td>
         </tr>
@@ -243,58 +271,6 @@ Signed-off-by: Ethan Sung <baegjae@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-12-17 07:06:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1563" class=".btn">#1563</a>
-            </td>
-            <td>
-                <b>
-                    Typo vdr service name
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-16 21:46:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1562" class=".btn">#1562</a>
-            </td>
-            <td>
-                <b>
-                    chore: update pydid to ^0.3.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should have a pretty minimal impact on things while enabling resolution of Documents with nonconforming `@context` attributes (spec defines that context must be a list of strings, some docs have embedded contexts). Also solves the bug mentioned in this comment from forever ago: https://github.com/hyperledger/aries-cloudagent-python/pull/1218#issuecomment-890591874
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-16 20:19:53 +0000 UTC
     </div>
 </div>
 

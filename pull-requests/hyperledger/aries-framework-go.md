@@ -116,32 +116,3 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3109" class=".btn">#3109</a>
-            </td>
-            <td>
-                <b>
-                    feat: Method for adding Credential Application data to a VP
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Added a method that adds Credential Application data to a VP based on a Credential Manifest.
-- Added "https://identity.foundation/credential-manifest/application/v1" context to the embedded contexts.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-16 22:36:43 +0000 UTC
-    </div>
-</div>
-
