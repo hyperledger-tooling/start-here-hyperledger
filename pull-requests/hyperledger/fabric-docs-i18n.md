@@ -88,30 +88,3 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/631" class=".btn">#631</a>
-            </td>
-            <td>
-                <b>
-                    【zh_CN】Docs » MSP Identity Validity Rules && 【zh_CN】Docs » 术语表
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                solve issue #439 and #440
-Signed-off-by: zhangziyi <cloud1230@hotmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-17 07:32:08 +0000 UTC
-    </div>
-</div>
-
