@@ -255,38 +255,3 @@ Signed-off-by: awadhana <awadhana0825@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1666" class=".btn">#1666</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify get-balance test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Migrated test from Tap to Jest.
-
-File Path:
-packages/cactus-plugin-ledger-connector-besu/src/test/
-typescript/integration/plugin-ledger-connector-besu/
-deploy-contract/get-balance.test.ts
-
-This is a PARTIAL resolution to issue #238
-
-Signed-off-by: awadhana <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-17 13:04:09 +0000 UTC
-    </div>
-</div>
-
