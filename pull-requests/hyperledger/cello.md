@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/364" class=".btn">#364</a>
+            </td>
+            <td>
+                <b>
+                    [#363]Modify the page that created the node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Modify the page for creating nodes according to the new interface
+
+Close #363
+
+Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-24 08:37:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/362" class=".btn">#362</a>
             </td>
             <td>
