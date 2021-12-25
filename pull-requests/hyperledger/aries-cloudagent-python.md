@@ -178,29 +178,3 @@ If possible, would like to get this in the upcoming 0.7.3 release :)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1566" class=".btn">#1566</a>
-            </td>
-            <td>
-                <b>
-                    DiscoveryExchangeRecord RECORD_TOPIC typo fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-17 23:15:05 +0000 UTC
-    </div>
-</div>
-
