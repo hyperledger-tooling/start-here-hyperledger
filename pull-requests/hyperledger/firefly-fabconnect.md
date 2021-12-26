@@ -152,29 +152,3 @@ Response:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/63" class=".btn">#63</a>
-            </td>
-            <td>
-                <b>
-                    Fix event subscription when since is 0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-18 21:14:58 +0000 UTC
-    </div>
-</div>
-
