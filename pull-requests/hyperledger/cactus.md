@@ -220,38 +220,3 @@ Signed-off-by: awadhana <awadhana0825@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1668" class=".btn">#1668</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify v2.3.0-invoke contract test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Tests</span><span class="chip">Jestify</span>
-            </td>
-            <td>
-                Migrated test from Tap to Jest.
-
-File Path:
-packages/cactus-plugin-ledger-connector-quorum/src/test/
-typescript/integration/plugin-ledger-connector-quorum/
-deploy-contract/v2.3.0-invoke-contract.test.ts
-
-This is a PARTIAL resolution to issue #238
-
-Signed-off-by: awadhana <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-19 17:29:46 +0000 UTC
-    </div>
-</div>
-
