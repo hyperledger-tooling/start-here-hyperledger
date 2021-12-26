@@ -30,9 +30,9 @@ permalink: /releases/hyperledger/besu
 Update log4j to 2.17.0
 
 ## Download Links
-https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.5/besu-21.10.5.tar.gz SHA256 0d1b6ed8f3e1325ad0d4acabad63c192385e6dcbefe40dc6b647e8ad106445a8
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.5/besu-21.10.5.tar.gz SHA256 359d8f950b1b1ed225fd9c0b23f2e45a6d6f24ee39b02c4f500986d225b79b10
 
-https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.5/besu-21.10.5.zip SHA256 a1689a8a65c4c6f633b686983a6a1653e7ac86e742ad2ec6351176482d6e0c57
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.5/besu-21.10.5.zip SHA256 0deaa924b453a4ff0b6f2886cefaddaccbe5a4bf732d970480fdeae1672b94c2
             </td>
         </tr>
     </table>
