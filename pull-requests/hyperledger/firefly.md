@@ -125,29 +125,3 @@ This PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/362" class=".btn">#362</a>
-            </td>
-            <td>
-                <b>
-                    Support configuration keys when the value type is a list
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: jebonfig <joe.bonfiglio@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-20 15:20:15 +0000 UTC
-    </div>
-</div>
-

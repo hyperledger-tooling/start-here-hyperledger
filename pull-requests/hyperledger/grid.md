@@ -343,29 +343,3 @@ Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1192" class=".btn">#1192</a>
-            </td>
-            <td>
-                <b>
-                    Add Grid 0.2.3 release notes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-20 14:36:44 +0000 UTC
-    </div>
-</div>
-

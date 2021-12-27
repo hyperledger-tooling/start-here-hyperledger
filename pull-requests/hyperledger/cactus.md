@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1681" class=".btn">#1681</a>
+            </td>
+            <td>
+                <b>
+                    test: jestify initialize-endpoint-invalid test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Migrated test from Tap to Jest.
+
+File Path:
+packages/cactus-test-plugin-htlc-eth-besu/src/
+test/typescript/integration/plugin-htlc-eth-besu/
+initialize-endpoint-invalid.test.ts
+
+This is a PARTIAL resolution to issue #238
+
+Signed-off-by: awadhana <awadhana0825@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-27 17:42:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1680" class=".btn">#1680</a>
+            </td>
+            <td>
+                <b>
+                    test: jestify jwt-endpoint-authorization test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Migrated test from Tap to Jest.
+
+File Path:
+packages/cactus-cmd-api-server/src/test/
+typescript/integration/jwt-endpoint-authorization.test.ts
+
+This is a PARTIAL resolution to issue #238
+
+Signed-off-by: awadhana <awadhana0825@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-27 17:20:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1678" class=".btn">#1678</a>
             </td>
             <td>

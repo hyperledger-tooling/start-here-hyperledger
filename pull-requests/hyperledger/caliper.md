@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1193" class=".btn">#1193</a>
+            </td>
+            <td>
+                <b>
+                    Fix the unit of the interval of default-observer in the log
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                It uses milliseconds not seconds.
+It shows like:
+`caliper  | 2021.12.27-13:26:12.001 info  [caliper] [default-observer] 	Observer interval set to 5000 seconds`
+
+Signed-off-by: Justin Yang <justin.yang@themedium.io>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-27 13:50:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1192" class=".btn">#1192</a>
             </td>
             <td>
