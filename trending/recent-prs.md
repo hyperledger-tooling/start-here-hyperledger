@@ -1,13 +1,13 @@
 
-[1678](https://github.com/hyperledger/cactus/pull/1678) test: jestify plugin-import-with-npm-install test
+[613](https://github.com/hyperledger-labs/solang/pull/613) Builtin cleanups
 
-[366](https://github.com/hyperledger/cello/pull/366) [#issue-365] Change the administrator to admin
+[185](https://github.com/hyperledger/iroha-java/pull/185) 2.0.0 pre.1.rc.1
 
-[307](https://github.com/hyperledger-labs/orion-server/pull/307) Get cluster status API
+[184](https://github.com/hyperledger/iroha-java/pull/184) 2.0.0 pre.1.rc.1
 
-[364](https://github.com/hyperledger/cello/pull/364) [#363]Modify the page that created the node
+[1757](https://github.com/hyperledger/iroha/pull/1757) [fix] #1751, #1715: Consensus fixes
 
-[362](https://github.com/hyperledger/cello/pull/362) Update maintainers
+[419](https://github.com/hyperledger/aries-vcx/pull/419) Issuer SM stores aries cred offer instead of libindy offer
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
