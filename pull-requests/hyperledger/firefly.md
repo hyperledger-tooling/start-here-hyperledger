@@ -151,29 +151,3 @@ This PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/361" class=".btn">#361</a>
-            </td>
-            <td>
-                <b>
-                    Fabric connector needs to subscribe from zero
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See conversation in https://github.com/hyperledger/firefly-fabconnect/pull/63
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-20 00:55:55 +0000 UTC
-    </div>
-</div>
-
