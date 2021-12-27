@@ -1,13 +1,13 @@
 
-[613](https://github.com/hyperledger-labs/solang/pull/613) Builtin cleanups
+[1681](https://github.com/hyperledger/cactus/pull/1681) test: jestify initialize-endpoint-invalid test
 
-[185](https://github.com/hyperledger/iroha-java/pull/185) 2.0.0 pre.1.rc.1
+[1680](https://github.com/hyperledger/cactus/pull/1680) test: jestify jwt-endpoint-authorization test
 
-[184](https://github.com/hyperledger/iroha-java/pull/184) 2.0.0 pre.1.rc.1
+[420](https://github.com/hyperledger/aries-vcx/pull/420) Decouple generating and sending credential offer
 
-[1757](https://github.com/hyperledger/iroha/pull/1757) [fix] #1751, #1715: Consensus fixes
+[1758](https://github.com/hyperledger/iroha/pull/1758) Test do not merge
 
-[419](https://github.com/hyperledger/aries-vcx/pull/419) Issuer SM stores aries cred offer instead of libindy offer
+[1193](https://github.com/hyperledger/caliper/pull/1193) Fix the unit of the interval of default-observer in the log
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
