@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1678" class=".btn">#1678</a>
+            </td>
+            <td>
+                <b>
+                    test: jestify plugin-import-with-npm-install test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Migrated test from Tap to Jest.
+
+File Path:
+packages/cactus-test-cmd-api-server/src/test/typescript
+/integration/plugin-import-with-npm-install.test.ts
+
+This is a PARTIAL resolution to issue #238
+
+Signed-off-by: awadhana awadhana0825@gmail.com
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-26 22:55:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1677" class=".btn">#1677</a>
             </td>
             <td>
@@ -67,40 +101,6 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
     </table>
     <div class="right-align">
         Created At 2021-12-22 16:17:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1673" class=".btn">#1673</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify runtime-plugin-imports test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Migrated test from Tap to Jest.
-
-File Path:
-packages/cactus-test-cmd-api-server/src/test/
-typescript/integration/runtime-plugin-imports.test.ts
-
-This is a PARTIAL resolution to issue #238
-
-Signed-off-by: awadhana <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-21 21:19:16 +0000 UTC
     </div>
 </div>
 
@@ -183,40 +183,6 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
     </table>
     <div class="right-align">
         Created At 2021-12-21 15:38:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1669" class=".btn">#1669</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify config-service-example-config-validity test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Tests</span><span class="chip">Jestify</span>
-            </td>
-            <td>
-                Migrated test from Tap to Jest.
-
-File Path:
-packages/cactus-cmd-api-server/src/test/typescript/
-unit/config/config-service-example-config-validity.test.ts
-
-This is a PARTIAL resolution to issue #238
-
-Signed-off-by: awadhana <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-19 18:44:29 +0000 UTC
     </div>
 </div>
 
