@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1765" class=".btn">#1765</a>
+            </td>
+            <td>
+                <b>
+                    Iroha 1 compile errors when compiling with g++11
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">build</span><span class="chip">1.4</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+I've tried to compile Iroha 1 with my g++ compiler
+```
+➜  ~ g++ --version
+g++ (GCC) 11.1.0
+```
+And there were few compile errors because of header missing.
+
+Here is PR with those changes, currently as draft until: https://github.com/hyperledger/iroha/pull/1662 would be merged, then I'll clean up the current PR.
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+Added few C++ standard headers
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+Successful compilation with g++11 and newer.
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+Rather none
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-28 12:34:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1764" class=".btn">#1764</a>
             </td>
             <td>
@@ -24,10 +104,34 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
             </td>
             <td>
-                <nil>
+                ### Description of the Change
+
+- `WorldStateView::apply` produces data events via its optional `EventsSender`
+- `Instruction::execute` succeeds in WSV `Diff` which converts to `Vec<Event>`
+
+### Issue
+Close #1172
+
+### Benefits
+Now clients can listen for data events;
+some info about the successful result of each instruction
+
+### Possible Drawbacks
+Cloning cost of instructions for producing events
+
+### Usage Examples or Tests
+- The unit test describes `entity_scope` concept
+- The integration test shows that `nested_instructions_are_flattened_into_data_events`
+
+### Alternate Designs
+
+- How detailed should `DataEntity` and `DataStatus` are?
+  - If too deep, it leaks permission-protected data
+  - If too shallow, it may be useless
+- Planning to rewrite `Broker` model and remove `EventsSender`
             </td>
         </tr>
     </table>
@@ -873,45 +977,6 @@ None
     </table>
     <div class="right-align">
         Created At 2021-12-22 06:06:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1743" class=".btn">#1743</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #1734: Validate `Name` to exclude whitespaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-- Prohibit a whitespace from getting into a `Name` of domain, account, asset, metadata key, and permission token.
-- Identify `Domain` by `Id` instead of `Name`
-
-Now `Id::new`s return `Result<Self>`, while previous implementations are left as `Id::test`s for usability
-
-### Issue
-Close #1734
-
-### Benefits
-Type level guarantee of no whitespaces in `Name` 
-
-### Possible Drawbacks
-There might be a better error handling for `Name` validation
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-21 15:08:18 +0000 UTC
     </div>
 </div>
 

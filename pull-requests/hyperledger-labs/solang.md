@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/614" class=".btn">#614</a>
+            </td>
+            <td>
+                <b>
+                    Add bytes buffer functions for encoding and decoding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ```
+contract c {
+	function f() public returns (bytes) {
+		bytes data = new bytes(10);
+		data.writeUint32LE(102, 0);
+		data.writeUint64LE(0xdeadcafe, 4);
+		return data;	
+	}
+}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-28 15:29:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/613" class=".btn">#613</a>
             </td>
             <td>
@@ -33,34 +68,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2021-12-27 12:22:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/610" class=".btn">#610</a>
-            </td>
-            <td>
-                <b>
-                    pop() is broken when last element is removed from the array
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also ensure that data is freed from array element
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-21 17:27:35 +0000 UTC
     </div>
 </div>
 

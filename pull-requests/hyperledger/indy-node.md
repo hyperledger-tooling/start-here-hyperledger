@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1723" class=".btn">#1723</a>
+            </td>
+            <td>
+                <b>
+                    Remove duplicate Sovrin apt-key call
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-28 17:17:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1722" class=".btn">#1722</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger/indy-node
     </table>
     <div class="right-align">
         Created At 2021-12-21 18:25:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1721" class=".btn">#1721</a>
-            </td>
-            <td>
-                <b>
-                    GHA optimiziation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Removed only the Linter Image and the wrong slices for the tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-21 17:17:06 +0000 UTC
     </div>
 </div>
 

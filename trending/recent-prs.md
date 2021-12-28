@@ -1,13 +1,13 @@
 
-[1764](https://github.com/hyperledger/iroha/pull/1764) [feature] #1172: Implement instruction events
+[1696](https://github.com/hyperledger/cactus/pull/1696) build(socket.io, socket.io-client): upgrade to common socket.io version
 
-[1763](https://github.com/hyperledger/iroha/pull/1763) Feature/syncing node
+[1723](https://github.com/hyperledger/indy-node/pull/1723) Remove duplicate Sovrin apt-key call
 
-[1761](https://github.com/hyperledger/iroha/pull/1761) iroha develop to main
+[1207](https://github.com/hyperledger/grid/pull/1207) update create po handler
 
-[69](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/69) Use the new version of solidity-protobuf, which supports packed repeated fields
+[614](https://github.com/hyperledger-labs/solang/pull/614) Add bytes buffer functions for encoding and decoding
 
-[1760](https://github.com/hyperledger/iroha/pull/1760) [fix] #1755: Minor fixes for #1743, #1725
+[1194](https://github.com/hyperledger/caliper/pull/1194) Value provider integration
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
