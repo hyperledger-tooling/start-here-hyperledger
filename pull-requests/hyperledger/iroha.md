@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1759" class=".btn">#1759</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1764" class=".btn">#1764</a>
             </td>
             <td>
                 <b>
-                    [feature] #1425: add wasm runtime
+                    [feature] #1172: Implement instruction events
                 </b>
             </td>
         </tr>
@@ -27,9 +27,33 @@ permalink: /pull-requests/hyperledger/iroha
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                Signed-off-by: Marin Veršić <marin.versic101@gmail.com>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-28 12:16:26 +0000 UTC
+    </div>
+</div>
 
-<!-- You will not see HTML commented line in Pull Request body -->
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1763" class=".btn">#1763</a>
+            </td>
+            <td>
+                <b>
+                    Feature/syncing node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
 <!-- Optional sections may be omitted. Just remove them or write None -->
 
 <!-- ### Requirements -->
@@ -41,13 +65,27 @@ permalink: /pull-requests/hyperledger/iroha
 
 
 ### Description of the Change
+Adds syncing node state for iroha.
+Node in the state can:
+
+    send transactions
+    execute queries
+    synchronize with remote nodes
+    apply and validate blocks
+    construct WSV
+
+It can not:
+
+    request proposals
+    send votes(votes from such a node will be skipped)
+    generate events of building block
+
 
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
 ### Issue
 
-#1425 
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
 
@@ -76,6 +114,185 @@ https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-pu
 Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 -->
 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-28 10:04:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1761" class=".btn">#1761</a>
+            </td>
+            <td>
+                <b>
+                    iroha develop to main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+Adds features and fixes of iroha v1.4
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-28 08:42:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1760" class=".btn">#1760</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #1755: Minor fixes for #1743, #1725
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+- Fix JSONs according to #1743 `Domain` struct change
+- Fix `status` term to `telemetry` according to #1725
+
+### Issue
+Close #1755
+
+### Benefits
+
+### Possible Drawbacks
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-28 07:42:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1759" class=".btn">#1759</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #1425: add wasm runtime
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Marin Veršić <marin.versic101@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+This PR adds support for executing wasm smartcontracts to Iroha. 
+
+Function parameters and return values are exchanged through **linear memory** via offset and length of the allocation. Since dealing with linear memory is very low-level(it's just a contiguous array of bytes) Rust types/values must be serialized to binary format before writing them to wasm memory. 
+
+Wasm binary to be able to execute must export:
+* `WASM_MAIN_FN` - function which the host calls to execute smartcontract
+* `WASM_MEMORY` - linear memory (used to exchange more complex data than integers/floats)
+* `WASM_ALLOC_FN` - function which hosts uses to allocate memory from wasm's linear memory
+
+
+Notes:
+* Note that since wasm is sandboxed there is no way for the module to get access to hosts memory.
+* Writing wat directly or dealing with raw memory and manual allocation in Rust code that compiles to wasm is not a reasonable user experience. Helper functions and macros are kept for the followup PR. 
+* Limits like wasm binary size and wasm fuel are added in a separate PR.
+
+Should feature flag be introduced to include wasm support optionally?
+
+### Issue
+
+#1425
+
+### Benefits
+
+### Possible Drawbacks
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+Once [WebAssembly specification](https://github.com/webassembly/interface-types) adds support for `Interface Types` it would be much better to use those because no serialization would be required and types would just flow through wasm VM without VM actually understanding their representation.
             </td>
         </tr>
     </table>

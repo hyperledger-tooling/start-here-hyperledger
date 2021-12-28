@@ -1,13 +1,13 @@
 
-[1695](https://github.com/hyperledger/cactus/pull/1695) test: jestify withdraw-endpoint test
+[1764](https://github.com/hyperledger/iroha/pull/1764) [feature] #1172: Implement instruction events
 
-[1694](https://github.com/hyperledger/cactus/pull/1694) test: jestify initialize-endpoint test
+[1763](https://github.com/hyperledger/iroha/pull/1763) Feature/syncing node
 
-[1693](https://github.com/hyperledger/cactus/pull/1693) test: jestify refund-endpoint-invalid test
+[1761](https://github.com/hyperledger/iroha/pull/1761) iroha develop to main
 
-[1692](https://github.com/hyperledger/cactus/pull/1692) test: jestify get-status-endpoint-invalid test
+[69](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/69) Use the new version of solidity-protobuf, which supports packed repeated fields
 
-[1691](https://github.com/hyperledger/cactus/pull/1691) test: jestify get-status-endpoint test
+[1760](https://github.com/hyperledger/iroha/pull/1760) [fix] #1755: Minor fixes for #1743, #1725
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

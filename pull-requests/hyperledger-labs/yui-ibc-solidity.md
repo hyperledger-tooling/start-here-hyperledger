@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/67" class=".btn">#67</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/69" class=".btn">#69</a>
             </td>
             <td>
                 <b>
-                    Use Height struct
+                    Use the new version of solidity-protobuf, which supports packed repeated fields
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-07 00:59:19 +0000 UTC
+        Created At 2021-12-28 08:21:33 +0000 UTC
     </div>
 </div>
 
