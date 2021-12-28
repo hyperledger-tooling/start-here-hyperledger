@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1696" class=".btn">#1696</a>
+            </td>
+            <td>
+                <b>
+                    build(socket.io, socket.io-client): upgrade to common socket.io version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                Some packages use socket.io and socket.io-client V2, while other use V4.
+In order for these components to communicate, we must use common
+socket.io version in all cactus packages (V4.1.3). This commit introduce
+some other related changes, like merging socketio unit tests to common
+setup (to assert changes are correct) and fixes some strict-flag
+warnings and minor bugs. It also updates python packages requirements
+and updates readme when it was necessary.
+
+Closes: #1679
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+
+Additional changes in **cactus-cmd-socketio-server**:
+- Removed local jest config, test will be run from the root dir now.
+- Fixed several strict flag warnings from verifier component.
+- Removed nohoist pragma, changed package to public and added license info.
+- Added monitor_error handle to fix few unit tests (cherry-picked from #1660)
+- Used common socketio test helpers (cherry-picked from #1660)
+
+**Depends on #1670**
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-28 17:18:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1695" class=".btn">#1695</a>
             </td>
             <td>
@@ -366,7 +410,7 @@ Signed-off-by: awadhana <awadhana0825@gmail.com>
             </td>
             <td>
                 <b>
-                    ci: test branch
+                    ci: ensure sorted json files
                 </b>
             </td>
         </tr>
@@ -613,54 +657,6 @@ Signed-off-by: awadhana <awadhana0825@gmail.com>
     </table>
     <div class="right-align">
         Created At 2021-12-21 20:50:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1670" class=".btn">#1670</a>
-            </td>
-            <td>
-                <b>
-                    build: include cmd-socketio-server and socketio validators in the monorepo setup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Multiple changes, but they are tightly related to same issue so I introduced them in single PR, hope it's okay :)
-
-- Added two build steps in common packages.json to facilitate more complex build process of packages related to this PR. I will write another comment in code to this.
-- Added standalone projects to the global monorepo setup, namely:
-```
-./packages/cactus-cmd-socketio-server
-./packages/cactus-plugin-ledger-connector-fabric-socketio
-./packages/cactus-plugin-ledger-connector-go-ethereum-socketio
-./packages/cactus-plugin-ledger-connector-sawtooth-socketio
-```
-- All changed packages extends `tsconfig.base.json`, but most overwrites strict flag to false. This is the task for another PR. After fixing strict warnings we can merge verifier tests to the main jest config.
-    - Related issue - https://github.com/hyperledger/cactus/issues/1671
-- All projects builds in typescript 4 set by the root config.
-- Updated the README files form connectors and examples to describe new (monorepo) build process. Also converted tabs to spaces.
-- I've lost a while trying to debug socketio errors when I forgot to run the init step in example app (I was sure it was my changes that caused that). I don't see for now any benefit of running two separate commands, so I've merged the init-* step to the build process itself so it's always executed.
-- Rewritten socketio and go-eheterum dockerfiles. Not strictly necessary for this PR, but now they are much smaller both in dockerfile lines and resulting container size. Tested with electricty-trade - works the same as before.
-- **yarn.lock update** - Changes from previous commits (I think it wasn't regenerated for a while) and from removing redundant and duplicated packages in this issue.
-- Fixed bug in Verifier that caused cartrade to fail compilation - for now just restored the previous implementation. Will be part of fixes to enable strict flag in this package (another task).
-- Examples were not included in monorepo setup, since it'd be tricky at the moment. It's better to containerize them instead of doing some fixes now.
-- Projects use `../../.build-cache` like the other ones, so manual `npm run build` in package dir can do nothing. Do builds from root dir or clear the cache.
-
-Closes: #1647
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-21 15:38:06 +0000 UTC
     </div>
 </div>
 
