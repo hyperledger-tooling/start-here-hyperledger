@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/275" class=".btn">#275</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/276" class=".btn">#276</a>
             </td>
             <td>
                 <b>
-                    Update PO spec to align with RFC
+                    Add proposed Griddle REST API
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                Resolve divergence between purchase order specification page in
-v0.3 and RFC.
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+                This adds the proposed Griddle REST API to the community planning section on the Grid website.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-24 19:31:38 +0000 UTC
+        Created At 2021-12-27 22:03:53 +0000 UTC
     </div>
 </div>
 

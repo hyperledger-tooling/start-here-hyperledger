@@ -1,13 +1,13 @@
 
+[276](https://github.com/hyperledger/grid-docs/pull/276) Add proposed Griddle REST API
+
+[1683](https://github.com/hyperledger/cactus/pull/1683) ci: test branch
+
+[1682](https://github.com/hyperledger/cactus/pull/1682) test: jestify initialize-endpoint test
+
+[1759](https://github.com/hyperledger/iroha/pull/1759) [feature] #1425: add wasm runtime
+
 [1681](https://github.com/hyperledger/cactus/pull/1681) test: jestify initialize-endpoint-invalid test
-
-[1680](https://github.com/hyperledger/cactus/pull/1680) test: jestify jwt-endpoint-authorization test
-
-[420](https://github.com/hyperledger/aries-vcx/pull/420) Decouple generating and sending credential offer
-
-[1758](https://github.com/hyperledger/iroha/pull/1758) Test do not merge
-
-[1193](https://github.com/hyperledger/caliper/pull/1193) Fix the unit of the interval of default-observer in the log
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
