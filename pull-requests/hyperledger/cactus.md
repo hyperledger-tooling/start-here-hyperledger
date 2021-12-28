@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1683" class=".btn">#1683</a>
+            </td>
+            <td>
+                <b>
+                    ci: test branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Please do not mind this PR, I've been working on this issue and it's been really fickle so I am testing it to see what the problem is. So sorry about the pings! 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-27 19:52:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1682" class=".btn">#1682</a>
+            </td>
+            <td>
+                <b>
+                    test: jestify initialize-endpoint test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Besu</span><span class="chip">Tests</span><span class="chip">Jestify</span>
+            </td>
+            <td>
+                Migrated test from Tap to Jest.
+
+File Path:
+packages/cactus-test-plugin-htlc-eth-besu/src
+/test/typescript/integration/plugin-htlc-eth-besu
+/initialize-endpoint.test.ts
+
+This is a PARTIAL resolution to issue #238
+
+Signed-off-by: awadhana <awadhana0825@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-27 19:36:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1681" class=".btn">#1681</a>
             </td>
             <td>
@@ -24,7 +85,7 @@ permalink: /pull-requests/hyperledger/cactus
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Tests</span><span class="chip">Jestify</span>
             </td>
             <td>
                 Migrated test from Tap to Jest.
