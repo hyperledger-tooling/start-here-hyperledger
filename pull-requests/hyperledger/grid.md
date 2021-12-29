@@ -33,7 +33,7 @@ versions in situations where step-wise updates would lead to invalid states.
 Users may only update the components of the version workflow state that must
 be changed to avoid invalid states when updating purchase orders.
 
-Resolves: #1202
+Resolves: #1202, #1183
 
 Requires: #1199
             </td>
@@ -184,32 +184,6 @@ Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-12-22 22:37:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1200" class=".btn">#1200</a>
-            </td>
-            <td>
-                <b>
-                    Make `check_permission_with_workflow` take reference
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change updates the `check_permission_with_workflow` method to take a reference to the workflow state. Ownership is not required for this function. This allows the smart contract to maintain ownership over the workflow state for further processing.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-22 12:38:38 +0000 UTC
     </div>
 </div>
 

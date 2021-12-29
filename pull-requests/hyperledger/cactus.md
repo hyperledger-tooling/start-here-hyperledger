@@ -691,34 +691,3 @@ What this PR does is upgrade the version in the CI from Node `v14.18.0` to Node 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1676" class=".btn">#1676</a>
-            </td>
-            <td>
-                <b>
-                    fix: add optional parameter token to CactusNode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                add token to apiClient.ofLedger and PluginConsortiumManual
-getConsortiumJws method when property is setted
-
-relationed with #1579
-
-Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-22 16:17:16 +0000 UTC
-    </div>
-</div>
-
