@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1210" class=".btn">#1210</a>
+            </td>
+            <td>
+                <b>
+                    Update `po update` command to allow simultaneous version updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds options and flags to enable simultaneous changes to purchase orders and
+versions in situations where step-wise updates would lead to invalid states.
+
+Users may only update the components of the version workflow state that must
+be changed to avoid invalid states when updating purchase orders.
+
+Resolves: #1202
+
+Requires: #1199
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-28 20:10:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1207" class=".btn">#1207</a>
             </td>
             <td>
@@ -202,59 +236,6 @@ Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2021-12-22 12:15:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1198" class=".btn">#1198</a>
-            </td>
-            <td>
-                <b>
-                    Re-scope REST API modules
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This removes the `pub` re-export of the `handler` and `payloads`
-modules. Only the required elements from these modules are now exported.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-21 20:04:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1197" class=".btn">#1197</a>
-            </td>
-            <td>
-                <b>
-                    Stabilize "workflow" feature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-21 19:28:40 +0000 UTC
     </div>
 </div>
 

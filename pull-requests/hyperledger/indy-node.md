@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/indy-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1722" class=".btn">#1722</a>
-            </td>
-            <td>
-                <b>
-                    Gitpod DevContainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Addition of Gitpod specific files.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-21 18:25:00 +0000 UTC
-    </div>
-</div>
-
