@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/269" class=".btn">#269</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/270" class=".btn">#270</a>
             </td>
             <td>
                 <b>
-                    Use the official CouchDB image for peer database
+                    Prepare for release v1.0.0
                 </b>
             </td>
         </tr>
@@ -27,38 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                Signed-off-by: Grzegorz Hejduk <grzegorz.hejduk@softwaremill.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-22 16:19:32 +0000 UTC
-    </div>
-</div>
+                Resolves #267 
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/268" class=".btn">#268</a>
-            </td>
-            <td>
-                <b>
-                    Support Postgres as a CA database
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
+Adds support for network snapshot for CA with Postgres DB
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-22 14:01:45 +0000 UTC
+        Created At 2021-12-29 14:36:06 +0000 UTC
     </div>
 </div>
 
