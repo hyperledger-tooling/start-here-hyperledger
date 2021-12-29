@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1700" class=".btn">#1700</a>
+            </td>
+            <td>
+                <b>
+                    test: jestify get-single-status-endpoint test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Migrated test from Tap to Jest.
+
+File Path:
+packages/cactus-test-plugin-htlc-eth-besu-erc20/src/
+test/typescript/integration/plugin-htlc-eth-besu-erc20/
+get-single-status-endpoint.test.ts
+
+This is a PARTIAL resolution to issue #238
+
+Signed-off-by: awadhana <awadhana0825@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-29 01:47:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1699" class=".btn">#1699</a>
             </td>
             <td>
