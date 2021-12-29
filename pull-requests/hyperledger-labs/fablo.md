@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/fablo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/266" class=".btn">#266</a>
-            </td>
-            <td>
-                <b>
-                    Global explorer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-22 10:00:15 +0000 UTC
-    </div>
-</div>
-
