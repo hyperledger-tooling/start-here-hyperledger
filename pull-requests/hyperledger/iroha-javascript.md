@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/87" class=".btn">#87</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/88" class=".btn">#88</a>
             </td>
             <td>
                 <b>
-                    Iroha 2 - client release
+                    fix: isomorphic client transports
                 </b>
             </td>
         </tr>
@@ -27,17 +27,14 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                - Client API is refactored a bit
-- Data Model is updated a lot (new json schema, new compiler & runtime)
-- Fixnum package got minor update
-- Docs are updated - new intro, several recipes, etc
-- GitHub Pages workflow & changesets config are updated - now they will target `iroha2` branch instead of `iroha2-dev`
-- Other chores
+                Client should work both in Node.js & Web. I achieved this seamlessly introducing 2 new packages - `@iroha2/client-isomorphic-ws` (WebSocket) and `*-fetch` (Fetch API).
+
+And now I am pretty sure that client works in Web thanks to new Cypress test.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-09 15:33:37 +0000 UTC
+        Created At 2021-12-29 10:28:27 +0000 UTC
     </div>
 </div>
 

@@ -213,29 +213,3 @@ Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1199" class=".btn">#1199</a>
-            </td>
-            <td>
-                <b>
-                    Purchase Order protobuf updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change  makes updates to the "CreatePurchaseOrderPayload" and "UpdatePurchaseOrderPayload". The "create" payload has a new field, `workflow_type`, which allows a user to select which workflow the purchase order should be in. The "update" payload also has a new field, `version_updates`. This new field is a list of `UpdateVersionPayload`s to allow a user to update multiple versions of a purchase order within a single transaction.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-22 12:15:52 +0000 UTC
-    </div>
-</div>
-
