@@ -14,44 +14,6 @@ permalink: /issues/hyperledger/cactus
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/cactus/issues/1461" class=".btn">1461</a>
-            </td>
-            <td>
-                <b>
-                    fix(key-converter): Files needs to migrated from Tape to Jest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">good-first-issue</span><span class="chip">help wanted</span><span class="chip">Nice-to-Have</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span><span class="chip">Hacktoberfest</span><span class="chip">good-first-issue-400-expert</span>
-            </td>
-            <td>
-                **Describe the bug**
-
-Test file, key-converter, has multiple methods that are being skipped. 
-
-**Expected behavior**
-
-The test file should be able to run without it's methods having to be skipped.
-
-**File Path:** packages/cactus-common/src/test/typescript/unit/key-converter.test.ts
-
-**After Correction**
-Migrate file from Tape to Jest.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-10-18 15:33:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 Issue <a href="https://github.com/hyperledger/cactus/issues/1386" class=".btn">1386</a>
             </td>
             <td>
