@@ -7,7 +7,7 @@
 
 [3014](https://github.com/hyperledger/fabric/issues/3014) Support docker registry authentication when pulling chaincode builder images and chaincode runtime images
 
-[1469](https://github.com/hyperledger/cactus/issues/1469) test(connector-corda): fix flaky v4.8 test
+[1461](https://github.com/hyperledger/cactus/issues/1461) fix(key-converter): Files needs to migrated from Tape to Jest
 
 
 [See more >>>](https://start-here.hyperledger.org/issues)
