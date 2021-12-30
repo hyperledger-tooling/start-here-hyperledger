@@ -151,39 +151,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1203" class=".btn">#1203</a>
-            </td>
-            <td>
-                <b>
-                    Add `workflow_name` arg to `grid po create`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds a required arg to specify the po workflow when
-creating a PO. Previously, all POs defaulted to the
-collaborative workflow. Uses workflow-name instead
-of workflow-type to be consistent with the CLI
-display.
-
-Resolves: #1201
-
-Requires: https://github.com/hyperledger/grid/pull/1199
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-22 22:37:44 +0000 UTC
-    </div>
-</div>
-
