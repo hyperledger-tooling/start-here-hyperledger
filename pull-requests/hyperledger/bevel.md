@@ -49,32 +49,3 @@ permalink: /pull-requests/hyperledger/bevel
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1789" class=".btn">#1789</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Some links in setting_dlt.md are broken"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reverts hyperledger/bevel#1783
-
-This PR fixes the links in GitHub view, but breaks the link in readthedocs. Reverting this merge as priority on docs is readthedocs view.
-Solution should work in readthedocs view
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-23 09:41:47 +0000 UTC
-    </div>
-</div>
-
