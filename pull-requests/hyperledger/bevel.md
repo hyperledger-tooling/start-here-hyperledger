@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1792" class=".btn">#1792</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] corda ent cenm console integration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Update idman, networkmap and signer to integrate with cenm console 
+
+ 
+
+**Reviewed by**
+@surabhi-dudhediya @sownak 
+
+ 
+
+**Linked issue**
+#1764
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-30 15:32:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1791" class=".btn">#1791</a>
             </td>
             <td>

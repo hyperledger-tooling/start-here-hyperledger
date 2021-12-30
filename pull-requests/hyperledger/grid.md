@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1213" class=".btn">#1213</a>
+            </td>
+            <td>
+                <b>
+                    Update "update po" action in po smart contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates the "update_purchase_order" method to handle a list of versions. This also updates the method to correctly handle versions depending on the intended update state. This also updates the related tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-30 15:04:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1210" class=".btn">#1210</a>
             </td>
             <td>
@@ -67,87 +93,6 @@ Requires: #1199
     </table>
     <div class="right-align">
         Created At 2021-12-28 16:31:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1206" class=".btn">#1206</a>
-            </td>
-            <td>
-                <b>
-                    Enable missing imports for purchase order feature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Several imports that should be enabled for the purchase order feature
-were disabled. This change enables them.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-23 15:08:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1205" class=".btn">#1205</a>
-            </td>
-            <td>
-                <b>
-                    Move PO CLI public modules before function definitions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-23 14:53:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1204" class=".btn">#1204</a>
-            </td>
-            <td>
-                <b>
-                    Update copyright to 2021 for all that were 2019 for PO CLI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-23 14:49:50 +0000 UTC
     </div>
 </div>
 
