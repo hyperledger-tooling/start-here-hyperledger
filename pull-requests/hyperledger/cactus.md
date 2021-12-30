@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1704" class=".btn">#1704</a>
-            </td>
-            <td>
-                <b>
-                    ci: ensure sorted package json files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1341 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-29 20:38:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1701" class=".btn">#1701</a>
             </td>
             <td>
@@ -541,7 +515,9 @@ Signed-off-by: awadhana <awadhana0825@gmail.com>
                 
             </td>
             <td>
-                Please do not mind this PR, I've been working on this issue and it's been really fickle so I am testing it to see what the problem is. So sorry about the pings! 
+                Fixes #1341 
+
+@petermetz 
             </td>
         </tr>
     </table>
