@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1217" class=".btn">#1217</a>
+            </td>
+            <td>
+                <b>
+                    Validate alternate ID formats
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds tests to validate alt ID parsing. Enforces format of alt ID inputs.
+
+Previously, invalid alt IDs were accepted. Also, users would receive
+`status_code:500` errors when invalid alt IDs were provided.
+
+Resolves: #1212
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-31 00:39:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1213" class=".btn">#1213</a>
             </td>
             <td>
