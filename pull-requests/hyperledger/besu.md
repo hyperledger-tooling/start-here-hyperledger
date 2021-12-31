@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3219" class=".btn">#3219</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/3221" class=".btn">#3221</a>
             </td>
             <td>
                 <b>
-                    Add snapsync as client (step3)
+                    Rollback rocksdb version
                 </b>
             </td>
         </tr>
@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+                Rollback rocks db to 6.15.2
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
@@ -43,7 +47,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-23 15:08:28 +0000 UTC
+        Created At 2021-12-31 11:30:04 +0000 UTC
     </div>
 </div>
 
