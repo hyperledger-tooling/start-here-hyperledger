@@ -70,39 +70,3 @@ Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/362" class=".btn">#362</a>
-            </td>
-            <td>
-                <b>
-                    Update maintainers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Based on the project rule, we nominate active developers with more than
-3 months contribution and retire those not active for more than 3
-  months.
-
-fengyang continues contributing code as the main frontend developer to
-the project, and proposes features on the dashboard.
-
-* Add fengyang as new maintainer
-* Retire hightall from active maintainers
-
-Signed-off-by: Baohua Yang <yangbaohua@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-24 05:42:28 +0000 UTC
-    </div>
-</div>
-
