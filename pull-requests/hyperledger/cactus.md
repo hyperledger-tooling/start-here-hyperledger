@@ -664,32 +664,3 @@ Signed-off-by: awadhana awadhana0825@gmail.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1677" class=".btn">#1677</a>
-            </td>
-            <td>
-                <b>
-                    refactor: upgrade the version of node in CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is `PR 0` that is the prerequisite for an upcoming PR that will fix issue #1654. 
-
-What this PR does is upgrade the version in the CI from Node `v14.18.0` to Node `v16.0.0`. 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-23 20:19:13 +0000 UTC
-    </div>
-</div>
-
