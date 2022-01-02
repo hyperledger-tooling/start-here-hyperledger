@@ -36,32 +36,3 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/307" class=".btn">#307</a>
-            </td>
-            <td>
-                <b>
-                    Get cluster status API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add an API that allows any user to detect the configured nodes from ClusterConfig.Nodes
-and the status of the nodes: who is the leader, and which nodes are active.
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-26 08:19:24 +0000 UTC
-    </div>
-</div>
-
