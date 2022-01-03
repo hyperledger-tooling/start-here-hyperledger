@@ -630,37 +630,3 @@ Signed-off-by: awadhana <awadhana0825@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1678" class=".btn">#1678</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify plugin-import-with-npm-install test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Migrated test from Tap to Jest.
-
-File Path:
-packages/cactus-test-cmd-api-server/src/test/typescript
-/integration/plugin-import-with-npm-install.test.ts
-
-This is a PARTIAL resolution to issue #238
-
-Signed-off-by: awadhana awadhana0825@gmail.com
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-26 22:55:34 +0000 UTC
-    </div>
-</div>
-
