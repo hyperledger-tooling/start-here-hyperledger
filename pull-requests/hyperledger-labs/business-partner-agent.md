@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/696" class=".btn">#696</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/697" class=".btn">#697</a>
             </td>
             <td>
                 <b>
-                    Fix gitpod download URL
+                    Feature/nodejs update
                 </b>
             </td>
         </tr>
@@ -27,16 +27,19 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                Signed-off-by: Tim Schlagenhaufer <tim.schlagenhaufer@bosch.io>
+                Update to nodejs 16.13.1 and npm 8.1.2
+Frontend now required these as minimum versions of the project.
 
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/696"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+To change versions on local machines [asdf](https://asdf-vm.com/) or nvm is recommended.
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/697"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-16 12:39:48 +0000 UTC
+        Created At 2022-01-03 15:43:39 +0000 UTC
     </div>
 </div>
 

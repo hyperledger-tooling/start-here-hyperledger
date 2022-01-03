@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/128" class=".btn">#128</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/129" class=".btn">#129</a>
             </td>
             <td>
                 <b>
-                    Add a `clone_box` method to `ReceiptStore`
+                    Update receipt store function to filter on `service_id`
                 </b>
             </td>
         </tr>
@@ -27,15 +27,13 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                Add a `clone_box` method to the trait and each of the implementations of
-ReceiptStore.
-
-Signed-off-by: Isabel Tomb <tomb@bitwise.io>
+                - Update the `count_txn_receipts` function to filter on the optional service ID when one is set.
+- Update the multiple service ID receipt store test to call `count_txn_receipts` and ensure it returns the correct number of receipts.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-17 21:43:30 +0000 UTC
+        Created At 2021-12-29 23:49:27 +0000 UTC
     </div>
 </div>
 

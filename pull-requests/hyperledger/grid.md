@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1220" class=".btn">#1220</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize `rest-api-resources-purchase-order`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This stabilizes the `rest-api-resources-purchase-order` feature by
+moving it from `experimental` to `stable`.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-03 18:12:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1219" class=".btn">#1219</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize `purchase-order` in gridd
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-03 15:46:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1217" class=".btn">#1217</a>
             </td>
             <td>
@@ -109,7 +164,7 @@ Requires: #1199
             </td>
             <td>
                 <b>
-                    update create po handler
+                    Update "create purchase order" action in po handler
                 </b>
             </td>
         </tr>

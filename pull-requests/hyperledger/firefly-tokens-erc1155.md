@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/49" class=".btn">#49</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/50" class=".btn">#50</a>
             </td>
             <td>
                 <b>
-                    add basic auth to ethconnect connections
+                    Liveness / Readiness Probes and Graceful Shutdown for K8s
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                <nil>
+                Adds `api/v1/health/liveness` (is the process up) and `api/v1/readiness` (is the process ready to serve traffic) endpoints for Kubernetes probes and enables graceful shutdown.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-17 03:07:30 +0000 UTC
+        Created At 2022-01-03 14:07:44 +0000 UTC
     </div>
 </div>
 

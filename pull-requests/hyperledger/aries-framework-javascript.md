@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/585" class=".btn">#585</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/590" class=".btn">#590</a>
             </td>
             <td>
                 <b>
-                    fix(core)!: Improved typing on metadata api
+                    docs(apple-silicon): update OpenSSL instructions
                 </b>
             </td>
         </tr>
@@ -27,19 +27,20 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                BREAKING CHANGE: removed the `getAll()` function.
+                When following the instructions for installing indy for an Apple Silicon (M1 Pro) system, I found that the `brew install` command didn't work. After looking into how to install OpenSSL for M1, I found that the OpenSSL v1.1 on Homebrew also works for Apple Silicon chips (see: https://formulae.brew.sh/formula/openssl@1.1).
 
-- Improved typings on the metadata functions. 
-- Hidden ugly `_internal/...` and replaced with an enum
-- Record metadata stays the same.
+After following the rest of the instructions I ran the `is-indy-installed` test script, which resulted in `Libindy was installed correctly`. As a double check I have also installed `@aries-framework/node`, again with success.
 
-Would be nice if we can get this merged before 0.1.0 as it makes the public api quite a bit better
+> NOTE: When I ran `brew install openssl@1.1` it told me v1.1 was already on my system. I am unsure if this is because stuff I have installed prior to this attempt, or if this is because it's natively shipped with macOs. Therefore I have included the install command in the instructions, just to be sure. 
+
+
+﻿Signed-off-by: Karim Stekelenburg <karim@animo.id>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-22 12:13:40 +0000 UTC
+        Created At 2021-12-28 17:46:39 +0000 UTC
     </div>
 </div>
 
@@ -47,11 +48,11 @@ Would be nice if we can get this merged before 0.1.0 as it makes the public api 
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/584" class=".btn">#584</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/589" class=".btn">#589</a>
             </td>
             <td>
                 <b>
-                    refactor: resolve feedback for problem report
+                    feat(core): allow to set auto accept connetion exchange when accepting invitation
                 </b>
             </td>
         </tr>
@@ -60,14 +61,14 @@ Would be nice if we can get this merged before 0.1.0 as it makes the public api 
                 
             </td>
             <td>
-                Resolve the feedback #560 
+                Related to #583 
 
-Signed-off-by: Amit Padmani <amit@northernblock.io>
+I'm already using these changes in OOB implementation #531 but I wanted to create separate PR.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-21 10:00:58 +0000 UTC
+        Created At 2021-12-28 16:04:31 +0000 UTC
     </div>
 </div>
 

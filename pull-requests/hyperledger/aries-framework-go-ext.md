@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/216" class=".btn">#216</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/217" class=".btn">#217</a>
             </td>
             <td>
                 <b>
-                    feat: Allow for more than two tags in query for MongoDB
+                    chore: update to latest orb
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                This PR allows for more than two tags to be specified in a query in the MongoDB implementation, whereas before, only a maximum of two tags were supported.
-
-Signed-off-by: Bob Stasyszyn <Bob.Stasyszyn@securekey.com>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-19 21:10:22 +0000 UTC
+        Created At 2021-12-29 13:19:09 +0000 UTC
     </div>
 </div>
 
