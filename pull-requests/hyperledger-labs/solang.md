@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                Signed-off-by: Sean Young <sean@mess.org>
+                Fixes #617 
             </td>
         </tr>
     </table>
@@ -101,32 +101,6 @@ contract c {
     </table>
     <div class="right-align">
         Created At 2021-12-28 15:29:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/613" class=".btn">#613</a>
-            </td>
-            <td>
-                <b>
-                    Builtin cleanups
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-27 12:22:18 +0000 UTC
     </div>
 </div>
 
