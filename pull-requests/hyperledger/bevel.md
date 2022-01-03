@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1793" class=".btn">#1793</a>
+            </td>
+            <td>
+                <b>
+                    Update Docs with Bevel Image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Update Bevel Images
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-03 06:07:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1792" class=".btn">#1792</a>
             </td>
             <td>
