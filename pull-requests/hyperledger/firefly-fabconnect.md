@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/64" class=".btn">#64</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/69" class=".btn">#69</a>
             </td>
             <td>
                 <b>
-                    Chaincode Query and TransactionById support
+                    Fixed runtime path for spec.yaml
                 </b>
             </td>
         </tr>
@@ -27,128 +27,91 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                ## Chaincode Query
-```
-POST /query
-
-{
-    "headers": {
-        "signer": "user4",
-        "channel": "default-channel",
-        "chaincode": "asset_transfer"
-    },
-    "func": "GetAllAssets",
-    "args": []
-}
-```
-
-Response:
-```
-{
-    "headers": {
-        "id": "9b92d3e5-6bee-433c-63d8-303b09784779",
-        "type": "QuerySuccess",
-        "timeReceived": "2021-12-19T20:12:45.979664Z",
-        "timeElapsed": 0.037289,
-        "requestOffset": "",
-        "requestId": ""
-    },
-    "result": [
-        {
-            "ID": "asset-151713",
-            "appraisedValue": 1300,
-            "color": "yellow",
-            "owner": "Tom",
-            "size": 5
-        },
-        {
-            "ID": "asset-583666",
-            "appraisedValue": 1300,
-            "color": "yellow",
-            "owner": "Tom",
-            "size": 5
-        }
-    ]
-}
-```
-
-## Get Transaction By ID
-```
-GET /transactions/:id?fly-channel=<channel-id>&fly-signer=<signer>
-```
-
-Response:
-```
-{
-    "headers": {
-        "id": "785bdd6d-ab76-4b0d-74df-bbeffccbb1e3",
-        "type": "QuerySuccess",
-        "timeReceived": "2021-12-20T14:10:46.803715Z",
-        "timeElapsed": 0.154484,
-        "requestOffset": "",
-        "requestId": ""
-    },
-    "result": {
-        "transactions": [
-            {
-                "chaincodeProposal": {
-                    "input": {
-                        "args": [
-                            "CreateAsset",
-                            "asset015",
-                            "red",
-                            "10",
-                            "Tom",
-                            "123000"
-                        ],
-                        "isInit": false
-                    }
-                },
-                "payload": {
-                    "action": {
-                        "proposalResponsePayload": {
-                            "extension": {
-                                "events": {
-                                    "chaincodeId": "asset_transfer",
-                                    "eventName": "AssetCreated",
-                                    "payload": "{\"ID\":\"asset015\",\"color\":\"red\",\"size\":10,\"owner\":\"Tom\",\"appraisedValue\":123000}",
-                                    "txId": "e0ba85200c7539b3726f05a3e278a66e6954f135dbd58182c6511377918a2d47"
-                                }
-                            },
-                            "proposalHash": "Fj5LrScc7gKcODjUsYv4+O8cV7cS42zsfqy2PEuRpbw="
-                        }
-                    },
-                    "chaincodeProposalPayload": {
-                        "input": {
-                            "chaincodeId": {
-                                "name": "asset_transfer"
-                            },
-                            "input": {
-                                "args": [
-                                    "CreateAsset",
-                                    "asset015",
-                                    "red",
-                                    "10",
-                                    "Tom",
-                                    "123000"
-                                ],
-                                "isInit": false
-                            },
-                            "type": 0
-                        }
-                    }
-                }
-            }
-        ],
-        "type": "EndorserTransaction"
-    }
-}
-```
+                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-19 20:15:51 +0000 UTC
+        Created At 2022-01-03 18:05:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/68" class=".btn">#68</a>
+            </td>
+            <td>
+                <b>
+                    Add spec.yaml to runtime image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Missed this when adding the API spec capability. The static resource must be added to the runtime image for it to be available to serve to present the Swagger UI
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-03 16:57:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/67" class=".btn">#67</a>
+            </td>
+            <td>
+                <b>
+                    Add transaction index to the event
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This helps with sequencing on the client side when there are multiple events fired in the same block
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-30 02:24:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/65" class=".btn">#65</a>
+            </td>
+            <td>
+                <b>
+                    API spec
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - serves the Swagger UI on `/api` endpoint with the openapi 3.0 yaml
+- enhanced the transaction receipt with information that got lost previously (block number, tx id, etc.)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-28 23:13:07 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/153" class=".btn">#153</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/155" class=".btn">#155</a>
             </td>
             <td>
                 <b>
-                    Cache init params at chaincode startup
+                    Use mod flag in CI
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-10 15:45:13 +0000 UTC
+        Created At 2022-01-03 12:50:47 +0000 UTC
     </div>
 </div>
 

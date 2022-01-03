@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
             </td>
             <td>
                 <b>
-                    Bump openzeppelin
+                    Bump openzeppelin/contracts to 4.4.1
                 </b>
             </td>
         </tr>
