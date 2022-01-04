@@ -1,13 +1,13 @@
 
-[v0.4.0](https://github.com/hyperledger/indy-node-monitor/releases/tag/v0.4.0) v0.4.0
+[redux-store-v0.2.0](https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/redux-store-v0.2.0) @aries-framework/redux-store redux-store-v0.2.0
 
-[v0.1.0](https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.1.0) v0.1.0
+[push-notifications-v0.2.0](https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/push-notifications-v0.2.0) @aries-framework/push-notifications push-notifications-v0.2.0
 
-[v0.6.2](https://github.com/hyperledger-labs/perun-node/releases/tag/v0.6.2) Release v0.6.2
+[rest-v0.7.0](https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.7.0) @aries-framework/rest rest-v0.7.0
 
-[v0.11.3](https://github.com/hyperledger/firefly/releases/tag/v0.11.3) v0.11.3
+[react-hooks-v0.2.0](https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/react-hooks-v0.2.0) @aries-framework/react-hooks react-hooks-v0.2.0
 
-[v0.9.3](https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.3) v0.9.3
+[v0.9.5](https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.5) v0.9.5
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
