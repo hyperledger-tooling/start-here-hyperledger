@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1581" class=".btn">#1581</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1583" class=".btn">#1583</a>
             </td>
             <td>
                 <b>
-                    OOB connection_reuse webhooks
+                    Multiple Indy Ledger - Askar Fixes and Cleanup
                 </b>
             </td>
         </tr>
@@ -28,11 +28,13 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
+
+- Fixes issues with multiple ledger support when using `askar` wallet-type. Issue (#1567) reported [here](https://github.com/hyperledger/aries-cloudagent-python/issues/1567#issuecomment-1004153961).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-23 23:53:57 +0000 UTC
+        Created At 2022-01-04 00:12:04 +0000 UTC
     </div>
 </div>
 

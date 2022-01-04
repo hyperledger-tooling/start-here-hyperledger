@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/250" class=".btn">#250</a>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/251" class=".btn">#251</a>
             </td>
             <td>
                 <b>
-                    feat: made menus uniform across all tabs
+                    feat: created easier-to-digest json representation
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-toolbox
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-16 22:54:47 +0000 UTC
+        Created At 2022-01-04 00:19:26 +0000 UTC
     </div>
 </div>
 
