@@ -14,6 +14,34 @@ permalink: /issues/hyperledger/fabric
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/fabric/issues/3101" class=".btn">3101</a>
+            </td>
+            <td>
+                <b>
+                    Unclear empty critical section
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span>
+            </td>
+            <td>
+                https://github.com/hyperledger/fabric/blob/516bc8bab548a484e2e62fee24b0f4fed5bf6873/core/ledger/kvledger/kv_ledger.go#L542-L547
+
+I'm not sure why this is not implemented the same way as other methods in the same file. If a special case is indeed needed here, some comments would be appreciated
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-07 09:16:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/fabric/issues/3014" class=".btn">3014</a>
             </td>
             <td>
