@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3144" class=".btn">#3144</a>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3150" class=".btn">#3150</a>
             </td>
             <td>
                 <b>
@@ -27,251 +27,86 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                This is an automatic backport of pull request #3132 done by [Mergify](https://mergify.com).
+                * - Fix failure to generate all possible combinations
 
+Bug happens when the endorsement policy is set to k-out-of-n where (n - k) > 1.
+For example, when there are 6 organizations and the endorsement policy is set
+to majority (i.e. 4-out-of-6). The combinations calculated by chooseKoutOfN()
+in original code are as below.
+	[0 1 2 5], [0 1 2 5], [0 1 2 5], [0 1 3 5],
+	[0 1 3 5], [0 1 4 5], [0 2 3 5], [0 2 3 5],
+	[0 2 4 5], [0 3 4 5], [1 2 3 5], [1 2 3 5],
+	[1 2 4 5], [1 3 4 5], [2 3 4 5]
 
----
+Obviously, the function fails to find out all the possible combinations. Some of
+ the combinations are overrided by child's call. This bug would trigger below
+error sometimes when the alive peers are not within the above combinations.
 
+	[discovery] chaincodeQuery -> ERRO 13a Failed constructing descriptor for
+	chaincode chaincodes:<name:"XXXX" > ,: no peer combination can satisfy the
+	endorsement policy
 
-<details>
-<summary>Mergify commands and options</summary>
+To fix it, the last line of choose() should be changed to pass a copy of
+"currentSubGroup" to the recursive call instead, i.e.
 
-<br />
+	choose(n, targetAmount, i+1, append(make([]int, 0), currentSubGroup...), subGroups)
 
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+After applying the fix, the resulting combinations generated should be corrected
+as below.
+	[0 1 2 3], [0 1 2 4], [0 1 2 5], [0 1 3 4],
+	[0 1 3 5], [0 1 4 5], [0 2 3 4], [0 2 3 5],
+	[0 2 4 5], [0 3 4 5], [1 2 3 4], [1 2 3 5],
+	[1 2 4 5], [1 3 4 5], [2 3 4 5]
 
-You can also trigger Mergify actions by commenting on this pull request:
+Signed-off-by: Tim <96273851+timtim-git@users.noreply.github.com>
 
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+* - Fix failure to generate all possible combinations
 
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+Bug happens when the endorsement policy is set to k-out-of-n where (n - k) > 1.
+For example, when there are 6 organizations and the endorsement policy is set
+to majority (i.e. 4-out-of-6). The combinations calculated by chooseKoutOfN()
+in original code are as below.
+	[0 1 2 5], [0 1 2 5], [0 1 2 5], [0 1 3 5],
+	[0 1 3 5], [0 1 4 5], [0 2 3 5], [0 2 3 5],
+	[0 2 4 5], [0 3 4 5], [1 2 3 5], [1 2 3 5],
+	[1 2 4 5], [1 3 4 5], [2 3 4 5]
 
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
+Obviously, the function fails to find out all the possible combinations. Some of
+ the combinations are overrided by child's call. This bug would trigger below
+error sometimes when the alive peers are not within the above combinations.
 
-Finally, you can contact us on https://mergify.com
-</details>
+	[discovery] chaincodeQuery -> ERRO 13a Failed constructing descriptor for
+	chaincode chaincodes:<name:"XXXX" > ,: no peer combination can satisfy the
+	endorsement policy
 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-23 10:04:25 +0000 UTC
-    </div>
-</div>
+To fix it, the last line of choose() should be changed to pass a copy of
+"currentSubGroup" to the recursive call instead, i.e.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3143" class=".btn">#3143</a>
-            </td>
-            <td>
-                <b>
-                    - Fix failure to generate all possible combinations (backport #3132)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3132 done by [Mergify](https://mergify.com).
+	choose(n, targetAmount, i+1, append(make([]int, 0), currentSubGroup...), subGroups)
 
+After applying the fix, the resulting combinations generated should be corrected
+as below.
+	[0 1 2 3], [0 1 2 4], [0 1 2 5], [0 1 3 4],
+	[0 1 3 5], [0 1 4 5], [0 2 3 4], [0 2 3 5],
+	[0 2 4 5], [0 3 4 5], [1 2 3 4], [1 2 3 5],
+	[1 2 4 5], [1 3 4 5], [2 3 4 5]
 
----
+Signed-off-by: Tim <96273851+timtim-git@users.noreply.github.com>
 
+* - Update choose_test.go
 
-<details>
-<summary>Mergify commands and options</summary>
+Signed-off-by: Tim <96273851+timtim-git@users.noreply.github.com>
 
-<br />
+* - Fix build error
 
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
+Signed-off-by: Tim <96273851+timtim-git@users.noreply.github.com>
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-23 10:04:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3142" class=".btn">#3142</a>
-            </td>
-            <td>
-                <b>
-                    - Fix failure to generate all possible combinations (backport #3132)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3132 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-23 10:03:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3141" class=".btn">#3141</a>
-            </td>
-            <td>
-                <b>
-                    - Fix failure to generate all possible combinations (backport #3132)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3132 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-23 10:03:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3140" class=".btn">#3140</a>
-            </td>
-            <td>
-                <b>
-                    - Fix failure to generate all possible combinations (backport #3132)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3132 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-23 10:03:25 +0000 UTC
+        Created At 2022-01-04 03:35:53 +0000 UTC
     </div>
 </div>
 
