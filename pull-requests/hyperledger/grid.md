@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1222" class=".btn">#1222</a>
+            </td>
+            <td>
+                <b>
+                    Update `worklow_type` to `workflow_id`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change update the `workflow_type` field in the purchase order
+struct to be `workflow_id`. This makes the "create purchase order"
+payload field for the `workflow_id` to match the corresponding field in
+the purchase order struct.
+
+This also updates the tests affected by this change.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-04 15:13:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1220" class=".btn">#1220</a>
             </td>
             <td>
@@ -153,32 +186,6 @@ Requires: #1199
     </table>
     <div class="right-align">
         Created At 2021-12-28 20:10:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1207" class=".btn">#1207</a>
-            </td>
-            <td>
-                <b>
-                    Update "create purchase order" action in po handler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This updates the structure and layout of the purchase order smart contract's create po action. This also updates the tests to be valid with the additional validation checks happening in the smart contract. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-28 16:31:23 +0000 UTC
     </div>
 </div>
 

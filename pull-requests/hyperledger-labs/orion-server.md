@@ -14,25 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/308" class=".btn">#308</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/311" class=".btn">#311</a>
             </td>
             <td>
                 <b>
-                    Committed by Hanan on Dec 28 2021 11:40
+                    Validate config preorder
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">replication</span>
             </td>
             <td>
-                Signed-off-by: Hanan Singer <hanan@il.ibm.com>
+                Validate a config tx before proposing in to Raft.
+
+We validate a config TX preorder to prevent a membership change to be applied to Raft, and then
+have the TX marked invalid during commit. Note that ConfigTxValidator.Validate reads the current
+config from the store. However, together with the code to prevent in-flight config blocks before
+proposing a new one (future commit), the  config from the store should match the config stored in
+the BlockReplicator.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-28 12:56:53 +0000 UTC
+        Created At 2022-01-04 15:00:16 +0000 UTC
     </div>
 </div>
 

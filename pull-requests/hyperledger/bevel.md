@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1799" class=".btn">#1799</a>
+            </td>
+            <td>
+                <b>
+                    Changed docker_build workflow to push to ghcr
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Updated docker_build.yml workflow to push the builds (for BAF and Corda) to ghcr.io instead of DockerHub.
+
+ 
+
+**Reviewed by**
+
+
+ 
+
+**Linked issue**
+#1780 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-04 15:30:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1793" class=".btn">#1793</a>
             </td>
             <td>
