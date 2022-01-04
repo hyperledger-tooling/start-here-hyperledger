@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/619" class=".btn">#619</a>
+            </td>
+            <td>
+                <b>
+                    Move to clap 3.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-04 16:08:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/618" class=".btn">#618</a>
             </td>
             <td>
@@ -99,41 +125,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2021-12-30 19:45:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/614" class=".btn">#614</a>
-            </td>
-            <td>
-                <b>
-                    Add bytes buffer functions for encoding and decoding
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ```
-contract c {
-	function f() public returns (bytes) {
-		bytes data = new bytes(10);
-		data.writeUint32LE(102, 0);
-		data.writeUint64LE(0xdeadcafe, 4);
-		return data;	
-	}
-}
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-28 15:29:17 +0000 UTC
     </div>
 </div>
 

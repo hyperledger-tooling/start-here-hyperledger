@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1723" class=".btn">#1723</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1725" class=".btn">#1725</a>
             </td>
             <td>
                 <b>
-                    Remove duplicate Sovrin apt-key call
+                    Indy-Test-Autmation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+                This PR contains the workflow to run the `indy-node-tests` from https://github.com/hyperledger/indy-test-automation.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-28 17:17:39 +0000 UTC
+        Created At 2022-01-04 14:31:20 +0000 UTC
     </div>
 </div>
 
