@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/70" class=".btn">#70</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/71" class=".btn">#71</a>
             </td>
             <td>
                 <b>
-                    Update dependencies
+                    0.3.4 updates
                 </b>
             </td>
         </tr>
@@ -27,13 +27,13 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                - Updates to hyper 0.14, tokio 1.0
-- Also fixes errors during macro expansion
+                - Updates dependencies
+- Adds MacOS universal build for Python package
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-20 22:49:10 +0000 UTC
+        Created At 2022-01-03 20:52:02 +0000 UTC
     </div>
 </div>
 

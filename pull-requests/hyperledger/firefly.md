@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/374" class=".btn">#374</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/379" class=".btn">#379</a>
             </td>
             <td>
                 <b>
-                    Add regex for company name in header
+                    Allow any company name in license header
                 </b>
             </td>
         </tr>
@@ -32,7 +32,87 @@ permalink: /pull-requests/hyperledger/firefly
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-03 17:44:00 +0000 UTC
+        Created At 2022-01-03 20:44:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/378" class=".btn">#378</a>
+            </td>
+            <td>
+                <b>
+                    Fetch full history on all GitHub Actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a followup to https://github.com/hyperledger/firefly/pull/377 which changes the setting in all the GitHub actions for this repo.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-03 20:04:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/377" class=".btn">#377</a>
+            </td>
+            <td>
+                <b>
+                    Set fetch-depth to get the full history in GitHub Actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is to fix the linter failing while checking the header copyright date for files that were not changed this year. This change pulls the full git history in the checkout stage, similar to what would happen if a user did a `git clone` on their local machine.
+
+This PR will likely need to be merged without a passing build, due to the fact that all builds are stuck needing this change.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-03 19:51:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/375" class=".btn">#375</a>
+            </td>
+            <td>
+                <b>
+                    Have DB creation script account for username
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This script previously made incorrect assumptions about the name of the database user and the name of the database. Providing connection strings with no db name initiates a connection using the username as the database name. Instead, the connection should always be made to the default `postgres` database.  
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-03 19:19:44 +0000 UTC
     </div>
 </div>
 
