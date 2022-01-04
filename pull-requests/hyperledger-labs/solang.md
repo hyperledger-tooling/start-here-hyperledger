@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/618" class=".btn">#618</a>
+            </td>
+            <td>
+                <b>
+                    Provide method for accessing accounts on Solana
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR creates a builtin array `tx.accounts[]` which gives access to the tx accounts, so it is possible to do things like:
+
+```
+     AccountInfo ai = tx.accounts[0];
+     ai.lamports += 1;
+     uint64 total_supply = tx.accounts[1].data.readUint64LE(4);
+```
+    
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-04 11:46:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/616" class=".btn">#616</a>
             </td>
             <td>

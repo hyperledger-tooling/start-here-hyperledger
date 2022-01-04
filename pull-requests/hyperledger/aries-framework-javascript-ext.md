@@ -24,12 +24,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
         </tr>
         <tr>
             <td>
-                <span class="chip">autorelease: pending</span>
+                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
             </td>
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
 ---
-## [0.7.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.6.1...rest-v0.7.0) (2021-12-30)
+## [0.7.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.6.1...rest-v0.7.0) (2022-01-04)
 
 
 ### ⚠ BREAKING CHANGES
@@ -65,12 +65,12 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
         </tr>
         <tr>
             <td>
-                <span class="chip">autorelease: pending</span>
+                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
             </td>
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
 ---
-## [0.2.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/push-notifications-v0.1.1...push-notifications-v0.2.0) (2021-12-30)
+## [0.2.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/push-notifications-v0.1.1...push-notifications-v0.2.0) (2022-01-04)
 
 
 ### ⚠ BREAKING CHANGES
@@ -106,12 +106,12 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
         </tr>
         <tr>
             <td>
-                <span class="chip">autorelease: pending</span>
+                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
             </td>
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
 ---
-## [0.2.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/redux-store-v0.1.2...redux-store-v0.2.0) (2021-12-30)
+## [0.2.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/redux-store-v0.1.2...redux-store-v0.2.0) (2022-01-04)
 
 
 ### ⚠ BREAKING CHANGES
@@ -147,12 +147,12 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
         </tr>
         <tr>
             <td>
-                <span class="chip">autorelease: pending</span>
+                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
             </td>
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
 ---
-## [0.2.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/react-hooks-v0.1.4...react-hooks-v0.2.0) (2021-12-30)
+## [0.2.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/react-hooks-v0.1.4...react-hooks-v0.2.0) (2022-01-04)
 
 
 ### ⚠ BREAKING CHANGES
@@ -188,7 +188,7 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">ci-test</span>
             </td>
             <td>
                 Bumps [swagger-ui-dist](https://github.com/swagger-api/swagger-ui) from 4.1.2 to 4.1.3.
