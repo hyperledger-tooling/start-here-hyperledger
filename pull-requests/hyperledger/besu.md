@@ -31,6 +31,8 @@ permalink: /pull-requests/hyperledger/besu
 
     dependency 'io.kubernetes:client-java:14.0.0'
 
+https://github.com/kubernetes-client/java/releases
+
 See #3229 
 
 ## Changelog

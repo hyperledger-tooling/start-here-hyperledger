@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/634" class=".btn">#634</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/635" class=".btn">#635</a>
             </td>
             <td>
                 <b>
-                    RU tx flow
+                    [ja_JP] translate gateway.md into Japanese · hyperledger/fabric-docs-i18n
                 </b>
             </td>
         </tr>
@@ -27,64 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-23 17:52:49 +0000 UTC
-    </div>
-</div>
+                Signed-off-by: Daiki Nakashima Nakashima.Daiki@df.MitsubishiElectric.co.jp
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/633" class=".btn">#633</a>
-            </td>
-            <td>
-                <b>
-                    RU peer event services
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
+Resolve #227 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-23 12:12:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/632" class=".btn">#632</a>
-            </td>
-            <td>
-                <b>
-                    RU discovery overview
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-23 10:15:12 +0000 UTC
+        Created At 2022-01-05 09:50:04 +0000 UTC
     </div>
 </div>
 

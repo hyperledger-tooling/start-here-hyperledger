@@ -68,29 +68,3 @@ Affected versions of this package are vulnerable to Denial of Service (DoS) via 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1701" class=".btn">#1701</a>
-            </td>
-            <td>
-                <b>
-                    test(test-tooling): add corda 5 aio image #1479
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Corda</span><span class="chip">Tests</span>
-            </td>
-            <td>
-                Resolve #1479 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-29 09:55:50 +0000 UTC
-    </div>
-</div>
-
