@@ -129,38 +129,3 @@ Signed-off-by: awadhana <awadhana0825@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1699" class=".btn">#1699</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify refund-endpoint test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Besu</span><span class="chip">Tests</span><span class="chip">Jestify</span>
-            </td>
-            <td>
-                Migrated test from Tap to Jest.
-
-File Path:
-packages/cactus-test-plugin-htlc-eth-besu/
-src/test/typescript/integration/
-plugin-htlc-eth-besu/refund-endpoint.test.ts
-
-This is a PARTIAL resolution to issue #238
-
-Signed-off-by: awadhana <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-29 00:16:01 +0000 UTC
-    </div>
-</div>
-

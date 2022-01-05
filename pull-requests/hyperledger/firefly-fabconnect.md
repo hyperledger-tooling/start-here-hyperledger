@@ -88,30 +88,3 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/65" class=".btn">#65</a>
-            </td>
-            <td>
-                <b>
-                    API spec
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - serves the Swagger UI on `/api` endpoint with the openapi 3.0 yaml
-- enhanced the transaction receipt with information that got lost previously (block number, tx id, etc.)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-28 23:13:07 +0000 UTC
-    </div>
-</div>
-

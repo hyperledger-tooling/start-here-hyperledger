@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/272" class=".btn">#272</a>
+            </td>
+            <td>
+                <b>
+                    Release script fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jakub Dzikowski <jakub.dzikowski@softwaremill.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-04 20:31:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fablo/pull/270" class=".btn">#270</a>
             </td>
             <td>
