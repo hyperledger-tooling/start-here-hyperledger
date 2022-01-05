@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1194" class=".btn">#1194</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1195" class=".btn">#1195</a>
             </td>
             <td>
                 <b>
-                    Value provider integration
+                    Docs: Added Declarative Workload Module
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                - Integrate Value Providers by extending WorkloadModuleBase
-- Add DeclarativeWorkloadModuleBase
+                Contains declarative workload module documentation added to vNext.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-28 13:32:17 +0000 UTC
+        Created At 2022-01-05 16:32:18 +0000 UTC
     </div>
 </div>
 

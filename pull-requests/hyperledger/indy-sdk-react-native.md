@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/25" class=".btn">#25</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/26" class=".btn">#26</a>
             </td>
             <td>
                 <b>
-                    fix: allow sender verkey to be null in iOS when packing with anoncrypt
+                    Feat/delete credential
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
                 
             </td>
             <td>
-                <nil>
+                - Adds the ability to delete a credential
+- tested on iOS and works
+
+--- Not tested on Android yet ---
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-16 22:00:53 +0000 UTC
+        Created At 2022-01-05 12:40:22 +0000 UTC
     </div>
 </div>
 

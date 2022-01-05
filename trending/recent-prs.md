@@ -1,13 +1,13 @@
 
-[1779](https://github.com/hyperledger/iroha/pull/1779) [feature] #1749: `no_std` in `data_model`
+[1781](https://github.com/hyperledger/iroha/pull/1781) [feature] #1749: no_std support for version, schema and macro libraries
 
-[635](https://github.com/hyperledger/fabric-docs-i18n/pull/635) [ja_JP] translate gateway.md into Japanese · hyperledger/fabric-docs-i18n
+[1587](https://github.com/hyperledger/aries-cloudagent-python/pull/1587) WIP: @context and type check before issuing W3C cred
 
-[3155](https://github.com/hyperledger/fabric/pull/3155) scope snapshot trigger for non empty data block
+[50](https://github.com/hyperledger/firefly-dataexchange-https/pull/50) Include size in metadata, and add dx-size header to partner dx-hash
 
-[273](https://github.com/hyperledger-labs/fablo/pull/273) Allow additional properties in Fablo config
+[1195](https://github.com/hyperledger/caliper/pull/1195) Docs: Added Declarative Workload Module
 
-[28](https://github.com/hyperledger/ursa-rfcs/pull/28) zk framework ppt
+[1225](https://github.com/hyperledger/grid/pull/1225) Update permissions to use seller
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
