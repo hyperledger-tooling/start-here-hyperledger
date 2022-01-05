@@ -41,29 +41,3 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3114" class=".btn">#3114</a>
-            </td>
-            <td>
-                <b>
-                    fix: unnoticed bdd test error in didcommv2 implicit connection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-29 08:10:25 +0000 UTC
-    </div>
-</div>
-
