@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fir
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fir/pull/1" class=".btn">#1</a>
+                PR <a href="https://github.com/hyperledger/firefly-fir/pull/3" class=".btn">#3</a>
             </td>
             <td>
                 <b>
-                    Add GitHub Pages config
+                    Blob Friendly Names
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-fir
                 
             </td>
             <td>
-                <nil>
+                Proposal to add  sortable/filterable names + sizes to blob data, with a convention encouraged of using `path/to/file.ext`, and a UI to allow exploration by this convention.
+
+fyi @heymrbrian @lanasta
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-09 18:26:59 +0000 UTC
+        Created At 2022-01-05 04:04:33 +0000 UTC
     </div>
 </div>
 
