@@ -161,7 +161,7 @@ This PR will likely need to be merged without a passing build, due to the fact t
             <td>
                 TODOs
 - [ ] https://github.com/hyperledger/firefly-tokens-erc1155/pull/50 merged
-- [ ] https://github.com/hyperledger/firefly/pull/359 merged
+- [x] https://github.com/hyperledger/firefly/pull/359 merged
 - [ ] docs
 - [ ] testing
             </td>

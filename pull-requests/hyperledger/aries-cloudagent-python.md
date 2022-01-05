@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1585" class=".btn">#1585</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Reuse Peer DID when receiving invitation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
+- #1582 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-04 20:08:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1583" class=".btn">#1583</a>
             </td>
             <td>

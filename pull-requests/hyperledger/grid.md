@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1223" class=".btn">#1223</a>
+            </td>
+            <td>
+                <b>
+                    Add ability to add/update POs/versions by alternate ID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds the ability to update POs, add/update PO versions, and look up revisions using a PO's alternate ID.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-04 21:51:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1222" class=".btn">#1222</a>
             </td>
             <td>
@@ -152,40 +178,6 @@ Resolves: #1212
     </table>
     <div class="right-align">
         Created At 2021-12-30 15:04:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1210" class=".btn">#1210</a>
-            </td>
-            <td>
-                <b>
-                    Update `po update` command to allow simultaneous version updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds options and flags to enable simultaneous changes to purchase orders and
-versions in situations where step-wise updates would lead to invalid states.
-
-Users may only update the components of the version workflow state that must
-be changed to avoid invalid states when updating purchase orders.
-
-Resolves: #1202, #1183
-
-Requires: #1199
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-28 20:10:25 +0000 UTC
     </div>
 </div>
 
