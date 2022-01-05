@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/312" class=".btn">#312</a>
+            </td>
+            <td>
+                <b>
+                    Prevent proposals inflight config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">replication</span>
+            </td>
+            <td>
+                We are preventing all proposals when a config is in flight, by using the same mechanism that prevents proposals when there are too many regular blocks in flight. This is not strictly necessary (what we strictly need is to prevent proposing a config when another config is in-flight), but is easier to implement. The implications on steady state performance are negligible, as config transactions are rare.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-05 13:20:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/311" class=".btn">#311</a>
             </td>
             <td>

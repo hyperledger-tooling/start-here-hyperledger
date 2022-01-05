@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/126" class=".btn">#126</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/132" class=".btn">#132</a>
             </td>
             <td>
                 <b>
-                    Fix payload for config endpoint
+                    [dbevents-buffersize] adding EventConfig for firefly_config generator
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                Previously the CLI was posting a stringified JSON object to the config endpoint, rather than actual JSON, which caused FireFly to overwrite the entire admin section of the config. This meant that after FireFly re-applies the new config, it just reverts to the default config value for all the admin settings. It was trying to set all of `config.admin` to one big long string. This fix sends _actual JSON_ which allows FireFly to properly patch the config, rather than overwriting the entire section (with a nonsense string)
+                To prevent the change event queue from becoming exhausted, as discovered in [this issue](https://github.com/hyperledger/firefly/issues/376), the buffer size of `dbevents` must be explicitly stated in the firefly node config.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-10 22:11:29 +0000 UTC
+        Created At 2022-01-05 15:47:54 +0000 UTC
     </div>
 </div>
 

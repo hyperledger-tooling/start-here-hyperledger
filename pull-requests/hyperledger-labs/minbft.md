@@ -14,28 +14,29 @@ permalink: /pull-requests/hyperledger-labs/minbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/226" class=".btn">#226</a>
+                PR <a href="https://github.com/hyperledger-labs/minbft/pull/227" class=".btn">#227</a>
             </td>
             <td>
                 <b>
-                    Add an LGTM.com badge in the README
+                    Make message testing implementation-independent
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                This pull request adds an LGTM.com badge in the README. LGTM is a security analysis platform, which is enabled in this repository by #221.
+                This pull request introduces generic message testing utilities.
 
-Resolves: #225 
+<!-- and reference any issues resolved by the pull request, e.g. #123 -->
+Related to #178.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-17 12:03:15 +0000 UTC
+        Created At 2022-01-05 15:23:36 +0000 UTC
     </div>
 </div>
 

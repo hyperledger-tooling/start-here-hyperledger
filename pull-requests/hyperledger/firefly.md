@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/381" class=".btn">#381</a>
+            </td>
+            <td>
+                <b>
+                    API changes for Blob Friendly Names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See https://github.com/hyperledger/firefly-fir/pull/3
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-05 15:10:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/379" class=".btn">#379</a>
             </td>
             <td>
@@ -198,63 +224,6 @@ This PR will likely need to be merged without a passing build, due to the fact t
     </table>
     <div class="right-align">
         Created At 2021-12-30 21:40:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/369" class=".btn">#369</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies for next release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Full round of dependency updates:
-- Manifest updates to latest release of FabConnect 
-- Go dependency update to latest across the board
-- Truffle dependency update
-  - Removed no longer required asset trail contract
-  - Removed unused dependency on OpenZeppelin
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-29 17:05:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/368" class=".btn">#368</a>
-            </td>
-            <td>
-                <b>
-                    Fix misspelled filename (bytetypes.go)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-29 16:47:56 +0000 UTC
     </div>
 </div>
 
