@@ -42,6 +42,8 @@ permalink: /releases/hyperledger-labs/fablo
 * Support Postgres as a CA database by @gzhk in https://github.com/hyperledger-labs/fablo/pull/268
 * Use the official CouchDB image for peer database by @gzhk in https://github.com/hyperledger-labs/fablo/pull/269
 * Prepare for release v1.0.0 by @dzikowski in https://github.com/hyperledger-labs/fablo/pull/270
+* Release script fix by @dzikowski in https://github.com/hyperledger-labs/fablo/pull/272
+* Allow additional properties in Fablo config by @dzikowski in https://github.com/hyperledger-labs/fablo/pull/273
 
 ## New Contributors
 * @ryjones made their first contribution in https://github.com/hyperledger-labs/fablo/pull/260
@@ -55,7 +57,7 @@ permalink: /releases/hyperledger-labs/fablo
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-01-04 13:43:48 +0000 UTC
+        Created At 2022-01-05 10:37:30 +0000 UTC
     </span>
 </div>
 
