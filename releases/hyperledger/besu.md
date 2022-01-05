@@ -15,32 +15,31 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
-                    Release 21.10.5
+                    Release 21.10.6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    21.10.5
+                    21.10.6
                 </span>
             </td>
             <td>
                 ## Bug Fixes
-Update log4j to 2.17.0
+Update log4j to 2.17.1
 
 ## Download Links
-https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.5/besu-21.10.5.tar.gz SHA256 359d8f950b1b1ed225fd9c0b23f2e45a6d6f24ee39b02c4f500986d225b79b10
-
-https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.5/besu-21.10.5.zip SHA256 0deaa924b453a4ff0b6f2886cefaddaccbe5a4bf732d970480fdeae1672b94c2
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.6/besu-21.10.6.tar.gz SHA256 ef579490031dd4eb3704b4041e352cfb2e7e787fcff7506b69ef88843d4e1220
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.6/besu-21.10.6.zip SHA256 0fdda65bc993905daa14824840724d0b74e3f16f771f5726f5307f6d9575a719
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/21.10.5" class=".btn">
+    <a href="https://github.com/hyperledger/besu/releases/tag/21.10.6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-12-19 21:10:49 +0000 UTC
+        Created At 2022-01-04 21:58:49 +0000 UTC
     </span>
 </div>
 
