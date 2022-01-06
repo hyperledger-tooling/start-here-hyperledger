@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1230" class=".btn">#1230</a>
+            </td>
+            <td>
+                <b>
+                    Use functions as opposed to pub schema const
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                All external references to the schema directory should be based on both
+the base schema dir and environment variables. This change creates
+functions to facilitate that, and removes the public modifier from the
+schema const.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 16:58:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1229" class=".btn">#1229</a>
+            </td>
+            <td>
+                <b>
+                    Update schema directory to /usr/share/grid/schemas
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                XML schema files now go into /usr/share, which is for
+architecture-independent shareable files.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 16:47:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1226" class=".btn">#1226</a>
             </td>
             <td>
@@ -206,32 +266,6 @@ Resolves: #1212
     </table>
     <div class="right-align">
         Created At 2021-12-31 00:39:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1213" class=".btn">#1213</a>
-            </td>
-            <td>
-                <b>
-                    Update "update po" action in po smart contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates the "update_purchase_order" method to handle a list of versions. This also updates the method to correctly handle versions depending on the intended update state. This also updates the related tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-30 15:04:59 +0000 UTC
     </div>
 </div>
 
