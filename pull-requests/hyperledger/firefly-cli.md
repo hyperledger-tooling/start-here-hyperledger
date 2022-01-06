@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/134" class=".btn">#134</a>
+            </td>
+            <td>
+                <b>
+                    [pg-maxconns] adding maxconns to postgres config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Helps solve `ERROR SQL query failed: pq: sorry, too many clients already` error seen in https://github.com/hyperledger/firefly/issues/380
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 05:30:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-cli/pull/133" class=".btn">#133</a>
             </td>
             <td>

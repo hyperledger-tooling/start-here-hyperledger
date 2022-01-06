@@ -14,6 +14,139 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3243" class=".btn">#3243</a>
+            </td>
+            <td>
+                <b>
+                    assertj update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+dependency 'org.assertj:assertj-core:3.22.0'
+
+See #3229 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 05:36:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3242" class=".btn">#3242</a>
+            </td>
+            <td>
+                <b>
+                    DO NOT MERGE - TLS P2P Hacky POC Fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Hacky POC to fix TLS P2P failing to process messages over a certain size (> TLS record limit of 16 KB)
+
+Copied Framer impl into PlainFramer and commented out the encryption-related bits.
+This means we still get some of the partial message processing logic.
+Essentially, we've added a HEADER containing the expected size of the message and will wait for more data if the message buffer only contains a partial message.
+
+This will become the fix for https://github.com/ConsenSys/protocol-misc/issues/554
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 05:15:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3241" class=".btn">#3241</a>
+            </td>
+            <td>
+                <b>
+                    update web3j dependency versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Update to 5.0.0 where there's no breaking changes
+
+See #3229 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 03:30:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3240" class=".btn">#3240</a>
+            </td>
+            <td>
+                <b>
+                    remove old comment re bls12-381 version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The referenced issue has been fixed and bls12-381 has been updated
+https://github.com/hyperledger/besu/issues/2668
+
+Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 03:18:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3239" class=".btn">#3239</a>
             </td>
             <td>

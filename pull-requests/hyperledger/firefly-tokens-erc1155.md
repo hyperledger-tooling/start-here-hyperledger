@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                Adds `api/v1/health/liveness` (is the process up) and `api/v1/readiness` (is the process ready to serve traffic) endpoints for Kubernetes probes and enables graceful shutdown.
+                Adds `api/v1/health/liveness` (is the process up) and `api/v1/health/readiness` (is the process ready to serve traffic) endpoints for Kubernetes probes and enables graceful shutdown.
             </td>
         </tr>
     </table>
