@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/622" class=".btn">#622</a>
+            </td>
+            <td>
+                <b>
+                    Improve subscript ast
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 - Track dereferenced type
+ - Remove Expression::StorageBytesSubscript
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-05 22:12:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/621" class=".btn">#621</a>
+            </td>
+            <td>
+                <b>
+                    WIP: feat(parser): DocComments grouping & type annotation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger-labs/solang/issues/620
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-05 21:43:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/619" class=".btn">#619</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/133" class=".btn">#133</a>
+            </td>
+            <td>
+                <b>
+                    [prom_img_name] adding stack name in front of prometheus container name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding the stack name in front of the prometheus container name. This allows multiple stacks to have prometheus enabled on the same machine
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-05 23:44:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-cli/pull/132" class=".btn">#132</a>
             </td>
             <td>

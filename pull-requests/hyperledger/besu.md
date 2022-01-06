@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3239" class=".btn">#3239</a>
+            </td>
+            <td>
+                <b>
+                    kubernetes dependency: update to 7.0.1 and change package names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+According to this https://mvnrepository.com/artifact/io.kubernetes/client-java the vulnerabilities aren't fixed until 11.0.1 - I tried to upgrade from 6.0.1 to 7.0.0 - changed package names but also it seems the util classes have vanished so this one needs a bit more work!
+
+See #3229 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 00:07:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3238" class=".btn">#3238</a>
             </td>
             <td>
@@ -70,7 +104,7 @@ just a trival fix, to avoid error messages in the IDE
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
 
-    dependency 'io.kubernetes:client-java:14.0.0'
+    dependency 'io.kubernetes:client-java:6.0.1'
 
 https://github.com/kubernetes-client/java/releases
 
