@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/315" class=".btn">#315</a>
+            </td>
+            <td>
+                <b>
+                    Limit access to cluster config to admins
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 14:57:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/314" class=".btn">#314</a>
             </td>
             <td>
                 <b>
-                    Httputils refactor
+                    Rename httputils package to utils
                 </b>
             </td>
         </tr>

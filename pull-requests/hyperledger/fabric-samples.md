@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/568" class=".btn">#568</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/572" class=".btn">#572</a>
             </td>
             <td>
                 <b>
-                    test-network: Fix a indentation for readability
+                    client java application using gateway api in java sdk
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                Additionally, remove a trailing white space
-
-Signed-off-by: Justin Yang <justin.yang@themedium.io>
+                Signed-off-by: deeptiraom <41100100+deeptiraom@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-22 06:01:49 +0000 UTC
+        Created At 2022-01-06 12:40:31 +0000 UTC
     </div>
 </div>
 
