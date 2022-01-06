@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/67" class=".btn">#67</a>
-            </td>
-            <td>
-                <b>
-                    Add transaction index to the event
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This helps with sequencing on the client side when there are multiple events fired in the same block
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-30 02:24:13 +0000 UTC
-    </div>
-</div>
-

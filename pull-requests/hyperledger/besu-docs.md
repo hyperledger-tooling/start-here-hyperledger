@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/915" class=".btn">#915</a>
+            </td>
+            <td>
+                <b>
+                    deploy besu with kubernetes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Eric Lin <eric.lin@consensys.net>
+
+## Describe the change
+
+Copy over similar docs from https://consensys.net/docs/goquorum/en/latest/deploy/install/kubernetes/ with some minor changes. 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 04:09:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/913" class=".btn">#913</a>
             </td>
             <td>

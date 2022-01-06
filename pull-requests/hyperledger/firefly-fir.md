@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-fir
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-fir/pull/4" class=".btn">#4</a>
+            </td>
+            <td>
+                <b>
+                    Rest API Query Syntax Enhancements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Proposal to improve the rich query semantics of FireFly, to support "starts with" and "ends with", and add extra flexibility/consistency.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 02:53:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-fir/pull/3" class=".btn">#3</a>
             </td>
             <td>
