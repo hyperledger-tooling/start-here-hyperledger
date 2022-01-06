@@ -15,39 +15,36 @@ permalink: /releases/hyperledger/firefly-cli
         <tr>
             <td colspan="2">
                 <b>
-                    v0.0.40
+                    v0.0.41
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.0.40
+                    v0.0.41
                 </span>
             </td>
             <td>
                 ## Changelog
 
-* 9df5caf Initial Prometheus Support - docker and stack config
-* 01db2a9 Merge pull request #123 from kaleido-io/eventstreaminit
-* f64453a Merge pull request #124 from kaleido-io/prom-support
-* 87e3b91 Merge pull request #125 from kaleido-io/token-uri
-* c98936c Remove "skipEventstreamInit" parameters
-* a7a0be8 Supply a token URI prefix when initializing ERC1155 contract
-* 7a11b86 fixing ff config and copying prom file to volume
-* 2160002 gofmt
-* 32faba1 no need to expose metrics port; no need to ensure config volume
-* b138b29 printing prom url after stack startup
+* 745b3cd Fix payload for config endpoint (#126)
+* 96d9846 Merge pull request #130 from hyperledger/tokens-ethconnect
+* e049098 Merge pull request #132 from kaleido-io/dbevents-buffersize
+* ee87bb8 Merge pull request #133 from kaleido-io/prom_img_name
+* dbe9c43 Remove deprecated tokens ETHCONNECT_IDENTITY param
+* 913e989 [dbevents-buffersize] adding EventConfig for firefly_config generator
+* d2e40b8 [prom_img_name] adding stack name in front of prometheus container name #131
 
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.40" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.41" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-11-23 14:04:35 +0000 UTC
+        Created At 2022-01-06 17:09:47 +0000 UTC
     </span>
 </div>
 
