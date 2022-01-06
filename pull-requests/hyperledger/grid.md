@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1226" class=".btn">#1226</a>
+            </td>
+            <td>
+                <b>
+                    Rename remaining `workflow_type`s to `workflow_id`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This replaces any remaining instances of `workflow_type` with the new terminology `workflow_id`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-05 19:06:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1225" class=".btn">#1225</a>
             </td>
             <td>

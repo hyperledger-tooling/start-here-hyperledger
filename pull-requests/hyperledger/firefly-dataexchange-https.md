@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/51" class=".btn">#51</a>
+            </td>
+            <td>
+                <b>
+                    Configurable JSON parser limit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-05 23:28:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/50" class=".btn">#50</a>
             </td>
             <td>

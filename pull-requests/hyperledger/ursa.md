@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/197" class=".btn">#197</a>
+                PR <a href="https://github.com/hyperledger/ursa/pull/198" class=".btn">#198</a>
             </td>
             <td>
                 <b>
-                    Update Time crate
+                    Fix 'cl' feature, warnings
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                Fixes https://github.com/hyperledger/ursa/issues/196
+                Compilation currently fails when the `cl` feature is enabled due to the `digest` dependency being updated previously.
+
+Also fixed some warnings and skipped tests around the optional `serde` feature and non-existent `serialization` feature.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-14 14:38:37 +0000 UTC
+        Created At 2022-01-05 23:28:10 +0000 UTC
     </div>
 </div>
 
