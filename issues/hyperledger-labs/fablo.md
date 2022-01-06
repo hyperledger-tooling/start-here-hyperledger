@@ -14,38 +14,29 @@ permalink: /issues/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger-labs/fablo/issues/265" class=".btn">265</a>
+                Issue <a href="https://github.com/hyperledger-labs/fablo/issues/274" class=".btn">274</a>
             </td>
             <td>
                 <b>
-                    Change CouchDB image
+                    Update Node.js runtime compatibility
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">bug</span><span class="chip">good first issue</span>
+                <span class="chip">good first issue</span>
             </td>
             <td>
-                Currently for CouchDB we are using images provided by Hyperledger. It's not good option anymore because:
+                > By default a Fabric Peer v1.4 will create a Nodejs v8 runtime, and a Fabric Peer v2.2/2.3 will create a Nodejs 12 runtime. The Fabric v2.4 will create a Nodejs 16 runtime.
 
-1. It's deprecated: https://github.com/hyperledger/fabric/releases
-```
-Fabric CouchDB image is deprecated
-v2.2.0 added support for CouchDB 3.1.0 as the recommended and tested version of CouchDB.
-If prior versions are utilized, a Warning will appear in peer log.
-Note that CouchDB 3.1.0 requires that an admin username and password be set, while this was optional in CouchDB v2.x. See the Fabric CouchDB documentation for configuration details.
-Also note that CouchDB 3.1.0 default max_document_size is reduced to 8MB. Set a higher value if needed in your environment.
-Finally, the fabric-couchdb docker image will not be updated to v3.1.0 and will no longer be updated, maintained, or published.
-Users can utilize the official CouchDB docker image maintained by the Apache CouchDB project instead.
-```
+see: https://github.com/hyperledger/fabric-chaincode-node/blob/main/COMPATIBILITY.md
 
-2. Seems that it doesn't work in some setups: https://github.com/hyperledger-labs/fablo/issues/263
+Due to it, we need to update chaincode scripts to provide accurate warnings
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-21 10:44:46 +0000 UTC
+        Created At 2022-01-06 12:23:27 +0000 UTC
     </div>
 </div>
 
