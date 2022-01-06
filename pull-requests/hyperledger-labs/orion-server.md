@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/314" class=".btn">#314</a>
+            </td>
+            <td>
+                <b>
+                    Httputils refactor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rename `httputils` package to `utils`
+Rename file `utils.go` to `http.go`
+
+No functional change.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 12:26:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/313" class=".btn">#313</a>
+            </td>
+            <td>
+                <b>
+                    Refactor SharedConfiguration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change the **SharedConfiguration** field Nodes
+from
+
+- Nodes []NodeConf
+
+to
+
+- Nodes []*NodeConf
+
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 11:05:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/312" class=".btn">#312</a>
             </td>
             <td>
