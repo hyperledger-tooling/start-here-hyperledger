@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 <b>
-                    WIP: @context and type check before issuing W3C cred
+                    @context and type check before issuing W3C cred
                 </b>
             </td>
         </tr>
@@ -29,6 +29,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             <td>
                 Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
 - resolve #1568 
+- Pending minor test coverage work, will take up after initial feedback.
             </td>
         </tr>
     </table>

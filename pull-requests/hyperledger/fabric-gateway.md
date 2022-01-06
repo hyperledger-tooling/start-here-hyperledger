@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/341" class=".btn">#341</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/365" class=".btn">#365</a>
             </td>
             <td>
                 <b>
-                    Remove golint and add go vet
+                    Fix scenario test for non-determinism
                 </b>
             </td>
         </tr>
@@ -27,16 +27,40 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                golint is deprecated and no longer developed. Replacing with go vet.
+                Change the extected error response
 
-Also removed unused build dependencies on gobin and goimports.
-
-Resolves #339 
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-03 10:30:04 +0000 UTC
+        Created At 2022-01-06 11:58:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/364" class=".btn">#364</a>
+            </td>
+            <td>
+                <b>
+                    Run nightly builds even if there are no code changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #353
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 11:28:29 +0000 UTC
     </div>
 </div>
 

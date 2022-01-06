@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
@@ -90,12 +90,14 @@ This will become the fix for https://github.com/ConsenSys/protocol-misc/issues/5
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
 
 Update to 5.0.0 where there's no breaking changes
+
+Updating others from 4.8.9 to 5.0.0 (see previous commits on this PR) caused things to break. 
 
 See #3229 
 
@@ -157,7 +159,7 @@ Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
@@ -232,7 +234,7 @@ just a trival fix, to avoid error messages in the IDE
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
@@ -268,7 +270,7 @@ See #3229
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
@@ -302,7 +304,7 @@ See #3229
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
@@ -494,7 +496,7 @@ Remove some unnecessary comments explaining conditional statements in a already 
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>

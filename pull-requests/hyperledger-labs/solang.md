@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/624" class=".btn">#624</a>
+            </td>
+            <td>
+                <b>
+                    Fix regressions in ewasm after address type conversion
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #623 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 10:29:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/622" class=".btn">#622</a>
             </td>
             <td>
@@ -45,7 +71,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    WIP: feat(parser): DocComments grouping & type annotation
+                    feat(parser): DocComments grouping & type annotation
                 </b>
             </td>
         </tr>
@@ -54,7 +80,13 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/solang/issues/620
+                Resolves https://github.com/hyperledger-labs/solang/issues/620
+
+---
+
+- [x] Differentiate different doc comment styles: line (`/// @author Alexey`) and block (`/** @author Alexey */`)
+- [x] Group multiple block doc comments into one introducing `SingleDocComment` that's contained in `DocComment::Block` enum variant
+- [x] Preserve newlines in both line and block doc comments, so it would be possible to restore the original formatting of comments
             </td>
         </tr>
     </table>
