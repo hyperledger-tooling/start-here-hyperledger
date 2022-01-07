@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/627" class=".btn">#627</a>
+            </td>
+            <td>
+                <b>
+                    Add slice to solidity parser
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #626 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-07 10:41:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/624" class=".btn">#624</a>
             </td>
             <td>
@@ -151,32 +177,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2022-01-04 11:46:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/616" class=".btn">#616</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #617 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-31 11:30:52 +0000 UTC
     </div>
 </div>
 

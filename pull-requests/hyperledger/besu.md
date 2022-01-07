@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3253" class=".btn">#3253</a>
+            </td>
+            <td>
+                <b>
+                    DO NOT MERGE - Use out-of-the-box netty codecs to fix TLS P2P failing to process messages over a certain size (> TLS record limit of 16 KB)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Based on https://github.com/perusworld/besu/commit/06f94311d8196a35759ae5e647c282a2204e9dd9 but removed Protobufs
+
+This will fix https://github.com/hyperledger/besu/issues/3254
+
+Note, this supersedes https://github.com/hyperledger/besu/pull/3242
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-07 06:57:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3252" class=".btn">#3252</a>
+            </td>
+            <td>
+                <b>
+                    Display gasPrice too low message in logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Previously, for transactions sent with a gas price below the minimum configured, there would only be a message displaying this in TRACE logging.
+
+## Fixed Issue(s)
+[Fixes #3211](https://github.com/hyperledger/besu/issues/3211)
+
+## Changelog
+Changed the message logging type so that it will display not only in TRACE logging mode.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-07 06:27:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3251" class=".btn">#3251</a>
             </td>
             <td>
@@ -288,38 +351,6 @@ See #3229
     </table>
     <div class="right-align">
         Created At 2022-01-06 05:36:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3242" class=".btn">#3242</a>
-            </td>
-            <td>
-                <b>
-                    DO NOT MERGE - TLS P2P Hacky POC Fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hacky POC to fix TLS P2P failing to process messages over a certain size (> TLS record limit of 16 KB)
-
-Copied Framer impl into PlainFramer and commented out the encryption-related bits.
-This means we still get some of the partial message processing logic.
-Essentially, we've added a HEADER containing the expected size of the message and will wait for more data if the message buffer only contains a partial message.
-
-This will become the fix for https://github.com/ConsenSys/protocol-misc/issues/554
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-06 05:15:13 +0000 UTC
     </div>
 </div>
 
@@ -837,47 +868,6 @@ fixes #3141
     </table>
     <div class="right-align">
         Created At 2022-01-03 14:39:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3221" class=".btn">#3221</a>
-            </td>
-            <td>
-                <b>
-                    Rollback rocksdb version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Rollback rocks db to 6.15.2
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-31 11:30:04 +0000 UTC
     </div>
 </div>
 
