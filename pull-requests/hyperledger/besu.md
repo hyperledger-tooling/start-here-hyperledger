@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3256" class=".btn">#3256</a>
+            </td>
+            <td>
+                <b>
+                    ETC Mystique hard fork
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Adds the blocks and the changes for the Mystique hard fork
+
+## Fixed Issue(s)
+
+Fixes #3255
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-07 17:13:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3253" class=".btn">#3253</a>
             </td>
             <td>
@@ -197,7 +233,7 @@ merge main into merge branch
             </td>
             <td>
                 <b>
-                    Do not fail duplicate import of finalized block
+                    Fixes for kintsugi consensus errors
                 </b>
             </td>
         </tr>
@@ -210,6 +246,7 @@ merge main into merge branch
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+* ensure we validate block parameters before we optimistically return valid for block hash param
 * address a corner case discovered in kintsugi where we refuse to import a block which has already finalized
 * test coverage
 
