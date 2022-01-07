@@ -28,8 +28,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
-- resolve #1568 
-- Pending minor test coverage work, will take up after initial feedback.
+- resolve #1568
             </td>
         </tr>
     </table>

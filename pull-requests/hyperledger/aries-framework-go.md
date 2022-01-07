@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3116" class=".btn">#3116</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3119" class=".btn">#3119</a>
             </td>
             <td>
                 <b>
-                    feat: didcomm v2 peer did integration
+                    feat: correlating invitation with propose credential message
                 </b>
             </td>
         </tr>
@@ -27,17 +27,20 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                - DID rotation command can now rotate to a freshly-made peer DID
-- OOBv2 inviter creates connection on inbound invitation response
-- present-proof controller API can take connection ID instead of DIDs
-- BDD tests have better handling of connection IDs, using BDDContext
+                - WACI way of using invitation as parent threadID may not work with
+DIDCommV1 where parent thread ID gets reset by messenger while sending
+propose credential message
+- As a work around, invitation ID can be explicitly used while sending
+propose credential message
+- Part of #3073
 
-Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-30 09:59:33 +0000 UTC
+        Created At 2022-01-06 19:32:53 +0000 UTC
     </div>
 </div>
 
