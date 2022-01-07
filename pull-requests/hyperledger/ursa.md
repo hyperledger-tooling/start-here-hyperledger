@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/ursa/pull/200" class=".btn">#200</a>
+            </td>
+            <td>
+                <b>
+                    Remove libsodium and time dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-06 22:21:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/ursa/pull/198" class=".btn">#198</a>
             </td>
             <td>

@@ -180,36 +180,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/615" class=".btn">#615</a>
-            </td>
-            <td>
-                <b>
-                    Make solidity parser a standalone crate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is essentially a followup on #597 and makes the solidity parser a standalone crate (`solang-parser`)
-
-## Changes
-* move `src/parser/*` to `solang-parser`, including lalrpop build
-* move `src/sema/ast/Diagnostic` related structs to `solang-parser/src/diagnostics/`. This was necessary because the parser's error is the Diagnostic, but has the downside that some `Diagnostic` implementation is now in two places:
-  * made `src/sema/ast/Diagnostic::formatted_message` a function that accepts a `&Diagnostic` instead
-* rm unused dependencies in solang 
-* reexport the parser, so it doesn't break
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-30 19:45:59 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/82" class=".btn">#82</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/90" class=".btn">#90</a>
             </td>
             <td>
                 <b>
-                    FGJ-109: Exclude all internal packages from Javadoc (release-2.2)
+                    Use com.ibm.cloud:cloudant package for CouchDB wallets
                 </b>
             </td>
         </tr>
@@ -27,38 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                Sub-packages of org.hyperledger.fabric.gateway.impl were not excluded.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-05-19 09:58:23 +0000 UTC
-    </div>
-</div>
+                The com.cloudant:cloudant-client package is deprecated.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/81" class=".btn">#81</a>
-            </td>
-            <td>
-                <b>
-                    FGJ-109: Exclude all internal packages from Javadoc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Sub-packages of org.hyperledger.fabric.gateway.impl were not excluded.
+Resolves #89
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-19 09:56:23 +0000 UTC
+        Created At 2022-01-06 18:38:27 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/276" class=".btn">#276</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/277" class=".btn">#277</a>
             </td>
             <td>
                 <b>
-                    Add proposed Griddle REST API
+                    Update po walkthrough
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                This adds the proposed Griddle REST API to the community planning section on the Grid website.
+                This updates the using purchase order walkthrough to work with the
+updated CLI.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-27 22:03:53 +0000 UTC
+        Created At 2022-01-06 20:49:35 +0000 UTC
     </div>
 </div>
 
