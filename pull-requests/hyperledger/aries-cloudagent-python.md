@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1589" class=".btn">#1589</a>
+            </td>
+            <td>
+                <b>
+                    Fix for Test Harness --version issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
+```
+aries_cloudagent/commands/upgrade.py
+from packaging import version as package_version
+ModuleNotFoundError: No module named 'packaging'
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-07 15:07:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1587" class=".btn">#1587</a>
             </td>
             <td>

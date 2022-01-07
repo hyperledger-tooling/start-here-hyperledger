@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3163" class=".btn">#3163</a>
+            </td>
+            <td>
+                <b>
+                    Update test_network.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Entry in troubleshooting if iptables error occurs
+
+- Documentation update
+
+The entry describes a possible error that occured to me, when I wanted to run the test-network. Since I found many entries regarding iptables and unknown option --dport I thought it could concern others, too. 
+
+Signed-off-by: Jannes Klee jannes.klee@gmail.com
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-07 14:36:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3160" class=".btn">#3160</a>
             </td>
             <td>
