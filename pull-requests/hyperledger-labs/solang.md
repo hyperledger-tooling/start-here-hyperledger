@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/630" class=".btn">#630</a>
+            </td>
+            <td>
+                <b>
+                    Add location to solidity import directive
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pertaining to the discussion in [ethers-rs/feat(solc): flatten](https://github.com/gakonst/ethers-rs/pull/774) PR, add location to the import directives to be able to parse them out.
+
+cc: @mattsse 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-08 15:19:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/628" class=".btn">#628</a>
             </td>
             <td>
