@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/369" class=".btn">#369</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-368] chaincode files upload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The interface of chain code upload is added. Temporarily save the chain code in the / opt / chaincode / {MD5} directory. In the future, consider making the package function in an interface?
+
+Close #issue-368
+
+Signed-off-by: tianxuanhong1 <523713078@qq.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-08 00:55:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/367" class=".btn">#367</a>
             </td>
             <td>

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1591" class=".btn">#1591</a>
+            </td>
+            <td>
+                <b>
+                    Fixes for revocable credential issuance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Fix RevocationError instantiations
+- Ensure transaction is not left open when IndyIssuerRevocationRegistryFullError exception is raised
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-08 01:26:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1589" class=".btn">#1589</a>
             </td>
             <td>
