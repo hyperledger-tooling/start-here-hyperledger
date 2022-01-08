@@ -1,13 +1,13 @@
 
-[94](https://github.com/hyperledger/fabric-gateway-java/pull/94) Release v2.2.3
+[45](https://github.com/hyperledger/sawtooth-sdk-java/pull/45) Bump protobuf-java from 3.6.1 to 3.16.1 in /examples/intkey_java
 
-[3256](https://github.com/hyperledger/besu/pull/3256) ETC Mystique hard fork
+[44](https://github.com/hyperledger/sawtooth-sdk-java/pull/44) Bump protobuf-java from 3.6.1 to 3.16.1 in /examples/xo_java
 
-[93](https://github.com/hyperledger/fabric-gateway-java/pull/93) Fix Javadoc build for Java 8
+[184](https://github.com/hyperledger/fabric-sdk-java/pull/184) Bump protobuf-java from 3.19.1 to 3.19.2
 
-[92](https://github.com/hyperledger/fabric-gateway-java/pull/92) Fix Javadoc build for Java 8 (release-2.2)
+[628](https://github.com/hyperledger-labs/solang/pull/628) Update test.yml
 
-[1589](https://github.com/hyperledger/aries-cloudagent-python/pull/1589) Fix for Test Harness --version issue
+[3257](https://github.com/hyperledger/besu/pull/3257) Removed deprecated Orion classes
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
