@@ -43,6 +43,8 @@ permalink: /pull-requests/hyperledger/iroha
 [fixed] Signatory case insensetive checks.
 [fixed] Txs status description 5 byte -> (1 byte if ```true``` or 0 byte if ```false```) per entry.
 [added] Bloom filter in RDB.
+[added] RadixTrie enumerate nodes by prefix filter
+[added] RDB 2-layer cache for WSV.
 
 
             </td>
