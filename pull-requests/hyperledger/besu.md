@@ -131,7 +131,7 @@ Fixes #3255
             </td>
             <td>
                 <b>
-                    DO NOT MERGE - Use out-of-the-box netty codecs to fix TLS P2P failing to process messages over a certain size (> TLS record limit of 16 KB)
+                    Use out-of-the-box netty codecs to fix TLS P2P failing to process messages over a certain size (> TLS record limit of 16 KB)
                 </b>
             </td>
         </tr>
