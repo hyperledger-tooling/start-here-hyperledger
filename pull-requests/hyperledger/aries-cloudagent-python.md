@@ -73,33 +73,6 @@ ModuleNotFoundError: No module named 'packaging'
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1587" class=".btn">#1587</a>
-            </td>
-            <td>
-                <b>
-                    @context and type check before issuing W3C cred
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
-- resolve #1568
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-05 16:51:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1583" class=".btn">#1583</a>
             </td>
             <td>
