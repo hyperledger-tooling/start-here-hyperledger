@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/382" class=".btn">#382</a>
+            </td>
+            <td>
+                <b>
+                    feat(scripts): Add script for packaging and installing chaincode locally
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added a script that executes the Fabric chaincode lifecycle locally instead of using the chaincode from an external container, so that changes in the chaincode may be tested out quickly. Now the chaincode is installed directly on the peer itself, and the created dev-peer containers may be used for easily debugging chaincode.
+
+Closes #376. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-10 09:08:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/381" class=".btn">#381</a>
             </td>
             <td>
@@ -33,36 +61,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     </table>
     <div class="right-align">
         Created At 2022-01-06 00:13:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/380" class=".btn">#380</a>
-            </td>
-            <td>
-                <b>
-                    Bump openzeppelin/contracts to 4.4.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                    This commit address a low severity vulnerability in openzeppelin contracts 3.3.0/3.4.1. Should respond to [PR 374](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/374) and [PR 375](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/375) 
-    Requires upgrading to solidity ^0.8.0 - now using compiler version 0.8.3:
-        - Derived contract must override function "supportsInterface" (see new overrides in derived contracts)
-        - Require changing getChainId() (DAOToken/Governor contracts) from pure to view
-        - uint(-1) changec to type(uint).max
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-03 12:23:52 +0000 UTC
     </div>
 </div>
 
