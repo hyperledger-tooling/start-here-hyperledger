@@ -295,8 +295,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 It's important for smartcontracts to be able to access `no_std` functionality. This PR brings:
 * remove `std` from `data_model` and it's dependencies `version`, `macro` and `crypto`
-* add `std` feature to some of those libraries that require this functionality othwerise
-* remove `eyre` from previously listed crates as it is not `no_std` compatible yet or guard it's use with `std` feature
+* add `std` feature to libraries that require this functionality
 * add verification to CI that `data_model` remains `no_std`
 
 ### Issue
