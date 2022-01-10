@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/575" class=".btn">#575</a>
+            </td>
+            <td>
+                <b>
+                    Update REST sample readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Move signposts to sample source files from index.ts to the readme and reinforce the key aspects of the sample
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-10 17:28:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/574" class=".btn">#574</a>
+            </td>
+            <td>
+                <b>
+                    DRAFT: Private data samples migration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-10 13:17:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/573" class=".btn">#573</a>
             </td>
             <td>

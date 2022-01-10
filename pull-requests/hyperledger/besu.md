@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3261" class=".btn">#3261</a>
+            </td>
+            <td>
+                <b>
+                    Fast sync state error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Previously, fastSyncState.getPivotBlockHeader().get() is accessed before checking pivot block not present. Added fixes, needed to add the exit code but not able to understand.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #3227
+
+## Changelog
+Added the error message log if pivot block not present.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-10 17:04:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3260" class=".btn">#3260</a>
+            </td>
+            <td>
+                <b>
+                    We want to know how long it took to import blocks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-10 12:41:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3258" class=".btn">#3258</a>
             </td>
             <td>
@@ -945,43 +1010,6 @@ fixes #3141
     </table>
     <div class="right-align">
         Created At 2022-01-03 22:09:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3222" class=".btn">#3222</a>
-            </td>
-            <td>
-                <b>
-                    Sync logging improvement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-03 14:39:02 +0000 UTC
     </div>
 </div>
 

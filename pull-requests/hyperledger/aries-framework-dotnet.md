@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/208" class=".btn">#208</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/210" class=".btn">#210</a>
             </td>
             <td>
                 <b>
-                    Refactor ResolveByMyKey into IConnectionService
+                    did:key Transformation
                 </b>
             </td>
         </tr>
@@ -28,16 +28,19 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
             </td>
             <td>
                 #### Short description of what this resolves:
-With this PR ResolveByMyKey becomes an actual method of IConnectionService
+This PR adds the ability to transform did:key into verkeys and verkeys into their did:key representation as described in [RFC-0360](https://github.com/hyperledger/aries-rfcs/tree/b3a3942ef052039e73cd23d847f42947f8287da2/features/0360-use-did-key).
 
-#### Changes proposed in this pull request
-- Let ResolveByMyKey become a method of IConnectionService to enable testing and improvements
+#### Changes proposed in this pull request:
+
+- Added method in DidUtils to transform verkey into did:key
+- Enable did:key usage in connection invitation and service decorators
+- Added integration tests for connectionless presentation and issuance
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-22 19:16:44 +0000 UTC
+        Created At 2022-01-10 12:51:27 +0000 UTC
     </div>
 </div>
 
