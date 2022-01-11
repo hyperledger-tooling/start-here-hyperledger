@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1238" class=".btn">#1238</a>
+            </td>
+            <td>
+                <b>
+                    Fix numbers in proto messages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes protobuf numbering to be consecutive.
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-11 16:41:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1230" class=".btn">#1230</a>
             </td>
             <td>
@@ -147,39 +175,6 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-01-04 21:51:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1222" class=".btn">#1222</a>
-            </td>
-            <td>
-                <b>
-                    Update `worklow_type` to `workflow_id`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change update the `workflow_type` field in the purchase order
-struct to be `workflow_id`. This makes the "create purchase order"
-payload field for the `workflow_id` to match the corresponding field in
-the purchase order struct.
-
-This also updates the tests affected by this change.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-04 15:13:31 +0000 UTC
     </div>
 </div>
 

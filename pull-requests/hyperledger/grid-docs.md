@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/282" class=".btn">#282</a>
+            </td>
+            <td>
+                <b>
+                    Fix location of API doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes the location of the API doc when the website is getting
+built. Previously, the file was being overwritten.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-11 17:32:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid-docs/pull/278" class=".btn">#278</a>
             </td>
             <td>
