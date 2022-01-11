@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3166" class=".btn">#3166</a>
+            </td>
+            <td>
+                <b>
+                    Update fabric go module to v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Although Fabric is not intended to be used as a go module that other
+projects import, some projects use Go tooling to download repositories
+and this does not work for Fabric v2.x since Fabric's go module is
+not defined as a v2 module. This change marks Fabric's go module
+as v2 so that Fabric v2.x versions can be downloaded with Go tooling.
+
+Fixes #2929
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-10 23:42:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3163" class=".btn">#3163</a>
             </td>
             <td>

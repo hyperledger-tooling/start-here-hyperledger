@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-poet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-poet/pull/58" class=".btn">#58</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-poet/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    Pin Coverage to version 5.5 in bumper tests
+                    Pin mistune version to fix doc build error
                 </b>
             </td>
         </tr>
@@ -27,15 +27,16 @@ permalink: /pull-requests/hyperledger/sawtooth-poet
                 
             </td>
             <td>
-                The 6.0 release of Coverage dropped support for python 3.5, which is the last
-supported version on Xenial, which is the distribution bumper was based on.
+                Sphinx-openapi depends on m2r which pulls in mistune without specifying a
+version. Mistune has recently updated to 2.0.0 which includes some API
+changes which were not backwards compatible.
 
 Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-04 19:28:16 +0000 UTC
+        Created At 2022-01-10 19:04:41 +0000 UTC
     </div>
 </div>
 

@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2412" class=".btn">#2412</a>
-            </td>
-            <td>
-                <b>
-                    Fix builds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-03 19:10:02 +0000 UTC
-    </div>
-</div>
-

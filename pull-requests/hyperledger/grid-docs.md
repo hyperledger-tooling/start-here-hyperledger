@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/278" class=".btn">#278</a>
+            </td>
+            <td>
+                <b>
+                    Update future rest api documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the endpoints for the future rest api docs to remove explicit references to Griddle. This is intended to avoid confusion and allow these docs to evolve with the project. This also includes updating the url of the docs to remove references to Griddle. A list of changes to the API spec has also been added to the API landing page. This also makes the endpoints for the doc itself and its landing page more explicit to fix inconsistent behavior between local builds and the published site.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-10 20:45:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid-docs/pull/277" class=".btn">#277</a>
             </td>
             <td>
