@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/376" class=".btn">#376</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/378" class=".btn">#378</a>
             </td>
             <td>
                 <b>
@@ -31,14 +31,13 @@ permalink: /pull-requests/hyperledger/cello
 
 front parames: consensus, db,name,type,version
 but backend needs: name, consensus,database
-
 Close #374 
 Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-08 09:07:19 +0000 UTC
+        Created At 2022-01-11 02:14:00 +0000 UTC
     </div>
 </div>
 
@@ -82,7 +81,7 @@ Signed-off-by: fengyang_sy fengyang.09186@h3c.com
             </td>
             <td>
                 <b>
-                    [#issue-no]Modify front-end login module
+                    [#issue-370]Modify front-end login module
                 </b>
             </td>
         </tr>

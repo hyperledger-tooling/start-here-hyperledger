@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                Update kubernetes dependency - package rename mostly
+                Update kubernetes dependency - package rename mostly.
+Also added additional licence alias for CDDL + GPLv2 with classpath extension
 See #3229 
 
 ## Changelog
@@ -332,7 +333,7 @@ Fixes https://github.com/hyperledger/besu/issues/2714
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">doc-change-required</span>
             </td>
             <td>
                 Signed-off-by: Frank Li <b439988l@gmail.com>
