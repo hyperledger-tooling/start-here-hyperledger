@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/159" class=".btn">#159</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/161" class=".btn">#161</a>
             </td>
             <td>
                 <b>
-                    Make sphinx building happy
+                    added osn admin module
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
                 
             </td>
             <td>
-                Otherwise, it will report ModuleNotFoundError: No module named
-'hfc'.
-
-Close #158
-
-Change-Id: I113b395623a6d5d6a629e36362765720291d964f
-Signed-off-by: Baohua Yang <yangbaohua@gmail.com>
+                In the new fabric release, it's mentioned that the system channel approach to managing orderers will be deprecated so it might be useful to have osn admin in the SDK so the network can be managed with one tool.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-02 06:49:04 +0000 UTC
+        Created At 2022-01-11 14:23:16 +0000 UTC
     </div>
 </div>
 
