@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/576" class=".btn">#576</a>
+            </td>
+            <td>
+                <b>
+                    Add prometheus/grafana performances sample in test-network directory
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - add the ability to separate start a prometheus and grafana server either in the fabric docker network test or as a separate network
+- provide a sample prometheus configuration that connects to the fabric test network to collect metrics
+- provide a sample grafana dashboard to collect some of the more interesting statistics
+- provide a README explaining how to setup this environment
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-11 11:54:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/575" class=".btn">#575</a>
             </td>
             <td>

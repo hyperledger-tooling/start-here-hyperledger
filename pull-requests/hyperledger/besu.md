@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3266" class=".btn">#3266</a>
+            </td>
+            <td>
+                <b>
+                    Gas price too low warning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+When transactions are sent with a gasPrice below the minimum configured, a message alerting the user is only displayed when in TRACE mode.
+
+## Fixed Issue(s)
+Fixes #3211 
+
+## Changelog
+Changed logging for the gasPrice too low message from TRACE to WARN so the user will be alerted to this issue if it occurs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-11 10:52:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3265" class=".btn">#3265</a>
+            </td>
+            <td>
+                <b>
+                    Release 21.10.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update dependencies in preparation for release 21.10.7
+Also JWT support for multiple algorithms as this overlapped with the vert.x upgrade
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-11 07:44:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3263" class=".btn">#3263</a>
             </td>
             <td>
@@ -24,7 +88,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
                 Update kubernetes dependency - package rename mostly.
@@ -247,39 +311,6 @@ Note, this supersedes https://github.com/hyperledger/besu/pull/3242
     </table>
     <div class="right-align">
         Created At 2022-01-07 06:57:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3252" class=".btn">#3252</a>
-            </td>
-            <td>
-                <b>
-                    Display gasPrice too low message in logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Previously, for transactions sent with a gas price below the minimum configured, there would only be a message displaying this in TRACE logging.
-
-## Fixed Issue(s)
-[Fixes #3211](https://github.com/hyperledger/besu/issues/3211)
-
-## Changelog
-Changed the message logging type so that it will display not only in TRACE logging mode.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-07 06:27:12 +0000 UTC
     </div>
 </div>
 

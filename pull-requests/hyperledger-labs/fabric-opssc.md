@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/20" class=".btn">#20</a>
             </td>
             <td>
                 <b>
-                    Bump to 2.4.1 and fix some bugs
+                    Add updateChannelType() and introduce the disable channel type
                 </b>
             </td>
         </tr>
@@ -27,13 +27,17 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
                 
             </td>
             <td>
-                This PR bumps the fabric version to 2.4.1.
-Also, the PR adds an API to get channel info for API server and fixes a bug in agent to pass the integration tests.
+                This patch adds the following features:
+- Add `updateChannelType()` for updating the channel type to channel_ops
+- Introduce 'disable' channel type to exclude the channel from management by OpsSC
+  - (1) Exclude bootstrap processing for the channel in agent
+  - (2) Reject a chaincode update proposal for the channel
+  - (3) Allow OpsSC to manage the workflow of the proposal that has already been submitted (to prevent the control from becoming complicated)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-20 11:14:16 +0000 UTC
+        Created At 2022-01-11 08:30:13 +0000 UTC
     </div>
 </div>
 
