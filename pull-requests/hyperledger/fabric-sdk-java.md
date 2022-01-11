@@ -209,29 +209,3 @@ Includes a fix to another security vulnerability (CVE-2021-44832) in Log4j.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/179" class=".btn">#179</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Includes a fix to another security vulnerability (CVE-2021-44832) in Log4j.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-04 10:40:29 +0000 UTC
-    </div>
-</div>
-

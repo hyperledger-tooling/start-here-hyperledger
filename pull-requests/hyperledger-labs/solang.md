@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/636" class=".btn">#636</a>
+            </td>
+            <td>
+                <b>
+                    feat(parser): missing assembly statements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves https://github.com/hyperledger-labs/solang/issues/631
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-11 12:09:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/635" class=".btn">#635</a>
             </td>
             <td>
@@ -250,39 +276,6 @@ cc: @mattsse
     </table>
     <div class="right-align">
         Created At 2022-01-04 16:08:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/618" class=".btn">#618</a>
-            </td>
-            <td>
-                <b>
-                    Provide method for accessing accounts on Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR creates a builtin array `tx.accounts[]` which gives access to the tx accounts, so it is possible to do things like:
-
-```
-     AccountInfo ai = tx.accounts[0];
-     ai.lamports += 1;
-     uint64 total_supply = tx.accounts[1].data.readUint64LE(4);
-```
-    
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-04 11:46:01 +0000 UTC
     </div>
 </div>
 
