@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3263" class=".btn">#3263</a>
+            </td>
+            <td>
+                <b>
+                    Kubernetes 14
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update kubernetes dependency - package rename mostly
+See #3229 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-11 00:47:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3261" class=".btn">#3261</a>
             </td>
             <td>
@@ -606,40 +637,6 @@ Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3239" class=".btn">#3239</a>
-            </td>
-            <td>
-                <b>
-                    kubernetes dependency: update to 7.0.1 and change package names
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-According to this https://mvnrepository.com/artifact/io.kubernetes/client-java the vulnerabilities aren't fixed until 11.0.1 - I tried to upgrade from 6.0.1 to 7.0.0 - changed package names but also it seems the util classes have vanished so this one needs a bit more work!
-
-See #3229 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-06 00:07:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3238" class=".btn">#3238</a>
             </td>
             <td>
@@ -904,112 +901,6 @@ Added download links and release notes for 21.10.6
     </table>
     <div class="right-align">
         Created At 2022-01-04 21:28:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3226" class=".btn">#3226</a>
-            </td>
-            <td>
-                <b>
-                    remove excessive comments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Frank Li <b439988l@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Remove some unnecessary comments explaining conditional statements in a already very lengthy file
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-04 00:34:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3225" class=".btn">#3225</a>
-            </td>
-            <td>
-                <b>
-                    update log4j 2.17.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Update log4j to 2.17.1
-https://logging.apache.org/log4j/2.x/security.html
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-03 22:33:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3224" class=".btn">#3224</a>
-            </td>
-            <td>
-                <b>
-                    3141 terminal blocks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Allows for configuration of a terminal block once it has been identified via the difficulty bomb.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes #3141 
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-03 22:09:57 +0000 UTC
     </div>
 </div>
 

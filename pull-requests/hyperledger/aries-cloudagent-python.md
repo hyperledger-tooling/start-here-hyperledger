@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1593" class=".btn">#1593</a>
+            </td>
+            <td>
+                <b>
+                    Added missed new module -- upgrade -- to the RTD generated docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-10 23:26:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1592" class=".btn">#1592</a>
+            </td>
+            <td>
+                <b>
+                    Doh....update the date in the Changelog for 0.7.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-10 22:00:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1591" class=".btn">#1591</a>
             </td>
             <td>
@@ -66,34 +120,6 @@ ModuleNotFoundError: No module named 'packaging'
     </table>
     <div class="right-align">
         Created At 2022-01-07 15:07:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1583" class=".btn">#1583</a>
-            </td>
-            <td>
-                <b>
-                    Multiple Indy Ledger - Askar Fixes and Cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
-
-- Fixes issues with multiple ledger support when using `askar` wallet-type. Issue (#1567) reported [here](https://github.com/hyperledger/aries-cloudagent-python/issues/1567#issuecomment-1004153961).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-04 00:12:04 +0000 UTC
     </div>
 </div>
 
