@@ -152,29 +152,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1223" class=".btn">#1223</a>
-            </td>
-            <td>
-                <b>
-                    Add ability to add/update POs/versions by alternate ID
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds the ability to update POs, add/update PO versions, and look up revisions using a PO's alternate ID.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-04 21:51:42 +0000 UTC
-    </div>
-</div>
-

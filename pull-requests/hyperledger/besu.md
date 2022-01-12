@@ -63,6 +63,8 @@ Changed logging for the gasPrice too low message from TRACE to WARN so the user 
                 Update dependencies in preparation for release 21.10.7
 Also JWT support for multiple algorithms as this overlapped with the vert.x upgrade
 
+See #3229 
+
 ## Changelog
 
 - [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
@@ -807,132 +809,6 @@ see #3229
     </table>
     <div class="right-align">
         Created At 2022-01-05 03:20:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3233" class=".btn">#3233</a>
-            </td>
-            <td>
-                <b>
-                    Emeritus guideline change: 2 reporting quarters of inactivity
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I propose the following changes to the guidelines on moving maintainers to emeritus status:
-* Changed from 1 to 2 quarters of inactivity
-* Also removed link to countdown timer as it's unnecessary. github does a good enough job
-
-This PR will remain open for 2 weeks from today, unless an absolute majority of current maintainers is achieved before then.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-04 23:49:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3232" class=".btn">#3232</a>
-            </td>
-            <td>
-                <b>
-                    added release notes for 21.10.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Added download links and release notes for 21.10.6
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-04 22:49:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3231" class=".btn">#3231</a>
-            </td>
-            <td>
-                <b>
-                    21.10.7-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                snapshot version number
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-04 22:43:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3230" class=".btn">#3230</a>
-            </td>
-            <td>
-                <b>
-                    Release 21.10.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updated log4j to 2.17.1
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-04 21:28:48 +0000 UTC
     </div>
 </div>
 
