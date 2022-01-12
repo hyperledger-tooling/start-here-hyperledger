@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/43" class=".btn">#43</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    Add runtime variables to bpa chart
+                    aca-py 0.7.3
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                Add runtime variables to charts:
-- SIDEBAR_CLOSE_ON_STARTUP
-- SIDEBAR_HIDE_BURGER_BUTTON
-
-Signed-off-by: Tim Schlagenhaufer <tim.schlagenhaufer@bosch.io>
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-15 16:46:49 +0000 UTC
+        Created At 2022-01-12 13:45:47 +0000 UTC
     </div>
 </div>
 

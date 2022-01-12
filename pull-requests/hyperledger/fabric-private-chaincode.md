@@ -14,27 +14,57 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/642" class=".btn">#642</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/648" class=".btn">#648</a>
             </td>
             <td>
                 <b>
-                    Upgrade parson
+                    Link existing FSC examples
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                <span class="chip">documentation</span>
             </td>
             <td>
-                This PR upgrade our json implementation to the most recent version 1.2.1.
+                Collect existing FSC+FPC samples.
 
-This updated version contains many security fixes and functional updates. In particular, parsing string values from json that contain multiple `\0` characters is now supported. This is pretty useful when dealing with standard Fabric composite keys.
+Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-09 15:25:50 +0000 UTC
+        Created At 2022-01-12 15:04:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/647" class=".btn">#647</a>
+            </td>
+            <td>
+                <b>
+                    Update IRB readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span>
+            </td>
+            <td>
+                This PR updated the IRB demo description, particularly, linking to the HLGF21 demo recording on youtube and to the "full" demo branch in the repo.
+
+Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-12 14:28:37 +0000 UTC
     </div>
 </div>
 

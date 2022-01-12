@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1240" class=".btn">#1240</a>
+            </td>
+            <td>
+                <b>
+                    Update version action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates to the "update version" action are dependent on the updates made for the "update po" action. (The `unaccept_versions` method is used for both of these actions). This PR will be updated as ready to be reviewed once #1213 is merged.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-12 15:43:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1239" class=".btn">#1239</a>
+            </td>
+            <td>
+                <b>
+                    Update `create_version` action in handler
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the `create_version` function in the purchase order smart
+contract that handles the creation of a purchase order version. This
+change updates the workflow state used to validate a user's permission
+to use the workflow state specified in the payload for that version.
+This also updates tests that attempted to create a version in any other
+state than "create". This movement is now validated by the smart
+contract and will return an err if a version is not created in the
+"create" state.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-12 15:31:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1238" class=".btn">#1238</a>
             </td>
             <td>
@@ -121,34 +182,6 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-01-05 19:06:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1225" class=".btn">#1225</a>
-            </td>
-            <td>
-                <b>
-                    Update permissions to use seller
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Permissions were incorrectly set to buyer. Updated to be seller.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-05 15:56:34 +0000 UTC
     </div>
 </div>
 

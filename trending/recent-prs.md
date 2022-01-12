@@ -1,13 +1,13 @@
 
-[320](https://github.com/hyperledger-labs/orion-server/pull/320) Updated README.md and MAINTAINERS.md
+[82](https://github.com/hyperledger-labs/mirbft/pull/82) Make dummy client gracefully handle send errors
 
-[637](https://github.com/hyperledger-labs/solang/pull/637) Support skiping implicit type cast checking by using flag --no-implicit-type-cast-check
+[100](https://github.com/hyperledger/sawtooth-docs/pull/100) Add a first cut at a portion of the 1.2 docs sidebar
 
-[222](https://github.com/hyperledger/fabric-chaincode-java/pull/222) Improve the handling of the TLS certifiactes
+[99](https://github.com/hyperledger/sawtooth-docs/pull/99) Releases layout fixes
 
-[111](https://github.com/hyperledger/indy-test-automation/pull/111) improvements of readme and one bug fix when running locally
+[98](https://github.com/hyperledger/sawtooth-docs/pull/98) Update 1.2 Introduction
 
-[81](https://github.com/hyperledger-labs/mirbft/pull/81) Added mircat module for displaying eventlogs
+[97](https://github.com/hyperledger/sawtooth-docs/pull/97) Update community left sidebar
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
