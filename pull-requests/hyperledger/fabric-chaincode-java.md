@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/217" class=".btn">#217</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/222" class=".btn">#222</a>
             </td>
             <td>
                 <b>
-                    Revert "add cause message to ContractRuntimeException message"
+                    Improve the handling of the TLS certifiactes
                 </b>
             </td>
         </tr>
@@ -27,44 +27,18 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                This reverts commit 16f6a6fe65cef59be8e9481e0e42574901f96cbb.
+                For reasons lost in history, Fabric hasn't standised on whether to load certs in base64 or
+PEM format. What does seem to be standard is if the environment variable ends in FILE then
+it's a PEM format, but if it's PATH then it's base64.
 
-The ContractRuntimeException intentionally doesn't report any details back to the client for security reasons.
+This change will allow either FILE or PATH environment variables to be used in all cases.
 
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-14 16:26:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/216" class=".btn">#216</a>
-            </td>
-            <td>
-                <b>
-                    FCJ-214 improved ChaincodeRuntimeException message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                close #214 
-improved ChaincodeRuntimeException message by adding payload to message response. So, users can see better described and more informative exception messages.
-Signed-off-by: Oleksandr Yamkovyi <oleksandr.yamkoviy@intellecteu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-14 14:49:34 +0000 UTC
+        Created At 2022-01-12 09:47:54 +0000 UTC
     </div>
 </div>
 

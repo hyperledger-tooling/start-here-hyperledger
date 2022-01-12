@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/80" class=".btn">#80</a>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/81" class=".btn">#81</a>
             </td>
             <td>
                 <b>
-                    Use proper epoch numbers with checkpoint messages
+                    Added mircat module for displaying eventlogs
                 </b>
             </td>
         </tr>
@@ -27,19 +27,15 @@ permalink: /pull-requests/hyperledger-labs/mirbft
                 
             </td>
             <td>
-                The epoch number of a checkpint now always corresponds to the epoch
-the associated sequence number belongs to.
-At epoch transition, rathen than having an epoch "end" with a checkpoint,
-the next epoch "starts" with a checkpoint, and thus the checkpoint
-is associated with the new epoch rather than with the old one.
-This also makes more sense with respect to the associated sequence number.
+                The current functionalities of the module include:-
+  - Display events from the eventlog file, based on user selection.
+  
 
-Signed-off-by: Matej Pavlovic <matopavlovic@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-10 12:13:25 +0000 UTC
+        Created At 2022-01-12 09:02:08 +0000 UTC
     </div>
 </div>
 
