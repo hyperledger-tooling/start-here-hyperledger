@@ -42,35 +42,3 @@ permalink: /releases/hyperledger/firefly-dataexchange-https
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.10.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.10.1
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Include size in metadata, and add dx-size header to partner dx-hash by @peterbroadhurst in https://github.com/hyperledger/firefly-dataexchange-https/pull/50
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.9.3...v0.10.1
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.10.1" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-01-05 17:13:08 +0000 UTC
-    </span>
-</div>
-
