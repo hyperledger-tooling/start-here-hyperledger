@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/637" class=".btn">#637</a>
+            </td>
+            <td>
+                <b>
+                    Support skiping implicit type cast checking by using flag --no-implicit-type-cast-check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Hi,
+
+I created this PR to resolve the issue reported in https://github.com/hyperledger-labs/solang/issues/632 where Solang reports errors on implicit type truncation of integers (which Solc can compile well).
+
+In particular, I added a field `pub implicit_type_cast_check: bool` into the structure `Options` to capture this flag.
+
+I also move the structure `Options` from `codegen/mod.rs` into `lib.rs` so that the compiler options can be accessed by both `sema` and `codegen` modules.
+
+Can you review this PR and advise if my implementation can be merged?
+
+Thank you!
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-12 09:59:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/636" class=".btn">#636</a>
             </td>
             <td>

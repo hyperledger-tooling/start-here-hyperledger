@@ -75,7 +75,7 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
             <td>
                 <b>
-                    DRAFT: Private data samples migration
+                    Private data samples migration
                 </b>
             </td>
         </tr>
