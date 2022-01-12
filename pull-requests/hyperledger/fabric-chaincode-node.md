@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/306" class=".btn">#306</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/310" class=".btn">#310</a>
             </td>
             <td>
                 <b>
-                    Release 2.4.1
+                    Stop the nightly builds
                 </b>
             </td>
         </tr>
@@ -27,43 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Update release to 2.4.1
-Minor addition to the version updates to suggest other files that might need changing.
+                Removed the cron for the nightly 1.4 builds; this isn't the LTS release now. We would only publish a 1.4 release in very special cases. 
 
 Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-29 10:45:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/304" class=".btn">#304</a>
-            </td>
-            <td>
-                <b>
-                    CI Pipeline Fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update build-data.yaml to fail if the subshell's fail
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-29 10:01:40 +0000 UTC
+        Created At 2022-01-12 13:24:38 +0000 UTC
     </div>
 </div>
 
