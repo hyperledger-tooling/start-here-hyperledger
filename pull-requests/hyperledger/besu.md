@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3269" class=".btn">#3269</a>
+            </td>
+            <td>
+                <b>
+                    Added integration test to ensure DevP2P-over-TLS can handle large messages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                TLS fragments large messages into 16KB records.
+Actual fix was done in an earlier commit: https://github.com/hyperledger/besu/commit/f2f7ac9af1a52e04c422f5663063ad27aad35137
+
+This fixes https://github.com/hyperledger/besu/issues/3254
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-12 04:53:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3266" class=".btn">#3266</a>
             </td>
             <td>
@@ -705,110 +734,6 @@ just a trival fix, to avoid error messages in the IDE
     </table>
     <div class="right-align">
         Created At 2022-01-05 15:33:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3236" class=".btn">#3236</a>
-            </td>
-            <td>
-                <b>
-                    Updating kubernetes dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-    dependency 'io.kubernetes:client-java:6.0.1'
-
-https://github.com/kubernetes-client/java/releases
-
-See #3229 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-05 05:34:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3235" class=".btn">#3235</a>
-            </td>
-            <td>
-                <b>
-                    update to commons-codec 1.15
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Update to version commons-codec 1.15
-
-See #3229 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-05 04:29:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3234" class=".btn">#3234</a>
-            </td>
-            <td>
-                <b>
-                    update okhttp dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-update okhttp to 4.9.3 
-
-see #3229 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-05 03:20:14 +0000 UTC
     </div>
 </div>
 
