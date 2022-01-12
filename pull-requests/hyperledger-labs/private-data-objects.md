@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/343" class=".btn">#343</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/348" class=".btn">#348</a>
             </td>
             <td>
                 <b>
-                    Implement wawaka function for parsing an SGX quote & report body
+                    More functions to simplify wawaka contract development
                 </b>
             </td>
         </tr>
@@ -27,17 +27,23 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                Add wawaka native function to parse the sgx quote and report
+                Two new classes of functions for the Wawaka common library:
+ - Secrets -- simplify (and standardize) generating messages that can be shared between contracts; a message is encrypted with the contracts encryption key.
+- Attestation -- wrappers for the sgx report verification and processing functions
     
-Add a function, sgx_parse_report, to convert the binary sgx report into a JSON structure that can be interpreted by the contract. Add a new common function package for processing the sgx attestation. Update the tests for the new values.
+Add library of common wawaka contract methods.
+    
+There are several methods that are common to many contracts. This update provides a base implementation for those methods in order to simplify contract development.
 
-Also fix a bug in the error handling of pdo-shell.
+Add common contracts methods for attestations.  Provides a wrapper for managing attested contract endpoints. Contract object provides an attestation package that is verified registering the encryption & verification keys for the contract. Useful for building contracts that share secrets.
+
+Update attestation test to use the new helpers. Replace the code in the attestation test with calls packaged in the attestation common contract code. Complete the implementation of the send/recv secret. Complete testing of the new methods.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-08 00:09:05 +0000 UTC
+        Created At 2022-01-11 19:02:00 +0000 UTC
     </div>
 </div>
 

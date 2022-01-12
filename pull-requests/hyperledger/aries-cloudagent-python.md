@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1596" class=".btn">#1596</a>
+            </td>
+            <td>
+                <b>
+                    Fix tails_local_path format
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: DaevMithran <daevmithran1999@gmail.com>
+
+Issue is not fixed yet. Tried replacing the white spaces with %20 in tails_local_path. I'm not receiving error in swagger now. I'm receiving error in the logs. And it creates only one rev_reg instead of two now. Can anyone guide me on this?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-11 21:13:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1593" class=".btn">#1593</a>
             </td>
             <td>
