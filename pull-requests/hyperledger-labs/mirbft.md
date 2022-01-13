@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/84" class=".btn">#84</a>
+            </td>
+            <td>
+                <b>
+                    Dynamic Event Listing and code formatting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - The events are now dynamically listed from the eventlog file
+- All the required code formatting is done 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-13 13:27:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/mirbft/pull/82" class=".btn">#82</a>
             </td>
             <td>
@@ -33,35 +60,6 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     </table>
     <div class="right-align">
         Created At 2022-01-12 17:46:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/81" class=".btn">#81</a>
-            </td>
-            <td>
-                <b>
-                    Added mircat module for displaying eventlogs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The current functionalities of the module include:-
-  - Display events from the eventlog file, based on user selection.
-  
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-12 09:02:08 +0000 UTC
     </div>
 </div>
 

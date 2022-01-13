@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/205" class=".btn">#205</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/212" class=".btn">#212</a>
             </td>
             <td>
                 <b>
-                    Maybe fix CI
+                    profiling support
                 </b>
             </td>
         </tr>
@@ -27,12 +27,44 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+                - pprof profiles
+- distributed tracing
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-15 13:09:06 +0000 UTC
+        Created At 2022-01-13 15:41:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/211" class=".btn">#211</a>
+            </td>
+            <td>
+                <b>
+                    minor improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - nwo: FSC alias bug fix
+- idemix: ability to pass the curve id
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-13 13:56:53 +0000 UTC
     </div>
 </div>
 
