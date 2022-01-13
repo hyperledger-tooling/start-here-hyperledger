@@ -64,29 +64,3 @@ Closes #376.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/381" class=".btn">#381</a>
-            </td>
-            <td>
-                <b>
-                    update open offsets directory to version 3 from Berkeley carbon trading project
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-06 00:13:28 +0000 UTC
-    </div>
-</div>
-

@@ -1,13 +1,13 @@
 
-[82](https://github.com/hyperledger-labs/mirbft/pull/82) Make dummy client gracefully handle send errors
+[124](https://github.com/hyperledger/sawtooth-docs/pull/124) Update 1.1 sidebar and overview
 
-[100](https://github.com/hyperledger/sawtooth-docs/pull/100) Add a first cut at a portion of the 1.2 docs sidebar
+[123](https://github.com/hyperledger/sawtooth-docs/pull/123) Faq refresh by file
 
-[99](https://github.com/hyperledger/sawtooth-docs/pull/99) Releases layout fixes
+[122](https://github.com/hyperledger/sawtooth-docs/pull/122) Fix markdown for PBFT documents
 
-[98](https://github.com/hyperledger/sawtooth-docs/pull/98) Update 1.2 Introduction
+[121](https://github.com/hyperledger/sawtooth-docs/pull/121) Various updates for community section
 
-[97](https://github.com/hyperledger/sawtooth-docs/pull/97) Update community left sidebar
+[120](https://github.com/hyperledger/sawtooth-docs/pull/120) Add Swift SDK docs
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/114" class=".btn">#114</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/115" class=".btn">#115</a>
             </td>
             <td>
                 <b>
-                    fix the available fabric upgrade  w/old versions
+                    fix false positive - admin identity
                 </b>
             </td>
         </tr>
@@ -27,23 +27,19 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                #### Type of change
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
 
-<!--- What type of change? Pick one option and delete the others. -->
+#### Type of change
 
 - Bug fix
 
 #### Description
-This PR fixes the "fabric upgrade available" code if the component is using a short hand version field. 
-
-Older components may have a version of `"v1.4"` instead of the major.minor.patch-prerelease format like `"1.4.5-6"`. The short hand version fields break the "upgrade available" logic (it won't prompt for a fabric upgrade).
-
-
+The associated identity box is still showing the 'non-admin identity' warning when configured with Node OU, but don't have the admin cert in the MSP
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-20 20:19:42 +0000 UTC
+        Created At 2022-01-12 21:38:48 +0000 UTC
     </div>
 </div>
 
