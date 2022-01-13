@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/387" class=".btn">#387</a>
+            </td>
+            <td>
+                <b>
+                    Updates to CarbonTraker NFT contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit introduces major changes to the CarbonTracker contract
+It also updates carbon-tracker.md describing how the CarbonTracker contract works in more detail
+This includes mathmatical forumlae for how carbon intensities and emissions are calculated across tracker NFTs
+and a diagram with a basic fuel supply chain example
+
+Signed-off-by: brioux <Bertrand.rioux@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-13 10:43:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/384" class=".btn">#384</a>
             </td>
             <td>
