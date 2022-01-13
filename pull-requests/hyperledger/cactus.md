@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1707" class=".btn">#1707</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1708" class=".btn">#1708</a>
             </td>
             <td>
                 <b>
-                    fix: provide generic exception handling functionality
+                    test(test-plugin-htlc-eth-besu): fix neg test case
                 </b>
             </td>
         </tr>
@@ -27,44 +27,14 @@ permalink: /pull-requests/hyperledger/cactus
                 
             </td>
             <td>
-                Introduce a log helper with static functions to get exception message /
-exception stack whatever is thrown or provided.
+                Fixes #1697 
 
-Closes: #1702
-Signed-off-by: Michael Courtin <michael.courtin@accenture.com>
+Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-04 09:31:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1706" class=".btn">#1706</a>
-            </td>
-            <td>
-                <b>
-                    Integrate engine.io and upgrade socket.io to 3.0.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                engine.io is a realtime engine behind Socket.IO. It provides the foundation of a bidirectional connection between client and server
-
-Affected versions of this package are vulnerable to Denial of Service (DoS) via a POST request to the long polling transport.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-04 07:03:51 +0000 UTC
+        Created At 2022-01-06 20:09:56 +0000 UTC
     </div>
 </div>
 
