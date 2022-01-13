@@ -15,6 +15,34 @@ permalink: /releases/hyperledger/indy-sdk-react-native
         <tr>
             <td colspan="2">
                 <b>
+                    Release 0.1.19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    0.1.19
+                </span>
+            </td>
+            <td>
+                * fix(ios): prover delete credential should return void (#31) (f5453b9)
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.1.19" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-01-13 10:34:43 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Release 0.1.18
                 </b>
             </td>

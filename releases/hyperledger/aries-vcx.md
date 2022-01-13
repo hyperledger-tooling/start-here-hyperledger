@@ -15,47 +15,40 @@ permalink: /releases/hyperledger/aries-vcx
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.27.0
+                    Release 0.28.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.27.0
+                    0.28.0
                 </span>
             </td>
             <td>
                 #
 
-## [0.27.0](https://github.com/hyperledger/aries-vcx/tree/0.27.0) (2021-12-17)
+## [0.28.0](https://github.com/hyperledger/aries-vcx/tree/0.28.0) (2022-01-13)
 
 ### Breaking changes
 
-- Split create credential definition into two stages [\#411](https://github.com/hyperledger/aries-vcx/pull/411)
+- Change/public invitations api [\#427](https://github.com/hyperledger/aries-vcx/pull/427)
 
 ### Enhancements
 
-- Store problem report in initial state [\#415](https://github.com/hyperledger/aries-vcx/pull/415)
-
-### CI changes
-
-- Upgrade agency version used in CI [\#410](https://github.com/hyperledger/aries-vcx/pull/410)
-- fix libzmq build error with disable some features [\#405](https://github.com/hyperledger/aries-vcx/pull/405)
-- Update Xcode in iOS CI to version 12.4 [\#386](https://github.com/hyperledger/aries-vcx/pull/386)
+- Decouple generating and sending credential offer [\#420](https://github.com/hyperledger/aries-vcx/pull/420)
 
 ### Hotfixes
 
-- Fix failing download\_messages\_noauth integration test [\#416](https://github.com/hyperledger/aries-vcx/pull/416)
-- Set correct thread id when responding to public invite [\#414](https://github.com/hyperledger/aries-vcx/pull/414)
+- Append tx author agreement to attrib tx, wait for result [\#426](https://github.com/hyperledger/aries-vcx/pull/426)
 
 ### Refactoring
 
-- Move `libindy\_issuer\_create\_credential\_offer` a layer up [\#417](https://github.com/hyperledger/aries-vcx/pull/417)
+- Issuer SM stores aries cred offer instead of libindy offer [\#419](https://github.com/hyperledger/aries-vcx/pull/419)
 
 ###
 
-- Release 0.27.0 [\#418](https://github.com/hyperledger/aries-vcx/pull/418)
+- Release 0.28.0 [\#425](https://github.com/hyperledger/aries-vcx/pull/425)
 
 
 
@@ -63,11 +56,11 @@ permalink: /releases/hyperledger/aries-vcx
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.27.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.28.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-12-17 09:09:17 +0000 UTC
+        Created At 2022-01-12 14:53:23 +0000 UTC
     </span>
 </div>
 
