@@ -1,13 +1,13 @@
 ---
 layout: default
-title: aries-askar
+title: indy-shared-rs
 parent: Hyperledger
 grand_parent: Releases
 has_children: false
-permalink: /releases/hyperledger/aries-askar
+permalink: /releases/hyperledger/indy-shared-rs
 ---
 
-# aries-askar <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/aries-askar){: .btn .mr-4 }</span>
+# indy-shared-rs <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/indy-shared-rs){: .btn .mr-4 }</span>
 
 
 <div>
@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/aries-askar
         <tr>
             <td colspan="2">
                 <b>
-                    v0.2.3
+                    indy-credx 0.3.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.2.3
+                    v0.3.1
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger/aries-askar
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-askar/releases/tag/v0.2.3" class=".btn">
+    <a href="https://github.com/hyperledger/indy-shared-rs/releases/tag/v0.3.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-01-12 23:52:05 +0000 UTC
+        Created At 2022-01-12 23:50:03 +0000 UTC
     </span>
 </div>
 
