@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1725" class=".btn">#1725</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1727" class=".btn">#1727</a>
             </td>
             <td>
                 <b>
-                    Indy-Test-Autmation
+                    fixed typo in uploading detailed test failure results
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                This PR contains the workflow to run the `indy-node-tests` from https://github.com/hyperledger/indy-test-automation.
-
+                Signed-off-by: udosson <klemens@internet-sicherheit.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-04 14:31:20 +0000 UTC
+        Created At 2022-01-14 14:06:01 +0000 UTC
     </div>
 </div>
 
