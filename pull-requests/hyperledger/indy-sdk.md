@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2458" class=".btn">#2458</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2461" class=".btn">#2461</a>
             </td>
             <td>
                 <b>
-                    Fixing error message placment
+                    [#2445] Fix build of postgres storage plugin on ARM
                 </b>
             </td>
         </tr>
@@ -27,13 +27,13 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                Signed-off-by: Mostafa Gamal <moscd3@gmail.com>
-Before, it would just exit without showing any message to the user if it encounters that error
+                Fixes issue #2445 
+Building the postgres storage plugin fails on ARM (tested with v7 and v8) due to a typecast error. Adjusting the type fixed the problem.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-01 06:01:24 +0000 UTC
+        Created At 2022-01-14 07:55:45 +0000 UTC
     </div>
 </div>
 

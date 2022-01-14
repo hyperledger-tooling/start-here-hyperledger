@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/213" class=".btn">#213</a>
+            </td>
+            <td>
+                <b>
+                    mod update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-14 07:33:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/212" class=".btn">#212</a>
             </td>
             <td>
