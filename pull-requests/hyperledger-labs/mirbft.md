@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/84" class=".btn">#84</a>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/85" class=".btn">#85</a>
             </td>
             <td>
                 <b>
-                    Dynamic Event Listing and code formatting
+                    Mircat module for eventlog analysis
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/mirbft
                 
             </td>
             <td>
-                - The events are now dynamically listed from the eventlog file
-- All the required code formatting is done 
+                Mircat module with the dynamic listing of events from the given eventlog file
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-13 13:27:59 +0000 UTC
+        Created At 2022-01-14 11:49:38 +0000 UTC
     </div>
 </div>
 

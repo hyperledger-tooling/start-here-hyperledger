@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/581" class=".btn">#581</a>
+            </td>
+            <td>
+                <b>
+                    Added missing prerequisite
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `jq` is often not installed on most linux systems, so it must be listed under pre-requisite. If not mentioned, CC installation fails without any descriptive errors.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-14 11:39:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/577" class=".btn">#577</a>
             </td>
             <td>

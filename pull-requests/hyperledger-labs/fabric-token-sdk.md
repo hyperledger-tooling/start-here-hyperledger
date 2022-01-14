@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/156" class=".btn">#156</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/157" class=".btn">#157</a>
             </td>
             <td>
                 <b>
-                    update FSC dep
+                    performance
                 </b>
             </td>
         </tr>
@@ -27,12 +27,19 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                - optimised deserializer
+- use IsMe
+- skip tx verification
+- metrics
+- selector: use iterator
+- tcc custom metrics server conf
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-05 06:00:44 +0000 UTC
+        Created At 2022-01-14 08:17:09 +0000 UTC
     </div>
 </div>
 
