@@ -40,3 +40,33 @@ Due to it, we need to update chaincode scripts to provide accurate warnings
     </div>
 </div>
 
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger-labs/fablo/issues/228" class=".btn">228</a>
+            </td>
+            <td>
+                <b>
+                    Fablo fails if two chaincodes have the same name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">good first issue</span>
+            </td>
+            <td>
+                To reproduce: create a config with two chaincodes with the same name (on different channels).
+
+The network won't start, since we do not aim (yet?) to support chaincodes with the same names (i fails with duplicate volumes).
+
+AND when you try to prune the network, the prune operation fails as well (duplicate volumes as well).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-10-18 14:17:30 +0000 UTC
+    </div>
+</div>
+
