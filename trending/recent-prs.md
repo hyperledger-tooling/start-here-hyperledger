@@ -1,13 +1,13 @@
 
+[146](https://github.com/hyperledger/sawtooth-docs/pull/146) Update 1.1 Address and Namespace Design and Namespace Restrictions
+
+[145](https://github.com/hyperledger/sawtooth-docs/pull/145) Update 1.1 app dev guide - Playing with the XO Transaction Family
+
+[349](https://github.com/hyperledger-labs/private-data-objects/pull/349) Temporary fix to skip checking CCF host certificate. 
+
+[144](https://github.com/hyperledger/sawtooth-docs/pull/144) Caleb hill seth updates
+
 [117](https://github.com/hyperledger-labs/fabric-operations-console/pull/117) update npm deps
-
-[185](https://github.com/hyperledger/fabric-sdk-java/pull/185) Update dependency versions
-
-[582](https://github.com/hyperledger/fabric-samples/pull/582) Added 'jq' to prerequisite script and readme for k8s test network
-
-[701](https://github.com/hyperledger-labs/business-partner-agent/pull/701) receive and store ld credentials
-
-[364](https://github.com/hyperledger/fabric-test/pull/364) Add chaos kill/stop peer testing to makefile
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

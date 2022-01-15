@@ -182,29 +182,3 @@ cc: @mattsse
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/628" class=".btn">#628</a>
-            </td>
-            <td>
-                <b>
-                    Update test.yml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-07 20:49:20 +0000 UTC
-    </div>
-</div>
-

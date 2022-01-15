@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/146" class=".btn">#146</a>
+            </td>
+            <td>
+                <b>
+                    Update 1.1 Address and Namespace Design and Namespace Restrictions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-14 22:18:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/145" class=".btn">#145</a>
+            </td>
+            <td>
+                <b>
+                    Update 1.1 app dev guide - Playing with the XO Transaction Family
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-14 21:16:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/144" class=".btn">#144</a>
+            </td>
+            <td>
+                <b>
+                    Caleb hill seth updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates to the seth directory markdown files.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-14 20:51:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/143" class=".btn">#143</a>
             </td>
             <td>
