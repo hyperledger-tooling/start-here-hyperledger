@@ -14,30 +14,40 @@ permalink: /pull-requests/hyperledger-labs/TrustID
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/TrustID/pull/45" class=".btn">#45</a>
+                PR <a href="https://github.com/hyperledger-labs/TrustID/pull/46" class=".btn">#46</a>
             </td>
             <td>
                 <b>
-                    Bump path-parse from 1.0.6 to 1.0.7 in /trustid-sdk
+                    Bump shelljs from 0.8.4 to 0.8.5 in /trustid-sdk
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [path-parse](https://github.com/jbgutierrez/path-parse) from 1.0.6 to 1.0.7.
+                Bumps [shelljs](https://github.com/shelljs/shelljs) from 0.8.4 to 0.8.5.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/shelljs/shelljs/releases">shelljs's releases</a>.</em></p>
+<blockquote>
+<h2>v0.8.5</h2>
+<p>This was a small security fix for <a href="https://github-redirect.dependabot.com/shelljs/shelljs/issues/1058">#1058</a>.</p>
+</blockquote>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li>See full diff in <a href="https://github.com/jbgutierrez/path-parse/commits/v1.0.7">compare view</a></li>
+<li><a href="https://github.com/shelljs/shelljs/commit/70668a4555c7d49c4f67d53ea063b899be4d6d40"><code>70668a4</code></a> 0.8.5</li>
+<li><a href="https://github.com/shelljs/shelljs/commit/d919d22dd6de385edaa9d90313075a77f74b338c"><code>d919d22</code></a> fix(exec): lockdown file permissions (<a href="https://github-redirect.dependabot.com/shelljs/shelljs/issues/1060">#1060</a>)</li>
+<li>See full diff in <a href="https://github.com/shelljs/shelljs/compare/v0.8.4...v0.8.5">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=path-parse&package-manager=npm_and_yarn&previous-version=1.0.6&new-version=1.0.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=shelljs&package-manager=npm_and_yarn&previous-version=0.8.4&new-version=0.8.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -73,7 +83,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-12 18:37:33 +0000 UTC
+        Created At 2022-01-15 06:46:50 +0000 UTC
     </div>
 </div>
 

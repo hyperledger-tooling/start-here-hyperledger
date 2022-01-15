@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/540" class=".btn">#540</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/543" class=".btn">#543</a>
             </td>
             <td>
                 <b>
-                    Revert to snapshot publishing following release
+                    Remove package-lock.json files (release-1.4)
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-17 10:44:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/539" class=".btn">#539</a>
-            </td>
-            <td>
-                <b>
-                    Release v2.2.11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-17 10:07:10 +0000 UTC
+        Created At 2022-01-15 09:22:44 +0000 UTC
     </div>
 </div>
 
