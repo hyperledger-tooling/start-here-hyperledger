@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/583" class=".btn">#583</a>
+            </td>
+            <td>
+                <b>
+                    peer address export
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                environment variable should be exported to take effect i guess...
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-15 16:53:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/582" class=".btn">#582</a>
             </td>
             <td>

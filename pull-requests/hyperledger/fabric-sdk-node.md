@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                Fixed a bug in chaincode packaging that deadlocked tests after package-lock.json files were removed.
             </td>
         </tr>
     </table>
