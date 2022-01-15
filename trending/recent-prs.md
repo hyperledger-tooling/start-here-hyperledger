@@ -1,13 +1,13 @@
 
-[382](https://github.com/hyperledger/cello/pull/382) Bump shelljs from 0.7.8 to 0.8.5 in /build_image/dockerhub/v0.9.0/user-dashboard
+[543](https://github.com/hyperledger/fabric-sdk-node/pull/543) Remove package-lock.json files (release-1.4)
 
-[63](https://github.com/hyperledger-labs/university-course/pull/63) chore(deps): bump marked from 1.1.1 to 4.0.10 in /support/Lab05/chaincode
+[3174](https://github.com/hyperledger/fabric/pull/3174) replace arm64 with amd64 for installation scripts
 
-[62](https://github.com/hyperledger-labs/university-course/pull/62) chore(deps): bump marked from 1.1.1 to 4.0.10 in /support/Lab06/chaincode
+[158](https://github.com/hyperledger-labs/convector/pull/158) build(deps): bump follow-redirects from 1.0.0 to 1.14.7
 
-[146](https://github.com/hyperledger/sawtooth-docs/pull/146) Update 1.1 Address and Namespace Design and Namespace Restrictions
+[157](https://github.com/hyperledger-labs/convector/pull/157) build(deps): bump follow-redirects from 1.7.0 to 1.14.7 in /@worldsibu/convector-common-fabric-helper
 
-[145](https://github.com/hyperledger/sawtooth-docs/pull/145) Update 1.1 app dev guide - Playing with the XO Transaction Family
+[271](https://github.com/hyperledger/blockchain-explorer/pull/271) Bump follow-redirects from 1.14.6 to 1.14.7
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

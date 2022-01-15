@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/384" class=".btn">#384</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-383]make dashboard image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1.add command to build dashboard image
+2.bootup dashboard by "make start"
+Close #383 
+Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-15 08:14:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/382" class=".btn">#382</a>
             </td>
             <td>
@@ -257,69 +286,6 @@ Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
     </table>
     <div class="right-align">
         Created At 2022-01-11 02:14:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/375" class=".btn">#375</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-373]Modify front-end channel module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1.Modify front end channel list page
-
-2.Modify the response judgment to create channel request
-
-Close #373 
-
-Signed-off-by: fengyang_sy fengyang.09186@h3c.com
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-08 08:40:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/371" class=".btn">#371</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-370]Modify front-end login module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Modify the front-end code according to the response information of the new login interface and the verification token interface
-
-Close #370 
-
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-08 08:19:01 +0000 UTC
     </div>
 </div>
 
