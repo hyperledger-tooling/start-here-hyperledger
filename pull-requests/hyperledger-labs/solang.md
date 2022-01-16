@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/640" class=".btn">#640</a>
+            </td>
+            <td>
+                <b>
+                    feat(parser): line comments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-16 15:15:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/638" class=".btn">#638</a>
             </td>
             <td>
@@ -125,32 +151,6 @@ Thank you!
     </table>
     <div class="right-align">
         Created At 2022-01-10 11:10:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/634" class=".btn">#634</a>
-            </td>
-            <td>
-                <b>
-                    feat(parser): try statements without low-level catch clause
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves https://github.com/hyperledger-labs/solang/issues/633
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-09 13:52:53 +0000 UTC
     </div>
 </div>
 

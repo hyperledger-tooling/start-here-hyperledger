@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/180" class=".btn">#180</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/181" class=".btn">#181</a>
             </td>
             <td>
                 <b>
-                    Fablo
+                    create a new lab: nifty
                 </b>
             </td>
         </tr>
@@ -27,13 +27,17 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Setting up and running a custom Hyperledger Fabric network is hard. The main goal of Fablo is to make this process easy, straightforward and accessible. It transforms a single configuration file to running network.
+                nifty will be a low-code, metaprogrammable, standards sensitive and highly secure implementation to issue and trade NFTs, in a protocol agnostic way. 
+nifty code will address market place utilities for issuance and trading of NFTs. 
+
+Signed-off-by: Vipin Bharathan <vipinsun@gmail.com>
+
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-04 12:50:22 +0000 UTC
+        Created At 2022-01-16 17:46:57 +0000 UTC
     </div>
 </div>
 
