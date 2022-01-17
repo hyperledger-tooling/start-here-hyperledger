@@ -38,31 +38,3 @@ permalink: /releases/hyperledger/indy-sdk-react-native
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    Release 0.1.18
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    0.1.18
-                </span>
-            </td>
-            <td>
-                * fix: removed parse of proverDeleteCredential return type (#28) (38db441)
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.1.18" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-01-10 11:18:05 +0000 UTC
-    </span>
-</div>
-
