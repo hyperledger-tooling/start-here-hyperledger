@@ -116,29 +116,3 @@ Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/316" class=".btn">#316</a>
-            </td>
-            <td>
-                <b>
-                    Committed by Hanan on Dec 28 2021 11:40 (2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Hanan Singer <hanan@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-10 14:25:04 +0000 UTC
-    </div>
-</div>
-

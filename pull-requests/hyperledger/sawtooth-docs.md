@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/147" class=".btn">#147</a>
+            </td>
+            <td>
+                <b>
+                    Correct configure_sgx markdown
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change corrects the markdown for the "Using Sawtooth with PoET-SGX" sysadmin guide.
+
+It also corrects a block that contained an accidentally-committed merge conflict.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-17 15:22:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/146" class=".btn">#146</a>
             </td>
             <td>

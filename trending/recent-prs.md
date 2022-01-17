@@ -1,13 +1,13 @@
 
-[585](https://github.com/hyperledger/fabric-samples/pull/585) Fix(commercial-paper): Fixed failed dependency
+[230](https://github.com/hyperledger-labs/minbft/pull/230) View change message handling
 
-[187](https://github.com/hyperledger/fabric-sdk-java/pull/187) Update dependency versions (backport #185)
+[298](https://github.com/hyperledger-labs/go-perun/pull/298) Use UnmarshalBinary and MarshalBinary for converting to/from Binary form
 
-[181](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/181) create a new lab: nifty
+[2466](https://github.com/hyperledger/indy-sdk/pull/2466) [#2465] Cannot build java wrapper due to javadoc errors
 
-[640](https://github.com/hyperledger-labs/solang/pull/640) feat(parser): line comments
+[147](https://github.com/hyperledger/sawtooth-docs/pull/147) Correct configure_sgx markdown
 
-[584](https://github.com/hyperledger/fabric-samples/pull/584) Bump follow-redirects from 1.14.6 to 1.14.7 in /asset-transfer-basic/rest-api-typescript
+[2464](https://github.com/hyperledger/indy-sdk/pull/2464) [#2463] Cannot run jupyter getting started workbook
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
