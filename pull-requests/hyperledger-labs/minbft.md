@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/minbft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minbft/pull/230" class=".btn">#230</a>
+            </td>
+            <td>
+                <b>
+                    View change message handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                <!-- NOTE: Please check the contribution guideline before submitting -->
+
+<!-- describe the purpose of the pull request, as well as its benefits
+     and possible concerns related to the proposed changes -->
+This pull request implements handling of the ViewChange message type.
+
+<!-- and reference any issues resolved by the pull request, e.g. #123 -->
+Resolves: #178 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-17 17:54:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minbft/pull/229" class=".btn">#229</a>
             </td>
             <td>

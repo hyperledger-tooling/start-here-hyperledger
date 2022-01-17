@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/298" class=".btn">#298</a>
+            </td>
+            <td>
+                <b>
+                    Use UnmarshalBinary and MarshalBinary for converting to/from Binary form
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR covers step 4 described in #233.
+
+Note: To be merged after #297.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-17 16:59:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/297" class=".btn">#297</a>
             </td>
             <td>
