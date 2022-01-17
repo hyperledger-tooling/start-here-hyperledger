@@ -98,7 +98,7 @@ Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
             </td>
             <td>
                 <b>
-                    [wip] introduce getIndex API
+                    Introduce getIndex API
                 </b>
             </td>
         </tr>

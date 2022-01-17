@@ -388,31 +388,3 @@ Signed-off-by: brioux <Bertrand.rioux@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/382" class=".btn">#382</a>
-            </td>
-            <td>
-                <b>
-                    feat(scripts): Add script for packaging and installing chaincode locally
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added a script that executes the Fabric chaincode lifecycle locally instead of using the chaincode from an external container, so that changes in the chaincode may be tested out quickly. Now the chaincode is installed directly on the peer itself, and the created dev-peer containers may be used for easily debugging chaincode.
-
-Closes #376. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-10 09:08:24 +0000 UTC
-    </div>
-</div>
-
