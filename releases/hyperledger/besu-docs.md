@@ -15,6 +15,40 @@ permalink: /releases/hyperledger/besu-docs
         <tr>
             <td colspan="2">
                 <b>
+                    Release 21.10.8
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    21.10.8
+                </span>
+            </td>
+            <td>
+                ### Additions and Improvements
+- Ethereum Classic Mystique Hard Fork [#3256](https://github.com/hyperledger/besu/pull/3256)
+
+### Download Links
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.8/besu-21.10.8.tar.gz \ SHA256 d325e2e36bc38a707a9eebf92068f5021606a8c6b6464bb4b4d59008ef8014fc
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/21.10.8/besu-21.10.8.zip \ SHA256 a91da1e82fb378e16437327bba56dd299aafdb0614ba528167a1dae85440c5af
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/besu-docs/releases/tag/21.10.8" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-01-12 19:37:28 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     21.10.7
                 </b>
             </td>
