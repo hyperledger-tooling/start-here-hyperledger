@@ -362,29 +362,3 @@ Signed-off-by: brioux <Bertrand.rioux@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/384" class=".btn">#384</a>
-            </td>
-            <td>
-                <b>
-                    Initial UI for carbon tracker 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Assigning roles is not working yet but you can issue tokens and see them.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-11 00:56:38 +0000 UTC
-    </div>
-</div>
-
