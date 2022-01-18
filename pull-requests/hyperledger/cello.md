@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/386" class=".btn">#386</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-385]Fix the problem of getting token
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed the problem that the token could not be obtained after the first login
+
+Close #385 
+Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-18 03:26:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/384" class=".btn">#384</a>
             </td>
             <td>
@@ -255,37 +284,6 @@ Signed-off-by: tianxuanhong1 <523713078@qq.com>
     </table>
     <div class="right-align">
         Created At 2022-01-11 11:57:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/378" class=".btn">#378</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-374]network create failed: The front-end parameters are incon…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …sistent with the back-end parameters
-
-front parames: consensus, db,name,type,version
-but backend needs: name, consensus,database
-Close #374 
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-11 02:14:00 +0000 UTC
     </div>
 </div>
 
