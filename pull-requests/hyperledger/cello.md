@@ -257,33 +257,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/380" class=".btn">#380</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-379] realize the chain code package function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Realize the chain code package function. In the post request, you need to carry the zip package and MD5 value. After decompressing it to the specified path, call the peer binary tool to perform the package operation
-
-Close #379
-
-Signed-off-by: tianxuanhong1 <523713078@qq.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-11 11:57:17 +0000 UTC
-    </div>
-</div>
-
