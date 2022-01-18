@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2469" class=".btn">#2469</a>
+            </td>
+            <td>
+                <b>
+                    [#2468] Allow java samples to run individually & polish sample docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                signed-off-by: Thomas Diesler <tdiesler@redhat.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-18 11:14:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-sdk/pull/2466" class=".btn">#2466</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger/indy-sdk
     </table>
     <div class="right-align">
         Created At 2022-01-17 16:08:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2464" class=".btn">#2464</a>
-            </td>
-            <td>
-                <b>
-                    [#2463] Cannot run jupyter getting started workbook
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 14:52:49 +0000 UTC
     </div>
 </div>
 

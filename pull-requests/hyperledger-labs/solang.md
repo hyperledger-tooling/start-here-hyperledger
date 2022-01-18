@@ -102,29 +102,3 @@ Thank you!
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/636" class=".btn">#636</a>
-            </td>
-            <td>
-                <b>
-                    feat(parser): missing assembly statements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves https://github.com/hyperledger-labs/solang/issues/631
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-11 12:09:00 +0000 UTC
-    </div>
-</div>
-

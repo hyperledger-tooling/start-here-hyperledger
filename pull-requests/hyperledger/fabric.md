@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3177" class=".btn">#3177</a>
+            </td>
+            <td>
+                <b>
+                    typo in word 'oreder'.Changed to 'order'
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Documentation update
+
+#### Description
+There was a typo in word 'oreder'. Changed it to 'order'.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-18 08:28:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3176" class=".btn">#3176</a>
             </td>
             <td>
@@ -161,38 +192,6 @@ This PR incorporates changes to download the amd64 binaries and images for an ar
     </table>
     <div class="right-align">
         Created At 2022-01-15 09:22:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3173" class=".btn">#3173</a>
-            </td>
-            <td>
-                <b>
-                    Update chaincode4ade.rst
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                typo in 'oreder'
-
-#### Type of change
-- Documentation update
-
-#### Description
-There was a typo in the word 'oreder'. Changed it to 'order'
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-15 07:38:11 +0000 UTC
     </div>
 </div>
 
