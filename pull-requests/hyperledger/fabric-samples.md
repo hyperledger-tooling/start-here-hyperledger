@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/586" class=".btn">#586</a>
+            </td>
+            <td>
+                <b>
+                    Fix: remove `shift` after `-verbose` 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There are no argument after `-verbose`. So, it should not run `shift`.
+If `-verbose` is not latest parameter, it will throw errro.
+![image](https://user-images.githubusercontent.com/88102592/149860351-dac5abe4-c670-4e5b-b092-93f5d2c37b29.png)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-18 02:28:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/585" class=".btn">#585</a>
             </td>
             <td>
@@ -108,32 +137,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-01-16 01:03:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/583" class=".btn">#583</a>
-            </td>
-            <td>
-                <b>
-                    peer address export
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                environment variable should be exported to take effect i guess...
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-15 16:53:36 +0000 UTC
     </div>
 </div>
 
