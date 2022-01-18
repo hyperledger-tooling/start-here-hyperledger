@@ -14,42 +14,33 @@ permalink: /issues/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/indy-plenum/issues/1554" class=".btn">1554</a>
+                Issue <a href="https://github.com/hyperledger/indy-plenum/issues/1579" class=".btn">1579</a>
             </td>
             <td>
                 <b>
-                    GitHub Action CI/CD Enhancements
+                    Add virtual development environments to the `ubuntu-20.04-upgrade` branch
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span><span class="chip">help wanted</span><span class="chip">Ubuntu 20.04</span>
+                <span class="chip">help wanted</span><span class="chip">good first issue</span>
             </td>
             <td>
-                The following is a list of what the existing Jenkins Pipelines do that the GitHub Actions Workflows don't (yet).
+                Add Visual Studio Code and Gitpod virtual development environments to the indy-plenum project's `ubuntu-20.04-upgrade` branch.  Ubuntu 16.04 is not supported as a DevContainer so we're not going to go through the effort of trying to support virtual development on 16.04.
 
-We'll be focusing on the features and functionality of the `Jenkinsfile.cd` Pipeline, since the GitHub Actions Workflows have incorporated all of the features and functionality of the `Jenkinsfile.ci` Pipeline.
+This has already been done for [hyperledger/indy-node](https://github.com/hyperledger/indy-node) and can be used as a reference:
+- https://github.com/hyperledger/indy-node/pull/1718
+- https://github.com/hyperledger/indy-node/pull/1722
 
-The flow of the pipeline is setup in `Jenkinsfile.cd` but the execution is controlled by the `testAndPublish` script in the `private`[sovrin-foundation/jenkins-shared](https://github.com/sovrin-foundation/jenkins-shared) repository therefore anyone working on these enhancements will need to be granted read-only access to that repository in order to follow the code.  The scripts automate the release process described here; [Indy-Node Release Workflow](https://github.com/hyperledger/indy-node/blob/master/docs/source/ci-cd.md#release-workflow).  The same scripts are used for both `indy-node` and `indy-plenum`.
-
-- [ ] Configure auto-merge on PRs containing changes to `setup.py` and no other files.
-- [ ] Update the release version on release candidate (`isRC`) PRs.
-- [ ] Conditionally build (for release candidates) or repack (for releases) artifacts.
-- [ ] Promote/copy artifacts (deb packages) to different locations in the repository.
-- [ ] Optionally run system tests (this feature is used for `indy-node`, but not `indy-plenum`).
-- [ ] Create a release PR for (off) RC PRs.
-- [ ] Notify a mailing list that a new RC release is waiting for approval, and then wait for the release to be approved.
-- [ ] Merge approved release candidate PRs into the release branch.
-- [ ] Notify a mailing list that a new release is available.
-- [ ] Rollback release commits on PRs when the release is not approved.
-
-When developing the enhancements a separate issue should be created to track the work and be linked back to this issue.  Feature enhancements should be limited to the smallest set of related features in order to limit the scope of the work.
+Outstanding issues from the above:
+- https://github.com/hyperledger/indy-node/issues/1728
+- https://github.com/hyperledger/indy-node/issues/1729
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-27 21:33:07 +0000 UTC
+        Created At 2022-01-18 17:04:46 +0000 UTC
     </div>
 </div>
 
