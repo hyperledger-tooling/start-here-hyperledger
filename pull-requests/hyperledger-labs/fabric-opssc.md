@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/20" class=".btn">#20</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/21" class=".btn">#21</a>
             </td>
             <td>
                 <b>
-                    Add updateChannelType() and introduce the disable channel type
+                    Add config options whether to enable some APIs
                 </b>
             </td>
         </tr>
@@ -27,17 +27,18 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
                 
             </td>
             <td>
-                This patch adds the following features:
-- Add `updateChannelType()` for updating the channel type to channel_ops
-- Introduce 'disable' channel type to exclude the channel from management by OpsSC
-  - (1) Exclude bootstrap processing for the channel in agent
-  - (2) Reject a chaincode update proposal for the channel
-  - (3) Allow OpsSC to manage the workflow of the proposal that has already been submitted (to prevent the control from becoming complicated)
+                This patch adds the following options whether to enable APIs:
+- API_CH_PROPOSAL_ENABLED: Whether to enable the Channel Update Proposal APIs
+- API_UTIL_ENABLED: Whether to enable the Utility APIs
+
+NOTE: This option only controls at the API server layer. Note that direct execution of the chaincode is still allowed.
+
+This also includes some minor fixes for the default values of some config options.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-11 08:30:13 +0000 UTC
+        Created At 2022-01-19 03:05:13 +0000 UTC
     </div>
 </div>
 

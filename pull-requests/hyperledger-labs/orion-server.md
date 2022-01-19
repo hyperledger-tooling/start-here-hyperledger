@@ -90,29 +90,3 @@ Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/317" class=".btn">#317</a>
-            </td>
-            <td>
-                <b>
-                    Introduce getIndex API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-12 04:13:20 +0000 UTC
-    </div>
-</div>
-
