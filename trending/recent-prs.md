@@ -1,13 +1,13 @@
 
-[545](https://github.com/hyperledger/fabric-sdk-node/pull/545) Release v1.4.19
+[3178](https://github.com/hyperledger/fabric/pull/3178) Refactor gateway Endorse() method (backport #3171)
 
-[544](https://github.com/hyperledger/fabric-sdk-node/pull/544) Bump up the jsrsasign version from 8.0.24 to 10.4.1
+[148](https://github.com/hyperledger/sawtooth-docs/pull/148) More 1.2 Application Developers Guide Update
 
-[703](https://github.com/hyperledger-labs/business-partner-agent/pull/703) codeql warnings - locale in register did script
+[2470](https://github.com/hyperledger/indy-sdk/pull/2470) Update the version of Rust
 
-[2469](https://github.com/hyperledger/indy-sdk/pull/2469) [#2468] Allow java samples to run individually & polish sample docs
+[223](https://github.com/hyperledger/fabric-chaincode-java/pull/223) Update build.gradle
 
-[3177](https://github.com/hyperledger/fabric/pull/3177) typo in word 'oreder'.Changed to 'order'
+[1730](https://github.com/hyperledger/indy-node/pull/1730) Fix pytest-asyncio deprecation warnings which are causing the tests to fail.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
