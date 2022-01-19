@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/300" class=".btn">#300</a>
+            </td>
+            <td>
+                <b>
+                    Fix virtual channel proposal id generation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Previously, the proposal ID for a virtual channel was generated using
+  the ProposalID method defined on BaseChannelProposal.
+
+- Hence, not all parameters of the virtual channel proposal were used.
+
+- Fix it by defining a ProposalID method on the virtual channel.
+
+- Also, remove the ProposalID method on the BaseChannelProposal, as it
+  is not needed.
+
+Fixes #299.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-19 07:42:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/298" class=".btn">#298</a>
             </td>
             <td>
