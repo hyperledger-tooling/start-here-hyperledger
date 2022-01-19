@@ -15,33 +15,30 @@ permalink: /releases/hyperledger/fabric-sdk-node
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.11
+                    v1.4.19
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.11
+                    v1.4.19
                 </span>
             </td>
             <td>
-                This v2.2.11 version is the latest of the v2.2 long-term support (LTS) release
-of the fabric-node-sdk packages that support Fabric 2.x, and supersedes previous
-v2.x releases. Please see the Fabric LTS release strategy document for more
-information on LTS releases:
+                This is a maintenance release that updates the [jsrsasign](https://www.npmjs.com/package/jsrsasign) dependency version to address a security vulnerability in RSA signature validation:
 
-https://github.com/hyperledger/fabric-rfcs/blob/main/text/0005-lts-release-strategy.md
+- [CVE-2021-30246](https://github.com/advisories/GHSA-27fj-mc8w-j9wg)
 
-This is a maintenance release containing bug fixes.
+Note that the Node SDK does not perform RSA signature validation and so should not have been impacted by this vulnerability.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.11" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v1.4.19" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-12-17 10:40:46 +0000 UTC
+        Created At 2022-01-19 07:55:03 +0000 UTC
     </span>
 </div>
 
