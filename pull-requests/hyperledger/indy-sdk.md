@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2470" class=".btn">#2470</a>
+            </td>
+            <td>
+                <b>
+                    Update the version of Rust
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-18 19:55:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-sdk/pull/2469" class=".btn">#2469</a>
             </td>
             <td>

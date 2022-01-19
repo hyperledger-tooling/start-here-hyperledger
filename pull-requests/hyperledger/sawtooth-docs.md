@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/148" class=".btn">#148</a>
+            </td>
+            <td>
+                <b>
+                    More 1.2 Application Developers Guide Update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The largest part of this PR is combining all of the sub Creating a Sawtooth Test Network into one file.  
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-18 20:00:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/147" class=".btn">#147</a>
             </td>
             <td>
