@@ -15,6 +15,40 @@ permalink: /releases/hyperledger/besu-docs
         <tr>
             <td colspan="2">
                 <b>
+                    21.10.9
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    21.10.9
+                </span>
+            </td>
+            <td>
+                Bug Fixes
+Fix regression on cors-origin star value
+Fix for ethFeeHistory accepting hex values for blockCount
+Full Changelog: 21.10.8...21.10.9
+
+besu-21.10.9.tar.gz b5ef15ede50e19ad9fbb79876d8d68aeb8e3811f8905e973874523df2ed179b4
+besu-21.10.9.zip 26489881d852eefdda2cf0203cb30f7b2045ecfb299da8c744e9579cbe2934e2
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/besu-docs/releases/tag/21.10.9" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-01-19 18:25:06 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Release 21.10.8
                 </b>
             </td>
