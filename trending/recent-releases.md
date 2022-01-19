@@ -1,4 +1,6 @@
 
+[v1.4.19](https://github.com/hyperledger/fabric-sdk-node/releases/tag/v1.4.19) v1.4.19
+
 [v0.2.4](https://github.com/hyperledger/aries-askar/releases/tag/v0.2.4) v0.2.4
 
 [21.10.8](https://github.com/hyperledger/besu/releases/tag/21.10.8) Release 21.10.8
@@ -6,8 +8,6 @@
 [v0.9.6](https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.6) v0.9.6
 
 [21.10.7](https://github.com/hyperledger/besu/releases/tag/21.10.7) 21.10.7
-
-[0.1.19](https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.1.19) Release 0.1.19
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
