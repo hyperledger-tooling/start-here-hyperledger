@@ -38,31 +38,3 @@ permalink: /releases/hyperledger/aries-askar
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.2.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.2.3
-                </span>
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-askar/releases/tag/v0.2.3" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-01-12 23:52:05 +0000 UTC
-    </span>
-</div>
-
