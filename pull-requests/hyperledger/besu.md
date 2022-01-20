@@ -114,36 +114,3 @@ fixes #3141
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3275" class=".btn">#3275</a>
-            </td>
-            <td>
-                <b>
-                    Remove orion gradle dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Remove orion gradle dependency
-* Add direct dependency in testutil for vertx and jackson-databind
-* Fixed dependency version listing for com.fasterxml.jackson.datatype:jackson-datatype-jdk8
-Fixes #3271
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-13 06:58:42 +0000 UTC
-    </div>
-</div>
-
