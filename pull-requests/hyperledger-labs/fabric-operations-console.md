@@ -80,36 +80,3 @@ Updated npm deps.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/115" class=".btn">#115</a>
-            </td>
-            <td>
-                <b>
-                    fix false positive - admin identity
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
-
-#### Type of change
-
-- Bug fix
-
-#### Description
-The associated identity box is still showing the 'non-admin identity' warning when configured with Node OU, but don't have the admin cert in the MSP
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-12 21:38:48 +0000 UTC
-    </div>
-</div>
-
