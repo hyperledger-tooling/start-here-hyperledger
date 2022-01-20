@@ -14,11 +14,46 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/305" class=".btn">#305</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/307" class=".btn">#307</a>
             </td>
             <td>
                 <b>
-                    Add release notes for 0.4.3
+                    Update workload to report remaining time in logs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If a duration is set for a workload the `request_logger` should report how much time remains in the format hh:mm:ss
+
+Example output for a workload with duration of 10 minutes:
+```
+Starting Command-Workload-0 with target rate 1/s and duration 10m
+Command-Workload-0: Jan-14-2022 17:06:53.209, Sent: 5, Queue Full 0, Batches/s 0.999, time remaining 0:9:54
+Command-Workload-0: Jan-14-2022 17:06:58.213, Sent: 5, Queue Full 0, Batches/s 0.999, time remaining 0:9:49
+Command-Workload-0: Jan-14-2022 17:07:03.217, Sent: 5, Queue Full 0, Batches/s 0.999, time remaining 0:9:44
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-14 17:12:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/306" class=".btn">#306</a>
+            </td>
+            <td>
+                <b>
+                    Fix lint introduced in the 1.58 release of Rust
                 </b>
             </td>
         </tr>
@@ -32,67 +67,7 @@ permalink: /pull-requests/hyperledger/transact
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-10 21:36:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/304" class=".btn">#304</a>
-            </td>
-            <td>
-                <b>
-                    Add GHA for publishing tagged releases to crates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-06 21:35:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/303" class=".btn">#303</a>
-            </td>
-            <td>
-                <b>
-                    Alter column type for leaf address
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prior to this change, the column type for merkle_radix_leaf.address was specified as `"STRING"`. As this type is not one of the types automatically treated as `TEXT`, it defaults to being treated as a `NUMERIC` value.  With certain addresses, where all characters were valid decimal digits with a leading zero, the leading zero would be dropped. This would create
-instances where the address value would not be returned, but not with the same address queried.
-
-Changing the column type to `"TEXT"` fixes the problem.
-
-The migration added will also correct all address that are missing a leading zero.
-
-This change also adds several tests for both SQLite and Postgres to guard against this issue in the future, while also exercising the `list_leaves` trait function implementations of each.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-06 17:04:50 +0000 UTC
+        Created At 2022-01-14 15:27:49 +0000 UTC
     </div>
 </div>
 

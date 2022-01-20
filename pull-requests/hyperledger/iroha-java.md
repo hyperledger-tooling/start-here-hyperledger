@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/185" class=".btn">#185</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/189" class=".btn">#189</a>
             </td>
             <td>
                 <b>
-                    2.0.0 pre.1.rc.1
+                    iroha-186: schema updated
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-27 11:56:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/184" class=".btn">#184</a>
-            </td>
-            <td>
-                <b>
-                    2.0.0 pre.1.rc.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-27 11:36:34 +0000 UTC
+        Created At 2022-01-20 12:46:46 +0000 UTC
     </div>
 </div>
 

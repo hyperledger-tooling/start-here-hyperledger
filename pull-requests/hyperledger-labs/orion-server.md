@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/321" class=".btn">#321</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/325" class=".btn">#325</a>
             </td>
             <td>
                 <b>
-                    Update README.md
+                    WIP Adding TLS to server REST API
                 </b>
             </td>
         </tr>
@@ -27,12 +27,40 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                <nil>
+                Adding TLS and fixing small glitch in comm.httptransport.go
+
+Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-12 16:16:59 +0000 UTC
+        Created At 2022-01-20 17:23:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/324" class=".btn">#324</a>
+            </td>
+            <td>
+                <b>
+                    Bug cluster recovery tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                TestNoMajorityToChooseLeader  fails with error - "panic: error while committing block 3 to the block store: failed to commit block 3 to block store: expected block number [4] but received [3]"
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-20 15:30:13 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/146" class=".btn">#146</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/151" class=".btn">#151</a>
             </td>
             <td>
                 <b>
-                    Fix flags for the latest stable ethereum
+                    Fixed bug in the workload implementation
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                From go-ethereum 1.10, command flags have been changed.
-Therefore sample in networks/ethereum/1node-clique can't work.
-This PR fixes the issue.
+                Fixed bug in the workload implementation caused by semantic error in benchmarks\api\fabric\lib\helper.js
 
-Signed-off-by: Nao Nishijima <nao.nishijima.xt@hitachi.com>
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-07-06 08:47:03 +0000 UTC
+        Created At 2022-01-18 12:52:33 +0000 UTC
     </div>
 </div>
 

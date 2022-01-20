@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/282" class=".btn">#282</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/289" class=".btn">#289</a>
             </td>
             <td>
                 <b>
-                    Fix location of API doc
+                    Update Grid roadmap for future releases
                 </b>
             </td>
         </tr>
@@ -27,15 +27,17 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                This fixes the location of the API doc when the website is getting
-built. Previously, the file was being overwritten.
+                This change updates the Grid roadmap page to include a section for the
+v0.4 release planned features. This change also rearranges the page to
+indicate v0.3 as the "latest" release and to make past releases more
+readable.
 
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-11 17:32:32 +0000 UTC
+        Created At 2022-01-19 22:04:27 +0000 UTC
     </div>
 </div>
 
@@ -43,11 +45,11 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/278" class=".btn">#278</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/288" class=".btn">#288</a>
             </td>
             <td>
                 <b>
-                    Update future rest api documentation
+                    Update Grid docs for 0.3 release
                 </b>
             </td>
         </tr>
@@ -56,12 +58,16 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
                 
             </td>
             <td>
-                This updates the endpoints for the future rest api docs to remove explicit references to Griddle. This is intended to avoid confusion and allow these docs to evolve with the project. This also includes updating the url of the docs to remove references to Griddle. A list of changes to the API spec has also been added to the API landing page. This also makes the endpoints for the doc itself and its landing page more explicit to fix inconsistent behavior between local builds and the published site.
+                This adds a brief upgrading procedure for upgrading Grid from version
+0.2 to version 0.3. Other sections are also updated to include references to
+the addition of Purchase Order functionality.
+
+Signed-off-by: Davey Newhall newhall@bitwise.io
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-10 20:45:14 +0000 UTC
+        Created At 2022-01-19 21:01:42 +0000 UTC
     </div>
 </div>
 
@@ -69,11 +75,11 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/277" class=".btn">#277</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/287" class=".btn">#287</a>
             </td>
             <td>
                 <b>
-                    Update po walkthrough
+                    Make PO feature description more business-focused
                 </b>
             </td>
         </tr>
@@ -82,13 +88,16 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
                 
             </td>
             <td>
-                This updates the using purchase order walkthrough to work with the
-updated CLI.
+                Changes the PO feature overview to be less technical and more
+business-focused. This brings it in line with the other feature
+overviews.
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-06 20:49:35 +0000 UTC
+        Created At 2022-01-17 22:32:43 +0000 UTC
     </div>
 </div>
 
