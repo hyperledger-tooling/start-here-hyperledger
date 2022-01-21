@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/391" class=".btn">#391</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-389] implement query_installed & get_installed_package function
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                implement query_installed & get_installed_package function.We can query the chaincodes info has installed in peer nodes and can get installed chaincode.
+
+Close #389
+
+Signed-off-by: tianxuanhong1 <523713078@qq.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-21 02:01:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/388" class=".btn">#388</a>
             </td>
             <td>
