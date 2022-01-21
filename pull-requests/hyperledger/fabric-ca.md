@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/267" class=".btn">#267</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/268" class=".btn">#268</a>
             </td>
             <td>
                 <b>
-                    fix expired root.pem certificate - was breaking 8-10 unit test cases
+                    Remove redundant assignment
                 </b>
             </td>
         </tr>
@@ -27,47 +27,19 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-
-Fixes the following test flakes, caused by a set of expired test certificates: 
-```
---- FAIL: TestGetCACert (0.02s)
---- FAIL: TestClientCommandsUsingConfigFile (1.11s)
---- FAIL: TestClientCommandsTLSEnvVar (1.18s)
---- FAIL: TestClientCommandsTLS (1.18s)
-FAIL
-FAIL	github.com/hyperledger/fabric-ca/cmd/fabric-ca-client/command	36.619s
---- FAIL: TestCWBTLSClientAuth (0.17s)
---- FAIL: TestSRVIntermediateServerWithTLS (2.14s)
---- FAIL: TestSRVRunningTLSServer (1.12s)
---- FAIL: TestSRVTLSAuthClient (3.21s)
---- FAIL: TestPrometheusMetricsE2E (1.23s)
-FAIL
-FAIL	github.com/hyperledger/fabric-ca/lib	109.721s
-FAIL
-```
-
-#### Type of change
-
-- Test update
+                #### Type of change
+- Improvement (improvement to code, performance, etc)
 
 #### Description
-
-Fixes a series of broken fabric-ca unit tests.  These were caused by an expired testdata/root.pem certificate and associated keys.
+Redundant assignment in ca.go (repeated from Line 277)
 
 #### Additional details
 
-`TestCWBTLSClientAuth` is running into some issues when executing with golang 1.17.1.  It is passing OK on the Azure build. 
-
-
-#### Related issues
-
-Fixes #260 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-22 21:13:22 +0000 UTC
+        Created At 2022-01-21 02:27:18 +0000 UTC
     </div>
 </div>
 
