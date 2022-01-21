@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/85" class=".btn">#85</a>
-            </td>
-            <td>
-                <b>
-                    Mircat module for eventlog analysis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Mircat module with the dynamic listing of events from the given eventlog file
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 11:49:38 +0000 UTC
-    </div>
-</div>
-
