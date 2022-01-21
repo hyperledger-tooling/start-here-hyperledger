@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/69" class=".btn">#69</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/73" class=".btn">#73</a>
             </td>
             <td>
                 <b>
-                    Fixed runtime path for spec.yaml
+                    Added query endpoints, refactored query handling into syncdispatcher
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-03 18:05:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/68" class=".btn">#68</a>
-            </td>
-            <td>
-                <b>
-                    Add spec.yaml to runtime image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Missed this when adding the API spec capability. The static resource must be added to the runtime image for it to be available to serve to present the Swagger UI
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-03 16:57:36 +0000 UTC
+        Created At 2022-01-17 23:55:02 +0000 UTC
     </div>
 </div>
 

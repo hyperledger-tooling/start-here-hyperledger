@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/35" class=".btn">#35</a>
+                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    Add support for running as an API server.
+                    Dockerfile optimizations.
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
                 
             </td>
             <td>
-                - Plus general refactoring and clean-up. 
-
-Signed-off-by: KoleBarnes <kbarnes261@gmail.com>
+                Signed-off-by: KoleBarnes <kbarnes261@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-30 22:41:35 +0000 UTC
+        Created At 2022-01-20 19:49:47 +0000 UTC
     </div>
 </div>
 

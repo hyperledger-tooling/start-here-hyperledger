@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1607" class=".btn">#1607</a>
+            </td>
+            <td>
+                <b>
+                    Auto-promote author did to public after endorsing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-21 17:47:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1606" class=".btn">#1606</a>
             </td>
             <td>
@@ -74,7 +100,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 <b>
-                    WIP: Inbound and Outbound Persistent Message Queues, Redis and Kafka 
+                    Inbound and Outbound Persistent Message Queues, Redis and Kafka 
                 </b>
             </td>
         </tr>

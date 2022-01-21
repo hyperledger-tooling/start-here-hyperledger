@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/113" class=".btn">#113</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/120" class=".btn">#120</a>
             </td>
             <td>
                 <b>
-                    fix: acapy-endpoint.sh to send correct ws endpoint to ACA-Py
+                    fix: holder cred-get-list returns only holder creds
                 </b>
             </td>
         </tr>
@@ -27,18 +27,38 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                It was noticed that the Toolbox was "unable to connect" to the demos due
-to the fact that the websocket endpoint was not set properly. When the
-toolbox would attempt to discover the features of the ACA-Py instance,
-it was sending the request to ws://host/ws (which isn't a valid
-endpoint) instead of sending it to ws://host/.
-
-Signed-off-by: Colton Wolkins (Indicio work address) <colton@indicio.tech>
+                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-10 19:16:41 +0000 UTC
+        Created At 2022-01-17 22:08:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/119" class=".btn">#119</a>
+            </td>
+            <td>
+                <b>
+                    feat: update to 0.7.3 of ACA-Py
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-17 17:10:59 +0000 UTC
     </div>
 </div>
 

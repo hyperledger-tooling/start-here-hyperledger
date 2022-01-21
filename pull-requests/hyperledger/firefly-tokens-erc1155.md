@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/54" class=".btn">#54</a>
             </td>
             <td>
                 <b>
-                    Liveness / Readiness Probes and Graceful Shutdown for K8s
+                    Strip unrecognized inputs in class-validator (rather than erroring)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                Adds `api/v1/health/liveness` (is the process up) and `api/v1/health/readiness` (is the process ready to serve traffic) endpoints for Kubernetes probes and enables graceful shutdown.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-03 14:07:44 +0000 UTC
+        Created At 2022-01-19 01:41:56 +0000 UTC
     </div>
 </div>
 

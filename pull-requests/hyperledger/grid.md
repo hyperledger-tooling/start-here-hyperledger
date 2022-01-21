@@ -216,32 +216,3 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1248" class=".btn">#1248</a>
-            </td>
-            <td>
-                <b>
-                    Address issues from linting introduced in rust 1.58
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                More info regarding clippy updates:
-https://github.com/rust-lang/rust-clippy/blob/master/CHANGELOG.md#rust-158
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 16:04:55 +0000 UTC
-    </div>
-</div>
-

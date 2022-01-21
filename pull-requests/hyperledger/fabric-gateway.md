@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/365" class=".btn">#365</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/375" class=".btn">#375</a>
             </td>
             <td>
                 <b>
-                    Fix scenario test for non-determinism
+                    Migration guide
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Change the extected error response
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+                Documentation describing key considerations when migrating application using the legacy client SDKs to use the Fabric Gateway client API.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-06 11:58:27 +0000 UTC
+        Created At 2022-01-21 18:05:25 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +40,11 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/364" class=".btn">#364</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/374" class=".btn">#374</a>
             </td>
             <td>
                 <b>
-                    Run nightly builds even if there are no code changes
+                    Minimise dependencies on Go protobuf versions
                 </b>
             </td>
         </tr>
@@ -55,12 +53,69 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
                 
             </td>
             <td>
-                Resolves #353
+                Extract code that depends on a specific protobuf version into a utility package so the main code is agnostic to the protobuf version. This allows the staticcheck rule for deprecated API usage to be enabled for all but that one utility package.
+
+Contributes to #363
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-06 11:28:29 +0000 UTC
+        Created At 2022-01-20 12:33:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/373" class=".btn">#373</a>
+            </td>
+            <td>
+                <b>
+                    Enable Javadoc build with Java 17
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Minor tweaks to Javadoc to satisfy Java 17 parsing enforcement.
+- Maven build profile change to avoid using removed Javadoc option with Java 17.
+- Remove unused directory and sample yaml.
+- Publish build dependency on Docs stage since it publishes Docs artifacts.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-19 18:30:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/372" class=".btn">#372</a>
+            </td>
+            <td>
+                <b>
+                    Clean up protobuf compilation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Go uses fabric-protos-go so does not need to build protobufs. The protoc command line and Go protoc commands are not required.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-14 21:27:03 +0000 UTC
     </div>
 </div>
 
