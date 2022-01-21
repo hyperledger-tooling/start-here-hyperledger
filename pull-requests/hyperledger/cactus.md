@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/cactus
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1771" class=".btn">#1771</a>
-            </td>
-            <td>
-                <b>
-                    fix: plugin ledger connector sawtooth socketio exception handling and upgrade TS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1739
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-13 20:23:40 +0000 UTC
-    </div>
-</div>
-
