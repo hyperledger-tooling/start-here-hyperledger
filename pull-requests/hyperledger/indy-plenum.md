@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1578" class=".btn">#1578</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1580" class=".btn">#1580</a>
             </td>
             <td>
                 <b>
-                    bump indy-sdk to v. 1.16.0
+                    Devcontainers
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                Signed-off-by: udosson <r.klemens@yahoo.de>
+                Addition of devcontainers and their configuration files as requested in #1579.
+Changes needed because of https://github.com/hyperledger/indy-sdk/issues/2473 have been marked with comments.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-26 13:32:03 +0000 UTC
+        Created At 2022-01-21 15:24:23 +0000 UTC
     </div>
 </div>
 

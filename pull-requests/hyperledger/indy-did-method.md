@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-did-method
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-did-method/pull/27" class=".btn">#27</a>
+                PR <a href="https://github.com/hyperledger/indy-did-method/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Update the method for self-certifying DIDs per suggestion in #26
+                    Use a period in namespace -- Addresses #22
                 </b>
             </td>
         </tr>
@@ -27,15 +27,13 @@ permalink: /pull-requests/hyperledger/indy-did-method
                 
             </td>
             <td>
-                Per #26 , use a better way to connect a DID with its initial verkey (self-certifying DID).
-
-I'm more of a messenger on this one.  The argument is #26 make sense about not making the approach signature scheme specific. I'm less sure about the properties of the proposed approach, so would welcome feedback from others on that. It seems to make sense :-).
+                Fixes #22 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-21 19:57:32 +0000 UTC
+        Created At 2022-01-19 22:32:47 +0000 UTC
     </div>
 </div>
 

@@ -121,29 +121,3 @@ This PR addresses the cargo resolver issues causing the the Jenkins builds to fa
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2462" class=".btn">#2462</a>
-            </td>
-            <td>
-                <b>
-                    Update indy-walkthrough.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This work changes "Trust Anchor" to "Endorser" to align with the changes in 79aed586c586da8d47adb423ff3f7dcbf31fcb22
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 13:31:23 +0000 UTC
-    </div>
-</div>
-

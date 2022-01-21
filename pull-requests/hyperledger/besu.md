@@ -493,10 +493,10 @@ This PR replaces every `org.apache.logging.log4j.Logger` instance with its analo
 
 This is quite large to review so I kept different commits for the different decisions being made
  - [8863bc5](https://github.com/hyperledger/besu/commit/8863bc5e899b6e9705165b6636b9ad6bc116d111): just adds the slf4j API
- - [4c2545b](https://github.com/hyperledger/besu/commit/4c2545bda533d160f25e189c228b1ce4e66379d2): this is the biggest one. 90% of it is just replacing the `Logger` instances, but there are also some other minor changes for respecting the same behavior of Log4J2 in SLF4j, e.g. wrap in an `if (LOG.isXxxxEnabled)` values that would have been resolved through lambdas in Log4J2.
- - [a1b98a9](https://github.com/hyperledger/besu/commit/a1b98a95248a74041f7e2265db043a3a645d755a): changes an specific Logger from Log4J2 for a regular one. If this a really wanted feature, we can add it into the logging definition and attach that appender to the enclosing class.
- - [0cbc0c3](https://github.com/diega/besu/commit/0cbc0c31c2b629a83d563b5865ecc6b88261f23e): changes the default value of a CLI option
- - [cd9b7e0](https://github.com/hyperledger/besu/commit/cd9b7e06c0a81c2e4d97ccf325f1818cc81c4b9a): Emulates [Log4J2 Configurator](https://github.com/apache/logging-log4j2/blob/rel%2F2.17.1/log4j-core/src/main/java/org/apache/logging/log4j/core/config/Configurator.java) behavior but resolving the logging context through SLF4j
+ - [34c057e](https://github.com/hyperledger/besu/commit/34c057e5dde24a81e42c7162e746f3517228e6f2): this is the biggest one. 90% of it is just replacing the `Logger` instances, but there are also some other minor changes for respecting the same behavior of Log4J2 in SLF4j, e.g. wrap in an `if (LOG.isXxxxEnabled)` values that would have been resolved through lambdas in Log4J2.
+ - [1dab1d6](https://github.com/hyperledger/besu/commit/1dab1d6665c54094a2d889fb1b5417d65e385de3): changes an specific Logger from Log4J2 for a regular one. If this a really wanted feature, we can add it into the logging definition and attach that appender to the enclosing class.
+ - [44da4ed](https://github.com/diega/besu/commit/44da4ed10d4b4f5da93d145b0364c2241ecc26f1): changes the default value of a CLI option
+ - [60d4bce](https://github.com/hyperledger/besu/commit/60d4bceb910b2170ded837c7327fe8bbfa45b119): Mimics [Log4J2 Configurator](https://github.com/apache/logging-log4j2/blob/rel%2F2.17.1/log4j-core/src/main/java/org/apache/logging/log4j/core/config/Configurator.java) behavior but resolving the logging context through SLF4j
 
 ## Changelog
 

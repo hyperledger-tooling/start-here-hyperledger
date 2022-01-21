@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1195" class=".btn">#1195</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1211" class=".btn">#1211</a>
             </td>
             <td>
                 <b>
-                    Docs: Added Declarative Workload Module
+                    address fabric:1.4 sut binding not working in caliper container
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                Contains declarative workload module documentation added to vNext.
+                Issue in 1.4 node sdk means that some dependencies aren't available when
+binding to a 1.4 fabric sut in the caliper docker container
+
+closes #1146
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-05 16:32:18 +0000 UTC
+        Created At 2022-01-21 14:56:29 +0000 UTC
     </div>
 </div>
 

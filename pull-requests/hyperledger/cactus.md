@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1807" class=".btn">#1807</a>
+            </td>
+            <td>
+                <b>
+                    test(api-client): fix flaky socketio-api-client.test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Increase timeout on all tests, add extra timeout for setup operations to solve jest timeout errors in CI
+
+Closes: #1804
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-21 14:32:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1806" class=".btn">#1806</a>
             </td>
             <td>
@@ -105,7 +134,7 @@ Signed-off-by: Bhaskar Ram <bhaskar@parrotsec.in>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span><span class="chip">API_Server</span><span class="chip">Security</span>
             </td>
             <td>
                 closes #1579
@@ -602,248 +631,6 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
     </table>
     <div class="right-align">
         Created At 2022-01-14 20:45:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1782" class=".btn">#1782</a>
-            </td>
-            <td>
-                <b>
-                    Cactus test plugin htlc eth besu erc20/refund endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Migrated test from Tap to Jest.
-
-File Path:
-packages/cactus-test-plugin-htlc-eth-besu-erc20/src/
-test/typescript/integration/plugin-htlc-eth-besu-erc20/
-refund-endpoint.test.ts
-
-This is a PARTIAL resolution to issue #238
-
-Signed-off-by: awadhana <awadhana0825@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 18:07:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1781" class=".btn">#1781</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump node-forge from 0.10.0 to 1.0.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">Security</span>
-            </td>
-            <td>
-                Bumps [node-forge](https://github.com/digitalbazaar/forge) from 0.10.0 to 1.0.0.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/digitalbazaar/forge/blob/main/CHANGELOG.md">node-forge's changelog</a>.</em></p>
-<blockquote>
-<h2>1.0.0 - 2022-01-04</h2>
-<h3>Notes</h3>
-<ul>
-<li><strong>1.0.0</strong>!</li>
-<li>This project is over a decade old! Time for a 1.0.0 release.</li>
-<li>The URL related changes may expose bugs in some of the networking related
-code (unrelated to the much wider used cryptography code). The automated and
-manual test coverage for this code is weak at best. Issues or patches to
-update the code or tests would be appreciated.</li>
-</ul>
-<h3>Removed</h3>
-<ul>
-<li><strong>SECURITY</strong>, <strong>BREAKING</strong>: Remove <code>forge.debug</code> API. The API has the
-potential for prototype pollution. This API was only briefly used by the
-maintainers for internal project debug purposes and was never intended to be
-used with untrusted user inputs. This API was not documented or advertised
-and is being removed rather than fixed.</li>
-<li><strong>SECURITY</strong>, <strong>BREAKING</strong>: Remove <code>forge.util.parseUrl()</code> (and
-<code>forge.http.parseUrl</code> alias) and use the <a href="https://url.spec.whatwg.org/">WHATWG URL
-Standard</a>. <code>URL</code> is supported by modern browers
-and modern Node.js. This change is needed to address URL parsing security
-issues. If <code>forge.util.parseUrl()</code> is used directly or through <code>forge.xhr</code> or
-<code>forge.http</code> APIs, and support is needed for environments without <code>URL</code>
-support, then a polyfill must be used.</li>
-<li><strong>BREAKING</strong>: Remove <code>forge.task</code> API. This API was never used, documented,
-or advertised by the maintainers. If anyone was using this API and wishes to
-continue development it in other project, please let the maintainers know.
-Due to use in the test suite, a modified version is located in
-<code>tests/support/</code>.</li>
-<li><strong>BREAKING</strong>: Remove <code>forge.util.makeLink</code>, <code>forge.util.makeRequest</code>,
-<code>forge.util.parseFragment</code>, <code>forge.util.getQueryVariables</code>. Replace with
-<code>URL</code>, <code>URLSearchParams</code>, and custom code as needed.</li>
-</ul>
-<h3>Changed</h3>
-<ul>
-<li><strong>BREAKING</strong>: Increase supported Node.js version to 6.13.0 for URL support.</li>
-<li><strong>BREAKING</strong>: Renamed <code>master</code> branch to <code>main</code>.</li>
-<li><strong>BREAKING</strong>: Release process updated to use tooling that prefixes versions
-with <code>v</code>. Other tools, scripts, or scanners may need to adapt.</li>
-<li><strong>BREAKING</strong>: Remove docs related to Bower and
-<a href="https://github.com/digitalbazaar/forge-dist">forge-dist</a>. Install using
-<a href="https://github.com/digitalbazaar/forge/blob/main/README.md#installation">another method</a>.</li>
-</ul>
-<h3>Added</h3>
-<ul>
-<li>OIDs for <code>surname</code>, <code>title</code>, and <code>givenName</code>.</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-<li><strong>BREAKING</strong>: OID 2.5.4.5 name fixed from <code>serialName</code> to <code>serialNumber</code>.
-Depending on how applications used this id to name association it could cause
-compatibility issues.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/digitalbazaar/forge/commit/bc1a8d8837ef29672dbd320c5d03f06068ae4116"><code>bc1a8d8</code></a> Release 1.0.0.</li>
-<li><a href="https://github.com/digitalbazaar/forge/commit/9055d6f6099e5199d7e62027e8eb0f5860d33938"><code>9055d6f</code></a> Update changelog.</li>
-<li><a href="https://github.com/digitalbazaar/forge/commit/69395d0684eb56ee0cdd9a0ea0e541a4013dafd2"><code>69395d0</code></a> Fix install note.</li>
-<li><a href="https://github.com/digitalbazaar/forge/commit/5f8d5c215f157faf8d2e1d8061c4d6086363f871"><code>5f8d5c2</code></a> Update docs.</li>
-<li><a href="https://github.com/digitalbazaar/forge/commit/27286feec0f9ac0094a6b7a3041e5c1a412ad7a5"><code>27286fe</code></a> Fix style.</li>
-<li><a href="https://github.com/digitalbazaar/forge/commit/a3f48e4078211ec0176b6e387d83bbc3f8470b0a"><code>a3f48e4</code></a> Fix spelling.</li>
-<li><a href="https://github.com/digitalbazaar/forge/commit/aea85c5cb9e7a1a180298cb4fd84e39cea254e03"><code>aea85c5</code></a> Remove URL related APIs.</li>
-<li><a href="https://github.com/digitalbazaar/forge/commit/db8016c805371e72b06d8e2edfe0ace0df934a5e"><code>db8016c</code></a> Remove forge.util.parseUrl.</li>
-<li><a href="https://github.com/digitalbazaar/forge/commit/e1a740d0be6c773af1840e0f0620994b8beeb020"><code>e1a740d</code></a> 🔒 change CSR examples to use 2048 bits</li>
-<li><a href="https://github.com/digitalbazaar/forge/commit/6a10f7c5bad32286fd2a02eac350109f2333a272"><code>6a10f7c</code></a> Fix OID <code>serialName</code> to <code>serialNumber</code>.</li>
-<li>Additional commits viewable in <a href="https://github.com/digitalbazaar/forge/compare/0.10.0...v1.0.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=node-forge&package-manager=npm_and_yarn&previous-version=0.10.0&new-version=1.0.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cactus/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 17:29:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1780" class=".btn">#1780</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump follow-redirects from 1.14.5 to 1.14.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">Security</span>
-            </td>
-            <td>
-                Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.14.5 to 1.14.7.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/2ede36d7c60d3acdcd324dcd99a9dbd52e4fb3a6"><code>2ede36d</code></a> Release version 1.14.7 of the npm package.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/8b347cbcef7c7b72a6e9be20f5710c17d6163c22"><code>8b347cb</code></a> Drop Cookie header across domains.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/6f5029ae1a0fdab4dc25f6379a5ee303c2319070"><code>6f5029a</code></a> Release version 1.14.6 of the npm package.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/af706bee57de954414c0bde0a9f33e62beea3e52"><code>af706be</code></a> Ignore null headers.</li>
-<li>See full diff in <a href="https://github.com/follow-redirects/follow-redirects/compare/v1.14.5...v1.14.7">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=follow-redirects&package-manager=npm_and_yarn&previous-version=1.14.5&new-version=1.14.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cactus/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 17:27:54 +0000 UTC
     </div>
 </div>
 

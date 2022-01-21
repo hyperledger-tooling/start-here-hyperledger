@@ -188,6 +188,8 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 Incorporate the indirect dependencies: `smallvec` and `smallstr` into main iroha code. 
 Measured a performance uplift of 10% ± 1%, measured using `torii` benchmark. 
 
+Added extra crate for data primitives not directly related to `iroha_data_model`, called `iroha_data_primitives`. 
+
 ### Issue
 
 Closes #1790.

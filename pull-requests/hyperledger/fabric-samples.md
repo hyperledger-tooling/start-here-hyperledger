@@ -172,29 +172,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/582" class=".btn">#582</a>
-            </td>
-            <td>
-                <b>
-                    Added 'jq' to prerequisite script and readme for k8s test network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                New pull as per suggestion given on #581 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 16:16:57 +0000 UTC
-    </div>
-</div>
-
