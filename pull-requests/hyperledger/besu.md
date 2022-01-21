@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3311" class=".btn">#3311</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] testing: changed more classes to MockitoJunitRunner 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+* Changed runner where minimal changes required
+* removed unnecessary stubbings
+
+See #2951
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-21 07:57:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3309" class=".btn">#3309</a>
             </td>
             <td>
@@ -42,38 +77,6 @@ Removes an unnecessary warning from the QBFT logs. Due to precision of the Java 
     </table>
     <div class="right-align">
         Created At 2022-01-20 00:12:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3308" class=".btn">#3308</a>
-            </td>
-            <td>
-                <b>
-                    trivy scan on main | release branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Trivy scan of docker develop images on main | release branch
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 23:57:20 +0000 UTC
     </div>
 </div>
 
@@ -571,37 +574,6 @@ This was cherry-picked from [b964e90](https://github.com/hyperledger/besu/commit
     </table>
     <div class="right-align">
         Created At 2022-01-16 22:06:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3282" class=".btn">#3282</a>
-            </td>
-            <td>
-                <b>
-                    besu-3259 Add Compression to TLS P2P
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Enabling Snappy compression for DevP2P-over-TLS. I'll follow up with a PR adding some testing around the Netty pipeline, however, this code is already being tested as part of our TLS acceptance tests so it is safe to merge.
-
-## Fixed Issue(s)
-see #3259
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 06:28:16 +0000 UTC
     </div>
 </div>
 

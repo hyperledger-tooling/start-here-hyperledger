@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1806" class=".btn">#1806</a>
+            </td>
+            <td>
+                <b>
+                    refactor(cartrade): dockerize catrade and fabric validator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                - Cartrade example will be setup in docker-compose, updated the readme with new instructions.
+- Fabric validator runs in container as well.
+- Removed obsolete scripts, changed them where needed.
+- Build artifacts are not put directly in root `dist/` dir anymore (it's still used by apps not dockerized yet, though, but will be changed in future commits).
+- Validator configuration is made cartrade-specific, this will be done in the same way for other sample apps in future commits.
+- Some setup changes were necessary in other samples as well, all should work like before.
+- Added small patch in fabric-all-in-one to support cartrade scenario (endorsment from peer from single org).
+- Updated indy clientbase base image because it didn't work with `ppa:deadsnakes` anymore.
+
+Closes: #1805
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+
+### TODO (in future PR)
+- Clean exports from `@hyperledger/cactus-cmd-socket-server` (will not use this long fragile path in the future)
+
+Depends on #1800
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-21 09:24:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1802" class=".btn">#1802</a>
             </td>
             <td>
@@ -803,32 +844,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-01-14 17:27:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1779" class=".btn">#1779</a>
-            </td>
-            <td>
-                <b>
-                    style: 2021-09-20 linter warnings batch 23/26
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span><span class="chip">Tests</span>
-            </td>
-            <td>
-                fixes: #1371
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 07:48:17 +0000 UTC
     </div>
 </div>
 

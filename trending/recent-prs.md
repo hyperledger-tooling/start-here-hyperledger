@@ -1,13 +1,13 @@
 
-[268](https://github.com/hyperledger/fabric-ca/pull/268) Remove redundant assignment
+[1815](https://github.com/hyperledger/bevel/pull/1815) [ci skip] merge main to develop
 
-[391](https://github.com/hyperledger/cello/pull/391) [#issue-389] implement query_installed & get_installed_package function
+[1814](https://github.com/hyperledger/bevel/pull/1814) [chore] merge develop to main
 
-[3135](https://github.com/hyperledger/aries-framework-go/pull/3135) feat: credential manifest resolve - specify schema
+[1806](https://github.com/hyperledger/cactus/pull/1806) refactor(cartrade): dockerize catrade and fabric validator
 
-[711](https://github.com/hyperledger/aries-rfcs/pull/711) Update Aries RFC 0025 to indicate HTTPS is preferred
+[1829](https://github.com/hyperledger/iroha/pull/1829) Docs: RDB and Postgres Comparison
 
-[929](https://github.com/hyperledger/besu-docs/pull/929) Document troubleshooting IPv6 exception
+[589](https://github.com/hyperledger/fabric-samples/pull/589) Remove JCenter as a Gradle package repository
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
