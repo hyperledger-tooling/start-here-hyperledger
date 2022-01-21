@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/638" class=".btn">#638</a>
-            </td>
-            <td>
-                <b>
-                    Add Location To Solidity Pragma Directive
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds location to solidity pragma directive. Last part to get [flatten PR](https://github.com/gakonst/ethers-rs/pull/774) merged.
-
-Signed -off-by: Roman Krasiuk <rokrassyuk@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-13 19:28:17 +0000 UTC
-    </div>
-</div>
-

@@ -178,31 +178,3 @@ Adds endorser support to the ledger register_nym function, allowing Authors to s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1599" class=".btn">#1599</a>
-            </td>
-            <td>
-                <b>
-                    did-exchange implicit request pthid update & invitation key verification
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
-resolve #1595 
-resolve #1594 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-13 23:23:44 +0000 UTC
-    </div>
-</div>
-
