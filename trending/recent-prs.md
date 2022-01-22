@@ -1,13 +1,13 @@
 
-[279](https://github.com/hyperledger-labs/fablo/pull/279) Bump nanoid from 3.1.22 to 3.2.0
+[7](https://github.com/hyperledger/firefly-tokens-erc20/pull/7) Bump nanoid from 3.1.30 to 3.1.31
 
-[1811](https://github.com/hyperledger/cactus/pull/1811) build(deps): bump nanoid from 3.1.30 to 3.2.0
+[266](https://github.com/hyperledger/aries-toolbox/pull/266) chore(deps): Bump nanoid from 3.1.30 to 3.2.0
 
-[37](https://github.com/hyperledger/aries-askar/pull/37) Initial draft of storage documentation
+[184](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/184) Create neferti
 
-[176](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/176) Misc cleanup and fixes
+[273](https://github.com/hyperledger/blockchain-explorer/pull/273) Bump nanoid from 3.1.30 to 3.2.0 in /client
 
-[1810](https://github.com/hyperledger/cactus/pull/1810) docs: add video to build and connector info to whitepaper
+[605](https://github.com/hyperledger/aries-framework-javascript/pull/605) build(deps): bump node-fetch from 2.6.1 to 3.1.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
