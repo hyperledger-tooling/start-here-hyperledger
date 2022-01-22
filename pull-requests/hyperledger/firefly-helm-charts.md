@@ -118,29 +118,3 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/2" class=".btn">#2</a>
-            </td>
-            <td>
-                <b>
-                    Fixing chart path for version lookup in workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The chat publishing failed bc this was missed from copying the workflow over.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 21:43:48 +0000 UTC
-    </div>
-</div>
-

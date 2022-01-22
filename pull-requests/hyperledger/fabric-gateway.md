@@ -93,29 +93,3 @@ Contributes to #363
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/372" class=".btn">#372</a>
-            </td>
-            <td>
-                <b>
-                    Clean up protobuf compilation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Go uses fabric-protos-go so does not need to build protobufs. The protoc command line and Go protoc commands are not required.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 21:27:03 +0000 UTC
-    </div>
-</div>
-

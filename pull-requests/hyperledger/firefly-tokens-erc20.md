@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20/pull/6" class=".btn">#6</a>
+            </td>
+            <td>
+                <b>
+                    Support Using Either /abis or /gateways
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-21 19:53:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc20/pull/5" class=".btn">#5</a>
             </td>
             <td>

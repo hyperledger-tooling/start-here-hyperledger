@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    Bump electron from 4.2.12 to 11.5.0
+                    Bump log4js from 4.5.1 to 6.4.0
                 </b>
             </td>
         </tr>
@@ -27,55 +27,82 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [electron](https://github.com/electron/electron) from 4.2.12 to 11.5.0.
+                Bumps [log4js](https://github.com/log4js-node/log4js-node) from 4.5.1 to 6.4.0.
 <details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/electron/electron/releases">electron's releases</a>.</em></p>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/log4js-node/log4js-node/blob/master/CHANGELOG.md">log4js's changelog</a>.</em></p>
 <blockquote>
-<h2>electron v11.5.0</h2>
-<h1>Release Notes for v11.5.0</h1>
-<h2>Other Changes</h2>
+<h2>6.4.0</h2>
 <ul>
-<li>Security: Backported fix for 1227933. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30614">#30614</a> <!-- raw HTML omitted -->(Also in <a href="https://github-redirect.dependabot.com/electron/electron/pull/30615">12</a>)<!-- raw HTML omitted --></li>
-<li>Security: Backported fix for 1231134. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30761">#30761</a></li>
-<li>Security: Backported fix for 1233564. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30755">#30755</a></li>
-<li>Security: Backported fix for 1234009. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30751">#30751</a></li>
-<li>Security: Backported fix for 1234764. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30659">#30659</a> <!-- raw HTML omitted -->(Also in <a href="https://github-redirect.dependabot.com/electron/electron/pull/30660">12</a>)<!-- raw HTML omitted --></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1141">security: default file permission to be 0o600 instead of 0o644</a> - thanks <a href="https://www.huntr.dev/users/ranjit-git">ranjit-git</a> and <a href="https://github.com/peteriman"><code>@​peteriman</code></a>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1148">chore(docs): updated fileSync.md and misc comments</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
 </ul>
-<h2>End of Support for 11.x.y</h2>
-<p>Electron 11.x.y has reached end-of-support as per the project's <a href="https://electronjs.org/docs/tutorial/support#supported-versions">support policy</a>. Developers and applications are encouraged to upgrade to a newer version of Electron.</p>
-<h2>electron v11.4.12</h2>
-<h1>Release Notes for v11.4.12</h1>
-<h2>Fixes</h2>
+</li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1062">feat: Added warnings when log() is used with invalid levels before fallbacking to INFO</a> - thanks <a href="https://github.com/abernh"><code>@​abernh</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1103">feat: exposed Recording</a> - thanks <a href="https://github.com/polo-language"><code>@​polo-language</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1113">bug: Fixed file descriptor leak if repeated configure()</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1110">bug: Fixed MaxListenersExceededWarning from NodeJS</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a>
 <ul>
-<li>Security: backported fix for <a href="https://crbug.com/1204814">https://crbug.com/1204814</a>. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30399">#30399</a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1142">test: added assertion for increase of SIGHUP listeners on log4js.configure()</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
 </ul>
-<h2>electron v11.4.11</h2>
-<h1>Release Notes for v11.4.11</h1>
-<h2>Other Changes</h2>
+</li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1028">bug: Fixed missing TCP appender with Webpack and Typescript</a> - thanks <a href="https://github.com/techmunk"><code>@​techmunk</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1097">bug: Fixed dateFile appender exiting NodeJS on error</a> - thanks <a href="https://github.com/4eb0da"><code>@​4eb0da</code></a>
 <ul>
-<li>Security: backported fix for 1205059,1196302. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30267">#30267</a></li>
-<li>Security: backported fix for CVE-2021-30541. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30200">#30200</a></li>
-<li>Security: backported fix for CVE-2021-30560. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30183">#30183</a></li>
-<li>Security: backported fix for CVE-2021-30562. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30196">#30196</a></li>
-<li>Security: backported fix for CVE-2021-30563. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30199">#30199</a></li>
-<li>Security: backported fix for CVE-2021-30568. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30228">#30228</a></li>
-<li>Security: backported fix for CVE-2021-30569. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30296">#30296</a></li>
-<li>Security: backported fix for CVE-2021-30572. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30262">#30262</a></li>
-<li>Security: backported fix for CVE-2021-30573. <a href="https://github-redirect.dependabot.com/electron/electron/pull/30253">#30253</a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1144">refactor: using writer.writable instead of alive for checking</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
 </ul>
-<h2>electron v11.4.10</h2>
-<h1>Release Notes for v11.4.10</h1>
-<h2>Other Changes</h2>
+</li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1089">bug: Fixed TCP appender exiting NodeJS on error</a> - thanks <a href="https://github.com/jhonatanTeixeira"><code>@​jhonatanTeixeira</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/529">bug: Fixed Multiprocess appender exiting NodeJS on error</a> - thanks <a href="https://github.com/harlentan"><code>@​harlentan</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1127">test: update fakeFS.read as graceful-fs uses it</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1128">test: update fakeFS.realpath as fs-extra uses it</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li>test: added tap.tearDown() to clean up test files
 <ul>
-<li>Backported fix for chromium:1211215. <a href="https://github-redirect.dependabot.com/electron/electron/pull/29785">#29785</a></li>
-<li>Security: backported fix for CVE-2021-30522. <a href="https://github-redirect.dependabot.com/electron/electron/pull/29879">#29879</a></li>
-<li>Security: backported fix for CVE-2021-30523. <a href="https://github-redirect.dependabot.com/electron/electron/pull/29877">#29877</a></li>
-<li>Security: backported fix for CVE-2021-30547. <a href="https://github-redirect.dependabot.com/electron/electron/pull/29790">#29790</a></li>
-<li>Security: backported fix for CVE-2021-30553. <a href="https://github-redirect.dependabot.com/electron/electron/pull/29819">#29819</a></li>
-<li>Security: backported fix for CVE-2021-30554. <a href="https://github-redirect.dependabot.com/electron/electron/pull/29823">#29823</a></li>
-<li>Security: backported fix for chromium:1194689. <a href="https://github-redirect.dependabot.com/electron/electron/pull/29817">#29817</a></li>
-<li>Security: backported fix for chromium:1209558. <a href="https://github-redirect.dependabot.com/electron/electron/pull/29815">#29815</a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1143">#1143</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1022">#1022</a> - thanks <a href="https://github.com/abetomo"><code>@​abetomo</code></a></li>
+</ul>
+</li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1079"><code>type: improved @​types for AppenderModule</code></a> - thanks <a href="https://github.com/nicobao"><code>@​nicobao</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1116">type: Updated fileSync appender types</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1031">type: Removed erroneous type in file appender</a> - thanks <a href="https://github.com/vdmtrv"><code>@​vdmtrv</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1115">type: Updated Logger.log type</a> - thanks <a href="https://github.com/ZLundqvist"><code>@​ZLundqvist</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1117">type: Updated Logger._log type</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1118">type: Updated Logger.level type</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1072">type: Updated Levels.getLevel type</a> - thanks <a href="https://github.com/saulzhong"><code>@​saulzhong</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1147">chore(deps): bump streamroller from 3.0.1 to 3.0.2</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1146">chore(deps): bump date-format from 4.0.2 to 4.0.3</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1145">chore(deps-dev): bump eslint from from 8.6.0 to 8.7.0</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1140">chore(deps-dev): bump nyc from 14.1.1 to 15.1.0</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1138">chore(deps-dev): bump eslint from 5.16.0 to 8.6.0</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1137">chore(deps): bump flatted from 2.0.2 to 3.2.4</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1136">chore(deps-dev): bump fs-extra from 8.1.0 to 10.0.0</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1135">chore(deps): bump streamroller from 2.2.4 to 3.0.1</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1151">feat: allows for zero backups</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1149">api: migrated from daysToKeep to numBackups due to streamroller@^3.0.0</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/streamroller/pull/65">bug: compressed file ignores dateFile appender &quot;mode&quot;</a> - thanks <a href="https://github.com/rnd-debug"><code>@​rnd-debug</code></a></li>
+<li>issue: addresses additional separator in filename (<a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1039">#1039</a>) - details: <a href="https://github.com/log4js-node/streamroller/blob/master/CHANGELOG.md">streamroller@3.0.0 changelog</a></li>
+<li>issue: addresses daysToKeep naming confusion (<a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1035">#1035</a>, <a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1080">#1080</a>)  - details: <a href="https://github.com/log4js-node/streamroller/blob/master/CHANGELOG.md">streamroller@3.0.0 changelog</a></li>
+</ul>
+</li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1134">chore(deps): bump date-format from 3.0.0 to 4.0.2</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1130">chore(deps): Updated dependencies</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a>
+<ul>
+<li>eslint-config-prettier from 6.15.0 to 8.3.0</li>
+<li>eslint-plugin-prettier from 3.4.1 to 4.0.0</li>
+<li>husky from 3.1.0 to 7.0.4</li>
+<li>prettier from 1.19.0 to 2.5.1</li>
+<li>typescript from 3.9.10 to 4.5.4</li>
+</ul>
+</li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1129">chore(deps-dev): bump eslint-config-prettier from 6.15.0 to 8.3.0</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1121">chore(deps): Updated dependencies</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a>
+<ul>
+<li>codecov from 3.6.1 to 3.8.3</li>
+<li>eslint-config-prettier from 6.5.0 to 6.15.0</li>
+</ul>
+</li>
 </ul>
 <!-- raw HTML omitted -->
 </blockquote>
@@ -84,23 +111,23 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/electron/electron/commit/3d0705d81fd8b829372a732577b5c275352a9da6"><code>3d0705d</code></a> Bump v11.5.0</li>
-<li><a href="https://github.com/electron/electron/commit/04995cd0bd799a7073b1d1fd2b6bb5f736c0a72a"><code>04995cd</code></a> chore: cherry-pick fix for 1231134 from chromium (<a href="https://github-redirect.dependabot.com/electron/electron/issues/30761">#30761</a>)</li>
-<li><a href="https://github.com/electron/electron/commit/b0085b13c21bafc90cc85a4357fec97f62b9eb5c"><code>b0085b1</code></a> chore: cherry-pick fix for 1234009 from chromium (<a href="https://github-redirect.dependabot.com/electron/electron/issues/30751">#30751</a>)</li>
-<li><a href="https://github.com/electron/electron/commit/7576621cde18569187dafd5713d61edafc6b00c4"><code>7576621</code></a> chore: cherry-pick fix for 1233564 from chromium (<a href="https://github-redirect.dependabot.com/electron/electron/issues/30755">#30755</a>)</li>
-<li><a href="https://github.com/electron/electron/commit/de5a1d11587fe5dfcfe471d1c3e06592db37eb68"><code>de5a1d1</code></a> chore: cherry-pick fix for 1234764 from v8 (<a href="https://github-redirect.dependabot.com/electron/electron/issues/30659">#30659</a>)</li>
-<li><a href="https://github.com/electron/electron/commit/585eea3f303d68921ee04b9a7188b1c8e691f1b8"><code>585eea3</code></a> fix: remove ipc wrapper for nativeImage.createThumbnailFromPath (<a href="https://github-redirect.dependabot.com/electron/electron/issues/30738">#30738</a>)</li>
-<li><a href="https://github.com/electron/electron/commit/5dbcb9fe102e5687049fd2457111efbafd9a9e5c"><code>5dbcb9f</code></a> chore: cherry-pick fix for 1227933 from chromium (<a href="https://github-redirect.dependabot.com/electron/electron/issues/30614">#30614</a>)</li>
-<li><a href="https://github.com/electron/electron/commit/2502e2823df8c76a5a30a9348e07967aabc3333a"><code>2502e28</code></a> Bump v11.4.12</li>
-<li><a href="https://github.com/electron/electron/commit/4e4ab9db59f69aef3b88fdc78aadcdd1514fe2b7"><code>4e4ab9d</code></a> ci: update git on CI machines (<a href="https://github-redirect.dependabot.com/electron/electron/issues/30526">#30526</a>) (<a href="https://github-redirect.dependabot.com/electron/electron/issues/30573">#30573</a>)</li>
-<li><a href="https://github.com/electron/electron/commit/cb5c9b877455d82dabd8f9887b3658ecf1b6e7ca"><code>cb5c9b8</code></a> Revert &quot;Bump v11.4.12&quot;</li>
-<li>Additional commits viewable in <a href="https://github.com/electron/electron/compare/v4.2.12...v11.5.0">compare view</a></li>
+<li><a href="https://github.com/log4js-node/log4js-node/commit/9fdbed5ad45d1b09b35c1ef5355ba726b60cb702"><code>9fdbed5</code></a> 6.4.0</li>
+<li><a href="https://github.com/log4js-node/log4js-node/commit/788c7a83bbb6f9b20a9f17bd7c3013b78b72f4d3"><code>788c7a8</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1150">#1150</a> from log4js-node/update-changelog</li>
+<li><a href="https://github.com/log4js-node/log4js-node/commit/7fdb141135e930960d44597d969a1aff14627346"><code>7fdb141</code></a> chore: updated changelog for 6.4.0</li>
+<li><a href="https://github.com/log4js-node/log4js-node/commit/e6bd888c2d4ee2c0ba257349ce78112fc4a591be"><code>e6bd888</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1151">#1151</a> from log4js-node/feat-zero-backup</li>
+<li><a href="https://github.com/log4js-node/log4js-node/commit/ac599e42c6762cd0cc6ee3a34873c6f839dd196f"><code>ac599e4</code></a> allow for zero backup - in sync with <a href="https://github.com/log4js-node/streamrol">https://github.com/log4js-node/streamrol</a>...</li>
+<li><a href="https://github.com/log4js-node/log4js-node/commit/53248cd564f63ee2d5634761ed5078d8882d6df4"><code>53248cd</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1149">#1149</a> from log4js-node/migrate-daysToKeep-to-numBackups</li>
+<li><a href="https://github.com/log4js-node/log4js-node/commit/436d9b49515601640be4866caa26d202684e5f26"><code>436d9b4</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1148">#1148</a> from log4js-node/update-docs</li>
+<li><a href="https://github.com/log4js-node/log4js-node/commit/d6b017e72041913a18fefa0194459cebd63ba440"><code>d6b017e</code></a> chore(docs): updated fileSync.md and misc comments</li>
+<li><a href="https://github.com/log4js-node/log4js-node/commit/d4617a730da73136be2e887e6a5ec28aacabd899"><code>d4617a7</code></a> chore(deps): migrated from daysToKeep to numBackups due to streamroller@^3.0.0</li>
+<li><a href="https://github.com/log4js-node/log4js-node/commit/0ad013382345029d312d30f4d5783c1dd2c16182"><code>0ad0133</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1147">#1147</a> from log4js-node/update-deps</li>
+<li>Additional commits viewable in <a href="https://github.com/log4js-node/log4js-node/compare/v4.5.1...v6.4.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=electron&package-manager=npm_and_yarn&previous-version=4.2.12&new-version=11.5.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=log4js&package-manager=npm_and_yarn&previous-version=4.5.1&new-version=6.4.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -136,7 +163,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-12 22:17:38 +0000 UTC
+        Created At 2022-01-21 20:54:58 +0000 UTC
     </div>
 </div>
 
