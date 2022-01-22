@@ -88,30 +88,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/543" class=".btn">#543</a>
-            </td>
-            <td>
-                <b>
-                    Remove package-lock.json files (release-1.4)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fixed bug in chaincode packaging that deadlocked tests.
-- Fixed bug in scenario tests that incorrectly identified whether chaincode was already deployed.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-15 09:22:44 +0000 UTC
-    </div>
-</div>
-

@@ -256,32 +256,3 @@ Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/384" class=".btn">#384</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-383]make dashboard image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1.add command to build dashboard image
-2.bootup dashboard by "make start"
-Close #383 
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-15 08:14:43 +0000 UTC
-    </div>
-</div>
-
