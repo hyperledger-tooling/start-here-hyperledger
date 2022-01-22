@@ -1,13 +1,13 @@
 
-[7](https://github.com/hyperledger/firefly-tokens-erc20/pull/7) Bump nanoid from 3.1.30 to 3.1.31
+[194](https://github.com/hyperledger/firefly-ethconnect/pull/194) Including Latest CA Certs in Docker Image
 
-[266](https://github.com/hyperledger/aries-toolbox/pull/266) chore(deps): Bump nanoid from 3.1.30 to 3.2.0
+[193](https://github.com/hyperledger/firefly-ethconnect/pull/193) Fixing contract deployment and example doc
 
-[184](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/184) Create neferti
+[187](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/187) Create neferti.md copy of nifty.md
 
-[273](https://github.com/hyperledger/blockchain-explorer/pull/273) Bump nanoid from 3.1.30 to 3.2.0 in /client
+[186](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/186) redefined as neferti due to branding concerns
 
-[605](https://github.com/hyperledger/aries-framework-javascript/pull/605) build(deps): bump node-fetch from 2.6.1 to 3.1.1
+[185](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/185) propose performance sand box project
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
