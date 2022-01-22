@@ -27,7 +27,12 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                <nil>
+                Adds a couple of options:
+
+Author can specify to auto-promote DID to their public DID when they receive the endorsed transaction (and it is saved)
+
+Endorser can use a different DID for endorsing than they use for their public DID (for connections) (can be specified globally by parameter, or can be specified when they call the endorse endpoint).
+
             </td>
         </tr>
     </table>
