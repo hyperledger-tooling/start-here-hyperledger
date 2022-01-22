@@ -522,29 +522,3 @@ Through incremental e2e test-fix cycles I found the following needed updates:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/411" class=".btn">#411</a>
-            </td>
-            <td>
-                <b>
-                    Build the URL without the firefly port if it was omitted from stack.json
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: jebonfig <joe.bonfiglio@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-15 03:00:11 +0000 UTC
-    </div>
-</div>
-
