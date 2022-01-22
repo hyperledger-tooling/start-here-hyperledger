@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-toolbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/265" class=".btn">#265</a>
+            </td>
+            <td>
+                <b>
+                    fix #263: show issued credentials with deleted connections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes a small issue when a connection is deleted and there was a credential issued to that connection, the list of credentials would no longer show up.
+#263 https://github.com/hyperledger/aries-toolbox/issues/263
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-21 19:21:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-toolbox/pull/262" class=".btn">#262</a>
             </td>
             <td>
@@ -185,58 +212,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-01-15 03:56:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/257" class=".btn">#257</a>
-            </td>
-            <td>
-                <b>
-                    feat: added recent message history into compose tab
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: PeterStrob <peter@indicio.tech>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 21:50:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/256" class=".btn">#256</a>
-            </td>
-            <td>
-                <b>
-                    fix: predicate issue with self-attested attrs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Micah Peltier <micah6_8@yahoo.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 21:05:59 +0000 UTC
     </div>
 </div>
 

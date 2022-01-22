@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1258" class=".btn">#1258</a>
+            </td>
+            <td>
+                <b>
+                    Update default schema dir to `/var/lib/grid/xsd`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The schema directory needs to be writable by Grid by default, which is
+not necessarily the case with the previous directory of
+`/usr/share/grid/xsd`. This change modifies the default to be
+`/var/lib/grid/xsd`.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-21 21:05:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1257" class=".btn">#1257</a>
             </td>
             <td>
@@ -105,7 +136,7 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
             </td>
             <td>
                 <b>
-                    Add `xsd-download` CLI command
+                    Add `download-xsd` CLI command
                 </b>
             </td>
         </tr>
@@ -185,34 +216,6 @@ Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-01-18 20:38:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1249" class=".btn">#1249</a>
-            </td>
-            <td>
-                <b>
-                    Add Lee Bradley as a maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Lee has been continuously contributing to Grid for nearly six months.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-14 18:43:41 +0000 UTC
     </div>
 </div>
 
