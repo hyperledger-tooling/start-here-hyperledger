@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/640" class=".btn">#640</a>
-            </td>
-            <td>
-                <b>
-                    feat(parser): line comments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-16 15:15:38 +0000 UTC
-    </div>
-</div>
-
