@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/100" class=".btn">#100</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/106" class=".btn">#106</a>
             </td>
             <td>
                 <b>
-                    Cluster status instead of config
+                    Adding GetLastBlockHeader to ledger interface
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-13 17:29:06 +0000 UTC
+        Created At 2022-01-23 08:42:32 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/98" class=".btn">#98</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/105" class=".btn">#105</a>
             </td>
             <td>
                 <b>
-                    Apply server API change Nodes: []config.NodeConf => []*config.NodeConf
+                    Augment cars demo with multi-sig and proofs
                 </b>
             </td>
         </tr>
@@ -53,14 +53,12 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                Bump server version and apply change to code.
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
+                Signed-off-by: Yoav Tock <tock@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-13 14:12:27 +0000 UTC
+        Created At 2022-01-23 08:28:51 +0000 UTC
     </div>
 </div>
 
