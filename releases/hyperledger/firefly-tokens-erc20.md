@@ -15,6 +15,40 @@ permalink: /releases/hyperledger/firefly-tokens-erc20
         <tr>
             <td colspan="2">
                 <b>
+                    v0.1.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.1.2
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Support Using Either /abis or /gateways by @hfuss in https://github.com/hyperledger/firefly-tokens-erc20/pull/6
+
+## New Contributors
+* @hfuss made their first contribution in https://github.com/hyperledger/firefly-tokens-erc20/pull/6
+
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20/compare/v0.1.1...v0.1.2
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-tokens-erc20/releases/tag/v0.1.2" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-01-21 20:40:49 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.1.1
                 </b>
             </td>
