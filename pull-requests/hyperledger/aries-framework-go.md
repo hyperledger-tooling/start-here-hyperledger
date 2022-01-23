@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3136" class=".btn">#3136</a>
+            </td>
+            <td>
+                <b>
+                    feat: credential manifest support in vcwallet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - added new resolve credential manifest interface to resolve
+fulfillments and credentials
+- refactores testdata files to avoid duplicate testdata files across
+various packages
+- Closes #3120
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-22 19:51:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3135" class=".btn">#3135</a>
             </td>
             <td>

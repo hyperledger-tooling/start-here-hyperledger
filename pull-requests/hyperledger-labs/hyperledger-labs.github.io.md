@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/187" class=".btn">#187</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/188" class=".btn">#188</a>
             </td>
             <td>
                 <b>
-                    Create neferti.md copy of nifty.md
+                    Rename Nifty lab to Neferti
                 </b>
             </td>
         </tr>
@@ -28,42 +28,12 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
             </td>
             <td>
                 Signed-off-by: Vipin Bharathan <vipinsun@gmail.com>
-
-
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-22 15:44:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/186" class=".btn">#186</a>
-            </td>
-            <td>
-                <b>
-                    redefined as neferti due to branding concerns
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Vipin Bharathan <vipinsun@gmail.com>
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-22 15:06:37 +0000 UTC
+        Created At 2022-01-22 20:52:26 +0000 UTC
     </div>
 </div>
 
