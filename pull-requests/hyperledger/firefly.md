@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/436" class=".btn">#436</a>
+            </td>
+            <td>
+                <b>
+                    Add AddressResolver to Ethereum for key-to-address mapping
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a REST-pluggable interface to the ethereum Blockchain plugin, that allows it to resolve non-Address strings (such as hierarchical HD wallet addresses) into ethereum addresses.
+
+This supports a common configuration for signing as follows:
+
+```
+┌------------┐            ┌------------┐                ┌------------┐                ┌------------┐
+|            |            |            |                |            |                |            |
+|            |            |            |                |            |                |            |
+|  FireFly   | -- REST -> | EthConnect | -- JSON/RPC -> |   Signer   | -- JSON/RPC -> |    Node    |
+|            |            |            |   (unsigned)   |            |    (signed)    |            |
+|            |            |            |                |            |                |            |
+└-----┬------┘            └------------┘                └-----┬------┘                └------------┘
+      |                                                       |
+      └---------- Resolve non-address signing key ID ---------┘
+```
+
+Note that much of the FireFly relies on one-time resolution of the signing key, into a string
+that is stored in database objects for later signing.
+
+So once the interface has been used to resolve the key the target microservice **must**
+reliably retain knowledge of the resolved address such that it can be used to perform
+the actual transaction signing.
+
+> The original input string is discarded by FireFly after resolution
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-23 02:01:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/435" class=".btn">#435</a>
             </td>
             <td>
