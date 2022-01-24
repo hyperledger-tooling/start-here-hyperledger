@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-fabric-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    fix uint64 parser for packet sequence
+                    Fix the endorsement of  the packet receipt absence
                 </b>
             </td>
         </tr>
@@ -27,12 +27,40 @@ permalink: /pull-requests/hyperledger-labs/yui-fabric-ibc
                 
             </td>
             <td>
-                Signed-off-by: Toshihiko Okubo <toshihiko.okubo@datachain.jp>
+                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-15 07:15:34 +0000 UTC
+        Created At 2022-01-24 08:09:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/38" class=".btn">#38</a>
+            </td>
+            <td>
+                <b>
+                    ctx.BlockTime() returns the sequence timestamp instead of `time.Now()`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+
+fix #37 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-24 07:15:39 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/305" class=".btn">#305</a>
+            </td>
+            <td>
+                <b>
+                    Rename wire message types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Consistently use the pattern `<message-name>Msg` for all message types.
+
+- Export the unexported message types, so that newer wire serialization adapters can define functions for serializing/de-serializing these messages.
+
+Closes #302
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-24 12:02:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/304" class=".btn">#304</a>
             </td>
             <td>
