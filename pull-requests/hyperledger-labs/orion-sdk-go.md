@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/107" class=".btn">#107</a>
+            </td>
+            <td>
+                <b>
+                    Added utility to verify ledger path proof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-24 12:45:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/106" class=".btn">#106</a>
             </td>
             <td>

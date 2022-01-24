@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/119" class=".btn">#119</a>
-            </td>
-            <td>
-                <b>
-                    feat: update to 0.7.3 of ACA-Py
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 17:10:59 +0000 UTC
-    </div>
-</div>
-

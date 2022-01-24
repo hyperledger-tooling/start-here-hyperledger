@@ -1,13 +1,13 @@
 
-[305](https://github.com/hyperledger-labs/go-perun/pull/305) Rename wire message types
+[177](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/177) Display credential offer
 
-[365](https://github.com/hyperledger/fabric-test/pull/365) Update the chaincode testing tool
+[707](https://github.com/hyperledger-labs/business-partner-agent/pull/707) send mesages on event
 
-[706](https://github.com/hyperledger-labs/business-partner-agent/pull/706) cleanup backend package structure
+[3189](https://github.com/hyperledger/fabric/pull/3189) Address windows platform in documentation
 
-[87](https://github.com/hyperledger-labs/mirbft/pull/87) Fixed small issues and updated remote deployment.
+[1](https://github.com/hyperledger-labs/neferti/pull/1) Add settings
 
-[3319](https://github.com/hyperledger/besu/pull/3319) Do not exit ChainDownloader in case of a generic CancellationException
+[1610](https://github.com/hyperledger/aries-cloudagent-python/pull/1610) Fixes for v7.3.0 - Issue#1597
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

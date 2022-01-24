@@ -41,7 +41,7 @@ Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
 
 For example this exception that is triggered by a timeout talking with a peer, causes the ChainDownloader to completely exit, while it should restart after the configured timeout.
 
-To correctly shutdown the ChainDownloader, the method `cancel()` must be used, and it aborts the underlying pipeline, that  triggers a `CompletionException`, but the downloader exits anyway since the `cancelled.get()` now returns `true`
+To correctly shutdown the ChainDownloader, the method `cancel()` must be used, and it aborts the underlying pipeline, that  triggers a `CancellationException`, but the downloader exits anyway since the `cancelled.get()` now returns `true`
 
 ```
 {
@@ -99,10 +99,10 @@ Caused by: java.util.concurrent.CancellationException
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
-
+#3300
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -170,117 +170,6 @@ trivy workflow
     </table>
     <div class="right-align">
         Created At 2022-01-24 04:26:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3314" class=".btn">#3314</a>
-            </td>
-            <td>
-                <b>
-                    DO NOT MERGE - Sonar tour much better
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-23 18:17:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3313" class=".btn">#3313</a>
-            </td>
-            <td>
-                <b>
-                    DO NOT MERGE - sonar tour
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-23 17:15:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3312" class=".btn">#3312</a>
-            </td>
-            <td>
-                <b>
-                    DO NOT MERGE - sonar demo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-23 17:08:01 +0000 UTC
     </div>
 </div>
 
