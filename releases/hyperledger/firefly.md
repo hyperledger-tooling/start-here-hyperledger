@@ -15,38 +15,34 @@ permalink: /releases/hyperledger/firefly
         <tr>
             <td colspan="2">
                 <b>
-                    v0.11.4
+                    v0.11.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.11.4
+                    v0.11.5
                 </span>
             </td>
             <td>
-                ## Summary
-* Dependency updates and bug fixes
+                ## What's Changed
+* v0.11.x backport: Fix querying transfers by tx or type, batches by tx by @awrichar in https://github.com/hyperledger/firefly/pull/429
+* v0.11.x backport: Fixing Websocket Connections when Prometheus Metrics Enabled + containerd update by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/432
+* v0.11.x backport: Fix token account listing on Postgres by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/431
+* v0.11.x backport: Add ping/pong heartbeating to WSClient, and fix concurrent map on config by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/430
+* v0.11.x backport: Ready state changes require a bump to the message to re-sequence it by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/439
 
-## Updated Dependencies
-* firefly-fabconnect [v0.9.4](https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.4)
 
-## What's Changed
-* Config map length fix, fix bug with missing events by closing the websocket by @jebonfig in https://github.com/hyperledger/firefly/pull/367
-* Update dependencies for next release by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/369
-* Fix misspelled filename (bytetypes.go) by @awrichar in https://github.com/hyperledger/firefly/pull/368
-* Validate message topics/tag before sending by @awrichar in https://github.com/hyperledger/firefly/pull/365
-
-**Full Changelog**: https://github.com/hyperledger/firefly/compare/v0.11.3...v0.11.4
+**Full Changelog**: https://github.com/hyperledger/firefly/compare/v0.11.4...v0.11.5
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly/releases/tag/v0.11.4" class=".btn">
+    <a href="https://github.com/hyperledger/firefly/releases/tag/v0.11.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-12-29 18:53:42 +0000 UTC
+        Created At 2022-01-24 02:01:01 +0000 UTC
     </span>
 </div>
 
