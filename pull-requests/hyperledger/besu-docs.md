@@ -281,31 +281,3 @@ don't hesitate to link an annotated screenshot or a small demo video. -->
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/922" class=".btn">#922</a>
-            </td>
-            <td>
-                <b>
-                    (feat) Add upnp p2ponly docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                Signed-off-by: Frank Li <b439988l@gmail.com>
-
-Add documentation for `UPNPP2PONLY` CLI option
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 06:15:39 +0000 UTC
-    </div>
-</div>
-
