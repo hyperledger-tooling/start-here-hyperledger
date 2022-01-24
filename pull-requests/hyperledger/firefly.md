@@ -488,32 +488,6 @@ Additionally, blockchain plugins can expose a JSON Schema extension interface sp
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/418" class=".btn">#418</a>
-            </td>
-            <td>
-                <b>
-                    [erc20-manifest] adding erc20 token to manifest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adding support for [Firefly-Tokens-ERC20](https://github.com/hyperledger/firefly-tokens-erc20) in `manifest.json` and `manifestgen.sh`. This is needed for ERC20 support in [Firefly-CLI](https://github.com/hyperledger/firefly-cli)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 00:11:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/417" class=".btn">#417</a>
             </td>
             <td>

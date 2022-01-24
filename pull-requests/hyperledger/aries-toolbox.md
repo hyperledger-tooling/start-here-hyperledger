@@ -199,29 +199,3 @@ Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/260" class=".btn">#260</a>
-            </td>
-            <td>
-                <b>
-                    fix: did creation form
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 17:00:49 +0000 UTC
-    </div>
-</div>
-
