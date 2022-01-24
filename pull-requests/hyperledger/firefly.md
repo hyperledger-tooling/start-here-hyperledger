@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/440" class=".btn">#440</a>
+            </td>
+            <td>
+                <b>
+                    v0.11.x backport: Fail transaction when token transfer operation fails
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport_v0.11.x</span>
+            </td>
+            <td>
+                Backport #435 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-23 21:45:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/439" class=".btn">#439</a>
+            </td>
+            <td>
+                <b>
+                    v0.11.x backport: Ready state changes require a bump to the message to re-sequence it
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport_v0.11.x</span>
+            </td>
+            <td>
+                Backport of #438 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-23 21:33:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/438" class=".btn">#438</a>
+            </td>
+            <td>
+                <b>
+                    Ready state changes require a bump to the message to re-sequence it
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-candidate</span><span class="chip">backport-complete</span>
+            </td>
+            <td>
+                Fixes the core symptom reported in #421 
+
+> Note that this does not implement the full change to batches described in the discussion on that issue.
+> However, when that change happens, this fix will still be applicable.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-23 17:41:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/436" class=".btn">#436</a>
             </td>
             <td>
@@ -73,7 +155,7 @@ the actual transaction signing.
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-candidate</span>
+                <span class="chip">backport-candidate</span><span class="chip">backport-complete</span>
             </td>
             <td>
                 Fixes #434
@@ -173,7 +255,7 @@ Also contains #414 `go.mod` update
             </td>
             <td>
                 <b>
-                    Fix querying transfers by tx or type, batches by tx
+                    v0.11.x backport: Fix querying transfers by tx or type, batches by tx
                 </b>
             </td>
         </tr>
@@ -231,7 +313,7 @@ Also contains #414 `go.mod` update
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-candidate</span>
+                <span class="chip">backport-candidate</span><span class="chip">backport-complete</span>
             </td>
             <td>
                 Postgres has much stricter constraints on DISTINCT/GROUP BY queries - specifically,
@@ -263,7 +345,7 @@ Resolves #416
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-candidate</span>
+                <span class="chip">backport-candidate</span><span class="chip">backport-complete</span>
             </td>
             <td>
                 Primary fix in this PR, is to add a heartbeat to the `WSClient` connections, to allow quicker detection of a case where the websocket between FireFly Core and a connector (EthConnect, FabConnect, DX) fails silently.
@@ -507,7 +589,7 @@ Through incremental e2e test-fix cycles I found the following needed updates:
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-candidate</span>
+                <span class="chip">backport-candidate</span><span class="chip">backport-complete</span>
             </td>
             <td>
                 See https://github.com/advisories/GHSA-mvff-h3cj-wj9c

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/avalon
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/avalon/pull/775" class=".btn">#775</a>
+                PR <a href="https://github.com/hyperledger/avalon/pull/777" class=".btn">#777</a>
             </td>
             <td>
                 <b>
-                    Gramine Integartion with Avalon
+                    Add deprecation notice
                 </b>
             </td>
         </tr>
@@ -27,19 +27,12 @@ permalink: /pull-requests/hyperledger/avalon
                 
             </td>
             <td>
-                This PR has the changes required to integrate  @[Gramine](https://github.com/gramineproject/gramine) with Avalon.
-
-Changes includes:
-- GSC build scripts
-- Device mapping for gsgx in yaml files
-- Manifest file (avalon.manifest)
-- Graphene workload tutorials
-- few Readme file modifications
+                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-29 09:17:31 +0000 UTC
+        Created At 2022-01-23 19:45:12 +0000 UTC
     </div>
 </div>
 
