@@ -1,13 +1,13 @@
 
-[593](https://github.com/hyperledger/fabric-samples/pull/593) ERC20 Java chaincode sample with unit test
+[305](https://github.com/hyperledger-labs/go-perun/pull/305) Rename wire message types
 
-[3317](https://github.com/hyperledger/besu/pull/3317) add trivy workflow
+[365](https://github.com/hyperledger/fabric-test/pull/365) Update the chaincode testing tool
 
-[3186](https://github.com/hyperledger/fabric/pull/3186) Bump Go to 1.17.5 (release-2.2)
+[706](https://github.com/hyperledger-labs/business-partner-agent/pull/706) cleanup backend package structure
 
-[3316](https://github.com/hyperledger/besu/pull/3316) [MINOR] Typo
+[87](https://github.com/hyperledger-labs/mirbft/pull/87) Fixed small issues and updated remote deployment.
 
-[439](https://github.com/hyperledger/firefly/pull/439) v0.11.x backport: Ready state changes require a bump to the message to re-sequence it
+[3319](https://github.com/hyperledger/besu/pull/3319) Do not exit ChainDownloader in case of a generic CancellationException
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
 
 TODO:
 - [x] @hfuss Please see my question about splitting the persistent volumes.
-- [ ] Needs to be tested. 
+- [x] Needs to be tested. 
             </td>
         </tr>
     </table>

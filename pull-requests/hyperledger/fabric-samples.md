@@ -97,35 +97,3 @@ If `-verbose` is not latest parameter, it will throw errro.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/585" class=".btn">#585</a>
-            </td>
-            <td>
-                <b>
-                    Fix(commercial-paper): Fixed failed dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In branch release-1.4 , The path of "fabric-gateway-java" is no longer valid, fixed valid dependency
-
-https://hyperledger.jfrog.io/ui/repos/tree/General/fabric-maven%2Forg%2Fhyperledger%2Ffabric-gateway-java%2F1.4.0-SNAPSHOT%2Ffabric-gateway-java-1.4.0-20200120.152501-1.pom
-
-![image](https://user-images.githubusercontent.com/29918052/149764176-2d11300c-c767-4537-a1c6-9b685941da87.png)
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 11:52:23 +0000 UTC
-    </div>
-</div>
-
