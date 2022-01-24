@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/593" class=".btn">#593</a>
+            </td>
+            <td>
+                <b>
+                    ERC20 Java chaincode sample with unit test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an example of the Java chaincode implementation of the ERC20 token. It follows the same logic as the existing chain code in go and nodejs. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-24 05:11:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/589" class=".btn">#589</a>
             </td>
             <td>

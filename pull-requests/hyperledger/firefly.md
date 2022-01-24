@@ -14,33 +14,6 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/440" class=".btn">#440</a>
-            </td>
-            <td>
-                <b>
-                    v0.11.x backport: Fail transaction when token transfer operation fails
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport_v0.11.x</span>
-            </td>
-            <td>
-                Backport #435 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-23 21:45:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/439" class=".btn">#439</a>
             </td>
             <td>
@@ -155,7 +128,7 @@ the actual transaction signing.
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-candidate</span><span class="chip">backport-complete</span>
+                
             </td>
             <td>
                 Fixes #434

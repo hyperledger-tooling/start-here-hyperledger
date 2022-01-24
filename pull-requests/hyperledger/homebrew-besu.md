@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/68" class=".btn">#68</a>
-            </td>
-            <td>
-                <b>
-                    Update to 21.10.8
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 04:50:14 +0000 UTC
-    </div>
-</div>
-
