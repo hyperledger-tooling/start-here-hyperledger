@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/416" class=".btn">#416</a>
+            </td>
+            <td>
+                <b>
+                    added the case not to copy logs if in GITHUB ACTIONS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+To further diagnose the cancel on the acapy-aries-vcx run, this PR makes copying agent logs conditional on being in GITHUB_ACTIONS. Copying the logs is the next thing that happens at about the point the cancel happens. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-24 23:18:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/415" class=".btn">#415</a>
             </td>
             <td>

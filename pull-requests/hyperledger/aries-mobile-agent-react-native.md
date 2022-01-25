@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/178" class=".btn">#178</a>
+            </td>
+            <td>
+                <b>
+                    Fix PIN create and enter contrast
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Because of the original two color pallet it was hard to change the theme and not run into contrast issues with the PIN entry screens. This change just better uses the updated pallet for a more uniform look and allows for more options when changing the color pallet.
+
+I didn't change too much in the way of theme because these screens will be redone as Ontario comes up with a new and better way to use biometrics with a PIN override if not available.
+
+![IMG_BBE2E26C5EA4-1](https://user-images.githubusercontent.com/390891/150855934-ffdc0b9c-c0bf-4dc0-8f4f-10a977131b71.jpeg)
+
+
+# Related Issues
+
+n/a
+
+# Pull Request Checklist
+
+This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+
+If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [x] Run prettier: `npm run style-format`
+- [x] Updated **documentation** for changed code and new or modified features.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-24 19:56:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/177" class=".btn">#177</a>
             </td>
             <td>

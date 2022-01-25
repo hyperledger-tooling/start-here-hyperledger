@@ -171,31 +171,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/261" class=".btn">#261</a>
-            </td>
-            <td>
-                <b>
-                    fix: invitations auto-accept defaults to true
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Once form is cleared for next input
-
-Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 20:08:40 +0000 UTC
-    </div>
-</div>
-

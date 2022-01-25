@@ -76,38 +76,6 @@ In the process of testing to confirm this fixes this issue.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/193" class=".btn">#193</a>
-            </td>
-            <td>
-                <b>
-                    Fixing contract deployment and example doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When trying to run the sample contract deployment payload, I was getting this error:
-
-```
-ERROR <-- POST /hook [500]: exec: "solc": executable file not found in $PATH
-```
-
-I've added the `solc` executable to the output image and then updated the `DeployContract` sample payload to be compatible with the newer version of `solc`. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-22 16:07:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/191" class=".btn">#191</a>
             </td>
             <td>

@@ -97,33 +97,3 @@ Signed-off-by: Davey Newhall newhall@bitwise.io
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/287" class=".btn">#287</a>
-            </td>
-            <td>
-                <b>
-                    Make PO feature description more business-focused
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changes the PO feature overview to be less technical and more
-business-focused. This brings it in line with the other feature
-overviews.
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 22:32:43 +0000 UTC
-    </div>
-</div>
-
