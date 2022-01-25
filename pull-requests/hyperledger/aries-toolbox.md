@@ -135,39 +135,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/262" class=".btn">#262</a>
-            </td>
-            <td>
-                <b>
-                    Various fixes and improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes:
-
-- Improved formatting on various data summaries
-- Presentations are now auto loaded on entering verification section
-- Added status icons to credentials and presentations
-  - Enabled removal of listings that were grouped by status. Now, each item is all in one list but status is indicated. This significantly simplified code in a few places.
-- Make sure select inputs have English "no data" warnings instead of Chinese
-- Add context menus (enables copy/paste through right clicks)
-- Disable presentation proposal (which is not currently functional)
-- Visual improvements for Agent List window
-- Use enter key for triggering form actions where it makes sense
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-18 04:50:44 +0000 UTC
-    </div>
-</div>
-

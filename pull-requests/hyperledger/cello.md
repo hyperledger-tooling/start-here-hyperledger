@@ -227,32 +227,3 @@ Signed-off-by: tianxuanhong1 <523713078@qq.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/386" class=".btn">#386</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-385]Fix the problem of getting token
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed the problem that the token could not be obtained after the first login
-
-Close #385 
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-18 03:26:11 +0000 UTC
-    </div>
-</div>
-
