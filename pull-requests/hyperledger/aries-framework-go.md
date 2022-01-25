@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3138" class=".btn">#3138</a>
+            </td>
+            <td>
+                <b>
+                    test: Enhancements to WACI issuance BDD tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Attachments are now generated on the fly using pre-defined Credential Manifest, Credential Application, and Credential Fulfillment objects.
+- Added constants to Credential Manifest package for attachment formats and contexts.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-24 21:10:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3137" class=".btn">#3137</a>
             </td>
             <td>

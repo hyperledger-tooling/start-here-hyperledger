@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/444" class=".btn">#444</a>
+            </td>
+            <td>
+                <b>
+                    Restore Transaction reference on TokenTransfer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Although transfers initiated outside of FireFly will NOT have a Transaction, it's
+still useful to track Transactions for those transfers initiated by FireFly. This
+is needed for tracking of async transfer requests, filtering transfers, etc.
+
+Partially reverts 0e654d2a7b9960e3d2a4946c788f80e5052e056e
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-24 23:17:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/443" class=".btn">#443</a>
+            </td>
+            <td>
+                <b>
+                    Rename /contracts/events to /blockchainevents
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also move the query helpers from Contract Manager to Orchestrator, as this
+has become a generic construct that spans more than one manager/plugin.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-24 22:52:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/441" class=".btn">#441</a>
+            </td>
+            <td>
+                <b>
+                    Create a Transaction and Operation for contract invoke requests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #393
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-24 19:14:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/439" class=".btn">#439</a>
             </td>
             <td>
@@ -571,32 +654,6 @@ Through incremental e2e test-fix cycles I found the following needed updates:
     </table>
     <div class="right-align">
         Created At 2022-01-19 08:11:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/412" class=".btn">#412</a>
-            </td>
-            <td>
-                <b>
-                    Removing Helm Chart and Related CI Workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger/firefly-helm-charts
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 19:10:54 +0000 UTC
     </div>
 </div>
 

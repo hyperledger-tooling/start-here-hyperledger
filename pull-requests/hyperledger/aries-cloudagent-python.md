@@ -239,31 +239,3 @@ aries_cloudagent.wallet.error.WalletError: Exception when signing message
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1601" class=".btn">#1601</a>
-            </td>
-            <td>
-                <b>
-                    DID updates for endorser
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Adds endorser support to the ledger register_nym function, allowing Authors to self-register a public DID.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-18 00:08:37 +0000 UTC
-    </div>
-</div>
-
