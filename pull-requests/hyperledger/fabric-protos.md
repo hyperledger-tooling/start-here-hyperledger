@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/69" class=".btn">#69</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/73" class=".btn">#73</a>
             </td>
             <td>
                 <b>
-                    Remove EndorseResponse.result field
+                    Add `is_purge` field to KVWriteHash
                 </b>
             </td>
         </tr>
@@ -27,14 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                This duplicates information already present in the EndorseResponse.prepared_transaction field and, if the content is large, can cause failures due to gRPC message size limits. The Fabric Gateway client and server implementations no longer use this field.
+                This PR adds a field to capture the is_purge operation for enabling the purge of private data.
 
-Contributes to hyperledger/fabric-gateway#316
+[Issue on fabric repo](https://github.com/hyperledger/fabric/issues/3021)
+
+Signed-off-by: manish <manish.sethi@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-17 18:30:00 +0000 UTC
+        Created At 2022-01-25 17:31:57 +0000 UTC
     </div>
 </div>
 

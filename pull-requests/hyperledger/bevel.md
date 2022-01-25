@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/bevel
             </td>
             <td>
                 <b>
-                    [ci skip] Peer pvc as volumeclaimtemplates
+                    [skip ci] Peer pvc as volumeclaimtemplates
                 </b>
             </td>
         </tr>

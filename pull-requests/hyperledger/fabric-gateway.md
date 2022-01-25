@@ -28,6 +28,8 @@ permalink: /pull-requests/hyperledger/fabric-gateway
             </td>
             <td>
                 Documentation describing key considerations when migrating application using the legacy client SDKs to use the Fabric Gateway client API.
+
+Resolves hyperledger/fabric#3151
             </td>
         </tr>
     </table>

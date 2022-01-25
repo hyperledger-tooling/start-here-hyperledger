@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/306" class=".btn">#306</a>
+            </td>
+            <td>
+                <b>
+                    :boom: Channel.Update/ForceUpdate: updater no longer returns error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #155 
+
+Instead of changing the API drastically, improve documentation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 16:51:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/305" class=".btn">#305</a>
             </td>
             <td>

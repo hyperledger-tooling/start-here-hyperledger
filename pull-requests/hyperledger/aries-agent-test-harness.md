@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/419" class=".btn">#419</a>
+            </td>
+            <td>
+                <b>
+                    docs(api): issue credential and present proof v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds open api definitions for the issue credential and present proof v2 endpoints
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 17:58:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/418" class=".btn">#418</a>
+            </td>
+            <td>
+                <b>
+                    reversed the if condition for github actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+Yesterdays if condition was incorrect. logs will now not be copied when running in GitHub. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 13:56:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/417" class=".btn">#417</a>
             </td>
             <td>
