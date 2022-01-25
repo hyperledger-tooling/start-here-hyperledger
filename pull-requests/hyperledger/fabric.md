@@ -296,34 +296,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3177" class=".btn">#3177</a>
-            </td>
-            <td>
-                <b>
-                    typo in word 'oreder'.Changed to 'order'
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Documentation update
-
-#### Description
-There was a typo in word 'oreder'. Changed it to 'order'.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-18 08:28:56 +0000 UTC
-    </div>
-</div>
-

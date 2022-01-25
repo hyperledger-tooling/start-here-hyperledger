@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/go-perun
             </td>
             <td>
                 <b>
-                    Rename wire message types
+                    💥 Rename wire message types
                 </b>
             </td>
         </tr>

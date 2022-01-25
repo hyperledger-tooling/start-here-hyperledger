@@ -37,29 +37,3 @@ I updated the go installation to go17 and disabled go-modules which are by defau
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/86" class=".btn">#86</a>
-            </td>
-            <td>
-                <b>
-                    Fix dependencies in go.mod and go.sum
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matej Pavlovic <matopavlovic@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-18 08:17:15 +0000 UTC
-    </div>
-</div>
-
