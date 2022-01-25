@@ -623,31 +623,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1793" class=".btn">#1793</a>
-            </td>
-            <td>
-                <b>
-                    style: 2021-09-20 linter warnings batch 20 / 26 #1369
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                style: 2021-09-20 linter warnings batch 20 / 26 
-
- changes made in assigned lines 191-200
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-18 08:05:46 +0000 UTC
-    </div>
-</div>
-

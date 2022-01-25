@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3325" class=".btn">#3325</a>
+            </td>
+            <td>
+                <b>
+                    (fix) Failing test in java 17 - jackson optional parsing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span>
+            </td>
+            <td>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Related to https://github.com/hyperledger/besu/pull/3082
+Use jdk8module for jackson so optionals in class types are parsed correctly during json deserialisation
+
+## Fixed Issue(s)
+fixes https://github.com/hyperledger/besu/issues/3318
+helps https://github.com/hyperledger/besu/issues/3320
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 07:41:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3324" class=".btn">#3324</a>
+            </td>
+            <td>
+                <b>
+                    codeql analysis workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+github action for code ql
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 06:48:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3319" class=".btn">#3319</a>
             </td>
             <td>

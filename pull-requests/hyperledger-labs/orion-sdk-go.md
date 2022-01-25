@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/108" class=".btn">#108</a>
+            </td>
+            <td>
+                <b>
+                    Full tx proof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 Added utility to verify all tx proof parts - merkle tree and ledger connectivity
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 10:09:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/107" class=".btn">#107</a>
             </td>
             <td>

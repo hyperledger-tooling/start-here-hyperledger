@@ -98,29 +98,3 @@ open issues:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/703" class=".btn">#703</a>
-            </td>
-            <td>
-                <b>
-                    codeql warnings - locale in register did script
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-18 11:31:21 +0000 UTC
-    </div>
-</div>
-

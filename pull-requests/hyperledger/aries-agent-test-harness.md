@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/417" class=".btn">#417</a>
+            </td>
+            <td>
+                <b>
+                    refactor: remove backchannel operations csv file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As discussed with @nodlesh, I'd give it a try to remove the backchannel operation matching. The google sheet hasn't been updated for a while and we had to manually edit the CSV. Although this is doable, it doesn't provide the best DX. Only the python based backchannels parsed the CSV file.
+
+I removed the matching of the operations in the python based backchannels and created a `BackchannelCommand` class. This contains everything related to the received command (such as `data`, `record_id`, `topic`, etc..). 
+
+In addition this PR:
+- cleans up the backchannels a bit and remove unused code
+- Formats the python based backchannels using black (I intend to do a separate PR for the `aries-test-harness` directory)
+- Removes all references to the backchannel operations CSV and also updates all documentation referencing it
+
+The recommended approach to document new endpoints are now through the OpenAPI spec located in this repo. 
+
+
+The following entry in the `backchannel_operations.csv` 
+
+```
+0454 Present Proof v2,X,,proof-v2,POST,verify-presentation,Y,,Verify a received proof presentation,presentation_thread_id,,state
+```
+
+can be translated to the following entry in the OpenAPI spec. It is a bit more verbose, but basically contains the sae information. The big advantage is that we can now render it nicely (as done here: https://aries-interop.info/api), helping backchannel implementors.
+
+```yaml
+  /agent/command/proof-v2/verify-presentation:
+    post:
+      tags:
+        - Present Proof V2
+      summary: Verify presentation
+      description: >
+        Verify the received presentation with specified thread id.
+      operationId: PresentProofV2VerifyPresentation
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - id
+              properties:
+                id:
+                  $ref: "#/components/schemas/ThreadId"
+      responses:
+        200:
+          description: Presentation verified
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/PresentProofV2OperationResponse"
+                  - properties:
+                      state:
+                        example: done
+```
+
+I intend to add all missing endpoints (mostly related to OOB/DIDExchange/V2 Protocols/Revocation) while I work on related aspects of the harness in the coming weeks.
+
+A lot of changes, but the operations file touched a lot of backchannels so it was a bit hard to split up.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 10:07:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/416" class=".btn">#416</a>
             </td>
             <td>

@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1817" class=".btn">#1817</a>
+            </td>
+            <td>
+                <b>
+                    [ci skip] Peer pvc as volumeclaimtemplates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Update peer PVC to use volume claim template, making it consistent for StatefulSet
+
+ 
+
+**Reviewed by**
+@jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1717 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 09:37:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1816" class=".btn">#1816</a>
+            </td>
+            <td>
+                <b>
+                    [corda-ent] Ensured successful storage of crypto materials in vault
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: surabhi-dudhediya <surabhi.dudhediya@accenture.com>
+
+**Changelog**
+- Add logic to check successful storage of crypto materials in vault
+- Fix creation of float certificates using pki tool, aws-auth role for float deployment
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @jagpreetsinghsasan @sownak 
+
+ 
+
+**Linked issue**
+#1759 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 09:28:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1815" class=".btn">#1815</a>
             </td>
             <td>
