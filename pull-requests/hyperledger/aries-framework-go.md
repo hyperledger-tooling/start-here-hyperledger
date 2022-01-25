@@ -383,32 +383,3 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3129" class=".btn">#3129</a>
-            </td>
-            <td>
-                <b>
-                    feat: credential manifest resolve - support for arbitrary type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Part of #3092
-
-Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-18 03:31:27 +0000 UTC
-    </div>
-</div>
-

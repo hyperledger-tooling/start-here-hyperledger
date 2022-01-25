@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/310" class=".btn">#310</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/311" class=".btn">#311</a>
             </td>
             <td>
                 <b>
-                    Stop the nightly builds
+                    Fix Doc: Type of args in invokeChaincode() is string[]
                 </b>
             </td>
         </tr>
@@ -27,14 +27,17 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Removed the cron for the nightly 1.4 builds; this isn't the LTS release now. We would only publish a 1.4 release in very special cases. 
+                stub.invokeChaincode() receives a parameter `args` which is
+a string array having arguments to pass to the called chaicode.
+However, the current document explains the `args` is byte[][].
+This PR fixes the document issue above.
 
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-12 13:24:38 +0000 UTC
+        Created At 2022-01-25 01:18:15 +0000 UTC
     </div>
 </div>
 

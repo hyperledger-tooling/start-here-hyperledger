@@ -70,32 +70,3 @@ Note that Jitpack still needs to be included as a package repository for Java ch
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/586" class=".btn">#586</a>
-            </td>
-            <td>
-                <b>
-                    Fix: remove `shift` after `-verbose` 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There are no argument after `-verbose`. So, it should not run `shift`.
-If `-verbose` is not latest parameter, it will throw errro.
-![image](https://user-images.githubusercontent.com/88102592/149860351-dac5abe4-c670-4e5b-b092-93f5d2c37b29.png)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-18 02:28:11 +0000 UTC
-    </div>
-</div>
-
