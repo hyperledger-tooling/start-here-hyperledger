@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/120" class=".btn">#120</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/121" class=".btn">#121</a>
             </td>
             <td>
                 <b>
-                    fix: holder cred-get-list returns only holder creds
+                    docs: handling interlaced QR code
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+                Signed-off-by: Micah Peltier <micah6_8@yahoo.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-17 22:08:12 +0000 UTC
+        Created At 2022-01-25 16:52:25 +0000 UTC
     </div>
 </div>
 

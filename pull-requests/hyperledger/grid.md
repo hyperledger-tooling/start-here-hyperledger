@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1263" class=".btn">#1263</a>
+            </td>
+            <td>
+                <b>
+                    Remove actix-web default features
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the actix-web dependencies used across Grid to
+disable default features. As Grid's Splinter dependency uses another
+version of actix-web, multiple versions of a default compression
+feature were being pulled in which caused a build error pertaining to
+multiple definitions of the same things across the different versions
+of the brotli compression feature. As Grid does not currently use these
+default compression features, it is safe to turn these features off.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 16:26:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1258" class=".btn">#1258</a>
             </td>
             <td>
