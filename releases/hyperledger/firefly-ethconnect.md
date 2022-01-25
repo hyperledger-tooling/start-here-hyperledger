@@ -15,39 +15,35 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v3.1.0
+                    v3.1.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v3.1.0
+                    v3.1.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* ES Subscriptions: Store checkpoint after a stale subscription is processed by @vdamle in https://github.com/hyperledger/firefly-ethconnect/pull/157
-* Add circuit breaker to stop runaway producers losing messages, and immediate receipt option by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/175
-* Fix for intermittent failure #179 by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/180
-* POST to /subscriptions with in-line event definition by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/177
-* Add error codes to all ethconnect errors by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/178
-* Make requestABIId omitempty by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/161
-* Reduce default fetch below 1MB in the case of a small circuit breaker upper bound by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/181
-* Fix post-merge build issue related to error codes by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/184
-* Do not close a.eventStream, rather handle closed batch dispatcher by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/183
-* don't swallow webhook processMsg status codes by @shorsher in https://github.com/hyperledger/firefly-ethconnect/pull/187
+* Clean up dependencies by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/188
+* Including Latest CA Certs in Docker Image by @hfuss in https://github.com/hyperledger/firefly-ethconnect/pull/194
+* Fixing Graceful Shutdown for Container Image by @hfuss in https://github.com/hyperledger/firefly-ethconnect/pull/195
+* Add query support to / POST payload (webhook) by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/191
 
+## New Contributors
+* @hfuss made their first contribution in https://github.com/hyperledger/firefly-ethconnect/pull/194
 
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.0.5...v3.1.0
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.1.0...v3.1.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.0" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-12-01 15:31:41 +0000 UTC
+        Created At 2022-01-24 21:34:17 +0000 UTC
     </span>
 </div>
 
