@@ -494,31 +494,3 @@ Signed-off-by: Justin Florentine <justin+github@florentine.us>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3303" class=".btn">#3303</a>
-            </td>
-            <td>
-                <b>
-                    Test for TLS channel pipeline handlers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Added a test to ensure all required handlers are correctly added to the channel pipeline when using TLS.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 04:14:10 +0000 UTC
-    </div>
-</div>
-
