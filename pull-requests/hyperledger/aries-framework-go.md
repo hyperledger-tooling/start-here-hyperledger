@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3139" class=".btn">#3139</a>
+            </td>
+            <td>
+                <b>
+                    feat: vc wallet resolve manifest by credential ID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - added new option in vcwallet to resolve credential saved in wallet
+content store just by providing credential ID
+- refcatored credential mabnifest API to accept raw credential to avoid
+repeated marshal/unmarshaling of credential object
+- Part of #3120
+
+Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 04:15:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3138" class=".btn">#3138</a>
             </td>
             <td>
