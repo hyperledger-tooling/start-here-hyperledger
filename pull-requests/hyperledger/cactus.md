@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1814" class=".btn">#1814</a>
+            </td>
+            <td>
+                <b>
+                    test: fix htlc eth besu initialize-endpoint-invalid
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #1684
+
+Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 12:07:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1813" class=".btn">#1813</a>
+            </td>
+            <td>
+                <b>
+                    refactor(indy-testnet) improve setup and tools of indy-testnet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                This is a step before moving discounted-cartrade into container.
+
+I've divided this PR into two commits for clarity. First one changes the logic and code, second is reorganization of different indy-testnet components (I've moved them around a little). If they were in single commit it'd be hard to follow the changes, I think :)
+
+Documentation for components affected by this commit is outdated now, I'll update it after I finish my changes on them.
+
+Depends on #1800
+
+Depends on #1806
+
+## refactor(indy-testnet) improve setup and tools of indy-testnet 
+- `req_discounted_cartrade.py` - reuse proof when possible, add new flags to force new proof generation and to ignore discounted-cartrade request to simplify tests, put this tool into container.
+- `testsock.js` - fix formatting, add missing package, use new validator address (nginx).
+- Refactor all indy-testnet Dockerfiles according to docker best practices, reduce container size and complexity.
+- Use nginx as a proxy to validator (as documented). 
+
+## refactor(indy-testnet): organize indy-testnet components
+- Move and adjust indy validator Dockerfile from `tools/docker/indy-testnet` to it's sources in `packages-python/cactus_validator_socketio_indy`.
+- Rename indy validator dir from `cactus_validator_socketio` to `cactus_validator_socketio_indy`.
+    - @izuru0 @petermetz What naming convention should be used for python packages? Is proposed name OK (it's based on current naming), or maybe we should use naming from `packages/`, i.e. `cactus-plugin-ledger-connector-indy-socketio`
+- Rename `clientbase` image to `indy-sdk-cli`, move it to separate dir in `tools/docker`.
+- Adjust paths in `indy-testnet` docker-compose, add dependency to start nginx after validator.
+- Commit empty dir `tools/docker/indy-testnet/indy_pool/sandbox` directly to repo, remove redundant setup script.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 12:03:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1811" class=".btn">#1811</a>
             </td>
             <td>

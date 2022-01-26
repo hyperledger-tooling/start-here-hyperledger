@@ -70,7 +70,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    Replace GetBlockFromPeersTask with the more powerful RetryingGetBlock…
+                    Refactor to async retrieve blocks, and change peer when retrying to get a block
                 </b>
             </td>
         </tr>
@@ -79,14 +79,14 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                …FromPeersTask
-
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+`GetBlockFromPeersTask` is replaced with `RetryingGetBlockFromPeersTask` everywhere, since it is more effective in refreshing the peers while retrying.
+`RetryingGetBlockFromPeersTask` has been changed to try a different peer on every retry, and exit if the block has been downloaded by someone else in the meantime.
+The task to get block from peers in `BlockPropagationManager` was blocking, and this had effect on the propagation of the `onBlockAdded` event, actually pausing it until the task was done, now the get block from peers task is async, and we keep track of the requests for non announced block, to avoid doing redoundant work.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -95,7 +95,7 @@ fixes #3304
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
