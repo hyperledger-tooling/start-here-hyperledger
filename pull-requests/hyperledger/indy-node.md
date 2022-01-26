@@ -38,29 +38,3 @@ Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1731" class=".btn">#1731</a>
-            </td>
-            <td>
-                <b>
-                    Fixes the Gitpod Link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 16:42:26 +0000 UTC
-    </div>
-</div>
-

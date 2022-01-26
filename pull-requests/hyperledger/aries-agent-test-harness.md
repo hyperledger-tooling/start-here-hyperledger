@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/420" class=".btn">#420</a>
+            </td>
+            <td>
+                <b>
+                     aries-vcx: Update aries-vcx version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 15:39:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/419" class=".btn">#419</a>
             </td>
             <td>
@@ -226,90 +252,6 @@ This may fix the cancelled jobs in the daily interop test runs. If this does wor
     </table>
     <div class="right-align">
         Created At 2022-01-20 13:40:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/413" class=".btn">#413</a>
-            </td>
-            <td>
-                <b>
-                    refactor(dotnet): remove credential proposal
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #356
-
-Tested to work with .NET, still running other tests to make sure I didn't break anything else
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 15:23:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/412" class=".btn">#412</a>
-            </td>
-            <td>
-                <b>
-                    fix: sleep is not defined
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-Fixes an issue with `sleep` not being defined resulting in all present proof tests to fail (not sure how I missed this, as the tests ran successfully yesterday...)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 14:28:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/411" class=".btn">#411</a>
-            </td>
-            <td>
-                <b>
-                    fix: rename 0453 to 0454 for present proof
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-Fixes #373
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 14:09:17 +0000 UTC
     </div>
 </div>
 

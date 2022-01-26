@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Update secp256k1.py for secp256k1-py 0.14.0
+                    Pin mistune version to fix doc build error
                 </b>
             </td>
         </tr>
@@ -27,13 +27,16 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
                 
             </td>
             <td>
-                To this end: Remove \_\_CTX__
-This also works with with previous secp256k1-py versions back to 0.12.0, which is the oldest version I could get to work even without this change.
+                Sphinx-openapi depends on m2r which pulls in mistune without specifying a
+version. Mistune has recently updated to 2.0.0 which includes some API
+changes which were not backwards compatible.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-13 13:22:57 +0000 UTC
+        Created At 2022-01-26 16:03:23 +0000 UTC
     </div>
 </div>
 

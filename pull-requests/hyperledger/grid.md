@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1266" class=".btn">#1266</a>
+            </td>
+            <td>
+                <b>
+                    Add test to validate removing accepted version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Validate that the po versions are consistently not accepted with the
+parent po when the po is no longer accepted.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 18:11:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1265" class=".btn">#1265</a>
             </td>
             <td>
@@ -159,36 +188,6 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-01-19 21:07:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1252" class=".btn">#1252</a>
-            </td>
-            <td>
-                <b>
-                    Add `download-xsd` CLI command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add an XSD download CLI command, along with several utility methods for
-downloading, extracting, and validating the files within the schema
-archive.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 12:44:55 +0000 UTC
     </div>
 </div>
 

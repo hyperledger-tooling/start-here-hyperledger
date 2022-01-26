@@ -88,6 +88,8 @@ permalink: /pull-requests/hyperledger/besu
 `RetryingGetBlockFromPeersTask` has been changed to try a different peer on every retry, and exit if the block has been downloaded by someone else in the meantime.
 The task to get block from peers in `BlockPropagationManager` was blocking, and this had effect on the propagation of the `onBlockAdded` event, actually pausing it until the task was done, now the get block from peers task is async, and we keep track of the requests for non announced block, to avoid doing redoundant work.
 
+A lot of debug/trace logs has been added to help the investigation on sync issues.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
@@ -460,37 +462,6 @@ Removes an unnecessary warning from the QBFT logs. Due to precision of the Java 
     </table>
     <div class="right-align">
         Created At 2022-01-19 19:44:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3305" class=".btn">#3305</a>
-            </td>
-            <td>
-                <b>
-                    21.10.9 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes CORS regression caused by Vert.x upgrade.
-
-Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 16:07:08 +0000 UTC
     </div>
 </div>
 
