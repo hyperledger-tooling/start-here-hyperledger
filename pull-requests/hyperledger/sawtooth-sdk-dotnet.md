@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-dotnet/pull/15" class=".btn">#15</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-dotnet/pull/16" class=".btn">#16</a>
             </td>
             <td>
                 <b>
-                    Fixed Signer to ensure 256 bit signatures
+                    Archive unused repo
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-dotnet
                 
             </td>
             <td>
-                Prepend the truncated zero bytes to both halves of the ECDSA signature.
+                This repo has not had a code commit since 2018.
 
-Previously, the R and S values of the signatures would be concatenated
-as-is. This would result in malformed signatures if any of the generated
-BigInteger values were less than the expected 32 bytes in length.
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-30 17:33:44 +0000 UTC
+        Created At 2022-01-25 18:56:34 +0000 UTC
     </div>
 </div>
 

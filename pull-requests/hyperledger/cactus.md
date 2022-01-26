@@ -593,33 +593,3 @@ Depends on: #1629
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1794" class=".btn">#1794</a>
-            </td>
-            <td>
-                <b>
-                    docs(cactus-core-api): add README file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">Developer_Experience</span><span class="chip">Core_API</span>
-            </td>
-            <td>
-                Depends on #1556 - feat(core-api): add weaver protobuf codegen
-
-Fixes #833
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-18 22:39:07 +0000 UTC
-    </div>
-</div>
-

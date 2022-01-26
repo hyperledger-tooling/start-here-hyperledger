@@ -36,36 +36,3 @@ permalink: /pull-requests/hyperledger/indy-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2470" class=".btn">#2470</a>
-            </td>
-            <td>
-                <b>
-                    Update the version of Rust
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Upgrade to Rust `1.58.0`
-- Update code to align with the newer coding conventions.
-  - Clean up linting and compiler warnings.
-- Pin `pip<21.0` and `setuptools<=50.3.2` in `libindy/ci/ubuntu.dockerfile` to resolve build/test issues on ubuntu 16.04.
-
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
-
-This PR addresses the cargo resolver issues causing the the Jenkins builds to fail by updating the Rust/Cargo versions used for the builds.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-18 19:55:36 +0000 UTC
-    </div>
-</div>
-

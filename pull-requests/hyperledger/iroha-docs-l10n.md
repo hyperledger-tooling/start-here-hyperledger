@@ -1,20 +1,20 @@
 ---
 layout: default
-title: aries-sdk-java
+title: iroha-docs-l10n
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/aries-sdk-java
+permalink: /pull-requests/hyperledger/iroha-docs-l10n
 ---
 
-# aries-sdk-java <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/aries-sdk-java){: .btn .mr-4 }</span>
+# iroha-docs-l10n <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/iroha-docs-l10n){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-sdk-java/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger/iroha-docs-l10n/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/aries-sdk-java
                 
             </td>
             <td>
-                This repo has not had code commits in over two years.
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 21:11:38 +0000 UTC
+        Created At 2022-01-25 18:45:56 +0000 UTC
     </div>
 </div>
 
