@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3328" class=".btn">#3328</a>
+            </td>
+            <td>
+                <b>
+                    Prepare for version 22.1.0-RC4-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prepare for version 22.1.0-RC4-SNAPSHOT
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 00:07:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3327" class=".btn">#3327</a>
+            </td>
+            <td>
+                <b>
+                    Release 22.1.0-RC3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release 22.1.0-RC3
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 23:32:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3326" class=".btn">#3326</a>
             </td>
             <td>
@@ -39,6 +91,7 @@ Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+fixes #3304
 
 ## Changelog
 
@@ -466,47 +519,6 @@ Added a test to ensure all required handlers are correctly added to the channel 
     </table>
     <div class="right-align">
         Created At 2022-01-19 04:14:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3302" class=".btn">#3302</a>
-            </td>
-            <td>
-                <b>
-                    make ethFeeHistory accept hex values for blockCount
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Correctly parse hex parameters for ethFeeHistory blockCount
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #3301
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 00:51:05 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,156 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/448" class=".btn">#448</a>
+            </td>
+            <td>
+                <b>
+                    Add Blockchain Transaction IDs to FireFly Transaction objects and add blockchain IDs to events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Adds a string-array field of `blockchainIds` on the `transaction` object
+  - Backed by a comma-separated field
+  - Alphabetically sorted on each `UpsertTransaction` with lower-case only text, and no duplicates
+  - Updated when blockchain operations complete
+  - Updated when blockchain events arrive that are correlated with a blockchain transaction
+  - In all current FireFly transaction types, should be zero or one blockchain transactions
+  - Future extensibility to more
+- Adds a structured `blockNumber/transactionIndex/eventIndex/subEventNumber` convention to all event IDs
+   - Example `000000654321/000010/00002` would be:
+      - Block number: `654321`
+      - Transaction index: `10`
+      - Log index (ethereum) / event number (fabric): `2`
+   - The convention with padding (12/6/6/6 zeros) is intended to provide an alphabetically sortable list
+   - For Fabric this feature depends on fixing https://github.com/hyperledger/firefly-fabconnect/issues/74
+   - Tokens connectors are going to have tweaks to ensure the same number of zeros / separators for consistency
+   - The final `subEventNumber` is reserved for protocols that batch logical events (such as transfers) in an data array emitted by a single event
+
+Transaction example from E2E:
+
+```js
+{
+  "id": "264200de-188a-4aae-92e7-1e5345604345",
+  "namespace": "default",
+  "type": "batch_pin",
+  "created": "2022-01-25T22:01:08.9671519Z",
+  "status": "Succeeded",
+  "blockchainIds": [
+    "0xb819561e2149c6a77a1de8a971895e486e064f45da26e1c48d2b4263eccffc43"
+  ]
+}
+```
+
+To which the following Blockchain event is associated:
+
+```json
+{
+  "id": "8b85311c-b51f-4b69-bbbf-083ac4728db4",
+  "sequence": 22,
+  "source": "ethereum",
+  "namespace": "default",
+  "name": "BatchPin",
+  "protocolId": "000000000031/000000/000000",
+  "output": {
+    "author": "0xce1fde1c97d3db88dbb83af16ac3b0efefeba80d",
+    "batchHash": "0xb605c7d5238dd01fa594cab74db229a997e2c7c5150eeb43288ecdac30b62b97",
+    "contexts": [
+      "0x2a30597d4aca075c164bfb02c44de63802d66f1422295aa6b7ce8b0daa12c470"
+    ],
+    "namespace": "default",
+    "payloadRef": "QmWC6JQnpoYAsWj6junfwaiq8DvQgoLBMQt2nkoaYmxzaZ",
+    "timestamp": "1643148068",
+    "uuids": "0x264200de188a4aae92e71e5345604345af60568cd62c48e69cadce0d498d0584"
+  },
+  "info": {
+    "address": "0x3A4e59b55979d0D196aB39471DfA706b0a0CEce9",
+    "blockNumber": "31",
+    "logIndex": "0",
+    "signature": "BatchPin(address,uint256,string,bytes32,bytes32,string,bytes32[])",
+    "subId": "sb-51267be5-775c-4d22-6d72-b8a85675187b",
+    "timestamp": "1643148068",
+    "transactionHash": "0xb819561e2149c6a77a1de8a971895e486e064f45da26e1c48d2b4263eccffc43",
+    "transactionIndex": "0x0"
+  },
+  "timestamp": "2022-01-25T22:01:08Z",
+  "tx": {
+    "type": "batch_pin",
+    "id": "264200de-188a-4aae-92e7-1e5345604345"
+  }
+}
+```
+
+Event example from E2E:
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 21:41:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/447" class=".btn">#447</a>
+            </td>
+            <td>
+                <b>
+                    contract_invoke Transaction should mirror status of contract_invoke Operation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fundamental question: is this the right place for this logic to live, or is this propagating an anti-pattern?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 21:03:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/446" class=".btn">#446</a>
+            </td>
+            <td>
+                <b>
+                    Add convenience URL /transactions/{txnid}/blockchainevents
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-25 19:41:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/444" class=".btn">#444</a>
             </td>
             <td>

@@ -355,31 +355,3 @@ Signed-off-by: Michel Sahli <michel.sahli@adnovum.ch>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3130" class=".btn">#3130</a>
-            </td>
-            <td>
-                <b>
-                    feat: Export Credential Manifest and Output Descriptor validate methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reworked the existing Credential Manifest and Output Descriptor validation methods so that they can be called directly outside of the cm package without requiring json.Unmarshal to be called. This gives callers more flexibility and supports more use cases.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-18 21:23:12 +0000 UTC
-    </div>
-</div>
-

@@ -1,20 +1,20 @@
 ---
 layout: default
-title: aries-sdk-java
+title: aries-sdk-android
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/aries-sdk-java
+permalink: /pull-requests/hyperledger/aries-sdk-android
 ---
 
-# aries-sdk-java <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/aries-sdk-java){: .btn .mr-4 }</span>
+# aries-sdk-android <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/aries-sdk-android){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-sdk-java/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger/aries-sdk-android/pull/3" class=".btn">#3</a>
             </td>
             <td>
                 <b>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/aries-sdk-java
                 
             </td>
             <td>
-                This repo has not had code commits in over two years.
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 21:11:38 +0000 UTC
+        Created At 2022-01-25 18:42:27 +0000 UTC
     </div>
 </div>
 
