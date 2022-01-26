@@ -62,30 +62,3 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/429" class=".btn">#429</a>
-            </td>
-            <td>
-                <b>
-                    Refactor credential definition code, separate rotation and publishing…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span><span class="chip">breaking</span>
-            </td>
-            <td>
-                - Separates credential registry rotation from its publishing. If you call `credential_def::rotate_rev_reg`, you need to additionally call `credential_def::publish_revocation_primitives`. Previously these both stages were happening as part of `credential_def::rotate_rev_reg`
-- Adds tracking whether and which revocation primitives (revocation registry definition, initial revocation registry delta) were published on ledger so we prevent attempts to publish already published data on ledger.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 12:01:11 +0000 UTC
-    </div>
-</div>
-

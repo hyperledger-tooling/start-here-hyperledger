@@ -781,29 +781,3 @@ Through incremental e2e test-fix cycles I found the following needed updates:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/413" class=".btn">#413</a>
-            </td>
-            <td>
-                <b>
-                    [erc20-payload] pass name and symbol to CreateTokenPool()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The [ERC20 token connector](https://github.com/hyperledger/firefly-tokens-erc20) for Firefly requires that `name` and `symbol` be passed to the ERC20 token factory. This PR allows for firefly to pass these fields down to the token connector.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 08:11:53 +0000 UTC
-    </div>
-</div>
-

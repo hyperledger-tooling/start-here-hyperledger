@@ -24,10 +24,15 @@ permalink: /pull-requests/hyperledger/besu-native
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
-                As described in the Quorum Support ticket with ID 712640, sometimes the signature components (in that case it was R) are 30-bytes long and both the keys and the signatures are still valid.
+                _Note from @NicolasMassart (Consensys Customer Support):
+This PR if from one of the Consensys customers directly. I removed the internal reference to our ticketing system as it's not useful to HL community as they don't have access. The PR is well referenced in the ticket on our side._
+
+## Description of the issue
+
+Sometimes the signature components (in that case it was R) are 30-bytes long and both the keys and the signatures are still valid.
 
 The values added in the unit test are taken from one of the actual errors shown in the error logs:
 
@@ -56,6 +61,10 @@ java.lang.IllegalStateException: Cannot recover public key from signature for Me
 ```
 
 There is [another test created in this fork on an upper level for Besu](https://github.com/freemanzMrojo/besu/blob/test-signature-r-padded-r1/crypto/src/test/java/org/hyperledger/besu/crypto/SECP256R1Test.java#L150) checking precisely the same as this test.
+
+## Fix
+
+Add proper padding to signatures
 
 Signed-off by: miguelangel.rojofernandez@mastercard.com
             </td>

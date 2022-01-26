@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/208" class=".btn">#208</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/215" class=".btn">#215</a>
             </td>
             <td>
                 <b>
-                    Update fabric-protos-go dependency
+                    pkg/client/channel/invoke: fix bug in validate
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                This version of the Fabric protobuf Go bindings is functionally compatible with the previous one, but contains changes released in Fabric v2.4 and so makes this Go SDK able to coexist with the Fabric Gateway API for Go released alongside Fabric v2.4.
+                When using couchdb, Json is stored alphabetically, while golang "encoding/json" orders json by struct-field order. There could be an error when user invoke/query peer with both couchdb-peer and leveldb-peer. The same problem could also happen when we use both javaCC and goCC.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-15 17:59:21 +0000 UTC
+        Created At 2022-01-26 10:03:56 +0000 UTC
     </div>
 </div>
 

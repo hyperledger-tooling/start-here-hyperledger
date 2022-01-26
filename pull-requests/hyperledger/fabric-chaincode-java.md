@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/223" class=".btn">#223</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/224" class=".btn">#224</a>
             </td>
             <td>
                 <b>
-                    Update build.gradle
+                    Remove the log4j dependency
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Move to recent log4j
+                Not sure why it was there in the first place
 
-Signed-off-by: Ry Jones <ry@linux.com>
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-18 19:29:01 +0000 UTC
+        Created At 2022-01-26 11:39:53 +0000 UTC
     </div>
 </div>
 

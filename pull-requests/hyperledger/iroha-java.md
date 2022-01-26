@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/193" class=".btn">#193</a>
+            </td>
+            <td>
+                <b>
+                    added new instructions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added new instructions for:
+1)mint public key
+2)change account's metadata
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 09:28:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/192" class=".btn">#192</a>
             </td>
             <td>
