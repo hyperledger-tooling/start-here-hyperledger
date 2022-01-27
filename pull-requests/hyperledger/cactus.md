@@ -453,7 +453,7 @@ Depends on #1800
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span><span class="chip">Security</span>
             </td>
             <td>
                 grpc is a gRPC Library for Node

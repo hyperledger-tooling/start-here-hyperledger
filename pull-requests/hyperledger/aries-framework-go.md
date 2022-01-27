@@ -362,29 +362,3 @@ Signed-off-by: Michel Sahli <michel.sahli@adnovum.ch>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3132" class=".btn">#3132</a>
-            </td>
-            <td>
-                <b>
-                    feat: add pthid to the didcomm v2 message replying to an oobv2 invitation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 21:39:43 +0000 UTC
-    </div>
-</div>
-

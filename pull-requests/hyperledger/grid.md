@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1268" class=".btn">#1268</a>
+            </td>
+            <td>
+                <b>
+                    Check if version exists in create version command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates how the revision ID is fetched for a version being
+created. As this version is being created, the revision ID should be '1'
+rather than the most recent revision ID of the version. The most recent
+revision ID should not exist, as a version being created should not
+already exist.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 22:47:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1267" class=".btn">#1267</a>
+            </td>
+            <td>
+                <b>
+                    Add file checks to avoid "os error: file not found"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Checks to see if XSD and user-provided po XML files exist before attempting to read. Previously, the user would get a generic os error message, as these errors weren't mapping to ours.
+
+Resolves: #1169 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 22:43:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1266" class=".btn">#1266</a>
             </td>
             <td>
@@ -158,36 +218,6 @@ Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-01-20 15:39:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1255" class=".btn">#1255</a>
-            </td>
-            <td>
-                <b>
-                    Fix PO migrations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This updates the PO migrations by adding a new migrations file for the
-0.3 version of the tables and reverts the original file back to its
-original 0.2 state.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 21:07:28 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2414" class=".btn">#2414</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2415" class=".btn">#2415</a>
             </td>
             <td>
                 <b>
-                    BACKPORT 1-2: Fix builds
+                    Pin bandit version
                 </b>
             </td>
         </tr>
@@ -27,38 +27,15 @@ permalink: /pull-requests/hyperledger/sawtooth-core
                 
             </td>
             <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-05 01:13:31 +0000 UTC
-    </div>
-</div>
+                The 1.7.2 release of Bandit drops support for python 3.6, which is the latest
+available for ubuntu bionic.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2413" class=".btn">#2413</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT 1-3: Fix builds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-05 01:11:27 +0000 UTC
+        Created At 2022-01-26 19:38:48 +0000 UTC
     </div>
 </div>
 

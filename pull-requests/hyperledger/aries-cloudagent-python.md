@@ -99,29 +99,3 @@ Endorser can use a different DID for endorsing than they use for their public DI
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1605" class=".btn">#1605</a>
-            </td>
-            <td>
-                <b>
-                    Replace blank credential/presentation exchange states with abandoned state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Related to #1588 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 19:33:56 +0000 UTC
-    </div>
-</div>
-
