@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/69" class=".btn">#69</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/70" class=".btn">#70</a>
             </td>
             <td>
                 <b>
-                    21.10.9
+                    updated hash 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                updates to 21.10.9
+                The Besu CI pipeline was re-run on the same commit, generating the same artefact with a different hash
+
+Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-19 19:29:50 +0000 UTC
+        Created At 2022-01-27 04:23:21 +0000 UTC
     </div>
 </div>
 

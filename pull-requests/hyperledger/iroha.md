@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.x</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->

@@ -14,7 +14,33 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/53" class=".btn">#53</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/55" class=".btn">#55</a>
+            </td>
+            <td>
+                <b>
+                    Preparing for next release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Lucas Saldanha <lucascrsaldanha@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 04:28:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/54" class=".btn">#54</a>
             </td>
             <td>
                 <b>
@@ -27,12 +53,12 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+                Signed-off-by: Lucas Saldanha <lucascrsaldanha@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 22:00:49 +0000 UTC
+        Created At 2022-01-27 03:53:13 +0000 UTC
     </div>
 </div>
 
