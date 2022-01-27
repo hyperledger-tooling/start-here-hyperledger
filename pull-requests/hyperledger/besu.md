@@ -186,7 +186,7 @@ Also ref https://github.com/hyperledger/homebrew-besu/pull/70
 ## PR description
 
 `GetBlockFromPeersTask` is replaced with `RetryingGetBlockFromPeersTask` everywhere, since it is more effective in refreshing the peers while retrying.
-`RetryingGetBlockFromPeersTask` has been changed to try a different peer on every retry, and exit if the block has been downloaded by someone else in the meantime.
+`RetryingGetBlockFromPeersTask` has been changed to first try the peer that announce the block if known, and the try a different peer on every retry, and exit if the block has been downloaded by someone else in the meantime.
 The task to get block from peers in `BlockPropagationManager` was blocking, and this had effect on the propagation of the `onBlockAdded` event, actually pausing it until the task was done, now the get block from peers task is async, and we keep track of the requests for non announced block, to avoid doing redoundant work.
 
 A lot of debug/trace logs has been added to help the investigation on sync issues.

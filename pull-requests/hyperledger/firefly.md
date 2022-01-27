@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/452" class=".btn">#452</a>
+            </td>
+            <td>
+                <b>
+                    Remove deprecated APIs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Proposal to do this removal for `v0.12.0`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 17:32:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/451" class=".btn">#451</a>
+            </td>
+            <td>
+                <b>
+                    Updated documentation to make it more useful
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I've added some changes in firefly documentation which I think will make it more useful and informative.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 13:35:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/448" class=".btn">#448</a>
             </td>
             <td>
@@ -476,32 +528,6 @@ Also contains #414 `go.mod` update
     </table>
     <div class="right-align">
         Created At 2022-01-20 23:55:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/424" class=".btn">#424</a>
-            </td>
-            <td>
-                <b>
-                    Fix intermittent Fabric E2E test failure
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves https://github.com/hyperledger/firefly/issues/423
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 13:43:57 +0000 UTC
     </div>
 </div>
 

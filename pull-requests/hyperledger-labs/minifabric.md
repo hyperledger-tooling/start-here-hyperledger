@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/304" class=".btn">#304</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/320" class=".btn">#320</a>
             </td>
             <td>
                 <b>
-                    Fix simple chaincode build failed issue
+                    docs for running minifabric on ARM
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                #223 Signed-off-by: zhenbing <szb@bitm.cn>
+                According https://github.com/hyperledger-labs/minifabric/issues/293# we gathered our experience of running minifabric on an arm processor in this document.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-18 15:03:42 +0000 UTC
+        Created At 2022-01-27 16:11:58 +0000 UTC
     </div>
 </div>
 

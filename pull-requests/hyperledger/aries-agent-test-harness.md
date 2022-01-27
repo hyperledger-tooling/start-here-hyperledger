@@ -279,31 +279,3 @@ This may not clear up the cancelled jobs, but at least we will have a clearer pi
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/414" class=".btn">#414</a>
-            </td>
-            <td>
-                <b>
-                    further separated crons for less parallel execution
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-This may fix the cancelled jobs in the daily interop test runs. If this does work, that means ultimately we need to move to the matrix model so this doesn't happen again. This current submission is just to prove the crons are/were the problem. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 13:40:16 +0000 UTC
-    </div>
-</div>
-

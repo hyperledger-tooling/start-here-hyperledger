@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/118" class=".btn">#118</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/119" class=".btn">#119</a>
             </td>
             <td>
                 <b>
-                    fix npm audit again
+                    improve error on remove if OS has no identity
                 </b>
             </td>
         </tr>
@@ -31,17 +31,17 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
 
 <!--- What type of change? Pick one option and delete the others. -->
 
-- npm dependency update
+- Improvement 
 
 #### Description
-<!--- Describe your changes in detail, including motivation. -->
+Improves the error message if you try to remove an OS with no identity associated with the OS nodes.
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-18 18:27:16 +0000 UTC
+        Created At 2022-01-27 15:11:51 +0000 UTC
     </div>
 </div>
 

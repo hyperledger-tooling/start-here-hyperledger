@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/601" class=".btn">#601</a>
+            </td>
+            <td>
+                <b>
+                    Fix markdown logical structure in asset-transfer-events/README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fenced code blocks within a list were at the wrong level if indentation and so logically terminated the list.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 17:05:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/600" class=".btn">#600</a>
+            </td>
+            <td>
+                <b>
+                    Refactor of asset transfer events Go sample for Fabric Gateway
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Split boiler-plate connection code into a separate file since the basic sample already covers this aspect. The `app.go` file now only presents the main application code, making it much easier for readers to view.
+
+Also changed the event replay code to use a different style of reading from the real-time eventing example, demonstrating the use of timeouts while reading events we expect to arrive quickly, and avoiding any possibility of the main application execution hanging indefinitely.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 12:27:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/599" class=".btn">#599</a>
             </td>
             <td>
@@ -109,7 +163,6 @@ Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
             </td>
             <td>
                 ## Podman support
-_Note: currently experimental, only 2 org currently modified_
 
 A copy of the `install_fabric.sh` script is in the `test-network` directory. This has been enhanced to support a `podman` argument; if used it will use `podman` to pull down images and tag them rather than docker. The images are the same, but need to pulled differently.
 

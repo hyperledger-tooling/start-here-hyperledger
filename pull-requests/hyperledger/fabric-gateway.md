@@ -66,31 +66,3 @@ Resolves hyperledger/fabric#3151
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/374" class=".btn">#374</a>
-            </td>
-            <td>
-                <b>
-                    Minimise dependencies on Go protobuf versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Extract code that depends on a specific protobuf version into a utility package so the main code is agnostic to the protobuf version. This allows the staticcheck rule for deprecated API usage to be enabled for all but that one utility package.
-
-Contributes to #363
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 12:33:07 +0000 UTC
-    </div>
-</div>
-

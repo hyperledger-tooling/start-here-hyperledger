@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1269" class=".btn">#1269</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize `xsd-downloader` feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change stabilizes the `xsd-downloader` feature, which enables the
+user to download XSDs using the `grid download-xsd` subcommand.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 15:28:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1268" class=".btn">#1268</a>
             </td>
             <td>
@@ -33,7 +62,10 @@ rather than the most recent revision ID of the version. The most recent
 revision ID should not exist, as a version being created should not
 already exist.
 
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
+Testing instructions:
+1. Create a PO & a PO version
+2. Attempt to create the same version made previously
+3. You should receive an error that that version already exists. Previously, you would receive the error I pasted in a comment below.
             </td>
         </tr>
     </table>
@@ -192,32 +224,6 @@ Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-01-20 18:55:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1256" class=".btn">#1256</a>
-            </td>
-            <td>
-                <b>
-                    Add architecture check for protoc during grid-dev builds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 15:39:00 +0000 UTC
     </div>
 </div>
 
