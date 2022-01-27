@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3333" class=".btn">#3333</a>
+            </td>
+            <td>
+                <b>
+                    Add ec-curve parameter public key export/export-address subcommands
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+- Add ec-curve parameter public key export/export-address subcommands
+- Defaults to secp256k1
+- Support secp256k1 and secp256r1
+- Added a log message when creating a key with the selected ec curve name 
+
+## Fixed Issue(s)
+fixes #3206 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 09:46:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3331" class=".btn">#3331</a>
             </td>
             <td>

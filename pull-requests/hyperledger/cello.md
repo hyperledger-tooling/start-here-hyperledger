@@ -259,33 +259,3 @@ Signed-off-by: tianxuanhong1 <523713078@qq.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/388" class=".btn">#388</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-387] implement chaincode install function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                implement chaincode install function, url:/api/v1/chaincodes/install, and form-data body of key: chaincode_id. If you want to call this function manually, you need to query the ID of chaincode in the database first
-
-Close #387
-
-Signed-off-by: tianxuanhong1 <523713078@qq.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 09:14:48 +0000 UTC
-    </div>
-</div>
-

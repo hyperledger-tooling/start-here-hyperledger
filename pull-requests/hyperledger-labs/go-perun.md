@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                Closes #155 
+                Related to #155 
 
 Instead of changing the API drastically, improve documentation.
             </td>
