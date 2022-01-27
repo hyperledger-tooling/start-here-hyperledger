@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/608" class=".btn">#608</a>
+            </td>
+            <td>
+                <b>
+                    feat: add support for did:peer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds support for did:peer dids as described in the peer did method specification. It supports all methods (0,1,2).
+
+The implementation should be seen as experimental as the peer did spec is quite complex and there's a good chance I messed some things up.
+
+One thing that needs fixing for sure is the encoding of didcomm services, but I need to wait for a reply on that: https://github.com/decentralized-identity/peer-did-method-spec/issues/39
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 22:35:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/605" class=".btn">#605</a>
             </td>
             <td>

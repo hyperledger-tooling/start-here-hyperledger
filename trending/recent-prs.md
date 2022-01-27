@@ -1,13 +1,13 @@
 
-[1266](https://github.com/hyperledger/grid/pull/1266) Add test to validate removing accepted version
+[187](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/187) Fix theme color
 
-[183](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/183) Pull theming through contact list and contact list items
+[1268](https://github.com/hyperledger/grid/pull/1268) Check if version exists in create version command
 
-[3194](https://github.com/hyperledger/fabric/pull/3194) Clarify paths in core.yaml
+[1267](https://github.com/hyperledger/grid/pull/1267) Add file checks to avoid "os error: file not found"
 
-[649](https://github.com/hyperledger/fabric-private-chaincode/pull/649) Create v1.0-rc3 release
+[608](https://github.com/hyperledger/aries-framework-javascript/pull/608) feat: add support for did:peer
 
-[32](https://github.com/hyperledger/sawtooth-sdk-python/pull/32) Pin mistune version to fix doc build error
+[652](https://github.com/hyperledger/fabric-private-chaincode/pull/652) corrected link in test-network readme
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -94,32 +94,3 @@ Contributes to #363
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/373" class=".btn">#373</a>
-            </td>
-            <td>
-                <b>
-                    Enable Javadoc build with Java 17
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Minor tweaks to Javadoc to satisfy Java 17 parsing enforcement.
-- Maven build profile change to avoid using removed Javadoc option with Java 17.
-- Remove unused directory and sample yaml.
-- Publish build dependency on Docs stage since it publishes Docs artifacts.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 18:30:32 +0000 UTC
-    </div>
-</div>
-

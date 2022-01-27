@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/53" class=".btn">#53</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.4.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 22:00:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-native/pull/52" class=".btn">#52</a>
             </td>
             <td>
