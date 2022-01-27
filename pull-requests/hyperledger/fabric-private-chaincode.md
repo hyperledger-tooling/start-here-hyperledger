@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 Signed-off-by: munapower <mmunaro@hotmail.com>

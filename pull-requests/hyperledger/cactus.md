@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1816" class=".btn">#1816</a>
+            </td>
+            <td>
+                <b>
+                    fix(security): address CVE-2021-23358
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes: #1775 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 09:39:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1814" class=".btn">#1814</a>
             </td>
             <td>

@@ -306,33 +306,3 @@ Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3134" class=".btn">#3134</a>
-            </td>
-            <td>
-                <b>
-                    Add option to enable remote document loading for mobile bindings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                when enabled, documents that are not available locally will be fetch remotely for mobile bindings.
-
-Does replace pull request #3053.
-
-Signed-off-by: Michel Sahli <michel.sahli@adnovum.ch>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 11:30:48 +0000 UTC
-    </div>
-</div>
-
