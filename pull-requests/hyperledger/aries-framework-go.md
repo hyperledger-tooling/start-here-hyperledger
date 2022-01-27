@@ -336,29 +336,3 @@ Signed-off-by: Michel Sahli <michel.sahli@adnovum.ch>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3133" class=".btn">#3133</a>
-            </td>
-            <td>
-                <b>
-                    test: WACI Issuance BDD tests for Go SDK
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 01:03:02 +0000 UTC
-    </div>
-</div>
-

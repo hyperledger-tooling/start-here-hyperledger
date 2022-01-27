@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1818" class=".btn">#1818</a>
+            </td>
+            <td>
+                <b>
+                    [docs] fixed a link issue in docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Fix link issue in docs
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 05:55:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1817" class=".btn">#1817</a>
             </td>
             <td>

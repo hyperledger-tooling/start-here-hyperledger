@@ -14,11 +14,65 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/16" class=".btn">#16</a>
+            </td>
+            <td>
+                <b>
+                    Add in ERC20 health checks, update ERC20 image tage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 20:05:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/15" class=".btn">#15</a>
+            </td>
+            <td>
+                <b>
+                    Fixing Swagger UI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #8 
+
+Building off of discussions from  #13 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-26 00:08:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    Draft of ethconnect in ff helm chart
+                    Ethconnect Support w/ Smart Contract Registration
                 </b>
             </td>
         </tr>
@@ -65,114 +119,6 @@ TODO:
     </table>
     <div class="right-align">
         Created At 2022-01-22 05:59:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/7" class=".btn">#7</a>
-            </td>
-            <td>
-                <b>
-                    Adding hfuss to CODEOWNERS / maintainers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Per today's community call
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 17:48:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/6" class=".btn">#6</a>
-            </td>
-            <td>
-                <b>
-                    Fix db credential logging exposure
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger/firefly-helm-charts/issues/5. (Thanks @zon)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-19 17:21:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/4" class=".btn">#4</a>
-            </td>
-            <td>
-                <b>
-                    Tokens ERC1155 Connector Support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * From https://github.com/hyperledger/firefly/pull/372
-* Does not have IT test for ERC1155 (yet) bc it requires a functional Ethconnect with the ERC1155 contract deployed, we'll save adding that for when we get Ethconnect deployed as well
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 19:07:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/3" class=".btn">#3</a>
-            </td>
-            <td>
-                <b>
-                    Support Passing Secrets to Migrations Job
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * From https://github.com/hyperledger/firefly/pull/409
-* Adds IT test for migrations job w/ database override
-* Fixes config override templating
-* Fixes whitespace issue with optional templates and the new license header, changes license header to go-template comment format
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 18:28:07 +0000 UTC
     </div>
 </div>
 
