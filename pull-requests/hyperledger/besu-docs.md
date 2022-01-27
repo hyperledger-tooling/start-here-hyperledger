@@ -14,6 +14,81 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/934" class=".btn">#934</a>
+            </td>
+            <td>
+                <b>
+                    Clarify Orion mode for Tessera configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roland Tyler <roland.tyler@consensys.net>
+
+## Describe the change
+Add clarifications for using `orion` mode with Tessera with Besu.
+<!-- A clear and concise description of what this PR changes in the documentation. -->
+
+## Issue fixed
+Fixes #930 
+<!-- Except for minor changes (typos, commas) it's required to have a Github issue linked to your
+pull request.
+
+Use the following to make Github close the issue automatically when merging the PR:
+fixes #{your issue number}
+If multiple issues are involved, use one line for each issue.
+
+If you don't want to close the issue, use:
+see #{your issue number} -->
+
+## Impacted parts <!-- check as many boxes as needed -->
+
+### For content changes
+
+- [x] Doc content
+- [ ] Doc pages organisation
+
+### For tools changes
+
+- [ ] CircleCI workflow
+- [ ] Build and QA tools (lint, vale,…)
+- [ ] MkDocs templates
+- [ ] MkDocs configuration
+- [ ] Python dependencies
+- [ ] Node dependencies and JavaScript
+- [ ] ReadTheDocs configuration
+- [ ] GitHub integration
+
+## Testing
+https://hyperledger-besu--934.org.readthedocs.build/en/934/HowTo/Use-Privacy/Use-GoQuorum-compatible-privacy/
+
+https://hyperledger-besu--934.org.readthedocs.build/en/934/HowTo/Use-Privacy/Run-Tessera-With-Besu/
+
+https://hyperledger-besu--934.org.readthedocs.build/en/934/Tutorials/Privacy/Configuring-Multi-Tenancy/#3-update-the-tessera-configuration-file
+<!-- Steps to follow to review and test your changes.
+Add links to preview the pages changes here.
+Link format is https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/
+Where {your PR number} must be replaced by the number of this PR, for instance 123
+-->
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 16:59:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/932" class=".btn">#932</a>
             </td>
             <td>
@@ -175,64 +250,6 @@ Where {your PR number} must be replaced by the number of this PR, for instance 1
     </table>
     <div class="right-align">
         Created At 2022-01-20 20:50:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/928" class=".btn">#928</a>
-            </td>
-            <td>
-                <b>
-                    Fixing metrics-push-prometheus-job variables and incorrect markdown link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Incorrect markdown link syntax.
-
-Signed-off-by: Aitor Gómez-Goiri <aitor@gomezgoiri.net>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 14:30:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/927" class=".btn">#927</a>
-            </td>
-            <td>
-                <b>
-                    create playground-docs for using quorum-kubernetes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Eric Lin <eric.lin@consensys.net>
-
-## Describe the change
-
-Added supporting documentation for the `quorum-kubernetes` repo regarding the playground
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 13:30:53 +0000 UTC
     </div>
 </div>
 

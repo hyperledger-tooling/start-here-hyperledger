@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/132" class=".btn">#132</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/133" class=".btn">#133</a>
             </td>
             <td>
                 <b>
-                    Backport 0-6: Fix clippy::to-string-in-format-args lint
+                    Add a database index on transaction_receipt
                 </b>
             </td>
         </tr>
@@ -27,64 +27,13 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                Backport of #130
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 15:22:54 +0000 UTC
-    </div>
-</div>
+                This change adds an index on the `"idx"` column of the `transaction_receipt` table.  This column is frequently used for queries.  It has also been identified as the source of a performance issue with the query to find the latest `idx` value for a given service id (found at the start of the `AddTxnReceiptsOperation`).
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/131" class=".btn">#131</a>
-            </td>
-            <td>
-                <b>
-                    Backport 0-7: Fix clippy::to-string-in-format-args lint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of #130
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-17 15:22:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/130" class=".btn">#130</a>
-            </td>
-            <td>
-                <b>
-                    Fix clippy::to-string-in-format-args lint - Rust 1.58.0 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-17 15:00:55 +0000 UTC
+        Created At 2022-01-27 16:58:55 +0000 UTC
     </div>
 </div>
 

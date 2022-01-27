@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1819" class=".btn">#1819</a>
+            </td>
+            <td>
+                <b>
+                    [shared] separate workflow files for images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Add separate workflow file for Corda and Quorum
+- Update docker build 
+- Rename the workflows
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 12:58:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1818" class=".btn">#1818</a>
             </td>
             <td>
@@ -172,33 +205,6 @@ permalink: /pull-requests/hyperledger/bevel
     </table>
     <div class="right-align">
         Created At 2022-01-21 09:45:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1813" class=".btn">#1813</a>
-            </td>
-            <td>
-                <b>
-                    [shared] Main to develop merge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- merge main to develop
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 16:27:40 +0000 UTC
     </div>
 </div>
 

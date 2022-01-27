@@ -1,13 +1,13 @@
 
-[599](https://github.com/hyperledger/fabric-samples/pull/599) fix a bug in function [getBlockByNumber]
+[92](https://github.com/hyperledger/firefly-ui/pull/92) Update TX pages for API parity
 
-[422](https://github.com/hyperledger/aries-agent-test-harness/pull/422) aries-vcx: Fix tails file upload, improve error handling
+[189](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/189) Change status bar style
 
-[328](https://github.com/hyperledger-labs/orion-server/pull/328) Simple kubernetes deployment
+[26](https://github.com/hyperledger/firefly-samples/pull/26) tokens sample project
 
-[88](https://github.com/hyperledger-labs/mirbft/pull/88) Research
+[452](https://github.com/hyperledger/firefly/pull/452) Remove deprecated APIs
 
-[3333](https://github.com/hyperledger/besu/pull/3333) Add ec-curve parameter public key export/export-address subcommands
+[609](https://github.com/hyperledger/aries-framework-javascript/pull/609) feat: support new did document in didcomm message exchange
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

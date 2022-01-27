@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1818" class=".btn">#1818</a>
+            </td>
+            <td>
+                <b>
+                    refactor(cmd-socket-server, cartrade): use cmd-socket-server as a module 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                - Add module exports to cmd-socket-server, change it's usage in cartrade sample app.
+- Cleanup redundant imports in cartrade.
+- Add new method of starting `cmd-socket-server` with BLP (like cartrade) - `startCactusSocketIOServer` call.
+- Old way of copying `BLP_config` is still supported, so other samples should work without a change.
+
+Closes: #1817
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+
+More details in the issue description.
+
+Depends on #1813
+- actually, it depends on one of the previous commits, but I don't want to introduce complex dependency graph and I "chain" them one after another :)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 15:15:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1816" class=".btn">#1816</a>
             </td>
             <td>
@@ -462,123 +499,6 @@ Depends on #1800
     </table>
     <div class="right-align">
         Created At 2022-01-21 09:24:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1802" class=".btn">#1802</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade to grpc@1.24.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">Security</span>
-            </td>
-            <td>
-                grpc is a gRPC Library for Node
-
-Affected versions of this package are vulnerable to Prototype Pollution via loadPackageDefinition.
-
-Commit sha: 8cc5c9e, Author: Bhaskara Ram, Committer: GitHub; "Bhaskara Ram 39507881+bhaskarvilles@users.noreply.github.com"
-
-Signed-off-by: Bhaskar Ram <bhaskar@parrotsec.in>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 17:10:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1801" class=".btn">#1801</a>
-            </td>
-            <td>
-                <b>
-                    feat: add jwt authorization to supply chain example
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">API_Server</span><span class="chip">Security</span>
-            </td>
-            <td>
-                closes #1579
-
-Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 15:41:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1800" class=".btn">#1800</a>
-            </td>
-            <td>
-                <b>
-                    fix(plugin-ledger-connector-fabric-socketio): upgrade Fabric due to jsrsasign
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">Fabric</span><span class="chip">Security</span>
-            </td>
-            <td>
-                Revert fabric sdk package change from PR #1754
-
-Closes: #1799
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-
-After change:
-```
-@hyperledger/cactus@ /home/outsh/cactus
-├─┬ @hyperledger/cactus-cmd-socket-server@1.0.0-rc.3 -> ./packages/cactus-cmd-socketio-server
-│ └─┬ fabric-ca-client@1.4.19
-│   └── jsrsasign@10.5.0
-├─┬ @hyperledger/cactus-example-carbon-accounting-backend@1.0.0-rc.3 -> ./examples/cactus-example-carbon-accounting-backend
-│ └─┬ fabric-network@2.2.10
-│   └─┬ fabric-common@2.2.10
-│     └── jsrsasign@10.5.0 deduped
-├─┬ @hyperledger/cactus-plugin-ledger-connector-fabric-socketio@1.0.0-rc.3 -> ./packages/cactus-plugin-ledger-connector-fabric-socketio
-│ └─┬ fabric-client@1.4.19
-│   └── jsrsasign@10.5.0 deduped
-├─┬ @hyperledger/cactus-plugin-ledger-connector-fabric@1.0.0-rc.3 -> ./packages/cactus-plugin-ledger-connector-fabric
-│ ├─┬ fabric-ca-client@2.3.0-snapshot.62
-│ │ └── jsrsasign@10.5.0
-│ ├─┬ fabric-common@2.3.0-snapshot.63
-│ │ └── jsrsasign@10.5.0 deduped
-│ ├── jsrsasign@10.4.0
-│ └─┬ ws-wallet@1.1.5
-│   └── jsrsasign@10.4.1
-└─┬ @hyperledger/cactus-test-tooling@1.0.0-rc.3 -> ./packages/cactus-test-tooling
-  └─┬ fabric-ca-client@2.2.10
-    ├─┬ fabric-common@2.2.10
-    │ └── jsrsasign@10.5.0 deduped
-    └── jsrsasign@10.5.0 deduped
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 13:18:14 +0000 UTC
     </div>
 </div>
 

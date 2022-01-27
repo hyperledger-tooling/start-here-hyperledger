@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/609" class=".btn">#609</a>
+            </td>
+            <td>
+                <b>
+                    feat: support new did document in didcomm message exchange
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds support for sending and receiving messages that are stored using peer dids and the new did record. The sending of messages is completely the same, mainly because I unified the `Service` classes from the old and new did document class as they were 100% identical. This made integrating it quite straight forward
+
+Current exchange is still working, but haven't been able to properly test the message exchange using the new did documents yet as we don't have DID exchange etc yet. Will add proper tests over the next few days, but you should be fine to use for now.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 17:09:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/608" class=".btn">#608</a>
             </td>
             <td>
@@ -323,32 +351,6 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
     </table>
     <div class="right-align">
         Created At 2022-01-20 18:44:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/600" class=".btn">#600</a>
-            </td>
-            <td>
-                <b>
-                    fix: verify jws contains at least 1 signature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 17:58:32 +0000 UTC
     </div>
 </div>
 
