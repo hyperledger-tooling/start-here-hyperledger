@@ -27,11 +27,13 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                Prevent connecting to self enode
+                Prevent connecting to self enode.
+
+See #2689 and #3322
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -559,41 +561,6 @@ trivy workflow
     </table>
     <div class="right-align">
         Created At 2022-01-24 04:26:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3311" class=".btn">#3311</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] testing: changed more classes to MockitoJunitRunner 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-* Changed runner where minimal changes required
-* removed unnecessary stubbings
-
-See #2951
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-21 07:57:26 +0000 UTC
     </div>
 </div>
 
