@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1819" class=".btn">#1819</a>
+            </td>
+            <td>
+                <b>
+                    1776: Regular-Expression-Denial-of-Service-in-mime
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Affected versions of mime are vulnerable to regular expression denial of service when a mime lookup is performed on untrusted user input.
+
+Action Applied:
+Updated to version 3.
+
+![mime](https://user-images.githubusercontent.com/55821921/151470107-a2f6678a-83a5-4745-bc98-e34b51718c58.png)
+![mime3 0](https://user-images.githubusercontent.com/55821921/151470114-c7ba5cb6-c366-41e1-b006-87b4a8b8275a.png)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 01:18:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1818" class=".btn">#1818</a>
             </td>
             <td>
