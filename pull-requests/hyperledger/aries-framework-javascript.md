@@ -99,31 +99,3 @@ One thing that needs fixing for sure is the encoding of didcomm services, but I 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/603" class=".btn">#603</a>
-            </td>
-            <td>
-                <b>
-                    feat(core): added timeOut to the module level
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Allows users to customise a timeout to the `returnWhenIsConnected method`.
-
-Signed-off-by: Berend Sliedrecht <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-21 10:29:19 +0000 UTC
-    </div>
-</div>
-

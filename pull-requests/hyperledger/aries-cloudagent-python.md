@@ -69,33 +69,3 @@ Endorser can use a different DID for endorsing than they use for their public DI
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1606" class=".btn">#1606</a>
-            </td>
-            <td>
-                <b>
-                    Update aiohttp dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## What is this PR for?
-
-- Update aiohttp and async-timeout dependency
-- aiohttp 3.7 has https://github.com/aio-libs/aiohttp/issues/4818 exploit
-- Changes were tested with all jsonld based flows
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-21 08:55:54 +0000 UTC
-    </div>
-</div>
-
