@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/610" class=".btn">#610</a>
+            </td>
+            <td>
+                <b>
+                    fix: incorrect encoding of services for did:peer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+
+Fixes for incorrect encoding of services in peer dids. Checked against the [peer-did-python](https://github.com/sicpa-dlab/peer-did-python) implementation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 13:07:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/609" class=".btn">#609</a>
             </td>
             <td>
@@ -65,37 +93,6 @@ One thing that needs fixing for sure is the encoding of didcomm services, but I 
     </table>
     <div class="right-align">
         Created At 2022-01-26 22:35:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/604" class=".btn">#604</a>
-            </td>
-            <td>
-                <b>
-                    feat: cli demo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A CLI demo to get to know the AFJ flow together with agents Alice and Faber.
-
-- ✅ Creating a connection
-- ✅ Offering a credential
-- ✅ Requesting a proof
-- ✅ Sending basic messages
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-21 13:24:45 +0000 UTC
     </div>
 </div>
 

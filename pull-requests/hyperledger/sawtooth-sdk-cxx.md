@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-cxx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-cxx/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-cxx/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    downgrade log level for success log
+                    Add Hyperledger code of conduct
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-cxx
                 
             </td>
             <td>
-                Not sure why this was originally an error log. Assuming by mistake?
+                Required as a part of the Hyperledger common repo structure
+
+Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-05-14 20:14:57 +0000 UTC
+        Created At 2022-01-28 18:10:56 +0000 UTC
     </div>
 </div>
 

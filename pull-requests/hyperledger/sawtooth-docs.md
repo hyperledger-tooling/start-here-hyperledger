@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/148" class=".btn">#148</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/149" class=".btn">#149</a>
             </td>
             <td>
                 <b>
-                    More 1.2 Application Developers Guide Update
+                    Add Hyperledger code of conduct
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
                 
             </td>
             <td>
-                The largest part of this PR is combining all of the sub Creating a Sawtooth Test Network into one file.  
+                Required as a part of the Hyperledger common repo structure
+
+Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-18 20:00:18 +0000 UTC
+        Created At 2022-01-28 18:03:10 +0000 UTC
     </div>
 </div>
 

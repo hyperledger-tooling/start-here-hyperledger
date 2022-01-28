@@ -491,32 +491,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1807" class=".btn">#1807</a>
-            </td>
-            <td>
-                <b>
-                    test(api-client): fix flaky socketio-api-client.test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Increase timeout on all tests, add extra timeout for setup operations to solve jest timeout errors in CI
-
-Closes: #1804
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-21 14:32:14 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/648" class=".btn">#648</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that address struct members can be saved to state
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #642
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 17:06:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/647" class=".btn">#647</a>
             </td>
             <td>

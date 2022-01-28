@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/605" class=".btn">#605</a>
+            </td>
+            <td>
+                <b>
+                    Add an EXPERIMENTAL azure run of the kube test network + asset-transfer DO NOT MERGE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                DO NOT MERGE 
+
+This PR adds an Azure test suite to run the basic asset transfer sample application on the Kubernetes Test Network.
+
+I am using this branch / PR to troubleshoot / debug the Azure pipeline.  DO NOT MERGE. 
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 18:03:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/604" class=".btn">#604</a>
+            </td>
+            <td>
+                <b>
+                    Podman nerdctl experiement - DO NOT MERGE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 16:15:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/601" class=".btn">#601</a>
             </td>
             <td>

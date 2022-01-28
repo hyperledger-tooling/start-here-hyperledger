@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-javascript/pull/25" class=".btn">#25</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-javascript/pull/26" class=".btn">#26</a>
             </td>
             <td>
                 <b>
-                    Remove `coverage` from test Dockerfiles
+                    Add Hyperledger code of conduct
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-javascript
                 
             </td>
             <td>
-                The 6.0 release of Coverage dropped support for python 3.5, which is the last
-supported version on Xenial so it can no longer be installed properly. However,
-it's not required to run the tests so it can be removed safely.
+                Required as a part of the Hyperledger common repo structure
 
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-05 15:57:48 +0000 UTC
+        Created At 2022-01-28 18:16:09 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/311" class=".btn">#311</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0-4: Add sleep in `BatchStatusChecker` loop
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #310
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 15:13:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/310" class=".btn">#310</a>
             </td>
             <td>

@@ -108,29 +108,3 @@ Closes #302
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/304" class=".btn">#304</a>
-            </td>
-            <td>
-                <b>
-                    303 check assets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #303 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-21 12:43:47 +0000 UTC
-    </div>
-</div>
-

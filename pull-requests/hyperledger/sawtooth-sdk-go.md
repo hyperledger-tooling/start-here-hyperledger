@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-go/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-go/pull/49" class=".btn">#49</a>
             </td>
             <td>
                 <b>
-                    Resolve build errors  and upgrade golang
+                    Add Hyperledger code of conduct
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-go
                 
             </td>
             <td>
-                Current build errors are results of problems between the current example dependencies and an out of date golang versions.  This updates the golang version to 1.13 as well as the following
+                Required as a part of the Hyperledger common repo structure
 
-1. Updates the satori/go.uuid version to the latest recommended - which resolves among a few other things, an important issue https://github.com/satori/go.uuid/issues/73
-2. Possibly controversially removes the xenial dockerfiles since a) they don't easily support golang-1.13, and b) they no longer appear to be referenced anywhere.
+Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-21 14:44:58 +0000 UTC
+        Created At 2022-01-28 18:12:13 +0000 UTC
     </div>
 </div>
 

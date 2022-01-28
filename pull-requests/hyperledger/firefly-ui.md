@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/94" class=".btn">#94</a>
+            </td>
+            <td>
+                <b>
+                    add blob name, size, and download icon to data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 - also removes ability to show data details if there is no data value
+<img width="1683" alt="Screen Shot 2022-01-28 at 12 04 29 PM" src="https://user-images.githubusercontent.com/10987380/151590194-a98785f7-4fe5-4140-884f-c225ea2692dd.png">
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 17:03:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ui/pull/93" class=".btn">#93</a>
             </td>
             <td>
