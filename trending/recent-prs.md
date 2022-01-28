@@ -1,13 +1,13 @@
 
+[3342](https://github.com/hyperledger/besu/pull/3342) Eliminate connect to self
+
+[1819](https://github.com/hyperledger/cactus/pull/1819) 1776: Regular-Expression-Denial-of-Service-in-mime
+
+[3341](https://github.com/hyperledger/besu/pull/3341) backport merge updates to main
+
+[3141](https://github.com/hyperledger/aries-framework-go/pull/3141) chore: refactor & cleanup bdd test sdk agent initialization code
+
 [3200](https://github.com/hyperledger/fabric/pull/3200) Release commit for v2.4.2
-
-[3199](https://github.com/hyperledger/fabric/pull/3199) Release commit for v2.2.5
-
-[190](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/190) Credentials list
-
-[3340](https://github.com/hyperledger/besu/pull/3340) Merge slf4j stragglers
-
-[1850](https://github.com/hyperledger/iroha/pull/1850) Docs: Good migration practice
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
