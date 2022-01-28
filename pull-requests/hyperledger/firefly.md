@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/457" class=".btn">#457</a>
+            </td>
+            <td>
+                <b>
+                    Add route for /transactions/{txnid}/status
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 22:11:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/456" class=".btn">#456</a>
+            </td>
+            <td>
+                <b>
+                    Allow calling JSONObject() on nil JSONAny
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix for #453 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 20:45:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/452" class=".btn">#452</a>
             </td>
             <td>
@@ -28,6 +80,8 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 Proposal to do this removal for `v0.12.0`
+
+Fixes #407 
             </td>
         </tr>
     </table>
@@ -502,32 +556,6 @@ Also contains #414 `go.mod` update
     </table>
     <div class="right-align">
         Created At 2022-01-21 03:16:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/429" class=".btn">#429</a>
-            </td>
-            <td>
-                <b>
-                    v0.11.x backport: Fix querying transfers by tx or type, batches by tx
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport_v0.11.x</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 23:55:07 +0000 UTC
     </div>
 </div>
 

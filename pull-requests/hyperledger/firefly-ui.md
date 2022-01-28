@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/93" class=".btn">#93</a>
+            </td>
+            <td>
+                <b>
+                    Blobs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                see https://github.com/hyperledger/firefly-ui/pull/85
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 21:31:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ui/pull/92" class=".btn">#92</a>
             </td>
             <td>
@@ -39,34 +65,6 @@ permalink: /pull-requests/hyperledger/firefly-ui
     </table>
     <div class="right-align">
         Created At 2022-01-27 18:16:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/90" class=".btn">#90</a>
-            </td>
-            <td>
-                <b>
-                    List view of contract interfaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Basic listing of contract interfaces, contract interface details page to come
-
-Signed-off-by: Anastasia Lalamentik <anastasia.lalamentik@alumni.unc.edu>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 22:49:02 +0000 UTC
     </div>
 </div>
 

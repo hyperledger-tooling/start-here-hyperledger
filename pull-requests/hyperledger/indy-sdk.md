@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2472" class=".btn">#2472</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2475" class=".btn">#2475</a>
             </td>
             <td>
                 <b>
-                    [#2471] Failed to find OpenSSL development headers on MacOS
+                    Update the version of Rust used in the workflows.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                signed-off-by: Thomas Diesler <tdiesler@redhat.com>
+                Signed-off-by: Wade Barnes <wade@neoterictech.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-19 16:02:39 +0000 UTC
+        Created At 2022-01-27 18:36:09 +0000 UTC
     </div>
 </div>
 

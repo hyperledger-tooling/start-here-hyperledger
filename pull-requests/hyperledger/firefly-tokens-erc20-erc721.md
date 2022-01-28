@@ -413,29 +413,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/5" class=".btn">#5</a>
-            </td>
-            <td>
-                <b>
-                    [activatePool-stream-init] initializing stream in /activatepool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When a FireFly stack goes down and comes back up, the eventstream is not always re-initialized, resulting in errors when sending a `POST` to `/activatepool`. This fix ensures that a stream is created before trying to activate pools
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 20:47:04 +0000 UTC
-    </div>
-</div>
-

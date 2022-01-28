@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3200" class=".btn">#3200</a>
+            </td>
+            <td>
+                <b>
+                    Release commit for v2.4.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update release notes, documentation, and scripts for v2.4.2.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 00:26:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3199" class=".btn">#3199</a>
+            </td>
+            <td>
+                <b>
+                    Release commit for v2.2.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update docs and release notes for v2.2.5.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 23:48:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3197" class=".btn">#3197</a>
             </td>
             <td>
@@ -473,36 +530,6 @@ issue# 3022
     </table>
     <div class="right-align">
         Created At 2022-01-21 15:54:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3182" class=".btn">#3182</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.17.5 (release-2.4)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.17.5 (release-2.4)
-
-Backport 3 commits from main branch related to Go 1.17 update, including dependency updates and test fixes.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 20:15:55 +0000 UTC
     </div>
 </div>
 

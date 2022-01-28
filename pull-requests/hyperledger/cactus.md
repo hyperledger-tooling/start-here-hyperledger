@@ -163,7 +163,7 @@ Depends on #1806
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">Security</span>
             </td>
             <td>
                 Bumps [nanoid](https://github.com/ai/nanoid) from 3.1.30 to 3.2.0.
@@ -289,7 +289,7 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">Security</span>
             </td>
             <td>
                 Bumps [log4js](https://github.com/log4js-node/log4js-node) from 3.0.6 to 6.4.0.

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/38" class=".btn">#38</a>
             </td>
             <td>
                 <b>
-                    Dockerfile optimizations.
+                    Added container running check.
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-20 19:49:47 +0000 UTC
+        Created At 2022-01-27 19:18:15 +0000 UTC
     </div>
 </div>
 

@@ -99,32 +99,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/267" class=".btn">#267</a>
-            </td>
-            <td>
-                <b>
-                    Chore/cleanup connections protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-26 18:57:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-toolbox/pull/266" class=".btn">#266</a>
             </td>
             <td>
