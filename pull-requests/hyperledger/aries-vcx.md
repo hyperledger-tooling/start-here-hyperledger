@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+                Partially addresses #430 .
+
+Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
             </td>
         </tr>
     </table>

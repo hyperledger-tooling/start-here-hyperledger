@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-rfcs/pull/52" class=".btn">#52</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-rfcs/pull/53" class=".btn">#53</a>
             </td>
             <td>
                 <b>
-                    Create PhoenixDOMSawtooth-rfcs.yml
+                    Add Hyperledger code of conduct
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-rfcs
                 
             </td>
             <td>
-                <nil>
+                Required as a part of the Hyperledger common repo structure
+
+Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-19 14:38:14 +0000 UTC
+        Created At 2022-01-28 18:05:28 +0000 UTC
     </div>
 </div>
 

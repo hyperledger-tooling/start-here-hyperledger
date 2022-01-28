@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/33" class=".btn">#33</a>
+            </td>
+            <td>
+                <b>
+                    Add Hyperledger code of conduct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Required as a part of the Hyperledger common repo structure
+
+Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 18:16:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/32" class=".btn">#32</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-toolbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/270" class=".btn">#270</a>
+            </td>
+            <td>
+                <b>
+                    Chore/connections cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 16:03:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-toolbox/pull/269" class=".btn">#269</a>
             </td>
             <td>
@@ -58,8 +84,6 @@ permalink: /pull-requests/hyperledger/aries-toolbox
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
 [//]: # (dependabot-automerge-start)
-Dependabot will merge this PR once CI passes on it, as requested by @frostyfrog.
-
 [//]: # (dependabot-automerge-end)
 
 ---

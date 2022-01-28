@@ -66,35 +66,3 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/705" class=".btn">#705</a>
-            </td>
-            <td>
-                <b>
-                    create and receive oob invitation with attached credential offer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - invitation parser can handle any type of uri now, including redirects
-- create and receive oob invitation with attachment works between bpa's (wallet type indy)
-
-open issues:
-- aca-py: when receiving the oob invitation, wallet type askar does not send any messages to the opposite agent
-- aca-py: if auto-respond-credential-offer is set to false /out-of-band/receive-invitation will throw a 500, but the connection is set up anyway.
-- bpa: wrapping Uri to HttpUrl causes encoding issues, code needs to be broken up
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-21 17:03:18 +0000 UTC
-    </div>
-</div>
-

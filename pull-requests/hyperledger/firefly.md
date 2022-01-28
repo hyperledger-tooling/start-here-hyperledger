@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/460" class=".btn">#460</a>
+            </td>
+            <td>
+                <b>
+                    Allow synchronous 200 response for token pool creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 17:11:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/459" class=".btn">#459</a>
+            </td>
+            <td>
+                <b>
+                    Fixing E2E Tests for Multi-Member Networks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Noticed if I use the E2E tests to validate a multi-member (2+ members) network that it'd get confused about which members it was testing because the order of the members is the stack file can never be guaranteed to match the order of the orgs returned by the API of one of the nodes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 15:44:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/458" class=".btn">#458</a>
+            </td>
+            <td>
+                <b>
+                    Avoid potential double-close of channels due to reconnects after tests complete
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix for #445 
+
+I wasn't able to recreate, but the test runs showed fast timeout heartbeating and connections... so I think in a slow environment a test is reconnecting the websocket after the test had finished.
+
+Our little test websocket server would re-use the channels in that case, even though they were close
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 14:20:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/457" class=".btn">#457</a>
             </td>
             <td>
@@ -211,32 +293,6 @@ Event example from E2E:
     </table>
     <div class="right-align">
         Created At 2022-01-25 21:41:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/447" class=".btn">#447</a>
-            </td>
-            <td>
-                <b>
-                    contract_invoke Transaction should mirror status of contract_invoke Operation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fundamental question: is this the right place for this logic to live, or is this propagating an anti-pattern?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-25 21:03:37 +0000 UTC
     </div>
 </div>
 
