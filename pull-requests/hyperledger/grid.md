@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1271" class=".btn">#1271</a>
+            </td>
+            <td>
+                <b>
+                    Add in-depth instructions for download tool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add instructions on what steps the utility specifically takes when
+downloading and extracting the XSD files.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 22:29:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1270" class=".btn">#1270</a>
+            </td>
+            <td>
+                <b>
+                    Move data_validation tests to cli integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This moves the data_validation tests to the cli integration tests so
+the XSD files can be downloaded using the `grid download-xsd` command.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 22:13:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1269" class=".btn">#1269</a>
             </td>
             <td>
@@ -193,37 +251,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-01-25 16:26:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1257" class=".btn">#1257</a>
-            </td>
-            <td>
-                <b>
-                    Remove xsd files from example
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Removes xsd files used in data validation, since these will be
-provided by the downloader.
-
-Resolves: #1247
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-20 18:55:38 +0000 UTC
     </div>
 </div>
 
