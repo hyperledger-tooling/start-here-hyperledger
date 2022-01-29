@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 <b>
-                    Try to upgrade ginkgo to v2
+                    [WIP]Try to upgrade ginkgo to v2
                 </b>
             </td>
         </tr>
