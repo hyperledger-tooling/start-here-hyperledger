@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3202" class=".btn">#3202</a>
+            </td>
+            <td>
+                <b>
+                    Try to upgrade ginkgo to v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+upgrade ginkgo to v2
+upgrade related go files to ginkgo v2
+
+
+#### Additional details
+
+ref: https://onsi.github.io/ginkgo/MIGRATING_TO_V2
+
+#### Related issues
+
+resolve https://github.com/hyperledger/fabric/issues/3184
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-29 10:04:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3200" class=".btn">#3200</a>
             </td>
             <td>
