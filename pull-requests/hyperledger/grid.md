@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1274" class=".btn">#1274</a>
+            </td>
+            <td>
+                <b>
+                    Add Grid 0.3 release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 21:09:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1273" class=".btn">#1273</a>
+            </td>
+            <td>
+                <b>
+                    Add Hyperledger code of conduct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Required as a part of the Hyperledger common repo structure
+
+Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 18:34:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1272" class=".btn">#1272</a>
+            </td>
+            <td>
+                <b>
+                    Remove unwraps for required arguments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previously required arguments were retrieved via a call to unwrap(),
+which had the capacity to panic at runtime. This change removes those
+unwrap() calls and replaces them with a function that sends back a
+standard CliError type.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 18:21:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1271" class=".btn">#1271</a>
             </td>
             <td>

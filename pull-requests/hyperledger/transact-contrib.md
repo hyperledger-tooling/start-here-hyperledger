@@ -1,20 +1,20 @@
 ---
 layout: default
-title: grid-rfcs
+title: transact-contrib
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/grid-rfcs
+permalink: /pull-requests/hyperledger/transact-contrib
 ---
 
-# grid-rfcs <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/grid-rfcs){: .btn .mr-4 }</span>
+# transact-contrib <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/transact-contrib){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-rfcs/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger/transact-contrib/pull/6" class=".btn">#6</a>
             </td>
             <td>
                 <b>
@@ -34,7 +34,7 @@ Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:34:54 +0000 UTC
+        Created At 2022-01-28 18:53:41 +0000 UTC
     </div>
 </div>
 

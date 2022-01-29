@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/312" class=".btn">#312</a>
+            </td>
+            <td>
+                <b>
+                    Add Hyperledger code of conduct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Required as a part of the Hyperledger common repo structure
+
+Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 18:53:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/311" class=".btn">#311</a>
             </td>
             <td>
