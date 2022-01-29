@@ -1,5 +1,5 @@
 
-[3202](https://github.com/hyperledger/fabric/pull/3202) Try to upgrade ginkgo to v2
+[3202](https://github.com/hyperledger/fabric/pull/3202) [WIP]Try to upgrade ginkgo to v2
 
 [3347](https://github.com/hyperledger/besu/pull/3347) Bugfix/merge mining fix
 
