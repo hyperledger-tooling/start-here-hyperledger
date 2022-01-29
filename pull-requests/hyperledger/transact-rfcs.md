@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact-rfcs/pull/10" class=".btn">#10</a>
+                PR <a href="https://github.com/hyperledger/transact-rfcs/pull/11" class=".btn">#11</a>
             </td>
             <td>
                 <b>
-                    SQL-backed Merkle State
+                    Add Hyperledger code of conduct
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/transact-rfcs
                 
             </td>
             <td>
-                This RFC presents a method for improving performance of `MerkleState` when backed by a relational database through the use of recursive queries and indexes implemented with slowly changing dimensions.
+                Required as a part of the Hyperledger common repo structure
 
-[Rendered](https://github.com/Cargill/transact-rfcs/blob/pschwarz-sql-merkle-state-rfc/text/0000-sql-merkle-state.md)
+Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-14 15:45:28 +0000 UTC
+        Created At 2022-01-28 18:53:55 +0000 UTC
     </div>
 </div>
 
