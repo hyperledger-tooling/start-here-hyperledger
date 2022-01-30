@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/424" class=".btn">#424</a>
+            </td>
+            <td>
+                <b>
+                    Changes by create-pull-request action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-29 03:52:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/423" class=".btn">#423</a>
+            </td>
+            <td>
+                <b>
+                    Removed Proof tests that are causing job cancellation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+Offending tests for the cancellation of daily runs have been excluded from the dotnet-findy runset until the tests/agents are fixed. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 20:34:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/422" class=".btn">#422</a>
             </td>
             <td>
@@ -248,34 +302,6 @@ To further diagnose the cancel on the acapy-aries-vcx run, this PR makes copying
     </table>
     <div class="right-align">
         Created At 2022-01-24 23:18:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/415" class=".btn">#415</a>
-            </td>
-            <td>
-                <b>
-                    fixed workflow names to match filename
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-This may not clear up the cancelled jobs, but at least we will have a clearer picture of what jobs are being cancelled. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-21 18:49:15 +0000 UTC
     </div>
 </div>
 

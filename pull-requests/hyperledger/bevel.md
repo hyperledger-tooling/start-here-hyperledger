@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1821" class=".btn">#1821</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Fixed enode error and vulnerabilities
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Update npm packages to fix vulnerabilities
+- Fix error when generating enode info in Quorum
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 18:46:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1819" class=".btn">#1819</a>
             </td>
             <td>

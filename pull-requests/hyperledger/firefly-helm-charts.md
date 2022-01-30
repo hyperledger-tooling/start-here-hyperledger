@@ -94,31 +94,3 @@ TODO:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/10" class=".btn">#10</a>
-            </td>
-            <td>
-                <b>
-                    Tokens ERC20 connector support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Similar implementation to [Tokens ERC1155 Connector Support PR](https://github.com/hyperledger/firefly-helm-charts/pull/4) and also does not have  IT test for ERC1155 currently. 
-
-- added in github PAT note to initial README page
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-22 05:59:49 +0000 UTC
-    </div>
-</div>
-

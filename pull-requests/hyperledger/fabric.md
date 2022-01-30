@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3204" class=".btn">#3204</a>
+            </td>
+            <td>
+                <b>
+                    Update test_network.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change version at the beginning of the tutorial, because old version numbers lead to abortion in following steps.
+
+#### Type of change
+
+- Documentation update
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-30 12:24:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3202" class=".btn">#3202</a>
             </td>
             <td>
