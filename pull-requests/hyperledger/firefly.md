@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Noticed if I use the E2E tests to validate a multi-member (2+ members) network that it'd get confused about which members it was testing because the order of the members is the stack file can never be guaranteed to match the order of the orgs returned by the API of one of the nodes.
+                Noticed if I use the E2E tests to validate a multi-member (2+ members) network that it'd get confused about which members it was testing because the order of the members in the stack file can never be guaranteed to match the order of the orgs returned by the API of one of the nodes.
             </td>
         </tr>
     </table>
@@ -428,110 +428,6 @@ has become a generic construct that spans more than one manager/plugin.
     </table>
     <div class="right-align">
         Created At 2022-01-23 21:33:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/438" class=".btn">#438</a>
-            </td>
-            <td>
-                <b>
-                    Ready state changes require a bump to the message to re-sequence it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span><span class="chip">backport-complete</span>
-            </td>
-            <td>
-                Fixes the core symptom reported in #421 
-
-> Note that this does not implement the full change to batches described in the discussion on that issue.
-> However, when that change happens, this fix will still be applicable.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-23 17:41:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/436" class=".btn">#436</a>
-            </td>
-            <td>
-                <b>
-                    Add AddressResolver to Ethereum for key-to-address mapping
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a REST-pluggable interface to the ethereum Blockchain plugin, that allows it to resolve non-Address strings (such as hierarchical HD wallet addresses) into ethereum addresses.
-
-This supports a common configuration for signing as follows:
-
-```
-┌------------┐            ┌------------┐                ┌------------┐                ┌------------┐
-|            |            |            |                |            |                |            |
-|            |            |            |                |            |                |            |
-|  FireFly   | -- REST -> | EthConnect | -- JSON/RPC -> |   Signer   | -- JSON/RPC -> |    Node    |
-|            |            |            |   (unsigned)   |            |    (signed)    |            |
-|            |            |            |                |            |                |            |
-└-----┬------┘            └------------┘                └-----┬------┘                └------------┘
-      |                                                       |
-      └---------- Resolve non-address signing key ID ---------┘
-```
-
-Note that much of the FireFly relies on one-time resolution of the signing key, into a string
-that is stored in database objects for later signing.
-
-So once the interface has been used to resolve the key the target microservice **must**
-reliably retain knowledge of the resolved address such that it can be used to perform
-the actual transaction signing.
-
-> The original input string is discarded by FireFly after resolution
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-23 02:01:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/435" class=".btn">#435</a>
-            </td>
-            <td>
-                <b>
-                    Fail transaction when token transfer operation fails
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #434
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-21 21:29:46 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1857" class=".btn">#1857</a>
+            </td>
+            <td>
+                <b>
+                    Iroha v1.4-rc.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added features and fixes for v1.4.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-30 15:37:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1853" class=".btn">#1853</a>
             </td>
             <td>
