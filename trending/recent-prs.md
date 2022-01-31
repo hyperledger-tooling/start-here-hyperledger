@@ -1,13 +1,13 @@
 
-[36](https://github.com/hyperledger/fabric-chaincode-go/pull/36) Enable dependabot
+[162](https://github.com/hyperledger/sawtooth-docs/pull/162) Replace all title: with markdown header
 
-[35](https://github.com/hyperledger/fabric-chaincode-go/pull/35) Update github.com/stretchr/testify
+[1275](https://github.com/hyperledger/grid/pull/1275) Fix product XSD location
 
-[1825](https://github.com/hyperledger/bevel/pull/1825) [docs] updated roadmap
+[47](https://github.com/hyperledger-labs/TrustID/pull/47) Archive project
 
-[1822](https://github.com/hyperledger/cactus/pull/1822) Johnhomantaring/issue1373
+[161](https://github.com/hyperledger/sawtooth-docs/pull/161) 1.2 Update markdown for add/remove PBFT nodes
 
-[1821](https://github.com/hyperledger/cactus/pull/1821) docs: changes to BUILD.md and CONTRIBUTING.md #1792
+[160](https://github.com/hyperledger/sawtooth-docs/pull/160) 1.2 Architecture guide overview and journal
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
