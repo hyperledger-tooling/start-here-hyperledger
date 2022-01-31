@@ -405,29 +405,3 @@ has become a generic construct that spans more than one manager/plugin.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/439" class=".btn">#439</a>
-            </td>
-            <td>
-                <b>
-                    v0.11.x backport: Ready state changes require a bump to the message to re-sequence it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport_v0.11.x</span>
-            </td>
-            <td>
-                Backport of #438 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-23 21:33:26 +0000 UTC
-    </div>
-</div>
-
