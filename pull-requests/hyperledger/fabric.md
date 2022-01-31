@@ -553,34 +553,3 @@ contributes to #2993
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3186" class=".btn">#3186</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.17.5 (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.17.5.
-
-First commit runs goimports to fix up build instructions.
-Second commit updates unit tests and dependencies to work with Go 1.17.5.
-Third commit updates docs.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-24 05:02:04 +0000 UTC
-    </div>
-</div>
-
