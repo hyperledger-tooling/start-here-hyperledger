@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/379" class=".btn">#379</a>
+            </td>
+            <td>
+                <b>
+                    Set correct channel name when getting contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ruipeng Zhang &lt;ppoffice@users.noreply.github.com&gt;
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-31 04:13:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/376" class=".btn">#376</a>
             </td>
             <td>

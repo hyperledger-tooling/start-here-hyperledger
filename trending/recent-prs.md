@@ -1,13 +1,13 @@
 
+[379](https://github.com/hyperledger/fabric-gateway/pull/379) Set correct channel name when getting contract
+
+[3351](https://github.com/hyperledger/besu/pull/3351) Release 22.1.0 rc4
+
+[3350](https://github.com/hyperledger/besu/pull/3350) 2914 execution specific endpoint
+
+[3349](https://github.com/hyperledger/besu/pull/3349) Release 22.1.0 rc4
+
 [716](https://github.com/hyperledger/aries-rfcs/pull/716) add mediator implementation by Networks Synergy
-
-[715](https://github.com/hyperledger/aries-rfcs/pull/715) add mediator implementation by Networks Synergy
-
-[714](https://github.com/hyperledger/aries-rfcs/pull/714) add mediator implementation by Networks Synergy
-
-[1857](https://github.com/hyperledger/iroha/pull/1857) Iroha v1.4-rc.2
-
-[398](https://github.com/hyperledger/cello/pull/398) Dependency upgrade for socket.io to engine.io
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
