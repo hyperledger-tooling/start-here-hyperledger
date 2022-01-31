@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 <b>
-                    Add an EXPERIMENTAL azure run of the kube test network + asset-transfer DO NOT MERGE
+                    Run basic-asset-transfer on the Kubernetes Test Network in an Azure CI pipeline 
                 </b>
             </td>
         </tr>

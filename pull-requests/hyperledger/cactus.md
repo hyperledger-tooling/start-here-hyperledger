@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1822" class=".btn">#1822</a>
+            </td>
+            <td>
+                <b>
+                    Johnhomantaring/issue1373
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1373
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-31 11:19:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1821" class=".btn">#1821</a>
+            </td>
+            <td>
+                <b>
+                    docs: changes to BUILD.md and CONTRIBUTING.md #1792
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes: #1792
+
+Signed-off-by: ruzell22 <ruzell.vince.aquino@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-31 11:19:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1820" class=".btn">#1820</a>
             </td>
             <td>

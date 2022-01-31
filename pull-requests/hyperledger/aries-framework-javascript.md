@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/611" class=".btn">#611</a>
+            </td>
+            <td>
+                <b>
+                    ci: get last alpha package version from npm
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We currently use the commit number, but this is incorrect as the number will be reset to 0 again when the next minor version is released.
+
+E.g. instead of the tag `alpha.347` it will now be `0.2.0-alpha.12`.
+
+Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-31 10:44:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/610" class=".btn">#610</a>
             </td>
             <td>
