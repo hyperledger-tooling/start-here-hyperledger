@@ -64,33 +64,3 @@ Building off of discussions from  #13
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/12" class=".btn">#12</a>
-            </td>
-            <td>
-                <b>
-                    Ethconnect Support w/ Smart Contract Registration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds support for deploying ethconnect alongside Firefly. 
-
-TODO:
-- [x] @hfuss Please see my question about splitting the persistent volumes.
-- [x] Needs to be tested. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-23 19:12:15 +0000 UTC
-    </div>
-</div>
-
