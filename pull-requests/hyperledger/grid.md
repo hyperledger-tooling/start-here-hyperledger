@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1275" class=".btn">#1275</a>
+            </td>
+            <td>
+                <b>
+                    Fix product XSD location
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                On docker build, puts the product xsd file in /var/lib/grid/...
+instead of /usr/share/grid/...
+
+Resolves an issue in which the data validation could not find the
+file.
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-31 18:14:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1274" class=".btn">#1274</a>
             </td>
             <td>

@@ -120,29 +120,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/290" class=".btn">#290</a>
-            </td>
-            <td>
-                <b>
-                    Add CLI man pages from 0.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds the man pages for 0.3 to the /0.3/references/ section and adds entries for each additional man page in the `cli_references` page
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-24 15:01:14 +0000 UTC
-    </div>
-</div>
-

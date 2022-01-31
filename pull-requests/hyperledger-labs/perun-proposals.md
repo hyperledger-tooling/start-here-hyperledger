@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-proposals
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-proposals/pull/16" class=".btn">#16</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-proposals/pull/18" class=".btn">#18</a>
             </td>
             <td>
                 <b>
-                    005: Wire Encoding Abstraction
+                    Mechanism for generating proposal ID
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/perun-proposals
                 
             </td>
             <td>
-                This proposal refers to the possibility to exchange the custom serialization format used in the `wire/net.Bus` for another format.
+                This proposal documents the mechanism for generating proposal ID implemented in
+[go-perun PR#167](https://github.com/hyperledger-labs/go-perun/issues/167) and the rationale behind it.
 
-If the goal is to also let another serialization framework, like protobuf, handle the transport layer, then this can already be achieved by today's `wire.Bus` or `wire/net.Bus` abstractions.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-27 14:54:03 +0000 UTC
+        Created At 2022-01-31 15:23:31 +0000 UTC
     </div>
 </div>
 

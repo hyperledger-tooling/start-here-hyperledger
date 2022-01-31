@@ -14,6 +14,94 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/608" class=".btn">#608</a>
+            </td>
+            <td>
+                <b>
+                    DRAFT Feature/k8s e2e test with cert manager DO NOT MERGE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+DO NOT MERGE - THIS IS A DRAFT PR
+
+Testing some E2E / CI script runs on Azure.
+
+This build incorporates cert-manager.io as a Kube-native provider of TLS certificates for the test network.  TLS certificates are issued with cert-manager, and MSP certificates are issued with the Fabric-CA.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-31 17:36:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/607" class=".btn">#607</a>
+            </td>
+            <td>
+                <b>
+                    Minor improvement to test network docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also fix the version of prometheus and grafana being used
+to ensure the queries remain compatible as well as avoid
+issues whether they may not work if latest images already
+exist on machine but are not at a level that will work
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-31 13:38:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/606" class=".btn">#606</a>
+            </td>
+            <td>
+                <b>
+                    Convert comments to tsdoc in REST sample
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-31 12:48:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/605" class=".btn">#605</a>
             </td>
             <td>
@@ -27,11 +115,22 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                DO NOT MERGE 
+                This PR adds a CI test case to run an E2E validation of the basic-asset-transfer chaincode and Gateway application on the Kubernetes Test Network.  This suite exercise only ONE test case, primarily as an exercise in validating the mechanics  of running the Kube Test Network on an Azure image.  After the mechanics of running on Azure have been worked out, additional tests can follow, both for additional Fabric routines (e.g. Commercial Paper) and new container orchestration runtimes (e.g. containerd / podman / nerdctl / etc.) 
 
-This PR adds an Azure test suite to run the basic asset transfer sample application on the Kubernetes Test Network.
+The suite runs a complete E2E, including: 
 
-I am using this branch / PR to troubleshoot / debug the Azure pipeline.  DO NOT MERGE. 
+- Creates a KIND Kubernetes cluster and Nginx ingress controller.
+
+- Configures the Kubernetes Test Network (3 org: 2x peers/org + 3x orderers) using JFrog / STABLE tag Fabric images.
+
+- Compiles and deploys asset-transfer-basic/chaincode-external Chaincode-as-a-Service.
+
+- Creates a localhost:7051 -> service/org1-peer1:7051 port forward.
+
+- Compiles and runs the application-gateway-typescript example on the host OS.
+
+- Tears down the port-forward, Test Network, KIND cluster, and scrubs chaincode docker images.
+
 
 Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
             </td>
@@ -238,34 +337,6 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-01-26 09:54:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/595" class=".btn">#595</a>
-            </td>
-            <td>
-                <b>
-                    ERC20 Java chaincode implementation exmaple.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: renjithkn@gmail.com <renjithkn@gmail.com>
-
-This is an example of ERC20 token standard Java chaincode implementation.  The functionality is the same as the existing go and nodejs ERC20 chaincode.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-24 16:56:44 +0000 UTC
     </div>
 </div>
 
