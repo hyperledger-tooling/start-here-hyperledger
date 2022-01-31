@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/649" class=".btn">#649</a>
+            </td>
+            <td>
+                <b>
+                    Fix invalid llvm IR
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                LLVM permits invalid IR in many cases, which llc or llvm-dis does not permit.
+
+Fixes #641 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-31 10:05:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/648" class=".btn">#648</a>
             </td>
             <td>
