@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/546" class=".btn">#546</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/549" class=".btn">#549</a>
             </td>
             <td>
                 <b>
-                    Revert to snapshot publishing following release
+                    Main fix issue 548
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                Hey folks, this is a rolling PR for now as I still need to write a proper test for this and actually run it locally.. 
+
+So far I have just adapted some of what I monkey-patched the JS with to get it done with some additional TS goodies.
+
+I created an additional TS definition for the constant `commitResponse` (`CommitResponse`) which helps provide a pretty clean solution to the potential problem where `commitResponse` is undefined as outlined in my recently filed issue #548.
+
+Update: set to draft status for now to reflect its state.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-19 09:26:33 +0000 UTC
+        Created At 2022-01-31 19:47:36 +0000 UTC
     </div>
 </div>
 

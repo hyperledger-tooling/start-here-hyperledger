@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-community-management-tool
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/69" class=".btn">#69</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/70" class=".btn">#70</a>
             </td>
             <td>
                 <b>
-                    Update repos
+                    Add action to run project reports on demand
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-community-management-tool
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-07 00:09:23 +0000 UTC
+        Created At 2022-01-31 23:15:33 +0000 UTC
     </div>
 </div>
 
