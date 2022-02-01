@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/188" class=".btn">#188</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/189" class=".btn">#189</a>
             </td>
             <td>
                 <b>
-                    Rename Nifty lab to Neferti
+                    Rename image to match markdown
                 </b>
             </td>
         </tr>
@@ -27,13 +27,13 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Signed-off-by: Vipin Bharathan <vipinsun@gmail.com>
-Signed-off-by: Ry Jones <ry@linux.com>
+                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-22 20:52:26 +0000 UTC
+        Created At 2022-01-31 19:31:29 +0000 UTC
     </div>
 </div>
 
