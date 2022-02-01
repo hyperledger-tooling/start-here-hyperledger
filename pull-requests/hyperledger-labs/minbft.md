@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/230" class=".btn">#230</a>
+                PR <a href="https://github.com/hyperledger-labs/minbft/pull/232" class=".btn">#232</a>
             </td>
             <td>
                 <b>
-                    View change message handling
+                    NewView message handling prep 1: client state extensions
                 </b>
             </td>
         </tr>
@@ -31,16 +31,16 @@ permalink: /pull-requests/hyperledger-labs/minbft
 
 <!-- describe the purpose of the pull request, as well as its benefits
      and possible concerns related to the proposed changes -->
-This pull request implements handling of the ViewChange message type.
+This pull request extends the client state representation with additional functionality required for view change implementation.
 
 <!-- and reference any issues resolved by the pull request, e.g. #123 -->
-Resolves: #178 
+Related to #179
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-17 17:54:49 +0000 UTC
+        Created At 2022-02-01 17:03:02 +0000 UTC
     </div>
 </div>
 

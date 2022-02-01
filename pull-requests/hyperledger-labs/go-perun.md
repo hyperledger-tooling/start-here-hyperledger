@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                <nil>
+                Closes #308 
             </td>
         </tr>
     </table>
@@ -71,34 +71,6 @@ Closes #301.
     </table>
     <div class="right-align">
         Created At 2022-01-27 14:26:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/306" class=".btn">#306</a>
-            </td>
-            <td>
-                <b>
-                    :boom: Channel.Update/ForceUpdate: updater no longer returns error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Related to #155 
-
-Instead of changing the API drastically, improve documentation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-25 16:51:50 +0000 UTC
     </div>
 </div>
 

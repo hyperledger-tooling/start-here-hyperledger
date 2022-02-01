@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/108" class=".btn">#108</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/109" class=".btn">#109</a>
             </td>
             <td>
                 <b>
-                    Full tx proof
+                    Add SetClusterConfig method
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                 Added utility to verify all tx proof parts - merkle tree and ledger connectivity
+                - Add SetClusterConfig method in order to allow the full range of config changes.
+- Also UpdateCAConfig method to allow easy updates to CA config.
+
+Raft parameters are not exposed with their own method, but they can be updated using the
+SetClusterConfig method.
+
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 10:09:57 +0000 UTC
+        Created At 2022-02-01 15:39:22 +0000 UTC
     </div>
 </div>
 

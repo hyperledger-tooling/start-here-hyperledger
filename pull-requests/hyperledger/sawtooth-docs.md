@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/177" class=".btn">#177</a>
+            </td>
+            <td>
+                <b>
+                    Update Remaining 1.2 Sysadmin guide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-01 18:09:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/176" class=".btn">#176</a>
+            </td>
+            <td>
+                <b>
+                    Fix Markdown in some CLI docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-01 15:36:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/175" class=".btn">#175</a>
             </td>
             <td>
@@ -44,7 +96,7 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
             </td>
             <td>
                 <b>
-                    1.2: Remove PoET from Sidebar and update Identity and Smallbak TP specs
+                    1.2: Remove PoET from Sidebar and update Identity and Smallbank TP specs
                 </b>
             </td>
         </tr>
