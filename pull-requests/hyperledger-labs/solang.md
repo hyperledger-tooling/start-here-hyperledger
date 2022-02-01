@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/652" class=".btn">#652</a>
+            </td>
+            <td>
+                <b>
+                    Permit assembly keywords in solidity and vice versa
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This ensures that `switch`, `default`, `case`, and `leave` are permitted in solidity, and that `return` is permitted in assembly.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-01 09:41:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/651" class=".btn">#651</a>
             </td>
             <td>
@@ -126,32 +152,6 @@ Fixes #641
     </table>
     <div class="right-align">
         Created At 2022-01-28 17:06:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/647" class=".btn">#647</a>
-            </td>
-            <td>
-                <b>
-                    Make solana testsuite work on testnet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-25 11:09:46 +0000 UTC
     </div>
 </div>
 

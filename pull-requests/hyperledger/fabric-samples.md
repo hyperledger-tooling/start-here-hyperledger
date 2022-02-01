@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/609" class=".btn">#609</a>
+            </td>
+            <td>
+                <b>
+                    Update test-network to use org level ca-cert.pem
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Although test network scripts functionally worked, they demonstrated
+some strange patterns around use of the ca cert.
+
+This change makes it clear that the ca cert is configured and used
+at the org level, and not related to any individual peer or orderer node.
+Also that when connecting to individual servers, clients can pass the
+org level CA cert as the root of trust when establishing TLS connections.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-01 08:16:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/608" class=".btn">#608</a>
             </td>
             <td>
