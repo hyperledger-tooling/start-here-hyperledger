@@ -15,26 +15,26 @@ permalink: /releases/hyperledger/indy-sdk-react-native
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.1.19
+                    Release 0.1.20
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.1.19
+                    0.1.20
                 </span>
             </td>
             <td>
-                * fix(ios): prover delete credential should return void (#31) (f5453b9)
+                * feat: revocation types & revocation verification (#32) (4125e85)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.1.19" class=".btn">
+    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.1.20" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-01-13 10:34:43 +0000 UTC
+        Created At 2022-02-01 09:51:04 +0000 UTC
     </span>
 </div>
 
