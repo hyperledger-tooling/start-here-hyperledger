@@ -275,32 +275,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3194" class=".btn">#3194</a>
-            </td>
-            <td>
-                <b>
-                    Clarify paths in core.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Clarify whether paths in core.yaml may be absolute or relative.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-26 17:17:21 +0000 UTC
-    </div>
-</div>
-

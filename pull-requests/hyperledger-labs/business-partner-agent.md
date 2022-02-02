@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/707" class=".btn">#707</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/709" class=".btn">#709</a>
             </td>
             <td>
                 <b>
-                    send mesages on event
+                    adding arm support to the build pipeline
                 </b>
             </td>
         </tr>
@@ -29,14 +29,14 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
             <td>
                 Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
 
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/707"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/709"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-24 17:27:28 +0000 UTC
+        Created At 2022-02-02 15:12:33 +0000 UTC
     </div>
 </div>
 
