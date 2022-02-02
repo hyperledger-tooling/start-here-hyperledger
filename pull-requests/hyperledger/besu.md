@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3331" class=".btn">#3331</a>
+            </td>
+            <td>
+                <b>
+                    Update besu-native to 0.4.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger/besu-native/releases/tag/0.4.3
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-27 05:21:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3330" class=".btn">#3330</a>
             </td>
             <td>

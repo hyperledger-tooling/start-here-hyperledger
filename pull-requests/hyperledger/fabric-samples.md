@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/614" class=".btn">#614</a>
+            </td>
+            <td>
+                <b>
+                    further grafana dashboard improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - removed unused overrides
+- addressed issue using $__interval which doesn't work as well as $interval
+- addressed issue where multiple channels may not give correct output
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 09:43:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/612" class=".btn">#612</a>
             </td>
             <td>
@@ -388,44 +417,6 @@ Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-01-26 19:37:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/596" class=".btn">#596</a>
-            </td>
-            <td>
-                <b>
-                    Experimental Support for using podman with the test-network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Podman support
-
-A copy of the `install_fabric.sh` script is in the `test-network` directory. This has been enhanced to support a `podman` argument; if used it will use `podman` to pull down images and tag them rather than docker. The images are the same, but need to pulled differently.
-
-The `network.sh` script has been enhanced so that it can use `podman` and `podman-compose` instead of docker. Ensure that `CONTAINER_CLI` is set as below when running anet `network.sh` script. 
-
-```bash
-CONTAINER_CLI=podman ./network.sh up
-````
-
-As there is no Docker-Daemon in this context, only Chaincode-as-a-service is supported.
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-26 09:54:18 +0000 UTC
     </div>
 </div>
 
