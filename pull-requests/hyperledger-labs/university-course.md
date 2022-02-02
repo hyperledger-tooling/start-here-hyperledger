@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/university-course
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/university-course/pull/63" class=".btn">#63</a>
+                PR <a href="https://github.com/hyperledger-labs/university-course/pull/67" class=".btn">#67</a>
             </td>
             <td>
                 <b>
-                    chore(deps): bump marked from 1.1.1 to 4.0.10 in /support/Lab05/chaincode
+                    chore(deps): bump json-schema from 0.2.3 to 0.4.0 in /support/Lab06/b4s/organization/university/utils
                 </b>
             </td>
         </tr>
@@ -27,73 +27,27 @@ permalink: /pull-requests/hyperledger-labs/university-course
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [marked](https://github.com/markedjs/marked) from 1.1.1 to 4.0.10.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/markedjs/marked/releases">marked's releases</a>.</em></p>
-<blockquote>
-<h2>v4.0.10</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.9...v4.0.10">4.0.10</a> (2022-01-13)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li><strong>security:</strong> fix redos vulnerabilities (<a href="https://github.com/markedjs/marked/commit/8f806573a3f6c6b7a39b8cdb66ab5ebb8d55a5f5">8f80657</a>)</li>
-</ul>
-<h2>v4.0.9</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.8...v4.0.9">4.0.9</a> (2022-01-06)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>retain line breaks in tokens properly (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2341">#2341</a>) (<a href="https://github.com/markedjs/marked/commit/a9696e28989c0bea2077885bab1844525e18a031">a9696e2</a>)</li>
-</ul>
-<h2>v4.0.8</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.7...v4.0.8">4.0.8</a> (2021-12-19)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>spaces on a newline after a table (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2319">#2319</a>) (<a href="https://github.com/markedjs/marked/commit/f82ea2cf1be0a3ad3337bcafe1c4dd3182334bb9">f82ea2c</a>)</li>
-</ul>
-<h2>v4.0.7</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.6...v4.0.7">4.0.7</a> (2021-12-09)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>Fix every third list item broken (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2318">#2318</a>) (<a href="https://github.com/markedjs/marked/commit/346b162bb787d3b7fb1d4879c859f64155c6ca3c">346b162</a>), closes <a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2314">#2314</a></li>
-</ul>
-<h2>v4.0.6</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.5...v4.0.6">4.0.6</a> (2021-12-02)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>speed up parsing long lists (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2302">#2302</a>) (<a href="https://github.com/markedjs/marked/commit/e0005d8232a08827f5e99b8b35b09728b2b07503">e0005d8</a>)</li>
-</ul>
-<h2>v4.0.5</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.4...v4.0.5">4.0.5</a> (2021-11-25)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>table after paragraph without blank line (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2298">#2298</a>) (<a href="https://github.com/markedjs/marked/commit/5714212afd4a9ee0864fff70bad034f7c0842a3c">5714212</a>)</li>
-</ul>
-<h2>v4.0.4</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.3...v4.0.4">4.0.4</a> (2021-11-19)</h2>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
+                Bumps [json-schema](https://github.com/kriszyp/json-schema) from 0.2.3 to 0.4.0.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/markedjs/marked/commit/ae01170085e89ccd85c233547011eb88420a90cf"><code>ae01170</code></a> chore(release): 4.0.10 [skip ci]</li>
-<li><a href="https://github.com/markedjs/marked/commit/fceda573673d7fb00a5e89476a0328d4ecdb7cb7"><code>fceda57</code></a> 🗜️ build [skip ci]</li>
-<li><a href="https://github.com/markedjs/marked/commit/8f806573a3f6c6b7a39b8cdb66ab5ebb8d55a5f5"><code>8f80657</code></a> fix(security): fix redos vulnerabilities</li>
-<li><a href="https://github.com/markedjs/marked/commit/c4a3ccd344b6929afa8a1d50ac54a721e57012c0"><code>c4a3ccd</code></a> Merge pull request from GHSA-rrrm-qjm4-v8hf</li>
-<li><a href="https://github.com/markedjs/marked/commit/d7212a63841a581de54899c20943627f6aa5dbda"><code>d7212a6</code></a> chore(deps-dev): Bump jasmine from 4.0.0 to 4.0.1 (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2352">#2352</a>)</li>
-<li><a href="https://github.com/markedjs/marked/commit/5a84db5598030890052d27961cc4c8f5eb353df2"><code>5a84db5</code></a> chore(deps-dev): Bump rollup from 2.62.0 to 2.63.0 (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2350">#2350</a>)</li>
-<li><a href="https://github.com/markedjs/marked/commit/2bc67a5285800008b6dba4d716e6656e5d4ec55f"><code>2bc67a5</code></a> chore(deps-dev): Bump markdown-it from 12.3.0 to 12.3.2 (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2351">#2351</a>)</li>
-<li><a href="https://github.com/markedjs/marked/commit/98996b853c1b62ba6177c4453ee44f5de42619c9"><code>98996b8</code></a> chore(deps-dev): Bump <code>@​babel/preset-env</code> from 7.16.5 to 7.16.7 (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2353">#2353</a>)</li>
-<li><a href="https://github.com/markedjs/marked/commit/ebc2c953e7e8bafb6fa7e2792142dcbfbe959f15"><code>ebc2c95</code></a> chore(deps-dev): Bump highlight.js from 11.3.1 to 11.4.0 (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2354">#2354</a>)</li>
-<li><a href="https://github.com/markedjs/marked/commit/e5171a996d8a8a581c756eefb03fde25f68ffb8f"><code>e5171a9</code></a> chore(release): 4.0.9 [skip ci]</li>
-<li>Additional commits viewable in <a href="https://github.com/markedjs/marked/compare/v1.1.1...v4.0.10">compare view</a></li>
+<li><a href="https://github.com/kriszyp/json-schema/commit/f6f6a3b02d667aa4ba2d5d50cc19208c4462abfa"><code>f6f6a3b</code></a> Use a little more robust method of checking instances</li>
+<li><a href="https://github.com/kriszyp/json-schema/commit/ef60987a9a14b9d9c739384460044ba53cd9b9a2"><code>ef60987</code></a> Update version</li>
+<li><a href="https://github.com/kriszyp/json-schema/commit/b62f1da1ff5442f23443d6be6a92d00e65cba93a"><code>b62f1da</code></a> Protect against constructor modification, <a href="https://github-redirect.dependabot.com/kriszyp/json-schema/issues/84">#84</a></li>
+<li><a href="https://github.com/kriszyp/json-schema/commit/fb427cd4d175684786e4b2538718e72453e825e9"><code>fb427cd</code></a> Link to json-schema-org repository in addition to site, fixes <a href="https://github-redirect.dependabot.com/kriszyp/json-schema/issues/54">#54</a></li>
+<li><a href="https://github.com/kriszyp/json-schema/commit/22f146111f541d9737e832823699ad3528ca7741"><code>22f1461</code></a> Don't allow <strong>proto</strong> property to be used for schema default/coerce, fixes <a href="https://github-redirect.dependabot.com/kriszyp/json-schema/issues/84">#84</a></li>
+<li><a href="https://github.com/kriszyp/json-schema/commit/c52a27c653428149e4f9fb776d5e110d04639a9c"><code>c52a27c</code></a> Get basic test to pass</li>
+<li><a href="https://github.com/kriszyp/json-schema/commit/b3f42b3331608fe83b6cc267c5fc513ec1b839ed"><code>b3f42b3</code></a> Add security policy</li>
+<li><a href="https://github.com/kriszyp/json-schema/commit/3b0cec3042a5aac5c967fd43475f5edc4c5b6eff"><code>3b0cec3</code></a> Update version</li>
+<li><a href="https://github.com/kriszyp/json-schema/commit/c28470f2d64bace29c73d140f9c6876e3c3a9fef"><code>c28470f</code></a> Update readme to acknowledge the state of the package</li>
+<li><a href="https://github.com/kriszyp/json-schema/commit/7dff9cd2c35c31ff3c43fa4e38737c94283dd3d3"><code>7dff9cd</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kriszyp/json-schema/issues/81">#81</a> from hodovani/patch-1</li>
+<li>Additional commits viewable in <a href="https://github.com/kriszyp/json-schema/compare/v0.2.3...v0.4.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=marked&package-manager=npm_and_yarn&previous-version=1.1.1&new-version=4.0.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=json-schema&package-manager=npm_and_yarn&previous-version=0.2.3&new-version=0.4.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -129,7 +83,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-15 02:57:02 +0000 UTC
+        Created At 2022-02-01 21:35:03 +0000 UTC
     </div>
 </div>
 
@@ -137,11 +91,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/university-course/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger-labs/university-course/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    chore(deps): bump marked from 1.1.1 to 4.0.10 in /support/Lab06/chaincode
+                    chore(deps): bump lodash from 4.17.15 to 4.17.21 in /support/Lab06/b4s/organization/university/utils
                 </b>
             </td>
         </tr>
@@ -150,73 +104,31 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [marked](https://github.com/markedjs/marked) from 1.1.1 to 4.0.10.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/markedjs/marked/releases">marked's releases</a>.</em></p>
-<blockquote>
-<h2>v4.0.10</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.9...v4.0.10">4.0.10</a> (2022-01-13)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li><strong>security:</strong> fix redos vulnerabilities (<a href="https://github.com/markedjs/marked/commit/8f806573a3f6c6b7a39b8cdb66ab5ebb8d55a5f5">8f80657</a>)</li>
-</ul>
-<h2>v4.0.9</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.8...v4.0.9">4.0.9</a> (2022-01-06)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>retain line breaks in tokens properly (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2341">#2341</a>) (<a href="https://github.com/markedjs/marked/commit/a9696e28989c0bea2077885bab1844525e18a031">a9696e2</a>)</li>
-</ul>
-<h2>v4.0.8</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.7...v4.0.8">4.0.8</a> (2021-12-19)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>spaces on a newline after a table (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2319">#2319</a>) (<a href="https://github.com/markedjs/marked/commit/f82ea2cf1be0a3ad3337bcafe1c4dd3182334bb9">f82ea2c</a>)</li>
-</ul>
-<h2>v4.0.7</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.6...v4.0.7">4.0.7</a> (2021-12-09)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>Fix every third list item broken (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2318">#2318</a>) (<a href="https://github.com/markedjs/marked/commit/346b162bb787d3b7fb1d4879c859f64155c6ca3c">346b162</a>), closes <a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2314">#2314</a></li>
-</ul>
-<h2>v4.0.6</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.5...v4.0.6">4.0.6</a> (2021-12-02)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>speed up parsing long lists (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2302">#2302</a>) (<a href="https://github.com/markedjs/marked/commit/e0005d8232a08827f5e99b8b35b09728b2b07503">e0005d8</a>)</li>
-</ul>
-<h2>v4.0.5</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.4...v4.0.5">4.0.5</a> (2021-11-25)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>table after paragraph without blank line (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2298">#2298</a>) (<a href="https://github.com/markedjs/marked/commit/5714212afd4a9ee0864fff70bad034f7c0842a3c">5714212</a>)</li>
-</ul>
-<h2>v4.0.4</h2>
-<h2><a href="https://github.com/markedjs/marked/compare/v4.0.3...v4.0.4">4.0.4</a> (2021-11-19)</h2>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
+                Bumps [lodash](https://github.com/lodash/lodash) from 4.17.15 to 4.17.21.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/markedjs/marked/commit/ae01170085e89ccd85c233547011eb88420a90cf"><code>ae01170</code></a> chore(release): 4.0.10 [skip ci]</li>
-<li><a href="https://github.com/markedjs/marked/commit/fceda573673d7fb00a5e89476a0328d4ecdb7cb7"><code>fceda57</code></a> 🗜️ build [skip ci]</li>
-<li><a href="https://github.com/markedjs/marked/commit/8f806573a3f6c6b7a39b8cdb66ab5ebb8d55a5f5"><code>8f80657</code></a> fix(security): fix redos vulnerabilities</li>
-<li><a href="https://github.com/markedjs/marked/commit/c4a3ccd344b6929afa8a1d50ac54a721e57012c0"><code>c4a3ccd</code></a> Merge pull request from GHSA-rrrm-qjm4-v8hf</li>
-<li><a href="https://github.com/markedjs/marked/commit/d7212a63841a581de54899c20943627f6aa5dbda"><code>d7212a6</code></a> chore(deps-dev): Bump jasmine from 4.0.0 to 4.0.1 (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2352">#2352</a>)</li>
-<li><a href="https://github.com/markedjs/marked/commit/5a84db5598030890052d27961cc4c8f5eb353df2"><code>5a84db5</code></a> chore(deps-dev): Bump rollup from 2.62.0 to 2.63.0 (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2350">#2350</a>)</li>
-<li><a href="https://github.com/markedjs/marked/commit/2bc67a5285800008b6dba4d716e6656e5d4ec55f"><code>2bc67a5</code></a> chore(deps-dev): Bump markdown-it from 12.3.0 to 12.3.2 (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2351">#2351</a>)</li>
-<li><a href="https://github.com/markedjs/marked/commit/98996b853c1b62ba6177c4453ee44f5de42619c9"><code>98996b8</code></a> chore(deps-dev): Bump <code>@​babel/preset-env</code> from 7.16.5 to 7.16.7 (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2353">#2353</a>)</li>
-<li><a href="https://github.com/markedjs/marked/commit/ebc2c953e7e8bafb6fa7e2792142dcbfbe959f15"><code>ebc2c95</code></a> chore(deps-dev): Bump highlight.js from 11.3.1 to 11.4.0 (<a href="https://github-redirect.dependabot.com/markedjs/marked/issues/2354">#2354</a>)</li>
-<li><a href="https://github.com/markedjs/marked/commit/e5171a996d8a8a581c756eefb03fde25f68ffb8f"><code>e5171a9</code></a> chore(release): 4.0.9 [skip ci]</li>
-<li>Additional commits viewable in <a href="https://github.com/markedjs/marked/compare/v1.1.1...v4.0.10">compare view</a></li>
+<li><a href="https://github.com/lodash/lodash/commit/f299b52f39486275a9e6483b60a410e06520c538"><code>f299b52</code></a> Bump to v4.17.21</li>
+<li><a href="https://github.com/lodash/lodash/commit/c4847ebe7d14540bb28a8b932a9ce1b9ecbfee1a"><code>c4847eb</code></a> Improve performance of <code>toNumber</code>, <code>trim</code> and <code>trimEnd</code> on large input strings</li>
+<li><a href="https://github.com/lodash/lodash/commit/3469357cff396a26c363f8c1b5a91dde28ba4b1c"><code>3469357</code></a> Prevent command injection through <code>_.template</code>'s <code>variable</code> option</li>
+<li><a href="https://github.com/lodash/lodash/commit/ded9bc66583ed0b4e3b7dc906206d40757b4a90a"><code>ded9bc6</code></a> Bump to v4.17.20.</li>
+<li><a href="https://github.com/lodash/lodash/commit/63150ef7645ac07961b63a86490f419f356429aa"><code>63150ef</code></a> Documentation fixes.</li>
+<li><a href="https://github.com/lodash/lodash/commit/00f0f62a979d2f5fa0287c06eae70cf9a62d8794"><code>00f0f62</code></a> test.js: Remove trailing comma.</li>
+<li><a href="https://github.com/lodash/lodash/commit/846e434c7a5b5692c55ebf5715ed677b70a32389"><code>846e434</code></a> Temporarily use a custom fork of <code>lodash-cli</code>.</li>
+<li><a href="https://github.com/lodash/lodash/commit/5d046f39cbd27f573914768e3b36eeefcc4f1229"><code>5d046f3</code></a> Re-enable Travis tests on <code>4.17</code> branch.</li>
+<li><a href="https://github.com/lodash/lodash/commit/aa816b36d402a1ad9385142ce7188f17dae514fd"><code>aa816b3</code></a> Remove <code>/npm-package</code>.</li>
+<li><a href="https://github.com/lodash/lodash/commit/d7fbc52ee0466a6d248f047b5d5c3e6d1e099056"><code>d7fbc52</code></a> Bump to v4.17.19</li>
+<li>Additional commits viewable in <a href="https://github.com/lodash/lodash/compare/4.17.15...4.17.21">compare view</a></li>
 </ul>
+</details>
+<details>
+<summary>Maintainer changes</summary>
+<p>This version was pushed to npm by <a href="https://www.npmjs.com/~bnjmnt4n">bnjmnt4n</a>, a new releaser for lodash since your current version.</p>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=marked&package-manager=npm_and_yarn&previous-version=1.1.1&new-version=4.0.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=lodash&package-manager=npm_and_yarn&previous-version=4.17.15&new-version=4.17.21)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -252,7 +164,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-15 02:55:43 +0000 UTC
+        Created At 2022-02-01 21:34:06 +0000 UTC
     </div>
 </div>
 

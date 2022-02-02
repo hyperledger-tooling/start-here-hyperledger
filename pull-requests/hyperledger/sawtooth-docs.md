@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/178" class=".btn">#178</a>
+            </td>
+            <td>
+                <b>
+                    Fix Lint in FAQ
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-01 22:51:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/177" class=".btn">#177</a>
             </td>
             <td>

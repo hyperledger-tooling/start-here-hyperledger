@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/311" class=".btn">#311</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/312" class=".btn">#312</a>
             </td>
             <td>
                 <b>
-                    Fix Doc: Type of args in invokeChaincode() is string[]
+                    add missing bracket
                 </b>
             </td>
         </tr>
@@ -27,17 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                stub.invokeChaincode() receives a parameter `args` which is
-a string array having arguments to pass to the called chaicode.
-However, the current document explains the `args` is byte[][].
-This PR fixes the document issue above.
-
-Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
+                This simple PR adds a missing bracket to an example presented in the Tutorial
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 01:18:15 +0000 UTC
+        Created At 2022-02-01 18:20:56 +0000 UTC
     </div>
 </div>
 
