@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-dataexchange-https
         <tr>
             <td colspan="2">
                 <b>
-                    v0.10.2
+                    v0.10.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.10.2
+                    v0.10.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Configurable JSON parser limit by @gabriel-indik in https://github.com/hyperledger/firefly-dataexchange-https/pull/51
+* No response end when piping by @gabriel-indik in https://github.com/hyperledger/firefly-dataexchange-https/pull/52
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.10.1...v0.10.2
+**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.10.2...v0.10.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.10.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.10.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-01-06 20:23:31 +0000 UTC
+        Created At 2022-02-01 17:34:15 +0000 UTC
     </span>
 </div>
 
