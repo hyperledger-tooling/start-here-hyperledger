@@ -108,8 +108,9 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
             </td>
             <td>
                 One deployment
-One service
-Three persistent volumes
+One service - checked only with Docker Desktop
+One persistent volume claim
+Certificates and configurations passed as secrets and secret mapped to volumes
 
 Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
             </td>

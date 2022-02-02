@@ -14,6 +14,119 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/620" class=".btn">#620</a>
+            </td>
+            <td>
+                <b>
+                    Run Go Gateway events sample in CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 17:16:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/619" class=".btn">#619</a>
+            </td>
+            <td>
+                <b>
+                    Fixes to TypeScript asset-transfer-events to match Go sample
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Changed:
+- Console output formatting
+- Transaction arguments
+- Readability and comments of code
+- Linting rules
+- Missing semicolons
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 17:06:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/618" class=".btn">#618</a>
+            </td>
+            <td>
+                <b>
+                    updating readme with all samples
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Readme table was missing samples
+
+Signed-off-by: Kieran O Mahony <Kieran.O.Mahony1@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 15:48:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/615" class=".btn">#615</a>
+            </td>
+            <td>
+                <b>
+                    DRAFT PR - DO NOT MERGE - Merge/k8s cert manager azure test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Testing the Azure CI builds on a merge branch with this PR. 
+
+DO NOT MERGE 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 12:37:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/614" class=".btn">#614</a>
             </td>
             <td>
@@ -77,7 +190,7 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
             </td>
             <td>
                 <b>
-                    [WIP] Add REST sample to CI
+                    Add REST sample to CI
                 </b>
             </td>
         </tr>
@@ -256,32 +369,6 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-01-28 18:03:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/604" class=".btn">#604</a>
-            </td>
-            <td>
-                <b>
-                    Podman nerdctl experiement - DO NOT MERGE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-28 16:15:11 +0000 UTC
     </div>
 </div>
 
