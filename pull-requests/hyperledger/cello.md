@@ -100,33 +100,3 @@ Signed-off-by: tianxuanhong1 <523713078@qq.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/394" class=".btn">#394</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-393] implement lifecycle_approve_for_my_org function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                implement lifecycle_approve_for_my_org function
-
-Close #393
-
-Signed-off-by: tianxuanhong1 <523713078@qq.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-26 02:33:38 +0000 UTC
-    </div>
-</div>
-
