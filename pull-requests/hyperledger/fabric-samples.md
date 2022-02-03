@@ -99,34 +99,6 @@ Signed-off-by: Kieran O Mahony <Kieran.O.Mahony1@ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/615" class=".btn">#615</a>
-            </td>
-            <td>
-                <b>
-                    DRAFT PR - DO NOT MERGE - Merge/k8s cert manager azure test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Testing the Azure CI builds on a merge branch with this PR. 
-
-DO NOT MERGE 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 12:37:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/614" class=".btn">#614</a>
             </td>
             <td>
@@ -478,32 +450,6 @@ Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-01-27 07:45:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/597" class=".btn">#597</a>
-            </td>
-            <td>
-                <b>
-                    Asset transfer events Go sample for Fabric Gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-26 19:37:06 +0000 UTC
     </div>
 </div>
 
