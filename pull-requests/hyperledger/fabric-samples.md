@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/624" class=".btn">#624</a>
+            </td>
+            <td>
+                <b>
+                    Add credentials
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 12:03:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/620" class=".btn">#620</a>
             </td>
             <td>
@@ -395,61 +421,6 @@ Also changed the event replay code to use a different style of reading from the 
     </table>
     <div class="right-align">
         Created At 2022-01-27 12:27:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/599" class=".btn">#599</a>
-            </td>
-            <td>
-                <b>
-                    fix a bug in function [getBlockByNumber]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This bug can lead to users can't change target peer to send query operations.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 11:45:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/598" class=".btn">#598</a>
-            </td>
-            <td>
-                <b>
-                    Fix CHAINCODE_AS_A_SERVICE_TUTORIAL.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes several typos and more importantly add an instruction to
-set FABRIC_CFG_PATH without which the peer command fails.
-
-Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 07:45:18 +0000 UTC
     </div>
 </div>
 

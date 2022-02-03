@@ -90,34 +90,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/328" class=".btn">#328</a>
-            </td>
-            <td>
-                <b>
-                    Simple kubernetes deployment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                One deployment
-One service - checked only with Docker Desktop
-One persistent volume claim
-Certificates and configurations passed as secrets and secret mapped to volumes
-
-Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 10:22:57 +0000 UTC
-    </div>
-</div>
-
