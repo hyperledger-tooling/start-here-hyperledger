@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/213" class=".btn">#213</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/216" class=".btn">#216</a>
             </td>
             <td>
                 <b>
-                    mod update
+                    idemix: adding cache
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-14 07:33:42 +0000 UTC
+        Created At 2022-02-03 08:01:00 +0000 UTC
     </div>
 </div>
 

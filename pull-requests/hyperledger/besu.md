@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3342" class=".btn">#3342</a>
+            </td>
+            <td>
+                <b>
+                    Eliminate connect to self
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prevent connecting to self enode.
+
+See #2689 and #3322
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-28 05:10:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3341" class=".btn">#3341</a>
             </td>
             <td>
@@ -132,45 +164,6 @@ Merge `main` into `merge`
     </table>
     <div class="right-align">
         Created At 2022-01-27 20:02:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3333" class=".btn">#3333</a>
-            </td>
-            <td>
-                <b>
-                    Add ec-curve parameter public key export/export-address subcommands
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-- Add ec-curve parameter public key export/export-address subcommands
-- Defaults to secp256k1
-- Support secp256k1 and secp256r1
-- Added a log message when creating a key with the selected ec curve name 
-
-Note: due to the static initialization of the SignatureAlgorithmFactory, we need to ensure that its setup happens before any other key-related operation. This is why I have added it as the first instruction in the `run()` method in the subcommands.
-
-## Fixed Issue(s)
-fixes #3206 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 09:46:12 +0000 UTC
     </div>
 </div>
 

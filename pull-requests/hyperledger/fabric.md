@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3208" class=".btn">#3208</a>
+            </td>
+            <td>
+                <b>
+                    Update the install-fabric script & docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add podman to install-fabric script
+- Add documentation on this script
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 10:04:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3207" class=".btn">#3207</a>
             </td>
             <td>
