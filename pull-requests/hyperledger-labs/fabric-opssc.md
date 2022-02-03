@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/22" class=".btn">#22</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/23" class=".btn">#23</a>
             </td>
             <td>
                 <b>
-                    fix(agent): Mask git credentials in error messages for chaincode_ops
+                    fix(agent): Fix a bug in which unparseable endorsement policies are not rejected
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
                 
             </td>
             <td>
-                Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
+                In the current version, the default channel policy would be unintentionally set if the proposed endorsement policy cannot be parsed. This patch corrects this bug.
+
+Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 04:24:28 +0000 UTC
+        Created At 2022-02-03 00:27:33 +0000 UTC
     </div>
 </div>
 
