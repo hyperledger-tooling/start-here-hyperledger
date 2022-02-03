@@ -64,29 +64,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/329" class=".btn">#329</a>
-            </td>
-            <td>
-                <b>
-                    New leader with in-flight blocks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">replication</span>
-            </td>
-            <td>
-                When a new leader is elected, we have to prevent new proposals until it commits all the in-flight blocks.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 13:17:33 +0000 UTC
-    </div>
-</div>
-
