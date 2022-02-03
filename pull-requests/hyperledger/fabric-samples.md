@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/627" class=".btn">#627</a>
+            </td>
+            <td>
+                <b>
+                    sync ports for operations endpoint with main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Ports for the operations endpoint seems different between the main branch and the 2.2 branch... need to sync so that consumer code can reference is consistently between releases.
+
+Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 17:55:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/626" class=".btn">#626</a>
+            </td>
+            <td>
+                <b>
+                    Update samples to use published fabric-rest-sample
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 14:58:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/625" class=".btn">#625</a>
+            </td>
+            <td>
+                <b>
+                    go port to token-erc-721
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matias Salimbene <matias.salimbene@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 13:49:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/624" class=".btn">#624</a>
             </td>
             <td>
@@ -367,60 +447,6 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-01-28 18:03:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/601" class=".btn">#601</a>
-            </td>
-            <td>
-                <b>
-                    Fix markdown logical structure in asset-transfer-events/README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fenced code blocks within a list were at the wrong level if indentation and so logically terminated the list.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 17:05:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/600" class=".btn">#600</a>
-            </td>
-            <td>
-                <b>
-                    Refactor of asset transfer events Go sample for Fabric Gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Split boiler-plate connection code into a separate file since the basic sample already covers this aspect. The `app.go` file now only presents the main application code, making it much easier for readers to view.
-
-Also changed the event replay code to use a different style of reading from the real-time eventing example, demonstrating the use of timeouts while reading events we expect to arrive quickly, and avoiding any possibility of the main application execution hanging indefinitely.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 12:27:35 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/12" class=".btn">#12</a>
+            </td>
+            <td>
+                <b>
+                    impl for traffic generator as Tape, resolve #7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                impl for traffic generator as Tape, resolve #7
+
+Signed-off-by: Sam Yuan <yy19902439@126.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 14:49:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/11" class=".btn">#11</a>
             </td>
             <td>

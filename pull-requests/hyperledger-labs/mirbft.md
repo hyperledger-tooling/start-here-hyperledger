@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/91" class=".btn">#91</a>
+            </td>
+            <td>
+                <b>
+                    Fixing the broken rebase
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 17:39:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/mirbft/pull/90" class=".btn">#90</a>
             </td>
             <td>

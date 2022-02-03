@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-community-management-tool
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/71" class=".btn">#71</a>
+            </td>
+            <td>
+                <b>
+                    Avalon is EOL
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 15:40:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/70" class=".btn">#70</a>
             </td>
             <td>
