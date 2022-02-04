@@ -43,29 +43,3 @@ Signed-off-by: Wade Barnes <wade@neoterictech.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2475" class=".btn">#2475</a>
-            </td>
-            <td>
-                <b>
-                    Update the version of Rust used in the workflows.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Wade Barnes <wade@neoterictech.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 18:36:09 +0000 UTC
-    </div>
-</div>
-

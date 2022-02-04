@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/124" class=".btn">#124</a>
+            </td>
+            <td>
+                <b>
+                    update ports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+
+#### Type of change
+
+Update ports to match Fabric samples 2.2 
+https://github.com/hyperledger/fabric-samples/pull/627
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 22:38:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/122" class=".btn">#122</a>
             </td>
             <td>
@@ -81,41 +112,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     </table>
     <div class="right-align">
         Created At 2022-01-31 20:55:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/120" class=".btn">#120</a>
-            </td>
-            <td>
-                <b>
-                    allowing editing of msp field on imported comps
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- this allows users to edit the `msp` field
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 18:29:17 +0000 UTC
     </div>
 </div>
 
