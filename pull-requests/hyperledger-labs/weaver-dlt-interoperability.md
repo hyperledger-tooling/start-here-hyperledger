@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/189" class=".btn">#189</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/200" class=".btn">#200</a>
             </td>
             <td>
                 <b>
-                    Zero day exploit patch
+                    Asset transfer inteop mode implementation for Corda
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                <nil>
+                Changes include:
+(1) Interop app changes for asset pledge, remote asset claim and asset re-claim transactions
+(2) SDK changes for asset-transfer transactions
+(3) Simple Asset CorDapp changes (in the application and cli)
+(4) Fungible house token CorDapp changes (in the application and cli)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-14 08:26:50 +0000 UTC
+        Created At 2022-02-04 08:31:45 +0000 UTC
     </div>
 </div>
 

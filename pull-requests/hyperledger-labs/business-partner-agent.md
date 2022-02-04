@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/710" class=".btn">#710</a>
+            </td>
+            <td>
+                <b>
+                    fix v2 credentials not being shown in wallet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/710"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-04 11:43:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/709" class=".btn">#709</a>
             </td>
             <td>
