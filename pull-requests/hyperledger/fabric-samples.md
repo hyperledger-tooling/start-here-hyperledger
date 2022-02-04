@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/629" class=".btn">#629</a>
+            </td>
+            <td>
+                <b>
+                    Update REST sample with Redis password
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-04 12:01:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/628" class=".btn">#628</a>
             </td>
             <td>
