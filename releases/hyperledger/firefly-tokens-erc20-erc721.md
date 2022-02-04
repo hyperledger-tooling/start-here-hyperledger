@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
         <tr>
             <td colspan="2">
                 <b>
+                    v0.1.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.1.5
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Fixing Readiness Endpoint Check by @hfuss in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/23
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v0.1.4...v0.1.5
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v0.1.5" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-02-03 23:31:02 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.1.4
                 </b>
             </td>
