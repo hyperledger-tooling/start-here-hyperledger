@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2478" class=".btn">#2478</a>
+            </td>
+            <td>
+                <b>
+                    Add Ubuntu install example.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-04 14:34:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-sdk/pull/2477" class=".btn">#2477</a>
             </td>
             <td>
