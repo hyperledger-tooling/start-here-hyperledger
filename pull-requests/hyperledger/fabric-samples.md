@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/630" class=".btn">#630</a>
+            </td>
+            <td>
+                <b>
+                    DRAFT:Secured agreement samples using gateway
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-04 12:42:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/629" class=".btn">#629</a>
             </td>
             <td>
@@ -456,49 +482,6 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-01-31 12:48:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/605" class=".btn">#605</a>
-            </td>
-            <td>
-                <b>
-                    Run basic-asset-transfer on the Kubernetes Test Network in an Azure CI pipeline 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a CI test case to run an E2E validation of the basic-asset-transfer chaincode and Gateway application on the Kubernetes Test Network.  This suite exercise only ONE test case, primarily as an exercise in validating the mechanics  of running the Kube Test Network on an Azure image.  After the mechanics of running on Azure have been worked out, additional tests can follow, both for additional Fabric routines (e.g. Commercial Paper) and new container orchestration runtimes (e.g. containerd / podman / nerdctl / etc.) 
-
-The suite runs a complete E2E, including: 
-
-- Creates a KIND Kubernetes cluster and Nginx ingress controller.
-
-- Configures the Kubernetes Test Network (3 org: 2x peers/org + 3x orderers) using JFrog / STABLE tag Fabric images.
-
-- Compiles and deploys asset-transfer-basic/chaincode-external Chaincode-as-a-Service.
-
-- Creates a localhost:7051 -> service/org1-peer1:7051 port forward.
-
-- Compiles and runs the application-gateway-typescript example on the host OS.
-
-- Tears down the port-forward, Test Network, KIND cluster, and scrubs chaincode docker images.
-
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-28 18:03:57 +0000 UTC
     </div>
 </div>
 
