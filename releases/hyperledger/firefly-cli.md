@@ -15,36 +15,33 @@ permalink: /releases/hyperledger/firefly-cli
         <tr>
             <td colspan="2">
                 <b>
-                    v0.0.41
+                    v0.0.42
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.0.41
+                    v0.0.42
                 </span>
             </td>
             <td>
-                ## Changelog
-
-* 745b3cd Fix payload for config endpoint (#126)
-* 96d9846 Merge pull request #130 from hyperledger/tokens-ethconnect
-* e049098 Merge pull request #132 from kaleido-io/dbevents-buffersize
-* ee87bb8 Merge pull request #133 from kaleido-io/prom_img_name
-* dbe9c43 Remove deprecated tokens ETHCONNECT_IDENTITY param
-* 913e989 [dbevents-buffersize] adding EventConfig for firefly_config generator
-* d2e40b8 [prom_img_name] adding stack name in front of prometheus container name #131
+                ## What's Changed
+* version Command by @hfuss in https://github.com/hyperledger/firefly-cli/pull/135
+* Support multiple token connectors in a stack, with ERC20/ERC721 by @peterbroadhurst in https://github.com/hyperledger/firefly-cli/pull/137
+* [add-back-prom] adding back prometheus by @eberger727 in https://github.com/hyperledger/firefly-cli/pull/138
+* [default-connector] default token provider is erc1155 by @eberger727 in https://github.com/hyperledger/firefly-cli/pull/140
 
 
+**Full Changelog**: https://github.com/hyperledger/firefly-cli/compare/v0.0.41...v0.0.42
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.41" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.42" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-01-06 17:09:47 +0000 UTC
+        Created At 2022-02-04 17:00:29 +0000 UTC
     </span>
 </div>
 
