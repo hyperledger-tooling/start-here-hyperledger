@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/354" class=".btn">#354</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/357" class=".btn">#357</a>
             </td>
             <td>
                 <b>
-                    Build separate wawaka contract common library
+                    Make building wawaka common library configurable
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 
             </td>
             <td>
-                This PR changes contract-build.cmake to build a static library from `contracts/wawaka/common` that can be linked into any wawaka contract instead of building the common contract code with every individual contract.
+                Extends PR from @marcelamelara to separate contract compilation from building the common wawaka contract library. This should make it easier for others to build/extend the library.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-03 19:28:30 +0000 UTC
+        Created At 2022-02-04 22:02:27 +0000 UTC
     </div>
 </div>
 

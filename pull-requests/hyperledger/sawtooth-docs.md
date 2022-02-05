@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/161" class=".btn">#161</a>
+            </td>
+            <td>
+                <b>
+                    1.2 Update markdown for add/remove PBFT nodes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the markdown for the doc "Adding or Removing a PBFT Node".
+
+It also adds a placeholder for a file that has not yet been moved.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-31 17:54:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/160" class=".btn">#160</a>
             </td>
             <td>
@@ -278,35 +307,6 @@ Signed-off-by: Shawn T. Amundson <amundson@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-01-31 15:10:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/150" class=".btn">#150</a>
-            </td>
-            <td>
-                <b>
-                    Remove unused community core/1.2 docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The community section has already been converted and
-most of these files were empty.
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-28 22:09:03 +0000 UTC
     </div>
 </div>
 
