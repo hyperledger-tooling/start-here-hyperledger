@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/216" class=".btn">#216</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/218" class=".btn">#218</a>
             </td>
             <td>
                 <b>
-                    pkg/fab/ccpackager/javapackager: fix bug in findSoucrce
+                    fix a bug on windows which will cause install chaincode failure
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                Relpath of "META-INF/xxx" could be longer than folderpath, then filepath will be incomplete.
+                when deploy on windows,this bug will cause install chaincode failure,this commit fix it.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-27 07:32:59 +0000 UTC
+        Created At 2022-02-05 17:04:02 +0000 UTC
     </div>
 </div>
 
