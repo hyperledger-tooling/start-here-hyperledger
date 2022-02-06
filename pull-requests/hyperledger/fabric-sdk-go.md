@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/218" class=".btn">#218</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/219" class=".btn">#219</a>
             </td>
             <td>
                 <b>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                when deploy on windows,this bug will cause install chaincode failure,this commit fix it.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-05 17:04:02 +0000 UTC
+        Created At 2022-02-06 01:26:02 +0000 UTC
     </div>
 </div>
 
