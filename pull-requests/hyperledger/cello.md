@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/400" class=".btn">#400</a>
+            </td>
+            <td>
+                <b>
+                    Remove hardcode for publishing ports of HLF nodes. 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since we are using the docker network instead, mapping ports from hosts
+is no longer necessary here. I remove these lines of code in this pr.
+
+Fix #377 
+
+Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-05 19:57:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/399" class=".btn">#399</a>
             </td>
             <td>

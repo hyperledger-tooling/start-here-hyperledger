@@ -1,5 +1,5 @@
 
-[218](https://github.com/hyperledger/fabric-sdk-go/pull/218) fix a bug on windows which will cause install chaincode failure
+[400](https://github.com/hyperledger/cello/pull/400) Remove hardcode for publishing ports of HLF nodes. 
 
 [401](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/401) build(deps): bump simple-get from 2.8.1 to 2.8.2 in /utility-emissions-channel/typescript_app
 
