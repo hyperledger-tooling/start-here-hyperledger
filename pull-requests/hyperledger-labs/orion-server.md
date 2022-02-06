@@ -38,29 +38,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/331" class=".btn">#331</a>
-            </td>
-            <td>
-                <b>
-                    Data race in replication unit tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">replication</span><span class="chip">testing</span>
-            </td>
-            <td>
-                Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-30 13:43:47 +0000 UTC
-    </div>
-</div>
-
