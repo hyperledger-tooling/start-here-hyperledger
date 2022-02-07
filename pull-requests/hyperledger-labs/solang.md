@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/659" class=".btn">#659</a>
+            </td>
+            <td>
+                <b>
+                    Implement solana AccountMeta builtin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should make it possible to use spl-token
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-07 15:12:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/657" class=".btn">#657</a>
             </td>
             <td>
@@ -117,71 +143,6 @@ Fixes #654
     </table>
     <div class="right-align">
         Created At 2022-02-01 09:41:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/651" class=".btn">#651</a>
-            </td>
-            <td>
-                <b>
-                    Allow comparisons between bytes32 and 0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The constant 0 can be implicitly converted to a fixed-bytes value, so
-the following statement should be allowed:
-
-function foo(bytes4 bs) public returns (bool) {
-	return bs > 0;
-}
-
-Found in the example code of #643
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-31 17:25:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/650" class=".btn">#650</a>
-            </td>
-            <td>
-                <b>
-                    Permit larger type to be used as a value
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                value or balance is uint128 on ewasm and substrate, and uint64 on
-solana. Lots of existing solidity code uses uint256, so permit this but
-insert checks and warn about it.
-
-Fixes #632 
-Replaces #637 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-31 13:44:33 +0000 UTC
     </div>
 </div>
 
