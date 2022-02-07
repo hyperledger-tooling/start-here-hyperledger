@@ -14,6 +14,100 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3217" class=".btn">#3217</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in orderer.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Fix typo
+
+- Documentation update
+
+Signed-off-by Muhammad Anas Baig <anasbaigmughal@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-07 16:48:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3216" class=".btn">#3216</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in orderer.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Fix typo
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-07 15:55:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3215" class=".btn">#3215</a>
+            </td>
+            <td>
+                <b>
+                    Fix gossip unit test flake
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Increasing the timeout in the gossip service unit tests appears to reduce the occurence of the flake that we frequently observe.
+
+This should be seen as a tactical fix while the underlying cause is investigated.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-07 14:52:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3214" class=".btn">#3214</a>
             </td>
             <td>
