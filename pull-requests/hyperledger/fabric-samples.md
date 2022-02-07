@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 <b>
-                    DRAFT:Secured agreement samples using gateway
+                    Secured agreement samples using gateway
                 </b>
             </td>
         </tr>
