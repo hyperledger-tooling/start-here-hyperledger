@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/491" class=".btn">#491</a>
+            </td>
+            <td>
+                <b>
+                    Fix fabric event timestamp parsing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 03:27:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/490" class=".btn">#490</a>
+            </td>
+            <td>
+                <b>
+                    Fix group to be constant throughout test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix for #487 
+
+Note rename of `restclient.go` to `restclient_test.go` is to allow it to share `testState`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 03:13:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/488" class=".btn">#488</a>
             </td>
             <td>

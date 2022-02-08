@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/316" class=".btn">#316</a>
+            </td>
+            <td>
+                <b>
+                    Add missing tests for sync msg serialization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - These tests were missing.
+
+Signed-off-by: Manoranjith <ponraj.manoranjitha@in.bosch.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 05:57:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/315" class=".btn">#315</a>
             </td>
             <td>
