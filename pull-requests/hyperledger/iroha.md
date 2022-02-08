@@ -93,7 +93,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [feature] #767: Wasm limit memory
+                    [feature] #1767: Wasm limit memory
                 </b>
             </td>
         </tr>
