@@ -15,28 +15,43 @@ permalink: /releases/hyperledger/aries-vcx
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.29.0
+                    Release 0.30.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.29.0
+                    0.30.0
                 </span>
             </td>
             <td>
                 #
 
-## [0.29.0](https://github.com/hyperledger/aries-vcx/tree/0.29.0) (2022-01-26)
+## [0.30.0](https://github.com/hyperledger/aries-vcx/tree/0.30.0) (2022-02-08)
 
 ### Breaking changes
 
-- Agency client async API [\#423](https://github.com/hyperledger/aries-vcx/pull/423)
+- Refactor credential definition code, separate rotation and publishing… [\#429](https://github.com/hyperledger/aries-vcx/pull/429)
 
 ### Enhancements
 
-- Add support for OOB messages with DID as service value [\#428](https://github.com/hyperledger/aries-vcx/pull/428)
+- Out of Band 1.1 handshake reuse protocol [\#438](https://github.com/hyperledger/aries-vcx/pull/438)
+- Validate DIDs on Did struct creation [\#435](https://github.com/hyperledger/aries-vcx/pull/435)
+
+### Hotfixes
+
+- Fallback thread id comparison to pthid [\#413](https://github.com/hyperledger/aries-vcx/pull/413)
+
+### Refactoring
+
+- Refactor - reuse aries-vcx errors definitions [\#437](https://github.com/hyperledger/aries-vcx/pull/437)
+- Separate aries protocols and wrapping handlers [\#436](https://github.com/hyperledger/aries-vcx/pull/436)
+- Remove unused rev\_reg\_ids cache [\#434](https://github.com/hyperledger/aries-vcx/pull/434)
+
+### Updates
+
+- Update tokio and libc [\#432](https://github.com/hyperledger/aries-vcx/pull/432)
 
 
 
@@ -44,11 +59,11 @@ permalink: /releases/hyperledger/aries-vcx
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.29.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.30.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-01-26 00:09:33 +0000 UTC
+        Created At 2022-02-08 15:23:54 +0000 UTC
     </span>
 </div>
 
