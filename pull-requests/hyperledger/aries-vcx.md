@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/436" class=".btn">#436</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/438" class=".btn">#438</a>
             </td>
             <td>
                 <b>
-                    Separate aries protocols and wrapping handlers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-29 22:45:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/435" class=".btn">#435</a>
-            </td>
-            <td>
-                <b>
-                    Validate DIDs on Did struct creation
+                    Out of Band 1.1 handshake reuse protocol
                 </b>
             </td>
         </tr>
@@ -53,92 +27,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                Partially addresses #430 .
-
-Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-28 10:52:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/434" class=".btn">#434</a>
-            </td>
-            <td>
-                <b>
-                    Remove unused rev_reg_ids cache
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-28 10:30:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/432" class=".btn">#432</a>
-            </td>
-            <td>
-                <b>
-                    Update tokio and libc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">update</span>
-            </td>
-            <td>
                 Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 21:52:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/431" class=".btn">#431</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.29.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">changelog-excluded</span>
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-25 16:14:13 +0000 UTC
+        Created At 2022-02-01 10:58:32 +0000 UTC
     </div>
 </div>
 

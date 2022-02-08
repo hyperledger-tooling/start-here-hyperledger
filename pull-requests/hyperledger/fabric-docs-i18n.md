@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/645" class=".btn">#645</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/646" class=".btn">#646</a>
             </td>
             <td>
                 <b>
-                    RU fixing short title underlines
+                    RU upgrading your components
                 </b>
             </td>
         </tr>
@@ -32,59 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 12:23:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/644" class=".btn">#644</a>
-            </td>
-            <td>
-                <b>
-                    RU upgrade to the newest version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-26 12:18:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/643" class=".btn">#643</a>
-            </td>
-            <td>
-                <b>
-                    RU readwrite
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-26 10:56:31 +0000 UTC
+        Created At 2022-02-01 17:14:48 +0000 UTC
     </div>
 </div>
 

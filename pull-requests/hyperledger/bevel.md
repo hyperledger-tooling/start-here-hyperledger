@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1825" class=".btn">#1825</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1831" class=".btn">#1831</a>
             </td>
             <td>
                 <b>
-                    [docs] updated roadmap
+                    [chore] Merge develop to main
                 </b>
             </td>
         </tr>
@@ -27,16 +27,13 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Update roadmap
-
+                **Changelog**
+- merge latest dev to main
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-31 11:49:56 +0000 UTC
+        Created At 2022-02-03 16:43:13 +0000 UTC
     </div>
 </div>
 
@@ -44,42 +41,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1821" class=".btn">#1821</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1830" class=".btn">#1830</a>
             </td>
             <td>
                 <b>
-                    [quorum] Fixed enode error and vulnerabilities
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
-
-**Changelog**
-- Update npm packages to fix vulnerabilities
-- Fix error when generating enode info in Quorum
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-28 18:46:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1819" class=".btn">#1819</a>
-            </td>
-            <td>
-                <b>
-                    [shared] separate workflow files for images
+                    [shared] update documentation links
                 </b>
             </td>
         </tr>
@@ -91,16 +57,13 @@ permalink: /pull-requests/hyperledger/bevel
                 Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
 
 **Changelog**
-- Add separate workflow file for Corda and Quorum
-- Update docker build 
-- Rename the workflows
-
+- Fix readthedocs links
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-27 12:58:45 +0000 UTC
+        Created At 2022-02-03 14:46:11 +0000 UTC
     </div>
 </div>
 
@@ -108,82 +71,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1818" class=".btn">#1818</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1829" class=".btn">#1829</a>
             </td>
             <td>
                 <b>
-                    [docs] fixed a link issue in docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Fix link issue in docs
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 05:55:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1817" class=".btn">#1817</a>
-            </td>
-            <td>
-                <b>
-                    [skip ci] Peer pvc as volumeclaimtemplates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Update peer PVC to use volume claim template, making it consistent for StatefulSet
-
- 
-
-**Reviewed by**
-@jagpreetsinghsasan 
-
- 
-
-**Linked issue**
-#1717 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-25 09:37:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1816" class=".btn">#1816</a>
-            </td>
-            <td>
-                <b>
-                    [corda-ent] Ensured successful storage of crypto materials in vault
+                    [corda-ent] Updated documents to include cenm-console integration
                 </b>
             </td>
         </tr>
@@ -195,24 +87,53 @@ permalink: /pull-requests/hyperledger/bevel
                 Signed-off-by: surabhi-dudhediya <surabhi.dudhediya@accenture.com>
 
 **Changelog**
-- Add logic to check successful storage of crypto materials in vault
-- Fix creation of float certificates using pki tool, aws-auth role for float deployment
+- Add operations guide for cenm-console integration
+- Update corda-ent configuration and charts documents to include cenm-console integration services
 
  
 
 **Reviewed by**
-@suvajit-sarkar @jagpreetsinghsasan @sownak 
+@suvajit-sarkar @sownak 
 
  
 
 **Linked issue**
-#1759 
+#1794 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 09:28:11 +0000 UTC
+        Created At 2022-02-03 10:58:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1828" class=".btn">#1828</a>
+            </td>
+            <td>
+                <b>
+                    [chore] merge develop to main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Merge develop to main for release
+
+Issue #1795 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 09:27:58 +0000 UTC
     </div>
 </div>
 

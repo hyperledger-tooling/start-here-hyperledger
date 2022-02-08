@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/57" class=".btn">#57</a>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/62" class=".btn">#62</a>
             </td>
             <td>
                 <b>
-                    Update CI ubuntu to 20.04
+                    Request for maintainer status
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
                 
             </td>
             <td>
-                Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-04 17:35:59 +0000 UTC
+        Created At 2022-02-03 09:01:11 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/54" class=".btn">#54</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/55" class=".btn">#55</a>
             </td>
             <td>
                 <b>
-                    Strip unrecognized inputs in class-validator (rather than erroring)
+                    Alter formatting of blockchain event IDs to match FireFly core
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-19 01:41:56 +0000 UTC
+        Created At 2022-02-01 20:34:33 +0000 UTC
     </div>
 </div>
 

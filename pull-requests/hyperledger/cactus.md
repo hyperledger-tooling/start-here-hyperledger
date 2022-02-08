@@ -14,25 +14,30 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1822" class=".btn">#1822</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1839" class=".btn">#1839</a>
             </td>
             <td>
                 <b>
-                    Johnhomantaring/issue1373
+                    ci: fix CodeQL security scans
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
             </td>
             <td>
-                Fixes #1373
+                - Moved the file to the correct directory
+- Pinned the runner version to Ubuntu 20.04
+
+Fixes #1836
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-31 11:19:20 +0000 UTC
+        Created At 2022-02-05 02:49:23 +0000 UTC
     </div>
 </div>
 
@@ -40,27 +45,82 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1821" class=".btn">#1821</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1838" class=".btn">#1838</a>
             </td>
             <td>
                 <b>
-                    docs: changes to BUILD.md and CONTRIBUTING.md #1792
+                    build(deps): bump node-fetch from 2.6.6 to 2.6.7
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                fixes: #1792
+                Bumps [node-fetch](https://github.com/node-fetch/node-fetch) from 2.6.6 to 2.6.7.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/node-fetch/node-fetch/releases">node-fetch's releases</a>.</em></p>
+<blockquote>
+<h2>v2.6.7</h2>
+<h1>Security patch release</h1>
+<p>Recommended to upgrade, to not leak sensitive cookie and authentication header information to 3th party host while a redirect occurred</p>
+<h2>What's Changed</h2>
+<ul>
+<li>fix: don't forward secure headers to 3th party by <a href="https://github.com/jimmywarting"><code>@​jimmywarting</code></a> in <a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/pull/1453">node-fetch/node-fetch#1453</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/node-fetch/node-fetch/compare/v2.6.6...v2.6.7">https://github.com/node-fetch/node-fetch/compare/v2.6.6...v2.6.7</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/node-fetch/node-fetch/commit/1ef4b560a17e644a02a3bfdea7631ffeee578b35"><code>1ef4b56</code></a> backport of <a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1449">#1449</a> (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1453">#1453</a>)</li>
+<li><a href="https://github.com/node-fetch/node-fetch/commit/8fe5c4ea66b9b8187600e6d5ec9b1b6781f44009"><code>8fe5c4e</code></a> 2.x: Specify encoding as an optional peer dependency in package.json (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1310">#1310</a>)</li>
+<li>See full diff in <a href="https://github.com/node-fetch/node-fetch/compare/v2.6.6...v2.6.7">compare view</a></li>
+</ul>
+</details>
+<br />
 
-Signed-off-by: ruzell22 <ruzell.vince.aquino@accenture.com>
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=node-fetch&package-manager=npm_and_yarn&previous-version=2.6.6&new-version=2.6.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cactus/network/alerts).
+
+</details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-31 11:19:15 +0000 UTC
+        Created At 2022-02-04 06:24:41 +0000 UTC
     </div>
 </div>
 
@@ -68,25 +128,72 @@ Signed-off-by: ruzell22 <ruzell.vince.aquino@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1820" class=".btn">#1820</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1837" class=".btn">#1837</a>
             </td>
             <td>
                 <b>
-                    fix(security): address CVE-2021-23337
+                    build(deps): bump simple-get from 2.8.1 to 2.8.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Fixes #1778
+                Bumps [simple-get](https://github.com/feross/simple-get) from 2.8.1 to 2.8.2.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/feross/simple-get/commit/4e156b6bb19e11ccfad05fad310ea799d63f890d"><code>4e156b6</code></a> 2.8.2</li>
+<li><a href="https://github.com/feross/simple-get/commit/43c272db3e4b1383cb03d80338dba3e08c451641"><code>43c272d</code></a> Bug fix: Thirdparty cookie leak</li>
+<li>See full diff in <a href="https://github.com/feross/simple-get/compare/v2.8.1...v2.8.2">compare view</a></li>
+</ul>
+</details>
+<details>
+<summary>Maintainer changes</summary>
+<p>This version was pushed to npm by <a href="https://www.npmjs.com/~linusu">linusu</a>, a new releaser for simple-get since your current version.</p>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=simple-get&package-manager=npm_and_yarn&previous-version=2.8.1&new-version=2.8.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cactus/network/alerts).
+
+</details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 07:55:35 +0000 UTC
+        Created At 2022-02-04 06:24:31 +0000 UTC
     </div>
 </div>
 
@@ -94,32 +201,34 @@ Signed-off-by: ruzell22 <ruzell.vince.aquino@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1819" class=".btn">#1819</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1835" class=".btn">#1835</a>
             </td>
             <td>
                 <b>
-                    1776: Regular-Expression-Denial-of-Service-in-mime
+                    test: jestify plugin-keychain-memory test
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Tests</span><span class="chip">Jestify</span>
             </td>
             <td>
-                Affected versions of mime are vulnerable to regular expression denial of service when a mime lookup is performed on untrusted user input.
+                
+Migrated test from Tap to Jest.
 
-Action Applied:
-Updated to version 3.
+File Path:
+packages/cactus-plugin-keychain-memory/src/
+test/typescript/unit/plugin-keychain-memory.test.ts
 
-![mime](https://user-images.githubusercontent.com/55821921/151470107-a2f6678a-83a5-4745-bc98-e34b51718c58.png)
-![mime3 0](https://user-images.githubusercontent.com/55821921/151470114-c7ba5cb6-c366-41e1-b006-87b4a8b8275a.png)
+This is a PARTIAL resolution to issue https://github.com/hyperledger/cactus/issues/238
 
+Signed-off-by: awadhana <awadhana2021@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 01:18:30 +0000 UTC
+        Created At 2022-02-03 14:25:25 +0000 UTC
     </div>
 </div>
 
@@ -127,36 +236,56 @@ Updated to version 3.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1818" class=".btn">#1818</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1834" class=".btn">#1834</a>
             </td>
             <td>
                 <b>
-                    refactor(cmd-socket-server, cartrade): use cmd-socket-server as a module 
+                    test(common): fix assertion of signature equality
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependent</span>
+                <span class="chip">bug</span><span class="chip">Tests</span>
             </td>
             <td>
-                - Add module exports to cmd-socket-server, change it's usage in cartrade sample app.
-- Cleanup redundant imports in cartrade.
-- Add new method of starting `cmd-socket-server` with BLP (like cartrade) - `startCactusSocketIOServer` call.
-- Old way of copying `BLP_config` is still supported, so other samples should work without a change.
+                Fixes #1833
 
-Closes: #1817
+Depends on #1686 (The jestification PR)
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 22:24:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1832" class=".btn">#1832</a>
+            </td>
+            <td>
+                <b>
+                    chore(contribs): remove unused Fujitsu-ConnectionChain
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">ConnectionChain</span><span class="chip">dependencies</span><span class="chip">Security</span>
+            </td>
+            <td>
+                Closes: #1831
 Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-
-More details in the issue description.
-
-Depends on #1813
-- actually, it depends on one of the previous commits, but I don't want to introduce complex dependency graph and I "chain" them one after another :)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-27 15:15:12 +0000 UTC
+        Created At 2022-02-02 15:32:41 +0000 UTC
     </div>
 </div>
 
@@ -164,25 +293,29 @@ Depends on #1813
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1816" class=".btn">#1816</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1830" class=".btn">#1830</a>
             </td>
             <td>
                 <b>
-                    fix(security): address CVE-2021-23358
+                    refactor(socketio-validators): remove dead-code, fix error handling
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Fabric</span><span class="chip">Developer_Experience</span>
             </td>
             <td>
-                fixes: #1775 
+                - Remove unused code from socketio validators
+- Fix error handling so that thrown object doesn't need `toString()` method defined (we convert to string representation with `String()` now)
+
+Closes: #1829
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-27 09:39:48 +0000 UTC
+        Created At 2022-02-02 15:24:49 +0000 UTC
     </div>
 </div>
 
@@ -190,27 +323,31 @@ Depends on #1813
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1814" class=".btn">#1814</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1828" class=".btn">#1828</a>
             </td>
             <td>
                 <b>
-                    test: fix htlc eth besu initialize-endpoint-invalid
+                    test(api-client): fix flaky verifier-integration-with-openapi-connectors
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Flaky-Test-Automation</span><span class="chip">Tests</span>
             </td>
             <td>
-                Closes #1684
+                Use global jest timeout for verifier-integration-with-openapi-connectors
+functional test. It's 60 minutes at the moment, should be enough for
+docker based test. Increase timeout in verifier unit test to handle
+possible failures.
 
-Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
+Closes: #1827
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 12:07:58 +0000 UTC
+        Created At 2022-02-02 10:33:59 +0000 UTC
     </div>
 </div>
 
@@ -218,11 +355,40 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1813" class=".btn">#1813</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1826" class=".btn">#1826</a>
             </td>
             <td>
                 <b>
-                    refactor(indy-testnet) improve setup and tools of indy-testnet
+                    build(examples): bump log4js from 3.0.6 to 6.4.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">Security</span>
+            </td>
+            <td>
+                Update log4js in packages not handled by dependabot
+
+Closes: #1825
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-01 16:03:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1824" class=".btn">#1824</a>
+            </td>
+            <td>
+                <b>
+                    refactor(cartrade): dockerize discounted-catrade
                 </b>
             </td>
         </tr>
@@ -231,34 +397,19 @@ Signed-off-by: Elena Izaguirre <e.izaguirre.equiza@accenture.com>
                 <span class="chip">dependent</span>
             </td>
             <td>
-                This is a step before moving discounted-cartrade into container.
+                - Move duplicated app for getting etherum balance to common location in tools.
+- Use cmd-socketio-server module imports instead of relative paths in discounted-cartrade.
+- Add docker-compose setup to discounted-cartrade sample app, update scripts.
+- Clean-up indy-testnet, leave only network setup in it.
+- Move nginx proxy and validator setup to discounted-cartrade sample (it's more related to possible bussiness usage than core validator / indy functionality).
+- Update README documentation for all affectd indy and discounted-cartrade components.
 
-I've divided this PR into two commits for clarity. First one changes the logic and code, second is reorganization of different indy-testnet components (I've moved them around a little). If they were in single commit it'd be hard to follow the changes, I think :)
-
-Documentation for components affected by this commit is outdated now, I'll update it after I finish my changes on them.
-
-Depends on #1800
-
-Depends on #1806
-
-## refactor(indy-testnet) improve setup and tools of indy-testnet 
-- `req_discounted_cartrade.py` - reuse proof when possible, add new flags to force new proof generation and to ignore discounted-cartrade request to simplify tests, put this tool into container.
-- `testsock.js` - fix formatting, add missing package, use new validator address (nginx).
-- Refactor all indy-testnet Dockerfiles according to docker best practices, reduce container size and complexity.
-- Use nginx as a proxy to validator (as documented). 
-
-## refactor(indy-testnet): organize indy-testnet components
-- Move and adjust indy validator Dockerfile from `tools/docker/indy-testnet` to it's sources in `packages-python/cactus_validator_socketio_indy`.
-- Rename indy validator dir from `cactus_validator_socketio` to `cactus_validator_socketio_indy`.
-    - @izuru0 @petermetz What naming convention should be used for python packages? Is proposed name OK (it's based on current naming), or maybe we should use naming from `packages/`, i.e. `cactus-plugin-ledger-connector-indy-socketio`
-- Rename `clientbase` image to `indy-sdk-cli`, move it to separate dir in `tools/docker`.
-- Adjust paths in `indy-testnet` docker-compose, add dependency to start nginx after validator.
-- Commit empty dir `tools/docker/indy-testnet/indy_pool/sandbox` directly to repo, remove redundant setup script.
+Depends on #1818
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 12:03:30 +0000 UTC
+        Created At 2022-02-01 12:59:49 +0000 UTC
     </div>
 </div>
 

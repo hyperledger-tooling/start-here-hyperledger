@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-community-management-tool
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/70" class=".btn">#70</a>
-            </td>
-            <td>
-                <b>
-                    Add action to run project reports on demand
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-31 23:15:33 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/193" class=".btn">#193</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/197" class=".btn">#197</a>
             </td>
             <td>
                 <b>
-                    added new instructions
+                    Iroha-124 Support other endpoint of the peer (`/configure`, `/health`, `/metrics`) 
                 </b>
             </td>
         </tr>
@@ -27,14 +27,17 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                Added new instructions for:
-1)mint public key
-2)change account's metadata
+                The task https://app.zenhub.com/workspaces/iroha-v2-60ddb820813b9100181fc060/issues/hyperledger/iroha-java/124
+
+Change notes:
+- added module `admin-client` with additional API for peer's administration and monitoring
+- moved `@WithIroha` to separate module `test-tools` to make applicable for both `client` and `admin-client`
+- bumped version of Kotlin
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 09:28:52 +0000 UTC
+        Created At 2022-02-05 17:42:10 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +45,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/192" class=".btn">#192</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/196" class=".btn">#196</a>
             </td>
             <td>
                 <b>
-                    iroha2-ci
+                    [DOPS-1561]: Add publish to public nexus repo for Iroha2
                 </b>
             </td>
         </tr>
@@ -55,12 +58,25 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                <nil>
+                # Task
+
+[DOPS-1561]: Add publish to public nexus repo for iroha2
+
+## Changes
+
+1. Add publish to public nexus repo 
+
+## Author
+
+Signed-off-by: Pavel Varfolomeev wpi86@yandex.ru
+
+
+[DOPS-1561]: https://soramitsu.atlassian.net/browse/DOPS-1561
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 12:17:46 +0000 UTC
+        Created At 2022-02-01 04:43:41 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +84,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/190" class=".btn">#190</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/195" class=".btn">#195</a>
             </td>
             <td>
                 <b>
-                    Iroha-187: build separate libraries
+                    Add publish to public nexus repo
                 </b>
             </td>
         </tr>
@@ -81,12 +97,25 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                <nil>
+                # Task
+
+[DOPS-1561]: Add publish to public nexus repo
+
+## Changes
+
+1. Add publish to public nexus repo
+
+## Author
+
+Signed-off-by: Pavel Varfolomeev wpi86@yandex.ru
+
+
+[DOPS-1561]: https://soramitsu.atlassian.net/browse/DOPS-1561
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 06:30:40 +0000 UTC
+        Created At 2022-02-01 04:24:39 +0000 UTC
     </div>
 </div>
 
