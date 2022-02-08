@@ -14,31 +14,27 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/91" class=".btn">#91</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/95" class=".btn">#95</a>
             </td>
             <td>
                 <b>
-                    chore: release @aries-framework/rest 0.7.0
+                    chore: release @aries-framework/rest 0.8.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
+                <span class="chip">autorelease: pending</span>
             </td>
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
 ---
-## [0.7.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.6.1...rest-v0.7.0) (2022-01-04)
+## [0.8.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.7.0...rest-v0.8.0) (2022-02-06)
 
 
-### ⚠ BREAKING CHANGES
+### Features
 
-* update aries framework javascript version to 0.1.0 (#86)
-
-### Miscellaneous Chores
-
-* update aries framework javascript version to 0.1.0 ([#86](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/86)) ([ebaa11a](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ebaa11a8f1c4588b020e870abd092a5813ec28ef))
+* **rest:** add webhooks ([#93](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/93)) ([9fc020d](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/9fc020d7db0f002894e520766987eec327a2ed69))
 ---
 
 
@@ -47,7 +43,7 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-30 16:54:02 +0000 UTC
+        Created At 2022-02-06 15:19:44 +0000 UTC
     </div>
 </div>
 
@@ -55,179 +51,87 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/90" class=".btn">#90</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/94" class=".btn">#94</a>
             </td>
             <td>
                 <b>
-                    chore: release @aries-framework/push-notifications 0.2.0
+                    build(deps): bump node-fetch from 2.2.0 to 2.6.7
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
+                <span class="chip">dependencies</span>
             </td>
             <td>
-                :robot: I have created a release \*beep\* \*boop\*
----
-## [0.2.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/push-notifications-v0.1.1...push-notifications-v0.2.0) (2022-01-04)
-
-
-### ⚠ BREAKING CHANGES
-
-* update aries framework javascript version to 0.1.0 (#86)
-
-### Miscellaneous Chores
-
-* update aries framework javascript version to 0.1.0 ([#86](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/86)) ([ebaa11a](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ebaa11a8f1c4588b020e870abd092a5813ec28ef))
----
-
-
-This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-30 16:53:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/89" class=".btn">#89</a>
-            </td>
-            <td>
-                <b>
-                    chore: release @aries-framework/redux-store 0.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
-            </td>
-            <td>
-                :robot: I have created a release \*beep\* \*boop\*
----
-## [0.2.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/redux-store-v0.1.2...redux-store-v0.2.0) (2022-01-04)
-
-
-### ⚠ BREAKING CHANGES
-
-* update aries framework javascript version to 0.1.0 (#86)
-
-### Miscellaneous Chores
-
-* update aries framework javascript version to 0.1.0 ([#86](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/86)) ([ebaa11a](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ebaa11a8f1c4588b020e870abd092a5813ec28ef))
----
-
-
-This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-30 16:53:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/88" class=".btn">#88</a>
-            </td>
-            <td>
-                <b>
-                    chore: release @aries-framework/react-hooks 0.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
-            </td>
-            <td>
-                :robot: I have created a release \*beep\* \*boop\*
----
-## [0.2.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/react-hooks-v0.1.4...react-hooks-v0.2.0) (2022-01-04)
-
-
-### ⚠ BREAKING CHANGES
-
-* update aries framework javascript version to 0.1.0 (#86)
-
-### Miscellaneous Chores
-
-* update aries framework javascript version to 0.1.0 ([#86](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/86)) ([ebaa11a](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ebaa11a8f1c4588b020e870abd092a5813ec28ef))
----
-
-
-This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-30 16:53:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/87" class=".btn">#87</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump swagger-ui-dist from 4.1.2 to 4.1.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">ci-test</span>
-            </td>
-            <td>
-                Bumps [swagger-ui-dist](https://github.com/swagger-api/swagger-ui) from 4.1.2 to 4.1.3.
+                Bumps [node-fetch](https://github.com/node-fetch/node-fetch) from 2.2.0 to 2.6.7.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/swagger-api/swagger-ui/releases">swagger-ui-dist's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/node-fetch/node-fetch/releases">node-fetch's releases</a>.</em></p>
 <blockquote>
-<h2>Swagger UI v4.1.3 Released!</h2>
-<h2><a href="https://github.com/swagger-api/swagger-ui/compare/v4.1.2...v4.1.3">4.1.3</a> (2021-12-10)</h2>
-<h3>Bug Fixes</h3>
+<h2>v2.6.7</h2>
+<h1>Security patch release</h1>
+<p>Recommended to upgrade, to not leak sensitive cookie and authentication header information to 3th party host while a redirect occurred</p>
+<h2>What's Changed</h2>
 <ul>
-<li><strong>security:</strong> disable reading config params from URL search params (<a href="https://github-redirect.dependabot.com/swagger-api/swagger-ui/issues/7697">#7697</a>) (<a href="https://github.com/swagger-api/swagger-ui/commit/01a3e55960f864a0acf6a8d06e5ddaf6776a7f76">01a3e55</a>), closes <a href="https://github-redirect.dependabot.com/swagger-api/swagger-ui/issues/4872">#4872</a>, security advisory <a href="https://github.com/swagger-api/swagger-ui/security/advisories/GHSA-qrmm-w75w-3wpx">https://github.com/swagger-api/swagger-ui/security/advisories/GHSA-qrmm-w75w-3wpx</a></li>
+<li>fix: don't forward secure headers to 3th party by <a href="https://github.com/jimmywarting"><code>@​jimmywarting</code></a> in <a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/pull/1453">node-fetch/node-fetch#1453</a></li>
 </ul>
-<blockquote>
-<p>Note: to re-enable the functionality of reading config params from URL, set new <code>queryConfigEnabled</code> core parameter to <code>true</code>. More info in <a href="https://github.com/swagger-api/swagger-ui/blob/master/docs/usage/configuration.md#core">documentation</a>.</p>
-</blockquote>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/node-fetch/node-fetch/compare/v2.6.6...v2.6.7">https://github.com/node-fetch/node-fetch/compare/v2.6.6...v2.6.7</a></p>
+<h2>v2.6.6</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>fix(URL): prefer built in URL version when available and fallback to whatwg by <a href="https://github.com/jimmywarting"><code>@​jimmywarting</code></a> in <a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/pull/1352">node-fetch/node-fetch#1352</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/node-fetch/node-fetch/compare/v2.6.5...v2.6.6">https://github.com/node-fetch/node-fetch/compare/v2.6.5...v2.6.6</a></p>
+<h2>v2.6.2</h2>
+<p>fixed main path in package.json</p>
+<h2>v2.6.1</h2>
+<p><strong>This is an important security release. It is strongly recommended to update as soon as possible.</strong></p>
+<p>See <a href="https://github.com/node-fetch/node-fetch/blob/master/docs/CHANGELOG.md#v261">CHANGELOG</a> for details.</p>
+<h2>v2.6.0</h2>
+<p>See <a href="https://github.com/bitinn/node-fetch/blob/v2.6.0/CHANGELOG.md#v260">CHANGELOG</a>.</p>
+<h2>v2.5.0</h2>
+<p>See <a href="https://github.com/bitinn/node-fetch/blob/v2.5.0/CHANGELOG.md#v250">CHANGELOG</a>.</p>
+<h2>v2.4.1</h2>
+<p>See <a href="https://github.com/bitinn/node-fetch/blob/v2.4.1/CHANGELOG.md#v241">CHANGELOG</a>.</p>
+<h2>v2.4.0</h2>
+<p>See <a href="https://github.com/bitinn/node-fetch/blob/v2.4.0/CHANGELOG.md#v240">CHANGELOG</a>.</p>
+<h2>v2.3.0</h2>
+<p>See <a href="https://github.com/bitinn/node-fetch/blob/v2.3.0/CHANGELOG.md#v230">CHANGELOG</a>.</p>
+<h2>v2.2.1</h2>
+<p>See <a href="https://github.com/bitinn/node-fetch/blob/v2.2.1/CHANGELOG.md#v221">CHANGELOG</a>.</p>
 </blockquote>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/swagger-api/swagger-ui/commit/86e7f002c6dc55c935e18e82f9c5576dc48a7ff2"><code>86e7f00</code></a> chore(release): cut the v4.1.3 release</li>
-<li><a href="https://github.com/swagger-api/swagger-ui/commit/01a3e55960f864a0acf6a8d06e5ddaf6776a7f76"><code>01a3e55</code></a> fix(security): disable reading config params from URL search params (<a href="https://github-redirect.dependabot.com/swagger-api/swagger-ui/issues/7697">#7697</a>)</li>
-<li><a href="https://github.com/swagger-api/swagger-ui/commit/df7749b2fe88c3235a2a7a2c965e8edaaa646356"><code>df7749b</code></a> chore(deps-dev): bump less from 4.1.1 to 4.1.2 (<a href="https://github-redirect.dependabot.com/swagger-api/swagger-ui/issues/7685">#7685</a>)</li>
-<li><a href="https://github.com/swagger-api/swagger-ui/commit/bc4710f14fdb2140a55db7de01985a50f966b5d0"><code>bc4710f</code></a> chore(deps-dev): bump eslint-plugin-import from 2.25.2 to 2.25.3 (<a href="https://github-redirect.dependabot.com/swagger-api/swagger-ui/issues/7683">#7683</a>)</li>
-<li><a href="https://github.com/swagger-api/swagger-ui/commit/e5463833a0ceff0ef2688be039cbb8df093493b4"><code>e546383</code></a> chore(deps-dev): bump <code>@​babel/plugin-proposal-optional-chaining</code> (<a href="https://github-redirect.dependabot.com/swagger-api/swagger-ui/issues/7682">#7682</a>)</li>
-<li><a href="https://github.com/swagger-api/swagger-ui/commit/1386ae592a32ea27557c6a14a79d8674472e700e"><code>1386ae5</code></a> chore(deps-dev): bump source-map-support from 0.5.19 to 0.5.21 (<a href="https://github-redirect.dependabot.com/swagger-api/swagger-ui/issues/7681">#7681</a>)</li>
-<li><a href="https://github.com/swagger-api/swagger-ui/commit/60cab5fca9b95d1521eea5ae612b910603a19ad3"><code>60cab5f</code></a> chore(deps-dev): bump <code>@​commitlint/cli</code> from 12.1.4 to 15.0.0 (<a href="https://github-redirect.dependabot.com/swagger-api/swagger-ui/issues/7678">#7678</a>)</li>
-<li>See full diff in <a href="https://github.com/swagger-api/swagger-ui/compare/v4.1.2...v4.1.3">compare view</a></li>
+<li><a href="https://github.com/node-fetch/node-fetch/commit/1ef4b560a17e644a02a3bfdea7631ffeee578b35"><code>1ef4b56</code></a> backport of <a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1449">#1449</a> (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1453">#1453</a>)</li>
+<li><a href="https://github.com/node-fetch/node-fetch/commit/8fe5c4ea66b9b8187600e6d5ec9b1b6781f44009"><code>8fe5c4e</code></a> 2.x: Specify encoding as an optional peer dependency in package.json (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1310">#1310</a>)</li>
+<li><a href="https://github.com/node-fetch/node-fetch/commit/f56b0c66d3dd2ef185436de1f2fd40f66bfea8f4"><code>f56b0c6</code></a> fix(URL): prefer built in URL version when available and fallback to whatwg (...</li>
+<li><a href="https://github.com/node-fetch/node-fetch/commit/b5417aea6a3275932283a200214522e6ab53f1ea"><code>b5417ae</code></a> fix: import whatwg-url in a way compatible with ESM Node (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1303">#1303</a>)</li>
+<li><a href="https://github.com/node-fetch/node-fetch/commit/18193c5922c64046b922e18faf41821290535f06"><code>18193c5</code></a> fix v2.6.3 that did not sending query params (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1301">#1301</a>)</li>
+<li><a href="https://github.com/node-fetch/node-fetch/commit/ace7536c955556be742d9910566738630cc3c2a6"><code>ace7536</code></a> fix: properly encode url with unicode characters (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1291">#1291</a>)</li>
+<li><a href="https://github.com/node-fetch/node-fetch/commit/152214ca2f6e2a5a17d71e4638114625d3be30c6"><code>152214c</code></a> Fix(package.json): Corrected main file path in package.json (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1274">#1274</a>)</li>
+<li><a href="https://github.com/node-fetch/node-fetch/commit/b5e2e41b2b50bf2997720d6125accaf0dd68c0ab"><code>b5e2e41</code></a> update version number</li>
+<li><a href="https://github.com/node-fetch/node-fetch/commit/2358a6c2563d1730a0cdaccc197c611949f6a334"><code>2358a6c</code></a> Honor the <code>size</code> option after following a redirect and revert data uri support</li>
+<li><a href="https://github.com/node-fetch/node-fetch/commit/8c197f8982a238b3c345c64b17bfa92e16b4f7c4"><code>8c197f8</code></a> docs: Fix typos and grammatical errors in README.md (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/686">#686</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/node-fetch/node-fetch/compare/v2.2.0...v2.6.7">compare view</a></li>
 </ul>
+</details>
+<details>
+<summary>Maintainer changes</summary>
+<p>This version was pushed to npm by <a href="https://www.npmjs.com/~endless">endless</a>, a new releaser for node-fetch since your current version.</p>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=swagger-ui-dist&package-manager=npm_and_yarn&previous-version=4.1.2&new-version=4.1.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=node-fetch&package-manager=npm_and_yarn&previous-version=2.2.0&new-version=2.6.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
 [//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once it's up-to-date and CI passes on it, as requested by @TimoGlastra.
+
 [//]: # (dependabot-automerge-end)
 
 ---
@@ -259,7 +163,34 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-30 16:48:11 +0000 UTC
+        Created At 2022-02-06 15:13:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/93" class=".btn">#93</a>
+            </td>
+            <td>
+                <b>
+                    feat: rest webhooks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #63 
+Signed-off-by: annelein <anneleinvanreijen@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-05 14:44:48 +0000 UTC
     </div>
 </div>
 

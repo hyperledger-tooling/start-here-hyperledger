@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/379" class=".btn">#379</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/387" class=".btn">#387</a>
             </td>
             <td>
                 <b>
-                    Set correct channel name when getting contract
+                    Update package versions following v1.0.0 release
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Signed-off-by: Ruipeng Zhang &lt;ppoffice@users.noreply.github.com&gt;
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-31 04:13:32 +0000 UTC
+        Created At 2022-02-07 11:03:56 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/376" class=".btn">#376</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/386" class=".btn">#386</a>
             </td>
             <td>
                 <b>
-                    Add front matter to migration guide documentation page
+                    Use Java 17 javadoc tool to generate API docs
                 </b>
             </td>
         </tr>
@@ -53,14 +53,148 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Define the page title in front matter, not as a markdown heading. This avoid duplication of the page title.
+                - Updated some dependency versions.
+- Make CommitException non-final for consistency with other exceptions.
 
-Also fix the home link in the page header.
+Contributes to #206
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 13:36:45 +0000 UTC
+        Created At 2022-02-05 21:38:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/385" class=".btn">#385</a>
+            </td>
+            <td>
+                <b>
+                    Update supported versions documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Contributes to #205
+Contributes to #206
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-05 21:38:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/384" class=".btn">#384</a>
+            </td>
+            <td>
+                <b>
+                    Run scenario tests with multiple Node versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Contributes to #205 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-05 19:09:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/383" class=".btn">#383</a>
+            </td>
+            <td>
+                <b>
+                    Run scenario tests with multiple Java versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Contributes to #206
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-05 18:53:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/382" class=".btn">#382</a>
+            </td>
+            <td>
+                <b>
+                    Doc updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Minor corrections and additions to transaction submit examples.
+- Wording changes to some API docs, README.md, RELEASING.md.
+- Link to fabric-samples repository instead of local samples.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-04 15:20:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/380" class=".btn">#380</a>
+            </td>
+            <td>
+                <b>
+                    Unit tests for correct network name with specified contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Unit tests to accompany PR #379
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-01 17:14:09 +0000 UTC
     </div>
 </div>
 

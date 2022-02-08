@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/73" class=".btn">#73</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/75" class=".btn">#75</a>
             </td>
             <td>
                 <b>
-                    Add `is_purge` field to KVWriteHash
+                    Add in the purge-private-data API
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                This PR adds a field to capture the is_purge operation for enabling the purge of private data.
-
-[Issue on fabric repo](https://github.com/hyperledger/fabric/issues/3021)
-
-Signed-off-by: manish <manish.sethi@gmail.com>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 17:31:57 +0000 UTC
+        Created At 2022-02-02 10:38:23 +0000 UTC
     </div>
 </div>
 

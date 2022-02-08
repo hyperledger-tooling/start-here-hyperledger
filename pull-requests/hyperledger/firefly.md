@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/460" class=".btn">#460</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/488" class=".btn">#488</a>
             </td>
             <td>
                 <b>
-                    Allow synchronous 200 response for token pool creation
+                    Add extra logging for message/event ids
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                <nil>
+                Notices these were missing when investigating a set of performance logs
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 17:11:25 +0000 UTC
+        Created At 2022-02-07 22:33:06 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/459" class=".btn">#459</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/486" class=".btn">#486</a>
             </td>
             <td>
                 <b>
-                    Fixing E2E Tests for Multi-Member Networks
+                    Fix possibility for nil access in sendloop
                 </b>
             </td>
         </tr>
@@ -53,246 +53,23 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Noticed if I use the E2E tests to validate a multi-member (2+ members) network that it'd get confused about which members it was testing because the order of the members in the stack file can never be guaranteed to match the order of the orgs returned by the API of one of the nodes.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-28 15:44:53 +0000 UTC
-    </div>
-</div>
+                Fix for #485 with a bonus fix for this timing issue I'm seeing intermittently since upgrading my laptop.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/458" class=".btn">#458</a>
-            </td>
-            <td>
-                <b>
-                    Avoid potential double-close of channels due to reconnects after tests complete
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix for #445 
-
-I wasn't able to recreate, but the test runs showed fast timeout heartbeating and connections... so I think in a slow environment a test is reconnecting the websocket after the test had finished.
-
-Our little test websocket server would re-use the channels in that case, even though they were close
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-28 14:20:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/457" class=".btn">#457</a>
-            </td>
-            <td>
-                <b>
-                    Add route for /transactions/{txnid}/status
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 22:11:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/456" class=".btn">#456</a>
-            </td>
-            <td>
-                <b>
-                    Allow calling JSONObject() on nil JSONAny
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix for #453 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 20:45:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/452" class=".btn">#452</a>
-            </td>
-            <td>
-                <b>
-                    Remove deprecated APIs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Proposal to do this removal for `v0.12.0`
-
-Fixes #407 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 17:32:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/451" class=".btn">#451</a>
-            </td>
-            <td>
-                <b>
-                    Updated documentation to make it more useful
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I've added some changes in firefly documentation which I think will make it more useful and informative.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 13:35:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/448" class=".btn">#448</a>
-            </td>
-            <td>
-                <b>
-                    Add Blockchain Transaction IDs to FireFly Transaction objects and add blockchain IDs to events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Adds a string-array field of `blockchainIds` on the `transaction` object
-  - Backed by a comma-separated field
-  - Alphabetically sorted on each `UpsertTransaction` with lower-case only text, and no duplicates
-  - Updated when blockchain operations complete
-  - Updated when blockchain events arrive that are correlated with a blockchain transaction
-  - In all current FireFly transaction types, should be zero or one blockchain transactions
-  - Future extensibility to more
-- Adds a structured `blockNumber/transactionIndex/eventIndex/subEventNumber` convention to all event IDs
-   - Example `000000654321/000010/00002` would be:
-      - Block number: `654321`
-      - Transaction index: `10`
-      - Log index (ethereum) / event number (fabric): `2`
-   - The convention with padding (12/6/6/6 zeros) is intended to provide an alphabetically sortable list
-   - For Fabric this feature depends on fixing https://github.com/hyperledger/firefly-fabconnect/issues/74
-   - Tokens connectors are going to have tweaks to ensure the same number of zeros / separators for consistency
-   - The final `subEventNumber` is reserved for protocols that batch logical events (such as transfers) in an data array emitted by a single event
-
-Transaction example from E2E:
-
-```js
-{
-  "id": "264200de-188a-4aae-92e7-1e5345604345",
-  "namespace": "default",
-  "type": "batch_pin",
-  "created": "2022-01-25T22:01:08.9671519Z",
-  "status": "Succeeded",
-  "blockchainIds": [
-    "0xb819561e2149c6a77a1de8a971895e486e064f45da26e1c48d2b4263eccffc43"
-  ]
-}
 ```
-
-To which the following Blockchain event is associated:
-
-```json
-{
-  "id": "8b85311c-b51f-4b69-bbbf-083ac4728db4",
-  "sequence": 22,
-  "source": "ethereum",
-  "namespace": "default",
-  "name": "BatchPin",
-  "protocolId": "000000000031/000000/000000",
-  "output": {
-    "author": "0xce1fde1c97d3db88dbb83af16ac3b0efefeba80d",
-    "batchHash": "0xb605c7d5238dd01fa594cab74db229a997e2c7c5150eeb43288ecdac30b62b97",
-    "contexts": [
-      "0x2a30597d4aca075c164bfb02c44de63802d66f1422295aa6b7ce8b0daa12c470"
-    ],
-    "namespace": "default",
-    "payloadRef": "QmWC6JQnpoYAsWj6junfwaiq8DvQgoLBMQt2nkoaYmxzaZ",
-    "timestamp": "1643148068",
-    "uuids": "0x264200de188a4aae92e71e5345604345af60568cd62c48e69cadce0d498d0584"
-  },
-  "info": {
-    "address": "0x3A4e59b55979d0D196aB39471DfA706b0a0CEce9",
-    "blockNumber": "31",
-    "logIndex": "0",
-    "signature": "BatchPin(address,uint256,string,bytes32,bytes32,string,bytes32[])",
-    "subId": "sb-51267be5-775c-4d22-6d72-b8a85675187b",
-    "timestamp": "1643148068",
-    "transactionHash": "0xb819561e2149c6a77a1de8a971895e486e064f45da26e1c48d2b4263eccffc43",
-    "transactionIndex": "0x0"
-  },
-  "timestamp": "2022-01-25T22:01:08Z",
-  "tx": {
-    "type": "batch_pin",
-    "id": "264200de-188a-4aae-92e7-1e5345604345"
-  }
-}
+time="2022-02-07T13:21:00-05:00" level=info msg="API server context cancelled - shutting down"
+time="2022-02-07T13:21:00-05:00" level=info msg="API server complete"
+--- FAIL: TestTLSServerSelfSignedWithClientAuth (0.13s)
+    http_server_test.go:197: 
+                Error Trace:    http_server_test.go:197
+                Error:          Received unexpected error:
+                                context deadline exceeded
+                Test:           TestTLSServerSelfSignedWithClientAuth
 ```
-
-Event example from E2E:
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 21:41:28 +0000 UTC
+        Created At 2022-02-07 19:03:54 +0000 UTC
     </div>
 </div>
 
@@ -300,11 +77,164 @@ Event example from E2E:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/446" class=".btn">#446</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/483" class=".btn">#483</a>
             </td>
             <td>
                 <b>
-                    Add convenience URL /transactions/{txnid}/blockchainevents
+                    Update aggregator batch processing to maintain in-memory pin state until OnFinalize
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix for #481 
+
+We were failing to process multiple private messages on the same topic, within a single batch of pins that are read by the aggregator. This was a side-effect of the #462 changes - because the logic that evaluates the `NextPin` state on each message no longer had up-to-date information to read from the database.
+
+The core fix implemented for that, was to move to in-memory processing for all state that can change during processing of a page of pins in the aggregator. So the first time we access the state on a context (context is a particular `topic`, scoped to a group if it's a private context), we read the data we need in memory and from that point on we update it in memory until the `Finalize` phase is called at the end. At that point everything is flushed.
+
+Fixing this turned into quite a big change to the internals of the aggregator, and in doing so I did find two other less serious issues:
+1. When there were multiple pins in a message (multiple topics) we would leave some of those pins with `dispatched=false` when the message was confirmed. This means potential re-processing on rewind.
+2. If the pins within a message with multiple topics, spanned a page of reads from the aggregator, then when we came to the next page we could immediately re-process the message.
+
+The fix for ^^^ was that we always mark _all_ pins associated with a message as dispatched. That can include pins outside of the page that was just read, so we calculate the start+end index of the pins within the batch for that message, and do an update in the DB scoped to that start+end range (and the batch ID).
+
+> While enhancing the E2E I found another bug - in the automatic reply generation for webhooks, we're not setting the `topics` in the reply to match the request.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-06 00:45:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/482" class=".btn">#482</a>
+            </td>
+            <td>
+                <b>
+                    Remove extra "rejected" events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Only "message_rejected" will be emitted for rejected definition messages -
+no special per-type event will be emitted.
+
+This requires one extra lookup in syncasync to find rejected token pools,
+but seems better for overall consistency.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-05 19:03:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/480" class=".btn">#480</a>
+            </td>
+            <td>
+                <b>
+                    Address some inconsistencies in Operation behavior
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Operations should all correspond to an external plugin action (only announce_pool needed a change)
+- Name all operations as "plugin_action" (only contract_invoke needed a change)
+- Mark operations successful after the new [synchronous forms](https://github.com/hyperledger/firefly/pull/460) of token pool creation and activation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-04 19:38:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/478" class=".btn">#478</a>
+            </td>
+            <td>
+                <b>
+                    Store all token transfer inputs on operation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since the transfer is only recorded upon success, all inputs must be stored
+on the operation in order to support retries or accurately report failures.
+
+Needed for #400 and #316
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 21:39:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/477" class=".btn">#477</a>
+            </td>
+            <td>
+                <b>
+                    [new-prom-metrics] prometheus metrics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 to track broadcasts, private messages, and token mint/burn/transfers
+
+Signed-off-by: David Echelberger <david.echelberger@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 21:13:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/476" class=".btn">#476</a>
+            </td>
+            <td>
+                <b>
+                    Add missing test coverage in txcommon
                 </b>
             </td>
         </tr>
@@ -318,7 +248,7 @@ Event example from E2E:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 19:41:58 +0000 UTC
+        Created At 2022-02-03 20:49:37 +0000 UTC
     </div>
 </div>
 
@@ -326,11 +256,11 @@ Event example from E2E:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/444" class=".btn">#444</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/475" class=".btn">#475</a>
             </td>
             <td>
                 <b>
-                    Restore Transaction reference on TokenTransfer
+                    Use PreFinalize/Finalize in all definition handlers
                 </b>
             </td>
         </tr>
@@ -339,16 +269,12 @@ Event example from E2E:
                 
             </td>
             <td>
-                Although transfers initiated outside of FireFly will NOT have a Transaction, it's
-still useful to track Transactions for those transfers initiated by FireFly. This
-is needed for tracking of async transfer requests, filtering transfers, etc.
-
-Partially reverts 0e654d2a7b9960e3d2a4946c788f80e5052e056e
+                Follow-up to #462
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-24 23:17:56 +0000 UTC
+        Created At 2022-02-03 20:15:58 +0000 UTC
     </div>
 </div>
 
@@ -356,11 +282,11 @@ Partially reverts 0e654d2a7b9960e3d2a4946c788f80e5052e056e
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/443" class=".btn">#443</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/474" class=".btn">#474</a>
             </td>
             <td>
                 <b>
-                    Rename /contracts/events to /blockchainevents
+                    Make the factories act like factories
                 </b>
             </td>
         </tr>
@@ -369,13 +295,14 @@ Partially reverts 0e654d2a7b9960e3d2a4946c788f80e5052e056e
                 
             </td>
             <td>
-                Also move the query helpers from Contract Manager to Orchestrator, as this
-has become a generic construct that spans more than one manager/plugin.
+                Instead of instantiating all plugins up front, instantiate them on demand.
+
+Fixes #467
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-24 22:52:08 +0000 UTC
+        Created At 2022-02-03 17:39:56 +0000 UTC
     </div>
 </div>
 
@@ -383,11 +310,11 @@ has become a generic construct that spans more than one manager/plugin.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/441" class=".btn">#441</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/473" class=".btn">#473</a>
             </td>
             <td>
                 <b>
-                    Create a Transaction and Operation for contract invoke requests
+                    Fix Docker build on ARM
                 </b>
             </td>
         </tr>
@@ -396,12 +323,178 @@ has become a generic construct that spans more than one manager/plugin.
                 
             </td>
             <td>
-                Resolves #393
+                Resolves https://github.com/hyperledger/firefly/issues/469
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-24 19:14:29 +0000 UTC
+        Created At 2022-02-03 14:29:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/472" class=".btn">#472</a>
+            </td>
+            <td>
+                <b>
+                    wsReader cannot rely on `testing.T` as it might extend past test scope
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix for #471 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 14:21:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/470" class=".btn">#470</a>
+            </td>
+            <td>
+                <b>
+                    Set default keepalive timeout to 5s on clients for Node.js connectors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix for #468 
+
+For keepalive timeout there's a big disparity between Go and Node.js
+- Node.js default server timeout is 5s: https://nodejs.org/api/http.html#serverkeepalivetimeout
+- Go default client timeout is 90s: https://go.dev/src/net/http/transport.go
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 14:01:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/466" class=".btn">#466</a>
+            </td>
+            <td>
+                <b>
+                    [v0.12.0-manifests] manifests for v0.12.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <david.echelberger@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 21:49:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/465" class=".btn">#465</a>
+            </td>
+            <td>
+                <b>
+                    Allow passing a tokenIndex to "mint"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Some connectors may support (or require) this.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 20:24:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/464" class=".btn">#464</a>
+            </td>
+            <td>
+                <b>
+                    ui version 0.5.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 04:29:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/462" class=".btn">#462</a>
+            </td>
+            <td>
+                <b>
+                    Add DefinitionBatchActions to execute after a batch of system definitions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #463
+
+Work still pending:
+1. ~~Remaining test coverage~~
+2. Adjusting other definition handlers (besides token pools) to use the new `Finalize` pattern
+
+If the foundation looks good, I'll add on these remaining pieces.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-01 18:50:28 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/611" class=".btn">#611</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/626" class=".btn">#626</a>
             </td>
             <td>
                 <b>
-                    ci: get last alpha package version from npm
+                    fix: check for "REQNACK" response from indy ledger 
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                We currently use the commit number, but this is incorrect as the number will be reset to 0 again when the next minor version is released.
+                Solves #569 
 
-E.g. instead of the tag `alpha.347` it will now be `0.2.0-alpha.12`.
-
-Signed-off-by: Timo Glastra <timo@animo.id>
+Signed-off-by: annelein <anneleinvanreijen@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-31 10:44:44 +0000 UTC
+        Created At 2022-02-07 15:39:28 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +42,96 @@ Signed-off-by: Timo Glastra <timo@animo.id>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/610" class=".btn">#610</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/625" class=".btn">#625</a>
             </td>
             <td>
                 <b>
-                    fix: incorrect encoding of services for did:peer
+                    fix: credential preview attributes mismatch schema attributes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Solves #587 
+
+TO DO:
+- [ ] Write tests
+
+Signed-off-by: annelein <anneleinvanreijen@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-07 13:02:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/620" class=".btn">#620</a>
+            </td>
+            <td>
+                <b>
+                    feat: add find and save/update methods to DidCommMessageRepository
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds `findAgentMessage()` and `saveOrUpdateAgentMessage()` methods to the `DidCommMessageRepository`.
+
+Signed-off-by: NB-Karim <karim.northernblock@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 14:27:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/619" class=".btn">#619</a>
+            </td>
+            <td>
+                <b>
+                    feat: cli demo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: annelein <anneleinvanreijen@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 09:25:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/617" class=".btn">#617</a>
+            </td>
+            <td>
+                <b>
+                    ci: prepend v to alpha releases for consistency
                 </b>
             </td>
         </tr>
@@ -58,13 +141,11 @@ Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
             <td>
                 Signed-off-by: Timo Glastra <timo@animo.id>
-
-Fixes for incorrect encoding of services in peer dids. Checked against the [peer-did-python](https://github.com/sicpa-dlab/peer-did-python) implementation.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 13:07:38 +0000 UTC
+        Created At 2022-02-01 16:09:15 +0000 UTC
     </div>
 </div>
 
@@ -72,11 +153,11 @@ Fixes for incorrect encoding of services in peer dids. Checked against the [peer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/609" class=".btn">#609</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/616" class=".btn">#616</a>
             </td>
             <td>
                 <b>
-                    feat: support new did document in didcomm message exchange
+                    chore: regenerate yarn.lock for security updates
                 </b>
             </td>
         </tr>
@@ -85,44 +166,14 @@ Fixes for incorrect encoding of services in peer dids. Checked against the [peer
                 
             </td>
             <td>
-                Adds support for sending and receiving messages that are stored using peer dids and the new did record. The sending of messages is completely the same, mainly because I unified the `Service` classes from the old and new did document class as they were 100% identical. This made integrating it quite straight forward
+                The PRs opened by dependabot updated the dependencies only partly resulting in multiple versions of the same package.
 
-Current exchange is still working, but haven't been able to properly test the message exchange using the new did documents yet as we don't have DID exchange etc yet. Will add proper tests over the next few days, but you should be fine to use for now.
+Supersedes #613 #614
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-27 17:09:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/608" class=".btn">#608</a>
-            </td>
-            <td>
-                <b>
-                    feat: add support for did:peer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds support for did:peer dids as described in the peer did method specification. It supports all methods (0,1,2).
-
-The implementation should be seen as experimental as the peer did spec is quite complex and there's a good chance I messed some things up.
-
-One thing that needs fixing for sure is the encoding of didcomm services, but I need to wait for a reply on that: https://github.com/decentralized-identity/peer-did-method-spec/issues/39
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-26 22:35:19 +0000 UTC
+        Created At 2022-02-01 10:03:09 +0000 UTC
     </div>
 </div>
 

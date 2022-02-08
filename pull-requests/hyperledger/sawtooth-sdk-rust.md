@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/73" class=".btn">#73</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/78" class=".btn">#78</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Add missing fields to intkey Cargo.toml
                 </b>
             </td>
         </tr>
@@ -27,14 +27,40 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
+                Cargo refuses to publish if description and license are missing.
 
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:17:02 +0000 UTC
+        Created At 2022-02-03 19:55:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/77" class=".btn">#77</a>
+            </td>
+            <td>
+                <b>
+                    Add Release Notes for 0.5.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-01 16:20:47 +0000 UTC
     </div>
 </div>
 

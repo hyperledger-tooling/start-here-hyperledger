@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/294" class=".btn">#294</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/304" class=".btn">#304</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Fix left sidebar for 0-4 docs
                 </b>
             </td>
         </tr>
@@ -27,14 +27,16 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
+                This change updates the left sidebar for the 0-4 section of the docs to
+correctly show v0.3 as the "Latest" release and "Stable", rather than
+"In Development".
 
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:35:19 +0000 UTC
+        Created At 2022-02-07 15:01:42 +0000 UTC
     </div>
 </div>
 
@@ -42,41 +44,11 @@ Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/293" class=".btn">#293</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/303" class=".btn">#303</a>
             </td>
             <td>
                 <b>
-                    Add instructions for `download-xsd`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently this is only used if the user is attempting to add a purchase
-order. Also added a link to the manpage for in depth instructions (such
-as manually downloading the cache files).
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 22:06:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/292" class=".btn">#292</a>
-            </td>
-            <td>
-                <b>
-                    Add 0-4 section of docs
+                    Add API and DB schema docs for 0-4
                 </b>
             </td>
         </tr>
@@ -90,7 +62,7 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-27 15:35:25 +0000 UTC
+        Created At 2022-02-04 22:32:20 +0000 UTC
     </div>
 </div>
 
@@ -98,11 +70,225 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/291" class=".btn">#291</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/302" class=".btn">#302</a>
             </td>
             <td>
                 <b>
-                    Update site for 0.3 release
+                    Update Upgrading Smart Contracts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a warning for users to save their keys before rebuilding the
+daemons. Also fixes a typo.
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 20:05:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/301" class=".btn">#301</a>
+            </td>
+            <td>
+                <b>
+                    Update Creating Schemas
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Corrects section on updating schemas, fixes minor issues in text,
+and adds the schema update permission to the Using Pike page.
+Updates 0.3, 0.4, and 0.2.
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 18:00:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/300" class=".btn">#300</a>
+            </td>
+            <td>
+                <b>
+                    Update `grid keygen` man page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds the KEY_NAME argument to the grid keygen man page.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 16:59:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/299" class=".btn">#299</a>
+            </td>
+            <td>
+                <b>
+                    Fix permissions for using Grid Location
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change fixes the line in the `Creating Locations` guide used to
+create the role with permissions to create, update, and delete a
+location. Previously, the list of permissions was broken up by a `\` to
+allow it to span multiple lines. However, this was creating a space in
+the `location::can-delete-location` permission that disabled Grid from
+being able to recognize this permission. This change removes the back
+slash and keeps the permissions on one line, which still allows for
+linting to pass and does not cause a space to occur in the permissions
+string.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 16:53:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/298" class=".btn">#298</a>
+            </td>
+            <td>
+                <b>
+                    Update Using Grid on Splinter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates include adding references to Purchase Order, updating
+references to Splinter docs, formatting, adding missing references
+to existing smart contracts, and replacing the reference to the XO
+contract with an example using Purchase Order. Updates 0.3 and 0.4
+docs.
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 20:44:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/297" class=".btn">#297</a>
+            </td>
+            <td>
+                <b>
+                    Add flag so redoc containers listen on all interfaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The `--host` flag was added, which defaults to 127.0.0.1.
+
+https://github.com/Redocly/redoc/pull/1598
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 20:36:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/296" class=".btn">#296</a>
+            </td>
+            <td>
+                <b>
+                    Fix docker exec splinterd bash commands
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes the commands to enter a bash session in a node. Also makes a
+few small text fixes. Updates 0.3 and 0.2 docs.
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-01 22:25:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/295" class=".btn">#295</a>
+            </td>
+            <td>
+                <b>
+                    Clarify `Using PO` guide & add steps for displaying data
                 </b>
             </td>
         </tr>
@@ -116,7 +302,7 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 21:59:17 +0000 UTC
+        Created At 2022-02-01 20:49:46 +0000 UTC
     </div>
 </div>
 

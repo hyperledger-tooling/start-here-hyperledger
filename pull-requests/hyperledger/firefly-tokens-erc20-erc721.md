@@ -14,11 +14,64 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/24" class=".btn">#24</a>
             </td>
             <td>
                 <b>
-                    [docker-build] github action updates for docker build
+                    Vanilla contracts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Support for ERC20 and ERC721 contracts without data
+- More e2e and unit tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-07 20:53:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    Fixing Readiness Endpoint Check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-03 23:27:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/21" class=".btn">#21</a>
+            </td>
+            <td>
+                <b>
+                    [baseURI-fix] POST to get baseURI for erc721 tokens
                 </b>
             </td>
         </tr>
@@ -32,7 +85,7 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-27 03:58:40 +0000 UTC
+        Created At 2022-02-02 20:40:04 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +93,37 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/20" class=".btn">#20</a>
             </td>
             <td>
                 <b>
-                    Bump @openzeppelin/contracts from 3.4.2 to 4.4.2 in /solidity
+                    Erc721 support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Support for ERC721 tokens
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 19:34:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/19" class=".btn">#19</a>
+            </td>
+            <td>
+                <b>
+                    Bump tar from 4.4.13 to 4.4.19 in /solidity
                 </b>
             </td>
         </tr>
@@ -53,134 +132,27 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [@openzeppelin/contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) from 3.4.2 to 4.4.2.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/releases"><code>@​openzeppelin/contracts</code>'s releases</a>.</em></p>
-<blockquote>
-<h2>v4.4.2</h2>
-<p>:warning: This is a patch for a medium severity issue. For more information <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-m6w8-fq7v-ph4m">visit the security advisory</a>.</p>
-<ul>
-<li><code>GovernorCompatibilityBravo</code>: Fix error in the encoding of calldata for proposals submitted through the compatibility interface with explicit signatures. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/%5B#3100%5D(https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/issues/3100)">#3100</a>)</li>
-</ul>
-<h2>v4.4.1</h2>
-<p>:warning: This is a patch for a low severity vulnerability. For more information <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-9c22-pwxw-p6hx">visit the security advisory</a>.</p>
-<ul>
-<li><code>Initializable</code>: change the existing <code>initializer</code> modifier and add a new <code>onlyInitializing</code> modifier to prevent reentrancy risk. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/3006">#3006</a>)</li>
-</ul>
-<h3>Breaking change</h3>
-<p>It is no longer possible to call an <code>initializer</code>-protected function from within another <code>initializer</code> function outside the context of a constructor. Projects using OpenZeppelin upgradeable proxies should continue to work as is, since in the common case the initializer is invoked in the constructor directly. If this is not the case for you, the suggested change is to use the new <code>onlyInitializing</code> modifier in the following way:</p>
-<pre lang="diff"><code> contract A {
--    function initialize() public   initializer { ... }
-+    function initialize() internal onlyInitializing { ... }
- }
- contract B is A {
-     function initialize() public initializer {
-         A.initialize();
-     }
- }
-</code></pre>
-<h2>v4.4.0</h2>
-<p>Check out the first <a href="https://www.youtube.com/watch?v=ed96DWbfliQ"><strong>OpenZeppelin Community Call</strong></a> where the team discussed everything that is included in this release.</p>
-<p>And if you missed it, we recently announced an official <strong>bug bounty program</strong> for OpenZeppelin Contracts. <a href="https://forum.openzeppelin.com/t/openzeppelin-contracts-bug-bounty-program-on-immunefi/19279">Check it out!</a></p>
-<ul>
-<li><code>Ownable</code>: add an internal <code>_transferOwnership(address)</code>. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2568">#2568</a>)</li>
-<li><code>AccessControl</code>: add internal <code>_grantRole(bytes32,address)</code> and <code>_revokeRole(bytes32,address)</code>. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2568">#2568</a>)</li>
-<li><code>AccessControl</code>: mark <code>_setupRole(bytes32,address)</code> as deprecated in favor of <code>_grantRole(bytes32,address)</code>. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2568">#2568</a>)</li>
-<li><code>AccessControlEnumerable</code>: hook into <code>_grantRole(bytes32,address)</code> and <code>_revokeRole(bytes32,address)</code>. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2946">#2946</a>)</li>
-<li><code>EIP712</code>: cache <code>address(this)</code> to immutable storage to avoid potential issues if a vanilla contract is used in a delegatecall context. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2852">#2852</a>)</li>
-<li>Add internal <code>_setApprovalForAll</code> to <code>ERC721</code> and <code>ERC1155</code>. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2834">#2834</a>)</li>
-<li><code>Governor</code>: shift vote start and end by one block to better match Compound's GovernorBravo and prevent voting at the Governor level if the voting snapshot is not ready. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2892">#2892</a>)</li>
-<li><code>GovernorCompatibilityBravo</code>: consider quorum an inclusive rather than exclusive minimum to match Compound's GovernorBravo. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2974">#2974</a>)</li>
-<li><code>GovernorSettings</code>: a new governor module that manages voting settings updatable through governance actions. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2904">#2904</a>)</li>
-<li><code>PaymentSplitter</code>: now supports ERC20 assets in addition to Ether. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2858">#2858</a>)</li>
-<li><code>ECDSA</code>: add a variant of <code>toEthSignedMessageHash</code> for arbitrary length message hashing. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2865">#2865</a>)</li>
-<li><code>MerkleProof</code>: add a <code>processProof</code> function that returns the rebuilt root hash given a leaf and a proof. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2841">#2841</a>)</li>
-<li><code>VestingWallet</code>: new contract that handles the vesting of Ether and ERC20 tokens following a customizable vesting schedule. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2748">#2748</a>)</li>
-<li><code>Governor</code>: enable receiving Ether when a Timelock contract is not used. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2849">#2748</a>)</li>
-<li><code>GovernorTimelockCompound</code>: fix ability to use Ether stored in the Timelock contract. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2849">#2748</a>)</li>
-</ul>
-<h2>v4.3.3</h2>
-<p>:warning: This is a security patch. For more information visit the <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-wmpv-c2jp-j2xg">security advisory</a>.</p>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/CHANGELOG.md"><code>@​openzeppelin/contracts</code>'s changelog</a>.</em></p>
-<blockquote>
-<h2>4.4.2 (2022-01-11)</h2>
-<h3>Bugfixes</h3>
-<ul>
-<li><code>GovernorCompatibilityBravo</code>: Fix error in the encoding of calldata for proposals submitted through the compatibility interface with explicit signatures. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/3100">#3100</a>)</li>
-</ul>
-<h2>4.4.1 (2021-12-14)</h2>
-<ul>
-<li><code>Initializable</code>: change the existing <code>initializer</code> modifier and add a new <code>onlyInitializing</code> modifier to prevent reentrancy risk. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/3006">#3006</a>)</li>
-</ul>
-<h3>Breaking change</h3>
-<p>It is no longer possible to call an <code>initializer</code>-protected function from within another <code>initializer</code> function outside the context of a constructor. Projects using OpenZeppelin upgradeable proxies should continue to work as is, since in the common case the initializer is invoked in the constructor directly. If this is not the case for you, the suggested change is to use the new <code>onlyInitializing</code> modifier in the following way:</p>
-<pre lang="diff"><code> contract A {
--    function initialize() public   initializer { ... }
-+    function initialize() internal onlyInitializing { ... }
- }
- contract B is A {
-     function initialize() public initializer {
-         A.initialize();
-     }
- }
-</code></pre>
-<h2>4.4.0 (2021-11-25)</h2>
-<ul>
-<li><code>Ownable</code>: add an internal <code>_transferOwnership(address)</code>. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2568">#2568</a>)</li>
-<li><code>AccessControl</code>: add internal <code>_grantRole(bytes32,address)</code> and <code>_revokeRole(bytes32,address)</code>. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2568">#2568</a>)</li>
-<li><code>AccessControl</code>: mark <code>_setupRole(bytes32,address)</code> as deprecated in favor of <code>_grantRole(bytes32,address)</code>. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2568">#2568</a>)</li>
-<li><code>AccessControlEnumerable</code>: hook into <code>_grantRole(bytes32,address)</code> and <code>_revokeRole(bytes32,address)</code>. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2946">#2946</a>)</li>
-<li><code>EIP712</code>: cache <code>address(this)</code> to immutable storage to avoid potential issues if a vanilla contract is used in a delegatecall context. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2852">#2852</a>)</li>
-<li>Add internal <code>_setApprovalForAll</code> to <code>ERC721</code> and <code>ERC1155</code>. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2834">#2834</a>)</li>
-<li><code>Governor</code>: shift vote start and end by one block to better match Compound's GovernorBravo and prevent voting at the Governor level if the voting snapshot is not ready. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2892">#2892</a>)</li>
-<li><code>GovernorCompatibilityBravo</code>: consider quorum an inclusive rather than exclusive minimum to match Compound's GovernorBravo. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2974">#2974</a>)</li>
-<li><code>GovernorSettings</code>: a new governor module that manages voting settings updatable through governance actions. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2904">#2904</a>)</li>
-<li><code>PaymentSplitter</code>: now supports ERC20 assets in addition to Ether. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2858">#2858</a>)</li>
-<li><code>ECDSA</code>: add a variant of <code>toEthSignedMessageHash</code> for arbitrary length message hashing. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2865">#2865</a>)</li>
-<li><code>MerkleProof</code>: add a <code>processProof</code> function that returns the rebuilt root hash given a leaf and a proof. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2841">#2841</a>)</li>
-<li><code>VestingWallet</code>: new contract that handles the vesting of Ether and ERC20 tokens following a customizable vesting schedule. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2748">#2748</a>)</li>
-<li><code>Governor</code>: enable receiving Ether when a Timelock contract is not used. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2849">#2748</a>)</li>
-<li><code>GovernorTimelockCompound</code>: fix ability to use Ether stored in the Timelock contract. (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/pull/2849">#2748</a>)</li>
-</ul>
-<h2>4.3.3</h2>
-<ul>
-<li><code>ERC1155Supply</code>: Handle <code>totalSupply</code> changes by hooking into <code>_beforeTokenTransfer</code> to ensure consistency of balances and supply during <code>IERC1155Receiver.onERC1155Received</code> calls.</li>
-</ul>
-<h2>4.3.2 (2021-09-14)</h2>
-<ul>
-<li><code>UUPSUpgradeable</code>: Add modifiers to prevent <code>upgradeTo</code> and <code>upgradeToAndCall</code> being executed on any contract that is not the active ERC1967 proxy. This prevents these functions being called on implementation contracts or minimal ERC1167 clones, in particular.</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
+                Bumps [tar](https://github.com/npm/node-tar) from 4.4.13 to 4.4.19.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/b53c43242fc9c0e435b66178c3847c4a1b417cc1"><code>b53c432</code></a> 4.4.2</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/9cae52c59135874a75d219b7130d3893103a7c58"><code>9cae52c</code></a> Use abi.encodePacked instead of bytes.concat</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/93d2d1508a69232b87004ebeb6a9e861ea8c2b0b"><code>93d2d15</code></a> Make script executable</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/eff4ad7c1d4e56b27a570b5a15a6c821228387e2"><code>eff4ad7</code></a> Fix encoding of signature+calldata in GovernorCompatibilityBravo (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/issues/3100">#3100</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/66436cbb4e757cd79054ab1b1cc38f7f5a948005"><code>66436cb</code></a> Change release script to only update version comment for changed files (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/issues/3033">#3033</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/6bd6b76d1156e20e45d1016f355d154141c7e5b9"><code>6bd6b76</code></a> 4.4.1</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/13a6ec753a3e9c56a3d9dec845a9b5cbd616b658"><code>13a6ec7</code></a> Remove bad date from changelog</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/553c8fdec708ea10dd5f4a2977364af7a562566f"><code>553c8fd</code></a> Update initializer modifier to prevent reentrancy during initialization (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/issues/3006">#3006</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/4961a51cc736c7d4aa9bd2e11e4cbbaff73efee9"><code>4961a51</code></a> 4.4.0</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/94a0b8f573e0033d5338689030d2b721e4a5177a"><code>94a0b8f</code></a> Make VestingWallet token event argument indexed (<a href="https://github-redirect.dependabot.com/OpenZeppelin/openzeppelin-contracts/issues/2988">#2988</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/compare/v3.4.2...v4.4.2">compare view</a></li>
+<li><a href="https://github.com/npm/node-tar/commit/9a6faa017ca90538840f3ae2ccdb4550ac3f4dcf"><code>9a6faa0</code></a> 4.4.19</li>
+<li><a href="https://github.com/npm/node-tar/commit/70ef812593184cc54ea1bc74c5dae2d22995002d"><code>70ef812</code></a> drop dirCache for symlink on all platforms</li>
+<li><a href="https://github.com/npm/node-tar/commit/3e35515c09da615ac268254bed85fe43ee71e2f0"><code>3e35515</code></a> 4.4.18</li>
+<li><a href="https://github.com/npm/node-tar/commit/52b09e309bcae0c741a7eb79a17ef36e7828b946"><code>52b09e3</code></a> fix: prevent path escape using drive-relative paths</li>
+<li><a href="https://github.com/npm/node-tar/commit/bb93ba243746f705092905da1955ac3b0509ba1e"><code>bb93ba2</code></a> fix: reserve paths properly for unicode, windows</li>
+<li><a href="https://github.com/npm/node-tar/commit/2f1bca027286c23e110b8dfc7efc10756fa3db5a"><code>2f1bca0</code></a> fix: prune dirCache properly for unicode, windows</li>
+<li><a href="https://github.com/npm/node-tar/commit/9bf70a8cf725c3af5fe2270f1e5d2e06d1559b93"><code>9bf70a8</code></a> 4.4.17</li>
+<li><a href="https://github.com/npm/node-tar/commit/6aafff0a8621ba9509b63654bde28762be373d58"><code>6aafff0</code></a> fix: skip extract if linkpath is stripped entirely</li>
+<li><a href="https://github.com/npm/node-tar/commit/5c5059a69c2aaaedfe4e9766e102ae9fb79e8255"><code>5c5059a</code></a> fix: reserve paths case-insensitively</li>
+<li><a href="https://github.com/npm/node-tar/commit/fd6accba697070560f301604b8f5f7e2995a2a8b"><code>fd6accb</code></a> 4.4.16</li>
+<li>Additional commits viewable in <a href="https://github.com/npm/node-tar/compare/v4.4.13...v4.4.19">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@openzeppelin/contracts&package-manager=npm_and_yarn&previous-version=3.4.2&new-version=4.4.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tar&package-manager=npm_and_yarn&previous-version=4.4.13&new-version=4.4.19)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -216,7 +188,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 20:19:19 +0000 UTC
+        Created At 2022-02-02 17:57:16 +0000 UTC
     </div>
 </div>
 
@@ -224,11 +196,145 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/18" class=".btn">#18</a>
             </td>
             <td>
                 <b>
-                    [truffle-config] reverting openzeppelin version
+                    Bump normalize-url from 4.5.0 to 4.5.1 in /solidity
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [normalize-url](https://github.com/sindresorhus/normalize-url) from 4.5.0 to 4.5.1.
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/sindresorhus/normalize-url/commits">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=normalize-url&package-manager=npm_and_yarn&previous-version=4.5.0&new-version=4.5.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/firefly-tokens-erc20-erc721/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 17:57:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/17" class=".btn">#17</a>
+            </td>
+            <td>
+                <b>
+                    Bump path-parse from 1.0.6 to 1.0.7 in /solidity
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [path-parse](https://github.com/jbgutierrez/path-parse) from 1.0.6 to 1.0.7.
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/jbgutierrez/path-parse/commits/v1.0.7">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=path-parse&package-manager=npm_and_yarn&previous-version=1.0.6&new-version=1.0.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/firefly-tokens-erc20-erc721/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-02 17:57:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/16" class=".btn">#16</a>
+            </td>
+            <td>
+                <b>
+                    Using Method ABIs instead of ABI IDs
                 </b>
             </td>
         </tr>
@@ -237,66 +343,12 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                Signed-off-by: David Echelberger <david.echelberger@kaleido.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 20:14:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/9" class=".btn">#9</a>
-            </td>
-            <td>
-                <b>
-                    Fixing Docker Images Tags for Main Merges
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                NOTE: this does _not_ update the workflow to publish new images to the `firefly-tokens-erc20-erc-721` image URI yet. Saving that for a future migration. This is just to fix the image tagging issue we are seeing where tags start with `null` rather than `v0.1.2`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-26 20:06:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/8" class=".btn">#8</a>
-            </td>
-            <td>
-                <b>
-                    Health checks for ERC20
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds api/v1/health/liveness and api/v1/health/readiness endpoint checks to ERC20 connector. 
-
-Resolves [HTTP Liveness / Readiness Probes for ERC20 issue](https://github.com/hyperledger/firefly-helm-charts/issues/11) 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-26 15:22:51 +0000 UTC
+        Created At 2022-02-02 02:07:10 +0000 UTC
     </div>
 </div>
 

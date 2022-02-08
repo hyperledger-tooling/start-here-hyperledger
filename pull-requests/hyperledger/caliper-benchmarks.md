@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/151" class=".btn">#151</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/164" class=".btn">#164</a>
             </td>
             <td>
                 <b>
-                    Fixed bug in the workload implementation
+                    use test-network instead of custom networks for caliper-benchmarks
                 </b>
             </td>
         </tr>
@@ -27,14 +27,27 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                Fixed bug in the workload implementation caused by semantic error in benchmarks\api\fabric\lib\helper.js
+                closes #152
+closes #154
 
-Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+Note that some chaincodes won't deploy to test network yet and this is
+reflected in the README and a new CI pipeline will be required (it's not
+working anyway as travis is no more)
+
+The following bug issues cover addressing these
+
+- #155
+- #157
+- #159
+- #162
+- #134
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-18 12:52:33 +0000 UTC
+        Created At 2022-02-02 16:06:53 +0000 UTC
     </div>
 </div>
 

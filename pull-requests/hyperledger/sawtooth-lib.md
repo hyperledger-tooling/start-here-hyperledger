@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/136" class=".btn">#136</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/139" class=".btn">#139</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    BACKPORT 0-6: Set dotenv-load to true in justfile
                 </b>
             </td>
         </tr>
@@ -27,14 +27,16 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
+                Starting with version 0.11.0, just ignores .env files by default. This
+breaks some recipes because we read docker environment variables from
+the .env file.
 
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 16:47:34 +0000 UTC
+        Created At 2022-02-07 15:05:41 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +44,11 @@ Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/135" class=".btn">#135</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/138" class=".btn">#138</a>
             </td>
             <td>
                 <b>
-                    Add Release Notes for 0.7.3
+                    BACKPORT 0-7: Set dotenv-load to true in justfile
                 </b>
             </td>
         </tr>
@@ -55,12 +57,16 @@ Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
                 
             </td>
             <td>
-                <nil>
+                Starting with version 0.11.0, just ignores .env files by default. This
+breaks some recipes because we read docker environment variables from
+the .env file.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-27 21:14:35 +0000 UTC
+        Created At 2022-02-07 15:05:38 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +74,11 @@ Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/134" class=".btn">#134</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/137" class=".btn">#137</a>
             </td>
             <td>
                 <b>
-                    BACKPORT 0-7: Add a database index on transaction_receipt
+                    Set dotenv-load to true in justfile
                 </b>
             </td>
         </tr>
@@ -81,40 +87,16 @@ Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
                 
             </td>
             <td>
-                Backport of PR #133 
+                Starting with version 0.11.0, just ignores .env files by default. This
+breaks some recipes because we read docker environment variables from
+the .env file.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-27 20:55:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/133" class=".btn">#133</a>
-            </td>
-            <td>
-                <b>
-                    Add a database index on transaction_receipt
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds an index on the "idx" and "service_id" columns of the transaction_receipt table.  These columns are frequently used for queries.
-
-Use of these columns  has been identified as the source of a performance issue with the query to find the latest `idx` value for a given service id (found at the start of the `AddTxnReceiptsOperation`).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 16:58:55 +0000 UTC
+        Created At 2022-02-04 15:35:23 +0000 UTC
     </div>
 </div>
 

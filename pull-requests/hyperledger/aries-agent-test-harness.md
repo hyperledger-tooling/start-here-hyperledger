@@ -14,7 +14,33 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/424" class=".btn">#424</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/429" class=".btn">#429</a>
+            </td>
+            <td>
+                <b>
+                    style: format with black
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Format all python files with black. Mostly to prevent a lot of formatting noise in upcoming PRs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-05 10:37:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/428" class=".btn">#428</a>
             </td>
             <td>
                 <b>
@@ -32,7 +58,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-29 03:52:30 +0000 UTC
+        Created At 2022-02-05 03:52:24 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +66,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/423" class=".btn">#423</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/427" class=".btn">#427</a>
             </td>
             <td>
                 <b>
-                    Removed Proof tests that are causing job cancellation
+                    feat: mediator coordination protocol
                 </b>
             </td>
         </tr>
@@ -53,14 +79,30 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+                Adds initial support for the mediation coordination protocol. Had to change some things up as not all steps were set up to work with multiple connections being created in one test. Adds the endpoints to the OpenAPI spec.
 
-Offending tests for the cancellation of daily runs have been excluded from the dotnet-findy runset until the tests/agents are fixed. 
+I tried a new structure for backchannel topics in the AFGO / ACA-Py channel by giving the the topic it's own file and each route it's own method. the `xxx_backchannel` is getting quite complex making it hard to know what to change. What do you think of this approach? It's not all or nothing, so we can slowly adopt this mechanism for new topics. It's a similar pattern followed by the non python based backchannels.
+
+This adds support for ACA-Py <-> ACA-Py and AFGO <-> AFGO mediation testing. Will add more interop testing between the two, and also support for agents without endpoint soon.
+
+AFGO doesn't support mediate-deny so ignore the mediate deny test:
+
+```
+LEDGER_URL_CONFIG=http://test.bcovrin.vonx.io TAILS_SERVER_URL_CONFIG=https://tails.vonx.io ./manage run -d afgo-master -t @RFC0211 -t ~@T003-RFC0211
+```
+
+ACA-Py:
+
+```
+LEDGER_URL_CONFIG=http://test.bcovrin.vonx.io TAILS_SERVER_URL_CONFIG=https://tails.vonx.io ./manage run -d acapy-main -t @RFC0211
+```
+
+The mediator is just the agents that already existed. The frameworks all support being a mediator in addition to the other agent functionalities. We could decide to split it out to a different agent (Faythe) as described in #272.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 20:34:00 +0000 UTC
+        Created At 2022-02-03 17:21:39 +0000 UTC
     </div>
 </div>
 
@@ -68,33 +110,7 @@ Offending tests for the cancellation of daily runs have been excluded from the d
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/422" class=".btn">#422</a>
-            </td>
-            <td>
-                <b>
-                    aries-vcx: Fix tails file upload, improve error handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-27 11:38:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/421" class=".btn">#421</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/426" class=".btn">#426</a>
             </td>
             <td>
                 <b>
@@ -112,7 +128,7 @@ Offending tests for the cancellation of daily runs have been excluded from the d
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-27 03:52:39 +0000 UTC
+        Created At 2022-02-03 03:52:27 +0000 UTC
     </div>
 </div>
 
@@ -120,11 +136,11 @@ Offending tests for the cancellation of daily runs have been excluded from the d
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/420" class=".btn">#420</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/425" class=".btn">#425</a>
             </td>
             <td>
                 <b>
-                     aries-vcx: Update aries-vcx version
+                    Changes by create-pull-request action
                 </b>
             </td>
         </tr>
@@ -133,175 +149,12 @@ Offending tests for the cancellation of daily runs have been excluded from the d
                 
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 15:39:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/419" class=".btn">#419</a>
-            </td>
-            <td>
-                <b>
-                    docs(api): issue credential and present proof v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds open api definitions for the issue credential and present proof v2 endpoints
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-25 17:58:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/418" class=".btn">#418</a>
-            </td>
-            <td>
-                <b>
-                    reversed the if condition for github actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Yesterdays if condition was incorrect. logs will now not be copied when running in GitHub. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-25 13:56:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/417" class=".btn">#417</a>
-            </td>
-            <td>
-                <b>
-                    refactor: remove backchannel operations csv file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As discussed with @nodlesh, I'd give it a try to remove the backchannel operation matching. The google sheet hasn't been updated for a while and we had to manually edit the CSV. Although this is doable, it doesn't provide the best DX. Only the python based backchannels parsed the CSV file.
-
-I removed the matching of the operations in the python based backchannels and created a `BackchannelCommand` class. This contains everything related to the received command (such as `data`, `record_id`, `topic`, etc..). 
-
-In addition this PR:
-- cleans up the backchannels a bit and remove unused code
-- Formats the python based backchannels using black (I intend to do a separate PR for the `aries-test-harness` directory)
-- Removes all references to the backchannel operations CSV and also updates all documentation referencing it
-
-The recommended approach to document new endpoints are now through the OpenAPI spec located in this repo. 
-
-
-The following entry in the `backchannel_operations.csv` 
-
-```
-0454 Present Proof v2,X,,proof-v2,POST,verify-presentation,Y,,Verify a received proof presentation,presentation_thread_id,,state
-```
-
-can be translated to the following entry in the OpenAPI spec. It is a bit more verbose, but basically contains the sae information. The big advantage is that we can now render it nicely (as done here: https://aries-interop.info/api), helping backchannel implementors.
-
-```yaml
-  /agent/command/proof-v2/verify-presentation:
-    post:
-      tags:
-        - Present Proof V2
-      summary: Verify presentation
-      description: >
-        Verify the received presentation with specified thread id.
-      operationId: PresentProofV2VerifyPresentation
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              type: object
-              required:
-                - id
-              properties:
-                id:
-                  $ref: "#/components/schemas/ThreadId"
-      responses:
-        200:
-          description: Presentation verified
-          content:
-            application/json:
-              schema:
-                allOf:
-                  - $ref: "#/components/schemas/PresentProofV2OperationResponse"
-                  - properties:
-                      state:
-                        example: done
-```
-
-I intend to add all missing endpoints (mostly related to OOB/DIDExchange/V2 Protocols/Revocation) while I work on related aspects of the harness in the coming weeks.
-
-A lot of changes, but the operations file touched a lot of backchannels so it was a bit hard to split up.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-25 10:07:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/416" class=".btn">#416</a>
-            </td>
-            <td>
-                <b>
-                    added the case not to copy logs if in GITHUB ACTIONS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-To further diagnose the cancel on the acapy-aries-vcx run, this PR makes copying agent logs conditional on being in GITHUB_ACTIONS. Copying the logs is the next thing that happens at about the point the cancel happens. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-24 23:18:48 +0000 UTC
+        Created At 2022-02-01 03:52:24 +0000 UTC
     </div>
 </div>
 

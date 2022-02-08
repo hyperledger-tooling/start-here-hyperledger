@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/16" class=".btn">#16</a>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/18" class=".btn">#18</a>
             </td>
             <td>
                 <b>
-                    Add in ERC20 health checks, update ERC20 image tage
+                    [v0.2.0] ERC20 / ERC721 Support
                 </b>
             </td>
         </tr>
@@ -27,40 +27,15 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
                 
             </td>
             <td>
-                <nil>
+                * Updates FireFly and connectors to latest versions
+* Replaces `erc20` with `erc20Erc721` and new support for deploying those contracts directly to either remote or the chart-managed Ethconnect
+* Refactors and enhances contract registration for the FireFly and ERC1155 contracts when using the chart-managed Ethconnect
+* Updates chart docs
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 20:05:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/15" class=".btn">#15</a>
-            </td>
-            <td>
-                <b>
-                    Fixing Swagger UI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #8 
-
-Building off of discussions from  #13 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-26 00:08:31 +0000 UTC
+        Created At 2022-02-03 17:17:28 +0000 UTC
     </div>
 </div>
 

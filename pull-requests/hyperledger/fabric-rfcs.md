@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/47" class=".btn">#47</a>
+                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/49" class=".btn">#49</a>
             </td>
             <td>
                 <b>
-                    update open tracing rfc
+                    Gossip block dissemination re-architecture
                 </b>
             </td>
         </tr>
@@ -27,19 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
                 
             </td>
             <td>
-                Hi Fabric,
-
-Recently, I am adding open tracing for [Tape](https://github.com/Hyperledger-TWGC/tape) specific for [issue](https://github.com/Hyperledger-TWGC/tape/issues/223)
-
-It looks like if we adding open tracing in fabric process, it may help us understand bottleneck in fabric process better?
-That's the reason I updated open telemetry related rfc.
-
-Signed-off-by: Sam Yuan <yy19902439@126.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-06 12:37:59 +0000 UTC
+        Created At 2022-02-03 15:05:14 +0000 UTC
     </div>
 </div>
 

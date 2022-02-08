@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/94" class=".btn">#94</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/99" class=".btn">#99</a>
             </td>
             <td>
                 <b>
-                    Release v2.2.3
+                    Close InputStream on Wallet.get() (release-2.2)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                <nil>
+                Cherry-pick of e50a619ada02d5434c3fbfae539f123e509fa8e9 from main branch.
+
+The Wallet get() method did not close the InputStream returned by the WalletStore. For store implementations backed by persistent storage, such as FileSystemWalletStore, this was a resource leak.
+
+Updated dependency versions.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-07 17:17:32 +0000 UTC
+        Created At 2022-02-02 17:23:33 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +44,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/93" class=".btn">#93</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/98" class=".btn">#98</a>
             </td>
             <td>
                 <b>
-                    Fix Javadoc build for Java 8
+                    Close InputStream on Wallet.get()
                 </b>
             </td>
         </tr>
@@ -53,96 +57,16 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                <nil>
+                The Wallet get() method did not close the InputStream returned by the WalletStore. For store implementations backed by persistent storage, such as FileSystemWalletStore, this was a resource leak.
+
+Wrote and then removed a unit test for close of the InputStream since a Mockito spy of the InputStream broke the JSON parsing only when run with Java 17. Updated dependencies in an unsuccessful attempt to resolve Java 17 mocking issues.
+
+Closes #97
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-07 15:50:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/92" class=".btn">#92</a>
-            </td>
-            <td>
-                <b>
-                    Fix Javadoc build for Java 8 (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-07 15:46:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/91" class=".btn">#91</a>
-            </td>
-            <td>
-                <b>
-                    Use com.ibm.cloud:cloudant package for CouchDB wallets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The com.cloudant:cloudant-client package is deprecated.
-
-Cherry-pick of 80d85abc88e3f1abf0ff02645495d140bcdc47d5 from main branch.
-
-Contributes to #89 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-07 14:33:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/90" class=".btn">#90</a>
-            </td>
-            <td>
-                <b>
-                    Use com.ibm.cloud:cloudant package for CouchDB wallets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The com.cloudant:cloudant-client package is deprecated.
-
-Resolves #89
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-06 18:38:27 +0000 UTC
+        Created At 2022-02-02 12:41:34 +0000 UTC
     </div>
 </div>
 

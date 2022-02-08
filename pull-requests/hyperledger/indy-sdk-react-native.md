@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/26" class=".btn">#26</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Feat/delete credential
+                    feat: revocation types & revocation verification
                 </b>
             </td>
         </tr>
@@ -27,15 +27,13 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
                 
             </td>
             <td>
-                - Adds the ability to delete a credential
-- tested on iOS and works
-
---- Not tested on Android yet ---
+                Alters the revocation types to be in line with https://github.com/DefinitelyTyped/DefinitelyTyped/pull/58505#issuecomment-1026450677.
+Adds functionality for fetching the revocation registry for the purposes of verifying proofs that include proof of non revocation.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-05 12:40:22 +0000 UTC
+        Created At 2022-02-01 03:49:00 +0000 UTC
     </div>
 </div>
 
