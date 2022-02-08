@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    F samples
+                    first sample app
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                <nil>
+                Transform the IOU integration test into a sample app
             </td>
         </tr>
     </table>

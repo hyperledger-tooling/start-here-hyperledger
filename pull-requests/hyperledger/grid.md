@@ -321,32 +321,3 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1277" class=".btn">#1277</a>
-            </td>
-            <td>
-                <b>
-                    Update contract versions in Dockerhub docker-compose
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This bumps the versions of the smart contracts downloaded in the
-`docker-compose-dockerhub` file to `0.3.1` from `0.2.2`.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-01 17:05:12 +0000 UTC
-    </div>
-</div>
-

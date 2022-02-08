@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 <b>
-                    Fix: ConnRecord their_role and state inconsistency between 0160 and 0023
+                    Breaking change: ConnRecord their_role and state inconsistency between 0160 and 0023
                 </b>
             </td>
         </tr>

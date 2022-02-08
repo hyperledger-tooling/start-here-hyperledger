@@ -38,29 +38,3 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/77" class=".btn">#77</a>
-            </td>
-            <td>
-                <b>
-                    Add Release Notes for 0.5.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-01 16:20:47 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3221" class=".btn">#3221</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in orderer.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Muhammad Anas Baig <anasbaigmughal@gmail.com>
+
+## Fix typo
+
+#### Type of change
+
+- Documentation update
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 18:10:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3219" class=".btn">#3219</a>
+            </td>
+            <td>
+                <b>
+                    Include chaincode tutorial in getting Getting Started section of docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also minor wording and link updates to content related to the client API.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 14:51:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3218" class=".btn">#3218</a>
             </td>
             <td>
@@ -45,69 +103,6 @@ This patch makes it exit with 1 additionally when
     </table>
     <div class="right-align">
         Created At 2022-02-08 08:53:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3217" class=".btn">#3217</a>
-            </td>
-            <td>
-                <b>
-                    Fix typo in orderer.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Fix typo
-
-- Documentation update
-
-Signed-off-by Muhammad Anas Baig <anasbaigmughal@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 16:48:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3216" class=".btn">#3216</a>
-            </td>
-            <td>
-                <b>
-                    Fix typo in orderer.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Fix typo
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 15:55:19 +0000 UTC
     </div>
 </div>
 
