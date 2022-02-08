@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/628" class=".btn">#628</a>
+            </td>
+            <td>
+                <b>
+                    merge changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 10:10:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/627" class=".btn">#627</a>
+            </td>
+            <td>
+                <b>
+                    Issue credv2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 10:02:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/626" class=".btn">#626</a>
             </td>
             <td>
@@ -105,7 +157,7 @@ Signed-off-by: NB-Karim <karim.northernblock@gmail.com>
             </td>
             <td>
                 <b>
-                    feat: cli demo
+                    docs: add cli demo
                 </b>
             </td>
         </tr>
@@ -146,34 +198,6 @@ Signed-off-by: NB-Karim <karim.northernblock@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-02-01 16:09:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/616" class=".btn">#616</a>
-            </td>
-            <td>
-                <b>
-                    chore: regenerate yarn.lock for security updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The PRs opened by dependabot updated the dependencies only partly resulting in multiple versions of the same package.
-
-Supersedes #613 #614
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-01 10:03:09 +0000 UTC
     </div>
 </div>
 

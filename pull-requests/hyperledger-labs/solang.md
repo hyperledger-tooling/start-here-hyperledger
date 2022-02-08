@@ -120,29 +120,3 @@ Fixes #654
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/652" class=".btn">#652</a>
-            </td>
-            <td>
-                <b>
-                    Permit assembly keywords in solidity and vice versa
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This ensures that `switch`, `default`, `case`, and `leave` are permitted in solidity, and that `return` is permitted in assembly.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-01 09:41:40 +0000 UTC
-    </div>
-</div>
-

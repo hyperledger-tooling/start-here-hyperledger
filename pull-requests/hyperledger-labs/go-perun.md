@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/319" class=".btn">#319</a>
+            </td>
+            <td>
+                <b>
+                    Fix CI fails
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Stabilise reorg resistant subscription tests, although it does not cause the inherent problem that caused the tests to fail. Fixing that would be way more involved.
+* Fix bug in Adjudicator test: challenge duration (is used as timeout for the funding transactions) was selected in *[0,3600)*, fixed to *[200,3600)* now, to guarantee enough time for funding.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 11:01:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/318" class=".btn">#318</a>
+            </td>
+            <td>
+                <b>
+                    Implement protobuf adapter for wire serialization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #311
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 08:55:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/317" class=".btn">#317</a>
+            </td>
+            <td>
+                <b>
+                    Refactor message serialization tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Refactor the tests to use generic test functions.
+
+- In preparation for extending these tests to newer wire serialization
+  adapters.
+
+- Also, use random string for reason field in shutdowm message test.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 07:00:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/316" class=".btn">#316</a>
             </td>
             <td>

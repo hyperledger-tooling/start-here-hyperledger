@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/634" class=".btn">#634</a>
+            </td>
+            <td>
+                <b>
+                    Make network.sh more tolerant
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The network.sh is dependent on being executed from the test-network directory.
+
+This PR makes it a little more tolerant, and will add a bin directory based on the location of the script - not just the PWD
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 10:18:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/630" class=".btn">#630</a>
             </td>
             <td>
@@ -391,40 +421,6 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-02-01 14:41:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/609" class=".btn">#609</a>
-            </td>
-            <td>
-                <b>
-                    Update test-network to use org level ca-cert.pem
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Although test network scripts functionally worked, they demonstrated
-some strange patterns around use of the ca cert.
-
-This change makes it clear that the ca cert is configured and used
-at the org level, and not related to any individual peer or orderer node.
-Also that when connecting to individual servers, clients can pass the
-org level CA cert as the root of trust when establishing TLS connections.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-01 08:16:51 +0000 UTC
     </div>
 </div>
 
