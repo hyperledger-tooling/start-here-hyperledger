@@ -1,13 +1,13 @@
 
 [v0.9.8](https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.8) v0.9.8
 
+[v0.0.43](https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.43) v0.0.43
+
 [v0.2.0](https://github.com/hyperledger/firefly-helm-charts/releases/tag/v0.2.0) v0.2.0
 
+[v1.0.1](https://github.com/hyperledger/fabric-gateway/releases/tag/v1.0.1) v1.0.1
+
 [v0.0.42](https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.42) v0.0.42
-
-[v0.1.5](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v0.1.5) v0.1.5
-
-[v0.12.0](https://github.com/hyperledger/firefly/releases/tag/v0.12.0) v0.12.0
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
