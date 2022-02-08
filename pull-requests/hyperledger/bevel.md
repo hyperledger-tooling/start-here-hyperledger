@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1832" class=".btn">#1832</a>
+            </td>
+            <td>
+                <b>
+                    [skip ci] Updated versions in docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Fix versions in documentation
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 10:37:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1831" class=".btn">#1831</a>
             </td>
             <td>
