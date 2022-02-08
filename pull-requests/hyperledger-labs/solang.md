@@ -88,35 +88,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/655" class=".btn">#655</a>
-            </td>
-            <td>
-                <b>
-                    Permit assigment in ternary
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Support the following construct:
-
-    function minimum(uint64 x, uint64 y) public pure returns (uint64 z) {
-        x >= y ? z = y : z = x;
-    }
-
-Fixes #654 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-01 15:12:49 +0000 UTC
-    </div>
-</div>
-
