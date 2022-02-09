@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1841" class=".btn">#1841</a>
+            </td>
+            <td>
+                <b>
+                    style: 2021-09-20 linter warnings batch 23/26 fixes: #1371
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is the recreation of PR of #1779
+ 
+Reason for this new PR:
+The previous repo was deleted.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 06:38:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1839" class=".btn">#1839</a>
             </td>
             <td>
@@ -316,38 +345,6 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
     </table>
     <div class="right-align">
         Created At 2022-02-02 15:24:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1828" class=".btn">#1828</a>
-            </td>
-            <td>
-                <b>
-                    test(api-client): fix flaky verifier-integration-with-openapi-connectors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Flaky-Test-Automation</span><span class="chip">Tests</span>
-            </td>
-            <td>
-                Use global jest timeout for verifier-integration-with-openapi-connectors
-functional test. It's 60 minutes at the moment, should be enough for
-docker based test. Increase timeout in verifier unit test to handle
-possible failures.
-
-Closes: #1827
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 10:33:59 +0000 UTC
     </div>
 </div>
 

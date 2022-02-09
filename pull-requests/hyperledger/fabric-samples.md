@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/639" class=".btn">#639</a>
+            </td>
+            <td>
+                <b>
+                    test-network-k8s: High availability on application connection profiles 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Signed-off-by:** Charalarg <charalarg@gmail.com>
+
+**Type of change:**
+
+- New feature
+- Bug fix
+
+**Description:**
+
+With these changes applications use the gateway-svc services in order to establish connection with any available peer on each organization rather than connecting manually to peer1. 
+
+The service names need also to be added as dnsName in each peer TLS certificate configuration.
+
+**Resolves:** #635 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 11:32:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/638" class=".btn">#638</a>
             </td>
             <td>
@@ -403,35 +444,6 @@ Signed-off-by: Kieran O Mahony <Kieran.O.Mahony1@ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-02-02 15:48:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/614" class=".btn">#614</a>
-            </td>
-            <td>
-                <b>
-                    further grafana dashboard improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - removed unused overrides
-- addressed issue using $__interval which doesn't work as well as $interval
-- addressed issue where multiple channels may not give correct output
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 09:43:56 +0000 UTC
     </div>
 </div>
 

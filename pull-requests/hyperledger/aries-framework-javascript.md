@@ -261,29 +261,3 @@ Signed-off-by: NB-Karim <karim.northernblock@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/619" class=".btn">#619</a>
-            </td>
-            <td>
-                <b>
-                    docs: add cli demo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: annelein <anneleinvanreijen@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 09:25:01 +0000 UTC
-    </div>
-</div>
-
