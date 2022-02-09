@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3222" class=".btn">#3222</a>
+            </td>
+            <td>
+                <b>
+                    Filter out purged data from private data store
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: manish <manish.sethi@gmail.com>
+
+#### Type of change
+- New feature
+
+#### Description
+This PR  introduces support for the purge marker(s) and filters the data marked for purging. In addition, this PR removes the 
+unused code for V11 format as now we upgraded data format along with retroactively creating hashed index at peer start.
+
+#### Related issues
+Resolves #3028 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 14:07:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3221" class=".btn">#3221</a>
             </td>
             <td>

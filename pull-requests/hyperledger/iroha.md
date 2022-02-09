@@ -363,6 +363,8 @@ Event triggers
 
 Prototype implementation, so both UX and reliability are untested. 
 
+Event processing is quadratic.
+
 Opens #1889 
 Opens #1890
 Opens #1891

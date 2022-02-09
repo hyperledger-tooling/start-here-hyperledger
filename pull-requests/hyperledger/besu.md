@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3396" class=".btn">#3396</a>
+            </td>
+            <td>
+                <b>
+                    update open telemetry to 1.6.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+This removes the protobuf-java dependency
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 18:16:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3393" class=".btn">#3393</a>
             </td>
             <td>
@@ -570,33 +602,6 @@ Resolving code smells in SonarCloud
     </table>
     <div class="right-align">
         Created At 2022-02-02 23:58:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3364" class=".btn">#3364</a>
-            </td>
-            <td>
-                <b>
-                    findSyncTarget always called with Optional.empty
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 15:09:39 +0000 UTC
     </div>
 </div>
 
