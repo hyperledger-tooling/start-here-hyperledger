@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1843" class=".btn">#1843</a>
+            </td>
+            <td>
+                <b>
+                    refactor(cartrade): upgrade cartrade samples to fabric 2.2 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                Add fabcar setup to fabric 2.x all-in-one startup script and adjust
+healthcheck accordingly. Use fabric 2.x in cartrade and discounted
+cartrade sample apps. No packages updated, fabric sdk 1.4.19 seems to
+work fine with fabric 2.2 for now. Both samples has been tested and work
+OK.
+
+Closes: https://github.com/hyperledger/cactus/issues/1842
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+
+### Note: 
+- Next step is to use basic asset transfer instead of depracated fabcar, so fabcar-cli-1.4 will be removed in the future (most probably).
+- Upgrade of SDK seems to be complex task for now (since packages were re-organized), I think it'd be better to just focus on migration to common fabric connector.
+
+Depends on #1824
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 13:42:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1841" class=".btn">#1841</a>
             </td>
             <td>
@@ -288,63 +327,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2022-02-02 22:24:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1832" class=".btn">#1832</a>
-            </td>
-            <td>
-                <b>
-                    chore(contribs): remove unused Fujitsu-ConnectionChain
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ConnectionChain</span><span class="chip">dependencies</span><span class="chip">Security</span>
-            </td>
-            <td>
-                Closes: #1831
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 15:32:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1830" class=".btn">#1830</a>
-            </td>
-            <td>
-                <b>
-                    refactor(socketio-validators): remove dead-code, fix error handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Fabric</span><span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                - Remove unused code from socketio validators
-- Fix error handling so that thrown object doesn't need `toString()` method defined (we convert to string representation with `String()` now)
-
-Closes: #1829
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 15:24:49 +0000 UTC
     </div>
 </div>
 

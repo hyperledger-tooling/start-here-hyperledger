@@ -41,31 +41,3 @@ Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/399" class=".btn">#399</a>
-            </td>
-            <td>
-                <b>
-                    some upgrades to package.json
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Some of the packages are upgraded , dependencies.
-
-Signed-off-by: Bhaskar <bhaskar@parrotsec.in>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 14:13:14 +0000 UTC
-    </div>
-</div>
-

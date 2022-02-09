@@ -92,31 +92,3 @@ Signed-off-by: Sam Yuan <yy19902439@126.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/10" class=".btn">#10</a>
-            </td>
-            <td>
-                <b>
-                    add grafana dashboard for Hyperledger fabric.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                add grafana dashboard for Hyperledger fabric.
-basing on existing project.
-resolve #5
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 13:26:26 +0000 UTC
-    </div>
-</div>
-
