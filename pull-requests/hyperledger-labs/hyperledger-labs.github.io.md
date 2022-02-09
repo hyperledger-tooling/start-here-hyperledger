@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/189" class=".btn">#189</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/190" class=".btn">#190</a>
             </td>
             <td>
                 <b>
-                    Rename image to match markdown
+                    hlf-connector
                 </b>
             </td>
         </tr>
@@ -27,13 +27,15 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
+                Signed-off-by: Anand Banik <anand.banik@walmart.com>
+
+Integrate with Hyperledger Fabric using REST and Kafka and, Block and Chaincode Event emitter.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-31 19:31:29 +0000 UTC
+        Created At 2022-02-08 22:35:23 +0000 UTC
     </div>
 </div>
 

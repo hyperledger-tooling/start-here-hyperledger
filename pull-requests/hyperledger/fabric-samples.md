@@ -435,33 +435,3 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/612" class=".btn">#612</a>
-            </td>
-            <td>
-                <b>
-                    Kube Test Network : Employ cert-manager for storage and organization of TLS certificates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR migrates the Kubernetes Test Network's approach for managing TLS certificate lifecycle to a more "Kube Native" approach.  Instead of deploying a complicated bootstrap of multiple CAs, the Kube Test Network now offloads the lifecycle of TLS certificates to the [cert-manager.io](https://cert-manager.io) operator.  Offloading the TLS mechanics to a kube-standard solution provides additional documentation, industry-accepted best practices, and significant opportunities for alignment with external certificate storage systems as are frequently encountered in production networks. 
-
-In addition to simplifying the deployment mechanics, the use of a separate and independent system for managing TLS certificates brings an incredible clarity to a holistic view of certificate management within Fabric networks.  Not only are the TLS configuration routes well understood, but this PR leaves a simple, predictable, and attainable residue of the MSP certificate structures - easily described and documented as node Identities and enrollments within the structure of an MSP folder hierarchy.
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-01 18:28:22 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,118 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/632" class=".btn">#632</a>
+            </td>
+            <td>
+                <b>
+                    fix: leading zeros in credential value encoding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR resolves an interop issue between ACA-Py & AFJ—in credential issuance we verify that the credential did not change between what was offered and what is actually being issued. 
+
+If the credential attribute value to be encoded (as described [here](https://github.com/hyperledger/aries-rfcs/blob/be4ad0a6fb2823bb1fc109364c96f077d5d8dffa/features/0036-issue-credential/README.md#encoding-claims-for-indy-based-verifiable-credentials)) is a string of numbers that contains a leading zero, such as an account number like: `08888`, then ACA-Py removes the leading zero (`8888`), while AFJ instead encodes it with the zero (`08888`). This PR adjusts AFJ’s behavior to bring it in line with ACA-Py’s implementation.
+
+Signed-off-by: James Ebert <jamesebert.k@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 18:25:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/631" class=".btn">#631</a>
+            </td>
+            <td>
+                <b>
+                    feat: update recursive backoff & trust ping record updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Supersedes #458 and incorporates discussions there.
+This PR alters the logic for trust pings so that connection records are not updated and events emitted if the record is already in a 'Complete' state.
+Fixes the recursive mediator reconnection backoff behavior
+
+Signed-off-by: James Ebert <jamesebert.k@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 17:56:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/630" class=".btn">#630</a>
+            </td>
+            <td>
+                <b>
+                    Feat/present proof v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 13:21:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/629" class=".btn">#629</a>
+            </td>
+            <td>
+                <b>
+                    Issue credv2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 13:17:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/628" class=".btn">#628</a>
             </td>
             <td>
@@ -172,32 +284,6 @@ Signed-off-by: NB-Karim <karim.northernblock@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-02-02 09:25:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/617" class=".btn">#617</a>
-            </td>
-            <td>
-                <b>
-                    ci: prepend v to alpha releases for consistency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-01 16:09:15 +0000 UTC
     </div>
 </div>
 

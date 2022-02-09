@@ -28,6 +28,8 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
             </td>
             <td>
                 This PR removes all CDI-related components from the first CDI prototype built directly into PDO, including the embedded compilation report in contracts as well as the policy engine previously built into the eservice.
+
+Note: This PR breaks the wawaka-aot build.
             </td>
         </tr>
     </table>
@@ -88,32 +90,6 @@ Signed-off-by: Mic Bowman <mic.bowman@intel.com>
     </table>
     <div class="right-align">
         Created At 2022-02-04 22:02:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/352" class=".btn">#352</a>
-            </td>
-            <td>
-                <b>
-                    Client Update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                Adds some simple updates for the client shell processing.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-01 23:44:28 +0000 UTC
     </div>
 </div>
 

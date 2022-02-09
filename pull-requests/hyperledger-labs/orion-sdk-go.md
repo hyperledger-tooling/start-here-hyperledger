@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    Full proof for tx in last block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span>
+            </td>
+            <td>
+                Fixed case then tx is part of last block, so second part of path in ledger doesn't exist
+
+Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 21:22:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/113" class=".btn">#113</a>
             </td>
             <td>

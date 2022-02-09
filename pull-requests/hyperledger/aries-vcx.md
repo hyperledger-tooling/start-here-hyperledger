@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/438" class=".btn">#438</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/440" class=".btn">#440</a>
             </td>
             <td>
                 <b>
-                    Out of Band 1.1 handshake reuse protocol
+                    Release 0.30.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                <span class="chip">changelog-excluded</span><span class="chip">pre-release</span>
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-01 10:58:32 +0000 UTC
+        Created At 2022-02-08 12:57:30 +0000 UTC
     </div>
 </div>
 

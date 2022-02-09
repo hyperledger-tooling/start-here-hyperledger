@@ -444,7 +444,7 @@ Sorry for combining these changes together
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.4.1</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
