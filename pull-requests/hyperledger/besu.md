@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    WIP: Add terminal block check to forkchoiceUpdated and executePayload
+                    Add terminal block check to forkchoiceUpdated and executePayload
                 </b>
             </td>
         </tr>
