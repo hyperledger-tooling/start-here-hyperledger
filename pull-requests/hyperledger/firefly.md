@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/499" class=".btn">#499</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/500" class=".btn">#500</a>
             </td>
             <td>
                 <b>
-                    Fix batch pin index calculation logic and improve logging
+                    New DX events
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Next step on #493 
+                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-08 22:50:21 +0000 UTC
+        Created At 2022-02-09 05:19:42 +0000 UTC
     </div>
 </div>
 
@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 <b>
-                    Mark activate_pool operations as successful
+                    Misc fixes for operations
                 </b>
             </td>
         </tr>
@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                <nil>
+                Includes commits from #497 plus a few more fixes.
             </td>
         </tr>
     </table>
@@ -665,32 +665,6 @@ For keepalive timeout there's a big disparity between Go and Node.js
     </table>
     <div class="right-align">
         Created At 2022-02-02 20:24:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/464" class=".btn">#464</a>
-            </td>
-            <td>
-                <b>
-                    ui version 0.5.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 04:29:51 +0000 UTC
     </div>
 </div>
 

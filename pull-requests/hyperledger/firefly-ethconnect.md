@@ -45,29 +45,3 @@ https://github.com/hyperledger/firefly-ethconnect/blob/f6c7fe5499d111a25d2301b84
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/197" class=".btn">#197</a>
-            </td>
-            <td>
-                <b>
-                    Request to be added as a code owner
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Having made significant contributions to this repository, I'd like to formally request being added as a code owner.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 01:42:27 +0000 UTC
-    </div>
-</div>
-
