@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/716" class=".btn">#716</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/720" class=".btn">#720</a>
             </td>
             <td>
                 <b>
-                    add mediator implementation by Networks Synergy
+                    add encoding algorithm to RFC 0592
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Signed-off-by: Mikhail Lytaev <mikelytaev@gmail.com>
+                RFC 0592 doesn't include the encoding algorithm for indy credential attributes that is required for interoperability. RFC 0036 described this, but the v2 protocol doesn't. This adds the encoding algorithm to RFC 0592 and updates the AIP2 commit link + changelog.
+
+
+Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-30 22:05:52 +0000 UTC
+        Created At 2022-02-08 20:03:00 +0000 UTC
     </div>
 </div>
 
@@ -40,77 +43,28 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/715" class=".btn">#715</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/719" class=".btn">#719</a>
             </td>
             <td>
                 <b>
-                    add mediator implementation by Networks Synergy
+                    Set Step 2 Start Date for OOB transition
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Merge Ready</span>
             </td>
             <td>
-                Signed-off-by: Mikhail Lytaev mikelytaev@gmail.com
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-30 21:58:13 +0000 UTC
-    </div>
-</div>
+                I should have done this weeks ago.  Let's discuss on tomorrow's Aries WG call if possible @TelegramSam .
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/714" class=".btn">#714</a>
-            </td>
-            <td>
-                <b>
-                    add mediator implementation by Networks Synergy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Mikhail S Lytaev <mikelytaev@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-30 21:35:56 +0000 UTC
-    </div>
-</div>
+I'll follow up with an email to the Aries Mailing list and known vendors/deployers to request status.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/712" class=".btn">#712</a>
-            </td>
-            <td>
-                <b>
-                    add mediator implementation by Networks Synergy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 15:30:39 +0000 UTC
+        Created At 2022-02-08 19:53:27 +0000 UTC
     </div>
 </div>
 

@@ -238,30 +238,3 @@ Signed-off-by: Manoranjith <ponraj.manoranjitha@in.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/310" class=".btn">#310</a>
-            </td>
-            <td>
-                <b>
-                    Fix funder timeout tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">race</span><span class="chip">refactor</span>
-            </td>
-            <td>
-                `TestFunding_PeerTimeout` failed sometimes, this was due to an event race in the logic of the funder's `waitForFundingConfirmation` function: it was handling the same context's `Done()` event in two different `select` branches.
-In this MR, I properly prioritize the `select` branches so that the race is resolved.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-01 23:28:51 +0000 UTC
-    </div>
-</div>
-

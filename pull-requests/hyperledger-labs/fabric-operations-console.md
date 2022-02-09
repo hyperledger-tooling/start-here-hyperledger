@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/125" class=".btn">#125</a>
+            </td>
+            <td>
+                <b>
+                    fix intermediate ca - association
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+
+#### Type of change
+- Bug fix
+Unable to associate with intermediate ca
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 00:07:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/124" class=".btn">#124</a>
             </td>
             <td>

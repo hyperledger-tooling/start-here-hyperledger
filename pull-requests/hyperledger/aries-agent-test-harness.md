@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/430" class=".btn">#430</a>
+            </td>
+            <td>
+                <b>
+                    feat(afj): enable revocation tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Enables revocation tests for AFJ in the holder role. Will enable AFJ in the role of verifier soon.
+
+I've added `@RFC0441` to revocation tests that follow RFC0441, as we don't support revocation not adhering to the best practices.
+
+There are still quite some tests failing, but would like to merge (once the PR in AFJ is merged) so we can get a daily update of the interop status for revocation.
+
+It's weird as some tests are failing where it expects the verification to fail, but it actually succeeds. ACA-Py is the verifier so I'm not sure how it is possible for ACA-Py to return verified=true if the credential was revoked. Maybe AFJ is doing something incorrect, but ACA-Py shouldn't accept the presentation in that case. See [this comment](https://github.com/hyperledger/aries-framework-javascript/pull/592#issuecomment-1033053705) for more context. Will need to dig deeper into this
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 23:15:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/429" class=".btn">#429</a>
             </td>
             <td>

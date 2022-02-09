@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/391" class=".btn">#391</a>
+            </td>
+            <td>
+                <b>
+                    Remove link to outdated Developing Applications documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 15:08:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/390" class=".btn">#390</a>
+            </td>
+            <td>
+                <b>
+                    Remove references to developing applications section of Fabric docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This content is outdated and describes the legacy SDKs. Remove references to it for now to avoid confusion.
+
+The asset-transfer samples and associated tutorials in the Fabric documentation provide a better guide for new users. Those are already linked in both READMEs and the main documentation page for fabric-gateway.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-08 15:04:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/389" class=".btn">#389</a>
             </td>
             <td>
@@ -195,32 +249,6 @@ Contributes to #206
     </table>
     <div class="right-align">
         Created At 2022-02-04 15:20:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/380" class=".btn">#380</a>
-            </td>
-            <td>
-                <b>
-                    Unit tests for correct network name with specified contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Unit tests to accompany PR #379
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-01 17:14:09 +0000 UTC
     </div>
 </div>
 
