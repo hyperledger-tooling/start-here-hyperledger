@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1848" class=".btn">#1848</a>
+            </td>
+            <td>
+                <b>
+                    fix: reset script from package.json does not work #1656
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes: #1656
+
+Signed-off-by: ruzell22 <ruzell.vince.aquino@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-10 03:20:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1847" class=".btn">#1847</a>
             </td>
             <td>
@@ -24,7 +52,7 @@ permalink: /pull-requests/hyperledger/cactus
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">Developer_Experience</span>
             </td>
             <td>
                 Fixes #1844
