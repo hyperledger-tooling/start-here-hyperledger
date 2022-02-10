@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1847" class=".btn">#1847</a>
+            </td>
+            <td>
+                <b>
+                    style(test-tooling): fix unexpected any quorum test ledger start
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1844
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 21:34:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1846" class=".btn">#1846</a>
+            </td>
+            <td>
+                <b>
+                    style(test-tooling): fix unexpected any quorum test ledger destroy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                Fixes #1845
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 20:12:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1843" class=".btn">#1843</a>
             </td>
             <td>
@@ -297,36 +353,6 @@ Signed-off-by: awadhana <awadhana2021@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-02-03 14:25:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1834" class=".btn">#1834</a>
-            </td>
-            <td>
-                <b>
-                    test(common): fix assertion of signature equality
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">Tests</span>
-            </td>
-            <td>
-                Fixes #1833
-
-Depends on #1686 (The jestification PR)
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 22:24:46 +0000 UTC
     </div>
 </div>
 

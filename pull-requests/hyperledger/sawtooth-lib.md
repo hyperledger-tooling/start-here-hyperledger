@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/140" class=".btn">#140</a>
+            </td>
+            <td>
+                <b>
+                    Update and patch transact version to 0.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit updates the transact version to be 0.5.
+This version is not yet released but will be the
+version used in the 0.8 (current main) release of
+libsawtooth. As such, a patch is added into the Cargo.toml
+to have the transact version be pulled in from the main
+branch of transact on github.
+
+This is required before https://github.com/Cargill/splinter/pull/1801 will work
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 19:11:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/139" class=".btn">#139</a>
             </td>
             <td>

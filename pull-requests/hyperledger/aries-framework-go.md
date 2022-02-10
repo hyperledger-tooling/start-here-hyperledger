@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3157" class=".btn">#3157</a>
+            </td>
+            <td>
+                <b>
+                    fix: use thread id for present-proof PIID, except in problem report
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 19:34:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3153" class=".btn">#3153</a>
             </td>
             <td>
@@ -64,34 +90,6 @@ Signed-off-by: Andrii Holovko <andriy.holovko@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-02-03 17:58:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3151" class=".btn">#3151</a>
-            </td>
-            <td>
-                <b>
-                    fix: issue-credential params support unmarshaling from DIDCommMsg
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also refactors present-proof params for consistency.
-
-Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 21:10:50 +0000 UTC
     </div>
 </div>
 

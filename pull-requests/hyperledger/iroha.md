@@ -14,6 +14,151 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1895" class=".btn">#1895</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #1892: remove `type Diff` in Execute
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                Signed-off-by: Marin Veršić <marin.versic101@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+I think this is just adds unnecessary complexity to codebase because even single Events are converted to `Vec` when executing instruction. I don't think we'll ever execute instructions except through the `Instruction` enum or that we need the ability to convert instructions into events
+
+### Issue
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 19:20:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1894" class=".btn">#1894</a>
+            </td>
+            <td>
+                <b>
+                    [feature]  #1877: produce events when executing wasm
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Marin Veršić <marin.versic101@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+1. add event generation to wasm instruction execution
+2. add integration test to verify events are generated
+3. move `client/tests/integration_test` -> `client/tests/integration`
+
+Submodules are a little bit special when inside `tests` directory. In particular, every `.rs` file inside `tests/` will be compiled as a separate crate. Is there a reason why all integration tests are inside `integration` directory and meticulously included in `tests/integration/mod.rs`? If not explicitly included these tests could be skipped, but on the other hand I think they get compiled as one crate instead of many?
+
+### Issue
+
+closes  #1877
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 18:55:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1886" class=".btn">#1886</a>
             </td>
             <td>
@@ -24,7 +169,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                <span class="chip">Iroha 2</span>
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
@@ -109,7 +254,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">Iroha 2</span>
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
@@ -184,7 +329,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">Iroha 2</span>
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
@@ -250,7 +395,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">Iroha 2</span>
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 … typo.
@@ -339,7 +484,7 @@ Signed-off-by: kuvaldini <ivan@kuvaldini.pro>
         </tr>
         <tr>
             <td>
-                <span class="chip">Iroha 2</span>
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 ### Description of the Change
@@ -393,7 +538,7 @@ Opens #1892
         </tr>
         <tr>
             <td>
-                <span class="chip">Iroha 2</span>
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
@@ -598,7 +743,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">Enhancement</span><span class="chip">Iroha 2</span><span class="chip">api-changes</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 <nil>
@@ -624,7 +769,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">Iroha 2</span>
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 Signed-off-by: Marin Veršić <marin.versic101@gmail.com>

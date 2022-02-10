@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/503" class=".btn">#503</a>
+            </td>
+            <td>
+                <b>
+                    Prometheus metrics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prometheus metrics for the following events:
+
+Broadcast & Private Message:
+- Submitted
+- Confirmed
+- Rejected
+- Histogram
+
+Token Mint, Transfer, and Burn:
+- Submitted
+- Confirmed
+- Rejected
+- Histogram
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 21:25:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/502" class=".btn">#502</a>
             </td>
             <td>
@@ -519,34 +557,6 @@ Needed for #400 and #316
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/477" class=".btn">#477</a>
-            </td>
-            <td>
-                <b>
-                    [new-prom-metrics] prometheus metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 to track broadcasts, private messages, and token mint/burn/transfers
-
-Signed-off-by: David Echelberger <david.echelberger@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 21:13:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/476" class=".btn">#476</a>
             </td>
             <td>
@@ -702,58 +712,6 @@ For keepalive timeout there's a big disparity between Go and Node.js
     </table>
     <div class="right-align">
         Created At 2022-02-03 14:01:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/466" class=".btn">#466</a>
-            </td>
-            <td>
-                <b>
-                    [v0.12.0-manifests] manifests for v0.12.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Echelberger <david.echelberger@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 21:49:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/465" class=".btn">#465</a>
-            </td>
-            <td>
-                <b>
-                    Allow passing a tokenIndex to "mint"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Some connectors may support (or require) this.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 20:24:37 +0000 UTC
     </div>
 </div>
 

@@ -29,7 +29,9 @@ permalink: /pull-requests/hyperledger/besu
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
 
-This removes the protobuf-java dependency
+This removes the protobuf-java dependency.
+
+I think this should wait until after 22.1.0 is released
 
 ## Changelog
 
@@ -563,45 +565,6 @@ Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-02-03 05:58:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3367" class=".btn">#3367</a>
-            </td>
-            <td>
-                <b>
-                    Addressing SonarCloud code smells
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description:
-Resolving code smells in SonarCloud
-
-## Fixed Issue(s)
-- https://sonarcloud.io/project/issues?id=hyperledger_besu&open=AXx2E1OZws9Ez90CDXF2&resolved=false
-- https://sonarcloud.io/project/issues?fileUuids=AXx2Exrfws9Ez90CDWNF&id=hyperledger_besu&open=AXx2E1OZws9Ez90CDXFz&resolved=false
-- https://sonarcloud.io/project/issues?id=hyperledger_besu&open=AXx2E1Olws9Ez90CDXF4&resolved=false
-- https://sonarcloud.io/project/issues?fileUuids=AXx2Exrfws9Ez90CDWNH&id=hyperledger_besu&open=AXx2E1Olws9Ez90CDXF3&resolved=false
-
-## Changelog
-- Using .parseInt instead of valueOf within the Integer class for both ExpectNetServicesReturnsAllServicesAsActive and ExpectNetServicesReturnsOnlyJsonRpcActive
-- Defining a constant to store the "jsonrpc" string instead of duplicating the string literal multiple times across both classes
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 23:58:53 +0000 UTC
     </div>
 </div>
 
