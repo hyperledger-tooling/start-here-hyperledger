@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/firefly-helm-charts
         <tr>
             <td colspan="2">
                 <b>
+                    v0.2.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.2.1
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Including imagePullSecrets in Jobs by @hfuss in https://github.com/hyperledger/firefly-helm-charts/pull/19
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-helm-charts/compare/v0.2.0...v0.2.1
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-helm-charts/releases/tag/v0.2.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-02-09 21:43:52 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.2.0
                 </b>
             </td>
