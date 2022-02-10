@@ -119,29 +119,3 @@ Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/179" class=".btn">#179</a>
-            </td>
-            <td>
-                <b>
-                    Fix Lint in FAQ
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates #178 to include adding id to added h2, this allows the right sidebar to continue to work. There is still lint to fix in the other sections of the website. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 17:26:10 +0000 UTC
-    </div>
-</div>
-

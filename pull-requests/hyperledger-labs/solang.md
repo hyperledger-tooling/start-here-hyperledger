@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/662" class=".btn">#662</a>
+            </td>
+            <td>
+                <b>
+                    feat(parser): add support for custom error types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add
+* ErrorDefinition
+* ErrorParameter
+
+support in lalrpop and ast types (based on existing EventDef/EventParam), following https://docs.soliditylang.org/en/v0.8.11/grammar.html#a4.SolidityParser.errorDefinition
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-10 17:57:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/661" class=".btn">#661</a>
             </td>
             <td>
@@ -61,32 +93,6 @@ Fixes #660
     </table>
     <div class="right-align">
         Created At 2022-02-07 15:12:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/657" class=".btn">#657</a>
-            </td>
-            <td>
-                <b>
-                    Fancy colored compiler diagnostics using codespan-reporting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 16:43:01 +0000 UTC
     </div>
 </div>
 

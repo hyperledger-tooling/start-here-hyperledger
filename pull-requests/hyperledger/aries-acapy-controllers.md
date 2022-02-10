@@ -14,56 +14,82 @@ permalink: /pull-requests/hyperledger/aries-acapy-controllers
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/45" class=".btn">#45</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/46" class=".btn">#46</a>
             </td>
             <td>
                 <b>
-                    Centralize docker host IP script.
+                    Bump undefsafe from 2.0.2 to 2.0.5 in /AliceFaberAcmeDemo/controllers/acme-controller
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
-                - This is an update to the previous commit to update the support for Docker networking.  The `getDockerHost` has been pulled out and placed in a central location where it can be updated as needed rather than having to update dozens of scripts the next time there is a change.
+                Bumps [undefsafe](https://github.com/remy/undefsafe) from 2.0.2 to 2.0.5.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/remy/undefsafe/releases">undefsafe's releases</a>.</em></p>
+<blockquote>
+<h2>v2.0.5</h2>
+<h2><a href="https://github.com/remy/undefsafe/compare/v2.0.4...v2.0.5">2.0.5</a> (2021-10-17)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>remove debug and add tests (<a href="https://github.com/remy/undefsafe/commit/58fc47439a3bb2cd1cccdaeb8777561a325fba1c">58fc474</a>), closes <a href="https://github-redirect.dependabot.com/remy/undefsafe/issues/12">#12</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/remy/undefsafe/commit/5d3fa3460e6716ed85dd3d41f4973fcd0896493d"><code>5d3fa34</code></a> chore: adding semver release</li>
+<li><a href="https://github.com/remy/undefsafe/commit/58fc47439a3bb2cd1cccdaeb8777561a325fba1c"><code>58fc474</code></a> fix: remove debug and add tests</li>
+<li><a href="https://github.com/remy/undefsafe/commit/f272681b3a50e2c4cbb6a8533795e1453382c822"><code>f272681</code></a> fix: prevent changes in prototype chain</li>
+<li><a href="https://github.com/remy/undefsafe/commit/f4959541af2a607258ce197e7a07b79e6e8a8356"><code>f495954</code></a> chore: prettier changes</li>
+<li>See full diff in <a href="https://github.com/remy/undefsafe/compare/v2.0.2...v2.0.5">compare view</a></li>
+</ul>
+</details>
+<br />
 
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=undefsafe&package-manager=npm_and_yarn&previous-version=2.0.2&new-version=2.0.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-controllers/network/alerts).
+
+</details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-08 21:04:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/44" class=".btn">#44</a>
-            </td>
-            <td>
-                <b>
-                    Add support for changes to internal Docker networking.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Networking changes introduced in Docker 4.1.x and forward on Windows and MAC stop the direct use of the internal docker host IP returned by the `docker run --rm --net=host eclipse/che-ip` process. On Windows and MAC `host.docker.internal` needs to be used for internal connections between containers on separate docker networks.
-- `host.docker.internal` has been available on Windows and Mac since Docker Engine version 18.03 (March 2018). Support for `host.docker.internal` on Linux was introduced in version 20.10.0 (2020-12-08), but it does not run out of the box yet (as of Docker Engine 20.10.11 (2021-11-17)). You need to add `--add-host=host.docker.internal:host-gateway` to the `docker run` command in order for it to work.
-
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-12-07 20:48:03 +0000 UTC
+        Created At 2022-02-10 15:49:44 +0000 UTC
     </div>
 </div>
 

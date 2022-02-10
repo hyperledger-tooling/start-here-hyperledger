@@ -243,31 +243,3 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1284" class=".btn">#1284</a>
-            </td>
-            <td>
-                <b>
-                    Update `grid keygen` man page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds the `KEY_NAME` argument to the `grid keygen` man page.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 16:51:58 +0000 UTC
-    </div>
-</div>
-

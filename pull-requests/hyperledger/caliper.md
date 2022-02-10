@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1218" class=".btn">#1218</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1219" class=".btn">#1219</a>
             </td>
             <td>
                 <b>
-                    Bumped node 14 for caliper-etherium and caliper-fabric
+                    enable support for node 14 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                updated fabric protos and other dependencies to achieve caliper-etherium and fabric compatibility with node 14
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-10 12:03:51 +0000 UTC
+        Created At 2022-02-10 16:02:49 +0000 UTC
     </div>
 </div>
 
