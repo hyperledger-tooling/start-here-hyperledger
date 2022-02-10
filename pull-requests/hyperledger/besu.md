@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3397" class=".btn">#3397</a>
+            </td>
+            <td>
+                <b>
+                    Reject locally-sourced frontier transactions below the minimum gas price when not mining
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Reject locally-sourced frontier transactions below the minimum gas price when not mining.
+
+Brings back some of the functionality that was taken out by https://github.com/hyperledger/besu/pull/1743
+
+The main problem is that if you're not mining and send zero priced frontier transactions to the node it will fill up the transaction pool. 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-10 11:14:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3396" class=".btn">#3396</a>
             </td>
             <td>
@@ -460,45 +495,6 @@ add block details to MergeUnfinalizedValidationRule header validation rule
     </table>
     <div class="right-align">
         Created At 2022-02-04 20:14:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3372" class=".btn">#3372</a>
-            </td>
-            <td>
-                <b>
-                    Persist last finalized block hash
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2913 
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 11:30:24 +0000 UTC
     </div>
 </div>
 

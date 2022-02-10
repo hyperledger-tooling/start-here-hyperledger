@@ -249,36 +249,3 @@ Signed-off-by: Manoranjith <ponraj.manoranjitha@in.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/312" class=".btn">#312</a>
-            </td>
-            <td>
-                <b>
-                    Implement protobuf adapter for wire serialization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - [x] Add protocol buffer definitions in ~wire/protobuf/wire.proto~ file.
-- [x] Add a config file for ~/.protolint~ tool for linting *.proto files.
-- [x] Add a job in github ci config for running protolint tool.
-- [ ] Add generated bindings and helper functions for
-  serializing/de-serializing messags to/from using protobuf wire format.
-- [ ] Disable default use of ~perunio~ encoding and make provisions for the
-  user to choose the adapter.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 09:46:36 +0000 UTC
-    </div>
-</div>
-
