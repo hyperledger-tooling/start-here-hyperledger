@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1851" class=".btn">#1851</a>
+            </td>
+            <td>
+                <b>
+                    test: jestify remote-plugin-imports test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Migrated test from Tap to Jest.
+
+File Path:
+packages/cactus-cmd-api-server/src/test/typescript/
+integration/remote-plugin-imports.test.ts
+
+This is a PARTIAL resolution to issue #238 
+
+Signed-off-by: awadhana awadhana2021@gmail.com
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-10 14:11:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1850" class=".btn">#1850</a>
+            </td>
+            <td>
+                <b>
+                    chore(cartrade): remove cartrade sample
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                There's no benefit from having cartrade and more complete
+discounted-cartrade at the same time, remove cartrade sample app from
+the repo.
+
+Closes: https://github.com/hyperledger/cactus/issues/1849
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+
+Depends on #1843
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-10 12:51:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1848" class=".btn">#1848</a>
             </td>
             <td>
@@ -346,41 +413,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-02-04 06:24:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1835" class=".btn">#1835</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify plugin-keychain-memory test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Tests</span><span class="chip">Jestify</span>
-            </td>
-            <td>
-                
-Migrated test from Tap to Jest.
-
-File Path:
-packages/cactus-plugin-keychain-memory/src/
-test/typescript/unit/plugin-keychain-memory.test.ts
-
-This is a PARTIAL resolution to issue https://github.com/hyperledger/cactus/issues/238
-
-Signed-off-by: awadhana <awadhana2021@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 14:25:25 +0000 UTC
     </div>
 </div>
 

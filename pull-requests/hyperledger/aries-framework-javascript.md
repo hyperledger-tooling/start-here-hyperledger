@@ -233,31 +233,3 @@ Signed-off-by: annelein <anneleinvanreijen@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/620" class=".btn">#620</a>
-            </td>
-            <td>
-                <b>
-                    feat: add find and save/update methods to DidCommMessageRepository
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds `findAgentMessage()` and `saveOrUpdateAgentMessage()` methods to the `DidCommMessageRepository`.
-
-Signed-off-by: NB-Karim <karim.northernblock@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 14:27:14 +0000 UTC
-    </div>
-</div>
-
