@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1837" class=".btn">#1837</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Test automated deployment of latest fabric go chaincode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+- Add a new condition in platforms/hyperledger-fabric/charts/install_chaincode , for both chaincodes to work
+
+This is the configuration used in the network.yaml for the network display with the chain code:
+github.com/hyperledger/fabric-samples/tree/main/asset-transfer-basic/chaincode-go
+![image](https://user-images.githubusercontent.com/83813093/153394301-10aa50bd-79ff-4680-b4f5-93affdc01e55.png)
+
+
+**Reviewed by**
+@suvajit-sarkar
+@jagpreetsinghsasan
+ 
+
+**Linked issue**
+#1797 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-10 11:07:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1834" class=".btn">#1834</a>
             </td>
             <td>
@@ -127,76 +171,6 @@ permalink: /pull-requests/hyperledger/bevel
     </table>
     <div class="right-align">
         Created At 2022-02-03 14:46:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1829" class=".btn">#1829</a>
-            </td>
-            <td>
-                <b>
-                    [corda-ent] Updated documents to include cenm-console integration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: surabhi-dudhediya <surabhi.dudhediya@accenture.com>
-
-**Changelog**
-- Add operations guide for cenm-console integration
-- Update corda-ent configuration and charts documents to include cenm-console integration services
-
- 
-
-**Reviewed by**
-@suvajit-sarkar @sownak 
-
- 
-
-**Linked issue**
-#1794 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 10:58:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1828" class=".btn">#1828</a>
-            </td>
-            <td>
-                <b>
-                    [chore] merge develop to main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Merge develop to main for release
-
-Issue #1795 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 09:27:58 +0000 UTC
     </div>
 </div>
 

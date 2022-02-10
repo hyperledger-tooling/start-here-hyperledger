@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3159" class=".btn">#3159</a>
+            </td>
+            <td>
+                <b>
+                    add content type to webhook request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Webhook message has no content type
+
+**Description:**
+Add the content type to the request header in webhook
+ Issue: https://github.com/hyperledger/aries-framework-go/issues/3158
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-10 11:49:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3157" class=".btn">#3157</a>
             </td>
             <td>
