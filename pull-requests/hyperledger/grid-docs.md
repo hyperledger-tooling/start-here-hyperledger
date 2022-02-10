@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/312" class=".btn">#312</a>
+            </td>
+            <td>
+                <b>
+                    Update schemaspy java dependency version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The dep version was updated in response to a log4j vulnerability.
+https://github.com/schemaspy/schemaspy/issues/819
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 22:08:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/311" class=".btn">#311</a>
+            </td>
+            <td>
+                <b>
+                    Fix API doc path for building website
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change fixes the file path used to locate the API docs when
+building the site. This change removes the `references` level in the
+path.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 21:28:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid-docs/pull/304" class=".btn">#304</a>
             </td>
             <td>
@@ -186,68 +245,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-02-03 16:53:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/298" class=".btn">#298</a>
-            </td>
-            <td>
-                <b>
-                    Update Using Grid on Splinter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates include adding references to Purchase Order, updating
-references to Splinter docs, formatting, adding missing references
-to existing smart contracts, and replacing the reference to the XO
-contract with an example using Purchase Order. Updates 0.3 and 0.4
-docs.
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 20:44:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/297" class=".btn">#297</a>
-            </td>
-            <td>
-                <b>
-                    Add flag so redoc containers listen on all interfaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The `--host` flag was added, which defaults to 127.0.0.1.
-
-https://github.com/Redocly/redoc/pull/1598
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-02 20:36:55 +0000 UTC
     </div>
 </div>
 

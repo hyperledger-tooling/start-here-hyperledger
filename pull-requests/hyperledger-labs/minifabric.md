@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/322" class=".btn">#322</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/326" class=".btn">#326</a>
             </td>
             <td>
                 <b>
-                    Create RunningOnArm.md
+                    Signed-off-by: pvrbharg <pvrbharg@gmail.com>
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                According https://github.com/hyperledger-labs/minifabric/issues/293# we gathered our experience of running minifabric on an arm processor in this document. - Closing https://github.com/hyperledger-labs/minifabric/pull/320 and created a new PR from a new branch, because I cant squash with past merges.
+                	new file:   KnownIssueScreenCaptures/Screen Shot 2022-02-09 at 10.53.52 AM.png
+	new file:   KnownIssueScreenCaptures/Screen Shot 2022-02-09 at 10.54.12 AM.png
+	new file:   KnownIssueScreenCaptures/Screen Shot 2022-02-09 at 10.57.36 AM.png
+	new file:   KnownIssueScreenCaptures/Screen Shot 2022-02-09 at 10.57.49 AM.png
+	modified:   KnownIssues.md
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 09:53:12 +0000 UTC
+        Created At 2022-02-10 00:25:59 +0000 UTC
     </div>
 </div>
 

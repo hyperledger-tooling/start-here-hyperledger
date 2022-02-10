@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/24" class=".btn">#24</a>
-            </td>
-            <td>
-                <b>
-                    fixed dependabot alerts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves: #23 
-Tested connection create with Lissi wallet and confirmed working.
-Signed-off-by: wadeking98 <wkingnumber2@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 00:06:47 +0000 UTC
-    </div>
-</div>
-
