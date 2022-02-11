@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1306" class=".btn">#1306</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0.3: move data validation tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This moves the data_validation tests to the cli integration tests so
+the XSD files can be downloaded using the `grid download-xsd` command.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-10 19:10:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1305" class=".btn">#1305</a>
             </td>
             <td>
@@ -162,84 +191,6 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-02-04 02:39:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1287" class=".btn">#1287</a>
-            </td>
-            <td>
-                <b>
-                    Add release notes for v0.3.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 19:49:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1286" class=".btn">#1286</a>
-            </td>
-            <td>
-                <b>
-                    Add files for publishing a release when a tag is pushed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 19:19:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1285" class=".btn">#1285</a>
-            </td>
-            <td>
-                <b>
-                    Correct docker-compose and packaging for `/var/cache/grid`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 18:57:28 +0000 UTC
     </div>
 </div>
 
