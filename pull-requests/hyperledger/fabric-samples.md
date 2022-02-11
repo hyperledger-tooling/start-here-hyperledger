@@ -204,29 +204,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/629" class=".btn">#629</a>
-            </td>
-            <td>
-                <b>
-                    Update REST sample with Redis password
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-04 12:01:29 +0000 UTC
-    </div>
-</div>
-
