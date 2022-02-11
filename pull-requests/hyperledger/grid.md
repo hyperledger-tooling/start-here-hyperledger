@@ -134,33 +134,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1289" class=".btn">#1289</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT 0-2: Set dotenv-load to true in justfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Starting with version 0.11.0, just ignores .env files by default. This
-breaks some recipes because we read docker environment variables from
-the .env file.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-04 15:32:11 +0000 UTC
-    </div>
-</div>
-
