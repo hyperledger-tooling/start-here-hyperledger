@@ -68,31 +68,3 @@ Add the content type to the request header in webhook
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3153" class=".btn">#3153</a>
-            </td>
-            <td>
-                <b>
-                    feat: Function to validate Credential Application Attachment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-
-closes #3150 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 20:58:56 +0000 UTC
-    </div>
-</div>
-

@@ -93,29 +93,3 @@ Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/180" class=".btn">#180</a>
-            </td>
-            <td>
-                <b>
-                    Caleb hill rest api docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a redoc docker container, moves the rest_api docs from the `core` directory to the `1.2` directory, and fixes the markdown issues found in those docs.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 22:00:00 +0000 UTC
-    </div>
-</div>
-

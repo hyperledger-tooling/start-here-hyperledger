@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/507" class=".btn">#507</a>
+            </td>
+            <td>
+                <b>
+                    Add "reInitEnabled" config to DX
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When enabled, FireFly will post to `/api/v1/init` on the DX connector with a list of all current nodes,
+before initial connect of the websocket and before each reconnect.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-10 21:53:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/505" class=".btn">#505</a>
+            </td>
+            <td>
+                <b>
+                    Rename data exchange plugin to "ffdx"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #259
+
+Open to other names here, but we landed on "fftokens" for the tokens plugin, so this seemed reasonable.
+The name just needs to be globally unique in FireFly across all plugins, and identifiable as a data exchange plugin
+vs. some other type of plugin.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-10 19:52:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/503" class=".btn">#503</a>
             </td>
             <td>
@@ -99,6 +156,8 @@ Resolves:
 
 At the moment this is how the batching logic works:
 
+## OLD
+
 ![batch_logic](https://user-images.githubusercontent.com/6660217/150621839-468e5be6-e1b5-4ac6-8086-34b4b9d73281.jpg)
 
 - The assembly loop of each batch dispatcher is able to keep accepting work as long as the last batch has been successfully dispatched.
@@ -109,6 +168,8 @@ At the moment this is how the batching logic works:
 This design evolved from a similar design in the previous generation of Asset Trail technology.
 
 Given this most recent issue, and some inefficiency and crash recovery challenges that exist in the design after it's port over to FireFly and evolution, I'm planning an updated design.
+
+## NEW
 
 This PR updates it to simplify it (even beyond the previous proposal in #421):
 
@@ -495,87 +556,6 @@ but seems better for overall consistency.
     </table>
     <div class="right-align">
         Created At 2022-02-04 19:38:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/478" class=".btn">#478</a>
-            </td>
-            <td>
-                <b>
-                    Store all token transfer inputs on operation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Since the transfer is only recorded upon success, all inputs must be stored
-on the operation in order to support retries or accurately report failures.
-
-Needed for #400 and #316
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 21:39:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/476" class=".btn">#476</a>
-            </td>
-            <td>
-                <b>
-                    Add missing test coverage in txcommon
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 20:49:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/475" class=".btn">#475</a>
-            </td>
-            <td>
-                <b>
-                    Use PreFinalize/Finalize in all definition handlers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Follow-up to #462
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 20:15:58 +0000 UTC
     </div>
 </div>
 

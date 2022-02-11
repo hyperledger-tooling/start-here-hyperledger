@@ -125,32 +125,3 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/302" class=".btn">#302</a>
-            </td>
-            <td>
-                <b>
-                    Update Upgrading Smart Contracts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds a warning for users to save their keys before rebuilding the
-daemons. Also fixes a typo.
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 20:05:24 +0000 UTC
-    </div>
-</div>
-
