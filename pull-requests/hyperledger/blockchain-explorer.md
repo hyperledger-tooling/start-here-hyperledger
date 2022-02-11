@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/274" class=".btn">#274</a>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/275" class=".btn">#275</a>
             </td>
             <td>
                 <b>
-                    Bump node-fetch from 2.6.1 to 2.6.7
+                    Bump ajv from 5.5.2 to 6.12.3
                 </b>
             </td>
         </tr>
@@ -27,50 +27,78 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [node-fetch](https://github.com/node-fetch/node-fetch) from 2.6.1 to 2.6.7.
+                Bumps [ajv](https://github.com/ajv-validator/ajv) from 5.5.2 to 6.12.3.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/node-fetch/node-fetch/releases">node-fetch's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/ajv-validator/ajv/releases">ajv's releases</a>.</em></p>
 <blockquote>
-<h2>v2.6.7</h2>
-<h1>Security patch release</h1>
-<p>Recommended to upgrade, to not leak sensitive cookie and authentication header information to 3th party host while a redirect occurred</p>
-<h2>What's Changed</h2>
+<h2>v6.12.3</h2>
+<p>Pass schema object to processCode function
+Option for strictNumbers (<a href="https://github.com/issacgerges"><code>@​issacgerges</code></a>, <a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1128">#1128</a>)
+Fixed vulnerability related to untrusted schemas (<a href="https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2020-15366">CVE-2020-15366</a>)</p>
+<h2>v6.12.2</h2>
+<p>Removed post-install script</p>
+<h2>v6.12.1</h2>
+<p>Docs and dependency updates</p>
+<h2>v6.12.0</h2>
+<p>Improved hostname validation (<a href="https://github.com/sambauers"><code>@​sambauers</code></a>, <a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1143">#1143</a>)
+Option <code>keywords</code> to add custom keywords (<a href="https://github.com/franciscomorais"><code>@​franciscomorais</code></a>, <a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1137">#1137</a>)
+Types fixes (<a href="https://github.com/boenrobot"><code>@​boenrobot</code></a>, <a href="https://github.com/MattiAstedrone"><code>@​MattiAstedrone</code></a>)
+Docs:</p>
 <ul>
-<li>fix: don't forward secure headers to 3th party by <a href="https://github.com/jimmywarting"><code>@​jimmywarting</code></a> in <a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/pull/1453">node-fetch/node-fetch#1453</a></li>
+<li><a href="https://github.com/epoberezkin/ajv#error-logging">error logging</a> example (<a href="https://github.com/RadiationSickness"><code>@​RadiationSickness</code></a>)</li>
+<li>TypeScript usage notes (<a href="https://github.com/thetric"><code>@​thetric</code></a>)</li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/node-fetch/node-fetch/compare/v2.6.6...v2.6.7">https://github.com/node-fetch/node-fetch/compare/v2.6.6...v2.6.7</a></p>
-<h2>v2.6.6</h2>
-<h2>What's Changed</h2>
+<h2>v6.11.0</h2>
+<p>Time formats support two digit and colon-less variants of timezone offset (<a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1061">#1061</a> , <a href="https://github.com/cjpillsbury"><code>@​cjpillsbury</code></a>)
+Docs: RegExp related security considerations
+Tests: Disabled failing typescript test</p>
+<h2>v6.10.2</h2>
+<p>Fix: the unknown keywords were ignored with the option <code>strictKeywords: true</code> (instead of failing compilation) in some sub-schemas (e.g. anyOf), when the sub-schema didn't have known keywords.</p>
+<h2>v6.10.1</h2>
+<p>Fix types
+Fix addSchema (<a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1001">#1001</a>)
+Update dependencies</p>
+<h2>v6.10.0</h2>
+<p>Option <code>strictDefaults</code> to report ignored defaults (<a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/957">#957</a>, <a href="https://github.com/not-an-aardvark"><code>@​not-an-aardvark</code></a>)
+Option <code>strictKeywords</code> to report unknown keywords (<a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/781">#781</a>)</p>
+<h2>v6.9.0</h2>
+<p>OpenAPI keyword <code>nullable</code> can be any boolean (and not only <code>true</code>).
+Custom keyword definition changes:</p>
 <ul>
-<li>fix(URL): prefer built in URL version when available and fallback to whatwg by <a href="https://github.com/jimmywarting"><code>@​jimmywarting</code></a> in <a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/pull/1352">node-fetch/node-fetch#1352</a></li>
+<li><code>dependencies</code> option in  to require the presence of keywords in the same schema.</li>
+<li>more strict validation of the definition using JSON Schema.</li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/node-fetch/node-fetch/compare/v2.6.5...v2.6.6">https://github.com/node-fetch/node-fetch/compare/v2.6.5...v2.6.6</a></p>
-<h2>v2.6.2</h2>
-<p>fixed main path in package.json</p>
+<h2>v6.8.0</h2>
+<p>Docs: <a href="https://github.com/epoberezkin/ajv#security-considerations">security considerations</a>.
+<a href="https://github.com/epoberezkin/ajv/blob/master/lib/refs/json-schema-secure.json">Meta-schema</a> for the security assessment of JSON Schemas.</p>
+<h2>v6.7.0</h2>
+<p>Option <code>useDefaults: &quot;empty&quot;</code> to replace <code>null</code> and <code>&quot;&quot;</code> (empty strings) with default values (in addition to assigning defaults to missing and undefined properties).
+Update draft-04 meta-schema to remove incorrect usage of &quot;uri&quot; format.</p>
+<!-- raw HTML omitted -->
 </blockquote>
+<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/node-fetch/node-fetch/commit/1ef4b560a17e644a02a3bfdea7631ffeee578b35"><code>1ef4b56</code></a> backport of <a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1449">#1449</a> (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1453">#1453</a>)</li>
-<li><a href="https://github.com/node-fetch/node-fetch/commit/8fe5c4ea66b9b8187600e6d5ec9b1b6781f44009"><code>8fe5c4e</code></a> 2.x: Specify encoding as an optional peer dependency in package.json (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1310">#1310</a>)</li>
-<li><a href="https://github.com/node-fetch/node-fetch/commit/f56b0c66d3dd2ef185436de1f2fd40f66bfea8f4"><code>f56b0c6</code></a> fix(URL): prefer built in URL version when available and fallback to whatwg (...</li>
-<li><a href="https://github.com/node-fetch/node-fetch/commit/b5417aea6a3275932283a200214522e6ab53f1ea"><code>b5417ae</code></a> fix: import whatwg-url in a way compatible with ESM Node (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1303">#1303</a>)</li>
-<li><a href="https://github.com/node-fetch/node-fetch/commit/18193c5922c64046b922e18faf41821290535f06"><code>18193c5</code></a> fix v2.6.3 that did not sending query params (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1301">#1301</a>)</li>
-<li><a href="https://github.com/node-fetch/node-fetch/commit/ace7536c955556be742d9910566738630cc3c2a6"><code>ace7536</code></a> fix: properly encode url with unicode characters (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1291">#1291</a>)</li>
-<li><a href="https://github.com/node-fetch/node-fetch/commit/152214ca2f6e2a5a17d71e4638114625d3be30c6"><code>152214c</code></a> Fix(package.json): Corrected main file path in package.json (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1274">#1274</a>)</li>
-<li>See full diff in <a href="https://github.com/node-fetch/node-fetch/compare/v2.6.1...v2.6.7">compare view</a></li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/521c3a53f15f5502fb4a734194932535d311267c"><code>521c3a5</code></a> 6.12.3</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/bd7107b54166a4ca67555ba37829375e31649bf8"><code>bd7107b</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1229">#1229</a> from ajv-validator/dependabot/npm_and_yarn/mocha-8.0.1</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/9c26bb28f839a1cde853b64f7f6d035e4b3afd1e"><code>9c26bb2</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1234">#1234</a> from ajv-validator/dependabot/npm_and_yarn/eslint-7.3.1</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/c6a6daaf9e2739f4e50a33c3aed647b7629d1fc4"><code>c6a6daa</code></a> Merge branch 'master' into dependabot/npm_and_yarn/mocha-8.0.1</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/15eda23010c8b2d1353ebf7afc8e27d818b149ac"><code>15eda23</code></a> Merge branch 'master' into dependabot/npm_and_yarn/eslint-7.3.1</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/d6aabb8e97029130cdb607dcd2e78a6d567e10d5"><code>d6aabb8</code></a> test: remove node 8 from travis test</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/c4801ca7771eef5cf7ad8c1adb7cce83c16f065f"><code>c4801ca</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1242">#1242</a> from ajv-validator/refactor</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/988982d3fde08e3ea074e8942442834e78c45587"><code>988982d</code></a> ignore proto properties</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/f2b1e3d2c89288561ee68d7459a41b7222cc520d"><code>f2b1e3d</code></a> whitespace</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/65e3678146e63b0c8ec80d66e05e146dff68a15d"><code>65e3678</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1239">#1239</a> from GrahamLea/patch-1</li>
+<li>Additional commits viewable in <a href="https://github.com/ajv-validator/ajv/compare/v5.5.2...v6.12.3">compare view</a></li>
 </ul>
-</details>
-<details>
-<summary>Maintainer changes</summary>
-<p>This version was pushed to npm by <a href="https://www.npmjs.com/~endless">endless</a>, a new releaser for node-fetch since your current version.</p>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=node-fetch&package-manager=npm_and_yarn&previous-version=2.6.1&new-version=2.6.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ajv&package-manager=npm_and_yarn&previous-version=5.5.2&new-version=6.12.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -106,7 +134,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-24 14:24:29 +0000 UTC
+        Created At 2022-02-11 05:24:06 +0000 UTC
     </div>
 </div>
 

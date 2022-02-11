@@ -1,13 +1,13 @@
 
-[3402](https://github.com/hyperledger/besu/pull/3402) Publish kintsugi final tag
+[275](https://github.com/hyperledger/blockchain-explorer/pull/275) Bump ajv from 5.5.2 to 6.12.3
 
-[1840](https://github.com/hyperledger/bevel/pull/1840) Bump vertx-web from 3.5.4 to 3.9.4 in /platforms/r3-corda/images/doorman
+[47](https://github.com/hyperledger/aries-acapy-controllers/pull/47) Bump express-handlebars from 3.1.0 to 5.3.1 in /AliceFaberAcmeDemo/controllers/acme-controller
 
-[1839](https://github.com/hyperledger/bevel/pull/1839) Bump vertx-web from 3.7.1 to 3.9.4 in /platforms/r3-corda/images/networkmap
+[431](https://github.com/hyperledger/aries-agent-test-harness/pull/431) Changes by create-pull-request action
 
-[208](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/208) Work on connection notif
+[14](https://github.com/hyperledger/iroha-state-migration-tool/pull/14) Bump protobuf from 3.12.2 to 3.15.0
 
-[3401](https://github.com/hyperledger/besu/pull/3401) add kintsugi to publishDocker
+[3405](https://github.com/hyperledger/besu/pull/3405) fix NPE, issue 3335
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
