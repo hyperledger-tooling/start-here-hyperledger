@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3414" class=".btn">#3414</a>
+            </td>
+            <td>
+                <b>
+                    remove unnecessary blockcreator signature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-12 01:07:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3413" class=".btn">#3413</a>
             </td>
             <td>
@@ -816,53 +855,6 @@ Signed-off-by : Bhaskar <bhaskarvilles@yandex.com>
     </table>
     <div class="right-align">
         Created At 2022-02-06 04:04:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3379" class=".btn">#3379</a>
-            </td>
-            <td>
-                <b>
-                    add a websocket max frame size configuration 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-when interoping with nimbus, besu will disconnect when it receives a message with a frame size exceeding 64kb.  The default max frame size for vertx websocket implementation is 64kb, but the [websocket lib](https://github.com/Tormund/news) used by nimbus has a [static 1mb frame size](https://github.com/Tormund/news/blob/master/src/news.nim#L423).
-
-Increasing the max frame size should not affect existing websocket client usage.  We may want to move this configuration to the execution-specific websocket endpoint (on 8551) once besu implements it in #3378.
-
-this PR:
-* bumps the default websocket max frame size to 1mb
-* perpetuates the vertx default websocket max message size of (max_frame_size * 4)
-* plumbs a cli option to enable using an explicit max frame size
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #3368
-relates to https://github.com/status-im/nimbus-eth2/issues/3305
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-05 03:10:21 +0000 UTC
     </div>
 </div>
 
