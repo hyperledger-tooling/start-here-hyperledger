@@ -1,13 +1,13 @@
 
-[3226](https://github.com/hyperledger/fabric/pull/3226) Add Intermediate CA certs to dial options (backport #3225)
+[641](https://github.com/hyperledger/fabric-samples/pull/641) Issue 602
 
-[3412](https://github.com/hyperledger/besu/pull/3412) Merge: extend block creation and mining to support The Merge
+[3413](https://github.com/hyperledger/besu/pull/3413) Lgtm alerts
 
-[440](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/440) build(deps): bump handlebars from 4.7.6 to 4.7.7 in /net-emissions-token-network
+[1628](https://github.com/hyperledger/aries-cloudagent-python/pull/1628) Fix for non-revoc proof with no timestamp
 
-[161](https://github.com/hyperledger-labs/convector/pull/161) build(deps): bump handlebars from 4.7.6 to 4.7.7
+[42](https://github.com/hyperledger-labs/byzantine-config/pull/42) Bump ajv from 6.10.2 to 6.12.6
 
-[160](https://github.com/hyperledger-labs/convector/pull/160) build(deps): bump handlebars from 4.7.6 to 4.7.7 in /@worldsibu/convector-common-fabric-helper
+[3161](https://github.com/hyperledger/aries-framework-go/pull/3161) fix: webredirect info in Problem Report V2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

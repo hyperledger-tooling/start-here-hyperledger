@@ -67,29 +67,3 @@ Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/181" class=".btn">#181</a>
-            </td>
-            <td>
-                <b>
-                    Generate Python SDK API docs and Link to Rust API docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-04 21:48:37 +0000 UTC
-    </div>
-</div>
-

@@ -67,29 +67,3 @@ Signed-off-by: Mic Bowman <mic.bowman@intel.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/357" class=".btn">#357</a>
-            </td>
-            <td>
-                <b>
-                    Make building wawaka common library configurable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Extends PR from @marcelamelara to separate contract compilation from building the common wawaka contract library. This should make it easier for others to build/extend the library.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-04 22:02:27 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/313" class=".btn">#313</a>
+            </td>
+            <td>
+                <b>
+                    Add planning document for Batch Tracking Store
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds a document giving an overview of the proposed batch tracking store. This document gives a brief overview of the purpose of the component and some proposed structs, traits, and DB schema.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-11 18:58:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid-docs/pull/312" class=".btn">#312</a>
             </td>
             <td>
@@ -96,32 +122,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-02-07 15:01:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/303" class=".btn">#303</a>
-            </td>
-            <td>
-                <b>
-                    Add API and DB schema docs for 0-4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-04 22:32:20 +0000 UTC
     </div>
 </div>
 

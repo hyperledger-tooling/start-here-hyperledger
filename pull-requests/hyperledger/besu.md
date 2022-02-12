@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3413" class=".btn">#3413</a>
+            </td>
+            <td>
+                <b>
+                    Lgtm alerts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix 4 LGTM alerts 
+* close response stream x 3
+* check null privacyPluginParams in BesuCommand
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-11 21:33:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3412" class=".btn">#3412</a>
             </td>
             <td>
@@ -440,8 +472,6 @@ The main problem is that if you're not mining and send zero priced frontier tran
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
 
-This removes the protobuf-java dependency.
-
 I think this should wait until after 22.1.0 is released
 
 ## Changelog
@@ -833,44 +863,6 @@ relates to https://github.com/status-im/nimbus-eth2/issues/3305
     </table>
     <div class="right-align">
         Created At 2022-02-05 03:10:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3376" class=".btn">#3376</a>
-            </td>
-            <td>
-                <b>
-                    Add block details to finalization validation warning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-add block details to MergeUnfinalizedValidationRule header validation rule
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#3375
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-04 20:14:26 +0000 UTC
     </div>
 </div>
 
