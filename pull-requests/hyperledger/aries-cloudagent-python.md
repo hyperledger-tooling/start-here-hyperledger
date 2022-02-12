@@ -104,31 +104,3 @@ Signed-off-by: Wade Barnes <wade@neoterictech.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1619" class=".btn">#1619</a>
-            </td>
-            <td>
-                <b>
-                    Fixes and cleanups for issue-credential 1.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Improve logging
-- Use transactions for better state management under Askar
-- Add more checks around the credential exchange state in case of repeated messages
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-05 03:04:51 +0000 UTC
-    </div>
-</div>
-
