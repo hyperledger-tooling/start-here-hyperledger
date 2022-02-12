@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/441" class=".btn">#441</a>
+            </td>
+            <td>
+                <b>
+                    feat(dataLoader): Load scope-wise emissions factors into OrbitDB from flat file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR allows the data loader to load in scope-wise emissions factors from the "UK Government GHG Conversion Factors for Company Reporting" flat file [available here](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2021).
+
+You can load in the factors by running:
+`ts-node src/dataLoader.ts load_utility_emissions conversion-factors-2021-flat-file-automatic-processing.xls`
+in the `docker-compose-setup/data` directory.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-12 07:48:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/440" class=".btn">#440</a>
             </td>
             <td>

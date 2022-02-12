@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/403" class=".btn">#403</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-402] implement commit function and modify channel config policy.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                implement commit function and modify channel config policy.
+
+Close #402
+
+Signed-off-by: tianxuanhong1 <523713078@qq.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-12 07:00:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/401" class=".btn">#401</a>
             </td>
             <td>
