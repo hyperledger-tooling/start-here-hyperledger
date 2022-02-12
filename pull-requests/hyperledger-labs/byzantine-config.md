@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/41" class=".btn">#41</a>
+                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/42" class=".btn">#42</a>
             </td>
             <td>
                 <b>
-                    Bump log4js from 4.5.1 to 6.4.0
+                    Bump ajv from 6.10.2 to 6.12.6
                 </b>
             </td>
         </tr>
@@ -27,107 +27,61 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [log4js](https://github.com/log4js-node/log4js-node) from 4.5.1 to 6.4.0.
+                Bumps [ajv](https://github.com/ajv-validator/ajv) from 6.10.2 to 6.12.6.
 <details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/log4js-node/log4js-node/blob/master/CHANGELOG.md">log4js's changelog</a>.</em></p>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/ajv-validator/ajv/releases">ajv's releases</a>.</em></p>
 <blockquote>
-<h2>6.4.0</h2>
+<h2>v6.12.6</h2>
+<p>Fix performance issue of &quot;url&quot; format.</p>
+<h2>v6.12.5</h2>
+<p>Fix uri scheme validation (<a href="https://github.com/ChALkeR"><code>@​ChALkeR</code></a>).
+Fix boolean schemas with strictKeywords option (<a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1270">#1270</a>)</p>
+<h2>v6.12.4</h2>
+<p>Fix: coercion of one-item arrays to scalar that should fail validation (<a href="https://runkit.com/esp/5f3672ba2f6642001ae27411">failing example</a>).</p>
+<h2>v6.12.3</h2>
+<p>Pass schema object to processCode function
+Option for strictNumbers (<a href="https://github.com/issacgerges"><code>@​issacgerges</code></a>, <a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1128">#1128</a>)
+Fixed vulnerability related to untrusted schemas (<a href="https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2020-15366">CVE-2020-15366</a>)</p>
+<h2>v6.12.2</h2>
+<p>Removed post-install script</p>
+<h2>v6.12.1</h2>
+<p>Docs and dependency updates</p>
+<h2>v6.12.0</h2>
+<p>Improved hostname validation (<a href="https://github.com/sambauers"><code>@​sambauers</code></a>, <a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1143">#1143</a>)
+Option <code>keywords</code> to add custom keywords (<a href="https://github.com/franciscomorais"><code>@​franciscomorais</code></a>, <a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1137">#1137</a>)
+Types fixes (<a href="https://github.com/boenrobot"><code>@​boenrobot</code></a>, <a href="https://github.com/MattiAstedrone"><code>@​MattiAstedrone</code></a>)
+Docs:</p>
 <ul>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1141">security: default file permission to be 0o600 instead of 0o644</a> - thanks <a href="https://www.huntr.dev/users/ranjit-git">ranjit-git</a> and <a href="https://github.com/peteriman"><code>@​peteriman</code></a>
-<ul>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1148">chore(docs): updated fileSync.md and misc comments</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
+<li><a href="https://github.com/epoberezkin/ajv#error-logging">error logging</a> example (<a href="https://github.com/RadiationSickness"><code>@​RadiationSickness</code></a>)</li>
+<li>TypeScript usage notes (<a href="https://github.com/thetric"><code>@​thetric</code></a>)</li>
 </ul>
-</li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1062">feat: Added warnings when log() is used with invalid levels before fallbacking to INFO</a> - thanks <a href="https://github.com/abernh"><code>@​abernh</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1103">feat: exposed Recording</a> - thanks <a href="https://github.com/polo-language"><code>@​polo-language</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1113">bug: Fixed file descriptor leak if repeated configure()</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1110">bug: Fixed MaxListenersExceededWarning from NodeJS</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a>
-<ul>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1142">test: added assertion for increase of SIGHUP listeners on log4js.configure()</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-</ul>
-</li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1028">bug: Fixed missing TCP appender with Webpack and Typescript</a> - thanks <a href="https://github.com/techmunk"><code>@​techmunk</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1097">bug: Fixed dateFile appender exiting NodeJS on error</a> - thanks <a href="https://github.com/4eb0da"><code>@​4eb0da</code></a>
-<ul>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1144">refactor: using writer.writable instead of alive for checking</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-</ul>
-</li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1089">bug: Fixed TCP appender exiting NodeJS on error</a> - thanks <a href="https://github.com/jhonatanTeixeira"><code>@​jhonatanTeixeira</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/529">bug: Fixed Multiprocess appender exiting NodeJS on error</a> - thanks <a href="https://github.com/harlentan"><code>@​harlentan</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1127">test: update fakeFS.read as graceful-fs uses it</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1128">test: update fakeFS.realpath as fs-extra uses it</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li>test: added tap.tearDown() to clean up test files
-<ul>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1143">#1143</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1022">#1022</a> - thanks <a href="https://github.com/abetomo"><code>@​abetomo</code></a></li>
-</ul>
-</li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1079"><code>type: improved @​types for AppenderModule</code></a> - thanks <a href="https://github.com/nicobao"><code>@​nicobao</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1116">type: Updated fileSync appender types</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1031">type: Removed erroneous type in file appender</a> - thanks <a href="https://github.com/vdmtrv"><code>@​vdmtrv</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1115">type: Updated Logger.log type</a> - thanks <a href="https://github.com/ZLundqvist"><code>@​ZLundqvist</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1117">type: Updated Logger._log type</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1118">type: Updated Logger.level type</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1072">type: Updated Levels.getLevel type</a> - thanks <a href="https://github.com/saulzhong"><code>@​saulzhong</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1147">chore(deps): bump streamroller from 3.0.1 to 3.0.2</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1146">chore(deps): bump date-format from 4.0.2 to 4.0.3</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1145">chore(deps-dev): bump eslint from from 8.6.0 to 8.7.0</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1140">chore(deps-dev): bump nyc from 14.1.1 to 15.1.0</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1138">chore(deps-dev): bump eslint from 5.16.0 to 8.6.0</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1137">chore(deps): bump flatted from 2.0.2 to 3.2.4</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1136">chore(deps-dev): bump fs-extra from 8.1.0 to 10.0.0</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1135">chore(deps): bump streamroller from 2.2.4 to 3.0.1</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a>
-<ul>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1151">feat: allows for zero backups</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1149">api: migrated from daysToKeep to numBackups due to streamroller@^3.0.0</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/streamroller/pull/65">bug: compressed file ignores dateFile appender &quot;mode&quot;</a> - thanks <a href="https://github.com/rnd-debug"><code>@​rnd-debug</code></a></li>
-<li>issue: addresses additional separator in filename (<a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1039">#1039</a>) - details: <a href="https://github.com/log4js-node/streamroller/blob/master/CHANGELOG.md">streamroller@3.0.0 changelog</a></li>
-<li>issue: addresses daysToKeep naming confusion (<a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1035">#1035</a>, <a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1080">#1080</a>)  - details: <a href="https://github.com/log4js-node/streamroller/blob/master/CHANGELOG.md">streamroller@3.0.0 changelog</a></li>
-</ul>
-</li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1134">chore(deps): bump date-format from 3.0.0 to 4.0.2</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1130">chore(deps): Updated dependencies</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a>
-<ul>
-<li>eslint-config-prettier from 6.15.0 to 8.3.0</li>
-<li>eslint-plugin-prettier from 3.4.1 to 4.0.0</li>
-<li>husky from 3.1.0 to 7.0.4</li>
-<li>prettier from 1.19.0 to 2.5.1</li>
-<li>typescript from 3.9.10 to 4.5.4</li>
-</ul>
-</li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1129">chore(deps-dev): bump eslint-config-prettier from 6.15.0 to 8.3.0</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a></li>
-<li><a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/pull/1121">chore(deps): Updated dependencies</a> - thanks <a href="https://github.com/peteriman"><code>@​peteriman</code></a>
-<ul>
-<li>codecov from 3.6.1 to 3.8.3</li>
-<li>eslint-config-prettier from 6.5.0 to 6.15.0</li>
-</ul>
-</li>
-</ul>
-<!-- raw HTML omitted -->
+<h2>v6.11.0</h2>
+<p>Time formats support two digit and colon-less variants of timezone offset (<a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1061">#1061</a> , <a href="https://github.com/cjpillsbury"><code>@​cjpillsbury</code></a>)
+Docs: RegExp related security considerations
+Tests: Disabled failing typescript test</p>
 </blockquote>
-<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/log4js-node/log4js-node/commit/9fdbed5ad45d1b09b35c1ef5355ba726b60cb702"><code>9fdbed5</code></a> 6.4.0</li>
-<li><a href="https://github.com/log4js-node/log4js-node/commit/788c7a83bbb6f9b20a9f17bd7c3013b78b72f4d3"><code>788c7a8</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1150">#1150</a> from log4js-node/update-changelog</li>
-<li><a href="https://github.com/log4js-node/log4js-node/commit/7fdb141135e930960d44597d969a1aff14627346"><code>7fdb141</code></a> chore: updated changelog for 6.4.0</li>
-<li><a href="https://github.com/log4js-node/log4js-node/commit/e6bd888c2d4ee2c0ba257349ce78112fc4a591be"><code>e6bd888</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1151">#1151</a> from log4js-node/feat-zero-backup</li>
-<li><a href="https://github.com/log4js-node/log4js-node/commit/ac599e42c6762cd0cc6ee3a34873c6f839dd196f"><code>ac599e4</code></a> allow for zero backup - in sync with <a href="https://github.com/log4js-node/streamrol">https://github.com/log4js-node/streamrol</a>...</li>
-<li><a href="https://github.com/log4js-node/log4js-node/commit/53248cd564f63ee2d5634761ed5078d8882d6df4"><code>53248cd</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1149">#1149</a> from log4js-node/migrate-daysToKeep-to-numBackups</li>
-<li><a href="https://github.com/log4js-node/log4js-node/commit/436d9b49515601640be4866caa26d202684e5f26"><code>436d9b4</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1148">#1148</a> from log4js-node/update-docs</li>
-<li><a href="https://github.com/log4js-node/log4js-node/commit/d6b017e72041913a18fefa0194459cebd63ba440"><code>d6b017e</code></a> chore(docs): updated fileSync.md and misc comments</li>
-<li><a href="https://github.com/log4js-node/log4js-node/commit/d4617a730da73136be2e887e6a5ec28aacabd899"><code>d4617a7</code></a> chore(deps): migrated from daysToKeep to numBackups due to streamroller@^3.0.0</li>
-<li><a href="https://github.com/log4js-node/log4js-node/commit/0ad013382345029d312d30f4d5783c1dd2c16182"><code>0ad0133</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/log4js-node/log4js-node/issues/1147">#1147</a> from log4js-node/update-deps</li>
-<li>Additional commits viewable in <a href="https://github.com/log4js-node/log4js-node/compare/v4.5.1...v6.4.0">compare view</a></li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/fe591439f34e24030f69df9eb8d91e6d037a3af7"><code>fe59143</code></a> 6.12.6</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/d580d3e8ac6a467670d68d86e3a39fd661ac8c23"><code>d580d3e</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1298">#1298</a> from ajv-validator/fix-url</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/fd363896a8d6c5697b5da41f4d9a400a84efaf8e"><code>fd36389</code></a> fix: regular expression for &quot;url&quot; format</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/490e34c4846064db5c962a77087e17078954c2f6"><code>490e34c</code></a> docs: link to v7-beta branch</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/9cd93a1bdbdefd5a7ba3db5e123d20c84d1d1d0e"><code>9cd93a1</code></a> docs: note about v7 in readme</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/877d286e7f145b1b2127da66c6800b071533f28f"><code>877d286</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/ajv-validator/ajv/issues/1262">#1262</a> from b4h0-c4t/refactor-opt-object-type</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/f1c8e45b9cdff918be28becf03bf0b339321c398"><code>f1c8e45</code></a> 6.12.5</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/764035e201d7733b8d700d4a04dd079fef9f4d30"><code>764035e</code></a> Merge branch 'ChALkeR-chalker/fix-comma'</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/37981602ce6d43313ae106644b372b021626a8af"><code>3798160</code></a> Merge branch 'chalker/fix-comma' of git://github.com/ChALkeR/ajv into ChALkeR...</li>
+<li><a href="https://github.com/ajv-validator/ajv/commit/a3c7ebab222e4cce07b5e30ebcbb809da7f934e8"><code>a3c7eba</code></a> Merge branch 'refactor-opt-object-type' of github.com:b4h0-c4t/ajv into refac...</li>
+<li>Additional commits viewable in <a href="https://github.com/ajv-validator/ajv/compare/v6.10.2...v6.12.6">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=log4js&package-manager=npm_and_yarn&previous-version=4.5.1&new-version=6.4.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ajv&package-manager=npm_and_yarn&previous-version=6.10.2&new-version=6.12.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -163,7 +117,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-21 20:54:58 +0000 UTC
+        Created At 2022-02-11 20:38:44 +0000 UTC
     </div>
 </div>
 
