@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3416" class=".btn">#3416</a>
+            </td>
+            <td>
+                <b>
+                    Reduce log level for invalid transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+When evaluating transactions to include in a block, a warn log message was evaluated for any transction found to be invalid. This was excessively noisy if the base fee had increased as many transactions were considered invalid.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-13 08:43:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3415" class=".btn">#3415</a>
             </td>
             <td>
