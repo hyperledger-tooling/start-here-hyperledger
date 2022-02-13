@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3415" class=".btn">#3415</a>
+            </td>
+            <td>
+                <b>
+                    [Issue-3115] Fix mining beneficiary acceptance tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fix acceptance tests related to *bft mining beneficiaries:
+* Only set genesis config if it is not already set.  
+* Throw if test attempts to verify an empty `Cluster`.
+* Configure genesis file with appropriate keys for consensus type ("ibft2", "qbft").
+
+## Fixed Issue(s)
+Part of #3115 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-12 19:35:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3414" class=".btn">#3414</a>
             </td>
             <td>
