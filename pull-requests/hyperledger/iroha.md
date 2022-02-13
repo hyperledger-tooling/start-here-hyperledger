@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [refactor] #1893: Split data_model lib.rs file
+                    [refactor] #1893: Split `data_model` lib.rs file
                 </b>
             </td>
         </tr>
@@ -847,7 +847,7 @@ Signed-off-by: kuvaldini <ivan@kuvaldini.pro>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
             </td>
             <td>
                 ### Description of the Change
