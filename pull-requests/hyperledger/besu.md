@@ -870,31 +870,3 @@ fixes #2474
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3380" class=".btn">#3380</a>
-            </td>
-            <td>
-                <b>
-                    Implement secure HTTPS communication. 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Consider using latest TLSv1.2 instead of TLS.
-
-Signed-off-by : Bhaskar <bhaskarvilles@yandex.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-06 04:04:01 +0000 UTC
-    </div>
-</div>
-
