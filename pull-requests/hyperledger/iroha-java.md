@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/197" class=".btn">#197</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/199" class=".btn">#199</a>
             </td>
             <td>
                 <b>
-                    Iroha-124 Support other endpoint of the peer (`/configure`, `/health`, `/metrics`) 
+                    iroha-128 Migrated from `Gson` to `Jackson` for lib consistency in the project
                 </b>
             </td>
         </tr>
@@ -27,17 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                The task https://app.zenhub.com/workspaces/iroha-v2-60ddb820813b9100181fc060/issues/hyperledger/iroha-java/124
-
-Change notes:
-- added module `admin-client` with additional API for peer's administration and monitoring
-- moved `@WithIroha` to separate module `test-tools` to make applicable for both `client` and `admin-client`
-- bumped version of Kotlin
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-05 17:42:10 +0000 UTC
+        Created At 2022-02-13 10:11:13 +0000 UTC
     </div>
 </div>
 
