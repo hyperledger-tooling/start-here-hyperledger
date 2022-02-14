@@ -1,13 +1,13 @@
 
-[286](https://github.com/hyperledger-labs/fablo/pull/286) Bump follow-redirects from 1.14.7 to 1.14.8
+[716](https://github.com/hyperledger-labs/business-partner-agent/pull/716) added single quotes on file patterns in prettify command for frontend
 
-[19](https://github.com/hyperledger-labs/pubsub-interop/pull/19) Bump ajv from 6.11.0 to 6.12.6 in /example-publisher/Fabric2/blockchain-client/javascript
+[1223](https://github.com/hyperledger/caliper/pull/1223) Add support for node 16
 
-[405](https://github.com/hyperledger/cello/pull/405) [#issue-404]Add delete network function
+[3421](https://github.com/hyperledger/besu/pull/3421) Improve closing behavior of JsonResponseStreamer, and make clear it i…
 
-[70](https://github.com/hyperledger-labs/university-course/pull/70) chore(deps): bump ajv from 6.12.0 to 6.12.6 in /support/Lab06/b4s/organization/university/utils
+[69](https://github.com/hyperledger-labs/perun-doc/pull/69) Payment channel tutorial
 
-[226](https://github.com/hyperledger/fabric-chaincode-java/pull/226) Fix transaction serializer usage
+[3229](https://github.com/hyperledger/fabric/pull/3229) Fix inconsistent behavior of GetBookmarkAndClose method in different statedb
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

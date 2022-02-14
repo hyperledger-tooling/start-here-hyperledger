@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3229" class=".btn">#3229</a>
+            </td>
+            <td>
+                <b>
+                    Fix inconsistent behavior of GetBookmarkAndClose method in different statedb
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+
+<!--- Describe your changes in detail, including motivation. -->
+When there are no more results in paginated range query, statecouchdb return endKey
+as bookmark in GetBookmarkAndClose method, but stateleveldb return empty string as bookmark.
+This inconsistent behavior may cause different code logic when use bookmark in smart contract
+with different statedb.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-14 10:22:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3226" class=".btn">#3226</a>
             </td>
             <td>

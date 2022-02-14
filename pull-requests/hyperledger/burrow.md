@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/burrow
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/burrow/pull/1527" class=".btn">#1527</a>
+                PR <a href="https://github.com/hyperledger/burrow/pull/1528" class=".btn">#1528</a>
             </td>
             <td>
                 <b>
-                    Bump follow-redirects from 1.14.0 to 1.14.7 in /js
+                    Bump follow-redirects from 1.14.0 to 1.14.8 in /js
                 </b>
             </td>
         </tr>
@@ -27,10 +27,12 @@ permalink: /pull-requests/hyperledger/burrow
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.14.0 to 1.14.7.
+                Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.14.0 to 1.14.8.
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/3d81dc3237b4ffe8b722bb3d1c70a7866657166e"><code>3d81dc3</code></a> Release version 1.14.8 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/62e546a99c07c3ee5e4e0718c84a6ca127c5c445"><code>62e546a</code></a> Drop confidential headers across schemes.</li>
 <li><a href="https://github.com/follow-redirects/follow-redirects/commit/2ede36d7c60d3acdcd324dcd99a9dbd52e4fb3a6"><code>2ede36d</code></a> Release version 1.14.7 of the npm package.</li>
 <li><a href="https://github.com/follow-redirects/follow-redirects/commit/8b347cbcef7c7b72a6e9be20f5710c17d6163c22"><code>8b347cb</code></a> Drop Cookie header across domains.</li>
 <li><a href="https://github.com/follow-redirects/follow-redirects/commit/6f5029ae1a0fdab4dc25f6379a5ee303c2319070"><code>6f5029a</code></a> Release version 1.14.6 of the npm package.</li>
@@ -39,15 +41,13 @@ permalink: /pull-requests/hyperledger/burrow
 <li><a href="https://github.com/follow-redirects/follow-redirects/commit/40052ea8aa13559becee5795715c1d45b1f0eb76"><code>40052ea</code></a> Make compatible with Node 17.</li>
 <li><a href="https://github.com/follow-redirects/follow-redirects/commit/86f7572f9365dadc39f85916259b58973819617f"><code>86f7572</code></a> Fix: clear internal timer on request abort to avoid leakage</li>
 <li><a href="https://github.com/follow-redirects/follow-redirects/commit/2e1eaf0218c5315a2ab27f53964d0535d4dafb51"><code>2e1eaf0</code></a> Keep Authorization header on subdomain redirects.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/2ad9e82b6277ae2104f7770e9ff1186cc6da29d4"><code>2ad9e82</code></a> Carry over Host header on relative redirects (<a href="https://github-redirect.dependabot.com/follow-redirects/follow-redirects/issues/172">#172</a>)</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/77e2a581e1d1811674b7b74745a9c20a5b939488"><code>77e2a58</code></a> Release version 1.14.4 of the npm package.</li>
-<li>Additional commits viewable in <a href="https://github.com/follow-redirects/follow-redirects/compare/v1.14.0...v1.14.7">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/follow-redirects/follow-redirects/compare/v1.14.0...v1.14.8">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=follow-redirects&package-manager=npm_and_yarn&previous-version=1.14.0&new-version=1.14.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=follow-redirects&package-manager=npm_and_yarn&previous-version=1.14.0&new-version=1.14.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -83,7 +83,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-15 07:47:17 +0000 UTC
+        Created At 2022-02-14 07:10:37 +0000 UTC
     </div>
 </div>
 
