@@ -15,31 +15,30 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v3.1.2
+                    v3.1.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v3.1.2
+                    v3.1.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Request to be added as a code owner by @awrichar in https://github.com/hyperledger/firefly-ethconnect/pull/197
-* Allow passing an array of ABI methods that might emit an event, when creating a sub by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/196
+* Protect misconfiguring catchupModeBlockGap < catchupModePageSize and fix catchup by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/199
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.1.1...v3.1.2
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.1.2...v3.1.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-02-02 02:35:56 +0000 UTC
+        Created At 2022-02-14 17:41:53 +0000 UTC
     </span>
 </div>
 
