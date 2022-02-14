@@ -1,13 +1,13 @@
 
-[716](https://github.com/hyperledger-labs/business-partner-agent/pull/716) added single quotes on file patterns in prettify command for frontend
+[445](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/445) build(deps): bump follow-redirects from 1.14.7 to 1.14.8 in /net-emissions-token-network/interface
 
-[1223](https://github.com/hyperledger/caliper/pull/1223) Add support for node 16
+[444](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/444) build(deps): bump follow-redirects from 1.14.7 to 1.14.8 in /open-offsets-directory/react
 
-[3421](https://github.com/hyperledger/besu/pull/3421) Improve closing behavior of JsonResponseStreamer, and make clear it i…
+[443](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/443) build(deps): bump follow-redirects from 1.14.4 to 1.14.8 in /utility-emissions-channel/typescript_app
 
-[69](https://github.com/hyperledger-labs/perun-doc/pull/69) Payment channel tutorial
+[442](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/442) build(deps): bump follow-redirects from 1.13.0 to 1.14.8 in /net-emissions-token-network
 
-[3229](https://github.com/hyperledger/fabric/pull/3229) Fix inconsistent behavior of GetBookmarkAndClose method in different statedb
+[664](https://github.com/hyperledger-labs/solang/pull/664) Permit error keyword to be used as variable name and ensure parser tests are run
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

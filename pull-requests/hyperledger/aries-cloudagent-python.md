@@ -78,29 +78,3 @@ Signed-off-by: Wade Barnes <wade@neoterictech.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1620" class=".btn">#1620</a>
-            </td>
-            <td>
-                <b>
-                    Breaking change: ConnRecord their_role and state inconsistency between 0160 and 0023
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 16:55:12 +0000 UTC
-    </div>
-</div>
-

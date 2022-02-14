@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
             <td>
                 This PR removes all CDI-related components from the first CDI prototype built directly into PDO, including the embedded compilation report in contracts as well as the policy engine previously built into the eservice.
 
-Note: This PR breaks the wawaka-aot build.
+Note: This PR entirely disables the wawaka-aot build and tests
             </td>
         </tr>
     </table>

@@ -95,33 +95,3 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/304" class=".btn">#304</a>
-            </td>
-            <td>
-                <b>
-                    Fix left sidebar for 0-4 docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change updates the left sidebar for the 0-4 section of the docs to
-correctly show v0.3 as the "Latest" release and "Stable", rather than
-"In Development".
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 15:01:42 +0000 UTC
-    </div>
-</div>
-
