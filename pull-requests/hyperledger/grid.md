@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1307" class=".btn">#1307</a>
+            </td>
+            <td>
+                <b>
+                    Replace node-sass@4.13.1 with sass@1.49.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change replaces node-sass due to a dependabot alert of
+vulnerability CVE-2020-24025, where certificate validation was disabled
+when requesting binaries.
+
+Since node-sass is deprecated, it was replaced with sass.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-14 16:03:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1306" class=".btn">#1306</a>
             </td>
             <td>

@@ -272,34 +272,3 @@ This patch makes it exit with 1 additionally when
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3215" class=".btn">#3215</a>
-            </td>
-            <td>
-                <b>
-                    Fix gossip unit test flake
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Increasing the timeout in the gossip service unit tests appears to reduce the occurence of the flake that we frequently observe.
-
-This should be seen as a tactical fix while the underlying cause is investigated.
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 14:52:27 +0000 UTC
-    </div>
-</div>
-

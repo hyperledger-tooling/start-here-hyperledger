@@ -14,6 +14,121 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3425" class=".btn">#3425</a>
+            </td>
+            <td>
+                <b>
+                    Replace Log4j2 with Logback
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+As a continuation of the work made on #3285 this PR completely removes Log4j2 as a project dependency, substituting its behaviour with Logback
+
+This has been split into the following commits:
+- [HEAD~6](https://github.com/diega/besu/commit/logback~6): renames leftover method from #3285
+- [HEAD~5](https://github.com/diega/besu/commit/logback~5): removes Log4j2 usage dependencies relying on the `Log4j2ConfiguratorUtil` (this is for simplifying the last diff)
+- [HEAD~4](https://github.com/diega/besu/commit/logback~4): replace Log4j2 `ThreadContext` usage with Slf4j's `MDC`
+- [HEAD~3](https://github.com/diega/besu/commit/logback~3): this is to avoid problems with `ch.qos.logback.classic.Level` which deserializes silently to `DEBUG` level by default when an invalid value gets passed (e.g. `FATAL`)
+- [HEAD~2](https://github.com/diega/besu/commit/logback~2): for the same reason than before, the level values are filtered by the received string
+- [HEAD~1](https://github.com/diega/besu/commit/logback~1): addresses [java:S116](https://sonarcloud.io/organizations/hyperledger/rules?open=java%3AS116&rule_key=java%3AS116) Sonar rule
+- [HEAD](https://github.com/diega/besu/commit/logback): replaces Log4j2 dependency with Logback. Removes custom Log4j2 management for dealing with ANSI colors by using conditionals in the Logback config file.
+
+## TODO
+- [ ] configure Splunk in `logback.xml` properly (cc @atoulme) 
+
+## Documentation changes
+[Configure logging](https://besu.hyperledger.org/en/stable/HowTo/Monitor/Logging/) wiki page will need to be updated. [This](https://logback.qos.ch/manual/configuration.html#configFileProperty) doc page explains how to override the default location of the configuration file. 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-14 14:57:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3424" class=".btn">#3424</a>
+            </td>
+            <td>
+                <b>
+                    Add backward sync unit tests missing from previous PR #3410
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Code originally written by gezero on the merge branch
+
+Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-14 14:49:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3423" class=".btn">#3423</a>
+            </td>
+            <td>
+                <b>
+                    FullSync Future should stop when total terminal difficulty is reached
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+The Full sync future should finish executing once the terminal total difficulty is reached. Note that we will not stop syncing exactly at the TTD but we will finish syncing the current batch of blocks.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-14 13:47:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3421" class=".btn">#3421</a>
             </td>
             <td>
@@ -835,43 +950,6 @@ fixes #3368
     </table>
     <div class="right-align">
         Created At 2022-02-07 19:47:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3384" class=".btn">#3384</a>
-            </td>
-            <td>
-                <b>
-                    refactor MergeCoordinator executeBlock to return validation reason
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #3145 
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 18:14:24 +0000 UTC
     </div>
 </div>
 

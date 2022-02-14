@@ -41,29 +41,3 @@ Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/182" class=".btn">#182</a>
-            </td>
-            <td>
-                <b>
-                    Finish linting the sawtooth website
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 15:08:56 +0000 UTC
-    </div>
-</div>
-

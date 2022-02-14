@@ -14,6 +14,298 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/445" class=".btn">#445</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump follow-redirects from 1.14.7 to 1.14.8 in /net-emissions-token-network/interface
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.14.7 to 1.14.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/3d81dc3237b4ffe8b722bb3d1c70a7866657166e"><code>3d81dc3</code></a> Release version 1.14.8 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/62e546a99c07c3ee5e4e0718c84a6ca127c5c445"><code>62e546a</code></a> Drop confidential headers across schemes.</li>
+<li>See full diff in <a href="https://github.com/follow-redirects/follow-redirects/compare/v1.14.7...v1.14.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=follow-redirects&package-manager=npm_and_yarn&previous-version=1.14.7&new-version=1.14.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/blockchain-carbon-accounting/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-14 18:07:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/444" class=".btn">#444</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump follow-redirects from 1.14.7 to 1.14.8 in /open-offsets-directory/react
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.14.7 to 1.14.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/3d81dc3237b4ffe8b722bb3d1c70a7866657166e"><code>3d81dc3</code></a> Release version 1.14.8 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/62e546a99c07c3ee5e4e0718c84a6ca127c5c445"><code>62e546a</code></a> Drop confidential headers across schemes.</li>
+<li>See full diff in <a href="https://github.com/follow-redirects/follow-redirects/compare/v1.14.7...v1.14.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=follow-redirects&package-manager=npm_and_yarn&previous-version=1.14.7&new-version=1.14.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/blockchain-carbon-accounting/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-14 18:07:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/443" class=".btn">#443</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump follow-redirects from 1.14.4 to 1.14.8 in /utility-emissions-channel/typescript_app
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.14.4 to 1.14.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/3d81dc3237b4ffe8b722bb3d1c70a7866657166e"><code>3d81dc3</code></a> Release version 1.14.8 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/62e546a99c07c3ee5e4e0718c84a6ca127c5c445"><code>62e546a</code></a> Drop confidential headers across schemes.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/2ede36d7c60d3acdcd324dcd99a9dbd52e4fb3a6"><code>2ede36d</code></a> Release version 1.14.7 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/8b347cbcef7c7b72a6e9be20f5710c17d6163c22"><code>8b347cb</code></a> Drop Cookie header across domains.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/6f5029ae1a0fdab4dc25f6379a5ee303c2319070"><code>6f5029a</code></a> Release version 1.14.6 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/af706bee57de954414c0bde0a9f33e62beea3e52"><code>af706be</code></a> Ignore null headers.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/d01ab7a5c5df3617c7a40a03de7af6427fdfac55"><code>d01ab7a</code></a> Release version 1.14.5 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/40052ea8aa13559becee5795715c1d45b1f0eb76"><code>40052ea</code></a> Make compatible with Node 17.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/86f7572f9365dadc39f85916259b58973819617f"><code>86f7572</code></a> Fix: clear internal timer on request abort to avoid leakage</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/2e1eaf0218c5315a2ab27f53964d0535d4dafb51"><code>2e1eaf0</code></a> Keep Authorization header on subdomain redirects.</li>
+<li>Additional commits viewable in <a href="https://github.com/follow-redirects/follow-redirects/compare/v1.14.4...v1.14.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=follow-redirects&package-manager=npm_and_yarn&previous-version=1.14.4&new-version=1.14.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/blockchain-carbon-accounting/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-14 18:06:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/442" class=".btn">#442</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump follow-redirects from 1.13.0 to 1.14.8 in /net-emissions-token-network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.13.0 to 1.14.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/3d81dc3237b4ffe8b722bb3d1c70a7866657166e"><code>3d81dc3</code></a> Release version 1.14.8 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/62e546a99c07c3ee5e4e0718c84a6ca127c5c445"><code>62e546a</code></a> Drop confidential headers across schemes.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/2ede36d7c60d3acdcd324dcd99a9dbd52e4fb3a6"><code>2ede36d</code></a> Release version 1.14.7 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/8b347cbcef7c7b72a6e9be20f5710c17d6163c22"><code>8b347cb</code></a> Drop Cookie header across domains.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/6f5029ae1a0fdab4dc25f6379a5ee303c2319070"><code>6f5029a</code></a> Release version 1.14.6 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/af706bee57de954414c0bde0a9f33e62beea3e52"><code>af706be</code></a> Ignore null headers.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/d01ab7a5c5df3617c7a40a03de7af6427fdfac55"><code>d01ab7a</code></a> Release version 1.14.5 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/40052ea8aa13559becee5795715c1d45b1f0eb76"><code>40052ea</code></a> Make compatible with Node 17.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/86f7572f9365dadc39f85916259b58973819617f"><code>86f7572</code></a> Fix: clear internal timer on request abort to avoid leakage</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/2e1eaf0218c5315a2ab27f53964d0535d4dafb51"><code>2e1eaf0</code></a> Keep Authorization header on subdomain redirects.</li>
+<li>Additional commits viewable in <a href="https://github.com/follow-redirects/follow-redirects/compare/v1.13.0...v1.14.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=follow-redirects&package-manager=npm_and_yarn&previous-version=1.13.0&new-version=1.14.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/blockchain-carbon-accounting/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-14 18:06:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/441" class=".btn">#441</a>
             </td>
             <td>
@@ -345,7 +637,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    fix(deps): update dependency axios to v0.21.2 [security]
+                    fix(deps): pin dependency axios [security]
                 </b>
             </td>
         </tr>
@@ -358,10 +650,10 @@ You can disable automated security fix PRs for this repo from the [Security Aler
 
 This PR contains the following updates:
 
-| Package | Change | Age | Adoption | Passing | Confidence | Type | Update |
-|---|---|---|---|---|---|---|---|
-| [axios](https://axios-http.com) ([source](https://togithub.com/axios/axios)) | [`^0.19.0` -> `^0.21.2`](https://renovatebot.com/diffs/npm/axios/0.19.0/0.21.2) | [![age](https://badges.renovateapi.com/packages/npm/axios/0.21.2/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/axios/0.21.2/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/axios/0.21.2/compatibility-slim/0.19.0)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/axios/0.21.2/confidence-slim/0.19.0)](https://docs.renovatebot.com/merge-confidence/) | dependencies | minor |
-| axios | [`0.21.1` -> `0.21.2`](https://renovatebot.com/diffs/npm/axios/0.21.1/0.21.2) | [![age](https://badges.renovateapi.com/packages/npm/axios/0.21.2/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/axios/0.21.2/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/axios/0.21.2/compatibility-slim/0.21.1)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/axios/0.21.2/confidence-slim/0.21.1)](https://docs.renovatebot.com/merge-confidence/) |  |  |
+| Package | Type | Update | Change |
+|---|---|---|---|
+| [axios](https://axios-http.com) ([source](https://togithub.com/axios/axios)) | dependencies | pin | [`^0.19.0` -> `0.19.2`](https://renovatebot.com/diffs/npm/axios/0.19.2/0.19.2) |
+| axios |  |  | [`0.21.1` -> `0.21.2`](https://renovatebot.com/diffs/npm/axios/0.21.1/0.21.2) |
 
 ### GitHub Vulnerability Alerts
 
@@ -373,212 +665,7 @@ Axios NPM package 0.21.0 contains a Server-Side Request Forgery (SSRF) vulnerabi
 
 axios is vulnerable to Inefficient Regular Expression Complexity
 
----
-
-### Release Notes
-
-<details>
-<summary>axios/axios</summary>
-
-### [`v0.21.2`](https://togithub.com/axios/axios/blob/HEAD/CHANGELOG.md#&#8203;0212-September-4-2021)
-
-[Compare Source](https://togithub.com/axios/axios/compare/v0.21.1...v0.21.2)
-
-Fixes and Functionality:
-
--   Updating axios requests to be delayed by pre-emptive promise creation ([#&#8203;2702](https://togithub.com/axios/axios/pull/2702))
--   Adding "synchronous" and "runWhen" options to interceptors api ([#&#8203;2702](https://togithub.com/axios/axios/pull/2702))
--   Updating of transformResponse ([#&#8203;3377](https://togithub.com/axios/axios/pull/3377))
--   Adding ability to omit User-Agent header ([#&#8203;3703](https://togithub.com/axios/axios/pull/3703))
--   Adding multiple JSON improvements ([#&#8203;3688](https://togithub.com/axios/axios/pull/3688), [#&#8203;3763](https://togithub.com/axios/axios/pull/3763))
--   Fixing quadratic runtime and extra memory usage when setting a maxContentLength ([#&#8203;3738](https://togithub.com/axios/axios/pull/3738))
--   Adding parseInt to config.timeout ([#&#8203;3781](https://togithub.com/axios/axios/pull/3781))
--   Adding custom return type support to interceptor ([#&#8203;3783](https://togithub.com/axios/axios/pull/3783))
--   Adding security fix for ReDoS vulnerability ([#&#8203;3980](https://togithub.com/axios/axios/pull/3980))
-
-Internal and Tests:
-
--   Updating build dev dependancies ([#&#8203;3401](https://togithub.com/axios/axios/pull/3401))
--   Fixing builds running on Travis CI ([#&#8203;3538](https://togithub.com/axios/axios/pull/3538))
--   Updating follow rediect version ([#&#8203;3694](https://togithub.com/axios/axios/pull/3694), [#&#8203;3771](https://togithub.com/axios/axios/pull/3771))
--   Updating karma sauce launcher to fix failing sauce tests ([#&#8203;3712](https://togithub.com/axios/axios/pull/3712), [#&#8203;3717](https://togithub.com/axios/axios/pull/3717))
--   Updating content-type header for application/json to not contain charset field, according do RFC 8259 ([#&#8203;2154](https://togithub.com/axios/axios/pull/2154))
--   Fixing tests by bumping karma-sauce-launcher version ([#&#8203;3813](https://togithub.com/axios/axios/pull/3813))
--   Changing testing process from Travis CI to GitHub Actions ([#&#8203;3938](https://togithub.com/axios/axios/pull/3938))
-
-Documentation:
-
--   Updating documentation around the use of `AUTH_TOKEN` with multiple domain endpoints ([#&#8203;3539](https://togithub.com/axios/axios/pull/3539))
--   Remove duplication of item in changelog ([#&#8203;3523](https://togithub.com/axios/axios/pull/3523))
--   Fixing gramatical errors ([#&#8203;2642](https://togithub.com/axios/axios/pull/2642))
--   Fixing spelling error ([#&#8203;3567](https://togithub.com/axios/axios/pull/3567))
--   Moving gitpod metion ([#&#8203;2637](https://togithub.com/axios/axios/pull/2637))
--   Adding new axios documentation website link ([#&#8203;3681](https://togithub.com/axios/axios/pull/3681), [#&#8203;3707](https://togithub.com/axios/axios/pull/3707))
--   Updating documentation around dispatching requests ([#&#8203;3772](https://togithub.com/axios/axios/pull/3772))
--   Adding documentation for the type guard isAxiosError ([#&#8203;3767](https://togithub.com/axios/axios/pull/3767))
--   Adding explanation of cancel token ([#&#8203;3803](https://togithub.com/axios/axios/pull/3803))
--   Updating CI status badge ([#&#8203;3953](https://togithub.com/axios/axios/pull/3953))
--   Fixing errors with JSON documentation ([#&#8203;3936](https://togithub.com/axios/axios/pull/3936))
--   Fixing README typo under Request Config ([#&#8203;3825](https://togithub.com/axios/axios/pull/3825))
--   Adding axios-multi-api to the ecosystem file ([#&#8203;3817](https://togithub.com/axios/axios/pull/3817))
--   Adding SECURITY.md to properly disclose security vulnerabilities ([#&#8203;3981](https://togithub.com/axios/axios/pull/3981))
-
-Huge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:
-
--   [Jay](mailto:jasonsaayman@gmail.com)
--   [Sasha Korotkov](https://togithub.com/SashaKoro)
--   [Daniel Lopretto](https://togithub.com/timemachine3030)
--   [Mike Bishop](https://togithub.com/MikeBishop)
--   [Dmitriy Mozgovoy](https://togithub.com/DigitalBrainJS)
--   [Mark](https://togithub.com/bimbiltu)
--   [Philipe Gouveia Paixão](https://togithub.com/piiih)
--   [hippo](https://togithub.com/hippo2cat)
--   [ready-research](https://togithub.com/ready-research)
--   [Xianming Zhong](https://togithub.com/chinesedfan)
--   [Christopher Chrapka](https://togithub.com/OJezu)
--   [Brian Anglin](https://togithub.com/anglinb)
--   [Kohta Ito](https://togithub.com/koh110)
--   [Ali Clark](https://togithub.com/aliclark)
--   [caikan](https://togithub.com/caikan)
--   [Elina Gorshkova](https://togithub.com/elinagorshkova)
--   [Ryota Ikezawa](https://togithub.com/paveg)
--   [Nisar Hassan Naqvi](https://togithub.com/nisarhassan12)
--   [Jake](https://togithub.com/codemaster138)
--   [TagawaHirotaka](https://togithub.com/wafuwafu13)
--   [Johannes Jarbratt](https://togithub.com/johachi)
--   [Mo Sattler](https://togithub.com/MoSattler)
--   [Sam Carlton](https://togithub.com/ThatGuySam)
--   [Matt Czapliński](https://togithub.com/MattCCC)
--   [Ziding Zhang](https://togithub.com/zidingz)
-
-### [`v0.21.1`](https://togithub.com/axios/axios/blob/HEAD/CHANGELOG.md#&#8203;0211-December-21-2020)
-
-[Compare Source](https://togithub.com/axios/axios/compare/v0.21.0...v0.21.1)
-
-Fixes and Functionality:
-
--   Hotfix: Prevent SSRF ([#&#8203;3410](https://togithub.com/axios/axios/pull/3410))
--   Protocol not parsed when setting proxy config from env vars ([#&#8203;3070](https://togithub.com/axios/axios/pull/3070))
--   Updating axios in types to be lower case ([#&#8203;2797](https://togithub.com/axios/axios/pull/2797))
--   Adding a type guard for `AxiosError` ([#&#8203;2949](https://togithub.com/axios/axios/pull/2949))
-
-Internal and Tests:
-
--   Remove the skipping of the `socket` http test ([#&#8203;3364](https://togithub.com/axios/axios/pull/3364))
--   Use different socket for Win32 test ([#&#8203;3375](https://togithub.com/axios/axios/pull/3375))
-
-Huge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:
-
--   Daniel Lopretto <timemachine3030@&#8203;users.noreply.github.com>
--   Jason Kwok <JasonHK@users.noreply.github.com>
--   Jay <jasonsaayman@gmail.com>
--   Jonathan Foster <jonathan@jonathanfoster.io>
--   Remco Haszing <remcohaszing@gmail.com>
--   Xianming Zhong <chinesedfan@qq.com>
-
-### [`v0.21.0`](https://togithub.com/axios/axios/blob/HEAD/CHANGELOG.md#&#8203;0210-October-23-2020)
-
-[Compare Source](https://togithub.com/axios/axios/compare/v0.20.0...v0.21.0)
-
-Fixes and Functionality:
-
--   Fixing requestHeaders.Authorization ([#&#8203;3287](https://togithub.com/axios/axios/pull/3287))
--   Fixing node types ([#&#8203;3237](https://togithub.com/axios/axios/pull/3237))
--   Fixing axios.delete ignores config.data ([#&#8203;3282](https://togithub.com/axios/axios/pull/3282))
--   Revert "Fixing overwrite Blob/File type as Content-Type in browser. ([#&#8203;1773](https://togithub.com/axios/axios/issues/1773))" ([#&#8203;3289](https://togithub.com/axios/axios/pull/3289))
--   Fixing an issue that type 'null' and 'undefined' is not assignable to validateStatus when typescript strict option is enabled ([#&#8203;3200](https://togithub.com/axios/axios/pull/3200))
-
-Internal and Tests:
-
--   Lock travis to not use node v15 ([#&#8203;3361](https://togithub.com/axios/axios/pull/3361))
-
-Documentation:
-
--   Fixing simple typo, existant -> existent ([#&#8203;3252](https://togithub.com/axios/axios/pull/3252))
--   Fixing typos ([#&#8203;3309](https://togithub.com/axios/axios/pull/3309))
-
-Huge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:
-
--   Allan Cruz <57270969+Allanbcruz@users.noreply.github.com>
--   George Cheng <Gerhut@GMail.com>
--   Jay <jasonsaayman@gmail.com>
--   Kevin Kirsche <Kev.Kirsche+GitHub@gmail.com>
--   Remco Haszing <remcohaszing@gmail.com>
--   Taemin Shin <cprayer13@&#8203;gmail.com>
--   Tim Gates <tim.gates@iress.com>
--   Xianming Zhong <chinesedfan@qq.com>
-
-### [`v0.20.0`](https://togithub.com/axios/axios/blob/HEAD/CHANGELOG.md#&#8203;0200-August-20-2020)
-
-[Compare Source](https://togithub.com/axios/axios/compare/v0.19.2...v0.20.0)
-
-Release of 0.20.0-pre as a full release with no other changes.
-
-### [`v0.19.2`](https://togithub.com/axios/axios/blob/HEAD/CHANGELOG.md#&#8203;0192-Jan-20-2020)
-
-[Compare Source](https://togithub.com/axios/axios/compare/v0.19.1...v0.19.2)
-
--   Remove unnecessary XSS check ([#&#8203;2679](https://togithub.com/axios/axios/pull/2679)) (see ([#&#8203;2646](https://togithub.com/axios/axios/issues/2646)) for discussion)
-
-### [`v0.19.1`](https://togithub.com/axios/axios/blob/HEAD/CHANGELOG.md#&#8203;0191-Jan-7-2020)
-
-[Compare Source](https://togithub.com/axios/axios/compare/v0.19.0...v0.19.1)
-
-Fixes and Functionality:
-
--   Fixing invalid agent issue ([#&#8203;1904](https://togithub.com/axios/axios/pull/1904))
--   Fix ignore set withCredentials false ([#&#8203;2582](https://togithub.com/axios/axios/pull/2582))
--   Delete useless default to hash ([#&#8203;2458](https://togithub.com/axios/axios/pull/2458))
--   Fix HTTP/HTTPs agents passing to follow-redirect ([#&#8203;1904](https://togithub.com/axios/axios/pull/1904))
--   Fix ignore set withCredentials false ([#&#8203;2582](https://togithub.com/axios/axios/pull/2582))
--   Fix CI build failure ([#&#8203;2570](https://togithub.com/axios/axios/pull/2570))
--   Remove dependency on is-buffer from package.json ([#&#8203;1816](https://togithub.com/axios/axios/pull/1816))
--   Adding options typings ([#&#8203;2341](https://togithub.com/axios/axios/pull/2341))
--   Adding Typescript HTTP method definition for LINK and UNLINK. ([#&#8203;2444](https://togithub.com/axios/axios/pull/2444))
--   Update dist with newest changes, fixes Custom Attributes issue
--   Change syntax to see if build passes ([#&#8203;2488](https://togithub.com/axios/axios/pull/2488))
--   Update Webpack + deps, remove now unnecessary polyfills ([#&#8203;2410](https://togithub.com/axios/axios/pull/2410))
--   Fix to prevent XSS, throw an error when the URL contains a JS script ([#&#8203;2464](https://togithub.com/axios/axios/pull/2464))
--   Add custom timeout error copy in config ([#&#8203;2275](https://togithub.com/axios/axios/pull/2275))
--   Add error toJSON example ([#&#8203;2466](https://togithub.com/axios/axios/pull/2466))
--   Fixing Vulnerability A Fortify Scan finds a critical Cross-Site Scrip… ([#&#8203;2451](https://togithub.com/axios/axios/pull/2451))
--   Fixing subdomain handling on no_proxy ([#&#8203;2442](https://togithub.com/axios/axios/pull/2442))
--   Make redirection from HTTP to HTTPS work ([#&#8203;2426](https://togithub.com/axios/axios/pull/2426)) and ([#&#8203;2547](https://togithub.com/axios/axios/pull/2547))
--   Add toJSON property to AxiosError type ([#&#8203;2427](https://togithub.com/axios/axios/pull/2427))
--   Fixing socket hang up error on node side for slow response. ([#&#8203;1752](https://togithub.com/axios/axios/pull/1752))
--   Alternative syntax to send data into the body ([#&#8203;2317](https://togithub.com/axios/axios/pull/2317))
--   Fixing custom config options ([#&#8203;2207](https://togithub.com/axios/axios/pull/2207))
--   Fixing set `config.method` after mergeConfig for Axios.prototype.request ([#&#8203;2383](https://togithub.com/axios/axios/pull/2383))
--   Axios create url bug ([#&#8203;2290](https://togithub.com/axios/axios/pull/2290))
--   Do not modify config.url when using a relative baseURL (resolves [#&#8203;1628](https://togithub.com/axios/axios/issues/1098)) ([#&#8203;2391](https://togithub.com/axios/axios/pull/2391))
-
-Internal:
-
--   Revert "Update Webpack + deps, remove now unnecessary polyfills" ([#&#8203;2479](https://togithub.com/axios/axios/pull/2479))
--   Order of if/else blocks is causing unit tests mocking XHR. ([#&#8203;2201](https://togithub.com/axios/axios/pull/2201))
--   Add license badge ([#&#8203;2446](https://togithub.com/axios/axios/pull/2446))
--   Fix travis CI build [#&#8203;2386](https://togithub.com/axios/axios/pull/2386)
--   Fix cancellation error on build master. [#&#8203;2290](https://togithub.com/axios/axios/issues/2290) [#&#8203;2207](https://togithub.com/axios/axios/issues/2207) ([#&#8203;2407](https://togithub.com/axios/axios/pull/2407))
-
-Documentation:
-
--   Fixing typo in CHANGELOG.md: s/Functionallity/Functionality ([#&#8203;2639](https://togithub.com/axios/axios/pull/2639))
--   Fix badge, use master branch ([#&#8203;2538](https://togithub.com/axios/axios/pull/2538))
--   Fix typo in changelog [#&#8203;2193](https://togithub.com/axios/axios/pull/2193)
--   Document fix ([#&#8203;2514](https://togithub.com/axios/axios/pull/2514))
--   Update docs with no_proxy change, issue [#&#8203;2484](https://togithub.com/axios/axios/issues/2484) ([#&#8203;2513](https://togithub.com/axios/axios/pull/2513))
--   Fixing missing words in docs template ([#&#8203;2259](https://togithub.com/axios/axios/pull/2259))
--   🐛Fix request finally documentation in README ([#&#8203;2189](https://togithub.com/axios/axios/pull/2189))
--   updating spelling and adding link to docs ([#&#8203;2212](https://togithub.com/axios/axios/pull/2212))
--   docs: minor tweak ([#&#8203;2404](https://togithub.com/axios/axios/pull/2404))
--   Update response interceptor docs ([#&#8203;2399](https://togithub.com/axios/axios/pull/2399))
--   Update README.md ([#&#8203;2504](https://togithub.com/axios/axios/pull/2504))
--   Fix word 'sintaxe' to 'syntax' in README.md ([#&#8203;2432](https://togithub.com/axios/axios/pull/2432))
--   updating README: notes on CommonJS autocomplete ([#&#8203;2256](https://togithub.com/axios/axios/pull/2256))
--   Fix grammar in README.md ([#&#8203;2271](https://togithub.com/axios/axios/pull/2271))
--   Doc fixes, minor examples cleanup ([#&#8203;2198](https://togithub.com/axios/axios/pull/2198))
-
-</details>
+📌 **Important**: Renovate will wait until you have merged this Pin PR before creating any *upgrade* PRs for the affected packages. Add the preset `:preserveSemverRanges` to your config if you instead don't wish to pin dependencies.
 
 ---
 
@@ -588,9 +675,9 @@ Documentation:
 
 🚦 **Automerge**: Disabled by config. Please merge this manually once you are satisfied.
 
-♻ **Rebasing**: Whenever PR becomes conflicted, or you tick the rebase/retry checkbox.
+♻ **Rebasing**: Whenever PR is behind base branch, or you tick the rebase/retry checkbox.
 
-🔕 **Ignore**: Close this PR and you won't be reminded about these updates again.
+👻 **Immortal**: This PR will be recreated if closed unmerged. Get [config help](https://togithub.com/renovatebot/renovate/discussions) if that's undesired.
 
 ---
 
@@ -2579,6 +2666,58 @@ This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourc
     </table>
     <div class="right-align">
         Created At 2022-02-09 20:13:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/406" class=".btn">#406</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): roll back dependency ws-identity to ^1.0.12
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [![WhiteSource Renovate](https://app.renovatebot.com/images/banner.svg)](https://renovatebot.com)
+
+This PR contains the following updates:
+
+| Package | Type | Update | Change |
+|---|---|---|---|
+| [ws-identity](https://togithub.com/brioux/blockchain-carbon-accounting) | devDependencies | rollback | [`^1.0.13` -> `^1.0.12`](https://renovatebot.com/diffs/npm/ws-identity//1.0.12) |
+
+---
+
+### Configuration
+
+📅 **Schedule**: At any time (no schedule defined).
+
+🚦 **Automerge**: Disabled by config. Please merge this manually once you are satisfied.
+
+♻ **Rebasing**: Whenever PR becomes conflicted, or you tick the rebase/retry checkbox.
+
+🔕 **Ignore**: Close this PR and you won't be reminded about this update again.
+
+---
+
+ - [ ] <!-- rebase-check -->If you want to rebase/retry this PR, click this checkbox.
+
+---
+
+This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourcesoftware.com). View repository job log [here](https://app.renovatebot.com/dashboard#github/hyperledger-labs/blockchain-carbon-accounting).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-09 20:12:33 +0000 UTC
     </div>
 </div>
 

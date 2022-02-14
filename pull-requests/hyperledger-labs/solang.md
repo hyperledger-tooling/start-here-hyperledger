@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/664" class=".btn">#664</a>
+            </td>
+            <td>
+                <b>
+                    Permit error keyword to be used as variable name and ensure parser tests are run
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @shekhirin this might be of interest.
+
+* The solang-parser crate tests were not being run
+* Allow variable names to be `error` even though its a keyword
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-14 16:28:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/663" class=".btn">#663</a>
             </td>
             <td>
@@ -93,32 +122,6 @@ Fixes #660
     </table>
     <div class="right-align">
         Created At 2022-02-10 10:25:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/659" class=".btn">#659</a>
-            </td>
-            <td>
-                <b>
-                    Implement solana AccountMeta builtin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should make it possible to use spl-token
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 15:12:46 +0000 UTC
     </div>
 </div>
 
