@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/224" class=".btn">#224</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/226" class=".btn">#226</a>
             </td>
             <td>
                 <b>
-                    Remove the log4j dependency
+                    Fix transaction serializer usage
                 </b>
             </td>
         </tr>
@@ -27,14 +27,21 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Not sure why it was there in the first place
+                Fixes the issue of having a single transaction serializer in use for
+all contracts regardless of configuration. The issue was due to
+having a singleton instance of ExecutionService that had only one
+associated serializer. Thus, the first used serializer was also used
+for all other transactions. The fix removes this singleton and replaces
+it with a ContractRouter field.
 
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+#225
+
+Signed-off-by: Bogdan Repeta <github@foglie.33mail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 11:39:53 +0000 UTC
+        Created At 2022-02-13 22:12:40 +0000 UTC
     </div>
 </div>
 
