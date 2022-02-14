@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [ci] #0000: fix zero value handling for telemetry analysis script
+                    [fix] #1908: fix zero value handling for telemetry analysis script
                 </b>
             </td>
         </tr>
@@ -48,11 +48,8 @@ add a select() function to filter out the null or zero values from the ./analyze
 
 ### Issue
 
-The "print debug telemtry info" check is failing from each and every commit in iroha2-dev branch's history. The reason is because of this error:
-`jq: error (at <stdin>:0): null (null) and number (0) cannot be divided`
+Closes #1908
 
-In the `./scripts/analyze_telemetry.sh` file, there is a line that divides two values:
-`jq -sr '[.[].duration] | add/length`
 
 and in some cases, the value can be 0 or null, and dividing by 0 is not allowed and causes an error.
 
@@ -100,7 +97,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [refactor] #1893: Split `data_model` lib.rs file
+                    [refactor]: Split `data_model` lib.rs file
                 </b>
             </td>
         </tr>

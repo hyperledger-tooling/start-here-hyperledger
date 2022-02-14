@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/407" class=".btn">#407</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-406]Deleted the judgment of repeated password input in the re…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …gistration interface
+
+1、Deleted the judgment of repeated password input in the registration interface
+2、Removed the duplicate password submitted in the front-end registration page
+
+Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+
+Close #406
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-14 08:22:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/405" class=".btn">#405</a>
             </td>
             <td>
