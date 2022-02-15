@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/233" class=".btn">#233</a>
+                PR <a href="https://github.com/hyperledger-labs/minbft/pull/234" class=".btn">#234</a>
             </td>
             <td>
                 <b>
-                    NewView message handling prep 2: un-preparing requests
+                    Allow capturing USIG identity from any UI
                 </b>
             </td>
         </tr>
@@ -27,15 +27,15 @@ permalink: /pull-requests/hyperledger-labs/minbft
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                This pull request adjusts the client state upon starting view change.
+                This pull request adjusts the way USIG identity is captured.
 
-Related to #179 
+Related to #179.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-04 14:39:37 +0000 UTC
+        Created At 2022-02-15 13:57:47 +0000 UTC
     </div>
 </div>
 

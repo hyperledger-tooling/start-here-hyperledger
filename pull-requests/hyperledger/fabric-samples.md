@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/646" class=".btn">#646</a>
+            </td>
+            <td>
+                <b>
+                    Kieran test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-15 17:34:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/645" class=".btn">#645</a>
+            </td>
+            <td>
+                <b>
+                    Fix sample external chaincode Dockerfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Podman isn't as lenient as docker when it comes to the syntax of the
+Dockerfile and insists on getting the ARG command properly scoped.
+This fixes this error:
+...
+[2/2] STEP 12/15: EXPOSE $CC_SERVER_PORT
+Error: error building at STEP "EXPOSE $CC_SERVER_PORT": EXPOSE requires at least one argument
+
+Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-15 14:34:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/643" class=".btn">#643</a>
             </td>
             <td>
@@ -226,103 +285,6 @@ The service names need also to be added as dnsName in each peer TLS certificate 
     </table>
     <div class="right-align">
         Created At 2022-02-09 11:32:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/638" class=".btn">#638</a>
-            </td>
-            <td>
-                <b>
-                    Add README to asset-transfer-basic sample
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also:
-- Refactor application-gateway-java slightly to reflect more idiomatic Java class structure, in line with asset-transfer-events sample.
-- Correctly handle unexpected error case where key file is missing.
-- Update Gradle wrapper for application-gateway-java.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-08 18:05:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/637" class=".btn">#637</a>
-            </td>
-            <td>
-                <b>
-                    Run a basic-asset-transfer CI test on Kubernetes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a CI test case to run an E2E validation of the basic-asset-transfer chaincode and Gateway application on the Kubernetes Test Network. This suite exercise only ONE test case, primarily as an exercise in validating the mechanics of running the Kube Test Network on an Azure image. After the mechanics of running on Azure have been worked out, additional tests can follow, both for additional Fabric routines (e.g. Commercial Paper) and new container orchestration runtimes (e.g. containerd / podman / nerdctl / etc.)
-
-The suite runs a complete E2E, including:
-
-- Creates a KIND Kubernetes cluster and Nginx ingress controller.
-
-- Configures the Kubernetes Test Network (3 org: 2x peers/org + 3x orderers) using JFrog / STABLE tag Fabric images.
-
-- Compiles and deploys asset-transfer-basic/chaincode-external Chaincode-as-a-Service.
-
-- Creates a localhost:7051 -> service/org1-peer1:7051 port forward.
-
-- Compiles and runs the application-gateway-typescript example on the host OS.
-
-- Tears down the port-forward, Test Network, KIND cluster, and scrubs chaincode docker images.
-
-Signed-off-by: Josh Kneubuhl [jkneubuh@us.ibm.com](mailto:jkneubuh@us.ibm.com)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-08 14:58:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/636" class=".btn">#636</a>
-            </td>
-            <td>
-                <b>
-                    Podman experimental and not native MacOs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-08 14:11:59 +0000 UTC
     </div>
 </div>
 
