@@ -616,7 +616,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    fix(deps): pin dependency axios [security]
+                    fix(deps): update dependency axios to v0.21.2 [security]
                 </b>
             </td>
         </tr>
@@ -629,11 +629,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
 
 This PR contains the following updates:
 
-| Package | Type | Update | Change | Age | Adoption | Passing | Confidence |
+| Package | Change | Age | Adoption | Passing | Confidence | Type | Update |
 |---|---|---|---|---|---|---|---|
-| [axios](https://axios-http.com) ([source](https://togithub.com/axios/axios)) | dependencies | pin | [`^0.19.0` -> `0.19.2`](https://renovatebot.com/diffs/npm/axios/0.19.2/0.19.2) | [![age](https://badges.renovateapi.com/packages/npm/axios/0.19.2/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/axios/0.19.2/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/axios/0.19.2/compatibility-slim/0.19.2)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/axios/0.19.2/confidence-slim/0.19.2)](https://docs.renovatebot.com/merge-confidence/) |
-| axios |  |  | [`0.21.1` -> `0.21.2`](https://renovatebot.com/diffs/npm/axios/0.21.1/0.21.2) | [![age](https://badges.renovateapi.com/packages/npm/axios/0.21.2/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/axios/0.21.2/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/axios/0.21.2/compatibility-slim/0.21.1)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/axios/0.21.2/confidence-slim/0.21.1)](https://docs.renovatebot.com/merge-confidence/) |
-| [axios](https://axios-http.com) ([source](https://togithub.com/axios/axios)) | dependencies | patch | [`0.21.1` -> `0.21.2`](https://renovatebot.com/diffs/npm/axios/0.21.1/0.21.2) | [![age](https://badges.renovateapi.com/packages/npm/axios/0.21.2/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/axios/0.21.2/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/axios/0.21.2/compatibility-slim/0.21.1)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/axios/0.21.2/confidence-slim/0.21.1)](https://docs.renovatebot.com/merge-confidence/) |
+| [axios](https://axios-http.com) ([source](https://togithub.com/axios/axios)) | [`^0.19.0` -> `^0.21.2`](https://renovatebot.com/diffs/npm/axios/0.19.0/0.21.2) | [![age](https://badges.renovateapi.com/packages/npm/axios/0.21.2/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/axios/0.21.2/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/axios/0.21.2/compatibility-slim/0.19.0)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/axios/0.21.2/confidence-slim/0.19.0)](https://docs.renovatebot.com/merge-confidence/) | dependencies | minor |
+| axios | [`0.21.1` -> `0.21.2`](https://renovatebot.com/diffs/npm/axios/0.21.1/0.21.2) | [![age](https://badges.renovateapi.com/packages/npm/axios/0.21.2/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/axios/0.21.2/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/axios/0.21.2/compatibility-slim/0.21.1)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/axios/0.21.2/confidence-slim/0.21.1)](https://docs.renovatebot.com/merge-confidence/) |  |  |
+| [axios](https://axios-http.com) ([source](https://togithub.com/axios/axios)) | [`0.21.1` -> `0.21.2`](https://renovatebot.com/diffs/npm/axios/0.21.1/0.21.2) | [![age](https://badges.renovateapi.com/packages/npm/axios/0.21.2/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/axios/0.21.2/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/axios/0.21.2/compatibility-slim/0.21.1)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/axios/0.21.2/confidence-slim/0.21.1)](https://docs.renovatebot.com/merge-confidence/) | dependencies | patch |
 
 ### GitHub Vulnerability Alerts
 
@@ -644,8 +644,6 @@ Axios NPM package 0.21.0 contains a Server-Side Request Forgery (SSRF) vulnerabi
 #### [CVE-2021-3749](https://nvd.nist.gov/vuln/detail/CVE-2021-3749)
 
 axios is vulnerable to Inefficient Regular Expression Complexity
-
-📌 **Important**: Renovate will wait until you have merged this Pin PR before creating any *upgrade* PRs for the affected packages. Add the preset `:preserveSemverRanges` to your config if you instead don't wish to pin dependencies.
 
 ---
 
@@ -725,6 +723,133 @@ Huge thanks to everyone who contributed to this release via code (authors listed
 -   [Matt Czapliński](https://togithub.com/MattCCC)
 -   [Ziding Zhang](https://togithub.com/zidingz)
 
+### [`v0.21.1`](https://togithub.com/axios/axios/blob/HEAD/CHANGELOG.md#&#8203;0211-December-21-2020)
+
+[Compare Source](https://togithub.com/axios/axios/compare/v0.21.0...v0.21.1)
+
+Fixes and Functionality:
+
+-   Hotfix: Prevent SSRF ([#&#8203;3410](https://togithub.com/axios/axios/pull/3410))
+-   Protocol not parsed when setting proxy config from env vars ([#&#8203;3070](https://togithub.com/axios/axios/pull/3070))
+-   Updating axios in types to be lower case ([#&#8203;2797](https://togithub.com/axios/axios/pull/2797))
+-   Adding a type guard for `AxiosError` ([#&#8203;2949](https://togithub.com/axios/axios/pull/2949))
+
+Internal and Tests:
+
+-   Remove the skipping of the `socket` http test ([#&#8203;3364](https://togithub.com/axios/axios/pull/3364))
+-   Use different socket for Win32 test ([#&#8203;3375](https://togithub.com/axios/axios/pull/3375))
+
+Huge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:
+
+-   Daniel Lopretto <timemachine3030@&#8203;users.noreply.github.com>
+-   Jason Kwok <JasonHK@users.noreply.github.com>
+-   Jay <jasonsaayman@gmail.com>
+-   Jonathan Foster <jonathan@jonathanfoster.io>
+-   Remco Haszing <remcohaszing@gmail.com>
+-   Xianming Zhong <chinesedfan@qq.com>
+
+### [`v0.21.0`](https://togithub.com/axios/axios/blob/HEAD/CHANGELOG.md#&#8203;0210-October-23-2020)
+
+[Compare Source](https://togithub.com/axios/axios/compare/v0.20.0...v0.21.0)
+
+Fixes and Functionality:
+
+-   Fixing requestHeaders.Authorization ([#&#8203;3287](https://togithub.com/axios/axios/pull/3287))
+-   Fixing node types ([#&#8203;3237](https://togithub.com/axios/axios/pull/3237))
+-   Fixing axios.delete ignores config.data ([#&#8203;3282](https://togithub.com/axios/axios/pull/3282))
+-   Revert "Fixing overwrite Blob/File type as Content-Type in browser. ([#&#8203;1773](https://togithub.com/axios/axios/issues/1773))" ([#&#8203;3289](https://togithub.com/axios/axios/pull/3289))
+-   Fixing an issue that type 'null' and 'undefined' is not assignable to validateStatus when typescript strict option is enabled ([#&#8203;3200](https://togithub.com/axios/axios/pull/3200))
+
+Internal and Tests:
+
+-   Lock travis to not use node v15 ([#&#8203;3361](https://togithub.com/axios/axios/pull/3361))
+
+Documentation:
+
+-   Fixing simple typo, existant -> existent ([#&#8203;3252](https://togithub.com/axios/axios/pull/3252))
+-   Fixing typos ([#&#8203;3309](https://togithub.com/axios/axios/pull/3309))
+
+Huge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:
+
+-   Allan Cruz <57270969+Allanbcruz@users.noreply.github.com>
+-   George Cheng <Gerhut@GMail.com>
+-   Jay <jasonsaayman@gmail.com>
+-   Kevin Kirsche <Kev.Kirsche+GitHub@gmail.com>
+-   Remco Haszing <remcohaszing@gmail.com>
+-   Taemin Shin <cprayer13@&#8203;gmail.com>
+-   Tim Gates <tim.gates@iress.com>
+-   Xianming Zhong <chinesedfan@qq.com>
+
+### [`v0.20.0`](https://togithub.com/axios/axios/blob/HEAD/CHANGELOG.md#&#8203;0200-August-20-2020)
+
+[Compare Source](https://togithub.com/axios/axios/compare/v0.19.2...v0.20.0)
+
+Release of 0.20.0-pre as a full release with no other changes.
+
+### [`v0.19.2`](https://togithub.com/axios/axios/blob/HEAD/CHANGELOG.md#&#8203;0192-Jan-20-2020)
+
+[Compare Source](https://togithub.com/axios/axios/compare/v0.19.1...v0.19.2)
+
+-   Remove unnecessary XSS check ([#&#8203;2679](https://togithub.com/axios/axios/pull/2679)) (see ([#&#8203;2646](https://togithub.com/axios/axios/issues/2646)) for discussion)
+
+### [`v0.19.1`](https://togithub.com/axios/axios/blob/HEAD/CHANGELOG.md#&#8203;0191-Jan-7-2020)
+
+[Compare Source](https://togithub.com/axios/axios/compare/v0.19.0...v0.19.1)
+
+Fixes and Functionality:
+
+-   Fixing invalid agent issue ([#&#8203;1904](https://togithub.com/axios/axios/pull/1904))
+-   Fix ignore set withCredentials false ([#&#8203;2582](https://togithub.com/axios/axios/pull/2582))
+-   Delete useless default to hash ([#&#8203;2458](https://togithub.com/axios/axios/pull/2458))
+-   Fix HTTP/HTTPs agents passing to follow-redirect ([#&#8203;1904](https://togithub.com/axios/axios/pull/1904))
+-   Fix ignore set withCredentials false ([#&#8203;2582](https://togithub.com/axios/axios/pull/2582))
+-   Fix CI build failure ([#&#8203;2570](https://togithub.com/axios/axios/pull/2570))
+-   Remove dependency on is-buffer from package.json ([#&#8203;1816](https://togithub.com/axios/axios/pull/1816))
+-   Adding options typings ([#&#8203;2341](https://togithub.com/axios/axios/pull/2341))
+-   Adding Typescript HTTP method definition for LINK and UNLINK. ([#&#8203;2444](https://togithub.com/axios/axios/pull/2444))
+-   Update dist with newest changes, fixes Custom Attributes issue
+-   Change syntax to see if build passes ([#&#8203;2488](https://togithub.com/axios/axios/pull/2488))
+-   Update Webpack + deps, remove now unnecessary polyfills ([#&#8203;2410](https://togithub.com/axios/axios/pull/2410))
+-   Fix to prevent XSS, throw an error when the URL contains a JS script ([#&#8203;2464](https://togithub.com/axios/axios/pull/2464))
+-   Add custom timeout error copy in config ([#&#8203;2275](https://togithub.com/axios/axios/pull/2275))
+-   Add error toJSON example ([#&#8203;2466](https://togithub.com/axios/axios/pull/2466))
+-   Fixing Vulnerability A Fortify Scan finds a critical Cross-Site Scrip… ([#&#8203;2451](https://togithub.com/axios/axios/pull/2451))
+-   Fixing subdomain handling on no_proxy ([#&#8203;2442](https://togithub.com/axios/axios/pull/2442))
+-   Make redirection from HTTP to HTTPS work ([#&#8203;2426](https://togithub.com/axios/axios/pull/2426)) and ([#&#8203;2547](https://togithub.com/axios/axios/pull/2547))
+-   Add toJSON property to AxiosError type ([#&#8203;2427](https://togithub.com/axios/axios/pull/2427))
+-   Fixing socket hang up error on node side for slow response. ([#&#8203;1752](https://togithub.com/axios/axios/pull/1752))
+-   Alternative syntax to send data into the body ([#&#8203;2317](https://togithub.com/axios/axios/pull/2317))
+-   Fixing custom config options ([#&#8203;2207](https://togithub.com/axios/axios/pull/2207))
+-   Fixing set `config.method` after mergeConfig for Axios.prototype.request ([#&#8203;2383](https://togithub.com/axios/axios/pull/2383))
+-   Axios create url bug ([#&#8203;2290](https://togithub.com/axios/axios/pull/2290))
+-   Do not modify config.url when using a relative baseURL (resolves [#&#8203;1628](https://togithub.com/axios/axios/issues/1098)) ([#&#8203;2391](https://togithub.com/axios/axios/pull/2391))
+
+Internal:
+
+-   Revert "Update Webpack + deps, remove now unnecessary polyfills" ([#&#8203;2479](https://togithub.com/axios/axios/pull/2479))
+-   Order of if/else blocks is causing unit tests mocking XHR. ([#&#8203;2201](https://togithub.com/axios/axios/pull/2201))
+-   Add license badge ([#&#8203;2446](https://togithub.com/axios/axios/pull/2446))
+-   Fix travis CI build [#&#8203;2386](https://togithub.com/axios/axios/pull/2386)
+-   Fix cancellation error on build master. [#&#8203;2290](https://togithub.com/axios/axios/issues/2290) [#&#8203;2207](https://togithub.com/axios/axios/issues/2207) ([#&#8203;2407](https://togithub.com/axios/axios/pull/2407))
+
+Documentation:
+
+-   Fixing typo in CHANGELOG.md: s/Functionallity/Functionality ([#&#8203;2639](https://togithub.com/axios/axios/pull/2639))
+-   Fix badge, use master branch ([#&#8203;2538](https://togithub.com/axios/axios/pull/2538))
+-   Fix typo in changelog [#&#8203;2193](https://togithub.com/axios/axios/pull/2193)
+-   Document fix ([#&#8203;2514](https://togithub.com/axios/axios/pull/2514))
+-   Update docs with no_proxy change, issue [#&#8203;2484](https://togithub.com/axios/axios/issues/2484) ([#&#8203;2513](https://togithub.com/axios/axios/pull/2513))
+-   Fixing missing words in docs template ([#&#8203;2259](https://togithub.com/axios/axios/pull/2259))
+-   🐛Fix request finally documentation in README ([#&#8203;2189](https://togithub.com/axios/axios/pull/2189))
+-   updating spelling and adding link to docs ([#&#8203;2212](https://togithub.com/axios/axios/pull/2212))
+-   docs: minor tweak ([#&#8203;2404](https://togithub.com/axios/axios/pull/2404))
+-   Update response interceptor docs ([#&#8203;2399](https://togithub.com/axios/axios/pull/2399))
+-   Update README.md ([#&#8203;2504](https://togithub.com/axios/axios/pull/2504))
+-   Fix word 'sintaxe' to 'syntax' in README.md ([#&#8203;2432](https://togithub.com/axios/axios/pull/2432))
+-   updating README: notes on CommonJS autocomplete ([#&#8203;2256](https://togithub.com/axios/axios/pull/2256))
+-   Fix grammar in README.md ([#&#8203;2271](https://togithub.com/axios/axios/pull/2271))
+-   Doc fixes, minor examples cleanup ([#&#8203;2198](https://togithub.com/axios/axios/pull/2198))
+
 </details>
 
 ---
@@ -735,9 +860,9 @@ Huge thanks to everyone who contributed to this release via code (authors listed
 
 🚦 **Automerge**: Disabled by config. Please merge this manually once you are satisfied.
 
-♻ **Rebasing**: Whenever PR is behind base branch, or you tick the rebase/retry checkbox.
+♻ **Rebasing**: Whenever PR becomes conflicted, or you tick the rebase/retry checkbox.
 
-👻 **Immortal**: This PR will be recreated if closed unmerged. Get [config help](https://togithub.com/renovatebot/renovate/discussions) if that's undesired.
+🔕 **Ignore**: Close this PR and you won't be reminded about these updates again.
 
 ---
 

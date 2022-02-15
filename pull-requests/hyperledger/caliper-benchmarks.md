@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/164" class=".btn">#164</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/167" class=".btn">#167</a>
             </td>
             <td>
                 <b>
-                    use test-network instead of custom networks for caliper-benchmarks
+                    add a build to benchmarks
                 </b>
             </td>
         </tr>
@@ -27,27 +27,12 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                closes #152
-closes #154
-
-Note that some chaincodes won't deploy to test network yet and this is
-reflected in the README and a new CI pipeline will be required (it's not
-working anyway as travis is no more)
-
-The following bug issues cover addressing these
-
-- #155
-- #157
-- #159
-- #162
-- #134
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-02 16:06:53 +0000 UTC
+        Created At 2022-02-15 16:10:48 +0000 UTC
     </div>
 </div>
 

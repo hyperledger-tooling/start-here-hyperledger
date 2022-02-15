@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3168" class=".btn">#3168</a>
+            </td>
+            <td>
+                <b>
+                    Update package.json with upgraded packages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - added some core packages to package.json
+
+Signed-off-by: Bhaskar Ram <bhaskar@parrotsec.in>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-15 17:23:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3166" class=".btn">#3166</a>
             </td>
             <td>
