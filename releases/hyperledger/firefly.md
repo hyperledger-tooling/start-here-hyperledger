@@ -39,6 +39,18 @@ Other major items included in this release:
 * Metrics reporting to [Prometheus](https://prometheus.io)
 * Continued development to support [custom on-chain logic](https://github.com/hyperledger/firefly-fir/pull/2) (still in preview)
 
+## Migrations
+* The Ethereum plugin now expects just a contract address in the `instance` field of the FireFly core config file. The value should be a hex string (with the `0x` prefix) which is the Ethereum address of the FireFly smart contract. It is recommended to update any existing config file for this release, though this version will attempt to read values from existing configs and determine the contract address from the old value. Note: FireFly will not automatically update the config file as it treats it as read-only.
+
+Here is an example of what your blockchain section should look like (your actual `instance` value will be a different hex string):
+```
+blockchain:
+  type: ethereum
+  ethereum:
+    ethconnect:
+      instance: 0x8707d1f1151220430fc8f89836b20bcf05d6eb41
+```
+
 ## Updated Dependencies
 
 * firefly-ethconnect [v3.1.3](https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.3)
@@ -80,6 +92,8 @@ Other major items included in this release:
 * Provide Migration / Registration / Debugging Utilities in Docker Image by @hfuss in https://github.com/hyperledger/firefly/pull/521
 * go-migrate in Dockerfile by @hfuss in https://github.com/hyperledger/firefly/pull/524
 * Fix pages build by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/526
+* Use bash for variable expansion prior to make by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/528
+* Allow building in docker by removing .git from .dockerignore by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/530
 
 
 **Full Changelog**: https://github.com/hyperledger/firefly/compare/v0.12.0...v0.13.0
