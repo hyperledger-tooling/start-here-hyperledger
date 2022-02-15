@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1310" class=".btn">#1310</a>
+            </td>
+            <td>
+                <b>
+                    Remove unused `sawtooth` module/feature in cli
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This removes the unused `sawtooth` module and feature from the CLI. The
+original functionality intended to be housed in this module is handled
+elsewhere.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-14 20:20:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1307" class=".btn">#1307</a>
             </td>
             <td>
@@ -104,65 +134,6 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-02-08 20:58:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1297" class=".btn">#1297</a>
-            </td>
-            <td>
-                <b>
-                    Cache Grid XML in Github Actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 19:20:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1296" class=".btn">#1296</a>
-            </td>
-            <td>
-                <b>
-                    Add handling for Splinter error responses
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change updates the SplinterBackendClient to so that it will
-pass on error messages from Splinter error responses, and not
-incorrectly mark them as internal errors.
-
-It also adds a number of tests to verify the output in various
-scenarios.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 18:43:29 +0000 UTC
     </div>
 </div>
 

@@ -140,32 +140,3 @@ Original issue in Erdstall is at https://github.com/perun-network/erdstall-ext/i
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/316" class=".btn">#316</a>
-            </td>
-            <td>
-                <b>
-                    Add missing tests for sync msg serialization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - These tests were missing.
-
-Signed-off-by: Manoranjith <ponraj.manoranjitha@in.bosch.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-08 05:57:45 +0000 UTC
-    </div>
-</div>
-

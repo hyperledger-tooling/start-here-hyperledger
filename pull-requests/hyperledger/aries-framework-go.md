@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3164" class=".btn">#3164</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3165" class=".btn">#3165</a>
             </td>
             <td>
                 <b>
-                    test: add tests for interop between webkms and localkms
+                    fix: didcomm with webkms tests and bugfixes
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-14 15:55:12 +0000 UTC
+        Created At 2022-02-14 18:43:12 +0000 UTC
     </div>
 </div>
 

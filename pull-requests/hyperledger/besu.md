@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3429" class=".btn">#3429</a>
+            </td>
+            <td>
+                <b>
+                    RocketChat -> Discord
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Replace Rocket Chat links with Discord. Reworded some links.
+
+This does remove the badge from the top of the README. Requires Discord admin to setup if we want the equivalent for Discord. https://shields.io/category/chat
+
+Fixes #3428 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-15 04:47:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3425" class=".btn">#3425</a>
             </td>
             <td>
@@ -283,7 +319,7 @@ Part of #3115
             </td>
             <td>
                 <b>
-                    Lgtm alerts
+                    Lgtm alert x 1
                 </b>
             </td>
         </tr>
@@ -292,8 +328,7 @@ Part of #3115
                 
             </td>
             <td>
-                Fix 4 LGTM alerts 
-* close response stream x 3
+                Fix 1 LGTM alerts 
 * check null privacyPluginParams in BesuCommand
 
 ## Changelog
@@ -737,7 +772,11 @@ The main problem is that if you're not mining and send zero priced frontier tran
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
 
-I think this should wait until after 22.1.0 is released
+I updated all open telementry libs from 1.5.0 to 1.6.0 but that broke some ATs with NoClassDefFound https://app.circleci.com/pipelines/github/hyperledger/besu/13070/workflows/d1c5ed54-3cf9-4afc-a9f3-a9474a27468b/jobs/72564
+
+So I reverted  'io.opentelemetry:opentelemetry-proto:1.5.0-alpha'
+
+I am not 100% sure this combination of libs will work nicely together. But all tests pass
 
 ## Changelog
 
@@ -872,84 +911,6 @@ Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-02-08 15:11:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3390" class=".btn">#3390</a>
-            </td>
-            <td>
-                <b>
-                    Fix for forkId NPE.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span>
-            </td>
-            <td>
-                Signed-off-by: Mark Terry <mark.terry@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Fix for the case where an NPE is generated using legacy mode without non-zero milestone blocks.
-
-## Fixed Issue(s)
-Fixes #3343 
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-08 14:01:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3386" class=".btn">#3386</a>
-            </td>
-            <td>
-                <b>
-                    add a websocket max frame size configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                
-## PR description
-merge to main of this config and default from the original [pr against the merge branch](https://github.com/hyperledger/besu/pull/3379)
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #3368 
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 19:47:08 +0000 UTC
     </div>
 </div>
 

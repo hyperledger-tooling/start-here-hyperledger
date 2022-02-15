@@ -1,13 +1,13 @@
 
-[445](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/445) build(deps): bump follow-redirects from 1.14.7 to 1.14.8 in /net-emissions-token-network/interface
+[3429](https://github.com/hyperledger/besu/pull/3429) RocketChat -> Discord
 
-[444](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/444) build(deps): bump follow-redirects from 1.14.7 to 1.14.8 in /open-offsets-directory/react
+[643](https://github.com/hyperledger/fabric-samples/pull/643) Bump follow-redirects from 1.14.7 to 1.14.8 in /asset-transfer-basic/rest-api-typescript
 
-[443](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/443) build(deps): bump follow-redirects from 1.14.4 to 1.14.8 in /utility-emissions-channel/typescript_app
+[447](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/447) Update renovate.json
 
-[442](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/442) build(deps): bump follow-redirects from 1.13.0 to 1.14.8 in /net-emissions-token-network
+[1910](https://github.com/hyperledger/iroha/pull/1910) [feature] #1898: share workdir as a volume with dev docker instances
 
-[664](https://github.com/hyperledger-labs/solang/pull/664) Permit error keyword to be used as variable name and ensure parser tests are run
+[1310](https://github.com/hyperledger/grid/pull/1310) Remove unused `sawtooth` module/feature in cli
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
