@@ -42,8 +42,9 @@ permalink: /pull-requests/hyperledger/iroha
 
 ### Description of the Change
 
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+this should enable you to build on locally and deploy in docker if you build for `x86_64-unknown-linux-gnu` target. This may not always be the case because it links statically against glibc so there can arise version mismatch. In this case you can build for `x86_64-unknown-linux-musl` target which is links to libc statically
+
+building in docker would bloat the container size so I haven't included cargo or rustc in the docker image, but you can install them if you find it easier to build inside docker
 
 ### Issue
 Closes #1898 
@@ -616,7 +617,7 @@ I think this is just adds unnecessary complexity to codebase because even single
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
 
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+Relates to #1892
 
 ### Benefits
 
