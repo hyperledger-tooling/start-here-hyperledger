@@ -15,106 +15,82 @@ permalink: /releases/hyperledger/firefly
         <tr>
             <td colspan="2">
                 <b>
-                    v0.12.0
+                    v0.13.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.12.0
+                    v0.13.0
                 </span>
             </td>
             <td>
                 ## Summary
-This is a large release as we come closer to the 1.0.0 milestone. All users are recommended to upgrade to this release when possible, taking into account all breaking API changes noted here.
+This is an important hardening release - while very little has changed on the surface, it includes a lot of significant rework to the core of FireFly, mostly to fix issues exposed by the performance testing in #316.
 
-Breaking API changes:
-* All APIs deprecated in v0.11.0 or earlier are removed - see detailed [migration notes](https://github.com/hyperledger/firefly/wiki/Removed-APIs-in-v0.12.0)
-* [Richer query parameters](https://github.com/hyperledger/firefly-fir/pull/4) for filtering collections - with breaking changes to the `^` operator
+Breaking changes:
+* The `token_pool_rejected` event was removed, along with the recently-added `contract_interface_rejected` and `contract_api_rejected` (only `message_rejected` will now be emitted for rejected definitions)
 
 Other major items included in this release:
-* Preview of [custom on-chain logic](https://github.com/hyperledger/firefly-fir/pull/2)
-  * Provides flexible methods for interacting with your own contracts, deployed to the blockchain of your choice
-  * New APIs are available under `/namespaces/{ns}/contracts` and`/namespaces/{ns}/apis`
-  * Not yet guaranteed to be stable, and API is subject to change
-* Support for new [ERC20 / ERC721](https://github.com/hyperledger/firefly-tokens-erc20-erc721) connector
-* Overhaul of [Transaction type](https://github.com/hyperledger/firefly-fir/pull/8), and new BlockchainEvent type
-* Support for [delivery confirmations](https://github.com/hyperledger/firefly-fir/pull/7) via DX plugin
-* Support for more flexible signing via new config pointing at an [external address resolver](https://github.com/hyperledger/firefly/pull/436)
-* First-class support for blob filenames on Data objects
-* UI enhancements
-  * Improved support for navigating and downloading file blobs
-  * Filtering for token screens (pools, transfers, accounts)
-* Bug fixes and improvements
+* Support for running on ARM-based M1 processors
+* Rewrite of the message batching and event aggregation logic inside FireFly, to fix numerous edge cases with lost or hung messages
+* Hardening of operations and transactions to behave more consistently across all types
+* Metrics reporting to [Prometheus](https://prometheus.io)
+* Continued development to support [custom on-chain logic](https://github.com/hyperledger/firefly-fir/pull/2) (still in preview)
 
 ## Updated Dependencies
 
-* firefly-ethconnect [v3.1.2](https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.2)
-* firefly-fabconnect [v0.9.7](https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.7)
-* firefly-dataexchange-https [v0.10.3](https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.10.3)
-* firefly-tokens-erc1155 [v0.10.4](https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.10.4)
-* firefly-tokens-erc20-erc721 [v0.1.4](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v0.1.4)
-* firefly-ui [v0.5.0](https://github.com/hyperledger/firefly-ui/compare/v0.4.3...v0.5.0)
+* firefly-ethconnect [v3.1.3](https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.3)
+* firefly-fabconnect [v0.9.9](https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.9)
+* firefly-dataexchange-https [v0.10.4](https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.10.4)
+* firefly-tokens-erc20-erc721 [v0.1.5](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v0.1.5)
 
 ## What's Changed
-* Fixing Websocket Connections when Prometheus Metrics Enabled by @hfuss in https://github.com/hyperledger/firefly/pull/371
-* Set fetch-depth to get the full history in GitHub Actions by @nguyer in https://github.com/hyperledger/firefly/pull/377
-* Fetch full history on all GitHub Actions by @nguyer in https://github.com/hyperledger/firefly/pull/378
-* [helm] Publishing Helm Chart to GHCR via OCI by @hfuss in https://github.com/hyperledger/firefly/pull/359
-* [psql-maxconns] default connection limit for postgresql by @eberger727 in https://github.com/hyperledger/firefly/pull/385
-* Allow any company name in license header by @nguyer in https://github.com/hyperledger/firefly/pull/379
-* Prevent send/receive deadlock in wsclient by @awrichar in https://github.com/hyperledger/firefly/pull/387
-* API changes for Blob Friendly Names by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/381
-* Fix unit test for wsclient send failure by @awrichar in https://github.com/hyperledger/firefly/pull/388
-* Fixing Duplicate Metrics Registration when Unsetting preInit by @hfuss in https://github.com/hyperledger/firefly/pull/389
-* Have DB creation script account for username by @drewmarshburn in https://github.com/hyperledger/firefly/pull/375
-* Add Performance Testing Details to README by @eberger727 in https://github.com/hyperledger/firefly/pull/373
-* Add postgres migrations for onchain-logic by @nguyer in https://github.com/hyperledger/firefly/pull/390
-* FIR-4 (rich query updates) and FIR-7 (DX manifests) integration to onchain-logic branch by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/403
-* Rectify Transactions and BlockchainEvents by @awrichar in https://github.com/hyperledger/firefly/pull/408
-* Build the URL without the firefly port if it was omitted from stack.json by @jebonfig in https://github.com/hyperledger/firefly/pull/411
-* Collapse onchain-logic into main by @awrichar in https://github.com/hyperledger/firefly/pull/410
-* [erc20-payload] pass name and symbol to CreateTokenPool() by @eberger727 in https://github.com/hyperledger/firefly/pull/413
-* Removing Helm Chart and Related CI Workflow by @hfuss in https://github.com/hyperledger/firefly/pull/412
-* Update containerd by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/414
-* PostgreSQL updates following merging of onchain-logic branch by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/417
-* Fix token account listing on Postgres by @awrichar in https://github.com/hyperledger/firefly/pull/422
-* Fix intermittent Fabric E2E test failure by @nguyer in https://github.com/hyperledger/firefly/pull/424
-* Add ping/pong heartbeating to WSClient, and fix concurrent map on config by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/420
-* Fail transaction when token transfer operation fails by @awrichar in https://github.com/hyperledger/firefly/pull/435
-* Ready state changes require a bump to the message to re-sequence it by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/438
-* JSON Schema validation for FFIs by @nguyer in https://github.com/hyperledger/firefly/pull/419
-* Restore Transaction reference on TokenTransfer by @awrichar in https://github.com/hyperledger/firefly/pull/444
-* Create a Transaction and Operation for contract invoke requests by @awrichar in https://github.com/hyperledger/firefly/pull/441
-* Rename /contracts/events to /blockchainevents by @awrichar in https://github.com/hyperledger/firefly/pull/443
-* Add convenience URL /transactions/{txnid}/blockchainevents by @awrichar in https://github.com/hyperledger/firefly/pull/446
-* Allow calling JSONObject() on nil JSONAny by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/456
-* Add Blockchain Transaction IDs to FireFly Transaction objects and add blockchain IDs to events by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/448
-* Fixing E2E Tests for Multi-Member Networks by @hfuss in https://github.com/hyperledger/firefly/pull/459
-* Avoid potential double-close of channels due to reconnects after tests complete by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/458
-* Add route for /transactions/{txnid}/status by @awrichar in https://github.com/hyperledger/firefly/pull/457
-* Add AddressResolver to Ethereum for key-to-address mapping by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/436
-* Allow synchronous 200 response for token pool creation by @awrichar in https://github.com/hyperledger/firefly/pull/460
-* Remove deprecated APIs by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/452
-* ui version 0.5.0 by @shorsher in https://github.com/hyperledger/firefly/pull/464
-* Add DefinitionBatchActions to execute after a batch of system definitions by @awrichar in https://github.com/hyperledger/firefly/pull/462
-* Use /firefly prefix on local docs dev by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/461
-* Allow passing a tokenIndex to "mint" by @awrichar in https://github.com/hyperledger/firefly/pull/465
-* [v0.12.0-manifests] manifests for v0.12.0 by @eberger727 in https://github.com/hyperledger/firefly/pull/466
+* Store all token transfer inputs on operation by @awrichar in https://github.com/hyperledger/firefly/pull/478
+* Make the factories act like factories by @awrichar in https://github.com/hyperledger/firefly/pull/474
+* Add missing test coverage in txcommon by @awrichar in https://github.com/hyperledger/firefly/pull/476
+* Use PreFinalize/Finalize in all definition handlers by @awrichar in https://github.com/hyperledger/firefly/pull/475
+* wsReader cannot rely on `testing.T` as it might extend past test scope by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/472
+* Set default keepalive timeout to 5s on clients for Node.js connectors by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/470
+* Address some inconsistencies in Operation behavior by @awrichar in https://github.com/hyperledger/firefly/pull/480
+* Remove extra "rejected" events by @awrichar in https://github.com/hyperledger/firefly/pull/482
+* Update aggregator batch processing to maintain in-memory pin state until OnFinalize by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/483
+* Fix fabric event timestamp parsing by @jimthematrix in https://github.com/hyperledger/firefly/pull/491
+* Fix Docker build on ARM by @nguyer in https://github.com/hyperledger/firefly/pull/473
+* Add extra logging for message/event ids by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/488
+* Pass arguments from Makefile to docker build script by @nguyer in https://github.com/hyperledger/firefly/pull/495
+* Fix possibility for nil access in sendloop by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/486
+* Fix group to be constant throughout test by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/490
+* Compile directly with solc to avoid full Node.js npm install of Truffle by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/494
+* Rewind when messages appear behind offset by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/496
+* Pass requestId to DX and remove backend_id from Operation by @awrichar in https://github.com/hyperledger/firefly/pull/497
+* Rename data exchange plugin to "ffdx" by @awrichar in https://github.com/hyperledger/firefly/pull/505
+* Misc fixes for operations by @awrichar in https://github.com/hyperledger/firefly/pull/498
+* Use inline ABI for all Ethconnect contract interactions by @nguyer in https://github.com/hyperledger/firefly/pull/502
+* Prometheus metrics by @eberger727 in https://github.com/hyperledger/firefly/pull/503
+* Re-work batch logic for simplicity, efficiency, and restart recovery by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/501
+* Add "initEnabled" config to DX by @awrichar in https://github.com/hyperledger/firefly/pull/507
+* Move insert of events to a special pre-commit phase of the DB transaction by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/510
+* Flatten the DXInfo back to the orginal payload on the ffdx API to connectors by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/514
+* Implement and use UpsertOptimization for groups by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/513
+* Update components ready for v0.13.0 by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/516
+* Update EthConnect to 3.1.3 by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/518
+* [metrics-types] using fftypes in metrics manager by @eberger727 in https://github.com/hyperledger/firefly/pull/520
+* Provide Migration / Registration / Debugging Utilities in Docker Image by @hfuss in https://github.com/hyperledger/firefly/pull/521
+* go-migrate in Dockerfile by @hfuss in https://github.com/hyperledger/firefly/pull/524
+* Fix pages build by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/526
 
-## New Contributors
-* @drewmarshburn made their first contribution in https://github.com/hyperledger/firefly/pull/375
 
-**Full Changelog**: https://github.com/hyperledger/firefly/compare/v0.11.4...v0.12.0
+**Full Changelog**: https://github.com/hyperledger/firefly/compare/v0.12.0...v0.13.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly/releases/tag/v0.12.0" class=".btn">
+    <a href="https://github.com/hyperledger/firefly/releases/tag/v0.13.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-02-02 22:04:41 +0000 UTC
+        Created At 2022-02-15 00:22:09 +0000 UTC
     </span>
 </div>
 
