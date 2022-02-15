@@ -1,13 +1,13 @@
 
-[3429](https://github.com/hyperledger/besu/pull/3429) RocketChat -> Discord
+[3432](https://github.com/hyperledger/besu/pull/3432) Persist last finalized block hash, prerequisite for The Merge
 
-[643](https://github.com/hyperledger/fabric-samples/pull/643) Bump follow-redirects from 1.14.7 to 1.14.8 in /asset-transfer-basic/rest-api-typescript
+[3431](https://github.com/hyperledger/besu/pull/3431) move quorum ATs to nightly
 
-[447](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/447) Update renovate.json
+[654](https://github.com/hyperledger/fabric-private-chaincode/pull/654) Move from rocket chat to discord
 
-[1910](https://github.com/hyperledger/iroha/pull/1910) [feature] #1898: share workdir as a volume with dev docker instances
+[3166](https://github.com/hyperledger/aries-framework-go/pull/3166) fix: auth crypt packer
 
-[1310](https://github.com/hyperledger/grid/pull/1310) Remove unused `sawtooth` module/feature in cli
+[3430](https://github.com/hyperledger/besu/pull/3430) CI nightly - skip test.sh in docker dir
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

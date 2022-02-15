@@ -326,33 +326,3 @@ Signed-off-by: Josh Kneubuhl [jkneubuh@us.ibm.com](mailto:jkneubuh@us.ibm.com)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/634" class=".btn">#634</a>
-            </td>
-            <td>
-                <b>
-                    Make network.sh more tolerant
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The network.sh is dependent on being executed from the test-network directory.
-
-This PR makes it a little more tolerant, and will add a bin directory based on the location of the script - not just the PWD
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-08 10:18:02 +0000 UTC
-    </div>
-</div>
-
