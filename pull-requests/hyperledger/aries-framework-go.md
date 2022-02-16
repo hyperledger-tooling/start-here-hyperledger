@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3169" class=".btn">#3169</a>
+            </td>
+            <td>
+                <b>
+                    fix: didcomm with webkms tests and bugfixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-15 22:39:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3168" class=".btn">#3168</a>
             </td>
             <td>
@@ -66,32 +94,6 @@ Signed-off-by: Bhaskar Ram <bhaskar@parrotsec.in>
     </table>
     <div class="right-align">
         Created At 2022-02-15 06:47:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3165" class=".btn">#3165</a>
-            </td>
-            <td>
-                <b>
-                    fix: didcomm with webkms tests and bugfixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-14 18:43:12 +0000 UTC
     </div>
 </div>
 
