@@ -14,6 +14,81 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3445" class=".btn">#3445</a>
+            </td>
+            <td>
+                <b>
+                    Update Changelog
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Update changelog for 22.1.0. This includes consolidating all RC changes
+into the main release.
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-16 18:17:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3444" class=".btn">#3444</a>
+            </td>
+            <td>
+                <b>
+                    New MutableBlockchain method rewindToBlock by hash prerequisite for T…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …he Merge
+
+Code originally written by garyschulte on the merge branch
+Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-16 14:35:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3443" class=".btn">#3443</a>
             </td>
             <td>
@@ -1162,42 +1237,6 @@ The main problem is that if you're not mining and send zero priced frontier tran
     </table>
     <div class="right-align">
         Created At 2022-02-10 11:14:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3396" class=".btn">#3396</a>
-            </td>
-            <td>
-                <b>
-                    update open telemetry to 1.6.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-I updated all open telementry libs from 1.5.0 to 1.6.0 but that broke some ATs with NoClassDefFound https://app.circleci.com/pipelines/github/hyperledger/besu/13070/workflows/d1c5ed54-3cf9-4afc-a9f3-a9474a27468b/jobs/72564
-
-So I reverted  'io.opentelemetry:opentelemetry-proto:1.5.0-alpha'
-
-I am not 100% sure this combination of libs will work nicely together. But all tests pass
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-09 18:16:06 +0000 UTC
     </div>
 </div>
 
