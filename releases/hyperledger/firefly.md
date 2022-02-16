@@ -31,6 +31,7 @@ This is an important hardening release - while very little has changed on the su
 
 Breaking changes:
 * The `token_pool_rejected` event was removed, along with the recently-added `contract_interface_rejected` and `contract_api_rejected` (only `message_rejected` will now be emitted for rejected definitions)
+* The expected format of the FireFly contract address in the "instance" config entry for Ethereum blockchains has changed (see "Migrations" below)
 
 Other major items included in this release:
 * Support for running on ARM-based M1 processors
