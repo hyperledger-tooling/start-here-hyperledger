@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/655" class=".btn">#655</a>
+            </td>
+            <td>
+                <b>
+                    Enhance go chaincode support READMEs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span>
+            </td>
+            <td>
+                Several fixes on the simple asset tutorial and go support docs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-16 16:42:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/654" class=".btn">#654</a>
             </td>
             <td>
@@ -34,36 +60,6 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     </table>
     <div class="right-align">
         Created At 2022-02-15 08:28:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/653" class=".btn">#653</a>
-            </td>
-            <td>
-                <b>
-                    Preview go chaincode support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">feature</span>
-            </td>
-            <td>
-                **What this PR does / why we need it**:
-
-This PR introduces a preview of support for go chaincode for FPC. We integrate the ego compile in the FPC build pipeline to compile go code to be executed within an Intel SGX enclave. This allows to build and package go chaincode as private chaincode.
-
-The initial code base and design for this PR are contributed by @ricc-zappoli.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-09 13:50:32 +0000 UTC
     </div>
 </div>
 
