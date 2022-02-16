@@ -14,6 +14,139 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3170" class=".btn">#3170</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): bump webpack from 4.46.0 to 5.69.0 in /cmd/aries-js-worker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.69.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
+<blockquote>
+<h2>v5.69.0</h2>
+<h1>Features</h1>
+<ul>
+<li>automatically switch to an ESM compatible environment when enabling ESM output mode</li>
+<li>handle multiple alternative directories (e. g. due to <code>resolve.alias</code> or <code>resolve.modules</code>) when creating an context module</li>
+<li>add <code>util/types</code> to node.js built-in modules</li>
+<li>add <code>__webpack_exports_info__.&lt;name&gt;.canMangle</code> api</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>fix bug in chunk graph generation which leads to modules being included in chunk desprite them being already included in parent chunks</li>
+<li>avoid writing more than 2GB at once during cache serialization (as workaround for node.js/libuv bug on MacOS)</li>
+<li>fix handling of whitespaces in semver ranges when using Module Federation</li>
+<li>avoid generating hashes which contain only numbers as they likely conflict with module ids</li>
+<li>fix resource name based placeholders for data uris</li>
+<li>fix cache serialization for context elements</li>
+<li>fix passing of <code>stage</code> option when instrumenting plugins for the ProfilingPlugin</li>
+<li>fix tracking of declarations in concatenated modules to avoid conflicts</li>
+<li>fix unstable mangling of exports</li>
+<li>fix handling of <code>#</code> in paths of loaders</li>
+<li>avoid unnecessary cache update when using <code>experiments.buildHttp</code></li>
+</ul>
+<h1>Contributing</h1>
+<ul>
+<li>update typescript and jest</li>
+</ul>
+<h1>Developer Experience</h1>
+<ul>
+<li>expose some additional typings for usage in webpack-cli</li>
+</ul>
+<h2>v5.68.0</h2>
+<h1>Features</h1>
+<ul>
+<li>allow to disable compile time evaluation of import.meta.url</li>
+<li>add <code>__webpack_module__</code> and <code>__webpack_module__.id</code> to the api</li>
+</ul>
+<h1>Bugfixes</h1>
+<ul>
+<li>fix handling of errors thrown in async modules</li>
+</ul>
+<h2>v5.67.0</h2>
+<h1>Features</h1>
+<ul>
+<li>add 'outputPath' configuration option for resource asset modules</li>
+<li>support Trusted Types in eval source maps</li>
+<li><code>experiments.css</code>
+<ul>
+<li>allow to generate only exports for css in node</li>
+<li>add <code>SyncModuleIdsPlugin</code> to sync module ids between server and client compilation</li>
+<li>add more options to the <code>DeterministicModuleIdsPlugin</code> to allow to generate equal ids</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/webpack/webpack/commit/9d21401151b32abcefad0ffdb3238da91e2089ef"><code>9d21401</code></a> 5.69.0</li>
+<li><a href="https://github.com/webpack/webpack/commit/ba4e83c3a9430539e381c34022d629e78edc93c7"><code>ba4e83c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/15373">#15373</a> from webpack/fix/issue-14907</li>
+<li><a href="https://github.com/webpack/webpack/commit/7badefda017fa223617405942796d8831c52275f"><code>7badefd</code></a> remove big assets case from allowlist</li>
+<li><a href="https://github.com/webpack/webpack/commit/06c8b81531360b9d69a5d8cdd29b6561cf17ded1"><code>06c8b81</code></a> Merge remote-tracking branch 'origin/main' into fix/issue-14907</li>
+<li><a href="https://github.com/webpack/webpack/commit/4a53e9af65f2d965a59eed05be15445683b2580e"><code>4a53e9a</code></a> limit writes to</li>
+<li><a href="https://github.com/webpack/webpack/commit/18c3590b28fcaaa84b63f18968b09602e4a7e259"><code>18c3590</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/15315">#15315</a> from webpack/fix/issue-13022</li>
+<li><a href="https://github.com/webpack/webpack/commit/4edf949da3413b6be03a5a199ca58cc13384b1b8"><code>4edf949</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/15370">#15370</a> from webpack/fix/partial-15366</li>
+<li><a href="https://github.com/webpack/webpack/commit/02332b9c3dc1236918c2a9cbf510e6e622193df3"><code>02332b9</code></a> Merge branch 'main' into fix/partial-15366</li>
+<li><a href="https://github.com/webpack/webpack/commit/f52b8c572c3f83afcf7799b8121a9ab50787610d"><code>f52b8c5</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14757">#14757</a> from webpack/fix-14755</li>
+<li><a href="https://github.com/webpack/webpack/commit/896efde07d775043765a300961c8b932349254bb"><code>896efde</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/15367">#15367</a> from webpack/fix/issues-15214</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.69.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.69.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-16 08:16:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3169" class=".btn">#3169</a>
             </td>
             <td>
