@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/647" class=".btn">#647</a>
+            </td>
+            <td>
+                <b>
+                    Improve REST sample README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add that one needs to have the ledger initialized for the sample to
+work.
+
+Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-16 10:49:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/646" class=".btn">#646</a>
             </td>
             <td>
@@ -244,47 +273,6 @@ Signed-off-by: Kieran O Mahony [Kieran.O.Mahony1@ibm.com](mailto:Kieran.O.Mahony
     </table>
     <div class="right-align">
         Created At 2022-02-11 23:28:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/639" class=".btn">#639</a>
-            </td>
-            <td>
-                <b>
-                    test-network-k8s: High availability on application connection profiles 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Signed-off-by:** Charalarg <charalarg@gmail.com>
-
-**Type of change:**
-
-- New feature
-- Bug fix
-
-**Description:**
-
-With these changes applications use the gateway-svc services in order to establish connection with any available peer on each organization rather than connecting manually to peer1. 
-
-The service names need also to be added as dnsName in each peer TLS certificate configuration.
-
-**Resolves:** #635 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-09 11:32:43 +0000 UTC
     </div>
 </div>
 

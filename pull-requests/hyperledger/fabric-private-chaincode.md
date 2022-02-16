@@ -45,13 +45,13 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
             </td>
             <td>
                 <b>
-                    WIP: Preview go chaincode support
+                    Preview go chaincode support
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">feature</span>
             </td>
             <td>
                 **What this PR does / why we need it**:
@@ -59,23 +59,6 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
 This PR introduces a preview of support for go chaincode for FPC. We integrate the ego compile in the FPC build pipeline to compile go code to be executed within an Intel SGX enclave. This allows to build and package go chaincode as private chaincode.
 
 The initial code base and design for this PR are contributed by @ricc-zappoli.
-
-**Which issue(s) this PR fixes**:
-<!--
-  list existing bug, feature and/or work-item which this PR addresses.
-  You might also consider creating an issue first for the PR.
--->
-Closes #632
-
-**Special notes for your reviewer**:
-
-**Does this PR introduce a user-facing changes and/or breaks backward compatability?**:
-<!--
-  If no, you can delete this section
-  If yes, describe what changes and/or what breaks ..
--->
-```
-
             </td>
         </tr>
     </table>

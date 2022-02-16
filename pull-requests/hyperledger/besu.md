@@ -24,10 +24,12 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span><span class="chip">consensus</span>
             </td>
             <td>
-                Pulled code apart to get decent unit test coverage
+                A better tested but more complex version of the solution from https://github.com/hyperledger/besu/pull/3438.
+
+Pulled code apart to get decent unit test coverage.
 
 https://github.com/hyperledger/besu/issues/3003
 
@@ -124,31 +126,22 @@ Merge main into merge:
             </td>
             <td>
                 <b>
-                    QBFT Migration: allow active mining coordinator to be shutdown
+                    (removed assertions) QBFT Migration: allow active mining coordinator to be shutdown
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span><span class="chip">consensus</span>
             </td>
             <td>
-                https://github.com/hyperledger/besu/issues/3003
+                Simple solution with async tasks but not easily testable. Compromised the unit tests in favour of simplicity/readability, given that the migration happy path will also be covered by acceptance tests.
+
+This draft can be compared with https://github.com/hyperledger/besu/pull/3443 which compromises simplicity/readability for the sake of better unit tests.
+
+https://github.com/hyperledger/besu/issues/3003
 
 Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
