@@ -14,56 +14,27 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/359" class=".btn">#359</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/360" class=".btn">#360</a>
             </td>
             <td>
                 <b>
-                    Remove usage of outdated built-in CDI components
+                    Fix build bug in pservice in ubuntu20.04
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
-                This PR removes all CDI-related components from the first CDI prototype built directly into PDO, including the embedded compilation report in contracts as well as the policy engine previously built into the eservice.
+                This PR fixes a bug that was causing the pservice build to fail on ubuntu 20.04 machines due to a consistently reproducible race condition between cmake and make expecting enclave_u.c to exist before it was generated. This bug does not occur on ubuntu 18.04 or earlier.
 
-Note: This PR entirely disables the wawaka-aot build and tests
+Signed-off-by: Marcela Melara <marcela.melara@intel.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-08 00:52:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/358" class=".btn">#358</a>
-            </td>
-            <td>
-                <b>
-                    Remove the redundant WASM_MEM config from github workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The common config sets the default memory configuration
-so we don't need to set it from here.
-
-Signed-off-by: Mic Bowman <mic.bowman@intel.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 19:36:00 +0000 UTC
+        Created At 2022-02-15 23:59:39 +0000 UTC
     </div>
 </div>
 

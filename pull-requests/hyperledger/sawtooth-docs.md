@@ -36,34 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/183" class=".btn">#183</a>
-            </td>
-            <td>
-                <b>
-                    Fix website.dockerfile for python_sdk API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                If the files had already been created with the docker compose
-file, the website was build successfully. However, if they
-had not been generated, this dockerfile was not correctly
-copying over the generated API html.
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-08 18:25:00 +0000 UTC
-    </div>
-</div>
-

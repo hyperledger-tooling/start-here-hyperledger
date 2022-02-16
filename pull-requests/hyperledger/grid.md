@@ -130,39 +130,3 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1305" class=".btn">#1305</a>
-            </td>
-            <td>
-                <b>
-                    Update grid integration test cache dirs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previously the tests used $CARGO_MANIFEST/tmp as a temporary directory
-by default. This change updates the tests to instead create and use a
-dir grid-integration-tests/ in the standard Rust environment temp
-directory.
-
-This change also updates the tests to optionally use an environment
-variable for the cache directory, and updates the test dockerfile to set
-the variable to /var/cache/grid. This should allow CI to persist the
-cache from a stable and standard location between runs.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-08 20:58:54 +0000 UTC
-    </div>
-</div>
-
