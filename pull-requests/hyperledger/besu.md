@@ -14,11 +14,76 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3443" class=".btn">#3443</a>
+            </td>
+            <td>
+                <b>
+                    QBFT Migration: allow active mining coordinator to be shutdown (with coverage)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pulled code apart to get decent unit test coverage
+
+https://github.com/hyperledger/besu/issues/3003
+
+Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-16 06:16:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3442" class=".btn">#3442</a>
+            </td>
+            <td>
+                <b>
+                    New release 22.1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry picked commits: 
+- 1f234f23f
+- 117b1b133
+- 68f6fcd10
+- 21f7fba7e
+- 89768844f
+- 0f798dd44
+- 764d80abc
+- e32f284cf
+- da6adecb5
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-16 03:51:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3439" class=".btn">#3439</a>
             </td>
             <td>
                 <b>
-                    Merge
+                    Merge main into merge branch
                 </b>
             </td>
         </tr>
@@ -1140,53 +1205,6 @@ I am not 100% sure this combination of libs will work nicely together. But all t
     </table>
     <div class="right-align">
         Created At 2022-02-09 18:16:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3393" class=".btn">#3393</a>
-            </td>
-            <td>
-                <b>
-                    Add terminal block check to forkchoiceUpdated and executePayload
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-add check for descends from terminal block to engine_executePayload and engine_forkchoiceUpdated
-
-* move isTerminalPoWBlock to TransitionUtils for re-use
-* add check for isTerminalPoWBlock and recursion to MergeCoordinator
-* expose latestValidAncestorDescendsFromTerminal in MergeMiningCoordinator interface
-* remove unused parameter classes
-* rename existing parameter classes to Engine* instead of Execution*
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #3262 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-09 02:27:42 +0000 UTC
     </div>
 </div>
 
