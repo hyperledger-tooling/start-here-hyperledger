@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/720" class=".btn">#720</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/721" class=".btn">#721</a>
             </td>
             <td>
                 <b>
-                    add encoding algorithm to RFC 0592
+                    feature: revocation notification v2
                 </b>
             </td>
         </tr>
@@ -27,44 +27,13 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                RFC 0592 doesn't include the encoding algorithm for indy credential attributes that is required for interoperability. RFC 0036 described this, but the v2 protocol doesn't. This adds the encoding algorithm to RFC 0592 and updates the AIP2 commit link + changelog.
-
-
-Signed-off-by: Timo Glastra <timo@animo.id>
+                Adds revocation notification v2 as discussed in Aries WG calls 2022/01/19, 2022/02/16, and in #705. 
+The primary changes from the v1 protocol are adding a field to identify the format of revocation and adjusting `thread_id` to be `credential_id` to communicate the credential identifier of the revoked credential instead of the thread of the issue-credential-v2 exchange (as this exchange may include multiple credentials being issued in the same thread and the thread_id may not be held onto by all holders).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-08 20:03:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/719" class=".btn">#719</a>
-            </td>
-            <td>
-                <b>
-                    Set Step 2 Start Date for OOB transition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Merge Ready</span>
-            </td>
-            <td>
-                I should have done this weeks ago.  Let's discuss on tomorrow's Aries WG call if possible @TelegramSam .
-
-I'll follow up with an email to the Aries Mailing list and known vendors/deployers to request status.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-08 19:53:27 +0000 UTC
+        Created At 2022-02-16 19:24:02 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/159" class=".btn">#159</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/166" class=".btn">#166</a>
             </td>
             <td>
                 <b>
-                    fungible token on fabric, sample
+                    WalletManager Improvements #165
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-09 15:34:16 +0000 UTC
+        Created At 2022-02-15 12:48:22 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/158" class=".btn">#158</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/163" class=".btn">#163</a>
             </td>
             <td>
                 <b>
-                    comments to network service
+                    FSC dep update
                 </b>
             </td>
         </tr>
@@ -58,7 +58,85 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-07 10:52:42 +0000 UTC
+        Created At 2022-02-14 11:26:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/162" class=".btn">#162</a>
+            </td>
+            <td>
+                <b>
+                    ability to lock enrolment ids at audit db level
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-11 14:38:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/161" class=".btn">#161</a>
+            </td>
+            <td>
+                <b>
+                    check finality at the auditor's node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-11 07:32:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/160" class=".btn">#160</a>
+            </td>
+            <td>
+                <b>
+                    tokengen should generate also fabtoken parameters #111
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-10 12:39:18 +0000 UTC
     </div>
 </div>
 

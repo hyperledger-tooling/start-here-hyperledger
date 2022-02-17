@@ -489,29 +489,3 @@ Add the content type to the request header in webhook
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3157" class=".btn">#3157</a>
-            </td>
-            <td>
-                <b>
-                    fix: use thread id for present-proof PIID, except in problem report
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-09 19:34:37 +0000 UTC
-    </div>
-</div>
-
