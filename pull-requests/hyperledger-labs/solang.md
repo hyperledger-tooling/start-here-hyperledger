@@ -149,31 +149,3 @@ support in lalrpop and ast types (based on existing EventDef/EventParam), follow
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/661" class=".btn">#661</a>
-            </td>
-            <td>
-                <b>
-                    Fix line comments that end in non-ascii character
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The lexer assumed the last character was 1 byte.
-
-Fixes #660 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-10 10:25:15 +0000 UTC
-    </div>
-</div>
-

@@ -204,7 +204,7 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
             <td>
                 <b>
-                    orion integration
+                    WIP orion integration
                 </b>
             </td>
         </tr>

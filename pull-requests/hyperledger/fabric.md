@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3235" class=".btn">#3235</a>
+            </td>
+            <td>
+                <b>
+                    Gateway support for mutual TLS networks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To support client authentication (mTLS), the gateway needs to pass the host peer’s client certificate when making connections to the other nodes in the network.
+If client authentication is not enabled, then these certs will be ignored.
+
+Resolves #3234 
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-17 12:10:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3233" class=".btn">#3233</a>
             </td>
             <td>

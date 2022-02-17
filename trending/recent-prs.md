@@ -1,13 +1,13 @@
 
-[238](https://github.com/hyperledger-labs/fabric-smart-client/pull/238) minor fix
+[27](https://github.com/hyperledger/sawtooth-sdk-javascript/pull/27) upgrade zeromq version
 
-[448](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/448) tokenize emissions from UPS tracking
+[3235](https://github.com/hyperledger/fabric/pull/3235) Gateway support for mutual TLS networks
 
-[3448](https://github.com/hyperledger/besu/pull/3448) update version
+[649](https://github.com/hyperledger/fabric-samples/pull/649) fix docker compose version 2 -> 2.1
 
-[31](https://github.com/hyperledger-labs/fabric-opssc/pull/31) chore(*): Bump fabric versions
+[287](https://github.com/hyperledger-labs/fablo/pull/287) peer metrics expose
 
-[3447](https://github.com/hyperledger/besu/pull/3447) merge of forkchoice and kiln changes back to main
+[3451](https://github.com/hyperledger/besu/pull/3451) Rename MergeOptions to MergeConfigOptions to follow the standard
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
