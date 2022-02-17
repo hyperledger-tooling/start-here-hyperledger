@@ -38,31 +38,3 @@ Pre discussed with Cello team, summaries list below for any kind of development 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/20" class=".btn">#20</a>
-            </td>
-            <td>
-                <b>
-                    fix for #14
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix jaeger related issues.
-
-Signed-off-by: Sam Yuan <yy19902439@126.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-10 09:09:40 +0000 UTC
-    </div>
-</div>
-

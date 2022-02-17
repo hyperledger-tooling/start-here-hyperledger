@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-javascript/pull/26" class=".btn">#26</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-javascript/pull/27" class=".btn">#27</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    upgrade zeromq version
                 </b>
             </td>
         </tr>
@@ -27,14 +27,17 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-javascript
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
+                Currently, the installation from npm fails on node 17. 
 
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+This relates to:
+
+- https://github.com/hyperledger/sawtooth-sdk-javascript/issues/22
+- https://github.com/zeromq/zeromq.js/issues/430
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:16:09 +0000 UTC
+        Created At 2022-02-17 12:17:12 +0000 UTC
     </div>
 </div>
 

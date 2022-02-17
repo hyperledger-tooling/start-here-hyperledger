@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3451" class=".btn">#3451</a>
+            </td>
+            <td>
+                <b>
+                    Rename MergeOptions to MergeConfigOptions to follow the standard
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-17 11:02:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3448" class=".btn">#3448</a>
             </td>
             <td>
@@ -1304,41 +1343,6 @@ fixes #3381
     </table>
     <div class="right-align">
         Created At 2022-02-10 13:36:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3397" class=".btn">#3397</a>
-            </td>
-            <td>
-                <b>
-                    Reject locally-sourced frontier transactions below the minimum gas price when not mining
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Reject locally-sourced frontier transactions below the minimum gas price when not mining.
-
-Brings back some of the functionality that was taken out by https://github.com/hyperledger/besu/pull/1743
-
-The main problem is that if you're not mining and send zero priced frontier transactions to the node it will fill up the transaction pool. 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-10 11:14:36 +0000 UTC
     </div>
 </div>
 
