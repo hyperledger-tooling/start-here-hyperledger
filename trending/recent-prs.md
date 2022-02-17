@@ -1,13 +1,13 @@
 
-[27](https://github.com/hyperledger/sawtooth-sdk-javascript/pull/27) upgrade zeromq version
+[34](https://github.com/hyperledger/sawtooth-sdk-python/pull/34) Add 1.2.4 release notes
 
-[3235](https://github.com/hyperledger/fabric/pull/3235) Gateway support for mutual TLS networks
+[650](https://github.com/hyperledger/fabric-samples/pull/650) Add external chaincode service for Nano Test Network
 
-[649](https://github.com/hyperledger/fabric-samples/pull/649) fix docker compose version 2 -> 2.1
+[185](https://github.com/hyperledger/sawtooth-docs/pull/185) Merge Refresh branch into Main
 
-[287](https://github.com/hyperledger-labs/fablo/pull/287) peer metrics expose
+[278](https://github.com/hyperledger/blockchain-explorer/pull/278) Bump url-parse from 1.5.3 to 1.5.7 in /client
 
-[3451](https://github.com/hyperledger/besu/pull/3451) Rename MergeOptions to MergeConfigOptions to follow the standard
+[3455](https://github.com/hyperledger/besu/pull/3455) update version
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -117,35 +117,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/662" class=".btn">#662</a>
-            </td>
-            <td>
-                <b>
-                    feat(parser): add support for custom error types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add
-* ErrorDefinition
-* ErrorParameter
-
-support in lalrpop and ast types (based on existing EventDef/EventParam), following https://docs.soliditylang.org/en/v0.8.11/grammar.html#a4.SolidityParser.errorDefinition
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-10 17:57:29 +0000 UTC
-    </div>
-</div>
-

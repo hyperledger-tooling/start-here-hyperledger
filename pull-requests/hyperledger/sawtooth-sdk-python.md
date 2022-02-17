@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Add 1.2.4 release notes
                 </b>
             </td>
         </tr>
@@ -27,44 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:16:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/32" class=".btn">#32</a>
-            </td>
-            <td>
-                <b>
-                    Pin mistune version to fix doc build error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Sphinx-openapi depends on m2r which pulls in mistune without specifying a
-version. Mistune has recently updated to 2.0.0 which includes some API
-changes which were not backwards compatible.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-26 16:03:23 +0000 UTC
+        Created At 2022-02-17 16:43:05 +0000 UTC
     </div>
 </div>
 
