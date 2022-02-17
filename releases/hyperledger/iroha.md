@@ -15,18 +15,20 @@ permalink: /releases/hyperledger/iroha
         <tr>
             <td colspan="2">
                 <b>
-                    Hyperledger Iroha v1.4-rc.1
+                    Hyperledger Iroha v1.4
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    1.4.0-rc.1
+                    1.4.0
                 </span>
             </td>
             <td>
-                ## Features
+                Since 1.3 the team implemented the following features and fixes:
+
+## Features
 
 ### Syncing Node #1648
 Adds syncing node state for Iroha.
@@ -54,17 +56,38 @@ Added healthcheck interfaces via:
 - grpc
 - metrics
 
+## General Fixes
+Iroha v1.4-rc.1 fixes #1785 :
+- Drop wsv flag behavior
+- Signatory case insensetive checks
+- Transaction status description from 5 byte to 1 byte if true or 0 byte if false
+- Bloom filter in RDB
+- RadixTrie enumerates nodes by prefix filter
+- RDB 2-layer cache for WSV
+
+Iroha v1.4-rc.2 fixes #1824 :
+- Switched from optimistic to transactions database in RocksDB
+- WSV and block store are now in different column families
+- WSV schema version increased to 1.4.0
+
+GitHub Action Docker tag #1609
+
+Fixed sample config files (from max_rounds_delay to proposal_creation_timeout and deprecated DB connection string) #1662
+
 ## Docs Fixes
 Fixed broken links: build status, build guide, etc.  #1318 
 Small Fixes on Configuration and Docker Metrics #1654
+Added missing dependencies: #1393
+
+
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/iroha/releases/tag/1.4.0-rc.1" class=".btn">
+    <a href="https://github.com/hyperledger/iroha/releases/tag/1.4.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-12-29 11:08:04 +0000 UTC
+        Created At 2022-01-31 06:28:46 +0000 UTC
     </span>
 </div>
 
