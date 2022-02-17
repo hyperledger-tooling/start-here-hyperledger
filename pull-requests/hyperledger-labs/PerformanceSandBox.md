@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/21" class=".btn">#21</a>
             </td>
             <td>
                 <b>
-                    fix up, upgrade tape deployment to latest alpha
+                    add a summary for PSB integration with other development tools
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
                 
             </td>
             <td>
-                Signed-off-by: Sam Yuan <yy19902439@126.com>
+                Add a summary for PSB integration with other development tools
+
+Pre discussed with Cello team, summaries list below for any kind of development tools integration list with items below.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-04 02:42:55 +0000 UTC
+        Created At 2022-02-12 11:15:26 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +42,11 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/20" class=".btn">#20</a>
             </td>
             <td>
                 <b>
-                    impl for traffic generator as Tape, resolve #7
+                    fix for #14
                 </b>
             </td>
         </tr>
@@ -53,42 +55,14 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
                 
             </td>
             <td>
-                impl for traffic generator as Tape, resolve #7
+                Fix jaeger related issues.
 
 Signed-off-by: Sam Yuan <yy19902439@126.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-03 14:49:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/11" class=".btn">#11</a>
-            </td>
-            <td>
-                <b>
-                    impl for fabric network set up and resolve #6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                impl SUT with fabric network set up and resolve #6
-
-Signed-off-by: Sam Yuan <yy19902439@126.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-03 10:59:49 +0000 UTC
+        Created At 2022-02-10 09:09:40 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/neferti
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/neferti/pull/1" class=".btn">#1</a>
+                PR <a href="https://github.com/hyperledger-labs/neferti/pull/2" class=".btn">#2</a>
             </td>
             <td>
                 <b>
-                    Add settings
+                    Added Readme.md and Maintainers.md
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/neferti
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                Added initial docs for the Project, Readme.md and Maintainers.md
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-24 17:17:42 +0000 UTC
+        Created At 2022-02-13 17:41:22 +0000 UTC
     </div>
 </div>
 
