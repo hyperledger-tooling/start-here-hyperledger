@@ -90,29 +90,3 @@ permalink: /pull-requests/hyperledger/caliper
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1219" class=".btn">#1219</a>
-            </td>
-            <td>
-                <b>
-                    enable support for node 14 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-10 16:02:49 +0000 UTC
-    </div>
-</div>
-

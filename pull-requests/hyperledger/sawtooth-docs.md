@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/185" class=".btn">#185</a>
+            </td>
+            <td>
+                <b>
+                    Merge Refresh branch into Main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR merges in the Refresh branch into Main. Refresh includes the work to update the Sawtooth Website to use jekyll and update the style to match the Grid website https://grid.hyperledger.org/
+
+Note: The conversion is still a work in progress for older versions and help is welcome. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-17 15:24:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/184" class=".btn">#184</a>
             </td>
             <td>
