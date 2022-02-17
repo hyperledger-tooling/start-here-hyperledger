@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3448" class=".btn">#3448</a>
+            </td>
+            <td>
+                <b>
+                    update version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+change gradle.properties to snapshot version
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-17 01:17:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3447" class=".btn">#3447</a>
             </td>
             <td>
