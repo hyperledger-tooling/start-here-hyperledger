@@ -704,29 +704,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/437" class=".btn">#437</a>
-            </td>
-            <td>
-                <b>
-                    Calculate estimated emissions -- placeholder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jeremy Wickersheimer <jwickers@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-10 19:21:43 +0000 UTC
-    </div>
-</div>
-
