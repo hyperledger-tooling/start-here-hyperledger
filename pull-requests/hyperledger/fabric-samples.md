@@ -27,10 +27,10 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                This addresses Issue #504. This sample offers an option to run
-a fabric network without using any containers at all. Used along
-with the Nano Test Network, everything is run natively on the host
-machine.
+                This addresses Issue #504. This extends the test-network-nano-bash
+sample to offer an option to run a fabric network without using any
+containers at all. The chaincode is running as an external service
+directly on the host machine.
 
 Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
             </td>

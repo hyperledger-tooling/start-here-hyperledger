@@ -209,7 +209,7 @@ Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -1300,47 +1300,6 @@ Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-02-11 13:55:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3409" class=".btn">#3409</a>
-            </td>
-            <td>
-                <b>
-                    Bug 3343
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-When asking for the forkId for the chain head sometimes we may return
-null. In those cases return an empty list.
-
-
-## Fixed Issue(s)
-
-fixes 3343
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-11 06:49:37 +0000 UTC
     </div>
 </div>
 
