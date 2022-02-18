@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1633" class=".btn">#1633</a>
+            </td>
+            <td>
+                <b>
+                    Move database operations inside the session context
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## What is this PR for?
+- Error state saving was done when the session could be already disposed
+
+Signed-off-by: Andraž Cuderman <andraz.cuderman@global.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-18 13:07:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1628" class=".btn">#1628</a>
             </td>
             <td>

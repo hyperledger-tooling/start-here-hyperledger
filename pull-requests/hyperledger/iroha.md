@@ -14,6 +14,57 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1923" class=".btn">#1923</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #1902: Bare metal 4-peer setup script.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+### Description of the Change
+
+Refactored `scripts` to be more self-contained and flexible for use in GitHub actions. 
+
+Added a version of `setup_test_env.sh` that does not require `docker-compose` and uses the debug build of Iroha.
+
+### Issue
+
+Closes #1902.
+Relates to #1590 
+
+### Benefits
+
+Can run tests using live iroha peers without use of Docker. Creates pathway to resolve #1726 
+
+### Possible Drawbacks
+
+More logic relegated to bash. 
+
+### TODO
+
+Cleanup. 
+
+Test on other configurations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-18 12:58:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1921" class=".btn">#1921</a>
             </td>
             <td>
