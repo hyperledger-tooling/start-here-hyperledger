@@ -164,32 +164,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1306" class=".btn">#1306</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT 0.3: move data validation tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This moves the data_validation tests to the cli integration tests so
-the XSD files can be downloaded using the `grid download-xsd` command.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-10 19:10:14 +0000 UTC
-    </div>
-</div>
-

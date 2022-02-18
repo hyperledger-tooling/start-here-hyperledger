@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/326" class=".btn">#326</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/327" class=".btn">#327</a>
             </td>
             <td>
                 <b>
-                    Signed-off-by: pvrbharg <pvrbharg@gmail.com>
+                    Change chat to discord
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                	new file:   KnownIssueScreenCaptures/Screen Shot 2022-02-09 at 10.53.52 AM.png
-	new file:   KnownIssueScreenCaptures/Screen Shot 2022-02-09 at 10.54.12 AM.png
-	new file:   KnownIssueScreenCaptures/Screen Shot 2022-02-09 at 10.57.36 AM.png
-	new file:   KnownIssueScreenCaptures/Screen Shot 2022-02-09 at 10.57.49 AM.png
-	modified:   KnownIssues.md
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-10 00:25:59 +0000 UTC
+        Created At 2022-02-17 20:21:26 +0000 UTC
     </div>
 </div>
 
