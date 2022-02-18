@@ -64,29 +64,3 @@ closes #1217
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1221" class=".btn">#1221</a>
-            </td>
-            <td>
-                <b>
-                    Node 14 support 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                support node 14 for docker image, besu, fiscoa and generator
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-11 13:21:40 +0000 UTC
-    </div>
-</div>
-

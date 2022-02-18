@@ -1,13 +1,13 @@
 
-[32](https://github.com/hyperledger-labs/fabric-opssc/pull/32) feat(*): Improve Web Socket notifications and some log formats
+[187](https://github.com/hyperledger/sawtooth-docs/pull/187) Update conversion status doc to point to main
 
-[3237](https://github.com/hyperledger/fabric/pull/3237) Fix firewall warnings for integration tests on Mac
+[238](https://github.com/hyperledger-labs/minbft/pull/238) Ignore Reply messages generated for old requests
 
-[674](https://github.com/hyperledger-labs/solang/pull/674) Do not use deprecated clap features
+[3462](https://github.com/hyperledger/besu/pull/3462) Add components to handle the transition from PoW to PoS
 
-[1921](https://github.com/hyperledger/iroha/pull/1921) Feature/dops 1585/remove jenkins
+[3461](https://github.com/hyperledger/besu/pull/3461) Add The Merge core components
 
-[3171](https://github.com/hyperledger/aries-framework-go/pull/3171) chore(deps-dev): bump webpack from 4.46.0 to 5.69.1 in /cmd/aries-js-worker
+[237](https://github.com/hyperledger-labs/minbft/pull/237) Remove only matching requests from the request list
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
