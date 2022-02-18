@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3170" class=".btn">#3170</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3171" class=".btn">#3171</a>
             </td>
             <td>
                 <b>
-                    chore(deps-dev): bump webpack from 4.46.0 to 5.69.0 in /cmd/aries-js-worker
+                    chore(deps-dev): bump webpack from 4.46.0 to 5.69.1 in /cmd/aries-js-worker
                 </b>
             </td>
         </tr>
@@ -27,11 +27,16 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.69.0.
+                Bumps [webpack](https://github.com/webpack/webpack) from 4.46.0 to 5.69.1.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
 <blockquote>
+<h2>v5.69.1</h2>
+<h1>Revert</h1>
+<ul>
+<li>revert &quot;handle multiple alternative directories (e. g. due to resolve.alias or resolve.modules) when creating an context module&quot;</li>
+</ul>
 <h2>v5.69.0</h2>
 <h1>Features</h1>
 <ul>
@@ -77,13 +82,6 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 <ul>
 <li>add 'outputPath' configuration option for resource asset modules</li>
 <li>support Trusted Types in eval source maps</li>
-<li><code>experiments.css</code>
-<ul>
-<li>allow to generate only exports for css in node</li>
-<li>add <code>SyncModuleIdsPlugin</code> to sync module ids between server and client compilation</li>
-<li>add more options to the <code>DeterministicModuleIdsPlugin</code> to allow to generate equal ids</li>
-</ul>
-</li>
 </ul>
 <!-- raw HTML omitted -->
 </blockquote>
@@ -92,6 +90,8 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/webpack/webpack/commit/dfdc8b133d3d49371251e29efeefb9d31b982c9e"><code>dfdc8b1</code></a> 5.69.1</li>
+<li><a href="https://github.com/webpack/webpack/commit/dd53923cd004cca233d6f4f3fe455308ce0f8cb3"><code>dd53923</code></a> Revert &quot;Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/15332">#15332</a> from webpack/fix/context-resolve-issue-11335&quot;</li>
 <li><a href="https://github.com/webpack/webpack/commit/9d21401151b32abcefad0ffdb3238da91e2089ef"><code>9d21401</code></a> 5.69.0</li>
 <li><a href="https://github.com/webpack/webpack/commit/ba4e83c3a9430539e381c34022d629e78edc93c7"><code>ba4e83c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/15373">#15373</a> from webpack/fix/issue-14907</li>
 <li><a href="https://github.com/webpack/webpack/commit/7badefda017fa223617405942796d8831c52275f"><code>7badefd</code></a> remove big assets case from allowlist</li>
@@ -100,15 +100,13 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 <li><a href="https://github.com/webpack/webpack/commit/18c3590b28fcaaa84b63f18968b09602e4a7e259"><code>18c3590</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/15315">#15315</a> from webpack/fix/issue-13022</li>
 <li><a href="https://github.com/webpack/webpack/commit/4edf949da3413b6be03a5a199ca58cc13384b1b8"><code>4edf949</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/15370">#15370</a> from webpack/fix/partial-15366</li>
 <li><a href="https://github.com/webpack/webpack/commit/02332b9c3dc1236918c2a9cbf510e6e622193df3"><code>02332b9</code></a> Merge branch 'main' into fix/partial-15366</li>
-<li><a href="https://github.com/webpack/webpack/commit/f52b8c572c3f83afcf7799b8121a9ab50787610d"><code>f52b8c5</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/14757">#14757</a> from webpack/fix-14755</li>
-<li><a href="https://github.com/webpack/webpack/commit/896efde07d775043765a300961c8b932349254bb"><code>896efde</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/webpack/webpack/issues/15367">#15367</a> from webpack/fix/issues-15214</li>
-<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.69.0">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v4.46.0...v5.69.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.69.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=4.46.0&new-version=5.69.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -139,7 +137,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-16 08:16:55 +0000 UTC
+        Created At 2022-02-18 08:23:17 +0000 UTC
     </div>
 </div>
 

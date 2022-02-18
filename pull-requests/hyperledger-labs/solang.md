@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/674" class=".btn">#674</a>
+            </td>
+            <td>
+                <b>
+                    Do not use deprecated clap features
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-18 10:54:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/673" class=".btn">#673</a>
             </td>
             <td>
@@ -114,32 +140,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2022-02-14 16:28:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/663" class=".btn">#663</a>
-            </td>
-            <td>
-                <b>
-                    Bump dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-11 09:23:11 +0000 UTC
     </div>
 </div>
 

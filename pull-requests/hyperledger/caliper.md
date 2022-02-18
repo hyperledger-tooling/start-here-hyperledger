@@ -55,7 +55,7 @@ permalink: /pull-requests/hyperledger/caliper
             <td>
                 Signed-off-by: D <d_kelsey@uk.ibm.com>
 
-
+closes #1217 
             </td>
         </tr>
     </table>

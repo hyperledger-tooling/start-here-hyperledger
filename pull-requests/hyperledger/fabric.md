@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3237" class=".btn">#3237</a>
+            </td>
+            <td>
+                <b>
+                    Fix firewall warnings for integration tests on Mac
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When running integration tests locally on MacOS, each test causes a number of popup boxes containing the text
+‘Do you want the application “peer” to accept incoming network connections?”.
+Although this can be ignored, each popup takes the (cursor) focus away from the current window, and so is annoying when trying to do anything else.
+This is caused because each test is launching one or more peer instances which get compiled on demand and appears to the firewall as a new executable.
+The fix for this is to ensure that all listen addresses are explicitly set as localhost.  In this case, the chaincodeListenAddress host can be set to 127.0.0.1 rather than 0.0.0.0
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-18 11:04:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3235" class=".btn">#3235</a>
             </td>
             <td>
@@ -271,38 +304,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-02-11 16:21:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3225" class=".btn">#3225</a>
-            </td>
-            <td>
-                <b>
-                    Add Intermediate CA certs to dial options
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The gateway was omitting to include TLS intermediate certificates in the dial options when connecting to other nodes.
-This commit appends them to the splice of root certs in the endpoint config.
-
-Resolves #3224 
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-11 11:22:55 +0000 UTC
     </div>
 </div>
 
