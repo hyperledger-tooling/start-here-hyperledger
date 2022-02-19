@@ -1233,34 +1233,3 @@ Part of #3115
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3413" class=".btn">#3413</a>
-            </td>
-            <td>
-                <b>
-                    Lgtm alert x 1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix 1 LGTM alerts 
-* check null privacyPluginParams in BesuCommand
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-11 21:33:46 +0000 UTC
-    </div>
-</div>
-
