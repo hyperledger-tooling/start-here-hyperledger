@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/313" class=".btn">#313</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/314" class=".btn">#314</a>
             </td>
             <td>
                 <b>
-                    Add planning document for Batch Tracking Store
+                    Add batch queuer strategies design description
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                This adds a document giving an overview of the proposed batch tracking store. This document gives a brief overview of the purpose of the component and some proposed structs, traits, and DB schema.
+                Adds a community planning document giving the background,
+considerations, implementations, and plans for the batch queuer
+strategies.
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-11 18:58:35 +0000 UTC
+        Created At 2022-02-18 21:12:27 +0000 UTC
     </div>
 </div>
 

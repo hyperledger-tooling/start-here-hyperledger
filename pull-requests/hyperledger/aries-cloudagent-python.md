@@ -39,29 +39,3 @@ Signed-off-by: Andraž Cuderman <andraz.cuderman@global.id>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1628" class=".btn">#1628</a>
-            </td>
-            <td>
-                <b>
-                    Fix for non-revoc proof with no timestamp
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-11 20:39:05 +0000 UTC
-    </div>
-</div>
-
