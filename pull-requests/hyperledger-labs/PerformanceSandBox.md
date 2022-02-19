@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/21" class=".btn">#21</a>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/22" class=".btn">#22</a>
             </td>
             <td>
                 <b>
-                    add a summary for PSB integration with other development tools
+                    impl for couchdb support
                 </b>
             </td>
         </tr>
@@ -27,14 +27,20 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
                 
             </td>
             <td>
-                Add a summary for PSB integration with other development tools
+                - [x] make pv for couchdb(not need)
+- [x] deploy couchdb(done)
+- [x] make peer running with couchdb(done)
+- [x] make couchdb as an option for deployment(#23)
+- [x] grafana integration(tbd, as https://github.com/apache/couchdb/discussions/3935, #24)
 
-Pre discussed with Cello team, summaries list below for any kind of development tools integration list with items below.
+resolve #15 
+
+Signed-off-by: Sam Yuan <yy19902439@126.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-12 11:15:26 +0000 UTC
+        Created At 2022-02-19 09:50:34 +0000 UTC
     </div>
 </div>
 
