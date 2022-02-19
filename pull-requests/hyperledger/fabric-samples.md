@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/651" class=".btn">#651</a>
+            </td>
+            <td>
+                <b>
+                    impl for couchdb supports in test0network8s as hardcode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                a impl for #633
+
+Signed-off-by: Sam Yuan <yy19902439@126.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-19 12:10:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/650" class=".btn">#650</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/187" class=".btn">#187</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/190" class=".btn">#190</a>
             </td>
             <td>
                 <b>
-                    Update dependency versions (backport #185)
+                    Listen to private data in the events
                 </b>
             </td>
         </tr>
@@ -27,39 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                This is an automatic backport of pull request #185 done by [Mergify](https://mergify.com).
+                Cherry-pick of 44edbe517d3c07df7aeff93f2570965749cd14a7 from main branch.
 
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-
+* Listen to private data in the events
+* Add integration tests for the new PDC events feature
+* Expose enum for block event type instead of multiple boolean getters to determine event type.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-17 09:40:43 +0000 UTC
+        Created At 2022-02-19 09:14:33 +0000 UTC
     </div>
 </div>
 
