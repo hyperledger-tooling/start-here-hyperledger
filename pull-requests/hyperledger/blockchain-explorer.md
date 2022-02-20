@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/279" class=".btn">#279</a>
+            </td>
+            <td>
+                <b>
+                    Deleted $ symbols from wget commands, it doesn't work if we use copy …
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …and paste on terminal
+
+By removing $, all 3 statements can be copied and pasted easily, without requirement to delete it manually
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-20 13:46:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/278" class=".btn">#278</a>
             </td>
             <td>
