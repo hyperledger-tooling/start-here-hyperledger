@@ -158,32 +158,6 @@ Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/646" class=".btn">#646</a>
-            </td>
-            <td>
-                <b>
-                    Kieran test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 17:34:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/645" class=".btn">#645</a>
             </td>
             <td>
