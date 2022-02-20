@@ -64,31 +64,3 @@ Depends on https://github.com/hyperledger/fabric-sdk-java/pull/154 for build to 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/2" class=".btn">#2</a>
-            </td>
-            <td>
-                <b>
-                    Setup CI pipeline for the repository
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Add actions for test, lints and build.
-2. Add a manual release action for the github container registry release.
-3. Minor formatting updates.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-13 10:04:14 +0000 UTC
-    </div>
-</div>
-

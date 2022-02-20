@@ -387,8 +387,8 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 Split Sumeragi into smaller files, organised by function. 
 
 ### Issue
+Closes #1812 
 
-None
 
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
 
