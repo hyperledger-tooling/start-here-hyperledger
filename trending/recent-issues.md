@@ -3,11 +3,11 @@
 
 [274](https://github.com/hyperledger-labs/fablo/issues/274) Update Node.js runtime compatibility
 
-[1653](https://github.com/hyperledger/cactus/issues/1653) fix(docs/examples): cockpitEnabled default value confusion
-
 [280](https://github.com/hyperledger-labs/go-perun/issues/280) Implement Data.Equal
 
-[1673](https://github.com/hyperledger/iroha/issues/1673) Make use of `AsRef`, `AsMut` and `From` for versioned containers
+[79](https://github.com/hyperledger-labs/mirbft/issues/79) Follow-up Events
+
+[77](https://github.com/hyperledger-labs/mirbft/issues/77) Improve epochFinished predicate in ISS.
 
 
 [See more >>>](https://start-here.hyperledger.org/issues)
