@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/240" class=".btn">#240</a>
+            </td>
+            <td>
+                <b>
+                    weaver relay f2f sample
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 15:45:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/239" class=".btn">#239</a>
             </td>
             <td>
@@ -245,32 +271,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-02-15 08:20:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/227" class=".btn">#227</a>
-            </td>
-            <td>
-                <b>
-                    FSC identity, use ecdsa with low s #226
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-14 15:02:46 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1233" class=".btn">#1233</a>
+            </td>
+            <td>
+                <b>
+                    Remove information about legacy fabric connectors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 16:02:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1231" class=".btn">#1231</a>
+            </td>
+            <td>
+                <b>
+                    Update node versions for caliper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                closes #1125 
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 13:06:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1230" class=".btn">#1230</a>
             </td>
             <td>
