@@ -73,33 +73,3 @@ Close #406
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/405" class=".btn">#405</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-404]Add delete network function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add delete network function
-
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-
-Close #404
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-14 02:15:23 +0000 UTC
-    </div>
-</div>
-
