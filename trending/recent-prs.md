@@ -1,13 +1,13 @@
 
+[3467](https://github.com/hyperledger/besu/pull/3467) Quorum mode ATs - don't run in parallel
+
+[3466](https://github.com/hyperledger/besu/pull/3466) Separate CI steps for DCO and spotless checks
+
+[3242](https://github.com/hyperledger/fabric/pull/3242) Ignore expired CA/TLS CA certs on msp init (#3238)
+
+[280](https://github.com/hyperledger/blockchain-explorer/pull/280) Update chat
+
 [3464](https://github.com/hyperledger/besu/pull/3464) Change chat pointers
-
-[1927](https://github.com/hyperledger/iroha/pull/1927) Feature/mst os unite
-
-[279](https://github.com/hyperledger/blockchain-explorer/pull/279) Deleted $ symbols from wget commands, it doesn't work if we use copy …
-
-[14](https://github.com/hyperledger-labs/yui-docs/pull/14) Bump url-parse from 1.5.3 to 1.5.7 in /docsrcs/yui-ibc-solidity
-
-[16](https://github.com/hyperledger-labs/citizens-pulse/pull/16) Bump url-parse from 1.4.7 to 1.5.7 in /webui
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
