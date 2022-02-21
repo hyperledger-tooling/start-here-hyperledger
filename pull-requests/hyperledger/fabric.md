@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3242" class=".btn">#3242</a>
+            </td>
+            <td>
+                <b>
+                    Ignore expired CA/TLS CA certs on msp init (#3238)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ana Maria Franco <afrancoc2000@gmail.com>
+
+Adding this line guarantees that expired CA certificates wont prevent orderer initialization as happened in [Issue #3238](https://github.com/hyperledger/fabric/issues/3238)
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+Adding this line guarantees that expired CA certificates wont prevent orderer initialization as happened in [Issue #3238](https://github.com/hyperledger/fabric/issues/3238)
+
+
+#### Related issues
+
+[Issue #3238](https://github.com/hyperledger/fabric/issues/3238)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-20 21:23:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3237" class=".btn">#3237</a>
             </td>
             <td>
