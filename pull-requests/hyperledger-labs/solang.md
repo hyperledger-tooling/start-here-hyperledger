@@ -140,32 +140,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/664" class=".btn">#664</a>
-            </td>
-            <td>
-                <b>
-                    Permit error keyword to be used as variable name and ensure parser tests are run
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                @shekhirin this might be of interest.
-
-* The solang-parser crate tests were not being run
-* Allow variable names to be `error` even though its a keyword
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-14 16:28:48 +0000 UTC
-    </div>
-</div>
-

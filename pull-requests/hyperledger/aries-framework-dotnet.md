@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/213" class=".btn">#213</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/217" class=".btn">#217</a>
             </td>
             <td>
                 <b>
@@ -27,20 +27,22 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
                 
             </td>
             <td>
-                Short description of what this resolves:
+                #### Short description of what this resolves:
 
-Adds support for acknowledge messages in Connection, CredentialIssuance, and Presentation Protocol v.1.0 to handlers and services.
+Adds support for acknowledge messages according to 
+https://github.com/hyperledger/aries-rfcs/blob/main/features/0015-acks/README.md.
 
-Changes proposed in this pull request:
+Also includes the fix for a namespace bug which caused the previous PR to break the test harness build.
 
-Adds support for acknowledge messages in Connection, CredentialIssuance, and Presentation Protocol v.1.0 to handlers and services.
-Fixes: #
+#### Changes proposed in this pull request:
+
+- Support for acknowledge messages for the connection, credential and the proof protocol.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-09 09:59:04 +0000 UTC
+        Created At 2022-02-21 14:26:40 +0000 UTC
     </div>
 </div>
 
