@@ -15,58 +15,30 @@ permalink: /releases/hyperledger/fabric-sdk-java
         <tr>
             <td colspan="2">
                 <b>
-                    v1.4.15
+                    v2.2.12
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.4.15
+                    v2.2.12
                 </span>
             </td>
             <td>
-                This is a maintenance release that updates several dependency versions.
+                This is a maintenance release that contains updates to project dependencies to address security vulnerabilities.
 
-In particular, the Log4j dependency is updated to version 2.17.1 to address security vulnerabilities. See the [Log4j security page](https://logging.apache.org/log4j/2.x/security.html) for details.
+Changes:
+
+- Block event listening can be used to receive block events with private data.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-java/releases/tag/v1.4.15" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.12" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-01-04 15:29:20 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v2.2.11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v2.2.11
-                </span>
-            </td>
-            <td>
-                This is a maintenance release that updates several dependency versions.
-
-In particular, the Log4j dependency is updated to version 2.17.1 to address security vulnerabilities. See the [Log4j security page](https://logging.apache.org/log4j/2.x/security.html) for details.
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.11" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-01-04 14:22:45 +0000 UTC
+        Created At 2022-02-21 14:26:42 +0000 UTC
     </span>
 </div>
 
