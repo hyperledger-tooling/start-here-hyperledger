@@ -14,6 +14,36 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/1673" class=".btn">1673</a>
+            </td>
+            <td>
+                <b>
+                    Make use of `AsRef`, `AsMut` and `From` for versioned containers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                Our versioned containers implement `into_v1`, `as_v1`, `as_mut_v1` separately. To make this look more rusty I propose:
+
+* find all instances of `into_v1` in the code and replace them with implementation of `From` trait
+* find all instances of `as_v1` in the code and replace them with implementation of `AsRef` trait
+* find all instances of `as_mut_v1` in the code and replace them with implementation of `AsMut` trait
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2021-12-03 18:43:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/1640" class=".btn">1640</a>
             </td>
             <td>

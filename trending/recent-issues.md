@@ -7,7 +7,7 @@
 
 [280](https://github.com/hyperledger-labs/go-perun/issues/280) Implement Data.Equal
 
-[79](https://github.com/hyperledger-labs/mirbft/issues/79) Follow-up Events
+[1673](https://github.com/hyperledger/iroha/issues/1673) Make use of `AsRef`, `AsMut` and `From` for versioned containers
 
 
 [See more >>>](https://start-here.hyperledger.org/issues)
