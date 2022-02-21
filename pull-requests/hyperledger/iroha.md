@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1930" class=".btn">#1930</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #1928: implement changelog generation using `gitchangelog`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Added automatic changelog generation.
+
+### Issue
+
+Closes #1928
+
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+Automatic changelog generation
+
+### Possible Drawbacks
+
+Changelog format is not ideal. Missing significant portion of tags. Since long commit messages are not standardised, sometimes the squashed commits contain more information than they should. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 11:32:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1927" class=".btn">#1927</a>
             </td>
             <td>
@@ -95,7 +151,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">CI</span>
             </td>
             <td>
                 Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
@@ -109,7 +165,6 @@ Added a version of `setup_test_env.sh` that does not require `docker-compose` an
 ### Issue
 
 Closes #1902.
-Relates to #1590 
 
 ### Benefits
 
@@ -431,7 +486,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [refactor]: Re-organise `sumeragi`.
+                    [refactor]: Re-organise core
                 </b>
             </td>
         </tr>
@@ -442,20 +497,18 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             <td>
                 Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
 
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
 ### Description of the Change
 
-Split Sumeragi into smaller files, organised by function. 
+- Split Sumeragi into smaller files, organised by function. 
+- Add some checks to detect unrecognised CLI arguments in `cli`. 
+- The Iroha instance type is moved into the `cli` crate. Rationale: needed for interface only. If you're using the core library directly, and don't care about the interface, you might want to override some functionality that's hard-coded into `Iroha<...>`. Plus `Iroha<…>` is specific to the CLI instance. 
+- Move `torii` into the CLI crate. Rationale: `torii` is an interface element. Connections are (in principle) not the core functionality of Iroha, and we might change the net interface by moving to a different web/async runtime, but keep the core crate intact. Also None of the users of the `core` crate necessarily need to have access to `torii`. Separation makes sense. 
+- `Name::new` now checks for both `#` and `@` symbols and rejects them with an appropriate error message. 
+- Added feature flag for types used in testing by other crates. 
+- Prevent unchecked variants of `Name::new` to leak into non-testing code. 
+- Replaced unchecked `Name::new` with a checked panicking counter-part in benchmarks. This gives us an unrealistic expectation of what our performance is. Real-world applications will check their `Name` s. 
+
+
 
 ### Issue
 Closes #1812 
@@ -464,7 +517,12 @@ Closes #1812
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
 
 ### Benefits
-Less clutter. 
+- Less clutter. 
+- Back-end — front-end separation.
+- Isolation of commonly modified code (e.g. `torii`) from infrequently modified code (e.g. `kura`). 
+- Smaller `core` crate. 
+
+
 
 ### Possible Drawbacks
 

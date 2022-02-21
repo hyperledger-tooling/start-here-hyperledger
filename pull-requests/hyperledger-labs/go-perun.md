@@ -14,36 +14,6 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/326" class=".btn">#326</a>
-            </td>
-            <td>
-                <b>
-                    💥 Update, ForceUpdate: allow abortion through error return value (reverts #306)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In #306, we disabled update abortion under the assumption that there aren't many use cases for it.
-
-Since then, we discovered that in two of our applications we were using this functionality (perun-credential-payment and perun-websocket-backend).
-
-Hence, I propose to enable it again.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 11:14:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/325" class=".btn">#325</a>
             </td>
             <td>

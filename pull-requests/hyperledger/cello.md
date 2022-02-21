@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/413" class=".btn">#413</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-412]Delete the dockefile of 0.9.0 version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                delete the dockefile of 0.9.0 version
+
+Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+
+Close #412
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 09:18:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/411" class=".btn">#411</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-410]Add chaincode management page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add chaincode management page
+
+Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+
+Close #410
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 09:09:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/409" class=".btn">#409</a>
             </td>
             <td>
@@ -37,39 +97,6 @@ Signed-off-by: tianxuanhong1 <523713078@qq.com>
     </table>
     <div class="right-align">
         Created At 2022-02-19 06:17:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/407" class=".btn">#407</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-406]Deleted the judgment of repeated password input in the re…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …gistration interface
-
-1、Deleted the judgment of repeated password input in the registration interface
-2、Removed the duplicate password submitted in the front-end registration page
-
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-
-Close #406
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-14 08:22:57 +0000 UTC
     </div>
 </div>
 

@@ -39,31 +39,3 @@ I will make a new (separate & clean) PR once #69 is merged into main.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/69" class=".btn">#69</a>
-            </td>
-            <td>
-                <b>
-                    Payment channel tutorial
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We revised the payment channel tutorial.
-Ensure to update the perun-example submodule before deployment (otherwise, the imported code blocks will not work).
-With Perun 0.9.0 we will need to make a few changes regarding the sender/receiver ID
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-14 10:24:45 +0000 UTC
-    </div>
-</div>
-
