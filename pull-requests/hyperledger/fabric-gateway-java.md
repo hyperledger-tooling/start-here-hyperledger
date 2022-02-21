@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/100" class=".btn">#100</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/101" class=".btn">#101</a>
             </td>
             <td>
                 <b>
-                    Add pointer to Fabric Gateway client API for Fabric v2.4
+                    Fix Javadoc build for Java 17
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                <nil>
+                Even if the path and compiler target point to a different Java version, the Java version associated with the Maven CLI can cause Javadodc build failures in systems with Java 17 installed. Set an upper bound (in addition to the lower bound) for the build profile that enables the `--no-module-directories` Javadoc option.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-08 18:24:52 +0000 UTC
+        Created At 2022-02-21 09:57:50 +0000 UTC
     </div>
 </div>
 

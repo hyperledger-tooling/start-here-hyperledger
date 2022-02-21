@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/676" class=".btn">#676</a>
+            </td>
+            <td>
+                <b>
+                    fix: inkwell cc link bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                inkwell cc link bug
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 09:14:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/674" class=".btn">#674</a>
             </td>
             <td>

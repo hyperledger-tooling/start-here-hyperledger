@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/313" class=".btn">#313</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/314" class=".btn">#314</a>
             </td>
             <td>
                 <b>
-                    PurgePD
+                    Resolve NPM Audit issues
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                In support of [Fabric Issue #3020](https://github.com/hyperledger/fabric/issues/3020)
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-02 10:57:20 +0000 UTC
+        Created At 2022-02-21 11:06:26 +0000 UTC
     </div>
 </div>
 

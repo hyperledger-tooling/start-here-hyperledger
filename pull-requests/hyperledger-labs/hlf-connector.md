@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/3" class=".btn">#3</a>
-            </td>
-            <td>
-                <b>
-                    Feature to listen and report PDC events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The feature currently enables for one time read of events. It shall be extended to reporting the PDC events during the query back through the API.
-
-Depends on https://github.com/hyperledger/fabric-sdk-java/pull/154 for build to succeed.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-14 10:24:25 +0000 UTC
-    </div>
-</div>
-

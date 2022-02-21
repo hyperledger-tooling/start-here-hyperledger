@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/76" class=".btn">#76</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/77" class=".btn">#77</a>
             </td>
             <td>
                 <b>
-                    Fix IBCHeight.toUint128
+                    Use the new file-level option of solidity-protobuf
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                Fix a bug related to operator precedence.
-https://docs.soliditylang.org/en/v0.8.9/cheatsheet.html
-
-`x << 64 + y` means `x << (64 + y)`, not `(x << 64) + y`.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-14 07:17:47 +0000 UTC
+        Created At 2022-02-21 09:35:39 +0000 UTC
     </div>
 </div>
 
