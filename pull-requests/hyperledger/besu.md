@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3481" class=".btn">#3481</a>
+            </td>
+            <td>
+                <b>
+                    wip: add multi-platform support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+use buildx on linux AMD64 host to build docker image for platform amd64 & arm64
+  - base image `ubuntu` support `amd64` `arm64` `riscv64` & `riscv64`
+  - base image `ghcr.io/graalvm/graalvm-ce:ol7-java11` only support  `amd64` & `arm64`
+  - Gitlab docker registry is used in testing
+
+## To Do (s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+ -  integrate with CICD pipeline, e.g. `.CircleCI` & `Github Actions`
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 10:51:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3479" class=".btn">#3479</a>
+            </td>
+            <td>
+                <b>
+                    Trace tx tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added some more trace_transaction tests generated from 
+https://github.com/ConsenSys/json-rpc-conformance-test-utils/pull/18
+
+Note: some of these tests fail. I think it's just besu puts in an extra field for contract creation which OE does not
+"[creationMethod" : "create",
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 06:21:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3478" class=".btn">#3478</a>
             </td>
             <td>
@@ -31,8 +107,11 @@ permalink: /pull-requests/hyperledger/besu
 This prevents BftMiningCoordinator from being able to be shutdown from the same thread.
 We want to enable shutdown from the same thread to support migrating from one MiningCoordinator instance to another (IBFT -> QBFT).
 
-This PR is most of the solution to https://github.com/hyperledger/besu/issues/3003
-(there is a small piece to do in the MigratingMiningCoordinator to await shutdown of the IBFT executors before starting the QBFT executors).
+This is the relevant discussion as to why the latch was originally added in: https://github.com/hyperledger/besu/pull/104#discussion_r334705699
+
+I believe the latch is unnecessary because BftExecutors.stop() (which calls bftProcessExecutor.shutdownNow) should be sufficient to safely prevent any further tasks from being accepted, whilst BftExecutors.awaitStop() (calling bftProcessExecutor.awaitTermination()) gives the current task(s) a chance to finish.
+
+This PR is most if not all of the solution to https://github.com/hyperledger/besu/issues/3003
             </td>
         </tr>
     </table>
@@ -1178,119 +1257,6 @@ Addresses #3336
     </table>
     <div class="right-align">
         Created At 2022-02-15 13:11:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3432" class=".btn">#3432</a>
-            </td>
-            <td>
-                <b>
-                    Persist last finalized block hash, prerequisite for The Merge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Rename CONSTANTS_PREFIX to VARIABLES_PREFIX,
-since values stored there are not fixed and change over time.
-
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2913
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 11:46:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3431" class=".btn">#3431</a>
-            </td>
-            <td>
-                <b>
-                    move quorum ATs to nightly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Move Quorum ATs step to nightly. (These tests run Besu in GoQuorum privacy compatibility mode, with Tessera and EthSigner. So basically testing the same calls sent to GoQuorum work when sent to Besu)
-
-Justification:
-* tests are flaky, introducing noise into besu PR builds
-* no regressions have been found since these tests were instated
-* the downside is it may take longer to find a regression 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 08:49:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3430" class=".btn">#3430</a>
-            </td>
-            <td>
-                <b>
-                    CI nightly - skip test.sh in docker dir
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-When doing dockerScan step, skip the file named test.sh
-Fixes #3426 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 06:37:35 +0000 UTC
     </div>
 </div>
 

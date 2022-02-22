@@ -36,30 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/654" class=".btn">#654</a>
-            </td>
-            <td>
-                <b>
-                    Move from rocket chat to discord
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 08:28:30 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3247" class=".btn">#3247</a>
+            </td>
+            <td>
+                <b>
+                    Ignore expired ca tls cert
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding this line guarantees that expired CA certificates wont prevent orderer initialization as happened in https://github.com/hyperledger/fabric/issues/3238
+
+#### Type of change
+
+Bug fix
+
+#### Description
+Adding this line guarantees that expired CA certificates wont prevent orderer initialization as happened in https://github.com/hyperledger/fabric/issues/3238
+
+#### Related issues
+https://github.com/hyperledger/fabric/issues/3238
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 12:19:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3245" class=".btn">#3245</a>
+            </td>
+            <td>
+                <b>
+                    [FAB-2835] fix fabric/orderer/common/cluster unit test flakes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix [FAB-2835]  In case of accumulated bytes since last snapshot 
+exceed limit while taking snapshot check whether the pb buffer
+type is of raftpb.EntryNormal, since blocks are marshalled into 
+pb buffers of raftpb.EntryNormal and not raftpb.EntryConfChange
+
+Signed-off-by: Shivdeep Singh <Shivdeep.Singh@ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 10:30:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3244" class=".btn">#3244</a>
             </td>
             <td>
@@ -143,48 +213,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2022-02-21 03:33:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3242" class=".btn">#3242</a>
-            </td>
-            <td>
-                <b>
-                    Ignore expired CA/TLS CA certs on msp init (#3238)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ana Maria Franco <afrancoc2000@gmail.com>
-
-Adding this line guarantees that expired CA certificates wont prevent orderer initialization as happened in [Issue #3238](https://github.com/hyperledger/fabric/issues/3238)
-
-#### Type of change
-
-- Bug fix
-
-#### Description
-
-Adding this line guarantees that expired CA certificates wont prevent orderer initialization as happened in [Issue #3238](https://github.com/hyperledger/fabric/issues/3238)
-
-
-#### Related issues
-
-[Issue #3238](https://github.com/hyperledger/fabric/issues/3238)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-20 21:23:38 +0000 UTC
     </div>
 </div>
 
