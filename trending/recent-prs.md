@@ -1,13 +1,13 @@
 
-[146](https://github.com/hyperledger-labs/fabric-operations-console/pull/146) add channel info on osn drill down
+[3475](https://github.com/hyperledger/besu/pull/3475) QBFT out of early access
 
-[1233](https://github.com/hyperledger/caliper/pull/1233) Remove information about legacy fabric connectors
+[3244](https://github.com/hyperledger/fabric/pull/3244) Bump go-kit/kit v0.9.0 to v0.10.0
 
-[145](https://github.com/hyperledger-labs/fabric-operations-console/pull/145) fix warning when system channel isn't present
+[3474](https://github.com/hyperledger/besu/pull/3474) use med executor for quorum ATs
 
-[240](https://github.com/hyperledger-labs/fabric-smart-client/pull/240) weaver relay f2f sample
+[3473](https://github.com/hyperledger/besu/pull/3473) MERGE: engine_exchangeTransitionConfigurationV1 API
 
-[3472](https://github.com/hyperledger/besu/pull/3472) Migrate JumpDestCache to CodeCache
+[3174](https://github.com/hyperledger/aries-framework-go/pull/3174) feat: Added RequestCredential argument for Accept Offer endpoint
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
