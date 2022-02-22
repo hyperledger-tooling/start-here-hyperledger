@@ -1,13 +1,13 @@
 
-[3475](https://github.com/hyperledger/besu/pull/3475) QBFT out of early access
+[3478](https://github.com/hyperledger/besu/pull/3478) Remove shutdown latch from BftProcessor
 
-[3244](https://github.com/hyperledger/fabric/pull/3244) Bump go-kit/kit v0.9.0 to v0.10.0
+[3477](https://github.com/hyperledger/besu/pull/3477) Initial commit for trace_get implementation. No tests.
 
-[3474](https://github.com/hyperledger/besu/pull/3474) use med executor for quorum ATs
+[3476](https://github.com/hyperledger/besu/pull/3476) Add some thread names for debugging clarity
 
-[3473](https://github.com/hyperledger/besu/pull/3473) MERGE: engine_exchangeTransitionConfigurationV1 API
+[417](https://github.com/hyperledger/cello/pull/417) Bump jinja2 from 2.11.2 to 2.11.3 in /src/agent/docker-rest-agent
 
-[3174](https://github.com/hyperledger/aries-framework-go/pull/3174) feat: Added RequestCredential argument for Accept Offer endpoint
+[416](https://github.com/hyperledger/cello/pull/416) Bump urllib3 from 1.25.11 to 1.26.5 in /src/agent/docker-rest-agent
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

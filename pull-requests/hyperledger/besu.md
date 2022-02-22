@@ -14,6 +14,103 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3478" class=".btn">#3478</a>
+            </td>
+            <td>
+                <b>
+                    Remove shutdown latch from BftProcessor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span><span class="chip">consensus</span>
+            </td>
+            <td>
+                We don't want BftMiningCoordinator.stop() to wait for BftProcessor to shutdown before calling shutdown on the BftExecutor.
+This prevents BftMiningCoordinator from being able to be shutdown from the same thread.
+We want to enable shutdown from the same thread to support migrating from one MiningCoordinator instance to another (IBFT -> QBFT).
+
+This PR is most of the solution to https://github.com/hyperledger/besu/issues/3003
+(there is a small piece to do in the MigratingMiningCoordinator to await shutdown of the IBFT executors before starting the QBFT executors).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 04:39:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3477" class=".btn">#3477</a>
+            </td>
+            <td>
+                <b>
+                    Initial commit for trace_get implementation. No tests.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Mark Terry <mark.terry@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Implementation for trace_get.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 04:30:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3476" class=".btn">#3476</a>
+            </td>
+            <td>
+                <b>
+                    Add some thread names for debugging clarity
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                BFT executor threads include IBFT or QBFT to help with the IBFT -> QBFT migration.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 04:14:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3475" class=".btn">#3475</a>
             </td>
             <td>
@@ -823,38 +920,6 @@ Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3443" class=".btn">#3443</a>
-            </td>
-            <td>
-                <b>
-                    QBFT Migration: allow active mining coordinator to be shutdown (with coverage)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">consensus</span>
-            </td>
-            <td>
-                A better tested but more complex version of the solution from https://github.com/hyperledger/besu/pull/3438.
-
-Pulled code apart to get decent unit test coverage.
-
-https://github.com/hyperledger/besu/issues/3003
-
-Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 06:16:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3442" class=".btn">#3442</a>
             </td>
             <td>
@@ -935,7 +1000,7 @@ Merge main into merge:
             </td>
             <td>
                 <b>
-                    (removed assertions) QBFT Migration: allow active mining coordinator to be shutdown
+                    QBFT Migration: allow active mining coordinator to be shutdown
                 </b>
             </td>
         </tr>
@@ -946,11 +1011,9 @@ Merge main into merge:
             <td>
                 Simple solution with async tasks but not easily testable. Compromised the unit tests in favour of simplicity/readability, given that the migration happy path will also be covered by acceptance tests.
 
-This draft can be compared with https://github.com/hyperledger/besu/pull/3443 which compromises simplicity/readability for the sake of better unit tests.
+This draft can be compared with https://github.com/hyperledger/besu/pull/3478 which removes the problem by removing the bftProcessor's shutdownLatch.
 
-https://github.com/hyperledger/besu/issues/3003
-
-Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
+The is a proposed fix for https://github.com/hyperledger/besu/issues/3003
             </td>
         </tr>
     </table>
@@ -1228,42 +1291,6 @@ Fixes #3426
     </table>
     <div class="right-align">
         Created At 2022-02-15 06:37:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3429" class=".btn">#3429</a>
-            </td>
-            <td>
-                <b>
-                    RocketChat -> Discord
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Replace Rocket Chat links with Discord. Reworded some links.
-
-This does remove the badge from the top of the README. Requires Discord admin to setup if we want the equivalent for Discord. https://shields.io/category/chat
-
-Fixes #3428 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 04:47:43 +0000 UTC
     </div>
 </div>
 
