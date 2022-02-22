@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3174" class=".btn">#3174</a>
+            </td>
+            <td>
+                <b>
+                    feat: Added RequestCredential argument for Accept Offer endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The Accept Offer endpoint in the REST API can now accept an optional RequestCredential object. This object will get passed to the underlying client instead of just assuming a blank RequestCredential. This is a required feature for the WACI issuance flow.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 19:47:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3172" class=".btn">#3172</a>
             </td>
             <td>

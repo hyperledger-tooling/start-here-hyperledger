@@ -102,33 +102,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1310" class=".btn">#1310</a>
-            </td>
-            <td>
-                <b>
-                    Remove unused `sawtooth` module/feature in cli
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This removes the unused `sawtooth` module and feature from the CLI. The
-original functionality intended to be housed in this module is handled
-elsewhere.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-14 20:20:20 +0000 UTC
-    </div>
-</div>
-

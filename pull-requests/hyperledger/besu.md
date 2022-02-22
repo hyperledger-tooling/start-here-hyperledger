@@ -14,6 +14,109 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3475" class=".btn">#3475</a>
+            </td>
+            <td>
+                <b>
+                    QBFT out of early access
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+This is the changlelog update that publicises that QBFT consensus algorithm is now production ready.
+
+Also fixing some typos (fixes #3452)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 00:56:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3474" class=".btn">#3474</a>
+            </td>
+            <td>
+                <b>
+                    use med executor for quorum ATs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamRevenant</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+The nightly CI failed overnight https://app.circleci.com/pipelines/github/hyperledger/besu/13408/workflows/e13faa55-846d-40cb-a18a-cb96eeff6d2f/jobs/74709
+So this PR is 
+* changing the executor back to the machine executor that it was using before
+* changing from XL to MED
+* removing extra gradle workers config
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 23:01:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3473" class=".btn">#3473</a>
+            </td>
+            <td>
+                <b>
+                    MERGE: engine_exchangeTransitionConfigurationV1 API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+
+Implements the `engine_exchangeTransitionConfigurationV1` API endpoint according to [specification](https://github.com/ethereum/execution-apis/blob/main/src/engine/specification.md#engine_exchangetransitionconfigurationv1). It is part of the Kiln v2 spec.
+
+## Fixed Issue(s)
+fixes #3471 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 20:11:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3472" class=".btn">#3472</a>
             </td>
             <td>
