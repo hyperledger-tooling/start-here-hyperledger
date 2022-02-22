@@ -290,32 +290,3 @@ Signed-off-by: Bhaskar Ram <bhaskar@parrotsec.in>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3166" class=".btn">#3166</a>
-            </td>
-            <td>
-                <b>
-                    fix: auth crypt packer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrii Holovko <andriy.holovko@gmail.com>
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 06:47:07 +0000 UTC
-    </div>
-</div>
-

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    Refactor event emission
+                    [refactor] #1903: move event emission to `modify_*` methods
                 </b>
             </td>
         </tr>
