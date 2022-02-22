@@ -154,36 +154,3 @@ Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/645" class=".btn">#645</a>
-            </td>
-            <td>
-                <b>
-                    Fix sample external chaincode Dockerfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Podman isn't as lenient as docker when it comes to the syntax of the
-Dockerfile and insists on getting the ARG command properly scoped.
-This fixes this error:
-...
-[2/2] STEP 12/15: EXPOSE $CC_SERVER_PORT
-Error: error building at STEP "EXPOSE $CC_SERVER_PORT": EXPOSE requires at least one argument
-
-Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 14:34:50 +0000 UTC
-    </div>
-</div>
-

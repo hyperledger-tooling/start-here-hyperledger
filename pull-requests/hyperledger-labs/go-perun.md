@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/327" class=".btn">#327</a>
+            </td>
+            <td>
+                <b>
+                    Wire hybrid bus
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Enables perun-network/perun-websocket-backend#2.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 14:25:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/325" class=".btn">#325</a>
             </td>
             <td>

@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/167" class=".btn">#167</a>
-            </td>
-            <td>
-                <b>
-                    add a build to benchmarks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 16:10:48 +0000 UTC
-    </div>
-</div>
-

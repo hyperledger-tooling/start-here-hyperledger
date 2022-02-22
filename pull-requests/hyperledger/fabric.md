@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3247" class=".btn">#3247</a>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3249" class=".btn">#3249</a>
             </td>
             <td>
                 <b>
-                    Ignore expired ca tls cert
+                    Ignore expired CA/TLS CA certs on msp init (#3238)
                 </b>
             </td>
         </tr>
@@ -30,7 +30,6 @@ permalink: /pull-requests/hyperledger/fabric
                 Adding this line guarantees that expired CA certificates wont prevent orderer initialization as happened in https://github.com/hyperledger/fabric/issues/3238
 
 #### Type of change
-
 Bug fix
 
 #### Description
@@ -38,13 +37,64 @@ Adding this line guarantees that expired CA certificates wont prevent orderer in
 
 #### Related issues
 https://github.com/hyperledger/fabric/issues/3238
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 13:29:18 +0000 UTC
+    </div>
+</div>
 
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3248" class=".btn">#3248</a>
+            </td>
+            <td>
+                <b>
+                    Gateway support for mutual TLS networks (backport #3235)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #3235 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-22 12:19:08 +0000 UTC
+        Created At 2022-02-22 13:22:05 +0000 UTC
     </div>
 </div>
 

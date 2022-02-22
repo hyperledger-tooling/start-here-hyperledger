@@ -123,32 +123,3 @@ Related to #179, #233.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/234" class=".btn">#234</a>
-            </td>
-            <td>
-                <b>
-                    Allow capturing USIG identity from any UI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                This pull request adjusts the way USIG identity is captured.
-
-Related to #179.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 13:57:47 +0000 UTC
-    </div>
-</div>
-

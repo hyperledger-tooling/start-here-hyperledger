@@ -90,29 +90,3 @@ Note: The conversion is still a work in progress for older versions and help is 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/184" class=".btn">#184</a>
-            </td>
-            <td>
-                <b>
-                    Remove Seth from 1.2 Sidebar
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 17:00:59 +0000 UTC
-    </div>
-</div>
-
