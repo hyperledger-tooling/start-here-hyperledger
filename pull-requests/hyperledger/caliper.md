@@ -157,29 +157,3 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1227" class=".btn">#1227</a>
-            </td>
-            <td>
-                <b>
-                    Add new connector Wallet facade and Wallet facade Fatory on the peer-gateway folder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                add new folder peer-gateway containing new connector Wallet Facade and Wallet Facade Factory
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 16:20:29 +0000 UTC
-    </div>
-</div>
-

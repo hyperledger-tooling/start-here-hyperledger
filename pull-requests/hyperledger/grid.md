@@ -73,32 +73,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1311" class=".btn">#1311</a>
-            </td>
-            <td>
-                <b>
-                    Add dlt polling monitor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds the dlt polling monitor to Grid as an experimental
-feature.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 15:20:32 +0000 UTC
-    </div>
-</div>
-
