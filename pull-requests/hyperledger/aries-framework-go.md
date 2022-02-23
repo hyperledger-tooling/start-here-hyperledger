@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3178" class=".btn">#3178</a>
+            </td>
+            <td>
+                <b>
+                    feat: websocket read limit support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds support for setting read limit for outbound web socket transport (in addition to inbound that was already supported).
+
+Closes #3155
+
+Signed-off-by: Andrii Holovko <andriy.holovko@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-23 10:45:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3177" class=".btn">#3177</a>
             </td>
             <td>

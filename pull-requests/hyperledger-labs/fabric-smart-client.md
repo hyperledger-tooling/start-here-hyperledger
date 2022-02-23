@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/236" class=".btn">#236</a>
-            </td>
-            <td>
-                <b>
-                    nwo.fabric: support for HLE and Prometheus+Graphana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 10:50:40 +0000 UTC
-    </div>
-</div>
-

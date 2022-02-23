@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/671" class=".btn">#671</a>
-            </td>
-            <td>
-                <b>
-                    Testcase for issue #666
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See issue #666 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 11:58:48 +0000 UTC
-    </div>
-</div>
-

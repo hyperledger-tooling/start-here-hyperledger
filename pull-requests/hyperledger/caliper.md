@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1236" class=".btn">#1236</a>
+            </td>
+            <td>
+                <b>
+                    fix the docs for specifying charts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                closes #1126
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-23 10:35:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1235" class=".btn">#1235</a>
             </td>
             <td>

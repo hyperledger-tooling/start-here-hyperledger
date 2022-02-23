@@ -199,40 +199,6 @@ Note: some of these tests fail. I think it's just besu puts in an extra field fo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3478" class=".btn">#3478</a>
-            </td>
-            <td>
-                <b>
-                    Remove shutdown latch from BftProcessor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">consensus</span>
-            </td>
-            <td>
-                We don't want BftMiningCoordinator.stop() to wait for BftProcessor to shutdown before calling shutdown on the BftExecutor.
-This prevents BftMiningCoordinator from being able to be shutdown from the same thread.
-We want to enable shutdown from the same thread to support migrating from one MiningCoordinator instance to another (IBFT -> QBFT).
-
-This is the relevant discussion as to why the latch was originally added in: https://github.com/hyperledger/besu/pull/104#discussion_r334705699
-
-I believe the latch is unnecessary because BftExecutors.stop() (which calls bftProcessExecutor.shutdownNow) should be sufficient to safely prevent any further tasks from being accepted, whilst BftExecutors.awaitStop() (calling bftProcessExecutor.awaitTermination()) gives the current task(s) a chance to finish.
-
-This PR is most if not all of the solution to https://github.com/hyperledger/besu/issues/3003
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-22 04:39:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3477" class=".btn">#3477</a>
             </td>
             <td>
