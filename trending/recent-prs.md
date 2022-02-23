@@ -1,13 +1,13 @@
 
-[322](https://github.com/hyperledger/grid-docs/pull/322) Update batch submitter design doc
+[3485](https://github.com/hyperledger/besu/pull/3485) Remove deprecated open telemetry proto dependency
 
-[321](https://github.com/hyperledger/grid-docs/pull/321) Install Jekyll on ruby instead of using published image
+[323](https://github.com/hyperledger/grid-docs/pull/323) Update Batch store planning doc
 
-[320](https://github.com/hyperledger/grid-docs/pull/320) Add implementation details for "Future REST API"
+[1329](https://github.com/hyperledger/grid/pull/1329) Add Griddle to docker-compose-installed
 
-[3483](https://github.com/hyperledger/besu/pull/3483) Upgrade EnodeURL builder strategy
+[1235](https://github.com/hyperledger/caliper/pull/1235) Remove the legacy fabric connectors
 
-[327](https://github.com/hyperledger-labs/go-perun/pull/327) Wire hybrid bus
+[1638](https://github.com/hyperledger/aries-cloudagent-python/pull/1638) Fix auto connection response not being properly mediated
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
