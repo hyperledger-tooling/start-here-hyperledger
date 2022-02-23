@@ -106,7 +106,7 @@ Finally, you can contact us on https://mergify.com
             </td>
             <td>
                 <b>
-                    [FAB-2835] fix fabric/orderer/common/cluster unit test flakes
+                    [FAB-3149] fix Orderer integration test flake
                 </b>
             </td>
         </tr>
@@ -115,7 +115,7 @@ Finally, you can contact us on https://mergify.com
                 
             </td>
             <td>
-                fix [FAB-2835]  In case of accumulated bytes since last snapshot 
+                fix [FAB-3149]  In case of accumulated bytes since last snapshot 
 exceed limit while taking snapshot check whether the pb buffer
 type is of raftpb.EntryNormal, since blocks are marshalled into 
 pb buffers of raftpb.EntryNormal and not raftpb.EntryConfChange

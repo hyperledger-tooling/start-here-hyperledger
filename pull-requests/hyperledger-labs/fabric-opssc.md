@@ -73,35 +73,3 @@ Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/30" class=".btn">#30</a>
-            </td>
-            <td>
-                <b>
-                    Some bug fixes and adding a minor API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR includes the following updates.
-
-- Bug fixes
-  - Bug fix on the conditions for a vote to be considered `Rejected`
-  - Bug fix in the case of reusing chaincode definitions without proposals
--  API updates
-   - Add API to get organization information
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 04:02:42 +0000 UTC
-    </div>
-</div>
-
