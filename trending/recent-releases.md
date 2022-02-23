@@ -7,7 +7,7 @@
 
 [1.0.1-unstable](https://github.com/hyperledger-labs/fablo/releases/tag/1.0.1-unstable) 1.0.1-unstable
 
-[v0.0.44](https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.44) v0.0.44
+[1.4.0](https://github.com/hyperledger/iroha/releases/tag/1.4.0) Hyperledger Iroha v1.4
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
