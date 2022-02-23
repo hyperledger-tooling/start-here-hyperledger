@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1932" class=".btn">#1932</a>
+            </td>
+            <td>
+                <b>
+                    TEST PR; DO NOT MERGE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+### Description of the Change
+
+Added a workflow that is used to run API tests. 
+
+### Issue
+Closes #1726 
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+More tests.
+
+### Possible Drawbacks
+None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-23 07:53:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1931" class=".btn">#1931</a>
             </td>
             <td>

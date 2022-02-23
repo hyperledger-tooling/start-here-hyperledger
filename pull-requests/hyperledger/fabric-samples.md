@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/656" class=".btn">#656</a>
+            </td>
+            <td>
+                <b>
+                    Remove duplicate erc-721 Go chaincode sample
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                erc-721 Go chaincode was delivered to both /go and /chaincode-go directories.
+This commit removes the /go implementation.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-23 07:29:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/655" class=".btn">#655</a>
+            </td>
+            <td>
+                <b>
+                    Fix ledger queries sample
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                -Go chaincode - Paginated range query should return the bookmark so that next page can be requested
+-Javascript chaincode - Make query return JSON consistent with Go chaincode
+-Javascript app was broken at bookmark query due to invalid JSON parsing from inconsistent chaincode responses
+-Javascript and Java app had incorrect comments
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-23 06:46:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/652" class=".btn">#652</a>
             </td>
             <td>
@@ -122,35 +182,6 @@ Signed-off-by: kaushikkumarbora <kaushikkumarbora@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-02-17 11:47:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/647" class=".btn">#647</a>
-            </td>
-            <td>
-                <b>
-                    Improve REST sample README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add that one needs to have the ledger initialized for the sample to
-work.
-
-Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 10:49:53 +0000 UTC
     </div>
 </div>
 
