@@ -1,13 +1,13 @@
 
-[3485](https://github.com/hyperledger/besu/pull/3485) Remove deprecated open telemetry proto dependency
+[3486](https://github.com/hyperledger/besu/pull/3486) Handle TTD and mining pre and post merge 
 
-[323](https://github.com/hyperledger/grid-docs/pull/323) Update Batch store planning doc
+[3177](https://github.com/hyperledger/aries-framework-go/pull/3177) feat: credential application - validate presentation submission
 
-[1329](https://github.com/hyperledger/grid/pull/1329) Add Griddle to docker-compose-installed
+[461](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/461) chore(deps): update dependency node-fetch [security]
 
-[1235](https://github.com/hyperledger/caliper/pull/1235) Remove the legacy fabric connectors
+[460](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/460) chore(deps): update dependency ajv to 6.12.3 [security]
 
-[1638](https://github.com/hyperledger/aries-cloudagent-python/pull/1638) Fix auto connection response not being properly mediated
+[459](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/459)  working version to tokenize ups shipment emissions, encrypt and store data on ipfs 
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

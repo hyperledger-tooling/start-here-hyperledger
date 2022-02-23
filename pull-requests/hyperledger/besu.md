@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3486" class=".btn">#3486</a>
+            </td>
+            <td>
+                <b>
+                    Handle TTD and mining pre and post merge 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Correctlt handle mining pre/post merge for PoW and Clique networks
+
+* for clarity, rename isStoppedAtTerminalDifficulty to hasReachedTerminalDifficulty 
+* use AtomicReference for PostMergeContext rather than synchronized
+* add mining parameter override for consensus mechanisms that mine regardless of miningParameters
+* mining parameter validation from merge branch which allows mining parameters without PoW mining if merge is enabled
+* merge fix for optional in TxPoolEvictionService
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2898 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-23 03:11:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3485" class=".btn">#3485</a>
             </td>
             <td>
@@ -161,7 +209,7 @@ Note: some of these tests fail. I think it's just besu puts in an extra field fo
         </tr>
         <tr>
             <td>
-                <span class="chip">TeamGroot</span><span class="chip">consensus</span>
+                <span class="chip">consensus</span>
             </td>
             <td>
                 We don't want BftMiningCoordinator.stop() to wait for BftProcessor to shutdown before calling shutdown on the BftExecutor.
@@ -1053,41 +1101,6 @@ Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-02-16 14:35:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3442" class=".btn">#3442</a>
-            </td>
-            <td>
-                <b>
-                    New release 22.1.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Cherry picked commits: 
-- 1f234f23f
-- 117b1b133
-- 68f6fcd10
-- 21f7fba7e
-- 89768844f
-- 0f798dd44
-- 764d80abc
-- e32f284cf
-- da6adecb5
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 03:51:47 +0000 UTC
     </div>
 </div>
 
