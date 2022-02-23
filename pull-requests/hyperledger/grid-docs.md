@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/323" class=".btn">#323</a>
+            </td>
+            <td>
+                <b>
+                    Update Batch store planning doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the Batch Store planning doc structs by renaming the
+`Batch` and `Transaction` structs to `GridBatch` and `GridTransaction`.
+This is to alleviate any confusion about the differences between these
+structs and their counterparts in Transact.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 20:09:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid-docs/pull/322" class=".btn">#322</a>
             </td>
             <td>

@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1235" class=".btn">#1235</a>
+            </td>
+            <td>
+                <b>
+                    Remove the legacy fabric connectors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is mainly a deletion exercise with the following code changes
+1. simplication of which connector to load
+2. only create a connector instance if required for example
+flow-only-start and flow-only-end don't need to have a connector created
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 18:34:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1233" class=".btn">#1233</a>
             </td>
             <td>

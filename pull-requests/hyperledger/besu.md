@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3485" class=".btn">#3485</a>
+            </td>
+            <td>
+                <b>
+                    Remove deprecated open telemetry proto dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Needed to add jaeger-proto dependency as per breaking changes info here https://github.com/open-telemetry/opentelemetry-java/releases/tag/v1.7.0
+
+Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+See #3406 
+Also updated grpc 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-23 00:56:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3483" class=".btn">#3483</a>
             </td>
             <td>
@@ -86,7 +121,7 @@ use buildx on linux AMD64 host to build docker image for platform amd64 & arm64
             </td>
             <td>
                 <b>
-                    Trace tx tests
+                    Additional trace_transaction tests
                 </b>
             </td>
         </tr>
@@ -614,7 +649,7 @@ This PR is built on top of #3454 that should be reviewed first
                 
             </td>
             <td>
-                WIP code and test files for trace_rawTransaction
+                Json RPC endpoint and test files for trace_rawTransaction
 
 ## Changelog
 
@@ -1053,122 +1088,6 @@ Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-02-16 03:51:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3439" class=".btn">#3439</a>
-            </td>
-            <td>
-                <b>
-                    Merge main into merge branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Merge main into merge:
-* latest circle-ci updates  (reason for this merge)
-* trace_call
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 00:48:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3438" class=".btn">#3438</a>
-            </td>
-            <td>
-                <b>
-                    QBFT Migration: allow active mining coordinator to be shutdown
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">consensus</span>
-            </td>
-            <td>
-                Simple solution with async tasks but not easily testable. Compromised the unit tests in favour of simplicity/readability, given that the migration happy path will also be covered by acceptance tests.
-
-This draft can be compared with https://github.com/hyperledger/besu/pull/3478 which removes the problem by removing the bftProcessor's shutdownLatch.
-
-The is a proposed fix for https://github.com/hyperledger/besu/issues/3003
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 22:54:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3437" class=".btn">#3437</a>
-            </td>
-            <td>
-                <b>
-                    forkchoiceUpdated implement kiln/1.0-alpha6 execution spec 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-* address merge-at-genesis case for terminal-proof-of-work checks
-* update forkchoice status field json to reflect kiln spec
-* use `INVALID` responses according to spec rather than rpc errors (HTTP 400)
-* return a result from forkchoiceUpdated rather than void return with exceptions
-* unit tests and mock fixes for existing tests
-
-https://github.com/ethereum/execution-apis/blob/v1.0.0-alpha.6/src/engine/specification.md
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#3385 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-15 19:53:45 +0000 UTC
     </div>
 </div>
 
