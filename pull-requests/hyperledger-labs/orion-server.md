@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/352" class=".btn">#352</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/353" class=".btn">#353</a>
             </td>
             <td>
                 <b>
-                    Improve test setup
+                    Catchup tests
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                Improve test setup for use in the Go SDK.
-Upgrade gomega to v1.18.1 (latest) to match the Go SDK.
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
+                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-16 08:15:53 +0000 UTC
+        Created At 2022-02-23 14:47:33 +0000 UTC
     </div>
 </div>
 

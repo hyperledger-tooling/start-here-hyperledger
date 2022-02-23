@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3492" class=".btn">#3492</a>
+            </td>
+            <td>
+                <b>
+                    Renamed OP code RANDOM to PREVRANDAO
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## Fixed Issue(s)
+fixes #3489 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-23 15:19:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3486" class=".btn">#3486</a>
             </td>
             <td>
@@ -992,81 +1025,6 @@ addresses all but newPayload for #2965
     </table>
     <div class="right-align">
         Created At 2022-02-16 22:06:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3445" class=".btn">#3445</a>
-            </td>
-            <td>
-                <b>
-                    Update Changelog
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Update changelog for 22.1.0. This includes consolidating all RC changes
-into the main release.
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 18:17:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3444" class=".btn">#3444</a>
-            </td>
-            <td>
-                <b>
-                    New MutableBlockchain method rewindToBlock by hash prerequisite for T…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …he Merge
-
-Code originally written by garyschulte on the merge branch
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 14:35:00 +0000 UTC
     </div>
 </div>
 

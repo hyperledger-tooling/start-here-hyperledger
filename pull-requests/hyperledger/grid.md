@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1330" class=".btn">#1330</a>
+            </td>
+            <td>
+                <b>
+                    Add migrations for new batch tracking tables
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds postgres and sqlite migrations for updated batch tracking
+tables. These migrations remove the unused and outdated tables of the
+same name and add updated ones.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-23 16:58:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1329" class=".btn">#1329</a>
             </td>
             <td>
@@ -66,38 +96,6 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-02-16 20:21:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1312" class=".btn">#1312</a>
-            </td>
-            <td>
-                <b>
-                    Add prerequisites to readme build instructions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There are a number of libraries unlikely to be present on reader's
-systems that must be installed before `cargo build` will successfully
-build the project. These changes clarify prerequisites so that readers
-following the README build instuctions can successfully build the
-project without hitting roadblocks or guessing Grid's dependencies.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 16:30:49 +0000 UTC
     </div>
 </div>
 
