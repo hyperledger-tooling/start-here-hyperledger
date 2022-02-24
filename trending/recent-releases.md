@@ -7,7 +7,7 @@
 
 [1.0.1-unstable](https://github.com/hyperledger-labs/fablo/releases/tag/1.0.1-unstable) 1.0.1-unstable
 
-[1.4.0](https://github.com/hyperledger/iroha/releases/tag/1.4.0) Hyperledger Iroha v1.4
+[<nil>](<nil>) <nil>
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
