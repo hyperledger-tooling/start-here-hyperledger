@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/718" class=".btn">#718</a>
+            </td>
+            <td>
+                <b>
+                    w3c interoperability fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                testing connection and credential protocols against aries-framework-go.
+
+Fixes:
+
+- added option to create invitations with did:key
+- backend/frontend need to handle other key types: e.g. did:key, did:peer
+- invitation parser needs to handle did-exchange invitations
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/718"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-24 11:41:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/717" class=".btn">#717</a>
             </td>
             <td>

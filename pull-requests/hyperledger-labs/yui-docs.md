@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/15" class=".btn">#15</a>
+            </td>
+            <td>
+                <b>
+                    added various links for yui-ibc-solidity
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added links to the yui-ibc-solidity architecture and other reference information for running the tutorial.
+
+Signed-off-by: Ryo Sato <ryo.sato@datachain.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-24 10:19:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/14" class=".btn">#14</a>
             </td>
             <td>
