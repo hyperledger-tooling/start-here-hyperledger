@@ -124,34 +124,3 @@ Signed-off-by: Sam Yuan <yy19902439@126.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/650" class=".btn">#650</a>
-            </td>
-            <td>
-                <b>
-                    Add external chaincode service for Nano Test Network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This addresses Issue #504. This extends the test-network-nano-bash
-sample to offer an option to run a fabric network without using any
-containers at all. The chaincode is running as an external service
-directly on the host machine.
-
-Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-17 15:35:23 +0000 UTC
-    </div>
-</div>
-

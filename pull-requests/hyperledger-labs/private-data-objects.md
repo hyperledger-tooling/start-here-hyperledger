@@ -28,6 +28,13 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
             </td>
             <td>
                 This PR bumps the WAMR release version up to the latest. Since the last WAMR release used (WAMR-04-15-2021), the latest WAMR releases provide enhancements and bug fixes for AoT compilation, as well as improvements to WAMR's use of WASI APIs and multithreading features.
+
+PDO contract writers and PDO hosts should not expect any differences in functionality or usage of PDO with this upgrade.
+
+WAMR release notes:
+https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-01-18-2022
+https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-12-30-2021
+https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-08-10-2021
             </td>
         </tr>
     </table>
