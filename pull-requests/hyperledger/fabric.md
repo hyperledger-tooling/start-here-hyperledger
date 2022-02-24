@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3256" class=".btn">#3256</a>
+            </td>
+            <td>
+                <b>
+                    Update go.mod version to 1.17
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The go version directive in go.mod indicates the minimum version of Go that the module works with.
+Since Fabric is no longer tested with Go 1.14, it is not known whether Go 1.14 would still
+be compatible with current Fabric.
+Therefore this commit updates the go directive to 1.17, which is the current version
+of Go that Fabric is tested against.
+
+Keeping the go directive up to date with the tested version of go will also
+eliminate confusion from users about the recommended version of go.
+
+Note that with the 1.17 version, go.mod has a new format and includes all
+indirect depenendencies in a second require stanza.
+1.17 also removes go.mod and go.sum from the vendor directories.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-24 06:21:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3255" class=".btn">#3255</a>
             </td>
             <td>
@@ -578,38 +617,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-02-18 11:04:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3235" class=".btn">#3235</a>
-            </td>
-            <td>
-                <b>
-                    Gateway support for mutual TLS networks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                To support client authentication (mTLS), the gateway needs to pass the host peer’s client certificate when making connections to the other nodes in the network.
-If client authentication is not enabled, then these certs will be ignored.
-
-Resolves #3234 
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-17 12:10:50 +0000 UTC
     </div>
 </div>
 

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    Support abi.encodeCall() syntax from solc 0.8.12
+                    Support abi.encodeCall() syntax (introduced in solc 0.8.12)
                 </b>
             </td>
         </tr>

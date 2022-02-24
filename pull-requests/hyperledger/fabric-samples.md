@@ -155,33 +155,3 @@ Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/649" class=".btn">#649</a>
-            </td>
-            <td>
-                <b>
-                    fix docker compose version 2 -> 2.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Earlier compose version was giving a property error when running the [fabric-samples/test-network/network.sh](https://github.com/hyperledger/fabric-samples/blob/main/test-network/network.sh) script.
-![compose_error](https://user-images.githubusercontent.com/16841301/154474662-ceb92110-ba54-4887-935d-bc0db32da006.png)
-
-Docker Compose Documentation says that the property [networks:name](https://docs.docker.com/compose/compose-file/compose-file-v2/#name-1) was added in [v2.1](https://docs.docker.com/compose/compose-file/compose-versioning/#version-21) file format.
-Signed-off-by: kaushikkumarbora <kaushikkumarbora@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-17 11:47:50 +0000 UTC
-    </div>
-</div>
-
