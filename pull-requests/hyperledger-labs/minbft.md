@@ -95,31 +95,3 @@ Related to #179.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/235" class=".btn">#235</a>
-            </td>
-            <td>
-                <b>
-                    Apply only messages referring to the current active view
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This pull request changes the way view messages are applied such that only messages referring to the current active view get applied.
-
-Related to #179, #233.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 22:03:20 +0000 UTC
-    </div>
-</div>
-
