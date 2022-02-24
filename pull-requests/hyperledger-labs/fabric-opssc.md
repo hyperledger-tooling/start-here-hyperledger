@@ -38,38 +38,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/31" class=".btn">#31</a>
-            </td>
-            <td>
-                <b>
-                    chore(*): Bump fabric versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This patch updates the fabric versions for build and testing:
-- Update Fabric from 2.4.1 to 2.4.2
-- Update Fabric from 2.2.4 to 2.2.5
-
-Also, this patch removes the v2.3 series from build and testing
-because they haven't been an update since the release of the 2.4 series.
-
-This includes updating the OpsSC related material information in README.
-
-Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-17 01:13:40 +0000 UTC
-    </div>
-</div>
-

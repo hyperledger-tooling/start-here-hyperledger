@@ -18,29 +18,32 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    TEST PR; DO NOT MERGE
+                    [ci] #1726: Revive docker test
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
             </td>
             <td>
                 Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
 
 ### Description of the Change
 
-Added a workflow that is used to run API tests. 
+Added a workflow that: 
+1. Runs tests that used to be run by `test-docker`, checking for API compatibility between `iroha` and `iroha_client_cli`. 
+2. Runs a benchmark. 
+3. Runs an Iroha-java API-compatibility test.
+
+This workflow triggers only when creating a release pull-request:  merging from `iroha2-dev` into `iroha2` (the "main" branch). 
 
 ### Issue
 Closes #1726 
 
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
 ### Benefits
 
-More tests.
+This is much-requested functionality that will help other SDK developers. 
 
 ### Possible Drawbacks
 None
