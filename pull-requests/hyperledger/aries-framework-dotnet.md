@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/218" class=".btn">#218</a>
+            </td>
+            <td>
+                <b>
+                    Added support for revocation notifications
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Short description of what this resolves:
+
+Added implementation of revocation notifications according to: 
+https://github.com/hyperledger/aries-rfcs/blob/main/features/0183-revocation-notification/README.md
+
+#### Changes proposed in this pull request:
+
+- Added handler, messages, and service for revocation notification
+- Added PleaseACK Decorator
+- Added tests for revocation notifications
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-24 16:34:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/217" class=".btn">#217</a>
             </td>
             <td>
