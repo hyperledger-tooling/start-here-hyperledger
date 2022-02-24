@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3255" class=".btn">#3255</a>
+            </td>
+            <td>
+                <b>
+                    Ignore expired CA/TLS CA certs on msp init (#3238) (backport #3249)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #3249 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-24 06:00:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3254" class=".btn">#3254</a>
             </td>
             <td>
@@ -335,7 +388,7 @@ Finally, you can contact us on https://mergify.com
             </td>
             <td>
                 <b>
-                    [FAB-3149] fix Orderer unit-test flake
+                    Fix Orderer test flake #3149
                 </b>
             </td>
         </tr>
@@ -344,7 +397,7 @@ Finally, you can contact us on https://mergify.com
                 
             </td>
             <td>
-                fix [FAB-3149]  In case of accumulated bytes since last snapshot 
+                fix #3149  In case of accumulated bytes since last snapshot 
 exceed limit while taking snapshot check whether the pb buffer
 type is of raftpb.EntryNormal, since blocks are marshalled into 
 pb buffers of raftpb.EntryNormal and not raftpb.EntryConfChange
