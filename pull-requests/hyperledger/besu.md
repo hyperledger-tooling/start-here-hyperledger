@@ -66,13 +66,15 @@ fixes #3489
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Correctlt handle mining pre/post merge for PoW and Clique networks
+Correctly and consistently handle mining pre/post merge for PoW and Clique networks.  The majority of this PR is code from the merge branch which needed some 'treatment' in order to not cause regressions in behavior on main.
 
 * for clarity, rename isStoppedAtTerminalDifficulty to hasReachedTerminalDifficulty 
 * use AtomicReference for PostMergeContext rather than synchronized
 * add mining parameter override for consensus mechanisms that mine regardless of miningParameters
-* mining parameter validation from merge branch which allows mining parameters without PoW mining if merge is enabled
+* merge parameter validation from `merge` branch which allows mining parameters without PoW mining (if merge is enabled)
 * merge fix for optional in TxPoolEvictionService
+* fix for ancestorIsValidTerminalProofOfWork in MergeCoordinator when close to TTD
+* address Rayonism tech-debt, use setBlockChoiceRule at TTD rather than disabling reorg behavior entirely pre-merge
 
 
 ## Fixed Issue(s)
@@ -955,76 +957,6 @@ change gradle.properties to snapshot version
     </table>
     <div class="right-align">
         Created At 2022-02-17 01:17:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3447" class=".btn">#3447</a>
-            </td>
-            <td>
-                <b>
-                    merge of forkchoice and kiln changes back to main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-* merge forkchoiceUpdated method and test coverage to main
-* merge kiln spec changes to main for previously merged json-rpc methods
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-addresses all but newPayload for #2965 
-
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-17 00:29:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3446" class=".btn">#3446</a>
-            </td>
-            <td>
-                <b>
-                    Fix typo in method name
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-16 22:06:22 +0000 UTC
     </div>
 </div>
 
