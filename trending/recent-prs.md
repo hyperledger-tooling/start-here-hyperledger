@@ -1,13 +1,13 @@
 
-[174](https://github.com/hyperledger-labs/fabric-token-sdk/pull/174) WIP: DVP sample
+[657](https://github.com/hyperledger/fabric-private-chaincode/pull/657) fabric-private-chaincode/samples/deployment/test-network/Readme.md bugs
 
-[239](https://github.com/hyperledger-labs/minbft/pull/239) NewView message handling
+[1646](https://github.com/hyperledger/aries-cloudagent-python/pull/1646) Update Endorser documentation
 
-[3180](https://github.com/hyperledger/aries-framework-go/pull/3180) chore(deps): bump actions/setup-node from 2.4.0 to 3
+[3258](https://github.com/hyperledger/fabric/pull/3258) Bump go-version and pkcs11
 
-[1935](https://github.com/hyperledger/iroha/pull/1935) Docs: Additions to 1.4 docs
+[5](https://github.com/hyperledger-labs/hlf-connector/pull/5) Feature to add is_private_data_present header in block_event kafka message
 
-[171](https://github.com/hyperledger-labs/fabric-token-sdk/pull/171) nwo: support setup update after key generation #170
+[1240](https://github.com/hyperledger/caliper/pull/1240) Update bindings to latest fabric sdks and remove old ones
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
