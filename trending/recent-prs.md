@@ -1,13 +1,13 @@
 
-[3257](https://github.com/hyperledger/fabric/pull/3257) Release commit for v2.4.3
+[174](https://github.com/hyperledger-labs/fabric-token-sdk/pull/174) WIP: DVP sample
 
-[78](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/78) add tutorial link
+[239](https://github.com/hyperledger-labs/minbft/pull/239) NewView message handling
 
-[472](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/472) chore(deps): update dependency @nomiclabs/hardhat-waffle to v2.0.2 signed-off-by: renovate bot <bot@example.com>
+[3180](https://github.com/hyperledger/aries-framework-go/pull/3180) chore(deps): bump actions/setup-node from 2.4.0 to 3
 
-[471](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/471) finish refactor ups.js to general purpose emissions.js #452
+[1935](https://github.com/hyperledger/iroha/pull/1935) Docs: Additions to 1.4 docs
 
-[470](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/470) chore(deps): update dependency @nomiclabs/hardhat-etherscan to v2.1.8 signed-off-by: renovate bot <bot@example.com>
+[171](https://github.com/hyperledger-labs/fabric-token-sdk/pull/171) nwo: support setup update after key generation #170
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

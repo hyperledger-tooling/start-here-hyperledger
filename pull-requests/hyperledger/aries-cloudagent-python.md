@@ -30,7 +30,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 We noticed that a `V20PresExRecord` which is returned by the present-proof v2.0 `/verify-presentation` endpoint does not match its schema when DIF format is used to request a presentation. Because of this, parsing it into a Kotlin class fails:
 `com.squareup.moshi.JsonDataException: Expected one of [true, false] but was True at path $.verified`
 
-Fixed this by applying json.dumps() when setting `prex_ex_record.verified` - just like it's done in the indy handler.
+Fixed this by applying json.dumps() when setting `pres_ex_record.verified` - just like it's done in the indy handler.
 
 However, couldn't `verified` be a boolean instead of a string? I found comments in the schema and in the indy handler saying it has to be a string to be used as a tag (that was my takeaway at least ;) ), but I couldn't find where it is actually declared or used that way.
 

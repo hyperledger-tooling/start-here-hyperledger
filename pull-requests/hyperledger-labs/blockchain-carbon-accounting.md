@@ -522,7 +522,7 @@ This PR contains the following updates:
 | [eslint-plugin-node](https://togithub.com/mysticatea/eslint-plugin-node) | devDependencies | pin | [`^11.1.0` -> `11.1.0`](https://renovatebot.com/diffs/npm/eslint-plugin-node/11.1.0/) |
 | [eslint-plugin-prettier](https://togithub.com/prettier/eslint-plugin-prettier) | devDependencies | pin | [`^4.0.0` -> `4.0.0`](https://renovatebot.com/diffs/npm/eslint-plugin-prettier/4.0.0/) |
 | [eslint-plugin-promise](https://togithub.com/xjamundx/eslint-plugin-promise) | devDependencies | pin | [`^5.1.0` -> `5.2.0`](https://renovatebot.com/diffs/npm/eslint-plugin-promise/5.2.0/) |
-| [eslint-plugin-react](https://togithub.com/yannickcr/eslint-plugin-react) | devDependencies | pin | [`^7.26.0` -> `7.28.0`](https://renovatebot.com/diffs/npm/eslint-plugin-react/7.28.0/) |
+| [eslint-plugin-react](https://togithub.com/yannickcr/eslint-plugin-react) | devDependencies | pin | [`^7.26.0` -> `7.29.0`](https://renovatebot.com/diffs/npm/eslint-plugin-react/7.29.0/) |
 | [ethereum-waffle](https://togithub.com/EthWorks/Waffle) | devDependencies | pin | [`^3.2.1` -> `3.2.1`](https://renovatebot.com/diffs/npm/ethereum-waffle/3.2.1/) |
 | [ethers](https://togithub.com/ethers-io/ethers.js) | devDependencies | pin | [`^5.0.32` -> `5.1.0`](https://renovatebot.com/diffs/npm/ethers/5.1.0/) |
 | [express](http://expressjs.com/) ([source](https://togithub.com/expressjs/express)) | devDependencies | pin | [`^4.17.1` -> `4.17.3`](https://renovatebot.com/diffs/npm/express/4.17.3/) |
