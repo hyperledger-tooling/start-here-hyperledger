@@ -15,28 +15,32 @@ permalink: /releases/hyperledger/aries-vcx
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.31.0
+                    Release 0.32.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.31.0
+                    0.32.0
                 </span>
             </td>
             <td>
                 #
 
-## [0.31.0](https://github.com/hyperledger/aries-vcx/tree/0.31.0) (2022-02-10)
+## [0.32.0](https://github.com/hyperledger/aries-vcx/tree/0.32.0) (2022-02-25)
 
 ### Enhancements
 
-- Copy on write access [\#441](https://github.com/hyperledger/aries-vcx/pull/441)
+- Allow revoking from other than final states [\#447](https://github.com/hyperledger/aries-vcx/pull/447)
 
-###
+### Bug fixes
 
-- Release 0.31.0 [\#442](https://github.com/hyperledger/aries-vcx/pull/442)
+- Fix vcx\_out\_of\_band\_receiver\_connection\_exists, add test [\#443](https://github.com/hyperledger/aries-vcx/pull/443)
+
+### Wrapper changes
+
+- Add send connection reuse handshake to wrappers [\#445](https://github.com/hyperledger/aries-vcx/pull/445)
 
 
 
@@ -44,11 +48,11 @@ permalink: /releases/hyperledger/aries-vcx
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.31.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.32.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-02-10 20:19:05 +0000 UTC
+        Created At 2022-02-25 11:18:55 +0000 UTC
     </span>
 </div>
 
