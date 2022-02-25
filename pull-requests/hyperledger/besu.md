@@ -407,7 +407,7 @@ Note: some of these tests fail. I think it's just besu puts in an extra field fo
             </td>
             <td>
                 <b>
-                    Initial commit for trace_get implementation. No tests.
+                    trace_get 
                 </b>
             </td>
         </tr>
@@ -418,15 +418,14 @@ Note: some of these tests fail. I think it's just besu puts in an extra field fo
             <td>
                 Signed-off-by: Mark Terry <mark.terry@consensys.net>
 
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
 ## PR description
-Implementation for trace_get.
+Implementation for trace_get API.
+* exclude revertReason from result (matches Besu trace_call and openethereum)
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+Note this implementation matches openethereum behaviour except for:
+* we manually added `creationMethod` to test files even though openethereum 3.2.5 does not include this field (this matches Besu trace_transaction implementation which also includes the `creationMethod` field)
+
+See #2889 
 
 ## Changelog
 
@@ -847,98 +846,6 @@ This PR is built on top of #3454 that should be reviewed first
     </table>
     <div class="right-align">
         Created At 2022-02-18 14:18:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3459" class=".btn">#3459</a>
-            </td>
-            <td>
-                <b>
-                    trace_rawTransaction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Json RPC endpoint and test files for trace_rawTransaction
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-18 05:08:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3458" class=".btn">#3458</a>
-            </td>
-            <td>
-                <b>
-                    Update discovery to 22.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Update to the latest version of discovery (22.2.0). Main change is to switch RLP parsing to use tuweni-rlp instead of web3j which avoids needing to create intermediate objects during the parsing process.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-18 01:31:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3457" class=".btn">#3457</a>
-            </td>
-            <td>
-                <b>
-                    one more discord link and a typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed a typo
-And a discord link
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-18 01:02:22 +0000 UTC
     </div>
 </div>
 
