@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/681" class=".btn">#681</a>
+            </td>
+            <td>
+                <b>
+                    Enable assembly compatibility on Solang parser
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR updates the Solang-parser to be compatible with inline assembly and does some refactoring.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-24 19:05:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/680" class=".btn">#680</a>
+            </td>
+            <td>
+                <b>
+                    Add missing cast which causes pointer to address not to be loaded
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-24 18:51:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/677" class=".btn">#677</a>
             </td>
             <td>
@@ -85,32 +137,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2022-02-18 10:54:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/673" class=".btn">#673</a>
-            </td>
-            <td>
-                <b>
-                    Change chat to discord
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-17 20:19:00 +0000 UTC
     </div>
 </div>
 

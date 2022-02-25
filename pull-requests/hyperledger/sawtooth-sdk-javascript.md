@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-javascript/pull/27" class=".btn">#27</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-javascript/pull/28" class=".btn">#28</a>
             </td>
             <td>
                 <b>
-                    upgrade zeromq version
+                    Add 1.1.2 release notes
                 </b>
             </td>
         </tr>
@@ -27,17 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-javascript
                 
             </td>
             <td>
-                Currently, the installation from npm fails on node 17. 
-
-This relates to:
-
-- https://github.com/hyperledger/sawtooth-sdk-javascript/issues/22
-- https://github.com/zeromq/zeromq.js/issues/430
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-17 12:17:12 +0000 UTC
+        Created At 2022-02-24 21:22:00 +0000 UTC
     </div>
 </div>
 

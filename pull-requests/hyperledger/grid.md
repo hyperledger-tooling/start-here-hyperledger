@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1334" class=".btn">#1334</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0-3: Fix 1.59 clippy errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #1333
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-24 22:09:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1333" class=".btn">#1333</a>
+            </td>
+            <td>
+                <b>
+                    Fix 1.59 clippy errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes the clippy formatting errors introduced with Rust v1.59
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-24 18:34:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1332" class=".btn">#1332</a>
             </td>
             <td>

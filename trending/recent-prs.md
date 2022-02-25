@@ -1,13 +1,13 @@
 
-[1645](https://github.com/hyperledger/aries-cloudagent-python/pull/1645) Fix DIFPresFormatHandler returning invalid V20PresExRecord on presentation verification
+[3497](https://github.com/hyperledger/besu/pull/3497) Prepare for release 22.1.2 
 
-[218](https://github.com/hyperledger/aries-framework-dotnet/pull/218) Added support for revocation notifications
+[1334](https://github.com/hyperledger/grid/pull/1334) Backport 0-3: Fix 1.59 clippy errors
 
-[330](https://github.com/hyperledger-labs/go-perun/pull/330) JSON Marshaling of channel.State and Params
+[28](https://github.com/hyperledger/sawtooth-sdk-javascript/pull/28) Add 1.1.2 release notes
 
-[3495](https://github.com/hyperledger/besu/pull/3495) Rename field random to prevRandao
+[681](https://github.com/hyperledger-labs/solang/pull/681) Enable assembly compatibility on Solang parser
 
-[1584](https://github.com/hyperledger/indy-plenum/pull/1584) Removal of Jenkins files Fixes #1553
+[3496](https://github.com/hyperledger/besu/pull/3496) Release 22.1.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
