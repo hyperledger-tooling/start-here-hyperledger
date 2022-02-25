@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    Use the trigger person's credentials to push images
+                    Feature to add is_private_data_present header in block_event kafka message
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                Signed-off-by: S m, Aruna <aruna.mohan@walmart.com>
+                - Feature to add is_private_data_present header in block_event kafka message
+ 1. This kafka header flag help the kafka consuming application to identify the presence of private data without having to deserializing the whole payload.
+
+Signed-off-by: Jitendra Das <jitendra.das0@walmart.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-15 18:24:29 +0000 UTC
+        Created At 2022-02-25 14:33:45 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1646" class=".btn">#1646</a>
+            </td>
+            <td>
+                <b>
+                    Update Endorser documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update `Endorser.md` documentation to reflect the recent addition of `--auto-promote-author-did` parameter.
+
+Signed-off-by: Clément Humbert <clement.humbert@sicpa.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-25 14:59:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1645" class=".btn">#1645</a>
             </td>
             <td>
@@ -164,35 +192,6 @@ This PR adds the filter option to the get all connections endpoint. Same as with
     </table>
     <div class="right-align">
         Created At 2022-02-22 10:01:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1633" class=".btn">#1633</a>
-            </td>
-            <td>
-                <b>
-                    Move database operations inside the session context
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## What is this PR for?
-- Error state saving was done when the session could be already disposed
-
-Signed-off-by: Andraž Cuderman <andraz.cuderman@global.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-18 13:07:37 +0000 UTC
     </div>
 </div>
 
