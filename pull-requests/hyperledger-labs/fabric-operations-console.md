@@ -181,33 +181,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/142" class=".btn">#142</a>
-            </td>
-            <td>
-                <b>
-                    Display channel list from Channel participation API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-- New feature
-Display channel list from Channel participation API
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-18 04:05:47 +0000 UTC
-    </div>
-</div>
-
