@@ -616,33 +616,3 @@ Close #410
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/409" class=".btn">#409</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-408] implement chaincode list & query_committed function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                implement chaincode list & query_committed function
-
-Close #408
-
-Signed-off-by: tianxuanhong1 <523713078@qq.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-19 06:17:34 +0000 UTC
-    </div>
-</div>
-
