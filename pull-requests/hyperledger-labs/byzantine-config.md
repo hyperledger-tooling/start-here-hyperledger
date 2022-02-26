@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/43" class=".btn">#43</a>
+                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    Bump url-parse from 1.4.7 to 1.5.7
+                    Bump url-parse from 1.4.7 to 1.5.10
                 </b>
             </td>
         </tr>
@@ -27,27 +27,27 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [url-parse](https://github.com/unshiftio/url-parse) from 1.4.7 to 1.5.7.
+                Bumps [url-parse](https://github.com/unshiftio/url-parse) from 1.4.7 to 1.5.10.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/unshiftio/url-parse/commit/8b3f5f2c88a4cfc2880f2319c307994cb25bb10a"><code>8b3f5f2</code></a> 1.5.7</li>
-<li><a href="https://github.com/unshiftio/url-parse/commit/ef45a1355375a8244063793a19059b4f62fc8788"><code>ef45a13</code></a> [fix] Readd the empty userinfo to <code>url.href</code> (<a href="https://github-redirect.dependabot.com/unshiftio/url-parse/issues/226">#226</a>)</li>
-<li><a href="https://github.com/unshiftio/url-parse/commit/88df2346855f70cec9713b362ca32a4691dc271a"><code>88df234</code></a> [doc] Add soft deprecation notice</li>
-<li><a href="https://github.com/unshiftio/url-parse/commit/78e9f2f41285d83e7d91706be5bd439656fe3bc3"><code>78e9f2f</code></a> [security] Fix nits</li>
-<li><a href="https://github.com/unshiftio/url-parse/commit/e6fa43422c52f34c73146552ec9916125dc59525"><code>e6fa434</code></a> [security] Add credits for incorrect handling of userinfo vulnerability</li>
-<li><a href="https://github.com/unshiftio/url-parse/commit/4c9fa234c01dca52698666378360ad2fdfb05470"><code>4c9fa23</code></a> 1.5.6</li>
-<li><a href="https://github.com/unshiftio/url-parse/commit/7b0b8a6671f806458e88b1f44feb0fdd742cdf06"><code>7b0b8a6</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/unshiftio/url-parse/issues/223">#223</a> from unshiftio/fix/at-sign-handling-in-userinfo</li>
-<li><a href="https://github.com/unshiftio/url-parse/commit/e4a5807d95b971577e4d888f5b99d64a40851386"><code>e4a5807</code></a> 1.5.5</li>
-<li><a href="https://github.com/unshiftio/url-parse/commit/193b44baf3d203560735e05eedc99d8244c9e16c"><code>193b44b</code></a> [minor] Simplify whitespace regex</li>
-<li><a href="https://github.com/unshiftio/url-parse/commit/319851bf1c294796fc73e29ff31b14d9084e4a0d"><code>319851b</code></a> [fix] Remove CR, HT, and LF</li>
-<li>Additional commits viewable in <a href="https://github.com/unshiftio/url-parse/compare/1.4.7...1.5.7">compare view</a></li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/8cd4c6c6435c1ea32243ec20c9cfe535251ec524"><code>8cd4c6c</code></a> 1.5.10</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/ce7a01f2e10738b17812f57c7b6b5de4ea4c0298"><code>ce7a01f</code></a> [fix] Improve handling of empty port</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/00714900ea1e8ba0a1f87b9f8399001e47f060ec"><code>0071490</code></a> [doc] Update JSDoc comment</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/a7044e3e8bb2308ac0f74264d01951aeaca0d66f"><code>a7044e3</code></a> [minor] Use more descriptive variable name</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/d547792414a414b2f341a805141beafee728addf"><code>d547792</code></a> [security] Add credits for CVE-2022-0691</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/ad23357ad5fd9a6b011d049466e9ecff723e52b8"><code>ad23357</code></a> 1.5.9</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/0e3fb542d60ddbf6933f22eb9b1e06e25eaa5b63"><code>0e3fb54</code></a> [fix] Strip all control characters from the beginning of the URL</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/61864a8eccff714a45d23db85a814e3c6ee0baba"><code>61864a8</code></a> [security] Add credits for CVE-2022-0686</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/bb0104d6439cf7c2662afbd9411e0772a9639664"><code>bb0104d</code></a> 1.5.8</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/d5c64791ef496ca5459ae7f2176a31ea53b127e5"><code>d5c6479</code></a> [fix] Handle the case where the port is specified but empty</li>
+<li>Additional commits viewable in <a href="https://github.com/unshiftio/url-parse/compare/1.4.7...1.5.10">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=url-parse&package-manager=npm_and_yarn&previous-version=1.4.7&new-version=1.5.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=url-parse&package-manager=npm_and_yarn&previous-version=1.4.7&new-version=1.5.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -83,7 +83,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-17 22:17:12 +0000 UTC
+        Created At 2022-02-26 10:35:21 +0000 UTC
     </div>
 </div>
 

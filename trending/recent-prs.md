@@ -1,13 +1,13 @@
 
-[281](https://github.com/hyperledger/blockchain-explorer/pull/281) Bump url-parse from 1.5.3 to 1.5.10 in /client
+[44](https://github.com/hyperledger-labs/byzantine-config/pull/44) Bump url-parse from 1.4.7 to 1.5.10
 
-[16](https://github.com/hyperledger-labs/yui-docs/pull/16) Bump prismjs from 1.25.0 to 1.27.0 in /docsrcs/yui-ibc-solidity
+[1244](https://github.com/hyperledger/caliper/pull/1244) Update bindings to latest fabric sdks and remove old ones
 
-[204](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/204) Bump prismjs from 1.25.0 to 1.27.0 in /docs
+[88](https://github.com/hyperledger/aries-staticagent-python/pull/88) chore(deps): Bump nokogiri from 1.12.5 to 1.13.3 in /docs
 
-[1336](https://github.com/hyperledger/grid/pull/1336) Replace tempdir library with tempfile
+[3182](https://github.com/hyperledger/aries-framework-go/pull/3182) Update go.sum
 
-[657](https://github.com/hyperledger/fabric-private-chaincode/pull/657) fabric-private-chaincode/samples/deployment/test-network/Readme.md bugs
+[418](https://github.com/hyperledger/cello/pull/418) update validator to 13.6.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
