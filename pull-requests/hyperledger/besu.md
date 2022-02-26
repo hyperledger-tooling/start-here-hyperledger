@@ -331,7 +331,7 @@ Also updated grpc
             </td>
             <td>
                 <b>
-                    feat: add multi-platform support
+                    Feat: add multi-platform support
                 </b>
             </td>
         </tr>

@@ -28,7 +28,6 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 
-
 <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
 
 <!--- Provide a descriptive summary of your changes in the Title above. -->
@@ -54,7 +53,7 @@ permalink: /pull-requests/hyperledger/fabric
 
 #### Related issues
 
-#3205
+#3260 
 
 <!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
 
