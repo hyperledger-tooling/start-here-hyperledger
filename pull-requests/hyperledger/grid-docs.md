@@ -160,33 +160,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/314" class=".btn">#314</a>
-            </td>
-            <td>
-                <b>
-                    Add batch queuer strategies design description
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds a community planning document giving the background,
-considerations, implementations, and plans for the batch queuer
-strategies.
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-18 21:12:27 +0000 UTC
-    </div>
-</div>
-

@@ -513,7 +513,7 @@ This PR contains the following updates:
 | [eslint](https://eslint.org) ([source](https://togithub.com/eslint/eslint)) | devDependencies | pin | [`^7.32.0` -> `7.32.0`](https://renovatebot.com/diffs/npm/eslint/7.32.0/) |
 | [eslint](https://eslint.org) ([source](https://togithub.com/eslint/eslint)) | devDependencies | pin | [`^5.0.0` -> `5.0.0`](https://renovatebot.com/diffs/npm/eslint/5.0.0/) |
 | [eslint](https://eslint.org) ([source](https://togithub.com/eslint/eslint)) | devDependencies | pin | [`^8.7.0` -> `8.7.0`](https://renovatebot.com/diffs/npm/eslint/8.7.0/) |
-| [eslint](https://eslint.org) ([source](https://togithub.com/eslint/eslint)) | devDependencies | pin | [`^8.9.0` -> `8.9.0`](https://renovatebot.com/diffs/npm/eslint/8.9.0/) |
+| [eslint](https://eslint.org) ([source](https://togithub.com/eslint/eslint)) | devDependencies | pin | [`^8.9.0` -> `8.10.0`](https://renovatebot.com/diffs/npm/eslint/8.10.0/) |
 | [eslint](https://eslint.org) ([source](https://togithub.com/eslint/eslint)) | dependencies | pin | [`^6.8.0` -> `6.8.0`](https://renovatebot.com/diffs/npm/eslint/6.8.0/) |
 | [eslint-config-prettier](https://togithub.com/prettier/eslint-config-prettier) | devDependencies | pin | [`^8.3.0` -> `8.3.0`](https://renovatebot.com/diffs/npm/eslint-config-prettier/8.3.0/) |
 | [eslint-config-standard](https://togithub.com/standard/eslint-config-standard) | devDependencies | pin | [`^16.0.3` -> `16.0.3`](https://renovatebot.com/diffs/npm/eslint-config-standard/16.0.3/) |
@@ -522,7 +522,7 @@ This PR contains the following updates:
 | [eslint-plugin-node](https://togithub.com/mysticatea/eslint-plugin-node) | devDependencies | pin | [`^11.1.0` -> `11.1.0`](https://renovatebot.com/diffs/npm/eslint-plugin-node/11.1.0/) |
 | [eslint-plugin-prettier](https://togithub.com/prettier/eslint-plugin-prettier) | devDependencies | pin | [`^4.0.0` -> `4.0.0`](https://renovatebot.com/diffs/npm/eslint-plugin-prettier/4.0.0/) |
 | [eslint-plugin-promise](https://togithub.com/xjamundx/eslint-plugin-promise) | devDependencies | pin | [`^5.1.0` -> `5.2.0`](https://renovatebot.com/diffs/npm/eslint-plugin-promise/5.2.0/) |
-| [eslint-plugin-react](https://togithub.com/yannickcr/eslint-plugin-react) | devDependencies | pin | [`^7.26.0` -> `7.29.0`](https://renovatebot.com/diffs/npm/eslint-plugin-react/7.29.0/) |
+| [eslint-plugin-react](https://togithub.com/yannickcr/eslint-plugin-react) | devDependencies | pin | [`^7.26.0` -> `7.29.1`](https://renovatebot.com/diffs/npm/eslint-plugin-react/7.29.1/) |
 | [ethereum-waffle](https://togithub.com/EthWorks/Waffle) | devDependencies | pin | [`^3.2.1` -> `3.2.1`](https://renovatebot.com/diffs/npm/ethereum-waffle/3.2.1/) |
 | [ethers](https://togithub.com/ethers-io/ethers.js) | devDependencies | pin | [`^5.0.32` -> `5.1.0`](https://renovatebot.com/diffs/npm/ethers/5.1.0/) |
 | [express](http://expressjs.com/) ([source](https://togithub.com/expressjs/express)) | devDependencies | pin | [`^4.17.1` -> `4.17.3`](https://renovatebot.com/diffs/npm/express/4.17.3/) |

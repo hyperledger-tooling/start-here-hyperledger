@@ -43,29 +43,3 @@ https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-08-10-2
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/362" class=".btn">#362</a>
-            </td>
-            <td>
-                <b>
-                    several small fixes to make PDO run on ubuntu 20.04
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Mic Bowman <mic.bowman@intel.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-19 00:50:17 +0000 UTC
-    </div>
-</div>
-
