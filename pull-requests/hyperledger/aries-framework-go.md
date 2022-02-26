@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3182" class=".btn">#3182</a>
+            </td>
+            <td>
+                <b>
+                    Update go.sum
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                GJSON before 1.9.3 allows a ReDoS (regular expression denial of service) attack.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-26 07:44:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3180" class=".btn">#3180</a>
             </td>
             <td>

@@ -331,7 +331,7 @@ Also updated grpc
             </td>
             <td>
                 <b>
-                    wip: add multi-platform support
+                    feat: add multi-platform support
                 </b>
             </td>
         </tr>

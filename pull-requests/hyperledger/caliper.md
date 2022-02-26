@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1240" class=".btn">#1240</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1244" class=".btn">#1244</a>
             </td>
             <td>
                 <b>
@@ -27,17 +27,16 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                closes #1200 
-closes #1199 
+                closes #1200
+closes #1199
 
 Signed-off-by: D <d_kelsey@uk.ibm.com>
-
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-25 14:28:28 +0000 UTC
+        Created At 2022-02-26 10:16:09 +0000 UTC
     </div>
 </div>
 
