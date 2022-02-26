@@ -70,29 +70,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/652" class=".btn">#652</a>
-            </td>
-            <td>
-                <b>
-                    refactor folder structure to match other token samples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                hey @mbwhite whenever you had a moment, this is just a refactor of folder structure request by the community so that it matches the same structure as other token samples. Thanks.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-19 15:55:57 +0000 UTC
-    </div>
-</div>
-
