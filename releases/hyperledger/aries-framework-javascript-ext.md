@@ -15,146 +15,33 @@ permalink: /releases/hyperledger/aries-framework-javascript-ext
         <tr>
             <td colspan="2">
                 <b>
-                    @aries-framework/redux-store redux-store-v0.2.0
+                    @aries-framework/rest rest-v0.8.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    redux-store-v0.2.0
+                    rest-v0.8.0
                 </span>
             </td>
             <td>
                 
 
-### ⚠ BREAKING CHANGES
+### Features
 
-* update aries framework javascript version to 0.1.0 (#86)
-
-### Miscellaneous Chores
-
-* update aries framework javascript version to 0.1.0 ([#86](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/86)) ([ebaa11a](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ebaa11a8f1c4588b020e870abd092a5813ec28ef))
+* **rest:** add cli and docker image publishing ([#96](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/96)) ([87d0205](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/87d02058e4b7d1fba1039265f5d595880f862097))
+* **rest:** add webhooks ([#93](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/93)) ([9fc020d](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/9fc020d7db0f002894e520766987eec327a2ed69))
+* **rest:** added basic messages and receive invitation by url ([#97](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/97)) ([956c928](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/956c928e3599925c65d8f99852bf06cebc06dba7))
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/redux-store-v0.2.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.8.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-01-04 11:24:49 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    @aries-framework/rest rest-v0.7.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    rest-v0.7.0
-                </span>
-            </td>
-            <td>
-                
-
-### ⚠ BREAKING CHANGES
-
-* update aries framework javascript version to 0.1.0 (#86)
-
-### Miscellaneous Chores
-
-* update aries framework javascript version to 0.1.0 ([#86](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/86)) ([ebaa11a](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ebaa11a8f1c4588b020e870abd092a5813ec28ef))
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.7.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-01-04 11:24:23 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    @aries-framework/react-hooks react-hooks-v0.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    react-hooks-v0.2.0
-                </span>
-            </td>
-            <td>
-                
-
-### ⚠ BREAKING CHANGES
-
-* update aries framework javascript version to 0.1.0 (#86)
-
-### Miscellaneous Chores
-
-* update aries framework javascript version to 0.1.0 ([#86](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/86)) ([ebaa11a](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ebaa11a8f1c4588b020e870abd092a5813ec28ef))
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/react-hooks-v0.2.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-01-04 11:24:08 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    @aries-framework/push-notifications push-notifications-v0.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    push-notifications-v0.2.0
-                </span>
-            </td>
-            <td>
-                
-
-### ⚠ BREAKING CHANGES
-
-* update aries framework javascript version to 0.1.0 (#86)
-
-### Miscellaneous Chores
-
-* update aries framework javascript version to 0.1.0 ([#86](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/86)) ([ebaa11a](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/ebaa11a8f1c4588b020e870abd092a5813ec28ef))
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/push-notifications-v0.2.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-01-04 11:24:36 +0000 UTC
+        Created At 2022-02-26 20:29:17 +0000 UTC
     </span>
 </div>
 
