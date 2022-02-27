@@ -731,35 +731,3 @@ See #3456
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3464" class=".btn">#3464</a>
-            </td>
-            <td>
-                <b>
-                    Change chat pointers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hyperledger has moved to Discord.
-
-Signed-off-by: Ry Jones <ry@linux.com>
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-20 17:16:03 +0000 UTC
-    </div>
-</div>
-
