@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1734" class=".btn">#1734</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1737" class=".btn">#1737</a>
             </td>
             <td>
                 <b>
-                    Hands on Walkthrough - moved some steps to fix an issue.
+                    Addressing deprecation of get_installed_distributions as of Python 3.8
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                Moved some steps into the correct order in the Hand on Walkthrough and added clarifying text to 2 other documents to help people with the steps.
-
-Signed-off-by: Lynn Bendixsen <lynn@indicio.tech>
+                Use of pkg_resources.working_set instead of deprecated pip.get_installed_distributions()
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-10 18:56:07 +0000 UTC
+        Created At 2022-02-26 20:10:35 +0000 UTC
     </div>
 </div>
 
