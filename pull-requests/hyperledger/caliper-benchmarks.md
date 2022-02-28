@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/178" class=".btn">#178</a>
+            </td>
+            <td>
+                <b>
+                    162: Fix  is done to successfully  deploy fixed-asset go chaincode on test-network by  subarna patra
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-28 16:48:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/176" class=".btn">#176</a>
             </td>
             <td>

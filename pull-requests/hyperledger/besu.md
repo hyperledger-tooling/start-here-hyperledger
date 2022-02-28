@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3499" class=".btn">#3499</a>
+            </td>
+            <td>
+                <b>
+                    Improve contract validation errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+For each contract validation error return a relevant error instead of
+the incorrect "INSUFFICIENT_GAS" error.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-28 17:02:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3497" class=".btn">#3497</a>
             </td>
             <td>
@@ -564,44 +601,6 @@ fixes #3471
     </table>
     <div class="right-align">
         Created At 2022-02-21 20:11:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3472" class=".btn">#3472</a>
-            </td>
-            <td>
-                <b>
-                    Migrate JumpDestCache to CodeCache
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Migrate the jump dest analysis cache into a more generic code cache that
-lives inside the EVM.
-
-This is in preparation for Ethereum Object Formats where a string of
-code may be treated differently depending on what EVM version is
-executing the code. Newer versions will also have difference analyses to
-run that will need different backing data structures.
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-21 15:42:34 +0000 UTC
     </div>
 </div>
 

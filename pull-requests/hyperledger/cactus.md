@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1882" class=".btn">#1882</a>
+            </td>
+            <td>
+                <b>
+                    chore: fix licenses
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These files are auto-generated with ISC as
+the default licese. Switched to Apache 2
+
+Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-28 16:15:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1880" class=".btn">#1880</a>
             </td>
             <td>
@@ -50,11 +79,13 @@ permalink: /pull-requests/hyperledger/cactus
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Besu</span>
             </td>
             <td>
-                Prototype for common verifier-factory like the one used in cmd-socketio
-apps. More details in issue #1878
+                - Adjust SocketIOApiClient and common Verifier behavior to previous one in cmd-socketio, fix related tests.
+- Extract Verifier interfaces to common location to ensure interface compatibility between old and new verifier / verifier factory (both should implement same interface).
+- Create new package cactus-verifier-client for common verifier related stuff, to prevent circular dependencies.
+- Add verifier-factory to create verifiers by supplying it's ID only, based on initial configuration. Configuration is set in ctor, but can be read from a file as in cmd-socketio scenarious. VerifierFactory config should be compatible with existing ledgerPluginInfo.
 
 Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
             </td>

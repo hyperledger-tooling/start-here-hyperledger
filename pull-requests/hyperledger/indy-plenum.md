@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1585" class=".btn">#1585</a>
+            </td>
+            <td>
+                <b>
+                    GHA Refactoring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The builddockerimage, testing, package building and publishing part has been outsourced with the reusable workflows.
+The Linting Image has been removed. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-28 17:20:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-plenum/pull/1584" class=".btn">#1584</a>
             </td>
             <td>

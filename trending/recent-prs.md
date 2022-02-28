@@ -1,13 +1,13 @@
 
-[660](https://github.com/hyperledger/fabric-samples/pull/660) Update test network to fabric 2.4.3
+[553](https://github.com/hyperledger/firefly/pull/553) Documentation updates from @TheSwarnim
 
-[15](https://github.com/hyperledger-labs/acapy-java-client/pull/15) minor w3c compatibility fixes
+[552](https://github.com/hyperledger/firefly/pull/552) Docs "bundle update" to pick up new nokogiri build
 
-[452](https://github.com/hyperledger/aries-vcx/pull/452) Change issuer's implementation of is_revokable
+[1738](https://github.com/hyperledger/indy-node/pull/1738) Gha Refactoring
 
-[1937](https://github.com/hyperledger/iroha/pull/1937) RC2 Release PR
+[149](https://github.com/hyperledger-labs/fabric-operations-console/pull/149) update release note
 
-[354](https://github.com/hyperledger-labs/orion-server/pull/354) test user addition and acl on database
+[551](https://github.com/hyperledger/firefly/pull/551) Roll requestConflictEmptyResult from Group to Data and Message too
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
