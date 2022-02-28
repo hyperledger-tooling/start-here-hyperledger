@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/149" class=".btn">#149</a>
+            </td>
+            <td>
+                <b>
+                    update release note
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+- release note fix
+
+#### Description
+change version of release
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-28 18:05:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/148" class=".btn">#148</a>
+            </td>
+            <td>
+                <b>
+                    make license field compliant
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+- Release Notes
+
+#### Description
+The `license` field wasn't an acceptable value, technically. 
+Also updated release notes...
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-28 17:48:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/147" class=".btn">#147</a>
             </td>
             <td>
@@ -84,68 +158,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-02-28 04:27:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/146" class=".btn">#146</a>
-            </td>
-            <td>
-                <b>
-                    add channel info on osn drill down
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
-
-#### Type of change
-
-- New feature
-Display channel info specific to the ordering service node when drilling down
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-21 17:59:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/145" class=".btn">#145</a>
-            </td>
-            <td>
-                <b>
-                    fix warning when system channel isn't present
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
-
-#### Type of change
-
-- Bug fix
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-21 15:54:44 +0000 UTC
     </div>
 </div>
 

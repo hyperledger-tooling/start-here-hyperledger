@@ -117,9 +117,9 @@ You can disable automated security fix PRs for this repo from the [Security Aler
 - added aca-py's config flags that switch the didcomm mime-type as the wire format is not supported by the go-agent
 
 **Tested:**
-- [x] Receive/create oob invitations with did:key works both ways bpa <-> framework-go
-- [ ] Receive/create did-exchange invitation - is not working with aca-py as only did:indy is supported
-- [ ] Issue/receive w3c credentials
+- Receive/create oob invitations with did:key works both ways bpa <-> framework-go
+- Receive/create did-exchange invitation - is not working with aca-py as only did:indy is supported
+- Issue/receive w3c credentials
 
 **Go Agent Config in IDE**
 

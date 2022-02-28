@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/439" class=".btn">#439</a>
-            </td>
-            <td>
-                <b>
-                    docs: add oob and did exchange endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add oob and didexchange endpoints to the open api spec.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-21 14:30:48 +0000 UTC
-    </div>
-</div>
-
