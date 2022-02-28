@@ -1,13 +1,13 @@
 
-[473](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/473) build(deps): bump url-parse from 1.5.7 to 1.5.10 in /net-emissions-token-network/interface
+[660](https://github.com/hyperledger/fabric-samples/pull/660) Update test network to fabric 2.4.3
 
-[719](https://github.com/hyperledger-labs/business-partner-agent/pull/719) Bump url-parse from 1.5.7 to 1.5.10 in /frontend
+[15](https://github.com/hyperledger-labs/acapy-java-client/pull/15) minor w3c compatibility fixes
 
-[147](https://github.com/hyperledger-labs/fabric-operations-console/pull/147) Bump url-parse from 1.5.7 to 1.5.10 in /packages/apollo
+[452](https://github.com/hyperledger/aries-vcx/pull/452) Change issuer's implementation of is_revokable
 
-[2486](https://github.com/hyperledger/indy-sdk/pull/2486) Fixing syntax and build error for libvcx
+[1937](https://github.com/hyperledger/iroha/pull/1937) RC2 Release PR
 
-[17](https://github.com/hyperledger-labs/yui-docs/pull/17) Bump url-parse from 1.5.3 to 1.5.10 in /docsrcs/yui-ibc-solidity
+[354](https://github.com/hyperledger-labs/orion-server/pull/354) test user addition and acl on database
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1937" class=".btn">#1937</a>
+            </td>
+            <td>
+                <b>
+                    RC2 Release PR
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                # Preview Release Candidate 2
+
+## Overview of changes
+
+- Migration to the actor framework
+- Permission validation
+- Triggers
+- Telemetry: `status` endpoint and Prometheus `metrics` endpoint. 
+- Multiple refactors. 
+- …
+
+The changelog can be found [here](https://github.com/hyperledger/iroha/pull/1937/files#diff-2c623f3c6a917be56c59d43279244996836262cb1e12d9d0786c9c49eef6b43c)
+
+## Release checklist
+- [ ] The crates have been version bumped.
+- [ ] Iroha successfully passes all CI checks
+- [ ] Iroha passed all QA tests
+- [ ] Iroha lasted for five days at the longevity stand
+- [ ] Standard benchmarks are ran and the results are recorded in the repository
+- [ ] Iroha documentation and tutorial are up to date. 
+- [ ] SDKs compiled successfully using the schema from latest branch (Hash: 9a149eecb00485f71fd23179dd16a73815d739b2)
+  - [ ] Java
+  - [ ] JavaScript
+  - [ ] Swift
+- [ ] All SDK tests pass
+  - [ ] Java
+  - [ ] JavaScript
+  - [ ] Swift
+- [ ] (Optional) SDKs implemented the main features added in the current release
+
+
+## Comments 
+
+This is the first timed release and the first merge into `iroha2` since July 2020. It includes changes made before and since RC1, and is the latest version of Iroha to be used. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-28 10:47:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1936" class=".btn">#1936</a>
             </td>
             <td>
@@ -254,62 +313,6 @@ More information about this is available in GitHub documentation: https://docs.g
     </table>
     <div class="right-align">
         Created At 2022-02-21 15:10:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1930" class=".btn">#1930</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #1928: implement changelog generation using `gitchangelog`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Added automatic changelog generation.
-
-### Issue
-
-Closes #1928
-
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-Automatic changelog generation
-
-### Possible Drawbacks
-
-Changelog format is not ideal. Missing significant portion of tags. Since long commit messages are not standardised, sometimes the squashed commits contain more information than they should. 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-21 11:32:57 +0000 UTC
     </div>
 </div>
 

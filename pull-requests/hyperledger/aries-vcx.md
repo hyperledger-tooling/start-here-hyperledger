@@ -14,25 +14,29 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/442" class=".btn">#442</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/452" class=".btn">#452</a>
             </td>
             <td>
                 <b>
-                    Release 0.31.0
+                    Change issuer's implementation of is_revokable
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">pre-release</span>
+                <span class="chip">breaking</span>
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                Changes issuer's implementation of `is_revokable` from returning `true` iff the credential was issued under revokable credential definition to returning `true` iff attempt to revoke is expected to succeed, i.e. the credential was issued under revokable credential definition and it was created and saved to the wallet (and potentially sent).
+
+Holder's implementation still returns `true` iff the credential was issued under revokable credential definition.
+
+Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-10 16:06:10 +0000 UTC
+        Created At 2022-02-28 11:20:40 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +44,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/441" class=".btn">#441</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/448" class=".btn">#448</a>
             </td>
             <td>
                 <b>
-                    Copy on write access
+                    Wait for ack
                 </b>
             </td>
         </tr>
@@ -53,12 +57,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslavkovar@protonmail.com>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-09 14:38:07 +0000 UTC
+        Created At 2022-02-24 11:36:33 +0000 UTC
     </div>
 </div>
 
@@ -66,25 +70,77 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/440" class=".btn">#440</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/447" class=".btn">#447</a>
             </td>
             <td>
                 <b>
-                    Release 0.30.0
+                    Allow revoking from other than final states
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">changelog-excluded</span><span class="chip">pre-release</span>
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-08 12:57:30 +0000 UTC
+        Created At 2022-02-22 22:50:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/446" class=".btn">#446</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.32.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">changelog-excluded</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 20:43:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/445" class=".btn">#445</a>
+            </td>
+            <td>
+                <b>
+                    Add send connection reuse handshake to wrappers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">wrappers</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 13:55:42 +0000 UTC
     </div>
 </div>
 

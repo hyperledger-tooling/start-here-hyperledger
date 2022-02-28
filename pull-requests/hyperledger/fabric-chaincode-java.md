@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/227" class=".btn">#227</a>
-            </td>
-            <td>
-                <b>
-                    temporarily remove nightly publishing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The ids for the JAR publishing to the nightly JFrog repo are expired
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-21 10:52:12 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/14" class=".btn">#14</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    prepare for upcoming 0.7.3 release of aca-py
+                    minor w3c compatibility fixes
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-12-16 11:34:59 +0000 UTC
+        Created At 2022-02-28 11:40:59 +0000 UTC
     </div>
 </div>
 

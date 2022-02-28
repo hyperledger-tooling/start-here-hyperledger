@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/431" class=".btn">#431</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/441" class=".btn">#441</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-11 03:52:34 +0000 UTC
+        Created At 2022-02-27 03:52:20 +0000 UTC
     </div>
 </div>
 
@@ -40,67 +40,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/430" class=".btn">#430</a>
-            </td>
-            <td>
-                <b>
-                    feat(afj): enable revocation tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Enables revocation tests for AFJ in the holder role. Will enable AFJ in the role of verifier soon.
-
-I've added `@RFC0441` to revocation tests that follow RFC0441, as we don't support revocation not adhering to the best practices.
-
-There are still quite some tests failing, but would like to merge (once the PR in AFJ is merged) so we can get a daily update of the interop status for revocation.
-
-It's weird as some tests are failing where it expects the verification to fail, but it actually succeeds. ACA-Py is the verifier so I'm not sure how it is possible for ACA-Py to return verified=true if the credential was revoked. Maybe AFJ is doing something incorrect, but ACA-Py shouldn't accept the presentation in that case. See [this comment](https://github.com/hyperledger/aries-framework-javascript/pull/592#issuecomment-1033053705) for more context. Will need to dig deeper into this
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-08 23:15:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/429" class=".btn">#429</a>
-            </td>
-            <td>
-                <b>
-                    style: format with black
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Format all python files with black. Mostly to prevent a lot of formatting noise in upcoming PRs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-05 10:37:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/428" class=".btn">#428</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/440" class=".btn">#440</a>
             </td>
             <td>
                 <b>
@@ -118,7 +58,33 @@ It's weird as some tests are failing where it expects the verification to fail, 
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-05 03:52:24 +0000 UTC
+        Created At 2022-02-26 03:52:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/439" class=".btn">#439</a>
+            </td>
+            <td>
+                <b>
+                    docs: add oob and did exchange endpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add oob and didexchange endpoints to the open api spec.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 14:30:48 +0000 UTC
     </div>
 </div>
 

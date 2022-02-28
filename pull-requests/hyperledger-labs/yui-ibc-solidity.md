@@ -38,29 +38,3 @@ Signed-off-by: Ryo Sato <ryo.sato@datachain.jp>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/77" class=".btn">#77</a>
-            </td>
-            <td>
-                <b>
-                    Use the new file-level option of solidity-protobuf
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-21 09:35:39 +0000 UTC
-    </div>
-</div>
-

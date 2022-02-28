@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/63" class=".btn">#63</a>
             </td>
             <td>
                 <b>
-                    Request for maintainer status
+                    Update to use new chaincode tests
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-03 09:01:11 +0000 UTC
+        Created At 2022-02-22 14:27:36 +0000 UTC
     </div>
 </div>
 

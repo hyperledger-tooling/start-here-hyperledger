@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/502" class=".btn">#502</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/549" class=".btn">#549</a>
             </td>
             <td>
                 <b>
-                    Use inline ABI for all Ethconnect contract interactions
+                    FIR-9: Identity enhancements
                 </b>
             </td>
         </tr>
@@ -27,16 +27,228 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                This PR updates all smart contract interactions with Ethconnect so that Ethconnect no longer needs a previously deployed ABI to interact with a given contract. Instead, FireFly now has code that can convert the relevant parts of an FFI into an ABI format. The JSON ABI is used inline in each request to Ethconnect to invoke or query smart contracts or subscribe to events.
+                See https://github.com/hyperledger/firefly-fir/pull/9
 
-Resolves:
-- https://github.com/hyperledger/firefly/issues/426
-- https://github.com/hyperledger/firefly/issues/425
+@awrichar - the E2E is passing on these changes, but leaving PR in review state as I'd like to add some more E2E tests and do migration testing before pulling it out of draft.
+
+I will put comments in-line in the code to help orient your review
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-09 15:37:22 +0000 UTC
+        Created At 2022-02-24 21:57:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/548" class=".btn">#548</a>
+            </td>
+            <td>
+                <b>
+                    Rename contract subscriptions to contract listeners
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR includes several noteworthy changes:
+
+- Contract Subscriptions have now been renamed to Contract Listeners everywhere, to reduce confusion. This includes the `/contracts/subscriptions` endpoint. It is now `/contracts/listeners`
+- The `/subscribe` endpoints on Contract Interfaces and APIs have been dropped
+- The `/contracts/listeners` endpoint can now take a interface reference to point it at an existing FFI, rather than putting the full FFI for the event inline
+- `blockchain_event` has been renamed to `blockchain_event_received`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-24 21:38:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/547" class=".btn">#547</a>
+            </td>
+            <td>
+                <b>
+                    [charts-by-type] histogram broken down by type
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #546 
+
+Support for histogram buckets that are grouped by `type`
+
+Example Response:
+```json
+[
+  {
+    "buckets": [
+      { "timestamp": "2022-02-23T22:40:33Z", "count": "23" },
+      { "timestamp": "2022-02-23T22:45:33Z", "count": "0" },
+      { "timestamp": "2022-02-23T22:50:33Z", "count": "14" }
+    ],
+    "type": "transaction_submitted"
+  },
+  {
+    "buckets": [
+      { "timestamp": "2022-02-23T22:40:33Z", "count": "16" },
+      { "timestamp": "2022-02-23T22:45:33Z", "count": "0" },
+      { "timestamp": "2022-02-23T22:50:33Z", "count": "14" }
+    ],
+    "type": "blockchain_event"
+  },
+  {
+    "buckets": [
+      { "timestamp": "2022-02-23T22:40:33Z", "count": "22" },
+      { "timestamp": "2022-02-23T22:45:33Z", "count": "0" },
+      { "timestamp": "2022-02-23T22:50:33Z", "count": "11" }
+    ],
+    "type": "message_confirmed"
+  },
+  {
+    "buckets": [
+      { "timestamp": "2022-02-23T22:40:33Z", "count": "1" },
+      { "timestamp": "2022-02-23T22:45:33Z", "count": "0" },
+      { "timestamp": "2022-02-23T22:50:33Z", "count": "1" }
+    ],
+    "type": "token_pool_confirmed"
+  },
+  {
+    "buckets": [
+      { "timestamp": "2022-02-23T22:40:33Z", "count": "6" },
+      { "timestamp": "2022-02-23T22:45:33Z", "count": "0" },
+      { "timestamp": "2022-02-23T22:50:33Z", "count": "4" }
+    ],
+    "type": "token_transfer_confirmed"
+  }
+]
+
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-23 22:56:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/544" class=".btn">#544</a>
+            </td>
+            <td>
+                <b>
+                    [transfer-type-query] allow filtering by type on token transfers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 20:22:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/543" class=".btn">#543</a>
+            </td>
+            <td>
+                <b>
+                    Fix empty swagger URLs on contract API creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves https://github.com/hyperledger/firefly/issues/539
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 16:37:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/542" class=".btn">#542</a>
+            </td>
+            <td>
+                <b>
+                    Change query method to POST for custom contracts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves https://github.com/hyperledger/firefly/issues/540
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 15:59:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/538" class=".btn">#538</a>
+            </td>
+            <td>
+                <b>
+                    Rename Public Storage to Shared storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves https://github.com/hyperledger/firefly/issues/489
+
+This PR globally renames "public storage" to "shared storage" in all parts of the code. If the orchestrator cannot find a valid "sharedstorage" plugin, it falls back and looks for a "publicstorage" plugin for now, so existing config files should still work with this version.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-21 19:48:05 +0000 UTC
     </div>
 </div>
 

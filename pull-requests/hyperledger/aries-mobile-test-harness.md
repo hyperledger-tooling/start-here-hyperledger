@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/24" class=".btn">#24</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/36" class=".btn">#36</a>
             </td>
             <td>
                 <b>
-                    fixed writing app name and platform to appium config
+                    BC Wallet PIN creation
                 </b>
             </td>
         </tr>
@@ -29,12 +29,12 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
             <td>
                 Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
 
-App and platform were not being written to the correct appium config file. This fixes that. 
+This PR adds the PIN creation steps to the test suites. The test will stay in WIP and not run as part of the daily CI runs since security at this point is not implemented. The PIN steps are to get through what is existing in the wallet to be able to test issue credential and proof. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-04 22:06:50 +0000 UTC
+        Created At 2022-02-23 22:41:46 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +42,11 @@ App and platform were not being written to the correct appium config file. This 
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/23" class=".btn">#23</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/35" class=".btn">#35</a>
             </td>
             <td>
                 <b>
-                    Henri/small typos
+                    Working Terms Acceptance Tests
                 </b>
             </td>
         </tr>
@@ -55,12 +55,14 @@ App and platform were not being written to the correct appium config file. This 
                 
             </td>
             <td>
-                now with a working gpg key and signed commits
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+Working and passing Terms and Conditions Acceptance Tests. One derived functional tests still WIP. Will focus on derived tests after the Acceptance Tests across features are written. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-02 22:04:32 +0000 UTC
+        Created At 2022-02-23 16:14:34 +0000 UTC
     </div>
 </div>
 
