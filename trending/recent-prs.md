@@ -1,13 +1,13 @@
 
-[1936](https://github.com/hyperledger/iroha/pull/1936) Testing workflow | should not be merged
+[473](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/473) build(deps): bump url-parse from 1.5.7 to 1.5.10 in /net-emissions-token-network/interface
 
-[205](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/205) Bump url-parse from 1.5.3 to 1.5.10 in /docs
+[719](https://github.com/hyperledger-labs/business-partner-agent/pull/719) Bump url-parse from 1.5.7 to 1.5.10 in /frontend
 
-[1531](https://github.com/hyperledger/burrow/pull/1531) Bump url-parse from 1.5.3 to 1.5.10 in /vent/test/eth
+[147](https://github.com/hyperledger-labs/fabric-operations-console/pull/147) Bump url-parse from 1.5.7 to 1.5.10 in /packages/apollo
 
-[1737](https://github.com/hyperledger/indy-node/pull/1737) Addressing deprecation of get_installed_distributions as of Python 3.8
+[2486](https://github.com/hyperledger/indy-sdk/pull/2486) Fixing syntax and build error for libvcx
 
-[44](https://github.com/hyperledger-labs/byzantine-config/pull/44) Bump url-parse from 1.4.7 to 1.5.10
+[17](https://github.com/hyperledger-labs/yui-docs/pull/17) Bump url-parse from 1.5.3 to 1.5.10 in /docsrcs/yui-ibc-solidity
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
