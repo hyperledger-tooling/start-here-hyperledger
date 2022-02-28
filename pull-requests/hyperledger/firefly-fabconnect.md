@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/73" class=".btn">#73</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    Added query endpoints, refactored query handling into syncdispatcher
+                    Revert updates to cert encoding
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
+                The earlier change broke FireFly
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-17 23:55:02 +0000 UTC
+        Created At 2022-02-21 15:27:38 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1851" class=".btn">#1851</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1880" class=".btn">#1880</a>
             </td>
             <td>
                 <b>
-                    test: jestify remote-plugin-imports test
+                    docs(faq): Add instructions to install in Apple M1 processor (ARM-based)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span><span class="chip">Developer_Experience</span>
+            </td>
+            <td>
+                Description of the installation process for Apple M1 processors.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-24 12:57:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1879" class=".btn">#1879</a>
+            </td>
+            <td>
+                <b>
+                    feat(cactus-api-client): common verifier-factory
                 </b>
             </td>
         </tr>
@@ -27,53 +53,15 @@ permalink: /pull-requests/hyperledger/cactus
                 
             </td>
             <td>
-                Migrated test from Tap to Jest.
+                Prototype for common verifier-factory like the one used in cmd-socketio
+apps. More details in issue #1878
 
-File Path:
-packages/cactus-cmd-api-server/src/test/typescript/
-integration/remote-plugin-imports.test.ts
-
-This is a PARTIAL resolution to issue #238 
-
-Signed-off-by: awadhana awadhana2021@gmail.com
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-10 14:11:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1850" class=".btn">#1850</a>
-            </td>
-            <td>
-                <b>
-                    chore(cartrade): remove cartrade sample
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                There's no benefit from having cartrade and more complete
-discounted-cartrade at the same time, remove cartrade sample app from
-the repo.
-
-Closes: https://github.com/hyperledger/cactus/issues/1849
 Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-
-Depends on #1843
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-10 12:51:33 +0000 UTC
+        Created At 2022-02-23 17:50:14 +0000 UTC
     </div>
 </div>
 
@@ -81,194 +69,11 @@ Depends on #1843
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1848" class=".btn">#1848</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1875" class=".btn">#1875</a>
             </td>
             <td>
                 <b>
-                    fix: reset script from package.json does not work #1656
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes: #1656
-
-Signed-off-by: ruzell22 <ruzell.vince.aquino@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-10 03:20:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1847" class=".btn">#1847</a>
-            </td>
-            <td>
-                <b>
-                    style(test-tooling): fix unexpected any quorum test ledger start
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Fixes #1844
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-09 21:34:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1846" class=".btn">#1846</a>
-            </td>
-            <td>
-                <b>
-                    style(test-tooling): fix unexpected any quorum test ledger destroy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Fixes #1845
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-09 20:12:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1843" class=".btn">#1843</a>
-            </td>
-            <td>
-                <b>
-                    refactor(cartrade): upgrade cartrade samples to fabric 2.2 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                Add fabcar setup to fabric 2.x all-in-one startup script and adjust
-healthcheck accordingly. Use fabric 2.x in cartrade and discounted
-cartrade sample apps. No packages updated, fabric sdk 1.4.19 seems to
-work fine with fabric 2.2 for now. Both samples has been tested and work
-OK.
-
-Closes: https://github.com/hyperledger/cactus/issues/1842
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-
-### Note: 
-- Next step is to use basic asset transfer instead of depracated fabcar, so fabcar-cli-1.4 will be removed in the future (most probably).
-- Upgrade of SDK seems to be complex task for now (since packages were re-organized), I think it'd be better to just focus on migration to common fabric connector.
-
-Depends on #1824
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-09 13:42:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1841" class=".btn">#1841</a>
-            </td>
-            <td>
-                <b>
-                    style: 2021-09-20 linter warnings batch 23/26 fixes: #1371
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is the recreation of PR of #1779
- 
-Reason for this new PR:
-The previous repo was deleted.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-09 06:38:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1839" class=".btn">#1839</a>
-            </td>
-            <td>
-                <b>
-                    ci: fix CodeQL security scans
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                - Moved the file to the correct directory
-- Pinned the runner version to Ubuntu 20.04
-
-Fixes #1836
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-05 02:49:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1838" class=".btn">#1838</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump node-fetch from 2.6.6 to 2.6.7
+                    build(deps): bump url-parse from 1.5.3 to 1.5.10
                 </b>
             </td>
         </tr>
@@ -277,33 +82,27 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [node-fetch](https://github.com/node-fetch/node-fetch) from 2.6.6 to 2.6.7.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/node-fetch/node-fetch/releases">node-fetch's releases</a>.</em></p>
-<blockquote>
-<h2>v2.6.7</h2>
-<h1>Security patch release</h1>
-<p>Recommended to upgrade, to not leak sensitive cookie and authentication header information to 3th party host while a redirect occurred</p>
-<h2>What's Changed</h2>
-<ul>
-<li>fix: don't forward secure headers to 3th party by <a href="https://github.com/jimmywarting"><code>@​jimmywarting</code></a> in <a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/pull/1453">node-fetch/node-fetch#1453</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/node-fetch/node-fetch/compare/v2.6.6...v2.6.7">https://github.com/node-fetch/node-fetch/compare/v2.6.6...v2.6.7</a></p>
-</blockquote>
-</details>
+                Bumps [url-parse](https://github.com/unshiftio/url-parse) from 1.5.3 to 1.5.10.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/node-fetch/node-fetch/commit/1ef4b560a17e644a02a3bfdea7631ffeee578b35"><code>1ef4b56</code></a> backport of <a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1449">#1449</a> (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1453">#1453</a>)</li>
-<li><a href="https://github.com/node-fetch/node-fetch/commit/8fe5c4ea66b9b8187600e6d5ec9b1b6781f44009"><code>8fe5c4e</code></a> 2.x: Specify encoding as an optional peer dependency in package.json (<a href="https://github-redirect.dependabot.com/node-fetch/node-fetch/issues/1310">#1310</a>)</li>
-<li>See full diff in <a href="https://github.com/node-fetch/node-fetch/compare/v2.6.6...v2.6.7">compare view</a></li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/8cd4c6c6435c1ea32243ec20c9cfe535251ec524"><code>8cd4c6c</code></a> 1.5.10</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/ce7a01f2e10738b17812f57c7b6b5de4ea4c0298"><code>ce7a01f</code></a> [fix] Improve handling of empty port</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/00714900ea1e8ba0a1f87b9f8399001e47f060ec"><code>0071490</code></a> [doc] Update JSDoc comment</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/a7044e3e8bb2308ac0f74264d01951aeaca0d66f"><code>a7044e3</code></a> [minor] Use more descriptive variable name</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/d547792414a414b2f341a805141beafee728addf"><code>d547792</code></a> [security] Add credits for CVE-2022-0691</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/ad23357ad5fd9a6b011d049466e9ecff723e52b8"><code>ad23357</code></a> 1.5.9</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/0e3fb542d60ddbf6933f22eb9b1e06e25eaa5b63"><code>0e3fb54</code></a> [fix] Strip all control characters from the beginning of the URL</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/61864a8eccff714a45d23db85a814e3c6ee0baba"><code>61864a8</code></a> [security] Add credits for CVE-2022-0686</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/bb0104d6439cf7c2662afbd9411e0772a9639664"><code>bb0104d</code></a> 1.5.8</li>
+<li><a href="https://github.com/unshiftio/url-parse/commit/d5c64791ef496ca5459ae7f2176a31ea53b127e5"><code>d5c6479</code></a> [fix] Handle the case where the port is specified but empty</li>
+<li>Additional commits viewable in <a href="https://github.com/unshiftio/url-parse/compare/1.5.3...1.5.10">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=node-fetch&package-manager=npm_and_yarn&previous-version=2.6.6&new-version=2.6.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=url-parse&package-manager=npm_and_yarn&previous-version=1.5.3&new-version=1.5.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -339,7 +138,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-04 06:24:41 +0000 UTC
+        Created At 2022-02-22 16:35:23 +0000 UTC
     </div>
 </div>
 
@@ -347,11 +146,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1837" class=".btn">#1837</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1872" class=".btn">#1872</a>
             </td>
             <td>
                 <b>
-                    build(deps): bump simple-get from 2.8.1 to 2.8.2
+                    build(deps): bump follow-redirects from 1.14.7 to 1.14.9
                 </b>
             </td>
         </tr>
@@ -360,23 +159,22 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [simple-get](https://github.com/feross/simple-get) from 2.8.1 to 2.8.2.
+                Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.14.7 to 1.14.9.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/feross/simple-get/commit/4e156b6bb19e11ccfad05fad310ea799d63f890d"><code>4e156b6</code></a> 2.8.2</li>
-<li><a href="https://github.com/feross/simple-get/commit/43c272db3e4b1383cb03d80338dba3e08c451641"><code>43c272d</code></a> Bug fix: Thirdparty cookie leak</li>
-<li>See full diff in <a href="https://github.com/feross/simple-get/compare/v2.8.1...v2.8.2">compare view</a></li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/13136e95bbe23cabbeaeb74bd0c933aa98dd9b96"><code>13136e9</code></a> Release version 1.14.9 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/2ec9b0ba850b932e82cf7fdc835e5136d0d0c8ad"><code>2ec9b0b</code></a> Keep headers when upgrading from HTTP to HTTPS.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/5fc74dd975b88a82508679cc0fda63f8c6a396ec"><code>5fc74dd</code></a> Reduce nesting.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/3d81dc3237b4ffe8b722bb3d1c70a7866657166e"><code>3d81dc3</code></a> Release version 1.14.8 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/62e546a99c07c3ee5e4e0718c84a6ca127c5c445"><code>62e546a</code></a> Drop confidential headers across schemes.</li>
+<li>See full diff in <a href="https://github.com/follow-redirects/follow-redirects/compare/v1.14.7...v1.14.9">compare view</a></li>
 </ul>
-</details>
-<details>
-<summary>Maintainer changes</summary>
-<p>This version was pushed to npm by <a href="https://www.npmjs.com/~linusu">linusu</a>, a new releaser for simple-get since your current version.</p>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=simple-get&package-manager=npm_and_yarn&previous-version=2.8.1&new-version=2.8.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=follow-redirects&package-manager=npm_and_yarn&previous-version=1.14.7&new-version=1.14.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -412,7 +210,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-04 06:24:31 +0000 UTC
+        Created At 2022-02-22 01:04:30 +0000 UTC
     </div>
 </div>
 

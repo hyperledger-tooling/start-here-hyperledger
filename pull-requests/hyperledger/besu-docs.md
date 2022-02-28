@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/946" class=".btn">#946</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/960" class=".btn">#960</a>
             </td>
             <td>
                 <b>
-                    Clarify `contract address` behavior in receipt object.
+                    simplified splunk link
                 </b>
             </td>
         </tr>
@@ -27,57 +27,17 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                Signed-off-by: Roland Tyler <roland.tyler@consensys.net>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
 
-## Describe the change
-Clarify `contract address` still generates a value, even when a contract creation transaction fails. 
-<!-- A clear and concise description of what this PR changes in the documentation. -->
-
-## Issue fixed
-Fixes #944 
-<!-- Except for minor changes (typos, commas) it's required to have a Github issue linked to your
-pull request.
-
-Use the following to make Github close the issue automatically when merging the PR:
-fixes #{your issue number}
-If multiple issues are involved, use one line for each issue.
-
-If you don't want to close the issue, use:
-see #{your issue number} -->
-
-## Impacted parts <!-- check as many boxes as needed -->
-
-### For content changes
+Fixed splunk link 
 
 - [x] Doc content
 - [ ] Doc pages organisation
-
-### For tools changes
-
-- [ ] CircleCI workflow
-- [ ] Build and QA tools (lint, vale,…)
-- [ ] MkDocs templates
-- [ ] MkDocs configuration
-- [ ] Python dependencies
-- [ ] Node dependencies and JavaScript
-- [ ] ReadTheDocs configuration
-- [ ] GitHub integration
-
-## Testing
-https://hyperledger-besu--946.org.readthedocs.build/en/946/Reference/API-Objects/#transaction-receipt-object
-
-https://hyperledger-besu--946.org.readthedocs.build/en/946/Reference/API-Objects/#private-transaction-receipt-object
-<!-- Steps to follow to review and test your changes.
-Add links to preview the pages changes here.
-Link format is https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/
-Where {your PR number} must be replaced by the number of this PR, for instance 123
--->
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-10 18:51:14 +0000 UTC
+        Created At 2022-02-23 23:23:54 +0000 UTC
     </div>
 </div>
 
@@ -85,11 +45,11 @@ Where {your PR number} must be replaced by the number of this PR, for instance 1
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/943" class=".btn">#943</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/959" class=".btn">#959</a>
             </td>
             <td>
                 <b>
-                    doc docker udp port option
+                    clarify replacing transactions
                 </b>
             </td>
         </tr>
@@ -124,7 +84,7 @@ Make sure that:
 
 <!-- A clear and concise description of what this PR changes in the documentation. -->
 
-Add clarification on exposing UDP ports when running a Docker image.
+Clarify how to replace transactions by increasing gas price. Add EIP1559 case.
 
 ## Issue fixed
 
@@ -138,7 +98,7 @@ If multiple issues are involved, use one line for each issue.
 If you don't want to close the issue, use:
 see #{your issue number} -->
 
-fixes #940 
+fixes #889 
 
 ## Impacted parts <!-- check as many boxes as needed -->
 
@@ -175,7 +135,7 @@ don't hesitate to link an annotated screenshot or a small demo video. -->
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-09 04:21:40 +0000 UTC
+        Created At 2022-02-23 06:34:06 +0000 UTC
     </div>
 </div>
 
@@ -183,11 +143,84 @@ don't hesitate to link an annotated screenshot or a small demo video. -->
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/942" class=".btn">#942</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/958" class=".btn">#958</a>
             </td>
             <td>
                 <b>
-                    Added option --ec-curve to public key export/export-address subcommand
+                    Update API documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roland Tyler <roland.tyler@consensys.net>
+
+## Describe the change
+Added missing JSON-API methods to docs:
+* `debug_accountAt`
+*  `miner_setCoinbase` /  `miner_setEtherbase`
+* `trace_call `
+*  `trace_filter `
+<!-- A clear and concise description of what this PR changes in the documentation. -->
+
+## Issue fixed
+Fixes #941 
+<!-- Except for minor changes (typos, commas) it's required to have a Github issue linked to your
+pull request.
+
+Use the following to make Github close the issue automatically when merging the PR:
+fixes #{your issue number}
+If multiple issues are involved, use one line for each issue.
+
+If you don't want to close the issue, use:
+see #{your issue number} -->
+
+## Impacted parts <!-- check as many boxes as needed -->
+
+### For content changes
+
+- [x] Doc content
+- [ ] Doc pages organisation
+
+### For tools changes
+
+- [ ] CircleCI workflow
+- [ ] Build and QA tools (lint, vale,…)
+- [ ] MkDocs templates
+- [ ] MkDocs configuration
+- [ ] Python dependencies
+- [ ] Node dependencies and JavaScript
+- [ ] ReadTheDocs configuration
+- [ ] GitHub integration
+
+## Testing
+
+<!-- Steps to follow to review and test your changes.
+Add links to preview the pages changes here.
+Link format is https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/
+Where {your PR number} must be replaced by the number of this PR, for instance 123
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 20:43:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/957" class=".btn">#957</a>
+            </td>
+            <td>
+                <b>
+                    fix link for Rancher Desktop doc
                 </b>
             </td>
         </tr>
@@ -197,6 +230,8 @@ don't hesitate to link an annotated screenshot or a small demo video. -->
             </td>
             <td>
                 ## Pull request checklist
+
+Use the following list to make sure your PR fits the Besu doc quality standard.
 
 ### Before creating the pull request
 
@@ -216,61 +251,16 @@ Make sure that:
 
 ## Describe the change
 
-Documenting changes introduced in https://github.com/hyperledger/besu/pull/3333
-
-## Impacted parts <!-- check as many boxes as needed -->
-
-### For content changes
-
-- [x] Doc content
-- [ ] Doc pages organisation
-
-### For tools changes
-
-- [ ] CircleCI workflow
-- [ ] Build and QA tools (lint, vale,…)
-- [ ] MkDocs templates
-- [ ] MkDocs configuration
-- [ ] Python dependencies
-- [ ] Node dependencies and JavaScript
-- [ ] ReadTheDocs configuration
-- [ ] GitHub integration
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-09 01:54:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/939" class=".btn">#939</a>
-            </td>
-            <td>
-                <b>
-                    Update "Mainnet" for consistency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Roland Tyler <roland.tyler@consensys.net>
-
-## Describe the change
-Change all usage to "Mainnet".
 <!-- A clear and concise description of what this PR changes in the documentation. -->
 
+Fixes broken link
+
 ## Issue fixed
-Fixes #938 
+
 <!-- Except for minor changes (typos, commas) it's required to have a Github issue linked to your
 pull request.
+
+See https://app.circleci.com/pipelines/github/hyperledger/besu-docs/3725/workflows/3edd50ce-741e-4617-b6e1-1e352f445120/jobs/16182
 
 Use the following to make Github close the issue automatically when merging the PR:
 fixes #{your issue number}
@@ -314,7 +304,55 @@ don't hesitate to link an annotated screenshot or a small demo video. -->
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-04 15:40:57 +0000 UTC
+        Created At 2022-02-22 09:15:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/956" class=".btn">#956</a>
+            </td>
+            <td>
+                <b>
+                    Remove QBFT consensus early access warning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Pull request checklist
+
+Use the following list to make sure your PR fits the Besu doc quality standard.
+
+### Before creating the pull request
+
+Make sure that:
+
+- [x] [all commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [x] you read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Contributing+to+documentation).
+- [x] you have [tested your changes locally](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewTheDocumentation) before submitting them to the community for review.
+
+### After creating your pull request and tests finished
+
+Make sure that:
+
+- [ ] you fixed all the issues raised by the tests, if any.
+- [ ] you verified the rendering of your changes on [ReadTheDocs.org PR preview](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewwithReadTheDocs)
+  and updated the testing link (see [Testing](#testing)).
+
+## Describe the change
+
+Remove QBFT consensus early access warning
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-22 01:48:43 +0000 UTC
     </div>
 </div>
 
