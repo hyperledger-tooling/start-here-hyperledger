@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/454" class=".btn">#454</a>
+            </td>
+            <td>
+                <b>
+                    Expose update state with message in node wrapper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">wrappers</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 12:08:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/453" class=".btn">#453</a>
             </td>
             <td>

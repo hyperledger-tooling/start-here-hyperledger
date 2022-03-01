@@ -238,33 +238,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1871" class=".btn">#1871</a>
-            </td>
-            <td>
-                <b>
-                    Update README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Github -> GitHub
-
-**Changelog**
-- Fix
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-22 08:47:00 +0000 UTC
-    </div>
-</div>
-

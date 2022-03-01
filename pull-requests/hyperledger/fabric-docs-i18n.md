@@ -98,29 +98,3 @@ Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/647" class=".btn">#647</a>
-            </td>
-            <td>
-                <b>
-                    fix the format of channel_update_tutorial.rst
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">zhCN-docs-ongoing</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-22 10:23:18 +0000 UTC
-    </div>
-</div>
-

@@ -47,7 +47,7 @@ Signed-off-by: Ry Jones <ry@linux.com>
             </td>
             <td>
                 <b>
-                    docs(faq): Add instructions to install in Apple M1 processor (ARM-based)
+                    docs(faq): add instructions to install in Apple M1 processor (ARM-based)
                 </b>
             </td>
         </tr>

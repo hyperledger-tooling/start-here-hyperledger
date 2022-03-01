@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/180" class=".btn">#180</a>
+            </td>
+            <td>
+                <b>
+                    fix java chaincode support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 10:32:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/179" class=".btn">#179</a>
             </td>
             <td>

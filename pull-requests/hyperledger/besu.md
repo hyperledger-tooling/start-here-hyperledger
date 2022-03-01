@@ -100,7 +100,7 @@ fixes #3488
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Ensure besu correctly checks for latest ancestor before checking before checking if a block descends from terminal.  
+Ensure besu correctly checks for latest ancestor before checking if a block descends from terminal.  
 
 Also, forkchoiceUpdated calls for finalized blocks which besu does not have should start or append to a backward sync.
 
@@ -468,82 +468,6 @@ Also updated grpc
     </table>
     <div class="right-align">
         Created At 2022-02-22 15:50:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3481" class=".btn">#3481</a>
-            </td>
-            <td>
-                <b>
-                    Feat: add multi-platform support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-use buildx on linux AMD64 host to build docker image for platform amd64 & arm64
-  - base image `ubuntu` support `amd64` `arm64` `riscv64` & `riscv64`
-  - base image `ghcr.io/graalvm/graalvm-ce:ol7-java11` only support  `amd64` & `arm64`
-  - Gitlab docker registry is used in testing
-
-## To Do (s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
- -  integrate with CICD pipeline, e.g. `.CircleCI` & `Github Actions`
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-22 10:51:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3479" class=".btn">#3479</a>
-            </td>
-            <td>
-                <b>
-                    Additional trace_transaction tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added some more trace_transaction tests generated from 
-https://github.com/ConsenSys/json-rpc-conformance-test-utils/pull/18
-
-Note: some of these tests fail. I think it's just besu puts in an extra field for contract creation which OE does not
-"[creationMethod" : "create",
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-22 06:21:50 +0000 UTC
     </div>
 </div>
 

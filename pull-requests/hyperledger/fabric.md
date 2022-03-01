@@ -703,35 +703,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3245" class=".btn">#3245</a>
-            </td>
-            <td>
-                <b>
-                    Fix Orderer test flake #3149
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix #3149  In case of accumulated bytes since last snapshot 
-exceed limit while taking snapshot check whether the pb buffer
-type is of raftpb.EntryNormal, since blocks are marshalled into 
-pb buffers of raftpb.EntryNormal and not raftpb.EntryConfChange
-
-Signed-off-by: Shivdeep Singh <Shivdeep.Singh@ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-22 10:30:46 +0000 UTC
-    </div>
-</div>
-
