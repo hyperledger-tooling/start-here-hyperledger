@@ -1,13 +1,13 @@
 
-[454](https://github.com/hyperledger/aries-vcx/pull/454) Expose update state with message in node wrapper
+[3505](https://github.com/hyperledger/besu/pull/3505) [Issue 3115] Support changes to mining beneficiary
 
-[397](https://github.com/hyperledger/fabric-gateway/pull/397) WIP: Checkpoint chaincode events
+[317](https://github.com/hyperledger/transact/pull/317) Backport 0-4: Fix Rust 1.59 lint
 
-[94](https://github.com/hyperledger-labs/mirbft/pull/94) Fix missing defer in node.go
+[1647](https://github.com/hyperledger/aries-cloudagent-python/pull/1647) Performance deme updates
 
-[180](https://github.com/hyperledger/caliper-benchmarks/pull/180) fix java chaincode support
+[721](https://github.com/hyperledger-labs/business-partner-agent/pull/721) updated chat badge to point to discord
 
-[93](https://github.com/hyperledger-labs/mirbft/pull/93) Fix broken link in README, improve code doc
+[555](https://github.com/hyperledger/fabric-sdk-node/pull/555) Avoid bug in typescript-eslint@5.13.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

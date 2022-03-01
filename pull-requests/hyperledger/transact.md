@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/317" class=".btn">#317</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0-4: Fix Rust 1.59 lint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #315 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 17:04:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/315" class=".btn">#315</a>
             </td>
             <td>

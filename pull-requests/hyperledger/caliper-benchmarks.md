@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
+                This gets java deploying and for the most part working, however there are problems in the way the java contract-api chaincode is implemented for fxed-asset which results in the benchmarks recording all failures for some of the benchmarks run, this will be addressed in #181 
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
             </td>
         </tr>
     </table>
@@ -88,32 +90,6 @@ Signed-off-by: Abhinav Kumar <AbhinavKumar18@ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-02-28 16:48:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/176" class=".btn">#176</a>
-            </td>
-            <td>
-                <b>
-                    Add Java to builds in prep for java chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-25 13:39:49 +0000 UTC
     </div>
 </div>
 
