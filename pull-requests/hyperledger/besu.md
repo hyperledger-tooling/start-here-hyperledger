@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3503" class=".btn">#3503</a>
+            </td>
+            <td>
+                <b>
+                    Add GitHub action to verify gradle-wrapper.jar
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Checks that the gradle wrapper jar is from an official release since a maliciously modified jar added as part of a gradle upgrade would be a significant security risk but is hard to verify from the code diff.  This checks the jar comes from an Official Gradle release.
+
+See https://github.com/gradle/wrapper-validation-action for more details.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 04:42:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3502" class=".btn">#3502</a>
+            </td>
+            <td>
+                <b>
+                    Update ef bootnodes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Updates ef bootnode addresses
+Geth PR: https://github.com/ethereum/go-ethereum/pull/24432
+
+## Fixed Issue(s)
+fixes #3488 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 02:28:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3501" class=".btn">#3501</a>
             </td>
             <td>
@@ -475,71 +544,6 @@ Note: some of these tests fail. I think it's just besu puts in an extra field fo
     </table>
     <div class="right-align">
         Created At 2022-02-22 06:21:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3477" class=".btn">#3477</a>
-            </td>
-            <td>
-                <b>
-                    trace_get 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Mark Terry <mark.terry@consensys.net>
-
-## PR description
-Implementation for trace_get API.
-* exclude revertReason from result (matches Besu trace_call and openethereum)
-
-Note this implementation matches openethereum behaviour except for:
-* we manually added `creationMethod` to test files even though openethereum 3.2.5 does not include this field (this matches Besu trace_transaction implementation which also includes the `creationMethod` field)
-
-See #2889 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-22 04:30:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3476" class=".btn">#3476</a>
-            </td>
-            <td>
-                <b>
-                    Add some thread names for debugging clarity
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                BFT executor threads include IBFT or QBFT to help with the IBFT -> QBFT migration.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-22 04:14:00 +0000 UTC
     </div>
 </div>
 

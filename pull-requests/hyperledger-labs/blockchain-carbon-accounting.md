@@ -652,7 +652,7 @@ This PR contains the following updates:
 | [typescript](https://www.typescriptlang.org/) ([source](https://togithub.com/Microsoft/TypeScript)) | devDependencies | pin | [`^4.3.5` -> `4.4.4`](https://renovatebot.com/diffs/npm/typescript/4.4.4/) |
 | [typescript](https://www.typescriptlang.org/) ([source](https://togithub.com/Microsoft/TypeScript)) | devDependencies | pin | [`^4.5.4` -> `4.5.4`](https://renovatebot.com/diffs/npm/typescript/4.5.4/) |
 | [typescript](https://www.typescriptlang.org/) ([source](https://togithub.com/Microsoft/TypeScript)) | devDependencies | pin | [`^4.2.3` -> `4.4.3`](https://renovatebot.com/diffs/npm/typescript/4.4.3/) |
-| [typescript](https://www.typescriptlang.org/) ([source](https://togithub.com/Microsoft/TypeScript)) | devDependencies | pin | [`^4.5.5` -> `4.5.5`](https://renovatebot.com/diffs/npm/typescript/4.5.5/) |
+| [typescript](https://www.typescriptlang.org/) ([source](https://togithub.com/Microsoft/TypeScript)) | devDependencies | pin | [`^4.5.5` -> `4.6.2`](https://renovatebot.com/diffs/npm/typescript/4.6.2/) |
 | [web3modal](https://togithub.com/web3modal/web3modal) | dependencies | pin | [`^1.9.1` -> `1.9.3`](https://renovatebot.com/diffs/npm/web3modal/1.9.3/) |
 | [wouter](https://togithub.com/molefrog/wouter) | dependencies | pin | [`^2.6.0` -> `2.7.4`](https://renovatebot.com/diffs/npm/wouter/2.7.4/) |
 | [ws-identity](https://togithub.com/brioux/blockchain-carbon-accounting) | devDependencies | pin | [`^1.0.12` -> `1.0.12`](https://renovatebot.com/diffs/npm/ws-identity/1.0.12/) |

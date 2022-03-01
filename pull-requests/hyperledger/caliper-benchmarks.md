@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/179" class=".btn">#179</a>
+            </td>
+            <td>
+                <b>
+                     fixed-asset indexes getting deployed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Issue #157 Indexes were not getting deployed on the test network.
+fix: updated the location of Index folder
+
+Signed-off-by: Abhinav Kumar <AbhinavKumar18@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 06:12:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/178" class=".btn">#178</a>
             </td>
             <td>
