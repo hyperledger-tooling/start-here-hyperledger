@@ -131,32 +131,3 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/315" class=".btn">#315</a>
-            </td>
-            <td>
-                <b>
-                    Add DLT Polling Monitor feature document
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds the DLT Polling Monitor feature design document. The DLT
-Polling Monitor is a work-in-progress monitor that syncs the batch status.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-21 19:16:15 +0000 UTC
-    </div>
-</div>
-

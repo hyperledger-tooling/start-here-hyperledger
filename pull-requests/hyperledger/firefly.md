@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/555" class=".btn">#555</a>
+            </td>
+            <td>
+                <b>
+                    Explicitly name all subscriptions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #554 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-28 23:33:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/553" class=".btn">#553</a>
             </td>
             <td>
@@ -301,34 +327,6 @@ Example Response:
     </table>
     <div class="right-align">
         Created At 2022-02-22 15:59:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/538" class=".btn">#538</a>
-            </td>
-            <td>
-                <b>
-                    Rename Public Storage to Shared storage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves https://github.com/hyperledger/firefly/issues/489
-
-This PR globally renames "public storage" to "shared storage" in all parts of the code. If the orchestrator cannot find a valid "sharedstorage" plugin, it falls back and looks for a "publicstorage" plugin for now, so existing config files should still work with this version.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-21 19:48:05 +0000 UTC
     </div>
 </div>
 
