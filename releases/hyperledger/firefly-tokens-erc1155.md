@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-tokens-erc1155
         <tr>
             <td colspan="2">
                 <b>
-                    v0.10.4
+                    v0.10.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.10.4
+                    v0.10.5
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Alter formatting of blockchain event IDs to match FireFly core by @awrichar in https://github.com/hyperledger/firefly-tokens-erc1155/pull/55
+* Support for token approvals by @shorsher in https://github.com/hyperledger/firefly-tokens-erc1155/pull/57
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v0.10.3...v0.10.4
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v0.10.4...v0.10.5
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.10.4" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.10.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-02-01 22:08:20 +0000 UTC
+        Created At 2022-02-23 18:55:52 +0000 UTC
     </span>
 </div>
 

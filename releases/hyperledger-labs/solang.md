@@ -15,26 +15,39 @@ permalink: /releases/hyperledger-labs/solang
         <tr>
             <td colspan="2">
                 <b>
-                    LLVM Libraries v13.0 (v1)
+                    
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    llvm13.0-1
+                    v0.1.10
                 </span>
             </td>
             <td>
-                
+                ## Added
+- On Solana, the accounts that were passed into the transactions are listed in
+  the `tx.accounts` builtin. There is also a builtin struct `AccountInfo`
+- A new common subexpression elimination pass was added, thanks to
+  [LucasSte](https://github.com/hyperledger-labs/solang/pull/550)
+- A graphviz dot file can be generated from the ast, using `--emit ast-dot`
+- Many improvements to the solidity parser, and the parser has been spun out
+  in it's own create `solang-parser`.
+
+## Changed
+- Solang now uses LLVM 13.0, based on the [Solana LLVM tree](https://github.com/solana-labs/llvm-project/)
+- The ast datastructure has been simplified.
+- Many bugfixes across the entire tree.
+
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/solang/releases/tag/llvm13.0-1" class=".btn">
+    <a href="https://github.com/hyperledger-labs/solang/releases/tag/v0.1.10" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-11-18 16:46:49 +0000 UTC
+        Created At 2022-03-01 18:22:55 +0000 UTC
     </span>
 </div>
 
