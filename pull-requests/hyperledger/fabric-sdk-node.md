@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/551" class=".btn">#551</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/554" class=".btn">#554</a>
             </td>
             <td>
                 <b>
-                    Add reference to Fabric Gateway client API for Fabric v2.4
+                    Fix environment variables to correctly data format
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                process.env will implicitly convert the value to a string.
+If an environment value is set as a boolean or number, the value
+will be a string. This patch uses environment value from nconf.env
+not process.env.
+
+Signed-off-by: Nao Nishijima <nao.nishijima.xt@hitachi.com>
+Reported-by: Shinsuke Hasegawa <shinsuke.hasegawa.fc@hitachi.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-08 18:28:31 +0000 UTC
+        Created At 2022-03-01 04:24:23 +0000 UTC
     </div>
 </div>
 
