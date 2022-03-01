@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/96" class=".btn">#96</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/97" class=".btn">#97</a>
             </td>
             <td>
                 <b>
-                    Update proto files and generated python files to support Iroha 1.4
+                    cherry-pick new features from develop -> main
                 </b>
             </td>
         </tr>
@@ -27,21 +27,16 @@ permalink: /pull-requests/hyperledger/iroha-python
                 <span class="chip">dependencies</span><span class="chip">iroha1</span>
             </td>
             <td>
-                New features were added to https://github.com/hyperledger/iroha in version Iroha 1.4, which modified protobuf files. Thats why client libraries should be updated.
-
-Features which modified protobuf files:
-1. Syncing nodes: https://github.com/hyperledger/iroha/pull/1648/
-2. Health check: https://github.com/hyperledger/iroha/pull/1735
-_____________
-- commit 1: I've updated proto files with attached script: https://github.com/hyperledger/iroha-python/blob/main/scripts/download-schema.py
-- commit 2: I've generated python files from proto with attached script: https://github.com/hyperledger/iroha-python/blob/main/scripts/compile-proto.py
-_____________
-Signed-off-by: Grzegorz Bazior <g.bazior@yodiss.pl>
+                1. I've updated `develop` to contain all new features from `main`: https://github.com/hyperledger/iroha-python/pull/83
+2. I've updated protobufs to be compatible with iroha 1.4 in `develop` branch: https://github.com/hyperledger/iroha-python/pull/96
+3. In the current PR I'm cherry-picking features which are not in `main` but they should be:
+    - 2. from above
+    - https://github.com/hyperledger/iroha-python/pull/77
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-17 13:45:00 +0000 UTC
+        Created At 2022-02-28 19:58:12 +0000 UTC
     </div>
 </div>
 

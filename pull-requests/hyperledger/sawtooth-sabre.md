@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/177" class=".btn">#177</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/178" class=".btn">#178</a>
             </td>
             <td>
                 <b>
-                    BACKPORT 0-5: Set dotenv-load to true in justfile
+                    Fix Clippy Lint introduced 1.59.0v
                 </b>
             </td>
         </tr>
@@ -27,76 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
                 
             </td>
             <td>
-                Starting with version 0.11.0, just ignores .env files by default. This
-breaks some recipes because we read docker environment variables from
-the .env file.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-07 15:06:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/176" class=".btn">#176</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT 0-7: Set dotenv-load to true in justfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Starting with version 0.11.0, just ignores .env files by default. This
-breaks some recipes because we read docker environment variables from
-the .env file.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 15:06:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/175" class=".btn">#175</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT 0-8: Set dotenv-load to true in justfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Starting with version 0.11.0, just ignores .env files by default. This
-breaks some recipes because we read docker environment variables from
-the .env file.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-07 15:06:09 +0000 UTC
+        Created At 2022-02-28 21:49:05 +0000 UTC
     </div>
 </div>
 

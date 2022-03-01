@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/18" class=".btn">#18</a>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/23" class=".btn">#23</a>
             </td>
             <td>
                 <b>
-                    [v0.2.0] ERC20 / ERC721 Support
+                    Updating DX Plugin Name
                 </b>
             </td>
         </tr>
@@ -27,15 +27,42 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
                 
             </td>
             <td>
-                * Updates FireFly and connectors to latest versions
-* Replaces `erc20` with `erc20Erc721` and new support for deploying those contracts directly to either remote or the chart-managed Ethconnect
-* Refactors and enhances contract registration for the FireFly and ERC1155 contracts when using the chart-managed Ethconnect
-* Updates chart docs
+                Addresses the warning we are getting since upgrading to FF `v0.13.0`:
+
+```
+firefly-0 firefly [2022-02-28T20:04:55.199Z]  WARN Your data exchange config uses the old plugin name 'https' - this plugin has been renamed to 'ffdx' pid=1
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-03 17:17:28 +0000 UTC
+        Created At 2022-02-28 23:15:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    Bump DX version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Latest FF release needs DX `v0.10.4` as mentioned here: https://github.com/hyperledger/firefly/releases/tag/v0.13.0. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-28 22:12:21 +0000 UTC
     </div>
 </div>
 

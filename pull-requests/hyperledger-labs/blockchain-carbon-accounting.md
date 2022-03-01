@@ -565,9 +565,9 @@ This PR contains the following updates:
 | [@types/yargs](https://togithub.com/DefinitelyTyped/DefinitelyTyped) | devDependencies | pin | [`^17.0.8` -> `17.0.8`](https://renovatebot.com/diffs/npm/@types%2fyargs/17.0.8/) |
 | [@typescript-eslint/eslint-plugin](https://togithub.com/typescript-eslint/typescript-eslint) | devDependencies | pin | [`^4.31.1` -> `4.33.0`](https://renovatebot.com/diffs/npm/@typescript-eslint%2feslint-plugin/4.33.0/) |
 | [@typescript-eslint/eslint-plugin](https://togithub.com/typescript-eslint/typescript-eslint) | devDependencies | pin | [`^5.10.1` -> `5.10.1`](https://renovatebot.com/diffs/npm/@typescript-eslint%2feslint-plugin/5.10.1/) |
-| [@typescript-eslint/eslint-plugin](https://togithub.com/typescript-eslint/typescript-eslint) | devDependencies | pin | [`^5.12.0` -> `5.12.1`](https://renovatebot.com/diffs/npm/@typescript-eslint%2feslint-plugin/5.12.1/) |
+| [@typescript-eslint/eslint-plugin](https://togithub.com/typescript-eslint/typescript-eslint) | devDependencies | pin | [`^5.12.0` -> `5.13.0`](https://renovatebot.com/diffs/npm/@typescript-eslint%2feslint-plugin/5.13.0/) |
 | [@typescript-eslint/parser](https://togithub.com/typescript-eslint/typescript-eslint) | devDependencies | pin | [`^5.10.1` -> `5.10.1`](https://renovatebot.com/diffs/npm/@typescript-eslint%2fparser/5.10.1/) |
-| [@typescript-eslint/parser](https://togithub.com/typescript-eslint/typescript-eslint) | devDependencies | pin | [`^5.12.0` -> `5.12.1`](https://renovatebot.com/diffs/npm/@typescript-eslint%2fparser/5.12.1/) |
+| [@typescript-eslint/parser](https://togithub.com/typescript-eslint/typescript-eslint) | devDependencies | pin | [`^5.12.0` -> `5.13.0`](https://renovatebot.com/diffs/npm/@typescript-eslint%2fparser/5.13.0/) |
 | [@typescript-eslint/parser](https://togithub.com/typescript-eslint/typescript-eslint) | devDependencies | pin | [`^4.32.0` -> `4.33.0`](https://renovatebot.com/diffs/npm/@typescript-eslint%2fparser/4.33.0/) |
 | [@walletconnect/web3-provider](https://togithub.com/walletconnect/walletconnect-monorepo) | dependencies | pin | [`^1.3.1` -> `1.3.6`](https://renovatebot.com/diffs/npm/@walletconnect%2fweb3-provider/1.3.6/) |
 | [axios](https://axios-http.com) ([source](https://togithub.com/axios/axios)) | dependencies | pin | [`^0.21.2` -> `0.21.4`](https://renovatebot.com/diffs/npm/axios/0.21.4/) |
