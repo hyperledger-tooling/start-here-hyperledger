@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/indy-did-method
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-did-method/pull/56" class=".btn">#56</a>
+            </td>
+            <td>
+                <b>
+                    Fix/52 option2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Attempt to resolve #39 and #52 
+
+While making the changes, I felt like Option 2 is reasonably clear and makes sense because in both cases accumulator values and (in the case of `GET_REVOC_REG_DELTA`) indices are returned. So it's arguably the same ledger object.
+
+But I'm open to providing an additional PR for Option 1.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 08:07:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-did-method/pull/55" class=".btn">#55</a>
             </td>
             <td>

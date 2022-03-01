@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/92" class=".btn">#92</a>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/94" class=".btn">#94</a>
             </td>
             <td>
                 <b>
-                    Enabled local deployment.
+                    Fix missing defer in node.go
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger-labs/mirbft
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Matej Pavlovic <matopavlovic@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-09 17:47:46 +0000 UTC
+        Created At 2022-03-01 10:43:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/93" class=".btn">#93</a>
+            </td>
+            <td>
+                <b>
+                    Fix broken link in README, improve code doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matej Pavlovic <matopavlovic@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 10:32:41 +0000 UTC
     </div>
 </div>
 

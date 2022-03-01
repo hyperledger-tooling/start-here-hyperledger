@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1940" class=".btn">#1940</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #1939: Proper features for `iroha_config_derive`.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+Fixed improper feature flags. 
+
+### Issue
+
+Closes #1939 
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Pass QA tests. 
+
+
+### Possible Drawbacks
+
+None
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 08:18:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1938" class=".btn">#1938</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: fix failing tests.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                ## Description of change
+
+Fixed failing CI pipelines in the `iroha2-dev` to `iroha2` merge pipeline. 
+
+## Issue
+None
+
+## Benefits
+
+Working CI pipeline
+
+## Possible drawbacks 
+
+None
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 07:10:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1937" class=".btn">#1937</a>
             </td>
             <td>

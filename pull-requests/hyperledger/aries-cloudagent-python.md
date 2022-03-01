@@ -167,31 +167,3 @@ The 2.2 branch of aiohttp-apispec requires Jinja2 < 3, while its 3.0 (beta) bran
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1637" class=".btn">#1637</a>
-            </td>
-            <td>
-                <b>
-                    feat: query connections by their_public_did
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Now that `their_public_did` is saved as a tag (https://github.com/hyperledger/aries-cloudagent-python/pull/1543), we can use it to filter connections made with a specific public did.
-
-This PR adds the filter option to the get all connections endpoint. Same as with #1453, this will only work for connections made after PR #1453 was merged or if the upgrade command has been run
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-22 10:01:55 +0000 UTC
-    </div>
-</div>
-
