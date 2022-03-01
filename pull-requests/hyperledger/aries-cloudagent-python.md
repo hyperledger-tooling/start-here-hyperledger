@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1647" class=".btn">#1647</a>
+            </td>
+            <td>
+                <b>
+                    Performance deme updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 16:20:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1646" class=".btn">#1646</a>
             </td>
             <td>

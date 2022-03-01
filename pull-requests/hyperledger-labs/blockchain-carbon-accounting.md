@@ -95,7 +95,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    chore(deps): update dependency @nomiclabs/hardhat-waffle to v2.0.2 signed-off-by: renovate bot <bot@example.com>
+                    chore(deps): update dependency @nomiclabs/hardhat-waffle to v2.0.3 signed-off-by: renovate bot <bot@example.com>
                 </b>
             </td>
         </tr>
@@ -110,7 +110,7 @@ This PR contains the following updates:
 
 | Package | Change | Age | Adoption | Passing | Confidence |
 |---|---|---|---|---|---|
-| [@nomiclabs/hardhat-waffle](https://togithub.com/nomiclabs/hardhat) | [`^2.0.1` -> `2.0.2`](https://renovatebot.com/diffs/npm/@nomiclabs%2fhardhat-waffle/2.0.1/2.0.2) | [![age](https://badges.renovateapi.com/packages/npm/@nomiclabs%2fhardhat-waffle/2.0.2/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/@nomiclabs%2fhardhat-waffle/2.0.2/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/@nomiclabs%2fhardhat-waffle/2.0.2/compatibility-slim/2.0.1)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/@nomiclabs%2fhardhat-waffle/2.0.2/confidence-slim/2.0.1)](https://docs.renovatebot.com/merge-confidence/) |
+| [@nomiclabs/hardhat-waffle](https://togithub.com/nomiclabs/hardhat) | [`^2.0.1` -> `2.0.3`](https://renovatebot.com/diffs/npm/@nomiclabs%2fhardhat-waffle/2.0.1/2.0.3) | [![age](https://badges.renovateapi.com/packages/npm/@nomiclabs%2fhardhat-waffle/2.0.3/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/@nomiclabs%2fhardhat-waffle/2.0.3/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/@nomiclabs%2fhardhat-waffle/2.0.3/compatibility-slim/2.0.1)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/@nomiclabs%2fhardhat-waffle/2.0.3/confidence-slim/2.0.1)](https://docs.renovatebot.com/merge-confidence/) |
 
 ---
 
@@ -118,6 +118,17 @@ This PR contains the following updates:
 
 <details>
 <summary>nomiclabs/hardhat</summary>
+
+### [`v2.0.3`](https://togithub.com/nomiclabs/hardhat/releases/@&#8203;nomiclabs/hardhat-ethers@2.0.3)
+
+[Compare Source](https://togithub.com/nomiclabs/hardhat/compare/@nomiclabs/hardhat-waffle@2.0.2...@nomiclabs/hardhat-waffle@2.0.3)
+
+This release fixes an issue ([#&#8203;1247](https://togithub.com/nomiclabs/hardhat/issues/1247)) with `hardhat-ethers`, where the provider wasn't correctly reset after `hardhat_reset` was called.
+
+It also adds a better inspection result for ethers's BigNumber instances (issue [#&#8203;2109](https://togithub.com/nomiclabs/hardhat/issues/2109)). So now if you evaluate a BigNumber in the console, the result will look like this:
+
+    > ethers.BigNumber.from(1000)
+    BigNumber { value: "1000" }
 
 ### [`v2.0.2`](https://togithub.com/nomiclabs/hardhat/releases/@&#8203;nomiclabs/hardhat-waffle@2.0.2)
 
