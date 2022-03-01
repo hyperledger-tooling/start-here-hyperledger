@@ -15,30 +15,31 @@ permalink: /releases/hyperledger/firefly-helm-charts
         <tr>
             <td colspan="2">
                 <b>
-                    v0.3.0
+                    v0.3.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.3.0
+                    v0.3.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* [v0.3.0] Eliminating Need for Downloading Utility Tools by @hfuss in https://github.com/hyperledger/firefly-helm-charts/pull/20
-* Upgrades to `hyperledger/firefly:v0.13.0`
+* Bump DX version by @drewmarshburn in https://github.com/hyperledger/firefly-helm-charts/pull/22
+* Updating DX Plugin Name by @hfuss in https://github.com/hyperledger/firefly-helm-charts/pull/23
 
-**Full Changelog**: https://github.com/hyperledger/firefly-helm-charts/compare/v0.2.1...v0.3.0
+
+**Full Changelog**: https://github.com/hyperledger/firefly-helm-charts/compare/v0.3.0...v0.3.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-helm-charts/releases/tag/v0.3.0" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-helm-charts/releases/tag/v0.3.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-02-16 17:08:52 +0000 UTC
+        Created At 2022-03-01 14:14:32 +0000 UTC
     </span>
 </div>
 
