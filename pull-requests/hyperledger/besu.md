@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3508" class=".btn">#3508</a>
+            </td>
+            <td>
+                <b>
+                    3465 jwt auth
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+If merge and jwt auth is enabled, starts the Engine API (both websockets and http) requiring JWT auth as described in Kiln2 spec.
+
+Extracts an AuthenticationService interface and provides a Default (legacy) implementation alongside an Engine specific implementation. Either may be used from HTTP or Websocket stacks.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #3465 
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 22:27:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3505" class=".btn">#3505</a>
             </td>
             <td>
@@ -31,9 +72,9 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Add the ability to transition the miningbeneficiary for *bft (ibft2, qbft) consensus mechanisms. 
+Add the ability to transition the `miningbeneficiary` for *bft (ibft2, qbft) consensus mechanisms. 
 
-Example genesis file with miningbeneficiary transitions:
+Example genesis file with `miningbeneficiary` transitions:
 ```
 {
   "config": {
@@ -62,12 +103,19 @@ Example genesis file with miningbeneficiary transitions:
   ...
 }
 ```
+The `miningbeneficiary` will only be updated if there is a "miningbeneficiary" key in the `transitions.ibft2` array element.  Setting the `miningbeneficiary` to an empty value will clear out any override so that block rewards go to the miner rather than a global override address.  
+
+Other changes:
+* Keep the miningbeneficiary as an `Address` rather than a `String` in `BftConfigOptions` and make the conversion from `String` to `Address` strict (i.e. all 20 address bytes are required "0x01" is not valid). 
+* Fix `ThreadBesuNodeRunner` so that it respects a node's genesis config.
+
+
 ## Fixed Issue(s)
 Fixes #3115
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -473,41 +521,6 @@ fixes #2898
     </table>
     <div class="right-align">
         Created At 2022-02-23 03:11:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3485" class=".btn">#3485</a>
-            </td>
-            <td>
-                <b>
-                    Remove deprecated open telemetry proto dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Needed to add jaeger-proto dependency as per breaking changes info here https://github.com/open-telemetry/opentelemetry-java/releases/tag/v1.7.0
-
-Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-See #3406 
-Also updated grpc 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 00:56:30 +0000 UTC
     </div>
 </div>
 

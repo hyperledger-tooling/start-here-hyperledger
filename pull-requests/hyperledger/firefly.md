@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/556" class=".btn">#556</a>
+            </td>
+            <td>
+                <b>
+                    Update manifest versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-01 21:12:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/555" class=".btn">#555</a>
             </td>
             <td>
@@ -249,32 +275,6 @@ Example Response:
     </table>
     <div class="right-align">
         Created At 2022-02-23 22:56:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/544" class=".btn">#544</a>
-            </td>
-            <td>
-                <b>
-                    [transfer-type-query] allow filtering by type on token transfers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Echelberger <eberger727@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-22 20:22:50 +0000 UTC
     </div>
 </div>
 
