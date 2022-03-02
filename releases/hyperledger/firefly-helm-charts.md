@@ -15,6 +15,39 @@ permalink: /releases/hyperledger/firefly-helm-charts
         <tr>
             <td colspan="2">
                 <b>
+                    v0.3.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.3.2
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* [v0.3.2] Fixing FFDX Plugin and Latest Images by @hfuss in https://github.com/hyperledger/firefly-helm-charts/pull/24
+* Fixing FFDX Plugin Config by @hfuss in https://github.com/hyperledger/firefly-helm-charts/pull/25
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-helm-charts/compare/v0.3.1...v0.3.2
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-helm-charts/releases/tag/v0.3.2" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-03-02 00:41:46 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.3.1
                 </b>
             </td>

@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
         <tr>
             <td colspan="2">
                 <b>
-                    v0.1.5
+                    v0.1.6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.5
+                    v0.1.6
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Fixing Readiness Endpoint Check by @hfuss in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/23
+* Rename "operator" to "signer" in FireFly calls by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/28
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v0.1.4...v0.1.5
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v0.1.5...v0.1.6
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v0.1.5" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v0.1.6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-02-03 23:31:02 +0000 UTC
+        Created At 2022-03-01 20:25:52 +0000 UTC
     </span>
 </div>
 
