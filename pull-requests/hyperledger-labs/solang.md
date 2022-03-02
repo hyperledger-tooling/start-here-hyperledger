@@ -149,29 +149,3 @@ Changed
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/677" class=".btn">#677</a>
-            </td>
-            <td>
-                <b>
-                    Support abi.encodeCall() syntax (introduced in solc 0.8.12)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is nice syntax from solc-0.8.12 which type-checks the arguments.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 16:53:34 +0000 UTC
-    </div>
-</div>
-

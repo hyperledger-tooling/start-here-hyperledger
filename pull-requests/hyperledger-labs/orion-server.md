@@ -64,29 +64,3 @@ Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/353" class=".btn">#353</a>
-            </td>
-            <td>
-                <b>
-                    Catchup tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 14:47:33 +0000 UTC
-    </div>
-</div>
-

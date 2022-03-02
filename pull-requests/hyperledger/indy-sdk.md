@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/indy-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2485" class=".btn">#2485</a>
-            </td>
-            <td>
-                <b>
-                    [#2484] Provide a Java version of the Getting Started Walkthrough
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 14:04:50 +0000 UTC
-    </div>
-</div>
-

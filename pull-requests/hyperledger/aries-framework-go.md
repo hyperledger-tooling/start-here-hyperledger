@@ -14,11 +14,68 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3190" class=".btn">#3190</a>
+            </td>
+            <td>
+                <b>
+                    feat: add version id and version time to resolve DID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 16:50:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3189" class=".btn">#3189</a>
+            </td>
+            <td>
+                <b>
+                    feat: add BatchCrypto support in EDV
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change includes EDV batch Crypto computation to help support combining all MAC/Encryption/KW operations in one 1 call
+
+Part of #3175
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 16:12:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3188" class=".btn">#3188</a>
             </td>
             <td>
                 <b>
-                    wip: /kms/import supports importing ecdhkw private keys
+                    feat: /kms/import supports importing ecdhkw private keys
                 </b>
             </td>
         </tr>

@@ -104,7 +104,7 @@ fixes #3465
             </td>
             <td>
                 <b>
-                    [Issue 3115] Support changes to mining beneficiary
+                    [Issue 3115] Support mining beneficiary transitions
                 </b>
             </td>
         </tr>
@@ -483,39 +483,6 @@ Fixes #3378
     </table>
     <div class="right-align">
         Created At 2022-02-24 01:32:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3492" class=".btn">#3492</a>
-            </td>
-            <td>
-                <b>
-                    Renamed OP code RANDOM to PREVRANDAO
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-## Fixed Issue(s)
-fixes #3489 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 15:19:36 +0000 UTC
     </div>
 </div>
 

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 <b>
-                    Performance deme updates
+                    Performance demo updates
                 </b>
             </td>
         </tr>

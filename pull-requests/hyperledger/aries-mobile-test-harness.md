@@ -38,31 +38,3 @@ This PR adds the PIN creation steps to the test suites. The test will stay in WI
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/35" class=".btn">#35</a>
-            </td>
-            <td>
-                <b>
-                    Working Terms Acceptance Tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Working and passing Terms and Conditions Acceptance Tests. One derived functional tests still WIP. Will focus on derived tests after the Acceptance Tests across features are written. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 16:14:34 +0000 UTC
-    </div>
-</div>
-
