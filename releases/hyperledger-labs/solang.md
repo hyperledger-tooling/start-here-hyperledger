@@ -39,7 +39,6 @@ permalink: /releases/hyperledger-labs/solang
 - Solang now uses LLVM 13.0, based on the [Solana LLVM tree](https://github.com/solana-labs/llvm-project/)
 - The ast datastructure has been simplified.
 - Many bugfixes across the entire tree.
-
             </td>
         </tr>
     </table>
