@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/455" class=".btn">#455</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.33.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">changelog-excluded</span><span class="chip">pre-release</span>
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 11:56:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/454" class=".btn">#454</a>
             </td>
             <td>

@@ -14,6 +14,130 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1942" class=".btn">#1942</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #1918: Implement basic authentication for `client`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Added possibility to use [Basic Auth](https://www.twilio.com/docs/glossary/what-is-basic-authentication) for `client`
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+Closes #1918
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Simple use-case is to access Iroha, that is deployed on AWS servers, which requires Basic Auth
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+None
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests
+
+See `iroha_client::client::tests::basic_auth` module
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Suggestion
+
+May be we can use something like `iroha_doc` to generate docs for client's `config.json`. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 11:57:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1941" class=".btn">#1941</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: Added missing docs to `api_spec.md`.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+
+
+
+### Description of the Change
+
+Docs
+
+### Issue
+
+None
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Docs
+
+### Possible Drawbacks
+None
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 07:31:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1940" class=".btn">#1940</a>
             </td>
             <td>
@@ -296,51 +420,6 @@ Sorry for combining these changes together
     </table>
     <div class="right-align">
         Created At 2022-02-25 08:18:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1932" class=".btn">#1932</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #1726: Re-introduce API tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
-
-### Description of the Change
-
-Added a workflow that: 
-1. Runs tests that used to be run by `test-docker`, checking for API compatibility between `iroha` and `iroha_client_cli`. 
-2. Runs a benchmark. 
-3. Runs an Iroha-java API-compatibility test.
-
-This workflow triggers only when creating a release pull-request:  merging from `iroha2-dev` into `iroha2` (the "main" branch). 
-
-### Issue
-Closes #1726 
-
-### Benefits
-
-This is much-requested functionality that will help other SDK developers. 
-
-### Possible Drawbacks
-None
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 07:53:45 +0000 UTC
     </div>
 </div>
 

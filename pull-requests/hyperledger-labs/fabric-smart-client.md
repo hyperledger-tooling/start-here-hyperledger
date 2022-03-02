@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/240" class=".btn">#240</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/242" class=".btn">#242</a>
             </td>
             <td>
                 <b>
-                    weaver relay f2f sample
+                    larger keys in rw sets
                 </b>
             </td>
         </tr>
@@ -32,7 +32,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-21 15:45:49 +0000 UTC
+        Created At 2022-03-02 10:39:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/241" class=".btn">#241</a>
+            </td>
+            <td>
+                <b>
+                    Add event service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                The event service enables service-to-service communication via pub/sub
+
+Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 08:34:09 +0000 UTC
     </div>
 </div>
 

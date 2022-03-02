@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1247" class=".btn">#1247</a>
+            </td>
+            <td>
+                <b>
+                    add txid to proposal when doing a query
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                closes #1187
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 10:53:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1246" class=".btn">#1246</a>
+            </td>
+            <td>
+                <b>
+                    ensure endorsetimeout is set on v2 fabric connector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                closes #1245
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 10:38:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1244" class=".btn">#1244</a>
             </td>
             <td>
@@ -95,36 +153,6 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-02-23 14:29:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1236" class=".btn">#1236</a>
-            </td>
-            <td>
-                <b>
-                    fix the docs for specifying charts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #1126
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 10:35:39 +0000 UTC
     </div>
 </div>
 
