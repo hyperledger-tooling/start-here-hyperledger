@@ -167,29 +167,3 @@ The 2.2 branch of aiohttp-apispec requires Jinja2 < 3, while its 3.0 (beta) bran
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1638" class=".btn">#1638</a>
-            </td>
-            <td>
-                <b>
-                    Fix auto connection response not being properly mediated
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Connection responses associated with an invite that was created with mediation were not properly reporting the mediators endpoint and keys when automatically sent after receiving a connection request. This PR fixes this issue and also does some minor code clean up.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-22 18:26:12 +0000 UTC
-    </div>
-</div>
-

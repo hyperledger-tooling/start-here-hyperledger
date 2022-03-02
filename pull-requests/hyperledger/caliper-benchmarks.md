@@ -29,6 +29,8 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
             <td>
                 This gets java deploying and for the most part working, however there are problems in the way the java contract-api chaincode is implemented for fxed-asset which results in the benchmarks recording all failures for some of the benchmarks run, this will be addressed in #181 
 
+Also note that go chaincode for fixed-asset has been addressed in another issue and so this enables running the chaincode and benchmark in the build
+
 Signed-off-by: D <d_kelsey@uk.ibm.com>
             </td>
         </tr>

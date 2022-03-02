@@ -209,31 +209,3 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1329" class=".btn">#1329</a>
-            </td>
-            <td>
-                <b>
-                    Add Griddle to docker-compose-installed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prepares griddle for publishing to dockerhub during releases.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-22 18:35:25 +0000 UTC
-    </div>
-</div>
-
