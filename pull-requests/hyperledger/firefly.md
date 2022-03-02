@@ -195,6 +195,15 @@ I will put comments in-line in the code to help orient your review
 - The `/subscribe` endpoints on Contract Interfaces and APIs have been dropped
 - The `/contracts/listeners` endpoint can now take a interface reference to point it at an existing FFI, rather than putting the full FFI for the event inline
 - `blockchain_event` has been renamed to `blockchain_event_received`
+- The FFI generator endpoint for Ethereum now expects the ABI nested one level deeper. The payload should now look like:
+
+```json
+{
+  "input": {
+    "abi": []
+  }
+}
+```
             </td>
         </tr>
     </table>

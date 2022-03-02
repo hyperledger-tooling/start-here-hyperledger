@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/397" class=".btn">#397</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/398" class=".btn">#398</a>
             </td>
             <td>
                 <b>
-                    WIP: Checkpoint chaincode events
+                    Chaincode Event Checkpointing 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-01 12:02:46 +0000 UTC
+        Created At 2022-03-02 12:45:37 +0000 UTC
     </div>
 </div>
 

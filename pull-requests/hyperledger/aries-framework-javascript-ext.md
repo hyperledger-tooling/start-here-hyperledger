@@ -126,31 +126,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/96" class=".btn">#96</a>
-            </td>
-            <td>
-                <b>
-                    feat(rest): add cli and docker image publishing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add CLI to the rest (makes it usable without code) and also adds docker publishing. This means we don't have to set up a boilberplate project every time we use the rest server.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 16:05:01 +0000 UTC
-    </div>
-</div>
-

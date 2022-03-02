@@ -1,13 +1,13 @@
 
-[1942](https://github.com/hyperledger/iroha/pull/1942) [feature] #1918: Implement basic authentication for `client`
+[484](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/484) chore(deps): update dependency nodemon to v2.0.15 signed-off-by: renovate bot <bot@example.com>
 
-[455](https://github.com/hyperledger/aries-vcx/pull/455) Release 0.33.0
+[483](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/483) chore(deps): update dependency hardhat-gas-reporter to v1.0.8 signed-off-by: renovate bot <bot@example.com>
 
-[1247](https://github.com/hyperledger/caliper/pull/1247) add txid to proposal when doing a query
+[482](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/482) chore(deps): update dependency hardhat-deploy-ethers to v0.3.0-beta.13 signed-off-by: renovate bot <bot@example.com>
 
-[242](https://github.com/hyperledger-labs/fabric-smart-client/pull/242) larger keys in rw sets
+[3190](https://github.com/hyperledger/aries-framework-go/pull/3190) feat: add version id and version time to resolve DID
 
-[1246](https://github.com/hyperledger/caliper/pull/1246) ensure endorsetimeout is set on v2 fabric connector
+[96](https://github.com/hyperledger-labs/mirbft/pull/96) Use new gRPC and Protobuf API
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
