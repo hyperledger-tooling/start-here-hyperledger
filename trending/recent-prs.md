@@ -1,13 +1,13 @@
 
-[663](https://github.com/hyperledger/fabric-samples/pull/663) fix docs: Chaincode-as-a-service tutorial
+[1942](https://github.com/hyperledger/iroha/pull/1942) [feature] #1918: Implement basic authentication for `client`
 
-[3510](https://github.com/hyperledger/besu/pull/3510) Refactor trace api methods
+[455](https://github.com/hyperledger/aries-vcx/pull/455) Release 0.33.0
 
-[479](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/479) build(deps): bump plist from 3.0.2 to 3.0.4 in /open-offsets-directory/react
+[1247](https://github.com/hyperledger/caliper/pull/1247) add txid to proposal when doing a query
 
-[35](https://github.com/hyperledger/indy-sdk-react-native/pull/35) chore(deps): bump plist from 3.0.1 to 3.0.4
+[242](https://github.com/hyperledger-labs/fabric-smart-client/pull/242) larger keys in rw sets
 
-[478](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/478) chore(deps): update dependency plist to 3.0.4 [security]
+[1246](https://github.com/hyperledger/caliper/pull/1246) ensure endorsetimeout is set on v2 fabric connector
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/199" class=".btn">#199</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/201" class=".btn">#201</a>
             </td>
             <td>
                 <b>
-                    iroha-128 Migrated from `Gson` to `Jackson` for lib consistency in the project
+                    Iroha-200: schema updated
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-13 10:11:13 +0000 UTC
+        Created At 2022-03-02 07:01:40 +0000 UTC
     </div>
 </div>
 

@@ -363,16 +363,15 @@ This PR contains the following updates:
 <details>
 <summary>nomiclabs/hardhat</summary>
 
-### [`v2.0.3`](https://togithub.com/nomiclabs/hardhat/releases/@&#8203;nomiclabs/hardhat-ethers@2.0.3)
+### [`v2.0.3`](https://togithub.com/nomiclabs/hardhat/releases/@&#8203;nomiclabs/hardhat-waffle@2.0.3)
 
 [Compare Source](https://togithub.com/nomiclabs/hardhat/compare/@nomiclabs/hardhat-waffle@2.0.2...@nomiclabs/hardhat-waffle@2.0.3)
 
-This release fixes an issue ([#&#8203;1247](https://togithub.com/nomiclabs/hardhat/issues/1247)) with `hardhat-ethers`, where the provider wasn't correctly reset after `hardhat_reset` was called.
+This is a small patch release that improves how some errors are created.
 
-It also adds a better inspection result for ethers's BigNumber instances (issue [#&#8203;2109](https://togithub.com/nomiclabs/hardhat/issues/2109)). So now if you evaluate a BigNumber in the console, the result will look like this:
+#### Changelog
 
-    > ethers.BigNumber.from(1000)
-    BigNumber { value: "1000" }
+-   Improve how errors are created in the hardhat-waffle plugin ([#&#8203;2307](https://togithub.com/nomiclabs/hardhat/issues/2307))
 
 ### [`v2.0.2`](https://togithub.com/nomiclabs/hardhat/releases/@&#8203;nomiclabs/hardhat-waffle@2.0.2)
 
