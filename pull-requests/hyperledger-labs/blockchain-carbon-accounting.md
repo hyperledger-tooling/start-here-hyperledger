@@ -14,6 +14,146 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/479" class=".btn">#479</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump plist from 3.0.2 to 3.0.4 in /open-offsets-directory/react
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [plist](https://github.com/TooTallNate/node-plist) from 3.0.2 to 3.0.4.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/TooTallNate/plist.js/blob/master/History.md">plist's changelog</a>.</em></p>
+<blockquote>
+<h1>3.0.4 / 2021-08-27</h1>
+<ul>
+<li>inline xmldom@0.6.0 to eliminate security warning false positive (Mike Reinstein)</li>
+</ul>
+<h1>3.0.3 / 2021-08-04</h1>
+<ul>
+<li>update xmldom to 0.6.0 to patch critical vulnerability (Mike Reinstein)</li>
+<li>remove flaky saucelabs teseting badge (Mike Reinstein)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/TooTallNate/node-plist/commits">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=plist&package-manager=npm_and_yarn&previous-version=3.0.2&new-version=3.0.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/blockchain-carbon-accounting/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 02:42:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/478" class=".btn">#478</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): update dependency plist to 3.0.4 [security]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [![WhiteSource Renovate](https://app.renovatebot.com/images/banner.svg)](https://renovatebot.com)
+
+This PR contains the following updates:
+
+| Package | Change |
+|---|---|
+| plist | [`3.0.2` -> `3.0.4`](https://renovatebot.com/diffs/npm/plist/3.0.2/3.0.4) |
+
+### GitHub Vulnerability Alerts
+
+#### [CVE-2022-22912](https://nvd.nist.gov/vuln/detail/CVE-2022-22912)
+
+Prototype pollution vulnerability via .parse() in Plist before v3.0.4 allows attackers to cause a Denial of Service (DoS) and may lead to remote code execution.
+
+---
+
+### Configuration
+
+📅 **Schedule**: "" (UTC).
+
+🚦 **Automerge**: Disabled by config. Please merge this manually once you are satisfied.
+
+♻ **Rebasing**: Whenever PR becomes conflicted, or you tick the rebase/retry checkbox.
+
+🔕 **Ignore**: Close this PR and you won't be reminded about this update again.
+
+---
+
+ - [ ] <!-- rebase-check -->If you want to rebase/retry this PR, click this checkbox.
+
+---
+
+This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourcesoftware.com). View repository job log [here](https://app.renovatebot.com/dashboard#github/hyperledger-labs/blockchain-carbon-accounting).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 02:17:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/477" class=".btn">#477</a>
             </td>
             <td>
@@ -888,170 +1028,6 @@ Signed-off-by: brioux <Bertrand.rioux@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-02-23 13:36:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/461" class=".btn">#461</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): update dependency node-fetch [security]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                [![WhiteSource Renovate](https://app.renovatebot.com/images/banner.svg)](https://renovatebot.com)
-
-This PR contains the following updates:
-
-| Package | Change |
-|---|---|
-| node-fetch | [`2.6.1` -> `2.6.7`](https://renovatebot.com/diffs/npm/node-fetch/2.6.1/2.6.7) |
-| node-fetch | [`2.1.2` -> `2.6.1`](https://renovatebot.com/diffs/npm/node-fetch/2.1.2/2.6.1) |
-
-### GitHub Vulnerability Alerts
-
-#### [CVE-2022-0235](https://nvd.nist.gov/vuln/detail/CVE-2022-0235)
-
-node-fetch is vulnerable to Exposure of Sensitive Information to an Unauthorized Actor
-
-#### [CVE-2020-15168](https://togithub.com/node-fetch/node-fetch/security/advisories/GHSA-w7rc-rwvf-8q5r)
-
-### Impact
-Node Fetch did not honor the `size` option after following a redirect, which means that when a content size was over the limit, a `FetchError` would never get thrown and the process would end without failure.
-
-For most people, this fix will have a little or no impact. However, if you are relying on node-fetch to gate files above a size, the impact could be significant, for example: If you don't double-check the size of the data after `fetch()` has completed, your JS thread could get tied up doing work on a large file (DoS) and/or cost you money in computing.
-
-### Patches
-We released patched versions for both stable and beta channels:
-
-- For `v2`: 2.6.1
-- For `v3`: 3.0.0-beta.9
-
-### Workarounds
-None, it is strongly recommended to update as soon as possible.
-
-### For more information
-If you have any questions or comments about this advisory:
-* Open an issue in [node-fetch](https://togithub.com/node-fetch/node-fetch/issues/new?assignees=&labels=question&template=support-or-usage.md&title=Question%3A+)
-* Contact one of the core maintainers.
-
----
-
-### Configuration
-
-📅 **Schedule**: "" (UTC).
-
-🚦 **Automerge**: Disabled by config. Please merge this manually once you are satisfied.
-
-♻ **Rebasing**: Whenever PR becomes conflicted, or you tick the rebase/retry checkbox.
-
-👻 **Immortal**: This PR will be recreated if closed unmerged. Get [config help](https://togithub.com/renovatebot/renovate/discussions) if that's undesired.
-
----
-
- - [ ] <!-- rebase-check -->If you want to rebase/retry this PR, click this checkbox.
-
----
-
-This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourcesoftware.com). View repository job log [here](https://app.renovatebot.com/dashboard#github/hyperledger-labs/blockchain-carbon-accounting).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 02:22:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/460" class=".btn">#460</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): update dependency ajv to 6.12.3 [security]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                [![WhiteSource Renovate](https://app.renovatebot.com/images/banner.svg)](https://renovatebot.com)
-
-This PR contains the following updates:
-
-| Package | Change |
-|---|---|
-| ajv | [`5.5.2` -> `6.12.3`](https://renovatebot.com/diffs/npm/ajv/5.5.2/6.12.3) |
-
-### GitHub Vulnerability Alerts
-
-#### [CVE-2020-15366](https://nvd.nist.gov/vuln/detail/CVE-2020-15366)
-
-An issue was discovered in ajv.validate() in Ajv (aka Another JSON Schema Validator) 6.12.2. A carefully crafted JSON schema could be provided that allows execution of other code by prototype pollution. (While untrusted schemas are recommended against, the worst case of an untrusted schema should be a denial of service, not execution of code.)
-
----
-
-### Configuration
-
-📅 **Schedule**: "" (UTC).
-
-🚦 **Automerge**: Disabled by config. Please merge this manually once you are satisfied.
-
-♻ **Rebasing**: Whenever PR becomes conflicted, or you tick the rebase/retry checkbox.
-
-🔕 **Ignore**: Close this PR and you won't be reminded about this update again.
-
----
-
- - [ ] <!-- rebase-check -->If you want to rebase/retry this PR, click this checkbox.
-
----
-
-This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourcesoftware.com). View repository job log [here](https://app.renovatebot.com/dashboard#github/hyperledger-labs/blockchain-carbon-accounting).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 02:15:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/459" class=".btn">#459</a>
-            </td>
-            <td>
-                <b>
-                     working version to tokenize ups shipment emissions, encrypt and store data on ipfs 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 01:55:27 +0000 UTC
     </div>
 </div>
 

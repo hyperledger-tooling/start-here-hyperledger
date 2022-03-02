@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3510" class=".btn">#3510</a>
+            </td>
+            <td>
+                <b>
+                    Refactor trace api methods
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Refactor trace api methods to pave way for 
+https://github.com/hyperledger/besu/pull/3459
+https://github.com/hyperledger/besu/pull/3477
+https://github.com/hyperledger/besu/pull/3468
+
+Two abstract classes for code reuse and minimise the amount of merge conflict needed fixing
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 04:21:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3508" class=".btn">#3508</a>
             </td>
             <td>
@@ -471,56 +516,6 @@ fixes #3489
     </table>
     <div class="right-align">
         Created At 2022-02-23 15:19:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3486" class=".btn">#3486</a>
-            </td>
-            <td>
-                <b>
-                    Handle TTD and mining pre and post merge 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Correctly and consistently handle mining pre/post merge for PoW and Clique networks.  The majority of this PR is code from the merge branch which needed some 'treatment' in order to not cause regressions in behavior on main.
-
-* for clarity, rename isStoppedAtTerminalDifficulty to hasReachedTerminalDifficulty 
-* use AtomicReference for PostMergeContext rather than synchronized
-* add mining parameter override for consensus mechanisms that mine regardless of miningParameters
-* merge parameter validation from `merge` branch which allows mining parameters without PoW mining (if merge is enabled)
-* merge fix for optional in TxPoolEvictionService
-* fix for ancestorIsValidTerminalProofOfWork in MergeCoordinator when close to TTD
-* address Rayonism tech-debt, use setBlockChoiceRule at TTD rather than disabling reorg behavior entirely pre-merge
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #2898 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 03:11:26 +0000 UTC
     </div>
 </div>
 
