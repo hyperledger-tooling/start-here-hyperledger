@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
@@ -261,9 +261,9 @@ None
 The changelog can be found [here](https://github.com/hyperledger/iroha/pull/1937/files#diff-2c623f3c6a917be56c59d43279244996836262cb1e12d9d0786c9c49eef6b43c)
 
 ## Release checklist
-- [ ] The crates have been version bumped.
-- [ ] Iroha successfully passes all CI checks
-- [ ] Iroha passed all QA tests
+- [x] The crates have been version bumped.
+- [x] Iroha successfully passes all CI checks
+- [x] Iroha passed all QA tests
 - [ ] Iroha lasted for five days at the longevity stand
 - [ ] Standard benchmarks are ran and the results are recorded in the repository
 - [ ] Iroha documentation and tutorial are up to date. 

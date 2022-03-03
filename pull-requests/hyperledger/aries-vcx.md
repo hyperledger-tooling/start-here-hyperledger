@@ -118,29 +118,3 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/448" class=".btn">#448</a>
-            </td>
-            <td>
-                <b>
-                    Wait for ack
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-24 11:36:33 +0000 UTC
-    </div>
-</div>
-

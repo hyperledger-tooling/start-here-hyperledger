@@ -95,30 +95,3 @@ Signed-off-by: Abhinav Kumar <AbhinavKumar18@ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/175" class=".btn">#175</a>
-            </td>
-            <td>
-                <b>
-                    address fabcar benchmarks taking too long
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #158
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-24 12:12:41 +0000 UTC
-    </div>
-</div>
-

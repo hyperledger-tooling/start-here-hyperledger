@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/221" class=".btn">#221</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/222" class=".btn">#222</a>
             </td>
             <td>
                 <b>
-                    chore: update to latest orb
+                    feat: add support to resolve with versionId or versionTime
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-01 20:34:15 +0000 UTC
+        Created At 2022-03-03 09:35:54 +0000 UTC
     </div>
 </div>
 
