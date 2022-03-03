@@ -98,29 +98,3 @@ Also tested to work in React Native
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/649" class=".btn">#649</a>
-            </td>
-            <td>
-                <b>
-                    feat: issue credential v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-24 13:16:59 +0000 UTC
-    </div>
-</div>
-

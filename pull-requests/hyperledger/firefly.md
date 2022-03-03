@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/577" class=".btn">#577</a>
+            </td>
+            <td>
+                <b>
+                    Add missing itype column in SQLite migration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The testing for #549 focussed on PostgreSQL and one of the updates to the migration got missed in the SQLite one.
+
+Raising and will do a test before looking for a review.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-03 14:23:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/556" class=".btn">#556</a>
             </td>
             <td>
