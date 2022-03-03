@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    BC Wallet PIN creation
+                    workaround for iOS input fields
                 </b>
             </td>
         </tr>
@@ -29,12 +29,14 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
             <td>
                 Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
 
-This PR adds the PIN creation steps to the test suites. The test will stay in WIP and not run as part of the daily CI runs since security at this point is not implemented. The PIN steps are to get through what is existing in the wallet to be able to test issue credential and proof. 
+This PR implements a workaround for a problem in the BC wallet PIN Creation screen with iOS where input fields may have multiple elements with the same accessibility id (label). We now do a get elements (plural) and pick the one for the input before we do a sendKeys(). This is a workaround and hopefully we can get a build where the accessibility id is unique. However, it may be an idiosyncrasy with iOS.
+
+For AMTH in general this PR contains an update to BasePage with a new method to get the multiple elements by accessibility id. fyi @dipeshnb
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-23 22:41:46 +0000 UTC
+        Created At 2022-03-03 00:53:11 +0000 UTC
     </div>
 </div>
 

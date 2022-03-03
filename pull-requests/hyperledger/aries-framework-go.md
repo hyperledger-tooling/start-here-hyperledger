@@ -369,30 +369,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3179" class=".btn">#3179</a>
-            </td>
-            <td>
-                <b>
-                    feat: credential manifest - include style in resolved results
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sudesh.shetty <sudesh.shetty@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 22:55:29 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/155" class=".btn">#155</a>
+            </td>
+            <td>
+                <b>
+                    allow export import admin endpoint from UI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+
+#### Type of change
+- New feature
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 19:28:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/154" class=".btn">#154</a>
+            </td>
+            <td>
+                <b>
+                    add osnadmin_url in validator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+allow setting and editing of `osnadmin_url`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 19:21:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/153" class=".btn">#153</a>
             </td>
             <td>

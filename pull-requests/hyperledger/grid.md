@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1338" class=".btn">#1338</a>
+            </td>
+            <td>
+                <b>
+                    Add initial setup for the Batch Tracking Store
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds several things: a diesel DB schema file for the Batch Tracking store db, DB struct models and their associated Rust struct representations along with conversion methods, and the initial BatchTrackingStore trait and several associated methods.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 20:00:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1337" class=".btn">#1337</a>
             </td>
             <td>
@@ -147,35 +173,6 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-02-24 18:34:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1332" class=".btn">#1332</a>
-            </td>
-            <td>
-                <b>
-                    Fix grid-ui build on M1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Without this change, the sapling stage fails with an error about
-missing python.
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-23 19:32:47 +0000 UTC
     </div>
 </div>
 
