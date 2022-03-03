@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3514" class=".btn">#3514</a>
+            </td>
+            <td>
+                <b>
+                    Emeritus 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I propose moving the following maintainer to Emeritus status, pursuant to the inactivity clause. These maintainers have had no activity since September 2021:
+* @vmichalik  - last Besu activity was in September 2021 #2718 
+
+We very much appreciate their contributions but moving their status to emeritus (and thus revoking PR approval privileges) is in the interest of an orderly project. If any of these maintainers express in this PR that they intend to make contributions in the next quarter, then they will not be moved to emeritus status.
+I propose this vote is open until either an absolute majority of active maintainers votes for the same outcome, or until two weeks has passed, after which a voting majority will determine the outcome (with a tie resulting in no change).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-03 00:57:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3511" class=".btn">#3511</a>
+            </td>
+            <td>
+                <b>
+                    [#2766]fix: clean up deprecation warnings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sandra Wang <yx97.wang@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+fixes #2766
+
+Hi reviewers, this is my first PR as a contributor. It is still WIP. Just want to get some opinion first to make sure I am on the right track. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 21:42:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3510" class=".btn">#3510</a>
             </td>
             <td>
@@ -131,20 +201,20 @@ Example genesis file with `miningbeneficiary` transitions:
       "requesttimeoutseconds": 5,
       "blockreward": "5000000000000000000",
       "miningbeneficiary": "0x0000000000000000000000000000000000000001"
+    },
+    "transitions": {
+      "ibft2": [
+          {
+              "block": 10000, 
+              "miningbeneficiary": "",
+          },
+          {
+              "block": 20000, 
+              "miningbeneficiary": "0x0000000000000000000000000000000000000002",
+          }
+      ]
     }
   },
-  "transitions": {
-    "ibft2": [
-        {
-            "block": 10000, 
-            "miningbeneficiary": "",
-        },
-        {
-            "block": 20000, 
-            "miningbeneficiary": "0x0000000000000000000000000000000000000002",
-        }
-    ]
-  }
   ...
 }
 ```

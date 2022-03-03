@@ -1,13 +1,13 @@
 
-[484](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/484) chore(deps): update dependency nodemon to v2.0.15 signed-off-by: renovate bot <bot@example.com>
+[3514](https://github.com/hyperledger/besu/pull/3514) Emeritus 
 
-[483](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/483) chore(deps): update dependency hardhat-gas-reporter to v1.0.8 signed-off-by: renovate bot <bot@example.com>
+[37](https://github.com/hyperledger/aries-mobile-test-harness/pull/37) workaround for iOS input fields
 
-[482](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/482) chore(deps): update dependency hardhat-deploy-ethers to v0.3.0-beta.13 signed-off-by: renovate bot <bot@example.com>
+[1892](https://github.com/hyperledger/cactus/pull/1892) test: jestify jwt-unprotected-endpoint-authz-ops-confirm
 
-[3190](https://github.com/hyperledger/aries-framework-go/pull/3190) feat: add version id and version time to resolve DID
+[235](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/235) Remove extra buttons from cred
 
-[96](https://github.com/hyperledger-labs/mirbft/pull/96) Use new gRPC and Protobuf API
+[1891](https://github.com/hyperledger/cactus/pull/1891) test(get-single-status-endpoint-invalid): jestify get-single-status-endpoint-invalid
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,106 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1892" class=".btn">#1892</a>
+            </td>
+            <td>
+                <b>
+                    test: jestify jwt-unprotected-endpoint-authz-ops-confirm
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Migrated test from Tap to Jest
+
+File Path:
+packages/cactus-cmd-api-server/src/test/typescript/
+integration/jwt-unprotected-endpoint-authz-ops-confirm.test.ts
+
+This is a PARTIAL resolution to issue hyperledger#238
+
+Signed-off-by: awadhana <awadhana2021@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-03 00:39:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1891" class=".btn">#1891</a>
+            </td>
+            <td>
+                <b>
+                    test(get-single-status-endpoint-invalid): jestify get-single-status-endpoint-invalid
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Migrated test from Tap to Jest
+
+File Path:
+packages/cactus-test-plugin-htlc-eth-besu-erc20/src/test/typescript/integration/plugin-htlc-eth-besu-erc20/get-single-status-endpoint-invalid.test.ts
+
+This is a PARTIAL resolution to issue #238
+
+Signed-off-by: awadhana <awadhana2021@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 23:20:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1889" class=".btn">#1889</a>
+            </td>
+            <td>
+                <b>
+                    Cactus test plugin htlc eth besu erc20/withdraw endpoint invalid
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Besu</span><span class="chip">Tests</span><span class="chip">Jestify</span>
+            </td>
+            <td>
+                Migrated test from Tap to Jest.
+
+File Path:
+packages/cactus-test-plugin-htlc-eth-besu-erc20/src/test/typescript/integration/plugin-htlc-eth-besu-erc20/withdraw-endpoint-invalid-id.test.ts
+
+This is a PARTIAL resolution to issue https://github.com/hyperledger/cactus/issues/238
+
+Signed-off-by: awadhana <awadhana2021@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-02 19:07:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1888" class=".btn">#1888</a>
             </td>
             <td>

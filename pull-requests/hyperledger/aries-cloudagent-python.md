@@ -139,31 +139,3 @@ Fixes #1532
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1642" class=".btn">#1642</a>
-            </td>
-            <td>
-                <b>
-                    Pin markupsafe at version 2.0.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Temporary fix due to breaking changes in the dependency.
-
-The 2.2 branch of aiohttp-apispec requires Jinja2 < 3, while its 3.0 (beta) branch supports newer Jinja2 versions which would likely also bypass this issue. We can either test out the current beta or wait for a new release there.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-24 00:50:38 +0000 UTC
-    </div>
-</div>
-
