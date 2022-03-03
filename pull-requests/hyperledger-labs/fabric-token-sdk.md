@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/185" class=".btn">#185</a>
+            </td>
+            <td>
+                <b>
+                    remove ttx package #184
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-03 15:02:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/183" class=".btn">#183</a>
+            </td>
+            <td>
+                <b>
+                    add metadata to transfer action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-03 14:52:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/182" class=".btn">#182</a>
             </td>
             <td>
@@ -114,8 +166,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             <td>
                 This goal of this Pull Request is manyfold.
 - Introduce a service package for NFT (`nftcc`). This package will augment a `ttxcc` transaction with methods targeting NFTs. 
-- Replace the existing DvP integration test with one that mixes fungible and non-fungile tokens
-- Remove `ttx` package used before to mix token transaction and arbitrary Fabric RW sets.
 - Update the documentation
 
 In a subsequent PR, the integration test will be used to create a sample app.

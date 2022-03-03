@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/7" class=".btn">#7</a>
+            </td>
+            <td>
+                <b>
+                    Chaincode operations addition through fabric sdk
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Chaincode approve and commit operations added
+- REST API added for performing chaincode operations
+
+Signed-off-by: Puneet Joshi <puneet.joshi@walmart.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-03 17:36:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/5" class=".btn">#5</a>
             </td>
             <td>

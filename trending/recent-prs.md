@@ -1,13 +1,13 @@
 
-[182](https://github.com/hyperledger-labs/fabric-token-sdk/pull/182) remove dvp integration test
+[7](https://github.com/hyperledger-labs/hlf-connector/pull/7) Chaincode operations addition through fabric sdk
 
-[655](https://github.com/hyperledger/aries-framework-javascript/pull/655) feat(core): add OOB record
+[17](https://github.com/hyperledger/iroha-2-docs/pull/17) docs: chores, update sidebar
 
-[14](https://github.com/hyperledger/iroha-2-docs/pull/14) Update trusted-peers.md
+[223](https://github.com/hyperledger/aries-framework-go-ext/pull/223) fix: replace GetSigningKey with GetSigner
 
-[13](https://github.com/hyperledger/iroha-2-docs/pull/13) Update running-iroha-on-bare-metal.md
+[141](https://github.com/hyperledger/sawtooth-lib/pull/141) Fix Rust 1.59 lint
 
-[222](https://github.com/hyperledger/aries-framework-go-ext/pull/222) feat: add support to resolve with versionId or versionTime
+[667](https://github.com/hyperledger/fabric-samples/pull/667) fix addOrg3 for test network
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

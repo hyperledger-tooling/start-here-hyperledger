@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1893" class=".btn">#1893</a>
+            </td>
+            <td>
+                <b>
+                    docs: minor tweaks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                -add mention to test running via interface
+-explain in more detail the docker requirement
+-fix small bug preventing the correct execution of generate-api-server
+
+cc @petermetz 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-03 14:35:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1892" class=".btn">#1892</a>
             </td>
             <td>
@@ -242,32 +272,6 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </table>
     <div class="right-align">
         Created At 2022-02-28 16:15:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1880" class=".btn">#1880</a>
-            </td>
-            <td>
-                <b>
-                    docs(faq): add instructions to install in Apple M1 processor (ARM-based)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Description of the installation process for Apple M1 processors.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-24 12:57:49 +0000 UTC
     </div>
 </div>
 

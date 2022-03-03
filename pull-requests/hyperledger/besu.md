@@ -175,11 +175,17 @@ I propose this vote is open until either an absolute majority of active maintain
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+This PR is to clean up deprecation warnings raised in issue #2766 
+This PR cleans up: 
+- Quantity Interface getValue()
+- LegacyPrivateStateStorage
+- OKHttpStreamClient
+I am going to create more separate PRs to address warnings that are specific to the concerns. 
 
 ## Fixed Issue(s)
 fixes #2766
 
-Hi reviewers, this is my first PR as a contributor. It is still WIP. Just want to get some opinion first to make sure I am on the right track. 
+I move `GraphQLDataFetcherContext` to a separate PR.
             </td>
         </tr>
     </table>
@@ -556,43 +562,6 @@ Release 22.1.1
     </table>
     <div class="right-align">
         Created At 2022-02-24 18:55:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3495" class=".btn">#3495</a>
-            </td>
-            <td>
-                <b>
-                    Rename field random to prevRandao
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-Renames the field `random` in ExecutionPayloadV1, PayloadAttributesV1 and the block header to `prevRandao` to be Kiln spec v2 compatible.
-
-## PR description
-
-## Fixed Issue(s)
-fixes #3490
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-24 14:04:34 +0000 UTC
     </div>
 </div>
 
