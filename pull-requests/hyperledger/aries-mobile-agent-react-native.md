@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/236" class=".btn">#236</a>
+            </td>
+            <td>
+                <b>
+                    Home screen bug fixes 2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Home Screen UI/UX fixes and others:
+* Locks orientation in portrait mode
+* Invalid QR code no longer displays connection modal
+* Accepting a credential offer will navigate to credential list only
+* Improves colour contrast for error message on scan screen
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+
+If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
+
+- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [ ] Run prettier: `npm run style-format`
+- [ ] Updated **documentation** for changed code and new or modified features.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-03 01:29:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/235" class=".btn">#235</a>
             </td>
             <td>
@@ -617,59 +669,6 @@ _PR template adapted from the Python attrs project._
     </table>
     <div class="right-align">
         Created At 2022-02-24 23:31:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/221" class=".btn">#221</a>
-            </td>
-            <td>
-                <b>
-                    Navigation refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-* Refactors navigation screens to three tab layout
-* Restyles scan button on bottom tab bar
-* Adds headers back to screen stacks
-* Adds a settings icon to header bar in main screen stacks
-* Adds notification hook to display badges in bottom tab bar
-* Expands enumerators for screens and stack names
-
-# Related Issues
-
-N/A
-
-# Pull Request Checklist
-
-This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-
-If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
-
-- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
-- [ ] Run prettier: `npm run style-format`
-- [ ] Updated **documentation** for changed code and new or modified features.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-24 01:27:26 +0000 UTC
     </div>
 </div>
 

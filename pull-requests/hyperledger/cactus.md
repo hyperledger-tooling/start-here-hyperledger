@@ -58,7 +58,7 @@ Signed-off-by: awadhana <awadhana2021@gmail.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Tests</span><span class="chip">Jestify</span>
             </td>
             <td>
                 Migrated test from Tap to Jest
