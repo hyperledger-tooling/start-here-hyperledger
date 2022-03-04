@@ -3,11 +3,11 @@
 
 [274](https://github.com/hyperledger-labs/fablo/issues/274) Update Node.js runtime compatibility
 
+[1776](https://github.com/hyperledger/iroha/pull/1776) Added possibility to configure max past time of transaction created_time
+
 [280](https://github.com/hyperledger-labs/go-perun/issues/280) Implement Data.Equal
 
 [1673](https://github.com/hyperledger/iroha/issues/1673) Make use of `AsRef`, `AsMut` and `From` for versioned containers
-
-[79](https://github.com/hyperledger-labs/mirbft/issues/79) Follow-up Events
 
 
 [See more >>>](https://start-here.hyperledger.org/issues)
