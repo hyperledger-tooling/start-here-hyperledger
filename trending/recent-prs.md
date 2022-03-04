@@ -1,13 +1,13 @@
 
-[99](https://github.com/hyperledger/aries-framework-javascript-ext/pull/99) build(deps): bump urijs from 1.19.8 to 1.19.9
+[18](https://github.com/hyperledger/iroha-2-docs/pull/18) Fix appendix dead link
 
-[1880](https://github.com/hyperledger/bevel/pull/1880) Bump urijs from 1.19.8 to 1.19.9 in /examples/supplychain-app/fabric/chaincode_rest_server/rest-server
+[3523](https://github.com/hyperledger/besu/pull/3523) updated several dependencies
 
-[487](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/487) chore(deps): update dependency solidity-coverage to v0.7.20 signed-off-by: renovate bot <bot@example.com>
+[58](https://github.com/hyperledger/indy-did-method/pull/58) docs: remove DIDDoc validation requiring current DID Core JSON-LD context
 
-[486](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/486) chore(deps): update dependency prettier-plugin-solidity to v1.0.0-beta.19 signed-off-by: renovate bot <bot@example.com>
+[1951](https://github.com/hyperledger/iroha/pull/1951) [ci]: add proper tag to push workflow on main.
 
-[668](https://github.com/hyperledger/fabric-samples/pull/668) Update test-network-k8s to use two digit version
+[3520](https://github.com/hyperledger/besu/pull/3520) [MINOR] addressed some sonar code smells
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

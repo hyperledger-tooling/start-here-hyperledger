@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1951" class=".btn">#1951</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: add proper tag to push workflow on main.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+Final PR to be merged into RC2. 
+
+
+### Description of the Change
+
+Changes the tag for the push of the main docker container to the appropriate version number. 
+
+### Issue
+
+None
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Finality
+
+### Possible Drawbacks
+
+None
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 05:32:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1950" class=".btn">#1950</a>
             </td>
             <td>
@@ -301,16 +350,16 @@ The changelog can be found [here](https://github.com/hyperledger/iroha/pull/1937
 - [x] Iroha passed all QA tests
 - [ ] Iroha lasted for five days at the longevity stand
 - [ ] Standard benchmarks are ran and the results are recorded in the repository
-- [ ] Iroha documentation and tutorial are up to date. 
-- [ ] SDKs compiled successfully using the schema from latest branch (Hash: 9a149eecb00485f71fd23179dd16a73815d739b2)
-  - [ ] Java
-  - [ ] JavaScript
-  - [ ] Swift
-- [ ] All SDK tests pass
-  - [ ] Java
-  - [ ] JavaScript
-  - [ ] Swift
-- [ ] (Optional) SDKs implemented the main features added in the current release
+- [x] Iroha documentation and tutorial are up to date. 
+- [x] SDKs compiled successfully using the schema from latest branch (Hash: 9a149eecb00485f71fd23179dd16a73815d739b2)
+  - [x] Java
+  - [x] JavaScript
+  - [x] Swift (N/A)
+- [x] All SDK tests pass
+  - [x] Java
+  - [x] JavaScript
+  - [x] Swift (N/A)
+- [x] (Optional) SDKs implemented the main features added in the current release (N/A)
 
 
 ## Comments 
