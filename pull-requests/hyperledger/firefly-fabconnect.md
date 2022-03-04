@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/80" class=".btn">#80</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/81" class=".btn">#81</a>
             </td>
             <td>
                 <b>
-                    Revert updates to cert encoding
+                    Fill in event fields from transactions that do not publish events
                 </b>
             </td>
         </tr>
@@ -27,12 +27,44 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                The earlier change broke FireFly
+                If a transaction does not publish an event, the event object published by the event stream has mostly empty fields:
+
+```
+{
+    "chaincodeId": "",
+    "blockNumber": 12,
+    "transactionId": "",
+    "transactionIndex": 0,
+    "eventIndex": 0,
+    "eventName": "",
+    "payload": "",
+    "timestamp": 1645073064291071927,
+    "subId": "sb-f2d3ed2e-2f34-4b79-7763-87755a3f8391"
+  }
+```
+
+The fields `chaincodeId` and `transactionId` should be filled in from the transaction object that contained the event.
+
+After the fix, the fields are filled in:
+
+```
+{
+    "chaincodeId": "_lifecycle",
+    "blockNumber": 12,
+    "transactionId": "052935d3e4debb3e67b40249153ec006f2d419b058df7f604b9b3311796b8934",
+    "transactionIndex": 0,
+    "eventIndex": 0,
+    "eventName": "",
+    "payload": "",
+    "timestamp": 1645073064291071927,
+    "subId": "sb-f2d3ed2e-2f34-4b79-7763-87755a3f8391"
+  }
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-21 15:27:38 +0000 UTC
+        Created At 2022-03-03 19:33:02 +0000 UTC
     </div>
 </div>
 

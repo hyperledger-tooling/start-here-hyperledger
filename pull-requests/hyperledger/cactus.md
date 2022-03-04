@@ -65,6 +65,9 @@ integration/jwt-unprotected-endpoint-authz-ops-confirm.test.ts
 
 This is a PARTIAL resolution to issue hyperledger#238
 
+NOT ready to merge, I need to correct the way .toRejects() happens
+
+
 Signed-off-by: awadhana <awadhana2021@gmail.com>
             </td>
         </tr>

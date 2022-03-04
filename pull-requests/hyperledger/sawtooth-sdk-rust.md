@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/78" class=".btn">#78</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/79" class=".btn">#79</a>
             </td>
             <td>
                 <b>
-                    Add missing fields to intkey Cargo.toml
+                    Fix "needless_late_init" Clippy lint
                 </b>
             </td>
         </tr>
@@ -27,14 +27,19 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
                 
             </td>
             <td>
-                Cargo refuses to publish if description and license are missing.
+                This lint was introduced in 1.59v of Rust
 
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+Checks for late initializations that can be replaced by
+a let statement with an initializer.
+
+Assigning in the let statement is less repetitive.
+
+Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-03 19:55:50 +0000 UTC
+        Created At 2022-03-03 21:59:26 +0000 UTC
     </div>
 </div>
 

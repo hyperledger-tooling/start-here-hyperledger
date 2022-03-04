@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/58" class=".btn">#58</a>
             </td>
             <td>
                 <b>
-                    Alter formatting of blockchain event IDs to match FireFly core
+                    Add location and signature fields
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-01 20:34:33 +0000 UTC
+        Created At 2022-03-03 21:20:32 +0000 UTC
     </div>
 </div>
 
