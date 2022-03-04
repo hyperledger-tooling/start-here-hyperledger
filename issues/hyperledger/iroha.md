@@ -14,6 +14,32 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/1812" class=".btn">1812</a>
+            </td>
+            <td>
+                <b>
+                    Add warnings when `iroha` is given unrecognised command-line flags.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">UI</span>
+            </td>
+            <td>
+                Currently, the Iroha peer binary ignores the command line flags that are incorrect. Since the number of flags is limited, it should be possible to provide an efficient sanity check for the end user, warning of any unrecognised flags. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-01-13 06:30:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/pull/1776" class=".btn">1776</a>
             </td>
             <td>
