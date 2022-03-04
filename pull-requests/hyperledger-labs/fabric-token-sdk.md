@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/187" class=".btn">#187</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] token selector: streamline filter interfaces #186
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 07:24:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/185" class=".btn">#185</a>
             </td>
             <td>
@@ -144,67 +170,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-03-01 07:31:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/174" class=".btn">#174</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] NFT support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This goal of this Pull Request is manyfold.
-- Introduce a service package for NFT (`nftcc`). This package will augment a `ttxcc` transaction with methods targeting NFTs. 
-- Update the documentation
-
-In a subsequent PR, the integration test will be used to create a sample app.
-
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-25 12:11:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/171" class=".btn">#171</a>
-            </td>
-            <td>
-                <b>
-                    nwo: support setup update after key generation #170
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - add auditors to public params directly
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-25 07:34:53 +0000 UTC
     </div>
 </div>
 

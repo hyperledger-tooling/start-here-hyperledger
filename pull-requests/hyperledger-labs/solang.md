@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/686" class=".btn">#686</a>
+            </td>
+            <td>
+                <b>
+                    Refactor unescape function
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The `unescape` function in `sema/expression` could not handle escape constructs, such as `\xf4` and `\u00c3`. This PR fixes such a bug.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 11:16:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/685" class=".btn">#685</a>
+            </td>
+            <td>
+                <b>
+                    WIP: array of structs should not be array of pointers to struct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 09:51:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/684" class=".btn">#684</a>
             </td>
             <td>

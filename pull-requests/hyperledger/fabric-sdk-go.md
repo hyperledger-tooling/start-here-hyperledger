@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/221" class=".btn">#221</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/225" class=".btn">#225</a>
             </td>
             <td>
                 <b>
-                    pkg/client/channel/invoke: fix bug in validate
+                    Recreate event service if WithNoCache() opt used
                 </b>
             </td>
         </tr>
@@ -27,12 +27,24 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                When using couchdb, Json is stored alphabetically, while golang "encoding/json" orders json by struct-field order. There could be an error when user invoke/query peer with both couchdb-peer and leveldb-peer. The same problem could also happen when we use both javaCC and goCC.
+                This PR adds WithNoCache() func opt to the event client constructor to force reinitialization of event client instead of using an event client from cache. 
+
+Now if two event clients will be created with the same EventService if the same context.ChannelProvider (`New(channelProvider context.ChannelProvider, opts ...ClientOption)`) was passed. As a result, the passed functional options are ignored. 
+
+Example of undocumented behaviour:
+
+```
+eventClient1, err := event.New(chPrvdr, event.WithBlockEvents(), event.WithSeekType(seek.FromBlock), event.WithBlockNum(0))
+...
+eventClient2, err := event.New(chPrvdr, event.WithBlockEvents(), event.WithSeekType(seek.FromBlock), event.WithBlockNum(10))
+```
+
+eventClient2 will listen not from 10 block, but from 0. Expected behavior: the client will listen from the 10 block.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-07 03:21:21 +0000 UTC
+        Created At 2022-03-04 09:48:39 +0000 UTC
     </div>
 </div>
 

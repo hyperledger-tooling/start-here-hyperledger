@@ -1,13 +1,13 @@
 
-[18](https://github.com/hyperledger/iroha-2-docs/pull/18) Fix appendix dead link
+[224](https://github.com/hyperledger/aries-framework-go-ext/pull/224) chore: Replace GetSigningKey with GetSigner in orb VDR
 
-[3523](https://github.com/hyperledger/besu/pull/3523) updated several dependencies
+[962](https://github.com/hyperledger/besu-docs/pull/962) Remove IBFT 1.0 from docs
 
-[58](https://github.com/hyperledger/indy-did-method/pull/58) docs: remove DIDDoc validation requiring current DID Core JSON-LD context
+[686](https://github.com/hyperledger-labs/solang/pull/686) Refactor unescape function
 
-[1951](https://github.com/hyperledger/iroha/pull/1951) [ci]: add proper tag to push workflow on main.
+[1587](https://github.com/hyperledger/indy-plenum/pull/1587) Enforce LF for VScode
 
-[3520](https://github.com/hyperledger/besu/pull/3520) [MINOR] addressed some sonar code smells
+[722](https://github.com/hyperledger-labs/business-partner-agent/pull/722) fix security audit findings
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

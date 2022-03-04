@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/960" class=".btn">#960</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/962" class=".btn">#962</a>
             </td>
             <td>
                 <b>
-                    simplified splunk link
+                    Remove IBFT 1.0 from docs
                 </b>
             </td>
         </tr>
@@ -27,17 +27,43 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+                Signed-off-by: Achraf <achraf.sellami@consensys.net>
 
-Fixed splunk link 
+## Describe the change
+
+Remove all reference of IBFT 1.0 from the documentation as it is not supported anymore 
+
+## Impacted parts <!-- check as many boxes as needed -->
+
+### For content changes
 
 - [x] Doc content
 - [ ] Doc pages organisation
+
+### For tools changes
+
+- [ ] CircleCI workflow
+- [ ] Build and QA tools (lint, vale,…)
+- [ ] MkDocs templates
+- [ ] MkDocs configuration
+- [ ] Python dependencies
+- [ ] Node dependencies and JavaScript
+- [ ] ReadTheDocs configuration
+- [ ] GitHub integration
+
+## Testing
+
+<!-- Steps to follow to review and test your changes.
+Add links to preview the pages changes here.
+Link format is https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/
+Where {your PR number} must be replaced by the number of this PR, for instance 123
+-->
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-23 23:23:54 +0000 UTC
+        Created At 2022-03-04 11:23:18 +0000 UTC
     </div>
 </div>
 

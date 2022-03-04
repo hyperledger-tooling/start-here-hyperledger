@@ -54,7 +54,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                <nil>
+                There are still some places where it's not so nice because of preserving compatibility with old connection protocol initialization.
+
+I added `protocolCreateRequest` and `protocolProcessRequest` to `ConnectionService` but I want to separate them to`ConnectionProtocol` class later together with other "protocol" methods as `DidExchangeProtocol` class is organized.
+
+We can also add some events around the OOB record, but I also leave it out, for now, to keep it simple.
             </td>
         </tr>
     </table>
@@ -94,34 +98,6 @@ Signed-off-by: Timo Glastra <timo@animo.id>
     </table>
     <div class="right-align">
         Created At 2022-02-28 18:48:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/650" class=".btn">#650</a>
-            </td>
-            <td>
-                <b>
-                    feat: add wallet key derivation method option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds key derivation option as documented in the indy-sdk: https://github.com/hyperledger/indy-sdk/tree/master/wrappers/nodejs#createwallet--config-credentials----void
-
-Also tested to work in React Native
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-25 11:08:44 +0000 UTC
     </div>
 </div>
 
