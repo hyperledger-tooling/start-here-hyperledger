@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/688" class=".btn">#688</a>
+            </td>
+            <td>
+                <b>
+                    Make u256 the default type for YUL variables
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                After our discussion, I changed the default types for YUL variables to maintain compatibility with EVM.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 17:40:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/687" class=".btn">#687</a>
+            </td>
+            <td>
+                <b>
+                    Resolve yul literals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements the semantic analysis of YUL literals. The code is not yet fully integrated into Solang's sema, so there are workarounds to avoid build warnings.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 13:21:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/686" class=".btn">#686</a>
             </td>
             <td>

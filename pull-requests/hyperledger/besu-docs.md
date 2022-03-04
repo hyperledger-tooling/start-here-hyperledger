@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger/besu-docs
 
 ## Describe the change
 
-Remove all reference of IBFT 1.0 from the documentation as it is not supported anymore 
+Remove all reference of IBFT 1.0 from the documentation as it's only supported for GoQuorum migrations and can not be used to validate blocks
 
 ## Impacted parts <!-- check as many boxes as needed -->
 

@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/584" class=".btn">#584</a>
+            </td>
+            <td>
+                <b>
+                    Blockchain metrics for Ethereum
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR introduces blockchain metrics for:
+
+- FireFly performing a blockchain transaction with a smart contract method
+- FireFly querying the blockchain with a smart contract method
+- Events emitted by a smart contract that FireFly is listening for
+
+Each of these has two labels `location` and `methodName` for transactions/queries or `signature` (for events). The `location` is a blockchain specific appropriate string for describing where the event came from. The value of this label is 
+ in the format of `"<key1>=<value1>,<key2>=<value2>"`. For Ethereum, it is just `address=<contract_address>`.
+
+Fabric metrics will also be added in a subsequent PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 17:23:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/582" class=".btn">#582</a>
+            </td>
+            <td>
+                <b>
+                    Update batch logic to only store+hash the manifest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolved #506 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 12:58:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/579" class=".btn">#579</a>
             </td>
             <td>

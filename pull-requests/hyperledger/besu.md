@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3525" class=".btn">#3525</a>
+            </td>
+            <td>
+                <b>
+                    Log initial sync stats every 10 secs at max to avoid spamming logs 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #3450
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 17:08:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3523" class=".btn">#3523</a>
             </td>
             <td>
@@ -242,7 +283,7 @@ I propose this vote is open until either an absolute majority of active maintain
 ## PR description
 This PR is to clean up deprecation warnings raised in issue #2766 
 This PR cleans up: 
-- Quantity Interface getValue()
+- Quantity Interface getValue() [besu/plugin-api/src/main/java/org/hyperledger/besu/plugin/data/Quantity.java](https://github.com/hyperledger/besu/blob/35f16420eb5dc9e54a9510695316e8f590eee181/plugin-api/src/main/java/org/hyperledger/besu/plugin/data/Quantity.java#L35)
 - OKHttpStreamClient
 I am going to create more separate PRs to address warnings that are specific to the concerns. 
 
