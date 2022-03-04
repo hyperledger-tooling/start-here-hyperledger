@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                <nil>
+                Contributes to #377
             </td>
         </tr>
     </table>
@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                <nil>
+                Contributes to #362
             </td>
         </tr>
     </table>

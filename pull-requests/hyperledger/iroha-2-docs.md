@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/23" class=".btn">#23</a>
             </td>
             <td>
                 <b>
-                    Conflicts resolved
+                    More advanced grammar fixes.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: William Richter <richter@soramitsu.co.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 16:27:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    Advanced grammar
                 </b>
             </td>
         </tr>
@@ -32,7 +58,7 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-04 09:02:29 +0000 UTC
+        Created At 2022-03-04 13:46:46 +0000 UTC
     </div>
 </div>
 
@@ -139,240 +165,6 @@ Added small changes to make the tutorial fall in line with the feature changes (
     </table>
     <div class="right-align">
         Created At 2022-03-03 13:10:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/14" class=".btn">#14</a>
-            </td>
-            <td>
-                <b>
-                    Update trusted-peers.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 09:38:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/13" class=".btn">#13</a>
-            </td>
-            <td>
-                <b>
-                    Update running-iroha-on-bare-metal.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 09:36:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/12" class=".btn">#12</a>
-            </td>
-            <td>
-                <b>
-                    Update public-addresses.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 09:10:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/11" class=".btn">#11</a>
-            </td>
-            <td>
-                <b>
-                    Update peer-configuration.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 09:07:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/10" class=".btn">#10</a>
-            </td>
-            <td>
-                <b>
-                    Update logger.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 09:06:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/9" class=".btn">#9</a>
-            </td>
-            <td>
-                <b>
-                    Update kura.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 09:04:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/8" class=".btn">#8</a>
-            </td>
-            <td>
-                <b>
-                    Update keys.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 09:03:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/7" class=".btn">#7</a>
-            </td>
-            <td>
-                <b>
-                    Update intro.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 08:55:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/6" class=".btn">#6</a>
-            </td>
-            <td>
-                <b>
-                    Update appendix.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Grammar, typo and small fixes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 08:51:27 +0000 UTC
     </div>
 </div>
 

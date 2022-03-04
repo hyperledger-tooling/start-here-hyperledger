@@ -151,31 +151,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1335" class=".btn">#1335</a>
-            </td>
-            <td>
-                <b>
-                    Backport 0-2: Fix 1.59 clippy errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes the clippy formatting errors introduced with Rust v1.59
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-25 14:15:00 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1896" class=".btn">#1896</a>
+            </td>
+            <td>
+                <b>
+                    refactor(cmd-socketio): validators should be configurable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add the possibility to adjust connector behavior through separate config file.
+- Use node-config package for configuration management.
+- Add helper classes in validators for easy config entry retrieval.
+- Remove obsolete and unnecessary components.
+- Adjust sample applications to work in current setup.
+
+Closes: #1895
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+
+Note - the changes are very similar in all 3 affected ledger connectors.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 14:31:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1893" class=".btn">#1893</a>
             </td>
             <td>

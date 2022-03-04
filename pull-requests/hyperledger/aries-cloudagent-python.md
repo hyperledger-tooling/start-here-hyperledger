@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1646" class=".btn">#1646</a>
-            </td>
-            <td>
-                <b>
-                    Update Endorser documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update `Endorser.md` documentation to reflect the recent addition of `--auto-promote-author-did` parameter.
-
-Signed-off-by: Clément Humbert <clement.humbert@sicpa.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-25 14:59:15 +0000 UTC
-    </div>
-</div>
-

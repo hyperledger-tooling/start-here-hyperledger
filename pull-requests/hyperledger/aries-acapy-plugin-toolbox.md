@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/121" class=".btn">#121</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/123" class=".btn">#123</a>
             </td>
             <td>
                 <b>
-                    docs: handling interlaced QR code
+                    Feature/oob didex admin
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                Signed-off-by: Micah Peltier <micah6_8@yahoo.com>
+                Signed-off-by: Peter Strobel peter@indicio.tech
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-25 16:52:25 +0000 UTC
+        Created At 2022-03-04 17:56:10 +0000 UTC
     </div>
 </div>
 

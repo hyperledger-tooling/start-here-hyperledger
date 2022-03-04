@@ -188,30 +188,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/97" class=".btn">#97</a>
-            </td>
-            <td>
-                <b>
-                    feat(rest): added basic messages and receive invitation by url
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Added functionality to send basic messages
-- Added functionality to receive invitation by invitation url
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-25 12:59:21 +0000 UTC
-    </div>
-</div>
-
