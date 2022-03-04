@@ -340,32 +340,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3257" class=".btn">#3257</a>
-            </td>
-            <td>
-                <b>
-                    Release commit for v2.4.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update release notes, documentation, and scripts for v2.4.3.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-25 06:01:48 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3523" class=".btn">#3523</a>
+            </td>
+            <td>
+                <b>
+                    updated several dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Updated some but not all dependencies. 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 06:06:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3520" class=".btn">#3520</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] addressed some sonar code smells
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Fixed 4 code smells introduced recently to make sonar happy.
+Also minor change to shorten help message for --X-alg-native-enabled CLI options
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 04:15:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3518" class=".btn">#3518</a>
             </td>
             <td>
@@ -178,7 +243,6 @@ I propose this vote is open until either an absolute majority of active maintain
 This PR is to clean up deprecation warnings raised in issue #2766 
 This PR cleans up: 
 - Quantity Interface getValue()
-- LegacyPrivateStateStorage
 - OKHttpStreamClient
 I am going to create more separate PRs to address warnings that are specific to the concerns. 
 
