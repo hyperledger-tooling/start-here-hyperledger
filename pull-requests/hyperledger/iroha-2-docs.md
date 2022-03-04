@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/19" class=".btn">#19</a>
+            </td>
+            <td>
+                <b>
+                    Conflicts resolved
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-04 09:02:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/18" class=".btn">#18</a>
             </td>
             <td>
@@ -347,32 +373,6 @@ Added small changes to make the tutorial fall in line with the feature changes (
     </table>
     <div class="right-align">
         Created At 2022-03-03 08:51:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/5" class=".btn">#5</a>
-            </td>
-            <td>
-                <b>
-                    fix: update docs in several places
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-25 10:33:03 +0000 UTC
     </div>
 </div>
 

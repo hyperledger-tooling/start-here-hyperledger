@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/84" class=".btn">#84</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/85" class=".btn">#85</a>
             </td>
             <td>
                 <b>
-                    batch with relativ url not working. fixed.
+                    fix trivy job
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/indy-node-container
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-25 10:55:32 +0000 UTC
+        Created At 2022-03-04 08:26:22 +0000 UTC
     </div>
 </div>
 
