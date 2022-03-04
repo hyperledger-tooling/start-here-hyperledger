@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/218" class=".btn">#218</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/219" class=".btn">#219</a>
             </td>
             <td>
                 <b>
-                    Added support for revocation notifications
+                    Did exchange protocol
                 </b>
             </td>
         </tr>
@@ -28,21 +28,19 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
             </td>
             <td>
                 #### Short description of what this resolves:
+This PR adds support for did exchange protocol as defined by Aries RFC-0023 https://github.com/hyperledger/aries-rfcs/tree/b3a3942ef052039e73cd23d847f42947f8287da2/features/0023-did-exchange
 
-Added implementation of revocation notifications according to: 
-https://github.com/hyperledger/aries-rfcs/blob/main/features/0183-revocation-notification/README.md
 
 #### Changes proposed in this pull request:
 
-- Added handler, messages, and service for revocation notification
-- Added PleaseACK Decorator
-- Added tests for revocation notifications
+- Adds DidExchangeService and DidExchangeHandler
+- Merged common features of connection protocol and did exchange into handshakes
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-24 16:34:20 +0000 UTC
+        Created At 2022-03-03 18:37:33 +0000 UTC
     </div>
 </div>
 

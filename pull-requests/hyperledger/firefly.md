@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/579" class=".btn">#579</a>
+            </td>
+            <td>
+                <b>
+                    Enhance subscription filters & event enrichment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 - Support for Transaction and BlockchainEvent event filtering
+ - Added ws event enrichment for transactions and blockchain events
+
+closes #545 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-03 21:24:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/578" class=".btn">#578</a>
+            </td>
+            <td>
+                <b>
+                    Handle operations with retries in transaction status
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-03 20:07:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/577" class=".btn">#577</a>
             </td>
             <td>
@@ -167,76 +222,6 @@ The comment in https://github.com/hyperledger/firefly/pull/513#issuecomment-1036
     </table>
     <div class="right-align">
         Created At 2022-02-28 17:58:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/549" class=".btn">#549</a>
-            </td>
-            <td>
-                <b>
-                    FIR-9: Identity enhancements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger/firefly-fir/pull/9
-
-@awrichar - the E2E is passing on these changes, but leaving PR in review state as I'd like to add some more E2E tests and do migration testing before pulling it out of draft.
-
-I will put comments in-line in the code to help orient your review
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-24 21:57:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/548" class=".btn">#548</a>
-            </td>
-            <td>
-                <b>
-                    Rename contract subscriptions to contract listeners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR includes several noteworthy changes:
-
-- Contract Subscriptions have now been renamed to Contract Listeners everywhere, to reduce confusion. This includes the `/contracts/subscriptions` endpoint. It is now `/contracts/listeners`
-- The `/subscribe` endpoints on Contract Interfaces and APIs have been dropped
-- The `/contracts/listeners` endpoint can now take a interface reference to point it at an existing FFI, rather than putting the full FFI for the event inline
-- `blockchain_event` has been renamed to `blockchain_event_received`
-- The FFI generator endpoint for Ethereum now expects the ABI nested one level deeper. The payload should now look like:
-
-```json
-{
-  "input": {
-    "abi": []
-  }
-}
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-24 21:38:29 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/657" class=".btn">#657</a>
+            </td>
+            <td>
+                <b>
+                    fix(basic-message): assert connection is ready
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim <karim@animo.id>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-03 22:12:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/655" class=".btn">#655</a>
             </td>
             <td>
