@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/586" class=".btn">#586</a>
+            </td>
+            <td>
+                <b>
+                    Added version command to Core Binary
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Swarnim Pratap Singh <swarnimpratap132@gmail.com>
+Fixes #132
+It provides a command for listing the firefly build version and creating an internal package for the version so that it was accessible to the versionCmd in the cmd package.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-05 08:10:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/584" class=".btn">#584</a>
             </td>
             <td>
