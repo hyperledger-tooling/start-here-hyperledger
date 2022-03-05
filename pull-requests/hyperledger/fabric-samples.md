@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/669" class=".btn">#669</a>
+            </td>
+            <td>
+                <b>
+                    Java chaincode implementation of erc-721 standard.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Java chaincode implementation of non-fungible token standard erc-721. 
+
+Signed-off-by: renjithkn@gmail.com <renjithkn@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-05 14:12:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/668" class=".btn">#668</a>
             </td>
             <td>
