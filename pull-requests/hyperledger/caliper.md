@@ -68,33 +68,3 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1244" class=".btn">#1244</a>
-            </td>
-            <td>
-                <b>
-                    Update bindings to latest fabric sdks and remove old ones
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #1200
-closes #1199
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-26 10:16:09 +0000 UTC
-    </div>
-</div>
-
