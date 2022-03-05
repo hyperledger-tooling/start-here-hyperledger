@@ -122,32 +122,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1336" class=".btn">#1336</a>
-            </td>
-            <td>
-                <b>
-                    Replace tempdir library with tempfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Replace tempdir library with tempfile:3 because tempdir is no longer
-maintained. See advisory: https://rustsec.org/advisories/RUSTSEC-2018-0017
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-25 19:27:06 +0000 UTC
-    </div>
-</div>
-
