@@ -240,31 +240,3 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1640" class=".btn">1640</a>
-            </td>
-            <td>
-                <b>
-                    Generate `config.json` instead of storing it. 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Optimization</span>
-            </td>
-            <td>
-                All configuration is done by hand. 
-
-It may be a good idea to generate the `config.json`, `genesis.json` and `trusted_peers.json` programmatically and add explanation to `README.md`. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-26 07:54:13 +0000 UTC
-    </div>
-</div>
-
