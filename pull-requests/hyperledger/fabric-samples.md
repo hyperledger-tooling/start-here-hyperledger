@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/669" class=".btn">#669</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/670" class=".btn">#670</a>
             </td>
             <td>
                 <b>
-                    Java chaincode implementation of erc-721 standard.
+                    Java chaincode implementation  for ERC72 standard token.
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                Java chaincode implementation of non-fungible token standard erc-721. 
-
-Signed-off-by: renjithkn@gmail.com <renjithkn@gmail.com>
+                Java HLF chaincode implementation of ERC721 is a standard. This standard is used for representing ownership of non-fungible tokens.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-05 14:12:23 +0000 UTC
+        Created At 2022-03-06 04:53:25 +0000 UTC
     </div>
 </div>
 
