@@ -1,5 +1,5 @@
 
-[669](https://github.com/hyperledger/fabric-samples/pull/669) Java chaincode implementation of erc-721 standard.
+[670](https://github.com/hyperledger/fabric-samples/pull/670) Java chaincode implementation  for ERC72 standard token.
 
 [1959](https://github.com/hyperledger/iroha/pull/1959) update the environment variables to fix coverage
 
