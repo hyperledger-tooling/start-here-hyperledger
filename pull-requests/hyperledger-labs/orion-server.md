@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/356" class=".btn">#356</a>
+            </td>
+            <td>
+                <b>
+                    test user credential updates and delete
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-07 07:23:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/355" class=".btn">#355</a>
             </td>
             <td>
@@ -35,32 +61,6 @@ Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-03-01 08:26:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/354" class=".btn">#354</a>
-            </td>
-            <td>
-                <b>
-                    test user addition and acl on database
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 08:53:37 +0000 UTC
     </div>
 </div>
 
