@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/671" class=".btn">#671</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Lint shell scripts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-07 12:17:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/670" class=".btn">#670</a>
             </td>
             <td>
@@ -127,32 +153,6 @@ Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
     </table>
     <div class="right-align">
         Created At 2022-03-02 06:01:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/660" class=".btn">#660</a>
-            </td>
-            <td>
-                <b>
-                    Update test network to fabric 2.4.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 11:46:22 +0000 UTC
     </div>
 </div>
 

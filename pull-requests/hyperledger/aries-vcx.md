@@ -88,33 +88,3 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/452" class=".btn">#452</a>
-            </td>
-            <td>
-                <b>
-                    Change issuer's implementation of is_revokable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">breaking</span>
-            </td>
-            <td>
-                Changes issuer's implementation of `is_revokable` from returning `true` iff the credential was issued under revokable credential definition to returning `true` iff attempt to revoke is expected to succeed, i.e. the credential was issued under revokable credential definition and it was created and saved to the wallet (and potentially sent).
-
-Holder's implementation still returns `true` iff the credential was issued under revokable credential definition.
-
-Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 11:20:40 +0000 UTC
-    </div>
-</div>
-
