@@ -93,32 +93,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1337" class=".btn">#1337</a>
-            </td>
-            <td>
-                <b>
-                    Bump `mockito` from 0.30 -> 0.31
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Latest version of mockito replaces unmaintained difference library with
-similar.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 15:38:40 +0000 UTC
-    </div>
-</div>
-

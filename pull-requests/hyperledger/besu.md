@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3533" class=".btn">#3533</a>
+            </td>
+            <td>
+                <b>
+                    Acceptance test for execution engine apis
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+
+Adds acceptance tests for the execution engine APIs
+
+## Fixed Issue(s)
+fixes #3484
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-07 15:41:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3532" class=".btn">#3532</a>
+            </td>
+            <td>
+                <b>
+                    Batching backward sync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+ This PR is making changing backward sync to use the batching mechanism.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-07 14:13:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3531" class=".btn">#3531</a>
             </td>
             <td>
@@ -659,43 +727,6 @@ Also, forkchoiceUpdated calls for finalized blocks which besu does not have shou
     </table>
     <div class="right-align">
         Created At 2022-02-28 23:32:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3499" class=".btn">#3499</a>
-            </td>
-            <td>
-                <b>
-                    Improve contract validation errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-For each contract validation error return a relevant error instead of
-the incorrect "INSUFFICIENT_GAS" error.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 17:02:29 +0000 UTC
     </div>
 </div>
 

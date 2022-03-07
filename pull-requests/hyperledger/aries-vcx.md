@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/453" class=".btn">#453</a>
-            </td>
-            <td>
-                <b>
-                    Expose decline offer in node API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">wrappers</span>
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 15:44:28 +0000 UTC
-    </div>
-</div>
-

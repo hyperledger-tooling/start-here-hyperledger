@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 <b>
-                    [WIP] Lint shell scripts
+                    Remove bash dependency from test network nano
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                The scripts do not require bash so switch to sh and add shellcheck linting
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
