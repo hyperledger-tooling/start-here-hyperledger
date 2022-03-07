@@ -27,8 +27,6 @@ require help. Browse through them and get involved with
 <iframe width = "100%" height = "100%" seamless frameborder = "0" scrolling = "yes" src="https://labs.hyperledger.org/" title="start a new Hyperledger Labs project">
 </iframe>
 
-
-
 # Contributors
 
 Hyperledger has the most amazing open-source community. This site is made
