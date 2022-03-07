@@ -284,32 +284,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1882" class=".btn">#1882</a>
-            </td>
-            <td>
-                <b>
-                    chore: fix licenses
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These files are auto-generated with ISC as
-the default licese. Switched to Apache 2
-
-Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 16:15:11 +0000 UTC
-    </div>
-</div>
-

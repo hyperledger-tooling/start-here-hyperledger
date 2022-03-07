@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/49" class=".btn">#49</a>
+                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/50" class=".btn">#50</a>
             </td>
             <td>
                 <b>
-                    Gossip block dissemination re-architecture
+                    Ordering service framework
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
                 
             </td>
             <td>
-                <nil>
+                This RFC suggests to decouple the Fabric ordering service codebase into
+a framework that can be used for implementing various consensus mechanisms
+without changing the Fabric codebase itself, in contrast to the current state of affairs.
+
+It also proposes an alternative authentication mechanism for inter-orderer communication.
+
+Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-03 15:05:14 +0000 UTC
+        Created At 2022-03-07 14:56:56 +0000 UTC
     </div>
 </div>
 

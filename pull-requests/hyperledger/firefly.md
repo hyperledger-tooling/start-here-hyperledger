@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 <b>
-                    add `fetchreferences` param to event api
+                    add `fetchreferences` param to events api
                 </b>
             </td>
         </tr>
@@ -28,6 +28,10 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 `fetchreferences` will add the referred object to the GET /events response
+
+in a chain with #579 
+
+closes #580 
             </td>
         </tr>
     </table>
@@ -257,86 +261,6 @@ Raising and will do a test before looking for a review.
     </table>
     <div class="right-align">
         Created At 2022-02-28 23:33:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/553" class=".btn">#553</a>
-            </td>
-            <td>
-                <b>
-                    Documentation updates from @TheSwarnim
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds a build fix to https://github.com/hyperledger/firefly/pull/451
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 18:14:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/552" class=".btn">#552</a>
-            </td>
-            <td>
-                <b>
-                    Docs "bundle update" to pick up new nokogiri build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves a dependabot notification: https://github.com/hyperledger/firefly/security/dependabot/7
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 18:11:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/551" class=".btn">#551</a>
-            </td>
-            <td>
-                <b>
-                    Roll requestConflictEmptyResult from Group to Data and Message too
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #550
-
-The comment in https://github.com/hyperledger/firefly/pull/513#issuecomment-1036844541 held true - we need to roll the `requestConflictEmptyResult` tweak out to the other optimization cases.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 17:58:49 +0000 UTC
     </div>
 </div>
 
