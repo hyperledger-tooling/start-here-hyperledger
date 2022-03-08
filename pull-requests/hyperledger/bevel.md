@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1888" class=".btn">#1888</a>
+            </td>
+            <td>
+                <b>
+                    [quorum]Enable Quorum Tessera to use HashiCorp vault for keypair retrival
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: manikanta-darsi <manikanta.darsi@accenture.com>
+
+**Changelog**
+- Add logic to enable quorum tessera to use hashicorp vault for keypair retrival.
+
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @sownak @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1822 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 07:59:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1880" class=".btn">#1880</a>
             </td>
             <td>

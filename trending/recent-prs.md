@@ -1,13 +1,13 @@
 
-[3539](https://github.com/hyperledger/besu/pull/3539) Trace APIs: add revert reason
+[1259](https://github.com/hyperledger/caliper/pull/1259) Improve integration tests
 
-[2419](https://github.com/hyperledger/sawtooth-core/pull/2419) fixed outdated deployment configs
+[402](https://github.com/hyperledger/fabric-gateway/pull/402) Avoid spurious gRPC stream cancellation errors in tests
 
-[237](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/237) Proof request refactor
+[661](https://github.com/hyperledger/aries-framework-javascript/pull/661) fix: mediation recipient role for recipient
 
-[3538](https://github.com/hyperledger/besu/pull/3538) Updated netty
+[690](https://github.com/hyperledger-labs/solang/pull/690) Improve msg.sender test
 
-[3536](https://github.com/hyperledger/besu/pull/3536) refactor graphqlcontext since getContext() is deprecated
+[660](https://github.com/hyperledger/aries-framework-javascript/pull/660) test: minor wallet test changes
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
