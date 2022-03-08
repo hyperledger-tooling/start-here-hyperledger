@@ -238,29 +238,3 @@ Raising and will do a test before looking for a review.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/555" class=".btn">#555</a>
-            </td>
-            <td>
-                <b>
-                    Explicitly name all subscriptions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #554 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 23:33:27 +0000 UTC
-    </div>
-</div>
-
