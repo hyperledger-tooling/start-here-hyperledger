@@ -8,6 +8,6 @@ nav_order: 3
 # Propose a new project to Labs
 
 <div>
-    <iframe width = "100%" height = "600" seamless frameborder = "0" scrolling = "yes" src="https://labs.hyperledger.org/" title="start a new Hyperledger Labs project">
+    <iframe width = "100%" height = "620" seamless frameborder = "0" scrolling = "yes" src="https://labs.hyperledger.org/" title="start a new Hyperledger Labs project">
     </iframe>
 </div>
