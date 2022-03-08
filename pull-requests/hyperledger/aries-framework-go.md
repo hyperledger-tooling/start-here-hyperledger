@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3196" class=".btn">#3196</a>
+            </td>
+            <td>
+                <b>
+                    fix: create oobv2 inviter's connection record on v1 messages, with invitation ID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - add invitation ID to inviter's implicit didcomm v2 connection
+- allow all non-didexchange messages to use didcomm v2 handlers
+
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-07 23:45:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3195" class=".btn">#3195</a>
+            </td>
+            <td>
+                <b>
+                    Update vcwallet and vdr swagger generation docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #3193
+
+I checked the swagger docs for vcwallet and vdr. Problem might occur in other parts, too.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-07 20:59:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3194" class=".btn">#3194</a>
             </td>
             <td>
@@ -145,32 +203,6 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </table>
     <div class="right-align">
         Created At 2022-03-02 00:09:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3187" class=".btn">#3187</a>
-            </td>
-            <td>
-                <b>
-                    fix: allow didcomm v1 messages to use didcomm v2 from-did
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-01 15:46:24 +0000 UTC
     </div>
 </div>
 

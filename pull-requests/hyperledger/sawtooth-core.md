@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2418" class=".btn">#2418</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2419" class=".btn">#2419</a>
             </td>
             <td>
                 <b>
-                    Add default CODE_OF_CONDUCT
+                    fixed outdated deployment configs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-core
                 
             </td>
             <td>
-                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
+                In deploying a Sawtooth single node with the latest minikube release, encountered issues involving outdated API version and missing deployment selector labels. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 16:05:21 +0000 UTC
+        Created At 2022-03-08 01:28:06 +0000 UTC
     </div>
 </div>
 

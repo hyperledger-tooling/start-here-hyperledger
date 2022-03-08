@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/661" class=".btn">#661</a>
+            </td>
+            <td>
+                <b>
+                    fix: mediation recipient role for recipient
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Mediation role was being set to `MediationRole.Mediator` instead of `MediationRole.Recipient`. This pr fixes the incorrect role, and adds checks to the methods to make sure we're in the correct context (record.assertRole()).
+
+This is a breaking change, and I'm not sure how to handle this. The record is almost identical between mediator and recipient, so not so sure how to write a migration script for this. As most devices are run inside a specific context (only mediatee or only mediator) the easiest way to update would probably be to update all records to a certain role.
+
+@JamesKEbert heads up on this one. Please let me know how you would like to approach the migration of this. Due to the assertions of the role this is going to cause errors in wallets created before this PR.
+
+Also does some clean up and refactoring
+
+BREAKING CHANGE: for mediation records, the `role` was being set to `MediationRole.Mediator` when acting as a recipient. This is updated to the correct value `MediationRole.Recipient`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 11:54:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/660" class=".btn">#660</a>
+            </td>
+            <td>
+                <b>
+                    test: minor wallet test changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Removed '===' prefix to one test name, changed scope of wallet open call to prevent multiple open attempts
+
+Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 11:13:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/657" class=".btn">#657</a>
             </td>
             <td>
@@ -64,40 +126,6 @@ We can also add some events around the OOB record, but I also leave it out, for 
     </table>
     <div class="right-align">
         Created At 2022-03-03 09:52:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/652" class=".btn">#652</a>
-            </td>
-            <td>
-                <b>
-                    feat: add wallet module with import export
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a wallet module that exposes the public api of the wallet. This is in preparation of the wallet upgrade work, but better addressed in a separate PR. 
-
-After creating a wallet we should store the framework storage version in the wallet. If we do this directly in the wallet we depend on a repository from the wallet, which in turn depends on the wallet, creating a dependency cycle. I first created a hacky solution with tsyringe.
-
-However it probably makes more sense to add another layer (the WalletModule) that exposes the public api of the wallet and allows to add extra logic to wallet methods without adding it to the wallet methods itself. Advantage is that wallet class keeps dependencies lighter, and we also can perform tasks that are generic to all wallet types (such as storing the framework storage version after creating a wallet). I will add this in a separate PR.
-
-In addition this PR also adds support for import / export of the wallet which we'll also be using for the upgrade work. Now for NodeJS and will soon update rn-indy-sdk to support import / export
-
-Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 18:48:26 +0000 UTC
     </div>
 </div>
 

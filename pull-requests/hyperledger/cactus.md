@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1901" class=".btn">#1901</a>
+            </td>
+            <td>
+                <b>
+                    docs(whitepaper): update whitepaper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Our whitepaper, the first point of contact from enterprises and individuals alike, is very outdated (for more than two years, it received no updates).  An outdated whitepaper brings a lot of confusion to newcomers, as 1) it doesn' reflect updated work done on blockchain interoperability, 2) doesn't reflect the current status of the code, and 3) doesn't reflect future plans for the project
+
+These problems have been and continue to hamper the adoption of Hyperledger Cacuts.
+
+I'm putting together an effort to update the whitepaper, with an initial focus on the abstract, introduction, and theoretical models (non-formal) for interoperability (based on [our recent research](https://www.techrxiv.org/articles/preprint/Do_You_Need_a_Distributed_Ledger_Technology_Interoperability_Solution_/18786527/1)). 
+
+I welcome all the blockchain interoperability and Hyperledger's communities to provide their feedback to this new version of the whitepaper.
+
+Changes:
+
+1. Updated abstract
+2. Introduction now explains why do we need interoperability, Cactus, and how Cactus works
+3. Section 2 now contains a robust model for interoperability. Some outdated information was refactored.
+4. Updated references and recommended reference to the project (feel free to add yourself!)  
+
+cc @petermetz @takeutak @sfuji822 @jagpreetsinghsasan @jonathan-m-hamilton @hartm 
+
+Signed-off-by: Rafael Belchior <rafael.belchior@tecnico.ulisboa.pt>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 12:44:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1900" class=".btn">#1900</a>
+            </td>
+            <td>
+                <b>
+                    refactor: migrate to jest and fix neg test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Original issue was to  __test(plugin-htlc-eth-besu): fix assertion withdraw-endpoint-invalid #1871__  However, this test case hadn't been jestified (slipped through the cracks according to @awadhana) so I went ahead and jestified the file along with fixing the negative test case. Commit message for jestification and the original issue. 
+
+_______________________________
+Migrated test from Tap to Jest
+
+File Path: packages/cactus-test-plugin-htlc-eth-besu/src/test/typescript/integration/plugin-htlc-eth-besu/withdraw-endpoint-invalid.test.ts
+This is a PARTIAL resolution to issue https://github.com/hyperledger/cactus/issues/238
+_______________________________
+
+Fixes #1871 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-07 20:10:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1896" class=".btn">#1896</a>
             </td>
             <td>
@@ -59,7 +137,7 @@ Note - the changes are very similar in all 3 affected ledger connectors.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 -add mention to test running via interface
@@ -281,35 +359,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-03-02 13:39:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1882" class=".btn">#1882</a>
-            </td>
-            <td>
-                <b>
-                    chore: fix licenses
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These files are auto-generated with ISC as
-the default licese. Switched to Apache 2
-
-Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 16:15:11 +0000 UTC
     </div>
 </div>
 

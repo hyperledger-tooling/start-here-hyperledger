@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/690" class=".btn">#690</a>
+            </td>
+            <td>
+                <b>
+                    Improve msg.sender test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR updates the test of `msg.sender`, according to the suggestions at issue #679.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 11:39:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/688" class=".btn">#688</a>
             </td>
             <td>
@@ -137,67 +163,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2022-03-02 10:08:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/683" class=".btn">#683</a>
-            </td>
-            <td>
-                <b>
-                    Barcelona Release v0.1.10
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added
- - On Solana, the accounts that were passed into the transactions are listed in the `tx.accounts` builtin. There is also a builtin struct `AccountInfo`
- - A new common subexpression elimination pass was added, thanks to [LucasSte](https://github.com/hyperledger-labs/solang/pull/550)
- - A graphviz dot file can be generated from the ast, using `--emit ast-dot`
- - Many improvements to the solidity parser, and the parser has been spun out in it's own create `solang-parser`.
-    
-Changed
- - Solang now uses LLVM 13.0, based on the [Solana LLVM tree](https://github.com/solana-labs/llvm-project/)
- - The ast datastructure has been simplified.
- - Many bugfixes across the entire tree.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-01 15:16:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/682" class=".btn">#682</a>
-            </td>
-            <td>
-                <b>
-                    Add tests for msg.sender system call
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR includes tests for the `msg.sender` system call.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-01 12:53:26 +0000 UTC
     </div>
 </div>
 

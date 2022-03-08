@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/transact
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/315" class=".btn">#315</a>
-            </td>
-            <td>
-                <b>
-                    Fix Rust 1.59 lint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 23:24:11 +0000 UTC
-    </div>
-</div>
-
