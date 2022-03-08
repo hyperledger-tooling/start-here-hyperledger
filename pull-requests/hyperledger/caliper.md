@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
+                This should address #1243 and hopefully will also make the builds a little bit quicker
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
 
 
             </td>

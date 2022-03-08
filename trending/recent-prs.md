@@ -1,13 +1,13 @@
 
-[1259](https://github.com/hyperledger/caliper/pull/1259) Improve integration tests
+[2488](https://github.com/hyperledger/indy-sdk/pull/2488) Fixing compile issues for indysdk->libvcx ...
 
-[402](https://github.com/hyperledger/fabric-gateway/pull/402) Avoid spurious gRPC stream cancellation errors in tests
+[1655](https://github.com/hyperledger/aries-cloudagent-python/pull/1655) Add cred_def_id to metadata when using an Endorser
 
-[661](https://github.com/hyperledger/aries-framework-javascript/pull/661) fix: mediation recipient role for recipient
+[27](https://github.com/hyperledger/aries-mediator-service/pull/27) Simplify the startup and upgrade the docs for nubes like me
 
-[690](https://github.com/hyperledger-labs/solang/pull/690) Improve msg.sender test
+[556](https://github.com/hyperledger/fabric-sdk-node/pull/556) Unit test for environment variable config
 
-[660](https://github.com/hyperledger/aries-framework-javascript/pull/660) test: minor wallet test changes
+[1901](https://github.com/hyperledger/cactus/pull/1901) docs(whitepaper): update whitepaper
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
