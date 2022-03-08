@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hyperledger Contributors Community
-nav_order: 8
+nav_order: 9
 ---
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
