@@ -1,13 +1,13 @@
 
-[587](https://github.com/hyperledger/firefly/pull/587) add `fetchreferences` param to event api
+[671](https://github.com/hyperledger/fabric-samples/pull/671) [WIP] Lint shell scripts
 
-[670](https://github.com/hyperledger/fabric-samples/pull/670) Java chaincode implementation  for ERC72 standard token.
+[3531](https://github.com/hyperledger/besu/pull/3531) add trace_callMany to CHANGELOG
 
-[1959](https://github.com/hyperledger/iroha/pull/1959) update the environment variables to fix coverage
+[120](https://github.com/hyperledger-labs/orion-sdk-go/pull/120) Update server version to v0.2.2
 
-[586](https://github.com/hyperledger/firefly/pull/586) Added version command to Core Binary
+[356](https://github.com/hyperledger-labs/orion-server/pull/356) test user credential updates and delete
 
-[1653](https://github.com/hyperledger/aries-cloudagent-python/pull/1653) Fix usage of send_credential_ack
+[3530](https://github.com/hyperledger/besu/pull/3530) upgrade vertx
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
