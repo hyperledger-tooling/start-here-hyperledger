@@ -87,7 +87,7 @@ This commit excludes revertReason from comparison and tests pass 93693fce0aab909
             </td>
             <td>
                 <b>
-                    refactor graphqlcontext since getContext() is deprecated
+                    Refactor graphqlcontext since getContext() is deprecated
                 </b>
             </td>
         </tr>
@@ -678,79 +678,6 @@ fixes #3465
     </table>
     <div class="right-align">
         Created At 2022-03-01 22:27:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3505" class=".btn">#3505</a>
-            </td>
-            <td>
-                <b>
-                    [Issue 3115] Support mining beneficiary transitions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Add the ability to transition the `miningbeneficiary` for *bft (ibft2, qbft) consensus mechanisms. 
-
-Example genesis file with `miningbeneficiary` transitions:
-```
-{
-  "config": {
-    "chainId": 999,
-    "byzantiumBlock": 0,
-    "ibft2": {
-      "blockperiodseconds": 1,
-      "epochlength": 30000,
-      "requesttimeoutseconds": 5,
-      "blockreward": "5000000000000000000",
-      "miningbeneficiary": "0x0000000000000000000000000000000000000001"
-    },
-    "transitions": {
-      "ibft2": [
-          {
-              "block": 10000, 
-              "miningbeneficiary": "",
-          },
-          {
-              "block": 20000, 
-              "miningbeneficiary": "0x0000000000000000000000000000000000000002",
-          }
-      ]
-    }
-  },
-  ...
-}
-```
-The `miningbeneficiary` will only be updated if there is a "miningbeneficiary" key in the `transitions.ibft2` array element.  Setting the `miningbeneficiary` to an empty value will clear out any override so that block rewards go to the miner rather than a global override address.  
-
-Other changes:
-* Keep the miningbeneficiary as an `Address` rather than a `String` in `BftConfigOptions` and make the conversion from `String` to `Address` strict (i.e. all 20 address bytes are required "0x01" is not valid). 
-* Fix `ThreadBesuNodeRunner` so that it respects a node's genesis config.
-
-
-## Fixed Issue(s)
-Fixes #3115
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-01 17:05:13 +0000 UTC
     </div>
 </div>
 

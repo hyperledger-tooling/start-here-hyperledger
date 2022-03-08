@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2486" class=".btn">#2486</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2488" class=".btn">#2488</a>
             </td>
             <td>
                 <b>
-                    Fixing syntax and build error for libvcx
+                    Fixing compile issues for indysdk->libvcx ...
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                The current vcx build is failing ... fixing.
+                Signed-off-by: Navid Mohaghegh <navid@navid.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-28 04:14:10 +0000 UTC
+        Created At 2022-03-08 16:51:34 +0000 UTC
     </div>
 </div>
 
