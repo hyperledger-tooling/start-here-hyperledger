@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3268" class=".btn">#3268</a>
+            </td>
+            <td>
+                <b>
+                    docs: Fix a tutorial for deploying a smart contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+This PR fixes a tutorial to keep up with the latest samples.
+`test-network` has the `monitordocker.sh` to monitor the
+logs of the smart contract. Copying the script from
+`commercial-paper` is not required.
+
+Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 07:23:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3267" class=".btn">#3267</a>
             </td>
             <td>

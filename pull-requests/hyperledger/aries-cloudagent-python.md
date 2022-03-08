@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1654" class=".btn">#1654</a>
+            </td>
+            <td>
+                <b>
+                    docs: supported features attribution
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also updates the rocket chat link to a discord link
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 08:43:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1653" class=".btn">#1653</a>
             </td>
             <td>
