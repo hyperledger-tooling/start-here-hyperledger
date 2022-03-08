@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1900" class=".btn">#1900</a>
+            </td>
+            <td>
+                <b>
+                    refactor: migrate to jest and fix neg test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Original issue was to  __test(plugin-htlc-eth-besu): fix assertion withdraw-endpoint-invalid #1871__  However, this test case hadn't been jestified (slipped through the cracks according to @awadhana) so I went ahead and jestified the file along with fixing the negative test case. Commit message for jestification and the original issue. 
+
+_______________________________
+Migrated test from Tap to Jest
+
+File Path: packages/cactus-test-plugin-htlc-eth-besu/src/test/typescript/integration/plugin-htlc-eth-besu/withdraw-endpoint-invalid.test.ts
+This is a PARTIAL resolution to issue https://github.com/hyperledger/cactus/issues/238
+_______________________________
+
+Fixes #1871 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-07 20:10:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1896" class=".btn">#1896</a>
             </td>
             <td>
@@ -59,7 +94,7 @@ Note - the changes are very similar in all 3 affected ledger connectors.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 -add mention to test running via interface

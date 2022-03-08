@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3539" class=".btn">#3539</a>
+            </td>
+            <td>
+                <b>
+                    Trace APIs: add revert reason
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add revertReason to trace_call, trace_callMany and trace_get
+
+This commit has revertReason in output but failing tests ee2677c8f43ee17e93accfee4f558b1a8cd65cc3
+This commit excludes revertReason from comparison and tests pass 93693fce0aab9096b87cbe2a6d0417185ba63062
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 05:37:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3538" class=".btn">#3538</a>
             </td>
             <td>
@@ -718,75 +751,6 @@ Fixes #3115
     </table>
     <div class="right-align">
         Created At 2022-03-01 17:05:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3503" class=".btn">#3503</a>
-            </td>
-            <td>
-                <b>
-                    Add GitHub action to verify gradle-wrapper.jar
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Checks that the gradle wrapper jar is from an official release since a maliciously modified jar added as part of a gradle upgrade would be a significant security risk but is hard to verify from the code diff.  This checks the jar comes from an Official Gradle release.
-
-See https://github.com/gradle/wrapper-validation-action for more details.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-01 04:42:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3502" class=".btn">#3502</a>
-            </td>
-            <td>
-                <b>
-                    Update ef bootnodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Frank Li <b439988l@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Updates ef bootnode addresses
-Geth PR: https://github.com/ethereum/go-ethereum/pull/24432
-
-## Fixed Issue(s)
-fixes #3488 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-01 02:28:15 +0000 UTC
     </div>
 </div>
 
