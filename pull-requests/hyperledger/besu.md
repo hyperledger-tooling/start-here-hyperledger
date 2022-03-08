@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3538" class=".btn">#3538</a>
+            </td>
+            <td>
+                <b>
+                    Updated netty
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Updated dependencies
+* netty
+* solidity plugin
+* artifactory plugin
+* jmh
+* spring crypto
+* testcontainers
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 00:26:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3536" class=".btn">#3536</a>
+            </td>
+            <td>
+                <b>
+                    refactor graphqlcontext since getContext() is deprecated
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sandra Wang <yx97.wang@gmail.com>
+
+## PR description
+This PR is focused on resolving the deprecated dependency of graphQL context.
+
+Deprecated: `graphql.schema.DataFetchingEnvironment#getContext`
+
+## Fixed Issue(s)
+Issue #2776
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 00:04:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3535" class=".btn">#3535</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] quorum ATs use docker executor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Use docker executor and jdk image as before (but keep medium resource class)
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-07 23:41:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3533" class=".btn">#3533</a>
             </td>
             <td>
@@ -560,7 +662,7 @@ fixes #3465
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -685,48 +787,6 @@ fixes #3488
     </table>
     <div class="right-align">
         Created At 2022-03-01 02:28:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3501" class=".btn">#3501</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix/terminal block check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Ensure besu correctly checks for latest ancestor before checking if a block descends from terminal.  
-
-Also, forkchoiceUpdated calls for finalized blocks which besu does not have should start or append to a backward sync.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#3500
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-28 23:32:48 +0000 UTC
     </div>
 </div>
 
