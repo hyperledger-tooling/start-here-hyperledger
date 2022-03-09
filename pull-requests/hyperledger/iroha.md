@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1965" class=".btn">#1965</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: Core, `sumeragi`, instance functions, `torii`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+### Description of the Change
+
+Aggregate of several refactors to `Sumeragi`, `Torii` and various fixes to `Core`. 
+- Lints introduced in rust 1.59
+- Sumeragi split into file-based modules. 
+- Torii and related functionality split off from the `iroha_core` crate. 
+- Iroha peer binary also moved into the front-end crate. 
+- Various CLI fixes and error messages. 
+
+### Issue
+
+Closes #1812 
+
+### Benefits
+
+Better organisation
+
+### Possible Drawbacks
+
+Large pull request
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-09 13:13:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1964" class=".btn">#1964</a>
             </td>
             <td>
