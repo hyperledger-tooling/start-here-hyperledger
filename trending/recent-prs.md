@@ -1,13 +1,13 @@
 
-[2488](https://github.com/hyperledger/indy-sdk/pull/2488) Fixing compile issues for indysdk->libvcx ...
+[1889](https://github.com/hyperledger/bevel/pull/1889) Bump urijs from 1.19.9 to 1.19.10 in /examples/supplychain-app/fabric/chaincode_rest_server/rest-server
 
-[1655](https://github.com/hyperledger/aries-cloudagent-python/pull/1655) Add cred_def_id to metadata when using an Endorser
+[103](https://github.com/hyperledger/aries-framework-javascript-ext/pull/103) build(deps): bump urijs from 1.19.8 to 1.19.10
 
-[27](https://github.com/hyperledger/aries-mediator-service/pull/27) Simplify the startup and upgrade the docs for nubes like me
+[102](https://github.com/hyperledger/aries-framework-javascript-ext/pull/102) build: bump feature as patch
 
-[556](https://github.com/hyperledger/fabric-sdk-node/pull/556) Unit test for environment variable config
+[493](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/493) fix(deps): update dependency bootstrap to v4.6.1
 
-[1901](https://github.com/hyperledger/cactus/pull/1901) docs(whitepaper): update whitepaper
+[492](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/492) fix(deps): update dependency body-parser to v1.19.2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

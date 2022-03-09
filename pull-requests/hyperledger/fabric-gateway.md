@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/403" class=".btn">#403</a>
+            </td>
+            <td>
+                <b>
+                    Additional linting for Node code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Aid contributors in producing code that matches the existing style.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 18:51:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/402" class=".btn">#402</a>
             </td>
             <td>

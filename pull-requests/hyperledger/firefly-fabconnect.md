@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/82" class=".btn">#82</a>
+            </td>
+            <td>
+                <b>
+                    Configurable Chaincode Query targets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This allows a chaincode query against the `POST /query` endpoint to choose to target a single peer (the first peer in the peers list for the client organization), or use the selection service to assemble a set of peers and compare endorsement results.
+
+Default is targeting a single peer.
+
+Add `strongread: true` to the payload to use the selection service.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 22:39:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/81" class=".btn">#81</a>
             </td>
             <td>

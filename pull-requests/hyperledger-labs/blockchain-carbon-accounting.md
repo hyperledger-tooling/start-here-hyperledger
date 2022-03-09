@@ -14,6 +14,219 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/493" class=".btn">#493</a>
+            </td>
+            <td>
+                <b>
+                    fix(deps): update dependency bootstrap to v4.6.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [![WhiteSource Renovate](https://app.renovatebot.com/images/banner.svg)](https://renovatebot.com)
+
+This PR contains the following updates:
+
+| Package | Change | Age | Adoption | Passing | Confidence |
+|---|---|---|---|---|---|
+| [bootstrap](https://getbootstrap.com/) ([source](https://togithub.com/twbs/bootstrap)) | [`^4.5.3` -> `4.6.1`](https://renovatebot.com/diffs/npm/bootstrap/4.6.0/4.6.1) | [![age](https://badges.renovateapi.com/packages/npm/bootstrap/4.6.1/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/bootstrap/4.6.1/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/bootstrap/4.6.1/compatibility-slim/4.6.0)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/bootstrap/4.6.1/confidence-slim/4.6.0)](https://docs.renovatebot.com/merge-confidence/) |
+
+---
+
+### Release Notes
+
+<details>
+<summary>twbs/bootstrap</summary>
+
+### [`v4.6.1`](https://togithub.com/twbs/bootstrap/releases/v4.6.1)
+
+[Compare Source](https://togithub.com/twbs/bootstrap/compare/v4.6.0...v4.6.1)
+
+##### What's changed
+
+-   Replace Sass division with multiplication and custom `divide()` function by [@&#8203;mdo](https://togithub.com/mdo) in [https://github.com/twbs/bootstrap/pull/34571](https://togithub.com/twbs/bootstrap/pull/34571)
+-   Update RFS to v8.1.0 by [@&#8203;XhmikosR](https://togithub.com/XhmikosR) in [https://github.com/twbs/bootstrap/pull/34571](https://togithub.com/twbs/bootstrap/pull/34571)
+-   fix(forms): input-group and validation icons by [@&#8203;ffoodd](https://togithub.com/ffoodd) in [https://github.com/twbs/bootstrap/pull/32968](https://togithub.com/twbs/bootstrap/pull/32968)
+-   Fix minor visual bug in Firefox caused by `moz-focusring` by [@&#8203;kremit](https://togithub.com/kremit) in [https://github.com/twbs/bootstrap/pull/32821](https://togithub.com/twbs/bootstrap/pull/32821)
+-   Adjust `SAFE_URL_PATTERN` regex for use with test method of regexes by [@&#8203;nikonthethird](https://togithub.com/nikonthethird) in [https://github.com/twbs/bootstrap/pull/33153](https://togithub.com/twbs/bootstrap/pull/33153)
+-   Add `sms` in the `SAFE_URL_PATTERN` for sanitizer by [@&#8203;XhmikosR](https://togithub.com/XhmikosR) in [https://github.com/twbs/bootstrap/pull/35074](https://togithub.com/twbs/bootstrap/pull/35074)
+-   Adjust feedback icon position and padding for `select.form-control` by [@&#8203;mdo](https://togithub.com/mdo) in [https://github.com/twbs/bootstrap/pull/33206](https://togithub.com/twbs/bootstrap/pull/33206)
+-   Carousel: use buttons, not links, for prev/next controls by [@&#8203;patrickhlauke](https://togithub.com/patrickhlauke) in [https://github.com/twbs/bootstrap/pull/33165](https://togithub.com/twbs/bootstrap/pull/33165)
+-   v4: Sass docs for default variables by [@&#8203;mdo](https://togithub.com/mdo) in [https://github.com/twbs/bootstrap/pull/33392](https://togithub.com/twbs/bootstrap/pull/33392)
+-   Handle complex expressions in `add()` & `subtract()` by [@&#8203;ffoodd](https://togithub.com/ffoodd) in [https://github.com/twbs/bootstrap/pull/34047](https://togithub.com/twbs/bootstrap/pull/34047)
+-   More concise improvements for `add()` and `subtract()` by [@&#8203;ffoodd](https://togithub.com/ffoodd) in [https://github.com/twbs/bootstrap/pull/34432](https://togithub.com/twbs/bootstrap/pull/34432)
+-   Remove `aria-haspopup` from dropdowns by [@&#8203;patrickhlauke](https://togithub.com/patrickhlauke) in [https://github.com/twbs/bootstrap/pull/33624](https://togithub.com/twbs/bootstrap/pull/33624)
+-   Dropdown: support `.dropdown-item` wrapped in `<li>` tags by [@&#8203;cpsievert](https://togithub.com/cpsievert) in [https://github.com/twbs/bootstrap/pull/33649](https://togithub.com/twbs/bootstrap/pull/33649)
+-   Update Node versions in JS tests (drop Node 10, add Node 16), update docs JS assets and add variables for `vertical-align` in spinners by [@&#8203;XhmikosR](https://togithub.com/XhmikosR) in [https://github.com/twbs/bootstrap/pull/33807](https://togithub.com/twbs/bootstrap/pull/33807)
+-   Replace Freenode with Libera IRC server by [@&#8203;midzer](https://togithub.com/midzer) [https://github.com/twbs/bootstrap/pull/34050](https://togithub.com/twbs/bootstrap/pull/34050)
+-   Fix repetition in the Navbar docs description by [@&#8203;coliff](https://togithub.com/coliff) in [https://github.com/twbs/bootstrap/pull/34208](https://togithub.com/twbs/bootstrap/pull/34208)
+-   Enable `0.x` with negative margins in utilities by [@&#8203;k-utsumi](https://togithub.com/k-utsumi) in [https://github.com/twbs/bootstrap/pull/33593](https://togithub.com/twbs/bootstrap/pull/33593)
+-   Remove print `thead` rule by [@&#8203;coliff](https://togithub.com/coliff) in [https://github.com/twbs/bootstrap/pull/34426](https://togithub.com/twbs/bootstrap/pull/34426)
+-   Fix prevented `show` event disabling modals with fade class from being displayed again by [@&#8203;alpadev](https://togithub.com/alpadev) in [https://github.com/twbs/bootstrap/pull/34087](https://togithub.com/twbs/bootstrap/pull/34087)
+-   Input group validation with custom-file input by [@&#8203;ffoodd](https://togithub.com/ffoodd) in [https://github.com/twbs/bootstrap/pull/33239](https://togithub.com/twbs/bootstrap/pull/33239)
+-   Add eslint-plugin-qunit and tighten JS tests by [@&#8203;XhmikosR](https://togithub.com/XhmikosR) in [https://github.com/twbs/bootstrap/pull/32270](https://togithub.com/twbs/bootstrap/pull/32270)
+-   Update our tests to Node 16 and npm 8 by [@&#8203;XhmikosR](https://togithub.com/XhmikosR) in [https://github.com/twbs/bootstrap/pull/35142](https://togithub.com/twbs/bootstrap/pull/35142)
+-   Disabled link cleanup by [@&#8203;patrickhlauke](https://togithub.com/patrickhlauke) in [https://github.com/twbs/bootstrap/pull/34924](https://togithub.com/twbs/bootstrap/pull/34924)
+-   Updated our devDependencies including terser; also enabled two passes for terser by [@&#8203;XhmikosR](https://togithub.com/XhmikosR)
+
+##### Full changelog
+
+<https://github.com/twbs/bootstrap/compare/v4.6.0...v4.6.1>
+
+</details>
+
+---
+
+### Configuration
+
+📅 **Schedule**: At any time (no schedule defined).
+
+🚦 **Automerge**: Disabled by config. Please merge this manually once you are satisfied.
+
+♻ **Rebasing**: Whenever PR becomes conflicted, or you tick the rebase/retry checkbox.
+
+🔕 **Ignore**: Close this PR and you won't be reminded about this update again.
+
+---
+
+ - [ ] <!-- rebase-check -->If you want to rebase/retry this PR, click this checkbox.
+
+---
+
+This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourcesoftware.com). View repository job log [here](https://app.renovatebot.com/dashboard#github/hyperledger-labs/blockchain-carbon-accounting).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 22:43:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/492" class=".btn">#492</a>
+            </td>
+            <td>
+                <b>
+                    fix(deps): update dependency body-parser to v1.19.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [![WhiteSource Renovate](https://app.renovatebot.com/images/banner.svg)](https://renovatebot.com)
+
+This PR contains the following updates:
+
+| Package | Change | Age | Adoption | Passing | Confidence |
+|---|---|---|---|---|---|
+| [body-parser](https://togithub.com/expressjs/body-parser) | [`^1.19.0` -> `1.19.2`](https://renovatebot.com/diffs/npm/body-parser/1.19.0/1.19.2) | [![age](https://badges.renovateapi.com/packages/npm/body-parser/1.19.2/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/body-parser/1.19.2/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/body-parser/1.19.2/compatibility-slim/1.19.0)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/body-parser/1.19.2/confidence-slim/1.19.0)](https://docs.renovatebot.com/merge-confidence/) |
+
+---
+
+### Release Notes
+
+<details>
+<summary>expressjs/body-parser</summary>
+
+### [`v1.19.2`](https://togithub.com/expressjs/body-parser/blob/HEAD/HISTORY.md#&#8203;1192--2022-02-15)
+
+[Compare Source](https://togithub.com/expressjs/body-parser/compare/1.19.1...1.19.2)
+
+\===================
+
+-   deps: bytes@3.1.2
+-   deps: qs@6.9.7
+    -   Fix handling of `__proto__` keys
+-   deps: raw-body@2.4.3
+    -   deps: bytes@3.1.2
+
+### [`v1.19.1`](https://togithub.com/expressjs/body-parser/blob/HEAD/HISTORY.md#&#8203;1191--2021-12-10)
+
+[Compare Source](https://togithub.com/expressjs/body-parser/compare/1.19.0...1.19.1)
+
+\===================
+
+-   deps: bytes@3.1.1
+-   deps: http-errors@1.8.1
+    -   deps: inherits@2.0.4
+    -   deps: toidentifier@1.0.1
+    -   deps: setprototypeof@1.2.0
+-   deps: qs@6.9.6
+-   deps: raw-body@2.4.2
+    -   deps: bytes@3.1.1
+    -   deps: http-errors@1.8.1
+-   deps: safe-buffer@5.2.1
+-   deps: type-is@~1.6.18
+
+</details>
+
+---
+
+### Configuration
+
+📅 **Schedule**: At any time (no schedule defined).
+
+🚦 **Automerge**: Disabled by config. Please merge this manually once you are satisfied.
+
+♻ **Rebasing**: Whenever PR becomes conflicted, or you tick the rebase/retry checkbox.
+
+🔕 **Ignore**: Close this PR and you won't be reminded about this update again.
+
+---
+
+ - [ ] <!-- rebase-check -->If you want to rebase/retry this PR, click this checkbox.
+
+---
+
+This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourcesoftware.com). View repository job log [here](https://app.renovatebot.com/dashboard#github/hyperledger-labs/blockchain-carbon-accounting).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 22:43:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/491" class=".btn">#491</a>
+            </td>
+            <td>
+                <b>
+                    Got the OrbitDB replication to work
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 21:53:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/490" class=".btn">#490</a>
             </td>
             <td>
@@ -1288,110 +1501,6 @@ This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourc
     </table>
     <div class="right-align">
         Created At 2022-03-02 02:17:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/477" class=".btn">#477</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): update dependency @types/mocha to v8.2.3 signed-off-by: renovate bot <bot@example.com>
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                [![WhiteSource Renovate](https://app.renovatebot.com/images/banner.svg)](https://renovatebot.com)
-
-This PR contains the following updates:
-
-| Package | Change | Age | Adoption | Passing | Confidence |
-|---|---|---|---|---|---|
-| [@types/mocha](https://togithub.com/DefinitelyTyped/DefinitelyTyped) | [`^8.2.2` -> `8.2.3`](https://renovatebot.com/diffs/npm/@types%2fmocha/8.2.2/8.2.3) | [![age](https://badges.renovateapi.com/packages/npm/@types%2fmocha/8.2.3/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/@types%2fmocha/8.2.3/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/@types%2fmocha/8.2.3/compatibility-slim/8.2.2)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/@types%2fmocha/8.2.3/confidence-slim/8.2.2)](https://docs.renovatebot.com/merge-confidence/) |
-
----
-
-### Configuration
-
-📅 **Schedule**: At any time (no schedule defined).
-
-🚦 **Automerge**: Disabled by config. Please merge this manually once you are satisfied.
-
-♻ **Rebasing**: Whenever PR becomes conflicted, or you tick the rebase/retry checkbox.
-
-🔕 **Ignore**: Close this PR and you won't be reminded about this update again.
-
----
-
- - [x] <!-- rebase-check -->If you want to rebase/retry this PR, click this checkbox.
-
----
-
-This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourcesoftware.com). View repository job log [here](https://app.renovatebot.com/dashboard#github/hyperledger-labs/blockchain-carbon-accounting).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-01 23:25:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/476" class=".btn">#476</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): update dependency @types/chai-as-promised to v7.1.5 signed-off-by: renovate bot <bot@example.com>
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                [![WhiteSource Renovate](https://app.renovatebot.com/images/banner.svg)](https://renovatebot.com)
-
-This PR contains the following updates:
-
-| Package | Change | Age | Adoption | Passing | Confidence |
-|---|---|---|---|---|---|
-| [@types/chai-as-promised](https://togithub.com/DefinitelyTyped/DefinitelyTyped) | [`^7.1.4` -> `7.1.5`](https://renovatebot.com/diffs/npm/@types%2fchai-as-promised/7.1.4/7.1.5) | [![age](https://badges.renovateapi.com/packages/npm/@types%2fchai-as-promised/7.1.5/age-slim)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://badges.renovateapi.com/packages/npm/@types%2fchai-as-promised/7.1.5/adoption-slim)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://badges.renovateapi.com/packages/npm/@types%2fchai-as-promised/7.1.5/compatibility-slim/7.1.4)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://badges.renovateapi.com/packages/npm/@types%2fchai-as-promised/7.1.5/confidence-slim/7.1.4)](https://docs.renovatebot.com/merge-confidence/) |
-
----
-
-### Configuration
-
-📅 **Schedule**: At any time (no schedule defined).
-
-🚦 **Automerge**: Disabled by config. Please merge this manually once you are satisfied.
-
-♻ **Rebasing**: Whenever PR becomes conflicted, or you tick the rebase/retry checkbox.
-
-🔕 **Ignore**: Close this PR and you won't be reminded about this update again.
-
----
-
- - [x] <!-- rebase-check -->If you want to rebase/retry this PR, click this checkbox.
-
----
-
-This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourcesoftware.com). View repository job log [here](https://app.renovatebot.com/dashboard#github/hyperledger-labs/blockchain-carbon-accounting).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-01 22:08:09 +0000 UTC
     </div>
 </div>
 
