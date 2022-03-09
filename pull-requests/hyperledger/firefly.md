@@ -265,7 +265,7 @@ If you use `CRORequirePins` then the cache will return a miss, if the number of 
                 
             </td>
             <td>
-                 - Support for Transaction and BlockchainEvent event filtering
+                 - Support for `Transaction` and `BlockchainEvent` subscription filtering
  - Added ws event enrichment for transactions and blockchain events
 
 Subscription filter payload now look like:

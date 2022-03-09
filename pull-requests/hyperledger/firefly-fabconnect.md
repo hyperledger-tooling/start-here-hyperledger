@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
             </td>
             <td>
                 <b>
-                    Configurable Chaincode Query targets
+                    Configurable Chaincode Query targets; new Query endpoints
                 </b>
             </td>
         </tr>
@@ -27,11 +27,17 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                This allows a chaincode query against the `POST /query` endpoint to choose to target a single peer (the first peer in the peers list for the client organization), or use the selection service to assemble a set of peers and compare endorsement results.
+                ## Part 1: configurable strong read
+This allows a chaincode query against the `POST /query` endpoint to choose to target a single peer (the first peer in the peers list for the client organization), or use the selection service to assemble a set of peers and compare endorsement results.
 
 Default is targeting a single peer.
 
 Add `strongread: true` to the payload to use the selection service.
+
+## Part 2: new query endpoints
+The `GET /blocks/:blocknumber` endpoint has been enhanced to allow the `blocknumber` to be a block hash string, which invokes the ledger client's `GetBlockByHash` method
+
+Added `GET /blockByTxId/:txId` endpoint, to allow the block to be retrieved using a transaction Id
             </td>
         </tr>
     </table>

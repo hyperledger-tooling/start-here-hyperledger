@@ -128,33 +128,3 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/663" class=".btn">#663</a>
-            </td>
-            <td>
-                <b>
-                    fix docs: Chaincode-as-a-service tutorial
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes the followings to run the tutorial.
-- Add an instruction to set PATH to call the `peer` command.
-- Correct an option for `deployCCAAS` to debug Chaincode.
-
-Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-02 06:01:32 +0000 UTC
-    </div>
-</div>
-
