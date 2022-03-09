@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3199" class=".btn">#3199</a>
+            </td>
+            <td>
+                <b>
+                    feat: expose key type in ExportPubKeyBytes()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This changes adds the kms.Keytype return value in ExportPubKeyBytes()
+
+closes #3198
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-09 17:44:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3196" class=".btn">#3196</a>
             </td>
             <td>
@@ -120,63 +151,6 @@ Signed-off-by: Andrii Holovko <andriy.holovko@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-03-03 08:47:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3190" class=".btn">#3190</a>
-            </td>
-            <td>
-                <b>
-                    feat: add version id and version time to resolve DID
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-02 16:50:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3189" class=".btn">#3189</a>
-            </td>
-            <td>
-                <b>
-                    feat: add BatchCrypto support in EDV
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change includes EDV batch Crypto computation to help support combining all MAC/Encryption/KW operations in one 1 call
-
-Part of #3175
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-02 16:12:51 +0000 UTC
     </div>
 </div>
 

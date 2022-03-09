@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3273" class=".btn">#3273</a>
+            </td>
+            <td>
+                <b>
+                    doc: remove duplicate text on network section
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: zufardhiyaulhaq <zufardhiyaulhaq@gmail.com>
+
+remove duplicate text on the network section documentation
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+remove duplicate text on the network section documentation
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-09 17:00:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3272" class=".btn">#3272</a>
             </td>
             <td>
