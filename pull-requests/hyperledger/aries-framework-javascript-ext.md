@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/104" class=".btn">#104</a>
+            </td>
+            <td>
+                <b>
+                    chore: release @aries-framework/rest 0.8.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">autorelease: pending</span>
+            </td>
+            <td>
+                :robot: I have created a release \*beep\* \*boop\*
+---
+### [0.8.1](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.8.0...rest-v0.8.1) (2022-03-09)
+
+
+### Features
+
+* **rest:** added multi use param to create invitation ([#100](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/100)) ([d00f11d](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/d00f11d78e9f65de3907bd6bf94dd6c38e2ddc3b))
+---
+
+
+This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-09 09:57:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/103" class=".btn">#103</a>
             </td>
             <td>
@@ -134,43 +171,6 @@ Signed-off-by: Timo Glastra <timo@animo.id>
     </table>
     <div class="right-align">
         Created At 2022-03-08 22:51:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/101" class=".btn">#101</a>
-            </td>
-            <td>
-                <b>
-                    chore: release @aries-framework/rest 0.9.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">autorelease: pending</span>
-            </td>
-            <td>
-                :robot: I have created a release \*beep\* \*boop\*
----
-## [0.9.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.8.0...rest-v0.9.0) (2022-03-08)
-
-
-### Features
-
-* **rest:** added multi use param to create invitation ([#100](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/100)) ([d00f11d](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/d00f11d78e9f65de3907bd6bf94dd6c38e2ddc3b))
----
-
-
-This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-08 20:52:53 +0000 UTC
     </div>
 </div>
 

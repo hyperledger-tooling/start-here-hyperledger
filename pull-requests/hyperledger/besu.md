@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3544" class=".btn">#3544</a>
+            </td>
+            <td>
+                <b>
+                    Always show privacyGroupId on PrivateTransactionReceipt
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - This is to provide a clearer way of knowing which `privacyGroupId` a private transaction ended up in.
+
+Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-09 11:12:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3543" class=".btn">#3543</a>
             </td>
             <td>

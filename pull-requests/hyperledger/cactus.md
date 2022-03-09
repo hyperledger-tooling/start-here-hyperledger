@@ -64,7 +64,9 @@ Fixes #1667
                 
             </td>
             <td>
-                * Rename plugin file from **odap-gateway** to **plugin-odap-gateway**.
+                Refactor first implementation #1275 
+
+* Rename plugin file from **odap-gateway** to **plugin-odap-gateway**.
 * Refactor **SendClientRequest()** 600 lines method into different methods according to the ODAP phase and each message type.
 * Refactor methods that make digital signatures and respective verification.
 * Added tests and actual verification regarding the state of the objects.

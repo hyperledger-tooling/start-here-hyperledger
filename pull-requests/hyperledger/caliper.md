@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1261" class=".btn">#1261</a>
+            </td>
+            <td>
+                <b>
+                    [Docs] rename master to appropriate branch for source references
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                closes #1257
+
+Also corrects some doc information that now isn't relevant to fabric and links to external fabric sites
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-09 11:37:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1259" class=".btn">#1259</a>
             </td>
             <td>
@@ -128,64 +159,6 @@ Furthermore, connector-versions/peer-gateway was added to nyc of caliper-fabric.
     </table>
     <div class="right-align">
         Created At 2022-03-07 16:24:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1247" class=".btn">#1247</a>
-            </td>
-            <td>
-                <b>
-                    add txid to proposal when doing a query
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #1187
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-02 10:53:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1246" class=".btn">#1246</a>
-            </td>
-            <td>
-                <b>
-                    ensure endorsetimeout is set on v2 fabric connector
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #1245
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-02 10:38:42 +0000 UTC
     </div>
 </div>
 

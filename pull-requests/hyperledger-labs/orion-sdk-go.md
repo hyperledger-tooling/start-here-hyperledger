@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/119" class=".btn">#119</a>
-            </td>
-            <td>
-                <b>
-                    Added manufacture demo for i4Q EU project
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-02 09:16:54 +0000 UTC
-    </div>
-</div>
-
