@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/323" class=".btn">#323</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/325" class=".btn">#325</a>
             </td>
             <td>
                 <b>
-                    Update Batch store planning doc
+                    Add REST API Backwards Compatibility Plan
                 </b>
             </td>
         </tr>
@@ -27,17 +27,15 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                This updates the Batch Store planning doc structs by renaming the
-`Batch` and `Transaction` structs to `GridBatch` and `GridTransaction`.
-This is to alleviate any confusion about the differences between these
-structs and their counterparts in Transact.
+                Add a plan for testing Grid and Splinter REST API compatibility between
+versions.
 
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-22 20:09:08 +0000 UTC
+        Created At 2022-03-08 18:35:09 +0000 UTC
     </div>
 </div>
 

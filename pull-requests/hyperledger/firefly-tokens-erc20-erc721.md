@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/28" class=".btn">#28</a>
-            </td>
-            <td>
-                <b>
-                    Rename "operator" to "signer" in FireFly calls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Aligns with https://github.com/hyperledger/firefly-tokens-erc1155/pull/57
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-01 19:32:09 +0000 UTC
-    </div>
-</div>
-

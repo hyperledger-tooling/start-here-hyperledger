@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1903" class=".btn">#1903</a>
+            </td>
+            <td>
+                <b>
+                    test(cmd-api-server): fix flaky runtime-plugin-imports-test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a flaky test case that can't be reliably reproduce. I've ran the test individually 40 times and all 40 times it has passed successfully. 
+
+This error, however, seems to pop up only when the `yarn jest` command is run (when I ran the test individually). 
+
+Based on the linked ["hint"](https://stackoverflow.com/questions/50793885/referenceerror-you-are-trying-to-import-a-file-after-the-jest-environment-has/50793993#50793993) from the issue, it seems like using `jest.useFakeTimers()` a good solution. However, using the `jest.useFakeTimers()` with`async/await` was not recommended.
+
+However, I found a [different source](https://gist.github.com/apieceofbart/e6dea8d884d29cf88cdb54ef14ddbcc4#file-test-js-L58) that showed examples of how to use the `jest.useFakeTimers()`. Our original problem, however, is probably because the after the test environment is torn down, the second test file is trying to import files from the first environment, triggering the error ([explained here](https://github.com/facebook/jest/issues/11438#issuecomment-916711164)). So I've come to the solution of installing another node package: [node-cleanup](https://www.npmjs.com/package/node-cleanup) and running that within the afterAll at the very end of the test. 
+
+My laptop can't take running the `yarn jest` script too much so I haven't seen it reproduce the error yet. (WOT ruhrow) 
+
+Fixes #1667 
+ 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 21:26:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1902" class=".btn">#1902</a>
+            </td>
+            <td>
+                <b>
+                    refactor(plugin-odap-gateway): refactor implementation including more tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Rename plugin file from **odap-gateway** to **plugin-odap-gateway**.
+* Refactor **SendClientRequest()** 600 lines method into different methods according to the ODAP phase and each message type.
+* Refactor methods that make digital signatures and respective verification.
+* Added tests and actual verification regarding the state of the objects.
+* Added fields in the open API file according to the specification in the ODAP draft.
+* Added checks in every step of the protocol according to the messages exchanged
+
+cc @RafaelAPB 
+
+Signed-off-by: André Augusto <andre.augusto@tecnico.ulisboa.pt>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 19:44:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1901" class=".btn">#1901</a>
             </td>
             <td>

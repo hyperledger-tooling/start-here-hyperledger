@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/25" class=".btn">#25</a>
+            </td>
+            <td>
+                <b>
+                    Update section on WASM
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I did some changes a few days ago but it seems that I haven't opened a PR by accident
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-08 19:44:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/23" class=".btn">#23</a>
             </td>
             <td>
