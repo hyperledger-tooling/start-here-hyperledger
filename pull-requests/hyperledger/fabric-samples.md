@@ -46,7 +46,7 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
             <td>
                 <b>
-                    Java chaincode implementation  for ERC72 standard token.
+                    Java chaincode implementation  for ERC721 standard token.
                 </b>
             </td>
         </tr>

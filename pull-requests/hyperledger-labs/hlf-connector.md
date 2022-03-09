@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/12" class=".btn">#12</a>
+            </td>
+            <td>
+                <b>
+                    Packaging as Jar
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Packaging as Jar
+
+Signed-off-by: Jitendra Das <jitendra.das@walmartlabs.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-09 11:36:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/11" class=".btn">#11</a>
             </td>
             <td>
