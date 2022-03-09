@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3543" class=".btn">#3543</a>
+            </td>
+            <td>
+                <b>
+                    Signed-off-by: Bhaskar Ram <bhaskar@parrtosec.in>
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Upgrade TLS version to 1.3 in BesuCommand.java
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-09 05:11:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3539" class=".btn">#3539</a>
             </td>
             <td>
@@ -27,10 +53,10 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                Add revertReason to trace_call, trace_callMany and trace_get
+                Add revertReason to trace_transaction, trace_call, trace_callMany, trace_rawTransaction and trace_get
 
-This commit has revertReason in output but failing tests ee2677c8f43ee17e93accfee4f558b1a8cd65cc3
-This commit excludes revertReason from comparison and tests pass 93693fce0aab9096b87cbe2a6d0417185ba63062
+Note revertReason manually added to the relevant test files generated from OE.
+Also added a new test file for trace_transaction.
 
 ## Changelog
 
@@ -592,51 +618,6 @@ I move `GraphQLDataFetcherContext` to a separate PR.
     </table>
     <div class="right-align">
         Created At 2022-03-02 21:42:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3510" class=".btn">#3510</a>
-            </td>
-            <td>
-                <b>
-                    Refactor trace api methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Frank Li <b439988l@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Refactor trace api methods to pave way for 
-https://github.com/hyperledger/besu/pull/3459
-https://github.com/hyperledger/besu/pull/3477
-https://github.com/hyperledger/besu/pull/3468
-
-Two abstract classes for code reuse and minimise the amount of merge conflict needed fixing
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-02 04:21:36 +0000 UTC
     </div>
 </div>
 
