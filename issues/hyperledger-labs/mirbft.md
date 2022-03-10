@@ -39,31 +39,3 @@ This task involves looking up all direct accesses to the `Next` field and replac
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger-labs/mirbft/issues/77" class=".btn">77</a>
-            </td>
-            <td>
-                <b>
-                    Improve epochFinished predicate in ISS.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span>
-            </td>
-            <td>
-                Resolve this TODO: https://github.com/hyperledger-labs/mirbft/blob/150081aa1f48a695249ff974e6fab443dce3b24b/pkg/iss/iss.go#L521
-
-The changes in the code should be rather straight-forward, but addressing this issue is a good opportunity to get to know the code.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2021-11-30 09:57:26 +0000 UTC
-    </div>
-</div>
-
