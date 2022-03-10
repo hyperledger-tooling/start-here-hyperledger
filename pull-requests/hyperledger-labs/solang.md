@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/692" class=".btn">#692</a>
+            </td>
+            <td>
+                <b>
+                    Pushing onto two different arrays causes many reallocations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes an issue raised on discord:
+
+https://discord.com/channels/905194001349627914/905834552965103638/949343674272219226
+
+On Solana, contract storage in storage in account data which is a
+continious piece of memory. In order to support growable objects like
+dynamic arrays, we have a mini heap implementation. This fixes a problem
+in the realloc implementation.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-10 09:14:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/691" class=".btn">#691</a>
             </td>
             <td>

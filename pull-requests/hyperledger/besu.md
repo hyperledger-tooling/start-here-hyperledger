@@ -385,33 +385,6 @@ Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3543" class=".btn">#3543</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade TLS version to 1.3 in BesuCommand.java
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Upgrade TLS version to 1.3 in BesuCommand.java
-Signed-off-by: Bhaskar Ram <bhaskar@parrtosec.in>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 05:11:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3539" class=".btn">#3539</a>
             </td>
             <td>
