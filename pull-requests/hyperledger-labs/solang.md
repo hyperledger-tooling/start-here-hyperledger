@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/694" class=".btn">#694</a>
+            </td>
+            <td>
+                <b>
+                    Include trait for loc() functions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds traits for `fn loc(&self) -> Loc` and `fn loc(&self) -> Option<Loc>`, so that we can maintain more uniformity throughout the code, while creating the loc() functions for many structs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-10 12:56:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/692" class=".btn">#692</a>
             </td>
             <td>

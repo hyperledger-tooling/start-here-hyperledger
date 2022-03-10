@@ -513,38 +513,3 @@ None
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1950" class=".btn">#1950</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #1943: Add query errors to the schema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-`iroha_core::smartcontracts::isi::query::Error` implements `IntoSchema` and is added to `iroha_schema_bin::build_schemas`
-
-### Issue
-Closes #1943
-
-### Benefits
-
-### Possible Drawbacks
-None
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 14:26:26 +0000 UTC
-    </div>
-</div>
-
