@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/418" class=".btn">#418</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/420" class=".btn">#420</a>
             </td>
             <td>
                 <b>
-                    update validator to 13.6.0
+                    Fix node status after calling endpoints of node and network
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Affected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) via the isEmail function.
+                Correct node status so then we can perform operations based on the current node status.
 
-Signed-off-by: Bhaskar Ram <bhaskar@parrotsec.in>
+Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-26 06:51:45 +0000 UTC
+        Created At 2022-03-10 02:06:17 +0000 UTC
     </div>
 </div>
 
