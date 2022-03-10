@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3551" class=".btn">#3551</a>
+            </td>
+            <td>
+                <b>
+                    added extra info to issue template
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Added some suggestions for extra info that may be relevant especially for smart contract related issues.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-10 01:02:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3550" class=".btn">#3550</a>
+            </td>
+            <td>
+                <b>
+                    Refactor TomlAuth  with AuthenticatioProvider
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Sandra Wang <yx97.wang@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR is to refactor authenticationprovider dependencies
+If I am not mistaken, this would be the last PR for issue#2766
+
+## Fixed Issue(s)
+fixes: #2766 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-09 20:32:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3548" class=".btn">#3548</a>
             </td>
             <td>
@@ -171,7 +241,7 @@ Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
             </td>
             <td>
                 <b>
-                    Signed-off-by: Bhaskar Ram <bhaskar@parrtosec.in>
+                    Upgrade TLS version to 1.3 in BesuCommand.java
                 </b>
             </td>
         </tr>
@@ -181,6 +251,7 @@ Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
             </td>
             <td>
                 Upgrade TLS version to 1.3 in BesuCommand.java
+Signed-off-by: Bhaskar Ram <bhaskar@parrtosec.in>
             </td>
         </tr>
     </table>
@@ -696,81 +767,6 @@ With this fix, I get this response
     </table>
     <div class="right-align">
         Created At 2022-03-03 02:09:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3514" class=".btn">#3514</a>
-            </td>
-            <td>
-                <b>
-                    Emeritus 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I propose moving the following maintainer to Emeritus status, pursuant to the inactivity clause. These maintainers have had no activity since September 2021:
-* @vmichalik  - last Besu activity was in September 2021 #2718 
-
-We very much appreciate their contributions but moving their status to emeritus (and thus revoking PR approval privileges) is in the interest of an orderly project. If any of these maintainers express in this PR that they intend to make contributions in the next quarter, then they will not be moved to emeritus status.
-I propose this vote is open until either an absolute majority of active maintainers votes for the same outcome, or until two weeks has passed, after which a voting majority will determine the outcome (with a tie resulting in no change).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 00:57:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3511" class=".btn">#3511</a>
-            </td>
-            <td>
-                <b>
-                    [#2766]fix: clean up deprecation warnings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sandra Wang <yx97.wang@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR is to clean up deprecation warnings raised in issue #2766 
-This PR cleans up: 
-- Quantity Interface getValue() [besu/plugin-api/src/main/java/org/hyperledger/besu/plugin/data/Quantity.java](https://github.com/hyperledger/besu/blob/35f16420eb5dc9e54a9510695316e8f590eee181/plugin-api/src/main/java/org/hyperledger/besu/plugin/data/Quantity.java#L35)
-- OKHttpStreamClient
-I am going to create more separate PRs to address warnings that are specific to the concerns. 
-
-## Fixed Issue(s)
-fixes #2766
-
-I move `GraphQLDataFetcherContext` to a separate PR.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-02 21:42:10 +0000 UTC
     </div>
 </div>
 

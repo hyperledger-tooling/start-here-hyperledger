@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/496" class=".btn">#496</a>
+            </td>
+            <td>
+                <b>
+                    Metadata json fmt
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                metadata format update into json
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-09 22:37:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/495" class=".btn">#495</a>
             </td>
             <td>

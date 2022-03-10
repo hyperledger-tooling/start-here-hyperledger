@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1660" class=".btn">#1660</a>
+            </td>
+            <td>
+                <b>
+                    Revert change to send_credential_ack return value
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Related to #1619 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-09 23:52:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1659" class=".btn">#1659</a>
             </td>
             <td>
@@ -24,7 +50,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">0.7.4</span>
             </td>
             <td>
                 Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>

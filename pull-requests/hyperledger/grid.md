@@ -67,29 +67,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1338" class=".btn">#1338</a>
-            </td>
-            <td>
-                <b>
-                    Add initial setup for the Batch Tracking Store
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds several things: a diesel DB schema file for the Batch Tracking store db, DB struct models and their associated Rust struct representations along with conversion methods, and the initial BatchTrackingStore trait and several associated methods.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-02 20:00:37 +0000 UTC
-    </div>
-</div>
-
