@@ -1,13 +1,13 @@
 
+[3202](https://github.com/hyperledger/aries-framework-go/pull/3202) chore: add ed25519Signature2020 to embedded proof
+
+[3573](https://github.com/hyperledger/besu/pull/3573) Update TTD for Kiln
+
+[187](https://github.com/hyperledger/caliper-benchmarks/pull/187) Add support for private asset benchmarks to the go fixed-asset chaincode
+
+[3281](https://github.com/hyperledger/fabric/pull/3281) Documentation for peer.gossip.externalEndpoint
+
 [695](https://github.com/hyperledger-labs/solang/pull/695) Fix issue with dead storage eliminating the wrong storage load
-
-[727](https://github.com/hyperledger-labs/business-partner-agent/pull/727) Bump set-value from 0.4.3 to 2.0.1 in /frontend
-
-[725](https://github.com/hyperledger-labs/business-partner-agent/pull/725) Bump follow-redirects from 1.5.8 to 1.14.9 in /frontend
-
-[726](https://github.com/hyperledger-labs/business-partner-agent/pull/726) Bump shelljs from 0.7.8 to 0.8.5 in /frontend
-
-[724](https://github.com/hyperledger-labs/business-partner-agent/pull/724) small backend fix for PR: 723
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
