@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3571" class=".btn">#3571</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] xl executor for quorum ATs (nightly)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Revert back to the xlarge executor for Quorum ATs
+
+Last time these tests were consistently passing, the config looked like this https://github.com/hyperledger/besu/commit/1c39d4814327b8b095a8801adcb2332a12e19bb6
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-11 05:24:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3569" class=".btn">#3569</a>
+            </td>
+            <td>
+                <b>
+                    Warn if consensus client doesn't call transition configuration endpoint within 120 seconds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Adds a QoS timer behavior to `engine_exchangeTransitionConfigurationV1` rpc method 
+
+[implements 120 second QoS warning](https://github.com/ethereum/execution-apis/blob/main/src/engine/specification.md#specification-3)
+
+If the RPC method is not configured, there will be no such warning.  
+
+Example log warning:
+
+`2022-03-10 19:40:30.853-08:00 | vert.x-eventloop-thread-1 | WARN  | EngineExchangeTransitionConfiguration | not called in 120 seconds, consensus client may not be connected`
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #3561
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-11 03:51:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3568" class=".btn">#3568</a>
             </td>
             <td>
@@ -937,71 +1018,6 @@ fixes #3450
     </table>
     <div class="right-align">
         Created At 2022-03-04 17:08:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3523" class=".btn">#3523</a>
-            </td>
-            <td>
-                <b>
-                    updated several dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Updated some but not all dependencies. 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-04 06:06:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3520" class=".btn">#3520</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] addressed some sonar code smells
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Fixed 4 code smells introduced recently to make sonar happy.
-Also minor change to shorten help message for --X-alg-native-enabled CLI options
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-04 04:15:16 +0000 UTC
     </div>
 </div>
 
