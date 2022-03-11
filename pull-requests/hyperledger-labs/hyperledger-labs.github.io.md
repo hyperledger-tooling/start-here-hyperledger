@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/190" class=".btn">#190</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/191" class=".btn">#191</a>
             </td>
             <td>
                 <b>
-                    hlf-connector
+                    Amrita TIFAC Cyber - Hyperledger Labs.
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Signed-off-by: Anand Banik <anand.banik@walmart.com>
+                Amrita TIFAC Cyber - Hyperledger Labs hosts projects build using Hyperledger Projects as part of Student Projects, M.Tech Dissertation, and Ph.D. Research.
 
-Integrate with Hyperledger Fabric using REST and Kafka and, Block and Chaincode Event emitter.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-08 22:35:23 +0000 UTC
+        Created At 2022-03-10 18:25:29 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[1262](https://github.com/hyperledger/caliper/pull/1262) improve message to help when file not found
+[3568](https://github.com/hyperledger/besu/pull/3568) Added debug logging.
 
-[3559](https://github.com/hyperledger/besu/pull/3559) Add headings to Besu help
+[3567](https://github.com/hyperledger/besu/pull/3567) Revert "upgrade vertx (#3530)"
 
-[723](https://github.com/hyperledger-labs/business-partner-agent/pull/723) Feature/UI connectionless
+[3566](https://github.com/hyperledger/besu/pull/3566) ignore flaky test
 
-[694](https://github.com/hyperledger-labs/solang/pull/694) Include trait for loc() functions
+[3565](https://github.com/hyperledger/besu/pull/3565) remove requirement for CL to have zero blocknumber
 
-[3201](https://github.com/hyperledger/aries-framework-go/pull/3201) feat: add support for ed25519signature2020
+[3564](https://github.com/hyperledger/besu/pull/3564) updated tests to ensure hex values are returned
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
