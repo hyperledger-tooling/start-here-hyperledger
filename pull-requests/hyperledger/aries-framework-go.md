@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3202" class=".btn">#3202</a>
+            </td>
+            <td>
+                <b>
+                    chore: add ed25519Signature2020 to embedded proof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-11 17:48:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3201" class=".btn">#3201</a>
             </td>
             <td>
@@ -314,33 +340,6 @@ I checked the swagger docs for vcwallet and vdr. Problem might occur in other pa
     </table>
     <div class="right-align">
         Created At 2022-03-07 20:59:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3194" class=".btn">#3194</a>
-            </td>
-            <td>
-                <b>
-                    docs: remove outdated demo app link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Rolson Quadras <rolson.quadras@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-04 18:14:26 +0000 UTC
     </div>
 </div>
 

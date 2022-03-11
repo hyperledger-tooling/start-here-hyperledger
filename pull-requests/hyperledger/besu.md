@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3573" class=".btn">#3573</a>
+            </td>
+            <td>
+                <b>
+                    Update TTD for Kiln
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+
+The TTD for Kiln has been updated. This PR adds the new one to the Kiln genesis file
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-11 15:45:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3572" class=".btn">#3572</a>
             </td>
             <td>
@@ -24,7 +54,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">snapsync</span>
             </td>
             <td>
                 Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
@@ -1022,47 +1052,6 @@ Update vertx to 4.2.5
     </table>
     <div class="right-align">
         Created At 2022-03-07 03:56:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3525" class=".btn">#3525</a>
-            </td>
-            <td>
-                <b>
-                    Log initial sync stats every 10 secs at max to avoid spamming logs 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #3450
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-04 17:08:20 +0000 UTC
     </div>
 </div>
 

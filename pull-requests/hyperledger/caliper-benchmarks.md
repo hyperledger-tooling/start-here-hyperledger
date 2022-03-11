@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/180" class=".btn">#180</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/187" class=".btn">#187</a>
             </td>
             <td>
                 <b>
-                    fix java chaincode support
+                    Add support for private asset benchmarks to the go fixed-asset chaincode
                 </b>
             </td>
         </tr>
@@ -27,16 +27,20 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                This gets java deploying and for the most part working, however there are problems in the way the java contract-api chaincode is implemented for fxed-asset which results in the benchmarks recording all failures for some of the benchmarks run, this will be addressed in #181 
+                This adds missing methods so that the
 
-Also note that go chaincode for fixed-asset has been addressed in another issue and so this enables running the chaincode and benchmark in the build
+- create-private-asset.yaml
+- get-private-asset.yaml
+
+Can now be used against the golang contract-api based fixed-asset
+chaincode
 
 Signed-off-by: D <d_kelsey@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-01 10:32:46 +0000 UTC
+        Created At 2022-03-11 15:34:10 +0000 UTC
     </div>
 </div>
 
