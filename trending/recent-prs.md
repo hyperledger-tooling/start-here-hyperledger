@@ -1,13 +1,13 @@
 
-[3571](https://github.com/hyperledger/besu/pull/3571) [MINOR] xl executor for quorum ATs (nightly)
+[695](https://github.com/hyperledger-labs/solang/pull/695) Fix issue with dead storage eliminating the wrong storage load
 
-[497](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/497) Merge latest changes from Opentaps
+[727](https://github.com/hyperledger-labs/business-partner-agent/pull/727) Bump set-value from 0.4.3 to 2.0.1 in /frontend
 
-[3569](https://github.com/hyperledger/besu/pull/3569) Warn if consensus client doesn't call transition configuration endpoint within 120 seconds
+[725](https://github.com/hyperledger-labs/business-partner-agent/pull/725) Bump follow-redirects from 1.5.8 to 1.14.9 in /frontend
 
-[3568](https://github.com/hyperledger/besu/pull/3568) Added debug logging.
+[726](https://github.com/hyperledger-labs/business-partner-agent/pull/726) Bump shelljs from 0.7.8 to 0.8.5 in /frontend
 
-[3567](https://github.com/hyperledger/besu/pull/3567) Revert "upgrade vertx (#3530)"
+[724](https://github.com/hyperledger-labs/business-partner-agent/pull/724) small backend fix for PR: 723
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
