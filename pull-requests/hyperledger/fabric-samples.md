@@ -64,37 +64,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/668" class=".btn">#668</a>
-            </td>
-            <td>
-                <b>
-                    Update test-network-k8s to use two digit version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Instead of using the Fabric and Fabric CA three digit version (2.4.3),
-utilize the two digit version (2.4).
-Each time a Fabric/FabricCA release is pushed to dockerhub the two digit version tag is updated.
-This approach simplifies maintenance so that scripts don't have to be updated for every
-third digit release.
-
-Apologies that the end of line character got updated in the IDE... the important change is in `test-network-k8s/network` file.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 22:49:04 +0000 UTC
-    </div>
-</div>
-
