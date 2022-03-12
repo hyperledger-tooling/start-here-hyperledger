@@ -69,29 +69,3 @@ This enhancement is being done to support aries-mobile-test-harness that can use
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/443" class=".btn">#443</a>
-            </td>
-            <td>
-                <b>
-                    Invalid link to Advanced Test Reporting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This pull request fixes an invalid link to Advanced Test Reporting in README.md.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-02 09:25:29 +0000 UTC
-    </div>
-</div>
-
