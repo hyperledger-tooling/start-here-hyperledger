@@ -169,29 +169,3 @@ Still needs discussion whether this is the desired way to go.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1653" class=".btn">#1653</a>
-            </td>
-            <td>
-                <b>
-                    Fix usage of send_credential_ack
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Follow up to #1619
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-05 00:35:17 +0000 UTC
-    </div>
-</div>
-
