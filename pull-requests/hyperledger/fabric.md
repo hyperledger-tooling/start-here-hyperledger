@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3283" class=".btn">#3283</a>
+            </td>
+            <td>
+                <b>
+                    Refactor of ChaincodeEvents service implementation to support resume
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Enables the client to (optionally) specify a "previously seen" transaction ID in addition to a start block number when requesting chaincode events, which causes chaincode events up to that transaction ID (inclusive) to be ignored and not returned to the client. This supports resume of chaincode event listening on client reconnect without duplicating or missing any events.
+
+Protobuf message changes are required to fully implement and enable this behaviour, but this refactor puts in place the server-side changes and unit tests (albeit commented out in places).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-13 13:09:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3282" class=".btn">#3282</a>
             </td>
             <td>

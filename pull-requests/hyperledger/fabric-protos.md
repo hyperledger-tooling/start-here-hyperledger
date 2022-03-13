@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/75" class=".btn">#75</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/77" class=".btn">#77</a>
             </td>
             <td>
                 <b>
-                    Add in the purge-private-data API
+                    Allow ChaincodeEvents to resume after a specific transaction ID
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                Add a `previous_transaction_id` field to the ChaincodeEventsRequest message so the client can specify a transaction ID, up to which chaincode events should be ignored and not returned to the client.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-02 10:38:23 +0000 UTC
+        Created At 2022-03-13 13:10:55 +0000 UTC
     </div>
 </div>
 

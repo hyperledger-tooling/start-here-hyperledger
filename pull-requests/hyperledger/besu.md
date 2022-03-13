@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3577" class=".btn">#3577</a>
+            </td>
+            <td>
+                <b>
+                    Added --version flag to subcommands [#2762]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Davide Savazzi <davide@davidesavazzi.net>
+
+## PR description
+
+Added --version flag to subcommands. Added a test for each subcommand.
+
+## Fixed Issue(s)
+
+fixes #2762
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-13 16:35:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3575" class=".btn">#3575</a>
             </td>
             <td>
