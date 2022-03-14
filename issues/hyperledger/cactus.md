@@ -14,33 +14,51 @@ permalink: /issues/hyperledger/cactus
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/cactus/issues/1567" class=".btn">1567</a>
+                Issue <a href="https://github.com/hyperledger/cactus/issues/1653" class=".btn">1653</a>
             </td>
             <td>
                 <b>
-                    ci: enable caching of container image builds
+                    fix(docs/examples): cockpitEnabled default value confusion
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span><span class="chip">good-first-issue</span><span class="chip">help wanted</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span><span class="chip">Hacktoberfest</span><span class="chip">good-first-issue-400-expert</span><span class="chip">Flaky-Test-Automation</span><span class="chip">Tests</span><span class="chip">P3</span>
+                <span class="chip">bug</span><span class="chip">documentation</span><span class="chip">good-first-issue</span><span class="chip">help wanted</span><span class="chip">API_Server</span><span class="chip">Nice-to-Have</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span><span class="chip">Hacktoberfest</span><span class="chip">good-first-issue-400-expert</span><span class="chip">Tests</span><span class="chip">P4</span>
             </td>
             <td>
-                ### Description
+                There's a problem with the supply chain example app where some changes to the
+API server broke it, but the breakage could not be consistently reproduced nor
+could we figure out what was the root cause.
 
-As a maintainer I want to make the CI faster and less wasteful so that it's easier to work with it and uses less energy in an attempt to save the planet.
+There is a suspicion that it is due to the out of bounds yarn install process
+that is executed from the `./examples/supply-chain-app/` directory (a `yarn install`)
+but there's no proof for this just yet.
 
-Therefore the CI should check before building images if they were built already, e.g. some kind of shared cache among different executions would be nice because the way it is now, likely 95% of our image builds are producing the same SHAs from scratch every single time which is wasteful and slower than it should be and especially annoying when we get a flaky build fail even though it was passing several times before.
+If the latter turns out to be the root cause then to fix this bug the fix would
+be likely to abandon the directory structure where we have a separate
+`./examples/supply-chain-app/` that installs the `...-backend` package and
+instead the documentation should instruct the readers to run the supply chain
+backend package's entrypoint directly after a monorepo install so that the
+dependencies are in-bound instead of out-of-bound (e.g. the local changes
+are applied instead of the npm published packages being pulled down).
 
-### Acceptance Criteria
-1. Given an image SHA, it only ever gets built once on the CI
-2. Applies to all of the image builds that we are doing as part of the `build-containers` CI job (10+ images IIRC)
+See the bottom comments on this PR: 
+https://github.com/hyperledger/cactus/pull/1623
+
+Specifically: 
+https://github.com/hyperledger/cactus/pull/1623#issuecomment-989594072
+and
+https://github.com/hyperledger/cactus/pull/1623#issuecomment-992472050
+
+
+
+<!-- Edit the body of your new issue then click the ✓ "Create Issue" button in the top right of the editor. The first line will be the issue title. Assignees and Labels follow after a blank line. Leave an empty line before beginning the body of the issue. -->
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-23 22:37:44 +0000 UTC
+        Created At 2021-12-13 23:15:02 +0000 UTC
     </div>
 </div>
 
