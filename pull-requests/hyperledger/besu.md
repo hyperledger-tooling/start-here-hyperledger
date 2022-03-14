@@ -14,6 +14,308 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3579" class=".btn">#3579</a>
+            </td>
+            <td>
+                <b>
+                    WebSocket batch test - remove Ignore
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-13 23:43:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3578" class=".btn">#3578</a>
+            </td>
+            <td>
+                <b>
+                    Remove -x flag for bonsai CLI options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Removes -X from the bonsai flags so users feel safer using the options as bonsai have been tested extensively, note forest will still be the default storage format.
+
+## Changelog
+Add to breaking changes (should we support the -X flag for a little longer?)
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-13 23:37:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3577" class=".btn">#3577</a>
+            </td>
+            <td>
+                <b>
+                    Added --version flag to subcommands [#2762]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Davide Savazzi <davide@davidesavazzi.net>
+
+## PR description
+
+Added --version flag to subcommands. Added a test for each subcommand.
+
+## Fixed Issue(s)
+
+fixes #2762
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-13 16:35:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3575" class=".btn">#3575</a>
+            </td>
+            <td>
+                <b>
+                    add execution engine endpoints to docker ports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+add 8550 and 8551 to the besu image Dockerfiles
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #3574 
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-12 00:46:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3573" class=".btn">#3573</a>
+            </td>
+            <td>
+                <b>
+                    Update TTD for Kiln
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+
+The TTD for Kiln has been updated. This PR adds the new one to the Kiln genesis file
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-11 15:45:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3572" class=".btn">#3572</a>
+            </td>
+            <td>
+                <b>
+                    [SNAPSYNC] Add range proof validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">snapsync</span>
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR will be followed by many PRs to add snapsync compatibility to Besu.
+
+This PR add the range proof validation that will be necessary later
+
+NB: This feature is still experimental and may still change a lot. More tests will be added later when it will be close to the final version 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-11 08:50:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3571" class=".btn">#3571</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] xl executor for quorum ATs (nightly)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Revert back to the xlarge executor for Quorum ATs
+
+Last time these tests were consistently passing, the config looked like this https://github.com/hyperledger/besu/commit/1c39d4814327b8b095a8801adcb2332a12e19bb6
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-11 05:24:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3569" class=".btn">#3569</a>
+            </td>
+            <td>
+                <b>
+                    Warn if consensus client doesn't call transition configuration endpoint within 120 seconds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Adds a QoS timer behavior to `engine_exchangeTransitionConfigurationV1` rpc method 
+
+[implements 120 second QoS warning](https://github.com/ethereum/execution-apis/blob/main/src/engine/specification.md#specification-3)
+
+If the RPC method is not configured, there will be no such warning.  
+
+Example log warning:
+
+`2022-03-10 19:40:30.853-08:00 | vert.x-eventloop-thread-1 | WARN  | EngineExchangeTransitionConfiguration | not called in 120 seconds, consensus client may not be connected`
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #3561
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-11 03:51:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3568" class=".btn">#3568</a>
             </td>
             <td>
@@ -896,112 +1198,6 @@ Update vertx to 4.2.5
     </table>
     <div class="right-align">
         Created At 2022-03-07 03:56:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3525" class=".btn">#3525</a>
-            </td>
-            <td>
-                <b>
-                    Log initial sync stats every 10 secs at max to avoid spamming logs 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #3450
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-04 17:08:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3523" class=".btn">#3523</a>
-            </td>
-            <td>
-                <b>
-                    updated several dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Updated some but not all dependencies. 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-04 06:06:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3520" class=".btn">#3520</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] addressed some sonar code smells
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Fixed 4 code smells introduced recently to make sonar happy.
-Also minor change to shorten help message for --X-alg-native-enabled CLI options
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-04 04:15:16 +0000 UTC
     </div>
 </div>
 

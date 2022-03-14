@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/22" class=".btn">#22</a>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    impl for couchdb support
+                    resolve #17
                 </b>
             </td>
         </tr>
@@ -27,20 +27,73 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
                 
             </td>
             <td>
-                - [x] make pv for couchdb(not need)
-- [x] deploy couchdb(done)
-- [x] make peer running with couchdb(done)
-- [x] make couchdb as an option for deployment(#23)
-- [x] grafana integration(tbd, as https://github.com/apache/couchdb/discussions/3935, #24)
+                add caliper support
+to run
+after deploy fabric network,
+```
+cd $project_dir/Traffic/fabric
+./caliper.sh
 
-resolve #15 
+```
 
 Signed-off-by: Sam Yuan <yy19902439@126.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-19 09:50:34 +0000 UTC
+        Created At 2022-03-13 10:35:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/29" class=".btn">#29</a>
+            </td>
+            <td>
+                <b>
+                    resolve #19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sam Yuan <yy19902439@126.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-13 06:21:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/26" class=".btn">#26</a>
+            </td>
+            <td>
+                <b>
+                    add support for fabric app, resolve #18
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sam Yuan <yy19902439@126.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-13 04:34:23 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/695" class=".btn">#695</a>
+            </td>
+            <td>
+                <b>
+                    Fix issue with dead storage eliminating the wrong storage load
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When the same variable loaded from storage twice in a loop, then first
+may be eliminated rather than the second. The issue is that the reaching
+definition for the second load reaches the first; the possible
+undefined value from the entry point of the function is not reaching.
+
+To fix this, for block 0, populate the variable table all undefined
+values.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-11 11:53:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/694" class=".btn">#694</a>
             </td>
             <td>
@@ -122,110 +156,6 @@ I added most unity tests, however, a few were too difficult to create, because t
     </table>
     <div class="right-align">
         Created At 2022-03-08 11:39:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/688" class=".btn">#688</a>
-            </td>
-            <td>
-                <b>
-                    Make u256 the default type for YUL variables
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                After our discussion, I changed the default types for YUL variables to maintain compatibility with EVM.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-04 17:40:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/687" class=".btn">#687</a>
-            </td>
-            <td>
-                <b>
-                    Resolve yul literals
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements the semantic analysis of YUL literals. The code is not yet fully integrated into Solang's sema, so there are workarounds to avoid build warnings.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-04 13:21:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/686" class=".btn">#686</a>
-            </td>
-            <td>
-                <b>
-                    Refactor unescape function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The `unescape` function in `sema/expression` could not handle escape constructs, such as `\xf4` and `\u00c3`. This PR fixes such a bug.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-04 11:16:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/685" class=".btn">#685</a>
-            </td>
-            <td>
-                <b>
-                    WIP: array of structs should not be array of pointers to struct
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-04 09:51:10 +0000 UTC
     </div>
 </div>
 

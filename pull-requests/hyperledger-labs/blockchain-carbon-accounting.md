@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/496" class=".btn">#496</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/497" class=".btn">#497</a>
             </td>
             <td>
                 <b>
-                    Metadata json fmt
+                    Merge latest changes from Opentaps
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
                 
             </td>
             <td>
-                metadata format update into json
+                * fixes in orbitdb/ scripts
+* renamed utility-emissions-channel into emissions-data
+* changed UtilityEmission to Emission
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-09 22:37:54 +0000 UTC
+        Created At 2022-03-11 05:09:44 +0000 UTC
     </div>
 </div>
 
