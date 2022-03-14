@@ -1,13 +1,13 @@
 
-[3580](https://github.com/hyperledger/besu/pull/3580) [MINOR] corrections to changelog and typos
+[728](https://github.com/hyperledger-labs/business-partner-agent/pull/728) clean proof templates
 
-[3579](https://github.com/hyperledger/besu/pull/3579) WebSocket batch test - remove Ignore
+[2490](https://github.com/hyperledger/indy-sdk/pull/2490) [#2489] Migrate Python example from TRUST_ANCHOR to ENDORSER
 
-[3578](https://github.com/hyperledger/besu/pull/3578) Remove -x flag for bonsai CLI options
+[663](https://github.com/hyperledger/fabric-private-chaincode/pull/663) added documentation for FPC on Azure
 
-[1665](https://github.com/hyperledger/aries-cloudagent-python/pull/1665) fix: always notify if revocation notification record exists
+[14](https://github.com/hyperledger-labs/hlf-connector/pull/14) API for fetching Approved Organisations for a Smart Contract
 
-[1971](https://github.com/hyperledger/iroha/pull/1971) Feature/proposal request optimization v2
+[358](https://github.com/hyperledger-labs/orion-server/pull/358) disabling update of index of an existing db 
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

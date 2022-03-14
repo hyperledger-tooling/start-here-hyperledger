@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/661" class=".btn">#661</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/663" class=".btn">#663</a>
             </td>
             <td>
                 <b>
-                    Add debug info
+                    added documentation for FPC on Azure
                 </b>
             </td>
         </tr>
@@ -27,13 +27,22 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
+                Signed-off-by: Benedikt Hofmann <hofmann.benedikt.hb@web.de>
+
+**What this PR does / why we need it**:
+Makes usage of FPC easier when one does not have physical access to SGX but wants to still use HW mode
+
+**Which issue(s) this PR fixes**:
+none
+
+**Special notes for your reviewer**:
+Docs like we talked on Thursday.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-04 23:56:23 +0000 UTC
+        Created At 2022-03-14 11:10:26 +0000 UTC
     </div>
 </div>
 

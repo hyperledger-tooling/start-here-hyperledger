@@ -1031,7 +1031,7 @@ This PR is focused on resolving the deprecated dependency of graphQL context.
 Deprecated: `graphql.schema.DataFetchingEnvironment#getContext`
 
 ## Fixed Issue(s)
-Issue #2776
+Issue #2766
             </td>
         </tr>
     </table>
@@ -1137,34 +1137,6 @@ fixes #3484
     </table>
     <div class="right-align">
         Created At 2022-03-07 14:13:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3531" class=".btn">#3531</a>
-            </td>
-            <td>
-                <b>
-                    add trace_callMany to CHANGELOG
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-07 09:01:40 +0000 UTC
     </div>
 </div>
 
