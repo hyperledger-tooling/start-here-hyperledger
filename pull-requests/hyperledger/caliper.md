@@ -159,35 +159,3 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1253" class=".btn">#1253</a>
-            </td>
-            <td>
-                <b>
-                    PeerGateway connector: Added new methods in the ConnectionProfileDefinition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added changes to ConnectionProfileDefinition with test for new PeerGateway connetor.
-The following methods were added:
-- getPeersListForOrganization()
-- getTlsCertForPeer(peer)
-- getGrpcEndPointForPeer(peer)
-- getGrpcOptionForPeer(peer)
-Furthermore, connector-versions/peer-gateway was added to nyc of caliper-fabric.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-07 16:24:05 +0000 UTC
-    </div>
-</div>
-

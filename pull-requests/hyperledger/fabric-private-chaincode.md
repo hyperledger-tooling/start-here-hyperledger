@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 Signed-off-by: Benedikt Hofmann <hofmann.benedikt.hb@web.de>

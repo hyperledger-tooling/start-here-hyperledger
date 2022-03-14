@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1667" class=".btn">#1667</a>
+            </td>
+            <td>
+                <b>
+                    Fix: present-proof v2 send-proposal [issue#1474]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">0.7.4</span>
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
+
+resolve #1474 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-14 16:01:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1665" class=".btn">#1665</a>
             </td>
             <td>

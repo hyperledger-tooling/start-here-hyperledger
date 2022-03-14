@@ -1,13 +1,13 @@
 
-[728](https://github.com/hyperledger-labs/business-partner-agent/pull/728) clean proof templates
+[3583](https://github.com/hyperledger/besu/pull/3583) Issue 2757 group command options
 
-[2490](https://github.com/hyperledger/indy-sdk/pull/2490) [#2489] Migrate Python example from TRUST_ANCHOR to ENDORSER
+[1667](https://github.com/hyperledger/aries-cloudagent-python/pull/1667) Fix: present-proof v2 send-proposal [issue#1474]
 
-[663](https://github.com/hyperledger/fabric-private-chaincode/pull/663) added documentation for FPC on Azure
+[162](https://github.com/hyperledger-labs/fabric-operations-console/pull/162) sort list of nodes for unjoin
 
-[14](https://github.com/hyperledger-labs/hlf-connector/pull/14) API for fetching Approved Organisations for a Smart Contract
+[241](https://github.com/hyperledger-labs/minbft/pull/241) View change timer
 
-[358](https://github.com/hyperledger-labs/orion-server/pull/358) disabling update of index of an existing db 
+[240](https://github.com/hyperledger-labs/minbft/pull/240) Add missing unit-test for makeNewViewAcceptor
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
