@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/242" class=".btn">#242</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/245" class=".btn">#245</a>
             </td>
             <td>
                 <b>
-                    larger keys in rw sets
+                    add ability to configure idemix cash size #243
                 </b>
             </td>
         </tr>
@@ -27,43 +27,13 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                Fabric does not set a limit on the length of the keys in a RWSet.
-This PR is to match the same constraint.
-
+                
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-02 10:39:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/241" class=".btn">#241</a>
-            </td>
-            <td>
-                <b>
-                    Add event service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                The event service enables service-to-service communication via pub/sub
-
-Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-02 08:34:09 +0000 UTC
+        Created At 2022-03-14 07:42:54 +0000 UTC
     </div>
 </div>
 
