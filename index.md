@@ -45,4 +45,5 @@ possible by generous contributions of
 ## GitHub Action Contributors
 <ul class="list-style-none">  <li class="d-inline-block mr-1"> <a href="https://github.com/arsulegai"><img src="https://avatars.githubusercontent.com/u/27664223?v=4" width="32" height="32" alt="27664223"></a> </li>  <li class="d-inline-block mr-1"> <a href="https://github.com/hyperledger-bot"><img src="https://avatars.githubusercontent.com/u/76175814?v=4" width="32" height="32" alt="76175814"></a> </li>  <li class="d-inline-block mr-1"> <a href="https://github.com/nidhi-singh02"><img src="https://avatars.githubusercontent.com/u/38173192?v=4" width="32" height="32" alt="38173192"></a> </li>  <li class="d-inline-block mr-1"> <a href="https://github.com/ryjones"><img src="https://avatars.githubusercontent.com/u/466142?v=4" width="32" height="32" alt="466142"></a> </li>  </ul>
 
-## [Community statistics](https://insights.lfx.linuxfoundation.org/projects/hyperledger-f) from Hyperledger 
+## Github Community Statistics
+Over the time, we can see the increasing number of contributions in the [Community statistics](https://insights.lfx.linuxfoundation.org/projects/hyperledger-f/dashboard) from Hyperledger.
