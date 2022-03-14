@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3583" class=".btn">#3583</a>
+            </td>
+            <td>
+                <b>
+                    Issue 2757 group command options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR continues to group the CLI options together. 
+
+## Fixed Issue(s)
+fixes #2757 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-14 17:33:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3580" class=".btn">#3580</a>
             </td>
             <td>
@@ -1069,74 +1106,6 @@ Use docker executor and jdk image as before (but keep medium resource class)
     </table>
     <div class="right-align">
         Created At 2022-03-07 23:41:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3533" class=".btn">#3533</a>
-            </td>
-            <td>
-                <b>
-                    Acceptance test for execution engine apis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-## PR description
-
-Adds acceptance tests for the execution engine APIs
-
-## Fixed Issue(s)
-fixes #3484
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-07 15:41:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3532" class=".btn">#3532</a>
-            </td>
-            <td>
-                <b>
-                    Batching backward sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
- This PR is making changing backward sync to use the batching mechanism.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-07 14:13:26 +0000 UTC
     </div>
 </div>
 
