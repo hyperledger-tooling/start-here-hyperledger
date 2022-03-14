@@ -7,7 +7,7 @@
 
 [1776](https://github.com/hyperledger/iroha/pull/1776) Added possibility to configure max past time of transaction created_time
 
-[280](https://github.com/hyperledger-labs/go-perun/issues/280) Implement Data.Equal
+[1653](https://github.com/hyperledger/cactus/issues/1653) fix(docs/examples): cockpitEnabled default value confusion
 
 
 [See more >>>](https://start-here.hyperledger.org/issues)
