@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1665" class=".btn">#1665</a>
+            </td>
+            <td>
+                <b>
+                    fix: always notify if revocation notification record exists
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Removes the check to notify in the `on_revocation_published` event handler. This check in the `on_revocation_published` would only take the global config option into account, meaning it doesn't matter if you provided `notify: true` in the `/revoke` endpoint.
+
+A`RevNotificationRecord` is only created if a notification should be sent (either global agent config, or `notify` prop in the revoke endpoint). So if a record exists I think we can assume that a notification should be sent as otherwise the record wouldn't exist in the first place. Maybe I'm missing something?
+
+https://github.com/hyperledger/aries-cloudagent-python/blob/681e9aab9a6f6d3e76484d02ccb969d3227bf34f/aries_cloudagent/revocation/manager.py#L116-L126
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-13 19:21:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1663" class=".btn">#1663</a>
             </td>
             <td>
