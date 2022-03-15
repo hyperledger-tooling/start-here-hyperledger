@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger-labs/solang
 
 Followed these instructions https://github.com/hyperledger-labs/solang/issues/696#issuecomment-1066666159
 
-
+revert statement remains `unimplemented!` in `sema`
             </td>
         </tr>
     </table>
@@ -160,32 +160,6 @@ I added most unity tests, however, a few were too difficult to create, because t
     </table>
     <div class="right-align">
         Created At 2022-03-09 11:53:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/690" class=".btn">#690</a>
-            </td>
-            <td>
-                <b>
-                    Improve msg.sender test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR updates the test of `msg.sender`, according to the suggestions at issue #679.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-08 11:39:37 +0000 UTC
     </div>
 </div>
 
