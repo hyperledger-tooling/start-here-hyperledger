@@ -974,36 +974,3 @@ Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3539" class=".btn">#3539</a>
-            </td>
-            <td>
-                <b>
-                    Trace APIs: add revert reason
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add revertReason to trace_transaction, trace_call, trace_callMany, trace_rawTransaction and trace_get
-
-Note revertReason manually added to the relevant test files generated from OE.
-Also added a new test file for trace_transaction.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-08 05:37:01 +0000 UTC
-    </div>
-</div>
-
