@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/700" class=".btn">#700</a>
+            </td>
+            <td>
+                <b>
+                    feat(parser): support revert statement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #696
+
+Followed these instructions https://github.com/hyperledger-labs/solang/issues/696#issuecomment-1066666159
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-14 21:03:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/695" class=".btn">#695</a>
             </td>
             <td>
