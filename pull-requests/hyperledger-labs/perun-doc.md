@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/70" class=".btn">#70</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/71" class=".btn">#71</a>
             </td>
             <td>
                 <b>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
                 
             </td>
             <td>
-                This is for review of the app channel tutorial text.
-Includes many payment-channel commits because it is based on the payment-channel branch to have context to the app channel tutorial regarding references and structure.
-I will make a new (separate & clean) PR once #69 is merged into main.
+                Please have a look @matthiasgeihs 
 
+Todo: Switch from `code-block` to `literalinclude` once referenced [code](https://github.com/perun-network/perun-examples/pull/9) merged into perun-examples/main.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-14 18:57:19 +0000 UTC
+        Created At 2022-03-15 17:50:49 +0000 UTC
     </div>
 </div>
 

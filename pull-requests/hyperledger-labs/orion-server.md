@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/361" class=".btn">#361</a>
+            </td>
+            <td>
+                <b>
+                    Improve snapshot creation safety
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Make sure a raftpb.EntryConfChange entry does not create a snapshot with an empty block.
+
+Also get rid of a few warning (unhandled error, context leak).
+
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-15 12:59:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/358" class=".btn">#358</a>
             </td>
             <td>

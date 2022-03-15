@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/671" class=".btn">#671</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/675" class=".btn">#675</a>
             </td>
             <td>
                 <b>
-                    Remove bash dependency from test network nano
+                    Update nano test network
                 </b>
             </td>
         </tr>
@@ -27,14 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                The scripts do not require bash so switch to sh and add shellcheck linting
+                Fix minor bugs, add network.sh script to simplify standing up the network, and add an option to run the network in a single container
+
+Note: the updated peerNadmin.sh scripts no longer create or join a channel and now only configure the environment for the relevant peer
 
 Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-07 12:17:22 +0000 UTC
+        Created At 2022-03-15 16:04:19 +0000 UTC
     </div>
 </div>
 

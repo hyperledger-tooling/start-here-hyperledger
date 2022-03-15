@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/209" class=".btn">#209</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Add IIN Method document
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In order to add the iin method in [DID Specification Registries](https://w3c.github.io/did-spec-registries/#did-methods), we need to define it in our own RFC and open a PR with its link.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-15 13:33:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/207" class=".btn">#207</a>
             </td>
             <td>
