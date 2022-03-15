@@ -14,11 +14,58 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3585" class=".btn">#3585</a>
+            </td>
+            <td>
+                <b>
+                    Add group heading to command options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR continues to group the CLI options together.
+
+- JSON-RPC HTTP
+- JSON-RPC WebSockets
+- Metrics
+- Miner
+- Privacy
+- Permissions
+- Tx poo
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+fixes #2757 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-15 10:30:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3583" class=".btn">#3583</a>
             </td>
             <td>
                 <b>
-                    Issue 2757 group command options
+                    Add group heading to command options
                 </b>
             </td>
         </tr>
@@ -32,6 +79,13 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 This PR continues to group the CLI options together. 
+- JSON-RPC HTTP
+- JSON-RPC WebSockets
+- Metrics
+- Miner
+- Privacy
+- Permissions
+- Tx pool
 
 ## Fixed Issue(s)
 fixes #2757 

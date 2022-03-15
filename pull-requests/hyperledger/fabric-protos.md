@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                Add a `previous_transaction_id` field to the ChaincodeEventsRequest message so the client can specify a transaction ID, up to which chaincode events should be ignored and not returned to the client.
+                Add a `after_transaction_id` field to the ChaincodeEventsRequest message so the client can specify a transaction ID, up to which chaincode events should be ignored and not returned to the client.
             </td>
         </tr>
     </table>
