@@ -175,9 +175,7 @@ Checklist (DELETE AFTER READING):
                 
             </td>
             <td>
-                Enables the client to (optionally) specify a "previously seen" transaction ID in addition to a start block number when requesting chaincode events, which causes chaincode events up to that transaction ID (inclusive) to be ignored and not returned to the client. This supports resume of chaincode event listening on client reconnect without duplicating or missing any events.
-
-Protobuf message changes are required to fully implement and enable this behaviour, but this refactor puts in place the server-side changes and unit tests (albeit commented out in places).
+                Enables the client to (optionally) specify an AfterTransactionId property in addition to a start block number when requesting chaincode events, which causes chaincode events up to that transaction ID (inclusive) to be ignored and not returned to the client. This supports resume of chaincode event listening on client reconnect without duplicating or missing any events.
             </td>
         </tr>
     </table>

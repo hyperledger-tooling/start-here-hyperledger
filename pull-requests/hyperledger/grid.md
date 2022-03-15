@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1340" class=".btn">#1340</a>
+                PR <a href="https://github.com/hyperledger/grid/pull/1345" class=".btn">#1345</a>
             </td>
             <td>
                 <b>
-                    Bump dirs library from 0.3 -> 0.4
+                    Add `GET` proxy endpoint for Griddle 
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/grid
                 
             </td>
             <td>
-                Latest version of dirs adds support for XDG_DATA_HOME.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
+                Add ProxyClient trait and implementation, add endpoint for proxying GET requests, add this endpoint as the default service to the Griddle REST API for `GET` requests. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-03 19:25:35 +0000 UTC
+        Created At 2022-03-15 17:27:54 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +40,11 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1339" class=".btn">#1339</a>
+                PR <a href="https://github.com/hyperledger/grid/pull/1344" class=".btn">#1344</a>
             </td>
             <td>
                 <b>
-                    Bump flexi_logger from 0.17 -> 0.22
+                    Add `add_batches` Batch Tracking store operation
                 </b>
             </td>
         </tr>
@@ -55,15 +53,16 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
                 
             </td>
             <td>
-                The latest version of flexi_logger includes a number of API improvements
-and fixes over 0.17.
+                This implements the `add_batches` operation for the Batch Tracking
+store. As this is the first operation implemented for this store, some
+additional initial setup is included as well.
 
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-03 18:51:28 +0000 UTC
+        Created At 2022-03-15 16:41:20 +0000 UTC
     </div>
 </div>
 

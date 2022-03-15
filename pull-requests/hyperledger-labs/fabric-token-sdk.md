@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/185" class=".btn">#185</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/193" class=".btn">#193</a>
             </td>
             <td>
                 <b>
-                    remove ttx package #184
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 15:02:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/183" class=".btn">#183</a>
-            </td>
-            <td>
-                <b>
-                    add metadata to transfer action
+                    F 181
                 </b>
             </td>
         </tr>
@@ -58,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-03 14:52:16 +0000 UTC
+        Created At 2022-03-15 16:37:10 +0000 UTC
     </div>
 </div>
 

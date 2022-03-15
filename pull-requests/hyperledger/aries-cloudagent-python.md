@@ -202,29 +202,3 @@ Still needs discussion whether this is the desired way to go.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1655" class=".btn">#1655</a>
-            </td>
-            <td>
-                <b>
-                    Add cred_def_id to metadata when using an Endorser
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When publishing a new credential definition to the ledger (with the Author/Endorser workflow), the `cred_def_id` is nowhere to be found in the transaction response or the webhooks. I have moved the metadata definition lines for `cred_def_id` and `issuer_id` to the actual definition point for the metadata and have removed the redundant lines that were in an if block.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-08 16:47:25 +0000 UTC
-    </div>
-</div>
-
