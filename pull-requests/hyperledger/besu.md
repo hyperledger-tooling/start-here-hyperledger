@@ -14,6 +14,152 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3594" class=".btn">#3594</a>
+            </td>
+            <td>
+                <b>
+                    change snapshot version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
+
+Change snapshot version to 21.1.3
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 05:59:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3592" class=".btn">#3592</a>
+            </td>
+            <td>
+                <b>
+                    address some sonar cloud bugs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+constants for strings and check some optionals.
+Also changed the engineHttpUrl() method to use the engine host 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 05:14:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3591" class=".btn">#3591</a>
+            </td>
+            <td>
+                <b>
+                    Display data storage options in CLI help
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                Signed-off-by: Diego López León <dieguitoll@gmail.com>
+
+## PR description
+This is a leftover from #3578 to display the new stable options in the `--help` output
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 04:52:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3590" class=".btn">#3590</a>
+            </td>
+            <td>
+                <b>
+                    Do not merge: test tuweni 2.2 RC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Only for testing the tuweni 2.2 RC
+
+Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 04:42:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3589" class=".btn">#3589</a>
+            </td>
+            <td>
+                <b>
+                    Release 22.1.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 04:30:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3586" class=".btn">#3586</a>
             </td>
             <td>
