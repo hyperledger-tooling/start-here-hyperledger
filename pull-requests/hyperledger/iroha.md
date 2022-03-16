@@ -129,29 +129,3 @@ Large pull request
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1964" class=".btn">#1964</a>
-            </td>
-            <td>
-                <b>
-                    Updates to requirements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                upgrade the packages in requirements.txt
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 06:00:44 +0000 UTC
-    </div>
-</div>
-
