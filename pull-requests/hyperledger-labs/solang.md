@@ -135,31 +135,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/691" class=".btn">#691</a>
-            </td>
-            <td>
-                <b>
-                    Resolve assembly expressions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements the semantic analysis of YUL expressions. As we don't analyze YUL statements yet, there are workarounds to avoid warnings during build. There are also some `TODOs` in the code to indicate implementation details I must not forget when creating the analysis of statements.
-
-I added most unity tests, however, a few were too difficult to create, because they required building a complex parse tree. I am going to test those functions as soon as the semantic analysis is complete for YUL.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 11:53:50 +0000 UTC
-    </div>
-</div>
-

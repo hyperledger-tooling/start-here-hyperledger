@@ -1,13 +1,13 @@
 
+[45](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/45) postgresql as optional dependency
+
+[331](https://github.com/hyperledger-labs/go-perun/pull/331) wallet.CloneAddress(es)
+
+[3595](https://github.com/hyperledger/besu/pull/3595) added download links for 22.1.2 and moved bonsai change to 22.1.3
+
+[1973](https://github.com/hyperledger/iroha/pull/1973) Smart contract opaque pointers
+
 [3594](https://github.com/hyperledger/besu/pull/3594) change snapshot version
-
-[3592](https://github.com/hyperledger/besu/pull/3592) address some sonar cloud bugs
-
-[3288](https://github.com/hyperledger/fabric/pull/3288) Ignore channel double creation during replication. (backport #3284)
-
-[3287](https://github.com/hyperledger/fabric/pull/3287) Ignore channel double creation during replication. (backport #3284)
-
-[3591](https://github.com/hyperledger/besu/pull/3591) Display data storage options in CLI help
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
