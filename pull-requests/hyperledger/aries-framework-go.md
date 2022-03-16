@@ -254,34 +254,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3199" class=".btn">#3199</a>
-            </td>
-            <td>
-                <b>
-                    feat: expose key type in ExportPubKeyBytes()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This changes adds the kms.Keytype return value in ExportPubKeyBytes()
-
-closes #3198
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 17:44:33 +0000 UTC
-    </div>
-</div>
-

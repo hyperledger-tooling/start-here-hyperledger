@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">0.7.4</span>
             </td>
             <td>
                 Attempt to fix an issue with blank credential values seen in the test harness.
@@ -145,60 +145,6 @@ https://github.com/hyperledger/aries-cloudagent-python/blob/681e9aab9a6f6d3e7648
     </table>
     <div class="right-align">
         Created At 2022-03-09 23:52:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1659" class=".btn">#1659</a>
-            </td>
-            <td>
-                <b>
-                    Redis PQ Cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 17:04:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1658" class=".btn">#1658</a>
-            </td>
-            <td>
-                <b>
-                    [RFC] Do NOT merge yet - Allow access to /ledger/register-nym with multitenancy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The change shows what might be necessary to support "Option 3" described in #1657 
-
-Still needs discussion whether this is the desired way to go.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 14:33:41 +0000 UTC
     </div>
 </div>
 

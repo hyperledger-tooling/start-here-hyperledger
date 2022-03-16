@@ -1,13 +1,13 @@
 
-[45](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/45) postgresql as optional dependency
+[701](https://github.com/hyperledger-labs/solang/pull/701) Bump dependencies
 
-[331](https://github.com/hyperledger-labs/go-perun/pull/331) wallet.CloneAddress(es)
+[678](https://github.com/hyperledger/fabric-samples/pull/678) Override default port of CA connection on CCP teample
 
-[3595](https://github.com/hyperledger/besu/pull/3595) added download links for 22.1.2 and moved bonsai change to 22.1.3
+[194](https://github.com/hyperledger-labs/fabric-token-sdk/pull/194) Test the token transaction release function
 
-[1973](https://github.com/hyperledger/iroha/pull/1973) Smart contract opaque pointers
+[3289](https://github.com/hyperledger/fabric/pull/3289) Locate correct block number for transaction ID in ChaincodeEvents
 
-[3594](https://github.com/hyperledger/besu/pull/3594) change snapshot version
+[2492](https://github.com/hyperledger/indy-sdk/pull/2492) Fix Python Package Versioning 
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
