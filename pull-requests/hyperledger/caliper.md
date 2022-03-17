@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1262" class=".btn">#1262</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1270" class=".btn">#1270</a>
             </td>
             <td>
                 <b>
-                    improve message to help when file not found
+                    added main logic for the new peer-gateaway connector with unit tests 
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                closes #1202
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-
+                Do not merge
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-10 16:39:44 +0000 UTC
+        Created At 2022-03-17 14:59:31 +0000 UTC
     </div>
 </div>
 

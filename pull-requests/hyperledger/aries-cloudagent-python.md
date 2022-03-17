@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1672" class=".btn">#1672</a>
+            </td>
+            <td>
+                <b>
+                    Add an integration test for mixed proof with a revocable cred and a n…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …on-revocable cred
+
+Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+(the branch is incorrectly named against the wrong issue oops)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-17 17:17:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1671" class=".btn">#1671</a>
             </td>
             <td>

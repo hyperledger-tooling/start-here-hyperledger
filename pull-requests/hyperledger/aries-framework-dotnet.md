@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/219" class=".btn">#219</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/220" class=".btn">#220</a>
             </td>
             <td>
                 <b>
-                    Did exchange protocol
+                    Added MIME type image/png for credential attributes
                 </b>
             </td>
         </tr>
@@ -27,20 +27,23 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
                 
             </td>
             <td>
-                #### Short description of what this resolves:
-This PR adds support for did exchange protocol as defined by Aries RFC-0023 https://github.com/hyperledger/aries-rfcs/tree/b3a3942ef052039e73cd23d847f42947f8287da2/features/0023-did-exchange
+                **Short description of what this resolves:**
 
+With this PR, credentials with attributes of MIME type 'image/png' can now be stored and retrieved.
 
-#### Changes proposed in this pull request:
+**Changes proposed in this pull request:**
 
-- Adds DidExchangeService and DidExchangeHandler
-- Merged common features of connection protocol and did exchange into handshakes
+- Added Support for MIME type image/png.
+- Value of attributes with MIME type 'image/png' is the image encoded in base64.
+- Added Test for storing credential with attributes of MIME type 'image/png'.
+
+**Fixes**: #
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-03 18:37:33 +0000 UTC
+        Created At 2022-03-17 13:54:50 +0000 UTC
     </div>
 </div>
 
