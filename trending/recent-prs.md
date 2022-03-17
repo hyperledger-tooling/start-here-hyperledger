@@ -1,13 +1,13 @@
 
-[45](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/45) postgresql as optional dependency
+[1670](https://github.com/hyperledger/aries-cloudagent-python/pull/1670) Qualify did exch connection lookup by role
 
-[331](https://github.com/hyperledger-labs/go-perun/pull/331) wallet.CloneAddress(es)
+[725](https://github.com/hyperledger/aries-rfcs/pull/725) Remove Signatures from Example Requests
 
-[3595](https://github.com/hyperledger/besu/pull/3595) added download links for 22.1.2 and moved bonsai change to 22.1.3
+[724](https://github.com/hyperledger/aries-rfcs/pull/724) Update AIP 2.0 links to point to clarified RFCs -- notably refs to main branch
 
-[1973](https://github.com/hyperledger/iroha/pull/1973) Smart contract opaque pointers
+[723](https://github.com/hyperledger/aries-rfcs/pull/723) Update AIP Diff script to use main branch
 
-[3594](https://github.com/hyperledger/besu/pull/3594) change snapshot version
+[1346](https://github.com/hyperledger/grid/pull/1346) Add batch submitter traits and implementations
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
