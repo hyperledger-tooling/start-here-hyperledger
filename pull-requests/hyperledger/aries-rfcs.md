@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/721" class=".btn">#721</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/725" class=".btn">#725</a>
             </td>
             <td>
                 <b>
-                    feature: revocation notification v2
+                    Remove Signatures from Example Requests
                 </b>
             </td>
         </tr>
@@ -27,13 +27,68 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Adds revocation notification v2 as discussed in Aries WG calls 2022/01/19, 2022/02/16, and in #705. 
-The primary changes from the v1 protocol are adding a field to identify the format of revocation and adjusting `thread_id` to be `credential_id` to communicate the credential identifier of the revoked credential instead of the thread of the issue-credential-v2 exchange (as this exchange may include multiple credentials being issued in the same thread and the thread_id may not be held onto by all holders).
+                Signed-off-by: Sam Curren <telegramsam@gmail.com>
+These were never appropriate, but added by mistake to the request. Sigs still required in Responses.
+Related to #717 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-16 19:24:02 +0000 UTC
+        Created At 2022-03-17 00:18:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/724" class=".btn">#724</a>
+            </td>
+            <td>
+                <b>
+                    Update AIP 2.0 links to point to clarified RFCs -- notably refs to main branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 22:04:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/723" class=".btn">#723</a>
+            </td>
+            <td>
+                <b>
+                    Update AIP Diff script to use main branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 19:06:17 +0000 UTC
     </div>
 </div>
 

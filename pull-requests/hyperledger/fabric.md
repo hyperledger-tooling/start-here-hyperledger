@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3289" class=".btn">#3289</a>
+            </td>
+            <td>
+                <b>
+                    Locate correct block number for transaction ID in ChaincodeEvents
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If the request contains an `after_transaction_id`, start reading from the block containing that transaction ID and ignore any specified start block. If the specified transaction has not been committed in a block, fall back to any specified start block or next committed block.
+
+Enhancement requested in review of PR #3283
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 14:33:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3288" class=".btn">#3288</a>
             </td>
             <td>
@@ -344,52 +372,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-03-11 13:42:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3273" class=".btn">#3273</a>
-            </td>
-            <td>
-                <b>
-                    doc: remove duplicate text on network section
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: zufardhiyaulhaq <zufardhiyaulhaq@gmail.com>
-
-remove duplicate text on the network section documentation
-
-#### Type of change
-
-- Documentation update
-
-#### Description
-
-remove duplicate text on the network section documentation
-
-#### Additional details
-
-N/A
-
-#### Related issues
-
-N/A
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 17:00:30 +0000 UTC
     </div>
 </div>
 
