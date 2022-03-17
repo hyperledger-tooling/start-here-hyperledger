@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3601" class=".btn">#3601</a>
+            </td>
+            <td>
+                <b>
+                    SNAPSYNC add request task
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">snapsync</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+PR that adds the different request tasks necessary for the snapsync as well as a utility to manage the ranges of requests 
+
+Snapsyc is still an experimental feature more tests will be added when the feature will be completed
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-17 15:54:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3595" class=".btn">#3595</a>
             </td>
             <td>
@@ -837,43 +878,6 @@ fixes #3563
     </table>
     <div class="right-align">
         Created At 2022-03-10 21:55:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3559" class=".btn">#3559</a>
-            </td>
-            <td>
-                <b>
-                    Add headings to Besu help
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sandra Wang <yx97.wang@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-fixes #2757 
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-10 16:08:47 +0000 UTC
     </div>
 </div>
 

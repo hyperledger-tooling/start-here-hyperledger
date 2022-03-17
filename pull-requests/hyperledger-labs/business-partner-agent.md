@@ -427,36 +427,3 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/723" class=".btn">#723</a>
-            </td>
-            <td>
-                <b>
-                    Feature/UI connectionless
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">frontend</span>
-            </td>
-            <td>
-                - Add frontend implementation for invitation with attachment (a.k.a. issuing credential with not yet connected partner)
-- Use typings for all services
-- Refactoring
-- Move Schema Settings to sidebar ("Schemas")
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/723"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-10 15:04:38 +0000 UTC
-    </div>
-</div>
-
