@@ -14,6 +14,317 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3595" class=".btn">#3595</a>
+            </td>
+            <td>
+                <b>
+                    added download links for 22.1.2 and moved bonsai change to 22.1.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Added 22.1.3 section to changelog
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 09:23:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3594" class=".btn">#3594</a>
+            </td>
+            <td>
+                <b>
+                    change snapshot version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
+
+Change snapshot version to 21.1.3
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 05:59:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3592" class=".btn">#3592</a>
+            </td>
+            <td>
+                <b>
+                    address some sonar cloud bugs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+constants for strings and check some optionals.
+Also changed the engineHttpUrl() method to use the engine host 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 05:14:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3591" class=".btn">#3591</a>
+            </td>
+            <td>
+                <b>
+                    Display data storage options in CLI help
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                Signed-off-by: Diego López León <dieguitoll@gmail.com>
+
+## PR description
+This is a leftover from #3578 to display the new stable options in the `--help` output
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 04:52:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3590" class=".btn">#3590</a>
+            </td>
+            <td>
+                <b>
+                    Do not merge: test tuweni 2.2 RC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Only for testing the tuweni 2.2 RC
+
+Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 04:42:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3589" class=".btn">#3589</a>
+            </td>
+            <td>
+                <b>
+                    Release 22.1.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 04:30:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3586" class=".btn">#3586</a>
+            </td>
+            <td>
+                <b>
+                    Reduce the capacity of the transactions worker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The previous queue capacity was too big since currently Besu is able
+to process some thousand of transaction messages per second.
+
+Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-15 14:17:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3585" class=".btn">#3585</a>
+            </td>
+            <td>
+                <b>
+                    Add group heading to command options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR continues to group the CLI options together.
+
+- JSON-RPC HTTP
+- JSON-RPC WebSockets
+- Metrics
+- Miner
+- Privacy
+- Permissions
+- Tx poo
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+fixes #2757 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-15 10:30:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3583" class=".btn">#3583</a>
+            </td>
+            <td>
+                <b>
+                    Add group heading to command options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR continues to group the CLI options together. 
+- JSON-RPC HTTP
+- JSON-RPC WebSockets
+- Metrics
+- Miner
+- Privacy
+- Permissions
+- Tx pool
+
+## Fixed Issue(s)
+fixes #2757 
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-14 17:33:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3580" class=".btn">#3580</a>
             </td>
             <td>
@@ -711,432 +1022,6 @@ Update versions
     </table>
     <div class="right-align">
         Created At 2022-03-10 01:54:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3551" class=".btn">#3551</a>
-            </td>
-            <td>
-                <b>
-                    added extra info to issue template
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Added some suggestions for extra info that may be relevant especially for smart contract related issues.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-10 01:02:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3550" class=".btn">#3550</a>
-            </td>
-            <td>
-                <b>
-                    Refactor TomlAuth  with AuthenticatioProvider
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Signed-off-by: Sandra Wang <yx97.wang@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR is to refactor authenticationprovider dependencies
-If I am not mistaken, this would be the last PR for issue#2766
-
-## Fixed Issue(s)
-fixes: #2766 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 20:32:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3548" class=".btn">#3548</a>
-            </td>
-            <td>
-                <b>
-                    check types before providing a PowMiningCoordinator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Adds conditionals around assumptions on type of MiningCoordinator
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #3541 
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 17:32:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3547" class=".btn">#3547</a>
-            </td>
-            <td>
-                <b>
-                    add kiln network, add network option for fast-sync capable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-* Add kiln network 
-* add NetworkName enum param for whether a named network can fast sync or not
-* set kiln to full-sync only (for now)
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#3545
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 17:17:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3546" class=".btn">#3546</a>
-            </td>
-            <td>
-                <b>
-                    Richer return information for Precompiled Contracts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-## PR description
-
-Allow precomiled contracts to return richer information instead of
-results/fail. System/precompile contracts can now revert, fail, refund
-gas, etc. instead of just succeed or fail.
-
-This also had the nice effect of removing some hard-coded names for privacy contracts in the EVM code, which decouples it from privacy and frees up privacy for easier evolution.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 17:07:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3544" class=".btn">#3544</a>
-            </td>
-            <td>
-                <b>
-                    Always show privacyGroupId on PrivateTransactionReceipt
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - This is to provide a clearer way of knowing which `privacyGroupId` a private transaction ended up in.
-
-Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 11:12:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3539" class=".btn">#3539</a>
-            </td>
-            <td>
-                <b>
-                    Trace APIs: add revert reason
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add revertReason to trace_transaction, trace_call, trace_callMany, trace_rawTransaction and trace_get
-
-Note revertReason manually added to the relevant test files generated from OE.
-Also added a new test file for trace_transaction.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-08 05:37:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3538" class=".btn">#3538</a>
-            </td>
-            <td>
-                <b>
-                    Updated netty
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Updated dependencies
-* netty
-* solidity plugin
-* artifactory plugin
-* jmh
-* spring crypto
-* testcontainers
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-08 00:26:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3536" class=".btn">#3536</a>
-            </td>
-            <td>
-                <b>
-                    Refactor graphqlcontext since getContext() is deprecated
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sandra Wang <yx97.wang@gmail.com>
-
-## PR description
-This PR is focused on resolving the deprecated dependency of graphQL context.
-
-Deprecated: `graphql.schema.DataFetchingEnvironment#getContext`
-
-## Fixed Issue(s)
-Issue #2766
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-08 00:04:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3535" class=".btn">#3535</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] quorum ATs use docker executor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Use docker executor and jdk image as before (but keep medium resource class)
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-07 23:41:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3533" class=".btn">#3533</a>
-            </td>
-            <td>
-                <b>
-                    Acceptance test for execution engine apis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-## PR description
-
-Adds acceptance tests for the execution engine APIs
-
-## Fixed Issue(s)
-fixes #3484
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-07 15:41:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3532" class=".btn">#3532</a>
-            </td>
-            <td>
-                <b>
-                    Batching backward sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
- This PR is making changing backward sync to use the batching mechanism.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-07 14:13:26 +0000 UTC
     </div>
 </div>
 

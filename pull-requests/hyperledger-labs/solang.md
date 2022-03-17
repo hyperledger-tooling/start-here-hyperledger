@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/701" class=".btn">#701</a>
+            </td>
+            <td>
+                <b>
+                    Bump dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 17:31:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/700" class=".btn">#700</a>
+            </td>
+            <td>
+                <b>
+                    feat(parser): support revert statement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #696
+
+Followed these instructions https://github.com/hyperledger-labs/solang/issues/696#issuecomment-1066666159
+
+revert statement remains `unimplemented!` in `sema`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-14 21:03:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/695" class=".btn">#695</a>
             </td>
             <td>
@@ -102,60 +158,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-03-10 09:14:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/691" class=".btn">#691</a>
-            </td>
-            <td>
-                <b>
-                    Resolve assembly expressions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements the semantic analysis of YUL expressions. As we don't analyze YUL statements yet, there are workarounds to avoid warnings during build. There are also some `TODOs` in the code to indicate implementation details I must not forget when creating the analysis of statements.
-
-I added most unity tests, however, a few were too difficult to create, because they required building a complex parse tree. I am going to test those functions as soon as the semantic analysis is complete for YUL.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 11:53:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/690" class=".btn">#690</a>
-            </td>
-            <td>
-                <b>
-                    Improve msg.sender test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR updates the test of `msg.sender`, according to the suggestions at issue #679.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-08 11:39:37 +0000 UTC
     </div>
 </div>
 

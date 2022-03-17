@@ -15,42 +15,45 @@ permalink: /releases/hyperledger/besu-docs
         <tr>
             <td colspan="2">
                 <b>
-                    22.1.1
+                    22.1.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    22.1.1
+                    22.1.2
                 </span>
             </td>
             <td>
                 ### Additions and Improvements
-- Allow optional RPC methods that bypass authentication [#3382](https://github.com/hyperledger/besu/pull/3382)
 - Execution layer (The Merge):
-  - Extend block creation and mining to support The Merge [#3412](https://github.com/hyperledger/besu/pull/3412)
-  - Backward sync [#3410](https://github.com/hyperledger/besu/pull/3410)
-  - Extend validateAndProcessBlock to return an error message in case of failure, so it can be returned to the caller of ExecutePayload API [#3411](https://github.com/hyperledger/besu/pull/3411)
-  - Persist latest finalized block [#2913](https://github.com/hyperledger/besu/issues/2913)
-  - Add PostMergeContext, and stop syncing after the swith to PoS [#3453](https://github.com/hyperledger/besu/pull/3453)
-  - Add header validation rules needed to validate The Merge blocks [#3454](https://github.com/hyperledger/besu/pull/3454)
-  - Add core components: controller builder, protocol scheduler, coordinator, block creator and processor. [#3461](https://github.com/hyperledger/besu/pull/3461)
-  - Execution specific RPC endpoint [#2914](https://github.com/hyperledger/besu/issues/2914), [#3350](https://github.com/hyperledger/besu/pull/3350)
-- QBFT consensus algorithm is production ready
+  - Execution specific RPC endpoint [#3378](https://github.com/hyperledger/besu/issues/3378)
+  - Adds JWT authentication to Engine APIs
+  - Supports kiln V2.1 spec
+- Tracing APIs 
+  - new API methods: trace_rawTransaction, trace_get, trace_callMany
+  - added revertReason to trace APIs including: trace_transaction, trace_get, trace_call, trace_callMany, and trace_rawTransaction
+- Allow mining beneficiary to transition at specific blocks for ibft2 and qbft consensus mechanisms.  [#3115](https://github.com/hyperledger/besu/issues/3115)
+- Return richer information from the PrecompiledContract interface. [\#3546](https://github.com/hyperledger/besu/pull/3546)
+
+### Bug Fixes
+- Reject locally-sourced transactions below the minimum gas price when not mining. [#3397](https://github.com/hyperledger/besu/pull/3397)
+- Fixed bug with contract address supplied to `debug_accountAt` [#3518](https://github.com/hyperledger/besu/pull/3518)
 
 ## Download Links
- - https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.1.1/besu-22.1.1.zip /  SHA256 cfff79e19e5f9a184d0b62886990698b77d019a0745ea63b5f9373870518173e
- - https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.1.1/besu-22.1.1.tar.gz / SHA256 51cc9d35215f977ac7338e5c611c60f225fd6a8c1c26f188e661624a039e83f3
-
+ - https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.1.2/besu-22.1.2.zip /  SHA256 
+ 1b26e3f8982c3a9dbabc72171f83f1cfe89eef84ead45b184ee9101f411c1251
+ - https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.1.2/besu-22.1.2.tar.gz / SHA256 
+1eca9abddf351eaaf4e6eaa1b9536b8b4fd7d30a81d39f9d44ffeb198627ee7a
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu-docs/releases/tag/22.1.1" class=".btn">
+    <a href="https://github.com/hyperledger/besu-docs/releases/tag/22.1.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-02-24 22:20:46 +0000 UTC
+        Created At 2022-03-16 04:53:57 +0000 UTC
     </span>
 </div>
 

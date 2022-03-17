@@ -1,13 +1,13 @@
 
-[728](https://github.com/hyperledger-labs/business-partner-agent/pull/728) clean proof templates
+[1670](https://github.com/hyperledger/aries-cloudagent-python/pull/1670) Qualify did exch connection lookup by role
 
-[2490](https://github.com/hyperledger/indy-sdk/pull/2490) [#2489] Migrate Python example from TRUST_ANCHOR to ENDORSER
+[725](https://github.com/hyperledger/aries-rfcs/pull/725) Remove Signatures from Example Requests
 
-[663](https://github.com/hyperledger/fabric-private-chaincode/pull/663) added documentation for FPC on Azure
+[724](https://github.com/hyperledger/aries-rfcs/pull/724) Update AIP 2.0 links to point to clarified RFCs -- notably refs to main branch
 
-[14](https://github.com/hyperledger-labs/hlf-connector/pull/14) API for fetching Approved Organisations for a Smart Contract
+[723](https://github.com/hyperledger/aries-rfcs/pull/723) Update AIP Diff script to use main branch
 
-[358](https://github.com/hyperledger-labs/orion-server/pull/358) disabling update of index of an existing db 
+[1346](https://github.com/hyperledger/grid/pull/1346) Add batch submitter traits and implementations
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

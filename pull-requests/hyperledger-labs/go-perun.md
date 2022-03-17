@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/328" class=".btn">#328</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/331" class=".btn">#331</a>
             </td>
             <td>
                 <b>
-                    Release 0.9.0
+                    wallet.CloneAddress(es)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                <nil>
+                - wallet: Add CloneAddress(es)
+- channel: Use CloneAddresses in Params.Clone
+
+It is convenient for users of the go-perun lib to have means for `wallet.Address` cloning. It was already done in `Params.Clone` so I extracted the functionality into the `wallet` package. No interfaces etc changed.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-23 12:24:27 +0000 UTC
+        Created At 2022-03-16 09:58:02 +0000 UTC
     </div>
 </div>
 

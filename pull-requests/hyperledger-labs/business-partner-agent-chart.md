@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/44" class=".btn">#44</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/45" class=".btn">#45</a>
             </td>
             <td>
                 <b>
-                    aca-py 0.7.3
+                    postgresql as optional dependency
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+                Cleaned up the chart so that the postgresql subchart is now really optional. If the property postgres.enabled is set to false a dns name needs to be set via postgres.fullnameOverride.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-12 13:45:47 +0000 UTC
+        Created At 2022-03-16 10:49:16 +0000 UTC
     </div>
 </div>
 

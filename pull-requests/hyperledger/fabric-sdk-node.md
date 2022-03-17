@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/556" class=".btn">#556</a>
-            </td>
-            <td>
-                <b>
-                    Unit test for environment variable config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Proper unit testing for changes in #554
-
-Contributes to #553
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-08 13:55:33 +0000 UTC
-    </div>
-</div>
-
