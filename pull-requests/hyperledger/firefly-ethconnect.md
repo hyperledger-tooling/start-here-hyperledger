@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/204" class=".btn">#204</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/206" class=".btn">#206</a>
             </td>
             <td>
                 <b>
-                    Remove newline between fields in log
+                    Inflight reset
                 </b>
             </td>
         </tr>
@@ -27,27 +27,35 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                This PR removes a newline in a log that outputs the request ID and offset. Logging on the same line makes it easier to search for an offset or a request ID in the logs to correlate the lifecycle of a request (when received, when received on the consumer side, final response sent etc.)
+                Currently every time FireFly starts, it resets the EthConnect stream with a `PATCH` in order to apply any changes.
+I observed a problem where a stream did not continue sending events after such an event.
 
-So, instead of:
+I was able to produce a problem running two simple `curl` loops, where one stream stalled:
 
-```
-[2022-02-28T16:36:57.787Z]  INFO <-- POST /gateways/simplestorage [202]:
-{"sent":true,"id":"942308fe-2fc9-435c-6690-6d249c563fb2","msg":"zzaaaaaaa-zzbbbbbbb-requests:0:71338"}
-```
+### 1. Sending messages with confirm
 
-we will log:
-
-```
-[2022-02-28T16:36:57.787Z]  INFO <-- POST /gateways/simplestorage [202]: {"sent":true,"id":"942308fe-2fc9-435c-6690-6d249c563fb2","msg":"zzaaaaaaa-zzbbbbbbb-requests:0:71338"}
+```sh
+while [ 1 ]; do echo POSTING $(date); curl -s -X POST -d '{"data":[{"value":"test"}]}' -H "Content-type: application/json" 'localhost:5000/api/v1/namespaces/default/messages/broadcast?confirm' | jq; sleep 1; done
 ```
 
-Signed-off-by: Vinod Damle <vinod.damle@kaleido.io>
+### 2. Resetting the stream
+
+```sh
+while [ 1 ]; do echo RESET $(date); curl -s -X PATCH -d @/tmp/ev.json  -H "Content-type: application/json" 0.0.0.0:5102/eventstreams/es-9f5df9e3-563e-4f11-7750-5d147ccf0231; sleep 1; done
+```
+
+There was not anything in the logs that really showed why the stream had stopped distributing data, and nothing in a `goroutine` dump. So I spent some time on code inspection, and made the changes in this PR.
+
+- Reset the `InFlight` count to zero on update
+    - This seemed to be a straight bug, and after fixing this I was not able to reproduce the stall
+- Add better logging in case it happens again
+    - Particularly per-polling loop debug when `InFlight > 0`
+- Do not restart a stream if a `PATCH` does not result in any change
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-01 19:21:55 +0000 UTC
+        Created At 2022-03-17 18:22:36 +0000 UTC
     </div>
 </div>
 

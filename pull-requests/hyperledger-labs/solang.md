@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/702" class=".btn">#702</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Yul semantic analysis
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements the semantic analysis for YUL statements. Tests are still missing.
+
+Two contract test cases have been removed, because the unused variable detection and the graphviz for YUL are not implemented yet, so the tests weren't passing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-17 19:42:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/701" class=".btn">#701</a>
             </td>
             <td>
