@@ -14,6 +14,122 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3607" class=".btn">#3607</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix/stuck at ttd
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+* fix a corner case where besu does not recognize TTD block descending from TTD
+* extend the distance that besu will 'look back' for TTD block in the case of a long period on non-finality post-merge
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #3609
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-18 04:42:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3606" class=".btn">#3606</a>
+            </td>
+            <td>
+                <b>
+                    quorum ATs task does not depend on building docker image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+remove gradle dependency
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-18 04:25:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3604" class=".btn">#3604</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] add RPC method name to log for InvalidParams
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+BEFORE
+```
+2022-03-18 13:38:22.593+10:00 | vert.x-worker-thread-0 | DEBUG | JsonRpcHttpService | Invalid Params
+org.hyperledger.besu.ethereum.api.jsonrpc.internal.exception.InvalidJsonRpcParameters: Invalid json rpc parameter at index 1
+Caused by: com.fasterxml.jackson.databind.exc.ValueInstantiationException: Cannot construct instance of `org.hyperledger.besu.ethereum.api.jsonrpc.internal.parameters.TraceTypeParameter`, problem: Invalid trace types supplied: foo
+ at [Source: (String)"["foo","stateDiff"]"; line: 1, column: 19]
+```
+AFTER:
+```
+2022-03-18 13:38:22.593+10:00 | vert.x-worker-thread-0 | DEBUG | JsonRpcHttpService | Invalid Params for method: trace_rawTransaction
+org.hyperledger.besu.ethereum.api.jsonrpc.internal.exception.InvalidJsonRpcParameters: Invalid json rpc parameter at index 1
+Caused by: com.fasterxml.jackson.databind.exc.ValueInstantiationException: Cannot construct instance of `org.hyperledger.besu.ethereum.api.jsonrpc.internal.parameters.TraceTypeParameter`, problem: Invalid trace types supplied: foo
+ at [Source: (String)"["foo","stateDiff"]"; line: 1, column: 19]
+```
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-18 03:42:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3602" class=".btn">#3602</a>
             </td>
             <td>
@@ -192,7 +308,7 @@ Also changed the engineHttpUrl() method to use the engine host
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span>
+                
             </td>
             <td>
                 Signed-off-by: Diego López León <dieguitoll@gmail.com>
@@ -646,87 +762,6 @@ NB: This feature is still experimental and may still change a lot. More tests wi
     </table>
     <div class="right-align">
         Created At 2022-03-11 08:50:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3571" class=".btn">#3571</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] xl executor for quorum ATs (nightly)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Revert back to the xlarge executor for Quorum ATs
-
-Last time these tests were consistently passing, the config looked like this https://github.com/hyperledger/besu/commit/1c39d4814327b8b095a8801adcb2332a12e19bb6
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-11 05:24:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3569" class=".btn">#3569</a>
-            </td>
-            <td>
-                <b>
-                    Warn if consensus client doesn't call transition configuration endpoint within 120 seconds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Adds a QoS timer behavior to `engine_exchangeTransitionConfigurationV1` rpc method 
-
-[implements 120 second QoS warning](https://github.com/ethereum/execution-apis/blob/main/src/engine/specification.md#specification-3)
-
-If the RPC method is not configured, there will be no such warning.  
-
-Example log warning:
-
-`2022-03-10 19:40:30.853-08:00 | vert.x-eventloop-thread-1 | WARN  | EngineExchangeTransitionConfiguration | not called in 120 seconds, consensus client may not be connected`
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #3561
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-11 03:51:26 +0000 UTC
     </div>
 </div>
 
