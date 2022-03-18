@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3202" class=".btn">#3202</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3203" class=".btn">#3203</a>
             </td>
             <td>
                 <b>
-                    chore: add ed25519Signature2020 to embedded proof
+                    fix: ECDSASignatureVerifier
                 </b>
             </td>
         </tr>
@@ -28,11 +28,12 @@ permalink: /pull-requests/hyperledger/aries-framework-go
             </td>
             <td>
                 Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-11 17:48:15 +0000 UTC
+        Created At 2022-03-18 14:27:03 +0000 UTC
     </div>
 </div>
 
