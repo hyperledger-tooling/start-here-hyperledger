@@ -15,31 +15,30 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v3.1.4
+                    v3.1.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v3.1.4
+                    v3.1.5
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Don't store highestNonce=0 if eth_getTransationCount fails (and solc 8 support) by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/200
-* Remove newline between fields in log by @vdamle in https://github.com/hyperledger/firefly-ethconnect/pull/204
+* Inflight reset by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/206
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.1.3...v3.1.4
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.1.4...v3.2.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.4" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-03-01 19:34:50 +0000 UTC
+        Created At 2022-03-18 16:26:11 +0000 UTC
     </span>
 </div>
 

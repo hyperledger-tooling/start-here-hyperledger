@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/firefly-dataexchange-https
         <tr>
             <td colspan="2">
                 <b>
-                    v0.10.4
+                    v0.10.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.10.4
+                    v0.10.5
                 </span>
             </td>
             <td>
@@ -32,11 +32,11 @@ permalink: /releases/hyperledger/firefly-dataexchange-https
 ## New Contributors
 * @awrichar made their first contribution in https://github.com/hyperledger/firefly-dataexchange-https/pull/54
 
-**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.10.3...v0.10.4
+**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.10.3...v0.10.5
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.10.4" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.10.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
