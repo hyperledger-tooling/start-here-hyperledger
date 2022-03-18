@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/325" class=".btn">#325</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/326" class=".btn">#326</a>
             </td>
             <td>
                 <b>
-                    Add REST API Backwards Compatibility Plan
+                    Update batch submitter doc with impl. details
                 </b>
             </td>
         </tr>
@@ -27,15 +27,16 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                Add a plan for testing Grid and Splinter REST API compatibility between
-versions.
+                Adds explanations of the submitter-related traits and implementations
+to the submitter design doc. Also updates parts of the existing doc to
+match the actual implementation.
 
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-08 18:35:09 +0000 UTC
+        Created At 2022-03-17 21:45:02 +0000 UTC
     </div>
 </div>
 

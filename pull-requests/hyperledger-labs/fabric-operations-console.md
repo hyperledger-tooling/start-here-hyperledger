@@ -41,33 +41,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/161" class=".btn">#161</a>
-            </td>
-            <td>
-                <b>
-                    support localhost
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Varad Ramamoorthy <varad@Varads-MacBook.local>
-
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-10 19:45:48 +0000 UTC
-    </div>
-</div>
-

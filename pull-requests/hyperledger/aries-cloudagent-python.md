@@ -187,29 +187,3 @@ https://github.com/hyperledger/aries-cloudagent-python/blob/681e9aab9a6f6d3e7648
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1663" class=".btn">#1663</a>
-            </td>
-            <td>
-                <b>
-                    Add "sent" key to both Schema and Cred Defs when using Endorsers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As an Author, if I attempt to publish duplicate schemas or credential definitions, I get a trace stack returned to me complaining about how the `signed_txn` key does not exist. While I adding a response for that situation (to just return the schema ID/ Cred Def ID instead of an error), I noticed that we were never populating the `"sent"` key in our responses to controllers. I have standardized the responses to follow the OpenAPI Schema and included the `"sent"` key.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-10 18:41:50 +0000 UTC
-    </div>
-</div>
-
