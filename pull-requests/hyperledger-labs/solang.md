@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/704" class=".btn">#704</a>
+            </td>
+            <td>
+                <b>
+                    Add roadmap to README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I summarized our roadmap to prioritize items that make sense for developers. I also included low-hanging fruits for first-timers who are willing to contribute.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-18 11:36:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/703" class=".btn">#703</a>
+            </td>
+            <td>
+                <b>
+                    Add Lucas to the list of maintainers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I removed the rocket chat information from the file as we no longer use it and added myself to the list of maintainers.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-18 10:43:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/702" class=".btn">#702</a>
             </td>
             <td>
@@ -91,40 +143,6 @@ revert statement remains `unimplemented!` in `sema`
     </table>
     <div class="right-align">
         Created At 2022-03-14 21:03:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/695" class=".btn">#695</a>
-            </td>
-            <td>
-                <b>
-                    Fix issue with dead storage eliminating the wrong storage load
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When the same variable loaded from storage twice in a loop, then first
-may be eliminated rather than the second. The issue is that the reaching
-definition for the second load reaches the first; the possible
-undefined value from the entry point of the function is not reaching.
-
-To fix this, for block 0, populate the variable table all undefined
-values.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-11 11:53:08 +0000 UTC
     </div>
 </div>
 

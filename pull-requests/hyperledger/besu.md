@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3610" class=".btn">#3610</a>
+            </td>
+            <td>
+                <b>
+                    Fix 3524
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR is composed of the tuning of some internal parameters related to the transaction synchronization.
+
+1. Currently Besu handles hundreds of transaction message per seconds, so having a queue of 1M messages result in a lot of expired messages, make sense to reduce the capacity to drop incoming messages that could not be handled anyway.
+2. Currently on mainnet there are many thousand of pending transactions exchanged between peers, but Besu has a short memory of what has been exchanged with a specific peer, with the result that the same transaction is often exchanged back and forth with the same peer, expecially when the peer is another Besu (below a sample of one transaction exchanged many time between peers) so it is necessary to remember more transactions seen with peers.
+3. Added detailed information about exchanged transactions at trace log level.
+
+This is a sample extraction from the trace logs of one transactions, peers `0x0b7cbef740d1af50cf`, `0xec1e73d0839ec87abe`, `0x364c56424b81989e57` are other Besus
+[tx-sample.pdf](https://github.com/hyperledger/besu/files/8303223/tx-sample.pdf)
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+
+
+<!-- Example: "fixes #2" -->
+fixes #3524 
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-18 09:31:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3607" class=".btn">#3607</a>
             </td>
             <td>
@@ -383,48 +430,6 @@ Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3586" class=".btn">#3586</a>
-            </td>
-            <td>
-                <b>
-                    Reduce the capacity of the transactions worker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The previous queue capacity was too big since currently Besu is able
-to process some thousand of transaction messages per second.
-
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-15 14:17:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3585" class=".btn">#3585</a>
             </td>
             <td>
@@ -717,51 +722,6 @@ The TTD for Kiln has been updated. This PR adds the new one to the Kiln genesis 
     </table>
     <div class="right-align">
         Created At 2022-03-11 15:45:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3572" class=".btn">#3572</a>
-            </td>
-            <td>
-                <b>
-                    [SNAPSYNC] Add range proof validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">snapsync</span>
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR will be followed by many PRs to add snapsync compatibility to Besu.
-
-This PR add the range proof validation that will be necessary later
-
-NB: This feature is still experimental and may still change a lot. More tests will be added later when it will be close to the final version 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-11 08:50:48 +0000 UTC
     </div>
 </div>
 

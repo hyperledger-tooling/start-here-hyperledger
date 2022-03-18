@@ -39,39 +39,3 @@ Signed-off-by: Shubhkarman Walia <shubhkarman.walia@Walmart.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/13" class=".btn">#13</a>
-            </td>
-            <td>
-                <b>
-                    API to get current sequence and packageId for channel, chaincode and version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **API to get the current sequence for channel, chaincode, and version**
-
-```
--  REST endpoint to get the current sequence
--  Default exception handling using Exception handler for Exception.class
--  REST API and service to get current packageId installed in the peers
--  Creating bean for HFClient as it is used in multiple places
--  Autowiring and using HFClient
-```
-
-Signed-off-by: Puneet Joshi <puneet.joshi@walmart.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-11 09:43:19 +0000 UTC
-    </div>
-</div>
-
