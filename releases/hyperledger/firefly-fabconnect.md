@@ -15,28 +15,27 @@ permalink: /releases/hyperledger/firefly-fabconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v0.9.12
+                    v0.9.13
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.9.12
+                    v0.9.13
                 </span>
             </td>
             <td>
                 ## What's Changed
-- Added new endpoint for querying block using transaction ID: `GET /blockByTxId/:txId`
-- Enhanced chaincode query endpoint to support single-peer queries and "strongread" with the endpoint: `GET /query`
-- Added support to use block hash to query for a block, in addition to block number with the endpoint `GET /blocks/:blockNumberOrHash`
-- Fill in the `chaincodeId` and `transactionId` fields in event payload even if the transaction did not publish any events
+* Fill in event fields from transactions that do not publish events by @jimthematrix in https://github.com/hyperledger/firefly-fabconnect/pull/81
+* Configurable Chaincode Query targets; new Query endpoints by @jimthematrix in https://github.com/hyperledger/firefly-fabconnect/pull/82
 
-**Full Changelog**: https://github.com/hyperledger/firefly-fabconnect/compare/v0.9.11...v0.9.12
+
+**Full Changelog**: https://github.com/hyperledger/firefly-fabconnect/compare/v0.9.11...v0.9.13
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.12" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.13" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
