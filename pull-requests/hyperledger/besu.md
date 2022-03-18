@@ -14,11 +14,53 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3611" class=".btn">#3611</a>
+            </td>
+            <td>
+                <b>
+                    [DO NOT MERGE] During Fast Sync execute World State Construction before Blocks Import
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Performance Test :
+During Fast Sync execute World State Construction before Blocks Import
+
+Signed-off-by: Ameziane Hamlat ameziane.hamlat@consensys.net
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-18 13:39:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3610" class=".btn">#3610</a>
             </td>
             <td>
                 <b>
-                    Fix 3524
+                    Tune transaction synchronization parameter to adapt to mainnet traffic
                 </b>
             </td>
         </tr>
@@ -40,6 +82,11 @@ This PR is composed of the tuning of some internal parameters related to the tra
 This is a sample extraction from the trace logs of one transactions, peers `0x0b7cbef740d1af50cf`, `0xec1e73d0839ec87abe`, `0x364c56424b81989e57` are other Besus
 [tx-sample.pdf](https://github.com/hyperledger/besu/files/8303223/tx-sample.pdf)
 
+
+Running this patch on a 4 Besu nodes for some hours, showns that CPU and memory usage is significantly reduced
+![image](https://user-images.githubusercontent.com/91944855/159009115-a5673f15-e722-4ac3-86d2-a65c1aa68848.png)
+
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 
@@ -48,7 +95,7 @@ This is a sample extraction from the trace logs of one transactions, peers `0x0b
 fixes #3524 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -477,50 +524,6 @@ fixes #2757
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3583" class=".btn">#3583</a>
-            </td>
-            <td>
-                <b>
-                    Add group heading to command options
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR continues to group the CLI options together. 
-- JSON-RPC HTTP
-- JSON-RPC WebSockets
-- Metrics
-- Miner
-- Privacy
-- Permissions
-- Tx pool
-
-## Fixed Issue(s)
-fixes #2757 
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-14 17:33:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3580" class=".btn">#3580</a>
             </td>
             <td>
@@ -692,36 +695,6 @@ fixes #3574
     </table>
     <div class="right-align">
         Created At 2022-03-12 00:46:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3573" class=".btn">#3573</a>
-            </td>
-            <td>
-                <b>
-                    Update TTD for Kiln
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-## PR description
-
-The TTD for Kiln has been updated. This PR adds the new one to the Kiln genesis file
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-11 15:45:18 +0000 UTC
     </div>
 </div>
 

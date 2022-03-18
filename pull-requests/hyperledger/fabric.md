@@ -347,31 +347,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3281" class=".btn">#3281</a>
-            </td>
-            <td>
-                <b>
-                    Documentation for peer.gossip.externalEndpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">doc-merge</span>
-            </td>
-            <td>
-                Fix the reference to EXTERNAL_ENDPOINT and clarify externalEndpoint role in service discovery.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-11 13:42:45 +0000 UTC
-    </div>
-</div>
-
