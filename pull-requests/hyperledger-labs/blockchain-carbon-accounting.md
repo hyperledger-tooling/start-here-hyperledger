@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/497" class=".btn">#497</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/502" class=".btn">#502</a>
             </td>
             <td>
                 <b>
-                    Merge latest changes from Opentaps
+                    Changes to use PostgreSQL instead of OrbitDB, REST API #453, Listener for Ethereum Tokens
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
                 
             </td>
             <td>
-                * fixes in orbitdb/ scripts
-* renamed utility-emissions-channel into emissions-data
-* changed UtilityEmission to Emission
+                A big PR for 3 things:
+- Changed emissions factors database to PostgreSQL instead of OrbitDB
+- Implemented REST API for supply chain emissions #453 
+- Listener for Ethereum tokens to display aggregations
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-11 05:09:44 +0000 UTC
+        Created At 2022-03-18 22:42:46 +0000 UTC
     </div>
 </div>
 
