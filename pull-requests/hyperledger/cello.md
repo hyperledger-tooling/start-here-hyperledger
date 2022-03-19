@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/426" class=".btn">#426</a>
+            </td>
+            <td>
+                <b>
+                    Modify makefile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update makefile commands, so then we can clean docker containers in
+different level.
+
+* make stop
+* make clean
+* make deep-clean
+
+Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-18 21:11:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/425" class=".btn">#425</a>
             </td>
             <td>
