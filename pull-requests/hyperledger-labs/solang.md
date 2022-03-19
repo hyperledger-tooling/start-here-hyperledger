@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/706" class=".btn">#706</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that language server uses the --import and --import-map options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #705 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-19 15:24:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/704" class=".btn">#704</a>
             </td>
             <td>
