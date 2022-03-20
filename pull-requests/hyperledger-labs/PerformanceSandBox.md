@@ -71,29 +71,3 @@ Signed-off-by: Sam Yuan <yy19902439@126.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/26" class=".btn">#26</a>
-            </td>
-            <td>
-                <b>
-                    add support for fabric app, resolve #18
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sam Yuan <yy19902439@126.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-13 04:34:23 +0000 UTC
-    </div>
-</div>
-

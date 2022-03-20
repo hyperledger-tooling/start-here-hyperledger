@@ -355,32 +355,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3282" class=".btn">#3282</a>
-            </td>
-            <td>
-                <b>
-                    Update ordererchecklist.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                change default path for snapshot in description from /var/hyperledger/production/orderer/etcdraft/wal to /var/hyperledger/production/orderer/etcdraft/snapshot
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-13 05:51:07 +0000 UTC
-    </div>
-</div>
-
