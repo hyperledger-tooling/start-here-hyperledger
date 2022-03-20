@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/191" class=".btn">#191</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/193" class=".btn">#193</a>
             </td>
             <td>
                 <b>
-                    Amrita TIFAC Cyber - Hyperledger Labs.
+                    nft-auction
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Amrita TIFAC Cyber - Hyperledger Labs hosts projects build using Hyperledger Projects as part of Student Projects, M.Tech Dissertation, and Ph.D. Research.
+                NFT Auction application lets user to create NFTs and auction them off to other users in a marketplace model using Hyperledger Fabric
 
+Signed-off-by: Puneet Singh <puneet.royal@gmail.com>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-10 18:25:29 +0000 UTC
+        Created At 2022-03-20 09:36:26 +0000 UTC
     </div>
 </div>
 
