@@ -329,29 +329,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3283" class=".btn">#3283</a>
-            </td>
-            <td>
-                <b>
-                    Refactor of ChaincodeEvents service implementation to support resume
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Enables the client to (optionally) specify an AfterTransactionId property in addition to a start block number when requesting chaincode events, which causes chaincode events up to that transaction ID (inclusive) to be ignored and not returned to the client. This supports resume of chaincode event listening on client reconnect without duplicating or missing any events.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-13 13:09:05 +0000 UTC
-    </div>
-</div>
-

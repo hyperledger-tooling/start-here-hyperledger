@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/163" class=".btn">#163</a>
+            </td>
+            <td>
+                <b>
+                    Add warning when deleting System channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- New feature
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-20 13:08:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/162" class=".btn">#162</a>
             </td>
             <td>
