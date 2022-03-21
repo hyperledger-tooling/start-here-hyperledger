@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/224" class=".btn">#224</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/228" class=".btn">#228</a>
             </td>
             <td>
                 <b>
-                    chore: Replace GetSigningKey with GetSigner in orb VDR
+                    feat: PostgreSQL provider SetStoreConfig, Close and Query support
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                Support for SetStoreConfig, Close and Query methods (with some limitations).
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-04 11:49:26 +0000 UTC
+        Created At 2022-03-17 23:56:22 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +42,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/223" class=".btn">#223</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/226" class=".btn">#226</a>
             </td>
             <td>
                 <b>
-                    fix: replace GetSigningKey with GetSigner
+                    chore: support Ed25519VerificationKey2020 in VDR
                 </b>
             </td>
         </tr>
@@ -58,33 +60,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-03 16:47:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/222" class=".btn">#222</a>
-            </td>
-            <td>
-                <b>
-                    feat: add support to resolve with versionId or versionTime
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 09:35:54 +0000 UTC
+        Created At 2022-03-14 11:05:36 +0000 UTC
     </div>
 </div>
 

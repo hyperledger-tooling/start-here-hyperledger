@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/25" class=".btn">#25</a>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/28" class=".btn">#28</a>
             </td>
             <td>
                 <b>
-                    Fixing FFDX Plugin Config
+                    Update firefly and microservice versions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
                 
             </td>
             <td>
-                <nil>
+                Based off Firefly dependency updates - https://github.com/hyperledger/firefly/pull/615/files
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-02 00:37:42 +0000 UTC
+        Created At 2022-03-18 20:15:39 +0000 UTC
     </div>
 </div>
 
@@ -40,17 +40,17 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/24" class=".btn">#24</a>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/26" class=".btn">#26</a>
             </td>
             <td>
                 <b>
-                    [v0.3.2] Fixing FFDX Plugin and Latest Images
+                    Create unique node name within Firefly network 
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
                 <nil>
@@ -58,7 +58,7 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-01 22:17:20 +0000 UTC
+        Created At 2022-03-16 21:07:35 +0000 UTC
     </div>
 </div>
 

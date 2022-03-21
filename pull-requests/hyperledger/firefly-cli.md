@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/156" class=".btn">#156</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/163" class=".btn">#163</a>
             </td>
             <td>
                 <b>
-                    Switch from https to ffdx
+                    Add options for tuning ethconnect and block period
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
+                Resolves https://github.com/hyperledger/firefly/issues/562
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-08 20:24:40 +0000 UTC
+        Created At 2022-03-18 15:43:20 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/155" class=".btn">#155</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/161" class=".btn">#161</a>
             </td>
             <td>
                 <b>
-                    Add deploy command
+                    Implement deploy command for fabric
                 </b>
             </td>
         </tr>
@@ -53,14 +53,38 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                This PR adds a `deploy` command which can be used by test and other automation tools to deploy pre-compiled contracts. The syntax of the command is `ff deploy <stack_name> <file_name>`. If there is more than one contract in the file, a prompt will appear asking which contract to deploy.
-
-Resolves https://github.com/hyperledger/firefly-cli/issues/151
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-08 18:33:09 +0000 UTC
+        Created At 2022-03-16 18:27:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/159" class=".btn">#159</a>
+            </td>
+            <td>
+                <b>
+                    Add flag for extra core config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a new flag `--core-config` (there is no shorthand version) to point to a yaml file which will be overlaid on top of the default FireFly core config file for each member. It uses the conflate library (https://github.com/miracl/conflate) to do the YAML merging.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-14 17:38:12 +0000 UTC
     </div>
 </div>
 

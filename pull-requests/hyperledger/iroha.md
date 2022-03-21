@@ -18,13 +18,13 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    encapsulate access to data model structures
+                    [refactor]: encapsulate access to data model structures
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 Signed-off-by: Marin Veršić <marin.versic101@gmail.com><!-- You will not see HTML commented line in Pull Request body -->

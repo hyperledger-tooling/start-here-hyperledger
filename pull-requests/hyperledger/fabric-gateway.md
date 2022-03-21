@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/404" class=".btn">#404</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/413" class=".btn">#413</a>
             </td>
             <td>
                 <b>
-                    Avoid spurious cancellation error in block event unit tests
+                    Use @hyperledger/fabric-protos package in Node client
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                <nil>
+                Use compiled protobuf and gRPC service stubs from @hyperledger/fabric-protos package instead of compiling and embedding within the fabric-gateway package.
+
+Work-in-progress: Currently bundling proposed @hyperledger/fabric-protos package within fabric-gateway as a proof-of-concept.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-09 11:01:38 +0000 UTC
+        Created At 2022-03-19 16:15:08 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +42,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/403" class=".btn">#403</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/412" class=".btn">#412</a>
             </td>
             <td>
                 <b>
-                    Additional linting for Node code
+                    Rename BlockEventsWithPrivateData to BlockAndPrivateDataEvents
                 </b>
             </td>
         </tr>
@@ -53,12 +55,14 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Aid contributors in producing code that matches the existing style.
+                Consistency with the returned BlockAndPrivateData message type, and with other eventing methods, which all end with "Events".
+
+Contributes to #377
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-08 18:51:19 +0000 UTC
+        Created At 2022-03-18 14:50:12 +0000 UTC
     </div>
 </div>
 
@@ -66,37 +70,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/402" class=".btn">#402</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/411" class=".btn">#411</a>
             </td>
             <td>
                 <b>
-                    Avoid spurious gRPC stream cancellation errors in tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-08 11:58:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/399" class=".btn">#399</a>
-            </td>
-            <td>
-                <b>
-                    Block event listening for Java client
+                    Scenario tests for block event listening
                 </b>
             </td>
         </tr>
@@ -110,7 +88,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-02 19:02:42 +0000 UTC
+        Created At 2022-03-17 16:31:53 +0000 UTC
     </div>
 </div>
 
@@ -118,11 +96,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/398" class=".btn">#398</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/410" class=".btn">#410</a>
             </td>
             <td>
                 <b>
-                    Chaincode Event Checkpointing 
+                    Off-line signing unit tests for Java client
                 </b>
             </td>
         </tr>
@@ -131,12 +109,92 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Contributes to #362
+                Contributes to #377
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-02 12:45:37 +0000 UTC
+        Created At 2022-03-15 16:45:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/409" class=".btn">#409</a>
+            </td>
+            <td>
+                <b>
+                    Update Fabric protobuf definitions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Use a version of the protobuf definitions that include the `after_transaction_id` field in the ChaincodeEventsRequest message. This allows the client to resume chaincode eventing after a specfic (previously processed) transaction within a block, and removes the need for checkpointer logic to filter previously processed events at the client end.
+
+Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-15 15:18:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/408" class=".btn">#408</a>
+            </td>
+            <td>
+                <b>
+                    Client API changes for Checkpointer Node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-15 10:25:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/407" class=".btn">#407</a>
+            </td>
+            <td>
+                <b>
+                    Client API changes for checkpointer golang
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-15 08:23:36 +0000 UTC
     </div>
 </div>
 
