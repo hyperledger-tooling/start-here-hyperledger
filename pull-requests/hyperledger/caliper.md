@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/caliper
             </td>
             <td>
                 <b>
-                    added main logic for the new peer-gateaway connector with unit tests 
+                    Fabric Gateway connector implementation: PeerGateway.js implementation + unit tests
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                Do not merge
+                 Added main logic for the new peer-gateaway connector with unit tests
             </td>
         </tr>
     </table>
