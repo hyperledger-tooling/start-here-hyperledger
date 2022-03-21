@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/276" class=".btn">#276</a>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/280" class=".btn">#280</a>
             </td>
             <td>
                 <b>
-                    Docs/admin routes
+                    update doc refs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,65 @@ permalink: /pull-requests/hyperledger/aries-toolbox
                 
             </td>
             <td>
-                @PeterStrob is the one who primarily authored these changes, but due to hardware issues was unable to commit these changes or open this PR. For the sake of getting the changes merged, I offered to do so, but I don't want to steal credit for the update.
+                updated incorrect doc ref and solved DCO issue. 
+Sorry about the inconvenience :)  
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-28 19:38:44 +0000 UTC
+        Created At 2022-03-17 16:11:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/279" class=".btn">#279</a>
+            </td>
+            <td>
+                <b>
+                    fix: allow mediator to connect to toolbox again
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Micah Peltier <micah6_8@yahoo.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 17:58:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/277" class=".btn">#277</a>
+            </td>
+            <td>
+                <b>
+                    Feat/message doc updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Strobel peter@indicio.tech 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-15 15:39:32 +0000 UTC
     </div>
 </div>
 

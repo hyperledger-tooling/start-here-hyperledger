@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-did-method
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-did-method/pull/58" class=".btn">#58</a>
+                PR <a href="https://github.com/hyperledger/indy-did-method/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    docs: remove DIDDoc validation requiring current DID Core JSON-LD context
+                    docs: self-cert update
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/indy-did-method
                 
             </td>
             <td>
-                This PR is the product of the discussion in Issue #57. This DID Core context validation does not ensure that the resulting JSON-LD DIDDoc is valid and it would need to be updated if the DID Core context is changed. It is the responsibility of the content creator to validate that the resulting DIDDoc is valid JSON-LD. 
+                This PR updates the did:indy method specification according to decisions related to the self-certification feature.
 
 Signed-off-by: Char Howland <char@indicio.tech>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-04 05:57:42 +0000 UTC
+        Created At 2022-03-18 20:07:26 +0000 UTC
     </div>
 </div>
 

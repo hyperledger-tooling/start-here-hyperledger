@@ -468,7 +468,7 @@ This is a leftover from #3578 to display the new stable options in the `--help` 
             </td>
             <td>
                 <b>
-                    Do not merge: test tuweni 2.2 RC
+                    Upgrade Tuweni to version 2.2
                 </b>
             </td>
         </tr>
@@ -477,7 +477,10 @@ This is a leftover from #3578 to display the new stable options in the `--help` 
                 
             </td>
             <td>
-                Only for testing the tuweni 2.2 RC
+                Update Tuweni to version 2.2. 
+This updates the version of icu4j, fixing a vulnerability:
+https://www.sourceclear.com/vulnerability-database/security/integer-overflow/java/sid-7705
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18928
 
 Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
 
@@ -560,38 +563,6 @@ fixes #2757
     </table>
     <div class="right-align">
         Created At 2022-03-15 10:30:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3580" class=".btn">#3580</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] corrections to changelog and typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Fixed some typos including in the CHANGELOG
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-14 01:40:48 +0000 UTC
     </div>
 </div>
 

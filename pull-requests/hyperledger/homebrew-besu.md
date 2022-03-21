@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/73" class=".btn">#73</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/74" class=".btn">#74</a>
             </td>
             <td>
                 <b>
-                    Release 22.1.1
+                    Release 22.1.2
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-25 00:40:26 +0000 UTC
+        Created At 2022-03-16 06:00:44 +0000 UTC
     </div>
 </div>
 

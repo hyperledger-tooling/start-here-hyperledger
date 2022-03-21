@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/123" class=".btn">#123</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/126" class=".btn">#126</a>
             </td>
             <td>
                 <b>
-                    Feature/oob didex admin
+                    feat: update mediator wallet to bypass encoding problems for demo
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                Signed-off-by: Peter Strobel peter@indicio.tech
+                Signed-off-by: Micah Peltier <micah6_8@yahoo.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-04 17:56:10 +0000 UTC
+        Created At 2022-03-16 20:26:53 +0000 UTC
     </div>
 </div>
 

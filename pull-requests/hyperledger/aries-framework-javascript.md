@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/661" class=".btn">#661</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/676" class=".btn">#676</a>
             </td>
             <td>
                 <b>
-                    fix: mediation recipient role for recipient
+                    feat: Replace old oob invitation with the new one
                 </b>
             </td>
         </tr>
@@ -27,20 +27,14 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Mediation role was being set to `MediationRole.Mediator` instead of `MediationRole.Recipient`. This pr fixes the incorrect role, and adds checks to the methods to make sure we're in the correct context (record.assertRole()).
+                I removed all use of `ConnectionInvitationMessage` inside the framework, it is used only in the conversion method from the "old" oob to the "new" one. And also in tests for unused methods, I would like to look at them if I can reuse some tests cases for the new methods.
 
-This is a breaking change, and I'm not sure how to handle this. The record is almost identical between mediator and recipient, so not so sure how to write a migration script for this. As most devices are run inside a specific context (only mediatee or only mediator) the easiest way to update would probably be to update all records to a certain role.
-
-@JamesKEbert heads up on this one. Please let me know how you would like to approach the migration of this. Due to the assertions of the role this is going to cause errors in wallets created before this PR.
-
-Also does some clean up and refactoring
-
-BREAKING CHANGE: for mediation records, the `role` was being set to `MediationRole.Mediator` when acting as a recipient. This is updated to the correct value `MediationRole.Recipient`.
+I also refactored a bit mediation `provision` method by splitting making a connection and requesting mediation as we discussed on the call yesterday.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-08 11:54:19 +0000 UTC
+        Created At 2022-03-17 11:46:33 +0000 UTC
     </div>
 </div>
 
@@ -48,11 +42,11 @@ BREAKING CHANGE: for mediation records, the `role` was being set to `MediationRo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/660" class=".btn">#660</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/675" class=".btn">#675</a>
             </td>
             <td>
                 <b>
-                    test: minor wallet test changes
+                    refactor(core): renamed BufferEncoder to TypedArrayEncoder
                 </b>
             </td>
         </tr>
@@ -61,14 +55,12 @@ BREAKING CHANGE: for mediation records, the `role` was being set to `MediationRo
                 
             </td>
             <td>
-                Removed '===' prefix to one test name, changed scope of wallet open call to prevent multiple open attempts
-
-Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
+                BufferEncoder is incorrectly named as it accepts Uint8Arrays (and buffers). The name TypedArrayEncoder is more fitting as it fits both versions.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-08 11:13:36 +0000 UTC
+        Created At 2022-03-15 14:00:19 +0000 UTC
     </div>
 </div>
 
@@ -76,11 +68,11 @@ Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/657" class=".btn">#657</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/674" class=".btn">#674</a>
             </td>
             <td>
                 <b>
-                    fix(basic-message): assert connection is ready
+                    fix: remove deprecated multibase and multihash
                 </b>
             </td>
         </tr>
@@ -89,43 +81,17 @@ Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
                 
             </td>
             <td>
-                Signed-off-by: Karim <karim@animo.id>
+                Removes the dependency on the deprecated `multibase` and `multihash` libraries. They were also using `TextDecoder` which does not work natively in React Native. The replacement library `multiformats` is focused on Node.JS environment so I've also removed it.
 
+I've now added a subset of the functionality that those libraries offer natively to AFJ. This means fewer dependencies which is not a problem I guess. 
+
+Fixes #673 
+Fixes #662 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-03 22:12:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/655" class=".btn">#655</a>
-            </td>
-            <td>
-                <b>
-                    feat(core): add OOB record
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There are still some places where it's not so nice because of preserving compatibility with old connection protocol initialization.
-
-I added `protocolCreateRequest` and `protocolProcessRequest` to `ConnectionService` but I want to separate them to`ConnectionProtocol` class later together with other "protocol" methods as `DidExchangeProtocol` class is organized.
-
-We can also add some events around the OOB record, but I also leave it out, for now, to keep it simple.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 09:52:14 +0000 UTC
+        Created At 2022-03-14 12:24:59 +0000 UTC
     </div>
 </div>
 

@@ -14,25 +14,29 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/455" class=".btn">#455</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/456" class=".btn">#456</a>
             </td>
             <td>
                 <b>
-                    Release 0.33.0
+                    Unify err handling code in libvcx, use error level instead of warn
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">changelog-excluded</span><span class="chip">pre-release</span>
+                
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                - use `error` instead of `warn` in `libvcx` on error
+- unify naming
+- add missing `set_current_error_vcx` calls
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-02 11:56:59 +0000 UTC
+        Created At 2022-03-15 17:19:45 +0000 UTC
     </div>
 </div>
 
