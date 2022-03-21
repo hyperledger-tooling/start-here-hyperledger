@@ -14,6 +14,49 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/1917" class=".btn">1917</a>
+            </td>
+            <td>
+                <b>
+                    Use declarative macros in  ` impl FromStr` for `AssetValueType` 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                This piece of code could be improved significantly by usage of declarative macros. 
+
+```rust 
+impl FromStr for AssetValueType {
+    type Err = &'static str;
+
+    fn from_str(value_type: &str) -> Result<Self, Self::Err> {
+        // TODO: Could be implemented with some macro
+        match value_type {
+            "Quantity" => Ok(AssetValueType::Quantity),
+            "BigQuantity" => Ok(AssetValueType::BigQuantity),
+            "Fixed" => Ok(AssetValueType::Fixed),
+            "Store" => Ok(AssetValueType::Store),
+            _ => Err("Unknown variant"),
+        }
+    }
+}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-02-17 11:36:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/1897" class=".btn">1897</a>
             </td>
             <td>
