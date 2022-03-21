@@ -64,34 +64,3 @@ I also refactored a bit mediation `provision` method by splitting making a conne
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/674" class=".btn">#674</a>
-            </td>
-            <td>
-                <b>
-                    fix: remove deprecated multibase and multihash
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Removes the dependency on the deprecated `multibase` and `multihash` libraries. They were also using `TextDecoder` which does not work natively in React Native. The replacement library `multiformats` is focused on Node.JS environment so I've also removed it.
-
-I've now added a subset of the functionality that those libraries offer natively to AFJ. This means fewer dependencies which is not a problem I guess. 
-
-Fixes #673 
-Fixes #662 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-14 12:24:59 +0000 UTC
-    </div>
-</div>
-

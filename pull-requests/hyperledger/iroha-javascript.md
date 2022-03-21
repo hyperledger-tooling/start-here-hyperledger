@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/91" class=".btn">#91</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/92" class=".btn">#92</a>
             </td>
             <td>
                 <b>
-                    Refactor for Iroha v2.0.0-pre-rc.2
+                    Release (Iroha 2)
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-javascript
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-12 07:07:42 +0000 UTC
+        Created At 2022-03-21 07:59:52 +0000 UTC
     </div>
 </div>
 

@@ -69,33 +69,3 @@ Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/424" class=".btn">#424</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-423]Add upload chain code page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add upload chain code page
-
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-
-Close #423 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-14 07:36:39 +0000 UTC
-    </div>
-</div>
-
