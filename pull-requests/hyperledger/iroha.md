@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/1993" class=".btn">#1993</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Add telemetry to default features. 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru><!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+- Add telemetry to default features as per @Cre-eD 's request. 
+- Update outdated `README.md` files. 
+
+### Issue
+
+None
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Default deployment has support for prometheus metrics
+
+### Possible Drawbacks
+
+Increased binary size. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 06:58:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1989" class=".btn">#1989</a>
             </td>
             <td>
@@ -100,6 +154,14 @@ This change limits the size of certain configuration values to 4 billion. Probab
 
 ### Description of the Change
 
+This PR encapsulates access to the data model structures and separates internal structure from the API presented. This will bring about separation of concerns and enable us to have the same API for client applications and wasm access through FFI. Namely, this PR encapsulates FFI heavy structures, it doesn't encapsulate structure such as `Identifiable::Id` because they should be easily serialized across FFI and it's unlikely their internal representation will change 
+
+Includes:
+* field accessors - custom and derived with `getset`
+* builder pattern for structures implementing `Identifiable`
+* name deserialization fix - we should be more mindful of all the paths for constructing structures maintaining invariants
+
+I invite you to think whether this modification of the API is a step in a right direction. Additional simplifications should be left for a separate PR
 
 ### Issue
 
