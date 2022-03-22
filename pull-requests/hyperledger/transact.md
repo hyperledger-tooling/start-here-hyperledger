@@ -100,29 +100,3 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/319" class=".btn">#319</a>
-            </td>
-            <td>
-                <b>
-                    Backport 0-4: SqlMerkleState pruning fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of #318 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-15 15:59:51 +0000 UTC
-    </div>
-</div>
-

@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger/fabric-protos
             </td>
             <td>
                 <b>
-                    WIP: Node bindings
+                    Node bindings
                 </b>
             </td>
         </tr>
@@ -53,7 +53,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                npm packed build output from bindings/node works perfectly with the Fabric Gateway client API. Publishing not yet implemented.
+                Add a TypeScript project in bindings/node that can automagically build an npm package containing compiled protobuf and gRPC stubs, along with module indexes to correctly expose the generated stubs from the package.
+
+The change does not implement the packaging (npm pack) or publish of the npm package to the npm registry, which will be delivered later.
+
+The produced npm package has been tested with the Fabric Gateway client API, and passes all unit and scenario tests.
             </td>
         </tr>
     </table>
