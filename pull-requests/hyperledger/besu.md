@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3620" class=".btn">#3620</a>
+            </td>
+            <td>
+                <b>
+                    Use JUnit 5 for unit test execution
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+## PR description
+
+Change the unit test execution to use the Junit5 JUnitPlatform. This
+allows for a mix of junit 4 and junit 5 tests and for a gradual
+migration to junit 5 instead of a big bang. One class depended on
+junit 4 exceptions and was updated.
+
+Also, this facilitated a slight refactor of TLSContextFactoryTest so 
+that when running on a mac (typical developer machine) errors stemming
+from the nss3 library do not cause unit test failures, while still 
+testing non-nss3 code paths. Tests will perform normally in integration.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 00:33:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3617" class=".btn">#3617</a>
             </td>
             <td>
@@ -83,7 +124,8 @@ This PR, extends eth/66 support and does some code refactoring, to remove some r
 
 The main changes are:
 1. Do not have a separate tracker for transaction hashes, since for them we can reuse PeerTransactionTracker, that tracks full transactions exchange history and sending queue with a peer. So PeerPendingTransactionTracker has been removed.
-2. When a new peer connects, depending on his capabilities, we send the 
+2. When a new peer connects, if it support eth/6[56] then we send all the transaction hashes we have in the pool, otherwise we send the full transactions.
+3. When new transactions are added to the pool, we send full transactions to peers without eth/6[56] support, or to a small fractions of all peers, and then we send only transaction hashes to the remaining peer that support eth/6[56]. Both transactions and transaction hashes are only sent if not already exchanged with that specific peer.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

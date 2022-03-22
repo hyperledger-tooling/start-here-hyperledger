@@ -156,29 +156,3 @@ Fixes issue #1541
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1668" class=".btn">#1668</a>
-            </td>
-            <td>
-                <b>
-                    Fixes for credential details in issue-credential webhook responses
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                Attempt to fix an issue with blank credential values seen in the test harness.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-14 22:35:05 +0000 UTC
-    </div>
-</div>
-
