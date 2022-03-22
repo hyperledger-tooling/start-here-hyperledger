@@ -43,33 +43,3 @@ In test-network-k8s the certificate authorities are deployed with TLS enabled un
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/675" class=".btn">#675</a>
-            </td>
-            <td>
-                <b>
-                    Update nano test network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix minor bugs, add network.sh script to simplify standing up the network, and add an option to run the network in a single container
-
-Note: the updated peerNadmin.sh scripts no longer create or join a channel and now only configure the environment for the relevant peer
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-15 16:04:19 +0000 UTC
-    </div>
-</div>
-
