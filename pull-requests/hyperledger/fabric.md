@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3295" class=".btn">#3295</a>
+            </td>
+            <td>
+                <b>
+                    fix unittest failure (#3294)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shivdeep Singh <Shivdeep.Singh@ibm.com>
+
+#### Type of change
+
+- Bug fix
+- Test update
+
+#### Description
+
+Unittest __snapshot on accumlated bytes condition met__ in `orderer/consensus/etcdraft` was failing due to *Expect* conditions not met. Replaced *Expect* condition with *Eventually* which waits for some time to check for expected condition. 
+
+#### Related issues
+- [3294](https://github.com/hyperledger/fabric/issues/3294)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 05:08:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3292" class=".btn">#3292</a>
             </td>
             <td>
@@ -178,80 +216,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-03-16 04:58:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3285" class=".btn">#3285</a>
-            </td>
-            <td>
-                <b>
-                    Ledgerutil identifytxs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- New feature
-
-#### Description
-- The Identify Transactions tool (identifytxs) is a new addition to the Fabric ledger utilities that adds another layer of troubleshooting to the first Fabric ledger utilities tool, Compare Snapshots. After a user has obtained the list of different records between two snapshots using Compare Snapshots, the user can then pass this output to the Identify Transactions tool to obtain a list of relevant transactions that could potentially be the cause of the initial ledger divergence.
-- This PR builds on top of a previous commit by @shimos and extends their work into a complete Fabric ledger utilities tool.
-
-<!--- Describe your changes in detail, including motivation. -->
-
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-
-- #2788
-- #2979 
-- #2980 
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-15 01:13:03 +0000 UTC
     </div>
 </div>
 
