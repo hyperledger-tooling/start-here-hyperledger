@@ -96,7 +96,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    WIP: Yul semantic analysis
+                    Yul semantic analysis
                 </b>
             </td>
         </tr>
@@ -105,9 +105,9 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                This PR implements the semantic analysis for YUL statements. Tests are still missing.
+                This PR implements the semantic analysis for YUL statements.
 
-Two contract test cases have been removed, because the unused variable detection and the graphviz for YUL are not implemented yet, so the tests weren't passing.
+Two contract test cases have been removed, because the unused variable detection and the graphviz for YUL are not implemented yet, so the tests weren't passing. I'll bring back these tests in another PR when I implement the missing features.
             </td>
         </tr>
     </table>

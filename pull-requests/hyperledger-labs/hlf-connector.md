@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/14" class=".btn">#14</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/16" class=".btn">#16</a>
             </td>
             <td>
                 <b>
-                    API for fetching Approved Organisations for a Smart Contract
+                    Increment version after the release
                 </b>
             </td>
         </tr>
@@ -27,15 +27,38 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                - Added Controller of fetching the list of Organizations that approved the chaincode
-- Added Service class implementation
-
-Signed-off-by: Shubhkarman Walia <shubhkarman.walia@Walmart.com>
+                Signed-off-by: S m, Aruna <aruna.mohan@walmart.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-14 10:10:16 +0000 UTC
+        Created At 2022-03-22 10:44:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/15" class=".btn">#15</a>
+            </td>
+            <td>
+                <b>
+                    Auto version increment after release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: S m, Aruna <aruna.mohan@walmart.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 10:40:47 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[3295](https://github.com/hyperledger/fabric/pull/3295) fix unittest failure (#3294)
+[16](https://github.com/hyperledger-labs/hlf-connector/pull/16) Increment version after the release
 
-[207](https://github.com/hyperledger/firefly-ethconnect/pull/207) Support for confirmations when listening to events
+[15](https://github.com/hyperledger-labs/hlf-connector/pull/15) Auto version increment after release
 
-[3620](https://github.com/hyperledger/besu/pull/3620) Use JUnit 5 for unit test execution
+[93](https://github.com/hyperledger/iroha-javascript/pull/93) Update formatting
 
-[2](https://github.com/hyperledger-labs/nft-auction/pull/2) Initial code for nft-auction
+[3206](https://github.com/hyperledger/aries-framework-go/pull/3206) fix: remove batch store in ld store
 
-[1989](https://github.com/hyperledger/iroha/pull/1989) [fix] #1897: Changed usize to u64/u32 on serde derived structs
+[1993](https://github.com/hyperledger/iroha/pull/1993) [ci]: Add telemetry to default features. 
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
