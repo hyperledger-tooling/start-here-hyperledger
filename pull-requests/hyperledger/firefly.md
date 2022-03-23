@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/620" class=".btn">#620</a>
+            </td>
+            <td>
+                <b>
+                    [ui-v0.6.0-release] new ui release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 17:24:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/619" class=".btn">#619</a>
+            </td>
+            <td>
+                <b>
+                    [ui-v0.6.0] PR for new UI release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Will get exact release hash once it's released
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 14:05:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/617" class=".btn">#617</a>
             </td>
             <td>
@@ -237,14 +289,13 @@ Summary of the changes in this PR:
 6. Add operation for uploading blobs (per #568)
 
 7. More consistently name all operation types, with `type_verb_noun`
-    - 'blockchain_pin_batch' (was 'blockchain_batch_pin')
-    - 'blockchain_invoke'
-    - 'dataexchange_send_batch' (was 'dataexchange_batch_send')
-    - 'dataexchange_send_blob' (was 'dataexchange_blob_send')
-    - 'sharedstorage_upload_batch' (was 'sharedstorage_batch_broadcast')
-    - 'sharedstorage_upload_blob'
-    - 'sharedstorage_download_batch'
-    - 'sharedstorage_download_blob'
+    * `blockchain_pin_batch` - previously `blockchain_batch_pin`
+    * `dataexchange_send_batch` - previously `dataexchange_batch_send`
+    * `dataexchange_send_blob` - previously `dataexchange_blob_send`
+    * `sharedstorage_upload_batch` - previously `sharedstorage_batch_broadcast`
+    * `sharedstorage_upload_blob` - new
+    * `sharedstorage_download_batch` - new
+    * `sharedstorage_download_blob` - new
 
 9. Fixes a bug where we might miss rewinds to process pins after batch arrival
     - Fix: `rewindPollingOffset` needed to return the decision it made on whether to rewind in `event_poller.go`
@@ -310,155 +361,6 @@ Summary of the changes in this PR:
     </table>
     <div class="right-align">
         Created At 2022-03-16 15:31:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/604" class=".btn">#604</a>
-            </td>
-            <td>
-                <b>
-                    Custom contracts docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves https://github.com/hyperledger/firefly/issues/398
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-15 18:46:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/603" class=".btn">#603</a>
-            </td>
-            <td>
-                <b>
-                    Add firstEvent field to contract listeners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves https://github.com/hyperledger/firefly/issues/585
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-15 17:03:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/602" class=".btn">#602</a>
-            </td>
-            <td>
-                <b>
-                    Remove route /messages/{msgid}/operations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Operations are strongly tied to transactions, but they really are not
-tied to messages directly. This helper for retrieving a "third level"
-object association probably creates more confusion than it's worth.
-
-It seems cleaner to retrieve the message transaction, then retrieve
-the transaction operations as separate queries.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-15 16:19:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/600" class=".btn">#600</a>
-            </td>
-            <td>
-                <b>
-                    Batch confirm messages, and update events to contain topic+tag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently there is no clean way to query messages on a given `topic` in the same order that they were dispatched to your application.
-
-More worryingly, we imply that the that you might be able to use the `confirmed` timestamp of the message as a substitute, as currently it's unique for each message. The problem with this is that timestamps are not guaranteed to only move forwards.
-
-The only object in FireFly that is guaranteed to have a sequence you can rely upon is `events`, and these are delivered to your application with the `message` in-line in the case of a `message_confirmed` event. We just added `?fetchreferences` (thanks @shorsher) on the `/events` resource collection, so that's an important piece of the puzzle. So with the extra change in this PR, if you want to query messages on a topic in the order they happened you just do:
-
-- `/api/v1/namespaces/{NS}/events?type=message_confirmed&fetchreferences&topic=MYTOPIC`
-  - Reverse `sequence` is the default sort - so you can add `&sort=sequence` for ascending
-
-> Note that this does not return you the data (there is no 2nd tier `?fetchdata` option). Adding this needs extra discussion as we'd drawn a line in the sand of only doing one level of auto-fetching for you. However, the convenience of `fetchdata` _might_ be the exception that proves the rule 🤔 
-
-In a PR chain with #599
-
-- Adds `topic` as am indexed field on events (64 chars)
-- If there are multiple `topics` in a message to generates multiple `message_confirmed` events.
-- Batch confirms messages, so multiple messages have the same `confirmed` timestamp
-- Updates E2E test to apply the best practice described above
-- Topics are assigned to all events, including non-message events (table below)
-
-This has two benefits:
-1) Performance increase due to being able to do a blanket set of confirmed to a single timestamp in the aggregator.
-2) The ability to query all history for a topic cleanly in applications, without implicitly relying on positively increasing timestamps, and being confident its the same order that the confirmations happened in and your application was delivered the events. 
-
-### Topic events
-
-| Event | Topic | Comment |
-|------|-------|-----------|
-| `message_confirmed` | Message Topic | The key use case of filtering on topic |
-| `message_rejected` | Message Topic | " |
-| `blockchain_event_received` | `ff_batch_pin` for the built-in batch pin listener.<br/>Topic from the listener if specified.<br/>Listener ID as string otherwise | Setting a topic on the blockchain listener allows grouping of multiple events into a common stream |
-| `token_pool_confirmed` | Token pool ID as string | Allows querying of all events on a token pool |
-| `token_transfer_confirmed` | Token pool ID as string | " |
-| `token_transfer_op_failed` | Token pool ID as string | " |
-| `token_approval_confirmed` | Token pool ID as string | " |
-| `namespace_confirmed` | `ff_definitions` | Catch all topic for FireFly system definitions |
-| `datatype_confirmed` | `ff_definitions` | " |
-| `identity_confirmed` | `ff_definitions` | " |
-| `identity_updated` | `ff_definitions` | " |
-| `contract_interface_confirmed` | `ff_definitions` | " |
-| `contract_api_confirmed` | `ff_definitions` | " |
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-14 17:48:00 +0000 UTC
     </div>
 </div>
 

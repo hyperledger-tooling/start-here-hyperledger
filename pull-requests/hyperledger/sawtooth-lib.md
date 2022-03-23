@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/142" class=".btn">#142</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/143" class=".btn">#143</a>
             </td>
             <td>
                 <b>
-                    Backport 0-7: fix Rust 1.59 lint
+                    Backport 0 6: fix Rust 1.59 lint
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                backport of #141 
+                Backport of #141 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-07 15:46:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/141" class=".btn">#141</a>
-            </td>
-            <td>
-                <b>
-                    Fix Rust 1.59 lint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-03 16:07:43 +0000 UTC
+        Created At 2022-03-21 14:51:48 +0000 UTC
     </div>
 </div>
 

@@ -117,35 +117,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/31" class=".btn">#31</a>
-            </td>
-            <td>
-                <b>
-                    Verify that name/symbol match the deployed contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Proposed solution to https://github.com/hyperledger/firefly/issues/557.
-
-When creating an ERC20 or ERC721 pool by pointing at an existing contract address, ~~it requires that you pass a pool name and symbol to FireFly which exactly match the name and symbol embedded in the pre-deployed contract.~~
-the symbol (if one is set on the contract) will be read from the contract. If a symbol is explicitly specified during
-pool creation, it must match the one from the contract.
-
-The token name from the contract will not be used by FireFly, but will be stored in an `info` object on the TokenPool.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-15 22:53:14 +0000 UTC
-    </div>
-</div>
-
