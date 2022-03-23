@@ -116,29 +116,3 @@ Added more auto options to the custom agent startup yaml for AMTH use.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/449" class=".btn">#449</a>
-            </td>
-            <td>
-                <b>
-                    feat: present-proof v3 (WACI share) test and afgo support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-16 14:02:40 +0000 UTC
-    </div>
-</div>
-

@@ -310,29 +310,3 @@ permalink: /pull-requests/hyperledger/firefly-ui
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/121" class=".btn">#121</a>
-            </td>
-            <td>
-                <b>
-                    Pool details and Transaction Details page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-16 18:22:07 +0000 UTC
-    </div>
-</div>
-
