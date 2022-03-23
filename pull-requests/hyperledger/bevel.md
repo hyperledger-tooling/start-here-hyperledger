@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1897" class=".btn">#1897</a>
+            </td>
+            <td>
+                <b>
+                    [chore] Merge develop to main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+Merge develop to main
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 11:46:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1896" class=".btn">#1896</a>
             </td>
             <td>

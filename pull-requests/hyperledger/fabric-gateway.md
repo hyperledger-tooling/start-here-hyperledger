@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/415" class=".btn">#415</a>
+            </td>
+            <td>
+                <b>
+                    Additional staticcheck and gofmt checks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Removal of the deprecated golint left some gaps in checking for correct godoc comments and recommended naming. Enabling additional (non-default) staticcheck rules covers at least some of these linting gaps.
+
+Added a check of all Go files with gofmt to ensure recommended formatting.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 12:03:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/414" class=".btn">#414</a>
+            </td>
+            <td>
+                <b>
+                    file checkpointer for go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 08:14:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/413" class=".btn">#413</a>
             </td>
             <td>
