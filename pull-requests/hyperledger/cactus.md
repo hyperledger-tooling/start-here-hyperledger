@@ -14,6 +14,107 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1944" class=".btn">#1944</a>
+            </td>
+            <td>
+                <b>
+                    fix(deps): force minimist >=1.2.6 for CVE-2021-44906
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">Security</span><span class="chip">P1</span>
+            </td>
+            <td>
+                Ensures that yarn will only install 1.2.6 or newer versions for
+minimist.
+
+The proper fix would be to have the dependencies issue releases
+which upgrade their own (transitive) dependencies of minimist
+so that we don't have to explicitly force it here, but at the time
+of this writing these upgrades in our direct dependencies are just
+not available yet.
+
+Fixes #1943
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 04:54:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1942" class=".btn">#1942</a>
+            </td>
+            <td>
+                <b>
+                    replaced rocketchat with discord
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Replaced the old rocketchat link with the new discord link
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 19:09:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1940" class=".btn">#1940</a>
+            </td>
+            <td>
+                <b>
+                    feat(keychain-aws-sm): bootstrap readme.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Commit to be reviewed
+
+feat(keychain-aws-sm): bootstrap readme.md
+
+	Primary Changes
+	-----------------------
+	1. Updated the README.md located at packages/cactus-plugin-keychain-aws-sm/README.md
+	2. The aws secret manager plugin now includes the prometheus metrics exporter integration
+	3. OpenApi spec now has api endpoint for getting the prometheus metrics
+
+Fixes #968
+
+Signed-off-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 10:19:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1938" class=".btn">#1938</a>
             </td>
             <td>
@@ -27,12 +128,14 @@ permalink: /pull-requests/hyperledger/cactus
                 
             </td>
             <td>
-                Until now, the protocol was implemented using only the server endpoints.
+                Implementation of client endpoints in ODAP plugin.
 
 The changes can be summarized as follows:
 - Implementation of client endpoints
 - Adapted and added more tests (now divided into unit and integration tests)
 - Addition of more checks regarding the validity of the messages received on the server side
+
+closes #1939
 
 Signed-off-by: André Augusto <andre.augusto@tecnico.ulisboa.pt>
             </td>
@@ -96,7 +199,7 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 Added some instructions for the usage of the package `plugin-object-store-ipfs` in the README.md.
@@ -210,157 +313,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2022-03-16 06:22:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1929" class=".btn">#1929</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump underscore from 1.9.1 to 1.13.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [underscore](https://github.com/jashkenas/underscore) from 1.9.1 to 1.13.2.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/jashkenas/underscore/commit/33383fe35cdaf90ff1aa12e20067f44cbe267e87"><code>33383fe</code></a> Update generated sources, tag 1.13.2 release</li>
-<li><a href="https://github.com/jashkenas/underscore/commit/cd03f4c08e7f49592d88de83dfc3630762e376dc"><code>cd03f4c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/jashkenas/underscore/issues/2946">#2946</a> from jgonggrijp/prepare-1.13.2</li>
-<li><a href="https://github.com/jashkenas/underscore/commit/5463692bfd2b6024c6aa3f87b33bd724886a993d"><code>5463692</code></a> Add a change log entry for 1.13.2</li>
-<li><a href="https://github.com/jashkenas/underscore/commit/315c2df4b82a1c2fb378441d62f906c72f9501ba"><code>315c2df</code></a> Bump the version to 1.13.2</li>
-<li><a href="https://github.com/jashkenas/underscore/commit/8cd397b70a1eb9c72daba7f07ed0f94931f039a3"><code>8cd397b</code></a> Use statically.io for the 1.13.x series doc archives</li>
-<li><a href="https://github.com/jashkenas/underscore/commit/92db0d9df4c22068a992a62ac543b5216095badb"><code>92db0d9</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/jashkenas/underscore/issues/2937">#2937</a> from zheng-kai/master</li>
-<li><a href="https://github.com/jashkenas/underscore/commit/7c2db70ff0464ae01fa4b486d5ef5f0aa8f6a103"><code>7c2db70</code></a> Clarify that _.bind and _.partial can be used together (<a href="https://github-redirect.dependabot.com/jashkenas/underscore/issues/2328">#2328</a>)</li>
-<li><a href="https://github.com/jashkenas/underscore/commit/d9e00911565df587792b45f1213639b6aba0dcb0"><code>d9e0091</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/jashkenas/underscore/issues/2944">#2944</a> from jgonggrijp/fix-sample-string</li>
-<li><a href="https://github.com/jashkenas/underscore/commit/72173baf348b5d21853aceab632ef92b3c93c911"><code>72173ba</code></a> Properly convert _.sample input collection _.toArray (fix <a href="https://github-redirect.dependabot.com/jashkenas/underscore/issues/2927">#2927</a>)</li>
-<li><a href="https://github.com/jashkenas/underscore/commit/354337ac9689bb82c098d11dabb85204cc09e31a"><code>354337a</code></a> Add a regression test for <a href="https://github-redirect.dependabot.com/jashkenas/underscore/issues/2927">#2927</a> (caused in <a href="https://github-redirect.dependabot.com/jashkenas/underscore/issues/2158">#2158</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/jashkenas/underscore/compare/1.9.1...1.13.2">compare view</a></li>
-</ul>
-</details>
-<details>
-<summary>Maintainer changes</summary>
-<p>This version was pushed to npm by <a href="https://www.npmjs.com/~jgonggrijp">jgonggrijp</a>, a new releaser for underscore since your current version.</p>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=underscore&package-manager=npm_and_yarn&previous-version=1.9.1&new-version=1.13.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cactus/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-15 07:00:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1928" class=".btn">#1928</a>
-            </td>
-            <td>
-                <b>
-                    refactor(quorum-multi-party-all-in-one): enhance quorum-mp image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Tests</span>
-            </td>
-            <td>
-                Current Quorum-MP WS endpoints are not available outside of docker, fix
-it. Use upstream npm setup package instead of contributor branch. Test
-all members in healthcheck. Update readme. Add test tooling to setup
-multi party ledger in functional tests. Cleanup and simplify dockerfile.
-Publish MP image to ghcr.
-
-Closes: #1927
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-
-Notes
-- I've added a new image publish in this PR, but there's ongoing issue with package publish - https://github.com/hyperledger/cactus/issues/1881
-- Since I'm not sure when the image will be published, I've used my personal ghcr for now, since I'm already using it in some functional tests on another branch. I will change it to hyperledger ghcr when the publish completes correctly.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-14 13:06:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1926" class=".btn">#1926</a>
-            </td>
-            <td>
-                <b>
-                    fix(api-server): allow no authorization on socketio endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                authorizeSocket middleware will be installed only if AuthorizationProtocol different than NONE was provided.
-
-Closes:  #1925
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-
-Note
-- This change work on my other local branch (not PR ready yet).
-- This can be refactored, so that all authorization middleware creation would be handled by `AuthorizerFactory.createMiddleware`, but I didn't want to touch it without test coverage. I will probably introduce some tests with of socketio authorization as part of other PR, we can think about improvements then.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-14 12:40:29 +0000 UTC
     </div>
 </div>
 

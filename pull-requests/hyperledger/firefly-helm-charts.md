@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/32" class=".btn">#32</a>
+            </td>
+            <td>
+                <b>
+                    Add firefly node name override and move fullnameOverride to outside of core
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 17:35:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/30" class=".btn">#30</a>
+            </td>
+            <td>
+                <b>
+                    Renaming publicstorage to sharedstorage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                per https://github.com/hyperledger/firefly/pull/538
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-21 21:15:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/29" class=".btn">#29</a>
+            </td>
+            <td>
+                <b>
+                    firefly-perfnode Chart and Extra Sidecar Containers Support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a new `firefly-perfnode` chart that comes with preconfigured IPFS and PostgreSQL sidecar containers (similar to docker compose setup from https://github.com/hyperledger/firefly-cli for perf testing as part of https://github.com/hyperledger/firefly/issues/519
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-21 21:07:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/28" class=".btn">#28</a>
             </td>
             <td>

@@ -164,29 +164,3 @@ WARN[2022-03-17T15:49:59.680] WS ws://localhost:5000/ws connect attempt 5 failed
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/20" class=".btn">#20</a>
-            </td>
-            <td>
-                <b>
-                    Do not skip the ack on events we cannot process, and set readahead based on workers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-14 20:45:45 +0000 UTC
-    </div>
-</div>
-

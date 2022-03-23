@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1893" class=".btn">#1893</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1896" class=".btn">#1896</a>
             </td>
             <td>
                 <b>
-                    [corda] Update readme and add https creds
+                    [fabric] Ansible decoupling for chaincode ops
                 </b>
             </td>
         </tr>
@@ -27,20 +27,71 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
 
 **Changelog**
-- Add chart `platforms/r3-corda/charts/generate-certs` for generating certificates as a job. This has not been used yet.
-- Update Developer guides on using Bevel-build container
-- Update all references of dockerhub to ghcr.io in docs
-- Update git creds for Helm operator
-- Made Docker creds optional for Corda
+- Add new yaml files in rol create/ca-tools
+- Fix small bug in role delete/vault_secrets
+- Update create/k8s_secrets, create/ca-tools, /create/chaincode/commit, create/chaincode/install, create/chaincode/invoke roles and /charts/commit_chaincode, /charts/install_chaincode/ charts
+
  
+
+**Reviewed by**
+@suvajit-sarkar 
+@jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1720 
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-14 18:08:50 +0000 UTC
+        Created At 2022-03-22 13:02:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1895" class=".btn">#1895</a>
+            </td>
+            <td>
+                <b>
+                    [quorum]Remove download of whole quorum repo to build geth and bootnode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: nikhilayadav <nikhila.golla@accenture.com>
+
+
+- Add logic to remove download of whole quorum repo to build geth and bootnode
+
+
+
+ 
+
+**Reviewed by**
+@sownak @suvajit-sarkar @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1836 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 12:37:17 +0000 UTC
     </div>
 </div>
 

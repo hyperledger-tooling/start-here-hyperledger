@@ -14,6 +14,167 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/134" class=".btn">#134</a>
+            </td>
+            <td>
+                <b>
+                    [ui-routing] adding basename to routing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 16:49:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/133" class=".btn">#133</a>
+            </td>
+            <td>
+                <b>
+                    0.6.0 Minor Bump
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 14:09:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/132" class=".btn">#132</a>
+            </td>
+            <td>
+                <b>
+                    [loading-states] loading state for tables and cards
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Loading states with skeleton text for better ui experience
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 13:59:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/131" class=".btn">#131</a>
+            </td>
+            <td>
+                <b>
+                    [v1] linting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-21 21:23:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/130" class=".btn">#130</a>
+            </td>
+            <td>
+                <b>
+                    V1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Websocket refreshing
+- Slide linking
+- Performance improvements
+- Navigation updates
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-21 21:12:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/129" class=".btn">#129</a>
+            </td>
+            <td>
+                <b>
+                    V1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Slide linking
+- Performance enhancements
+- Websocket refreshing
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-21 21:09:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ui/pull/128" class=".btn">#128</a>
             </td>
             <td>
@@ -172,58 +333,6 @@ permalink: /pull-requests/hyperledger/firefly-ui
     </table>
     <div class="right-align">
         Created At 2022-03-16 18:22:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/119" class=".btn">#119</a>
-            </td>
-            <td>
-                <b>
-                    Timeline fetching
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-15 22:36:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/117" class=".btn">#117</a>
-            </td>
-            <td>
-                <b>
-                    v1 timeline
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-14 15:21:45 +0000 UTC
     </div>
 </div>
 

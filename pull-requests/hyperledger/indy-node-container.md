@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/85" class=".btn">#85</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/87" class=".btn">#87</a>
             </td>
             <td>
                 <b>
-                    fix trivy job
+                    Update README, small fix for trivy html template
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                Signed-off-by: Sebastian Schmittner <sebastian.schmittner@eecc.de>
+                fixes #86
+
+Signed-off-by: Guido Wischrop <Guido.Wischrop@mgm-tp.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-04 08:26:22 +0000 UTC
+        Created At 2022-03-22 14:30:34 +0000 UTC
     </div>
 </div>
 

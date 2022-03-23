@@ -63,29 +63,3 @@ Sorry about the inconvenience :)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/277" class=".btn">#277</a>
-            </td>
-            <td>
-                <b>
-                    Feat/message doc updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Strobel peter@indicio.tech 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-15 15:39:32 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,113 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/462" class=".btn">#462</a>
+            </td>
+            <td>
+                <b>
+                    Run CI with vcxagencynode 1.2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 13:44:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/461" class=".btn">#461</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.34.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">changelog-excluded</span>
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 13:42:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/459" class=".btn">#459</a>
+            </td>
+            <td>
+                <b>
+                    Improve http client error handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                - Improve error messages
+- Propagate error details when mapping agency error into VcxError
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-21 16:57:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/458" class=".btn">#458</a>
+            </td>
+            <td>
+                <b>
+                    Download no auth messages by id
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">hotfix</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-21 15:58:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/457" class=".btn">#457</a>
             </td>
             <td>
@@ -35,36 +142,6 @@ Addresses: #444
     </table>
     <div class="right-align">
         Created At 2022-03-21 11:17:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/456" class=".btn">#456</a>
-            </td>
-            <td>
-                <b>
-                    Unify err handling code in libvcx, use error level instead of warn
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                - use `error` instead of `warn` in `libvcx` on error
-- unify naming
-- add missing `set_current_error_vcx` calls
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-15 17:19:45 +0000 UTC
     </div>
 </div>
 

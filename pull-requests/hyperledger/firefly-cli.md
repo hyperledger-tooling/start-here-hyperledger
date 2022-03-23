@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/firefly-cli
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/159" class=".btn">#159</a>
-            </td>
-            <td>
-                <b>
-                    Add flag for extra core config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a new flag `--core-config` (there is no shorthand version) to point to a yaml file which will be overlaid on top of the default FireFly core config file for each member. It uses the conflate library (https://github.com/miracl/conflate) to do the YAML merging.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-14 17:38:12 +0000 UTC
-    </div>
-</div>
-
