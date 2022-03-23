@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/59" class=".btn">#59</a>
+            </td>
+            <td>
+                <b>
+                    Add retry attempts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add attempts flag for `uly service start` cmd and retry interval depend on not fixed value but interval flag.
+This changes will increase availability of Relayer service.
+
+Signed-off-by: Koji Matsumiya <koji.matsumiya@datachain.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 09:39:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/58" class=".btn">#58</a>
             </td>
             <td>

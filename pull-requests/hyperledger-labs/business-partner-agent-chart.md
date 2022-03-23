@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/45" class=".btn">#45</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/46" class=".btn">#46</a>
             </td>
             <td>
                 <b>
-                    postgresql as optional dependency
+                    support tls on all database connections
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                Cleaned up the chart so that the postgresql subchart is now really optional. If the property postgres.enabled is set to false a dns name needs to be set via postgres.fullnameOverride.
+                - support TLS on the bpa connection string
+- allow to set a database name on the bpa connection string
+- allow to set a port on the bpa connection string
+- default wallet type is now askar
+
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-16 10:49:16 +0000 UTC
+        Created At 2022-03-23 11:43:07 +0000 UTC
     </div>
 </div>
 

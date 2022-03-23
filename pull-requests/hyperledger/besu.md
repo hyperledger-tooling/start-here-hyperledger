@@ -553,35 +553,3 @@ Snapsyc is still an experimental feature more tests will be added when the featu
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3595" class=".btn">#3595</a>
-            </td>
-            <td>
-                <b>
-                    added download links for 22.1.2 and moved bonsai change to 22.1.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Added 22.1.3 section to changelog
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-16 09:23:11 +0000 UTC
-    </div>
-</div>
-
