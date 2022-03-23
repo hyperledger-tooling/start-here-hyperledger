@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1281" class=".btn">#1281</a>
+            </td>
+            <td>
+                <b>
+                    [Docs] Remove fabric operations doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This removes details from the network configuration docs of fabric (ie
+how to create channels, install/instantiate chaincodes) as it shouldn't
+be used.
+
+The code will remain for now as the integration tests still require it.
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 13:51:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1280" class=".btn">#1280</a>
             </td>
             <td>

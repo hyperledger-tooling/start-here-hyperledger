@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/48" class=".btn">#48</a>
+            </td>
+            <td>
+                <b>
+                    compatibility fixes for 0.11.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 16:57:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/47" class=".btn">#47</a>
+            </td>
+            <td>
+                <b>
+                    Feature: inject existing database
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                It is now possible to inject a database name to aca-py. Like this it is possible to share a preexisting db between aca-py and bpa.
+
+Warning this is not backwards compatible., If you upgrade to 0.11 your data will be lost. I will fix this with a later release, probably 0.11.1 If you do not want to loose data wait with the upgrade.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 16:12:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/46" class=".btn">#46</a>
             </td>
             <td>

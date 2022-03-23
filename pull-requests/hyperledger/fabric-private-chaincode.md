@@ -14,35 +14,28 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/663" class=".btn">#663</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/664" class=".btn">#664</a>
             </td>
             <td>
                 <b>
-                    added documentation for FPC on Azure
+                    WIP DCAP Attestation for FPC Go Chaincode
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">documentation</span>
+                <span class="chip">feature</span>
             </td>
             <td>
-                Signed-off-by: Benedikt Hofmann <hofmann.benedikt.hb@web.de>
+                **What this PR does / why we need it**:
 
-**What this PR does / why we need it**:
-Makes usage of FPC easier when one does not have physical access to SGX but wants to still use HW mode
-
-**Which issue(s) this PR fixes**:
-none
-
-**Special notes for your reviewer**:
-Docs like we talked on Thursday.
+This PR enabled DCAP-based attestation for FPC Go Chaincode. 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-14 11:10:26 +0000 UTC
+        Created At 2022-03-23 16:25:36 +0000 UTC
     </div>
 </div>
 

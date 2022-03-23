@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/7" class=".btn">#7</a>
+            </td>
+            <td>
+                <b>
+                    fixed dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sahinul Haque <sahinul.haque@itpeoplecorp.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 15:52:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/4" class=".btn">#4</a>
+            </td>
+            <td>
+                <b>
+                    Update setup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit has following changes:
+1. Updates shell scripts with required permission
+2. Updates application setup instructions
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 13:20:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/3" class=".btn">#3</a>
             </td>
             <td>

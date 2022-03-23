@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/191" class=".btn">#191</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/192" class=".btn">#192</a>
             </td>
             <td>
                 <b>
-                    Release v2.2.12
+                    upgrade opentelemetry version to 1.12.0
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                <nil>
+                I have projects using [fabric-sdk-java](https://github.com/hyperledger/fabric-sdk-java) that also use opentelemetry at `1.12.0`, which clashes with the transitive dependency from here. Would appreciate if we can upgrade it to the latest version of 1.12.0. 
+
+@bestbeforetoday could someone please help me figure out what went wrong with the build here?
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-21 12:29:40 +0000 UTC
+        Created At 2022-03-23 12:56:58 +0000 UTC
     </div>
 </div>
 

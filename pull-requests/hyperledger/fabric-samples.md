@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/684" class=".btn">#684</a>
+            </td>
+            <td>
+                <b>
+                    Provide clear guidance for running Java chaincode in a debugger - DO NOT MERGE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **DRAFT PR - DO NOT MERGE** 
+
+This PR addresses the need for a simple, clear example that illustrates the use of Chaincode-as-a-Service to run Java chaincode in a debugging environment.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 14:40:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/683" class=".btn">#683</a>
             </td>
             <td>
@@ -33,39 +61,6 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </table>
     <div class="right-align">
         Created At 2022-03-23 07:16:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/678" class=".btn">#678</a>
-            </td>
-            <td>
-                <b>
-                    Override default port of CA connection on CCP teample
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Signed-off-by**: Charalarg [charalarg@gmail.com](mailto:charalarg@gmail.com)
-
-**Type of change**:
-- Bug fix
-
-**Description**:
-
-In test-network-k8s the certificate authorities are deployed with TLS enabled under the port 443. But the connection profile template implements a connection to the default (7054) port of the certificate authority. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-16 15:21:48 +0000 UTC
     </div>
 </div>
 
