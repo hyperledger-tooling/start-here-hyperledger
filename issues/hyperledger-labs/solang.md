@@ -14,35 +14,53 @@ permalink: /issues/hyperledger-labs/solang
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger-labs/solang/issues/581" class=".btn">581</a>
+                Issue <a href="https://github.com/hyperledger-labs/solang/issues/707" class=".btn">707</a>
             </td>
             <td>
                 <b>
-                    Using SipHash with private node key
+                    compiler message for overloaded functions is not great
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">help wanted</span>
+                <span class="chip">good first issue</span>
             </td>
             <td>
-                I came across this section in the documentation:
+                Given this solidity:
+```
+contract C {
+	function foo(int a) public {}
+	function foo(int a, int b) public {}
+	function foo(int a, int b, int c) public {}
+	function bar() public {
+		foo(true);
+	}
+	function bar2() public {
+		foo({a:true});
+	}
+}
+```
+The error message you get is:
 
-> Solidity takes the keccak 256 hash of the key and the storage slot, and simply uses that to find the entry. There are no hash collision chains. This scheme is simple and avoids “hash flooding” attacks where the attacker chooses data which hashes to the same hash collision chain, making the hash table very slow; it will behave like a linked list.
->
-> In order to implement mappings in memory, a new scheme must be found which avoids this attack. Usually this is done with SipHash, but this cannot be used in smart contracts since there is no place to store secrets. Collision chains are needed since memory has a much smaller address space than the 256 bit storage slots.
->
-> Any suggestions for solving this are very welcome!
+```
+/home/sean/git/solang/overloaded.sol:6:3-12: error: cannot find overloaded function which matches signature
+Line 6:
+	foo(true);
+	^^^^^^^^^
+/home/sean/git/solang/overloaded.sol:9:3-16: error: cannot find overloaded function which matches signature
+Line 9:
+	foo({a:true});
+	^^^^^^^^^^^^^
+```
+That is not useful. The error message should list the overloaded functions which were tried, and the error message for each of them.
 
-But it makes me wonder, why not use SipHash and have each node create its own private key? As long as they process transactions from the beginning without changing this private key, that should work, right?
-
-Maybe I'm missing something though.
+The same handling should be used for overloaded constructors when deploying a new contract.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-27 20:30:41 +0000 UTC
+        Created At 2022-03-23 12:59:56 +0000 UTC
     </div>
 </div>
 
