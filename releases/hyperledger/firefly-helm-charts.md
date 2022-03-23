@@ -15,31 +15,33 @@ permalink: /releases/hyperledger/firefly-helm-charts
         <tr>
             <td colspan="2">
                 <b>
-                    v0.3.2
+                    v0.4.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.3.2
+                    v0.4.0
                 </span>
             </td>
             <td>
                 ## What's Changed
-* [v0.3.2] Fixing FFDX Plugin and Latest Images by @hfuss in https://github.com/hyperledger/firefly-helm-charts/pull/24
-* Fixing FFDX Plugin Config by @hfuss in https://github.com/hyperledger/firefly-helm-charts/pull/25
+* Upgrades to [FireFly `v0.14.0`](https://github.com/hyperledger/firefly/releases/tag/v0.14.0)
+* Create unique node name within Firefly network  by @calbritt in https://github.com/hyperledger/firefly-helm-charts/pull/26
+* Renaming publicstorage to sharedstorage by @hfuss in https://github.com/hyperledger/firefly-helm-charts/pull/30
+* Add firefly node name override and move fullnameOverride to outside of core by @calbritt in https://github.com/hyperledger/firefly-helm-charts/pull/32
+* Update firefly and microservice versions by @calbritt in https://github.com/hyperledger/firefly-helm-charts/pull/28
 
-
-**Full Changelog**: https://github.com/hyperledger/firefly-helm-charts/compare/v0.3.1...v0.3.2
+**Full Changelog**: https://github.com/hyperledger/firefly-helm-charts/compare/v0.3.2...v0.4.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-helm-charts/releases/tag/v0.3.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-helm-charts/releases/tag/v0.4.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-03-02 00:41:46 +0000 UTC
+        Created At 2022-03-23 15:33:56 +0000 UTC
     </span>
 </div>
 
