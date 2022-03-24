@@ -150,29 +150,3 @@ Contributes to #377
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/411" class=".btn">#411</a>
-            </td>
-            <td>
-                <b>
-                    Scenario tests for block event listening
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Contributes to #377
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 16:31:53 +0000 UTC
-    </div>
-</div>
-

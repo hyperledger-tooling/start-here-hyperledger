@@ -299,31 +299,3 @@ This was a bigger change than expected since blockchain events have no `type` fi
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/608" class=".btn">#608</a>
-            </td>
-            <td>
-                <b>
-                    Restart stack and re-run E2E tests in daily integration job
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This does not affect the PR test runs - only the daily integration test job - or if a `RESTART` environment variable is set to `true`.
-
-Resolves https://github.com/hyperledger/firefly/issues/566
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 15:58:09 +0000 UTC
-    </div>
-</div>
-

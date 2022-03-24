@@ -256,31 +256,3 @@ permalink: /pull-requests/hyperledger/firefly-ui
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/125" class=".btn">#125</a>
-            </td>
-            <td>
-                <b>
-                    V1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Relative timestamps
-- Formatting text across ui
-- Json Viewer
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 16:09:38 +0000 UTC
-    </div>
-</div>
-

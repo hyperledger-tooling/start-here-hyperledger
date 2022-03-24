@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-protos
             </td>
             <td>
                 <b>
-                    [WIP] Buf binding generation for node
+                    Add binding generation for node
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                <nil>
+                Adds a node module template project and associate code generation
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>

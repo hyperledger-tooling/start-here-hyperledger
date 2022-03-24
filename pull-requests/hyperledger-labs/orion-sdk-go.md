@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/122" class=".btn">#122</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/126" class=".btn">#126</a>
             </td>
             <td>
                 <b>
-                    TLS support
+                    Cluster session updates db bootstrap
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                1. Support for server side tls
-2. Support for both server and client tls
-
-Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-14 12:39:07 +0000 UTC
+        Created At 2022-03-24 13:26:16 +0000 UTC
     </div>
 </div>
 
