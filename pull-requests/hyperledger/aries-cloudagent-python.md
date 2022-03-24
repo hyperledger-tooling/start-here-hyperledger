@@ -95,35 +95,3 @@ Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1671" class=".btn">#1671</a>
-            </td>
-            <td>
-                <b>
-                    Add pre-commit as optional developer tool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds [pre-commit](https://pre-commit.com/) and associated configuration. This is more or less a tool for installing git hooks that check flake8 and black before committing. When used, this helps prevent follow up commits for formatting changes with black or correcting complaints from flake8.
-
-There is also a configuration for installing hooks for checking that the commit message conforms to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
-
-It is possible to use the pre-commit hooks (flake8 and black) without the commit-msg hooks (commitlint) and vice-versa. Contributors can also ignore pre-commit altogether -- this is purely opt-in and must be explicitly installed.
-
-Pre-commit is a pretty widely used tool in the python community and is analogous to [husky](https://typicode.github.io/husky/) in the javascript community. I've had these configuration files hanging out in my local fork of the ACA-Py repo and have been happily using them for more than a year.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 01:13:37 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3629" class=".btn">#3629</a>
+            </td>
+            <td>
+                <b>
+                    Update the PR template to include a documentation checklist item.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: bgravenorst <byron.gravenorst@consensys.net>
+
+## PR description
+Updated the GitHub PR template to include a documentation checklist item.
+
+## Fixed Issue(s)
+Fixes #3628 
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 01:44:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3626" class=".btn">#3626</a>
             </td>
             <td>

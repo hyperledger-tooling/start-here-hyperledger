@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/463" class=".btn">#463</a>
+            </td>
+            <td>
+                <b>
+                    iOS Wrapper abstraction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                iOS Wrapper abstraction
+
+Some information, such as handler types (u32, i32) or callback definitions, is only useful within vcx and the client code that uses them doesn't need to know the specifics. So I think hiding it from the client code will improve maintainability.
+
+Signed-off-by: kukgini <kukgini@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 06:20:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/462" class=".btn">#462</a>
             </td>
             <td>
