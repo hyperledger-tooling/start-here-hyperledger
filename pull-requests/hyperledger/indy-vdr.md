@@ -28,7 +28,6 @@ permalink: /pull-requests/hyperledger/indy-vdr
             </td>
             <td>
                 - Indy Vdr Proxy with multiple ledger support and DID Resolution API (based on Indy Vdr's `PoolResolver`)
-- Refresh (after initial refresh) is not yet working.
 - I've included a dockerfile for a node-pool based on Indicio's indy-node branch with the did:indy implementation  (HT @dbluhm). This pool is now used for the integration tests in indy-vdr's did-indy branch.
 
 ## Usage

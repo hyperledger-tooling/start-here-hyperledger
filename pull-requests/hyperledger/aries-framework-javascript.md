@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/680" class=".btn">#680</a>
+            </td>
+            <td>
+                <b>
+                    tests: reuse connection create and process request tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Just small PR adding ConnectionService tests I removed in the previous PR. I also added some checks for the OOB role and state.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 21:30:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/679" class=".btn">#679</a>
             </td>
             <td>

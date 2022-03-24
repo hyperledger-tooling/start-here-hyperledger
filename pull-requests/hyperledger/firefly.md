@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/623" class=".btn">#623</a>
+            </td>
+            <td>
+                <b>
+                    [fetchreferences2] Adding event enrichment for all event types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `GET /events?fetchreferences` now returns enriched events for all event types:
+
+```go
+type EnrichedEvent struct {
+	Event
+	BlockchainEvent   *BlockchainEvent `json:"blockchainevent,omitempty"`
+	ContractAPI       *ContractAPI     `json:"contractAPI,omitempty"`
+	ContractInterface *FFI             `json:"contractInterface,omitempty"`
+	Datatype          *Datatype        `json:"datatype,omitempty"`
+	Identity          *Identity        `json:"identity,omitempty"`
+	Message           *Message         `json:"message,omitempty"`
+	NamespaceDetails  *Namespace       `json:"namespaceDetails,omitempty"`
+	TokenApproval     *TokenApproval   `json:"tokenApproval,omitempty"`
+	TokenPool         *TokenPool       `json:"tokenPool,omitempty"`
+	Transaction       *Transaction     `json:"transaction,omitempty"`
+	TokenTransfer     *TokenTransfer   `json:"tokenTransfer,omitempty"`
+}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 19:12:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/620" class=".btn">#620</a>
             </td>
             <td>

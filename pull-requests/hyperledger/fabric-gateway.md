@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/416" class=".btn">#416</a>
+            </td>
+            <td>
+                <b>
+                    Update Java dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Only run Checkstyle with Java 11+ as v10 does not support earlier Java versions.
+- Run dependency vulnerability scan plugin directly for improved performance.
+- Store vulnerability scan results as a build artifact.
+
+Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 21:09:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/415" class=".btn">#415</a>
             </td>
             <td>

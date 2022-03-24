@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/708" class=".btn">#708</a>
+            </td>
+            <td>
+                <b>
+                    Add yul to unused variable detection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR integrates the YUL semantic analysis to the unused variable detection algorithm. I also remove repeated and unused code from the `sema/unsused_variable.rs` file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 19:35:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/706" class=".btn">#706</a>
             </td>
             <td>

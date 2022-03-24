@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/165" class=".btn">#165</a>
+            </td>
+            <td>
+                <b>
+                    Unique topics for multiple connectors against same ethconnect
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Few changes here:
+
+1. We already set the topic to be unique per node in the CLI, but we don't do the same for token connectors.
+    - This means if you request use of multiple token connectors of the same type, or are using the CLI to aid deployment against a remote EthConnect (such as in Kaleido), you can't be sure to have unique topics.
+2. Log the API call that failed, when logging errors
+3. Allow a `--contract-address` to be specified at `init`, which bypasses the contract deploy step at `start`. This can be combined with `--core-config` to use a remotely hosted EthConnect with a separately deployed contract (for example Kaleido smart contract management)
+4. Remove registration of a REST API for the FireFly smart contract across all EthConnect instances, in all cases. This is no longer required.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 18:35:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-cli/pull/164" class=".btn">#164</a>
             </td>
             <td>
@@ -85,32 +117,6 @@ $ ./ff/ff version
     </table>
     <div class="right-align">
         Created At 2022-03-18 15:43:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/161" class=".btn">#161</a>
-            </td>
-            <td>
-                <b>
-                    Implement deploy command for fabric
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-16 18:27:47 +0000 UTC
     </div>
 </div>
 
