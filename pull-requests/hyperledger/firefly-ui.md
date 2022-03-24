@@ -284,29 +284,3 @@ permalink: /pull-requests/hyperledger/firefly-ui
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/122" class=".btn">#122</a>
-            </td>
-            <td>
-                <b>
-                    Filtering and linking
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 04:31:33 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/624" class=".btn">#624</a>
+            </td>
+            <td>
+                <b>
+                    Re-read configuration on restart of orchestrator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Now that we are using more standard deployment of Ethereum contracts in the FireFly CLI, where a unique Eth address is generated each time, we need to set that configuration.
+
+Rather than having configuration like this that's only in the DB, this PR proposes we re-read the configuration after the reset to pick up patched YAML configuration containing the instance address.
+
+We still need to use the `preInit` trick in the CLI to let it start in a zombie mode so Docker compose is happy, while we're using EthConnect to deploy the contract, but the only thing we use the DB config patch for is to unset this flag (which is true already today).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 03:09:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/623" class=".btn">#623</a>
             </td>
             <td>
@@ -294,64 +324,6 @@ Resolves https://github.com/hyperledger/firefly/issues/566
     </table>
     <div class="right-align">
         Created At 2022-03-17 15:58:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/607" class=".btn">#607</a>
-            </td>
-            <td>
-                <b>
-                    Add Shared Storage Download Manager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves #601
-Resolves #568 
-
-Summary of the changes in this PR:
-
-1. Add workers that download from IPFS asynchronously, then notify with callbacks when they are ready
-
-3. Add `batch_hash` column to `pins`
-    - So we can compare the hash of the persisted batch, against the pin - common to private and broadcast
-
-4. Add option to set `outputs` to the operation manager
-    - Useful to have the outputs persisted from download, so you can see the public refs
-
-5. Add operations for downloading shared storage (IPFS) batches and blobs
-
-6. Add operation for uploading blobs (per #568)
-
-7. More consistently name all operation types, with `type_verb_noun`
-    * `blockchain_pin_batch` - previously `blockchain_batch_pin`
-    * `dataexchange_send_batch` - previously `dataexchange_batch_send`
-    * `dataexchange_send_blob` - previously `dataexchange_blob_send`
-    * `sharedstorage_upload_batch` - previously `sharedstorage_batch_broadcast`
-    * `sharedstorage_upload_blob` - new
-    * `sharedstorage_download_batch` - new
-    * `sharedstorage_download_blob` - new
-
-9. Fixes a bug where we might miss rewinds to process pins after batch arrival
-    - Fix: `rewindPollingOffset` needed to return the decision it made on whether to rewind in `event_poller.go`
-    - Cause: The `rewindPollingOffset` code in the event poller checks for queued rewinds each time round the polling loop, and contained a check to make sure it only went backwards. However, it didn't return the outcome of that check to the calling function, which then always assumed the rewind had been applied. Meaning if there was a "rewind forwards" scenario, it could do it and mean it missed pins. This left those messages stalled.
-
-11. Fixes a bug where a node receiving messages, but not sending any, could delay for a long time before confirming messages.
-    - Fix: Add a new goroutine to the batch manager, to continually process new-message events
-    - Cause: There was a situation on the recently updated batching logic, where it wasn't consuming new-message events while waiting in a polling cycle. As on the 2nd node there are no events arriving, that was meaning Database commits were blocked waiting to emit these new-message events.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 03:28:46 +0000 UTC
     </div>
 </div>
 

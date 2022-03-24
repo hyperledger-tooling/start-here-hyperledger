@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/35" class=".btn">#35</a>
+            </td>
+            <td>
+                <b>
+                    ffperf Chart
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Using the new Docker image and `run` command from https://github.com/hyperledger/firefly-perf-cli/pull/26 for running distributed `ffperf` instances
+
+Signed-off-by: hfuss <haydenfuss@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 02:54:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/34" class=".btn">#34</a>
+            </td>
+            <td>
+                <b>
+                    firefly-perfnode Chart and Extra Containers / PVCs Support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Originally from #29 
+
+Signed-off-by: hfuss <haydenfuss@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 02:49:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/32" class=".btn">#32</a>
             </td>
             <td>
@@ -59,34 +115,6 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     </table>
     <div class="right-align">
         Created At 2022-03-21 21:15:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/29" class=".btn">#29</a>
-            </td>
-            <td>
-                <b>
-                    firefly-perfnode and firefly-perf Charts w/ Extra Sidecar Containers Support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds a new `firefly-perfnode` chart that comes with preconfigured IPFS and PostgreSQL sidecar containers (similar to docker compose setup from https://github.com/hyperledger/firefly-cli for perf testing as part of https://github.com/hyperledger/firefly/issues/519
-
-Uses https://github.com/hyperledger/firefly-perf-cli/pull/26 with a new `firefly-perf` chart to deploy multiple `ffperf` instances within a `StatefulSet` for load and performance testing a FireFly network that is either deployed with `firefly` or the `firefly-perfnode` chart.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-21 21:07:19 +0000 UTC
     </div>
 </div>
 
