@@ -68,6 +68,23 @@ Fixes #3628
 
 ## PR description
 
+This is the last PR in the series to review and optimize transaction synchronization, and its goal is to avoid reprocessing transactions, that Besu have already seen recently.
+
+The currently way Besu has to spot if a transaction has already been process, is to look if the transaction is present in the transaction pool, that by default is 4K, while the amount of pending transactions on the mainnet, is much more, the order of hundred of thousands, so basically even if a transaction has been already processed, the chances that it gets reprocessed is very high, with the result of doing a lot of useless work, that affects Besu performance.
+
+A trivial solution could be to just raise the transaction pool size, but that is not always advisable, because it is critical for block production to keep it fast, and incresing its size could negatively affect the perfomance of the strategy choosen to select transactions to include in the block.
+
+A better option, implemented in this PR, is to leverage data that we already have, and that keeps the history of the transactions exchanged with other peers. This data is just a collection of transaction hashes that we have received or seen, and in any case if a transaction is in that collection, it means that it has already been processed by Besu, so it is possible to directly skip it.
+
+Tests show a reduced CPU usage:
+![image](https://user-images.githubusercontent.com/91944855/159903502-35ad0aff-bfc8-4ab0-98c7-c0fdbc2503a5.png)
+![image](https://user-images.githubusercontent.com/91944855/159903608-57ea1bdc-332f-42fc-aa35-7c3021e30d29.png)
+
+due to the much less turnover in the transaction pool
+![image](https://user-images.githubusercontent.com/91944855/159903959-c4bc1de1-ee3e-45ed-8f2f-6149a885a070.png)
+![image](https://user-images.githubusercontent.com/91944855/159904240-adafdd71-4ad9-4f7b-8782-3770fb3f9479.png)
+
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
@@ -303,7 +320,7 @@ Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->

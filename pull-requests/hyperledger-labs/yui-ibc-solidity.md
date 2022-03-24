@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/79" class=".btn">#79</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    Bump node.js to 16 and npm to 8
+                    Fix random errors in e2e test
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                <nil>
+                close #63 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-01 07:00:05 +0000 UTC
+        Created At 2022-03-24 07:45:51 +0000 UTC
     </div>
 </div>
 

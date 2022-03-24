@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2002" class=".btn">#2002</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #1970: Add optional schema endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Add optional schema endpoint
+
+### Issue
+Closes #1970 
+
+
+### Benefits
+
+Optional Schema endpoint 
+
+### Possible Drawbacks
+
+Slightly increased binary size.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 08:01:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/1999" class=".btn">#1999</a>
             </td>
             <td>
@@ -99,7 +153,7 @@ Increased binary size.
             </td>
             <td>
                 <b>
-                    [fix] #1897: Changed usize to u64/u32 on serde derived structs
+                    [fix] #1897: Removed usize/isize from serialization
                 </b>
             </td>
         </tr>
