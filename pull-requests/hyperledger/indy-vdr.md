@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/87" class=".btn">#87</a>
+            </td>
+            <td>
+                <b>
+                    Feature/python wrapper with multiple ledger support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added python wrapper for multi-ledger did resolution
+
+Exposes three simple ways to set up a resolver:
+
+1. Provide a list of namespaces, genesis files will be retrieved from did indy networks repo
+2. Local did indy networks compatible folder structure
+3. Autopilot: Library will try to fetch genesis files from did indy networks repo when a DID with an unknown namespace is encountered.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 14:19:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-vdr/pull/86" class=".btn">#86</a>
             </td>
             <td>
@@ -79,39 +112,6 @@ Indy VDR contains a DID Resolver to resolve DIDs and dereference DID Urls to led
     </table>
     <div class="right-align">
         Created At 2022-03-23 16:58:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/85" class=".btn">#85</a>
-            </td>
-            <td>
-                <b>
-                    Feature/general indy resolver
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Builds upon #80 
-
-- Adds a VDR API with a general DID resolver. Network configuration can be taken from a Github Repo or a local folder structure
-- Initial support for multiple ledgers and DID resolution with indy-vdr-proxy
-
-The VDR API uses Async/Await and is therefore not suited for FFI, but I'll look into it.
-
-I think it would help to create a `did-indy` branch to have smaller PRs at some point :) 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 16:32:52 +0000 UTC
     </div>
 </div>
 

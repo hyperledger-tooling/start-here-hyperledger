@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/209" class=".btn">#209</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/210" class=".btn">#210</a>
             </td>
             <td>
                 <b>
-                    [WIP] Add IIN Method document
+                    Bug Fixes and Extra Log Messages
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                In order to add the iin method in [DID Specification Registries](https://w3c.github.io/did-spec-registries/#did-methods), we need to define it in our own RFC and open a PR with its link.
+                1. Bump Version for Relay and other fabric components, (after TLS addition we never did that).
+2. Bug fix: Corda testnet (with house token app) startup fail with github packages.
+3. Extra Log Messages in Fabric interop cc for access control and proof verification.
+4. Return Hash from createHTLC function in fabric-node-sdk.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-15 13:33:48 +0000 UTC
+        Created At 2022-03-24 13:20:36 +0000 UTC
     </div>
 </div>
 

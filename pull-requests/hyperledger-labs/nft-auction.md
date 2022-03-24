@@ -30,8 +30,8 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
                 Signed-off-by: Dilip Manjunatha <dilidssn@gmail.com>
 
 This commit has following fixes:
-1. Auction house can now access only open auctions associated with them
-2. Auction house can now access only new auctions associated with them
+1. Auction house can now access open auctions associated with them
+2. Auction house can now access new auctions associated with them
             </td>
         </tr>
     </table>

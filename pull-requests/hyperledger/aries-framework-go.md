@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3207" class=".btn">#3207</a>
+            </td>
+            <td>
+                <b>
+                    chore: prepare afgo for 1.8.0 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                this change updates all AFGO dependencies to latest commit.
+It also removes temporary Go1.17 out of memory temporary fix as 1.17.6 has this fixed now.
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 17:16:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3206" class=".btn">#3206</a>
             </td>
             <td>

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/36" class=".btn">#36</a>
+            </td>
+            <td>
+                <b>
+                    Allow activation to register from a custom block number
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Allow `blockNumber` to be optionally included in the ERC-20/ERC-721 custom `config` section
+- Allow `poolConfig` to be passed by FireFly during `activate`
+    - This will require (non-breaking) changes on the FireFly core API contract too
+- Create the EthConnect subscriptions from the specified `blockNumber` in preference above all other block numbers
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 18:17:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/33" class=".btn">#33</a>
             </td>
             <td>

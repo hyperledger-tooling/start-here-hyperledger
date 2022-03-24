@@ -14,39 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/35" class=".btn">#35</a>
-            </td>
-            <td>
-                <b>
-                    ffperf Chart
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Using the new Docker image and `run` command from https://github.com/hyperledger/firefly-perf-cli/pull/26 for running distributed `ffperf` instances
-
-Signed-off-by: hfuss <haydenfuss@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 02:54:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    firefly-perfnode Chart and Extra Containers / PVCs Support
+                    Extra Containers / PVCs Support
                 </b>
             </td>
         </tr>
@@ -56,6 +28,8 @@ Signed-off-by: hfuss <haydenfuss@gmail.com>
             </td>
             <td>
                 Originally from #29 
+
+Used by https://github.com/hyperledger/firefly-perf-cli/pull/27
 
 Signed-off-by: hfuss <haydenfuss@gmail.com>
             </td>

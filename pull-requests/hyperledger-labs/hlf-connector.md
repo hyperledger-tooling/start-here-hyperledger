@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/18" class=".btn">#18</a>
+            </td>
+            <td>
+                <b>
+                    Jackson serialize PrivateData EmptyList field to empty string
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Currently, if the privateData list is empty , jackson outputs it as json array i.e "[]" , to keep it inline with chaincode_event empty privateData, it is made empty string.
+
+Signed-off-by:Jitendra Das <jitendra.das@walmartlabs.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 15:04:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/17" class=".btn">#17</a>
             </td>
             <td>

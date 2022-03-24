@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1288" class=".btn">#1288</a>
+            </td>
+            <td>
+                <b>
+                    Caliper terminates if prometheus is not available
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is due to the error event not being correctly captured when a
+request is made to prometheus
+
+Also added some extra code to output a warning and stop trying to do any
+more queries for the round.
+
+It won't stop it for all rounds but checks on every round.
+
+closes #1267
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 14:30:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1286" class=".btn">#1286</a>
             </td>
             <td>
@@ -190,32 +227,6 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-03-22 14:48:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1270" class=".btn">#1270</a>
-            </td>
-            <td>
-                <b>
-                    Fabric Gateway connector implementation: PeerGateway.js implementation + unit tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 Added main logic for the new peer-gateaway connector with unit tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 14:59:31 +0000 UTC
     </div>
 </div>
 
