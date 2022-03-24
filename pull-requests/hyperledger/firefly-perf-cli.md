@@ -30,6 +30,12 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
                 Provides a YAML or JSON "DSL" for defining multiple test "instances". A test instance consists of a _single_ test type, test options, length, and number of workers.
 
 The idea is that we can now run multiple instances of `ffperf` either with `nohup` or multiple containers / pods. Each instance just then takes in a different `--instance-name` or `--instance-index` to determine what it runs.
+
+Tested locally and via https://github.com/hyperledger/firefly-helm-charts/pull/29
+
+TODO
+- [ ] sender / senderAddress support (might save for a separate PR)
+- [ ] metrics for failed tests / delinquent workers
             </td>
         </tr>
     </table>

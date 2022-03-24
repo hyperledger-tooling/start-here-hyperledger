@@ -70,7 +70,7 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
             </td>
             <td>
                 <b>
-                    firefly-perfnode Chart and Extra Sidecar Containers Support
+                    firefly-perfnode and firefly-perf Charts w/ Extra Sidecar Containers Support
                 </b>
             </td>
         </tr>
@@ -80,6 +80,8 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
             </td>
             <td>
                 Adds a new `firefly-perfnode` chart that comes with preconfigured IPFS and PostgreSQL sidecar containers (similar to docker compose setup from https://github.com/hyperledger/firefly-cli for perf testing as part of https://github.com/hyperledger/firefly/issues/519
+
+Uses https://github.com/hyperledger/firefly-perf-cli/pull/26 with a new `firefly-perf` chart to deploy multiple `ffperf` instances within a `StatefulSet` for load and performance testing a FireFly network that is either deployed with `firefly` or the `firefly-perfnode` chart.
             </td>
         </tr>
     </table>
@@ -111,32 +113,6 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     </table>
     <div class="right-align">
         Created At 2022-03-18 20:15:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/26" class=".btn">#26</a>
-            </td>
-            <td>
-                <b>
-                    Create unique node name within Firefly network 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-16 21:07:35 +0000 UTC
     </div>
 </div>
 

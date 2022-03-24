@@ -127,32 +127,3 @@ Pre-commit is a pretty widely used tool in the python community and is analogous
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1670" class=".btn">#1670</a>
-            </td>
-            <td>
-                <b>
-                    Qualify did exch connection lookup by role
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Fixes issue #1541
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 00:22:54 +0000 UTC
-    </div>
-</div>
-

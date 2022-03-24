@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/101" class=".btn">#101</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/104" class=".btn">#104</a>
             </td>
             <td>
                 <b>
-                    Fix Javadoc build for Java 17
+                    Dependency vulnerability scan in nightly build (release-2.2)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,42 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                Even if the path and compiler target point to a different Java version, the Java version associated with the Maven CLI can cause Javadodc build failures in systems with Java 17 installed. Set an upper bound (in addition to the lower bound) for the build profile that enables the `--no-module-directories` Javadoc option.
+                - Update dependencies to latest versions.
+- Required Java 11+ to run checkstyle as v10 is not compatible with earlier Java versions.
+- Add testing with Java 17.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-21 09:57:50 +0000 UTC
+        Created At 2022-03-23 19:58:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/103" class=".btn">#103</a>
+            </td>
+            <td>
+                <b>
+                    Dependency vulnerability scan in nightly build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Update dependencies to latest versions.
+- Required Java 11+ to run checkstyle as v10 is not compatible with earlier Java versions.
+- Add testing with Java 17.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 19:24:06 +0000 UTC
     </div>
 </div>
 

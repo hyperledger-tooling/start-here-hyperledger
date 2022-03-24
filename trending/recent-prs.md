@@ -1,13 +1,13 @@
 
-[1948](https://github.com/hyperledger/cactus/pull/1948) fix(security): ensure node-forge > 1.3.0 for CVE-2022-24772
+[3298](https://github.com/hyperledger/fabric/pull/3298) Retire inactive maintainers
 
-[28](https://github.com/hyperledger/tsc/pull/28) docs: update project-lifecycle.md for grammar
+[680](https://github.com/hyperledger/aries-framework-javascript/pull/680) tests: reuse connection create and process request tests
 
-[3297](https://github.com/hyperledger/fabric/pull/3297) Bump fastcache
+[416](https://github.com/hyperledger/fabric-gateway/pull/416) Update Java dependencies
 
-[3626](https://github.com/hyperledger/besu/pull/3626) Skip seen transactions
+[104](https://github.com/hyperledger/fabric-gateway-java/pull/104) Dependency vulnerability scan in nightly build (release-2.2)
 
-[86](https://github.com/hyperledger/indy-vdr/pull/86) Feature/proxy with multiple ledger support
+[708](https://github.com/hyperledger-labs/solang/pull/708) Add yul to unused variable detection
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
