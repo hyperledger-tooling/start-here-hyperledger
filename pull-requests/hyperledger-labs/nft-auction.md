@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/8" class=".btn">#8</a>
+            </td>
+            <td>
+                <b>
+                    Restrict auction house to see auctions associated with them
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Dilip Manjunatha <dilidssn@gmail.com>
+
+This commit has following fixes:
+1. Auction house can now access only open auctions associated with them
+2. Auction house can now access only new auctions associated with them
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 12:04:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/7" class=".btn">#7</a>
             </td>
             <td>

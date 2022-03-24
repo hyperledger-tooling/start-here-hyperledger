@@ -88,7 +88,7 @@ Merge develop to main
             </td>
             <td>
                 <b>
-                    [quorum]Remove download of whole quorum repo to build geth and bootnode
+                    [quorum] Remove download of whole quorum repo to build geth and bootnode
                 </b>
             </td>
         </tr>
