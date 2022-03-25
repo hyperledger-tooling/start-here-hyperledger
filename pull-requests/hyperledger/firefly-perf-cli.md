@@ -72,29 +72,3 @@ Tested locally and via https://github.com/hyperledger/firefly-perf-cli/pull/27.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/25" class=".btn">#25</a>
-            </td>
-            <td>
-                <b>
-                    Add broadcast and private blob transfer perf tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves https://github.com/hyperledger/firefly-perf-cli/issues/21
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 14:42:02 +0000 UTC
-    </div>
-</div>
-

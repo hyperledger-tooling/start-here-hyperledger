@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/228" class=".btn">#228</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/231" class=".btn">#231</a>
             </td>
             <td>
                 <b>
-                    feat: PostgreSQL provider SetStoreConfig, Close and Query support
+                    chore: update 
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Support for SetStoreConfig, Close and Query methods (with some limitations).
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-17 23:56:22 +0000 UTC
+        Created At 2022-03-25 18:12:14 +0000 UTC
     </div>
 </div>
 
