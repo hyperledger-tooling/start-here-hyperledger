@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    Initial draft of storage documentation
+                    Fix intermittent Not Found error when repeatedly updating existing rows (postgres)
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-askar
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-21 23:34:52 +0000 UTC
+        Created At 2022-03-25 03:40:14 +0000 UTC
     </div>
 </div>
 

@@ -325,29 +325,3 @@ This was a bigger change than expected since blockchain events have no `type` fi
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/611" class=".btn">#611</a>
-            </td>
-            <td>
-                <b>
-                    Add E2E test support for ERC20/ERC721
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Depends on https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/33
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 03:37:46 +0000 UTC
-    </div>
-</div>
-
