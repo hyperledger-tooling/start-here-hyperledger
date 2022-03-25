@@ -91,7 +91,7 @@ due to the much less turnover in the transaction pool
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -437,58 +437,6 @@ Signed-off-by: Ameziane Hamlat ameziane.hamlat@consensys.net
     </table>
     <div class="right-align">
         Created At 2022-03-18 13:39:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3610" class=".btn">#3610</a>
-            </td>
-            <td>
-                <b>
-                    Tune transaction synchronization parameter to adapt to mainnet traffic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR is composed of the tuning of some internal parameters related to the transaction synchronization.
-
-1. Currently Besu handles hundreds of transaction message per seconds, so having a queue of 1M messages result in a lot of expired messages, make sense to reduce the capacity to drop incoming messages that could not be handled anyway.
-2. Currently on mainnet there are many thousand of pending transactions exchanged between peers, but Besu has a short memory of what has been exchanged with a specific peer, with the result that the same transaction is often exchanged back and forth with the same peer, expecially when the peer is another Besu (below a sample of one transaction exchanged many time between peers) so it is necessary to remember more transactions seen with peers.
-3. Added detailed information about exchanged transactions at trace log level.
-
-This is a sample extraction from the trace logs of one transactions, peers `0x0b7cbef740d1af50cf`, `0xec1e73d0839ec87abe`, `0x364c56424b81989e57` are other Besus
-[tx-sample.pdf](https://github.com/hyperledger/besu/files/8303223/tx-sample.pdf)
-
-
-Running this patch on a 4 Besu nodes for some hours, showns that CPU and memory usage is significantly reduced
-![image](https://user-images.githubusercontent.com/91944855/159009115-a5673f15-e722-4ac3-86d2-a65c1aa68848.png)
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-
-
-<!-- Example: "fixes #2" -->
-fixes #3524 
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 09:31:08 +0000 UTC
     </div>
 </div>
 

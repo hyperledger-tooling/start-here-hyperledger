@@ -297,31 +297,3 @@ Side note: you can already query the `/namespaces/{ns}/identities` endpoint with
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/612" class=".btn">#612</a>
-            </td>
-            <td>
-                <b>
-                    [blockchainevents-charts] support for blockchain event charting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adding support for blockchain event charting, so that the new UI can include blockchain event histograms.
-This was a bigger change than expected since blockchain events have no `type` field, and are also timestamped by a `timestamp` field rather than a `created` field. This resulted in a `getHistogramNoTypes()` method and a `getHistogramWithTypes()` method.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 12:25:36 +0000 UTC
-    </div>
-</div>
-
