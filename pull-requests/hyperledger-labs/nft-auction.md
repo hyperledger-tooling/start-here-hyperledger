@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/10" class=".btn">#10</a>
+            </td>
+            <td>
+                <b>
+                    for create auction house and file type validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sahinul Haque <sahinul.haque@itpeoplecorp.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 07:01:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/9" class=".btn">#9</a>
             </td>
             <td>
