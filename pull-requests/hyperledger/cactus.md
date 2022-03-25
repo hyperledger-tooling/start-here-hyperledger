@@ -503,31 +503,3 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1934" class=".btn">#1934</a>
-            </td>
-            <td>
-                <b>
-                    docs(plugin-object-store-ipfs): added README.md description
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Added some instructions for the usage of the package `plugin-object-store-ipfs` in the README.md.
-
-Signed-off-by: André Augusto <andre.augusto@tecnico.ulisboa.pt>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 02:29:41 +0000 UTC
-    </div>
-</div>
-
