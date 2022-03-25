@@ -74,29 +74,3 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/320" class=".btn">#320</a>
-            </td>
-            <td>
-                <b>
-                    Add 0.4.4 Release Notes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Schwarz <pschwarz@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 20:48:00 +0000 UTC
-    </div>
-</div>
-

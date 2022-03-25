@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1350" class=".btn">#1350</a>
+            </td>
+            <td>
+                <b>
+                    Add GHA to label pull requests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding the backport-triage label to new pull requests will help ensure
+that changes are backported when appropriate.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 20:47:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1349" class=".btn">#1349</a>
             </td>
             <td>

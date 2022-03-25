@@ -609,37 +609,3 @@ Caused by: com.fasterxml.jackson.databind.exc.ValueInstantiationException: Canno
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3602" class=".btn">#3602</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] added toString for TraceTypeParameter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-so that logging can work properly
-
-See https://github.com/hyperledger/besu/issues/3528
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 23:33:27 +0000 UTC
-    </div>
-</div>
-

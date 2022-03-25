@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/140" class=".btn">#140</a>
+            </td>
+            <td>
+                <b>
+                    Event enriching
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Events now have enriched text that gives more detail about the event:
+<img width="691" alt="Screen Shot 2022-03-24 at 7 21 05 PM" src="https://user-images.githubusercontent.com/17093033/160025609-700e14f1-c8b5-4d99-a246-64404664a84a.png">
+
+Network Map Update:
+<img width="742" alt="Screen Shot 2022-03-24 at 7 21 45 PM" src="https://user-images.githubusercontent.com/17093033/160025672-f797cb1f-5139-406d-937f-163072659161.png">
+
+Also added some type checks for `tx.id` instances
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 23:22:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ui/pull/134" class=".btn">#134</a>
             </td>
             <td>

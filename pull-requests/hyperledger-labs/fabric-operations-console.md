@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/171" class=".btn">#171</a>
+            </td>
+            <td>
+                <b>
+                    use new dep to check password strengths
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement
+
+
+#### Description
+we will now use [owasp-password-strength-test](https://www.npmjs.com/package/owasp-password-strength-test) to validate passwords. This is the config using default settings:
+
+```
+{
+      allowPassphrases       : true,
+      maxLength              : 128,
+      minLength              : 10,
+      minPhraseLength        : 20,
+      minOptionalTestsToPass : 4,
+}
+```
+this changes:
+- passwords must be 10 characters long instead of 8 (can still be overridden with setting)
+- passwords must include uppercase letters, lowercase letters, numbers, and special characters
+- passwords cannot contain sequences of three or more repeated characters
+- passphrases can be used which are 20+ characters long
+  - passphrases do not need extra complexity like uppercase/lowercase etc
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 19:25:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/170" class=".btn">#170</a>
             </td>
             <td>

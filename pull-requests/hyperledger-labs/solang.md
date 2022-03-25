@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/710" class=".btn">#710</a>
+            </td>
+            <td>
+                <b>
+                    Detect unused functions in inline assembly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements an algorithm to detect unused functions in YUL. I've included tests as well.
+
+There were some refactoring due to bugs I found along the way.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 19:26:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/708" class=".btn">#708</a>
             </td>
             <td>
@@ -111,34 +139,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2022-03-18 10:43:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/702" class=".btn">#702</a>
-            </td>
-            <td>
-                <b>
-                    Yul semantic analysis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements the semantic analysis for YUL statements.
-
-Two contract test cases have been removed, because the unused variable detection and the graphviz for YUL are not implemented yet, so the tests weren't passing. I'll bring back these tests in another PR when I implement the missing features.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 19:42:10 +0000 UTC
     </div>
 </div>
 
