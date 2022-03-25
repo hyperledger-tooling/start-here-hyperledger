@@ -99,29 +99,3 @@ Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/425" class=".btn">#425</a>
-            </td>
-            <td>
-                <b>
-                    Map api-engine data in docker container to local VM volume
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 17:14:02 +0000 UTC
-    </div>
-</div>
-

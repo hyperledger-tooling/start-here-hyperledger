@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/418" class=".btn">#418</a>
+            </td>
+            <td>
+                <b>
+                    Explicit typing of StatusCode in Node API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The typing implicitly referenced a protobuf stub and produced no detail on the type members in the tsdoc output. Add explicit type definition so the tsdoc includes all the field names and corresponding values.
+
+Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 15:11:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/417" class=".btn">#417</a>
             </td>
             <td>
@@ -145,34 +173,6 @@ Work-in-progress: Currently bundling proposed @hyperledger/fabric-protos package
     </table>
     <div class="right-align">
         Created At 2022-03-19 16:15:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/412" class=".btn">#412</a>
-            </td>
-            <td>
-                <b>
-                    Rename BlockEventsWithPrivateData to BlockAndPrivateDataEvents
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Consistency with the returned BlockAndPrivateData message type, and with other eventing methods, which all end with "Events".
-
-Contributes to #377
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 14:50:12 +0000 UTC
     </div>
 </div>
 

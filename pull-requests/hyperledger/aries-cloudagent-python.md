@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1692" class=".btn">#1692</a>
+            </td>
+            <td>
+                <b>
+                    Multi-tenancy stale wallet clean up
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is intended to supersede #928. Due to significant changes since the original PR was opened, I cherry-picked a commit but had to modify it. History has not been well preserved, unfortunately. Credit to @TimoGlastra for the original work on the `ProfileCache` especially and for assistance in finding the solution implemented here.
+
+This PR adds a LRU cache for profiles opened by `MultitenantManager` (corresponding to wallet types `indy` and `askar`, but not `askar-profile`). `weakref.finalize` is used to ensure the profiles are closed when they fall out of scope. An ordered dictionary of profiles holds a (strong) reference to the profile until it is evicted. If that profile happens to still be in use at the time it is evicted, it will not be closed until other (strong) references to it expire, i.e. after processing of a message or admin request has finished. This exact scenario is unlikely but possible.
+
+In addition to this profile caching mechanism, I also updated a few aspects of the `BaseMultitenantManager` and its subclasses to make them more consistent with conventions used in ACA-Py.
+
+Also, after being very confused by handling of askar profiles (not to be confused with `AskarProfile`s) within the `AskarProfileMultitenantManager` and `AskarProfile`, I did some light updates to (I hope) improve clarity.
+
+A brief listing of known limitations:
+- As implemented, the capacity of the LRU cache is statically defined as 100.
+- A temporally based system for evicting profiles from the cache is likely better than a max capacity based system.
+- 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 16:31:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1690" class=".btn">#1690</a>
             </td>
             <td>
@@ -62,61 +99,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </table>
     <div class="right-align">
         Created At 2022-03-24 17:05:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1676" class=".btn">#1676</a>
-            </td>
-            <td>
-                <b>
-                    Fix DIF PresExch and OOB request_attach delete unused connection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                - resolve #1608 
-- resolve #1609
-- Fixed an issue with OOB workflow, unused connections were not deleted with invitation containing request attachments.
-- DIF PE: fixed an issue where numerical comparisons are requested for an attribute that could be included as a number string.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 16:00:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1675" class=".btn">#1675</a>
-            </td>
-            <td>
-                <b>
-                    [#1674] Add basic DOCKER_ENV logging for run_demo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                signed-off-by: Thomas Diesler <tdiesler@redhat.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 15:32:03 +0000 UTC
     </div>
 </div>
 

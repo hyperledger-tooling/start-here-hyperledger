@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/141" class=".btn">#141</a>
+            </td>
+            <td>
+                <b>
+                    [ui-tweaks] network map, json viewer, status chips
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 16:03:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ui/pull/140" class=".btn">#140</a>
             </td>
             <td>
@@ -259,33 +285,6 @@ Also added some type checks for `tx.id` instances
     </table>
     <div class="right-align">
         Created At 2022-03-18 19:21:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/126" class=".btn">#126</a>
-            </td>
-            <td>
-                <b>
-                    V1 - Infinite scroll
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Infinite scroll timeline with filtering
-- Filter query bugfixes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 15:56:42 +0000 UTC
     </div>
 </div>
 

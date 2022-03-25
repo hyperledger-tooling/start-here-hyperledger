@@ -271,29 +271,3 @@ Side note: you can already query the `/namespaces/{ns}/identities` endpoint with
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/613" class=".btn">#613</a>
-            </td>
-            <td>
-                <b>
-                    Dependency updates for v0.14 testing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 16:32:24 +0000 UTC
-    </div>
-</div>
-

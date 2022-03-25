@@ -64,29 +64,3 @@ Added more auto options to the custom agent startup yaml for AMTH use.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/451" class=".btn">#451</a>
-            </td>
-            <td>
-                <b>
-                    fix: tag rfc0025+rfc0160 test with @RFC0160 so afgo suite skips it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 17:53:04 +0000 UTC
-    </div>
-</div>
-

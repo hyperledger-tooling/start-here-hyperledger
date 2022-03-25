@@ -97,29 +97,3 @@ $ ./ff/ff version
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/163" class=".btn">#163</a>
-            </td>
-            <td>
-                <b>
-                    Add options for tuning ethconnect and block period
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves https://github.com/hyperledger/firefly/issues/562
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 15:43:20 +0000 UTC
-    </div>
-</div>
-
