@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/cactus
             </td>
             <td>
                 <b>
-                    fix(security): ensure node-forge > 1.3.0 for CVE-2022-24772
+                    fix(security): ensure node-forge > 1.3.0 for CVE-2022-24772 
                 </b>
             </td>
         </tr>
@@ -30,10 +30,10 @@ permalink: /pull-requests/hyperledger/cactus
                 This is a temporary fix until our direct dependencies get patched
 which we can update for ourselves. In the meantime this will force
 the (currently considered) secure versions of node-forge to be used.
-
+ 
 Fixes #1947
 
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com> 
             </td>
         </tr>
     </table>
@@ -528,49 +528,6 @@ Signed-off-by: André Augusto <andre.augusto@tecnico.ulisboa.pt>
     </table>
     <div class="right-align">
         Created At 2022-03-18 02:29:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1933" class=".btn">#1933</a>
-            </td>
-            <td>
-                <b>
-                    feat(quorum-connector): implement validator interface on go-quorum-connector
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                - Add three new endpoints to quorum ledger connector achieve legacy verifier compatibility.
-  - `InvokeRawWeb3EthContractEndpoint` can be used to form any call to deployed contract.
-  - `InvokeRawWeb3EthMethodEndpoint` can be used to call any web3.eth function. Both are marked as low-level functions, should be used only when there's no designated endpoint for given functionality yet.
-  - `WatchBlocksV1Endpoint` can be used to monitor new block headers / data from the ledger. Type of the output is determined from input option flag.
-- Extend `QuorumApiClient` to support Verifier interface, that is: block monitoring, and sending sync/async requests. Sending requests is marked as deprecated, because user can use direct REST calls from generated ApiClient, nevertheless this API was requested by one of the teams.
-- Added functional tests for two new, request based endpoints.
-- Moved verifier-besu integration test to besu-test package.
-- Added verifier-quorum integration test, it supplements direct endpoint tests and provides a reference for API usage.
-- Added support for `QuorumApiClient` in Verifier.
-
-Closes: https://github.com/hyperledger/cactus/issues/1604
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-
-### Notes
-- I can't make CodeQL to cooperate, it reports dynamic call errors, even though I explicitly check if methods are defined on a contract / object (also assert they type is a function). Tried different methods to make the scanner notice it but did not succeed. Please double check and mark as false positive if possible.
-
-Depends on https://github.com/hyperledger/cactus/pull/1928
-Depends on https://github.com/hyperledger/cactus/pull/1926
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-17 19:08:28 +0000 UTC
     </div>
 </div>
 

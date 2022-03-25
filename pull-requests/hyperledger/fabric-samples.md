@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 <b>
-                    Provide clear guidance for running Java chaincode in a debugger - DO NOT MERGE
+                    Provide clear guidance for running Java chaincode as a service
                 </b>
             </td>
         </tr>
