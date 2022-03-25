@@ -15,6 +15,72 @@ permalink: /releases/hyperledger/firefly-ui
         <tr>
             <td colspan="2">
                 <b>
+                    v0.6.3_2ccb2bb
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.6.3
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* [fetchreferences] fetchreferences for event table and tx details by @eberger727 in https://github.com/hyperledger/firefly-ui/pull/142
+
+<img width="1462" alt="image" src="https://user-images.githubusercontent.com/17093033/160187571-cf4889d2-3cd3-41b7-9d59-f5798527ebe9.png">
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-ui/compare/v0.6.2...v0.6.3
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-ui/releases/tag/v0.6.3" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-03-25 19:20:20 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    v0.6.2_bcb5517
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.6.2
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* [ui-tweaks] network map, json viewer, status chips by @eberger727 in https://github.com/hyperledger/firefly-ui/pull/141
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-ui/compare/v0.6.1...v0.6.2
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-ui/releases/tag/v0.6.2" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-03-25 16:08:18 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.6.1_946b117
                 </b>
             </td>
