@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-controllers
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/47" class=".btn">#47</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/57" class=".btn">#57</a>
             </td>
             <td>
                 <b>
-                    Bump express-handlebars from 3.1.0 to 5.3.1 in /AliceFaberAcmeDemo/controllers/acme-controller
+                    Bump node-forge from 1.2.1 to 1.3.0 in /AliceFaberAcmeDemo/controllers/alice-controller
                 </b>
             </td>
         </tr>
@@ -27,92 +27,78 @@ permalink: /pull-requests/hyperledger/aries-acapy-controllers
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [express-handlebars](https://github.com/express-handlebars/express-handlebars) from 3.1.0 to 5.3.1.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/express-handlebars/express-handlebars/releases">express-handlebars's releases</a>.</em></p>
-<blockquote>
-<h2>v5.3.1</h2>
-<h2><a href="https://github.com/express-handlebars/express-handlebars/compare/v5.3.0...v5.3.1">5.3.1</a> (2021-05-04)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>add note about security (<a href="https://github.com/express-handlebars/express-handlebars/commit/78c47a235c4ad7bc2674bddd8ec2721567ed8c72">78c47a2</a>)</li>
-</ul>
-<h2>v5.3.0</h2>
-<h1><a href="https://github.com/express-handlebars/express-handlebars/compare/v5.2.1...v5.3.0">5.3.0</a> (2021-03-30)</h1>
-<h3>Features</h3>
-<ul>
-<li>Add partialsDir.rename option (<a href="https://github-redirect.dependabot.com/express-handlebars/express-handlebars/issues/151">#151</a>) (<a href="https://github.com/express-handlebars/express-handlebars/commit/1a6771b0f9a3db1cbd516faf79cb5e20a779e456">1a6771b</a>)</li>
-</ul>
-<h2>v5.2.1</h2>
-<h2><a href="https://github.com/express-handlebars/express-handlebars/compare/v5.2.0...v5.2.1">5.2.1</a> (2021-02-16)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li><strong>deps:</strong> update dependency handlebars to ^4.7.7 (<a href="https://github.com/express-handlebars/express-handlebars/commit/1930523103e6c97a3f3e41d6e7b5d6dc329c66f9">1930523</a>)</li>
-</ul>
-<h2>v5.2.0</h2>
-<h1><a href="https://github.com/express-handlebars/express-handlebars/compare/v5.1.0...v5.2.0">5.2.0</a> (2020-10-23)</h1>
-<h3>Features</h3>
-<ul>
-<li>allow views to be an array (<a href="https://github.com/express-handlebars/express-handlebars/commit/a9f4aaabd657221236b7321a4f87df7c9eb9a1bd">a9f4aaa</a>)</li>
-</ul>
-<h2>v5.1.0</h2>
-<h1><a href="https://github.com/express-handlebars/express-handlebars/compare/v5.0.0...v5.1.0">5.1.0</a> (2020-07-16)</h1>
-<h3>Features</h3>
-<ul>
-<li>add encoding option (<a href="https://github.com/express-handlebars/express-handlebars/commit/9e516c382269b3ab586a6ab0dbd586b3c23110c4">9e516c3</a>)</li>
-</ul>
-<h2>v5.0.0</h2>
-<h1><a href="https://github.com/express-handlebars/express-handlebars/compare/v4.0.6...v5.0.0">5.0.0</a> (2020-07-06)</h1>
-<h3>Bug Fixes</h3>
-<ul>
-<li>update code to es2015+ (<a href="https://github.com/express-handlebars/express-handlebars/commit/e5a08eed844f177b0f365f882a20c7b229715bdd">e5a08ee</a>)</li>
-<li>update node support (<a href="https://github.com/express-handlebars/express-handlebars/commit/ea30d531b2f458c37f65b50bddc504180e774f8f">ea30d53</a>)</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
+                Bumps [node-forge](https://github.com/digitalbazaar/forge) from 1.2.1 to 1.3.0.
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/express-handlebars/express-handlebars/blob/master/CHANGELOG.md">express-handlebars's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/digitalbazaar/forge/blob/main/CHANGELOG.md">node-forge's changelog</a>.</em></p>
 <blockquote>
-<h2><a href="https://github.com/express-handlebars/express-handlebars/compare/v5.3.0...v5.3.1">5.3.1</a> (2021-05-04)</h2>
-<h3>Bug Fixes</h3>
+<h2>1.3.0 - 2022-03-17</h2>
+<h3>Security</h3>
 <ul>
-<li>add note about security (<a href="https://github.com/express-handlebars/express-handlebars/commit/78c47a235c4ad7bc2674bddd8ec2721567ed8c72">78c47a2</a>)</li>
-</ul>
-<h1><a href="https://github.com/express-handlebars/express-handlebars/compare/v5.2.1...v5.3.0">5.3.0</a> (2021-03-30)</h1>
-<h3>Features</h3>
+<li>Three RSA PKCS#1 v1.5 signature verification issues were reported by Moosa
+Yahyazadeh (<a href="mailto:moosa-yahyazadeh@uiowa.edu">moosa-yahyazadeh@uiowa.edu</a>).</li>
+<li><strong>HIGH</strong>: Leniency in checking <code>digestAlgorithm</code> structure can lead to
+signature forgery.
 <ul>
-<li>Add partialsDir.rename option (<a href="https://github-redirect.dependabot.com/express-handlebars/express-handlebars/issues/151">#151</a>) (<a href="https://github.com/express-handlebars/express-handlebars/commit/1a6771b0f9a3db1cbd516faf79cb5e20a779e456">1a6771b</a>)</li>
+<li>The code is lenient in checking the digest algorithm structure. This can
+allow a crafted structure that steals padding bytes and uses unchecked
+portion of the PKCS#1 encoded message to forge a signature when a low
+public exponent is being used. For more information, please see
+<a href="https://mailarchive.ietf.org/arch/msg/openpgp/5rnE9ZRN1AokBVj3VqblGlP63QE/">&quot;Bleichenbacher's RSA signature forgery based on implementation
+error&quot;</a>
+by Hal Finney.</li>
+<li>CVE ID: <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24771">CVE-2022-24771</a></li>
+<li>GHSA ID: <a href="https://github.com/digitalbazaar/forge/security/advisories/GHSA-cfm4-qjh2-4765">GHSA-cfm4-qjh2-4765</a></li>
 </ul>
-<h2><a href="https://github.com/express-handlebars/express-handlebars/compare/v5.2.0...v5.2.1">5.2.1</a> (2021-02-16)</h2>
-<h3>Bug Fixes</h3>
+</li>
+<li><strong>HIGH</strong>: Failing to check tailing garbage bytes can lead to signature
+forgery.
 <ul>
-<li><strong>deps:</strong> update dependency handlebars to ^4.7.7 (<a href="https://github.com/express-handlebars/express-handlebars/commit/1930523103e6c97a3f3e41d6e7b5d6dc329c66f9">1930523</a>)</li>
+<li>The code does not check for tailing garbage bytes after decoding a
+<code>DigestInfo</code> ASN.1 structure. This can allow padding bytes to be removed
+and garbage data added to forge a signature when a low public exponent is
+being used.  For more information, please see <a href="https://mailarchive.ietf.org/arch/msg/openpgp/5rnE9ZRN1AokBVj3VqblGlP63QE/">&quot;Bleichenbacher's RSA
+signature forgery based on implementation
+error&quot;</a>
+by Hal Finney.</li>
+<li>CVE ID: <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24772">CVE-2022-24772</a></li>
+<li>GHSA ID: <a href="https://github.com/digitalbazaar/forge/security/advisories/GHSA-x4jg-mjrx-434g">GHSA-x4jg-mjrx-434g</a></li>
 </ul>
-<h1><a href="https://github.com/express-handlebars/express-handlebars/compare/v5.1.0...v5.2.0">5.2.0</a> (2020-10-23)</h1>
-<h3>Features</h3>
+</li>
+<li><strong>MEDIUM</strong>: Leniency in checking type octet.
 <ul>
-<li>allow views to be an array (<a href="https://github.com/express-handlebars/express-handlebars/commit/a9f4aaabd657221236b7321a4f87df7c9eb9a1bd">a9f4aaa</a>)</li>
+<li><code>DigestInfo</code> is not properly checked for proper ASN.1 structure. This can
+lead to successful verification with signatures that contain invalid
+structures but a valid digest.</li>
+<li>CVE ID: <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24773">CVE-2022-24773</a></li>
+<li>GHSA ID: <a href="https://github.com/digitalbazaar/forge/security/advisories/GHSA-2r2c-g63r-vccr">GHSA-2r2c-g63r-vccr</a></li>
 </ul>
-<h1><a href="https://github.com/express-handlebars/express-handlebars/compare/v5.0.0...v5.1.0">5.1.0</a> (2020-07-16)</h1>
-<h3>Features</h3>
+</li>
+</ul>
+<h3>Fixed</h3>
 <ul>
-<li>add encoding option (<a href="https://github.com/express-handlebars/express-handlebars/commit/9e516c382269b3ab586a6ab0dbd586b3c23110c4">9e516c3</a>)</li>
-</ul>
-<h1><a href="https://github.com/express-handlebars/express-handlebars/compare/v4.0.6...v5.0.0">5.0.0</a> (2020-07-06)</h1>
-<h3>Bug Fixes</h3>
+<li>[asn1] Add fallback to pretty print invalid UTF8 data.</li>
+<li>[asn1] <code>fromDer</code> is now more strict and will default to ensuring all input
+bytes are parsed or throw an error. A new option <code>parseAllBytes</code> can disable
+this behavior.
 <ul>
-<li>update code to es2015+ (<a href="https://github.com/express-handlebars/express-handlebars/commit/e5a08eed844f177b0f365f882a20c7b229715bdd">e5a08ee</a>)</li>
-<li>update node support (<a href="https://github.com/express-handlebars/express-handlebars/commit/ea30d531b2f458c37f65b50bddc504180e774f8f">ea30d53</a>)</li>
+<li><strong>NOTE</strong>: The previous behavior is being changed since it can lead to
+security issues with crafted inputs. It is possible that code doing custom
+DER parsing may need to adapt to this new behavior and optional flag.</li>
 </ul>
-<h3>BREAKING CHANGES</h3>
+</li>
+<li>[rsa] Add and use a validator to check for proper structure of parsed ASN.1
+<code>RSASSA-PKCS-v1_5</code> <code>DigestInfo</code> data. Additionally check that the hash
+algorithm identifier is a known value from RFC 8017
+<code>PKCS1-v1-5DigestAlgorithms</code>. An invalid <code>DigestInfo</code> or algorithm identifier
+will now throw an error.
 <ul>
-<li>Drop support for node versions below v10</li>
+<li><strong>NOTE</strong>: The previous lenient behavior is being changed to be more strict
+since it could lead to security issues with crafted inputs. It is possible
+that code may have to handle the errors from these stricter checks.</li>
 </ul>
-<h2><a href="https://github.com/express-handlebars/express-handlebars/compare/v4.0.5...v4.0.6">4.0.6</a> (2020-07-06)</h2>
+</li>
+</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -120,27 +106,23 @@ permalink: /pull-requests/hyperledger/aries-acapy-controllers
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/express-handlebars/express-handlebars/commit/63e801021e2f93bf075f8332fb3f4db43dadc4cc"><code>63e8010</code></a> chore(release): 5.3.1 [skip ci]</li>
-<li><a href="https://github.com/express-handlebars/express-handlebars/commit/78c47a235c4ad7bc2674bddd8ec2721567ed8c72"><code>78c47a2</code></a> fix: add note about security</li>
-<li><a href="https://github.com/express-handlebars/express-handlebars/commit/2cde11e4d4b5aabf0c7bef5725eda629c51eeb92"><code>2cde11e</code></a> chore: update package-lock.json</li>
-<li><a href="https://github.com/express-handlebars/express-handlebars/commit/9a6cf604b275bcfd9704dddcf6fc359af7dc7657"><code>9a6cf60</code></a> chore(deps): update devdependency eslint to ^7.25.0</li>
-<li><a href="https://github.com/express-handlebars/express-handlebars/commit/fbc5681186dd755849da81d356226c745a553865"><code>fbc5681</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/express-handlebars/express-handlebars/issues/157">#157</a> from express-handlebars/renovate/node-10.x</li>
-<li><a href="https://github.com/express-handlebars/express-handlebars/commit/1e2b967a56fb70f990bc912ad1d69673a9a6e67b"><code>1e2b967</code></a> chore(deps): update devdependency eslint-plugin-promise to ^5.1.0</li>
-<li><a href="https://github.com/express-handlebars/express-handlebars/commit/4bcc2945d6bf1bcbaa7ed0d2d2a2da31bfce9f71"><code>4bcc294</code></a> chore(deps): update devdependency eslint to ^7.24.0</li>
-<li><a href="https://github.com/express-handlebars/express-handlebars/commit/6ffb7eeea1ef21d0d81c8e355c40caae3a849056"><code>6ffb7ee</code></a> chore(deps): update devdependency eslint-plugin-promise to v5</li>
-<li><a href="https://github.com/express-handlebars/express-handlebars/commit/8b9f920bd1586bcc322aee64b0fcd0f9c73a4d2e"><code>8b9f920</code></a> chore(deps): update devdependency <code>@​semantic-release/npm</code> to ^7.1.1</li>
-<li><a href="https://github.com/express-handlebars/express-handlebars/commit/b291a6b3e2eb91f154ae47385927d6415a010506"><code>b291a6b</code></a> chore(deps): update node.js to &gt;=v10.24.1</li>
-<li>Additional commits viewable in <a href="https://github.com/express-handlebars/express-handlebars/compare/v3.1.0...v5.3.1">compare view</a></li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/6c5b90133d46af63d139b98bf65371732c8c7dad"><code>6c5b901</code></a> Release 1.3.0.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/0f3972ad5883a9869703c6f54a0627bc454bca47"><code>0f3972a</code></a> Update changelog.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/dc77b39dd347e7f8b60a0f25a311fe5f06130579"><code>dc77b39</code></a> Fix error checking.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/bb822c02df0b61211836472e29b9790cc541cdb2"><code>bb822c0</code></a> Add advisory links.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/d4395fec831622837ecfec9e428d4620e208f9a8"><code>d4395fe</code></a> Update changelog.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/a4405bb9d6b638084df478fa4ac60a410332c2d8"><code>a4405bb</code></a> Improve signature verification tests.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/aa9372d6dd78eb1479392b9274457036c2404b66"><code>aa9372d</code></a> Add missing RFC 8017 algorithm identifiers.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/3f0b49a0573ef1bb7af7f5673c0cfebf00424df1"><code>3f0b49a</code></a> Fix signature verification issues.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/c20f309311d83445e11abe7c313cc4b467c18914"><code>c20f309</code></a> Adjust remaining length.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/e27f61230f19fb9f085a163f31d0573305271b84"><code>e27f612</code></a> Remove unused option.</li>
+<li>Additional commits viewable in <a href="https://github.com/digitalbazaar/forge/compare/v1.2.1...v1.3.0">compare view</a></li>
 </ul>
-</details>
-<details>
-<summary>Maintainer changes</summary>
-<p>This version was pushed to npm by <a href="https://www.npmjs.com/~tonybrix">tonybrix</a>, a new releaser for express-handlebars since your current version.</p>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=express-handlebars&package-manager=npm_and_yarn&previous-version=3.1.0&new-version=5.3.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=node-forge&package-manager=npm_and_yarn&previous-version=1.2.1&new-version=1.3.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -176,90 +158,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-11 04:33:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/46" class=".btn">#46</a>
-            </td>
-            <td>
-                <b>
-                    Bump undefsafe from 2.0.2 to 2.0.5 in /AliceFaberAcmeDemo/controllers/acme-controller
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Bumps [undefsafe](https://github.com/remy/undefsafe) from 2.0.2 to 2.0.5.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/remy/undefsafe/releases">undefsafe's releases</a>.</em></p>
-<blockquote>
-<h2>v2.0.5</h2>
-<h2><a href="https://github.com/remy/undefsafe/compare/v2.0.4...v2.0.5">2.0.5</a> (2021-10-17)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>remove debug and add tests (<a href="https://github.com/remy/undefsafe/commit/58fc47439a3bb2cd1cccdaeb8777561a325fba1c">58fc474</a>), closes <a href="https://github-redirect.dependabot.com/remy/undefsafe/issues/12">#12</a></li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/remy/undefsafe/commit/5d3fa3460e6716ed85dd3d41f4973fcd0896493d"><code>5d3fa34</code></a> chore: adding semver release</li>
-<li><a href="https://github.com/remy/undefsafe/commit/58fc47439a3bb2cd1cccdaeb8777561a325fba1c"><code>58fc474</code></a> fix: remove debug and add tests</li>
-<li><a href="https://github.com/remy/undefsafe/commit/f272681b3a50e2c4cbb6a8533795e1453382c822"><code>f272681</code></a> fix: prevent changes in prototype chain</li>
-<li><a href="https://github.com/remy/undefsafe/commit/f4959541af2a607258ce197e7a07b79e6e8a8356"><code>f495954</code></a> chore: prettier changes</li>
-<li>See full diff in <a href="https://github.com/remy/undefsafe/compare/v2.0.2...v2.0.5">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=undefsafe&package-manager=npm_and_yarn&previous-version=2.0.2&new-version=2.0.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-controllers/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-10 15:49:44 +0000 UTC
+        Created At 2022-03-26 02:29:59 +0000 UTC
     </div>
 </div>
 
