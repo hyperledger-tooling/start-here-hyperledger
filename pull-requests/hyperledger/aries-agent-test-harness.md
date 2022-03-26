@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/452" class=".btn">#452</a>
-            </td>
-            <td>
-                <b>
-                    added further auto options to custom agent config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Added more auto options to the custom agent startup yaml for AMTH use. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 20:45:01 +0000 UTC
-    </div>
-</div>
-

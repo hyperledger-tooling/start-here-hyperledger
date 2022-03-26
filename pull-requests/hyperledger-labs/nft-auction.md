@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/11" class=".btn">#11</a>
+            </td>
+            <td>
+                <b>
+                    Add error catching
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 20:00:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/10" class=".btn">#10</a>
             </td>
             <td>

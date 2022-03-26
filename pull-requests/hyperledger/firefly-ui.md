@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/142" class=".btn">#142</a>
+            </td>
+            <td>
+                <b>
+                    [fetchreferences] fetchreferences for event table and tx details
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <img width="862" alt="image" src="https://user-images.githubusercontent.com/17093033/160186969-7788d468-a095-4bc8-a5a4-aec2e1c585f2.png">
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 19:16:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ui/pull/141" class=".btn">#141</a>
             </td>
             <td>
@@ -227,64 +253,6 @@ Also added some type checks for `tx.id` instances
     </table>
     <div class="right-align">
         Created At 2022-03-21 21:09:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/128" class=".btn">#128</a>
-            </td>
-            <td>
-                <b>
-                    [v1] linting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Echelberger <eberger727@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 19:27:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/127" class=".btn">#127</a>
-            </td>
-            <td>
-                <b>
-                    V1 - New UI Pages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <img width="1883" alt="Screen Shot 2022-03-18 at 3 20 12 PM" src="https://user-images.githubusercontent.com/17093033/159070398-3c907182-afdd-4bfb-aabb-15273f8248d2.png">
-<img width="1883" alt="Screen Shot 2022-03-18 at 3 20 17 PM" src="https://user-images.githubusercontent.com/17093033/159070397-f4c67542-4a9b-4369-997e-26d5b64b0432.png">
-<img width="1883" alt="Screen Shot 2022-03-18 at 3 20 32 PM" src="https://user-images.githubusercontent.com/17093033/159070395-93472a59-ee4b-4c6a-b7a3-2bd4bf1c3f36.png">
-<img width="1883" alt="Screen Shot 2022-03-18 at 3 20 26 PM" src="https://user-images.githubusercontent.com/17093033/159070396-5e78928e-f473-4a2a-9664-97261e5b59fc.png">
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 19:21:43 +0000 UTC
     </div>
 </div>
 

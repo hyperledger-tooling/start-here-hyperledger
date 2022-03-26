@@ -39,31 +39,3 @@ Signed-off-by: Christian Bormann <ChristianCarl.Bormann@de.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-did-method/pull/60" class=".btn">#60</a>
-            </td>
-            <td>
-                <b>
-                    docs: self-cert update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR updates the did:indy method specification according to decisions related to the self-certification feature.
-
-Signed-off-by: Char Howland <char@indicio.tech>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 20:07:26 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/419" class=".btn">#419</a>
+            </td>
+            <td>
+                <b>
+                    Refactor Go checkpointing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Filename capitalisation corrections.
+- Additional godoc.
+- Hold an open file handle in a FileCheckpointer instead of open/write/close on every save, giving orders of magnitutude better I/O performance.
+- Include Close() method for FileCheckpointer to close file handle after use.
+- Add option to Sync() FileCheckpointer to reduce risk of data loss at significant I/O performance cost.
+- Simplify InMemoryCheckpointer API instead of keep it common with FileCheckpointer
+- Remove Checkpointer interface from public API as it was never used.
+
+Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-26 00:04:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/418" class=".btn">#418</a>
             </td>
             <td>

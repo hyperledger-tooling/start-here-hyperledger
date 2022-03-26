@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/630" class=".btn">#630</a>
+            </td>
+            <td>
+                <b>
+                    Do not return an error from status if node lookup fails
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In `v0.14.0` if you register your org (only), and then call `/api/v1/status` you receive:
+
+```js
+{"error":"FF10277: Identity could not be resolved via DID 'did:firefly:node/zzhc7hdmc0'"}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 20:15:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/629" class=".btn">#629</a>
+            </td>
+            <td>
+                <b>
+                    [ui-v0.6.3] v0.6.3 release of ui in manifest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 19:23:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/627" class=".btn">#627</a>
             </td>
             <td>
@@ -184,90 +240,6 @@ type EnrichedEvent struct {
     </table>
     <div class="right-align">
         Created At 2022-03-22 14:05:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/617" class=".btn">#617</a>
-            </td>
-            <td>
-                <b>
-                    Add route to lookup identity by DID
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See #583
-
-This is more of a starting point - the functionality works, but I'm pretty certain the API spelling is not what we want.
-
-I was struggling with the best way to provide this functionality - it seems like it must be a query param, because `/` is a valid char for query params but not for path params. Assuming we do use a query param, it would also be nice to flag it as "required" from the Swagger perspective.
-
-Side note: you can already query the `/namespaces/{ns}/identities` endpoint with a query param for `did`, but you have to know the namespace you're looking for in that case.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 21:30:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/616" class=".btn">#616</a>
-            </td>
-            <td>
-                <b>
-                    Change node/org lookups to support name or ID
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See #583
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 21:20:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/615" class=".btn">#615</a>
-            </td>
-            <td>
-                <b>
-                    Update microservices versions for v0.14.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 20:06:51 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3301" class=".btn">#3301</a>
+            </td>
+            <td>
+                <b>
+                    new stack image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Horton <joshh@us.ibm.com>
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+Existing software stack image needs updates for both legibility and text.
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+- Documentation update
+
+#### Description
+
+Just a new graphic image for legibility and updated text.
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/3278
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 21:50:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3299" class=".btn">#3299</a>
             </td>
             <td>

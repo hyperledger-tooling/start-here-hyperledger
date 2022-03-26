@@ -92,29 +92,3 @@ Signed-off-by: hfuss <haydenfuss@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/28" class=".btn">#28</a>
-            </td>
-            <td>
-                <b>
-                    Update firefly and microservice versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Based off Firefly dependency updates - https://github.com/hyperledger/firefly/pull/615/files
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 20:15:39 +0000 UTC
-    </div>
-</div>
-
