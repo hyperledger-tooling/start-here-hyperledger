@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/28" class=".btn">#28</a>
+            </td>
+            <td>
+                <b>
+                    Message time fixes and delinquent message actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a couple of fixes for tracking the time of messages and also adds a command line flag to exit the test runner if it detects delinquent messages. 
+
+**The default behavior is to exit the test.** If you wish to simply log the delinquent messages and continue testing, use the `--delinquent log` flag.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 20:17:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/27" class=".btn">#27</a>
             </td>
             <td>
@@ -35,40 +63,6 @@ Related to #26
     </table>
     <div class="right-align">
         Created At 2022-03-24 12:54:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/26" class=".btn">#26</a>
-            </td>
-            <td>
-                <b>
-                    New run Command with Graceful Shutdown and HTTP Server
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Provides a YAML or JSON "DSL" for defining multiple test "instances". A test instance consists of a _single_ test type, test options, length, and number of workers.
-
-The idea is that we can now run multiple instances of `ffperf` either with `nohup` or multiple containers / pods. Each instance just then takes in a different `--instance-name` or `--instance-index` to determine what it runs.
-
-Can run in either test or daemon mode. HTTP server runs in the background to serve future Prometheus metrics.
-
-Includes Dockerfile for building as a Docker image.
-
-Tested locally and via https://github.com/hyperledger/firefly-perf-cli/pull/27.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-18 18:32:58 +0000 UTC
     </div>
 </div>
 

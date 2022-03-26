@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1352" class=".btn">#1352</a>
+            </td>
+            <td>
+                <b>
+                    Add files to build grid-dev with Github Actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 20:42:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1351" class=".btn">#1351</a>
+            </td>
+            <td>
+                <b>
+                    Add `get_batch_status` db operation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This implements the `get_batch_status` operation for the Batch Tracking
+    store. This operation returns the current batch status for a batch with
+    a given ID and service ID. This PR also contains several other small but
+    necessary updates to the models to make this work.
+    
+    Signed-off-by: Davey Newhall <newhall@bitwise.io>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 20:15:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1350" class=".btn">#1350</a>
             </td>
             <td>

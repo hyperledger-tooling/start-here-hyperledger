@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/172" class=".btn">#172</a>
+            </td>
+            <td>
+                <b>
+                    adds a feature flag for osnadmin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement / Bug Fix
+
+
+#### Description
+- added feature flag `osnadmin_feats_enabled` to enable channel participation features which use the fabric osnadmin endpoint
+- fixed system channel detection in orderer panel
+- add description for all feature flags!
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 20:13:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/171" class=".btn">#171</a>
             </td>
             <td>
