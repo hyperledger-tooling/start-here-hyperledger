@@ -210,31 +210,3 @@ Added a check of all Go files with gofmt to ensure recommended formatting.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/413" class=".btn">#413</a>
-            </td>
-            <td>
-                <b>
-                    Use @hyperledger/fabric-protos package in Node client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use compiled protobuf and gRPC service stubs from @hyperledger/fabric-protos package instead of compiling and embedding within the fabric-gateway package.
-
-Work-in-progress: Currently bundling proposed @hyperledger/fabric-protos package within fabric-gateway as a proof-of-concept.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-19 16:15:08 +0000 UTC
-    </div>
-</div>
-

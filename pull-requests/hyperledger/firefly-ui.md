@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/144" class=".btn">#144</a>
+            </td>
+            <td>
+                <b>
+                    [nav-bug] using routeAdapter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes navigation bug
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-26 17:07:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/143" class=".btn">#143</a>
+            </td>
+            <td>
+                <b>
+                    Tell QueryParamProvider we are using react router to avoid fallback h…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …istory function implementations
+
+Signed-off-by: jebonfig <joe.bonfiglio@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-26 15:22:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ui/pull/142" class=".btn">#142</a>
             </td>
             <td>

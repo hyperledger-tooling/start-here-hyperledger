@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/287" class=".btn">#287</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/294" class=".btn">#294</a>
             </td>
             <td>
                 <b>
-                    peer metrics expose
+                    Expose metrics for Orderer
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-17 11:07:36 +0000 UTC
+        Created At 2022-03-26 14:21:23 +0000 UTC
     </div>
 </div>
 
