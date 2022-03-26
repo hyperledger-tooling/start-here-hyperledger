@@ -7,7 +7,7 @@
 
 [v0.6.1](https://github.com/hyperledger/firefly-ui/releases/tag/v0.6.1) v0.6.1_946b117
 
-[v2.2.4](https://github.com/hyperledger/fabric-gateway-java/releases/tag/v2.2.4) v2.2.4
+[v0.2.1](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v0.2.1) v0.2.1
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
