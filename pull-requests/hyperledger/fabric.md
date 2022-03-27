@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3302" class=".btn">#3302</a>
+            </td>
+            <td>
+                <b>
+                    Remove added mistake by vim?
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+typo in text removed
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-27 11:13:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3301" class=".btn">#3301</a>
             </td>
             <td>
