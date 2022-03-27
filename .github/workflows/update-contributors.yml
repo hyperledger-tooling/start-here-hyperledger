@@ -56,7 +56,7 @@ jobs:
           GITHUB_AUTH_TOKEN: "${{ secrets.PAT }}"
           SOURCE_GITHUB_REPOSITORY: hyperledger-tooling
           CONTRIBUTORS_SECTION_PATTERN: "## Hyperledger Tooling GitHub Contributors"
-          CONTRIBUTORS_SECTION_END_PATTERN: ""
+          CONTRIBUTORS_SECTION_END_PATTERN: "## Github Community Statistics"
           INPUT_TEMPLATE_FILE: ./templates/contributor-template.md
           FILE_WITH_PATTERN: ./community.md
       - name: Create Pull Request with new backend contributors
