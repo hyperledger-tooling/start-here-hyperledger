@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/146" class=".btn">#146</a>
+            </td>
+            <td>
+                <b>
+                    Bugfixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - New event refreshing
+- Histogram refresh bug
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 18:15:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ui/pull/145" class=".btn">#145</a>
             </td>
             <td>
