@@ -14,6 +14,32 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/1966" class=".btn">1966</a>
+            </td>
+            <td>
+                <b>
+                    `FindAllParameters` query cannot be used
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                Since `ValidQuery` is not implemented for `FindAllParameters` it's not possible to execute this query. Either this query should be removed entirely or it should be enlisted in the `QueryBox` enum
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-10 16:45:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/1934" class=".btn">1934</a>
             </td>
             <td>
