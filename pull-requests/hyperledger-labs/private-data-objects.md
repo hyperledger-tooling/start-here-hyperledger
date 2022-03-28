@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/363" class=".btn">#363</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/366" class=".btn">#366</a>
             </td>
             <td>
                 <b>
-                    Upgrade wawaka to latest WAMR release WAMR-01-18-2022
+                    Upgrade crypto lib to support secp256k1 and secp384r1 at runtime 
                 </b>
             </td>
         </tr>
@@ -27,19 +27,16 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 
             </td>
             <td>
-                This PR bumps the WAMR release version up to the latest. Since the last WAMR release used (WAMR-04-15-2021), the latest WAMR releases provide enhancements and bug fixes for AoT compilation, as well as improvements to WAMR's use of WASI APIs and multithreading features.
-
-PDO contract writers and PDO hosts should not expect any differences in functionality or usage of PDO with this upgrade.
-
-WAMR release notes:
-https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-01-18-2022
-https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-12-30-2021
-https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-08-10-2021
+                This PR makes the following contributions:
+1. it generalizes the PDO crypto lib signing scheme to support the secp256k1 and secp384r1 ECDSA curves at runtime. A curve can be selected directly through the constructor objects, or it is recognized when a key is deserialized. The mechanism can be extended.
+2. it adds tests to test the crypto lib with each curve -- in addition to the original default tests which use secp256k1
+3. it consolidates common parts of the public and private key objects in an abstract class.
+4. it fixes the max signature size issue -- the value was fixed to the secp256k1 max sig size constant -- by removing the constants and making the calculation dependent on the keys (or better, curves) actually used.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-23 20:22:12 +0000 UTC
+        Created At 2022-03-27 20:17:35 +0000 UTC
     </div>
 </div>
 
