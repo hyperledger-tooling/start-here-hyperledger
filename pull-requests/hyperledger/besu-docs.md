@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1000" class=".btn">#1000</a>
+            </td>
+            <td>
+                <b>
+                    fix jinja2 incompatible update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Pull request checklist
+
+Use the following list to make sure your PR fits the Besu doc quality standard.
+
+### Before creating the pull request
+
+Make sure that:
+
+- [x] [all commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [x] you read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Contributing+to+documentation).
+- [x] you have [tested your changes locally](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewTheDocumentation) before submitting them to the community for review.
+
+### After creating your pull request and tests finished
+
+Make sure that:
+
+- [ ] you fixed all the issues raised by the tests, if any.
+- [ ] you verified the rendering of your changes on [ReadTheDocs.org PR preview](https://wiki.hyperledger.org/display/BESU/MkDocs+And+Markdown+Guide#MkDocsAndMarkdownGuide-PreviewwithReadTheDocs)
+  and updated the testing link (see [Testing](#testing)).
+
+## Describe the change
+
+Add jinja2 dep explicitely in the requirement file as the way the dep is defined in MkDocs Material allows its update and fails because the new 3.1.0 version is incompatible. So it freezes to version 3.0.0
+
+<!-- A clear and concise description of what this PR changes in the documentation. -->
+
+## Issue fixed
+
+All builds failing
+
+## Impacted parts <!-- check as many boxes as needed -->
+
+### For content changes
+
+- [ ] Doc content
+- [ ] Doc pages organisation
+
+### For tools changes
+
+- [ ] CircleCI workflow
+- [ ] Build and QA tools (lint, vale,…)
+- [ ] MkDocs templates
+- [ ] MkDocs configuration
+- [x] Python dependencies
+- [ ] Node dependencies and JavaScript
+- [ ] ReadTheDocs configuration
+- [ ] GitHub integration
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 11:48:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/999" class=".btn">#999</a>
             </td>
             <td>

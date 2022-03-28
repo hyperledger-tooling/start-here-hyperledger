@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/689" class=".btn">#689</a>
+            </td>
+            <td>
+                <b>
+                    Update the REST Example
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. For development purposes CORS can hinder testing examples. Therefore enable CORS if needed, default off
+2. The default chaincode use Capitalized JSON Names, whereas for new asset the REST validation didn't.. Adjusted
+so it matches the chaincode
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 12:25:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/684" class=".btn">#684</a>
             </td>
             <td>
