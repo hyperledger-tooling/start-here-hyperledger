@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/firefly-ui
         <tr>
             <td colspan="2">
                 <b>
+                    v0.6.6_1748880
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.6.6
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* [nav-bug] fixing router bug by @eberger727 in https://github.com/hyperledger/firefly-ui/pull/145
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-ui/compare/v0.6.5...v0.6.6
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-ui/releases/tag/v0.6.6" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-03-27 23:03:16 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.6.5_6bb83ab
                 </b>
             </td>
