@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-test
             </td>
             <td>
                 <b>
-                    Update instructions for post-GOPATH world
+                    Update env variables and instructions for post-GOPATH world
                 </b>
             </td>
         </tr>
@@ -29,6 +29,8 @@ permalink: /pull-requests/hyperledger/fabric-test
             <td>
                 Modern Go installations do not use GOPATH.
 Update the prereq gotools target to work without GOPATH, GOBIN, GO111MODULE settings.
+
+Also set PATH and FABRIC_CFG_PATH to pick up fabric /bin and /config directories.
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>

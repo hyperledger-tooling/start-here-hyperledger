@@ -14,6 +14,125 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2015" class=".btn">#2015</a>
+            </td>
+            <td>
+                <b>
+                    RC3 Release PR
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Notable SDK-related changes
+
+- Schema changes that fix #1969 
+- Schema endpoint (use `curl -X GET http://127.0.0.1:8080/schema`)
+- WASM decode optimisations
+- timed triggers
+- Improved API for generating ISI (documentation pending)
+- By-call triggers
+
+### Release checklist
+- [ ] The crates have been version bumped.
+- [ ] Iroha passed
+  - [ ] `cargo hack` tests
+  - [ ] functional tests 
+  - [x] CI tests
+- [ ] Iroha lasted for five days at the longevity stand
+- [ ] Benchmarks
+  - [ ] Rust-based (depends on #1963 @s8sato)
+  - [ ] Torii
+  - [ ] Load script on real hardware
+- [ ] Iroha documentation
+  - [x] Readme
+  - [ ] api_spec
+  - [ ] tutorial
+- [ ] SDKs compiled successfully using the schema from latest branch (Hash: 9a149eecb00485f71fd23179dd16a73815d739b2)
+  - [ ] Java
+  - [ ] JavaScript
+  - [ ] Swift
+- [ ] All SDK tests pass
+  - [ ] Java
+  - [ ] JavaScript
+  - [ ] Swift
+- [ ] (Optional) SDKs implemented the main features added in the current release:
+  - [ ] Schema endpoint querying
+  - [ ] Timed triggers
+  - [ ] Event-based triggers
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 05:51:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2014" class=".btn">#2014</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #2013: Hotfix CLI args.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr <a-p-petrosyan@yandex.ru><!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+- Accept empty args which are sometimes passed by `exec`. 
+- Fixed CI coverage workflow. 
+- Generate changelog for the March Release
+
+### Issue
+
+Closes #2013
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Changelog, working CLI args, working push workflow. 
+
+### Possible Drawbacks
+
+None
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 05:40:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2006" class=".btn">#2006</a>
             </td>
             <td>
