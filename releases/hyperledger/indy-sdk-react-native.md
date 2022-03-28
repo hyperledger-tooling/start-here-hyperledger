@@ -15,26 +15,28 @@ permalink: /releases/hyperledger/indy-sdk-react-native
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.1.20
+                    Release 0.1.21
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.1.20
+                    0.1.21
                 </span>
             </td>
             <td>
-                * feat: revocation types & revocation verification (#32) (4125e85)
+                * feat: createKey (#37) (f6be52d)
+* feat: wallet import and export (#36) (9b76d86)
+* chore(deps): bump plist from 3.0.1 to 3.0.4 (#35) (23a4b70)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.1.20" class=".btn">
+    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.1.21" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-02-01 09:51:04 +0000 UTC
+        Created At 2022-03-28 12:47:01 +0000 UTC
     </span>
 </div>
 
