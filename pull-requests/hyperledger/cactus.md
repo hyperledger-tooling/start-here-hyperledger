@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/cactus
             </td>
             <td>
                 <b>
-                    fix(security): ensure node-forge > 1.3.0 for CVE-2022-24772 
+                    fix(security): ensure node-forge > 1.3.0 for CVE-2022-24772
                 </b>
             </td>
         </tr>
@@ -33,7 +33,8 @@ the (currently considered) secure versions of node-forge to be used.
  
 Fixes #1947
 
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com> 
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>   
+
             </td>
         </tr>
     </table>
@@ -426,41 +427,6 @@ Signed-off-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
     </table>
     <div class="right-align">
         Created At 2022-03-22 10:19:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1938" class=".btn">#1938</a>
-            </td>
-            <td>
-                <b>
-                    feat(plugin-odap): addition of client endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Implementation of client endpoints in ODAP plugin.
-
-The changes can be summarized as follows:
-- Implementation of client endpoints
-- Adapted and added more tests (now divided into unit and integration tests)
-- Addition of more checks regarding the validity of the messages received on the server side
-
-closes #1939
-
-Signed-off-by: André Augusto <andre.augusto@tecnico.ulisboa.pt>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-20 23:38:59 +0000 UTC
     </div>
 </div>
 
