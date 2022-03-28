@@ -37,7 +37,7 @@ permalink: /pull-requests/hyperledger/iroha
 - By-call triggers
 
 ### Release checklist
-- [ ] The crates have been version bumped.
+- [x] The crates have been version bumped.
 - [ ] Iroha passed
   - [ ] `cargo hack` tests
   - [ ] functional tests 
@@ -51,7 +51,7 @@ permalink: /pull-requests/hyperledger/iroha
   - [x] Readme
   - [ ] api_spec
   - [ ] tutorial
-- [ ] SDKs compiled successfully using the schema from latest branch (Hash: 9a149eecb00485f71fd23179dd16a73815d739b2)
+- [ ] SDKs compiled successfully using the schema from latest branch (Hash: TODO)
   - [ ] Java
   - [ ] JavaScript
   - [ ] Swift

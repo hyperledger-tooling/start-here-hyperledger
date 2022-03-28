@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3304" class=".btn">#3304</a>
+            </td>
+            <td>
+                <b>
+                    Remove added mistake by vim?
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Type of change**
+
+- Documentation update
+
+**Description**
+
+typo in text removed
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 09:28:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3303" class=".btn">#3303</a>
             </td>
             <td>
@@ -82,38 +115,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2022-03-27 21:15:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3302" class=".btn">#3302</a>
-            </td>
-            <td>
-                <b>
-                    Remove added mistake by vim?
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-typo in text removed
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-27 11:13:49 +0000 UTC
     </div>
 </div>
 

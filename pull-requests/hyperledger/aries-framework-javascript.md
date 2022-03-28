@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/684" class=".btn">#684</a>
+            </td>
+            <td>
+                <b>
+                    feat: bbs createKey, sign and verify
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **MARKED AS DRAFT** because the `react-native-bbs-signatures` is not yet released and merging this will break the React Native environment if bbs-signatures are being used.
+
+Almost every change in this PR will be reverted when support for `aries-askar` is added, as we can then do all the functionality inside the wallet instead of the AFJ level. 
+
+- Adds bls12381g1 and bls12381g2 to `indyWallet.createKey`
+- Adds bls12381g2 to `indyWallet.sign`
+- Adds bls12381g2 to `indyWallet.verify`
+- Store and retrieve the keyPair in the wallet via the public key
+- Added tests for the indy wallet
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 09:01:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/683" class=".btn">#683</a>
             </td>
             <td>
@@ -219,7 +253,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    fix: added logic for further inbound message val
+                    fix: update inbound message validation 
                 </b>
             </td>
         </tr>

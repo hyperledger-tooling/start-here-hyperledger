@@ -147,31 +147,3 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/457" class=".btn">#457</a>
-            </td>
-            <td>
-                <b>
-                    Optimize httpclient
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bugfix</span>
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-
-Addresses: #444 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-21 11:17:51 +0000 UTC
-    </div>
-</div>
-
