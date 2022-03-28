@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/12" class=".btn">#12</a>
+            </td>
+            <td>
+                <b>
+                    solved spinner issue in form submit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sahinul Haque <sahinul.haque@itpeoplecorp.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 15:01:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/11" class=".btn">#11</a>
             </td>
             <td>
@@ -223,32 +249,6 @@ Signed-off-by: Puneet Singh <puneet.royal@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-03-21 23:02:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/1" class=".btn">#1</a>
-            </td>
-            <td>
-                <b>
-                    Initial commit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-21 16:39:01 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/464" class=".btn">#464</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade node version to 17.8.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">update</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 12:35:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/463" class=".btn">#463</a>
             </td>
             <td>
@@ -89,61 +115,6 @@ Signed-off-by: kukgini <kukgini@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-03-22 13:42:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/459" class=".btn">#459</a>
-            </td>
-            <td>
-                <b>
-                    Improve http client error handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                - Improve error messages
-- Propagate error details when mapping agency error into VcxError
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-21 16:57:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/458" class=".btn">#458</a>
-            </td>
-            <td>
-                <b>
-                    Download no auth messages by id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">hotfix</span>
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-21 15:58:05 +0000 UTC
     </div>
 </div>
 

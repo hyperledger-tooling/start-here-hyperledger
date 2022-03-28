@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3305" class=".btn">#3305</a>
+            </td>
+            <td>
+                <b>
+                    Remove a duplicate command line in the "Deploying a smart contract to a channel" doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+I noticed there were two lines of the same command exporting the same environment variable `CORE_PEER_TLS_ROOTCERT_FILE` in the section *Upgrading a smart contract* of the *Deploying a smart contract to a channel* doc when I was reading it. So I removed one of them.
+
+#### Additional details
+
+`nil`
+
+#### Related issues
+
+No related issues. Quite a small change.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 13:11:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3304" class=".btn">#3304</a>
             </td>
             <td>

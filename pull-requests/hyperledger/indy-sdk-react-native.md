@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    feat: wallet import and export
+                    feat: createKey
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
                 
             </td>
             <td>
-                Added import export wallet support. Added Android support and using existing IOS support.
+                - Adds createKey to android and iOS
 
-This is the work started by @timovandijk. I finally got around to test it and it works flawlessly. Thanks a lot @timovandijk! :)
-
-
+tested in Android and iOS with bifold by simply calling the method 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-17 12:17:53 +0000 UTC
+        Created At 2022-03-28 12:41:20 +0000 UTC
     </div>
 </div>
 
