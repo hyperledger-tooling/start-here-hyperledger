@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/692" class=".btn">#692</a>
+            </td>
+            <td>
+                <b>
+                    test-network-k8s : run fabric binaries locally, connecting to the network via Ingress - DRAFT - DO NOT MERGE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                DRAFT PR - DO NOT MERGE 
+
+This PR updates the Kube test network to access Fabric services via an Ingress controller.  This allows for easy access to the CAs, peers, orderers, and load-balanced Gateway Peer via the nginx bound to localhost:443.
+
+In previous iterations, any administration of the network involved a remote exec to execute commands on an "admin CLI pod" running in the cluster.  In addition, any time files needed to get to/from the volume mounts in Kubernetes, an overly complicated sequence of arcane `exec tar --.... ` commands was necessary.
+
+With this PR, the network is instantiated, exposing core services at the *.vcap.me (wildcard match to 127.0.0.1) DNS domain.  Fabric binaries are run directly on the host, and certificate enrollments are managed locally as if they were maintained in a local wallet storage.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-29 15:14:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/689" class=".btn">#689</a>
             </td>
             <td>

@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/645" class=".btn">#645</a>
+            </td>
+            <td>
+                <b>
+                    Fix IF EXISTS check on transactions_id INDEX migration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Fixes migration
+- Fixes a log entry that was at the wrong level
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-29 17:40:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/643" class=".btn">#643</a>
+            </td>
+            <td>
+                <b>
+                    Fix `transactions_id` index
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Discovered we're doing full table scans for transactions when looking by ID, which is a performance critical query for the blockchain event processing routine (to update operations when we receive receipt notifications from EthConnect/FabConnect).
+
+The reason was a simple typo in a migration.
+
+```
+postgres=# explain ANALYZE select * from transactions where id = '159b0bab-1a3f-406f-8862-bf8e05248789';
+                                                  QUERY PLAN
+---------------------------------------------------------------------------------------------------------------
+ Seq Scan on transactions  (cost=0.00..4253.98 rows=1 width=116) (actual time=170.148..201.237 rows=1 loops=1)
+   Filter: (id = '159b0bab-1a3f-406f-8862-bf8e05248789'::uuid)
+   Rows Removed by Filter: 130390
+ Planning Time: 0.126 ms
+ Execution Time: 201.268 ms
+(5 rows)
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-29 16:21:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/642" class=".btn">#642</a>
             </td>
             <td>
@@ -467,58 +534,6 @@ type EnrichedEvent struct {
     </table>
     <div class="right-align">
         Created At 2022-03-23 19:12:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/620" class=".btn">#620</a>
-            </td>
-            <td>
-                <b>
-                    [ui-v0.6.0-release] new ui release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Echelberger <eberger727@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-22 17:24:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/619" class=".btn">#619</a>
-            </td>
-            <td>
-                <b>
-                    [ui-v0.6.0] PR for new UI release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Will get exact release hash once it's released
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-22 14:05:53 +0000 UTC
     </div>
 </div>
 

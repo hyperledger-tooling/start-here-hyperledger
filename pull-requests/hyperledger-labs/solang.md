@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/718" class=".btn">#718</a>
+            </td>
+            <td>
+                <b>
+                    Remove printer.rs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes the `printer.rs` file from `src/sema` and updates the documentation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-29 18:07:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/717" class=".btn">#717</a>
+            </td>
+            <td>
+                <b>
+                    Implement reachable for inline assembly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements the `reachable` function for the inline assembly statement.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-29 16:54:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/716" class=".btn">#716</a>
             </td>
             <td>
