@@ -1,13 +1,13 @@
 
-[506](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/506) Bump minimist from 1.2.5 to 1.2.6 in /net-emissions-token-network/interface/packages/subgraph
+[13](https://github.com/hyperledger-labs/nft-auction/pull/13) Add fn in CC to get nft object
 
-[430](https://github.com/hyperledger/cello/pull/430) Fix voulume mapping
+[431](https://github.com/hyperledger/cello/pull/431) Fix node delete endpoint.
 
-[1697](https://github.com/hyperledger/aries-cloudagent-python/pull/1697) platform target in run tests.
+[1004](https://github.com/hyperledger/besu-docs/pull/1004) update Merge content
 
-[148](https://github.com/hyperledger/firefly-ui/pull/148) [subscriptions] subscriptions page
+[642](https://github.com/hyperledger/firefly/pull/642) Update our cache for event enrichment on message confirm
 
-[1696](https://github.com/hyperledger/aries-cloudagent-python/pull/1696) Endorser support for updating DID endpoints on ledger
+[1740](https://github.com/hyperledger/indy-node/pull/1740) did:indy
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

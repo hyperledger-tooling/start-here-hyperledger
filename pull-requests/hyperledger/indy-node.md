@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1738" class=".btn">#1738</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1740" class=".btn">#1740</a>
             </td>
             <td>
                 <b>
-                    Gha Refactoring
+                    did:indy
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                The builddockerimage, testing, package building and publishing part has been outsourced with the reusable workflows.
+                Opening as a draft for more visibility as we finish things up. More detailed changelog to be inserted soon.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-28 18:05:56 +0000 UTC
+        Created At 2022-03-29 03:22:53 +0000 UTC
     </div>
 </div>
 

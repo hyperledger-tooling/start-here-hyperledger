@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/642" class=".btn">#642</a>
+            </td>
+            <td>
+                <b>
+                    Update our cache for event enrichment on message confirm
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Noticed in the UI that confirmed messages on the Timeline view are showing as `Pending` - which is because they are using the cache rather than an explicit query against the DB. This PR updates the cache when messages are batched, or confirmed.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-29 03:41:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/641" class=".btn">#641</a>
             </td>
             <td>
