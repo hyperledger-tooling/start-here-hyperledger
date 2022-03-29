@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/93" class=".btn">#93</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/94" class=".btn">#94</a>
             </td>
             <td>
                 <b>
-                    Update formatting
+                    Iroha 2 RC 3
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                - no semi
-- 2-spaces indentation
+                Related Iroha PR: https://github.com/hyperledger/iroha/pull/2015
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-22 10:14:12 +0000 UTC
+        Created At 2022-03-29 09:07:19 +0000 UTC
     </div>
 </div>
 

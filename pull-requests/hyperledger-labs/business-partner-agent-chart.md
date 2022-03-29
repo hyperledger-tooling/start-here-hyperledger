@@ -53,7 +53,17 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+                restores pre 0.11.0 behavior. meaning aca-py creates an own db called 'mywallet' on the server and the bpa uses the default db of the postgres user.
+
+by setting:
+
+_acapy.postgresql.database=""_
+_bpa.config.pg.schema="bpa"_
+
+both aca-py and the bpa will share the same database. this is needed in usecases where both instances should share a pre existing database.
+
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
             </td>
         </tr>
     </table>
