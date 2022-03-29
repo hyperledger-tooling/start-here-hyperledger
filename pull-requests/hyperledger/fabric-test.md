@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/371" class=".btn">#371</a>
+            </td>
+            <td>
+                <b>
+                    GitHub actions chaincode integration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-29 14:27:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-test/pull/370" class=".btn">#370</a>
             </td>
             <td>

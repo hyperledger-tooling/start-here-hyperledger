@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/686" class=".btn">#686</a>
+            </td>
+            <td>
+                <b>
+                    fix: allow to set tags in MediationRecord constructor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allow to optionally set tags for MediationRecord in class constructor (as it is in other records such as ConnectionRecord, ProofRecord, etc.). This is not currently used in regular flows but could be useful when mocking framework records.
+
+Signed-off-by: Ariel Gentile <gentilester@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-29 16:07:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/684" class=".btn">#684</a>
             </td>
             <td>
@@ -242,35 +270,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-03-23 13:51:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/678" class=".btn">#678</a>
-            </td>
-            <td>
-                <b>
-                    fix: update inbound message validation 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added IsEncrypted message, and changed logic so we do not just assume message is agent message (i.e. error message)
-TODO: In future we could add error event emitter for this type of error, rather than throwing AriesFrameworkError
-
-Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-22 15:29:04 +0000 UTC
     </div>
 </div>
 
