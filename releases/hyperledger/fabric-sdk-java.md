@@ -15,30 +15,28 @@ permalink: /releases/hyperledger/fabric-sdk-java
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.12
+                    v2.2.13
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.12
+                    v2.2.13
                 </span>
             </td>
             <td>
-                This is a maintenance release that contains updates to project dependencies to address security vulnerabilities.
+                This is a maintenance release containing an upgrade to OpenTelemetry v1.12.0 APIs.
 
-Changes:
-
-- Block event listening can be used to receive block events with private data.
+**Full Changelog**: https://github.com/hyperledger/fabric-sdk-java/compare/v2.2.12...v2.2.13
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.12" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.13" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-02-21 14:26:42 +0000 UTC
+        Created At 2022-03-29 14:45:39 +0000 UTC
     </span>
 </div>
 
