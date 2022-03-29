@@ -66,29 +66,3 @@ Signed-off-by: hfuss <haydenfuss@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/30" class=".btn">#30</a>
-            </td>
-            <td>
-                <b>
-                    Renaming publicstorage to sharedstorage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                per https://github.com/hyperledger/firefly/pull/538
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-21 21:15:34 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/minbft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/minbft/pull/246" class=".btn">#246</a>
+            </td>
+            <td>
+                <b>
+                    Semi-automated view-change test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This pull request resolves #243.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 20:21:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/minbft/pull/244" class=".btn">#244</a>
             </td>
             <td>
