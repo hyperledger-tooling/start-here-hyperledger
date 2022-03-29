@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/148" class=".btn">#148</a>
+            </td>
+            <td>
+                <b>
+                    [subscriptions] subscriptions page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <img width="1775" alt="image" src="https://user-images.githubusercontent.com/17093033/160496114-7847f840-47f5-41b6-8eb5-76348f1dfa74.png">
+<img width="1776" alt="image" src="https://user-images.githubusercontent.com/17093033/160496137-6c1fd92a-3670-4dc6-832d-4b785e7fadd6.png">
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 22:15:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/147" class=".btn">#147</a>
+            </td>
+            <td>
+                <b>
+                    [identities] identities page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ![image](https://user-images.githubusercontent.com/17093033/160489473-ec16208e-d6d4-4bf3-92ff-f1b7e201d236.png)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 21:22:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ui/pull/146" class=".btn">#146</a>
             </td>
             <td>
@@ -277,89 +331,6 @@ Also added some type checks for `tx.id` instances
     </table>
     <div class="right-align">
         Created At 2022-03-22 13:59:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/131" class=".btn">#131</a>
-            </td>
-            <td>
-                <b>
-                    [v1] linting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Echelberger <eberger727@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-21 21:23:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/130" class=".btn">#130</a>
-            </td>
-            <td>
-                <b>
-                    V1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Websocket refreshing
-- Slide linking
-- Performance improvements
-- Navigation updates
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-21 21:12:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/129" class=".btn">#129</a>
-            </td>
-            <td>
-                <b>
-                    V1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Slide linking
-- Performance enhancements
-- Websocket refreshing
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-21 21:09:47 +0000 UTC
     </div>
 </div>
 

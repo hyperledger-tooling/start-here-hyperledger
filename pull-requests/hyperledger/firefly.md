@@ -14,6 +14,162 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/641" class=".btn">#641</a>
+            </td>
+            <td>
+                <b>
+                    Add extra convenience functions for identities
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #625 
+
+Adds a number of convenience functions:
+
+- `GET` `/api/v1/network/identities` - global (cross namespace) collection of identities
+- `GET` `/api/v1/network/identities?fetchverifiers` - same with verifiers embedded
+- `GET` `/api/v1/network/identities/did:firefly:org/1?fetchverifiers` - get by DID with verifiers
+- `GET` `/api/v1/network/diddocs/did:firefly:org/1` - get DID Document by DID
+- `GET` `/api/v1/namespaces/{ns}/identities?fetchverifiers` - get with namespace with verifiers
+- `GET` `/api/v1/namespaces/{ns}/identities/{id}?fetchverifiers` - get by ID in namespace with verifiers
+- `GET` `/api/v1/status` - adds an `org.verifiers` array
+
+All of the convenience `verifiers` arrays above just have the `type` + `value` (not the `hash` or `identity` fields which are irrelevant when embedded).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 22:01:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/639" class=".btn">#639</a>
+            </td>
+            <td>
+                <b>
+                    Add index on message_id for token transfers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Found a very expensive DB query for this message - which is a transfer broadcast:
+```
+{"log":"[2022-03-28T18:28:15.165Z] DEBUG node_0: Aggregating pin 0000628232 batch=30699806-5fc3-441e-b05f-8d2c9d28fc5e msg=7e41907b-5d34-41c0-87a5-61ccafaf9885 pinIndex=1 msgBaseIndex=1 hash=37a8eec1ce19687d132fe29051dca629d164e2c4958ba141d5f4133a33f0688f masked=false dbtx=Z5gQrpfP role=aggregator\n","stream":"stderr","time":"2022-03-28T18:28:15.16525934Z"}
+{"log":"[2022-03-28T18:28:15.165Z] DEBUG node_0: Cache hit for message 7e41907b-5d34-41c0-87a5-61ccafaf9885 dbtx=Z5gQrpfP role=aggregator\n","stream":"stderr","time":"2022-03-28T18:28:15.16527267Z"}
+{"log":"[2022-03-28T18:28:15.165Z] DEBUG node_0: Attempt dispatch msg=7e41907b-5d34-41c0-87a5-61ccafaf9885 broadcastContexts=[37a8eec1ce19687d132fe29051dca629d164e2c4958ba141d5f4133a33f0688f] privatePins= dbtx=Z5gQrpfP role=aggregator\n","stream":"stderr","time":"2022-03-28T18:28:15.16527981Z"}
+{"log":"[2022-03-28T18:28:15.165Z] DEBUG node_0: SQL-\u003e query: SELECT type, local_id, dbtx=Z5gQrpfP role=aggregator\n","stream":"stderr","time":"2022-03-28T18:28:15.165441134Z"}
+{"log":"[2022-03-28T18:28:15.839Z] DEBUG node_0: SQL\u003c- query dbtx=Z5gQrpfP role=aggregator\n","stream":"stderr","time":"2022-03-28T18:28:15.839742326Z"}
+```
+
+`18:28:15.165Z` -> `18:28:15.839Z` - so 700ms ish
+
+This query looks to be the culprit, as we do not have an index:
+https://github.com/hyperledger/firefly/blob/282d6237e1c6840c2f27fb87ec8ddd95e32a9536/internal/events/aggregator.go#L492-L498
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 19:46:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/638" class=".btn">#638</a>
+            </td>
+            <td>
+                <b>
+                    Cache blockchain events for event enrichment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Based on this flame graph analysis:
+![image](https://user-images.githubusercontent.com/6660217/160471295-c2095fcd-fb65-4db0-9008-01bd5432108a.png)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 19:21:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/637" class=".btn">#637</a>
+            </td>
+            <td>
+                <b>
+                    Update txType in private message schema
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 19:11:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/636" class=".btn">#636</a>
+            </td>
+            <td>
+                <b>
+                    [ui-v0.6.7] ui manifest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 18:25:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/635" class=".btn">#635</a>
             </td>
             <td>

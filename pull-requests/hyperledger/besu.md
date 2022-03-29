@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3638" class=".btn">#3638</a>
+            </td>
+            <td>
+                <b>
+                    Improving backwards sync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previous implementation of backward sync only saved the headers and block bodies to disk. This PR combines the structure of backward sync chain into one dequeue, together with storing the chain on the disk and retrieving it back. 
+
+This is an intermediate change before a stage where the majority of Backward sync will be stored on disk most of the time. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-28 21:48:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3636" class=".btn">#3636</a>
             </td>
             <td>
@@ -391,47 +419,6 @@ This PR aims to test Besu Fast sync with RocksDB cache capacity of 64 MB (instea
     </table>
     <div class="right-align">
         Created At 2022-03-22 16:04:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3620" class=".btn">#3620</a>
-            </td>
-            <td>
-                <b>
-                    Use JUnit 5 for unit test execution
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-## PR description
-
-Change the unit test execution to use the Junit5 JUnitPlatform. This
-allows for a mix of junit 4 and junit 5 tests and for a gradual
-migration to junit 5 instead of a big bang. One class depended on
-junit 4 exceptions and was updated.
-
-Also, this facilitated a slight refactor of TLSContextFactoryTest so 
-that when running on a mac (typical developer machine) errors stemming
-from the nss3 library do not cause unit test failures, while still 
-testing non-nss3 code paths. Tests will perform normally in integration.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-22 00:33:11 +0000 UTC
     </div>
 </div>
 

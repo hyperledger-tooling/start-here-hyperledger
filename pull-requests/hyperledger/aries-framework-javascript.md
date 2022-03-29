@@ -274,29 +274,3 @@ Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/677" class=".btn">#677</a>
-            </td>
-            <td>
-                <b>
-                    fix: do not use basic message id as record id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This makes it impossible to send a basic message to yourself
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-21 20:11:37 +0000 UTC
-    </div>
-</div>
-

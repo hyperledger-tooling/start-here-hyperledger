@@ -33,10 +33,15 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
 3. it consolidates common parts of the public and private key objects in an abstract class.
 4. it fixes the max signature size issue -- the value was fixed to the secp256k1 max sig size constant -- by removing the constants and making the calculation dependent on the keys (or better, curves) actually used.
 5. it adds tests for testing the python wrapper with the two curves.
+6. it makes the default curve programmable at compile time
 
 Usage changes:
 - the default usage/API does not change, and secp256k1 is used
 - there is new constructor in the sig-keys, which accepts the curve type as input. For the private key, this is useful to generate curve-specific keys. For the public key, this is useful for the `SerializeXYToHex`/`DeserializeXYToHex` functions.
+
+Test results using secp384r1 as the default curve:
+- the sawtooth-based test fails as expected, because the transaction processors tries to verify the contract registration signature using secp256k1
+- the CCF-based test succeeds, as both CCF and PDO can recognize the curve from the PEM encoded key and verify signatures accordingly.
             </td>
         </tr>
     </table>
