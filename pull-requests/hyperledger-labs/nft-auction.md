@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/15" class=".btn">#15</a>
+            </td>
+            <td>
+                <b>
+                    fix typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Dilip Manjunatha <dilidssn@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-29 07:15:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/14" class=".btn">#14</a>
+            </td>
+            <td>
+                <b>
+                    return unsold Nft back to owner
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fix returns a NFT unsold in auction back to current owner.
+
+Signed-off-by: Dilip Manjunatha <dilidssn@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-29 06:55:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/13" class=".btn">#13</a>
             </td>
             <td>
