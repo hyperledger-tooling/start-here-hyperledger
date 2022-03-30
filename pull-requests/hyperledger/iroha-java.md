@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/201" class=".btn">#201</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/205" class=".btn">#205</a>
             </td>
             <td>
                 <b>
-                    Iroha-200: schema updated
+                    fix ed25519-sha3-java dependency
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-02 07:01:40 +0000 UTC
+        Created At 2022-03-30 09:00:12 +0000 UTC
     </div>
 </div>
 

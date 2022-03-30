@@ -441,30 +441,3 @@ Slightly increased binary size.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/1999" class=".btn">#1999</a>
-            </td>
-            <td>
-                <b>
-                    Fix/main to develop merge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Description of the Change
-Main to develop synchronization.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-23 07:13:22 +0000 UTC
-    </div>
-</div>
-

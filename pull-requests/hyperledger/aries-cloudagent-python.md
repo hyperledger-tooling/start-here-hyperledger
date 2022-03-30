@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1701" class=".btn">#1701</a>
+            </td>
+            <td>
+                <b>
+                    Allow deleting a pres exchange item without reading it first
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Related to #1687 this allows deleting a presentation exchange
+record without reading it from storage.
+
+@shaangill025 Does it make sense to have something like this in addition to your change in #1690 to make sure we always have an option to delete an item without reading it?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 11:30:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1700" class=".btn">#1700</a>
             </td>
             <td>
