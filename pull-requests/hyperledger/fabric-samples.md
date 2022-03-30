@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 <b>
-                    test-network-k8s : run fabric binaries locally, connecting to the network via Ingress - DRAFT - DO NOT MERGE
+                    test-network-k8s : Connect to Fabric services via Nginx Ingress - DO NOT MERGE
                 </b>
             </td>
         </tr>

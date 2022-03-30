@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/646" class=".btn">#646</a>
+            </td>
+            <td>
+                <b>
+                    Add background workers to flush updates to operations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updating an operation is quite an expensive set of DB calls when taken in isolation, and currently happens on the critical path of a number of event processing threads:
+
+- Blockchain events - this is critical as it affects batch pin and custom contract event dispatch latency
+- Token events - similar to blockchain events, with some extra complexity for event emission of operation events
+- DX Transfer results - affects the notification of arrival of incoming events
+
+So this PR proposes a dedicated set of workers (similar to we now have for message writing), that asynchronously flush operation updates to the DB in efficient batch transactions.
+
+Some additional notes:
+- Unlike message workers, we use a hash-bucket allocation of operation UUIDs to workers, so if there are retries etc. going on for a single operation we don't risk having two workers processing updates in parallel so the wrong one "wins" (a retry failure overtakes eventual success).
+- After a recent change that means we're passing the ID into DX when we perform a send, this PR removes the logic that performed multiple retries to find an operation ID and was specific to DX (where originally DX generated the ID and passed it back to FF core to do the insert). Now DX is not "special", so if we find we need such logic in the future, we can put it into this logic by re-scheduling the update back to the worker as a retry (rather than discarding it with a warning as we do currently).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 00:55:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/645" class=".btn">#645</a>
             </td>
             <td>

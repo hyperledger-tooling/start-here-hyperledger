@@ -98,33 +98,3 @@ Signed-off-by:Jitendra Das <jitendra.das@walmartlabs.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/17" class=".btn">#17</a>
-            </td>
-            <td>
-                <b>
-                    added endpoint and service for create channel and join channel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Feature:
-1) added a new endpoint to allow users to create a new channel
-2) allow users to join a channel for their org.
-
-Signed-off-by: weihong-ou <weihong.ou@walmart.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-22 21:19:00 +0000 UTC
-    </div>
-</div>
-
