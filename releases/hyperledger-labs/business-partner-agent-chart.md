@@ -66,31 +66,3 @@ permalink: /releases/hyperledger-labs/business-partner-agent-chart
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    bpa-0.11.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    bpa-0.11.0
-                </span>
-            </td>
-            <td>
-                The BPA allows organizations to verify, hold, and issue verifiable credentials.
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.11.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-03-23 16:32:20 +0000 UTC
-    </span>
-</div>
-
