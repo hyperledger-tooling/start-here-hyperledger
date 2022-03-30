@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1704" class=".btn">#1704</a>
+            </td>
+            <td>
+                <b>
+                    fix: lock ursa-bbs-signatures to 1.0.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pin ursa-bbs-signatures to 1.0.1 as 1.0.2 has broken the tests as also described [here](https://github.com/hyperledger/aries-cloudagent-python/pull/1667#issuecomment-1082502125).
+
+We've just discovered a 1.0.2. release was made yesterday by mistake and we're currently working on un-releasing the package or making a 1.0.3 release that fixes this issue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 17:13:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1702" class=".btn">#1702</a>
+            </td>
+            <td>
+                <b>
+                    Add auto_verify flag present-proof-v1_0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: DaevMithran <daevmithran1999@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 12:57:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1701" class=".btn">#1701</a>
             </td>
             <td>

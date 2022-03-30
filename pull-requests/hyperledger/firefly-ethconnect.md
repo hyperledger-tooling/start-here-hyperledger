@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/207" class=".btn">#207</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/208" class=".btn">#208</a>
             </td>
             <td>
                 <b>
-                    Support for confirmations when listening to events
+                    Fix concurrent map write when adding multiple subscriptions in parallel
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                Work in progress.
-
-One of the work items needed for #149 
+                Resolves https://github.com/hyperledger/firefly-ethconnect/issues/205
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-22 04:23:06 +0000 UTC
+        Created At 2022-03-30 15:13:26 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1292" class=".btn">#1292</a>
+            </td>
+            <td>
+                <b>
+                    fix RecordRate rate controller
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Addresses the record rate controller as it doesn't work and causes a
+node stack overflow
+
+closes #1131
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 14:59:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1290" class=".btn">#1290</a>
             </td>
             <td>
@@ -99,39 +131,6 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-03-24 09:17:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1281" class=".btn">#1281</a>
-            </td>
-            <td>
-                <b>
-                    [Docs] Remove fabric operations doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This removes details from the network configuration docs of fabric (ie
-how to create channels, install/instantiate chaincodes) as it shouldn't
-be used.
-
-The code will remain for now as the integration tests still require it.
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-23 13:51:25 +0000 UTC
     </div>
 </div>
 

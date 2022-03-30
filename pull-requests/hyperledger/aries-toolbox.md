@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-toolbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/282" class=".btn">#282</a>
+            </td>
+            <td>
+                <b>
+                    feat: remove intermittently problematic console logs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Micah Peltier <micah6_8@yahoo.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 15:16:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-toolbox/pull/281" class=".btn">#281</a>
             </td>
             <td>

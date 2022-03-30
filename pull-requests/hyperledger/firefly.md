@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/650" class=".btn">#650</a>
+            </td>
+            <td>
+                <b>
+                    Assign nonces more efficiently, with minimal DB ops
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR addresses two problems:
+
+1) Currently when we are flushing a batch, we perform a DB read+update individually. This is very inefficient when you have a large number of messages for the same topic+group combination in the same batch. Instead we can keep a track in memory of the nonce increments, and flush them one time at the end of the dispatch.
+
+2) I found while investigating (1) that we were not including the `author` of the message in the calculation of which Nonce we assigned from the DB. This is a bug. e.g. if you sent a message on `topicA` in a group with both `bob` and `sally` using author `bob`, then sent another message _from the same node_ as `sally` on the same `topicA` - then `sally` would get the wrong nonce.
+
+As per the comments, some consideration has been made to ensure we take allocation of nonces seriously. Two key scenarios:
+
+- Double assigning a nonce to a message: If we crashed after allocating a nonce in sending a batch, then after restart included the same messages back into a _new_ batch then we need to **re-use the same nonce** rather than allocating a new one.
+- Failing to assign a nonce due to DB retry: If we span round the `sealBatch` logic once, then got a DB error and retried, the nonces we notionally assigned to the messages would not have been flushed to disk (we flush the nonces to the DB right at the end of this logic, and all DB plugins today have atomic TXs). This means when we retry we need to do the allocation again.
+
+The above scenarios is why we check that the `msg.Pins` array hasn't been assigned, and only assign it after we've exited the retry loop.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 17:23:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/649" class=".btn">#649</a>
+            </td>
+            <td>
+                <b>
+                    Call out memory needed in docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This docs update should fix issue #648. I already chatted with @nguyer briefly on Discord about it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 14:31:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/647" class=".btn">#647</a>
+            </td>
+            <td>
+                <b>
+                    Use a single commit to generate all batch ops, before initiating the HTTP calls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Use a single database transaction to write all the `pending` `operations` needed to dispatch a private messaging batch
+- Then initiate all the HTTP calls to DX separately - noting these should be *pending* until the asynchronous callback comes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 13:30:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/646" class=".btn">#646</a>
             </td>
             <td>

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/688" class=".btn">#688</a>
+            </td>
+            <td>
+                <b>
+                    feat: extension module creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Export some convenience types and classes to facilitate extension/plug-in development and add a fully-working dummy extension module in samples directory.
+
+I'm not sure if it's the right place to put all this stuff, but I believe it could help developers to add custom protocols and wallet storage to their controllers, so it's worth for it to be somewhere :-).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 14:38:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/687" class=".btn">#687</a>
             </td>
             <td>
@@ -270,32 +298,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-03-23 21:30:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/679" class=".btn">#679</a>
-            </td>
-            <td>
-                <b>
-                    feat: Regex for schemaVersion, issuerDid, credDefId, schemaId, schemaIssuerDid
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-23 13:51:32 +0000 UTC
     </div>
 </div>
 
