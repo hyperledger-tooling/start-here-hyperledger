@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/694" class=".btn">#694</a>
+            </td>
+            <td>
+                <b>
+                    fix chaincode breakage in asset-transfer-basic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                only broken in main branch, not in release-2.2
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 16:36:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/693" class=".btn">#693</a>
+            </td>
+            <td>
+                <b>
+                    [release-2.2] Missing await in asset-transfer-basic chaincode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Missing an `await` on the asset-transfer-basic javascript chaincode.
+
+This has been fixed in the main branch but needs to be fixed in the
+release-2.2 branch
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 14:38:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/692" class=".btn">#692</a>
             </td>
             <td>
@@ -69,49 +128,6 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-03-28 12:25:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/684" class=".btn">#684</a>
-            </td>
-            <td>
-                <b>
-                    Provide clear guidance for running Java chaincode as a service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **DRAFT PR - DO NOT MERGE** 
-
-This PR addresses the need for a simple, clear example that illustrates the use of Chaincode-as-a-Service to build and run Java chaincode on a local development environment.
-
-In addition, the README includes a section that describes how users may employ a Docker loopback interface to connect from a remote Peer binary to a local port on the host OS.  In this manner, chaincode may be run locally while attached to a debugger, with the peer running on a remote pod in Kubernetes.
-
-Items in this PR that need additional focus / review / input: 
-
-- The PR introduces a new "ccpackage/" folder, with the expectation that all of the ccaas-enabled samples will follow this convention.  In ccpackage/, the sample includes the metadata, connection, and new "ccaas.json" descriptors.  This is not an ideal approach, but we need some way for each of the samples to declare the target chaincode image to build and deploy in k8s.
-
-- Additional testing on the `host.docker.internal` DNS alias is required (e.g. Win, Linux, revs of Docker, etc.) 
-
--  The doc sets up a flow with three installations of the same chaincode, but does not delete the chaincode between steps.  (How does one _delete_ a chaincode, btw?) 
-
--  file-based arguments must all be absolute paths.  This can be fixed either in this PR or a follow-on. 
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-23 14:40:19 +0000 UTC
     </div>
 </div>
 

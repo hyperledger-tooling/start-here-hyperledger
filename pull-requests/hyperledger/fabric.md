@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3311" class=".btn">#3311</a>
+            </td>
+            <td>
+                <b>
+                    stack image and text
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Horton <joshh@us.ibm.com>
+
+redo on stack image, text, and links.
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+- Documentation update
+
+#### Description
+
+- add link for app layer
+- reverse text to match image stack sequence
+- new image that fits
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/3278
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 16:36:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3310" class=".btn">#3310</a>
             </td>
             <td>
@@ -153,44 +197,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2022-03-29 18:04:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3308" class=".btn">#3308</a>
-            </td>
-            <td>
-                <b>
-                    certs table debug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Josh Horton <joshh@us.ibm.com>
-
-Check table formatting
-
-#### Type of change
-
-- Bug fix
-- Documentation update
-
-#### Description
-
-Table isn't rendering, has some directory tree diagrams in it. Checking original.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-29 13:34:18 +0000 UTC
     </div>
 </div>
 
@@ -393,53 +399,6 @@ Checklist (DELETE AFTER READING):
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3301" class=".btn">#3301</a>
-            </td>
-            <td>
-                <b>
-                    new stack image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Josh Horton <joshh@us.ibm.com>
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-Existing software stack image needs updates for both legibility and text.
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-- Documentation update
-
-#### Description
-
-Just a new graphic image for legibility and updated text.
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/3278
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-25 21:50:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3299" class=".btn">#3299</a>
             </td>
             <td>
@@ -499,80 +458,6 @@ Removing maintainers who are not maintaining.
     </table>
     <div class="right-align">
         Created At 2022-03-23 23:32:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3297" class=".btn">#3297</a>
-            </td>
-            <td>
-                <b>
-                    Bump fastcache
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-
-- Improvement (improvement to code, performance, etc)
-
-
-#### Description
-
-- Update fastcache from v1.5.7 to v1.9.0
-
-<!--- Describe your changes in detail, including motivation. -->
-
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-- #3260
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-23 17:28:27 +0000 UTC
     </div>
 </div>
 
