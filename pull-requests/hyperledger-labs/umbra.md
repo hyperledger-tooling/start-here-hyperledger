@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/umbra
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/umbra/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger-labs/umbra/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    Bump protobuf from 3.13.0 to 3.15.0
+                    Bump paramiko from 2.6.0 to 2.10.1
                 </b>
             </td>
         </tr>
@@ -27,89 +27,27 @@ permalink: /pull-requests/hyperledger-labs/umbra
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [protobuf](https://github.com/protocolbuffers/protobuf) from 3.13.0 to 3.15.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/protocolbuffers/protobuf/releases">protobuf's releases</a>.</em></p>
-<blockquote>
-<h2>Protocol Buffers v3.15.0</h2>
-<h1>Protocol Compiler</h1>
-<ul>
-<li>Optional fields for proto3 are enabled by default, and no longer require
-the --experimental_allow_proto3_optional flag.</li>
-</ul>
-<h1>C++</h1>
-<ul>
-<li>MessageDifferencer: fixed bug when using custom ignore with multiple
-unknown fields</li>
-<li>Use init_seg in MSVC to push initialization to an earlier phase.</li>
-<li>Runtime no longer triggers -Wsign-compare warnings.</li>
-<li>Fixed -Wtautological-constant-out-of-range-compare warning.</li>
-<li>DynamicCastToGenerated works for nullptr input for even if RTTI is disabled</li>
-<li>Arena is refactored and optimized.</li>
-<li>Clarified/specified that the exact value of Arena::SpaceAllocated() is an
-implementation detail users must not rely on. It should not be used in
-unit tests.</li>
-<li>Change the signature of Any::PackFrom() to return false on error.</li>
-<li>Add fast reflection getter API for strings.</li>
-<li>Constant initialize the global message instances</li>
-<li>Avoid potential for missed wakeup in UnknownFieldSet</li>
-<li>Now Proto3 Oneof fields have &quot;has&quot; methods for checking their presence in
-C++.</li>
-<li>Bugfix for NVCC</li>
-<li>Return early in _InternalSerialize for empty maps.</li>
-<li>Adding functionality for outputting map key values in proto path logging
-output (does not affect comparison logic) and stop printing 'value' in the
-path. The modified print functionality is in the
-MessageDifferencer::StreamReporter.</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8129">protocolbuffers/protobuf#8129</a></li>
-<li>Ensure that null char symbol, package and file names do not result in a
-crash.</li>
-<li>Constant initialize the global message instances</li>
-<li>Pretty print 'max' instead of numeric values in reserved ranges.</li>
-<li>Removed remaining instances of std::is_pod, which is deprecated in C++20.</li>
-<li>Changes to reduce code size for unknown field handling by making uncommon
-cases out of line.</li>
-<li>Fix std::is_pod deprecated in C++20 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/7180">#7180</a>)</li>
-<li>Fix some -Wunused-parameter warnings (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8053">#8053</a>)</li>
-<li>Fix detecting file as directory on zOS issue <a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8051">#8051</a> (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8052">#8052</a>)</li>
-<li>Don't include sys/param.h for _BYTE_ORDER (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8106">#8106</a>)</li>
-<li>remove CMAKE_THREAD_LIBS_INIT from pkgconfig CFLAGS (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8154">#8154</a>)</li>
-<li>Fix TextFormatMapTest.DynamicMessage issue#5136 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8159">#8159</a>)</li>
-<li>Fix for compiler warning issue#8145 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8160">#8160</a>)</li>
-<li>fix: support deprecated enums for GCC &lt; 6 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8164">#8164</a>)</li>
-<li>Fix some warning when compiling with Visual Studio 2019 on x64 target (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8125">#8125</a>)</li>
-</ul>
-<h1>Python</h1>
-<ul>
-<li>Provided an override for the reverse() method that will reverse the internal
-collection directly instead of using the other methods of the BaseContainer.</li>
-<li>MessageFactory.CreateProtoype can be overridden to customize class creation.</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
+                Bumps [paramiko](https://github.com/paramiko/paramiko) from 2.6.0 to 2.10.1.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/ae50d9b9902526efd6c7a1907d09739f959c6297"><code>ae50d9b</code></a> Update protobuf version</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/8260126500f073894c38b2211d383442eb7e58d5"><code>8260126</code></a> Update protobuf version</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/c741c4660443da46bfaf6c96fd1f01e743f97b56"><code>c741c46</code></a> Resovled issue in the .pb.cc files</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/eef276412ec417e2f0563c1c51d59a968cb2a6db"><code>eef2764</code></a> Resolved an issue where NO_DESTROY and CONSTINIT were in incorrect order</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/0040102e6f001724194d9c4c6bcd5effcec52bf1"><code>0040102</code></a> Updated collect_all_artifacts.sh for Ubuntu Xenial</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/26cb6a7a6d7973657f09fc44b201287c046da62e"><code>26cb6a7</code></a> Delete root-owned files in Kokoro builds</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/1e924efa90b476d23157426ad1eb17301bc4df41"><code>1e924ef</code></a> Update port_def.inc</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/9a80cf12254dec1af833d9fb78a80673dce45dc4"><code>9a80cf1</code></a> Update coded_stream.h</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/a97c4f4f2c9e5ffce0db787268414eb141194c62"><code>a97c4f4</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8276">#8276</a> from haberman/php-warning</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/44cd75d2153fab614480517e40ee4c10cb153716"><code>44cd75d</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8282">#8282</a> from haberman/changelog</li>
-<li>Additional commits viewable in <a href="https://github.com/protocolbuffers/protobuf/compare/v3.13.0...v3.15.0">compare view</a></li>
+<li><a href="https://github.com/paramiko/paramiko/commit/286bd9f0374922341d48923b0c3ef09aab57919f"><code>286bd9f</code></a> Cut 2.10.1</li>
+<li><a href="https://github.com/paramiko/paramiko/commit/4c491e299c9b800358b16fa4886d8d94f45abe2e"><code>4c491e2</code></a> Fix CVE re: PKey.write_private_key chmod race</li>
+<li><a href="https://github.com/paramiko/paramiko/commit/aa3cc6fa3e9f1df72d4ffd2d5fc02ae734a6cba4"><code>aa3cc6f</code></a> Cut 2.10.0</li>
+<li><a href="https://github.com/paramiko/paramiko/commit/e50e19f7d26665fd60f143320cce2e9c03f27c80"><code>e50e19f</code></a> Fix up changelog entry with real links</li>
+<li><a href="https://github.com/paramiko/paramiko/commit/02ad67eaec68bacc18838158b902ccaade8f5dc8"><code>02ad67e</code></a> Helps to actually leverage your mocked system calls</li>
+<li><a href="https://github.com/paramiko/paramiko/commit/29d7bf43f4a8beabcfe14cdc969d6a370e57ecf8"><code>29d7bf4</code></a> Clearly our agent stuff is not fully tested yet...</li>
+<li><a href="https://github.com/paramiko/paramiko/commit/5fcb8da16d4b33fa52880c1c3e848654a698d34d"><code>5fcb8da</code></a> OpenSSH docs state %C should also work in IdentityFile and Match exec</li>
+<li><a href="https://github.com/paramiko/paramiko/commit/1bf3dce7255ff2055dcdbc4d29454fb0184dfaf7"><code>1bf3dce</code></a> Changelog enhancement</li>
+<li><a href="https://github.com/paramiko/paramiko/commit/f6342fc5f00b48e679e7c2c3579b1b27d94ffc1f"><code>f6342fc</code></a> Prettify, add %C as acceptable controlpath token, mock gethostname</li>
+<li><a href="https://github.com/paramiko/paramiko/commit/3f3451fd46353fa173f6c083b1c38438d04a68ea"><code>3f3451f</code></a> Add to changelog</li>
+<li>Additional commits viewable in <a href="https://github.com/paramiko/paramiko/compare/2.6.0...2.10.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=protobuf&package-manager=pip&previous-version=3.13.0&new-version=3.15.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=paramiko&package-manager=pip&previous-version=2.6.0&new-version=2.10.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -145,7 +83,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-11 03:07:03 +0000 UTC
+        Created At 2022-03-29 22:03:37 +0000 UTC
     </div>
 </div>
 
