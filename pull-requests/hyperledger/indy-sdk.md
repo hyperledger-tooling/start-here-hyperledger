@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2492" class=".btn">#2492</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2494" class=".btn">#2494</a>
             </td>
             <td>
                 <b>
-                    Fix Python Package Versioning 
+                    Update README.md
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                Fixes #2473 by writing the version from the env.PUBLISH_VERSION to `version.txt` and reading it in `setup.py` from that file
-and also including that file in the package. 
-
-Signed-off-by: pSchlarb <p.schlarb@esatus.com>
+                Ubuntu not able to trust and install libraries without ca-certificates
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-16 13:56:44 +0000 UTC
+        Created At 2022-03-30 08:13:50 +0000 UTC
     </div>
 </div>
 

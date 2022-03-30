@@ -115,29 +115,3 @@ Items in this PR that need additional focus / review / input:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/683" class=".btn">#683</a>
-            </td>
-            <td>
-                <b>
-                    Fix typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-23 07:16:59 +0000 UTC
-    </div>
-</div>
-
