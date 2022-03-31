@@ -14,6 +14,103 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3663" class=".btn">#3663</a>
+            </td>
+            <td>
+                <b>
+                    update after releasing 22.1.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 04:52:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3662" class=".btn">#3662</a>
+            </td>
+            <td>
+                <b>
+                    Graphql - allow null topic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allow creation of LogTopic from null
+* modify graphql spec to allow null values in list of topics
+* added test file with null topic in filter to match any topic
+This means graphql now matches http behaviour and also matches what we have documented https://besu.hyperledger.org/en/stable/Concepts/Events-and-Logs/#topic-filters
+
+Fixes #3519
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 04:32:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3661" class=".btn">#3661</a>
+            </td>
+            <td>
+                <b>
+                    prepare for release 22.1.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release 22.1.3
+
+Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 03:27:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3658" class=".btn">#3658</a>
             </td>
             <td>
@@ -491,42 +588,6 @@ Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-03-25 13:24:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3629" class=".btn">#3629</a>
-            </td>
-            <td>
-                <b>
-                    Update the PR template to include a documentation checklist item.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: bgravenorst <byron.gravenorst@consensys.net>
-
-## PR description
-Updated the GitHub PR template to include a documentation checklist item.
-
-## Fixed Issue(s)
-Fixes #3628 
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 01:44:37 +0000 UTC
     </div>
 </div>
 

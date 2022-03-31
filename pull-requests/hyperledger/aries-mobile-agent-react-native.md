@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/262" class=".btn">#262</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/263" class=".btn">#263</a>
             </td>
             <td>
                 <b>
-                    Bifold Framework with Batteries Included
+                    Add Theme and Configuration provider
                 </b>
             </td>
         </tr>
@@ -29,11 +29,10 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-- Moving `/App` to `/src` to align with typescript/node folder conventions
-- Move bifold Android/iOS boilerplate which is used to produce the app itself to `bifold-app`
-- Introduce [react-native-builder-bob](https://github.com/callstack/react-native-builder-bob) for doing the transpiling/building in preparation for eventually publishing as module to npm
-- Introduce Theme Provider Context
-- Introduce Configuration Provider Context
+- Add Theme and Configuration provider
+- Fixed lintstagedrc to run using npx so that there is no need to have dependencies installed globally (e.: json, tsx, typescript)
+- Removed import aliasing (`components`)
+- Added `typecheck` script so that we can use for typescript validation (`npm run typecheck`)
 
 # Related Issues
 
@@ -45,9 +44,9 @@ This is just a reminder about the most common mistakes. Please make sure that yo
 
 If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
 
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
-- [x] Run prettier: `npm run style-format`
+- [X] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [X] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [X] Run prettier: `npm run style-format`
 - [ ] Updated **documentation** for changed code and new or modified features.
 
 If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
@@ -58,7 +57,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-30 20:44:10 +0000 UTC
+        Created At 2022-03-31 03:12:23 +0000 UTC
     </div>
 </div>
 

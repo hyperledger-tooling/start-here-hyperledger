@@ -1,13 +1,13 @@
 
-[689](https://github.com/hyperledger/aries-framework-javascript/pull/689) Fix: did sov service type resolving
+[75](https://github.com/hyperledger/homebrew-besu/pull/75) update to version 22.1.3
 
-[2041](https://github.com/hyperledger/iroha/pull/2041) [feature] #2037: Introduce Pre-commit Triggers
+[3663](https://github.com/hyperledger/besu/pull/3663) update after releasing 22.1.3
 
-[3658](https://github.com/hyperledger/besu/pull/3658) useful peers log message changes
+[3662](https://github.com/hyperledger/besu/pull/3662) Graphql - allow null topic
 
-[462](https://github.com/hyperledger/aries-agent-test-harness/pull/462) Fix the other repository owner reference.
+[2042](https://github.com/hyperledger/iroha/pull/2042) Add documentation for Kura Inspector
 
-[14](https://github.com/hyperledger-labs/dancap/pull/14) Update ACC article URL
+[3661](https://github.com/hyperledger/besu/pull/3661) prepare for release 22.1.3
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

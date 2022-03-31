@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2042" class=".btn">#2042</a>
+            </td>
+            <td>
+                <b>
+                    Add documentation for Kura Inspector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+Add docs for Kura Inspector.
+
+![image](https://user-images.githubusercontent.com/17865025/160975654-13cbf56e-57d6-4620-a626-9f03ed8cb0ca.png)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 04:19:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2041" class=".btn">#2041</a>
             </td>
             <td>
