@@ -648,33 +648,3 @@ The private message batch dispatcher, was only sending the first blob in a batch
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/624" class=".btn">#624</a>
-            </td>
-            <td>
-                <b>
-                    Re-read configuration on restart of orchestrator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Now that we are using more standard deployment of Ethereum contracts in the FireFly CLI, where a unique Eth address is generated each time, we need to set that configuration.
-
-Rather than having configuration like this that's only in the DB, this PR proposes we re-read the configuration after the reset to pick up patched YAML configuration containing the instance address.
-
-We still need to use the `preInit` trick in the CLI to let it start in a zombie mode so Docker compose is happy, while we're using EthConnect to deploy the contract, but the only thing we use the DB config patch for is to unset this flag (which is true already today).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 03:09:12 +0000 UTC
-    </div>
-</div>
-
