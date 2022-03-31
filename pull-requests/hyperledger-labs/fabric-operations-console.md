@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/176" class=".btn">#176</a>
+            </td>
+            <td>
+                <b>
+                    fix channel nodes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+
+#### Type of change
+
+- Bug fix
+
+Clicking on the info for channel (under orderer drill down) shows nodes where the channel got removed
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 20:03:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/175" class=".btn">#175</a>
             </td>
             <td>

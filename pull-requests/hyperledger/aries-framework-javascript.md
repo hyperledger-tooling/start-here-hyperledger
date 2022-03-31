@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/689" class=".btn">#689</a>
+            </td>
+            <td>
+                <b>
+                    Fix: did sov service type resolving
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes behavior with the service resolution & types behavior with did:sov resolution. This additionally renames the `IndyDidResolver` to `SovDidResolver` to reduce confusion and prevent collision with the did:indy method in the future. Happy for any feedback/thoughts here.
+
+
+@TimoGlastra if you could take a look at this one to ensure I didn't miss something here that'd be appreciated! 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 00:20:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/688" class=".btn">#688</a>
             </td>
             <td>
@@ -272,32 +301,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-03-25 20:37:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/680" class=".btn">#680</a>
-            </td>
-            <td>
-                <b>
-                    test: reuse connection create and process request tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Just small PR adding ConnectionService tests I removed in the previous PR. I also added some checks for the OOB role and state.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-23 21:30:38 +0000 UTC
     </div>
 </div>
 

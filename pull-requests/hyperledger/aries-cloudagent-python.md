@@ -46,7 +46,7 @@ We've just discovered a 1.0.2. release was made yesterday by mistake and we're c
             </td>
             <td>
                 <b>
-                    Add auto_verify flag present-proof-v1_0
+                    Add auto_verify flag in present-proof protocol
                 </b>
             </td>
         </tr>
