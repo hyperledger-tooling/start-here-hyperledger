@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1364" class=".btn">#1364</a>
+            </td>
+            <td>
+                <b>
+                    Add `update_batch_status` operation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">main</span>
+            </td>
+            <td>
+                This adds an operation to update a batch's batch status. This operation updates the `batch_statuses` table as well as updating any associated transaction receipts. This also updates the batch tracking migrations to automatically generate timestamps which greatly simplifies this and other operations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 17:16:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1363" class=".btn">#1363</a>
+            </td>
+            <td>
+                <b>
+                    Add release notes for v0.3.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">0-3</span>
+            </td>
+            <td>
+                Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 16:41:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1362" class=".btn">#1362</a>
             </td>
             <td>
@@ -271,7 +323,7 @@ Signed-off-by: Lee Bradley [bradley@bitwise.io](mailto:bradley@bitwise.io)
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">main</span>
             </td>
             <td>
                 This adds a batch status variant: `DELAYED` to the `BatchStatus` enum.
@@ -325,7 +377,7 @@ Signed-off-by: Lee Bradley [bradley@bitwise.io](mailto:bradley@bitwise.io)
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">main</span>
             </td>
             <td>
                 This implements the `get_batch_status` operation for the Batch Tracking

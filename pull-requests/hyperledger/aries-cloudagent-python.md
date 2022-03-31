@@ -56,6 +56,8 @@ We've just discovered a 1.0.2. release was made yesterday by mistake and we're c
             </td>
             <td>
                 Signed-off-by: DaevMithran <daevmithran1999@gmail.com>
+
+Fix [https://github.com/hyperledger/aries-cloudagent-python/issues/1698](url)
             </td>
         </tr>
     </table>
@@ -269,32 +271,6 @@ A brief listing of known limitations:
     </table>
     <div class="right-align">
         Created At 2022-03-25 08:22:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1688" class=".btn">#1688</a>
-            </td>
-            <td>
-                <b>
-                    Remove references to play with von
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 17:05:34 +0000 UTC
     </div>
 </div>
 

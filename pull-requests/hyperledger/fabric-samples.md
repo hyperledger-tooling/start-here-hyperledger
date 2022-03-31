@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/696" class=".btn">#696</a>
+            </td>
+            <td>
+                <b>
+                    CORS Enablement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                After feedback from the community, this PR adds CORS support in, but as an option
+to enable.
+
+Along with warnings that the default wildcard origin might not be applicable
+in a production use case
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 16:55:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/694" class=".btn">#694</a>
             </td>
             <td>
@@ -77,7 +109,7 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
             </td>
             <td>
                 <b>
-                    test-network-k8s : Connect to Fabric services via Nginx Ingress - DO NOT MERGE
+                    test-network-k8s : Connect to Fabric services via Nginx Ingress - READY FOR MERGE
                 </b>
             </td>
         </tr>
@@ -86,9 +118,7 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
                 
             </td>
             <td>
-                DRAFT PR - DO NOT MERGE 
-
-This PR updates the Kube test network to access Fabric services via an Ingress controller.  This allows for easy access to the CAs, peers, orderers, and load-balanced Gateway Peer via the nginx bound to localhost:443.
+                This PR updates the Kube test network to access Fabric services via an Ingress controller.  This allows for easy access to the CAs, peers, orderers, and load-balanced Gateway Peer via the nginx bound to localhost:443.
 
 In previous iterations, any administration of the network involved a remote exec to execute commands on an "admin CLI pod" running in the cluster.  In addition, any time files needed to get to/from the volume mounts in Kubernetes, an overly complicated sequence of arcane `exec tar --.... ` commands was necessary.
 

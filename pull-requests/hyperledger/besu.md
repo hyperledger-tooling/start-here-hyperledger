@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3671" class=".btn">#3671</a>
+            </td>
+            <td>
+                <b>
+                    Fix block import subcommand by r
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Some instantiation of `CommandLine` were throwing errors, because the were not using `BesuCommandCustomFactory` to create the necessary `VersionProvider`, which is recently needed by subcommands as well.
+
+Instead of creating new `CommandLine`instances the PR reuses the existing objects, which are already correctly configured.
+
+Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+fixes #3646
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 14:51:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3669" class=".btn">#3669</a>
             </td>
             <td>
