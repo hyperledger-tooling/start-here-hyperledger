@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/373" class=".btn">#373</a>
+            </td>
+            <td>
+                <b>
+                    Improve PTE logging when channel is not yet initialized on orderer #372
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Improve PTE logging when channel is not yet initialized on orderer #372
+
+Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 07:25:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-test/pull/371" class=".btn">#371</a>
             </td>
             <td>
