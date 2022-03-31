@@ -14,6 +14,34 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/1996" class=".btn">1996</a>
+            </td>
+            <td>
+                <b>
+                    Move `GenesisDomain` and `GenesisAccount` to `iroha_core`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                Currently, genesis domain and account are in `iroha_data_model`. It is my understanding that they are only used in `iroha_core` and should in fact not be presented to the user through data model API. Therefore, they should be moved into `iroha_core`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 14:39:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/1988" class=".btn">1988</a>
             </td>
             <td>
@@ -232,34 +260,6 @@ impl FromStr for AssetValueType {
     </table>
     <div class="right-align">
         Created At 2022-02-17 11:36:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1897" class=".btn">1897</a>
-            </td>
-            <td>
-                <b>
-                    Remove `usize`/`isize` from serialization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                it's possible for structures that are serialized through `serde` to contain `usize`/`isize` inside them. This is problematic because the size of these depends on the architecture and it's possible that deserialization could break. To fix this we should disallow the use of `usize`/`isize` in serialization and convert to `u64`/`i64`. For example, `usize` is used in `schema/src/lib.rs`, but there could be other places like `data_model`.
-
-fortunately, parity SCALE codec doesn't implement encode/decode for `usize`/`isize` so only structures which implement `serde` serialization and not SCALE serialization are affected. There should be only a small number of these
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-10 15:06:59 +0000 UTC
     </div>
 </div>
 
