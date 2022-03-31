@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2494" class=".btn">#2494</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2497" class=".btn">#2497</a>
             </td>
             <td>
                 <b>
@@ -28,11 +28,13 @@ permalink: /pull-requests/hyperledger/indy-sdk
             </td>
             <td>
                 Ubuntu not able to trust and install libraries without ca-certificates
+
+Signed-off-by: Dinkar Jain <62498436+dinkar-jain@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-30 08:13:50 +0000 UTC
+        Created At 2022-03-31 07:45:05 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/372" class=".btn">#372</a>
+            </td>
+            <td>
+                <b>
+                    Raft config test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 12:09:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/371" class=".btn">#371</a>
+            </td>
+            <td>
+                <b>
+                    CA config test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 08:11:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/369" class=".btn">#369</a>
             </td>
             <td>
@@ -85,32 +137,6 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     </table>
     <div class="right-align">
         Created At 2022-03-24 16:46:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/363" class=".btn">#363</a>
-            </td>
-            <td>
-                <b>
-                    testing user tx error cases
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 07:18:03 +0000 UTC
     </div>
 </div>
 

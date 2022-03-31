@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    form reset on modal close
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 10:32:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/21" class=".btn">#21</a>
+            </td>
+            <td>
+                <b>
+                    form reset
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sahinul Haque <sahinul.haque@itpeoplecorp.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 07:24:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/20" class=".btn">#20</a>
             </td>
             <td>
@@ -321,36 +373,6 @@ Signed-off-by: Dilip Manjunatha <dilidssn@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-03-24 21:21:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/8" class=".btn">#8</a>
-            </td>
-            <td>
-                <b>
-                    Restrict auction house to see auctions associated with them
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Dilip Manjunatha <dilidssn@gmail.com>
-
-This commit has following fixes:
-1. Auction house can now access open auctions associated with them
-2. Auction house can now access new auctions associated with them
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 12:04:06 +0000 UTC
     </div>
 </div>
 

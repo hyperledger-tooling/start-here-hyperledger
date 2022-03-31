@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/210" class=".btn">#210</a>
+            </td>
+            <td>
+                <b>
+                    cloning instructions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 11:18:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/209" class=".btn">#209</a>
+            </td>
+            <td>
+                <b>
+                    Refactoring to make services backend agnostic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Hagar Meir <hagar.meir@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 08:08:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/208" class=".btn">#208</a>
             </td>
             <td>
@@ -88,7 +140,9 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
                 
             </td>
             <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                This PR adds comments to the Token API. In also remove some unused methods, structs, and interfaces.
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
@@ -146,32 +200,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-03-25 10:10:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/199" class=".btn">#199</a>
-            </td>
-            <td>
-                <b>
-                    FIX: nft query engine does not filter properly #198
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 08:36:16 +0000 UTC
     </div>
 </div>
 
