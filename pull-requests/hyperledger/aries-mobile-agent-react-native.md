@@ -14,6 +14,109 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/262" class=".btn">#262</a>
+            </td>
+            <td>
+                <b>
+                    Bifold Framework with Batteries Included
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+- Moving `/App` to `/src` to align with typescript/node folder conventions
+- Move bifold Android/iOS boilerplate which is used to produce the app itself to `bifold-app`
+- Introduce [react-native-builder-bob](https://github.com/callstack/react-native-builder-bob) for doing the transpiling/building in preparation for eventually publishing as module to npm
+- Introduce Theme Provider Context
+- Introduce Configuration Provider Context
+
+# Related Issues
+
+Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
+
+# Pull Request Checklist
+
+This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+
+If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [x] Run prettier: `npm run style-format`
+- [ ] Updated **documentation** for changed code and new or modified features.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 20:44:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/261" class=".btn">#261</a>
+            </td>
+            <td>
+                <b>
+                    UI fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Numerous UI/Bug Fixes:
+* Fixes flex property in InfoBox component to prevent text from getting cut-off
+* Updates colour theming for error modals
+* Fixes a bug where the home button in the connection modal doesn't route back to the home screen
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+This is just a reminder about the most common mistakes. Please make sure that you tick all _appropriate_ boxes. But please read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+
+If an item doesn't apply to your pull request, **check it anyway** to make it apparent that there's nothing to do.
+
+- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this).
+- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components.
+- [ ] Run prettier: `npm run style-format`
+- [ ] Updated **documentation** for changed code and new or modified features.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 20:11:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/260" class=".btn">#260</a>
             </td>
             <td>

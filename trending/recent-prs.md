@@ -1,13 +1,13 @@
 
-[460](https://github.com/hyperledger/aries-agent-test-harness/pull/460) chore(deps): Bump minimist from 1.2.5 to 1.2.6 in /aries-backchannels/verity
+[689](https://github.com/hyperledger/aries-framework-javascript/pull/689) Fix: did sov service type resolving
 
-[1955](https://github.com/hyperledger/cactus/pull/1955) docs: fix diagram typo in connector README files
+[2041](https://github.com/hyperledger/iroha/pull/2041) [feature] #2037: Introduce Pre-commit Triggers
 
-[1007](https://github.com/hyperledger/besu-docs/pull/1007) Update and re-organize tutorials
+[3658](https://github.com/hyperledger/besu/pull/3658) useful peers log message changes
 
-[650](https://github.com/hyperledger/firefly/pull/650) Assign nonces more efficiently, with minimal DB ops
+[462](https://github.com/hyperledger/aries-agent-test-harness/pull/462) Fix the other repository owner reference.
 
-[1704](https://github.com/hyperledger/aries-cloudagent-python/pull/1704) fix: lock ursa-bbs-signatures to 1.0.1
+[14](https://github.com/hyperledger-labs/dancap/pull/14) Update ACC article URL
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

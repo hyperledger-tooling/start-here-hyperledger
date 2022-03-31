@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3312" class=".btn">#3312</a>
+            </td>
+            <td>
+                <b>
+                    colorized discord icon
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Horton <joshh@us.ibm.com>
+
+Discord icon / button color-matched with the others. 
+Replaces Rocket Chat icon / button.
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+
+Discord is new chat tool, replaces Rocket Chat.
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/3270
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 21:21:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3311" class=".btn">#3311</a>
             </td>
             <td>
@@ -418,46 +462,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2022-03-25 11:51:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3298" class=".btn">#3298</a>
-            </td>
-            <td>
-                <b>
-                    Retire inactive maintainers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-
-#### Type of change
-
-- Documentation update
-
-#### Description
-
-Removing maintainers who are not maintaining.
-
-#### Additional details
-
-
-#### Related issues
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-23 23:32:44 +0000 UTC
     </div>
 </div>
 

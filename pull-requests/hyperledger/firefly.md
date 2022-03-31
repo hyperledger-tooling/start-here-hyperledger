@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/652" class=".btn">#652</a>
+            </td>
+            <td>
+                <b>
+                    Cannot assume zero as reason to insert vs. update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Tweak to the logic from #650 - the assumption made in the code was invalid on assuming a value of `0` was enough to determine if we needed to use `INSERT` (vs. `UPDATE`) for the `nonces` collection. 
+
+Because if multiple private messages go into a batch, this value will be incremented.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 20:41:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/651" class=".btn">#651</a>
+            </td>
+            <td>
+                <b>
+                    [charts-config] chart buckets are now capped at a configurable max
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previously, histogram buckets were created with a `CASE` query. This lead to performance issues when a large amount of data was queried from the database. 
+
+This new method sets a max amount of rows to be queried in each bucket, with a default of 100 rows. 
+
+The data structure and expected response is unchanged.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 19:38:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/650" class=".btn">#650</a>
             </td>
             <td>
@@ -617,49 +675,6 @@ We still need to use the `preInit` trick in the CLI to let it start in a zombie 
     </table>
     <div class="right-align">
         Created At 2022-03-24 03:09:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/623" class=".btn">#623</a>
-            </td>
-            <td>
-                <b>
-                    [fetchreferences2] Adding event enrichment for all event types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `GET /events?fetchreferences` now returns enriched events for all event types:
-
-```go
-type EnrichedEvent struct {
-	Event
-	BlockchainEvent   *BlockchainEvent `json:"blockchainevent,omitempty"`
-	ContractAPI       *ContractAPI     `json:"contractAPI,omitempty"`
-	ContractInterface *FFI             `json:"contractInterface,omitempty"`
-	Datatype          *Datatype        `json:"datatype,omitempty"`
-	Identity          *Identity        `json:"identity,omitempty"`
-	Message           *Message         `json:"message,omitempty"`
-	NamespaceDetails  *Namespace       `json:"namespaceDetails,omitempty"`
-	TokenApproval     *TokenApproval   `json:"tokenApproval,omitempty"`
-	TokenPool         *TokenPool       `json:"tokenPool,omitempty"`
-	Transaction       *Transaction     `json:"transaction,omitempty"`
-	TokenTransfer     *TokenTransfer   `json:"tokenTransfer,omitempty"`
-}
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-23 19:12:49 +0000 UTC
     </div>
 </div>
 
