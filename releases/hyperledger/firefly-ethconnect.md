@@ -15,30 +15,32 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v3.1.5
+                    v3.1.6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v3.1.5
+                    v3.1.6
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Inflight reset by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/206
+* Fix concurrent map write when adding multiple subscriptions in parallel by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/208
+* Close subscription manager in tests by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/209
+* Add missing mock to unit test by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/210
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.1.4...v3.2.0
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.1.5...v3.1.6
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.5" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-03-18 16:26:11 +0000 UTC
+        Created At 2022-03-30 21:21:06 +0000 UTC
     </span>
 </div>
 
