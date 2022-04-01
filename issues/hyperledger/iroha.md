@@ -14,34 +14,6 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1996" class=".btn">1996</a>
-            </td>
-            <td>
-                <b>
-                    Move `GenesisDomain` and `GenesisAccount` to `iroha_core`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Currently, genesis domain and account are in `iroha_data_model`. It is my understanding that they are only used in `iroha_core` and should in fact not be presented to the user through data model API. Therefore, they should be moved into `iroha_core`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-22 14:39:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/1988" class=".btn">1988</a>
             </td>
             <td>
