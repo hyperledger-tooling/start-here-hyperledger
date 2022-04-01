@@ -97,34 +97,3 @@ Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/194" class=".btn">#194</a>
-            </td>
-            <td>
-                <b>
-                    Run vulnerability scan only in the nightly build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update scan version
-- Add suppression of vulnerability false positive
-- Fix Javadoc build for later Java versions
-- Run integration tests with Java 8, 11 and 17
-
-Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 18:21:01 +0000 UTC
-    </div>
-</div>
-
