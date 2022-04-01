@@ -324,29 +324,3 @@ Signed-off-by: Dilip Manjunatha <dilidssn@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/10" class=".btn">#10</a>
-            </td>
-            <td>
-                <b>
-                    for create auction house and file type validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sahinul Haque <sahinul.haque@itpeoplecorp.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-25 07:01:45 +0000 UTC
-    </div>
-</div>
-

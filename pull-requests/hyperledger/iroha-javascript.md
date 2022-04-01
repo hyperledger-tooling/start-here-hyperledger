@@ -28,6 +28,12 @@ permalink: /pull-requests/hyperledger/iroha-javascript
             </td>
             <td>
                 Related Iroha PR: https://github.com/hyperledger/iroha/pull/2015
+
+Misc changes:
+
+- Remove docs
+- Use `vitest` instead of `jest` for `data-model` package
+- Update docs recipes so they are synced with the tutorial
             </td>
         </tr>
     </table>

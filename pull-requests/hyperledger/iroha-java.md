@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha-java
             </td>
             <td>
                 <b>
-                    Iroha-204: WIP
+                    Iroha-204: schema updated && triggers
                 </b>
             </td>
         </tr>
