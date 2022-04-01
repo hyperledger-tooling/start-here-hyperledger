@@ -163,50 +163,6 @@ problems getting it to match from design team. e.g. black bg.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3312" class=".btn">#3312</a>
-            </td>
-            <td>
-                <b>
-                    colorized discord icon
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Josh Horton <joshh@us.ibm.com>
-
-Discord icon / button color-matched with the others. 
-Replaces Rocket Chat icon / button.
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-
-Discord is new chat tool, replaces Rocket Chat.
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/3270
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 21:21:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3311" class=".btn">#3311</a>
             </td>
             <td>
