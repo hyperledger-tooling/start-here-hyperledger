@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/196" class=".btn">#196</a>
-            </td>
-            <td>
-                <b>
-                    upgrade opentelemetry version to 1.12.0 (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Cherry-pick of 4e16cadfd6098d1cd79fe28e80f0ddd820267e69 from main branch.
-
-Signed-off-by: Danilo Faria <danilo@digitalasset.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-25 15:34:17 +0000 UTC
-    </div>
-</div>
-

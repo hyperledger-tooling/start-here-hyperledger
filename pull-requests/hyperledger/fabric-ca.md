@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/276" class=".btn">#276</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/281" class=".btn">#281</a>
             </td>
             <td>
                 <b>
-                    Fix FVT intermediateca test
+                    Minor type
                 </b>
             </td>
         </tr>
@@ -27,15 +27,19 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Fix issue introduced in https://github.com/hyperledger/fabric-ca/pull/268.
+                #### Type of change
 
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+- Documentation update
+
+#### Description
+
+Minor typo in documentation, config is targeted or peer2 instead of peer1.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-22 16:20:45 +0000 UTC
+        Created At 2022-04-01 14:03:34 +0000 UTC
     </div>
 </div>
 
@@ -43,11 +47,11 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/275" class=".btn">#275</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/280" class=".btn">#280</a>
             </td>
             <td>
                 <b>
-                    Bump Go to 1.17.8
+                    Wrong path
                 </b>
             </td>
         </tr>
@@ -56,19 +60,20 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
                 
             </td>
             <td>
-                Changes with Go 1.17
-- gofmt produces 1.17 build tag format
-- go 1.17 directive in go.mod causes second require stanza for indirect dependencies
-- go.mod and go.sum removed from vendored dependencies
-- update unit tests to reflect Go 1.17 changes
+                #### Type of change
 
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+- Bug fix
+- Documentation update
+
+#### Description
+
+Certificate has to be copied to Peer2's CA component
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-22 15:24:32 +0000 UTC
+        Created At 2022-04-01 13:55:12 +0000 UTC
     </div>
 </div>
 
