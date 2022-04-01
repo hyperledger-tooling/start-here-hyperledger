@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/194" class=".btn">#194</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/196" class=".btn">#196</a>
             </td>
             <td>
                 <b>
-                    Add links
+                    Added proposal for HyperFabGames
                 </b>
             </td>
         </tr>
@@ -27,13 +27,23 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
+                Signed-off By: Sandy Aggarwal <sandy.aggarwal.apps@gmail.com>
+
+## Checklist for Hyperledger Lab Proposal PR
+
+- [ ] Read [README.md](https://github.com/hyperledger-labs/hyperledger-labs.github.io/blob/master/README.md) carefully
+- [ ] Make sure your changes are committed with the proper sign-off
+- [ ] Use the labs name as the PR title
+- [ ] Copy the short description of the proposal as the description of the PR
+- [ ] Remove this checklist section
+- [ ] Submit your PR and the labs stewards will review your proposal
+- [ ] Ask your sponsor to confirm sponsorship by stating so in a comment to the PR
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-21 19:45:10 +0000 UTC
+        Created At 2022-04-01 03:55:09 +0000 UTC
     </div>
 </div>
 
