@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/633" class=".btn">#633</a>
+            </td>
+            <td>
+                <b>
+                    Update batch manager dispatch to track inflight and fix private blobs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Batch manager updates
+
+I believe I've found an issue in the way the batch manager and the batch processors interact
+Because the messages stay in ready state while they are being dispatched, the `readPage` loop will still see all messages that are dispatched
+
+Currently it attempts to re-dispatch them when it's told to rewinds, and relies on the processor to de-dup those messages
+It all works from a consistency perspective, but with the pattern of workload from the long-run it's a little inefficient in terms of how many rewinds and re-processing we do. It seems this can reach the point the batch manager can get jammed up trying to do those re-dispatches to the processor, while the processor is busy flushing what it's got
+
+This PR simplifies the logic significantly, by preventing duplicate dispatches in the batch manager.
+
+The manager keeps a map of all in-flight dispatched sequences to processors, and the processors call back to the manager when they have flushed a batch (so the messages will no longer turn up in `readPage` queries).
+
+### Fix to private blobs
+
+The private message batch dispatcher, was only sending the first blob in a batch. Meaning other messages with blobs in the batch would never be confirmed, because the blobs never arrived.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-27 18:43:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/630" class=".btn">#630</a>
             </td>
             <td>
@@ -63,58 +103,6 @@ permalink: /pull-requests/hyperledger/firefly
     </table>
     <div class="right-align">
         Created At 2022-03-25 19:23:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/627" class=".btn">#627</a>
-            </td>
-            <td>
-                <b>
-                    Simplfy solc compilation of BatchPin contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a slight simplification to the way the BatchPin contract is compiled at build time. This allows us to remove some deprecated code in the FireFly CLI and goes along with the changes in https://github.com/hyperledger/firefly-cli/pull/165
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 19:41:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/626" class=".btn">#626</a>
-            </td>
-            <td>
-                <b>
-                    Add pool config to activate call
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Enables https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/36
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 18:40:07 +0000 UTC
     </div>
 </div>
 

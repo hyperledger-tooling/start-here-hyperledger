@@ -350,29 +350,3 @@ Signed-off-by: Dilip Manjunatha <dilidssn@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/9" class=".btn">#9</a>
-            </td>
-            <td>
-                <b>
-                    Fix typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 21:21:23 +0000 UTC
-    </div>
-</div>
-

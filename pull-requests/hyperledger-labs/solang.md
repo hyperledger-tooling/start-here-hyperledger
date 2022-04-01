@@ -116,31 +116,3 @@ Please, feel free to plot the dot files I added to the tests to check they are O
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/710" class=".btn">#710</a>
-            </td>
-            <td>
-                <b>
-                    Detect unused functions in inline assembly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements an algorithm to detect unused functions in YUL. I've included tests as well.
-
-There was some refactoring due to bugs I found along the way.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 19:26:39 +0000 UTC
-    </div>
-</div>
-

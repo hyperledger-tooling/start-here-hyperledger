@@ -149,31 +149,3 @@ Related to #243, #176
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/242" class=".btn">#242</a>
-            </td>
-            <td>
-                <b>
-                    Fix handling messages embedded into own generated messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This pull request fixes a bug in handling of own generated messages. A replica could skip handling some of the messages it has generated shortly before resetting its message log and replacing it with a newly generated ViewChange or NewView message.
-
-Relates to #176.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 20:26:06 +0000 UTC
-    </div>
-</div>
-
