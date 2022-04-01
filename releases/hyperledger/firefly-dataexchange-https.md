@@ -15,32 +15,30 @@ permalink: /releases/hyperledger/firefly-dataexchange-https
         <tr>
             <td colspan="2">
                 <b>
-                    v0.10.5
+                    v0.11.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.10.5
+                    v0.11.0
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Replace requestID with requestId by @awrichar in https://github.com/hyperledger/firefly-dataexchange-https/pull/54
+* Update event queue to support readahead to FireFly core by @peterbroadhurst in https://github.com/hyperledger/firefly-dataexchange-https/pull/56
 
-## New Contributors
-* @awrichar made their first contribution in https://github.com/hyperledger/firefly-dataexchange-https/pull/54
 
-**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.10.3...v0.10.5
+**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.10.4...v0.11.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.10.5" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.11.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-02-09 03:01:08 +0000 UTC
+        Created At 2022-04-01 16:02:30 +0000 UTC
     </span>
 </div>
 
