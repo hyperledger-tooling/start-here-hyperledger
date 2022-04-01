@@ -64,36 +64,3 @@ Signed-off-by: Danilo Faria <danilo@digitalasset.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/195" class=".btn">#195</a>
-            </td>
-            <td>
-                <b>
-                    Run vulnerability scan only in the nightly build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Cherry-pick of 47017efebd6e17a84bdbdc5e70a53a75afbd21db from main branch.
-
-- Update scan version
-- Add suppression of vulnerability false positive
-- Fix Javadoc build for later Java versions
-- Run integration tests with Java 8, 11 and 17
-
-Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-25 11:04:44 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1705" class=".btn">#1705</a>
+            </td>
+            <td>
+                <b>
+                    Fix Issue-1682
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Added wallet startup parameter: --wallet-allow-insecure-seed
+- support seed in wallet/did/create route
+
+Some questions around
+1. How do we support importing a key pair into the wallet as mentioned in the Issue
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-01 10:56:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1704" class=".btn">#1704</a>
             </td>
             <td>
@@ -242,35 +272,6 @@ A brief listing of known limitations:
     </table>
     <div class="right-align">
         Created At 2022-03-25 16:31:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1690" class=".btn">#1690</a>
-            </td>
-            <td>
-                <b>
-                    Fix: DIF proof proposal when creating bound presentation request [Issue#1687]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
-- resolve #1687 
-- So the validation for `/present-proof-v2.0/send-proposal` is working but the problem was that with `auto_respond_presentation_proposal` flag on it would create an invalid bound request from the proposal [`input_descriptors` was not enclosed in `presentation_definition`]. I am surprised that I didn't catch this earlier.
-- @swcurran According to the [RFC](https://github.com/hyperledger/aries-rfcs/blob/main/features/0510-dif-pres-exch-attach/README.md#examples-propose-presentation), the `propose-presentation` message only expects `input_descriptors` and no `options` [for `challenge` and/or `domain`]. With auto flag, there will be no opportunity to add a domain to the request, so I have updated the schema to allow `options` in the `propose-presentation` message. `challenge` is always required for verifying presentation, if `options` is not specified then it is randomly assigned.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-25 08:22:54 +0000 UTC
     </div>
 </div>
 

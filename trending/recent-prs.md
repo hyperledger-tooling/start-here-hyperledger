@@ -1,13 +1,13 @@
 
+[1705](https://github.com/hyperledger/aries-cloudagent-python/pull/1705) Fix Issue-1682
+
+[721](https://github.com/hyperledger-labs/solang/pull/721) Remove unused parameters of recursive functions
+
+[699](https://github.com/hyperledger/fabric-samples/pull/699) Fix Linting: Add in a `-not -path` option to find 
+
+[211](https://github.com/hyperledger-labs/fabric-token-sdk/pull/211) nwo token enhacements:
+
 [196](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/196) Added proposal for HyperFabGames
-
-[698](https://github.com/hyperledger/fabric-samples/pull/698) Bump minimist from 1.2.5 to 1.2.6 in /asset-transfer-basic/rest-api-typescript
-
-[732](https://github.com/hyperledger-labs/business-partner-agent/pull/732) Update README.md
-
-[697](https://github.com/hyperledger/fabric-samples/pull/697) Updates the README and documentation guide for the Kube test network's usage of Nginx ingress
-
-[1364](https://github.com/hyperledger/grid/pull/1364) Add `update_batch_status` operation
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

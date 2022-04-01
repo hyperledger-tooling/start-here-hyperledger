@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/721" class=".btn">#721</a>
+            </td>
+            <td>
+                <b>
+                    Remove unused parameters of recursive functions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Found with:
+
+$ rustup update nightly
+$ cargo +nightly clippy --tests --bins
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-01 09:29:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/719" class=".btn">#719</a>
             </td>
             <td>
