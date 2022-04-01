@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1706" class=".btn">#1706</a>
+            </td>
+            <td>
+                <b>
+                    Multitenancy Docs Update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Please review the updates to the multitenancy docs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-01 17:01:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1705" class=".btn">#1705</a>
             </td>
             <td>
@@ -235,43 +261,6 @@ The events leverage the existing `OutboundSendStatus` states and don’t superse
     </table>
     <div class="right-align">
         Created At 2022-03-28 19:07:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1692" class=".btn">#1692</a>
-            </td>
-            <td>
-                <b>
-                    Multi-tenancy stale wallet clean up
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is intended to supersede #928. Due to significant changes since the original PR was opened, I cherry-picked a commit but had to modify it. History has not been well preserved, unfortunately. Credit to @TimoGlastra for the original work on the `ProfileCache` especially and for assistance in finding the solution implemented here.
-
-This PR adds a LRU cache for profiles opened by `MultitenantManager` (corresponding to wallet types `indy` and `askar`, but not `askar-profile`). `weakref.finalize` is used to ensure the profiles are closed when they fall out of scope. An ordered dictionary of profiles holds a (strong) reference to the profile until it is evicted. If that profile happens to still be in use at the time it is evicted, it will not be closed until other (strong) references to it expire, i.e. after processing of a message or admin request has finished. This exact scenario is unlikely but possible.
-
-In addition to this profile caching mechanism, I also updated a few aspects of the `BaseMultitenantManager` and its subclasses to make them more consistent with conventions used in ACA-Py.
-
-Also, after being very confused by handling of askar profiles (not to be confused with `AskarProfile`s) within the `AskarProfileMultitenantManager` and `AskarProfile`, I did some light updates to (I hope) improve clarity.
-
-A brief listing of known limitations:
-- As implemented, the capacity of the LRU cache is statically defined as 100.
-- A temporally based system for evicting profiles from the cache is likely better than a max capacity based system.
-- 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-25 16:31:21 +0000 UTC
     </div>
 </div>
 

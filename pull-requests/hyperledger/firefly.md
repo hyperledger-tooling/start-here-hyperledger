@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/635" class=".btn">#635</a>
+            </td>
+            <td>
+                <b>
+                    [ui-v0.6.6] manifest release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-27 23:08:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/634" class=".btn">#634</a>
+            </td>
+            <td>
+                <b>
+                    Created timestamp index on events shouldn't be unique
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Saw the below error in a long-run test, where an attempt to insert an event resulted in no rows being added in PSQL with `ON CONFLICT DO NOTHING RETURNING seq`. I found there's an index that is set to `UNIQUE` on the `created` timestamp, and while a clash there is unlikely it's definitely possible.
+
+```
+{"log":"[2022-03-27T20:45:44.100Z]  WARN node_0: SQL! transaction rollback dbtx=WLXd2cMS httpreq=GJpFajph req=w6nJtbSg\n","stream":"stderr","time":"2022-03-27T20:45:44.102693254Z"}
+{"log":"[2022-03-27T20:45:44.102Z]  INFO node_0: \u003c-- POST /api/v1/namespaces/default/contracts/invoke [500] (19.62ms): FF10116: Database insert failed: FF10375: Failed to retrieve sequence for insert row 1 (could mean duplicate insert) httpreq=GJpFajph req=w6nJtbSg\n","stream":"stderr","time":"2022-03-27T20:45:44.10280407Z"}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-27 22:50:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/633" class=".btn">#633</a>
             </td>
             <td>

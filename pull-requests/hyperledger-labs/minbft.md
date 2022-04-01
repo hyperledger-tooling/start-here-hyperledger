@@ -120,32 +120,3 @@ Resolves: #245
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/minbft/pull/244" class=".btn">#244</a>
-            </td>
-            <td>
-                <b>
-                    Fix generation of duplicate Prepare messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This pull request fixes a bug that caused generation of duplicate Prepare messages when transitioning into a new active new.
-
-Related to #243, #176 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-25 12:53:47 +0000 UTC
-    </div>
-</div>
-

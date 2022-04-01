@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3674" class=".btn">#3674</a>
+            </td>
+            <td>
+                <b>
+                    Remove Gas object and replace with primitive long
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Remove the Gas object from the EVM and replace it with the primitive
+long. This will have positive impact on short lived object garbage
+collection stats, which at very high load causes significant performance
+issues.
+
+This also codifies EIP-4803 in the Besu EVM, limiting gas to a signed
+64-bit long internally.
+
+There was one notable issue with this transition. Some reference tests
+push the limits of memory expansion which results in gas costs over the
+EIP limit. The solution is to "clamp" such addition and multiplication
+operations at the max or min long value, resulting in the out-of-gas
+check failing (such operations will never have a valid execution with
+max gas remaining).
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-01 14:07:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3671" class=".btn">#3671</a>
             </td>
             <td>
@@ -706,51 +765,6 @@ fixes #3632
     </table>
     <div class="right-align">
         Created At 2022-03-25 22:37:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3631" class=".btn">#3631</a>
-            </td>
-            <td>
-                <b>
-                    [DO NOT MERGE] Performance test : bloom filter test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Performance test :
-Enable RocksDB Bloom filter.
-
-Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-25 13:24:15 +0000 UTC
     </div>
 </div>
 

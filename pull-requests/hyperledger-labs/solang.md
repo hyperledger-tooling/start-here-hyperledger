@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/722" class=".btn">#722</a>
+            </td>
+            <td>
+                <b>
+                    Implement mutability check for yul
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements mutability checks for YUL. We check if a pure function reads or writes the state and if a view function writes the state. I've provided tests as well.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-01 15:13:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/721" class=".btn">#721</a>
             </td>
             <td>
