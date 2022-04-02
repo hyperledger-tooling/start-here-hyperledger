@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/258" class=".btn">#258</a>
-            </td>
-            <td>
-                <b>
-                    orion: update readmes and removed unused interfaces and methods #256
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-26 08:47:38 +0000 UTC
-    </div>
-</div>
-
