@@ -15,31 +15,30 @@ permalink: /releases/hyperledger/firefly-tokens-erc1155
         <tr>
             <td colspan="2">
                 <b>
-                    v0.10.6
+                    v0.10.7
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.10.6
+                    v0.10.7
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add location and signature fields by @nguyer in https://github.com/hyperledger/firefly-tokens-erc1155/pull/58
-* Fix bugs with event streams by @awrichar in https://github.com/hyperledger/firefly-tokens-erc1155/pull/61
+* Remove auto-migration logic for subscriptions by @awrichar in https://github.com/hyperledger/firefly-tokens-erc1155/pull/64
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v0.10.5...v0.10.6
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v0.10.6...v0.10.7
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.10.6" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.10.7" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-03-15 19:20:49 +0000 UTC
+        Created At 2022-04-01 20:40:25 +0000 UTC
     </span>
 </div>
 
