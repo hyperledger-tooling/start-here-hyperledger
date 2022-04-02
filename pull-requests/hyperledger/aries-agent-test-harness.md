@@ -14,6 +14,95 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/465" class=".btn">#465</a>
+            </td>
+            <td>
+                <b>
+                    feat: support did:sov and did:key
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds support for RFC 0453 and RFC 0454 tests using did:sov and did:key between AFGO agents. did:key was already supported, but AFGO was actually using did:orb under the hood when issuing. Now AFGO also supports issuing with did:key dids. Also added support in ACA-Py for issuing JSON-LD creds using did:sov dids.
+
+This gives us the following support matrix:
+
+
+|        | AFGO                            | ACA-Py                          |
+|--------|---------------------------------|---------------------------------|
+| Issue  | `did:orb`, `did:key`            | `did:sov`, `did:key`            |
+| Verify | `did:orb`, `did:sov`, `did:key` | `did:orb`, `did:sov`, `did:key` |
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-01 09:42:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/464" class=".btn">#464</a>
+            </td>
+            <td>
+                <b>
+                    Changes by create-pull-request action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-01 03:23:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/463" class=".btn">#463</a>
+            </td>
+            <td>
+                <b>
+                    Fix repository references
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - The GitHub data for scheduled workflows does not contain the github.event.repository attributes.  Therefore the repository name needs to be parsed from the repository attribute.
+
+Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 13:31:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/462" class=".btn">#462</a>
             </td>
             <td>
