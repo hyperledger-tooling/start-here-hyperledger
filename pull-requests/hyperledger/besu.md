@@ -86,9 +86,9 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
                 
             </td>
             <td>
-                Some instantiation of `CommandLine` were throwing errors, because the were not using `BesuCommandCustomFactory` to create the necessary `VersionProvider`, which is recently needed by subcommands as well.
+                Some instantiation of `CommandLine` were throwing errors, because the were not using `BesuCommandCustomFactory` to create the necessary `VersionProvider`, which is a recent requirement for subcommands.
 
-Instead of creating new `CommandLine`instances the PR reuses the existing objects, which are already correctly configured.
+Instead of creating new `CommandLine`instances, the PR reuses the existing objects, which are already correctly configured.
 
 Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
 
