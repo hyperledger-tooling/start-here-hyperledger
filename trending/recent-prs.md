@@ -1,13 +1,13 @@
 
-[658](https://github.com/hyperledger/firefly/pull/658) Refactor OpenAPI Spec generation
+[269](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/269) [Snyk] Upgrade @formatjs/intl-displaynames from 5.2.4 to 5.4.2
 
-[18](https://github.com/hyperledger-labs/yui-docs/pull/18) Bump minimist from 1.2.5 to 1.2.6 in /docsrcs/yui-ibc-solidity
+[268](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/268) [Snyk] Upgrade @formatjs/intl-datetimeformat from 4.2.4 to 4.5.2
 
-[2049](https://github.com/hyperledger/iroha/pull/2049) [feature] #2048: Add toolchain file
+[267](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/267) [Snyk] Upgrade @react-native-async-storage/async-storage from 1.15.11 to 1.16.1
 
-[513](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/513) Implement token query server, remove automatic retire date, some UI cleanup
+[266](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/266) [Snyk] Upgrade react-i18next from 11.13.0 to 11.15.6
 
-[1706](https://github.com/hyperledger/aries-cloudagent-python/pull/1706) Multitenancy Docs Update
+[265](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/265) [Snyk] Upgrade i18next from 21.4.0 to 21.6.14
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
