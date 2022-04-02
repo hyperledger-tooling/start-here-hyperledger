@@ -92,29 +92,3 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3209" class=".btn">#3209</a>
-            </td>
-            <td>
-                <b>
-                    fix: outbound didcomm v2 messages always have 'body' and 'from' fields
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-25 20:31:47 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/87" class=".btn">#87</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/88" class=".btn">#88</a>
             </td>
             <td>
                 <b>
-                    Update README, small fix for trivy html template
+                    Ip tables
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                fixes #86
-
-Signed-off-by: Guido Wischrop <Guido.Wischrop@mgm-tp.com>
+                improved iptables script + removed ID IPs file, see https://wiki.hyperledger.org/pages/viewpage.action?pageId=62245960
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-22 14:30:34 +0000 UTC
+        Created At 2022-04-01 08:16:48 +0000 UTC
     </div>
 </div>
 

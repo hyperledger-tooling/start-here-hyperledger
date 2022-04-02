@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1956" class=".btn">#1956</a>
+            </td>
+            <td>
+                <b>
+                    feat(corda4): implement monitoring of state changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add new endpoints to corda kotlin server used to start and stop monitoring, and get/clean state changes from its internal buffer.
+- Add reactive watchBlocksV1 that polls kotlin server and reports new transactions asynchronously.
+- Add CordaApiClient support to VerifierClient.
+- Add functional test for both monitoring interfaces.
+- Update corda setup in corda-all-in-one to newer version.
+
+Closes: #1610
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 17:31:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1955" class=".btn">#1955</a>
             </td>
             <td>

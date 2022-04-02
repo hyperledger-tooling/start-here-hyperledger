@@ -14,11 +14,105 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/692" class=".btn">#692</a>
+            </td>
+            <td>
+                <b>
+                    feat: add role and method to did record tags
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+
+Adds the `role` and `method` to the `DidRecord` tags. This will make it easier to integrate the did registrar module later one without needing to resave all did records.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 13:25:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/691" class=".btn">#691</a>
+            </td>
+            <td>
+                <b>
+                    feat: delete credential from wallet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As discussed in #602, deleting a credential can now also be deleted from the wallet. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 11:57:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/690" class=".btn">#690</a>
+            </td>
+            <td>
+                <b>
+                    feat: add update assistant for storage migrations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds an `UpdateAssistant` that can help with updating AFJ storage to newer versions. If the agent is initialized with an older storage version than the framework an error is thrown and the agent can't be initialized. See the updating.md doc for examples on how to use the update assistant to update agent storage.
+
+I've also added an autoUpdateOnStartup parameter that will auto update the agent storage on initialization. Would like to have a discussion about this during the WG call whether this is desired or what the most optimal flow would be for updating the agent.
+
+I've added two migrations for now, we can add more once the PRs are merged:
+- update the role in mediation record
+- update the metadata object in the credential record to the new format
+
+The changes are well documented in the `0.1-to-0.2` document. This currently contains only breaking storage changes, but should be updated with breaking code changes also.
+
+A backup will be created when starting the agent, and it will be restored if the migration failed.
+
+I spent _A LOT_ of time on testing to make sure nothing goes wrong here as that can lead to nasty situations. Every migration has extensive tests and there are also quite some tests for the e2e flow.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-31 10:50:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/689" class=".btn">#689</a>
             </td>
             <td>
                 <b>
-                    Fix: did sov service type resolving
+                    fix: did sov service type resolving
                 </b>
             </td>
         </tr>
@@ -230,77 +324,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-03-26 12:07:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/682" class=".btn">#682</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump minimist from 1.2.5 to 1.2.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Bumps [minimist](https://github.com/substack/minimist) from 1.2.5 to 1.2.6.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/substack/minimist/commit/7efb22a518b53b06f5b02a1038a88bd6290c2846"><code>7efb22a</code></a> 1.2.6</li>
-<li><a href="https://github.com/substack/minimist/commit/ef88b9325f77b5ee643ccfc97e2ebda577e4c4e2"><code>ef88b93</code></a> security notice for additional prototype pollution issue</li>
-<li><a href="https://github.com/substack/minimist/commit/c2b981977fa834b223b408cfb860f933c9811e4d"><code>c2b9819</code></a> isConstructorOrProto adapted from PR</li>
-<li><a href="https://github.com/substack/minimist/commit/bc8ecee43875261f4f17eb20b1243d3ed15e70eb"><code>bc8ecee</code></a> test from prototype pollution PR</li>
-<li>See full diff in <a href="https://github.com/substack/minimist/compare/1.2.5...1.2.6">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=minimist&package-manager=npm_and_yarn&previous-version=1.2.5&new-version=1.2.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-framework-javascript/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-25 20:37:03 +0000 UTC
     </div>
 </div>
 
