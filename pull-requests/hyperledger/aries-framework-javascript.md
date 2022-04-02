@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/695" class=".btn">#695</a>
+            </td>
+            <td>
+                <b>
+                    Feat/jsonld credentials
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This (WIP) PR adds the low level functionality required for the issuance and verification of W3C - JSON-LD based credentials. It also adds cryptographic support for the Ed25519 Signature 2018 and BBS+ Signatures 2020 suites.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-02 14:03:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/692" class=".btn">#692</a>
             </td>
             <td>
