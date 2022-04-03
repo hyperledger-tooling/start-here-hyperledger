@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-ca
             </td>
             <td>
                 <b>
-                    Minor type
+                    Minor typo in operations guide of /docs
                 </b>
             </td>
         </tr>
@@ -51,7 +51,7 @@ Minor typo in documentation, config is targeted or peer2 instead of peer1.
             </td>
             <td>
                 <b>
-                    Wrong path
+                    Wrong path in operations guide of /docs
                 </b>
             </td>
         </tr>
