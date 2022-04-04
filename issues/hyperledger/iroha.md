@@ -14,6 +14,34 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/2000" class=".btn">2000</a>
+            </td>
+            <td>
+                <b>
+                    Disallow empty `Identifiers`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">help wanted</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                At the moment it is allowed to create empty `Name`, `DomainId`, `AccountId`, etc. Should we continue to allow empty string identifiers or should we forbid them. What about using `Option`? 
+
+It should be noted that empty string is a well defined identifier
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 08:14:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/1996" class=".btn">1996</a>
             </td>
             <td>
