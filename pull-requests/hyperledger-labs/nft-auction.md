@@ -272,29 +272,3 @@ Signed-off-by: Dilip Manjunatha <dilidssn@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/12" class=".btn">#12</a>
-            </td>
-            <td>
-                <b>
-                    solved spinner issue in form submit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sahinul Haque <sahinul.haque@itpeoplecorp.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-28 15:01:16 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/738" class=".btn">#738</a>
+            </td>
+            <td>
+                <b>
+                    fix exchange logo via sysprops
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - activating arm64 build again
+- fixed that it is not possible to exchange the logo via sysprops
+- updated readme
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/738"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-04 14:48:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/737" class=".btn">#737</a>
             </td>
             <td>
@@ -71,36 +105,6 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </table>
     <div class="right-align">
         Created At 2022-04-01 13:08:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/732" class=".btn">#732</a>
-            </td>
-            <td>
-                <b>
-                    Update README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Environment variable listed for `AGENT_SEED` is incorrect I believe.
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/732"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-31 21:13:59 +0000 UTC
     </div>
 </div>
 

@@ -223,8 +223,6 @@ This situation looks a bit like `clippy` problem with multiple sub-crates, so th
 
 ### Description of the Change
 
-**Do not merge into pre-rc3**. 
-
 Non-mintable assets are now registered as `Mintable::Once` and can be minted precisely once. 
 
 ### Issue

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3683" class=".btn">#3683</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/3686" class=".btn">#3686</a>
             </td>
             <td>
                 <b>
-                    fix tests
+                    snapshot version
                 </b>
             </td>
         </tr>
@@ -27,30 +27,12 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+                Signed-off-by: Justin Florentine <justin+github@florentine.us>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-04 10:02:12 +0000 UTC
+        Created At 2022-04-04 18:09:32 +0000 UTC
     </div>
 </div>
 
@@ -58,11 +40,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3681" class=".btn">#3681</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/3685" class=".btn">#3685</a>
             </td>
             <td>
                 <b>
-                    Snap pipeline
+                    added issue 3646 to changelog
                 </b>
             </td>
         </tr>
@@ -71,10 +53,49 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+                Signed-off-by: Justin Florentine <justin+github@florentine.us>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-04 17:01:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3684" class=".btn">#3684</a>
+            </td>
+            <td>
+                <b>
+                    Update storage for snapsync and fastsync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+Modification of the behavior of bonsai storage  in order to avoid deleting everything between two pivot blocks.
+The flat database will be deleted between two pivot blocks. And the trie will be used when data is not available in the flat database. During the next writing of this data it will be put automatically in the flat for a faster reading.
+
+This will cause a reduction of the size of the database. Because we will not have data never called in the flat database.
+
+But this may reduce the reading speed when accessing data for the first time. 
+
+For now it will be only activated for snapsync. To check if it's working well  
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -92,7 +113,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-04 08:46:08 +0000 UTC
+        Created At 2022-04-04 14:20:22 +0000 UTC
     </div>
 </div>
 
