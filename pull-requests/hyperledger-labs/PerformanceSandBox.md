@@ -38,32 +38,3 @@ Signed-off-by: Sam Yuan <yy19902439@126.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/38" class=".btn">#38</a>
-            </td>
-            <td>
-                <b>
-                    Feat: for i18n document did translation into chinese language
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added all the doc folders files into docs/locale/zh_CN folder in Chinese translation
-Related issue: https://github.com/hyperledger-labs/PerformanceSandBox/issues/16
-
-Signed-off-by: sheetalj2205 <sheetalj2205@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-28 10:22:12 +0000 UTC
-    </div>
-</div>
-

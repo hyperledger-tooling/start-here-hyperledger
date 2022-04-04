@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/315" class=".btn">#315</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/317" class=".btn">#317</a>
             </td>
             <td>
                 <b>
-                    Replace RocketChat with Discord
+                    Build failure - ignorable warning not ignored
                 </b>
             </td>
         </tr>
@@ -27,12 +27,25 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                Recent builds have failed with the browserlist module reporting
+(on stderr) that it was outdated. This is a dependency of nyc, code coverage.
+
+nyc is 'resting' and not actively being maintained.
+
+Rush version used here is not ignoring that warning, and build fails.
+
+Can't alter the rush rebuild command to ignore warnings. It's really
+just going on anything written to stderr.
+
+So adding a redirect on the nyc command stderr-> stdout (2>&1)
+Have checked that a drop in coverage does still cause a failure.
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-23 10:26:03 +0000 UTC
+        Created At 2022-04-04 08:24:20 +0000 UTC
     </div>
 </div>
 

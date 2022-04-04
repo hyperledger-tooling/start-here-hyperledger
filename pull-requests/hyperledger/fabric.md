@@ -436,36 +436,3 @@ No related issues. Quite a small change.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3304" class=".btn">#3304</a>
-            </td>
-            <td>
-                <b>
-                    Remove added mistake by vim?
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Type of change**
-
-- Documentation update
-
-**Description**
-
-typo in text removed
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-28 09:28:29 +0000 UTC
-    </div>
-</div>
-

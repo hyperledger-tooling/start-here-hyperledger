@@ -36,30 +36,3 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/20" class=".btn">#20</a>
-            </td>
-            <td>
-                <b>
-                    Fabric Config - chaincode and block to accept List instead of comma-separated string
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: n0p0328 <nithin.pankaj@walmartlabs.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-28 12:24:12 +0000 UTC
-    </div>
-</div>
-
