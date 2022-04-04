@@ -58,6 +58,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
 
 Some questions around
 1. How do we support importing a key pair into the wallet as mentioned in the Issue
+2. Should I add seed in the schema of wallet/did/create ? . I don't think we can add conditional schemas according to startup parameter.  I can have it as an optional field.
             </td>
         </tr>
     </table>
