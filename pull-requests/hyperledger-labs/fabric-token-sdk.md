@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    nwo token enhacements:
+                    nwo token enhancements 
                 </b>
             </td>
         </tr>
