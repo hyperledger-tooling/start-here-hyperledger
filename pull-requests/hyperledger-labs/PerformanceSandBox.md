@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/45" class=".btn">#45</a>
+            </td>
+            <td>
+                <b>
+                    Dashboard
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                resolve #41
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-04 15:45:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/39" class=".btn">#39</a>
             </td>
             <td>
