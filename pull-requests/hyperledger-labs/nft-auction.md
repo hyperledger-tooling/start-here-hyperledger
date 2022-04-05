@@ -246,29 +246,3 @@ Signed-off-by: Dilip Manjunatha <dilidssn@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/13" class=".btn">#13</a>
-            </td>
-            <td>
-                <b>
-                    Add fn in CC to get nft object
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Dilip Manjunatha <dilidssn@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-29 06:21:48 +0000 UTC
-    </div>
-</div>
-
