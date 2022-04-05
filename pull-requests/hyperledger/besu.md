@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3687" class=".btn">#3687</a>
+            </td>
+            <td>
+                <b>
+                    Prep for 22.4.0-RC2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+* Add download links
+* update version number
+* update changelog
+  * one critical change was missed (was not included in original pr)
+  * add note about Java 17 migration.
+
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-04 19:40:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3686" class=".btn">#3686</a>
             </td>
             <td>
@@ -885,34 +927,6 @@ This PR modify the bonsai implementation in order to avoid having nullpointer ex
     </table>
     <div class="right-align">
         Created At 2022-03-29 09:20:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3638" class=".btn">#3638</a>
-            </td>
-            <td>
-                <b>
-                    Improving backwards sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previous implementation of backward sync only saved the headers and block bodies to disk. This PR combines the structure of backward sync chain into one dequeue, together with storing the chain on the disk and retrieving it back. 
-
-This is an intermediate change before a stage where the majority of Backward sync will be stored on disk most of the time. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-28 21:48:21 +0000 UTC
     </div>
 </div>
 

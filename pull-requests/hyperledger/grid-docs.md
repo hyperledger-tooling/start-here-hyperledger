@@ -39,32 +39,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/329" class=".btn">#329</a>
-            </td>
-            <td>
-                <b>
-                    Add design doc for one-round serial queuer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add details of algorithm and implementation of one-round serial queuing
-strategy.
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-28 18:37:16 +0000 UTC
-    </div>
-</div>
-
