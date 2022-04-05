@@ -166,29 +166,3 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/16" class=".btn">#16</a>
-            </td>
-            <td>
-                <b>
-                    Update error catching
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Dilip Manjunatha <dilidssn@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-29 17:04:43 +0000 UTC
-    </div>
-</div>
-

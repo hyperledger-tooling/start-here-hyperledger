@@ -1,13 +1,13 @@
 
-[2057](https://github.com/hyperledger/iroha/pull/2057) [refactor]: Remove unnecessary `&mut` from the API.
+[1711](https://github.com/hyperledger/aries-cloudagent-python/pull/1711) Fixes for v7.3.0 - Issue#1597
 
-[302](https://github.com/hyperledger-labs/fablo/pull/302) Bump tar from 4.4.13 to 4.4.19 in /samples/chaincodes/chaincode-kv-node
+[516](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/516) some UI changes, initial Hedera deploy script
 
-[301](https://github.com/hyperledger-labs/fablo/pull/301) Bump color-string from 1.5.3 to 1.9.0 in /samples/chaincodes/chaincode-kv-node
+[283](https://github.com/hyperledger/fabric-ca/pull/283) Undo breaking changes to exported packages
 
-[262](https://github.com/hyperledger-labs/fabric-smart-client/pull/262) Remove wrong rlock release
+[3692](https://github.com/hyperledger/besu/pull/3692) Add group heading to command options 
 
-[300](https://github.com/hyperledger-labs/fablo/pull/300) V1.0.2
+[1710](https://github.com/hyperledger/aries-cloudagent-python/pull/1710) feat: support connectionless exchange
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
