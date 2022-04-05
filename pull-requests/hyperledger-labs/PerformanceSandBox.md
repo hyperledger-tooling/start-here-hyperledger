@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
             </td>
             <td>
                 <b>
-                    Dashboard
+                    Add document for Read Latency and Transaction Latency as usage
                 </b>
             </td>
         </tr>
@@ -28,6 +28,7 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
             </td>
             <td>
                 resolve #41
+resolve #42
             </td>
         </tr>
     </table>
