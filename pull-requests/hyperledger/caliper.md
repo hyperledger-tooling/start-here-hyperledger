@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1298" class=".btn">#1298</a>
+            </td>
+            <td>
+                <b>
+                    Peer Gateway: Added Connector Selector implementation modifications to support the new Peer Gateway Connector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - added logic to pick new Peer Gateway connector in the connector selector in FabriConnectorFactory.js 
+- added 2.4 fabric SUT version with binding packages in .config.yaml
+- added last fixes for the Peer Gateway connector implementation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-05 10:50:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1297" class=".btn">#1297</a>
+            </td>
+            <td>
+                <b>
+                    Update the usage examples to more appropriate versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The documentation in vNext will also be updated in line with this
+change.
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-05 09:41:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1295" class=".btn">#1295</a>
             </td>
             <td>
@@ -75,35 +133,6 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-03-30 14:59:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1290" class=".btn">#1290</a>
-            </td>
-            <td>
-                <b>
-                    remove latency values if no successful txns in final report
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #1065
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-29 11:09:08 +0000 UTC
     </div>
 </div>
 

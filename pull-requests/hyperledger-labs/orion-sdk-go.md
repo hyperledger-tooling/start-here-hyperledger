@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/128" class=".btn">#128</a>
-            </td>
-            <td>
-                <b>
-                    Improve DB create unit test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Check creating the same DB twice.
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-29 12:15:13 +0000 UTC
-    </div>
-</div>
-

@@ -14,25 +14,27 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/260" class=".btn">#260</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/262" class=".btn">#262</a>
             </td>
             <td>
                 <b>
-                    README update with clone instructions 
+                    Remove wrong rlock release
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
-                <nil>
+                This PR addresses a bug in the KVS, where a RLock release is called on a unlocked lock.
+
+Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-29 08:34:41 +0000 UTC
+        Created At 2022-04-05 11:31:06 +0000 UTC
     </div>
 </div>
 
