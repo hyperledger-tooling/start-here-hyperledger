@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1709" class=".btn">#1709</a>
+            </td>
+            <td>
+                <b>
+                    run_docker start - specify argument from environment variables
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
+- resolve #1330 
+- @MonolithicMonk I think you are starting ACA-Py agent from `./scripts/run_docker start ...`. You can either specify the environment variables in `./scripts/run_docker` by adding each one of them as something like:
+```
+$CONTAINER_RUNTIME run --rm -ti --name "aries-cloudagent-runner_${RAND_NAME}" \
+-e ACAPY_OUTBOUND_TRANSPORT=http -e ACAPY_INBOUND_TRANSPORT=[[\"http\",\"0.0.0.0\",\"8021\"],[\"ws\",\"0.0.0.0\",\"8023\"]] \
+    $ARGS aries-cloudagent-run "$@"
+```
+- Another option [if this PR is approved and merged], is just to export the `environment variable` as usual. Updated script will go through all the `environment variables`, extract all with `*ACAPY_*` and `*=*` pattern match and add them to `docker run ... -e env_var -e env_var .....`.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-04 19:48:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1706" class=".btn">#1706</a>
             </td>
             <td>
@@ -148,92 +183,6 @@ record without reading it from storage.
     </table>
     <div class="right-align">
         Created At 2022-03-29 23:09:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1697" class=".btn">#1697</a>
-            </td>
-            <td>
-                <b>
-                    platform target in run tests.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                @dbluhm suggested seeing if adding a platform target would allow docker to run the test scripts, which worked. I expect more changes for complete mac m1 development support but this seems to be a good starting point.
-
-Signed-off-by: Adam Burdett <burdettadam@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-28 22:38:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1696" class=".btn">#1696</a>
-            </td>
-            <td>
-                <b>
-                    Endorser support for updating DID endpoints on ledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                As stated in #1447, the changes by Harsh fix an issue where ACA-Py could not publish ATTRIB records because they were not signed by the endorser. We need those changes in for 0.7.4 if possible, but PR #1616 has not seen any updates and has merge conflicts with the latest changes in main. I have attempted to fix those merge conflicts and make the requested changes from @ianco in that PR, as well as fix all the unit test failures. 
-
-This closes #1616. I am not sure if more work is needed for #1447.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-28 22:08:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1694" class=".btn">#1694</a>
-            </td>
-            <td>
-                <b>
-                    Feature/undelivered events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds in a number of events which are emitted when a message is undelivered.
-
-These events can be leveraged by plugins to take certain actions when messages are undelivered, such as writing the message to a persistent queue, sending a push notification to a mobile device that attempted to send the message, or some other action.
-
-The events leverage the existing `OutboundSendStatus` states and don’t supersede the current return value. The `OutboundSendStatus` is still returned within ACA-Py as it has been, so this shouldn’t impact any existing functionality, but I’d be happy to hear any concerns I’ve not thought of. Thanks to @dbluhm for his feedback prior to this PR being opened. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-28 19:07:09 +0000 UTC
     </div>
 </div>
 

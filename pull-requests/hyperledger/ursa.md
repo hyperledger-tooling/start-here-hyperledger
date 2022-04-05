@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/200" class=".btn">#200</a>
+                PR <a href="https://github.com/hyperledger/ursa/pull/203" class=".btn">#203</a>
             </td>
             <td>
                 <b>
-                    Remove libsodium and time dependencies
+                    Ursa core
                 </b>
             </td>
         </tr>
@@ -32,35 +32,7 @@ permalink: /pull-requests/hyperledger/ursa
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-06 22:21:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/198" class=".btn">#198</a>
-            </td>
-            <td>
-                <b>
-                    Fix 'cl' feature, warnings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Compilation currently fails when the `cl` feature is enabled due to the `digest` dependency being updated previously.
-
-Also fixed some warnings and skipped tests around the optional `serde` feature and non-existent `serialization` feature.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-05 23:28:10 +0000 UTC
+        Created At 2022-04-04 19:12:27 +0000 UTC
     </div>
 </div>
 
