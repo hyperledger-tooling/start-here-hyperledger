@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/Scorex
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/Scorex/pull/400" class=".btn">#400</a>
+                PR <a href="https://github.com/hyperledger-labs/Scorex/pull/401" class=".btn">#401</a>
             </td>
             <td>
                 <b>
-                    Add snapshot and release publishing jobs to CI
+                    Archive lab
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/Scorex
                 
             </td>
             <td>
-                This PR adds:
-- publishing a snapshot version if tests are green;
-- publishing a release version, triggered by a GitHub release;
+                Archived labs are read-only, and they can be moved back out of the archives, if there is interest in reviving them.
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-27 07:24:34 +0000 UTC
+        Created At 2022-04-06 18:03:16 +0000 UTC
     </div>
 </div>
 

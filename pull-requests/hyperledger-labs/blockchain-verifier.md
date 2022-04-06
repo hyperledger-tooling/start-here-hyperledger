@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/17" class=".btn">#17</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/18" class=".btn">#18</a>
             </td>
             <td>
                 <b>
-                    Add HLF v2.4.0 to the target versions of the integration tests
+                    Archive lab.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                This patch adds Hyperledger Fabric v2.4.0 to the target versions of the integration tests.
+                Archived labs are read-only, and they can be moved back out of the archives, if there is interest in reviving them.
+    
+Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-30 08:34:29 +0000 UTC
+        Created At 2022-04-06 18:19:57 +0000 UTC
     </div>
 </div>
 

@@ -1,24 +1,24 @@
 ---
 layout: default
-title: avalon-sdk-py
+title: modern-pharmacy-management
 parent: Hyperledger Labs
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger-labs/avalon-sdk-py
+permalink: /pull-requests/hyperledger-labs/modern-pharmacy-management
 ---
 
-# avalon-sdk-py <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/avalon-sdk-py){: .btn .mr-4 }</span>
+# modern-pharmacy-management <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/modern-pharmacy-management){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/avalon-sdk-py/pull/21" class=".btn">#21</a>
+                PR <a href="https://github.com/hyperledger-labs/modern-pharmacy-management/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    Archive lab.
+                    Archive lab
                 </b>
             </td>
         </tr>
@@ -28,13 +28,13 @@ permalink: /pull-requests/hyperledger-labs/avalon-sdk-py
             </td>
             <td>
                 Archived labs are read-only, and they can be moved back out of the archives, if there is interest in reviving them.
-    
-Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-06 17:23:17 +0000 UTC
+        Created At 2022-04-06 18:16:43 +0000 UTC
     </div>
 </div>
 

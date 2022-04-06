@@ -27,7 +27,15 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                Signed-off-by: Lucas Steuernagel <lucas.tnagel@gmail.com>
+                This PR implements the following refactoring to improve compatibility between Solidity Functions and Yul functions so that we can share the same CFG structures for them both.
+
+1. Parameters are now saved in an `Arc<Vec<Parameter>>>`, because they are shared between `Function`/`YulFunction`, `FunctionsTable` and `ControlFlowGraph`. This way we avoid unnecessary clones from all the elements of a vector.
+2. `llvm_symbol` is now under a trait, so that we can implement the same interface for both `Function` and `YulFunction`.
+3. Yul Functions are processed in `external_functions`, so that we know which functions should be laid out at each contract.
+4. `ty_loc` is now `Option<Loc>` in `Parameter`, because Yul Function parameters might not have a specified type.
+5. Yul functions now use `Parameter` instead of `YulFunctionParameter` for saving parameters.
+6. The function number in `ControlFlowGraph` is now an enum to distinguish between Yul Functions and Solidity Functions.
+7. All Yul functions are centralized in `Namespace`. A Yul function number is its respective index in `Namespace::yul_functions`. Likewise, `FunctionsTable` in `sema/yul/functions.rs` saves such an index and works with an offset for its lookup vector.
             </td>
         </tr>
     </table>
@@ -116,32 +124,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-04-01 09:29:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/719" class=".btn">#719</a>
-            </td>
-            <td>
-                <b>
-                    Rename assembly to yul in Solang
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR refactors Solang Parser. We decided to adopt the name "YUL" for everything that refers to Solidity assembly, so we are changing the nomenclature everywhere.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 12:57:10 +0000 UTC
     </div>
 </div>
 

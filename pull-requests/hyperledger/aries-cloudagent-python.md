@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1716" class=".btn">#1716</a>
+            </td>
+            <td>
+                <b>
+                    Fix order of operations connecting faber to endorser
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+Fixes issue: https://github.com/hyperledger/aries-cloudagent-python/issues/1703
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-06 15:41:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1715" class=".btn">#1715</a>
+            </td>
+            <td>
+                <b>
+                    run_docker start - pass environment variables
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
+- resolve #1330 
+- Closed PR #1709, there were issues applying `fixup` during rebase to cleanup commit history. I thought it is safer to recreate the PR as it has minor changes.
+
+@MonolithicMonk ACAPY_INBOUND_TRANSPORT should be specified as `ACAPY_INBOUND_TRANSPORT=[[\"http\",\"0.0.0.0\",\"8021\"]]` and not as `ACAPY_INBOUND_TRANSPORT=[["http","0.0.0.0","8021"]]`
+
+You can pass environment variables using `ENV_VARS` variable [similar to `PORTS`]. For your reference:
+```
+PORTS="5002 8002" ENV_VARS="ACAPY_INBOUND_TRANSPORT=[[\"http\",\"0.0.0.0\",\"8021\"]]" \ 
+./scripts/run_docker start ......
+``` 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-06 14:42:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1714" class=".btn">#1714</a>
             </td>
             <td>
@@ -112,41 +177,6 @@ Keeping it in draft until I know for sure all CI tests have passed (can't run al
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1709" class=".btn">#1709</a>
-            </td>
-            <td>
-                <b>
-                    run_docker start - specify argument from environment variables
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Shaanjot Gill <shaangill025@users.noreply.github.com>
-- resolve #1330 
-- @MonolithicMonk I think you are starting ACA-Py agent from `./scripts/run_docker start ...`. You can either specify the environment variables in `./scripts/run_docker` by adding each one of them as something like:
-```
-$CONTAINER_RUNTIME run --rm -ti --name "aries-cloudagent-runner_${RAND_NAME}" \
--e ACAPY_OUTBOUND_TRANSPORT=http -e ACAPY_INBOUND_TRANSPORT=[[\"http\",\"0.0.0.0\",\"8021\"],[\"ws\",\"0.0.0.0\",\"8023\"]] \
-    $ARGS aries-cloudagent-run "$@"
-```
-- Another option [if this PR is approved and merged], is just to export the `environment variable` as usual. Updated script will go through all the `environment variables`, extract all with `*ACAPY_*` and `*=*` pattern match and add them to `docker run ... -e env_var -e env_var .....`.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-04 19:48:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1706" class=".btn">#1706</a>
             </td>
             <td>
@@ -197,34 +227,6 @@ Some questions around
     </table>
     <div class="right-align">
         Created At 2022-04-01 10:56:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1702" class=".btn">#1702</a>
-            </td>
-            <td>
-                <b>
-                    Add auto_verify flag in present-proof protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: DaevMithran <daevmithran1999@gmail.com>
-
-Fix [https://github.com/hyperledger/aries-cloudagent-python/issues/1698](url)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 12:57:29 +0000 UTC
     </div>
 </div>
 

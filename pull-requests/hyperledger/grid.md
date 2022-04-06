@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/grid
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
+                <span class="chip">main</span>
             </td>
             <td>
                 This implements the `change_batch_to_submitted` DB operation for the
@@ -116,44 +116,6 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-03-30 20:33:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1361" class=".btn">#1361</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT 0.3: Update grid integration test cache dirs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previously the tests used $CARGO_MANIFEST/tmp as a temporary directory
-by default. This change updates the tests to instead create and use a
-dir grid-integration-tests/ in the standard Rust environment temp
-directory.
-
-This change also updates the tests to optionally use an environment
-variable for the cache directory, and updates the test dockerfile to set
-the variable to /var/cache/grid. This should allow CI to persist the
-cache from a stable and standard location between runs.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
-
-Backport of: https://github.com/hyperledger/grid/pull/1305
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 14:58:01 +0000 UTC
     </div>
 </div>
 
