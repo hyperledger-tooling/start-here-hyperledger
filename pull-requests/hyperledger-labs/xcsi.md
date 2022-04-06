@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/xcsi
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/xcsi/pull/7" class=".btn">#7</a>
+                PR <a href="https://github.com/hyperledger-labs/xcsi/pull/8" class=".btn">#8</a>
             </td>
             <td>
                 <b>
-                    Update README.md
+                    Archive lab
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/xcsi
                 
             </td>
             <td>
-                Added some text about serialization/deserialization
+                Archived labs are read-only, and they can be moved back out of the archives, if there is interest in reviving them.
 
-signed off by: vipinsun@gmail.com
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-10 15:08:27 +0000 UTC
+        Created At 2022-04-06 17:56:52 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1301" class=".btn">#1301</a>
+            </td>
+            <td>
+                <b>
+                    [Doc] Mainly address install docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. replace reference to rocketchat with discord
+2. Tweak the 0.4.2 install docs to reference 0.4.2 and remove references
+to fabric 1.4 (replace with 2.2 as appropriate)
+3. Redo the vNext docs incorporating the 0.4.2 tweaks but also move
+installing caliper source to contribution guide
+4. remove IBM Plex Mono for code examples as it doesn't appear to align
+properly
+5. remove the documented latest options for bindings as this could be
+confusing especially as besu is at 22.x.x release now and we only
+support 1.4 as the latest
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-06 12:55:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1298" class=".btn">#1298</a>
             </td>
             <td>
@@ -101,38 +139,6 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-04-01 13:14:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1292" class=".btn">#1292</a>
-            </td>
-            <td>
-                <b>
-                    fix RecordRate rate controller
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Addresses the record rate controller as it doesn't work and causes a
-node stack overflow
-
-closes #1131
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 14:59:53 +0000 UTC
     </div>
 </div>
 

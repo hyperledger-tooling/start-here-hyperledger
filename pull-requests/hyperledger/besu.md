@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3703" class=".btn">#3703</a>
+            </td>
+            <td>
+                <b>
+                    Add flag for snapsync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">snapsync</span>
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+We start adding the flags for the snapsync. Most are experimental flags because normally the user doesn't have to change the values. But it can be used to change the values if needed or to tune performance.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-06 14:32:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3701" class=".btn">#3701</a>
             </td>
             <td>
@@ -149,7 +195,9 @@ Instead of throwing, log IllegalStateException and the enode that was being chec
 ## PR description
 Address a post-merge case where we have transitioned to the post-merge rules, but need to import pre-merge blocks due to a reorg ahead of finalization.
 
-BackwardSync is the only mechanism that should be able to reorg below TTD post merge, this PR creates a method In TransitionProtocolSchedule to get ProtocolSpec by block rather than by number.  BackwardSyncContext then gets a TransitionBackwardSyncContext subclass that will use this function (without dragging merge consensus into the core ethereum subproject where BackwardSync lives). This backward sync subclass can be removed post-merge with the rest of the transition-by-difficulty code removal.
+BackwardSync is the only mechanism that should be able to reorg below TTD post merge, this PR creates a method In TransitionProtocolSchedule to get ProtocolSpec by block rather than by number.  
+
+TransitionBackwardSyncContext is a transition specific subclass of BackwardSyncContext that leverages the protocol spec by block (without dragging merge consensus into the core ethereum subproject where BackwardSync lives). This backward sync subclass can be removed post-merge with the rest of the transition-by-difficulty code removal.
 
 CURRENTLY DRAFT while writing test coverage.
 
@@ -930,79 +978,6 @@ Clarify messages around "no useful peers found"
     </table>
     <div class="right-align">
         Created At 2022-03-30 23:25:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3657" class=".btn">#3657</a>
-            </td>
-            <td>
-                <b>
-                    handle jwt keys with either 0x or not
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 15:36:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3656" class=".btn">#3656</a>
-            </td>
-            <td>
-                <b>
-                    Add snap pipeline
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">snapsync</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR adds the majority of  classes related to the snapsync pipeline. More tests will be added later.
-There will be a dedicated PR to delete hard values in order to add configuration flags 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 13:50:53 +0000 UTC
     </div>
 </div>
 

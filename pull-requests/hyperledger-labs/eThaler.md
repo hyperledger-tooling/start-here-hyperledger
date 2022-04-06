@@ -1,20 +1,20 @@
 ---
 layout: default
-title: avalon-sdk-py
+title: eThaler
 parent: Hyperledger Labs
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger-labs/avalon-sdk-py
+permalink: /pull-requests/hyperledger-labs/eThaler
 ---
 
-# avalon-sdk-py <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/avalon-sdk-py){: .btn .mr-4 }</span>
+# eThaler <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/eThaler){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/avalon-sdk-py/pull/21" class=".btn">#21</a>
+                PR <a href="https://github.com/hyperledger-labs/eThaler/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
@@ -34,7 +34,7 @@ Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-06 17:23:17 +0000 UTC
+        Created At 2022-04-06 17:29:16 +0000 UTC
     </div>
 </div>
 

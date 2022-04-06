@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/703" class=".btn">#703</a>
+            </td>
+            <td>
+                <b>
+                    Java chaincode implementation for ERC721 standard token.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Java chaincode implementation for ERC721 standard token. It follows the same standard as the existing implementation in javascript and go.
+
+Signed-off-by: renjithkn@gmail.com <renjithkn@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-06 17:28:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/700" class=".btn">#700</a>
             </td>
             <td>
@@ -131,65 +159,6 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-03-31 16:55:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/694" class=".btn">#694</a>
-            </td>
-            <td>
-                <b>
-                    fix chaincode breakage in asset-transfer-basic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                only broken in main branch, not in release-2.2
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 16:36:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/693" class=".btn">#693</a>
-            </td>
-            <td>
-                <b>
-                    [release-2.2] Missing await in asset-transfer-basic chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Missing an `await` on the asset-transfer-basic javascript chaincode.
-
-This has been fixed in the main branch but needs to be fixed in the
-release-2.2 branch
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 14:38:35 +0000 UTC
     </div>
 </div>
 

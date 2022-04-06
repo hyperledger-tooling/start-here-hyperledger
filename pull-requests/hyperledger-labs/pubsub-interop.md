@@ -14,70 +14,66 @@ permalink: /pull-requests/hyperledger-labs/pubsub-interop
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pubsub-interop/pull/20" class=".btn">#20</a>
+                PR <a href="https://github.com/hyperledger-labs/pubsub-interop/pull/21" class=".btn">#21</a>
             </td>
             <td>
                 <b>
-                    Bump minimist from 1.2.5 to 1.2.6 in /example-subscriber/besu/client
+                    Archive lab
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                
             </td>
             <td>
-                Bumps [minimist](https://github.com/substack/minimist) from 1.2.5 to 1.2.6.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/substack/minimist/commit/7efb22a518b53b06f5b02a1038a88bd6290c2846"><code>7efb22a</code></a> 1.2.6</li>
-<li><a href="https://github.com/substack/minimist/commit/ef88b9325f77b5ee643ccfc97e2ebda577e4c4e2"><code>ef88b93</code></a> security notice for additional prototype pollution issue</li>
-<li><a href="https://github.com/substack/minimist/commit/c2b981977fa834b223b408cfb860f933c9811e4d"><code>c2b9819</code></a> isConstructorOrProto adapted from PR</li>
-<li><a href="https://github.com/substack/minimist/commit/bc8ecee43875261f4f17eb20b1243d3ed15e70eb"><code>bc8ecee</code></a> test from prototype pollution PR</li>
-<li>See full diff in <a href="https://github.com/substack/minimist/compare/1.2.5...1.2.6">compare view</a></li>
-</ul>
-</details>
-<br />
+                Archived labs are read-only, and they can be moved back out of the archives, if there is interest in reviving them.
+
+Signed-off-by: Ry Jones <ry@linux.com>
+
+### Description
+Include a summary of the change and relevant motivation/context. List any dependencies that are required for this change.
+
+Fixes # [ISSUE]
+
+### Type of Change:
+**Delete irrelevant options.**
+
+- Code
+- Quality Assurance
+- User Interface
+- Outreach
+- Documentation
+
+**Code/Quality Assurance Only**
+- Bug fix (non-breaking change which fixes an issue)
+- This change requires a documentation update (software upgrade on readme file)
+- New feature (non-breaking change which adds functionality pre-approved by mentors)
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=minimist&package-manager=npm_and_yarn&previous-version=1.2.5&new-version=1.2.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+### How Has This Been Tested?
+Describe the tests you ran to verify your changes.
+If to run your tests you have to take specific steps, please provide instructions or GIFs so we can reproduce. List any relevant details for your test.
 
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
+### Checklist:
+**Delete irrelevant options.**
 
----
+- [ ] I have performed a self-review of my own code or materials
+- [ ] I have commented my code or provided relevant documentation, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
 
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
+**Code/Quality Assurance Only**
+- [ ] My changes generate no errors
+- [ ] My changes generate no warnings
+- [ ] I have added tests to my feature/fix
+- [ ] The tests I added pass locally
 
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/pubsub-interop/network/alerts).
-
-</details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-27 15:23:12 +0000 UTC
+        Created At 2022-04-06 17:58:39 +0000 UTC
     </div>
 </div>
 
