@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3695" class=".btn">#3695</a>
+            </td>
+            <td>
+                <b>
+                    Add IPC transport for JSON-RPC APIs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                ## PR description
+Adds socket interface for JSON-RPC, only supported on BSD (OSX) and Linux. This feature has been developed with the intention to reuse and unify, as much as possible, the behaviour among the other transport layers (i.e. HTTP and WS)
+
+This has been split into the following commits:
+- [HEAD~6](https://github.com/diega/besu/commit/jsonrpc_ipc~6): Extracts HTTP authentication to its own handler
+- [HEAD~5](https://github.com/diega/besu/commit/jsonrpc_ipc~5): Moves authentication handler first in the pipeline, to fail fast **(*)**
+- [HEAD~4](https://github.com/diega/besu/commit/jsonrpc_ipc~4): Replaces _timeout handler_ in GraphQL service to use the one provided by Vert.x **(*)**
+- [HEAD~4](https://github.com/diega/besu/commit/jsonrpc_ipc~4): Extracts HTTP json parse to its own handler
+- [HEAD~3](https://github.com/diega/besu/commit/jsonrpc_ipc~3): Extracts json-rpc execution logic outside of the HTTP handler
+- [HEAD~2](https://github.com/diega/besu/commit/jsonrpc_ipc~2): Refactor WS service to use the same execution logic as the HTTP service **(*)**
+- [HEAD](https://github.com/diega/besu/commit/jsonrpc_ipc): Implements IPC transport layer
+
+(*): these commits can be omitted without affecting the implementation of the IPC transport
+
+## Note
+This is a draft b/c it's still missing some items from the _acceptance criteria_
+
+## Fixed Issue(s)
+fixes #535
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-05 22:15:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3692" class=".btn">#3692</a>
             </td>
             <td>
@@ -902,64 +955,6 @@ internal variables only. no external changes required.
     </table>
     <div class="right-align">
         Created At 2022-03-30 05:35:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3649" class=".btn">#3649</a>
-            </td>
-            <td>
-                <b>
-                    Changelog typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-29 22:34:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3647" class=".btn">#3647</a>
-            </td>
-            <td>
-                <b>
-                    Updated jackson-databind to version 2.13.2.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Previsous jackson-databing version has been flagged (https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36518).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-29 21:26:53 +0000 UTC
     </div>
 </div>
 
