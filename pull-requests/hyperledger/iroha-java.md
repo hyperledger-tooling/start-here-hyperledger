@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/205" class=".btn">#205</a>
-            </td>
-            <td>
-                <b>
-                    fix ed25519-sha3-java dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 09:00:12 +0000 UTC
-    </div>
-</div>
-

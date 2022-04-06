@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/79" class=".btn">#79</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/81" class=".btn">#81</a>
             </td>
             <td>
                 <b>
-                    Add binding generation for node
+                    Initial GitHub action
                 </b>
             </td>
         </tr>
@@ -27,14 +27,42 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                Adds a node module template project and associate code generation
+                Use GitHub actions for new CI, starting with a make action on push and pull requests
 
 Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-21 18:18:42 +0000 UTC
+        Created At 2022-04-06 10:59:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/80" class=".btn">#80</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Add github pages documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Generate API documentation for the .proto files
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-06 10:01:35 +0000 UTC
     </div>
 </div>
 

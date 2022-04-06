@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1714" class=".btn">#1714</a>
+            </td>
+            <td>
+                <b>
+                    Update raise errors and add schema
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: DaevMithran <daevmithran1999@gmail.com>
+
+Updated pull request changes suggested by @TimoGlastra 
+
+- Raising an http bad request error when a seed is passed in the body and wallet-allow-insecure-seed is not enabled
+- Updated schema for wallet/did/create
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-06 11:38:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1711" class=".btn">#1711</a>
             </td>
             <td>
@@ -194,35 +225,6 @@ Fix [https://github.com/hyperledger/aries-cloudagent-python/issues/1698](url)
     </table>
     <div class="right-align">
         Created At 2022-03-30 12:57:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1701" class=".btn">#1701</a>
-            </td>
-            <td>
-                <b>
-                    Allow deleting a pres exchange item without reading it first
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Related to #1687 this allows deleting a presentation exchange
-record without reading it from storage.
-
-@shaangill025 Does it make sense to have something like this in addition to your change in #1690 to make sure we always have an option to delete an item without reading it?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 11:30:02 +0000 UTC
     </div>
 </div>
 
