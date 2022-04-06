@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+                Relocation of these packages should only have been done along with a major version change to the module.
+
+https://go.dev/doc/modules/version-numbers
+
+Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
             </td>
         </tr>
     </table>
