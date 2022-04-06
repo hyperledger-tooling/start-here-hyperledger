@@ -226,30 +226,3 @@ record without reading it from storage.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1700" class=".btn">#1700</a>
-            </td>
-            <td>
-                <b>
-                    Fix: update IndyLedgerRequestsExecutor logic - multitenancy and basic base wallet type 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                - resolve #1691 
-- Earlier `IndyLedgerRequestsExecutor` instance was retrieved by calling `profile.inject(IndyLedgerRequestsExecutor)` which would correspond to the `root_profile`. If the base `wallet_type` is basic then the `BaseLedger` instance will not be specified which caused the above issue. I have now updated the logic to create a new `IndyLedgerRequestsExecutor` instance for each sub wallet.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-29 23:09:40 +0000 UTC
-    </div>
-</div>
-
