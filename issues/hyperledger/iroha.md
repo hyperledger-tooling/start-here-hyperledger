@@ -14,6 +14,44 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/1974" class=".btn">1974</a>
+            </td>
+            <td>
+                <b>
+                    Replace `blocks()` with `visit_blocks()` in WSV
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                Right now `WorldStateView::blocks()` has locking behaviour if user stores somewhere an iterator from this function. This can be fixed by replacing it with `visit_blocks()` function, which looks something like this:
+
+```rust
+/// Visit and apply `f` for every block
+///
+/// # Errors
+/// Throws up first `f` error
+pub fn visit_blocks<F>(&self, f: F) -> Result<(), Error>
+where
+    F: Fn(&VersionedCommittedBlock) -> Result<(), Error>,
+```
+
+In this way user can't store reference to a block, cause it is passed as a function parameter and **Rust** won't allow to save references like that
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-16 10:09:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/1966" class=".btn">1966</a>
             </td>
             <td>
