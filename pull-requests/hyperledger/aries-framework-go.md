@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3214" class=".btn">#3214</a>
+            </td>
+            <td>
+                <b>
+                    docs: Storage compatibility matrix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added a document that lists what storage providers we have implemented and what functionality is implemented. Also made some small additions to the storage interface documentation.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-06 01:49:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3213" class=".btn">#3213</a>
             </td>
             <td>

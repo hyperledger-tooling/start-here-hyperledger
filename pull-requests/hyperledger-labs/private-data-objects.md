@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/369" class=".btn">#369</a>
+            </td>
+            <td>
+                <b>
+                    Simplify build with different curve
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The build with a different curve was optimized for the crypto library, but not for the common library and the rest -- thanks @prakashngit for spotting the issue and brainstorm a possible solution.
+The main issue stems from putting the compile-time define in the crypto header.
+As there are included by several (and probably all of the) PDO components, many cmake files have to be modified and also the `setup.py` which takes care of the python wrappers.
+
+This PR removes the define from the headers.
+Most importantly, it moves the default constructor using it from the headers to the respective cpp files.
+As a result, the define is only used in cpp files and it can be easily set in the crypto cmake file.
+This additionally allows to specify an exported global variable to pick the default value from the environment.
+Finally, this seamlessly works with the python wrappers since the headers do not contain the define, and the crypto library (used by the python wrappers) is linked using the proper pre-compiled cpp static crypto library.
+
+Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-06 06:18:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/368" class=".btn">#368</a>
             </td>
             <td>
