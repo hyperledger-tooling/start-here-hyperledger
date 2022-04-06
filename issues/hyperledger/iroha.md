@@ -14,6 +14,32 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/1975" class=".btn">1975</a>
+            </td>
+            <td>
+                <b>
+                    Make automatic doc generator note optional features inside the documentation. 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                When generated with `iroha_docs`, `config.md` can contain information about optional features. We want to make the addition of those features optional too, so that distribution packagers can remove the flags that they don't need, but by default if you just cloned the repository, you should be shown all of the optional features, explained how to use them and all of that be included in the docs. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-17 06:28:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/1974" class=".btn">1974</a>
             </td>
             <td>
