@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1302" class=".btn">#1302</a>
+            </td>
+            <td>
+                <b>
+                    vNext: Added documentation for the new Peer Gateway connector in the Fabric configuration and Runtime configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added documentation in the Fabric and Runtime configuration of vNext for the new Peer Gateway connector and Fabric 2.4 binding + some required fixes for the existings connectors
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-07 16:58:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1301" class=".btn">#1301</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/208" class=".btn">#208</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/212" class=".btn">#212</a>
             </td>
             <td>
                 <b>
-                    Iroha-204: schema updated && triggers
+                    Iroha-206: metadata consistent ordering
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Guskov Timur <guskov@soramitsu.co.jp>
+
+According to issue #206 added metadata ordering.
+Any Map<Name, ...> will first be sorted with natural ordering before encoding based on Name.string value.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-31 15:23:00 +0000 UTC
+        Created At 2022-04-07 14:36:22 +0000 UTC
     </div>
 </div>
 

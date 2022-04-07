@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1720" class=".btn">#1720</a>
+            </td>
+            <td>
+                <b>
+                    Adds support to faber demo for returning json response in connectionless proof-requests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also updates demo to use `WEBHOOK_TARGET`, when supplied, to construct presentation request exchange urls 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-07 14:34:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1719" class=".btn">#1719</a>
+            </td>
+            <td>
+                <b>
+                    Allow specifying key derivation method on sub-wallet create
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When working in managed multi-tenancy mode, we store the keys for the sub-wallets within a WalletRecord in ACA-Py. These keys are then recalled when needed and used to unlock the wallet for processing messages or admin API requests intended for that sub-wallet. In the process of opening the wallet, the key is pushed through a key derivation algorithm to transform it into a wallet encryption key. This key derivation algorithm is a costly operation.
+
+This PR implements allowing the key derivation method to be specified when creating a sub-wallet. This means that a multi-tenant ACA-Py agent can elect to use the `RAW` derivation method, for instance, and significantly reduce the wallet open cost.
+
+Since these keys are securely stored in ACA-Py, using a `RAW` key does not seem to impact security of the key. Additionally, I don't think the profile of potential attack changes from using the key derivation method when considering wallet tokens.
+
+Credit to @burdettadam.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-07 14:02:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1718" class=".btn">#1718</a>
             </td>
             <td>
@@ -234,7 +292,7 @@ Keeping it in draft until I know for sure all CI tests have passed (can't run al
             </td>
             <td>
                 <b>
-                    Fix Issue-1682
+                    Allow use of SEED when creating local wallet DID Issue-1682
                 </b>
             </td>
         </tr>
