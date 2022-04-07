@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/373" class=".btn">#373</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/374" class=".btn">#374</a>
             </td>
             <td>
                 <b>
-                    Improve PTE logging when channel is not yet initialized on orderer #372
+                    GitHub Actions
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Improve PTE logging when channel is not yet initialized on orderer #372
+                This is to compile the chaincode test tool, and then publish to the github npm registry
 
-Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-31 07:25:43 +0000 UTC
+        Created At 2022-04-07 10:53:47 +0000 UTC
     </div>
 </div>
 

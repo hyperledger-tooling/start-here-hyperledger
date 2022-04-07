@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/71" class=".btn">#71</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/72" class=".btn">#72</a>
             </td>
             <td>
                 <b>
-                    App channel tutorial
+                    Add github ci config
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
                 
             </td>
             <td>
-                Please have a look @matthiasgeihs 
+                Signed-off-by: Manoranjith <ponraj.manoranjitha@in.bosch.com>
 
-Todo: Switch from `code-block` to `literalinclude` once referenced [code](https://github.com/perun-network/perun-examples/pull/9) merged into perun-examples/main.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-15 17:50:49 +0000 UTC
+        Created At 2022-04-07 12:09:36 +0000 UTC
     </div>
 </div>
 
