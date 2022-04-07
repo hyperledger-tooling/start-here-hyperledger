@@ -14,6 +14,60 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/2009" class=".btn">2009</a>
+            </td>
+            <td>
+                <b>
+                    Create an easy way to register trigger using `Client`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                 Most of our downstream clients may want a feature to easy register trigger. So it should be a new method in `Client` structure. It should be looking something like `build_register_tirgger_isi()` in `client/tests/integration/triggers/*`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 11:29:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/2007" class=".btn">2007</a>
+            </td>
+            <td>
+                <b>
+                    Grant and revoke role emit `PermissionAdded`/`PermissionRemoved` events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">good first issue</span><span class="chip">question</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                take a look at `smartcontracts/isi/account.rs` implementation of `Execute` for grant/revoke of `Role` and you will see that permission events are returned for granting and revoking both roles and permission tokens. Is this fine?
+
+Also `PermissionRemoved` event is emitted in `Unregister<Role>` in `smartcontracts/isi/domain.rs`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 07:42:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/2005" class=".btn">2005</a>
             </td>
             <td>
