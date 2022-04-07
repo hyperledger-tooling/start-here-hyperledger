@@ -1,5 +1,5 @@
 
-[2007](https://github.com/hyperledger/iroha/issues/2007) Grant and revoke role emit `PermissionAdded`/`PermissionRemoved` events
+[3320](https://github.com/hyperledger/fabric/issues/3320) Improve error message when deliver service is asked for a block that doesn't yet exist on the node
 
 [2005](https://github.com/hyperledger/iroha/issues/2005) Fix `listen_for_events()` in `Client`
 
