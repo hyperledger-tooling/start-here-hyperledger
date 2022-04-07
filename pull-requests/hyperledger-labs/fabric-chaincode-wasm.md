@@ -1,20 +1,20 @@
 ---
 layout: default
-title: byzantine-config
+title: fabric-chaincode-wasm
 parent: Hyperledger Labs
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger-labs/byzantine-config
+permalink: /pull-requests/hyperledger-labs/fabric-chaincode-wasm
 ---
 
-# byzantine-config <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/byzantine-config){: .btn .mr-4 }</span>
+# fabric-chaincode-wasm <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/fabric-chaincode-wasm){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/byzantine-config/pull/47" class=".btn">#47</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-chaincode-wasm/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
@@ -30,11 +30,13 @@ permalink: /pull-requests/hyperledger-labs/byzantine-config
                 Archived labs are read-only, and they can be moved back out of the archives, if there is interest in reviving them.
     
 Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-06 18:23:07 +0000 UTC
+        Created At 2022-04-06 18:29:12 +0000 UTC
     </div>
 </div>
 

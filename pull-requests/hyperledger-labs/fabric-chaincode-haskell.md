@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-chaincode-haskell
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-chaincode-haskell/pull/32" class=".btn">#32</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-chaincode-haskell/pull/33" class=".btn">#33</a>
             </td>
             <td>
                 <b>
-                    Update to latest dependencies
+                    Archive lab.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-chaincode-haskell
                 
             </td>
             <td>
-                With `libgrpc-dev 1.30.2-3`, the compilation of `grpc-haskell-core.0.0.0.0` was failling. Updating to `0.1.0` fixed the compilation problem of the dependencies. However a compilation error in `protos-hs/Peer/Chaincode.hs` remains.
+                Archived labs are read-only, and they can be moved back out of the archives, if there is interest in reviving them.
+    
+Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-04 11:58:08 +0000 UTC
+        Created At 2022-04-06 18:25:54 +0000 UTC
     </div>
 </div>
 
