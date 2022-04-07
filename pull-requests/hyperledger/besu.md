@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3707" class=".btn">#3707</a>
+            </td>
+            <td>
+                <b>
+                    Feature/bonsai fast sync clear flat db
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+During fast sync on bonsai, clear only the flat database rather than the entire bonsai worldstate.  
+
+DRAFT: while testing bonsai fast-sync account db clearing and lazy reads on goerli and mainnet
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Along with #3684 , fixes #3694 
+
+## Documentation
+
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-07 05:19:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3705" class=".btn">#3705</a>
+            </td>
+            <td>
+                <b>
+                    vertx 4.2.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Update vertx dependency
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-07 01:59:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3704" class=".btn">#3704</a>
             </td>
             <td>
@@ -289,12 +374,13 @@ fixes #3688
 Adds socket interface for JSON-RPC, only supported on BSD (OSX) and Linux. This feature has been developed with the intention to reuse and unify, as much as possible, the behaviour among the other transport layers (i.e. HTTP and WS)
 
 This has been split into the following commits:
+- [HEAD~7](https://github.com/diega/besu/commit/jsonrpc_ipc~7): Fixes two tests for the HTTP implementation (more info in the commit message)
 - [HEAD~6](https://github.com/diega/besu/commit/jsonrpc_ipc~6): Extracts HTTP authentication to its own handler
 - [HEAD~5](https://github.com/diega/besu/commit/jsonrpc_ipc~5): Moves authentication handler first in the pipeline, to fail fast **(*)**
 - [HEAD~4](https://github.com/diega/besu/commit/jsonrpc_ipc~4): Replaces _timeout handler_ in GraphQL service to use the one provided by Vert.x **(*)**
-- [HEAD~4](https://github.com/diega/besu/commit/jsonrpc_ipc~4): Extracts HTTP json parse to its own handler
-- [HEAD~3](https://github.com/diega/besu/commit/jsonrpc_ipc~3): Extracts json-rpc execution logic outside of the HTTP handler
-- [HEAD~2](https://github.com/diega/besu/commit/jsonrpc_ipc~2): Refactor WS service to use the same execution logic as the HTTP service **(*)**
+- [HEAD~3](https://github.com/diega/besu/commit/jsonrpc_ipc~3): Extracts HTTP json parse to its own handler
+- [HEAD~2](https://github.com/diega/besu/commit/jsonrpc_ipc~2): Extracts json-rpc execution logic outside of the HTTP handler
+- [HEAD~1](https://github.com/diega/besu/commit/jsonrpc_ipc~1): Refactor WS service to use the same execution logic as the HTTP service **(*)**
 - [HEAD](https://github.com/diega/besu/commit/jsonrpc_ipc): Implements IPC transport layer
 
 (*): these commits can be omitted without affecting the implementation of the IPC transport
@@ -890,103 +976,6 @@ Added 2 new tests for null and < 32bytes
     </table>
     <div class="right-align">
         Created At 2022-03-31 06:33:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3663" class=".btn">#3663</a>
-            </td>
-            <td>
-                <b>
-                    update after releasing 22.1.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-31 04:52:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3662" class=".btn">#3662</a>
-            </td>
-            <td>
-                <b>
-                    Graphql - allow null topic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Allow creation of LogTopic from null
-* modify graphql spec to allow null values in list of topics
-* added test file with null topic in filter to match any topic
-This means graphql now matches http behaviour and also matches what we have documented https://besu.hyperledger.org/en/stable/Concepts/Events-and-Logs/#topic-filters
-
-Fixes #3519
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-31 04:32:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3661" class=".btn">#3661</a>
-            </td>
-            <td>
-                <b>
-                    prepare for release 22.1.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release 22.1.3
-
-Signed-off-by: Stefan Pingel <stefan.pingel@consensys.net>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-31 03:27:52 +0000 UTC
     </div>
 </div>
 
