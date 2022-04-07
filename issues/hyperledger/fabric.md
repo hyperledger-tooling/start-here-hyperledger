@@ -14,11 +14,11 @@ permalink: /issues/hyperledger/fabric
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/fabric/issues/3014" class=".btn">3014</a>
+                Issue <a href="https://github.com/hyperledger/fabric/issues/3320" class=".btn">3320</a>
             </td>
             <td>
                 <b>
-                    Support docker registry authentication when pulling chaincode builder images and chaincode runtime images
+                    Improve error message when deliver service is asked for a block that doesn't yet exist on the node
                 </b>
             </td>
         </tr>
@@ -27,23 +27,17 @@ permalink: /issues/hyperledger/fabric
                 <span class="chip">good first issue</span>
             </td>
             <td>
-                When deploying fabric in enterprise's intranet (without the ability to access internet),  users maybe upload chaincode builder images and chaincode runtime images to a private docker registry which requires authentication when pulling images.
-I think fabric can support this scenario by adding configuration in `chaincode` section of core.yaml, such as:
-```yaml
-chaincode:
-    registry:
-        authentication:
-              user: ****
-              password: ****
-```
+                Improve error message when deliver service is asked for a block that doesn't yet exist on the node.
 
-and then uses this configuration for authentication when invoking docker's api .
+This is all we get for now:
+`[common.deliver] deliverBlocks -> ERRO 18d59 [channel: channel1] Error reading from channel, cause was: NOT_FOUND`
 
+It is enough for Fabric developers to know what happened, but not for users or support personnel.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-03 09:19:30 +0000 UTC
+        Created At 2022-04-07 03:50:36 +0000 UTC
     </div>
 </div>
 
