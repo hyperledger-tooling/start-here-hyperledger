@@ -14,6 +14,161 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/2007" class=".btn">2007</a>
+            </td>
+            <td>
+                <b>
+                    Grant and revoke role emit `PermissionAdded`/`PermissionRemoved` events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">good first issue</span><span class="chip">question</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                take a look at `smartcontracts/isi/account.rs` implementation of `Execute` for grant/revoke of `Role` and you will see that permission events are returned for granting and revoking both roles and permission tokens. Is this fine?
+
+Also `PermissionRemoved` event is emitted in `Unregister<Role>` in `smartcontracts/isi/domain.rs`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-25 07:42:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/2005" class=".btn">2005</a>
+            </td>
+            <td>
+                <b>
+                    Fix `listen_for_events()` in `Client`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                When running some integration tests that use event subscription (for example `time_trigger_execution_count_error_should_be_less_than_10_percent`) an error message apears in log:
+
+```
+ERROR iroha::torii::routing: Failed to subscribe someone error=Event consuming error: WebSocket error: WebSocket protocol error: Connection reset without closing handshake
+```
+
+So `Client` uses API a bit wrong and doesn't close subscription connection properly. To make closing handshake a `WebSocket::close()` method should be called on `stream` field of `EventIterator`. 
+
+Ideally this fix should provide the same good-looking API as before. User shouldn't close connection manualy
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-24 22:34:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/2000" class=".btn">2000</a>
+            </td>
+            <td>
+                <b>
+                    Disallow empty `Identifiers`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">help wanted</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                At the moment it is allowed to create empty `Name`, `DomainId`, `AccountId`, etc. Should we continue to allow empty string identifiers or should we forbid them. What about using `Option`? 
+
+It should be noted that empty string is a well defined identifier
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-23 08:14:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/1996" class=".btn">1996</a>
+            </td>
+            <td>
+                <b>
+                    Move `GenesisDomain` and `GenesisAccount` to `iroha_core`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                Currently, genesis domain and account are in `iroha_data_model`. It is my understanding that they are only used in `iroha_core` and should in fact not be presented to the user through data model API. Therefore, they should be moved into `iroha_core`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-22 14:39:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/1988" class=".btn">1988</a>
+            </td>
+            <td>
+                <b>
+                    `PartialEq` and `PartialOrd` of `Identifiable` structures 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">help wanted</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                Identifiable structures, such as `Domain`, derive their implementation of `PartialEq`, but have the following implementation of `PartialOrd`:
+```rs
+impl PartialOrd for Domain {
+    #[inline]
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        Some(self.id().cmp(&other.id))
+    }
+}
+```
+
+Would it make sense to have equivalent implementation of `PartialEq` instead of deriving it?
+Other `Identifiable` structures should be considered as well
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-21 19:32:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/1975" class=".btn">1975</a>
             </td>
             <td>
