@@ -102,35 +102,3 @@ The updates associated with this doc update are described in PR #692
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/696" class=".btn">#696</a>
-            </td>
-            <td>
-                <b>
-                    CORS Enablement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                After feedback from the community, this PR adds CORS support in, but as an option
-to enable.
-
-Along with warnings that the default wildcard origin might not be applicable
-in a production use case
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-31 16:55:39 +0000 UTC
-    </div>
-</div>
-
