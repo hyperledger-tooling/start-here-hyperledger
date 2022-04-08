@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/94" class=".btn">#94</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/95" class=".btn">#95</a>
             </td>
             <td>
                 <b>
-                    Iroha 2 RC 3
+                    misc: remove github workflow
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                Related Iroha PR: https://github.com/hyperledger/iroha/pull/2015
-
-Misc changes:
-
-- Remove docs
-- Use `vitest` instead of `jest` for `data-model` package
-- Update docs recipes so they are synced with the tutorial
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-29 09:07:19 +0000 UTC
+        Created At 2022-04-08 07:00:54 +0000 UTC
     </div>
 </div>
 
