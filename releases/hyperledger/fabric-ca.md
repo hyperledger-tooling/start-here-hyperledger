@@ -15,27 +15,29 @@ permalink: /releases/hyperledger/fabric-ca
         <tr>
             <td colspan="2">
                 <b>
-                    v1.5.2
+                    v1.5.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.5.2
+                    v1.5.3
                 </span>
             </td>
             <td>
-                v1.5.2 Release Notes - September 8, 2021
-========================================
+                v1.5.3 Release Notes - April 7, 2022
+====================================
 
-Release v1.5.2 updates Fabric CA to be compatible with Go 1.16.7.
+Release v1.5.3 updates Fabric CA to be compatible with Go 1.17.8.
+
+Additionally, packages that shifted from exported to unexported in v1.5.0 are now exported again.
 
 Dependencies
 ------------
 
-Fabric CA v1.5.2 has been tested with the following dependencies:
-- Go 1.16.7
+Fabric CA v1.5.3 has been tested with the following dependencies:
+- Go 1.17.8
 - Alpine 3.14 (for Docker images)
 
 
@@ -71,22 +73,26 @@ None.
 
 ## Changes:
 
-* 17b4d1a448bd25bbfe805427367fc3e2bf3a4db2 Release commit for v1.5.2.
-* f242447365027d06010b49a2fb89fe383165fcf7 Update alpine to 3.14
-* 073587e5682b8999d8ff43d0bc327bed94e3128d Update Go to 1.16.7
-* 7026aeee0b8e46d29432df586c8e53f4bdd9d92b Prepare for next release v1.5.2
-* f9889d4171431ee63919bba7fe1c3b0e299c6f2f Bump Debian
-* 916d684b536bf19b8897ba597b81c7355d6c852a Update CI Pool Image
+* 2061c8df7eda8516ea64a37471797852c92c2e61 Release commit for v1.5.3
+* 8651918aea1b83bd7c64ddd943af5b62d29efc86 Undo breaking changes to exported packages
+* c025d5ea5243d74d919df2d442975bd60386c37c Bump Go to 1.17.8
+* 077518e71fb25b6beca91aca804997ebfafc0b36 Fix FVT intermediateca test
+* 655a0f97c76b61c72e89a5669ad4cee58ad27262 Remove redundant assignment
+* bb858908d0356edb678ee2be1ca8345f24d641d0 Bump fvt mysql to 0.8.22-1
+* 62026907484c33f3ba599a283ebbccc54043882f Make server config.go and serverconfig.rst consistent
+* 4c5d2ef98f6109ecceaa02e7b04aebe02fdff86f Fixes for CA deployment guide
+* fc42d91b57b2f425b4985babfee8969e841572b7 fix expired root.pem certificate - was breaking 8-10 unit test cases
+* 19cdbf5d1396dca57acdf378ae1964190c262ea7 Prepare for next release v1.5.3
 
-This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabric/_build/results?buildId=40704&view=logs).
+This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabric/_build/results?buildId=50654&view=logs).
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.2" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-09-09 19:07:44 +0000 UTC
+        Created At 2022-04-07 21:40:50 +0000 UTC
     </span>
 </div>
 
