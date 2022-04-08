@@ -305,38 +305,12 @@ Some notes on the implementation:
 - I disabled multi use when attachments were present in the invitation as this would never have worked (there's no support for multi-use requests, offers AFAIK?)
 - Adds a cleanup of stale connections if a connection is being reused by sending a direct response to an attachment message in the oob invitation (I think connections weren't being cleaned up in this case)
 
-Keeping it in draft until I know for sure all CI tests have passed (can't run all tests on my M1 mac)
+~Keeping it in draft until I know for sure all CI tests have passed (can't run all tests on my M1 mac)~
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2022-04-05 13:36:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1706" class=".btn">#1706</a>
-            </td>
-            <td>
-                <b>
-                    Multitenancy Docs Update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Please review the updates to the multitenancy docs.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-01 17:01:20 +0000 UTC
     </div>
 </div>
 

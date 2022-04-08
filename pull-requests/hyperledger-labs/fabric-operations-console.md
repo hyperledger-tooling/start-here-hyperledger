@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/176" class=".btn">#176</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/177" class=".btn">#177</a>
             </td>
             <td>
                 <b>
-                    fix channel nodes
+                    IBP Console UI test case fixes
                 </b>
             </td>
         </tr>
@@ -27,18 +27,25 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+                Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
 
 #### Type of change
 
-- Bug fix
+<!--- What type of change? Pick one option and delete the others. -->
 
-Clicking on the info for channel (under orderer drill down) shows nodes where the channel got removed
+- Bug fix
+- Test update
+
+#### Description
+1. Added wait / sleep in feature file step and in code at few places so that it waits for UI to complete the operation
+2. Added new method to select text from dropdown with exact text as the existing method was not working if the text has multiple words
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-30 20:03:51 +0000 UTC
+        Created At 2022-04-08 16:02:08 +0000 UTC
     </div>
 </div>
 
