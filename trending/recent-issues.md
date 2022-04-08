@@ -1,13 +1,13 @@
 
 [3320](https://github.com/hyperledger/fabric/issues/3320) Improve error message when deliver service is asked for a block that doesn't yet exist on the node
 
+[2009](https://github.com/hyperledger/iroha/issues/2009) Create an easy way to register trigger using `Client`
+
+[2007](https://github.com/hyperledger/iroha/issues/2007) Grant and revoke role emit `PermissionAdded`/`PermissionRemoved` events
+
+[2005](https://github.com/hyperledger/iroha/issues/2005) Fix `listen_for_events()` in `Client`
+
 [707](https://github.com/hyperledger-labs/solang/issues/707) compiler message for overloaded functions is not great
-
-[1975](https://github.com/hyperledger/iroha/issues/1975) Make automatic doc generator note optional features inside the documentation. 
-
-[1974](https://github.com/hyperledger/iroha/issues/1974) Replace `blocks()` with `visit_blocks()` in WSV
-
-[1966](https://github.com/hyperledger/iroha/issues/1966) `FindAllParameters` query cannot be used
 
 
 [See more >>>](https://start-here.hyperledger.org/issues)
