@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/firefly-ui
         <tr>
             <td colspan="2">
                 <b>
+                    v0.6.10_8bc57d1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.6.10
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Adding Batches, Groups, Approvals, Namespaces pages and other tweaks by @eberger727 in https://github.com/hyperledger/firefly-ui/pull/154
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-ui/compare/v0.6.9...v0.6.10
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-ui/releases/tag/v0.6.10" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-04-08 17:24:25 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.6.9_d475b88
                 </b>
             </td>

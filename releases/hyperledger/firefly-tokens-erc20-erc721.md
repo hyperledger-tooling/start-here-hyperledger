@@ -15,32 +15,32 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
         <tr>
             <td colspan="2">
                 <b>
-                    v0.2.1
+                    v0.2.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.2.1
+                    v0.2.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Allow activation to register from a custom block number by @peterbroadhurst in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/36
+* Fix Release GitHub Action by @nguyer in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/41
+* Add compatibility with local truffle by @jimthematrix in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/37
+* Update docker release build GitHub action by @nguyer in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/38
+* Clean up blockchain info passed back to FireFly by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/40
 
-## New Contributors
-* @peterbroadhurst made their first contribution in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/36
-
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v0.2.0...v0.2.1
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v0.2.1...v0.2.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v0.2.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v0.2.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-03-24 19:15:13 +0000 UTC
+        Created At 2022-04-08 17:27:53 +0000 UTC
     </span>
 </div>
 
