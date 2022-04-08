@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/firefly-dataexchange-https
         <tr>
             <td colspan="2">
                 <b>
-                    v0.11.0
+                    v0.11.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.11.0
+                    v0.11.1
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger/firefly-dataexchange-https
 * Update event queue to support readahead to FireFly core by @peterbroadhurst in https://github.com/hyperledger/firefly-dataexchange-https/pull/56
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.10.4...v0.11.0
+**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.10.4...v0.11.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.11.0" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.11.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
