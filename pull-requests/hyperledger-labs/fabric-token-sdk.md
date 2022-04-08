@@ -36,30 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/211" class=".btn">#211</a>
-            </td>
-            <td>
-                <b>
-                    nwo token enhancements 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - ability to set custom crypto material generators
-- ability to set token chaincode params replace suffix
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-01 07:12:07 +0000 UTC
-    </div>
-</div>
-

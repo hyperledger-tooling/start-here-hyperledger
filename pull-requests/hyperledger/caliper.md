@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1306" class=".btn">#1306</a>
+            </td>
+            <td>
+                <b>
+                    Fixes for default.yaml in packages/caliper-core/lib/common/config/ and updates for the fabric Chaincode operations for the v1 fabric connector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                edited defaul.yaml (updated comments and deleted sllep after option for fabric) + updated the fabric Chaincode operations for the v1 fabric connector
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-08 10:27:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1304" class=".btn">#1304</a>
+            </td>
+            <td>
+                <b>
+                    [Doc] remove term Observer from monitors page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also renamed the file
+
+closes #1213
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-08 09:35:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1302" class=".btn">#1302</a>
             </td>
             <td>

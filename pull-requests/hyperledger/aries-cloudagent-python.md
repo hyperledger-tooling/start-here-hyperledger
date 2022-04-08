@@ -340,34 +340,3 @@ Keeping it in draft until I know for sure all CI tests have passed (can't run al
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1705" class=".btn">#1705</a>
-            </td>
-            <td>
-                <b>
-                    Allow use of SEED when creating local wallet DID Issue-1682
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Added wallet startup parameter: --wallet-allow-insecure-seed
-- support seed in wallet/did/create route
-
-Some questions around
-1. How do we support importing a key pair into the wallet as mentioned in the Issue
-2. Should I add seed in the schema of wallet/did/create ? . I don't think we can add conditional schemas according to startup parameter.  I can have it as an optional field.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-01 10:56:44 +0000 UTC
-    </div>
-</div>
-
