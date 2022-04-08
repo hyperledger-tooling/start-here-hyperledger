@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1722" class=".btn">#1722</a>
+            </td>
+            <td>
+                <b>
+                    Prep for adding the 0.7.4-rc0 tag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-07 20:07:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1721" class=".btn">#1721</a>
+            </td>
+            <td>
+                <b>
+                    Duplicate checking for schema and cred def
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+See issue:  https://github.com/hyperledger/aries-cloudagent-python/issues/1707
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-07 18:28:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1720" class=".btn">#1720</a>
             </td>
             <td>

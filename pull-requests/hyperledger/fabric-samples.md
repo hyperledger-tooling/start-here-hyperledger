@@ -73,32 +73,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/697" class=".btn">#697</a>
-            </td>
-            <td>
-                <b>
-                    Updates the README and documentation guide for the Kube test network's usage of Nginx ingress
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is a documentation update associated with a fix for Issue #685 
-
-The updates associated with this doc update are described in PR #692 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-31 18:21:58 +0000 UTC
-    </div>
-</div>
-

@@ -83,31 +83,3 @@ Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/368" class=".btn">#368</a>
-            </td>
-            <td>
-                <b>
-                    Introduce client support key/value stores to enable large parameter passing to contracts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                Implements support for python clients to build encrypted key/value stores. Among the uses, the key/value store enables large parameters to be passed to contracts. 
-
-A number of other small improvements are included such as support for replication parameters in the pdo-shell. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-04 21:30:07 +0000 UTC
-    </div>
-</div>
-

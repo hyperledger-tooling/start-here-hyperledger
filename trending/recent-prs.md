@@ -1,13 +1,13 @@
 
-[1376](https://github.com/hyperledger/grid/pull/1376) Backport 0-3: Fix over-eager clone
+[285](https://github.com/hyperledger/fabric-ca/pull/285) Release commit for v1.5.3
 
-[1302](https://github.com/hyperledger/caliper/pull/1302) vNext: Added documentation for the new Peer Gateway connector in the Fabric configuration and Runtime configuration
+[1722](https://github.com/hyperledger/aries-cloudagent-python/pull/1722) Prep for adding the 0.7.4-rc0 tag
 
-[324](https://github.com/hyperledger/transact/pull/324) Update docker base image and support multi-arch
+[375](https://github.com/hyperledger/fabric-test/pull/375) Bump Go to 1.17.8
 
-[1375](https://github.com/hyperledger/grid/pull/1375) Fix over-eager clone
+[1377](https://github.com/hyperledger/grid/pull/1377) Bump grid-dev version to v10 to differentiate it from 0-3
 
-[729](https://github.com/hyperledger/aries-rfcs/pull/729) Initial draft for device binding attachments
+[164](https://github.com/hyperledger/fabric-sdk-py/pull/164) Change the chaincode lifecycle to make it compatible with fabric v2.x
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
