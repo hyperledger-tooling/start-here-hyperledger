@@ -124,18 +124,21 @@ Fixes #3637
 
 ## PR description
 
+This PR enables the snapsync as client. It works with Bonsai but there are still some limitations and possible optimizations.
+I will test with Forest
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -536,7 +539,7 @@ fixes #3688
                 ## PR description
 Adds socket interface for JSON-RPC, only supported on BSD (OSX) and Linux. This feature has been developed with the intention to reuse and unify, as much as possible, the behaviour among the other transport layers (i.e. HTTP and WS)
 
-This has been split into the following commits:
+Given this is a big PR to review, I have split it in the following commits (I recommend checking them individually):
 - [HEAD~7](https://github.com/diega/besu/commit/jsonrpc_ipc~7): Fixes two tests for the HTTP implementation (more info in the commit message)
 - [HEAD~6](https://github.com/diega/besu/commit/jsonrpc_ipc~6): Extracts HTTP authentication to its own handler
 - [HEAD~5](https://github.com/diega/besu/commit/jsonrpc_ipc~5): Moves authentication handler first in the pipeline, to fail fast **(*)**
@@ -549,7 +552,7 @@ This has been split into the following commits:
 (*): these commits can be omitted without affecting the implementation of the IPC transport
 
 ## Note
-This is a draft b/c it's still missing some items from the _acceptance criteria_
+This implementation has been tested against `geth attach` and it works fine. I also tested Web3J, which works well from an standalone project, but due some strange behaviour in vert.x (ref: [vert.x#4330](https://github.com/eclipse-vertx/vert.x/issues/4330)), I cannot add a test for that into this PR
 
 ## Fixed Issue(s)
 fixes #535
@@ -917,65 +920,6 @@ Upgrades OpenTelemetry to the latest version, and make sure we configure the SDK
     </table>
     <div class="right-align">
         Created At 2022-04-03 06:51:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3674" class=".btn">#3674</a>
-            </td>
-            <td>
-                <b>
-                    Remove Gas object and replace with primitive long
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Remove the Gas object from the EVM and replace it with the primitive
-long. This will have positive impact on short lived object garbage
-collection stats, which at very high load causes significant performance
-issues.
-
-This also codifies EIP-4803 in the Besu EVM, limiting gas to a signed
-64-bit long internally.
-
-There was one notable issue with this transition. Some reference tests
-push the limits of memory expansion which results in gas costs over the
-EIP limit. The solution is to "clamp" such addition and multiplication
-operations at the max or min long value, resulting in the out-of-gas
-check failing (such operations will never have a valid execution with
-max gas remaining).
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-01 14:07:26 +0000 UTC
     </div>
 </div>
 

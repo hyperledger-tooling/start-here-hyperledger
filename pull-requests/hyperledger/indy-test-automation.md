@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/112" class=".btn">#112</a>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/114" class=".btn">#114</a>
             </td>
             <td>
                 <b>
-                    added a .txt output file of the test results
+                    Added Indy Test Automation GHA
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/indy-test-automation
                 
             </td>
             <td>
-                This PR creates a `.txt` of the test results in addition to the `junit-xml` report.
-
-Signed-off-by: udosson <klemens@internet-sicherheit.de>
+                Signed-off-by: pSchlarb <p.schlarb@esatus.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-14 09:56:31 +0000 UTC
+        Created At 2022-04-08 14:03:54 +0000 UTC
     </div>
 </div>
 

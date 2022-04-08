@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/727" class=".btn">#727</a>
+            </td>
+            <td>
+                <b>
+                    Remove double call to expression in destructure codegen
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is a quick fix for calling `expression` twice when doing code generation for restructure statements.
+Instead of calling `expression`, I call `storage_load` to create the `LoadStorage` instruction in the CFG.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-08 12:53:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/726" class=".btn">#726</a>
             </td>
             <td>
@@ -67,32 +94,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2022-04-04 11:54:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/722" class=".btn">#722</a>
-            </td>
-            <td>
-                <b>
-                    Implement mutability check for yul
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements mutability checks for YUL. We check if a pure function reads or writes the state and if a view function writes the state. I've provided tests as well.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-01 15:13:53 +0000 UTC
     </div>
 </div>
 

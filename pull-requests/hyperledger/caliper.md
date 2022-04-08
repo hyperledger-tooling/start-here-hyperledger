@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/caliper
             </td>
             <td>
                 <b>
-                    Fixes for default.yaml in packages/caliper-core/lib/common/config/ and updates for the fabric Chaincode operations for the v1 fabric connector
+                    Fixes for default.yaml in packages/caliper-core/lib/common/config/ and updates for the fabric Channel operations for the v1 fabric connector
                 </b>
             </td>
         </tr>
@@ -186,42 +186,6 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-04-05 09:41:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1295" class=".btn">#1295</a>
-            </td>
-            <td>
-                <b>
-                    address fabric tutorial not working with newer docker-compose
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                newer docker-compose versions don't work with the specific git checkout
-in the tutorial.
-
-I've fixed the bug in fabric-samples but as it hasn't been tagged as a
-release yet we need to use another specific git commit but updates to
-test-network now means it works with newer docker-compose versions.
-
-closes #1291
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-01 13:14:49 +0000 UTC
     </div>
 </div>
 

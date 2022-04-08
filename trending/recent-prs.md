@@ -1,13 +1,13 @@
 
-[2074](https://github.com/hyperledger/iroha/pull/2074) Iroha v1.5
+[2077](https://github.com/hyperledger/iroha/pull/2077) [refactor] #1982: encapsulate access to `iroha_crypto` structures
 
-[3712](https://github.com/hyperledger/besu/pull/3712) Fix save worldstate issue on bonsai and fastsync
+[1378](https://github.com/hyperledger/grid/pull/1378) Switch Publish Release GHA to run on self-hosted runner
 
-[1306](https://github.com/hyperledger/caliper/pull/1306) Fixes for default.yaml in packages/caliper-core/lib/common/config/ and updates for the fabric Chaincode operations for the v1 fabric connector
+[177](https://github.com/hyperledger-labs/fabric-operations-console/pull/177) IBP Console UI test case fixes
 
-[1304](https://github.com/hyperledger/caliper/pull/1304) [Doc] remove term Observer from monitors page
+[710](https://github.com/hyperledger/fabric-samples/pull/710) fixes #708 : ca enrollments should be made with the ROOT CA cert
 
-[20](https://github.com/hyperledger-labs/acapy-java-client/pull/20) added test to connect two multi ledger sub wallets
+[22](https://github.com/hyperledger-labs/acapy-java-client/pull/22) Bump jackson-databind from 2.13.1 to 2.13.2.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
