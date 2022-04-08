@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3711" class=".btn">#3711</a>
+            </td>
+            <td>
+                <b>
+                    Fix NPE in DeFramer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span>
+            </td>
+            <td>
+                Signed-off-by: Frank Li <b439988l@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Catch an NPE using optionals and complete the future nicely with an exception
+
+## Fixed Issue(s)
+Fixes #3637 
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-08 04:45:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3710" class=".btn">#3710</a>
             </td>
             <td>
@@ -76,7 +120,7 @@ permalink: /pull-requests/hyperledger/besu
 Added config file for LGTM
 Note the LGTM failure is the "main build" which is building off main branch - which still has OOM. But the "merge build" ie building off this PR, is passing. 
 
-Note this adds codeql
+Current report: https://lgtm.com/projects/g/hyperledger/besu/logs/rev/pr-935719d01d715dea5db84d624ce75b5505b7708f/lang:java/stage:Build%20main_fe673431fab8c6439e6eb0e83f6545a1583afaeb
 
 ## Documentation
 
@@ -85,7 +129,7 @@ Note this adds codeql
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -211,52 +255,6 @@ Update vertx dependency
     </table>
     <div class="right-align">
         Created At 2022-04-07 01:59:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3704" class=".btn">#3704</a>
-            </td>
-            <td>
-                <b>
-                    Fix lgtm oom
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Usman Saleem <usman@usmans.info>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Fix lgtm oom by increasing heap size of gradle.
-
-# DO NOT MERGE #
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-07 01:10:47 +0000 UTC
     </div>
 </div>
 

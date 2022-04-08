@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/431" class=".btn">#431</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/433" class=".btn">#433</a>
             </td>
             <td>
                 <b>
-                    Fix node delete endpoint.
+                    Add node status field to get nodes list api response.
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Provide an endpoint to delete a node container. Throw an error when
-deleting the last orderer order.
+                add node status field
 
 Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-29 04:31:17 +0000 UTC
+        Created At 2022-04-08 02:13:19 +0000 UTC
     </div>
 </div>
 
