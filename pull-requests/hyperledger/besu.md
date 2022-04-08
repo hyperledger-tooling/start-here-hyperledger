@@ -73,7 +73,10 @@ permalink: /pull-requests/hyperledger/besu
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
 
-config file for LGTM
+Added config file for LGTM
+Note the LGTM failure is the "main build" which is building off main branch - which still has OOM. But the "merge build" ie building off this PR, is passing. 
+
+Note this adds codeql
 
 ## Documentation
 

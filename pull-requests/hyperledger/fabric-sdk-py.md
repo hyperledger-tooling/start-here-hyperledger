@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/161" class=".btn">#161</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/164" class=".btn">#164</a>
             </td>
             <td>
                 <b>
-                    added osn admin module
+                    Change the chaincode lifecycle to make it compatible with fabric v2.x
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
                 
             </td>
             <td>
-                In the new fabric release, it's mentioned that the system channel approach to managing orderers will be deprecated so it might be useful to have osn admin in the SDK so the network can be managed with one tool.
+                Signed-off-by: Rohan Shrothrium <rohan.shrothrium@intellecteu.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-11 14:23:16 +0000 UTC
+        Created At 2022-04-07 18:28:38 +0000 UTC
     </div>
 </div>
 
