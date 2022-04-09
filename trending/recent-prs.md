@@ -1,13 +1,13 @@
 
-[521](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/521) build(deps): bump moment from 2.29.1 to 2.29.2 in /open-offsets-directory/node-server
+[287](https://github.com/hyperledger/fabric-ca/pull/287) Prepare for v1.5.4 release
 
-[165](https://github.com/hyperledger-labs/convector/pull/165) build(deps): bump moment from 2.22.2 to 2.29.2
+[22](https://github.com/hyperledger-labs/citizens-pulse/pull/22) Bump moment from 2.27.0 to 2.29.2 in /webui
 
-[2501](https://github.com/hyperledger/indy-sdk/pull/2501) Bump minimist from 1.2.5 to 1.2.6 in /samples/nodejs
+[216](https://github.com/hyperledger-labs/fabric-token-sdk/pull/216) translator: remove metadata #189
 
-[304](https://github.com/hyperledger-labs/fablo/pull/304) Bump moment from 2.29.1 to 2.29.2
+[711](https://github.com/hyperledger/fabric-samples/pull/711) Bump moment from 2.29.1 to 2.29.2 in /asset-transfer-basic/rest-api-typescript
 
-[36](https://github.com/hyperledger-labs/fabric-opssc/pull/36) chore(deps): Bump moment from 2.29.1 to 2.29.2 in /common/src
+[730](https://github.com/hyperledger-labs/solang/pull/730) struct member expressions are not written to graphviz dot file
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
