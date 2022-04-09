@@ -26,7 +26,25 @@ permalink: /releases/hyperledger/firefly
                 </span>
             </td>
             <td>
-                ## What's Changed
+                ## Summary
+* Significant performance improvements
+  * More types of background workers
+  * Better caching and indexing
+  * Batching of database updates
+* Greatly improved OpenAPI spec, including more accurate input/output params and text descriptions of all fields
+* UI updates and general bug fixes
+
+## Breaking Changes and Migrations
+* **firefly-dataexchange-https** must be upgraded to the version listed below, as the ack event [has been renamed](https://github.com/hyperledger/firefly/pull/656) from "commit" to "ack". Running mismatched versions of FireFly and dataexchange in this case will cause event processing to stall completely.
+
+## Updated Dependencies
+* firefly-ethconnect [v3.1.6](https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.6)
+* firefly-dataexchange-https [v0.11.1](https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.11.1)
+* firefly-tokens-erc1155 [v0.10.8](https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.10.8)
+* firefly-tokens-erc20-erc721 [v0.2.3](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v0.2.3)
+* firefly-ui [v0.6.10](https://github.com/hyperledger/firefly-ui/releases/tag/v0.6.10)
+
+## What's Changed
 * Cache blockchain events for event enrichment by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/638
 * Add index on message_id for token transfers by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/639
 * Update txType in private message schema by @gabriel-indik in https://github.com/hyperledger/firefly/pull/637
