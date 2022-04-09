@@ -1,13 +1,13 @@
 
-[2077](https://github.com/hyperledger/iroha/pull/2077) [refactor] #1982: encapsulate access to `iroha_crypto` structures
+[287](https://github.com/hyperledger/blockchain-explorer/pull/287) Bump moment from 2.29.1 to 2.29.2
 
-[1378](https://github.com/hyperledger/grid/pull/1378) Switch Publish Release GHA to run on self-hosted runner
+[286](https://github.com/hyperledger/blockchain-explorer/pull/286) Bump moment from 2.29.1 to 2.29.2 in /client
 
-[177](https://github.com/hyperledger-labs/fabric-operations-console/pull/177) IBP Console UI test case fixes
+[2500](https://github.com/hyperledger/indy-sdk/pull/2500) feat: add basic ssl for postgres
 
-[710](https://github.com/hyperledger/fabric-samples/pull/710) fixes #708 : ca enrollments should be made with the ROOT CA cert
+[2079](https://github.com/hyperledger/iroha/pull/2079) [feature] #2003: Introduce Parity Scale Decoder tool
 
-[22](https://github.com/hyperledger-labs/acapy-java-client/pull/22) Bump jackson-databind from 2.13.1 to 2.13.2.1
+[1380](https://github.com/hyperledger/grid/pull/1380) Update batch tracking migrations
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
