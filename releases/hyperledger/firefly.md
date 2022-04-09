@@ -15,6 +15,41 @@ permalink: /releases/hyperledger/firefly
         <tr>
             <td colspan="2">
                 <b>
+                    v1.0.0-rc.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.0.0-rc.2
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Configuration docs, and packaging config/i18n for re-use by microservices by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/678
+* Fix make docker command in release build GitHub Action by @nguyer in https://github.com/hyperledger/firefly/pull/682
+* Enforce config descriptions by @nguyer in https://github.com/hyperledger/firefly/pull/681
+* Remove extra postgres migrations by @nguyer in https://github.com/hyperledger/firefly/pull/683
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.0.0-rc.1...v1.0.0-rc.2
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.0.0-rc.2" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-04-09 13:39:30 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.0.0-rc.1
                 </b>
             </td>
