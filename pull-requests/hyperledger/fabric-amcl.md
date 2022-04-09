@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-amcl
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-amcl/pull/16" class=".btn">#16</a>
+                PR <a href="https://github.com/hyperledger/fabric-amcl/pull/17" class=".btn">#17</a>
             </td>
             <td>
                 <b>
-                    FP256BN from https://github.com/miracl/core
+                    Archive unused repo, retire maintainers
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-amcl
                 
             </td>
             <td>
-                
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-06-03 08:15:38 +0000 UTC
+        Created At 2022-04-08 21:37:44 +0000 UTC
     </div>
 </div>
 
