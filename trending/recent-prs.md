@@ -1,13 +1,13 @@
 
-[288](https://github.com/hyperledger/blockchain-explorer/pull/288) Bump minimist from 1.2.5 to 1.2.6
+[521](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/521) build(deps): bump moment from 2.29.1 to 2.29.2 in /open-offsets-directory/node-server
 
-[287](https://github.com/hyperledger/blockchain-explorer/pull/287) Bump moment from 2.29.1 to 2.29.2
+[165](https://github.com/hyperledger-labs/convector/pull/165) build(deps): bump moment from 2.22.2 to 2.29.2
 
-[286](https://github.com/hyperledger/blockchain-explorer/pull/286) Bump moment from 2.29.1 to 2.29.2 in /client
+[2501](https://github.com/hyperledger/indy-sdk/pull/2501) Bump minimist from 1.2.5 to 1.2.6 in /samples/nodejs
 
-[2500](https://github.com/hyperledger/indy-sdk/pull/2500) feat: add basic ssl for postgres
+[304](https://github.com/hyperledger-labs/fablo/pull/304) Bump moment from 2.29.1 to 2.29.2
 
-[2079](https://github.com/hyperledger/iroha/pull/2079) [feature] #2003: Introduce Parity Scale Decoder tool
+[36](https://github.com/hyperledger-labs/fabric-opssc/pull/36) chore(deps): Bump moment from 2.29.1 to 2.29.2 in /common/src
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
