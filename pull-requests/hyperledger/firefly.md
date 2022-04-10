@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/635" class=".btn">#635</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/665" class=".btn">#665</a>
             </td>
             <td>
                 <b>
-                    [ui-v0.6.6] manifest release
+                    Add rewinder to handle enrichment off event poller critical path
                 </b>
             </td>
         </tr>
@@ -27,12 +27,23 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Signed-off-by: David Echelberger <eberger727@gmail.com>
+                Issue #663 demonstrated that the event loops of the various plugins cannot safely ask the DB for information the event aggregator loop is updating, concurrently to the event poller writing it.
+
+However, we don't want to slow the event poller down by making it do complex enrichment tasks to work out how to rewind. These tasks are as follows:
+- For blobs: Query all `data` IDs associated with a `blob` hash, then find all `message` IDs that are associated with that data
+- For token transfers: Query the `batch` ID associated with the message, which is associated with the on-chain transfer
+
+So this PR introduces the architecture summarized in the diagram below. This ensures we do **not** start the enrichment DB activities (in loop 2) until the event poller has completed the cycle that might have been active while the plugin event that generated the rewind was active
+
+![pr_665_diagram_1](https://user-images.githubusercontent.com/6660217/161826863-3c4dc41b-03a0-444a-a851-cf476e6f22d5.jpg)
+
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-27 23:08:14 +0000 UTC
+        Created At 2022-04-05 18:37:11 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +51,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/634" class=".btn">#634</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/662" class=".btn">#662</a>
             </td>
             <td>
                 <b>
-                    Created timestamp index on events shouldn't be unique
+                    Proper handling of token approval events
                 </b>
             </td>
         </tr>
@@ -53,57 +64,14 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Saw the below error in a long-run test, where an attempt to insert an event resulted in no rows being added in PSQL with `ON CONFLICT DO NOTHING RETURNING seq`. I found there's an index that is set to `UNIQUE` on the `created` timestamp, and while a clash there is unlikely it's definitely possible.
-
-```
-{"log":"[2022-03-27T20:45:44.100Z]  WARN node_0: SQL! transaction rollback dbtx=WLXd2cMS httpreq=GJpFajph req=w6nJtbSg\n","stream":"stderr","time":"2022-03-27T20:45:44.102693254Z"}
-{"log":"[2022-03-27T20:45:44.102Z]  INFO node_0: \u003c-- POST /api/v1/namespaces/default/contracts/invoke [500] (19.62ms): FF10116: Database insert failed: FF10375: Failed to retrieve sequence for insert row 1 (could mean duplicate insert) httpreq=GJpFajph req=w6nJtbSg\n","stream":"stderr","time":"2022-03-27T20:45:44.10280407Z"}
-```
+                - Ensure existing approvals are not being overwritten
+- Remove localID from async/sync POST response
+- Commented out approvals from synchronous tokens e2e test due to https://github.com/hyperledger/firefly/issues/661
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-27 22:50:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/633" class=".btn">#633</a>
-            </td>
-            <td>
-                <b>
-                    Update batch manager dispatch to track inflight and fix private blobs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Batch manager updates
-
-I believe I've found an issue in the way the batch manager and the batch processors interact
-Because the messages stay in ready state while they are being dispatched, the `readPage` loop will still see all messages that are dispatched
-
-Currently it attempts to re-dispatch them when it's told to rewinds, and relies on the processor to de-dup those messages
-It all works from a consistency perspective, but with the pattern of workload from the long-run it's a little inefficient in terms of how many rewinds and re-processing we do. It seems this can reach the point the batch manager can get jammed up trying to do those re-dispatches to the processor, while the processor is busy flushing what it's got
-
-This PR simplifies the logic significantly, by preventing duplicate dispatches in the batch manager.
-
-The manager keeps a map of all in-flight dispatched sequences to processors, and the processors call back to the manager when they have flushed a batch (so the messages will no longer turn up in `readPage` queries).
-
-### Fix to private blobs
-
-The private message batch dispatcher, was only sending the first blob in a batch. Meaning other messages with blobs in the batch would never be confirmed, because the blobs never arrived.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-27 18:43:05 +0000 UTC
+        Created At 2022-04-04 20:08:52 +0000 UTC
     </div>
 </div>
 
