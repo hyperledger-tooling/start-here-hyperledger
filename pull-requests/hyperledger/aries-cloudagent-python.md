@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1725" class=".btn">#1725</a>
+            </td>
+            <td>
+                <b>
+                    feat: create new JWT tokens and invalidate older for multitenancy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Tokens will now include an `iat` value which is also stored in the wallet record. If the `iat` of the JWT doesn't match the user won't be authorized. This means when a new token is created (using the multitenant apis) the old token becomes invalid.
+
+Looking for some input if this is a desired approach. It is a breaking change as previously you would always get the same token, while now you always get a new token revoking the older tokens.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-10 14:55:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1722" class=".btn">#1722</a>
             </td>
             <td>
