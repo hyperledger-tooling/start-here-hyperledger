@@ -14,63 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/235" class=".btn">#235</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/237" class=".btn">#237</a>
             </td>
             <td>
                 <b>
-                    chore: complete release for orb vdr
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 14:57:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/234" class=".btn">#234</a>
-            </td>
-            <td>
-                <b>
-                    chore: update afgo and edge-core dependencies to 0.1.8
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 14:39:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/233" class=".btn">#233</a>
-            </td>
-            <td>
-                <b>
-                    fix: add dbname in right location in connect string
+                    fix: postgres default db
                 </b>
             </td>
         </tr>
@@ -84,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-29 16:23:02 +0000 UTC
+        Created At 2022-04-11 14:55:30 +0000 UTC
     </div>
 </div>
 

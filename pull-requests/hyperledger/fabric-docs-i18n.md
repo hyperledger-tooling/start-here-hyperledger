@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/652" class=".btn">#652</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/653" class=".btn">#653</a>
             </td>
             <td>
                 <b>
-                    RU capabilities concept
+                    [ja_JP] Sync test_network.md with release-2.2
                 </b>
             </td>
         </tr>
@@ -27,12 +27,19 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
+                This patch updates the Japanese translation for test_network.md to the
+latest commit of the release-2.2 branch.
+
+commit: f441ba23542c4c21af18ff0829cae76ad56b1039
+
+Resolves #535
+
+Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-28 10:01:06 +0000 UTC
+        Created At 2022-04-08 03:26:10 +0000 UTC
     </div>
 </div>
 

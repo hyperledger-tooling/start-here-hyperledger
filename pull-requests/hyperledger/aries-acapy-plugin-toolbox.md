@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/126" class=".btn">#126</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/128" class=".btn">#128</a>
             </td>
             <td>
                 <b>
-                    feat: update mediator wallet to bypass encoding problems for demo
+                    feat: replace connections with oob for invites in all demo configs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,39 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                Signed-off-by: Micah Peltier <micah6_8@yahoo.com>
+                I may have been a smidge trigger-happy, but I replaced every instance of `connections-invite` with just `invite` in the demo configs so that they would use OOB invitations rather than Connections invitations.
+Signed-off-by: Micah Peltier <micah6_8@yahoo.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-16 20:26:53 +0000 UTC
+        Created At 2022-04-08 17:24:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/127" class=".btn">#127</a>
+            </td>
+            <td>
+                <b>
+                    Fix/admin trustping demo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-05 18:13:09 +0000 UTC
     </div>
 </div>
 

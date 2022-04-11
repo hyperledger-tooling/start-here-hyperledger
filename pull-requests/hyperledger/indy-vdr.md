@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/87" class=".btn">#87</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/89" class=".btn">#89</a>
             </td>
             <td>
                 <b>
-                    Feature/python wrapper with multiple ledger support
+                    feat(js): react native initial project setup
                 </b>
             </td>
         </tr>
@@ -27,19 +27,44 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                Added python wrapper for multi-ledger did resolution
-
-Exposes three simple ways to set up a resolver:
-
-1. Provide a list of namespaces, genesis files will be retrieved from did indy networks repo
-2. Local did indy networks compatible folder structure
-3. Autopilot: Library will try to fetch genesis files from did indy networks repo when a DID with an unknown namespace is encountered.
-
+                - Builds on pr #88 
+- Setups up a React Native library. This does not include the example app. Another PR will be created later on when Expo adds support for React Native 0.68.0. This will allow for a very minimal example app (does not include `android/` and `ios/`.
+- No included functionality so the following PRs will only have functional code.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-24 14:19:11 +0000 UTC
+        Created At 2022-04-11 12:29:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/88" class=".btn">#88</a>
+            </td>
+            <td>
+                <b>
+                    feat(js): shared library
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Shared interface library between the NodeJS side and the React Native side. Some minor TODO's are still included and will be resolved before merging.
+- Does not include actual functionality, those will come in future PRs.
+- (this is not going to main, but `javascript-wrapper`.
+
+Signed-off-by: Berend Sliedrecht <berend@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-11 08:22:01 +0000 UTC
     </div>
 </div>
 
