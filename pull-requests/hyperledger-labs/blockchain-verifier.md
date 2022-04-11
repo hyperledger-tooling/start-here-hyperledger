@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/18" class=".btn">#18</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/19" class=".btn">#19</a>
             </td>
             <td>
                 <b>
-                    Archive lab.
+                    Bump the versions of the dependencies and Hyperledger Fabric
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                Archived labs are read-only, and they can be moved back out of the archives, if there is interest in reviving them.
-    
-Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
+                This PR updates the dependencies and Hyperledger Fabric used in the integration tests.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-06 18:19:57 +0000 UTC
+        Created At 2022-04-11 04:23:50 +0000 UTC
     </div>
 </div>
 
