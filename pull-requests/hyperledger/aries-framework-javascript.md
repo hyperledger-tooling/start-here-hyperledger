@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/695" class=".btn">#695</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/702" class=".btn">#702</a>
             </td>
             <td>
                 <b>
-                    Feat/jsonld credentials
+                    feat: Ability to add Non-secret records
                 </b>
             </td>
         </tr>
@@ -27,12 +27,21 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                This (WIP) PR adds the low level functionality required for the issuance and verification of W3C - JSON-LD based credentials. It also adds cryptographic support for the Ed25519 Signature 2018 and BBS+ Signatures 2020 suites.
+                Summary of Changes
+
+Added a non-secret module with minimal API just to expose the on-secret APIs for Indy library [here](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/003-wallet-storage/README.html#) 
+This will enable business logic that requires saving custom records like wallet history to be saved to the wallet and retrieved back when possible
+
+Related Issue #685 
+
+
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-02 14:03:48 +0000 UTC
+        Created At 2022-04-09 10:01:07 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +49,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/692" class=".btn">#692</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/700" class=".btn">#700</a>
             </td>
             <td>
                 <b>
-                    feat: add role and method to did record tags
+                    feat: use did keys for oob and did exchange protocols
                 </b>
             </td>
         </tr>
@@ -53,14 +62,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-Adds the `role` and `method` to the `DidRecord` tags. This will make it easier to integrate the did registrar module later one without needing to resave all did records.
+                Signed-off-by: Jakub Koci <jakub.koci@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-31 13:25:53 +0000 UTC
+        Created At 2022-04-07 15:15:25 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +75,11 @@ Adds the `role` and `method` to the `DidRecord` tags. This will make it easier t
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/691" class=".btn">#691</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/699" class=".btn">#699</a>
             </td>
             <td>
                 <b>
-                    feat: delete credential from wallet
+                    feat: add support for postgres wallet type
                 </b>
             </td>
         </tr>
@@ -81,13 +88,14 @@ Adds the `role` and `method` to the `DidRecord` tags. This will make it easier t
                 
             </td>
             <td>
-                As discussed in #602, deleting a credential can now also be deleted from the wallet. 
+                Signed-off-by: Sai Ranjit Tummalapalli <sairanjit.tummalapalli@ayanworks.com>
 
+Related issue: #553 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-31 11:57:50 +0000 UTC
+        Created At 2022-04-07 13:55:38 +0000 UTC
     </div>
 </div>
 
@@ -95,11 +103,11 @@ Adds the `role` and `method` to the `DidRecord` tags. This will make it easier t
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/690" class=".btn">#690</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/698" class=".btn">#698</a>
             </td>
             <td>
                 <b>
-                    feat: add update assistant for storage migrations
+                    feat: find existing connection based on invitation did
                 </b>
             </td>
         </tr>
@@ -108,170 +116,16 @@ Adds the `role` and `method` to the `DidRecord` tags. This will make it easier t
                 
             </td>
             <td>
-                Adds an `UpdateAssistant` that can help with updating AFJ storage to newer versions. If the agent is initialized with an older storage version than the framework an error is thrown and the agent can't be initialized. See the updating.md doc for examples on how to use the update assistant to update agent storage.
+                I added a function `serviceToNumAlgo2Did` but I'm testing it in `DidPeer.test`, because I was curious if it's possible to create regular PeerDid and then take `didDocument` from it. As you can see it's not possible right now so I commented the code in the test. 
 
-I've also added an autoUpdateOnStartup parameter that will auto update the agent storage on initialization. Would like to have a discussion about this during the WG call whether this is desired or what the most optimal flow would be for updating the agent.
+I described what might be a cause of the problem in issue here [RFC 0434: Ambiguous description of Peer DID numalgo 2 service encoding](https://github.com/hyperledger/aries-rfcs/issues/728).
 
-I've added two migrations for now, we can add more once the PRs are merged:
-- update the role in mediation record
-- update the metadata object in the credential record to the new format
-
-The changes are well documented in the `0.1-to-0.2` document. This currently contains only breaking storage changes, but should be updated with breaking code changes also.
-
-A backup will be created when starting the agent, and it will be restored if the migration failed.
-
-I spent _A LOT_ of time on testing to make sure nothing goes wrong here as that can lead to nasty situations. Every migration has extensive tests and there are also quite some tests for the e2e flow.
-
+There is also a simplification of when and what invitation did we store in the connection record. OOB invitation can contain more dids (or service blocks encoded as peer did numalgo2) and we should store only the one we successfully use to send connection request message to.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-31 10:50:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/689" class=".btn">#689</a>
-            </td>
-            <td>
-                <b>
-                    fix: did sov service type resolving
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes behavior with the service resolution & types behavior with did:sov resolution. This additionally renames the `IndyDidResolver` to `SovDidResolver` to reduce confusion and prevent collision with the did:indy method in the future. Happy for any feedback/thoughts here.
-
-
-@TimoGlastra if you could take a look at this one to ensure I didn't miss something here that'd be appreciated! 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-31 00:20:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/688" class=".btn">#688</a>
-            </td>
-            <td>
-                <b>
-                    feat: extension module creation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Export some convenience types and classes to facilitate extension/plug-in development and add a fully-working dummy extension module in samples directory.
-
-I'm not sure if it's the right place to put all this stuff, but I believe it could help developers to add custom protocols and wallet storage to their controllers, so it's worth for it to be somewhere :-).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 14:38:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/687" class=".btn">#687</a>
-            </td>
-            <td>
-                <b>
-                    refactor: remove verkeys and did docs from connection record
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-29 19:52:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/686" class=".btn">#686</a>
-            </td>
-            <td>
-                <b>
-                    fix: allow to set tags in MediationRecord constructor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Allow to optionally set tags for MediationRecord in class constructor (as it is in other records such as ConnectionRecord, ProofRecord, etc.). This is not currently used in regular flows but could be useful when mocking framework records.
-
-Signed-off-by: Ariel Gentile <gentilester@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-29 16:07:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/684" class=".btn">#684</a>
-            </td>
-            <td>
-                <b>
-                    feat: bbs createKey, sign and verify
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **MARKED AS DRAFT** because the `react-native-bbs-signatures` is not yet released and merging this will break the React Native environment if bbs-signatures are being used.
-
-Almost every change in this PR will be reverted when support for `aries-askar` is added, as we can then do all the functionality inside the wallet instead of the AFJ level. 
-
-- Adds bls12381g1 and bls12381g2 to `indyWallet.createKey`
-- Adds bls12381g2 to `indyWallet.sign`
-- Adds bls12381g2 to `indyWallet.verify`
-- Store and retrieve the keyPair in the wallet via the public key
-- Added tests for the indy wallet
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-28 09:01:01 +0000 UTC
+        Created At 2022-04-07 08:50:39 +0000 UTC
     </div>
 </div>
 

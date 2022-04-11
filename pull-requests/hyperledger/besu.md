@@ -14,6 +14,99 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3720" class=".btn">#3720</a>
+            </td>
+            <td>
+                <b>
+                    revert to TransactionDB to resolve 'busy' exception 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Revert to TransactionDB to resolve 'busy' exception from OptimisticTransactionDB.  
+
+As I understand it, we originally went to OptimisticTransctionDB in order to support `deleteRange()` for our implementation of `RocksDBColumnarKeyBValueStore.clear()`.  In light of the change to the `clear` implementation in #3634, we do not need to use OptimisticTransactionDB.  
+
+Currently in Draft while testing and while discussing the merits of sticking with OptimisticTransactionDB for locking performance.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #3719
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-11 16:48:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3718" class=".btn">#3718</a>
+            </td>
+            <td>
+                <b>
+                    [DO NOT MERGE] Test another implementation of Arrays.fill
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Performance test : Test another implementation of Arrays.fill
+Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-11 12:47:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3712" class=".btn">#3712</a>
             </td>
             <td>
@@ -691,113 +784,6 @@ analysis happy.
     </table>
     <div class="right-align">
         Created At 2022-04-04 19:40:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3686" class=".btn">#3686</a>
-            </td>
-            <td>
-                <b>
-                    snapshot version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-04 18:09:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3685" class=".btn">#3685</a>
-            </td>
-            <td>
-                <b>
-                    added issue 3646 to changelog
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-04 17:01:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3684" class=".btn">#3684</a>
-            </td>
-            <td>
-                <b>
-                    Update storage for snapsync and fastsync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Modification of the behavior of bonsai storage  in order to avoid deleting everything between two pivot blocks.
-The flat database will be deleted between two pivot blocks. And the trie will be used when data is not available in the flat database. During the next writing of this data it will be put automatically in the flat for a faster reading.
-
-This will cause a reduction of the size of the database. Because we will not have data never called in the flat database.
-
-But this may reduce the reading speed when accessing data for the first time. 
-
-For now it will be only activated for snapsync. To check if it's working well  
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-04 14:20:22 +0000 UTC
     </div>
 </div>
 

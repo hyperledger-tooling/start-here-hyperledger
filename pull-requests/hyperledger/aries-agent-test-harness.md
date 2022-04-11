@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/465" class=".btn">#465</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/476" class=".btn">#476</a>
             </td>
             <td>
                 <b>
-                    feat: support did:sov and did:key
+                    fix(dotnet): exclude mediation tests
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                Adds support for RFC 0453 and RFC 0454 tests using did:sov and did:key between AFGO agents. did:key was already supported, but AFGO was actually using did:orb under the hood when issuing. Now AFGO also supports issuing with did:key dids. Also added support in ACA-Py for issuing JSON-LD creds using did:sov dids.
-
-This gives us the following support matrix:
-
-
-|        | AFGO                            | ACA-Py                          |
-|--------|---------------------------------|---------------------------------|
-| Issue  | `did:orb`, `did:key`            | `did:sov`, `did:key`            |
-| Verify | `did:orb`, `did:sov`, `did:key` | `did:orb`, `did:sov`, `did:key` |
-
+                Mediation tests were being run for some tests with dotnet.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-01 09:42:31 +0000 UTC
+        Created At 2022-04-11 06:29:43 +0000 UTC
     </div>
 </div>
 
@@ -49,11 +40,11 @@ This gives us the following support matrix:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/464" class=".btn">#464</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/475" class=".btn">#475</a>
             </td>
             <td>
                 <b>
-                    Changes by create-pull-request action
+                    fix: waci tags and did method
                 </b>
             </td>
         </tr>
@@ -62,12 +53,12 @@ This gives us the following support matrix:
                 
             </td>
             <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+                The waci tests weren't specifying any did method, causing the flow to fail after my recent pr to extend did methods
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-01 03:23:45 +0000 UTC
+        Created At 2022-04-10 20:18:51 +0000 UTC
     </div>
 </div>
 
@@ -75,11 +66,11 @@ This gives us the following support matrix:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/463" class=".btn">#463</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/474" class=".btn">#474</a>
             </td>
             <td>
                 <b>
-                    Fix repository references
+                    feat: oob connectionless for issue cred and present proof
                 </b>
             </td>
         </tr>
@@ -88,14 +79,20 @@ This gives us the following support matrix:
                 
             </td>
             <td>
-                - The GitHub data for scheduled workflows does not contain the github.event.repository attributes.  Therefore the repository name needs to be parsed from the repository attribute.
+                Adds connectionless support for both issue credential v1/v2 and present proof v1/v2 using the oob protocol. Also removed the old AIP 1 connectionless code as it was never used.
 
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+Draft for now as it's built against my fork of ACA-Py until it get's merged into main.
+
+This only handles attachments in OOB invitations for connectionless. Probably good to also add tests for receiving oob invitations with creating a connection and processing an attachments (Should be quite easy now with all substeps being defined).
+
+One thing I ran into and we should probably change is that AATH is build on the expectation that the oob receive invitation will return a connection record and also connection state instead of oob state. Probably because that's how it was implemented in ACA-Py. For now I've tricked the ACA-Py backchannel into returning the state it expects for now (mapping `prepare-response` to `invitation-received`), but would be good to change this to be more in line with the RFC (having less ACA-Py driven backchannel API design would be good in general I think)
+
+We may want to move some tests from the DIDExchange tests to the oob tests now that there is a dedicated file for out of band
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-31 13:31:41 +0000 UTC
+        Created At 2022-04-10 17:15:20 +0000 UTC
     </div>
 </div>
 
@@ -103,11 +100,11 @@ Signed-off-by: Wade Barnes <wade@neoterictech.ca>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/462" class=".btn">#462</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/473" class=".btn">#473</a>
             </td>
             <td>
                 <b>
-                    Fix the other repository owner reference.
+                    fix(acapy): check schema cred def exists before creating
                 </b>
             </td>
         </tr>
@@ -116,14 +113,14 @@ Signed-off-by: Wade Barnes <wade@neoterictech.ca>
                 
             </td>
             <td>
-                - I missed one in the last commit, should have used find and replace.
+                Fix for changes introduced in https://github.com/hyperledger/aries-cloudagent-python/pull/1721
 
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+ACA-Py now checks if a schema/cred def already exists before creating it. This PR retrieves the created schemas/cred defs and see if it already exists
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-30 21:58:59 +0000 UTC
+        Created At 2022-04-10 16:50:12 +0000 UTC
     </div>
 </div>
 
@@ -131,11 +128,11 @@ Signed-off-by: Wade Barnes <wade@neoterictech.ca>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/461" class=".btn">#461</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/472" class=".btn">#472</a>
             </td>
             <td>
                 <b>
-                    Fix repository owner reference.
+                    Workaround the dotnet-master build not working by using dotnet test agent everywhere -- revert later possible
                 </b>
             </td>
         </tr>
@@ -144,14 +141,13 @@ Signed-off-by: Wade Barnes <wade@neoterictech.ca>
                 
             </td>
             <td>
-                - Add some debugging
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
 
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-30 19:50:30 +0000 UTC
+        Created At 2022-04-08 21:05:45 +0000 UTC
     </div>
 </div>
 
@@ -159,82 +155,11 @@ Signed-off-by: Wade Barnes <wade@neoterictech.ca>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/460" class=".btn">#460</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/470" class=".btn">#470</a>
             </td>
             <td>
                 <b>
-                    chore(deps): Bump minimist from 1.2.5 to 1.2.6 in /aries-backchannels/verity
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Bumps [minimist](https://github.com/substack/minimist) from 1.2.5 to 1.2.6.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/substack/minimist/commit/7efb22a518b53b06f5b02a1038a88bd6290c2846"><code>7efb22a</code></a> 1.2.6</li>
-<li><a href="https://github.com/substack/minimist/commit/ef88b9325f77b5ee643ccfc97e2ebda577e4c4e2"><code>ef88b93</code></a> security notice for additional prototype pollution issue</li>
-<li><a href="https://github.com/substack/minimist/commit/c2b981977fa834b223b408cfb860f933c9811e4d"><code>c2b9819</code></a> isConstructorOrProto adapted from PR</li>
-<li><a href="https://github.com/substack/minimist/commit/bc8ecee43875261f4f17eb20b1243d3ed15e70eb"><code>bc8ecee</code></a> test from prototype pollution PR</li>
-<li>See full diff in <a href="https://github.com/substack/minimist/compare/1.2.5...1.2.6">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=minimist&package-manager=npm_and_yarn&previous-version=1.2.5&new-version=1.2.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-agent-test-harness/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 18:03:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/459" class=".btn">#459</a>
-            </td>
-            <td>
-                <b>
-                    Refactor test harness flow control
+                    Fix bad link as highlighted in #443
                 </b>
             </td>
         </tr>
@@ -243,18 +168,13 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                - Switch to a main test workflow to control the flow and execution of the test harnesses.
-- Uses a throttled matrix strategy to control the number of concurrent test harness workflows running at one time.
-- Supports:
-  - dynamic discovery of test harness workflows.
-  - exclusion of specific test harness workflows.
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
 
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-30 15:42:00 +0000 UTC
+        Created At 2022-04-08 20:44:22 +0000 UTC
     </div>
 </div>
 
@@ -262,11 +182,11 @@ Signed-off-by: Wade Barnes <wade@neoterictech.ca>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/458" class=".btn">#458</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/468" class=".btn">#468</a>
             </td>
             <td>
                 <b>
-                    Idlab/acapy build fix
+                    fix(afj): use npm alpha version again
                 </b>
             </td>
         </tr>
@@ -275,12 +195,40 @@ Signed-off-by: Wade Barnes <wade@neoterictech.ca>
                 
             </td>
             <td>
-                This is an attempt at fixing [Issue 454](https://github.com/hyperledger/aries-agent-test-harness/issues/454)
+                Update AFJ to again use the latest alpha version from npm
+
+Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-30 13:12:31 +0000 UTC
+        Created At 2022-04-06 15:13:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/467" class=".btn">#467</a>
+            </td>
+            <td>
+                <b>
+                    feat: support revocation notification v1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds support for revocation notification v1 in the revocation tests. For ACA-Py it currently uses an incorrect value for the `thread_id` in the revocation notification, so this is also being used in the AATH tests. I don't think there's an implementation that implemented the actual RFC. It also supports the correct thread_id when checking if a revocation notification has been received, so if other agents do support the RFC variant it will also work (but not with ACA-Py as ACA-Py doesn't follow the RFC).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-06 13:20:43 +0000 UTC
     </div>
 </div>
 
