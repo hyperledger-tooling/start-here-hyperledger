@@ -14,6 +14,43 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/2035" class=".btn">2035</a>
+            </td>
+            <td>
+                <b>
+                    Add macro to remove boilerplate from `client/tests/integration`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ```rust
+    let (_rt, _peer, mut test_client) = <TestPeer>::start_test_with_runtime();
+    wait_for_genesis_committed(&vec[test_client.clone()], 0);
+```
+
+is repeated at the top of almost every test. 
+
+We should have a proc-macro `#[integration]` which adds this boilerplate, but allows specifying the number of peers, the genesis, the configuration options and a few other things. 
+
+#### Optional 
+
+Remove the `start_test_with_runtime` and replace it with the most general `fn` from `test_network`. Instead use the `proc_macro` args to add optional customisation. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-03-30 07:27:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/2009" class=".btn">2009</a>
             </td>
             <td>
