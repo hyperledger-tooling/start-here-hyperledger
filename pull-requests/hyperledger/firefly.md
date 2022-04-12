@@ -61,8 +61,6 @@ Add helper URLs:
 GET /apis/{apiName}/listeners/{eventPath} - list all listeners matching this event on this API
 POST /apis/{apiName}/listeners/{eventPath} - create a new listener for this event on this API
 ```
-
-Test coverage is not quite complete; will come back to finish it shortly. Code should be complete though.
             </td>
         </tr>
     </table>
