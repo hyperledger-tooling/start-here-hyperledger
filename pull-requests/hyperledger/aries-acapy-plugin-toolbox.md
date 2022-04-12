@@ -63,29 +63,3 @@ Signed-off-by: Micah Peltier <micah6_8@yahoo.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/127" class=".btn">#127</a>
-            </td>
-            <td>
-                <b>
-                    Fix/admin trustping demo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-05 18:13:09 +0000 UTC
-    </div>
-</div>
-

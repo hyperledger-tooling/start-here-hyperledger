@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/45" class=".btn">#45</a>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/46" class=".btn">#46</a>
             </td>
             <td>
                 <b>
-                    Add document for Read Latency and Transaction Latency as usage
+                    CI fixing
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
                 
             </td>
             <td>
-                resolve #41
-resolve #42
+                fix bugs in CI
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-04 15:45:08 +0000 UTC
+        Created At 2022-04-12 13:41:31 +0000 UTC
     </div>
 </div>
 

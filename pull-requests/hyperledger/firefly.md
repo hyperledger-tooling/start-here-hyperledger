@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/701" class=".btn">#701</a>
+            </td>
+            <td>
+                <b>
+                    [ui-v0.7.0] manifest and image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-12 17:37:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/700" class=".btn">#700</a>
+            </td>
+            <td>
+                <b>
+                    Update readme images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should fix #699.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-12 17:17:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/698" class=".btn">#698</a>
+            </td>
+            <td>
+                <b>
+                    Update ruby deps
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Dependabot is encouraging upgrades
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-12 14:12:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/697" class=".btn">#697</a>
             </td>
             <td>
@@ -61,6 +139,12 @@ Add helper URLs:
 GET /apis/{apiName}/listeners/{eventPath} - list all listeners matching this event on this API
 POST /apis/{apiName}/listeners/{eventPath} - create a new listener for this event on this API
 ```
+
+Also makes `topic` a required field for contract listeners, and enforces uniqueness of listeners across these 2 dimensions:
+* namespace + name
+* topic + contract location + event signature
+
+Violating either uniqueness constraint when attempting to create a listener will result in HTTP 409, so applications can rely on this behavior to perform "create this listener if it does not already exist". Note that `name` is still optional, and a unique one will be assigned at creation time if none is specified.
             </td>
         </tr>
     </table>
@@ -92,32 +176,6 @@ POST /apis/{apiName}/listeners/{eventPath} - create a new listener for this even
     </table>
     <div class="right-align">
         Created At 2022-04-11 20:48:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/693" class=".btn">#693</a>
-            </td>
-            <td>
-                <b>
-                    Add NormalizeContractLocation to blockchain plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Normalize the JSON "location" field on both contract APIs and contract listeners (by doing a Go marshal/unmarshal), so that non-meaningful differences such as spacing and key ordering will be smoothed out in a consistent manner. This will ensure "location" strings are always string-comparable.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-11 18:40:14 +0000 UTC
     </div>
 </div>
 
