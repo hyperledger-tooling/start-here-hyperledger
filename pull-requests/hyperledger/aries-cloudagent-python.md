@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1726" class=".btn">#1726</a>
+            </td>
+            <td>
+                <b>
+                    Use provided connection_id if provided
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+See issue https://github.com/hyperledger/aries-cloudagent-python/issues/1703
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-11 21:39:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1725" class=".btn">#1725</a>
             </td>
             <td>

@@ -14,6 +14,119 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/697" class=".btn">#697</a>
+            </td>
+            <td>
+                <b>
+                    Make http server framework re-usable by microservices
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In a PR chain with #688
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-11 22:07:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/696" class=".btn">#696</a>
+            </td>
+            <td>
+                <b>
+                    Add helpers at /apis/{apiName}/listeners/{eventPath}
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This includes the commit from #693.
+
+Add helper URLs:
+
+```
+GET /apis/{apiName}/listeners/{eventPath} - list all listeners matching this event on this API
+POST /apis/{apiName}/listeners/{eventPath} - create a new listener for this event on this API
+```
+
+Test coverage is not quite complete; will come back to finish it shortly. Code should be complete though.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-11 21:08:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/695" class=".btn">#695</a>
+            </td>
+            <td>
+                <b>
+                    Add completed configuration descriptions and types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The main thing this PR adds is completed descriptions for all configuration options. It also adds a new `ffc()` for FireFly Configuration message keys for translations. The configuration key requires that a `fieldType` be set as another parameter in addition to the configuration description. The `fieldType` is a `string` that describes the Go type that FireFly Core will parse the field as.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-11 20:48:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/693" class=".btn">#693</a>
+            </td>
+            <td>
+                <b>
+                    Add NormalizeContractLocation to blockchain plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Normalize the JSON "location" field on both contract APIs and contract listeners (by doing a Go marshal/unmarshal), so that non-meaningful differences such as spacing and key ordering will be smoothed out in a consistent manner. This will ensure "location" strings are always string-comparable.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-11 18:40:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/691" class=".btn">#691</a>
             </td>
             <td>
@@ -219,34 +332,6 @@ methods and events.
     </table>
     <div class="right-align">
         Created At 2022-04-10 16:53:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/686" class=".btn">#686</a>
-            </td>
-            <td>
-                <b>
-                    Add helper at /apis/{apiName}/listen
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This existed in the past and was removed due to perceived redundancy. However, it _would_ allow creating contract listeners with a single step if you know only the API name and not the underlying FFI ID (currently creating a listener in that case is a 2-step process, to go from API to FFI and then create the listener).
-
-Note that this exists in parallel to the other RPC-style endpoints at `/apis/{apiName}/query` and `/apis/{apiName}/invoke`. It's worth discussing if a similar API should be added next to `/contracts/interfaces/{interfaceId}/query` and `/contracts/interfaces/{interfaceId}/invoke` (or possibly discussing the opposite, ie if _those_ should be pruned as redundant).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-10 12:50:40 +0000 UTC
     </div>
 </div>
 
@@ -794,34 +879,6 @@ So this PR introduces the architecture summarized in the diagram below. This ens
     </table>
     <div class="right-align">
         Created At 2022-04-05 18:37:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/662" class=".btn">#662</a>
-            </td>
-            <td>
-                <b>
-                    Proper handling of token approval events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Ensure existing approvals are not being overwritten
-- Remove localID from async/sync POST response
-- Commented out approvals from synchronous tokens e2e test due to https://github.com/hyperledger/firefly/issues/661
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-04 20:08:52 +0000 UTC
     </div>
 </div>
 

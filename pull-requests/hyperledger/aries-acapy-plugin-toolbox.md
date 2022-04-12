@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/129" class=".btn">#129</a>
+            </td>
+            <td>
+                <b>
+                    test: update acapy-client in int tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-11 23:36:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/128" class=".btn">#128</a>
             </td>
             <td>
