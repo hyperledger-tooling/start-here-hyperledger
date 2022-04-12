@@ -1,13 +1,13 @@
 
-[129](https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/129) test: update acapy-client in int tests
+[3218](https://github.com/hyperledger/aries-framework-go/pull/3218) chore(deps): bump actions/setup-node from 2.4.0 to 3.1.1
 
-[371](https://github.com/hyperledger-labs/private-data-objects/pull/371) Create key/value store for client use
+[1310](https://github.com/hyperledger/caliper/pull/1310) Peer Gateway: Integration tests for the new Peer Gateway connnector ( + update docker compose to use 
 
-[697](https://github.com/hyperledger/firefly/pull/697) Make http server framework re-usable by microservices
+[703](https://github.com/hyperledger/aries-framework-javascript/pull/703) feat: add yml for postgres setup
 
-[2082](https://github.com/hyperledger/iroha/pull/2082) [skip ci] Retire inactive maintainers
+[1966](https://github.com/hyperledger/cactus/pull/1966) Add monitoring and send sync/async functionality
 
-[1726](https://github.com/hyperledger/aries-cloudagent-python/pull/1726) Use provided connection_id if provided
+[238](https://github.com/hyperledger/aries-framework-go-ext/pull/238) chore: update to latest orb
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -42,33 +42,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/727" class=".btn">#727</a>
-            </td>
-            <td>
-                <b>
-                    Remove double call to expression in destructure codegen
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is a quick fix for calling `expression` twice when doing code generation for restructure statements.
-Instead of calling `expression`, I call `storage_load` to create the `LoadStorage` instruction in the CFG.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-08 12:53:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/726" class=".btn">#726</a>
             </td>
             <td>
