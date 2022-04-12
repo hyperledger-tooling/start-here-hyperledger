@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/654" class=".btn">#654</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Translate "error-handling.rst" into Japanese
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This patch translates "error-handling.rst" into Japanese.
+
+Resolves #590
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-12 08:54:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/653" class=".btn">#653</a>
             </td>
             <td>

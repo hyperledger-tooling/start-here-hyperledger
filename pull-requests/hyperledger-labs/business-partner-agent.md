@@ -102,38 +102,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/740" class=".btn">#740</a>
-            </td>
-            <td>
-                <b>
-                    postgres 14/askar as default
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - postgres 14
-- wallet type askar as default
-
-- [ ] aca-py, ascar and pq 14 run out of db connections pretty fast in this combination, needs investigation
-
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/740"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-05 08:25:25 +0000 UTC
-    </div>
-</div>
-
