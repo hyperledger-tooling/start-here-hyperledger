@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
             </td>
             <td>
                 <b>
-                    Add Polkadot section to payment_tutorial
+                    Add Migration section
                 </b>
             </td>
         </tr>

@@ -14,6 +14,114 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/737" class=".btn">#737</a>
+            </td>
+            <td>
+                <b>
+                    Update the development progress in README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I'm updating our README.md with your latest development progresses. 🥳
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-12 17:38:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/736" class=".btn">#736</a>
+            </td>
+            <td>
+                <b>
+                    More info for overload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix https://github.com/hyperledger-labs/solang/issues/707
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-12 15:22:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/735" class=".btn">#735</a>
+            </td>
+            <td>
+                <b>
+                    Update links to discord to the correct channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The links to discord chat is to the discord server, but we can do better
+than that and link to the correct channel on the server.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-12 14:41:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/734" class=".btn">#734</a>
+            </td>
+            <td>
+                <b>
+                    chore: typo fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-12 14:16:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/730" class=".btn">#730</a>
             </td>
             <td>

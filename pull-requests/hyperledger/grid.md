@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/grid
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
+                <span class="chip">main</span>
             </td>
             <td>
                 This implements the `get_unsubmitted_batches()` operation for the
