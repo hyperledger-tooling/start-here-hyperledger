@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1971" class=".btn">#1971</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): upgrade angular in examples/carbon accounting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1651
+
+Signed-off-by: aldousalvarez <aldousss.alvarez@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 06:51:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1970" class=".btn">#1970</a>
             </td>
             <td>
@@ -286,34 +314,6 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
     </table>
     <div class="right-align">
         Created At 2022-04-06 12:48:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1959" class=".btn">#1959</a>
-            </td>
-            <td>
-                <b>
-                    docs: fixed typos within whitepaper
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Just fixed some typos within the `whitepapers.md`, nothing too fancy!
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-06 12:23:29 +0000 UTC
     </div>
 </div>
 

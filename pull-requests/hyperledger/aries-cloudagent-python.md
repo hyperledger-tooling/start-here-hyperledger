@@ -273,34 +273,3 @@ PORTS="5002 8002" ENV_VARS="ACAPY_INBOUND_TRANSPORT=[[\"http\",\"0.0.0.0\",\"802
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1714" class=".btn">#1714</a>
-            </td>
-            <td>
-                <b>
-                    Update raise errors and add schema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: DaevMithran <daevmithran1999@gmail.com>
-
-Updated pull request changes suggested by @TimoGlastra 
-
-- Raising an http bad request error when a seed is passed in the body and wallet-allow-insecure-seed is not enabled
-- Updated schema for wallet/did/create
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-06 11:38:39 +0000 UTC
-    </div>
-</div>
-

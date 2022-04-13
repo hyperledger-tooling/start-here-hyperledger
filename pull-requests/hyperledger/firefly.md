@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/711" class=".btn">#711</a>
+            </td>
+            <td>
+                <b>
+                    Add token provider to container logs name to make it unique
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When trying to investigate https://github.com/hyperledger/firefly/runs/6001824099?check_suite_focus=true I found that I didn't have the container logs.
+
+Looks like it's due to a clash in the names between the token tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 12:25:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/709" class=".btn">#709</a>
             </td>
             <td>

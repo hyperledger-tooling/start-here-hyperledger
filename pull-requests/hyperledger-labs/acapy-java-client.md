@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/25" class=".btn">#25</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    [#24] Cannot handle non-payload WebSocket events
+                    tenant aware event handler
                 </b>
             </td>
         </tr>
@@ -27,12 +27,64 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                Signed-off-by: Thomas Diesler <tdiesler@redhat.com>
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-12 18:12:20 +0000 UTC
+        Created At 2022-04-13 10:58:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/29" class=".btn">#29</a>
+            </td>
+            <td>
+                <b>
+                    Add support for WebSocket/Webhook topic='settings'
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 09:27:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/27" class=".btn">#27</a>
+            </td>
+            <td>
+                <b>
+                    WebSocket/Webhook processing swallows (optional) wallet_id
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There are some breaking changes in EventHandler - I tried to minimize this by deprecation callback methods without wallet id. Not sure if you want that - perhaps it is ok to change those signatures
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 08:42:47 +0000 UTC
     </div>
 </div>
 

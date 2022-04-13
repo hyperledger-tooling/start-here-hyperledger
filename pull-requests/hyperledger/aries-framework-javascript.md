@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/705" class=".btn">#705</a>
+            </td>
+            <td>
+                <b>
+                    refactor: start and stop transports in parallel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                start and stop transports in parallel as suggested by @jakubkoci  in https://github.com/hyperledger/aries-framework-javascript/pull/704#discussion_r849258130
+
+I've grouped the inbound / outbound so we they're all running in parallel
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 09:23:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/704" class=".btn">#704</a>
+            </td>
+            <td>
+                <b>
+                    fix: disallow floating promises
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Helps catch nasty bugs (and even caught some places where we didn't call await!), and as #563 has been around forever it's easier to already pick some important rules.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 08:12:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/703" class=".btn">#703</a>
             </td>
             <td>
