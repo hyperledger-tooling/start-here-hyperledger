@@ -1,13 +1,13 @@
 
-[v0.0.47](https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.47) v0.0.47
+[v0.1.3](https://github.com/hyperledger/firefly-sandbox/releases/tag/v0.1.3) v0.1.3
 
-[v0.0.1](https://github.com/hyperledger/firefly-sandbox/releases/tag/v0.0.1) v0.0.1
+[v0.1.2](https://github.com/hyperledger/firefly-sandbox/releases/tag/v0.1.2) v0.1.2
 
-[component/vdr/orb/v1.0.0-rc.1](https://github.com/hyperledger/aries-framework-go-ext/releases/tag/component/vdr/orb/v1.0.0-rc.1) Release v1.0.0-rc.1
+[v1.0.0-rc.4](https://github.com/hyperledger/firefly/releases/tag/v1.0.0-rc.4) v1.0.0-rc.4
 
-[v0.7.0](https://github.com/hyperledger/firefly-ui/releases/tag/v0.7.0) v0.7.0_50810a4
+[v0.1.1](https://github.com/hyperledger/firefly-sandbox/releases/tag/v0.1.1) v0.1.1
 
-[v1.0.0-rc.3](https://github.com/hyperledger/firefly/releases/tag/v1.0.0-rc.3) v1.0.0-rc.3
+[v0.1.0](https://github.com/hyperledger/firefly-sandbox/releases/tag/v0.1.0) v0.1.0
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
