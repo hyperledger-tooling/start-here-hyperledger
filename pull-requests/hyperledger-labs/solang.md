@@ -14,6 +14,123 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/743" class=".btn">#743</a>
+            </td>
+            <td>
+                <b>
+                    feat: support projections in revert statement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I tried to fix this but I believe Hit some lalrpop issues, so this won't build I'm afraid. 
+But not sure what the proper fix for this would be, so I'd need some help
+
+
+Background
+
+this is a valid revert:
+
+```solidity
+        function doRevert2() internal pure {
+             revert LibName.ErrorName();
+        }
+```
+
+if an error is defined inside a library `LibName` 
+
+the solidity grammar states the revert stmt is `"revert" + expr + call-arg-list`
+But I think only this is valid (Id)? ("." Id)*
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 17:54:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/742" class=".btn">#742</a>
+            </td>
+            <td>
+                <b>
+                    feat: support byte as yulidentifier
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                prior to this `byte` was tokenized as `Token::Bytes(1)` as prior to 0.8.0 `byte` used to be an alias for `bytes1`
+
+however this breaks the assembly `byte` function
+
+```solidity
+            assembly {
+                v := byte(0, mload(add(signature, 0x60)))
+            }
+```
+
+This PR
+
+* adds a `"bytes" => Byte` token, that will be `Bytes(1)` if used as type or a yulidentifier
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 16:58:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/741" class=".btn">#741</a>
+            </td>
+            <td>
+                <b>
+                    Create codegen::Expression and refactor codegen
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR refactor code generation. The main addition was the `cfg::Expression`. This means we no longer depend on `ast::Expression` to build the CFG. I've managed to improve some other stuff:
+
+1. Now, we have a `cast` function for codegen. 
+2. Sema's `cast` function is now a method of `ast::Expression`.
+3. I created traits for common functions to facilitate implementing methods with generic arguments.
+4. I removed from the AST expressions that do not belong there, except `FunctionArg`, to which I couldn't find an easy solution.
+5. Some AST expressions do not exist is the CFG, so I removed references to them in codegen.
+6. As we are branching at every AND and OR expression, they do not exist in `cfg::Expression`. However, I left some block comments containing the code to handle those cases, in case we add them in nearby future.
+
+PS: This PR modifies 56 files, so please, @seanyoung, be pedantic!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 14:53:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/740" class=".btn">#740</a>
             </td>
             <td>

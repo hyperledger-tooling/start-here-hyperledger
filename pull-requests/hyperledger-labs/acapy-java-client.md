@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/32" class=".btn">#32</a>
+            </td>
+            <td>
+                <b>
+                    web socket listener and exception handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 15:49:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/31" class=".btn">#31</a>
+            </td>
+            <td>
+                <b>
+                    [#24] Cannot handle non-payload WebSocket events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Thomas Diesler <tdiesler@redhat.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 15:23:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/30" class=".btn">#30</a>
             </td>
             <td>
@@ -59,32 +111,6 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     </table>
     <div class="right-align">
         Created At 2022-04-13 09:27:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/27" class=".btn">#27</a>
-            </td>
-            <td>
-                <b>
-                    WebSocket/Webhook processing swallows (optional) wallet_id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There are some breaking changes in EventHandler - I tried to minimize this by deprecation callback methods without wallet id. Not sure if you want that - perhaps it is ok to change those signatures
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 08:42:47 +0000 UTC
     </div>
 </div>
 
@@ -367,32 +393,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2022-04-08 08:52:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/18" class=".btn">#18</a>
-            </td>
-            <td>
-                <b>
-                    changes for aca py 0.7.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-06 13:55:11 +0000 UTC
     </div>
 </div>
 

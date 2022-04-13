@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1972" class=".btn">#1972</a>
+            </td>
+            <td>
+                <b>
+                    test: jestify api client routing node to node test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This test file required more refactoring because the `tap` tests were nested, however `jest` doesn't allow nested test cases
+
+
+File Path: 
+packages/cactus-test-api-client/src/test/typescript/integration/api-client-routing-node-to-node.test.ts
+
+This is a PARTIAL resolution to issue #238
+
+Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 16:05:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1971" class=".btn">#1971</a>
             </td>
             <td>
@@ -286,34 +320,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-04-09 13:25:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1960" class=".btn">#1960</a>
-            </td>
-            <td>
-                <b>
-                    docs: add descriptions of ledgers in whitepaper
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Split documentation that @petermetz asked for in the comments of PR #1810 
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-06 12:48:30 +0000 UTC
     </div>
 </div>
 
