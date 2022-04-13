@@ -14,52 +14,6 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3327" class=".btn">#3327</a>
-            </td>
-            <td>
-                <b>
-                    Documentation Update secured_private_asset_transfer_tutorial.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 response: <nil>
-
-
-
-#### Type of change
-
-- Documentation update
-
-#### Description
-
-Proposing to update command to be the same as the release-2.4 docs @ https://hyperledger-fabric.readthedocs.io/en/release-2.4/secured_asset_transfer/secured_private_asset_transfer_tutorial.html
-
-#### Additional details
-
-Current/unchanged command causes 
-Error: error parsing transient string: invalid character '\n' in string literal - proposal
-
-#### Related issues
-
-Error: error parsing transient string: invalid character '\n' in string literal - proposal
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 16:21:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3325" class=".btn">#3325</a>
             </td>
             <td>
