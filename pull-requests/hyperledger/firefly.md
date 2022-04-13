@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/715" class=".btn">#715</a>
+            </td>
+            <td>
+                <b>
+                    Perform all identity claims, under the root identity topic ordering context
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Investigating https://github.com/hyperledger/firefly/issues/692 I realized that the only safe thing to do in terms of an ordering context, given that identities are arbitrarily nested in their hierarchy, is to broadcast them all under a single ordering context up to the root identity.  Then if a node is replaying a chain and potentially processing batches of blockchain transactions, it will be assured to get the same outcome in sequencing of identities for the whole hierarchy.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 17:30:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/714" class=".btn">#714</a>
+            </td>
+            <td>
+                <b>
+                    WebSocket disconnections should be info messages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 16:04:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/712" class=".btn">#712</a>
+            </td>
+            <td>
+                <b>
+                    Restore getting started section
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This was an accidental deletion in #708 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 13:27:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/711" class=".btn">#711</a>
             </td>
             <td>
@@ -1034,44 +1112,6 @@ So this PR proposes we create a proper separation of concerns between the compon
     </table>
     <div class="right-align">
         Created At 2022-04-06 22:12:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/666" class=".btn">#666</a>
-            </td>
-            <td>
-                <b>
-                    Remove misleading payload_ref DB field and fix Group JSON tag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In diagnosing a recent issue, I noticed that the `payloadRef` of a batch is a Database stored field, but is never set when you query in the database.
-
-This is because we were writing it when we sealed the batch for delivery, but then overwriting it when we confirmed the batch.
-
-It also had `VARCHAR(64)` in PSQL and `VARCHAR(256)` in SQLite.
-
-The code actually only _needed_ it to pass the `payloadRef` from the batch upload operation, to the batch pin operation. Instead of relying on that, I've added it explicitly to the inputs of the Batch Pin operation - which overall feels much more consistent.
-
-Then I've removed the DB field (for newly created envs - it nullable so no need for a migration to remove it).
-
-I had to update the operations interface to return the outputs though, as it wasn't currently.
-
-Unrelated fix - the `json:` tag on `Group` was wrong on `BatchPersisted` so we were returning `Group` rather than `group` on the JSON.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-06 17:50:29 +0000 UTC
     </div>
 </div>
 

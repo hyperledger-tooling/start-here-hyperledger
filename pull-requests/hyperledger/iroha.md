@@ -555,30 +555,3 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2065" class=".btn">#2065</a>
-            </td>
-            <td>
-                <b>
-                    Feature/rdb burrow storage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Description of the Change
-RocksDB storage implementation for Burrow.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-06 14:29:12 +0000 UTC
-    </div>
-</div>
-

@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                Signed-off-by: anonsachin <sachin94roxz@gmail.com>
+                As the Wallet struct's store field is unexported it cannot be set outside the gateway package. This pull request adds a simple function to make it possible to have a custom WalletStore's.
             </td>
         </tr>
     </table>
