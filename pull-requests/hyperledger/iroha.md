@@ -130,7 +130,7 @@ Retire inactive maintainers.
             </td>
             <td>
                 <b>
-                    [feature] #2003: Introduce Parity Scale Decoder tool (Alternative implementation)
+                    [feature] #2003: Introduce Parity Scale Decoder tool (stable implementation)
                 </b>
             </td>
         </tr>
