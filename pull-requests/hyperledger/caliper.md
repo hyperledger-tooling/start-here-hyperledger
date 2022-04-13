@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1311" class=".btn">#1311</a>
+            </td>
+            <td>
+                <b>
+                    Fixed colors dependency to 1.4.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #1308 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 08:46:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1310" class=".btn">#1310</a>
             </td>
             <td>

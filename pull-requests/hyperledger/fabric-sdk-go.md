@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/225" class=".btn">#225</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/230" class=".btn">#230</a>
             </td>
             <td>
                 <b>
-                    Recreate event service if WithNoCache() opt used
+                    wallets with custom walletstores as backends
                 </b>
             </td>
         </tr>
@@ -27,24 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                This PR adds WithNoCache() func opt to the event client constructor to force reinitialization of event client instead of using an event client from cache. 
-
-Now if two event clients will be created with the same EventService if the same context.ChannelProvider (`New(channelProvider context.ChannelProvider, opts ...ClientOption)`) was passed. As a result, the passed functional options are ignored. 
-
-Example of undocumented behaviour:
-
-```
-eventClient1, err := event.New(chPrvdr, event.WithBlockEvents(), event.WithSeekType(seek.FromBlock), event.WithBlockNum(0))
-...
-eventClient2, err := event.New(chPrvdr, event.WithBlockEvents(), event.WithSeekType(seek.FromBlock), event.WithBlockNum(10))
-```
-
-eventClient2 will listen not from 10 block, but from 0. Expected behavior: the client will listen from the 10 block.
+                Signed-off-by: anonsachin <sachin94roxz@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-04 09:48:39 +0000 UTC
+        Created At 2022-04-13 10:05:08 +0000 UTC
     </div>
 </div>
 
