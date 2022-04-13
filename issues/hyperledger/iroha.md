@@ -14,43 +14,6 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/2035" class=".btn">2035</a>
-            </td>
-            <td>
-                <b>
-                    Add macro to remove boilerplate from `client/tests/integration`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                ```rust
-    let (_rt, _peer, mut test_client) = <TestPeer>::start_test_with_runtime();
-    wait_for_genesis_committed(&vec[test_client.clone()], 0);
-```
-
-is repeated at the top of almost every test. 
-
-We should have a proc-macro `#[integration]` which adds this boilerplate, but allows specifying the number of peers, the genesis, the configuration options and a few other things. 
-
-#### Optional 
-
-Remove the `start_test_with_runtime` and replace it with the most general `fn` from `test_network`. Instead use the `proc_macro` args to add optional customisation. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-30 07:27:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/2009" class=".btn">2009</a>
             </td>
             <td>
@@ -98,40 +61,6 @@ Also `PermissionRemoved` event is emitted in `Unregister<Role>` in `smartcontrac
     </table>
     <div class="right-align">
         Created At 2022-03-25 07:42:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/2005" class=".btn">2005</a>
-            </td>
-            <td>
-                <b>
-                    Fix `listen_for_events()` in `Client`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                When running some integration tests that use event subscription (for example `time_trigger_execution_count_error_should_be_less_than_10_percent`) an error message apears in log:
-
-```
-ERROR iroha::torii::routing: Failed to subscribe someone error=Event consuming error: WebSocket error: WebSocket protocol error: Connection reset without closing handshake
-```
-
-So `Client` uses API a bit wrong and doesn't close subscription connection properly. To make closing handshake a `WebSocket::close()` method should be called on `stream` field of `EventIterator`. 
-
-Ideally this fix should provide the same good-looking API as before. User shouldn't close connection manualy
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 22:34:21 +0000 UTC
     </div>
 </div>
 
