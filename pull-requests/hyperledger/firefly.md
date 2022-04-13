@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/705" class=".btn">#705</a>
+            </td>
+            <td>
+                <b>
+                    Reject Contract API updates with an ID mismatch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #703
+
+More work can be done to reject upfront for a better user experience, but this fixes the important bug that blocks event processing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-12 21:14:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/702" class=".btn">#702</a>
+            </td>
+            <td>
+                <b>
+                    Add descriptions for all API routes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds descriptions for all API routes and path parameters. Just like configuration descriptions, the tests will panic if a new route is created that doesn't have a description.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-12 18:44:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/701" class=".btn">#701</a>
             </td>
             <td>
@@ -898,43 +952,6 @@ Unrelated fix - the `json:` tag on `Group` was wrong on `BatchPersisted` so we w
     </table>
     <div class="right-align">
         Created At 2022-04-06 17:50:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/665" class=".btn">#665</a>
-            </td>
-            <td>
-                <b>
-                    Add rewinder to handle enrichment off event poller critical path
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Issue #663 demonstrated that the event loops of the various plugins cannot safely ask the DB for information the event aggregator loop is updating, concurrently to the event poller writing it.
-
-However, we don't want to slow the event poller down by making it do complex enrichment tasks to work out how to rewind. These tasks are as follows:
-- For blobs: Query all `data` IDs associated with a `blob` hash, then find all `message` IDs that are associated with that data
-- For token transfers: Query the `batch` ID associated with the message, which is associated with the on-chain transfer
-
-So this PR introduces the architecture summarized in the diagram below. This ensures we do **not** start the enrichment DB activities (in loop 2) until the event poller has completed the cycle that might have been active while the plugin event that generated the rewind was active
-
-![pr_665_diagram_1](https://user-images.githubusercontent.com/6660217/161826863-3c4dc41b-03a0-444a-a851-cf476e6f22d5.jpg)
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-05 18:37:11 +0000 UTC
     </div>
 </div>
 

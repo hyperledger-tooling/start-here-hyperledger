@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/330" class=".btn">#330</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/331" class=".btn">#331</a>
             </td>
             <td>
                 <b>
-                    Add DLT Event Monitor feature doc
+                    Add research doc for one-round parallel queuer
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                Add feature documentation for building the DLT Event Monitor from
-streams coming from either Sawtooth or Splinter.
-
-Signed-off-by: Lee Bradley <bradley@bitwise.io>
+                Adds a doc to community/planning that examines the feasibility and practicality of one-round parallel queuing strategies.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-30 19:14:03 +0000 UTC
+        Created At 2022-04-12 19:20:07 +0000 UTC
     </div>
 </div>
 

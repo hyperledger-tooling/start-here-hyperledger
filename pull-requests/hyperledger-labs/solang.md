@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                I'm updating our README.md with your latest development progresses. 🥳
+                I'm updating our README.md with our latest development progresses. 🥳
             </td>
         </tr>
     </table>
