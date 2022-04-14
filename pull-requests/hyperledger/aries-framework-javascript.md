@@ -185,33 +185,3 @@ Related issue: #553
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/698" class=".btn">#698</a>
-            </td>
-            <td>
-                <b>
-                    feat: find existing connection based on invitation did
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I added a function `serviceToNumAlgo2Did` but I'm testing it in `DidPeer.test`, because I was curious if it's possible to create regular PeerDid and then take `didDocument` from it. As you can see it's not possible right now so I commented the code in the test. 
-
-I described what might be a cause of the problem in issue here [RFC 0434: Ambiguous description of Peer DID numalgo 2 service encoding](https://github.com/hyperledger/aries-rfcs/issues/728).
-
-There is also a simplification of when and what invitation did we store in the connection record. OOB invitation can contain more dids (or service blocks encoded as peer did numalgo2) and we should store only the one we successfully use to send connection request message to.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-07 08:50:39 +0000 UTC
-    </div>
-</div>
-

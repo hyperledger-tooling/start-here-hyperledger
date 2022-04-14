@@ -207,7 +207,7 @@ Signed-off-by: Sean Young <sean@mess.org>
             <td>
                 When the left hand side of a destructure statements is a structure member or array element, the test incorrectly assumed the value was not assignable.
     
-Fixes issue #734.
+Fixes issue #731.
     
 
             </td>
