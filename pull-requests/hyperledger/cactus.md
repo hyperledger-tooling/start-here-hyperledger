@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1973" class=".btn">#1973</a>
+            </td>
+            <td>
+                <b>
+                    Cross-Site Scripting attack (XSS).
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Unsanitized input from an HTTP parameter flows into send, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+Signed-off-by: Bhaskar <dev@bhaskar.email>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-14 05:32:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1972" class=".btn">#1972</a>
             </td>
             <td>
