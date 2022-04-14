@@ -109,14 +109,14 @@ This PR
                 
             </td>
             <td>
-                This PR refactor code generation. The main addition was the `cfg::Expression`. This means we no longer depend on `ast::Expression` to build the CFG. I've managed to improve some other stuff:
+                This PR refactor code generation. The main addition was the `codegen::Expression`. This means we no longer depend on `ast::Expression` to build the CFG. I've managed to improve some other stuff:
 
 1. Now, we have a `cast` function for codegen. 
 2. Sema's `cast` function is now a method of `ast::Expression`.
 3. I created traits for common functions to facilitate implementing methods with generic arguments.
 4. I removed from the AST expressions that do not belong there, except `FunctionArg`, to which I couldn't find an easy solution.
 5. Some AST expressions do not exist is the CFG, so I removed references to them in codegen.
-6. As we are branching at every AND and OR expression, they do not exist in `cfg::Expression`. However, I left some block comments containing the code to handle those cases, in case we add them in nearby future.
+6. As we are branching at every AND and OR expression, they do not exist in `codegen::Expression`. However, I left some block comments containing the code to handle those cases, in case we add them in nearby future.
 
 PS: This PR modifies 56 files, so please, @seanyoung, be pedantic!
             </td>

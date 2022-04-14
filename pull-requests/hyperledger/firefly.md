@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/715" class=".btn">#715</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/716" class=".btn">#716</a>
             </td>
             <td>
                 <b>
-                    Perform all identity claims, under the root identity topic ordering context
+                    DID rewind
                 </b>
             </td>
         </tr>
@@ -27,12 +27,17 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Investigating https://github.com/hyperledger/firefly/issues/692 I realized that the only safe thing to do in terms of an ordering context, given that identities are arbitrarily nested in their hierarchy, is to broadcast them all under a single ordering context up to the root identity.  Then if a node is replaying a chain and potentially processing batches of blockchain transactions, it will be assured to get the same outcome in sequencing of identities for the whole hierarchy.
+                Fixes #692 
+In PR chain with #707
+
+This PR adds a new reason for a rewind - to go back and confirm messages that were previously parked because the author was not known.
+
+We cannot assure that the identity verification for an identity, will be processed by the aggregator before messages sent by that identity, or child identities registered under that identity. Because they are all sent on different topics.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-13 17:30:57 +0000 UTC
+        Created At 2022-04-13 19:00:26 +0000 UTC
     </div>
 </div>
 
@@ -124,16 +129,22 @@ Looks like it's due to a clash in the names between the token tests
             </td>
             <td>
                 <b>
-                    Rename transfer/approval "id" to "subject"
+                    Rename token "protocolId" fields to "locator" and "subject"
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">migration_consideration</span>
             </td>
             <td>
                 Depends on https://github.com/hyperledger/firefly-tokens-erc1155/pull/67 and https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/42
+
+The term "protocolId" has come to mean (fairly specifically) "an ID meaningful in the context of an underlying blockchain protocol".
+
+Therefore token pools will now have a "locator", while transfers and approvals will have a "subject".
+
+This does introduce changes in the interface with token connectors, so will require connectors to be upgraded alongside it.
             </td>
         </tr>
     </table>
@@ -1047,71 +1058,6 @@ I believe the problem is we're updating the cache before the DB commit at the mo
     </table>
     <div class="right-align">
         Created At 2022-04-07 02:33:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/668" class=".btn">#668</a>
-            </td>
-            <td>
-                <b>
-                    New operations admin APIs and revamped change-event listener on admin WebSocket
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The policy engine described in https://github.com/hyperledger/firefly-ethconnect/issues/149#issuecomment-920866244 is starting to come together, with some evolved architecture.
-
-The intention is for this to be a separate microservice, so it can be pluggable with different implementations easily, have a separate scaling model, and be closer to EthConnect in where it sits in the architecture than to the core.
-
-However, the source of truth for the completion of operations is still FireFly. So this is more like an augmented _component_ of FireFly, than it is a plugin/connector that performs a particular task on behalf of FireFly. So as such I believe it should connect _in_ to FireFly to perform actions.
-
-Currently (before this PR) we have some of things it would need - with gaps:
-- Operations API - query only, and limited to one namespace.
-- Operation change events - oddly side-car attached to the main application events, without sophisticated filtering
-
-So this PR proposes we create a proper separation of concerns between the components that have super-access to update FireFly state, because they are part of it (the `admin` API already exists for this), and the external API that applications use.
-
-- Adding `GET` `/admin/api/v1/operations` routes - including a `PUT` to update operation status (per same rules that apply to internal plugins like Data Exchange today)
-- **Moving** the database change events firehose WebSocket to `/admin/ws` with extra options, and a simplified no-confirm model. It's best effort up to a buffer size, and then operation of the core is prioritized over avoiding any event loss, and always ephemeral. No guarantees.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-07 00:15:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/667" class=".btn">#667</a>
-            </td>
-            <td>
-                <b>
-                    Latest UI v0.6.9
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Thanks @eberger727 !
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-06 22:12:25 +0000 UTC
     </div>
 </div>
 
