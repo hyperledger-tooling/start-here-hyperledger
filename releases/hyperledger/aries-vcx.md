@@ -15,34 +15,29 @@ permalink: /releases/hyperledger/aries-vcx
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.34.0
+                    Release 0.35.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.34.0
+                    0.35.0
                 </span>
             </td>
             <td>
                 #
 
-## [0.34.0](https://github.com/hyperledger/aries-vcx/tree/0.34.0) (2022-03-23)
+## [0.35.0](https://github.com/hyperledger/aries-vcx/tree/0.35.0) (2022-04-13)
 
-### Hotfixes
+### Enhancements
 
-- Download no auth messages by id [\#458](https://github.com/hyperledger/aries-vcx/pull/458)
-
-### Refactoring
-
-- Improve http client error handling [\#459](https://github.com/hyperledger/aries-vcx/pull/459)
-- Unify err handling code in libvcx, use error level instead of warn [\#456](https://github.com/hyperledger/aries-vcx/pull/456)
+- JSON-formatted logging [\#465](https://github.com/hyperledger/aries-vcx/pull/465)
 
 ###
 
-- Run CI with vcxagencynode 1.2.0 [\#462](https://github.com/hyperledger/aries-vcx/pull/462)
-- Optimize httpclient [\#457](https://github.com/hyperledger/aries-vcx/pull/457)
+- Release 0.35.0 [\#468](https://github.com/hyperledger/aries-vcx/pull/468)
+- Prevent double serialization of service attrib [\#467](https://github.com/hyperledger/aries-vcx/pull/467)
 
 
 
@@ -50,11 +45,11 @@ permalink: /releases/hyperledger/aries-vcx
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.34.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.35.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-03-22 15:42:52 +0000 UTC
+        Created At 2022-04-13 20:55:03 +0000 UTC
     </span>
 </div>
 
