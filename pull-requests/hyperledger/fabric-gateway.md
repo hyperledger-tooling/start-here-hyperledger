@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/426" class=".btn">#426</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/427" class=".btn">#427</a>
             </td>
             <td>
                 <b>
-                    Scenario Test  Checkpointer
+                    Block checkpointer 
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-06 10:48:10 +0000 UTC
+        Created At 2022-04-14 14:46:41 +0000 UTC
     </div>
 </div>
 

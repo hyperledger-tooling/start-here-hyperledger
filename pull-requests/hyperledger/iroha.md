@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2104" class=".btn">#2104</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #1640: Generate config.json and genesis.json
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+Can now use `iroha_docs` binary to generate sample `genesis.json`
+
+### Issue
+Closes #1640 
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Can now generate and check if the `genesis.json` needs updating. 
+
+### Possible Drawbacks
+
+None
+
+### Usage Examples or Tests *[optional]*
+
+```
+cargo run --bin iroha_docs -- --genesis > /tmp/genesis.json && diff /tmp/genesis.json  configs/peer/genesis.json
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-14 13:27:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2095" class=".btn">#2095</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/336" class=".btn">#336</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.9.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Changelog. Afterwards set tag on merge commit.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-14 14:23:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/335" class=".btn">#335</a>
             </td>
             <td>

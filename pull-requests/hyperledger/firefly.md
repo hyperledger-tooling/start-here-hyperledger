@@ -129,7 +129,7 @@ Looks like it's due to a clash in the names between the token tests
             </td>
             <td>
                 <b>
-                    Rename token "protocolId" fields to "locator" and "subject"
+                    Clarify token fields "protocolId", "locator", and "subject"
                 </b>
             </td>
         </tr>
@@ -142,7 +142,9 @@ Looks like it's due to a clash in the names between the token tests
 
 The term "protocolId" has come to mean (fairly specifically) "an ID meaningful in the context of an underlying blockchain protocol".
 
-Therefore token pools will now have a "locator", while transfers and approvals will have a "subject".
+Therefore token pools will now have a "locator" and no "protocolId".
+
+Transfers and approvals will continue to have a "protocolId" (guaranteed to be formatted similarly to the protocolId of a BlockchainEvent), but approvals also have a "subject" to indicate the scope of the approval.
 
 This does introduce changes in the interface with token connectors, so will require connectors to be upgraded alongside it.
             </td>
@@ -909,58 +911,6 @@ Technically there's no reason to drop the lookup by event ID, so if there is a s
     </table>
     <div class="right-align">
         Created At 2022-04-07 18:57:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/673" class=".btn">#673</a>
-            </td>
-            <td>
-                <b>
-                    Clean up blockchain parameters returned by token connectors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Requires matching changes in all token connectors as well.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-07 17:48:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/671" class=".btn">#671</a>
-            </td>
-            <td>
-                <b>
-                    Remove references to old firefly-e2e stack name
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-07 16:08:47 +0000 UTC
     </div>
 </div>
 
