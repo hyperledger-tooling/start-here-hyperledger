@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/331" class=".btn">#331</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/335" class=".btn">#335</a>
             </td>
             <td>
                 <b>
-                    wallet.CloneAddress(es)
+                    Separate Ethereum backend
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                - wallet: Add CloneAddress(es)
-- channel: Use CloneAddresses in Params.Clone
+                Closes #334 
 
-It is convenient for users of the go-perun lib to have means for `wallet.Address` cloning. It was already done in `Params.Clone` so I extracted the functionality into the `wallet` package. No interfaces etc changed.
+Backend lives at https://github.com/perun-network/perun-eth-backend afterwards.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-16 09:58:02 +0000 UTC
+        Created At 2022-04-14 10:49:45 +0000 UTC
     </div>
 </div>
 
