@@ -207,30 +207,3 @@ Credit to @burdettadam.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1718" class=".btn">#1718</a>
-            </td>
-            <td>
-                <b>
-                    Allow deletion of invalid V20PresExRecord - failing schema validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Related to issue #1687, there was a bug in DIF presentation proposal code where the presentation request created from the proposal with auto flags was not according to the marshmallow schema. This rendered multiple present-proof-v2 endpoints unusable due to schema validation error. This bug was fixed in PR #1690.
-- This PR is a recreation of @matgnt PR#1701 as some tests were failing after rebase but local tests were passing. Changes here allow for the deletion of such records. For now, it only handles `V20PresExRecord` but if required it can be extended to other BaseExchangeRecord.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-06 20:55:46 +0000 UTC
-    </div>
-</div>
-
