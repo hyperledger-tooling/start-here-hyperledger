@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/721" class=".btn">#721</a>
+            </td>
+            <td>
+                <b>
+                    New Getting Started Guide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - All of the content under "Getting Started" is completely new.
+- This is now completely tailored for someone who is completely new to FireFly and needs a walkthrough on how to get started with it
+- Existing "Getting Started Guides" have moved to a new "Tutorials" section
+
+A live preview of these new docs can be viewed at: https://nguyer.github.io/firefly/gettingstarted/gettingstarted.html
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-15 18:15:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/720" class=".btn">#720</a>
+            </td>
+            <td>
+                <b>
+                    Move "special" operation update handling out of Operations Manager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Feels like these should be farmed out instead of Operations Manager having knowledge of the various specific operation types.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-15 17:26:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/719" class=".btn">#719</a>
+            </td>
+            <td>
+                <b>
+                    OpenAPI cleanup items
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-15 17:17:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/717" class=".btn">#717</a>
             </td>
             <td>
@@ -824,97 +906,6 @@ Technically there's no reason to drop the lookup by event ID, so if there is a s
     </table>
     <div class="right-align">
         Created At 2022-04-08 19:57:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/678" class=".btn">#678</a>
-            </td>
-            <td>
-                <b>
-                    Configuration docs, and packaging config/i18n for re-use by microservices
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A bunch of changes to improve our config docs (thanks @nguyer for your work there), and some structural changes to the `config` and `i18n` packages to allow them to be used by other microservices building in Go within the FireFly project.
-
-- `pkg/config` - moved out the package for configuration, including the facility for Markdown generation
-  - Split out the configuration that is base (just `log` and `lang`) from the Core configuration
-  - `internal/coreconfig` contains the core configuration
-  - Note that `coreconfig.Reset()` initializes all the defaults in a lock (needed to avoid concurrent map errors)
-- `pkg/i18n` - moved out the translation framework
-  - All the framework for translation moved
-  - Tweak to how the default `en` translations are initialized, to allow sub-modules to keep adding keys
-  - Split out `ErrorMessageKey` from `MessageKey` - with the distinction that errors have to have a registered prefix, that means microservices will not re-use message codes from other microservices
-  - `FF10` errors are the FireFly Core errors
-  - `FF00` errors are raised from the common utilities in `pkg` - note this mean renames of some codes
-  - `FF201` errors are for the new Transaction Manager microservice being split out of EthConnect (the reason for doing this work now)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-08 18:10:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/677" class=".btn">#677</a>
-            </td>
-            <td>
-                <b>
-                    Update manifest for v1.0.0-rc.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-08 17:52:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/676" class=".btn">#676</a>
-            </td>
-            <td>
-                <b>
-                    [ui-v0.6.10] manifest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Echelberger <eberger727@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-08 17:29:57 +0000 UTC
     </div>
 </div>
 
