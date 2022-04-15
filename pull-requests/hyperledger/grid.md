@@ -126,29 +126,3 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1378" class=".btn">#1378</a>
-            </td>
-            <td>
-                <b>
-                    Switch Publish Release GHA to run on self-hosted runner
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-08 16:22:50 +0000 UTC
-    </div>
-</div>
-
