@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/661" class=".btn">#661</a>
+            </td>
+            <td>
+                <b>
+                    Update README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Minor Issue Resolved.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-15 05:00:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/660" class=".btn">#660</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Translate "logging-control.rst" into Japanese
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                This patch translates ""logging-control.rst" into Japanese.
+
+Resolves #591
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-15 01:31:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/658" class=".btn">#658</a>
             </td>
             <td>
@@ -122,39 +176,6 @@ Resolves #590
     </table>
     <div class="right-align">
         Created At 2022-04-12 08:54:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/653" class=".btn">#653</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Sync test_network.md with release-2.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This patch updates the Japanese translation for test_network.md to the
-latest commit of the release-2.2 branch.
-
-commit: f441ba23542c4c21af18ff0829cae76ad56b1039
-
-Resolves #535
-
-Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-08 03:26:10 +0000 UTC
     </div>
 </div>
 

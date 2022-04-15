@@ -174,6 +174,7 @@ This started as a quest to clean up token approvals, but ended up encompassing a
   * The existing "protocolId" of token pools is renamed to "locator".
   * Blockchain events will be de-duplicated based on their "protocolId" - only one event per namespace+listener+protocolId will be recorded, to avoid recording the same blockchain event multiple times.
 * Token approvals will record _all_ historical approvals (instead of sometimes overwriting old ones). As a convenience for query purposes, the most recent approval for each subject will be notated with a new field "active=true".
+* When matching token approval (and transfer) events to operations, event manager will now consider the operation ID _and_ the token connector and pool embedded in the operation inputs before considering it a match. This ensures that side-effects in other pools will not be matched with the wrong operation and return unexpected results for synchronous actions (when using confirm=true). Resolves #661.
 
 This does introduce changes in the interface with token connectors, so will require connectors to be upgraded alongside it.
             </td>
