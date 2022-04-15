@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/717" class=".btn">#717</a>
+            </td>
+            <td>
+                <b>
+                    Rename contract listener "protocol_id" to "backend_id"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This doesn't align with other "protocol_id" fields in the system, so it should have a different name.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-14 20:19:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/716" class=".btn">#716</a>
             </td>
             <td>
@@ -129,7 +155,7 @@ Looks like it's due to a clash in the names between the token tests
             </td>
             <td>
                 <b>
-                    Clarify token fields "protocolId", "locator", and "subject"
+                    Fix token approvals and clarify fields "protocolId", "locator", and "subject"
                 </b>
             </td>
         </tr>
@@ -140,11 +166,14 @@ Looks like it's due to a clash in the names between the token tests
             <td>
                 Depends on https://github.com/hyperledger/firefly-tokens-erc1155/pull/67 and https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/42
 
-The term "protocolId" has come to mean (fairly specifically) "an ID meaningful in the context of an underlying blockchain protocol".
+This started as a quest to clean up token approvals, but ended up encompassing a few related items:
 
-Therefore token pools will now have a "locator" and no "protocolId".
-
-Transfers and approvals will continue to have a "protocolId" (guaranteed to be formatted similarly to the protocolId of a BlockchainEvent), but approvals also have a "subject" to indicate the scope of the approval.
+* The term "protocolId" has come to mean (fairly specifically) "an ID meaningful in the context of an underlying blockchain protocol".
+  * The existing "protocolId" of token approvals is renamed to "subject", and token approvals get a new "protocolId" field that better aligns with the above.
+  * Token transfers keep their "protocolId" unchanged, as it already aligns.
+  * The existing "protocolId" of token pools is renamed to "locator".
+  * Blockchain events will be de-duplicated based on their "protocolId" - only one event per namespace+listener+protocolId will be recorded, to avoid recording the same blockchain event multiple times.
+* Token approvals will record _all_ historical approvals (instead of sometimes overwriting old ones). As a convenience for query purposes, the most recent approval for each subject will be notated with a new field "active=true".
 
 This does introduce changes in the interface with token connectors, so will require connectors to be upgraded alongside it.
             </td>
@@ -885,32 +914,6 @@ Technically there's no reason to drop the lookup by event ID, so if there is a s
     </table>
     <div class="right-align">
         Created At 2022-04-08 17:29:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/674" class=".btn">#674</a>
-            </td>
-            <td>
-                <b>
-                    Check up-front for duplicate token pool name
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-07 18:57:21 +0000 UTC
     </div>
 </div>
 
