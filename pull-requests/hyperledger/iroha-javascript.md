@@ -81,29 +81,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/95" class=".btn">#95</a>
-            </td>
-            <td>
-                <b>
-                    misc: remove github workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-08 07:00:54 +0000 UTC
-    </div>
-</div>
-
