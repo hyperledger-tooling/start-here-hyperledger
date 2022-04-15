@@ -18,13 +18,13 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [fix] #1640: Generate config.json and genesis.json
+                    [fix] #1640: Generate `genesis.json` and consolidate generation into one tool
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">CI</span><span class="chip">Refactor</span>
             </td>
             <td>
                 ### Description of the Change

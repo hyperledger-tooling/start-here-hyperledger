@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/288" class=".btn">#288</a>
+            </td>
+            <td>
+                <b>
+                    Make the debug flag visible in --help and docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+The `-d` flag is used by default in test/demo materials such as hyperledger/fabric-samples, so having the the flag be hidden from the documentation causes confusion. Remove 'hide'; add a warning for why users might not want to use it, since those drawbacks were probably the primary reason it was hidden before.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-14 18:32:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-ca/pull/287" class=".btn">#287</a>
             </td>
             <td>
@@ -61,35 +93,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-04-08 19:39:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/285" class=".btn">#285</a>
-            </td>
-            <td>
-                <b>
-                    Release commit for v1.5.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release commit for v1.5.3.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-07 21:20:10 +0000 UTC
     </div>
 </div>
 
