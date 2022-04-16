@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2110" class=".btn">#2110</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #2109: Make `integration::events::pipeline` test stable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+Refactored.
+I don't think n:n transactions should be tested. 1:n should be enough
+
+### Issue
+- Closes #2109
+
+### Benefits
+- Stable test result
+- Shorter CI time
+
+### Possible Drawbacks
+None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-16 11:48:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2107" class=".btn">#2107</a>
             </td>
             <td>
