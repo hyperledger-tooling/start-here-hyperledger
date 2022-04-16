@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/712" class=".btn">#712</a>
+            </td>
+            <td>
+                <b>
+                    fix: allow agent without inbound endpoint to connect when using multi-use invitation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Quite an edge case, but when an agent without an inbound endpoint (e.g. mobile wallet connecting to mediator) would respond to a multi-use connection invitation (quite common with mediators) the session would be stored for the multi-use invitation connection. But during the processing of the request a new connection will be created, which means the session won't be reused afterwards because it's tied to the multi-use invitation connection. 
+
+Normally this isn't that big a deal, as the next time a message is sent using the new connection the session can be reused, but for agent without an inbound transport this made it impossible to connect to AFJ. 
+
+This PR adds the sessionId to the inbound message, and later attaches it to the outbound message. This is only used when directly responding to an incoming message. Wasn't sure if attaching the sessionId is the best here, but couldn't think of other straightforward approaches. We basically want to attach it to the inbound message, so we can just respond to the inbound session (instead of finding a session by the connection id, which is still used for a lot of other use cases)
+
+Also changed the subject transport a bit to not require an inbound transport anymore when no inbound endpoint is configured (better reflects real-world setup)
+
+Fixes #483 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-15 21:57:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/711" class=".btn">#711</a>
+            </td>
+            <td>
+                <b>
+                    feat: pickup v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Implemented [pickup v2 protocol ](https://github.com/hyperledger/aries-rfcs/tree/main/features/0685-pickup-v2#delivery-request) along with unit testing for the implemented methods leaving room for future testing within the Mediation Recipient Module. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-15 21:57:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/710" class=".btn">#710</a>
             </td>
             <td>
