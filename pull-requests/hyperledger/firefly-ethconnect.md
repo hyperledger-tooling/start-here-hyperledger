@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/211" class=".btn">#211</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/212" class=".btn">#212</a>
             </td>
             <td>
                 <b>
-                    Update docker release build GitHub action
+                    Allow configuration of the factor used for gas estimation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                <nil>
+                The fixed `1.2` factor (20% overhead) is too restrictive. It should be tunable.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-31 14:03:43 +0000 UTC
+        Created At 2022-04-16 03:15:39 +0000 UTC
     </div>
 </div>
 
