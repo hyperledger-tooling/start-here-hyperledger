@@ -29,7 +29,6 @@ permalink: /pull-requests/hyperledger/iroha
             <td>
                 ### Description of the Change
 Refactored.
-I don't think n:n transactions should be tested. 1:n should be enough
 
 ### Issue
 - Closes #2109
