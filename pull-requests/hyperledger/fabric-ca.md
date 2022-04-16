@@ -42,31 +42,3 @@ The `-d` flag is used by default in test/demo materials such as hyperledger/fabr
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/287" class=".btn">#287</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for v1.5.4 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prepare for v1.5.4 release.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-09 16:14:58 +0000 UTC
-    </div>
-</div>
-

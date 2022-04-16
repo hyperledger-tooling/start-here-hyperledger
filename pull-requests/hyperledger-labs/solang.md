@@ -28,6 +28,8 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 Resolves https://github.com/hyperledger-labs/solang/issues/746
+
+Better suggestions on resolving ambiguity with `type()` builtin are welcome 😄 
             </td>
         </tr>
     </table>
@@ -379,34 +381,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-04-12 14:16:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/730" class=".btn">#730</a>
-            </td>
-            <td>
-                <b>
-                    struct member expressions are not written to graphviz dot file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The handling was incorrect and no nodes were generated.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-09 13:18:08 +0000 UTC
     </div>
 </div>
 

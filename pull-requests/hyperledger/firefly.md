@@ -838,29 +838,3 @@ Technically there's no reason to drop the lookup by event ID, so if there is a s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/683" class=".btn">#683</a>
-            </td>
-            <td>
-                <b>
-                    Remove extra postgres migrations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It looks like at some point we removed sqlite migrations 20 and 21, but did not remove the corresponding postgres migrations. This was causing FireFly to fail to start when attempting to apply postgres migrations. This PR aligns the postgres migrations with the working sqlite migrations.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-09 12:33:49 +0000 UTC
-    </div>
-</div>
-
