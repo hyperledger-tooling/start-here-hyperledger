@@ -317,29 +317,3 @@ Signed-off-by: ruzell22 <ruzell.vince.aquino@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1964" class=".btn">#1964</a>
-            </td>
-            <td>
-                <b>
-                    Rocketchat to Discord
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1937
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-10 12:44:34 +0000 UTC
-    </div>
-</div>
-
