@@ -774,30 +774,3 @@ In PR chain with #668
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/687" class=".btn">#687</a>
-            </td>
-            <td>
-                <b>
-                    Include interface metadata routes in FFI-generated Swagger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Allows fetching info about the associated FFI, including the details of all
-methods and events.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-10 16:53:28 +0000 UTC
-    </div>
-</div>
-

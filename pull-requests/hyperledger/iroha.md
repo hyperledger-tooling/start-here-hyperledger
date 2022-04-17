@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2115" class=".btn">#2115</a>
+            </td>
+            <td>
+                <b>
+                    [schema] #2114: define stable schema type_name, use vec of tuples for maps in schemas
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span>
+            </td>
+            <td>
+                Signed-off-by: Marin Veršić <marin.versic101@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+* define stable schema type names
+* introduce `SortedVec` to schema format
+* remove `Map` from schema format
+
+Considering that we make abundant use of digital signatures, serialized formats of our internal structures must have a defined ordering, e.g. `BTreeMap` must be represented as a sorted vector of tuples. While it may be possible that there will be `BTreeMap`s that won't be part of a structure that is signed(and require a defined ordering of tuples), I find it to be quite unlikely and don't think it worth to support such exception.
+
+### Issue
+
+Closes #2114 
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+I think that `SortedVec` should also be accompanied by the comparison function in the schema file
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-17 14:25:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2110" class=".btn">#2110</a>
             </td>
             <td>
