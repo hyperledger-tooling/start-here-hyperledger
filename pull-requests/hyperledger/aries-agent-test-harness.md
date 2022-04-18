@@ -90,29 +90,3 @@ Signed-off-by: Wade Barnes <wade@neoterictech.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/475" class=".btn">#475</a>
-            </td>
-            <td>
-                <b>
-                    fix: waci tags and did method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The waci tests weren't specifying any did method, causing the flow to fail after my recent pr to extend did methods
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-10 20:18:51 +0000 UTC
-    </div>
-</div>
-

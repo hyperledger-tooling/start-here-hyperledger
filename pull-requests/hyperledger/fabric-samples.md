@@ -92,29 +92,3 @@ Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/712" class=".btn">#712</a>
-            </td>
-            <td>
-                <b>
-                    Fix typos and broken links in docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-10 23:34:15 +0000 UTC
-    </div>
-</div>
-
