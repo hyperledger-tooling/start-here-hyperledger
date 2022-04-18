@@ -1,13 +1,13 @@
 
-[3335](https://github.com/hyperledger/fabric/pull/3335) Handle empty policies when traversing the policy tree in discovery policy analysis (backport #3334)
+[181](https://github.com/hyperledger-labs/fabric-operations-console/pull/181) Node16
 
-[2117](https://github.com/hyperledger/iroha/pull/2117) [fix] #1256: redesign http workflow, expose internal client api
+[725](https://github.com/hyperledger/firefly/pull/725) Add "tx.blockchainId" to BlockchainEvent type
 
-[3334](https://github.com/hyperledger/fabric/pull/3334) Handle empty policies when traversing the policy tree in discovery policy analysis
+[724](https://github.com/hyperledger/firefly/pull/724) Parse input params for /query endpoints in ffi2swagger
 
-[2115](https://github.com/hyperledger/iroha/pull/2115) [schema] #2114: Sorted collections support in schemas
+[527](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/527) getting code up to date
 
-[748](https://github.com/hyperledger-labs/solang/pull/748) Implement type definition syntax
+[3339](https://github.com/hyperledger/fabric/pull/3339) Improve error message for a non-existent block delivery failure
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

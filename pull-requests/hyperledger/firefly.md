@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/725" class=".btn">#725</a>
+            </td>
+            <td>
+                <b>
+                    Add "tx.blockchainId" to BlockchainEvent type
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Every blockchain event will have a blockchain TX ID (such as an Ethereum
+transaction hash), whether or not it has a FireFly transaction. This is
+useful to record as another indexed field on the table.
+
+It will also allow manually correlating blockchain events to FireFly transactions
+in the case that the blockchain doesn't pass through enough data to do the
+correlation based on FireFly IDs (such as custom smart contracts, ERC20 transfers
+without a "data" argument, etc).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-18 17:28:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/724" class=".btn">#724</a>
+            </td>
+            <td>
+                <b>
+                    Parse input params for /query endpoints in ffi2swagger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #718
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-18 17:12:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/722" class=".btn">#722</a>
             </td>
             <td>
@@ -27,9 +86,7 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                In a PR chain with #720.
-
-Unit tests are not yet complete, but wanted to validate the approach before finishing them.
+                ~~In a PR chain with #720~~ (rebased now)
 
 Summary of the changes:
 * The `confirm` parameter for `/invoke` will now be honored (previously it was ignored)

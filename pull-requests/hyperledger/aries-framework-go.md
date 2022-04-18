@@ -180,31 +180,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3216" class=".btn">#3216</a>
-            </td>
-            <td>
-                <b>
-                    docs: Updated storage interface documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updated the documentation for the Put method to indicate that in the set of tags used on a single Put call, those tags must have unique tag names. The reason for this is because several of our major storage implementations in aries-framework-go-ext have this implementation, so this note was added to help ensure consistent behaviour.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-11 17:28:39 +0000 UTC
-    </div>
-</div>
-
