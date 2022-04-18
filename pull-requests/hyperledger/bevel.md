@@ -825,36 +825,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1905" class=".btn">#1905</a>
-            </td>
-            <td>
-                <b>
-                    [quorum] Remove download of whole quorum repo to build geth and bootnode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Update the way geth and boothnode is downloaded
-- Fix issues with wrong name for tm secret
-- Update kind to 1.18
-
-
-**Linked issue**
-#1836
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-11 15:07:33 +0000 UTC
-    </div>
-</div>
-

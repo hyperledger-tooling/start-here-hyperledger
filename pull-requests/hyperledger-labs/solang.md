@@ -86,7 +86,7 @@ Better suggestions on resolving ambiguity with `type()` builtin are welcome 😄
             <td>
                 This type of comment was not recognised by the lexer.
 
-Fixes #744.
+See #744.
 
 Signed-off-by: Sean Young <sean@mess.org>
             </td>

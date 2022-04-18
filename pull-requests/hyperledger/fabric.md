@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3339" class=".btn">#3339</a>
+            </td>
+            <td>
+                <b>
+                    Improve error message for a non-existent block delivery failure
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Improve error message when delivery service is asked for a block that doesn't yet exist on the node to make it more clear for users or support personnel.
+
+#### Related issues
+Fixes https://github.com/hyperledger/fabric/issues/3320
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-18 13:46:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3338" class=".btn">#3338</a>
+            </td>
+            <td>
+                <b>
+                    Updated dockerfile with new build arg
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+
+#### Description
+
+Added a new arg to pass in machine architecture details
+
+#### Related issues
+
+#3337 
+
+
+Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-18 13:17:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3335" class=".btn">#3335</a>
             </td>
             <td>

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/33" class=".btn">#33</a>
+            </td>
+            <td>
+                <b>
+                    Fixes for Docker builds + GitHub Actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes a couple of issues with running the Sandbox inside a Docker container, or on any other port besides the previously hardcoded `3001`. 
+
+It also adds GitHub actions to build and push Docker images on merge / release like our other repos.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-13 00:37:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/32" class=".btn">#32</a>
             </td>
             <td>
@@ -372,32 +400,6 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     </table>
     <div class="right-align">
         Created At 2022-04-11 18:51:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/12" class=".btn">#12</a>
-            </td>
-            <td>
-                <b>
-                    add token balances to token operations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Anastasia Lalamentik <anastasia.lalamentik@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-11 14:35:39 +0000 UTC
     </div>
 </div>
 
