@@ -1,13 +1,13 @@
 
+[3335](https://github.com/hyperledger/fabric/pull/3335) Handle empty policies when traversing the policy tree in discovery policy analysis (backport #3334)
+
+[2117](https://github.com/hyperledger/iroha/pull/2117) [fix] #1256: redesign http workflow, expose internal client api
+
+[3334](https://github.com/hyperledger/fabric/pull/3334) Handle empty policies when traversing the policy tree in discovery policy analysis
+
 [2115](https://github.com/hyperledger/iroha/pull/2115) [schema] #2114: Sorted collections support in schemas
 
 [748](https://github.com/hyperledger-labs/solang/pull/748) Implement type definition syntax
-
-[2110](https://github.com/hyperledger/iroha/pull/2110) [refactor] #2109: Make `integration::events::pipeline` test stable
-
-[37](https://github.com/hyperledger-labs/acapy-java-client/pull/37) Fix missing throws on handleSettings
-
-[212](https://github.com/hyperledger/firefly-ethconnect/pull/212) Allow configuration of the factor used for gas estimation
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,138 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2117" class=".btn">#2117</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #1256: redesign http workflow, expose internal client api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Currently client is built on top of blocking synchronous HTTP client, which is not very flexible for different use cases.
+
+To make it more flexible, I've split some of the APIs into 2 parts:
+
+1. Preparing transaction/query/other HTTP request in terms of pure data
+2. Handle related HTTP response for this request
+
+I've **moved the part of actual doing** the request out of this. By the way, current main function are still using the default http implementation, but these parts are moved out from it.
+
+It is done with a new trait - `RequestBuilder`. I've added several functions to the `Client`:
+
+- `prepare_query_request(query, pagination)`, that returns a tuple with a provided `RequestBuilder` and a special response handler.
+- `prepare_transaction_request(tx)`, same as for queries, but also returns a hash of a transaction.
+- `prepare_status_request()`, same as above, but simpler.
+
+There are also 3 new structs - `QueryResponseHandler`, `TransactionResponseHandler` and `StatusResponseHandler`. All of them encapsulates the logic of handling an HTTP-response in a correct way.
+
+I haven't touched WebSocket-based logic and some other complex utilities that rely on default HTTP client yet. Anyway it should be refactored as well.
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+Resolves https://github.com/hyperledger/iroha/issues/1256 (partially)
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests
+
+For example, making async queries could be done like this:
+
+```rust
+use iroha_client::{Client, http::{RequestBuilder, Method, Headers}};
+use iroha_data_model::prelude::{FindAllAccounts, Account};
+use std::borrow::Borrow;
+use eyre::Result;
+
+struct MyClient(SomeAsyncClient);
+
+// Implementing request building
+impl RequestBuilder for MyClient {
+    fn build<U, P, K, V>(
+        method: Method,
+        url: U,
+        body: Vec<u8>,
+        query_params: P,
+        headers: Headers,
+    ) -> Result<Self>
+    where
+        U: AsRef<str>,
+        P: IntoIterator,
+        P::Item: Borrow<(K, V)>,
+        K: AsRef<str>,
+        V: ToString,
+    {
+        let builder = _; // build your underlying client
+
+        Ok(Self(builder))
+    }
+}
+
+// making query asynchronously!
+async fn make_some_query(client: &Client) -> Result<Vec<Account>> {
+  let (req, resp_handler): (MyClient, _) = client.prepare_query_request(FindAllAccounts::new(), _ /* some pagination*/)?;
+  let resp = req.0.send().await?; // depends on the client itself
+  resp_handler.handle(resp.into())
+}
+```
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-18 08:55:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2115" class=".btn">#2115</a>
             </td>
             <td>
