@@ -290,30 +290,3 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1965" class=".btn">#1965</a>
-            </td>
-            <td>
-                <b>
-                    fix: custom-checks script from package.json does not work #1809
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes: #1809
-Signed-off-by: ruzell22 <ruzell.vince.aquino@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-11 03:20:04 +0000 UTC
-    </div>
-</div>
-
