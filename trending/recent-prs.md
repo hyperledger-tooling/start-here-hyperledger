@@ -1,5 +1,5 @@
 
-[2115](https://github.com/hyperledger/iroha/pull/2115) [schema] #2114: define stable schema type_name, use vec of tuples for maps in schemas
+[2115](https://github.com/hyperledger/iroha/pull/2115) [schema] #2114: Sorted collections support in schemas
 
 [748](https://github.com/hyperledger-labs/solang/pull/748) Implement type definition syntax
 

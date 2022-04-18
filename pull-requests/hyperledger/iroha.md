@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [schema] #2114: define stable schema type_name, use vec of tuples for maps in schemas
+                    [schema] #2114: Sorted collections support in schemas
                 </b>
             </td>
         </tr>
@@ -43,8 +43,7 @@ permalink: /pull-requests/hyperledger/iroha
 ### Description of the Change
 
 * define stable schema type names
-* introduce `SortedVec` to schema format
-* remove `Map` from schema format
+* introduce sorted collections to schemas
 
 Considering that we make abundant use of digital signatures, serialized formats of our internal structures must have a defined ordering, e.g. `BTreeMap` must be represented as a sorted vector of tuples. While it may be possible that there will be `BTreeMap`s that won't be part of a structure that is signed(and require a defined ordering of tuples), I find it to be quite unlikely and don't think it worth to support such exception.
 
@@ -57,8 +56,6 @@ Closes #2114
 <!-- What benefits will be realized by the code change? -->
 
 ### Possible Drawbacks
-
-I think that `SortedVec` should also be accompanied by the comparison function in the schema file
 
 ### Usage Examples or Tests *[optional]*
 
