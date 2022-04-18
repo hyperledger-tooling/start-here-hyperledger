@@ -62,33 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/713" class=".btn">#713</a>
-            </td>
-            <td>
-                <b>
-                    test-network-k8s: Support for Loading images for rest sample to KIND
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This patch supports for pulling all images to the local docker cache and loading to KIND.
-
-Also, this adds the missing docker image pulling (couchdb) for Fabric.
-
-Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-11 07:12:07 +0000 UTC
-    </div>
-</div>
-
