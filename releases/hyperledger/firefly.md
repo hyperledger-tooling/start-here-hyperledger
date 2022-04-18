@@ -56,35 +56,3 @@ permalink: /releases/hyperledger/firefly
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.0.0-rc.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.0.0-rc.3
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Fix postgres migrations and add to PR checks by @nguyer in https://github.com/hyperledger/firefly/pull/690
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.0.0-rc.2...v1.0.0-rc.3
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.0.0-rc.3" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-04-11 15:24:17 +0000 UTC
-    </span>
-</div>
-
