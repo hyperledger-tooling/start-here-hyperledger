@@ -211,33 +211,3 @@ I've grouped the inbound / outbound so we they're all running in parallel
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/703" class=".btn">#703</a>
-            </td>
-            <td>
-                <b>
-                    ci: add yml for postgres setup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                -  Added ci setup for Postgres
-
-Related Issue: #553 
-
-Related PR for feature: #699 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 09:44:22 +0000 UTC
-    </div>
-</div>
-

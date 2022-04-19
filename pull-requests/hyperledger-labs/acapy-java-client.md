@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/37" class=".btn">#37</a>
-            </td>
-            <td>
-                <b>
-                    Fix missing throws on handleSettings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Thomas Diesler <tdiesler@redhat.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-16 06:08:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/36" class=".btn">#36</a>
             </td>
             <td>
@@ -59,32 +33,6 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     </table>
     <div class="right-align">
         Created At 2022-04-14 21:40:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/34" class=".btn">#34</a>
-            </td>
-            <td>
-                <b>
-                    [#33] Cannot register NYM with /ledger/register-nym
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Thomas Diesler <tdiesler@redhat.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-14 20:34:42 +0000 UTC
     </div>
 </div>
 

@@ -298,29 +298,3 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1966" class=".btn">#1966</a>
-            </td>
-            <td>
-                <b>
-                    Add monitoring and send sync/async functionality
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add monitoring and sending async/sync requests to ledger via SocketIO.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 09:16:30 +0000 UTC
-    </div>
-</div>
-

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [fix] #1256: redesign http workflow, expose internal client api
+                    [refactor] #1256: redesign http workflow, expose internal client api
                 </b>
             </td>
         </tr>
