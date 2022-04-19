@@ -15,6 +15,39 @@ permalink: /releases/hyperledger/firefly-sandbox
         <tr>
             <td colspan="2">
                 <b>
+                    v0.1.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.1.4
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Update running instructions in README by @awrichar in https://github.com/hyperledger/firefly-sandbox/pull/50
+* Do not run "build" before every "start" by @awrichar in https://github.com/hyperledger/firefly-sandbox/pull/52
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-sandbox/compare/v0.1.3...v0.1.4
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-sandbox/releases/tag/v0.1.4" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-04-15 17:52:54 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.1.3
                 </b>
             </td>
