@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/728" class=".btn">#728</a>
+            </td>
+            <td>
+                <b>
+                    Adjustments to the FAQ documents page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Trevor Scanlon <trevorscanlon@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-18 20:12:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/727" class=".btn">#727</a>
+            </td>
+            <td>
+                <b>
+                    Fix image link in Sandbox docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-18 19:03:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/725" class=".btn">#725</a>
             </td>
             <td>
@@ -552,97 +604,6 @@ More work can be done to reject upfront for a better user experience, but this f
     </table>
     <div class="right-align">
         Created At 2022-04-12 14:12:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/697" class=".btn">#697</a>
-            </td>
-            <td>
-                <b>
-                    Make http server framework re-usable by microservices
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In a PR chain with #688
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-11 22:07:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/696" class=".btn">#696</a>
-            </td>
-            <td>
-                <b>
-                    Add helpers at /apis/{apiName}/listeners/{eventPath}
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This includes the commit from #693.
-
-Add helper URLs:
-
-```
-GET /apis/{apiName}/listeners/{eventPath} - list all listeners matching this event on this API
-POST /apis/{apiName}/listeners/{eventPath} - create a new listener for this event on this API
-```
-
-Also makes `topic` a required field for contract listeners, and enforces uniqueness of listeners across these 2 dimensions:
-* namespace + name
-* topic + contract location + event signature
-
-Violating either uniqueness constraint when attempting to create a listener will result in HTTP 409, so applications can rely on this behavior to perform "create this listener if it does not already exist". Note that `name` is still optional, and a unique one will be assigned at creation time if none is specified.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-11 21:08:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/695" class=".btn">#695</a>
-            </td>
-            <td>
-                <b>
-                    Add completed configuration descriptions and types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The main thing this PR adds is completed descriptions for all configuration options. It also adds a new `ffc()` for FireFly Configuration message keys for translations. The configuration key requires that a `fieldType` be set as another parameter in addition to the configuration description. The `fieldType` is a `string` that describes the Go type that FireFly Core will parse the field as.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-11 20:48:47 +0000 UTC
     </div>
 </div>
 

@@ -163,7 +163,7 @@ Will going to start the urdu translation of the fabric documentation in readthed
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">jaJP-docs-ongoing</span>
             </td>
             <td>
                 https://github.com/hyperledger/fabric-docs-i18n/issues/567
