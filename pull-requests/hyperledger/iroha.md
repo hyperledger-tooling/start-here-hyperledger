@@ -37,7 +37,6 @@ permalink: /pull-requests/hyperledger/iroha
 <!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
 <!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
 
-
 ### Description of the Change
 
 Currently client is built on top of blocking synchronous HTTP client, which is not very flexible for different use cases.
@@ -59,6 +58,8 @@ There are also 3 new structs - `QueryResponseHandler`, `TransactionResponseHandl
 
 I haven't touched WebSocket-based logic and some other complex utilities that rely on default HTTP client yet. Anyway it should be refactored as well.
 
+Also I've refactored the http internal module itself.
+
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
@@ -75,10 +76,20 @@ More information about this is available in GitHub documentation: https://docs.g
 
 <!-- What benefits will be realized by the code change? -->
 
+- Possibility to use `iroha_client` with custom HTTP transport, even async. **Only for queries, transactions and status for now.**
+- Usage of `trait RequestBuilder` allows to build requests in an efficient way. It would be less efficient if build it via callbacks or by returning the exact request structure.
+- Client is still responsible to handle http response
+- You don't need to import anything to handle response, and currently "responders" are a zero-cost abstraction
+- Existing client API hasn't been changed, but has been extended.
+
 ### Possible Drawbacks
 
 <!-- What are the possible side-effects or negative impacts of the code change? -->
 <!-- If no drawbacks, explicitly mention this (write None) -->
+
+- The big part of client is not refactored to new design.
+- `Headers` are still `HashMap<String, String>`, which can be optimized in scope of `RequestBuilder` trate.
+- Response handlers expect `Response` structure from the `http` crate. It may be unefficient if custom http implementation returns some other response and user has to transform it first. Maybe it is better to replace `Response` with some trait.
 
 ### Usage Examples or Tests
 
@@ -124,9 +135,11 @@ async fn make_some_query(client: &Client) -> Result<Vec<Account>> {
 
 <!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
 
-### Alternate Designs *[optional]*
+### Alternate Designs
 
 <!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+Other implementations, like implementing the whole HTTP-cycle within the client, require an injection of the exact http-client or passing a callback inside of it. But an implementation may be both blocking and async. In this case, client should expose both symmetric APIs - blocking and async, for each endpoint. It requires a more complex solution than mine one. Also it can bring some limits to the library if it exposes async (Future-based) APIs, but not necessary. 
 
 <!--
 NOTE: User may want skip pull request and push workflows with [skip ci]
