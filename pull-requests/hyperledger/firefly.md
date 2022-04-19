@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/731" class=".btn">#731</a>
+            </td>
+            <td>
+                <b>
+                    Accept "decimals" from token plugins on pool creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pairs with https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/46
+
+This does not give any way to set `decimals` from FireFly when creating a pool, and it does not change the formatting of any values exposed on the FireFly API (ie for token balances). It simply accepts `decimals` if it is provided by a token connector upon pool creation, stores it, and returns it when querying token pools.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-19 16:53:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/730" class=".btn">#730</a>
             </td>
             <td>
@@ -578,84 +606,6 @@ More work can be done to reject upfront for a better user experience, but this f
     </table>
     <div class="right-align">
         Created At 2022-04-12 18:44:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/701" class=".btn">#701</a>
-            </td>
-            <td>
-                <b>
-                    [ui-v0.7.0] manifest and image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Echelberger <eberger727@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 17:37:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/700" class=".btn">#700</a>
-            </td>
-            <td>
-                <b>
-                    Update readme images
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should fix #699.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 17:17:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/698" class=".btn">#698</a>
-            </td>
-            <td>
-                <b>
-                    Update ruby deps
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Dependabot is encouraging upgrades
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 14:12:30 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/56" class=".btn">#56</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/59" class=".btn">#59</a>
             </td>
             <td>
                 <b>
-                    Add new ipa-multipoint library integration
+                    Add more static values
                 </b>
             </td>
         </tr>
@@ -27,12 +27,48 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                <nil>
+                The secp256k1 api depends on some magic values passed into the native
+functions.  Move those magic values over to constants
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-20 07:12:41 +0000 UTC
+        Created At 2022-04-19 16:51:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/58" class=".btn">#58</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Gradle -> 7.4.2
+* JNA -> 5.11.0
+* guava -> 31.1-jre
+* junit -> 4.13.2
+* tuweni -> 2.2.0
+* assertj -> 3.22.0
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-19 16:42:11 +0000 UTC
     </div>
 </div>
 
