@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/558" class=".btn">#558</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/560" class=".btn">#560</a>
             </td>
             <td>
                 <b>
-                    Cherry pick of recent changes in main branch
+                    Node version compatability fix
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                Roll-up of multiple changes, including ones that should get the build running cleanly again.
+                Updated node engine to include version 14.14.0 as fabric-client needs `klaw-4.0.1 ` package which has a node engine dependency of >=14.14.0
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-09 15:56:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/557" class=".btn">#557</a>
-            </td>
-            <td>
-                <b>
-                    Add unit test for boolean config environment variables
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Contributes to #553
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-09 14:34:05 +0000 UTC
+        Created At 2022-04-19 11:24:48 +0000 UTC
     </div>
 </div>
 

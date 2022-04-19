@@ -53,8 +53,11 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                TODO:
- - Documentation
+                Ethereum Solidity introduces a new syntax for user defined types, see:
+
+https://docs.soliditylang.org/en/v0.8.13/types.html
+
+Documentation for the syntax is in the documentation of this commit, and not repeated here.
 
 Signed-off-by: Sean Young <sean@mess.org>
             </td>

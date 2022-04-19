@@ -99,32 +99,3 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1310" class=".btn">#1310</a>
-            </td>
-            <td>
-                <b>
-                    Peer Gateway: Integration tests for the new Peer Gateway connnector ( + update docker compose to use 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - add integration test for peer gateway connector
-- updated docker compose to use fabric 2.4
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 10:45:02 +0000 UTC
-    </div>
-</div>
-
