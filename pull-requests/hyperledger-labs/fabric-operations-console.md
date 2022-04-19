@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
             </td>
             <td>
                 <b>
-                    Node16
+                    Bump node v12 to v16
                 </b>
             </td>
         </tr>
