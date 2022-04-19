@@ -15,6 +15,41 @@ permalink: /releases/hyperledger/firefly-sandbox
         <tr>
             <td colspan="2">
                 <b>
+                    v0.1.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.1.5
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* reset & validate fields between form switches, fix disappearing token index field by @lanasta in https://github.com/hyperledger/firefly-sandbox/pull/51
+* Datatypes server + tests by @lanasta in https://github.com/hyperledger/firefly-sandbox/pull/53
+* Add UI routes last by @awrichar in https://github.com/hyperledger/firefly-sandbox/pull/54
+* Add datatypes, contract address by @awrichar in https://github.com/hyperledger/firefly-sandbox/pull/55
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-sandbox/compare/v0.1.4...v0.1.5
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-sandbox/releases/tag/v0.1.5" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-04-19 19:18:05 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.1.4
                 </b>
             </td>
