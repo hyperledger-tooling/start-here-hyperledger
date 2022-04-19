@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/730" class=".btn">#730</a>
+            </td>
+            <td>
+                <b>
+                    Allow config suffix to be changed by microservices using config package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-19 04:51:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/729" class=".btn">#729</a>
+            </td>
+            <td>
+                <b>
+                    Fix account creation for nightly integration runs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We recently merged a change in how blockchain accounts are created for the E2E tests. This worked fine for a normal run. The nightly integration test also stops all the services, starts them up again, and re-runs all the tests. This meant that there weren't enough "extra" test blockchain accounts allocated for the second test run after the restart. This PR fixes that.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-19 01:50:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/728" class=".btn">#728</a>
             </td>
             <td>
