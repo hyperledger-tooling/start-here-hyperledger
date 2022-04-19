@@ -227,37 +227,3 @@ fixes #3677
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3723" class=".btn">#3723</a>
-            </td>
-            <td>
-                <b>
-                    Move 2 Maintainers to Emeritus Status
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I propose moving the following maintainers to Emeritus status, pursuant to the inactivity clause. These maintainers have had no activity in the past 6 months, as identified by an automated report run by the Hyperledger Foundation:
-
-@abdelhamidbakhta  - last github action (a PR review) was 6 Jun 2021
-@RatanRSur  - last github commit was 7 Oct 2021
-
-We very much appreciate their contributions but moving their status to emeritus (and thus revoking PR approval privileges) is in the interest of an orderly project. If any of these maintainers express in this PR that they intend to make contributions in the next quarter, then they will not be moved to emeritus status.
-
-I propose this vote be open until either an absolute majority of active maintainers (14) votes for the same outcome, or until two weeks has passed (26 Apr 2022), after which a voting majority will determine the outcome (with a tie resulting in no change).
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 17:25:00 +0000 UTC
-    </div>
-</div>
-

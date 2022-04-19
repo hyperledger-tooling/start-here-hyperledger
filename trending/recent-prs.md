@@ -1,13 +1,13 @@
 
-[560](https://github.com/hyperledger/fabric-sdk-node/pull/560) Node version compatability fix
+[752](https://github.com/hyperledger-labs/solang/pull/752) Implement codegen for yul primitive expressions
 
-[3737](https://github.com/hyperledger/besu/pull/3737) test block import
+[731](https://github.com/hyperledger/firefly/pull/731) Accept "decimals" from token plugins on pool creation
 
-[1920](https://github.com/hyperledger/bevel/pull/1920) [fabric] Change or add ImagePullPolicy to be IfNotPresent
+[59](https://github.com/hyperledger/besu-native/pull/59) Add more static values
 
-[719](https://github.com/hyperledger/fabric-samples/pull/719) test-network-k8s: Remove kubectl binary
+[306](https://github.com/hyperledger-labs/fablo/pull/306) Support Fabric Gateway
 
-[3222](https://github.com/hyperledger/aries-framework-go/pull/3222) fix(vcwallet): correct order of test arguments
+[58](https://github.com/hyperledger/besu-native/pull/58) Upgrade dependencies
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
