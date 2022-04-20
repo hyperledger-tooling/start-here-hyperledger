@@ -15,30 +15,31 @@ permalink: /releases/hyperledger/firefly-tokens-erc1155
         <tr>
             <td colspan="2">
                 <b>
-                    v0.10.8
+                    v0.10.9
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.10.8
+                    v0.10.9
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Clean up blockchain info passed back to FireFly by @awrichar in https://github.com/hyperledger/firefly-tokens-erc1155/pull/66
+* Clarify token fields around "id", "locator", and "subject" by @awrichar in https://github.com/hyperledger/firefly-tokens-erc1155/pull/67
+* Split e2e suite by @awrichar in https://github.com/hyperledger/firefly-tokens-erc1155/pull/68
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v0.10.7...v0.10.8
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v0.10.8...v0.10.9
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.10.8" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v0.10.9" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-07 20:54:26 +0000 UTC
+        Created At 2022-04-19 14:49:07 +0000 UTC
     </span>
 </div>
 

@@ -15,44 +15,50 @@ permalink: /releases/hyperledger/firefly
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.0-rc.4
+                    v1.0.0-rc.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.0-rc.4
+                    v1.0.0-rc.5
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add contract listeners only by event definition or event pathname by @awrichar in https://github.com/hyperledger/firefly/pull/685
-* Rename "contract" field to "interface" on FFIMethod/FFIEvent by @awrichar in https://github.com/hyperledger/firefly/pull/691
-* New operations admin APIs and revamped change-event listener on admin WebSocket by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/668
-* Move ffresty to pkg for use by other microservices by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/688
-* Make http server framework re-usable by microservices by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/697
-* Add completed configuration descriptions and types by @nguyer in https://github.com/hyperledger/firefly/pull/695
-* Status plugins by @eberger727 in https://github.com/hyperledger/firefly/pull/689
-* Update ruby deps by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/698
-* Include interface metadata routes in FFI-generated Swagger by @awrichar in https://github.com/hyperledger/firefly/pull/687
-* Add /api/v1/status/websockets by @awrichar in https://github.com/hyperledger/firefly/pull/680
-* [ui-v0.7.0] manifest and image by @eberger727 in https://github.com/hyperledger/firefly/pull/701
-* Reject Contract API updates with an ID mismatch by @awrichar in https://github.com/hyperledger/firefly/pull/705
-* Add helpers at /apis/{apiName}/listeners/{eventPath} by @awrichar in https://github.com/hyperledger/firefly/pull/696
-* Readme and documentation updates by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/708
-* Add descriptions for all API routes by @nguyer in https://github.com/hyperledger/firefly/pull/702
+* Restore getting started section by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/712
+* WebSocket disconnections should be info messages by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/714
+* Add token provider to container logs name to make it unique by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/711
+* Rename contract listener "protocol_id" to "backend_id" by @awrichar in https://github.com/hyperledger/firefly/pull/717
+* Fix token approvals and clarify fields "protocolId", "locator", and "subject" by @awrichar in https://github.com/hyperledger/firefly/pull/709
+* Move "special" operation update handling out of Operations Manager by @awrichar in https://github.com/hyperledger/firefly/pull/720
+* DID rewind by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/716
+* E2E account creation by @nguyer in https://github.com/hyperledger/firefly/pull/707
+* OpenAPI cleanup items by @awrichar in https://github.com/hyperledger/firefly/pull/719
+* Parse input params for /query endpoints in ffi2swagger by @awrichar in https://github.com/hyperledger/firefly/pull/724
+* New Getting Started Guide by @nguyer in https://github.com/hyperledger/firefly/pull/721
+* Fix image link in Sandbox docs by @nguyer in https://github.com/hyperledger/firefly/pull/727
+* Fix account creation for nightly integration runs by @nguyer in https://github.com/hyperledger/firefly/pull/729
+* Allow config suffix to be changed by microservices using config package by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/730
+* Add "tx.blockchainId" to BlockchainEvent type by @awrichar in https://github.com/hyperledger/firefly/pull/725
+* Accept "decimals" from token plugins on pool creation by @awrichar in https://github.com/hyperledger/firefly/pull/731
+* Add event for failed token pool creation operations by @awrichar in https://github.com/hyperledger/firefly/pull/734
+* Use blank type for JSONAny in OpenAPI by @awrichar in https://github.com/hyperledger/firefly/pull/733
+* Honor "confirm" parameter for blockchain invoke by @awrichar in https://github.com/hyperledger/firefly/pull/722
+* UI v0.7.1 by @eberger727 in https://github.com/hyperledger/firefly/pull/741
+* Update dependencies for v1.0.0-rc.5 release by @nguyer in https://github.com/hyperledger/firefly/pull/742
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.0.0-rc.3...v1.0.0-rc.4
+**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.0.0-rc.4...v1.0.0-rc.5
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.0.0-rc.4" class=".btn">
+    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.0.0-rc.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-13 12:26:31 +0000 UTC
+        Created At 2022-04-20 13:06:52 +0000 UTC
     </span>
 </div>
 
