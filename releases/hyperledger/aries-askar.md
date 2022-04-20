@@ -15,26 +15,27 @@ permalink: /releases/hyperledger/aries-askar
         <tr>
             <td colspan="2">
                 <b>
-                    v0.2.4
+                    v0.2.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.2.4
+                    v0.2.5
                 </span>
             </td>
             <td>
-                
+                - Updates to transaction handling to avoid conflicts under load
+- Refactored Python wrapper bindings
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-askar/releases/tag/v0.2.4" class=".btn">
+    <a href="https://github.com/hyperledger/aries-askar/releases/tag/v0.2.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-01-18 22:49:39 +0000 UTC
+        Created At 2022-04-19 01:07:32 +0000 UTC
     </span>
 </div>
 
