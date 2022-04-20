@@ -29,7 +29,7 @@ permalink: /issues/hyperledger-labs/solang
             <td>
                 When we declare a constant variable that has an initializer, e.g. `bool x constant = 0 < 2`, we evaluate the actual constant value in compiler time. Currently, there is no support to evaluate constants in comparisons, so the aforementioned example is evaluated in run time.
 
-We need to calculate comparisons with constants during compilation. Ideally, this can be created in `src/sema` and the comparison can be evaluated in compile time.
+We need to calculate comparisons with constants during compilation. The `eval_const_number` function should become `eval_const_expression` to evaluate boolean operators too. This function should be called at `fn var_decl` in `src/sema/variables.rs` so that the initializer of a constant is evaluated at compile time.
             </td>
         </tr>
     </table>
