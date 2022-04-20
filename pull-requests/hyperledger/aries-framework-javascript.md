@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/714" class=".btn">#714</a>
+            </td>
+            <td>
+                <b>
+                    feat: support handling messages with lower minor version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds support for processing messages with a lower minor version.
+
+Some notes about the changes:
+- The static `type` property on the message classes are now `ParsedMessageType` containing info about the message type. I've done this to make the info readily available and not have to parse it every time we need this info (would need to be done for every message for each message received). This is how declaring the type now looks. `praseMessageType` is an utitliy method that makes it easier to created the `ParsedMessageType` object.
+```ts
+class CustomProtocolMessage extends AgentMessage {
+  @IsValidMessageType(CustomProtocolMessage.type)
+  public readonly type = CustomProtocolMessage.type.messageTypeUri
+  public static readonly type = parseMessageType('https://didcomm.org/fake-protocol/1.5/message')
+}
+```
+- Had to refactor the decorators a bit as it was incorrectly typed which was now causing errors with typescript
+- Added an e2e test where we send a message with a lower minor version to another agent with a higher minor version.
+- Added transformations from string values `1` and `0` to `n__1` and `n__0`. See here for the relevant discussion: https://github.com/hyperledger/aries-framework-javascript/pull/690#discussion_r850942240. Other approaches very welcome.
+
+This PR doesn't include handling the error case where we receive a message with a higher minor version. I'll like to address that in a separate PR (should be straightforward, we just have to change the reason in the problem report), but this at least unblocks us now.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 10:49:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/712" class=".btn">#712</a>
             </td>
             <td>
@@ -120,6 +161,8 @@ Fixes #483
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
 [//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @TimoGlastra.
+
 [//]: # (dependabot-automerge-end)
 
 ---
@@ -152,62 +195,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-04-14 19:04:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/705" class=".btn">#705</a>
-            </td>
-            <td>
-                <b>
-                    refactor: start and stop transports in parallel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                start and stop transports in parallel as suggested by @jakubkoci  in https://github.com/hyperledger/aries-framework-javascript/pull/704#discussion_r849258130
-
-I've grouped the inbound / outbound so we they're all running in parallel
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 09:23:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/704" class=".btn">#704</a>
-            </td>
-            <td>
-                <b>
-                    fix: disallow floating promises
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Helps catch nasty bugs (and even caught some places where we didn't call await!), and as #563 has been around forever it's easier to already pick some important rules.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 08:12:54 +0000 UTC
     </div>
 </div>
 

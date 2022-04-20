@@ -1,13 +1,13 @@
 
-[2124](https://github.com/hyperledger/iroha/pull/2124) [fix] #1716: Rescue the consensus failure when `f` decrements to 0
+[756](https://github.com/hyperledger-labs/solang/pull/756) @return doccomments on unnamed returns permitted
 
-[663](https://github.com/hyperledger/fabric-docs-i18n/pull/663) [ja_JP] Translate "readwrite.rst" into Japanese
+[1983](https://github.com/hyperledger/cactus/pull/1983) refactor(electricity-trade): use cactus-verifier-client
 
-[3741](https://github.com/hyperledger/besu/pull/3741) Use pivot header download time to select sync target
+[740](https://github.com/hyperledger/firefly/pull/740) Add first step of FireFly Transaction Manager support - separate URL for submit
 
-[737](https://github.com/hyperledger/firefly/pull/737) Configurable JSON Formatter and Caller Reporting for Logs
+[2129](https://github.com/hyperledger/iroha/pull/2129) [ci]: Bump rust, mold and nightly to 1.60, 1.2.0 and 1.62 respectively.
 
-[720](https://github.com/hyperledger/fabric-samples/pull/720) test-network-k8s: Remove kubectl binary (again)
+[714](https://github.com/hyperledger/aries-framework-javascript/pull/714) feat: support handling messages with lower minor version
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

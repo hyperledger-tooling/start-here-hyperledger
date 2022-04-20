@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1738" class=".btn">#1738</a>
+            </td>
+            <td>
+                <b>
+                    Documentation on existing language wrappers for aca-py
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I do not know if this is a complete list, but I think this might be useful information for anyone getting started on implementing their own controllers.
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 10:36:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1737" class=".btn">#1737</a>
             </td>
             <td>

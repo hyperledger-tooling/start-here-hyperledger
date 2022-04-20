@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/756" class=".btn">#756</a>
+            </td>
+            <td>
+                <b>
+                    @return doccomments on unnamed returns permitted
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This doc comment is not permitted:
+
+// @return feh
+// @return foo
+function f3() pure returns (int, int) { return (1, 2); }
+
+Allow unnamed returned value to have doc comments, while ensuring that
+there is on per return.
+
+Also fix the location of doc-comments in diagnostics.
+
+Found:
+https://stackoverflow.com/questions/71789212/solang-panicked-at-type-not-allowed
+
+The issue described on stackoverflow is not fixed yet.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 12:32:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/753" class=".btn">#753</a>
+            </td>
+            <td>
+                <b>
+                    Call struct member address does not work
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 Call struct member address does not work
+    
+The address is not loaded.
+    
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 08:46:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/752" class=".btn">#752</a>
             </td>
             <td>
@@ -294,97 +366,6 @@ PS: This PR modifies 56 files, so please, @seanyoung, be pedantic!
     </table>
     <div class="right-align">
         Created At 2022-04-13 14:53:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/740" class=".btn">#740</a>
-            </td>
-            <td>
-                <b>
-                    Calling internal function type broken on solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This has been broken for some time, clearly it was missing a test case.
-
-Fixes issue #733.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 09:34:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/739" class=".btn">#739</a>
-            </td>
-            <td>
-                <b>
-                    Shift on integer struct member causes panic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The syntax `self._x >> 112` causes a panic because retrieving the bit
-width of a referene to an integer is broken.
-
-Fixes issue #732.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 09:18:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/738" class=".btn">#738</a>
-            </td>
-            <td>
-                <b>
-                    Sema test for casting destructure values is broken
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When the left hand side of a destructure statements is a structure member or array element, the test incorrectly assumed the value was not assignable.
-    
-Fixes issue #731.
-    
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 09:06:45 +0000 UTC
     </div>
 </div>
 
