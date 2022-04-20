@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/735" class=".btn">#735</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/737" class=".btn">#737</a>
             </td>
             <td>
                 <b>
-                    [ui-v0.7.1]
+                    Configurable JSON Formatter and Caller Reporting for Logs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                UI Version: v0.7.1
+                Closes #713, useful for parsing logs w/ `jq` or searching through logs using log aggregators like Filebeat + OpenSearch
+
+Using a slightly modified config from a default `dev` stack:
+```yaml
+log:
+  level: debug
+  reportCaller: true
+  json:
+    enabled: true
+```
+
+and running the image locally:
+
+```shell
+make docker
+docker run -v ${HOME}/.firefly/stacks/dev/init/config/:/etc/firefly -it hyperledger/firefly -f /etc/firefly/firefly_core_0.yml
+```
+
+results in:
+
+```json
+{"@timestamp":"2022-04-20T04:53:12.477Z","file":"/firefly/pkg/config/config.go:528","func":"github.com/hyperledger/firefly/pkg/config.SetupLogging","level":"debug","message":"Log level: debug","prefix":"node_0"}
+{"@timestamp":"2022-04-20T04:53:12.477Z","file":"/firefly/cmd/firefly.go:105","func":"github.com/hyperledger/firefly/cmd.run","level":"info","message":"Project Firefly","prefix":"node_0"}
+{"@timestamp":"2022-04-20T04:53:12.477Z","file":"/firefly/cmd/firefly.go:106","func":"github.com/hyperledger/firefly/cmd.run","level":"info","message":"© Copyright 2021 Kaleido, Inc.","prefix":"node_0"}
+{"@timestamp":"2022-04-20T04:53:12.479Z","file":"/firefly/cmd/firefly.go:159","func":"github.com/hyperledger/firefly/cmd.startFirefly","level":"debug","message":"Debug HTTP endpoint listening on localhost:6060","prefix":"node_0"}
+
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-20 00:57:05 +0000 UTC
+        Created At 2022-04-20 05:02:45 +0000 UTC
     </div>
 </div>
 
@@ -528,110 +554,6 @@ Looks like it's due to a clash in the names between the token tests
     </table>
     <div class="right-align">
         Created At 2022-04-13 12:25:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/709" class=".btn">#709</a>
-            </td>
-            <td>
-                <b>
-                    Fix token approvals and clarify fields "protocolId", "locator", and "subject"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">migration_consideration</span>
-            </td>
-            <td>
-                Depends on https://github.com/hyperledger/firefly-tokens-erc1155/pull/67 and https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/42
-
-This started as a quest to clean up token approvals, but ended up encompassing a few related items:
-
-* The term "protocolId" has come to mean (fairly specifically) "an ID meaningful in the context of an underlying blockchain protocol".
-  * The existing "protocolId" of token approvals is renamed to "subject", and token approvals get a new "protocolId" field that better aligns with the above.
-  * Token transfers keep their "protocolId" unchanged, as it already aligns.
-  * The existing "protocolId" of token pools is renamed to "locator".
-  * Blockchain events will be de-duplicated based on their "protocolId" - only one event per namespace+listener+protocolId will be recorded, to avoid recording the same blockchain event multiple times.
-* Token approvals will record _all_ historical approvals (instead of sometimes overwriting old ones). As a convenience for query purposes, the most recent approval for each subject will be notated with a new field "active=true".
-* When matching token approval (and transfer) events to operations, event manager will now consider the operation ID _and_ the token connector and pool embedded in the operation inputs before considering it a match. This ensures that side-effects in other pools will not be matched with the wrong operation and return unexpected results for synchronous actions (when using confirm=true). Resolves #661.
-
-This does introduce changes in the interface with token connectors, so will require connectors to be upgraded alongside it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 05:06:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/708" class=".btn">#708</a>
-            </td>
-            <td>
-                <b>
-                    Readme and documentation updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There are quite a substantial batch of updates here. Highlights:
-- New README.md that is hopefully much more friendly, and highlights some great new V1 features like the Sandbox
-- Updates to the ASCII art repo detail (in README and docs)
-- New docs landing page
-- New main architecture diagram
-- Combining `Maintainers` section into `Contributors` section
-- Renaming `Key concepts` to `Understanding FireFly`
-- New doc article summarizing what FireFly is - `Introduction to Supernodes`
-- New doc article on `Public and Permissioned Blockchain`
-- New slides
-- New screenshots
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 02:47:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/707" class=".btn">#707</a>
-            </td>
-            <td>
-                <b>
-                    E2E account creation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR includes only testing changes, which are necessary for the upcoming `v0.0.47` release of the FireFly CLI.
-
-It moves the responsibility for blockchain account creation to the CLI, and uses the new `stackState.json` file generated by the CLI to get a list of available accounts that can be used in tests.
-
-This PR also enables the identity E2E tests for Fabric and Besu based FireFly stacks.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 02:39:16 +0000 UTC
     </div>
 </div>
 

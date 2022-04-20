@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/663" class=".btn">#663</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Translate "readwrite.rst" into Japanese
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                This patch translates source/readwrite.rst into Japanese.
+
+Resolves #569
+
+Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 05:57:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/662" class=".btn">#662</a>
             </td>
             <td>
