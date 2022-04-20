@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/740" class=".btn">#740</a>
+            </td>
+            <td>
+                <b>
+                    Add first step of FireFly Transaction Manager support - separate URL for submit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is the first step, to allow a URL to be specified, and use it only for `SendTransaction`.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 12:18:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/739" class=".btn">#739</a>
+            </td>
+            <td>
+                <b>
+                    Add change events to operations, by adding namespace to ResolveOperation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In PR chain with #738 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 08:01:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/738" class=".btn">#738</a>
+            </td>
+            <td>
+                <b>
+                    Merge wsconfig to wsclient so microservices can use it
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 07:07:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/737" class=".btn">#737</a>
             </td>
             <td>
@@ -526,34 +605,6 @@ We cannot assure that the identity verification for an identity, will be process
     </table>
     <div class="right-align">
         Created At 2022-04-13 13:27:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/711" class=".btn">#711</a>
-            </td>
-            <td>
-                <b>
-                    Add token provider to container logs name to make it unique
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When trying to investigate https://github.com/hyperledger/firefly/runs/6001824099?check_suite_focus=true I found that I didn't have the container logs.
-
-Looks like it's due to a clash in the names between the token tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 12:25:56 +0000 UTC
     </div>
 </div>
 

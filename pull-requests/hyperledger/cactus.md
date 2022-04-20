@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1983" class=".btn">#1983</a>
+            </td>
+            <td>
+                <b>
+                    refactor(electricity-trade): use cactus-verifier-client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Sample app electricity-trade is currently using Verifier interface from cactus-cmd-socket-server.
+Replace it with VerifierFactory from cactus-verifier-client package that
+can work with all cactus connectors.
+
+Related: #1982
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 12:24:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1981" class=".btn">#1981</a>
+            </td>
+            <td>
+                <b>
+                    Zondervancalvez/issue1876
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 07:35:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1978" class=".btn">#1978</a>
             </td>
             <td>
@@ -183,36 +240,6 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
     </table>
     <div class="right-align">
         Created At 2022-04-13 16:05:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1971" class=".btn">#1971</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): upgrade angular in examples/carbon accounting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                Fixes #1651
-
-Depends on https://github.com/hyperledger/cactus/issues/1980
-
-Signed-off-by: aldousalvarez <aldousss.alvarez@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 06:51:26 +0000 UTC
     </div>
 </div>
 
