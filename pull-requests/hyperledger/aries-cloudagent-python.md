@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1737" class=".btn">#1737</a>
+            </td>
+            <td>
+                <b>
+                    Feature: Add the ability to deny specific plugins from loading
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As part of #1734, I found that the Revocation Notification V2 code
+failed to properly run due to the fact that the V1 code was deleting the
+DB objects before V2 could get to it. @dbluhm and I decided that adding
+an option to deny specific plugins from loading was one of the better
+solutions to the problem.
+
+Before the plugin has been initialized, any plugins listed within
+`--deny-plugins` will be unregistered to prevent them from initializing
+and potentially interferring with other plugins that have conflicts.
+
+Signed-off-by: Colton Wolkins (Indicio work address) <colton@indicio.tech>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-19 21:58:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1734" class=".btn">#1734</a>
             </td>
             <td>
