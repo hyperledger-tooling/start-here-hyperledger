@@ -15,7 +15,7 @@ permalink: /releases/hyperledger/firefly-ui
         <tr>
             <td colspan="2">
                 <b>
-                    v0.7.1_be4de68
+                    v0.7.1_3e6c358
                 </b>
             </td>
         </tr>
@@ -31,6 +31,7 @@ permalink: /releases/hyperledger/firefly-ui
 * Layout refactor by @eberger727 in https://github.com/hyperledger/firefly-ui/pull/162
 * [field-updates] ui updates by @eberger727 in https://github.com/hyperledger/firefly-ui/pull/163
 * [field-updates] updating for new event types by @eberger727 in https://github.com/hyperledger/firefly-ui/pull/164
+* [alignment] home dashboard recent events vertical scroll by @eberger727 in https://github.com/hyperledger/firefly-ui/pull/165
 
 
 **Full Changelog**: https://github.com/hyperledger/firefly-ui/compare/v0.7.0...v0.7.1
@@ -41,7 +42,7 @@ permalink: /releases/hyperledger/firefly-ui
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-20 03:20:13 +0000 UTC
+        Created At 2022-04-20 12:52:48 +0000 UTC
     </span>
 </div>
 
