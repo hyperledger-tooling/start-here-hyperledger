@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2124" class=".btn">#2124</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #1716: Rescue the consensus failure when `f` decrements to 0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+- [x] The topology reshuffles when the shift goes full circle
+- [ ] Either of the followings:
+  - Give an true solution to the failure
+  - Give an mitigation by exposing the number of the last view changes as the network sanity indicator
+
+### Issue
+- Closes #1716
+
+### Benefits
+
+### Possible Drawbacks
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 06:14:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2122" class=".btn">#2122</a>
             </td>
             <td>
@@ -345,7 +383,7 @@ None
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 Signed-off-by: BAStos525 <66615487+BAStos525@users.noreply.github.com><!-- You will not see HTML commented line in Pull Request body -->
