@@ -14,6 +14,63 @@ permalink: /issues/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger-labs/solang/issues/755" class=".btn">755</a>
+            </td>
+            <td>
+                <b>
+                    Comparisons should support constants
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span>
+            </td>
+            <td>
+                When we declare a constant variable that has an initializer, e.g. `bool x constant = 0 < 2`, we evaluate the actual constant value in compiler time. Currently, there is no support to evaluate constants in comparisons, so the aforementioned example is evaluated in run time.
+
+We need to calculate comparisons with constants during compilation. Ideally, this can be created in `src/sema` and the comparison can be evaluated in compile time.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 11:38:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger-labs/solang/issues/754" class=".btn">754</a>
+            </td>
+            <td>
+                <b>
+                    Overflow checking in constant arithmetic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span>
+            </td>
+            <td>
+                There should be overflow checking in arithmetic operations using constants.
+E.g. `uint8 = 128 + 128` should raise an error.
+
+Ideally, this check can be done in function `eval_const_number` in `src/sema`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 11:30:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger-labs/solang/issues/707" class=".btn">707</a>
             </td>
             <td>
