@@ -15,32 +15,31 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v3.1.6
+                    v3.1.7
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v3.1.6
+                    v3.1.7
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Fix concurrent map write when adding multiple subscriptions in parallel by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/208
-* Close subscription manager in tests by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/209
-* Add missing mock to unit test by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/210
+* Allow configuration of the factor used for gas estimation by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/212
+* Support for confirmations when listening to events by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/207
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.1.5...v3.1.6
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.1.6...v3.1.7
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.6" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.7" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-03-30 21:21:06 +0000 UTC
+        Created At 2022-04-20 02:42:08 +0000 UTC
     </span>
 </div>
 
