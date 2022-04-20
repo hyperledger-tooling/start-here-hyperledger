@@ -685,31 +685,3 @@ https://github.com/hyperledger/iroha/issues/1606
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1786" class=".btn">1786</a>
-            </td>
-            <td>
-                <b>
-                    Strong typing for socket addresses
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                Currently all socket addresses are stored as strings. This is not ideal, because we don't know if the configuration files should contain the protocol specifier or not. For example, there are many instances in the code, where a string check for presence of `http://` is done, and a format pre-pend. 
-
-We should probably either use one of the `std::net` types, or (better), a custom type that can be converted into the types that we need. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-10 06:03:36 +0000 UTC
-    </div>
-</div>
-
