@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/74" class=".btn">#74</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/76" class=".btn">#76</a>
             </td>
             <td>
                 <b>
-                    Fix typos and change wording
+                    Migrage from circle ci to github ci
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-13 11:48:43 +0000 UTC
+        Created At 2022-04-20 16:17:17 +0000 UTC
     </div>
 </div>
 

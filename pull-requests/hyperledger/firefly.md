@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/745" class=".btn">#745</a>
+            </td>
+            <td>
+                <b>
+                    Ensuring Senders Process Batch Pins Only Once Batches are Persisted
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #694, we were seeing the sender's aggregator process pins before a batch was ever persisted. So although message confirmed events were still being sent by the dispatchers, the database updates to mark the message pending (what is done as part of persisting a batch) were occurring after the messages were already confirmed.
+
+When persisting the batch, we guarantee that the batch is not cached until its successfully persisted:
+```
+	valid, err = em.validateAndPersistBatchContent(ctx, batch)
+	if err != nil || !valid {
+		return nil, valid, err
+	}
+	em.aggregator.cacheBatch(em.aggregator.getBatchCacheKey(persistedBatch.ID, persistedBatch.Hash), persistedBatch, manifest)
+	return persistedBatch, true, err
+```
+
+so if the aggregator repolls any pins who's batch is not in the cache this should avoid the issue. Other option is instead of repolling, letting the aggregators rewind handle processing the pins.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 17:26:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/742" class=".btn">#742</a>
+            </td>
+            <td>
+                <b>
+                    Update dependencies for v1.0.0-rc.5 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 12:55:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/741" class=".btn">#741</a>
+            </td>
+            <td>
+                <b>
+                    UI v0.7.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 12:54:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/740" class=".btn">#740</a>
             </td>
             <td>
@@ -553,58 +643,6 @@ We cannot assure that the identity verification for an identity, will be process
     </table>
     <div class="right-align">
         Created At 2022-04-13 19:00:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/714" class=".btn">#714</a>
-            </td>
-            <td>
-                <b>
-                    WebSocket disconnections should be info messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 16:04:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/712" class=".btn">#712</a>
-            </td>
-            <td>
-                <b>
-                    Restore getting started section
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This was an accidental deletion in #708 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 13:27:57 +0000 UTC
     </div>
 </div>
 

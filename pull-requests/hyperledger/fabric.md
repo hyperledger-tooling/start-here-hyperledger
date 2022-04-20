@@ -14,11 +14,74 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3343" class=".btn">#3343</a>
+            </td>
+            <td>
+                <b>
+                    Add ed25519 support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- New feature
+
+#### Description
+
+Due to some considering NIST curves insecure and
+Golang having ed25519 native support, there was
+not a reason for not implementing in Fabric.
+
+Tests cases for ed25519 were also added. Since
+ed25519 key derivation is not called by any
+function, I left as a TODO.
+
+As I am working on ed25519 support for node fabric-gateway,
+I needed to add ed25519 support for cryptogen also,
+aiming to pass tests with certificates containing
+ed25519 keys. Since the node fabric-gateway tests
+generate their crypto material with cryptogen, I
+adapted cryptogen to support ed25519 keys.
+
+#### Additional details
+
+Some tests concerning ed25519 key generation and certificate parsing
+were added.
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 18:08:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3339" class=".btn">#3339</a>
             </td>
             <td>
                 <b>
-                    Improve error message for a non-existent block delivery failure
+                    Log warning for a non existent block delivery failure
                 </b>
             </td>
         </tr>

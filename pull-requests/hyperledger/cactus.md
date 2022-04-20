@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1984" class=".btn">#1984</a>
+            </td>
+            <td>
+                <b>
+                    refactor(discounted-cartrade): use cactus-verifier-client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Sample app discounted-cartrade is currently using Verifier interface from cactus-cmd-socket-server.
+Replace it with VerifierFactory from cactus-verifier-client package that
+can work with all cactus connectors.
+
+Related: #1982
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 14:51:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1983" class=".btn">#1983</a>
             </td>
             <td>
@@ -178,68 +210,6 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
     </table>
     <div class="right-align">
         Created At 2022-04-15 15:26:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1973" class=".btn">#1973</a>
-            </td>
-            <td>
-                <b>
-                    Cross-Site Scripting attack (XSS).
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Unsanitized input from an HTTP parameter flows into send, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
-
-Signed-off-by: Bhaskar <dev@bhaskar.email>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-14 05:32:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1972" class=".btn">#1972</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify api client routing node to node test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This test file required more refactoring because the `tap` tests were nested, however `jest` doesn't allow nested test cases
-
-
-File Path: 
-packages/cactus-test-api-client/src/test/typescript/integration/api-client-routing-node-to-node.test.ts
-
-This is a PARTIAL resolution to issue #238
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 16:05:35 +0000 UTC
     </div>
 </div>
 

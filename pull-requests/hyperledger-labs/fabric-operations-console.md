@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/183" class=".btn">#183</a>
+            </td>
+            <td>
+                <b>
+                    Ask all nodes for aggregated channel list
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+Query all nodes for the list of channels so that the Orderer Details shows consolidated channel list
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 18:09:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/182" class=".btn">#182</a>
+            </td>
+            <td>
+                <b>
+                    remove product label text selection logic via api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- this will fix the product label text on the login panel after resetting a password.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 18:04:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/181" class=".btn">#181</a>
             </td>
             <td>

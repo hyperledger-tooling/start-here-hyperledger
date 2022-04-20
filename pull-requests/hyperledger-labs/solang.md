@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/757" class=".btn">#757</a>
+            </td>
+            <td>
+                <b>
+                    Fix standalone function call bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes a bug found in issue #744. We found out that when a function that returns multiple values was invoke as a top level statement, the compiler emitted an error. In sum, the following constructions should be allowed:
+
+```solidity
+function multipleReturns() returns (int, int) {
+    return (1, 2)
+}
+
+function test() returns int {
+    multipleReturns();
+    return 3;
+}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 17:03:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/756" class=".btn">#756</a>
             </td>
             <td>
@@ -28,11 +65,11 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 This doc comment is not permitted:
-
+```
 // @return feh
 // @return foo
 function f3() pure returns (int, int) { return (1, 2); }
-
+```
 Allow unnamed returned value to have doc comments, while ensuring that
 there is on per return.
 
@@ -249,123 +286,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-04-15 09:09:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/743" class=".btn">#743</a>
-            </td>
-            <td>
-                <b>
-                    feat: support projections in revert statement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I tried to fix this but I believe Hit some lalrpop issues, so this won't build I'm afraid. 
-But not sure what the proper fix for this would be, so I'd need some help
-
-
-Background
-
-this is a valid revert:
-
-```solidity
-        function doRevert2() internal pure {
-             revert LibName.ErrorName();
-        }
-```
-
-if an error is defined inside a library `LibName` 
-
-the solidity grammar states the revert stmt is `"revert" + expr + call-arg-list`
-But I think only this is valid (Id)? ("." Id)*
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 17:54:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/742" class=".btn">#742</a>
-            </td>
-            <td>
-                <b>
-                    feat: support byte as yulidentifier
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                prior to this `byte` was tokenized as `Token::Bytes(1)` as prior to 0.8.0 `byte` used to be an alias for `bytes1`
-
-however this breaks the assembly `byte` function
-
-```solidity
-            assembly {
-                v := byte(0, mload(add(signature, 0x60)))
-            }
-```
-
-This PR
-
-* adds a `"bytes" => Byte` token, that will be `Bytes(1)` if used as type or a yulidentifier
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 16:58:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/741" class=".btn">#741</a>
-            </td>
-            <td>
-                <b>
-                    Create codegen::Expression and refactor codegen
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR refactor code generation. The main addition was the `codegen::Expression`. This means we no longer depend on `ast::Expression` to build the CFG. I've managed to improve some other stuff:
-
-1. Now, we have a `cast` function for codegen. 
-2. Sema's `cast` function is now a method of `ast::Expression`.
-3. I created traits for common functions to facilitate implementing methods with generic arguments.
-4. I removed from the AST expressions that do not belong there, except `FunctionArg`, to which I couldn't find an easy solution.
-5. Some AST expressions do not exist is the CFG, so I removed references to them in codegen.
-6. As we are branching at every AND and OR expression, they do not exist in `codegen::Expression`. However, I left some block comments containing the code to handle those cases, in case we add them in nearby future.
-
-PS: This PR modifies 56 files, so please, @seanyoung, be pedantic!
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 14:53:55 +0000 UTC
     </div>
 </div>
 

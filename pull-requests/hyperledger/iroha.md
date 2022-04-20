@@ -144,9 +144,9 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             <td>
                 ### Description of the Change
 - [x] The topology reshuffles when the shift goes full circle
-- [ ] Either of the followings:
+- [x] Either of the followings:
   - Give an true solution to the failure
-  - Give an mitigation by exposing the number of the last view changes as the network sanity indicator
+  - ~~Give an mitigation by exposing the number of the last view changes as the network sanity indicator~~
 
 #### Minor changes
 - Refactor `kura_inspector` with `clap` version bump

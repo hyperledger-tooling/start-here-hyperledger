@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1741" class=".btn">#1741</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1743" class=".btn">#1743</a>
             </td>
             <td>
                 <b>
-                    Fix crash in `indy-node-control`
+                    Remove Pip Imports for ubuntu20
                 </b>
             </td>
         </tr>
@@ -27,16 +27,16 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                - python3-pygments and python3-intervaltree do not exist as dependencies in plenum anymore.
-- The `indy-node-control` crashes when trying to hold packages that don't exist.
-- Fixes the issue found here; https://github.com/hyperledger/indy-test-automation/issues/113
+                Removal of Pip Imports for ubuntu20
+and 
+version bump for indy-sdk (getting rid of pip complaining about wrong indy-sdk versions, which was fixed)
 
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+Signed-off-by: pSchlarb <p.schlarb@esatus.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-29 21:30:19 +0000 UTC
+        Created At 2022-04-20 14:27:07 +0000 UTC
     </div>
 </div>
 
