@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3223" class=".btn">#3223</a>
+            </td>
+            <td>
+                <b>
+                    refactor: endpoint change from string to struct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Following this DIDcomm V2 spec udpate:
+https://identity.foundation/didcomm-messaging/spec/#did-document-service-endpoint
+The endpoint field is now a structure containing a URI, Accept and the RoutingKeys.
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 15:33:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3222" class=".btn">#3222</a>
             </td>
             <td>
@@ -48,33 +79,6 @@ The patch swaps the order of arguments.
     </table>
     <div class="right-align">
         Created At 2022-04-19 08:34:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3220" class=".btn">#3220</a>
-            </td>
-            <td>
-                <b>
-                    docs: [readme-text] replace digital-hub with encrypted-data-vault
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Rolson Quadras <rolson.quadras@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 17:04:06 +0000 UTC
     </div>
 </div>
 

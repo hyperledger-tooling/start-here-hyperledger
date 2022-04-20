@@ -242,32 +242,3 @@ remove TTD search depth limit.  Ideally we will set a recent finalized block whe
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3726" class=".btn">#3726</a>
-            </td>
-            <td>
-                <b>
-                    3621 parent timestamps
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Adds lastValidHash as optional param to failing ForkChoiceResults
-- Controversial:  fails on timestamps that are not greater than parents. This was requested when discovered in a differential fuzz test against Geth, however the means of handling this and returning the error to the CL is still under discussion
-
-fixes #3677 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 17:54:35 +0000 UTC
-    </div>
-</div>
-

@@ -14,17 +14,17 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1383" class=".btn">#1383</a>
+                PR <a href="https://github.com/hyperledger/grid/pull/1387" class=".btn">#1387</a>
             </td>
             <td>
                 <b>
-                    WIP: Add `list_batches_by_status` operation
+                    BACKPORT 0-3: Add architecture check for protoc during grid-dev build
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
+                
             </td>
             <td>
                 <nil>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/grid
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-13 16:57:09 +0000 UTC
+        Created At 2022-04-20 16:32:06 +0000 UTC
     </div>
 </div>
 

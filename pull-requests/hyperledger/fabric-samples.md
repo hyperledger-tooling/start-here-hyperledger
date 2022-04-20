@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/721" class=".btn">#721</a>
+            </td>
+            <td>
+                <b>
+                    Use maven central for gateway client dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR updates the release-1.4 commercial paper client applications to pull the gateway jars from Maven central.
+
+This PR supersedes PR #585 (abandoned / closed) 
+    
+Signed-off-by: lyd <luoyaodong98@gmail.com>
+
+Co-authored-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 14:57:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/720" class=".btn">#720</a>
             </td>
             <td>
@@ -149,32 +182,6 @@ Co-authored-by: D <gvssimux@qq.com>
     </table>
     <div class="right-align">
         Created At 2022-04-14 13:19:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/714" class=".btn">#714</a>
-            </td>
-            <td>
-                <b>
-                    Java chaincode implementation of ERC-20 token standard.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Java chaincode implementation of ERC-20 token standard. It follows the same logic of the existing golang and javascript chaincode implementation in the repo.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 17:20:32 +0000 UTC
     </div>
 </div>
 

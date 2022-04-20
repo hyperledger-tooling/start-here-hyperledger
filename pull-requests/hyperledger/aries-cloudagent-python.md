@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1740" class=".btn">#1740</a>
+            </td>
+            <td>
+                <b>
+                    Fix iteration over key list, update Askar to 0.2.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 17:00:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1739" class=".btn">#1739</a>
+            </td>
+            <td>
+                <b>
+                    Fixes logic for web hook formatter in Faber demo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes parenthesis in web hook url logic for presentation request in Faber demo
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 16:32:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1738" class=".btn">#1738</a>
             </td>
             <td>
@@ -97,32 +149,6 @@ Signed-off-by: Colton Wolkins (Indicio work address) <colton@indicio.tech>
     </table>
     <div class="right-align">
         Created At 2022-04-19 14:33:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1729" class=".btn">#1729</a>
-            </td>
-            <td>
-                <b>
-                    feat: allow querying default mediator from base wallet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 16:57:10 +0000 UTC
     </div>
 </div>
 
