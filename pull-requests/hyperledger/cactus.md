@@ -200,10 +200,12 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependent</span>
             </td>
             <td>
                 Fixes #1651
+
+Depends on https://github.com/hyperledger/cactus/issues/1980
 
 Signed-off-by: aldousalvarez <aldousss.alvarez@gmail.com>
             </td>
@@ -211,90 +213,6 @@ Signed-off-by: aldousalvarez <aldousss.alvarez@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-04-13 06:51:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1970" class=".btn">#1970</a>
-            </td>
-            <td>
-                <b>
-                    docs(readme): add missing inclusive language statement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">Developer_Experience</span>
-            </td>
-            <td>
-                Fixes #1969
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 00:41:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1968" class=".btn">#1968</a>
-            </td>
-            <td>
-                <b>
-                    test(connector-iroha): tested previously skipped test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                All I did was change from `test.skip` to just `test` and it turns out that the test works just fine. So for I've ran the test 20 times and it has passed every single time. This issue is a "fix" to #1957 ?
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 21:45:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1967" class=".btn">#1967</a>
-            </td>
-            <td>
-                <b>
-                    ci: remove nodejs v12 exclusion logic from run custom checks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1961
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 20:48:42 +0000 UTC
     </div>
 </div>
 

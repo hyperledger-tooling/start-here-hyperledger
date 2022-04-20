@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/735" class=".btn">#735</a>
+            </td>
+            <td>
+                <b>
+                    [ui-v0.7.1]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                UI Version: v0.7.1
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 00:57:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/734" class=".btn">#734</a>
+            </td>
+            <td>
+                <b>
+                    Add event for failed token pool creation operations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 00:31:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/733" class=".btn">#733</a>
+            </td>
+            <td>
+                <b>
+                    Use blank type for JSONAny in OpenAPI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Type is unknown, as it may be any valid JSON.
+
+See https://github.com/hyperledger/firefly-sdk-nodejs/issues/18
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-19 18:50:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/731" class=".btn">#731</a>
             </td>
             <td>
@@ -552,60 +632,6 @@ This PR also enables the identity E2E tests for Fabric and Besu based FireFly st
     </table>
     <div class="right-align">
         Created At 2022-04-13 02:39:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/705" class=".btn">#705</a>
-            </td>
-            <td>
-                <b>
-                    Reject Contract API updates with an ID mismatch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #703
-
-More work can be done to reject upfront for a better user experience, but this fixes the important bug that blocks event processing.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 21:14:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/702" class=".btn">#702</a>
-            </td>
-            <td>
-                <b>
-                    Add descriptions for all API routes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds descriptions for all API routes and path parameters. Just like configuration descriptions, the tests will panic if a new route is created that doesn't have a description.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 18:44:26 +0000 UTC
     </div>
 </div>
 
