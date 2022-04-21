@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact-rfcs/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger/transact-rfcs/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Add State Traits V2 RFC
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/transact-rfcs
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
+                This change adds the RFC for new state traits. This RFC defines new versions of the state traits which are more flexible and with more consistent associated types.
 
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+[Rendered](https://github.com/Cargill/transact-rfcs/blob/pschwarz-state-traits-v2/text/0000-state-traits-v2.md)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:53:55 +0000 UTC
+        Created At 2022-04-21 15:33:03 +0000 UTC
     </div>
 </div>
 

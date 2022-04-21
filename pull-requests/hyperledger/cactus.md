@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1986" class=".btn">#1986</a>
+            </td>
+            <td>
+                <b>
+                    Replaced rocketchat link with discord link in README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                New PR to resolve sign off issue of previous PR, should pass all checks now
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-21 17:13:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1985" class=".btn">#1985</a>
             </td>
             <td>

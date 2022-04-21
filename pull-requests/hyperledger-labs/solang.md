@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/760" class=".btn">#760</a>
+            </td>
+            <td>
+                <b>
+                    Do not allow yul suffixes on certain variables
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                While working with YUL code generation, I found out that we were not detecting if the usage of suffixes was correct for Solidity local variables. This PR fixes this bug that I found.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-21 14:30:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/759" class=".btn">#759</a>
             </td>
             <td>
