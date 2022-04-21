@@ -445,40 +445,41 @@ More information about this is available in GitHub documentation: https://docs.g
 For example, making async queries could be done like this:
 
 ```rust
-use iroha_client::{Client, http::{RequestBuilder, Method, Headers}};
-use iroha_data_model::prelude::{FindAllAccounts, Account};
-use std::borrow::Borrow;
 use eyre::Result;
+use iroha_client::{
+    client::{Client, ResponseHandler},
+    http::{RequestBuilder, Response},
+};
+use iroha_data_model::prelude::{Account, FindAllAccounts, Pagination};
 
-struct MyClient(SomeAsyncClient);
+struct YourAsyncRequest;
 
-// Implementing request building
-impl RequestBuilder for MyClient {
-    fn build<U, P, K, V>(
-        method: Method,
-        url: U,
-        body: Vec<u8>,
-        query_params: P,
-        headers: Headers,
-    ) -> Result<Self>
-    where
-        U: AsRef<str>,
-        P: IntoIterator,
-        P::Item: Borrow<(K, V)>,
-        K: AsRef<str>,
-        V: ToString,
-    {
-        let builder = _; // build your underlying client
-
-        Ok(Self(builder))
+impl YourAsyncRequest {
+    async fn send(self) -> Response<Vec<u8>> {
+        // do the stuff
     }
 }
 
-// making query asynchronously!
-async fn make_some_query(client: &Client) -> Result<Vec<Account>> {
-  let (req, resp_handler): (MyClient, _) = client.prepare_query_request(FindAllAccounts::new(), _ /* some pagination*/)?;
-  let resp = req.0.send().await?; // depends on the client itself
-  resp_handler.handle(resp.into())
+// Implement builder for this request
+impl RequestBuilder for YourAsyncRequest {
+    // ...
+}
+
+async fn fetch_accounts(client: &Client) -> Result<Vec<Account>> {
+    // Put `YourAsyncRequest` as a type here
+    // It returns the request and the handler (zero-cost abstraction) for the response
+    let (req, resp_handler) = client.prepare_query_request::<_, YourAsyncRequest>(
+        FindAllAccounts::new(),
+        Pagination::default(),
+    )?;
+
+    // Do what you need to send the request and to get the response
+    let resp = req.send().await;
+
+    // Handle response with the handler and get typed result
+    let accounts = resp_handler.handle(resp)?;
+
+    Ok(accounts.only_output())
 }
 ```
 
@@ -656,56 +657,6 @@ Pagination added to queries, so that SDKs have access to the Pagination struct.
     </table>
     <div class="right-align">
         Created At 2022-04-15 09:50:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2104" class=".btn">#2104</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #1640: Generate `genesis.json` and consolidate generation into one tool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                ### Description of the Change
-
-Can now use `iroha_docs` binary to generate sample `genesis.json`
-
-### Issue
-Closes #1640 
-Relates to #1992
-
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Can now generate and check if the `genesis.json` needs updating. 
-
-### Possible Drawbacks
-
-None
-
-### Usage Examples or Tests *[optional]*
-
-```
-cargo run --bin iroha_docs -- --genesis > /tmp/genesis.json && diff /tmp/genesis.json  configs/peer/genesis.json
-```
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-14 13:27:41 +0000 UTC
     </div>
 </div>
 

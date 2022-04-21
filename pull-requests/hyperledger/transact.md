@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/325" class=".btn">#325</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/326" class=".btn">#326</a>
             </td>
             <td>
                 <b>
-                    InTransaction Back-end implementations for both Postgres and Sqlite 
+                    Experimental state traits v2
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                This change requires a number of changes on trait constraits, removing many Sync, Send and Clone constraints, but does require a new trait, split out from Read, to cover a Read implementation that is sync and send.  This is necessary, as the ContextManager requires Sync/Send Read impls.
+                This PR adds the initial implementation of traits defined in the [RFC for State Traits v2](https://github.com/hyperledger/transact-rfcs/pull/12)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-12 22:30:39 +0000 UTC
+        Created At 2022-04-21 16:53:33 +0000 UTC
     </div>
 </div>
 

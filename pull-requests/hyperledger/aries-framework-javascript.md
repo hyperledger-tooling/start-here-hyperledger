@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/715" class=".btn">#715</a>
+            </td>
+            <td>
+                <b>
+                    fix: close session early if no return route
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a `close` method to all transport session so it can be closed from within the agent. This allows us to close the session early if the message doesn't have return routing enabled. Specifically this resolves the following issue raised:
+
+> Hi Timo, I'm debugging our DIDCOMM protocol engine, and it seems that AFJ doesn't respond immediately after it has received the payload by HTTP POST. Our protocol state-machine keeps waiting for the response, but instead of that, AFJ sends a new HTTP POST request. Naturally, we could handle that, but could you please confirm that this is the case? Does your HTTP handlers block, i.e. process the payload and send the new request before responding?
+
+Although it's not necesarily a wrong doing in AFJ, there is no need to keep the session open for longer than needed. Draft as this is dependant on some changes in this PR: https://github.com/hyperledger/aries-framework-javascript/pull/712
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-21 15:46:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/714" class=".btn">#714</a>
             </td>
             <td>

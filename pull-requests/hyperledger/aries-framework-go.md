@@ -53,7 +53,7 @@ We've also noticed issues with custom message endpoints (but we think this is ou
             </td>
             <td>
                 <b>
-                    refactor: endpoint change from string to struct
+                    refactor: endpoint as object, goal-code with underscore
                 </b>
             </td>
         </tr>
@@ -63,8 +63,11 @@ We've also noticed issues with custom message endpoints (but we think this is ou
             </td>
             <td>
                 Following this DIDcomm V2 spec udpate:
-https://identity.foundation/didcomm-messaging/spec/#did-document-service-endpoint
+https://github.com/decentralized-identity/didcomm-messaging/pull/352
 The endpoint field is now a structure containing a URI, Accept and the RoutingKeys.
+and
+https://github.com/decentralized-identity/didcomm-messaging/pull/363
+goal-code is now goal_code.
 
 Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
 
