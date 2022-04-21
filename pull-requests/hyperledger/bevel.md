@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1923" class=".btn">#1923</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Ansible decoupling  of create/certificates/ambassador role
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: manikanta-darsi <manikanta.darsi@accenture.com>
+
+**Changelog**
+- Add Ansible decoupling  of create/certificates/ambassador role
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @sownak @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1854 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-21 05:38:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1920" class=".btn">#1920</a>
             </td>
             <td>
