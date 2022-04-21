@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
             </td>
             <td>
                 <b>
-                    Migrage from circle ci to github ci
+                    Migrate from circle ci to github ci
                 </b>
             </td>
         </tr>

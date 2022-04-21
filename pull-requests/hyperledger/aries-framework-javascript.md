@@ -93,7 +93,7 @@ Fixes #483
             </td>
             <td>
                 <b>
-                    feat: pickup v2
+                    feat: pickup v2 protocol
                 </b>
             </td>
         </tr>
