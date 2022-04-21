@@ -105,7 +105,7 @@ I did find what I think was one bug where `GetContractAPIs` was using the `contr
             </td>
             <td>
                 <b>
-                    Ensuring Senders Process Batch Pins Only Once Batches are Persisted
+                    Ensuring Senders Do Not Download Their Own Batches in Response to Pin Events
                 </b>
             </td>
         </tr>
@@ -127,6 +127,8 @@ When persisting the batch, we guarantee that the batch is not cached until its s
 ```
 
 so if the aggregator repolls any pins who's batch is not in the cache this should avoid the issue. Other option is instead of repolling, letting the aggregators rewind handle processing the pins.
+
+See https://github.com/hyperledger/firefly/pull/745/files#discussion_r854706368 for a more up-to-date explanation of the cause and fix.
             </td>
         </tr>
     </table>

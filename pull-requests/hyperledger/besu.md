@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3745" class=".btn">#3745</a>
+            </td>
+            <td>
+                <b>
+                    Log full peers list on connect/disconnect
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Log full list of Rlpx Connections and EthPeers (at TRACE level) on peer connect/disconnect (also added rudimentary "score" to PeerReputation - not used anywhere as yet) eg
+```
+2022-04-21 12:21:27.470+10:00 | pool-8-thread-1 | TRACE | RlpxAgent | 2 ConnectionsById {
+LocallyInitiatedRlpxConnection initiatedAt:1650507687470 to 0x3548c87b9920ff16aa4bdcf01c85f25117a29ae1574d759bad48cc9463d8e9f7c3c1d1e9fb0d28e73898951f90e02714abb770fd6d22e90371882a45658800e9 disconnected? false,
+LocallyInitiatedRlpxConnection initiatedAt:1650507687469 to 0xdcb9390953aec5dde1d60dd556c36827053ca9adaefd1b03f531592fea43824bae2919743f620bb8a9b6c2b9a54439771d4f9a74d261b74af7a10c2dd9f13c97 disconnected? false} 
+```
+and ethPeers (different example - note 2 peers with same enode, one is "disconnected")
+```
+2022-04-21 11:17:23.192+10:00 | nioEventLoopGroup-3-2 | TRACE | EthProtocolManager | 2 EthPeers {
+Peer 0xdcb9390953aec5dde1... PeerReputation 100, validated? true, disconnected? false, 
+Peer 0xdcb9390953aec5dde1... PeerReputation 100, validated? true, disconnected? true} 
+```
+See #3665 
+
+Also log peer reputation on disconnect See #3666 eg
+```
+2022-04-21 13:01:33.990+10:00 | nioEventLoopGroup-3-2 | TRACE | EthPeer | handleDisconnect - peer... 0x3548c87b9920ff16aa, PeerReputation 100 
+```
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-21 01:37:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3741" class=".btn">#3741</a>
             </td>
             <td>

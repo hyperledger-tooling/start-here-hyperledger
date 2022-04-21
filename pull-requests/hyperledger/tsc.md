@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/tsc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/tsc/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger/tsc/pull/33" class=".btn">#33</a>
             </td>
             <td>
                 <b>
-                    Add a page on TSC responsibilities
+                    Maintainer and Repository Inactivity Policy
                 </b>
             </td>
         </tr>
@@ -27,12 +27,17 @@ permalink: /pull-requests/hyperledger/tsc
                 
             </td>
             <td>
-                Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
+                Establish policies for when a maintainer stops contributing and when
+repositories stop receiving contributions.
+
+Fixes #32 
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-30 12:04:59 +0000 UTC
+        Created At 2022-04-21 05:26:16 +0000 UTC
     </div>
 </div>
 
