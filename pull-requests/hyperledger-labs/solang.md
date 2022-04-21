@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/759" class=".btn">#759</a>
+            </td>
+            <td>
+                <b>
+                    Fix assigning to array subscript when array element is array
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Dereferencing an array did not make the array writable.
+
+Fixes issue found here:
+
+https://stackoverflow.com/questions/71789212/solang-panicked-at-type-not-allowed
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-21 11:00:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/757" class=".btn">#757</a>
             </td>
             <td>

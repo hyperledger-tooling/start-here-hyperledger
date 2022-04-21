@@ -42,34 +42,3 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1314" class=".btn">#1314</a>
-            </td>
-            <td>
-                <b>
-                    Change monitor intervals from milliseconds to seconds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                For the fabric tests the monitor intervals were set to single
-millisecond values such as 3, 4, 5. This adds a massive overhead to the
-running of the integration tests and isn't needed, so changing them to
-be seconds instead.
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-14 10:06:57 +0000 UTC
-    </div>
-</div>
-

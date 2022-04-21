@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3747" class=".btn">#3747</a>
+            </td>
+            <td>
+                <b>
+                    Treat the nonce as unsigned long
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+
+We have to use a 64 bit value for nonce in order to be compliant with the Ethereum specifiaction. Currently we use `long` which is 64 bit, but normally only 63 bit are used for the value and one bit is used to indicate if the number is positive or negative. Which means that our nonce currently is only 63 bit long.
+
+There are alternative functions that allow to treat `long` as a 64 bit unsigned integer, by simply interpreting all of the 64 bits as value. This PR intends to do that in order to avoid creating instances of classes like `UInt64` whenever we operate with the nonce.
+
+## Fixed Issue(s)
+Example: fixes #3702 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-21 06:59:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3745" class=".btn">#3745</a>
             </td>
             <td>
