@@ -14,6 +14,93 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/748" class=".btn">#748</a>
+            </td>
+            <td>
+                <b>
+                    Format JSON errors from fftokens
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ```
+Parse a JSON error of the form:
+  {"error": "Bad Request", "message": "Field 'x' is required"}
+into a message of the form:
+  "Bad Request: Field 'x' is required"
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-21 01:04:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/747" class=".btn">#747</a>
+            </td>
+            <td>
+                <b>
+                    Add table name to debug on every SQL call
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently we take the first three words of the SQL to try and provide a debug statement that's useful, without printing the massive bundle of SQL. However, that is insufficient as for something like `SELECT` it just contains the first two fields from the select.
+
+This PR introduces an explicit table name being passed on every call and put in the logs.
+
+I did find what I think was one bug where `GetContractAPIs` was using the `contract_interfaces` table
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 21:44:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/746" class=".btn">#746</a>
+            </td>
+            <td>
+                <b>
+                    Resolve pool activation operations more cleanly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #743
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 20:26:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/745" class=".btn">#745</a>
             </td>
             <td>
@@ -612,37 +699,6 @@ A live preview of these new docs can be viewed at: https://nguyer.github.io/fire
     </table>
     <div class="right-align">
         Created At 2022-04-14 20:19:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/716" class=".btn">#716</a>
-            </td>
-            <td>
-                <b>
-                    DID rewind
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #692 
-In PR chain with #707
-
-This PR adds a new reason for a rewind - to go back and confirm messages that were previously parked because the author was not known.
-
-We cannot assure that the identity verification for an identity, will be processed by the aggregator before messages sent by that identity, or child identities registered under that identity. Because they are all sent on different topics.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-13 19:00:26 +0000 UTC
     </div>
 </div>
 
