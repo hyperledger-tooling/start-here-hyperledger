@@ -133,7 +133,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [fix] #1716: Rescue the consensus failure when `f` decrements to 0
+                    [fix] #1716: Fix consensus failure with f=0 cases
                 </b>
             </td>
         </tr>
@@ -149,6 +149,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
   - ~~Give an mitigation by exposing the number of the last view changes as the network sanity indicator~~
 
 #### Minor changes
+- As a bonus, expose the number of the view changes in the current round as the network sanity indicator
 - Refactor `kura_inspector` with `clap` version bump
 
 ### Issue

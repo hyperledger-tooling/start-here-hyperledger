@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/184" class=".btn">#184</a>
+            </td>
+            <td>
+                <b>
+                    fix merge logic - missing channel if the last node didnt have it
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+
+- Bug fix
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-20 19:37:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/183" class=".btn">#183</a>
             </td>
             <td>
@@ -66,6 +95,7 @@ Query all nodes for the list of channels so that the Orderer Details shows conso
 
 #### Description
 - this will fix the product label text on the login panel after resetting a password.
+- instead of selecting from different label strings by waiting for an API response, we will just replace the string by editing the `messages.json` file when we build the front end
 
 
             </td>

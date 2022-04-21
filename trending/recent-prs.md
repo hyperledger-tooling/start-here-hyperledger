@@ -1,13 +1,13 @@
 
-[292](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/292) Fix the text colour in notifications
+[748](https://github.com/hyperledger/firefly/pull/748) Format JSON errors from fftokens
 
-[183](https://github.com/hyperledger-labs/fabric-operations-console/pull/183) Ask all nodes for aggregated channel list
+[1389](https://github.com/hyperledger/grid/pull/1389) Update protoc to 3.20.0
 
-[3343](https://github.com/hyperledger/fabric/pull/3343) Add ed25519 support
+[747](https://github.com/hyperledger/firefly/pull/747) Add table name to debug on every SQL call
 
-[182](https://github.com/hyperledger-labs/fabric-operations-console/pull/182) remove product label text selection logic via api
+[3224](https://github.com/hyperledger/aries-framework-go/pull/3224) Port Aries Agent to AWS Lambda
 
-[745](https://github.com/hyperledger/firefly/pull/745) Ensuring Senders Process Batch Pins Only Once Batches are Persisted
+[294](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/294) Apply new theme mechanics to offers
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
