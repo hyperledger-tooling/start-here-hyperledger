@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1925" class=".btn">#1925</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Change or add ImagePullPolicy to be IfNotPresent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+
+- Update node_constellacion, node_quorum, node_quorum_member, node_quorum_validator and node_tessera
+ charts. Added or changed field, imagePullPolicy: IfNotPresent
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar
+@jagpreetsinghsasan
+ 
+
+**Linked issue**
+#1883 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-22 11:20:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1924" class=".btn">#1924</a>
             </td>
             <td>

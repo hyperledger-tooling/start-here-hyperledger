@@ -317,33 +317,3 @@ Better suggestions on resolving ambiguity with `type()` builtin are welcome 😄
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/745" class=".btn">#745</a>
-            </td>
-            <td>
-                <b>
-                    Fix lexing of /**/
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This type of comment was not recognised by the lexer.
-
-See #744.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-15 09:09:08 +0000 UTC
-    </div>
-</div>
-
