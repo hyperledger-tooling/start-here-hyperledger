@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/36" class=".btn">#36</a>
-            </td>
-            <td>
-                <b>
-                    fix for ledger roles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-14 21:40:34 +0000 UTC
-    </div>
-</div>
-
