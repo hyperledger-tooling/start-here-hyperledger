@@ -1,13 +1,13 @@
 
-[3349](https://github.com/hyperledger/fabric/pull/3349) Additional TLS troubleshooting information (backport #3346)
+[672](https://github.com/hyperledger/fabric-docs-i18n/pull/672) [it_IT] Rewording in Introduction
 
-[3348](https://github.com/hyperledger/fabric/pull/3348) Additional TLS troubleshooting information (backport #3346)
+[671](https://github.com/hyperledger/fabric-docs-i18n/pull/671) Rename fa_IR
 
-[3347](https://github.com/hyperledger/fabric/pull/3347) Additional TLS troubleshooting information (backport #3346)
+[670](https://github.com/hyperledger/fabric-docs-i18n/pull/670) Update Makefile
 
-[3226](https://github.com/hyperledger/aries-framework-go/pull/3226) fix: vc-revocation-list-2021 context
+[669](https://github.com/hyperledger/fabric-docs-i18n/pull/669) [it_IT] fix glossary italic
 
-[667](https://github.com/hyperledger/fabric-docs-i18n/pull/667) Update README.md
+[668](https://github.com/hyperledger/fabric-docs-i18n/pull/668) [it_IT] translate Glossary, Anchor Peer partial
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

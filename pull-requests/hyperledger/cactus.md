@@ -18,16 +18,22 @@ permalink: /pull-requests/hyperledger/cactus
             </td>
             <td>
                 <b>
-                    Replaced rocketchat link with discord link in README
+                    docs(readme): replaced rocketchat link with discord link in README
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
-                New PR to resolve sign off issue of previous PR, should pass all checks now
+                Since the migration from RocketChat to Discord we had our chat platform
+link in the readme outdated and basically dead. This change remedies that.
+
+Fixes: #1937
+
+Signed-off-by: Emerson Shoichet-Bartus <emersonfieldstone@gmail.com>
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
@@ -50,7 +56,7 @@ permalink: /pull-requests/hyperledger/cactus
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
+                <span class="chip">dependencies</span><span class="chip">Security</span><span class="chip">javascript</span>
             </td>
             <td>
                 Bumps [convict](https://github.com/mozilla/node-convict) from 6.0.0 to 6.2.2.
@@ -271,86 +277,6 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
     </table>
     <div class="right-align">
         Created At 2022-04-18 23:20:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1977" class=".btn">#1977</a>
-            </td>
-            <td>
-                <b>
-                    test(connector-fabric-socketio): add functional test, bug fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added functional jest test `fabric-socketio-connector.test` that can be run during CI process. It checks evaluate/sending transactions and monitoring for new events. Connector had to be refactored to be testable, tests also discovered some bugs that had to be fixed in order to pass.
-
-### SocketIOApiClient refactors:
-- Added option for supplying `validatorKeyValue` instead of `validatorKeyPath`.
-- JWT validation function works with key value now (instead of reading the key).
-- Validator can now return messages that are not encrypted (it throwed error previously).
-- Adjusted unit tests.
-
-### connector-fabric-socketio refactors:
-- Connector can be run both as a standalone app and loaded as a module `www.js`. Caller can use exported `startFabricSocketIOConnector` function to run the connector. Configuration must be supplied in file or in env variable like it's done in functional test.
-- All cryptographic data (keys, certificates, etc…) can now be supplied as a value (previously it supported only path to a file).
-- `sendSignedTransaction` can now be called synchronously (it had wrong response format before).
-- Fixed a bug introduced during my last changes in this component, which caused fabric-client session to be disconnected but still reused by follow-up requests. I didn't know that gateway disconnects client it operates on.
-- Increased JWT expiration to 15 minutes to prevent constant JWT expiration error (I'm pretty sure 15 minutes is still secure period).
-- Minor improvements (logging, formatting, etc…)
-
-### fabric-test-ledger-v1 changes:
-- Added `adminCredentials()` to have programatic access to admin credentials on currently used ledger
- (unlikely, but can change in the future).
-
-Depends on: https://github.com/hyperledger/cactus/pull/1975
-
-Closes: https://github.com/hyperledger/cactus/issues/1976
-
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-15 15:35:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1975" class=".btn">#1975</a>
-            </td>
-            <td>
-                <b>
-                    refactor(connector-fabric-socketio): fix strict flag warnings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                cactus-plugin-ledger-connector-fabric-socketio will compile with global strict flag.
-
-Related issue: #1671
-
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-15 15:26:23 +0000 UTC
     </div>
 </div>
 
