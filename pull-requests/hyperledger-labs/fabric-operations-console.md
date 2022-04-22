@@ -14,11 +14,123 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/189" class=".btn">#189</a>
+            </td>
+            <td>
+                <b>
+                    update release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+Updated release notes
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-22 14:19:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/188" class=".btn">#188</a>
+            </td>
+            <td>
+                <b>
+                    change version to fabric version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+More consistent text...
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-22 13:29:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/187" class=".btn">#187</a>
+            </td>
+            <td>
+                <b>
+                    Apollo test case fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Test update
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+1 - Updated login feature file to login with automation user set in parameter
+2 - Updated scenario to select Fabric Version with matching text instead of exact matching the version
+3 - Added new step definition for above two points
+4 - Added logging statement in login functions for pipeline execution troubleshooting for prod
+5 - Added automation default password parameter in protractor.conf file
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-22 13:24:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/186" class=".btn">#186</a>
             </td>
             <td>
                 <b>
-                    allow editing the "ledger" fabric yml config field
+                    allow editing the "ledger" fabric yml config_override field
                 </b>
             </td>
         </tr>

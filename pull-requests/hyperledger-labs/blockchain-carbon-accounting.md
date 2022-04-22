@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/531" class=".btn">#531</a>
+            </td>
+            <td>
+                <b>
+                    get code up to date
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-22 14:26:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/529" class=".btn">#529</a>
             </td>
             <td>
@@ -86,32 +112,6 @@ Create queue of emissions audits for issuance
     </table>
     <div class="right-align">
         Created At 2022-04-18 16:06:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/525" class=".btn">#525</a>
-            </td>
-            <td>
-                <b>
-                    get code up to date
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-15 16:14:57 +0000 UTC
     </div>
 </div>
 
