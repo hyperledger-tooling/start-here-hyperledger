@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3750" class=".btn">#3750</a>
+            </td>
+            <td>
+                <b>
+                    Ensure port clash is reported when engine-rpc-http-port clashes with default websocket port 8551
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/besu/issues/3721
+
+Unit tests this will fail due to a known issue with MergeConfigOptions.setMergeEnabled
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-22 09:16:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3749" class=".btn">#3749</a>
             </td>
             <td>
