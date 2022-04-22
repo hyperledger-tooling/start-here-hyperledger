@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/752" class=".btn">#752</a>
+            </td>
+            <td>
+                <b>
+                    Remove server-side HTML sanitization of error messages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Errors may be displayed or used in many contexts. If they are displayed in HTML,
+it should be the responsibility of the HTML client to sanitize them. Doing the
+sanitization server-side makes the messages less readable in all non-HTML
+contexts.
+
+I want to be conscious about XSS and security, but I'd say that doing
+an HTML-escaping pass on these errors before writing them to the database
+is putting the processing in the wrong place. Characters such as `<` and `"`
+become much less readable when they're converted to HTML entities.
+
+And arguably this encourages bad design on an HTML client - as the client page would have
+to pipe the values into the HTML _without_ sanitizing them client-side, in order
+to have the HTML entities render back into readable characters.
+
+One good discussion of this (anti-)pattern:
+https://security.stackexchange.com/questions/42498/which-is-the-best-way-to-sanitize-user-input-in-php/42521#42521
+
+Also see https://github.com/hyperledger/firefly/issues/753
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-21 19:07:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/751" class=".btn">#751</a>
+            </td>
+            <td>
+                <b>
+                    Add first step of FireFly Transaction Manager support - separate URL for submit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-21 18:59:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/750" class=".btn">#750</a>
             </td>
             <td>
@@ -92,6 +161,8 @@ Parse a JSON error of the form:
 into a message of the form:
   "Bad Request: Field 'x' is required"
 ```
+
+See https://github.com/hyperledger/firefly/issues/753
             </td>
         </tr>
     </table>
@@ -245,33 +316,6 @@ See https://github.com/hyperledger/firefly/pull/745/files#discussion_r854706368 
     </table>
     <div class="right-align">
         Created At 2022-04-20 12:54:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/740" class=".btn">#740</a>
-            </td>
-            <td>
-                <b>
-                    Add first step of FireFly Transaction Manager support - separate URL for submit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is the first step, to allow a URL to be specified, and use it only for `SendTransaction`.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 12:18:18 +0000 UTC
     </div>
 </div>
 
@@ -734,32 +778,6 @@ A live preview of these new docs can be viewed at: https://nguyer.github.io/fire
     </table>
     <div class="right-align">
         Created At 2022-04-15 17:17:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/717" class=".btn">#717</a>
-            </td>
-            <td>
-                <b>
-                    Rename contract listener "protocol_id" to "backend_id"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This doesn't align with other "protocol_id" fields in the system, so it should have a different name.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-14 20:19:14 +0000 UTC
     </div>
 </div>
 

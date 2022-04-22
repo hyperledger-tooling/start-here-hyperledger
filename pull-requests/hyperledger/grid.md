@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/grid
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
+                <span class="chip">main</span>
             </td>
             <td>
                 This adds a v2 to the `submit` module which contains structs used to deserialize REST API JSON requests into smart contract actions. Mainly, this adds the infrastructure needed to create Batches based on Grid's smart contracts.
