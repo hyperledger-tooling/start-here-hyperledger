@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/720" class=".btn">#720</a>
+            </td>
+            <td>
+                <b>
+                    feat: Updated initPublicDid method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR reuses the public did instead of generating a new every time the wallet is opened.
+
+Signed-off-by: Dinkar Jain <62498436+dinkar-jain@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-23 16:55:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/718" class=".btn">#718</a>
             </td>
             <td>
