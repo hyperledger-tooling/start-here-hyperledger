@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/755" class=".btn">#755</a>
+            </td>
+            <td>
+                <b>
+                    Firefly E2E Test updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Refactor tests to specify a Firefly namespace to run tests against 
+- Create namespace test suite to use without identity tests 
+- Fix string comparison in objectCheck
+- Remove TestE2EContractEvents() test 
+- Set pool name to random int instead of using len - len causes issues when completing more than 25 test runs on the same stack and will always make the poolname pool26
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-22 20:00:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/752" class=".btn">#752</a>
             </td>
             <td>
@@ -665,37 +695,6 @@ without a "data" argument, etc).
     </table>
     <div class="right-align">
         Created At 2022-04-18 17:12:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/722" class=".btn">#722</a>
-            </td>
-            <td>
-                <b>
-                    Honor "confirm" parameter for blockchain invoke
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ~~In a PR chain with #720~~ (rebased now)
-
-Summary of the changes:
-* The `confirm` parameter for `/invoke` will now be honored (previously it was ignored)
-* The `fftypes.ContractCallResponse` type is removed, and `/invoke` requests now just return `fftypes.Operation`
-* Two new event types are added - `EventTypeBlockchainInvokeOpSucceeded` and `EventTypeBlockchainInvokeOpFailed` - which reference an operation ID (open to thoughts on whether `topic` and `correlator` should be filled in)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-15 18:37:35 +0000 UTC
     </div>
 </div>
 

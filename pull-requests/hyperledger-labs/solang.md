@@ -315,31 +315,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/747" class=".btn">#747</a>
-            </td>
-            <td>
-                <b>
-                    feat(parser): user defined value types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves https://github.com/hyperledger-labs/solang/issues/746
-
-Better suggestions on resolving ambiguity with `type()` builtin are welcome 😄 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-15 21:58:29 +0000 UTC
-    </div>
-</div>
-

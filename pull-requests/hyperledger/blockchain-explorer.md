@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/289" class=".btn">#289</a>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/292" class=".btn">#292</a>
             </td>
             <td>
                 <b>
-                    Bump minimist from 1.2.5 to 1.2.6 in /client
+                    Bump nconf from 0.11.3 to 0.11.4
                 </b>
             </td>
         </tr>
@@ -27,21 +27,32 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [minimist](https://github.com/substack/minimist) from 1.2.5 to 1.2.6.
+                Bumps [nconf](https://github.com/flatiron/nconf) from 0.11.3 to 0.11.4.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/flatiron/nconf/releases">nconf's releases</a>.</em></p>
+<blockquote>
+<h2>v0.11.4</h2>
+<p>Fixes:</p>
+<ul>
+<li>Prevent improper usage of the memory store from polluting the object prototype (<a href="https://github-redirect.dependabot.com/flatiron/nconf/issues/397">#397</a>) (<a href="https://github.com/mhamann"><code>@​mhamann</code></a>)</li>
+</ul>
+</blockquote>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/substack/minimist/commit/7efb22a518b53b06f5b02a1038a88bd6290c2846"><code>7efb22a</code></a> 1.2.6</li>
-<li><a href="https://github.com/substack/minimist/commit/ef88b9325f77b5ee643ccfc97e2ebda577e4c4e2"><code>ef88b93</code></a> security notice for additional prototype pollution issue</li>
-<li><a href="https://github.com/substack/minimist/commit/c2b981977fa834b223b408cfb860f933c9811e4d"><code>c2b9819</code></a> isConstructorOrProto adapted from PR</li>
-<li><a href="https://github.com/substack/minimist/commit/bc8ecee43875261f4f17eb20b1243d3ed15e70eb"><code>bc8ecee</code></a> test from prototype pollution PR</li>
-<li>See full diff in <a href="https://github.com/substack/minimist/compare/1.2.5...1.2.6">compare view</a></li>
+<li><a href="https://github.com/indexzero/nconf/commit/f25feb2913fc21a5d80039f6213c2d9ae906ec29"><code>f25feb2</code></a> 0.11.4</li>
+<li><a href="https://github.com/indexzero/nconf/commit/2e9e4538a8b9c33dabdafd8ec1dc6064fac9d070"><code>2e9e453</code></a> chore: disable package-lock, since this is a lib</li>
+<li><a href="https://github.com/indexzero/nconf/commit/7aa94020e493eca482239492d0126d63b1ce2630"><code>7aa9402</code></a> chore: update node version test matrix</li>
+<li><a href="https://github.com/indexzero/nconf/commit/feaba562b812b21215897f71b0c8b3bf39cf8d7d"><code>feaba56</code></a> fix(security): prevent prototype pollution in memory store (<a href="https://github-redirect.dependabot.com/flatiron/nconf/issues/397">#397</a>)</li>
+<li>See full diff in <a href="https://github.com/flatiron/nconf/compare/v0.11.3...v0.11.4">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=minimist&package-manager=npm_and_yarn&previous-version=1.2.5&new-version=1.2.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=nconf&package-manager=npm_and_yarn&previous-version=0.11.3&new-version=0.11.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -77,7 +88,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-09 06:22:11 +0000 UTC
+        Created At 2022-04-22 21:19:36 +0000 UTC
     </div>
 </div>
 
