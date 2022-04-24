@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/475" class=".btn">#475</a>
+            </td>
+            <td>
+                <b>
+                    Fix json log formatter, fix timestamp format
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add missing quotes around `message` field for json log formatter
+- Change minute/second separator from `.` to `:`
+- Add nanoseconds to timestamp
+- Colorize log level by default
+- Add `text_no_color` formatter which logs text without colorization
+
+Example JSON:
+```
+{"timestamp":"2022-04-24 18:11:03.320649000","level":"TRACE","filename":"aries_vcx/src/settings.rs","message":"clear_config >>>"}
+```
+Example text:
+```
+2022-04-24 18:16.50.179280000|TRACE|aries_vcx::settings           |          aries_vcx/src/settings.rs:166 | clear_config >>>
+```
+
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-24 16:14:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/474" class=".btn">#474</a>
             </td>
             <td>
