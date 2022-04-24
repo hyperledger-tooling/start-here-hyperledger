@@ -283,35 +283,3 @@ This is one of the bugs found in issue #744.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/748" class=".btn">#748</a>
-            </td>
-            <td>
-                <b>
-                    Implement type definition syntax
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Ethereum Solidity introduces a new syntax for user defined types, see:
-
-https://docs.soliditylang.org/en/v0.8.13/types.html
-
-Documentation for the syntax is in the documentation of this commit, and not repeated here.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-17 09:26:17 +0000 UTC
-    </div>
-</div>
-
