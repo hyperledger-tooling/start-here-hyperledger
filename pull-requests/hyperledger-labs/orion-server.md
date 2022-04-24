@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/380" class=".btn">#380</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/382" class=".btn">#382</a>
             </td>
             <td>
                 <b>
-                    fix catchup bug
+                    Fixing tls certificates generation script and local docker multiarch
                 </b>
             </td>
         </tr>
@@ -27,38 +27,13 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
+                Signed-off-by: Gennady Laventman <gennady@il.ibm.com>
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-07 09:31:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/378" class=".btn">#378</a>
-            </td>
-            <td>
-                <b>
-                    data tx integration test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-07 06:32:14 +0000 UTC
+        Created At 2022-04-24 12:22:24 +0000 UTC
     </div>
 </div>
 
