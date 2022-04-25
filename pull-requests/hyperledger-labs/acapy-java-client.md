@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/43" class=".btn">#43</a>
+            </td>
+            <td>
+                <b>
+                    [#42] Add low level HTTP request tracing to the client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Thomas Diesler <tdiesler@redhat.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 08:39:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/41" class=".btn">#41</a>
+            </td>
+            <td>
+                <b>
+                    formatter changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                doing this is an own branch to keep the 0.7.4 one clean
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 07:53:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/40" class=".btn">#40</a>
             </td>
             <td>

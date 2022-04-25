@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1321" class=".btn">#1321</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1323" class=".btn">#1323</a>
             </td>
             <td>
                 <b>
-                    [Doc] Address interval examples in docs
+                    correct interval usage in fabric-tests
                 </b>
             </td>
         </tr>
@@ -27,17 +27,40 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                The interval examples don't match the text which states in seconds.
-
-closes #1320
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-23 12:07:19 +0000 UTC
+        Created At 2022-04-25 12:19:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1322" class=".btn">#1322</a>
+            </td>
+            <td>
+                <b>
+                    [Doc] Clarify and fix monitor intervals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 12:13:45 +0000 UTC
     </div>
 </div>
 

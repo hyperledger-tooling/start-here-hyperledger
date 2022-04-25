@@ -352,7 +352,7 @@ Fixes https://github.com/hyperledger/fabric/issues/3320
 
 #### Description
 
-Added a new arg to pass in machine architecture details
+Updated multistage peer dockerfile with ccbuilder binaries location. It becomes 2 step process to copy the binaries Step 1. copy the files into temporary location, Step 2. copy the files into correction location into docker image
 
 #### Related issues
 
@@ -365,91 +365,6 @@ Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-04-18 13:17:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3335" class=".btn">#3335</a>
-            </td>
-            <td>
-                <b>
-                    Handle empty policies when traversing the policy tree in discovery policy analysis (backport #3334)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3334 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-18 10:17:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3334" class=".btn">#3334</a>
-            </td>
-            <td>
-                <b>
-                    Handle empty policies when traversing the policy tree in discovery policy analysis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Discovery policy analysis engine assumed that the inner policy passed to it is of the correct type and cannot be empty.
-Added a nil check and a test.
-
-Change-Id: Ia6eaf0211d8d9f4b7f2881547934dc32c725a458
-Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-18 08:31:01 +0000 UTC
     </div>
 </div>
 
