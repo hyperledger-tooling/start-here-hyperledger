@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3230" class=".btn">#3230</a>
+            </td>
+            <td>
+                <b>
+                    feat: In-memory store "ping" method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The method always returns nil. It's there just to allow it to implement a "Pinger" sort of interface which may be defined somewhere.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 17:51:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3229" class=".btn">#3229</a>
+            </td>
+            <td>
+                <b>
+                    externalize agent parameters + router
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Allow External Usage of `agentParameters` and `mux.Router`
+
+**Description:**
+To allow for another server framework than golang's `http`, we need to externalize the creation of `mux.NewRouter()`.
+
+**Summary:**
+Related: #3224 
+
+When @borancar and I first authored #3224, we copied and pasted `start.go` and named it `aires.go` to gain access to `mux.NewRouter()`, so we could plug it into another server framework, as Lambda does not use golang's `http` package, however it is compatible with gorillamux.
+
+So this PR allows us to import `startcmd` and leverage a couple new functions:
+ - `NewAgentParameters()`
+    - `AgentParameters` is now an exported type
+    - `AgentParameters` has a new method: `NewRouter()`
+ - nil-safety on helper functions for `cobra.Command`
+   - Our lambda integration will use environment variables exclusively, so we pass `nil` when constructing `AgentParameters`
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 17:46:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3227" class=".btn">#3227</a>
             </td>
             <td>

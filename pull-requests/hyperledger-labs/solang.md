@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/763" class=".btn">#763</a>
+            </td>
+            <td>
+                <b>
+                    Remove Expression::FunctionArg from ast
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This expression type does not belong in the ast. It is used in the
+implicit accessor functions of public storage variables. Rather than
+using a codegen-like expression, create a proper symbol table entries
+for the arguments and retrieve them.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 16:24:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/761" class=".btn">#761</a>
             </td>
             <td>

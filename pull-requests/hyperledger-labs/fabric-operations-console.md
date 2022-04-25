@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/192" class=".btn">#192</a>
+            </td>
+            <td>
+                <b>
+                    Fix signature auth - channel creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+ - Fixed an issue with a missing msp id that fails to build a proper signature authorize field. Happens during channel creation.
+ - Adds some server side logs to help identify this issue
+ - Adds case sensitive flag to fabric gateway config-override validation (unrelated to channel issue)
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 17:44:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/191" class=".btn">#191</a>
+            </td>
+            <td>
+                <b>
+                    fix create channel button
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+One of the wizard changes for the new features was breaking the normal create channel button.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 13:33:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/189" class=".btn">#189</a>
             </td>
             <td>
@@ -289,42 +363,6 @@ Query all nodes for the list of channels so that the Orderer Details shows conso
     </table>
     <div class="right-align">
         Created At 2022-04-20 18:04:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/181" class=".btn">#181</a>
-            </td>
-            <td>
-                <b>
-                    Bump node v12 to v16
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-
-#### Description
-Moving from node v12 to node v16
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-18 18:23:36 +0000 UTC
     </div>
 </div>
 

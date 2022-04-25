@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3759" class=".btn">#3759</a>
+            </td>
+            <td>
+                <b>
+                    Add errorprone to prevent Log4j direct usage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This pull request contains some leftovers from #3285 and, most importantly, adds an _error prone_ check for preventing Log4j usage.
+Most of this commits were part of #3425 but they mostly abstract stuff from Log4j and are not Logback specific so I thought it would make sense to introduce them here as well.
+
+Here is the full list of changes:
+- [HEAD~6](https://github.com/diega/besu/commit/logging_tweaks~6): replace Log4j2 logger with Slf4j added since #3285
+- [HEAD~5](https://github.com/diega/besu/commit/logging_tweaks~5): renames leftover method from #3285
+- [HEAD~4](https://github.com/diega/besu/commit/logging_tweaks~4): removes Log4j2 usage dependencies relying on the `Log4j2ConfiguratorUtil` (this is for simplifying the last diff)
+- [HEAD~3](https://github.com/diega/besu/commit/logging_tweaks~3): replace Log4j2 `ThreadContext` usage with Slf4j's `MDC`
+- [HEAD~2](https://github.com/diega/besu/commit/logging_tweaks~2): this is to explicitly check allowed levels instead of depending on Log4j enum options
+- [HEAD~1](https://github.com/diega/besu/commit/logging_tweaks~1): for the same reason than before, the level values are filtered by the received string 
+- [HEAD](https://github.com/diega/besu/commit/logging_tweaks): adds error prone check for preventing `o.a.l.log4j.LogManager` usages
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 15:48:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3757" class=".btn">#3757</a>
             </td>
             <td>

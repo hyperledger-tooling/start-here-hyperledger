@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3354" class=".btn">#3354</a>
+            </td>
+            <td>
+                <b>
+                    Update scripts to latest fabric and fabric-ca release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+#### Type of change
+
+- Bug fix
+
+
+#### Description
+Update the bootstrap scripts to the latest available fabric/fabric-ca
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 15:54:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3349" class=".btn">#3349</a>
             </td>
             <td>
@@ -289,82 +324,6 @@ Also, copy release note text into the release specific /release_notes file.
     </table>
     <div class="right-align">
         Created At 2022-04-20 18:08:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3339" class=".btn">#3339</a>
-            </td>
-            <td>
-                <b>
-                    Log warning for a non existent block delivery failure
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Improve error message when delivery service is asked for a block that doesn't yet exist on the node to make it more clear for users or support personnel.
-
-#### Related issues
-Fixes https://github.com/hyperledger/fabric/issues/3320
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-18 13:46:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3338" class=".btn">#3338</a>
-            </td>
-            <td>
-                <b>
-                    Updated dockerfile with new build arg
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Bug fix
-
-#### Description
-
-Updated multistage peer dockerfile with ccbuilder binaries location. It becomes 2 step process to copy the binaries Step 1. copy the files into temporary location, Step 2. copy the files into correction location into docker image
-
-#### Related issues
-
-#3337 
-
-
-Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-18 13:17:06 +0000 UTC
     </div>
 </div>
 

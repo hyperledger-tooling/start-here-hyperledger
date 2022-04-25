@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/187" class=".btn">#187</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/191" class=".btn">#191</a>
             </td>
             <td>
                 <b>
-                    Add support for private asset benchmarks to the go fixed-asset chaincode
+                    Chaincode fixes: added collections config to support private data + replaced console.err/error with console.log 
                 </b>
             </td>
         </tr>
@@ -27,20 +27,14 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                This adds missing methods so that the
+                - Closes #190  
 
-- create-private-asset.yaml
-- get-private-asset.yaml
-
-Can now be used against the golang contract-api based fixed-asset
-chaincode
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
+- Closes #185 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-11 15:34:10 +0000 UTC
+        Created At 2022-04-25 14:32:32 +0000 UTC
     </div>
 </div>
 
