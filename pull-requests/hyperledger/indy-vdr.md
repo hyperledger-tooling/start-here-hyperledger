@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/90" class=".btn">#90</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/91" class=".btn">#91</a>
             </td>
             <td>
                 <b>
-                    fix readme for indy-vdr-proxy
+                    feat(js): React Native
                 </b>
             </td>
         </tr>
@@ -27,14 +27,18 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                Fix of the doc to start indy vdr proxy with multiple ledgers flag.
+                Builds on top of #88 
 
-Signed-off-by: Dominic Wörner <dom.woe@gmail.com>
+- React Native wrapper implementation
+- Uses TurboModules for improved performance and sync behaviour
+- Has not been used in production yet, but it will be integrated and tested in AFJ
+
+@TimoGlastra Do you think it is smart if you review the TypeScript side?
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-12 16:31:51 +0000 UTC
+        Created At 2022-04-25 09:36:23 +0000 UTC
     </div>
 </div>
 

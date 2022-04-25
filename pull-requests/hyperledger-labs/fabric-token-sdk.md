@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/216" class=".btn">#216</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/219" class=".btn">#219</a>
             </td>
             <td>
                 <b>
-                    translator: remove metadata #189
+                    sample generate material fix
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                not supported by fabric
+                - fix topology TMS Id
+- FSC mod update
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-09 13:35:09 +0000 UTC
+        Created At 2022-04-25 06:53:36 +0000 UTC
     </div>
 </div>
 

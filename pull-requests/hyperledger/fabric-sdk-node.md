@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                Updated node engine to include version 14.14.0 as fabric-client needs `klaw-4.0.1 ` package which has a node engine dependency of >=14.14.0
+                Added npmrc file to detect version compatibility 
             </td>
         </tr>
     </table>
