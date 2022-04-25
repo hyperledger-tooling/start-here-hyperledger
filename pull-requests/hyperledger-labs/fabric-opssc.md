@@ -27,7 +27,18 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [nconf](https://github.com/flatiron/nconf) from 0.11.3 to 0.11.4.
+                [//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️ 
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [nconf](https://github.com/flatiron/nconf) from 0.11.3 to 0.11.4.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/flatiron/nconf/releases">nconf's releases</a>.</em></p>
