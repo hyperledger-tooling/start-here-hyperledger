@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1988" class=".btn">#1988</a>
+            </td>
+            <td>
+                <b>
+                    test: jestify jwt socketio endpoint authorization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                packages/cactus-cmd-api-server/src/test/typescript/integration/jwt-socketio-endpoint-authorization.test.ts; WIP
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 12:45:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1986" class=".btn">#1986</a>
             </td>
             <td>

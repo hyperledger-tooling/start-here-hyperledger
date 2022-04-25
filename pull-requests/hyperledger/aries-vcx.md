@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    Fix json log formatter, fix timestamp format
+                    Remove json log formatter, add color format, fix timestamp
                 </b>
             </td>
         </tr>
@@ -27,20 +27,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                - Add missing quotes around `message` field for json log formatter
-- Change minute/second separator from `.` to `:`
+                - Change minute/second separator from `.` to `:`
 - Add nanoseconds to timestamp
 - Colorize log level by default
 - Add `text_no_color` formatter which logs text without colorization
-
-Example JSON:
-```
-{"timestamp":"2022-04-24 18:11:03.320649000","level":"TRACE","filename":"aries_vcx/src/settings.rs","message":"clear_config >>>"}
-```
-Example text:
-```
-2022-04-24 18:16.50.179280000|TRACE|aries_vcx::settings           |          aries_vcx/src/settings.rs:166 | clear_config >>>
-```
+- Remove support for json log formatter - it wouldn't produce valid json logs if they contain non-ascii characters
 
 
 Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
@@ -94,7 +85,7 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">wrappers</span>
             </td>
             <td>
                 Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>

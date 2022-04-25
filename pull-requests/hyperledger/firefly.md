@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/756" class=".btn">#756</a>
+            </td>
+            <td>
+                <b>
+                    Gauge Metrics for Network Identities
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a background loop to the `networkmap` manager which periodically fetches all identities, orgs, and nodes and then updates gauges to reflect their current counts.
+
+The intent is that a network operator aggregating metrics could observe the number of identities / nodes / orgs according to each org / node and ensure they are in-sync to detect any issues. Failure to fetch the identities results in the gauge returning `-1`.
+
+This is different from our other counters which are concerned with reflecting the number of times the FireFly process itself has processed a certain event or performed a certain operation. These gauges are meant to provide a Prometheus-native way to observe some of the database state.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 14:15:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/755" class=".btn">#755</a>
             </td>
             <td>
@@ -636,65 +666,6 @@ This does not give any way to set `decimals` from FireFly when creating a pool, 
     </table>
     <div class="right-align">
         Created At 2022-04-18 19:03:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/725" class=".btn">#725</a>
-            </td>
-            <td>
-                <b>
-                    Add "tx.blockchainId" to BlockchainEvent type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Every blockchain event will have a blockchain TX ID (such as an Ethereum
-transaction hash), whether or not it has a FireFly transaction. This is
-useful to record as another indexed field on the table.
-
-It will also allow manually correlating blockchain events to FireFly transactions
-in the case that the blockchain doesn't pass through enough data to do the
-correlation based on FireFly IDs (such as custom smart contracts, ERC20 transfers
-without a "data" argument, etc).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-18 17:28:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/724" class=".btn">#724</a>
-            </td>
-            <td>
-                <b>
-                    Parse input params for /query endpoints in ffi2swagger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #718
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-18 17:12:41 +0000 UTC
     </div>
 </div>
 
