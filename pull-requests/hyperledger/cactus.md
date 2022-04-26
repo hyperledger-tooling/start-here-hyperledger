@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1992" class=".btn">#1992</a>
+            </td>
+            <td>
+                <b>
+                    ci(connector-besu): include endpoints in fuzzer tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Commit to be reviewed
+
+ci(connector-besu): include endpoints in fuzzer tests 
+
+
+    Primary Changes
+    --------------
+    1. Updated the git workflow to include the besu connector plugin endpoint
+    2. Added the task to run Besu all-in-one image
+       as a valid ws endpoint is required for connector to initialize
+    3. Updated the besu connector plugin README.md for minor fixes
+
+Fixes #1949
+
+Signed-off-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 10:03:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1991" class=".btn">#1991</a>
             </td>
             <td>

@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/764" class=".btn">#764</a>
+            </td>
+            <td>
+                <b>
+                    Delay resolving on contract variable initializers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The initializer to contract variable may only be done once all the base
+contract functions are resolved, as the initializer might be reference to
+a function in base contract, for example:
+
+    contract b {
+        function testPtr(int a) public pure returns (int) {
+            return a/2;
+        }
+    }
+
+    contract testing is b {
+        function(int) external pure returns (int) sfPtr = this.testPtr;
+    }
+
+Note this also fixes code like:
+
+    contract test {
+        uint x = y + 102;
+        uint y = 102;
+    }
+
+Fixes #762
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 11:09:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/763" class=".btn">#763</a>
             </td>
             <td>
