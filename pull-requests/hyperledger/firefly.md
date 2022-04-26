@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/771" class=".btn">#771</a>
+            </td>
+            <td>
+                <b>
+                    [ui-v1.0.0] manifest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 15:35:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/770" class=".btn">#770</a>
+            </td>
+            <td>
+                <b>
+                    Omit "connector" from token transfer/approval inputs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should always be inferred from the token pool.
+
+Fixes #768
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 14:39:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/769" class=".btn">#769</a>
             </td>
             <td>
@@ -756,34 +810,6 @@ See https://github.com/hyperledger/firefly-sdk-nodejs/issues/18
     </table>
     <div class="right-align">
         Created At 2022-04-19 18:50:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/731" class=".btn">#731</a>
-            </td>
-            <td>
-                <b>
-                    Accept "decimals" from token plugins on pool creation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Pairs with https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/46
-
-This does not give any way to set `decimals` from FireFly when creating a pool, and it does not change the formatting of any values exposed on the FireFly API (ie for token balances). It simply accepts `decimals` if it is provided by a token connector upon pool creation, stores it, and returns it when querying token pools.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-19 16:53:38 +0000 UTC
     </div>
 </div>
 

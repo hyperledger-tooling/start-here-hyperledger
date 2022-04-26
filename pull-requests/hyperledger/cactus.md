@@ -90,7 +90,7 @@ Signed-off-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span><span class="chip">dependencies</span><span class="chip">Developer_Experience</span>
             </td>
             <td>
                 Fixes #1980

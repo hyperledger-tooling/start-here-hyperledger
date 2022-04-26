@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/766" class=".btn">#766</a>
+            </td>
+            <td>
+                <b>
+                    Refactor diagnostics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR refactors the diagnostics vectors inside `Namespace`. Now, we have a data structure to handle diagnostics. It helps us keep track of the quantity of warnings and errors we have, without needing to traverse the entire vector. We should only manage the `Vec<Diagnostic>` using the `struct Diagnostics` because we keep track of the existence of errors in the vector. This way, all attributes of the aforementioned struct are private.
+
+In addition, we only emit warnings for unused variables and events if there is no error in the contract. This avoids false positives.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 17:23:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/765" class=".btn">#765</a>
+            </td>
+            <td>
+                <b>
+                    Yul suffixes for call data arrays should consider the last dimension
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a bug I found while working on the the code generation for Yul. The suffixes for call data dynamic arrays should consider the array's last dimension only.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 12:47:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/764" class=".btn">#764</a>
             </td>
             <td>
@@ -279,60 +333,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-04-20 08:46:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/752" class=".btn">#752</a>
-            </td>
-            <td>
-                <b>
-                    Implement codegen for yul primitive expressions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements the code generation for YUL primitive expressions. I also provided unity tests for the function I created.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-19 17:16:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/751" class=".btn">#751</a>
-            </td>
-            <td>
-                <b>
-                    Fix interface inheritance bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes a bug, in which we couldn't not call a function from an interfaced that was inherited from another one.
-
-This is one of the bugs found in issue #744.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-19 15:29:21 +0000 UTC
     </div>
 </div>
 
