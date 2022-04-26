@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/565" class=".btn">#565</a>
+            </td>
+            <td>
+                <b>
+                    Define endorseTimeout value in fabric-sdk-node v1.4(Issue #552)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In fabric-sdk-node v1.4, as well as in v2.2, define "endorseTimeout" value and use it instead of commitTimeout.
+
+Co-Authored-by: Shinsuke Hasegawa <shinsuke.hasegawa.fc@hitachi.com>
+Signed-off-by: takayuki-nagai <takayuki.nagai.nu@hitachi.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 15:16:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/563" class=".btn">#563</a>
             </td>
             <td>

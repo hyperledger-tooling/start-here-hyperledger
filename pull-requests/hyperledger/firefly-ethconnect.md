@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/215" class=".btn">#215</a>
+            </td>
+            <td>
+                <b>
+                    Fix release GitHub action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 17:52:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/214" class=".btn">#214</a>
             </td>
             <td>
@@ -54,7 +80,7 @@ time="2022-04-25T13:56:09-04:00" level=debug msg="Block confirmation listener st
             </td>
             <td>
                 <b>
-                    Prepare and send transactions FFAPI implementations
+                    FFAPI implementation
                 </b>
             </td>
         </tr>

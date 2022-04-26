@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/46" class=".btn">#46</a>
+            </td>
+            <td>
+                <b>
+                    okhttp logging interceptor 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Alternative to https://github.com/hyperledger-labs/acapy-java-client/pull/43
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 13:51:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/45" class=".btn">#45</a>
             </td>
             <td>
@@ -33,32 +61,6 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     </table>
     <div class="right-align">
         Created At 2022-04-26 12:32:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/43" class=".btn">#43</a>
-            </td>
-            <td>
-                <b>
-                    [#42] Add low level HTTP request tracing to the client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Thomas Diesler <tdiesler@redhat.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 08:39:20 +0000 UTC
     </div>
 </div>
 
@@ -137,32 +139,6 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     </table>
     <div class="right-align">
         Created At 2022-04-22 08:00:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/38" class=".btn">#38</a>
-            </td>
-            <td>
-                <b>
-                    add missing revocation endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-19 13:47:12 +0000 UTC
     </div>
 </div>
 
