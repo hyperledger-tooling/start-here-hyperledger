@@ -1,13 +1,13 @@
 
-[677](https://github.com/hyperledger/fabric-docs-i18n/pull/677) [ja_JP] Translate "configtx.rst" into Japanese
+[302](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/302) Security layer 2 for Bifold
 
-[322](https://github.com/hyperledger/fabric-chaincode-node/pull/322) Fixing the "Working with iterators" documentation
+[1991](https://github.com/hyperledger/cactus/pull/1991) docs(maintainers): add Rama and Sandeep
 
-[193](https://github.com/hyperledger-labs/fabric-operations-console/pull/193) fix the advanced create channel step logic
+[1990](https://github.com/hyperledger/cactus/pull/1990) ci: bump NodeJS v14 and v16 minor versions to latest
 
-[34](https://github.com/hyperledger/aries-mediator-service/pull/34) Feature/ssl
+[3355](https://github.com/hyperledger/fabric/pull/3355) Update cc_service.md
 
-[480](https://github.com/hyperledger/aries-vcx/pull/480) Fix failing mysql test build
+[19](https://github.com/hyperledger/ursa-docs/pull/19) add proof for proving n is a product of two safe primes
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -87,60 +87,18 @@ More information about this is available in GitHub documentation: https://docs.g
 <!-- What are the possible side-effects or negative impacts of the code change? -->
 <!-- If no drawbacks, explicitly mention this (write None) -->
 
-- The big part of client is not refactored to new design.
 - `Headers` are still `HashMap<String, String>`, which can be optimized in scope of `RequestBuilder` trate.
 - Response handlers expect `Response` structure from the `http` crate. It may be unefficient if custom http implementation returns some other response and user has to transform it first. Maybe it is better to replace `Response` with some trait.
 
 ### Usage Examples or Tests
 
-For example, making async queries could be done like this:
-
-```rust
-use eyre::Result;
-use iroha_client::{
-    client::{Client, ResponseHandler},
-    http::{RequestBuilder, Response},
-};
-use iroha_data_model::prelude::{Account, FindAllAccounts, Pagination};
-
-struct YourAsyncRequest;
-
-impl YourAsyncRequest {
-    async fn send(self) -> Response<Vec<u8>> {
-        // do the stuff
-    }
-}
-
-// Implement builder for this request
-impl RequestBuilder for YourAsyncRequest {
-    // ...
-}
-
-async fn fetch_accounts(client: &Client) -> Result<Vec<Account>> {
-    // Put `YourAsyncRequest` as a type here
-    // It returns the request and the handler (zero-cost abstraction) for the response
-    let (req, resp_handler) = client.prepare_query_request::<_, YourAsyncRequest>(
-        FindAllAccounts::new(),
-        Pagination::default(),
-    )?;
-
-    // Do what you need to send the request and to get the response
-    let resp = req.send().await;
-
-    // Handle response with the handler and get typed result
-    let accounts = resp_handler.handle(resp)?;
-
-    Ok(accounts.only_output())
-}
-```
-
 <!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
 
-### Alternate Designs
+Existing client methods now uses the same API, but with default HTTP client. See how they now work.
+
+<!-- ### Alternate Designs -->
 
 <!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-Other implementations, like implementing the whole HTTP-cycle within the client, require an injection of the exact http-client or passing a callback inside of it. But an implementation may be both blocking and async. In this case, client should expose both symmetric APIs - blocking and async, for each endpoint. It requires a more complex solution than mine one. Also it can bring some limits to the library if it exposes async (Future-based) APIs, but not necessary. 
 
 <!--
 NOTE: User may want skip pull request and push workflows with [skip ci]
@@ -189,7 +147,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
-The idea is the same as in https://github.com/hyperledger/iroha/pull/2117, but now it is about WebSocket side.
+The idea is the same as in #2147, but now it is about WebSocket side.
 
 Iroha Events API and Blocks Stream API are built on top of the same WebSocket flow:
 
@@ -203,6 +161,8 @@ In this PR I've normalized this flow with a few traits. They are binded to each.
 - don't have `dyn`s, but clear abstraction
 - prevent "invariant violation" by scoping flow stages in separate traits
 - be functional and data-oriented
+
+Also, I've refactored `trait RequestBuilder`. Now it forces to call `.body()` fn anyway to get the output of the builder. It is how `RequestBuilder` from `http` crate works. With this design, its impls became clearer.
 
 ### Issue
 

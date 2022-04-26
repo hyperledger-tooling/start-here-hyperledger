@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/302" class=".btn">#302</a>
+            </td>
+            <td>
+                <b>
+                    Security layer 2 for Bifold
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Mostafa <mostafa.youssef@ontario.ca>
+
+# Summary of Changes
+
+This is still in progress PR, lots of cleanup will be done at the end.
+This PR contains the following changes
+- Updated security service 
+- Biometrics flags added
+- Wired up the wallet with the security service through an Auth provider hooks
+- Wallet id/key now derives from user created PIN and stored in secure keychain 
+- Wallet init by using the Auth hooks to get the wallet secret from keychain
+-
+
+Still to be done
+- Re-opening the app after first login to compare pin using either Biometry+PIN or Biometry+Fallback to PIN or .. etc
+- Adding security level enum to environment config or settings screen
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [ ] Updated documentation as needed for changed code and new or modified features;
+- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 04:56:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/300" class=".btn">#300</a>
             </td>
             <td>
