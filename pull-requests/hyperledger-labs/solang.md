@@ -288,29 +288,3 @@ This is one of the bugs found in issue #744.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/749" class=".btn">#749</a>
-            </td>
-            <td>
-                <b>
-                    Create codegen::Builtin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR creates a `codegen::Builtin` so that we can have a single interface to manage both Yul and Solidity Builtins, some of which are common.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-18 18:25:32 +0000 UTC
-    </div>
-</div>
-

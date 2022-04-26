@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/193" class=".btn">#193</a>
+            </td>
+            <td>
+                <b>
+                    fix the advanced create channel step logic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+
+#### Description
+- fixes the step enable/disable logic in the advanced create channel wizard
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 22:36:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/192" class=".btn">#192</a>
             </td>
             <td>
@@ -35,8 +73,9 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
 
 #### Description
  - Fixed an issue with a missing msp id that fails to build a proper signature authorize field. Happens during channel creation.
- - Adds some server side logs to help identify this issue
+ - Adds some server side logs to help identify the missing msp id issue
  - Adds case sensitive flag to fabric gateway config-override validation (unrelated to channel issue)
+ - Fixed issue where the application/orderer/channel capabilities were being set on a create-channel flow causing create failures.
 
 
             </td>

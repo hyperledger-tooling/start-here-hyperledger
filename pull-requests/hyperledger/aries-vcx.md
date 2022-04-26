@@ -14,6 +14,138 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/480" class=".btn">#480</a>
+            </td>
+            <td>
+                <b>
+                    Fix failing mysql test build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 22:14:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/479" class=".btn">#479</a>
+            </td>
+            <td>
+                <b>
+                    Logging/adjust
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - lift log level for write/udpate/important-and-rare operations
+- adjust log messages
+- delete dead code
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 21:57:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/478" class=".btn">#478</a>
+            </td>
+            <td>
+                <b>
+                    Expose verkey rotation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 20:22:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/477" class=".btn">#477</a>
+            </td>
+            <td>
+                <b>
+                    Npm/upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 19:10:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/476" class=".btn">#476</a>
+            </td>
+            <td>
+                <b>
+                    Try to fix intermittent testing fail in nodejs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 19:10:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/475" class=".btn">#475</a>
             </td>
             <td>

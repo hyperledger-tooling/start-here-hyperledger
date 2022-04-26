@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1989" class=".btn">#1989</a>
+            </td>
+            <td>
+                <b>
+                    ci: add yaml workflow file for semantic-pull-request action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1987
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 21:03:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1988" class=".btn">#1988</a>
             </td>
             <td>
@@ -269,40 +297,6 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
     </table>
     <div class="right-align">
         Created At 2022-04-20 07:35:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1978" class=".btn">#1978</a>
-            </td>
-            <td>
-                <b>
-                    feat(odap-plugin): odap crash recovery first implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Addition of retries when making requests
-* Addition of timeouts when making requests
-* Addition of endpoints for recovery procedure
-* Tests with crashes in the first phase of the protocol
-* Addition of logging in local SQLite database
-* IPFS is now only to store hashes and signatures of the logs and proofs/claims
-* Migrate odap-api-call-with-ledger-connector.test from tape to jest
-* Addition of rollbacks when counterparty gateway is and is not crashed
-* Update README.md with a new protocol image and the description of each test file
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-18 23:20:59 +0000 UTC
     </div>
 </div>
 
