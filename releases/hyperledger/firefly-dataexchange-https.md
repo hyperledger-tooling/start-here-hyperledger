@@ -15,30 +15,34 @@ permalink: /releases/hyperledger/firefly-dataexchange-https
         <tr>
             <td colspan="2">
                 <b>
-                    v0.11.1
+                    v1.0.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.11.1
+                    v1.0.0
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Update event queue to support readahead to FireFly core by @peterbroadhurst in https://github.com/hyperledger/firefly-dataexchange-https/pull/56
+* Bump moment from 2.29.1 to 2.29.2 by @dependabot in https://github.com/hyperledger/firefly-dataexchange-https/pull/57
+* Update docker release build GitHub action by @nguyer in https://github.com/hyperledger/firefly-dataexchange-https/pull/55
+* Reduce docker image size and fix release GitHub action by @nguyer in https://github.com/hyperledger/firefly-dataexchange-https/pull/58
 
+## New Contributors
+* @dependabot made their first contribution in https://github.com/hyperledger/firefly-dataexchange-https/pull/57
 
-**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.10.4...v0.11.1
+**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.11.0...v1.0.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v0.11.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v1.0.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-01 16:02:30 +0000 UTC
+        Created At 2022-04-26 17:13:29 +0000 UTC
     </span>
 </div>
 
