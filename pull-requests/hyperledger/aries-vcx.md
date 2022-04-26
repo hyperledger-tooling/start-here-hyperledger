@@ -18,13 +18,13 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    Fix failing mysql test build
+                    Fix ci: caching, mysql test build, nodejs
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">ci</span>
             </td>
             <td>
                 Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
                 - lift log level for write/udpate/important-and-rare operations
@@ -104,7 +104,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">ci</span>
             </td>
             <td>
                 <nil>
@@ -130,7 +130,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">ci</span>
             </td>
             <td>
                 Signed-off-by: Patrik Stas <patrik.stas@absa.africa>

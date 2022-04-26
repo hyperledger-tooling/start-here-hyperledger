@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/blockchain-explorer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/294" class=".btn">#294</a>
+            </td>
+            <td>
+                <b>
+                    BE-984 - fixed throw ExplorerError in FabricClient.ts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                File: app/platform/fabric/FabricClient.ts
+Error at line ExplorerError because its expecting string
+
+try { 
+// Use Gateway to connect to fabric network this.fabricGateway = new FabricGateway(this.config); await this.fabricGateway.initialize(); }
+catch (error) { 
+// TODO in case of the failure, should terminate explorer? 
+logger.error(error); *throw new ExplorerError(error);* 
+}
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 10:09:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/292" class=".btn">#292</a>
             </td>
             <td>
