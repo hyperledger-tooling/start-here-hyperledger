@@ -1,13 +1,13 @@
 
-[214](https://github.com/hyperledger/firefly-ethconnect/pull/214) Intermittent failure in TestConfirmationsRemoveEvent
+[677](https://github.com/hyperledger/fabric-docs-i18n/pull/677) [ja_JP] Translate "configtx.rst" into Japanese
 
-[3230](https://github.com/hyperledger/aries-framework-go/pull/3230) feat: In-memory store "ping" method
+[322](https://github.com/hyperledger/fabric-chaincode-node/pull/322) Fixing the "Working with iterators" documentation
 
-[3229](https://github.com/hyperledger/aries-framework-go/pull/3229) externalize agent parameters + router
+[193](https://github.com/hyperledger-labs/fabric-operations-console/pull/193) fix the advanced create channel step logic
 
-[192](https://github.com/hyperledger-labs/fabric-operations-console/pull/192) Fix signature auth - channel creation
+[34](https://github.com/hyperledger/aries-mediator-service/pull/34) Feature/ssl
 
-[243](https://github.com/hyperledger/aries-framework-go-ext/pull/243) feat: Ping methods for MongoDB, CouchDB, and PostgreSQL
+[480](https://github.com/hyperledger/aries-vcx/pull/480) Fix failing mysql test build
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
