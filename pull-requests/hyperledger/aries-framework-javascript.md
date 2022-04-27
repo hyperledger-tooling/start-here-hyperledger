@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/721" class=".btn">#721</a>
+            </td>
+            <td>
+                <b>
+                    refactor: replace message type constant with string literal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jakub Koci <jakub.koci@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 08:59:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/720" class=".btn">#720</a>
             </td>
             <td>
@@ -170,47 +196,6 @@ Although it's not necesarily a wrong doing in AFJ, there is no need to keep the 
     </table>
     <div class="right-align">
         Created At 2022-04-21 15:46:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/714" class=".btn">#714</a>
-            </td>
-            <td>
-                <b>
-                    feat: support handling messages with different minor version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds support for processing messages with a different minor version.
-
-Some notes about the changes:
-- The static `type` property on the message classes are now `ParsedMessageType` containing info about the message type. I've done this to make the info readily available and not have to parse it every time we need this info (would need to be done for every message for each message received). This is how declaring the type now looks. `praseMessageType` is an utitliy method that makes it easier to created the `ParsedMessageType` object.
-```ts
-class CustomProtocolMessage extends AgentMessage {
-  @IsValidMessageType(CustomProtocolMessage.type)
-  public readonly type = CustomProtocolMessage.type.messageTypeUri
-  public static readonly type = parseMessageType('https://didcomm.org/fake-protocol/1.5/message')
-}
-```
-- Had to refactor the decorators a bit as it was incorrectly typed which was now causing errors with typescript
-- Added an e2e test where we send a message with a lower minor version to another agent with a higher minor version, and also a test where we send a message with a higher minor version to another agent with a lower minor version.
-- Added transformations from string values `1` and `0` to `n__1` and `n__0`. See here for the relevant discussion: https://github.com/hyperledger/aries-framework-javascript/pull/690#discussion_r850942240. Other approaches very welcome.
-
-~~This PR doesn't include handling the error case where we receive a message with a higher minor version. I'll like to address that in a separate PR (should be straightforward, we just have to change the reason in the problem report), but this at least unblocks us now.~~ -> Higher versions are now allowed, still need to send the problem report though in a future pr
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 10:49:08 +0000 UTC
     </div>
 </div>
 
