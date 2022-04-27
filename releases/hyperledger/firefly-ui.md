@@ -31,6 +31,7 @@ permalink: /releases/hyperledger/firefly-ui
 * Misc UI Fixes by @eberger727 in https://github.com/hyperledger/firefly-ui/pull/170
 * [v1.0.0] by @eberger727 in https://github.com/hyperledger/firefly-ui/pull/171
 * Minor cosmetics by @eberger727 in https://github.com/hyperledger/firefly-ui/pull/176
+* Timeline btn bug by @eberger727 in https://github.com/hyperledger/firefly-ui/pull/177
 
 
 **Full Changelog**: https://github.com/hyperledger/firefly-ui/compare/v0.7.1...v1.0.0
@@ -41,7 +42,7 @@ permalink: /releases/hyperledger/firefly-ui
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-27 12:56:38 +0000 UTC
+        Created At 2022-04-27 15:42:08 +0000 UTC
     </span>
 </div>
 
