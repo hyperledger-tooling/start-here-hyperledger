@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3232" class=".btn">#3232</a>
+            </td>
+            <td>
+                <b>
+                    feat: add HealthCheck for remote kms
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 13:42:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3231" class=".btn">#3231</a>
             </td>
             <td>
@@ -396,40 +422,6 @@ We've also noticed issues with custom message endpoints (but we think this is ou
     </table>
     <div class="right-align">
         Created At 2022-04-20 21:35:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3223" class=".btn">#3223</a>
-            </td>
-            <td>
-                <b>
-                    refactor: endpoint as object, goal-code with underscore
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Following this DIDcomm V2 spec udpate:
-https://github.com/decentralized-identity/didcomm-messaging/pull/352
-The endpoint field is now a structure containing a URI, Accept and the RoutingKeys.
-and
-https://github.com/decentralized-identity/didcomm-messaging/pull/363
-goal-code is now goal_code.
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 15:33:13 +0000 UTC
     </div>
 </div>
 

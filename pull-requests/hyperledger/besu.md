@@ -49,8 +49,18 @@ The problem is that these are very consuming steps because we have to recreate a
 - In the `GetBodiesFromPeerTask` and the `GetReceiptsFromPeerTask` methods we do the validations of the `Receiptroot` and the `transactionRoot` in parallel instead of doing it block by block. this saves time and like that we have all the root for the import part already calculated
 - We also force the generation of the transaction Hash in parallel in the `GetBodiesFromPeerTask`. We need this hash during the import step in order to save the location of the each transaction hash in a block. It's better to calculate the hash in parallel during this step
 - We validate the `block header` twice. During this step `CheckpointHeaderValidationStep` but also when calling the `fastImportBlock` method. Every time we want to validate a block we check a random to know if we want a full validation or not (1 chance out of 100 to make a full). The problem is even more important in POW because we have more chance for the same block to do a full check becaure we are calling two times this method `headerValidationPolicy.getValidationModeForNextBlock()`. So even more chance to do a full validation of a block on the mainnet
-- 
+- Too many slow observers that impact the blocki import
+  - TransactionPool (useless during block  import)
+  - AbstractMiningCoordinator  (useless during block  import)
+  - SyncState (useless during block  import)
+  - FilterManager (useless during block  import)
+  - LogSubscriptionService (useless during block  import)
   
+  I keep :
+   - NewBlockHeadersSubscriptionService
+   - TransactionLogBloomCacher
+
+  After we will have a fullsync with all observers
 
 
 ## Fixed Issue(s)
@@ -356,7 +366,7 @@ fixes #3722
             </td>
             <td>
                 <b>
-                    snapsync fix
+                    Improve snap logs
                 </b>
             </td>
         </tr>
@@ -372,8 +382,7 @@ fixes #3722
 
 ## PR description
 
-This PR fix a bug that caused the heal step to get stuck.
-This PR will also significantly improve the snapsync logs by adding more statistics
+This PR will significantly improve the snapsync logs by adding more statistics
 ```
 Snapsync in progress synced=17.66%, accounts=1757406, slots=17596376, codes=628631, nodes=26844745
 ```

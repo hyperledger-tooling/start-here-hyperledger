@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/214" class=".btn">#214</a>
-            </td>
-            <td>
-                <b>
-                    Iroha-213: changed schema for trigger events and added tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Guskov Timur <guskov@soramitsu.co.jp>
-
-changed schema for trigger events and added tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 13:59:28 +0000 UTC
-    </div>
-</div>
-

@@ -358,35 +358,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1984" class=".btn">#1984</a>
-            </td>
-            <td>
-                <b>
-                    refactor(discounted-cartrade): use cactus-verifier-client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Sample app discounted-cartrade is currently using Verifier interface from cactus-cmd-socket-server.
-Replace it with VerifierFactory from cactus-verifier-client package that
-can work with all cactus connectors.
-
-Related: #1982
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 14:51:21 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/774" class=".btn">#774</a>
+            </td>
+            <td>
+                <b>
+                    Add E2E test for contract APIs and fix postgres migration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes a PostgreSQL migration issue and adds an additional E2E test to cover that scenario
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 17:17:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/772" class=".btn">#772</a>
             </td>
             <td>
@@ -612,98 +638,6 @@ I did find what I think was one bug where `GetContractAPIs` was using the `contr
     </table>
     <div class="right-align">
         Created At 2022-04-20 20:26:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/745" class=".btn">#745</a>
-            </td>
-            <td>
-                <b>
-                    Ensuring Senders Do Not Download Their Own Batches in Response to Pin Events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #694, we were seeing the sender's aggregator process pins before a batch was ever persisted. So although message confirmed events were still being sent by the dispatchers, the database updates to mark the message pending (what is done as part of persisting a batch) were occurring after the messages were already confirmed.
-
-When persisting the batch, we guarantee that the batch is not cached until its successfully persisted:
-```
-	valid, err = em.validateAndPersistBatchContent(ctx, batch)
-	if err != nil || !valid {
-		return nil, valid, err
-	}
-	em.aggregator.cacheBatch(em.aggregator.getBatchCacheKey(persistedBatch.ID, persistedBatch.Hash), persistedBatch, manifest)
-	return persistedBatch, true, err
-```
-
-so if the aggregator repolls any pins who's batch is not in the cache this should avoid the issue. Other option is instead of repolling, letting the aggregators rewind handle processing the pins.
-
-See https://github.com/hyperledger/firefly/pull/745/files#discussion_r854706368 for a more up-to-date explanation of the cause and fix.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 17:26:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/742" class=".btn">#742</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies for v1.0.0-rc.5 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 12:55:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/741" class=".btn">#741</a>
-            </td>
-            <td>
-                <b>
-                    UI v0.7.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 12:54:56 +0000 UTC
     </div>
 </div>
 
