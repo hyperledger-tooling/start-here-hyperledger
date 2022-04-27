@@ -53,8 +53,10 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                - lift log level for write/udpate/important-and-rare operations
-- adjust log messages
+                - lift log level to `info` for write/udpate/important-and-rare operations
+- lift log level from `trace` to `debug` for potentially useful debugging operations
+- simplified implementations of some of the`to_string` functions
+- adjust log'error message content
 - delete dead code
             </td>
         </tr>
