@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2156" class=".btn">#2156</a>
+            </td>
+            <td>
+                <b>
+                    [feature]: #1572: Specialized permission tokens
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Created concrete types for `PermissionToken`s predefined in `public_blockchain` to enable client interaction with `public_blockchain` be less stringly-typed.
+Added cli util to list the new concrete token types. 
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+Resolves #1572 
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Less stringly-typed `public_blockchain`.
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+None?
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 13:40:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2155" class=".btn">#2155</a>
             </td>
             <td>
@@ -99,18 +165,18 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 ### Description of the Change
-1. Fix CI failure since [this](https://github.com/hyperledger/iroha/runs/5792233373?check_suite_focus=true#step:6:9)
+1. Resolve the toolchain differences around `llvm-tools-preview`
 
-2. Move the coverage tool from [`grcov`](https://github.com/mozilla/grcov#example-how-to-generate-source-based-coverage-for-a-rust-project) to [`cargo-llvm-cov`](https://github.com/taiki-e/cargo-llvm-cov#cargo-llvm-cov) ?
+2. ~~Move the coverage tool from [`grcov`](https://github.com/mozilla/grcov#example-how-to-generate-source-based-coverage-for-a-rust-project) to [`cargo-llvm-cov`](https://github.com/taiki-e/cargo-llvm-cov#cargo-llvm-cov) ?~~
 
 ### Issue
 - Closes #2153
 
 ### Benefits
-1. Fix CI failure
+1. Fix the CI failure
 
 ### Possible Drawbacks
-2. Not sure how long `cargo-llvm-cov` will be maintained
+2. ~~Not sure how long `cargo-llvm-cov` will be maintained~~
             </td>
         </tr>
     </table>
