@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/26" class=".btn">#26</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/27" class=".btn">#27</a>
             </td>
             <td>
                 <b>
-                    Several fixes
+                    Bump up Corda version to v4.8.5
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
                 
             </td>
             <td>
-                This PR does the following:
-- Add GitHub Actions workflow for testing
-- Use debug build for the client written in Rust instead of release build
-- Update README (add usage)
+                close #28 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-28 08:43:30 +0000 UTC
+        Created At 2022-04-27 07:26:39 +0000 UTC
     </div>
 </div>
 

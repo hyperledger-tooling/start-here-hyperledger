@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/568" class=".btn">#568</a>
+            </td>
+            <td>
+                <b>
+                    Bug fix #548
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 12:22:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/566" class=".btn">#566</a>
+            </td>
+            <td>
+                <b>
+                    Update nconf dependency to address CVE-2022-21803
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #561
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 10:23:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/565" class=".btn">#565</a>
             </td>
             <td>

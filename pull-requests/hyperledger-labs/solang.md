@@ -14,6 +14,104 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/770" class=".btn">#770</a>
+            </td>
+            <td>
+                <b>
+                    Consistent use of single quotes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+    We have ‘x’, `x`, and ‘x‘. Always use 'x'.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 12:11:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/769" class=".btn">#769</a>
+            </td>
+            <td>
+                <b>
+                    Give a nice error message when 'now' is used
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 11:43:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/767" class=".btn">#767</a>
+            </td>
+            <td>
+                <b>
+                    Fix require() not found and staticcall in view function
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                More fixes for #744. 
+
+Two commits:
+
+address.call() is permitted in view functions on ewasm and solana
+
+and:
+
+Error of garbage argument to builtin function not surfaced
+   
+A function call like:
+    
+            require("a" > 2);
+    
+Will just give the diagnostic:
+    
+             error: cannot find overloaded function which matches signature
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 09:01:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/766" class=".btn">#766</a>
             </td>
             <td>
@@ -261,78 +359,6 @@ function test() returns int {
     </table>
     <div class="right-align">
         Created At 2022-04-20 17:03:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/756" class=".btn">#756</a>
-            </td>
-            <td>
-                <b>
-                    @return doccomments on unnamed returns permitted
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This doc comment is not permitted:
-```
-// @return feh
-// @return foo
-function f3() pure returns (int, int) { return (1, 2); }
-```
-Allow unnamed returned value to have doc comments, while ensuring that
-there is on per return.
-
-Also fix the location of doc-comments in diagnostics.
-
-Found:
-https://stackoverflow.com/questions/71789212/solang-panicked-at-type-not-allowed
-
-The issue described on stackoverflow is not fixed yet.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 12:32:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/753" class=".btn">#753</a>
-            </td>
-            <td>
-                <b>
-                    Call struct member address does not work
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 Call struct member address does not work
-    
-The address is not loaded.
-    
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 08:46:44 +0000 UTC
     </div>
 </div>
 

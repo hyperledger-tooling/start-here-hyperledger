@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3766" class=".btn">#3766</a>
+            </td>
+            <td>
+                <b>
+                    block import optimization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR makes significant changes during the block import (fast/snap sync) in order to speed up the synchronization time of Besu
+
+This is the list of modification :
+- A significant number of useless rlp `encode/decode` takes place during synchronization. Here is an example of useless encode/decode
+    - Decode RLP from peer to have a Transaction object
+    - After encode this transaction to rlp in order to calculate the hash of the transaction
+    - Encode again this transaction to rlp in order to calculate the transactionRoot
+    - Encode again this transaction to rlp in order to save the trx into the DB
+    This is the same for all objects like `BlockHeader`, `BlockBody`, `Transaction`, `transactionReceipt`. The idea is to keep the rlp when decoding to use it if we need rlp again. 
+- We do the generation of the `Receiptroot`, `transactionRoot` and `ommerHash` for the same block several times.
+We do this at the time of the `GetBodiesFromPeerTask` and the `GetReceiptsFromPeerTask` but we also do it at the time of the `body validation`. So we calculate these values twice there.
+The problem is that these are very consuming steps because we have to recreate a trie based on transactions and receipts. The idea is to store it in an optional field header and so if we already have it we don't need to calculate it again
+- In the `GetBodiesFromPeerTask` and the `GetReceiptsFromPeerTask` methods we do the validations of the `Receiptroot` and the `transactionRoot` in parallel instead of doing it block by block. this saves time and like that we have all the root for the import part already calculated
+- We also force the generation of the transaction Hash in parallel in the `GetBodiesFromPeerTask`. We need this hash during the import step in order to save the location of the each transaction hash in a block. It's better to calculate the hash in parallel during this step
+- We validate the `block header` twice. During this step `CheckpointHeaderValidationStep` but also when calling the `fastImportBlock` method. Every time we want to validate a block we check a random to know if we want a full validation or not (1 chance out of 100 to make a full). The problem is even more important in POW because we have more chance for the same block to do a full check becaure we are calling two times this method `headerValidationPolicy.getValidationModeForNextBlock()`. So even more chance to do a full validation of a block on the mainnet
+- 
+  
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 11:45:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3765" class=".btn">#3765</a>
             </td>
             <td>

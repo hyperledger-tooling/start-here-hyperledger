@@ -27,11 +27,13 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                - deleted drm directory
+                - Deleted drm directory
 - Updated all the other go chaincode in marbles/go, marbles-norichquery/go, simple/go, smallbank/go
 change (run go mod init, go mod tidy, go mod vendor and subbed "github.com/hyperledger/fabric/core/chaincode/shim /n pb "github.com/hyperledger/fabric/protos/peer" with "github.com/hyperledger/fabric-chaincode-go/shim /n pb "github.com/hyperledger/fabric-protos-go/peer")
+- Deleted config-prometheus.yaml for the marble sample benchmark
 
 Closes #155 
+Closes #174
 
 Signed-off-by: fraVlaca <ocsenarf@outlook.com>
             </td>

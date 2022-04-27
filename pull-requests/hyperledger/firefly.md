@@ -707,29 +707,3 @@ See https://github.com/hyperledger/firefly/pull/745/files#discussion_r854706368 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/738" class=".btn">#738</a>
-            </td>
-            <td>
-                <b>
-                    Merge wsconfig to wsclient so microservices can use it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 07:07:11 +0000 UTC
-    </div>
-</div>
-
