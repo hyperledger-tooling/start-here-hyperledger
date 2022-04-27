@@ -15,33 +15,36 @@ permalink: /releases/hyperledger/firefly-cli
         <tr>
             <td colspan="2">
                 <b>
-                    v0.0.48
+                    v1.0.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.0.48
+                    v1.0.0
                 </span>
             </td>
             <td>
                 ## Changelog
-* ba11c8e Fix info command (#173)
-* 45c1870 Pull stack images before first start, including Sandbox (#172)
-* 020f491 Return JSON RPC errors for personal_unlockAccount (#171)
-* 921e46d Update go.mod and go.sum (#175)
-* 2662fcd Update protobuf dep (#174)
+* fdc6c78 Add auto deployed contracts to stackState.json
+* a3966bd Add corsdomain clause to support local development
+* c5f12dd Avoid double pulling images that are in service list
+* 54ef823 Make ERC-20 the default token connector
+* 6d7064c Merge pull request #177 from kaleido-io/double-pull
+* dd9c432 Merge pull request #180 from jsolderitsch/remix-support
+* f3ee3c5 Merge pull request #182 from kaleido-io/erc20
+* d9178a7 Set consistent high gas limit on blocks
 
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v0.0.48" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.0.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-15 16:22:45 +0000 UTC
+        Created At 2022-04-26 17:45:59 +0000 UTC
     </span>
 </div>
 

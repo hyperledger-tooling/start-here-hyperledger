@@ -15,28 +15,28 @@ permalink: /releases/hyperledger/fabric-chaincode-node
         <tr>
             <td colspan="2">
                 <b>
-                    v2.4.1 Node Chaincde
+                    v2.2.3 Node Chaincode LTS
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.4.1
+                    v2.2.3
                 </span>
             </td>
             <td>
-                This release is the same as v2.4.0 but with a pipeline fix to properly pushing the docker image. 
+                This release corrects the TypeScript type definitions for the ChaincodeStub interface
 
-Note that the 2.4 release uses Node16
+The v2.2.3 release is the LTS version of the fabric-chaincode-node
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-chaincode-node/releases/tag/v2.4.1" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-chaincode-node/releases/tag/v2.2.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-11-29 13:34:59 +0000 UTC
+        Created At 2022-04-27 09:00:10 +0000 UTC
     </span>
 </div>
 
