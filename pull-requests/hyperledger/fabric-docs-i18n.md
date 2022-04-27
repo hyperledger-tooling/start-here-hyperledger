@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/681" class=".btn">#681</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Translate “status.rst”
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                This patch translates “status.rst” into Japanese.
+Resolves #574
+
+Signed-off-by: e-maekawa <maekawaemi555@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 05:58:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/680" class=".btn">#680</a>
             </td>
             <td>
@@ -381,36 +410,6 @@ Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-04-21 18:42:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/663" class=".btn">#663</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Translate "readwrite.rst" into Japanese
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">jaJP-docs-ongoing</span>
-            </td>
-            <td>
-                This patch translates source/readwrite.rst into Japanese.
-
-Resolves #569
-
-Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 05:57:48 +0000 UTC
     </div>
 </div>
 
