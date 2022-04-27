@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1393" class=".btn">#1393</a>
+            </td>
+            <td>
+                <b>
+                    Add `get_failed_batches` operation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                This adds an operation to get failed batches. This also adds a unit test for the operation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 19:56:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1392" class=".btn">#1392</a>
             </td>
             <td>

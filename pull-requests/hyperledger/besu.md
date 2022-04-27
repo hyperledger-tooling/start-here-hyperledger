@@ -14,6 +14,103 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3765" class=".btn">#3765</a>
+            </td>
+            <td>
+                <b>
+                    Node onchain permissioning startup validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fail besu startup if the node permissioning smart contract version check fails. This validation was not running because of the sync status check, which is more permissive until the node is in sync. At some point the "validate smart contract at startup" got hidden by the sync status check - so it wasn't even doing the smart contract check at that point.
+
+With this change, if the version matches you will see this scroll on by in the logs
+```
+2022-04-27 11:35:53.845+10:00 | main | DEBUG | NodePermissioningControllerFactory | Validating onchain node permissioning smart contract configuration 
+2022-04-27 11:35:53.888+10:00 | main | DEBUG | NodePermissioningControllerFactory | Successful validation of onchain node permissioning smart contract configuration! 
+```
+However if your smart contract does NOT match the version you specify, you get an error like this (admittedly a bit messy)
+```
+2022-04-27 11:34:21.170+10:00 | main | DEBUG | NodePermissioningControllerFactory | Validating onchain node permissioning smart contract configuration 
+picocli.CommandLine$ParameterException: Error: node permissioning contract at address 0x0000000000000000000000000000000000009999 does not match the expected interface version 2.
+	at org.hyperledger.besu.cli.BesuCommand.run(BesuCommand.java:1411)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:1939)
+	at picocli.CommandLine.access$1300(CommandLine.java:145)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2358)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2352)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2314)
+	at picocli.CommandLine$AbstractParseResultHandler.handleParseResult(CommandLine.java:2172)
+	at picocli.CommandLine.parseWithHandlers(CommandLine.java:2559)
+	at org.hyperledger.besu.cli.util.ConfigOptionSearchAndRunHandler.handle(ConfigOptionSearchAndRunHandler.java:54)
+	at org.hyperledger.besu.cli.util.ConfigOptionSearchAndRunHandler.handle(ConfigOptionSearchAndRunHandler.java:31)
+	at picocli.CommandLine$AbstractParseResultHandler.handleParseResult(CommandLine.java:2172)
+	at picocli.CommandLine.parseWithHandlers(CommandLine.java:2559)
+	at org.hyperledger.besu.cli.BesuCommand.parse(BesuCommand.java:1563)
+	at org.hyperledger.besu.cli.BesuCommand.parse(BesuCommand.java:1371)
+	at org.hyperledger.besu.Besu.main(Besu.java:49)
+Caused by: java.lang.IllegalStateException: Error: node permissioning contract at address 0x0000000000000000000000000000000000009999 does not match the expected interface version 2.
+	at org.hyperledger.besu.ethereum.permissioning.NodePermissioningControllerFactory.validatePermissioningContract(NodePermissioningControllerFactory.java:179)
+	at org.hyperledger.besu.ethereum.permissioning.NodePermissioningControllerFactory.lambda$create$1(NodePermissioningControllerFactory.java:112)
+	at java.base/java.util.Optional.ifPresent(Optional.java:183)
+	at org.hyperledger.besu.ethereum.permissioning.NodePermissioningControllerFactory.create(NodePermissioningControllerFactory.java:109)
+	at org.hyperledger.besu.RunnerBuilder.buildNodePermissioningController(RunnerBuilder.java:925)
+	at org.hyperledger.besu.RunnerBuilder.build(RunnerBuilder.java:471)
+	at org.hyperledger.besu.cli.BesuCommand.synchronize(BesuCommand.java:2825)
+	at org.hyperledger.besu.cli.BesuCommand.buildRunner(BesuCommand.java:1572)
+	at org.hyperledger.besu.cli.BesuCommand.run(BesuCommand.java:1400)
+	... 14 more
+Caused by: java.lang.IllegalStateException: Unable to check permissions for enode://6f8a80d14311c39f35f516fa664deaaaa13e85b2f7493f37f6144d86991ec012937307647bd3b9a82abe2974e1407241d54947bbb39763a4cac9f77166ad92a0@10.3.58.6:30303
+	at org.hyperledger.besu.ethereum.permissioning.NodeSmartContractV2PermissioningController.isPermitted(NodeSmartContractV2PermissioningController.java:73)
+	at org.hyperledger.besu.ethereum.permissioning.NodeSmartContractV2PermissioningController.checkSmartContractRules(NodeSmartContractV2PermissioningController.java:60)
+	at org.hyperledger.besu.ethereum.permissioning.AbstractNodeSmartContractPermissioningController.isConnectionPermitted(AbstractNodeSmartContractPermissioningController.java:87)
+	at org.hyperledger.besu.ethereum.permissioning.node.NodePermissioningController.isPermitted(NodePermissioningController.java:98)
+	at org.hyperledger.besu.ethereum.permissioning.NodePermissioningControllerFactory.validatePermissioningContract(NodePermissioningControllerFactory.java:166)
+	... 22 more
+Caused by: java.lang.IllegalStateException: Failed node permissioning smart contract call
+	at org.hyperledger.besu.ethereum.permissioning.NodeSmartContractV2PermissioningController.parseResult(NodeSmartContractV2PermissioningController.java:120)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.hyperledger.besu.ethereum.permissioning.NodeSmartContractV2PermissioningController.getCallResult(NodeSmartContractV2PermissioningController.java:82)
+	at org.hyperledger.besu.ethereum.permissioning.NodeSmartContractV2PermissioningController.isPermitted(NodeSmartContractV2PermissioningController.java:65)
+	... 26 more
+
+To display full help:
+besu [COMMAND] --help
+Caused by: java.lang.IllegalStateException: Error: node permissioning contract at address 0x0000000000000000000000000000000000009999 does not match the expected interface version 2.
+
+Caused by: java.lang.IllegalStateException: Unable to check permissions for enode://6f8a80d14311c39f35f516fa664deaaaa13e85b2f7493f37f6144d86991ec012937307647bd3b9a82abe2974e1407241d54947bbb39763a4cac9f77166ad92a0@10.3.58.6:30303
+
+Caused by: java.lang.IllegalStateException: Failed node permissioning smart contract call
+
+
+> Task :besu:Besu.main() FAILED
+
+Execution failed for task ':besu:Besu.main()'.
+```
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 01:17:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3761" class=".btn">#3761</a>
             </td>
             <td>

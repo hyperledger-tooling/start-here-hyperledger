@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/35" class=".btn">#35</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    Fix pypi publish
+                    Generate protobufs before uploading to pypi
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
                 
             </td>
             <td>
-                <nil>
+                Without this change the published package is missing the compiled
+protobufs which makes the SDK unusable.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-17 19:11:05 +0000 UTC
+        Created At 2022-04-26 21:30:05 +0000 UTC
     </div>
 </div>
 

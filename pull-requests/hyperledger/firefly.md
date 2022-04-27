@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/772" class=".btn">#772</a>
+            </td>
+            <td>
+                <b>
+                    Update manifest.json for v1.0.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 19:12:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/771" class=".btn">#771</a>
             </td>
             <td>
@@ -756,60 +782,6 @@ results in:
     </table>
     <div class="right-align">
         Created At 2022-04-20 05:02:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/734" class=".btn">#734</a>
-            </td>
-            <td>
-                <b>
-                    Add event for failed token pool creation operations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 00:31:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/733" class=".btn">#733</a>
-            </td>
-            <td>
-                <b>
-                    Use blank type for JSONAny in OpenAPI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Type is unknown, as it may be any valid JSON.
-
-See https://github.com/hyperledger/firefly-sdk-nodejs/issues/18
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-19 18:50:43 +0000 UTC
     </div>
 </div>
 
