@@ -206,32 +206,3 @@ Co-authored-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/720" class=".btn">#720</a>
-            </td>
-            <td>
-                <b>
-                    test-network-k8s: Remove kubectl binary (again)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Since kubectl binary is mistakenly added again in PR #714, this patch removes it.
-
-It seems that the following commit was mixed up with another PR commits, including PR #713.
-https://github.com/hyperledger/fabric-samples/pull/714/commits/24c296c8a8e6966595c6395bcc4ba9948217176a
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 02:15:30 +0000 UTC
-    </div>
-</div>
-
