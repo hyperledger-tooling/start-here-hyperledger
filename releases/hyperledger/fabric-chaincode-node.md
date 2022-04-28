@@ -36,7 +36,7 @@ The v2.2.3 release is the LTS version of the fabric-chaincode-node
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-27 09:00:10 +0000 UTC
+        Created At 2022-04-28 09:07:22 +0000 UTC
     </span>
 </div>
 
