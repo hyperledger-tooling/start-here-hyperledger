@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2157" class=".btn">#2157</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #1889: Domain scoped triggers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+I'm not sure if I have understood the issue completely. As I understand *domain-scoped triggers* are just triggers with filter watching for specified domain and not trying to match events from other domains. So I decided to just improve existing system for domain-associated events and filters.
+
+`TriggerSet` now works faster with domain-associated events.
+In module description there is a proposal to make `TriggerSet` to be something like tree or hash-table (see `core/src/triggers.rs`). As I can see it should have some *nodes* to be hardcoded as structure field to provide strong-typing. My change is something like that.
+
+Now `TriggerSet` can be represented like this:
+```
+                      triggers
+                      /      \
+            data-triggers     others
+               /        \
+domain-associated      non-domain-associated
+```
+
+So it's closer to a tree than before, but it's not ideal for now
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+* Closes #1889
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Now domain-associated triggers won't check every event, and will check only ones that happened in the related domain. That should be a huge performence improvement for blockchains with a lot of domains.
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+I've found a bug with our `log` macro from `iroha_logger`. In fact it's just an alias for `instrument` macro from `tracing` crate. It just goes to a deadlock or infinite recursion or something. The problem occurs in the newest packages too. I used `cargo expand` to debug this, but it's a deep rabit-hole with no end.
+
+I've found a way to avoid this problem, but it requires to clone every trigger before executing it. This can be really painful for big triggers i.e. with WASM blobs. You can see details in `WorldStateView::apply()`.
+Another way to avoid this bug would be just removing `log` macro from every `Execute` implementor in `smartcontracts/isi/mod.rs`
+
+Also maybe I should try to create minimal reproducible example of this bug and create a new issue in `tracing` repo. But this will require some work to do.
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Alternate Designs
+
+Let me know if it's not what supposed to be a *Domain-scoped trigger* or the design doesn't fit well for it
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 22:03:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2156" class=".btn">#2156</a>
             </td>
             <td>

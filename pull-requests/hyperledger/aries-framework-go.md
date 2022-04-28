@@ -390,38 +390,3 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3224" class=".btn">#3224</a>
-            </td>
-            <td>
-                <b>
-                    Port Aries Agent to AWS Lambda
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Port Aries Agent to AWS Lambda
-
-**Description:**
-Port the Agent to run on AWS Lambda, using APIGW and DynamoDB as the supporting infrastructure for transport and storage, respectively.
-
-**Summary:**
-The PR includes both a Go application and the Serverless + Serverless Offline framework in order to deploy and run locally for debug purposes. Yarn is used to track the Serverless part of the stack.
-The Go application is the agent itself, build to run on AWS Lambda. The main communication with Lambda is handled via github.com/aws/aws-lambda-go/lambda.It uses DynamoDB as both persistent and temporary storage since Lambda runs are ephemeral. The DIDComm transports are handled using APIGW, with WebSockets requiring a bit more dedicated steps. One issue we've identified here is the main app finishing sooner and Lambda terminating the app before auto-approve has had a chance to respond (this only seems to affect the deployed app and does not affect the locally running Serverles Offline app). The temporary hacks we've put in place add a 5 second delay and that seems to work most of the time. This is only a draft for now, as we'd like help on clearing that (perhaps by using WaitGroups or another synchronization mechanism?), and we've left other hacky bits/comments/debugging in place.
-We've also noticed issues with custom message endpoints (but we think this is out of scope, for now). The Aries Agent running on AWS Lambda seems like a perfect fit for Mediator purposes, allowing wallets running on the edge to communicate via WebSockets and avoid exposing ports.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 21:35:19 +0000 UTC
-    </div>
-</div>
-

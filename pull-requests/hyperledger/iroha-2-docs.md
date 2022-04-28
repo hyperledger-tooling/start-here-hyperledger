@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/32" class=".btn">#32</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    docs(python): add WIP warning
+                    Update JS guide for RC4
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-21 11:54:39 +0000 UTC
+        Created At 2022-04-25 07:54:30 +0000 UTC
     </div>
 </div>
 
